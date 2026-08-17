@@ -1,0 +1,32 @@
+node_modules/
+
+# Secretos: ANTHROPIC_API_KEY, PSI_API_KEY, etc.
+.env
+.env.*
+!.env.example
+
+# Base de datos y sus ficheros auxiliares de SQLite
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Salidas de auditoría: capturas, informes HTML, artefactos de Playwright
+out/
+output/
+screenshots/
+reports/
+test-results/
+playwright-report/
+.cache/
+
+# Logs
+*.log
+npm-debug.log*
+
+# SO / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
