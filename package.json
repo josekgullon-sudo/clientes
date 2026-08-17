@@ -1,0 +1,17 @@
+{
+  "name": "clientes",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "db:init": "node src/cli/init-db.js",
+    "db:info": "node src/cli/init-db.js --info",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0"
+  }
+}
