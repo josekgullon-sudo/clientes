@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+/*
+ * Identidad «el temario subrayado».
+ * Los colores son variables CSS para que el modo oscuro cambie sin duplicar
+ * clases: por defecto sigue al sistema y `data-theme` en <html> lo fuerza.
+ * Contrastes comprobados (AA) en docs/propuesta-fase-1.md.
+ */
+:root {
+  --papel: #f6f2ea;
+  --papel-hundido: #ede7db;
+  --tinta: #1d2a31;
+  --pizarra: #56626a;
+  --filete: #cfc8ba;
+  --pino: #2e6a4e;
+  --pino-suave: #e3efe7;
+  --teja: #a64b34;
+  --teja-suave: #f5e4dd;
+  --subrayador: #e9c25b;
+  --subrayador-texto: #1d2a31;
+  --foco: #1d2a31;
+  --foco-halo: #e9c25b;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --papel: #15191b;
+    --papel-hundido: #1f2528;
+    --tinta: #e8e3d8;
+    --pizarra: #9ea8ae;
+    --filete: #343c40;
+    --pino: #6fbf97;
+    --pino-suave: #1c2e25;
+    --teja: #e08c74;
+    --teja-suave: #35211b;
+    --subrayador: #5a4612;
+    --subrayador-texto: #f1e6c4;
+    --foco: #e8e3d8;
+    --foco-halo: #d9b24f;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --papel: #15191b;
+  --papel-hundido: #1f2528;
+  --tinta: #e8e3d8;
+  --pizarra: #9ea8ae;
+  --filete: #343c40;
+  --pino: #6fbf97;
+  --pino-suave: #1c2e25;
+  --teja: #e08c74;
+  --teja-suave: #35211b;
+  --subrayador: #5a4612;
+  --subrayador-texto: #f1e6c4;
+  --foco: #e8e3d8;
+  --foco-halo: #d9b24f;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-papel: var(--papel);
+  --color-papel-hundido: var(--papel-hundido);
+  --color-tinta: var(--tinta);
+  --color-pizarra: var(--pizarra);
+  --color-filete: var(--filete);
+  --color-pino: var(--pino);
+  --color-pino-suave: var(--pino-suave);
+  --color-teja: var(--teja);
+  --color-teja-suave: var(--teja-suave);
+  --color-subrayador: var(--subrayador);
+  --color-subrayador-texto: var(--subrayador-texto);
+
+  --font-sans: var(--fuente-interfaz), system-ui, sans-serif;
+  --font-serif: var(--fuente-lectura), Georgia, serif;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+
+  /* Ancho de lectura: menos de 75 caracteres por línea. */
+  --container-lectura: 36rem;
+}
+
+html {
+  background: var(--papel);
+  color: var(--tinta);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--papel);
+  color: var(--tinta);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem; /* 17 px */
+  line-height: 1.55;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Foco visible con teclado, en ambos modos. */
+:focus-visible {
+  outline: 3px solid var(--foco);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 6px var(--foco-halo);
+  border-radius: var(--radius-sm);
+}
+
+::selection {
+  background: var(--subrayador);
+  color: var(--subrayador-texto);
+}
+
+/* Trazo de subrayador: la marca de la casa para citas legales. */
+.subrayado {
+  background-image: linear-gradient(
+    transparent 38%,
+    var(--subrayador) 38%,
+    var(--subrayador) 92%,
+    transparent 92%
+  );
+  color: inherit;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  padding-inline: 0.15em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
