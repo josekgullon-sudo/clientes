@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Atkinson_Hyperlegible_Next, Source_Serif_4 } from "next/font/google";
+import { AvisoCookies } from "@/components/aviso-cookies";
 import { SITIO } from "@/lib/sitio";
 import "./globals.css";
 
@@ -44,7 +45,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <head>
         <script dangerouslySetInnerHTML={{ __html: scriptTema }} />
       </head>
-      <body className="flex min-h-full flex-col">{children}</body>
+      <body className="flex min-h-full flex-col">
+        {children}
+        <AvisoCookies />
+      </body>
     </html>
   );
 }

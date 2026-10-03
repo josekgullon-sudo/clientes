@@ -46,6 +46,15 @@ export async function POST(request: NextRequest) {
     tax_id_collection: { enabled: true },
     billing_address_collection: "required",
     allow_promotion_codes: true,
+    // Consentimiento para empezar ya y renuncia al desistimiento (contenido digital, art. 103.m TRLGDCU).
+    // Requiere configurar la URL de las condiciones en el panel de Stripe.
+    consent_collection: { terms_of_service: "required" },
+    custom_text: {
+      terms_of_service_acceptance: {
+        message:
+          "Acepto las condiciones de suscripción y pido acceder ya al contenido. Entiendo que, al empezar, pierdo el derecho de desistimiento.",
+      },
+    },
     locale: "es",
     success_url: `${origen}/app?suscripcion=ok`,
     cancel_url: `${origen}/suscripcion`,

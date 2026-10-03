@@ -19,3 +19,12 @@ export const eur = new Intl.NumberFormat("es-ES", { style: "currency", currency:
 
 /** Oposición activa mientras solo haya una. */
 export const OPOSICION = "aux-age";
+
+// PENDIENTE: datos del titular para el aviso legal y la política de privacidad.
+export const TITULAR = {
+  nombre: "[Nombre o razón social]",
+  nif: "[NIF]",
+  domicilio: "[Domicilio]",
+  email: "[correo de contacto]",
+  registro: "[Datos registrales, si es una sociedad]",
+} as const;
