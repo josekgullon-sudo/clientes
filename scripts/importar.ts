@@ -28,12 +28,19 @@ if (incluirBorradores && !esLocal) {
 
 const db = createClient(url, clave, { auth: { persistSession: false } });
 
-function comprobar<T>(r: { data: T; error: { message: string } | null }, que: string): T {
+function comprobar<T>(r: { data: T | null; error: { message: string } | null }, que: string): T {
+  if (r.error || r.data === null) {
+    console.error(`Error al importar ${que}: ${r.error?.message ?? "sin datos"}`);
+    process.exit(1);
+  }
+  return r.data;
+}
+
+function sinError(r: { error: { message: string } | null }, que: string) {
   if (r.error) {
     console.error(`Error al importar ${que}: ${r.error.message}`);
     process.exit(1);
   }
-  return r.data;
 }
 
 async function main() {
@@ -100,7 +107,7 @@ async function main() {
     actualizada_en: new Date().toISOString(),
   }));
   for (let i = 0; i < filas.length; i += 500) {
-    comprobar(await db.from("preguntas").upsert(filas.slice(i, i + 500)), "preguntas");
+    sinError(await db.from("preguntas").upsert(filas.slice(i, i + 500)), "preguntas");
   }
 
   const relaciones = preguntas.flatMap((p) =>
@@ -111,18 +118,18 @@ async function main() {
     })),
   );
   if (relaciones.length) {
-    comprobar(
+    sinError(
       await db.from("preguntas_oposiciones").upsert(relaciones, { onConflict: "pregunta_id,oposicion_id" }),
       "relaciones pregunta-oposición",
     );
   }
 
   const subidas = new Set(preguntas.filter((p) => p.estado !== "retirada").map((p) => p.id));
-  comprobar(await db.from("selecciones_publicas").delete().neq("seleccion", ""), "selecciones públicas");
+  sinError(await db.from("selecciones_publicas").delete().neq("seleccion", ""), "selecciones públicas");
   const publicas = Object.entries(cargarPublicas()).flatMap(([seleccion, ids]) =>
     ids.filter((id) => subidas.has(id)).map((pregunta_id, orden) => ({ seleccion, pregunta_id, orden })),
   );
-  if (publicas.length) comprobar(await db.from("selecciones_publicas").insert(publicas), "selecciones públicas");
+  if (publicas.length) sinError(await db.from("selecciones_publicas").insert(publicas), "selecciones públicas");
 
   const cuenta = (e: string) => preguntas.filter((p) => p.estado === e).length;
   console.log(

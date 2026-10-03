@@ -14,15 +14,31 @@ export function ReglaProgreso({
   estados?: Estado[];
 }) {
   const etiqueta = `Pregunta ${actual + 1} de ${total}`;
+  // Sin pregunta actual: resumen de resultados, no una barra de progreso.
+  const accesible =
+    actual < 0
+      ? { role: "img", "aria-label": "Resultado de cada pregunta" }
+      : {
+          role: "progressbar",
+          "aria-label": etiqueta,
+          "aria-valuemin": 1,
+          "aria-valuemax": total,
+          "aria-valuenow": actual + 1,
+        };
+  if (total > 40 && actual < 0 && estados) {
+    const n = (e: Estado) => estados.filter((x) => x === e).length;
+    return (
+      <div {...accesible} className="flex h-2 w-full bg-filete">
+        <div className="h-full bg-pino" style={{ width: `${(n("acierto") / total) * 100}%` }} />
+        <div className="h-full bg-teja" style={{ width: `${(n("fallo") / total) * 100}%` }} />
+      </div>
+    );
+  }
   if (total > 40) {
     const pct = Math.round(((actual + 1) / total) * 100);
     return (
       <div
-        role="progressbar"
-        aria-label={etiqueta}
-        aria-valuemin={1}
-        aria-valuemax={total}
-        aria-valuenow={actual + 1}
+        {...accesible}
         className="h-2 w-full bg-papel-hundido"
       >
         <div className="h-full bg-tinta" style={{ width: `${pct}%` }} />
@@ -31,11 +47,7 @@ export function ReglaProgreso({
   }
   return (
     <div
-      role="progressbar"
-      aria-label={etiqueta}
-      aria-valuemin={1}
-      aria-valuemax={total}
-      aria-valuenow={actual + 1}
+      {...accesible}
       className="flex h-3 w-full items-end gap-[3px]"
     >
       {Array.from({ length: total }, (_, i) => {

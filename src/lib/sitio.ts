@@ -7,3 +7,12 @@ export const SITIO = {
   avisoNoOficial:
     "No somos una plataforma oficial ni estamos vinculados al INAP ni a ningún organismo público.",
 } as const;
+
+// PROVISIONAL: precios pendientes de decidir. Los importes reales los cobra Stripe
+// (STRIPE_PRICE_MENSUAL y STRIPE_PRICE_ANUAL); estos solo se muestran en la web.
+export const PRECIOS = {
+  mensual: 12.99,
+  anual: 89.99,
+} as const;
+
+export const eur = new Intl.NumberFormat("es-ES", { style: "currency", currency: "EUR" });

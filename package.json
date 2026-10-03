@@ -11,7 +11,8 @@
     "preguntas:duplicados": "tsx scripts/duplicados.ts",
     "preguntas:estadisticas": "tsx scripts/estadisticas.ts",
     "preguntas:importar": "tsx scripts/importar.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "capturas": "tsx scripts/capturas.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
@@ -19,6 +20,7 @@
     "next": "16.3.8",
     "react": "19.2.8",
     "react-dom": "19.2.8",
+    "server-only": "^0.0.1",
     "stripe": "^23.0.0",
     "zod": "^4.6.5"
   },
