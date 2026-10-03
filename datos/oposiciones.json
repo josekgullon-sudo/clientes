@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "aux-age",
+    "nombre": "Auxiliar Administrativo del Estado",
+    "activa": true,
+    "verificado": false,
+    "formato_simulacro": {
+      "minutos": 65,
+      "penalizacion": 0.3333,
+      "partes": [
+        { "bloque": "I", "preguntas": 30 },
+        { "bloque": "II", "preguntas": 50 }
+      ],
+      "nota": "PROVISIONAL. Pendiente de contrastar con las bases de la última convocatoria en el BOE. Sin la parte psicotécnica; el tiempo es proporcional a las preguntas incluidas."
+    },
+    "temas": [
+      { "numero": 1, "bloque": "I", "titulo": "La Constitución Española de 1978. Derechos y deberes fundamentales, su garantía y suspensión. El Tribunal Constitucional. La reforma de la Constitución" },
+      { "numero": 2, "bloque": "I", "titulo": "La Corona. Las Cortes Generales. El Defensor del Pueblo" },
+      { "numero": 3, "bloque": "I", "titulo": "El Poder Judicial. El Consejo General del Poder Judicial" },
+      { "numero": 4, "bloque": "I", "titulo": "El Gobierno. Relaciones entre el Gobierno y las Cortes Generales" },
+      { "numero": 5, "bloque": "I", "titulo": "El Gobierno Abierto. La Agenda 2030" },
+      { "numero": 6, "bloque": "I", "titulo": "Transparencia, acceso a la información pública y buen gobierno" },
+      { "numero": 7, "bloque": "I", "titulo": "La Administración General del Estado" },
+      { "numero": 8, "bloque": "I", "titulo": "La organización territorial del Estado. Comunidades autónomas y Administración local" },
+      { "numero": 9, "bloque": "I", "titulo": "La Unión Europea" },
+      { "numero": 10, "bloque": "I", "titulo": "Políticas de igualdad, contra la violencia de género y de atención a la discapacidad" },
+      { "numero": 11, "bloque": "I", "titulo": "El personal al servicio de las Administraciones públicas" },
+      { "numero": 12, "bloque": "I", "titulo": "Derechos, deberes e incompatibilidades del personal funcionario" },
+      { "numero": 13, "bloque": "I", "titulo": "El presupuesto del Estado" },
+      { "numero": 14, "bloque": "II", "titulo": "Atención al público y servicios de información administrativa" },
+      { "numero": 15, "bloque": "II", "titulo": "Documento, registro y archivo" },
+      { "numero": 16, "bloque": "II", "titulo": "Administración electrónica y servicios a la ciudadanía" },
+      { "numero": 17, "bloque": "II", "titulo": "Protección de datos personales" },
+      { "numero": 18, "bloque": "II", "titulo": "Las fuentes del Derecho administrativo. El acto administrativo" },
+      { "numero": 19, "bloque": "II", "titulo": "El procedimiento administrativo común" },
+      { "numero": 20, "bloque": "II", "titulo": "Revisión de los actos en vía administrativa y recursos administrativos" },
+      { "numero": 21, "bloque": "II", "titulo": "Informática básica" },
+      { "numero": 22, "bloque": "II", "titulo": "Windows y el Explorador de archivos" },
+      { "numero": 23, "bloque": "II", "titulo": "Procesadores de texto: Word" },
+      { "numero": 24, "bloque": "II", "titulo": "Hojas de cálculo: Excel" },
+      { "numero": 25, "bloque": "II", "titulo": "Bases de datos: Access" },
+      { "numero": 26, "bloque": "II", "titulo": "Correo electrónico: Outlook" },
+      { "numero": 27, "bloque": "II", "titulo": "La red Internet" }
+    ]
+  }
+]

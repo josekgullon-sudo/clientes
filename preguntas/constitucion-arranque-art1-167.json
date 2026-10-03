@@ -1,0 +1,605 @@
+{
+  "descripcion": "Constitución Española. Lote de arranque escrito sin el texto de /fuentes. Antes de validar, contrastar cada cita con el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "ce-001",
+      "ley": "constitucion",
+      "articulo": "1.1",
+      "enunciado": "¿Cuál de los siguientes NO es uno de los valores superiores del ordenamiento jurídico que propugna la Constitución?",
+      "opciones": [
+        "La libertad",
+        "La justicia",
+        "La solidaridad",
+        "El pluralismo político"
+      ],
+      "correcta": 2,
+      "explicacion": "La solidaridad no figura entre los valores superiores. El artículo 1.1 enumera cuatro: «la libertad, la justicia, la igualdad y el pluralismo político». La solidaridad aparece en el artículo 2, referida a las nacionalidades y regiones.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "ce-002",
+      "ley": "constitucion",
+      "articulo": "1.2",
+      "enunciado": "Según la Constitución, ¿en quién reside la soberanía nacional?",
+      "opciones": [
+        "En las Cortes Generales",
+        "En el pueblo español",
+        "En la Nación española",
+        "En el Rey, como Jefe del Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 1.2 lo dice de forma literal: «La soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado». Las Cortes Generales representan al pueblo español (art. 66.1), pero no son las titulares de la soberanía.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "ce-003",
+      "ley": "constitucion",
+      "articulo": "1.3",
+      "enunciado": "¿Cuál es la forma política del Estado español según la Constitución?",
+      "opciones": [
+        "Monarquía constitucional",
+        "Estado autonómico",
+        "Estado social y democrático de Derecho",
+        "Monarquía parlamentaria"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 1.3 establece: «La forma política del Estado español es la Monarquía parlamentaria». «Estado social y democrático de Derecho» es como se constituye España (art. 1.1), no su forma política.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "ce-004",
+      "ley": "constitucion",
+      "articulo": "2",
+      "enunciado": "La Constitución reconoce y garantiza el derecho a la autonomía de:",
+      "opciones": [
+        "Las nacionalidades y regiones que integran la Nación española",
+        "Las comunidades autónomas y los municipios",
+        "Las provincias y las regiones",
+        "Los pueblos y nacionalidades de España"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 2 «reconoce y garantiza el derecho a la autonomía de las nacionalidades y regiones que la integran y la solidaridad entre todas ellas». La autonomía de municipios y provincias se regula aparte, en el artículo 137.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "ce-005",
+      "ley": "constitucion",
+      "articulo": "3.1",
+      "enunciado": "Respecto al castellano, la Constitución establece que todos los españoles tienen:",
+      "opciones": [
+        "El derecho a conocerlo y el deber de usarlo",
+        "El deber de conocerlo y de usarlo",
+        "El derecho a conocerlo y a usarlo",
+        "El deber de conocerlo y el derecho a usarlo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 3.1 dice: «El castellano es la lengua española oficial del Estado. Todos los españoles tienen el deber de conocerla y el derecho a usarla». Conocerla es un deber; usarla, un derecho.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "ce-006",
+      "ley": "constitucion",
+      "articulo": "4.1",
+      "enunciado": "Según la Constitución, en la bandera de España la franja amarilla es:",
+      "opciones": [
+        "De la misma anchura que cada una de las rojas",
+        "De doble anchura que cada una de las rojas",
+        "De triple anchura que cada una de las rojas",
+        "De la misma anchura que las dos rojas juntas"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 4.1 describe la bandera con «tres franjas horizontales, roja, amarilla y roja, siendo la amarilla de doble anchura que cada una de las rojas».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "ce-007",
+      "ley": "constitucion",
+      "articulo": "8.1",
+      "enunciado": "Según el artículo 8.1 de la Constitución, las Fuerzas Armadas están constituidas por:",
+      "opciones": [
+        "El Ejército de Tierra, la Armada, el Ejército del Aire y la Guardia Civil",
+        "El Ejército de Tierra, la Armada, el Ejército del Aire y la Unidad Militar de Emergencias",
+        "El Ejército de Tierra, la Armada y el Ejército del Aire",
+        "El Ejército de Tierra, la Armada, el Ejército del Aire y las Fuerzas y Cuerpos de Seguridad del Estado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 8.1 dice: «Las Fuerzas Armadas, constituidas por el Ejército de Tierra, la Armada y el Ejército del Aire, tienen como misión garantizar la soberanía e independencia de España, defender su integridad territorial y el ordenamiento constitucional». La Guardia Civil forma parte de las Fuerzas y Cuerpos de Seguridad (art. 104).",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "ce-008",
+      "ley": "constitucion",
+      "articulo": "9.3",
+      "enunciado": "¿Cuál de los siguientes principios NO aparece entre los que garantiza el artículo 9.3 de la Constitución?",
+      "opciones": [
+        "La publicidad de las normas",
+        "La interdicción de la arbitrariedad de los poderes públicos",
+        "La irretroactividad de las disposiciones sancionadoras no favorables",
+        "La eficacia de la Administración"
+      ],
+      "correcta": 3,
+      "explicacion": "La eficacia es un principio de actuación de la Administración recogido en el artículo 103.1, no en el 9.3. El artículo 9.3 garantiza «el principio de legalidad, la jerarquía normativa, la publicidad de las normas, la irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales, la seguridad jurídica, la responsabilidad y la interdicción de la arbitrariedad de los poderes públicos».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "ce-009",
+      "ley": "constitucion",
+      "articulo": "12",
+      "enunciado": "¿A qué edad son mayores de edad los españoles según la Constitución?",
+      "opciones": [
+        "A los dieciocho años",
+        "A los dieciséis años",
+        "A los diecisiete años",
+        "A los veintiún años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 12 lo fija directamente: «Los españoles son mayores de edad a los dieciocho años».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "ce-010",
+      "ley": "constitucion",
+      "articulo": "15",
+      "enunciado": "Según el texto del artículo 15 de la Constitución, queda abolida la pena de muerte:",
+      "opciones": [
+        "Sin excepción alguna",
+        "Salvo en los supuestos de estado de sitio",
+        "Salvo lo que dispongan los tratados internacionales ratificados por España",
+        "Salvo lo que puedan disponer las leyes penales militares para tiempos de guerra"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 15 dice: «Queda abolida la pena de muerte, salvo lo que puedan disponer las leyes penales militares para tiempos de guerra». La pregunta se refiere al texto constitucional; otra cosa es que la ley penal militar ya no la contemple.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "ce-011",
+      "ley": "constitucion",
+      "articulo": "17.2",
+      "enunciado": "¿Cuál es el plazo máximo de la detención preventiva según la Constitución?",
+      "opciones": [
+        "Veinticuatro horas",
+        "Cuarenta y ocho horas",
+        "Setenta y dos horas",
+        "Noventa y seis horas"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 17.2, la detención preventiva no puede durar más de lo estrictamente necesario «y, en todo caso, en el plazo máximo de setenta y dos horas, el detenido deberá ser puesto en libertad o a disposición de la autoridad judicial».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "ce-012",
+      "ley": "constitucion",
+      "articulo": "17.4",
+      "enunciado": "¿Qué procedimiento prevé la Constitución para poner de inmediato a disposición judicial a toda persona detenida ilegalmente?",
+      "opciones": [
+        "El recurso de amparo",
+        "El «habeas corpus»",
+        "El «habeas data»",
+        "El procedimiento preferente y sumario"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 17.4 dispone: «La ley regulará un procedimiento de “habeas corpus” para producir la inmediata puesta a disposición judicial de toda persona detenida ilegalmente».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "ce-013",
+      "ley": "constitucion",
+      "articulo": "21.2",
+      "enunciado": "Para celebrar una manifestación o una reunión en un lugar de tránsito público, la Constitución exige:",
+      "opciones": [
+        "Comunicación previa a la autoridad",
+        "Autorización previa de la autoridad",
+        "Autorización judicial",
+        "Comunicación a la autoridad dentro de las 48 horas siguientes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 21.2 dice: «En los casos de reuniones en lugares de tránsito público y manifestaciones se dará comunicación previa a la autoridad, que sólo podrá prohibirlas cuando existan razones fundadas de alteración del orden público, con peligro para personas o bienes». No se pide autorización: el artículo 21.1 dice que el derecho de reunión no la necesita.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "ce-014",
+      "ley": "constitucion",
+      "articulo": "22.4",
+      "enunciado": "Según la Constitución, las asociaciones solo pueden ser disueltas o suspendidas en sus actividades:",
+      "opciones": [
+        "Por acuerdo del Consejo de Ministros",
+        "Por resolución del Ministerio del Interior",
+        "En virtud de resolución judicial motivada",
+        "Por resolución motivada del Registro de Asociaciones"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 22.4 lo reserva a los jueces: «Las asociaciones sólo podrán ser disueltas o suspendidas en sus actividades en virtud de resolución judicial motivada».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "ce-015",
+      "ley": "constitucion",
+      "articulo": "53.2",
+      "enunciado": "Además de los derechos del artículo 14 y de la Sección 1.ª del Capítulo II, el recurso de amparo ante el Tribunal Constitucional protege:",
+      "opciones": [
+        "El derecho a la propiedad privada",
+        "La objeción de conciencia reconocida en el artículo 30",
+        "El derecho al trabajo",
+        "El derecho a la protección de la salud"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 53.2, tras referirse a los derechos del artículo 14 y de la Sección primera del Capítulo segundo, añade: «Este último recurso será aplicable a la objeción de conciencia reconocida en el artículo 30».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "ce-016",
+      "ley": "constitucion",
+      "articulo": "54",
+      "enunciado": "¿Cómo define la Constitución al Defensor del Pueblo?",
+      "opciones": [
+        "Como alto comisionado del Gobierno",
+        "Como órgano del Consejo General del Poder Judicial",
+        "Como alto comisionado del Congreso de los Diputados",
+        "Como alto comisionado de las Cortes Generales"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 54 lo define como «alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título». Lo designan las dos Cámaras, no solo el Congreso.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "ce-017",
+      "ley": "constitucion",
+      "articulo": "56.3",
+      "enunciado": "Los actos del Rey que no estén refrendados, salvo lo dispuesto en el artículo 65.2:",
+      "opciones": [
+        "Son anulables",
+        "Carecen de validez",
+        "Son válidos, pero no producen efectos",
+        "Deben ser convalidados por las Cortes Generales"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 56.3 establece que los actos del Rey «estarán siempre refrendados en la forma establecida en el artículo 64, careciendo de validez sin dicho refrendo, salvo lo dispuesto en el artículo 65.2».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "ce-018",
+      "ley": "constitucion",
+      "articulo": "64.1",
+      "enunciado": "¿Quién refrenda la propuesta y el nombramiento del Presidente del Gobierno?",
+      "opciones": [
+        "El Presidente del Gobierno saliente",
+        "El Presidente del Senado",
+        "El Presidente del Congreso",
+        "El Ministro de Justicia"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 64.1 dice: «La propuesta y el nombramiento del Presidente del Gobierno, y la disolución prevista en el artículo 99, serán refrendados por el Presidente del Congreso». El resto de actos del Rey los refrenda el Presidente del Gobierno o, en su caso, los ministros competentes.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "ce-019",
+      "ley": "constitucion",
+      "articulo": "68.1",
+      "enunciado": "Según el artículo 68.1 de la Constitución, el Congreso se compone de:",
+      "opciones": [
+        "Un mínimo de 250 y un máximo de 350 Diputados",
+        "Un mínimo de 300 y un máximo de 400 Diputados",
+        "Un mínimo de 350 y un máximo de 400 Diputados",
+        "Un mínimo de 300 y un máximo de 350 Diputados"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 68.1 dice: «El Congreso se compone de un mínimo de 300 y un máximo de 400 Diputados, elegidos por sufragio universal, libre, igual, directo y secreto». La cifra concreta de 350 la fija la ley electoral, no la Constitución.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "ce-020",
+      "ley": "constitucion",
+      "articulo": "68.4",
+      "enunciado": "¿Por cuánto tiempo es elegido el Congreso de los Diputados?",
+      "opciones": [
+        "Tres años",
+        "Cinco años",
+        "Cuatro años",
+        "Seis años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 68.4 dice: «El Congreso es elegido por cuatro años. El mandato de los Diputados termina cuatro años después de su elección o el día de la disolución de la Cámara».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "ce-021",
+      "ley": "constitucion",
+      "articulo": "69.2",
+      "enunciado": "Con carácter general, ¿cuántos senadores se eligen en cada provincia?",
+      "opciones": [
+        "Dos",
+        "Tres",
+        "Cinco",
+        "Cuatro"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 69.2 establece: «En cada provincia se elegirán cuatro Senadores por sufragio universal, libre, igual, directo y secreto». Las provincias insulares, Ceuta y Melilla tienen reglas propias (arts. 69.3 y 69.4).",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "ce-022",
+      "ley": "constitucion",
+      "articulo": "81.2",
+      "enunciado": "¿Qué mayoría exige la aprobación de una ley orgánica?",
+      "opciones": [
+        "Mayoría de tres quintos de cada Cámara en una votación final",
+        "Mayoría absoluta del Congreso en una votación final sobre el conjunto del proyecto",
+        "Mayoría absoluta de cada Cámara en una votación final sobre el conjunto del proyecto",
+        "Mayoría simple del Congreso y mayoría absoluta del Senado en votación final"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 81.2 dice: «La aprobación, modificación o derogación de las leyes orgánicas exigirá mayoría absoluta del Congreso, en una votación final sobre el conjunto del proyecto».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "ce-023",
+      "ley": "constitucion",
+      "articulo": "86.2",
+      "enunciado": "¿En qué plazo debe someterse un decreto-ley a debate y votación de totalidad en el Congreso?",
+      "opciones": [
+        "En los quince días siguientes a su promulgación",
+        "En los treinta días siguientes a su promulgación",
+        "En los cuarenta y cinco días siguientes a su publicación",
+        "En los sesenta días siguientes a su publicación"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 86.2, los decretos-leyes deben someterse a debate y votación de totalidad en el Congreso «en el plazo de los treinta días siguientes a su promulgación».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "ce-024",
+      "ley": "constitucion",
+      "articulo": "99.3",
+      "enunciado": "Si el candidato a la Presidencia del Gobierno no obtiene la mayoría absoluta en la primera votación de investidura, la misma propuesta se somete a nueva votación:",
+      "opciones": [
+        "Cuarenta y ocho horas después, y basta la mayoría simple",
+        "Veinticuatro horas después, y basta la mayoría simple",
+        "Cuarenta y ocho horas después, y se exige de nuevo la mayoría absoluta",
+        "Setenta y dos horas después, y basta la mayoría simple"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 99.3 dice que, si no alcanza la mayoría absoluta, «se someterá la misma propuesta a nueva votación cuarenta y ocho horas después de la anterior, y la confianza se entenderá otorgada si obtuviere la mayoría simple».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "ce-025",
+      "ley": "constitucion",
+      "articulo": "99.5",
+      "enunciado": "Si ningún candidato obtiene la confianza del Congreso, el Rey disuelve ambas Cámaras cuando han pasado, desde la primera votación de investidura:",
+      "opciones": [
+        "Un mes",
+        "Dos meses",
+        "Tres meses",
+        "Cuarenta y cinco días"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 99.5 establece: «Si transcurrido el plazo de dos meses, a partir de la primera votación de investidura, ningún candidato hubiere obtenido la confianza del Congreso, el Rey disolverá ambas Cámaras y convocará nuevas elecciones con el refrendo del Presidente del Congreso».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "ce-026",
+      "ley": "constitucion",
+      "articulo": "113.3",
+      "enunciado": "Sobre la tramitación de la moción de censura, la Constitución establece que:",
+      "opciones": [
+        "No puede votarse hasta pasados tres días desde su presentación, y en las primeras 24 horas pueden presentarse mociones alternativas",
+        "No puede votarse hasta pasados cinco días desde su presentación, y en los tres primeros días pueden presentarse mociones alternativas",
+        "No puede votarse hasta pasados siete días desde su presentación, y en los dos primeros días pueden presentarse mociones alternativas",
+        "No puede votarse hasta pasados cinco días desde su presentación, y en los dos primeros días pueden presentarse mociones alternativas"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 113.3 dice: «La moción de censura no podrá ser votada hasta que transcurran cinco días desde su presentación. En los dos primeros días de dicho plazo podrán presentarse mociones alternativas».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "ce-027",
+      "ley": "constitucion",
+      "articulo": "122.3",
+      "enunciado": "Además de su Presidente, el Consejo General del Poder Judicial está integrado por:",
+      "opciones": [
+        "Doce miembros nombrados por el Rey por un período de nueve años",
+        "Veinte miembros nombrados por el Rey por un período de cuatro años",
+        "Veinte miembros nombrados por el Rey por un período de cinco años",
+        "Veinte miembros nombrados por el Rey por un período de seis años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 122.3 dice que el Consejo «estará integrado por el Presidente del Tribunal Supremo, que lo presidirá, y por veinte miembros nombrados por el Rey por un período de cinco años».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "ce-028",
+      "ley": "constitucion",
+      "articulo": "159.1",
+      "enunciado": "¿Cuántos miembros del Tribunal Constitucional se nombran a propuesta del Gobierno?",
+      "opciones": [
+        "Dos",
+        "Cuatro",
+        "Tres",
+        "Ninguno"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 159.1 reparte los 12 miembros así: «cuatro a propuesta del Congreso por mayoría de tres quintos de sus miembros; cuatro a propuesta del Senado, con idéntica mayoría; dos a propuesta del Gobierno, y dos a propuesta del Consejo General del Poder Judicial».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "ce-029",
+      "ley": "constitucion",
+      "articulo": "159.3",
+      "enunciado": "¿Por cuánto tiempo se designa a los miembros del Tribunal Constitucional y cómo se renuevan?",
+      "opciones": [
+        "Por doce años, y se renuevan por terceras partes cada cuatro",
+        "Por nueve años, y se renuevan por terceras partes cada tres",
+        "Por nueve años, y se renuevan por mitades cada cuatro años y medio",
+        "Por seis años, y se renuevan por mitades cada tres"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 159.3 dice: «Los miembros del Tribunal Constitucional serán designados por un período de nueve años y se renovarán por terceras partes cada tres».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "ce-030",
+      "ley": "constitucion",
+      "articulo": "167.3",
+      "enunciado": "Una reforma constitucional aprobada por el procedimiento del artículo 167 se somete a referéndum cuando lo solicita:",
+      "opciones": [
+        "Una quinta parte de los miembros de cualquiera de las Cámaras, dentro de los quince días siguientes a su aprobación",
+        "La mayoría absoluta del Senado, dentro de los quince días siguientes a su aprobación",
+        "Una décima parte de los miembros de cualquiera de las Cámaras, dentro de los quince días siguientes a su aprobación",
+        "Una décima parte de los miembros de ambas Cámaras, dentro de los treinta días siguientes a su aprobación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 167.3 establece que la reforma «será sometida a referéndum para su ratificación cuando así lo soliciten, dentro de los quince días siguientes a su aprobación, una décima parte de los miembros de cualquiera de las Cámaras».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 1
+      }
+    }
+  ]
+}

@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "preguntas:validar": "tsx scripts/validar-formato.ts",
+    "preguntas:duplicados": "tsx scripts/duplicados.ts",
+    "preguntas:estadisticas": "tsx scripts/estadisticas.ts",
+    "preguntas:importar": "tsx scripts/importar.ts",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

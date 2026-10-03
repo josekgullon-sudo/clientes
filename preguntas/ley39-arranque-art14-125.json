@@ -1,0 +1,565 @@
+{
+  "descripcion": "Ley 39/2015. Lote de arranque escrito sin el texto de /fuentes. Antes de validar, contrastar cada cita con el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "l39-001",
+      "ley": "ley-39-2015",
+      "articulo": "21.3",
+      "enunciado": "Cuando la norma reguladora de un procedimiento no fija el plazo máximo para resolver, ¿cuál es ese plazo?",
+      "opciones": [
+        "Un mes",
+        "Tres meses",
+        "Seis meses",
+        "Dos meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 21.3 lo resuelve: «Cuando las normas reguladoras de los procedimientos no fijen el plazo máximo, éste será de tres meses».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "l39-002",
+      "ley": "ley-39-2015",
+      "articulo": "21.2",
+      "enunciado": "El plazo máximo para notificar la resolución expresa que fije la norma reguladora del procedimiento:",
+      "opciones": [
+        "No puede exceder de tres meses, salvo que una norma con rango de ley establezca uno mayor",
+        "No puede exceder de seis meses, en ningún caso",
+        "No puede exceder de seis meses, salvo que una norma con rango de ley establezca uno mayor o así lo prevea el Derecho de la Unión Europea",
+        "No puede exceder de un año, salvo que lo prevea el Derecho de la Unión Europea"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 21.2 dice que este plazo «no podrá exceder de seis meses salvo que una norma con rango de ley establezca uno mayor o así venga previsto en el Derecho de la Unión Europea».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "l39-003",
+      "ley": "ley-39-2015",
+      "articulo": "30.2",
+      "enunciado": "Cuando los plazos se señalan por días y no se dice otra cosa, ¿qué días se excluyen del cómputo?",
+      "opciones": [
+        "Los sábados, los domingos y los declarados festivos",
+        "Solo los domingos y los declarados festivos",
+        "Los sábados y los domingos, pero no los festivos locales",
+        "Solo los declarados festivos"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 30.2 establece que, cuando los plazos se señalen por días, «se entiende que éstos son hábiles, excluyéndose del cómputo los sábados, los domingos y los declarados festivos».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "l39-004",
+      "ley": "ley-39-2015",
+      "articulo": "30.4",
+      "enunciado": "Si un plazo se fija en meses, ¿desde cuándo se computa?",
+      "opciones": [
+        "Desde el mismo día de la notificación o publicación del acto",
+        "Desde el día en que se dictó el acto",
+        "Desde el tercer día hábil siguiente a la notificación",
+        "Desde el día siguiente a aquel en que tenga lugar la notificación o publicación del acto"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 30.4 dice que los plazos en meses o años «se computarán a partir del día siguiente a aquel en que tenga lugar la notificación o publicación del acto de que se trate».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "l39-005",
+      "ley": "ley-39-2015",
+      "articulo": "30.5",
+      "enunciado": "¿Qué ocurre cuando el último día de un plazo es inhábil?",
+      "opciones": [
+        "El plazo vence el día hábil anterior",
+        "El plazo vence ese mismo día",
+        "Se entiende prorrogado al primer día hábil siguiente",
+        "Se prorroga dos días hábiles"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 30.5 lo dice así: «Cuando el último día del plazo sea inhábil, se entenderá prorrogado al primer día hábil siguiente».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "l39-006",
+      "ley": "ley-39-2015",
+      "articulo": "32.1",
+      "enunciado": "La Administración puede acordar una ampliación de los plazos establecidos que no exceda de:",
+      "opciones": [
+        "La mitad de los mismos",
+        "El doble de los mismos",
+        "Un tercio de los mismos",
+        "Diez días"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 32.1 permite conceder «una ampliación de los plazos establecidos, que no exceda de la mitad de los mismos, si las circunstancias lo aconsejan y con ello no se perjudican derechos de tercero».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "l39-007",
+      "ley": "ley-39-2015",
+      "articulo": "32.3",
+      "enunciado": "Contra el acuerdo que resuelve sobre la ampliación de plazos:",
+      "opciones": [
+        "Cabe recurso de alzada ante el órgano superior jerárquico del que lo dictó",
+        "Cabe recurso potestativo de reposición ante el mismo órgano que lo dictó",
+        "No cabe recurso, sin perjuicio del que proceda contra la resolución que ponga fin al procedimiento",
+        "Cabe recurso extraordinario de revisión en los supuestos tasados por la ley"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 32.3 dice: «Contra el acuerdo que resuelva sobre la ampliación de plazos, que deberá ser notificado a los interesados, no cabrá recurso, sin perjuicio del procedente contra la resolución que ponga fin al procedimiento».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "l39-008",
+      "ley": "ley-39-2015",
+      "articulo": "14.2",
+      "enunciado": "¿Quién de los siguientes NO está obligado, con carácter general, a relacionarse electrónicamente con las Administraciones Públicas?",
+      "opciones": [
+        "Las personas jurídicas",
+        "Las entidades sin personalidad jurídica",
+        "Quienes ejerzan una actividad profesional con colegiación obligatoria, en los trámites de esa actividad",
+        "Las personas físicas"
+      ],
+      "correcta": 3,
+      "explicacion": "Las personas físicas pueden elegir si se comunican por medios electrónicos o no (art. 14.1). El artículo 14.2 obliga, entre otros, a «las personas jurídicas», «las entidades sin personalidad jurídica» y a quienes ejerzan «una actividad profesional para la que se requiera colegiación obligatoria».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "l39-009",
+      "ley": "ley-39-2015",
+      "articulo": "40.2",
+      "enunciado": "¿En qué plazo debe cursarse la notificación de un acto?",
+      "opciones": [
+        "Cinco días desde la fecha en que se dictó el acto",
+        "Diez días desde la fecha en que se dictó el acto",
+        "Quince días desde la fecha en que se dictó el acto",
+        "Un mes desde la fecha en que se dictó el acto"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 40.2 establece: «Toda notificación deberá ser cursada dentro del plazo de diez días a partir de la fecha en que el acto haya sido dictado».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "l39-010",
+      "ley": "ley-39-2015",
+      "articulo": "43.2",
+      "enunciado": "Una notificación electrónica obligatoria se entiende rechazada si no se accede a su contenido en un plazo, desde su puesta a disposición, de:",
+      "opciones": [
+        "Diez días hábiles",
+        "Quince días naturales",
+        "Cinco días hábiles",
+        "Diez días naturales"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 43.2 dice que se entenderá rechazada «cuando hayan transcurrido diez días naturales desde la puesta a disposición de la notificación sin que se acceda a su contenido». Es uno de los pocos plazos de la ley en días naturales.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "l39-011",
+      "ley": "ley-39-2015",
+      "articulo": "47.1",
+      "enunciado": "¿Cuál de los siguientes actos NO es nulo de pleno derecho, sino anulable?",
+      "opciones": [
+        "El dictado por un órgano manifiestamente incompetente por razón de la materia o del territorio",
+        "El que incurre en cualquier infracción del ordenamiento jurídico, incluso la desviación de poder",
+        "El que tiene un contenido imposible",
+        "El dictado prescindiendo total y absolutamente del procedimiento legalmente establecido"
+      ],
+      "correcta": 1,
+      "explicacion": "La infracción del ordenamiento jurídico es la causa general de anulabilidad del artículo 48.1: «Son anulables los actos de la Administración que incurran en cualquier infracción del ordenamiento jurídico, incluso la desviación de poder». Las otras tres opciones son causas de nulidad del artículo 47.1.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "l39-012",
+      "ley": "ley-39-2015",
+      "articulo": "48.3",
+      "enunciado": "Realizar una actuación administrativa fuera del tiempo establecido para ella:",
+      "opciones": [
+        "Determina siempre la nulidad de pleno derecho del acto",
+        "Determina siempre la anulabilidad del acto",
+        "Solo implica la anulabilidad cuando así lo imponga la naturaleza del término o plazo",
+        "No afecta nunca a la validez del acto"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 48.3 establece: «La realización de actuaciones administrativas fuera del tiempo establecido para ellas sólo implicará la anulabilidad del acto cuando así lo imponga la naturaleza del término o plazo».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "l39-013",
+      "ley": "ley-39-2015",
+      "articulo": "39.1",
+      "enunciado": "Como regla general, ¿desde cuándo producen efectos los actos administrativos?",
+      "opciones": [
+        "Desde su notificación a todos los interesados en el procedimiento",
+        "Desde la fecha en que se dicten, salvo que en ellos se disponga otra cosa",
+        "Desde su publicación en el boletín oficial que corresponda",
+        "Desde que son firmes en vía administrativa"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 39.1 dice que los actos «se presumirán válidos y producirán efectos desde la fecha en que se dicten, salvo que en ellos se disponga otra cosa». El artículo 39.2 prevé que la eficacia se demore en algunos casos, por ejemplo cuando dependa de la notificación.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "l39-014",
+      "ley": "ley-39-2015",
+      "articulo": "68.1",
+      "enunciado": "Si una solicitud no reúne los requisitos exigidos, se requiere al interesado para que la subsane en un plazo de:",
+      "opciones": [
+        "Cinco días",
+        "Quince días",
+        "Diez días",
+        "Veinte días"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 68.1 dice que se requerirá al interesado «para que, en un plazo de diez días, subsane la falta o acompañe los documentos preceptivos, con indicación de que, si así no lo hiciera, se le tendrá por desistido de su petición».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "l39-015",
+      "ley": "ley-39-2015",
+      "articulo": "82.2",
+      "enunciado": "En el trámite de audiencia, los interesados pueden alegar y presentar documentos en un plazo:",
+      "opciones": [
+        "No inferior a diez días ni superior a quince",
+        "No inferior a cinco días ni superior a diez",
+        "No inferior a quince días ni superior a veinte",
+        "De diez días exactos"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 82.2 establece: «Los interesados, en un plazo no inferior a diez días ni superior a quince, podrán alegar y presentar los documentos y justificaciones que estimen pertinentes».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "l39-016",
+      "ley": "ley-39-2015",
+      "articulo": "83.2",
+      "enunciado": "En el trámite de información pública, el plazo para formular alegaciones no puede ser inferior a:",
+      "opciones": [
+        "Diez días",
+        "Quince días",
+        "Veinte días",
+        "Treinta días"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 83.2 dice: «El plazo para formular alegaciones no podrá ser inferior a veinte días».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "l39-017",
+      "ley": "ley-39-2015",
+      "articulo": "24.1",
+      "enunciado": "En un procedimiento iniciado a solicitud del interesado, si vence el plazo máximo sin resolución expresa, como regla general la solicitud:",
+      "opciones": [
+        "Se entiende desestimada",
+        "Se entiende estimada por silencio administrativo, salvo las excepciones previstas",
+        "Se archiva por caducidad",
+        "Queda pendiente hasta que se dicte resolución, sin efecto alguno"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 24.1 establece que el vencimiento del plazo sin resolución «legitima al interesado o interesados para entenderla estimada por silencio administrativo», salvo que una norma con rango de ley, del Derecho de la Unión Europea o del Derecho internacional aplicable en España diga lo contrario.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "l39-018",
+      "ley": "ley-39-2015",
+      "articulo": "24.1",
+      "enunciado": "En los procedimientos de impugnación de actos, el silencio es desestimatorio. ¿En qué caso se entiende estimado el recurso?",
+      "opciones": [
+        "Cuando se trata de un recurso potestativo de reposición interpuesto contra un acto expreso",
+        "Cuando lo interpone una persona jurídica obligada a relacionarse electrónicamente",
+        "Cuando el acto impugnado es de gravamen o desfavorable para el interesado",
+        "Cuando el recurso de alzada se interpone contra la desestimación por silencio de una solicitud y no se resuelve en plazo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 24.1 dice que, aunque en la impugnación de actos el silencio es desestimatorio, «cuando el recurso de alzada se haya interpuesto contra la desestimación por silencio administrativo de una solicitud por el transcurso del plazo, se entenderá estimado el mismo si, llegado el plazo de resolución, el órgano administrativo competente no dictase y notificase resolución expresa».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "l39-019",
+      "ley": "ley-39-2015",
+      "articulo": "25.1.b",
+      "enunciado": "En un procedimiento sancionador iniciado de oficio, si vence el plazo máximo sin resolución expresa, se produce:",
+      "opciones": [
+        "El silencio estimatorio",
+        "El silencio desestimatorio",
+        "La caducidad",
+        "La prescripción de la infracción"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 25.1.b establece que en los procedimientos en que la Administración ejerza «potestades sancionadoras o, en general, de intervención, susceptibles de producir efectos desfavorables o de gravamen, se producirá la caducidad».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "l39-020",
+      "ley": "ley-39-2015",
+      "articulo": "122.1",
+      "enunciado": "¿Cuál es el plazo para interponer un recurso de alzada contra un acto expreso?",
+      "opciones": [
+        "Un mes",
+        "Dos meses",
+        "Quince días",
+        "Tres meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 122.1 dice: «El plazo para la interposición del recurso de alzada será de un mes, si el acto fuera expreso».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "l39-021",
+      "ley": "ley-39-2015",
+      "articulo": "122.2",
+      "enunciado": "¿Cuál es el plazo máximo para dictar y notificar la resolución del recurso de alzada?",
+      "opciones": [
+        "Un mes",
+        "Tres meses",
+        "Seis meses",
+        "Dos meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 122.2 establece: «El plazo máximo para dictar y notificar la resolución será de tres meses». Si pasa sin resolución, el recurso se entiende desestimado, salvo el caso del artículo 24.1.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "l39-022",
+      "ley": "ley-39-2015",
+      "articulo": "124.2",
+      "enunciado": "¿Cuál es el plazo máximo para dictar y notificar la resolución del recurso potestativo de reposición?",
+      "opciones": [
+        "Quince días",
+        "Tres meses",
+        "Un mes",
+        "Dos meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 124.2 lo fija: «El plazo máximo para dictar y notificar la resolución del recurso será de un mes».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "l39-023",
+      "ley": "ley-39-2015",
+      "articulo": "125.2",
+      "enunciado": "Cuando el recurso extraordinario de revisión se basa en un error de hecho que resulta de los documentos del expediente, el plazo para interponerlo es de:",
+      "opciones": [
+        "Tres meses desde la notificación de la resolución impugnada",
+        "Cuatro años desde la notificación de la resolución impugnada",
+        "Un año desde la notificación de la resolución impugnada",
+        "Dos años desde que la resolución quedó firme"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 125.2 dice que, en la causa a) del apartado 1, el recurso se interpone «dentro del plazo de cuatro años siguientes a la fecha de la notificación de la resolución impugnada». En los demás casos el plazo es de tres meses.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "l39-024",
+      "ley": "ley-39-2015",
+      "articulo": "109.2",
+      "enunciado": "Las Administraciones pueden rectificar los errores materiales, de hecho o aritméticos de sus actos:",
+      "opciones": [
+        "En el plazo de un mes desde la notificación",
+        "Solo a instancia del interesado, en el plazo de cuatro años",
+        "Solo mediante el procedimiento de revisión de oficio",
+        "En cualquier momento, de oficio o a instancia de los interesados"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 109.2 establece que las Administraciones pueden «rectificar en cualquier momento, de oficio o a instancia de los interesados, los errores materiales, de hecho o aritméticos existentes en sus actos».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "l39-025",
+      "ley": "ley-39-2015",
+      "articulo": "107.2",
+      "enunciado": "La declaración de lesividad de un acto anulable no puede adoptarse cuando han pasado:",
+      "opciones": [
+        "Cuatro años desde la notificación del acto",
+        "Un año desde la notificación del acto",
+        "Cuatro años desde que se dictó el acto",
+        "Seis meses desde que se dictó el acto"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 107.2 dice: «La declaración de lesividad no podrá adoptarse una vez transcurridos cuatro años desde que se dictó el acto administrativo». El plazo cuenta desde que se dicta, no desde la notificación.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "l39-026",
+      "ley": "ley-39-2015",
+      "articulo": "95.1",
+      "enunciado": "Si un procedimiento iniciado a solicitud del interesado se paraliza por su culpa, la Administración le advierte de que se producirá la caducidad cuando pasen:",
+      "opciones": [
+        "Un mes",
+        "Tres meses",
+        "Seis meses",
+        "Dos meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 95.1 dice que la Administración «le advertirá que, transcurridos tres meses, se producirá la caducidad del procedimiento».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "l39-027",
+      "ley": "ley-39-2015",
+      "articulo": "58",
+      "enunciado": "¿Cuál de las siguientes NO es una forma de iniciar un procedimiento de oficio?",
+      "opciones": [
+        "Por orden superior",
+        "Por petición razonada de otros órganos",
+        "Por denuncia",
+        "Por solicitud del interesado"
+      ],
+      "correcta": 3,
+      "explicacion": "La solicitud del interesado es la otra vía de inicio, distinta de la de oficio (art. 54). El artículo 58 dice: «Los procedimientos se iniciarán de oficio por acuerdo del órgano competente, bien por propia iniciativa o como consecuencia de orden superior, a petición razonada de otros órganos o por denuncia».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "l39-028",
+      "ley": "ley-39-2015",
+      "articulo": "96.6",
+      "enunciado": "Salvo que les quede menos en la tramitación ordinaria, los procedimientos tramitados de forma simplificada deben resolverse en:",
+      "opciones": [
+        "Treinta días",
+        "Quince días",
+        "Diez días",
+        "Cuarenta y cinco días"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 96.6 establece que estos procedimientos «deberán ser resueltos en treinta días, a contar desde el siguiente al que se notifique al interesado el acuerdo de tramitación simplificada del procedimiento».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 19
+      }
+    }
+  ]
+}
