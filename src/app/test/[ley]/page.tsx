@@ -10,6 +10,11 @@ import { supabasePublico } from "@/lib/supabase/servidor";
 
 export const revalidate = 3600;
 
+// Se generan bajo demanda y se cachean una hora.
+export function generateStaticParams() {
+  return [];
+}
+
 async function cargarLey(slug: string) {
   if (!/^[a-z0-9-]+$/.test(slug)) return null;
   const { data } = await supabasePublico()

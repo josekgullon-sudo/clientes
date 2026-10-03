@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { TestPublico } from "@/components/test/test-publico";
 import { preguntasPublicas } from "@/lib/datos/publicas";
 
+export const revalidate = 3600;
+
 export const metadata: Metadata = {
   title: "Test de prueba de 10 preguntas",
   description: "Prueba un test del Auxiliar Administrativo del Estado sin registrarte, con la explicación de cada respuesta.",

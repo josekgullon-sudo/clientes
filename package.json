@@ -12,7 +12,8 @@
     "preguntas:estadisticas": "tsx scripts/estadisticas.ts",
     "preguntas:importar": "tsx scripts/importar.ts",
     "typecheck": "tsc --noEmit",
-    "capturas": "tsx scripts/capturas.ts"
+    "capturas": "tsx scripts/capturas.ts",
+    "test": "vitest run"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
