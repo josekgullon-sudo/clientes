@@ -16,3 +16,6 @@ export const PRECIOS = {
 } as const;
 
 export const eur = new Intl.NumberFormat("es-ES", { style: "currency", currency: "EUR" });
+
+/** Oposición activa mientras solo haya una. */
+export const OPOSICION = "aux-age";
