@@ -13,7 +13,8 @@
     "preguntas:importar": "tsx scripts/importar.ts",
     "typecheck": "tsc --noEmit",
     "capturas": "tsx scripts/capturas.ts",
-    "test": "vitest run"
+    "test": "vitest run",
+    "local:suscribir": "tsx scripts/suscribir-local.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

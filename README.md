@@ -4,24 +4,31 @@ Primera oposición: Auxiliar Administrativo del Estado. Diseño y plan en `docs/
 
 Stack: Next.js 16 (App Router) · TypeScript · Tailwind 4 · Supabase (Postgres + Auth) · Stripe · Vercel.
 
-## En local
+## Probarla en tu ordenador
+
+Necesitas [Node.js 20 o superior](https://nodejs.org) y [Docker Desktop](https://www.docker.com/products/docker-desktop/) abierto.
 
 ```bash
+git clone https://github.com/josekgullon-sudo/clientes.git
+cd clientes
+git checkout claude/oposiciones-test-platform-6ga336
 npm install
-cp .env.example .env.local        # las claves de Supabase local salen de `npx supabase status`
-npx supabase start                # Postgres, Auth y Mailpit en Docker
-npx supabase db reset             # aplica supabase/migrations
-npm run preguntas:importar -- --incluir-borradores   # en local también sube los borradores
+cp .env.example .env.local
+npx supabase start                # la primera vez descarga imágenes: unos minutos
+npx supabase db reset             # crea las tablas
+npm run preguntas:importar -- --incluir-borradores
 npm run dev
 ```
 
-Los correos de acceso (enlace mágico) llegan a Mailpit: http://127.0.0.1:54324.
-Para probar sin Stripe, activa una suscripción a mano:
+Abre http://localhost:3000. Para entrar con tu correo, el enlace no llega a tu bandeja: lo
+ves en Mailpit, http://127.0.0.1:54324. Para probar el área de pago sin Stripe:
 
-```sql
-insert into suscripciones (usuario_id, plan, estado, fin_periodo)
-select id, 'mensual', 'active', now() + interval '30 days' from auth.users where email = 'tu@correo.es';
+```bash
+npm run local:suscribir -- tu@correo.es
 ```
+
+Para verla en el móvil, conecta el móvil a la misma wifi y abre `http://IP-DE-TU-ORDENADOR:3000`
+(el inicio de sesión desde el móvil no funcionará en local; la demo y los test gratis sí).
 
 ## Comandos
 
@@ -32,6 +39,7 @@ select id, 'mensual', 'active', now() + interval '30 days' from auth.users where
 | `npm run preguntas:estadisticas` | Preguntas por tema, dificultad y estado |
 | `npm run preguntas:importar` | Sube a Supabase el catálogo y las preguntas `validada` |
 | `npm run capturas -- /ruta` | Capturas a 380 px en claro y oscuro (con `npm run dev` arrancado) |
+| `npm run local:suscribir -- correo` | Activa una suscripción de prueba en local |
 | `npm test` · `npm run lint` · `npm run typecheck` | Comprobaciones |
 
 ## Producción
