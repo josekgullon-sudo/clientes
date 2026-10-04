@@ -1,4 +1,4 @@
-# Plataforma de test para oposiciones
+# Oposiciones Claras
 
 Primera oposición: Auxiliar Administrativo del Estado. Diseño y plan en `docs/propuesta-fase-1.md`.
 
@@ -51,4 +51,5 @@ select id, 'mensual', 'active', now() + interval '30 days' from auth.users where
 
 - Textos del BOE en `/fuentes` y validación de los lotes de arranque (ver `preguntas/revision.md`).
 - Temario y formato del simulacro definitivos (`datos/oposiciones.json`, `"verificado": false`).
-- Nombre, precios (`src/lib/sitio.ts`) y datos del titular para los textos legales; revisión legal.
+- Datos del titular para los textos legales (`TITULAR` en `src/lib/sitio.ts`) y revisión legal.
+- Registrar los dominios `oposicionesclaras.es` y `.com` y comprobar la marca en la OEPM.

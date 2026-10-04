@@ -19,7 +19,7 @@ const lectura = Source_Serif_4({
 export const metadata: Metadata = {
   metadataBase: new URL(SITIO.url),
   title: {
-    default: `${SITIO.nombre} · Test de Auxiliar Administrativo del Estado`,
+    default: `${SITIO.nombre} · ${SITIO.lema}`,
     template: `%s · ${SITIO.nombre}`,
   },
   description: SITIO.descripcion,

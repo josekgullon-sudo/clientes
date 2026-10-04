@@ -10,10 +10,10 @@ export default async function LayoutPanel({ children }: LayoutProps<"/app">) {
       <Cabecera
         derecha={
           <nav aria-label="Tu cuenta" className="flex items-center">
-            <Link href="/app" className="inline-flex min-h-11 items-center px-2 font-semibold hover:underline">
+            <Link href="/app" className="inline-flex min-h-11 items-center px-1.5 font-semibold hover:underline">
               Panel
             </Link>
-            <Link href="/app/cuenta" className="inline-flex min-h-11 items-center px-2 font-semibold hover:underline">
+            <Link href="/app/cuenta" className="inline-flex min-h-11 items-center px-1.5 font-semibold hover:underline">
               Cuenta
             </Link>
           </nav>

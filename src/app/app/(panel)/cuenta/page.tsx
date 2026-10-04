@@ -45,7 +45,7 @@ export default async function Cuenta() {
               Gestionar suscripción y facturas
             </Boton>
           </form>
-        ) : (
+        ) : suscrito ? null : (
           <EnlaceBoton href="/suscripcion" ancho>
             Ver planes
           </EnlaceBoton>

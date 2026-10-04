@@ -8,7 +8,8 @@ const CLAVE = "aviso-cookies";
 
 /**
  * Aviso informativo: solo usamos cookies técnicas, que no requieren consentimiento.
- * No aparece durante un test para no distraer.
+ * No aparece durante un test ni en el área privada (tiene barras de acción fijas abajo);
+ * para entonces ya se ha visto en la web pública o al entrar.
  */
 export function AvisoCookies() {
   const ruta = usePathname();
@@ -25,8 +26,8 @@ export function AvisoCookies() {
     setVisible(!visto);
   }, []);
 
-  const enTest = ruta === "/demo" || ruta.startsWith("/app/test") || ruta.startsWith("/test/");
-  if (!visible || enTest) return null;
+  const oculto = ruta === "/demo" || ruta.startsWith("/app") || ruta.startsWith("/test/");
+  if (!visible || oculto) return null;
 
   function cerrar() {
     try {

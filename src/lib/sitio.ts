@@ -1,6 +1,7 @@
-// Nombre provisional: se cambia aquí y se propaga a toda la web.
+// Nombre y lema: se cambian aquí y se propagan a toda la web.
 export const SITIO = {
-  nombre: "Subrayado",
+  nombre: "Oposiciones Claras",
+  lema: "Test de oposiciones con cada respuesta explicada",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   descripcion:
     "Test para preparar el Auxiliar Administrativo del Estado con la explicación de cada respuesta y el artículo exacto de la ley.",
