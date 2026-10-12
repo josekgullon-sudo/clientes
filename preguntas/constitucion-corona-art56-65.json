@@ -1,0 +1,525 @@
+{
+  "descripcion": "Constitución, Título II (La Corona). Lote generado el 2026-10-12; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "cor-001",
+      "ley": "constitucion",
+      "articulo": "56.1",
+      "enunciado": "Según el artículo 56.1 de la Constitución, el Rey es:",
+      "opciones": [
+        "El Jefe del Gobierno y de las Fuerzas Armadas",
+        "El representante del pueblo español ante las Cortes",
+        "El Jefe del Estado, símbolo de su unidad y permanencia",
+        "El titular de la soberanía nacional"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 56.1 dice: «El Rey es el Jefe del Estado, símbolo de su unidad y permanencia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-002",
+      "ley": "constitucion",
+      "articulo": "56.1",
+      "enunciado": "En las relaciones internacionales, el Rey:",
+      "opciones": [
+        "Dirige la política exterior del Estado",
+        "Asume la más alta representación del Estado español",
+        "Representa al Gobierno de la Nación",
+        "Negocia y firma los tratados sin necesidad de refrendo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 56.1 dice que el Rey «asume la más alta representación del Estado español en las relaciones internacionales». La política exterior la dirige el Gobierno (art. 97).",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-003",
+      "ley": "constitucion",
+      "articulo": "56.2",
+      "enunciado": "¿Cuál es el título del Rey según la Constitución?",
+      "opciones": [
+        "Rey de España",
+        "Rey de los españoles",
+        "Rey de España y de las Indias",
+        "Rey constitucional de España"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 56.2 dice: «Su título es el de Rey de España y podrá utilizar los demás que correspondan a la Corona».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-004",
+      "ley": "constitucion",
+      "articulo": "56.3",
+      "enunciado": "Según la Constitución, la persona del Rey:",
+      "opciones": [
+        "Es inviolable, pero responde ante el Tribunal Supremo",
+        "Solo responde ante las Cortes Generales",
+        "Está sujeta a responsabilidad por los actos no refrendados",
+        "Es inviolable y no está sujeta a responsabilidad"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 56.3 dice: «La persona del Rey es inviolable y no está sujeta a responsabilidad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-005",
+      "ley": "constitucion",
+      "articulo": "57.1",
+      "enunciado": "En la sucesión al trono, dentro del mismo grado, se prefiere:",
+      "opciones": [
+        "A la persona de más edad, sin distinción de sexo",
+        "A la mujer sobre el varón y, en el mismo sexo, a la persona de menos edad",
+        "Al varón sobre la mujer y, en el mismo sexo, a la persona de más edad",
+        "A quien designen las Cortes Generales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 57.1 establece que se prefiere, «en el mismo grado, el varón a la mujer, y en el mismo sexo, la persona de más edad a la de menos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-006",
+      "ley": "constitucion",
+      "articulo": "57.2",
+      "enunciado": "El Príncipe heredero, desde su nacimiento o desde que se produzca el hecho que origine el llamamiento, tiene la dignidad de:",
+      "opciones": [
+        "Príncipe de Gerona",
+        "Príncipe de Asturias",
+        "Príncipe de Viana",
+        "Infante de España"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 57.2 dice que el Príncipe heredero «tendrá la dignidad de Príncipe de Asturias» y los demás títulos vinculados tradicionalmente al sucesor.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-007",
+      "ley": "constitucion",
+      "articulo": "57.3",
+      "enunciado": "Extinguidas todas las líneas llamadas en Derecho, ¿quién provee a la sucesión en la Corona?",
+      "opciones": [
+        "Las Cortes Generales",
+        "El Consejo de Ministros",
+        "El Tribunal Constitucional",
+        "El pueblo español mediante referéndum"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 57.3 dice que, extinguidas las líneas, «las Cortes Generales proveerán a la sucesión en la Corona en la forma que más convenga a los intereses de España».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-008",
+      "ley": "constitucion",
+      "articulo": "57.4",
+      "enunciado": "Las personas con derecho a la sucesión que contraigan matrimonio contra la expresa prohibición del Rey y de las Cortes Generales:",
+      "opciones": [
+        "Quedan excluidas ellas, pero no sus descendientes",
+        "Pasan al último lugar del orden sucesorio",
+        "Mantienen sus derechos si el matrimonio lo aprueba el Gobierno",
+        "Quedan excluidas de la sucesión por sí y sus descendientes"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 57.4 dice que esas personas «quedarán excluidas en la sucesión a la Corona por sí y sus descendientes».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-009",
+      "ley": "constitucion",
+      "articulo": "57.5",
+      "enunciado": "Las abdicaciones y renuncias y las dudas de hecho o de derecho en el orden de sucesión a la Corona se resuelven:",
+      "opciones": [
+        "Por real decreto del Consejo de Ministros",
+        "Por el Tribunal Constitucional",
+        "Por una ley orgánica",
+        "Por ley ordinaria aprobada en sesión conjunta"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 57.5 dice que «se resolverán por una ley orgánica».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-010",
+      "ley": "constitucion",
+      "articulo": "58",
+      "enunciado": "La Reina consorte o el consorte de la Reina:",
+      "opciones": [
+        "Asumen las funciones del Rey en su ausencia",
+        "No pueden asumir funciones constitucionales, salvo lo dispuesto para la Regencia",
+        "Pueden asumir funciones constitucionales con autorización de las Cortes",
+        "Ejercen la tutela del Rey menor en todo caso"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 58 dice que los consortes «no podrán asumir funciones constitucionales, salvo lo dispuesto para la Regencia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-011",
+      "ley": "constitucion",
+      "articulo": "59.1",
+      "enunciado": "Cuando el Rey es menor de edad, ejerce inmediatamente la Regencia:",
+      "opciones": [
+        "El padre o la madre del Rey y, en su defecto, el pariente mayor de edad más próximo a suceder",
+        "La persona que designen las Cortes Generales",
+        "El Presidente del Gobierno",
+        "El pariente de más edad de la Familia Real, aunque no sea el más próximo a suceder"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 59.1 dice que entrará a ejercer la Regencia «el padre o la madre del Rey y, en su defecto, el pariente mayor de edad más próximo a suceder en la Corona».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-012",
+      "ley": "constitucion",
+      "articulo": "59.2",
+      "enunciado": "La inhabilitación del Rey para el ejercicio de su autoridad debe ser:",
+      "opciones": [
+        "Declarada por el Tribunal Constitucional",
+        "Acordada por el Consejo de Ministros",
+        "Declarada por el Tribunal Supremo",
+        "Reconocida por las Cortes Generales"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 59.2 se refiere al Rey inhabilitado para el ejercicio de su autoridad cuando la imposibilidad fuere «reconocida por las Cortes Generales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-013",
+      "ley": "constitucion",
+      "articulo": "59.3",
+      "enunciado": "Si no hay ninguna persona a quien corresponda la Regencia, las Cortes Generales la nombran y se compone de:",
+      "opciones": [
+        "Una o dos personas",
+        "Tres personas",
+        "Una, tres o cinco personas",
+        "Cinco personas"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 59.3 dice que la Regencia nombrada por las Cortes «se compondrá de una, tres o cinco personas».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-014",
+      "ley": "constitucion",
+      "articulo": "59.4",
+      "enunciado": "¿Qué requisitos exige la Constitución para ejercer la Regencia?",
+      "opciones": [
+        "Ser español de origen y mayor de treinta años",
+        "Ser español y mayor de edad",
+        "Ser miembro de la Familia Real",
+        "Ser español y tener la condición de diputado o senador"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 59.4 dice: «Para ejercer la Regencia es preciso ser español y mayor de edad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-015",
+      "ley": "constitucion",
+      "articulo": "60.1",
+      "enunciado": "¿Quién es tutor del Rey menor en primer lugar?",
+      "opciones": [
+        "La persona nombrada en el testamento del Rey difunto, si es mayor de edad y español de nacimiento",
+        "El Regente, en todo caso, mientras dure la minoría de edad del Rey",
+        "La persona que designe el Consejo de Ministros entre los parientes del Rey",
+        "El Presidente de las Cortes Generales, mientras no se nombre otro tutor"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 60.1 dice: «Será tutor del Rey menor la persona que en su testamento hubiese nombrado el Rey difunto, siempre que sea mayor de edad y español de nacimiento».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-016",
+      "ley": "constitucion",
+      "articulo": "61.1",
+      "enunciado": "El Rey presta juramento de desempeñar fielmente sus funciones y guardar la Constitución:",
+      "opciones": [
+        "Ante el Tribunal Constitucional",
+        "Ante el Consejo de Ministros",
+        "Ante el Congreso de los Diputados, al cumplir la mayoría de edad",
+        "Al ser proclamado ante las Cortes Generales"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 61.1 dice que el Rey, «al ser proclamado ante las Cortes Generales», prestará juramento.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-017",
+      "ley": "constitucion",
+      "articulo": "62.a",
+      "enunciado": "¿Cuál de las siguientes es una función del Rey según el artículo 62 de la Constitución?",
+      "opciones": [
+        "Aprobar los Presupuestos Generales del Estado",
+        "Dirigir la política interior y exterior",
+        "Sancionar y promulgar las leyes",
+        "Dictar decretos-leyes"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 62.a) atribuye al Rey «Sancionar y promulgar las leyes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-018",
+      "ley": "constitucion",
+      "articulo": "62.f",
+      "enunciado": "Según el artículo 62.f), corresponde al Rey expedir los decretos:",
+      "opciones": [
+        "Del Presidente del Gobierno",
+        "Acordados en el Consejo de Ministros",
+        "Aprobados por las Cortes Generales",
+        "Propuestos por el Consejo de Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 62.f) atribuye al Rey «Expedir los decretos acordados en el Consejo de Ministros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-019",
+      "ley": "constitucion",
+      "articulo": "62.i",
+      "enunciado": "Respecto al derecho de gracia, la Constitución establece que el Rey lo ejerce:",
+      "opciones": [
+        "Con arreglo a la ley, que no puede autorizar indultos generales",
+        "Libremente, sin necesidad de refrendo",
+        "Con arreglo a la ley, que puede autorizar indultos generales",
+        "Previa autorización del Tribunal Supremo"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 62.i) atribuye al Rey «Ejercer el derecho de gracia con arreglo a la ley, que no podrá autorizar indultos generales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-020",
+      "ley": "constitucion",
+      "articulo": "62.h",
+      "enunciado": "Según la Constitución, ¿a quién corresponde el mando supremo de las Fuerzas Armadas?",
+      "opciones": [
+        "Al Presidente del Gobierno",
+        "Al Ministro de Defensa",
+        "Al Jefe de Estado Mayor de la Defensa",
+        "Al Rey"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 62.h) atribuye al Rey «El mando supremo de las Fuerzas Armadas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-021",
+      "ley": "constitucion",
+      "articulo": "62.j",
+      "enunciado": "¿Qué patronazgo atribuye la Constitución al Rey?",
+      "opciones": [
+        "El Patronazgo de las universidades públicas",
+        "El Alto Patronazgo de la Iglesia católica",
+        "El Alto Patronazgo de las Reales Academias",
+        "El Patronazgo del Patrimonio Nacional"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 62.j) atribuye al Rey «El Alto Patronazgo de las Reales Academias».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-022",
+      "ley": "constitucion",
+      "articulo": "63.1",
+      "enunciado": "Según el artículo 63.1 de la Constitución, el Rey:",
+      "opciones": [
+        "Nombra a los embajadores sin refrendo",
+        "Acredita a los embajadores y otros representantes diplomáticos",
+        "Firma los tratados internacionales sin intervención de las Cortes",
+        "Dirige el servicio exterior del Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 63.1 dice: «El Rey acredita a los embajadores y otros representantes diplomáticos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-023",
+      "ley": "constitucion",
+      "articulo": "63.3",
+      "enunciado": "Declarar la guerra y hacer la paz corresponde:",
+      "opciones": [
+        "Al Rey, previa autorización de las Cortes Generales",
+        "Al Gobierno, previa autorización del Congreso",
+        "Al Rey, a propuesta del Consejo de Defensa Nacional",
+        "A las Cortes Generales en sesión conjunta"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 63.3 dice: «Al Rey corresponde, previa autorización de las Cortes Generales, declarar la guerra y hacer la paz».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-024",
+      "ley": "constitucion",
+      "articulo": "64.2",
+      "enunciado": "¿Quién responde de los actos del Rey?",
+      "opciones": [
+        "El propio Rey ante las Cortes",
+        "El Consejo de Estado",
+        "El Jefe de la Casa del Rey",
+        "Las personas que los refrenden"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 64.2 dice: «De los actos del Rey serán responsables las personas que los refrenden».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-025",
+      "ley": "constitucion",
+      "articulo": "65.1",
+      "enunciado": "Respecto a la cantidad que recibe el Rey de los Presupuestos del Estado para el sostenimiento de su Familia y Casa:",
+      "opciones": [
+        "La distribuye el Ministerio de Hacienda",
+        "La distribuye el Gobierno con control de las Cortes",
+        "La distribuye libremente",
+        "Debe justificarla ante el Tribunal de Cuentas partida por partida"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 65.1 dice que el Rey recibe una cantidad global «para el sostenimiento de su Familia y Casa, y distribuye libremente la misma».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    },
+    {
+      "id": "cor-026",
+      "ley": "constitucion",
+      "articulo": "65.2",
+      "enunciado": "Los miembros civiles y militares de la Casa del Rey son nombrados y relevados:",
+      "opciones": [
+        "Por el Consejo de Ministros",
+        "Libremente por el Rey",
+        "Por el Presidente del Gobierno, con refrendo del Rey",
+        "Por el Ministro de la Presidencia"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 65.2 dice: «El Rey nombra y releva libremente a los miembros civiles y militares de su Casa».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "descripcion": "Gobierno: Constitución (Títulos IV y V) y Ley 50/1997. Lote generado el 2026-10-12; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "gob-001",
+      "ley": "constitucion",
+      "articulo": "97",
+      "enunciado": "Según el artículo 97 de la Constitución, el Gobierno dirige:",
+      "opciones": [
+        "La política exterior y la defensa, pero no la Administración militar",
+        "La política interior y la Administración civil, bajo la dirección del Rey",
+        "La política interior y exterior, la Administración civil y militar y la defensa del Estado",
+        "La política legislativa y presupuestaria del Estado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 97 dice: «El Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-002",
+      "ley": "constitucion",
+      "articulo": "98.1",
+      "enunciado": "Según la Constitución, el Gobierno se compone:",
+      "opciones": [
+        "Del Presidente y de los Ministros, exclusivamente",
+        "Del Presidente, de los Vicepresidentes en su caso, de los Ministros y de los demás miembros que establezca la ley",
+        "Del Presidente, los Ministros y los Secretarios de Estado",
+        "Del Presidente, los Vicepresidentes, los Ministros y los Subsecretarios"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 98.1 dice: «El Gobierno se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-003",
+      "ley": "constitucion",
+      "articulo": "98.3",
+      "enunciado": "Los miembros del Gobierno:",
+      "opciones": [
+        "No pueden ejercer otras funciones representativas que las propias del mandato parlamentario",
+        "No pueden ser Diputados ni Senadores",
+        "Pueden ejercer cualquier función representativa",
+        "Pueden ejercer funciones profesionales con autorización del Presidente"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 98.3 dice: «Los miembros del Gobierno no podrán ejercer otras funciones representativas que las propias del mandato parlamentario».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-004",
+      "ley": "constitucion",
+      "articulo": "99.1",
+      "enunciado": "Antes de proponer un candidato a la Presidencia del Gobierno, el Rey consulta:",
+      "opciones": [
+        "Con el Consejo de Estado y con los Presidentes de ambas Cámaras",
+        "Con los Presidentes de las Comunidades Autónomas y de las Ciudades Autónomas",
+        "Con el Presidente del Senado y con el Presidente del Tribunal Constitucional",
+        "Con los representantes designados por los Grupos políticos con representación parlamentaria"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 99.1 dice que el Rey propone un candidato «previa consulta con los representantes designados por los Grupos políticos con representación parlamentaria».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-005",
+      "ley": "constitucion",
+      "articulo": "101.1",
+      "enunciado": "¿Cuál de las siguientes NO es causa de cese del Gobierno según el artículo 101.1?",
+      "opciones": [
+        "La celebración de elecciones generales",
+        "La pérdida de la confianza parlamentaria",
+        "La dimisión de un Vicepresidente",
+        "El fallecimiento de su Presidente"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 101.1 dice: «El Gobierno cesa tras la celebración de elecciones generales, en los casos de pérdida de la confianza parlamentaria previstos en la Constitución, o por dimisión o fallecimiento de su Presidente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-006",
+      "ley": "constitucion",
+      "articulo": "102.1",
+      "enunciado": "La responsabilidad criminal del Presidente y los demás miembros del Gobierno es exigible ante:",
+      "opciones": [
+        "El Tribunal Constitucional",
+        "La Sala de lo Penal del Tribunal Supremo",
+        "La Audiencia Nacional",
+        "El Congreso de los Diputados"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 102.1 dice que esa responsabilidad «será exigible, en su caso, ante la Sala de lo Penal del Tribunal Supremo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-007",
+      "ley": "constitucion",
+      "articulo": "102.2",
+      "enunciado": "Si la acusación contra un miembro del Gobierno es por traición o delito contra la seguridad del Estado, solo puede plantearse:",
+      "opciones": [
+        "A iniciativa de la cuarta parte de los miembros del Congreso y con la aprobación de su mayoría absoluta",
+        "A iniciativa de la décima parte del Congreso y con mayoría simple",
+        "A iniciativa del Fiscal General del Estado",
+        "A iniciativa de la tercera parte del Senado y con mayoría absoluta"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 102.2 dice que solo podrá ser planteada «por iniciativa de la cuarta parte de los miembros del Congreso, y con la aprobación de la mayoría absoluta del mismo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-008",
+      "ley": "constitucion",
+      "articulo": "102.3",
+      "enunciado": "¿Puede aplicarse la prerrogativa real de gracia a la responsabilidad criminal de los miembros del Gobierno?",
+      "opciones": [
+        "Sí, con autorización de las Cortes",
+        "Sí, salvo en delitos de traición",
+        "Sí, si lo propone el Consejo de Ministros",
+        "No, en ningún supuesto del artículo 102"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 102.3 dice: «La prerrogativa real de gracia no será aplicable a ninguno de los supuestos del presente artículo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-009",
+      "ley": "constitucion",
+      "articulo": "108",
+      "enunciado": "El Gobierno responde solidariamente en su gestión política ante:",
+      "opciones": [
+        "Las Cortes Generales en sesión conjunta",
+        "El Senado",
+        "El Congreso de los Diputados",
+        "El Rey"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 108 dice: «El Gobierno responde solidariamente en su gestión política ante el Congreso de los Diputados».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-010",
+      "ley": "constitucion",
+      "articulo": "112",
+      "enunciado": "En la cuestión de confianza, la confianza se entiende otorgada cuando vota a favor:",
+      "opciones": [
+        "La mayoría absoluta de los Diputados",
+        "La mayoría simple de los Diputados",
+        "Tres quintos de los Diputados",
+        "La mayoría absoluta de cada Cámara"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 112 dice: «La confianza se entenderá otorgada cuando vote a favor de la misma la mayoría simple de los Diputados».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-011",
+      "ley": "constitucion",
+      "articulo": "113.2",
+      "enunciado": "La moción de censura debe ser propuesta al menos por:",
+      "opciones": [
+        "La décima parte de los Diputados, e incluir un candidato a la Presidencia",
+        "La quinta parte de los Diputados, sin necesidad de candidato",
+        "La décima parte de los Diputados, sin necesidad de candidato",
+        "Dos grupos parlamentarios, con un candidato"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 113.2 dice que la moción «deberá ser propuesta al menos por la décima parte de los Diputados, y habrá de incluir un candidato a la Presidencia del Gobierno».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-012",
+      "ley": "constitucion",
+      "articulo": "113.4",
+      "enunciado": "Si la moción de censura no es aprobada, sus signatarios:",
+      "opciones": [
+        "No pueden presentar otra durante un año",
+        "No pueden presentar otra en toda la legislatura",
+        "Pueden presentar otra pasados tres meses",
+        "No pueden presentar otra durante el mismo período de sesiones"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 113.4 dice: «Si la moción de censura no fuere aprobada por el Congreso, sus signatarios no podrán presentar otra durante el mismo período de sesiones».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-013",
+      "ley": "constitucion",
+      "articulo": "115.3",
+      "enunciado": "Tras una disolución de las Cámaras, ¿cuándo puede acordarse una nueva disolución por el procedimiento del artículo 115?",
+      "opciones": [
+        "Cuando transcurran seis meses desde la anterior",
+        "Cuando transcurran dos años desde la anterior",
+        "Cuando transcurra un año desde la anterior",
+        "En cualquier momento"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 115.3 dice: «No procederá nueva disolución antes de que transcurra un año desde la anterior», salvo lo dispuesto en el artículo 99.5.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-014",
+      "ley": "constitucion",
+      "articulo": "116.2",
+      "enunciado": "El estado de alarma lo declara el Gobierno por un plazo máximo de:",
+      "opciones": [
+        "Treinta días",
+        "Quince días",
+        "Diez días",
+        "Sesenta días"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 116.2 dice que el estado de alarma se declara «por un plazo máximo de quince días», dando cuenta al Congreso.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-015",
+      "ley": "constitucion",
+      "articulo": "116.3",
+      "enunciado": "El estado de excepción no puede exceder de:",
+      "opciones": [
+        "Treinta días, prorrogable por otro plazo igual",
+        "Quince días, prorrogable por otro plazo igual",
+        "Sesenta días, sin prórroga",
+        "Treinta días, sin prórroga"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 116.3 dice que su duración «no podrá exceder de treinta días, prorrogables por otro plazo igual».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-016",
+      "ley": "ley-50-1997",
+      "articulo": "1.2",
+      "enunciado": "Según la Ley 50/1997, del Gobierno, este se compone:",
+      "opciones": [
+        "Del Presidente, los Ministros y los Secretarios de Estado",
+        "Del Presidente y de los Ministros, exclusivamente",
+        "Del Presidente, los Vicepresidentes, los Ministros y los Subsecretarios",
+        "Del Presidente, del Vicepresidente o Vicepresidentes en su caso, y de los Ministros"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 1.2 de la Ley 50/1997 dice: «El Gobierno se compone del Presidente, del Vicepresidente o Vicepresidentes, en su caso, y de los Ministros».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-017",
+      "ley": "ley-50-1997",
+      "articulo": "5.3",
+      "enunciado": "Según la Ley del Gobierno, las deliberaciones del Consejo de Ministros:",
+      "opciones": [
+        "Son públicas",
+        "Se publican en el BOE",
+        "Son secretas",
+        "Son públicas salvo que el Presidente acuerde lo contrario"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 5.3 de la Ley 50/1997 dice: «Las deliberaciones del Consejo de Ministros serán secretas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-018",
+      "ley": "ley-50-1997",
+      "articulo": "6.2",
+      "enunciado": "La creación, modificación y supresión de las Comisiones Delegadas del Gobierno se acuerda:",
+      "opciones": [
+        "Por Real Decreto del Presidente del Gobierno, sin intervención del Consejo de Ministros",
+        "Por el Consejo de Ministros mediante Real Decreto, a propuesta del Presidente del Gobierno",
+        "Por ley de las Cortes Generales",
+        "Por orden del Ministro de la Presidencia"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 6.2 de la Ley 50/1997 dice que la creación, modificación y supresión de las Comisiones Delegadas «será acordada por el Consejo de Ministros mediante Real Decreto, a propuesta del Presidente del Gobierno».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-019",
+      "ley": "ley-50-1997",
+      "articulo": "11",
+      "enunciado": "Para ser miembro del Gobierno, la Ley 50/1997 exige:",
+      "opciones": [
+        "Ser español, mayor de edad, disfrutar de los derechos de sufragio activo y pasivo y no estar inhabilitado",
+        "Ser español de origen, mayor de veinticinco años y tener la condición de diputado",
+        "Ser español, mayor de edad y funcionario de carrera de cualquier Administración",
+        "Ser mayor de edad, residir en España y tener reconocida experiencia profesional"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 11 de la Ley 50/1997 exige «ser español, mayor de edad, disfrutar de los derechos de sufragio activo y pasivo», así como no estar inhabilitado para ejercer empleo o cargo público por sentencia judicial firme.",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-020",
+      "ley": "ley-50-1997",
+      "articulo": "13.1",
+      "enunciado": "En caso de vacante, ausencia o enfermedad, las funciones del Presidente del Gobierno las asumen:",
+      "opciones": [
+        "El Ministro de la Presidencia, en todo caso y sin orden de prelación",
+        "El Presidente del Congreso de los Diputados, hasta que se nombre nuevo Presidente",
+        "El Ministro de mayor edad y, en su defecto, el de mayor antigüedad en el cargo",
+        "Los Vicepresidentes por su orden y, en su defecto, los Ministros según el orden de precedencia de los Departamentos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 13.1 de la Ley 50/1997 dice que las funciones del Presidente «serán asumidas por los Vicepresidentes, de acuerdo con el correspondiente orden de prelación, y, en defecto de ellos, por los Ministros, según el orden de precedencia de los Departamentos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-021",
+      "ley": "ley-50-1997",
+      "articulo": "21.3",
+      "enunciado": "El Gobierno en funciones:",
+      "opciones": [
+        "Puede ejercer todas sus competencias sin limitación",
+        "Solo puede adoptar medidas en estado de alarma",
+        "Limita su gestión al despacho ordinario de los asuntos públicos",
+        "Pierde todas sus competencias hasta la toma de posesión del nuevo Gobierno"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 21.3 de la Ley 50/1997 dice: que el Gobierno en funciones «limitará su gestión al despacho ordinario de los asuntos públicos», salvo casos de urgencia o interés general acreditados.",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-022",
+      "ley": "ley-50-1997",
+      "articulo": "21.4",
+      "enunciado": "¿Cuál de las siguientes facultades NO puede ejercer el Presidente del Gobierno en funciones?",
+      "opciones": [
+        "Despachar los asuntos ordinarios que correspondan a la Presidencia del Gobierno",
+        "Proponer al Rey la disolución de alguna de las Cámaras o de las Cortes Generales",
+        "Adoptar medidas urgentes debidamente acreditadas por razones de interés general",
+        "Asistir a reuniones internacionales en representación del Gobierno de España"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 21.4 de la Ley 50/1997 prohíbe al Presidente en funciones, entre otras cosas, «Proponer al Rey la disolución de alguna de las Cámaras, o de las Cortes Generales».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-023",
+      "ley": "ley-50-1997",
+      "articulo": "24.1",
+      "enunciado": "Las decisiones que aprueben normas reglamentarias de la competencia del Consejo de Ministros adoptan la forma de:",
+      "opciones": [
+        "Reales Decretos acordados en Consejo de Ministros",
+        "Reales Decretos del Presidente del Gobierno",
+        "Órdenes ministeriales",
+        "Acuerdos del Consejo de Ministros"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 24.1 de la Ley 50/1997 dice que adoptarán la forma de «Reales Decretos acordados en Consejo de Ministros» las decisiones que aprueben normas reglamentarias de su competencia.",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gob-024",
+      "ley": "constitucion",
+      "articulo": "103.1",
+      "enunciado": "La Administración Pública sirve con objetividad los intereses generales y actúa de acuerdo con los principios de:",
+      "opciones": [
+        "Eficacia, autonomía, descentralización y cooperación",
+        "Legalidad, jerarquía, centralización y coordinación",
+        "Eficiencia, jerarquía, solidaridad y colaboración",
+        "Eficacia, jerarquía, descentralización, desconcentración y coordinación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 103.1 dice que la Administración actúa «de acuerdo con los principios de eficacia, jerarquía, descentralización, desconcentración y coordinación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    }
+  ]
+}

@@ -390,13 +390,13 @@
         "Con rango de Subsecretario, que dependen orgánicamente del Presidente del Gobierno",
         "Con rango de Secretario de Estado, que dependen del Ministro del Interior",
         "Con rango de Director general, que dependen del Presidente del Gobierno",
-        "Con rango de Subsecretario, que dependen orgánicamente del Ministro de Hacienda"
+        "Con rango de Secretario general, que dependen orgánicamente del Consejo de Ministros"
       ],
       "correcta": 0,
       "explicacion": "El artículo 72.3 dice que son «órganos directivos con rango de Subsecretario que dependen orgánicamente del Presidente del Gobierno» y funcionalmente del Ministerio competente por razón de la materia.",
       "dificultad": 2,
       "fecha_version_boe": "2024-08-22",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "aux-age": 8
       }

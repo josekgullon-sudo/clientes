@@ -1,0 +1,585 @@
+{
+  "descripcion": "Constitución, Título III (Cortes Generales). Lote generado el 2026-10-12; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "cg-001",
+      "ley": "constitucion",
+      "articulo": "66.1",
+      "enunciado": "Según el artículo 66.1 de la Constitución, las Cortes Generales:",
+      "opciones": [
+        "Representan a las Comunidades Autónomas y están formadas por el Congreso y el Senado",
+        "Representan al pueblo español y están formadas por el Congreso de los Diputados y el Senado",
+        "Son la sede de la soberanía nacional y están formadas por el Congreso",
+        "Representan al Estado y están formadas por el Congreso, el Senado y el Gobierno"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 66.1 dice: «Las Cortes Generales representan al pueblo español y están formadas por el Congreso de los Diputados y el Senado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-002",
+      "ley": "constitucion",
+      "articulo": "66.3",
+      "enunciado": "Según la Constitución, las Cortes Generales son:",
+      "opciones": [
+        "Inviolables",
+        "Irresponsables",
+        "Indisolubles",
+        "Soberanas"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 66.3 dice: «Las Cortes Generales son inviolables».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-003",
+      "ley": "constitucion",
+      "articulo": "67.1",
+      "enunciado": "¿Puede una persona ser miembro de las dos Cámaras a la vez?",
+      "opciones": [
+        "Sí, si lo autoriza la Mesa de cada Cámara",
+        "Sí, si es senador de designación autonómica",
+        "Solo durante el primer mes de la legislatura",
+        "No, nadie puede ser miembro de las dos Cámaras simultáneamente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 67.1 dice: «Nadie podrá ser miembro de las dos Cámaras simultáneamente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-004",
+      "ley": "constitucion",
+      "articulo": "67.2",
+      "enunciado": "Los miembros de las Cortes Generales:",
+      "opciones": [
+        "Están ligados por mandato imperativo de su partido",
+        "Están ligados por las instrucciones de su grupo parlamentario",
+        "No están ligados por mandato imperativo",
+        "Están ligados por el programa electoral registrado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 67.2 dice: «Los miembros de las Cortes Generales no estarán ligados por mandato imperativo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-005",
+      "ley": "constitucion",
+      "articulo": "68.2",
+      "enunciado": "En las elecciones al Congreso, la circunscripción electoral es:",
+      "opciones": [
+        "La Comunidad Autónoma",
+        "La provincia",
+        "El municipio",
+        "El partido judicial"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 68.2 dice: «La circunscripción electoral es la provincia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-006",
+      "ley": "constitucion",
+      "articulo": "68.2",
+      "enunciado": "¿Cuántos Diputados corresponden a Ceuta y a Melilla?",
+      "opciones": [
+        "Uno a cada una",
+        "Dos a cada una",
+        "Uno para las dos",
+        "Tres a cada una"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 68.2 dice: «Las poblaciones de Ceuta y Melilla estarán representadas cada una de ellas por un Diputado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-007",
+      "ley": "constitucion",
+      "articulo": "68.6",
+      "enunciado": "Las elecciones al Congreso tienen lugar, desde la terminación del mandato:",
+      "opciones": [
+        "Entre los quince y los cuarenta y cinco días",
+        "Entre los treinta y los cuarenta y cinco días",
+        "Entre los sesenta y los noventa días",
+        "Entre los treinta y los sesenta días"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 68.6 dice: «Las elecciones tendrán lugar entre los treinta días y sesenta días desde la terminación del mandato».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-008",
+      "ley": "constitucion",
+      "articulo": "68.6",
+      "enunciado": "El Congreso electo debe ser convocado dentro de los siguientes días a la celebración de las elecciones:",
+      "opciones": [
+        "Quince",
+        "Treinta",
+        "Veinticinco",
+        "Cuarenta y cinco"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 68.6 dice: «El Congreso electo deberá ser convocado dentro de los veinticinco días siguientes a la celebración de las elecciones».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-009",
+      "ley": "constitucion",
+      "articulo": "69.4",
+      "enunciado": "¿Cuántos Senadores eligen Ceuta y Melilla?",
+      "opciones": [
+        "Uno cada una",
+        "Dos cada una",
+        "Cuatro cada una",
+        "Tres cada una"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 69.4 dice: «Las poblaciones de Ceuta y Melilla elegirán cada una de ellas dos Senadores».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-010",
+      "ley": "constitucion",
+      "articulo": "69.5",
+      "enunciado": "Las Comunidades Autónomas designan:",
+      "opciones": [
+        "Un Senador y otro más por cada millón de habitantes de su territorio",
+        "Dos Senadores y otro más por cada millón de habitantes",
+        "Un Senador por cada provincia de su territorio",
+        "Un Senador por cada quinientos mil habitantes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 69.5 dice que las Comunidades Autónomas designarán «un Senador y otro más por cada millón de habitantes de su respectivo territorio».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-011",
+      "ley": "constitucion",
+      "articulo": "71.1",
+      "enunciado": "Los Diputados y Senadores gozan de inviolabilidad:",
+      "opciones": [
+        "Por cualquier acto realizado durante su mandato",
+        "Por las opiniones manifestadas en cualquier ámbito",
+        "Solo durante los periodos de sesiones",
+        "Por las opiniones manifestadas en el ejercicio de sus funciones"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 71.1 dice que «gozarán de inviolabilidad por las opiniones manifestadas en el ejercicio de sus funciones».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-012",
+      "ley": "constitucion",
+      "articulo": "71.3",
+      "enunciado": "En las causas contra Diputados y Senadores es competente:",
+      "opciones": [
+        "El Tribunal Constitucional",
+        "La Audiencia Nacional",
+        "La Sala de lo Penal del Tribunal Supremo",
+        "El Tribunal Superior de Justicia de su Comunidad"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 71.3 dice: «En las causas contra Diputados y Senadores será competente la Sala de lo Penal del Tribunal Supremo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-013",
+      "ley": "constitucion",
+      "articulo": "71.2",
+      "enunciado": "Durante su mandato, los Diputados y Senadores solo pueden ser detenidos:",
+      "opciones": [
+        "Con autorización del Tribunal Supremo",
+        "En caso de flagrante delito",
+        "Con autorización del Presidente de su Cámara",
+        "En ningún caso"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 71.2 dice que gozarán de inmunidad y «sólo podrán ser detenidos en caso de flagrante delito».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-014",
+      "ley": "constitucion",
+      "articulo": "72.2",
+      "enunciado": "¿Quién elige a los Presidentes de las Cámaras y a los demás miembros de sus Mesas?",
+      "opciones": [
+        "Las propias Cámaras",
+        "El Rey, a propuesta del Gobierno",
+        "Las Cortes Generales en sesión conjunta",
+        "La Junta de Portavoces"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 72.2 dice: «Las Cámaras eligen sus respectivos Presidentes y los demás miembros de sus Mesas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-015",
+      "ley": "constitucion",
+      "articulo": "73.1",
+      "enunciado": "¿Cuáles son los periodos ordinarios de sesiones de las Cámaras?",
+      "opciones": [
+        "De septiembre a diciembre y de enero a junio",
+        "De octubre a diciembre y de febrero a julio",
+        "De septiembre a enero y de marzo a junio",
+        "De septiembre a diciembre y de febrero a junio"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 73.1 fija dos periodos: «el primero, de septiembre a diciembre, y el segundo, de febrero a junio».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-016",
+      "ley": "constitucion",
+      "articulo": "74.1",
+      "enunciado": "Las Cámaras se reúnen en sesión conjunta para ejercer:",
+      "opciones": [
+        "Las competencias legislativas sobre leyes orgánicas y leyes de bases",
+        "La aprobación de los Presupuestos Generales del Estado de cada ejercicio",
+        "Las competencias no legislativas que el Título II atribuye expresamente a las Cortes Generales",
+        "La investidura del Presidente del Gobierno y la moción de censura"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 74.1 dice: «Las Cámaras se reunirán en sesión conjunta para ejercer las competencias no legislativas que el Título II atribuye expresamente a las Cortes Generales».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-017",
+      "ley": "constitucion",
+      "articulo": "75.3",
+      "enunciado": "¿Cuál de las siguientes materias puede delegarse en las Comisiones Legislativas Permanentes?",
+      "opciones": [
+        "La reforma constitucional",
+        "Una ley ordinaria sobre una materia no excluida",
+        "Las leyes orgánicas y de bases",
+        "Los Presupuestos Generales del Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 75.3 excluye de la delegación en comisiones «la reforma constitucional, las cuestiones internacionales, las leyes orgánicas y de bases y los Presupuestos Generales del Estado».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-018",
+      "ley": "constitucion",
+      "articulo": "76.1",
+      "enunciado": "Las conclusiones de las Comisiones de investigación:",
+      "opciones": [
+        "No son vinculantes para los Tribunales",
+        "Son vinculantes para los Tribunales",
+        "Tienen fuerza de cosa juzgada",
+        "Solo vinculan al Gobierno"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 76.1 dice que sus conclusiones «no serán vinculantes para los Tribunales», sin perjuicio de su comunicación al Ministerio Fiscal.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-019",
+      "ley": "constitucion",
+      "articulo": "79.3",
+      "enunciado": "Según la Constitución, el voto de Senadores y Diputados es:",
+      "opciones": [
+        "Personal y delegable en su grupo",
+        "Secreto en todo caso",
+        "Delegable en otro miembro de la Cámara",
+        "Personal e indelegable"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 79.3 dice: «El voto de Senadores y Diputados es personal e indelegable».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-020",
+      "ley": "constitucion",
+      "articulo": "85",
+      "enunciado": "Las disposiciones del Gobierno que contienen legislación delegada reciben el título de:",
+      "opciones": [
+        "Decretos-leyes",
+        "Reales Decretos",
+        "Decretos Legislativos",
+        "Leyes de bases"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 85 dice: «Las disposiciones del Gobierno que contengan legislación delegada recibirán el título de Decretos Legislativos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-021",
+      "ley": "constitucion",
+      "articulo": "87.3",
+      "enunciado": "¿Cuántas firmas acreditadas exige como mínimo la iniciativa legislativa popular?",
+      "opciones": [
+        "100.000",
+        "500.000",
+        "250.000",
+        "1.000.000"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 87.3 exige para la iniciativa popular «no menos de 500.000 firmas acreditadas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-022",
+      "ley": "constitucion",
+      "articulo": "90.2",
+      "enunciado": "Para que el Senado oponga su veto a un proyecto de ley, se requiere:",
+      "opciones": [
+        "Mayoría absoluta",
+        "Mayoría simple",
+        "Mayoría de tres quintos",
+        "Mayoría de dos tercios"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 90.2 dice: «El veto deberá ser aprobado por mayoría absoluta».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-023",
+      "ley": "constitucion",
+      "articulo": "91",
+      "enunciado": "¿En qué plazo sanciona el Rey las leyes aprobadas por las Cortes Generales?",
+      "opciones": [
+        "Diez días",
+        "Treinta días",
+        "Un mes",
+        "Quince días"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 91 dice: «El Rey sancionará en el plazo de quince días las leyes aprobadas por las Cortes Generales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-024",
+      "ley": "constitucion",
+      "articulo": "92.1",
+      "enunciado": "Las decisiones políticas de especial trascendencia pueden someterse a:",
+      "opciones": [
+        "Referéndum vinculante de todos los ciudadanos",
+        "Consulta a las Comunidades Autónomas",
+        "Referéndum consultivo de todos los ciudadanos",
+        "Votación de las Cortes Generales en sesión conjunta"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 92.1 dice: «Las decisiones políticas de especial trascendencia podrán ser sometidas a referéndum consultivo de todos los ciudadanos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-025",
+      "ley": "constitucion",
+      "articulo": "93",
+      "enunciado": "La celebración de tratados que atribuyen a una organización internacional el ejercicio de competencias derivadas de la Constitución se autoriza:",
+      "opciones": [
+        "Mediante ley ordinaria",
+        "Mediante ley orgánica",
+        "Por acuerdo del Consejo de Ministros",
+        "Por mayoría de tres quintos de cada Cámara"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 93 dice: «Mediante ley orgánica se podrá autorizar la celebración de tratados por los que se atribuya a una organización o institución internacional el ejercicio de competencias derivadas de la Constitución».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "cg-026",
+      "ley": "constitucion",
+      "articulo": "86.1",
+      "enunciado": "Los decretos-leyes NO pueden afectar a:",
+      "opciones": [
+        "El ordenamiento de las instituciones básicas del Estado",
+        "La regulación de los tributos en general",
+        "La organización de los Ministerios",
+        "La política económica del Gobierno"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 86.1 dice que los decretos-leyes «no podrán afectar al ordenamiento de las instituciones básicas del Estado», a los derechos del Título I, al régimen de las Comunidades Autónomas ni al Derecho electoral general.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "ce-031",
+      "ley": "constitucion",
+      "articulo": "69.3",
+      "enunciado": "Tras la reforma constitucional de 19 de mayo de 2026, ¿cuántos senadores elige la isla de Formentera?",
+      "opciones": [
+        "Ninguno, porque comparte circunscripción con Ibiza",
+        "Uno",
+        "Dos",
+        "Tres"
+      ],
+      "correcta": 1,
+      "explicacion": "La reforma de 2026 modificó el artículo 69.3, que ahora atribuye un senador «a cada una de las siguientes islas: Ibiza, Formentera, Menorca, Fuerteventura, La Gomera, El Hierro, Lanzarote y La Palma».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "ce-032",
+      "ley": "constitucion",
+      "articulo": "69.3",
+      "enunciado": "Según el artículo 69.3 de la Constitución, ¿qué islas eligen tres senadores cada una?",
+      "opciones": [
+        "Gran Canaria, Mallorca y Tenerife",
+        "Gran Canaria, Mallorca y Lanzarote",
+        "Mallorca, Menorca y Tenerife",
+        "Tenerife, Gran Canaria e Ibiza"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 69.3 dice que corresponden «tres a cada una de las islas mayores» (Gran Canaria, Mallorca y Tenerife) y uno a cada una de las demás islas con Cabildo o Consejo Insular.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 3
+      }
+    },
+    {
+      "id": "ce-033",
+      "ley": "constitucion",
+      "articulo": "69.3",
+      "enunciado": "La creación de las circunscripciones separadas de Ibiza y Formentera por la reforma constitucional de mayo de 2026 surte efecto:",
+      "opciones": [
+        "Desde el día siguiente a la publicación de la reforma en el BOE",
+        "Tras el referéndum de ratificación",
+        "Cuando lo determine la Ley Orgánica del Régimen Electoral General",
+        "En las primeras elecciones al Senado convocadas tras la entrada en vigor de la reforma"
+      ],
+      "correcta": 3,
+      "explicacion": "La nota del BOE al artículo 69.3 recoge la disposición transitoria única: «La eficacia de la creación de las circunscripciones electorales de Ibiza y Formentera quedará pospuesta hasta la convocatoria de las primeras elecciones al Senado que se celebren tras la entrada en vigor de la citada Reforma».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 3
+      }
+    }
+  ]
+}

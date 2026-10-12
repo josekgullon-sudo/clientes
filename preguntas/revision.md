@@ -24,7 +24,7 @@ Ninguna por ahora.
 
 ### Lotes del 2026-10-12 (Ley 40/2015, TREBEP y art. 69.3 CE)
 
-- **l40-040** (`ley40-art3-84.json`, art. 72.3): un distractor dice que los Delegados del Gobierno
+- ~~**l40-040**~~ Resuelta el 2026-10-12: se cambió el distractor y está validada. (Antes: art. 72.3): un distractor dice que los Delegados del Gobierno
   dependen orgánicamente del Ministro de Hacienda. El art. 69.3 del texto consolidado sigue
   adscribiendo las Delegaciones al «Ministerio de Hacienda y Administraciones Públicas» (nombre
   antiguo), así que la opción puede confundir. Hay que cambiar ese distractor.
@@ -36,3 +36,15 @@ Ninguna por ahora.
   art. 49; hay que actualizar la fuente después de esa fecha.
 - Los textos consolidados mantienen algunos nombres de ministerios antiguos («Ministerio de Hacienda
   y Administraciones Públicas»). Evita preguntar por ministerios concretos.
+
+### Lotes del 2026-10-12 (bloque I: Corona, Cortes, Gobierno, protección de datos, igualdad)
+
+- Fuentes nuevas: `ley-50-1997.txt`, `lo-3-2018.txt`, `lo-3-2007.txt`, `lo-1-2004.txt`.
+- **Unión Europea (tema 10)**: sin lote. El BOE no ofrece texto consolidado del TUE ni del TFUE en
+  su API de legislación consolidada. Hay que usar la versión consolidada de EUR-Lex.
+- **gob-** y **ig-**: el texto consolidado de algunas leyes mantiene nombres antiguos de ministerios
+  (p. ej. el Observatorio Estatal, «adscrito al Ministerio de Trabajo y Asuntos Sociales»). Las
+  preguntas evitan preguntar por el ministerio de adscripción.
+- Las 3 preguntas del art. 69.3 (ce-031 a ce-033) pasan de `constitucion-arranque-art1-167.json`
+  a `constitucion-cortes-art66-96.json`, y el lote de arranque vuelve a tener 30. Partirlo en dos
+  dejaba dos lotes por debajo del mínimo de 20.

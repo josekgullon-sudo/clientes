@@ -1,0 +1,445 @@
+{
+  "descripcion": "Igualdad: LO 3/2007 y LO 1/2004. Lote generado el 2026-10-12; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "ig-001",
+      "ley": "lo-3-2007",
+      "articulo": "1.1",
+      "enunciado": "El objeto de la LO 3/2007 es:",
+      "opciones": [
+        "Regular la violencia de género en el ámbito familiar y de la pareja",
+        "Hacer efectivo el derecho de igualdad de trato y de oportunidades entre mujeres y hombres",
+        "Regular los permisos por nacimiento y cuidado de menor de las personas trabajadoras",
+        "Crear el Ministerio de Igualdad y fijar su estructura orgánica básica"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 1.1 dice que la ley tiene por objeto «hacer efectivo el derecho de igualdad de trato y de oportunidades entre mujeres y hombres».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-002",
+      "ley": "lo-3-2007",
+      "articulo": "3",
+      "enunciado": "Según la LO 3/2007, el principio de igualdad de trato entre mujeres y hombres supone:",
+      "opciones": [
+        "La ausencia de toda discriminación, directa o indirecta, por razón de sexo",
+        "La prohibición de cualquier acción positiva",
+        "La paridad obligatoria en todos los órganos privados",
+        "La igualdad salarial, exclusivamente"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 3 dice que este principio «supone la ausencia de toda discriminación, directa o indirecta, por razón de sexo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-003",
+      "ley": "lo-3-2007",
+      "articulo": "6.1",
+      "enunciado": "La LO 3/2007 define la discriminación directa por razón de sexo como la situación de una persona que sea, haya sido o pudiera ser tratada, en atención a su sexo:",
+      "opciones": [
+        "De forma neutra pero con efectos desfavorables",
+        "Mediante una disposición aparentemente neutra",
+        "De manera diferente, aunque esté justificado objetivamente",
+        "De manera menos favorable que otra en situación comparable"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 6.1 la define como la situación de quien sea tratada, en atención a su sexo, «de manera menos favorable que otra en situación comparable».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-004",
+      "ley": "lo-3-2007",
+      "articulo": "7.1",
+      "enunciado": "Según la LO 3/2007, constituye acoso sexual:",
+      "opciones": [
+        "Cualquier comportamiento realizado en función del sexo de una persona",
+        "Cualquier trato desfavorable relacionado con el embarazo",
+        "Cualquier comportamiento, verbal o físico, de naturaleza sexual que atente contra la dignidad de una persona",
+        "Cualquier disposición aparentemente neutra que perjudique a un sexo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 7.1 define el acoso sexual como «cualquier comportamiento, verbal o físico, de naturaleza sexual que tenga el propósito o produzca el efecto de atentar contra la dignidad de una persona».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-005",
+      "ley": "lo-3-2007",
+      "articulo": "8",
+      "enunciado": "Todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad constituye:",
+      "opciones": [
+        "Discriminación indirecta por razón de sexo",
+        "Discriminación directa por razón de sexo",
+        "Acoso por razón de sexo",
+        "Una acción positiva"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 8 dice: «Constituye discriminación directa por razón de sexo todo trato desfavorable a las mujeres relacionado con el embarazo o la maternidad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-006",
+      "ley": "lo-3-2007",
+      "articulo": "11.1",
+      "enunciado": "Según la LO 3/2007, las acciones positivas son:",
+      "opciones": [
+        "Medidas específicas en favor de las mujeres para corregir situaciones patentes de desigualdad de hecho",
+        "Medidas permanentes que favorecen a los hombres en sectores masculinizados",
+        "Sanciones a las empresas que discriminan por razón de sexo en la contratación",
+        "Subvenciones generales a las familias con hijos menores a su cargo"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 11.1 habla de adoptar «medidas específicas en favor de las mujeres para corregir situaciones patentes de desigualdad de hecho respecto de los hombres».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-007",
+      "ley": "lo-3-2007",
+      "articulo": "13.1",
+      "enunciado": "En los procedimientos en que se aleguen actuaciones discriminatorias por razón de sexo, la carga de la prueba:",
+      "opciones": [
+        "Corresponde siempre a quien alega la discriminación",
+        "Corresponde al Ministerio Fiscal",
+        "Se reparte por igual entre las partes",
+        "Corresponde a la parte demandada, que debe probar la ausencia de discriminación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 13.1 dice que, aportados indicios, «corresponderá a la persona demandada probar la ausencia de discriminación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-008",
+      "ley": "lo-3-2007",
+      "articulo": "15",
+      "enunciado": "El principio de igualdad de trato y oportunidades entre mujeres y hombres informa la actuación de todos los Poderes Públicos:",
+      "opciones": [
+        "Con carácter subsidiario",
+        "Solo en materia laboral",
+        "Con carácter transversal",
+        "Solo en la Administración General del Estado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 15 dice que este principio «informará, con carácter transversal, la actuación de todos los Poderes Públicos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-009",
+      "ley": "lo-3-2007",
+      "articulo": "19",
+      "enunciado": "Los proyectos de disposiciones de carácter general que se sometan al Consejo de Ministros deben incorporar:",
+      "opciones": [
+        "Un dictamen del Instituto de las Mujeres",
+        "Un informe sobre su impacto por razón de género",
+        "Una autorización del Ministerio de Igualdad",
+        "Un plan de igualdad"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 19 dice que deberán incorporar «un informe sobre su impacto por razón de género».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-010",
+      "ley": "lo-3-2007",
+      "articulo": "45.2",
+      "enunciado": "Según la LO 3/2007, las empresas están obligadas a elaborar y aplicar un plan de igualdad cuando tienen:",
+      "opciones": [
+        "Cincuenta o más trabajadores",
+        "Doscientos cincuenta o más trabajadores",
+        "Cien o más trabajadores",
+        "Veinticinco o más trabajadores"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 45.2 obliga a las empresas «de cincuenta o más trabajadores».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-011",
+      "ley": "lo-3-2007",
+      "articulo": "46.1",
+      "enunciado": "Según la LO 3/2007, los planes de igualdad de las empresas son:",
+      "opciones": [
+        "Un código ético de adhesión voluntaria aprobado por la dirección de la empresa",
+        "Un acuerdo individual firmado con cada trabajadora de la plantilla",
+        "Un informe anual de retribuciones remitido a la Inspección de Trabajo",
+        "Un conjunto ordenado de medidas, adoptadas después de un diagnóstico de situación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 46.1 define los planes de igualdad como «un conjunto ordenado de medidas, adoptadas después de realizar un diagnóstico de situación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-012",
+      "ley": "lo-3-2007",
+      "articulo": "64",
+      "enunciado": "¿Cuándo aprueba el Gobierno el Plan para la Igualdad entre mujeres y hombres en la Administración General del Estado?",
+      "opciones": [
+        "Cada año, con los Presupuestos",
+        "Cada cinco años",
+        "Al inicio de cada legislatura",
+        "Cuando lo solicite el Instituto de las Mujeres"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 64 dice: «El Gobierno aprobará, al inicio de cada legislatura, un Plan para la Igualdad entre mujeres y hombres en la Administración General del Estado».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-013",
+      "ley": "lo-3-2007",
+      "articulo": "77",
+      "enunciado": "Según la LO 3/2007, en todos los Ministerios el desarrollo de las funciones relacionadas con el principio de igualdad se encomienda:",
+      "opciones": [
+        "A una comisión parlamentaria",
+        "A uno de sus órganos directivos",
+        "A la Subsecretaría de Igualdad de cada Ministerio, de nueva creación",
+        "Al Instituto de las Mujeres"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 77 dice: «En todos los Ministerios se encomendará a uno de sus órganos directivos el desarrollo de las funciones relacionadas con el principio de igualdad entre mujeres y hombres».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-014",
+      "ley": "lo-1-2004",
+      "articulo": "1.1",
+      "enunciado": "La LO 1/2004 tiene por objeto actuar contra la violencia ejercida sobre las mujeres por parte de:",
+      "opciones": [
+        "Quienes sean o hayan sido sus cónyuges o estén o hayan estado ligados a ellas por relaciones similares de afectividad",
+        "Cualquier persona, aunque no tenga ni haya tenido relación con la víctima",
+        "Solo sus cónyuges actuales, siempre que exista convivencia en el mismo domicilio",
+        "Sus familiares de primer grado, tanto por consanguinidad como por afinidad"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 1.1 se refiere a la violencia ejercida sobre las mujeres «por parte de quienes sean o hayan sido sus cónyuges o de quienes estén o hayan estado ligados a ellas por relaciones similares de afectividad, aun sin convivencia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2022-10-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-015",
+      "ley": "lo-1-2004",
+      "articulo": "1.3",
+      "enunciado": "La violencia de género a que se refiere la LO 1/2004 comprende:",
+      "opciones": [
+        "Solo la violencia física que cause lesiones que requieran asistencia médica o quirúrgica",
+        "Solo la violencia física y sexual, pero no la psicológica, las amenazas ni las coacciones",
+        "Solo los actos de violencia cometidos en el domicilio familiar y en presencia de menores",
+        "Todo acto de violencia física y psicológica, incluidas agresiones sexuales, amenazas y coacciones"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 1.3 dice que «comprende todo acto de violencia física y psicológica, incluidas las agresiones a la libertad sexual, las amenazas, las coacciones o la privación arbitraria de libertad».",
+      "dificultad": 2,
+      "fecha_version_boe": "2022-10-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-016",
+      "ley": "lo-1-2004",
+      "articulo": "24",
+      "enunciado": "La funcionaria víctima de violencia de género tiene derecho, entre otros, a:",
+      "opciones": [
+        "Una indemnización automática a cargo de la Administración en la que presta servicios",
+        "La jubilación anticipada sin reducción de la pensión que le corresponda",
+        "La reducción o reordenación de su tiempo de trabajo, la movilidad geográfica y la excedencia",
+        "Un ascenso de grado personal y un complemento retributivo específico"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 24 dice: «La funcionaria víctima de violencia de género tendrá derecho a la reducción o a la reordenación de su tiempo de trabajo, a la movilidad geográfica de centro de trabajo y a la excedencia en los términos que se determinen en su legislación específica».",
+      "dificultad": 2,
+      "fecha_version_boe": "2022-10-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-017",
+      "ley": "lo-1-2004",
+      "articulo": "18.1",
+      "enunciado": "Según la LO 1/2004, las mujeres víctimas de violencia de género tienen derecho a:",
+      "opciones": [
+        "Recibir información solo si presentan denuncia",
+        "Recibir plena información y asesoramiento adecuado a su situación personal",
+        "Recibir información a través de su abogado, exclusivamente",
+        "Recibir información solo en el juzgado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 18.1 dice: «Las mujeres víctimas de violencia de género tienen derecho a recibir plena información y asesoramiento adecuado a su situación personal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2022-10-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-018",
+      "ley": "lo-1-2004",
+      "articulo": "19.1",
+      "enunciado": "Las mujeres víctimas de violencia de género tienen derecho a servicios sociales:",
+      "opciones": [
+        "De atención, de emergencia, de apoyo y acogida y de recuperación integral",
+        "Solo de emergencia, durante las primeras setenta y dos horas",
+        "Solo de acogida temporal, mientras dure el procedimiento judicial",
+        "De atención, siempre que tengan hijos menores a su cargo"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 19.1 reconoce el derecho «a servicios sociales de atención, de emergencia, de apoyo y acogida y de recuperación integral».",
+      "dificultad": 2,
+      "fecha_version_boe": "2022-10-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-019",
+      "ley": "lo-1-2004",
+      "articulo": "30.1",
+      "enunciado": "¿Qué órgano colegiado crea la LO 1/2004, adscrito al Ministerio competente, para asesorar y analizar la violencia de género?",
+      "opciones": [
+        "El Consejo Estatal de la Mujer",
+        "La Comisión Nacional de Igualdad",
+        "El Instituto de la Mujer y para la Igualdad de Oportunidades",
+        "El Observatorio Estatal de Violencia sobre la Mujer"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 30 de la LO 1/2004 crea el «Observatorio Estatal de Violencia sobre la Mujer», órgano colegiado de asesoramiento y análisis.",
+      "dificultad": 2,
+      "fecha_version_boe": "2022-10-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-020",
+      "ley": "lo-1-2004",
+      "articulo": "27.1",
+      "enunciado": "La ayuda económica del artículo 27 de la LO 1/2004 se dirige a las víctimas que:",
+      "opciones": [
+        "Hayan presentado denuncia, sin que se exija ningún otro requisito",
+        "Sean menores de edad o tengan reconocida una discapacidad",
+        "Carezcan de rentas suficientes y tengan especiales dificultades para obtener un empleo",
+        "Trabajen en la Administración y hayan solicitado la excedencia"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 27.1 la vincula a que, por su edad, falta de preparación y circunstancias sociales, la víctima «tendrá especiales dificultades para obtener un empleo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2022-10-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-021",
+      "ley": "lo-1-2004",
+      "articulo": "23",
+      "enunciado": "Las situaciones de violencia de género que dan lugar al reconocimiento de los derechos laborales y de Seguridad Social se acreditan, entre otros medios, mediante:",
+      "opciones": [
+        "Declaración jurada de la víctima presentada ante su empleador o la Administración",
+        "Sentencia condenatoria, orden de protección u otra resolución judicial que acuerde una medida cautelar a favor de la víctima",
+        "Certificado de empadronamiento que acredite el cambio de domicilio de la víctima",
+        "Informe del centro de salud, como único medio de prueba admitido"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 23 dice que se acreditarán «una orden de protección o cualquier otra resolución judicial que acuerde una medida cautelar a favor de la víctima», además de por sentencia condenatoria y otros medios.",
+      "dificultad": 3,
+      "fecha_version_boe": "2022-10-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    },
+    {
+      "id": "ig-022",
+      "ley": "lo-3-2007",
+      "articulo": "DA 1ª",
+      "enunciado": "A efectos de la LO 3/2007, la composición equilibrada supone que las personas de cada sexo no superen ni sean menos de:",
+      "opciones": [
+        "El sesenta por ciento ni el cuarenta por ciento",
+        "El setenta por ciento ni el treinta por ciento",
+        "El cincuenta y cinco por ciento ni el cuarenta y cinco por ciento",
+        "El sesenta y cinco por ciento ni el treinta y cinco por ciento"
+      ],
+      "correcta": 0,
+      "explicacion": "La disposición adicional primera dice que en el conjunto «las personas de cada sexo no superen el sesenta por ciento ni sean menos del cuarenta por ciento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16
+      }
+    }
+  ]
+}

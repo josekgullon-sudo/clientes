@@ -1,0 +1,485 @@
+{
+  "descripcion": "LO 3/2018 de Protección de Datos. Lote generado el 2026-10-12; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "pd-001",
+      "ley": "lo-3-2018",
+      "articulo": "7.1",
+      "enunciado": "Según la LO 3/2018, el tratamiento de los datos de un menor puede fundarse en su consentimiento cuando sea:",
+      "opciones": [
+        "Mayor de dieciséis años",
+        "Mayor de catorce años",
+        "Mayor de doce años",
+        "Mayor de dieciocho años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 7.1 dice que el tratamiento de los datos de un menor solo podrá fundarse en su consentimiento «cuando sea mayor de catorce años».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-002",
+      "ley": "lo-3-2018",
+      "articulo": "7.2",
+      "enunciado": "El tratamiento de los datos de los menores de catorce años fundado en el consentimiento solo es lícito si consta:",
+      "opciones": [
+        "El del titular de la patria potestad o tutela",
+        "El del propio menor ante notario",
+        "La autorización del Ministerio Fiscal",
+        "La autorización de la Agencia Española de Protección de Datos"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 7.2 dice que «solo será lícito si consta el del titular de la patria potestad o tutela».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-003",
+      "ley": "lo-3-2018",
+      "articulo": "1",
+      "enunciado": "Uno de los objetos de la LO 3/2018 es:",
+      "opciones": [
+        "Transponer la Directiva 95/46/CE",
+        "Desarrollar el Convenio 108 del Consejo de Europa sin relación con el Reglamento europeo",
+        "Sustituir íntegramente al Reglamento (UE) 2016/679 en España",
+        "Adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 1 dice que la ley tiene por objeto, entre otros, «adaptar el ordenamiento jurídico español al Reglamento (UE) 2016/679».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-004",
+      "ley": "lo-3-2018",
+      "articulo": "5.1",
+      "enunciado": "¿Quiénes están sujetos al deber de confidencialidad según el artículo 5.1 de la LO 3/2018?",
+      "opciones": [
+        "Solo el delegado de protección de datos designado por el responsable",
+        "Solo los responsables del tratamiento, pero no los encargados ni su personal",
+        "Los responsables y encargados del tratamiento y todas las personas que intervengan en cualquier fase de este",
+        "Solo el personal funcionario que trate datos en las Administraciones Públicas"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 5.1 dice que los responsables y encargados del tratamiento de datos «así como todas las personas que intervengan en cualquier fase de este estarán sujetas al deber de confidencialidad».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-005",
+      "ley": "lo-3-2018",
+      "articulo": "5.3",
+      "enunciado": "Las obligaciones de confidencialidad:",
+      "opciones": [
+        "Terminan al finalizar la relación con el responsable",
+        "Se mantienen aun cuando haya finalizado la relación con el responsable o encargado",
+        "Duran dos años tras la finalización de la relación",
+        "Solo se mantienen si así se pacta por escrito"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 5.3 dice que estas obligaciones «se mantendrán aun cuando hubiese finalizado la relación del obligado con el responsable o encargado del tratamiento».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-006",
+      "ley": "lo-3-2018",
+      "articulo": "6.1",
+      "enunciado": "Según la LO 3/2018, el consentimiento del afectado es toda manifestación de voluntad:",
+      "opciones": [
+        "Libre, específica, informada e inequívoca",
+        "Libre, expresa y por escrito",
+        "Informada y tácita",
+        "Libre, general y revocable"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 6.1 define el consentimiento como «toda manifestación de voluntad libre, específica, informada e inequívoca».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-007",
+      "ley": "lo-3-2018",
+      "articulo": "13.3",
+      "enunciado": "A efectos de la LO 3/2018, puede considerarse repetitivo el ejercicio del derecho de acceso más de una vez durante el plazo de:",
+      "opciones": [
+        "Un año",
+        "Tres meses",
+        "Un mes",
+        "Seis meses"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 13.3 dice que podrá considerarse repetitivo «el ejercicio del derecho de acceso en más de una ocasión durante el plazo de seis meses», salvo causa legítima.",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-008",
+      "ley": "lo-3-2018",
+      "articulo": "22.3",
+      "enunciado": "Los datos obtenidos por videovigilancia con fines de seguridad deben suprimirse, como regla general, en el plazo máximo de:",
+      "opciones": [
+        "Quince días desde su captación",
+        "Tres meses desde su captación",
+        "Un mes desde su captación",
+        "Una semana desde su captación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 22.3 dice: «Los datos serán suprimidos en el plazo máximo de un mes desde su captación», salvo que deban conservarse para acreditar actos contra personas, bienes o instalaciones.",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-009",
+      "ley": "lo-3-2018",
+      "articulo": "22.1",
+      "enunciado": "Las personas físicas o jurídicas pueden tratar imágenes a través de sistemas de cámaras con la finalidad de:",
+      "opciones": [
+        "Controlar los hábitos de consumo de los clientes en los establecimientos",
+        "Preservar la seguridad de las personas y bienes, así como de sus instalaciones",
+        "Elaborar perfiles comerciales de las personas que acceden a las instalaciones",
+        "Vigilar la vía pública sin limitación, como complemento de la policía"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 22.1 permite el tratamiento con la finalidad de «preservar la seguridad de las personas y bienes, así como de sus instalaciones».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-010",
+      "ley": "lo-3-2018",
+      "articulo": "44.1",
+      "enunciado": "La Agencia Española de Protección de Datos es:",
+      "opciones": [
+        "Una autoridad administrativa independiente de ámbito estatal",
+        "Un organismo autónomo dependiente del Ministerio de Justicia",
+        "Una dirección general del Ministerio del Interior",
+        "Un órgano consultivo de las Cortes Generales"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 44.1 dice: «La Agencia Española de Protección de Datos es una autoridad administrativa independiente de ámbito estatal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-011",
+      "ley": "lo-3-2018",
+      "articulo": "72.1",
+      "enunciado": "Según la LO 3/2018, las infracciones consideradas muy graves prescriben:",
+      "opciones": [
+        "A los dos años",
+        "Al año",
+        "A los cinco años",
+        "A los tres años"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 72.1 dice: que se consideran muy graves «y prescribirán a los tres años» las infracciones que supongan una vulneración sustancial de los artículos mencionados en el artículo 83.5 del Reglamento.",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-012",
+      "ley": "lo-3-2018",
+      "articulo": "74",
+      "enunciado": "Según la LO 3/2018, las infracciones consideradas leves prescriben:",
+      "opciones": [
+        "A los seis meses",
+        "A los dos años",
+        "Al año",
+        "A los tres meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 74 dice: «Se consideran leves y prescribirán al año» las restantes infracciones de carácter meramente formal.",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-013",
+      "ley": "lo-3-2018",
+      "articulo": "73",
+      "enunciado": "Según la LO 3/2018, las infracciones consideradas graves prescriben:",
+      "opciones": [
+        "Al año",
+        "A los dos años",
+        "A los tres años",
+        "A los seis meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 73 dice: que se consideran graves «y prescribirán a los dos años» las infracciones que supongan una vulneración sustancial de los artículos mencionados en el artículo 83.4 del Reglamento.",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-014",
+      "ley": "lo-3-2018",
+      "articulo": "79",
+      "enunciado": "Según la LO 3/2018, los derechos y libertades consagrados en la Constitución y en los Tratados en que España es parte:",
+      "opciones": [
+        "Son plenamente aplicables en Internet",
+        "Solo son aplicables en Internet si lo prevé una ley específica",
+        "Son aplicables en Internet con las limitaciones que fije el Gobierno",
+        "No son aplicables en Internet a los menores"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 79 dice que estos derechos y libertades «son plenamente aplicables en Internet».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-015",
+      "ley": "lo-3-2018",
+      "articulo": "88.1",
+      "enunciado": "¿Quiénes tienen derecho a la desconexión digital según la LO 3/2018?",
+      "opciones": [
+        "Solo los trabajadores del sector privado",
+        "Solo los empleados públicos",
+        "Solo los trabajadores a distancia",
+        "Los trabajadores y los empleados públicos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 88.1 dice: «Los trabajadores y los empleados públicos tendrán derecho a la desconexión digital».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-016",
+      "ley": "lo-3-2018",
+      "articulo": "81.1",
+      "enunciado": "El derecho de acceso a Internet se reconoce:",
+      "opciones": [
+        "Solo a los mayores de edad que tengan plena capacidad de obrar",
+        "Solo a los ciudadanos españoles y a los nacionales de la Unión Europea",
+        "A todos, independientemente de su condición personal, social, económica o geográfica",
+        "A quienes contraten un servicio de banda ancha con un operador autorizado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 81.1 dice: «Todos tienen derecho a acceder a Internet independientemente de su condición personal, social, económica o geográfica».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-017",
+      "ley": "lo-3-2018",
+      "articulo": "87.1",
+      "enunciado": "Los trabajadores y empleados públicos tienen derecho a la protección de su intimidad en el uso de:",
+      "opciones": [
+        "Sus dispositivos personales exclusivamente",
+        "Los dispositivos digitales puestos a su disposición por su empleador",
+        "Las redes sociales personales, exclusivamente",
+        "Los equipos de los clientes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 87.1 reconoce el derecho «a la protección de su intimidad en el uso de los dispositivos digitales puestos a su disposición por su empleador».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-018",
+      "ley": "lo-3-2018",
+      "articulo": "9.1",
+      "enunciado": "El solo consentimiento del afectado NO basta para levantar la prohibición de tratar datos cuya finalidad principal sea identificar su:",
+      "opciones": [
+        "Ideología, afiliación sindical, religión, orientación sexual, creencias u origen racial o étnico",
+        "Domicilio, número de teléfono y dirección de correo electrónico",
+        "Nivel de estudios, titulaciones académicas y experiencia profesional",
+        "Situación laboral, empresa en la que trabaja y categoría profesional"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 9.1 dice que «el solo consentimiento del afectado no bastará para levantar la prohibición del tratamiento de datos cuya finalidad principal sea identificar su ideología, afiliación sindical, religión, orientación sexual, creencias u origen racial o étnico».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-019",
+      "ley": "lo-3-2018",
+      "articulo": "12.2",
+      "enunciado": "Los derechos de los artículos 15 a 22 del Reglamento (UE) 2016/679 pueden ejercerse:",
+      "opciones": [
+        "Solo directamente por el afectado",
+        "Solo a través de abogado",
+        "Solo a través de la Agencia Española de Protección de Datos",
+        "Directamente o por medio de representante legal o voluntario"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 12.2 dice que estos derechos «podrán ejercerse directamente o por medio de representante legal o voluntario».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-020",
+      "ley": "lo-3-2018",
+      "articulo": "12.4",
+      "enunciado": "Las actuaciones del responsable para atender las solicitudes de ejercicio de derechos son, como regla general:",
+      "opciones": [
+        "De pago según tarifa oficial",
+        "Gratuitas solo para menores de edad",
+        "Gratuitas",
+        "Gratuitas solo la primera vez cada año"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 12 dice: «Serán gratuitas las actuaciones llevadas a cabo por el responsable del tratamiento para atender las solicitudes de ejercicio de estos derechos», sin perjuicio de lo previsto en el Reglamento.",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-021",
+      "ley": "lo-3-2018",
+      "articulo": "89.1",
+      "enunciado": "Los empleadores pueden tratar las imágenes obtenidas por cámaras para:",
+      "opciones": [
+        "Vigilar las zonas de descanso, los vestuarios y los aseos del personal",
+        "Ejercer las funciones de control de los trabajadores o los empleados públicos",
+        "Grabar sonidos en cualquier lugar de trabajo sin ningún tipo de límite",
+        "Difundirlas con fines promocionales en las redes sociales de la empresa"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 89.1 dice que los empleadores podrán tratar las imágenes «para el ejercicio de las funciones de control de los trabajadores o los empleados públicos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-022",
+      "ley": "lo-3-2018",
+      "articulo": "3.1",
+      "enunciado": "Las personas vinculadas al fallecido por razones familiares o de hecho, así como sus herederos, pueden dirigirse al responsable del tratamiento para:",
+      "opciones": [
+        "Solicitar el acceso a los datos del fallecido y, en su caso, su rectificación o supresión",
+        "Solicitar una indemnización automática por el tratamiento de esos datos",
+        "Heredar la titularidad de los datos y cederlos libremente a terceros",
+        "Exigir la publicación de los datos del fallecido en un registro público"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 3.1 dice que podrán dirigirse al responsable o encargado del tratamiento «al objeto de solicitar el acceso a los datos personales de aquella y, en su caso, su rectificación o supresión» y, en su caso, su rectificación o supresión.",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-023",
+      "ley": "lo-3-2018",
+      "articulo": "48.5",
+      "enunciado": "El mandato de la Presidencia y de la Adjuntía de la Agencia Española de Protección de Datos dura:",
+      "opciones": [
+        "Cuatro años, sin posibilidad de renovación para otro periodo",
+        "Seis años, sin posibilidad de renovación para otro periodo",
+        "Cinco años, sin posibilidad de renovación para otro periodo",
+        "Cinco años, renovable por otro periodo de igual duración"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 48.5 dice: «El mandato de la Presidencia y del Adjunto de la Agencia Española de Protección de Datos tiene una duración de cinco años y puede ser renovado para otro período de igual duración».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pd-024",
+      "ley": "lo-3-2018",
+      "articulo": "78.1.a",
+      "enunciado": "Las sanciones por importe igual o inferior a 40.000 euros impuestas en aplicación de la LO 3/2018 prescriben en el plazo de:",
+      "opciones": [
+        "Seis meses",
+        "Dos años",
+        "Un año",
+        "Tres años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 78.1.a) dice: «Las sanciones por importe igual o inferior a 40.000 euros, prescriben en el plazo de un año».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    }
+  ]
+}
