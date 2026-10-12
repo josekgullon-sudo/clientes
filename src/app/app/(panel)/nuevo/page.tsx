@@ -4,7 +4,7 @@ import { Boton } from "@/components/boton";
 import { oposicionActual, progresoPorTema, usuarioActual } from "@/lib/datos/usuario";
 import { crearTest } from "../../acciones";
 
-export const metadata: Metadata = { title: "Nuevo test" };
+export const metadata: Metadata = { title: "Test a medida" };
 
 const errores: Record<string, string> = {
   "sin-preguntas": "No hay preguntas para lo que has elegido. Prueba con otros temas.",
@@ -21,28 +21,29 @@ export default async function NuevoTest({ searchParams }: PageProps<"/app/nuevo"
   const error = typeof q.error === "string" ? errores[q.error] : undefined;
 
   return (
-    <form action={crearTest} className="flex flex-col gap-8 pb-24">
+    <form action={crearTest} className="flex flex-col gap-6 pb-20">
       <input type="hidden" name="modo" value="mixto" />
-      <div>
-        <h1 className="font-serif text-[2rem] leading-tight font-semibold">Nuevo test</h1>
-        <p className="mt-2 font-serif text-[1.125rem]">
-          Elige uno o varios temas. Si no eliges ninguno, mezclamos todo el temario.
-        </p>
-      </div>
+      <header>
+        <h1 className="font-serif text-[2rem] leading-tight font-semibold">Test a medida</h1>
+        <p className="mt-2 text-pizarra">Elige uno o varios temas. Si no eliges ninguno, mezclamos todo el temario.</p>
+      </header>
 
       {error && (
-        <p role="alert" className="rounded-md border border-teja bg-teja-suave p-3">
+        <p role="alert" className="rounded-xl border border-teja bg-teja-suave p-3">
           {error}
         </p>
       )}
 
-      <fieldset>
-        <legend className="font-semibold">Número de preguntas</legend>
-        <div className="mt-2 grid grid-cols-4 gap-2">
+      <fieldset className="tarjeta p-5">
+        <legend className="sr-only">Número de preguntas</legend>
+        <p className="font-bold" aria-hidden="true">
+          Número de preguntas
+        </p>
+        <div className="mt-3 grid grid-cols-4 gap-2">
           {[5, 10, 20, 30].map((n) => (
             <label
               key={n}
-              className="flex min-h-12 cursor-pointer items-center justify-center rounded-md border border-filete has-checked:border-tinta has-checked:bg-tinta has-checked:text-papel has-focus-visible:outline-3 has-focus-visible:outline-tinta"
+              className="cifras flex min-h-12 cursor-pointer items-center justify-center rounded-xl border-2 border-filete bg-papel text-lg font-extrabold transition has-checked:border-pino has-checked:bg-pino-suave has-checked:text-pino has-focus-visible:outline-3 has-focus-visible:outline-tinta"
             >
               <input type="radio" name="num" value={n} defaultChecked={n === 10} className="sr-only" />
               {n}
@@ -52,9 +53,12 @@ export default async function NuevoTest({ searchParams }: PageProps<"/app/nuevo"
       </fieldset>
 
       {bloques.map((b) => (
-        <fieldset key={b}>
-          <legend className="font-semibold">Bloque {b}</legend>
-          <div className="mt-2 flex flex-col">
+        <fieldset key={b} className="tarjeta overflow-hidden">
+          <legend className="sr-only">Bloque {b}</legend>
+          <p className="antetitulo px-5 pt-4" aria-hidden="true">
+            Bloque {b}
+          </p>
+          <div className="mt-2 flex flex-col divide-y divide-filete">
             {opo.temas
               .filter((t) => t.bloque === b)
               .map((t) => {
@@ -62,19 +66,19 @@ export default async function NuevoTest({ searchParams }: PageProps<"/app/nuevo"
                 return (
                   <label
                     key={t.id}
-                    className={`flex min-h-12 items-start gap-3 border-b border-filete py-3 ${total ? "cursor-pointer" : "text-pizarra"}`}
+                    className={`flex min-h-14 items-center gap-3 px-5 py-3 transition has-checked:bg-pino-suave/60 ${total ? "cursor-pointer" : "text-pizarra opacity-60"}`}
                   >
                     <input
                       type="checkbox"
                       name="tema"
                       value={t.id}
                       disabled={!total}
-                      className="mt-1 size-5 shrink-0 accent-[var(--tinta)]"
+                      className="size-5 shrink-0 accent-[var(--pino-boton)]"
                     />
-                    <span className="flex-1">
-                      <span className="font-semibold">{t.numero}.</span> {t.titulo}
+                    <span className="flex-1 leading-snug">
+                      <span className="font-bold">{t.numero}.</span> {t.titulo}
                     </span>
-                    <span className="shrink-0 text-[0.9rem] text-pizarra">{total || "—"}</span>
+                    <span className="cifras shrink-0 text-sm text-pizarra">{total || "Pronto"}</span>
                   </label>
                 );
               })}
@@ -82,7 +86,7 @@ export default async function NuevoTest({ searchParams }: PageProps<"/app/nuevo"
         </fieldset>
       ))}
 
-      <div className="fixed inset-x-0 bottom-0 border-t border-filete bg-papel pb-[env(safe-area-inset-bottom)]">
+      <div className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 border-t border-filete bg-superficie/95 backdrop-blur-md md:bottom-0">
         <div className="mx-auto max-w-3xl px-4 py-3">
           <Boton type="submit" ancho>
             Empezar test

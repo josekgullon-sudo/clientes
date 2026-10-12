@@ -38,5 +38,6 @@ export async function guardarAjustes(datos: FormData) {
       if (!test && data) redirect(`/app/test/${data}`);
     }
   }
+  if (datos.get("confirmar") === "1") redirect(`${destino}${destino.includes("?") ? "&" : "?"}guardado=1`);
   redirect(destino);
 }

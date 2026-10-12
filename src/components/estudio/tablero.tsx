@@ -1,6 +1,14 @@
-import { Calendar, Flame, Target, Zap } from "lucide-react";
+import { CalendarDays, Flame, Shield, Zap } from "lucide-react";
 import { Anillo } from "./anillo";
 
+function mensajeObjetivo(hecho: number, objetivo: number, racha: number) {
+  const faltan = Math.max(0, objetivo - hecho);
+  if (objetivo > 0 && faltan === 0) return "Objetivo cumplido. Tu racha está a salvo.";
+  if (hecho === 0) return racha > 0 ? `Haz ${objetivo} preguntas para seguir la racha.` : `Haz ${objetivo} preguntas para empezar tu racha.`;
+  return `Te ${faltan === 1 ? "falta 1 pregunta" : `faltan ${faltan} preguntas`} para el objetivo.`;
+}
+
+/** Resumen del día: objetivo con anillo y, debajo, racha, XP y días al examen. */
 export function Tablero({
   racha,
   protectores,
@@ -16,46 +24,49 @@ export function Tablero({
   xp?: number;
   dias?: number | null;
 }) {
-  return (
-    <div className="grid grid-cols-2 gap-3">
-      <article className="tarjeta col-span-2 flex items-center gap-4 p-5">
-        <span className="grid size-16 shrink-0 place-items-center rounded-2xl bg-teja-suave text-teja">
-          <Flame className="llama" aria-hidden size={28} />
+  const datos = [
+    {
+      icono: Flame,
+      color: "text-teja",
+      valor: racha,
+      etiqueta: racha === 1 ? "día de racha" : "días de racha",
+      extra: protectores ? (
+        <span className="inline-flex items-center gap-0.5" title="Protectores de racha">
+          <Shield aria-hidden size={12} /> {protectores}
         </span>
-        <div>
-          <p className="text-sm font-medium text-pizarra">Racha</p>
-          <p className="font-serif text-4xl leading-none font-semibold">{racha}</p>
-          <p className="mt-1 text-sm text-pizarra">
-            {racha === 1 ? "día" : "días"}
-            {protectores ? ` · ${protectores} ${protectores === 1 ? "protector" : "protectores"}` : ""}
-          </p>
-        </div>
-      </article>
-      <article className="tarjeta flex items-center gap-3 p-4">
+      ) : null,
+    },
+    { icono: Zap, color: "text-oro-texto", valor: xp ?? 0, etiqueta: "XP total", extra: null },
+    ...(dias !== null && dias !== undefined
+      ? [{ icono: CalendarDays, color: "text-pino", valor: Math.max(0, dias), etiqueta: "días al examen", extra: null }]
+      : []),
+  ];
+
+  return (
+    <section aria-label="Tu día" className="tarjeta overflow-hidden">
+      <div className="flex items-center gap-5 p-5">
         <Anillo hecho={hecho} objetivo={objetivo} />
-        <div>
-          <p className="flex items-center gap-1 text-sm font-medium text-pizarra">
-            <Target aria-hidden size={14} /> Hoy
+        <div className="min-w-0">
+          <p className="antetitulo">Objetivo de hoy</p>
+          <p className="cifras mt-1 text-2xl font-extrabold">
+            {Math.min(hecho, objetivo)} <span className="text-base font-semibold text-pizarra">de {objetivo} preguntas</span>
           </p>
-          <p className="font-serif text-2xl font-semibold">
-            {hecho}<span className="text-base font-normal text-pizarra">/{objetivo}</span>
-          </p>
+          <p className="mt-1 text-[0.95rem] text-pizarra">{mensajeObjetivo(hecho, objetivo, racha)}</p>
         </div>
-      </article>
-      <article className="tarjeta flex flex-col justify-center gap-1 p-4">
-        <p className="flex items-center gap-1 text-sm font-medium text-pizarra">
-          <Zap aria-hidden size={14} /> XP
-        </p>
-        <p className="font-serif text-2xl font-semibold">{xp ?? 0}</p>
-      </article>
-      {dias !== null && dias !== undefined && (
-        <article className="tarjeta flex flex-col justify-center gap-1 p-4">
-          <p className="flex items-center gap-1 text-sm font-medium text-pizarra">
-            <Calendar aria-hidden size={14} /> Examen
-          </p>
-          <p className="font-serif text-2xl font-semibold">{Math.max(0, dias)}<span className="ml-1 font-sans text-sm font-normal text-pizarra">días</span></p>
-        </article>
-      )}
-    </div>
+      </div>
+      <dl className={`grid border-t border-filete ${datos.length === 3 ? "grid-cols-3" : "grid-cols-2"}`}>
+        {datos.map((d, i) => (
+          <div key={d.etiqueta} className={`flex flex-col-reverse items-center gap-0.5 px-2 py-3 text-center ${i > 0 ? "border-l border-filete" : ""}`}>
+            <dt className="flex items-center gap-1 text-xs font-semibold text-pizarra">
+              {d.etiqueta} {d.extra}
+            </dt>
+            <dd className="cifras flex items-center gap-1.5 text-xl font-extrabold">
+              <d.icono aria-hidden size={18} className={`${d.color} ${d.icono === Flame && racha > 0 ? "llama" : ""}`} />
+              {d.valor}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </section>
   );
 }

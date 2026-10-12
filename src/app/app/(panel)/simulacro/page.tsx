@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { CircleSlash, Clock, ListChecks, MinusCircle } from "lucide-react";
 import { Boton } from "@/components/boton";
 import { oposicionActual, usuarioActual } from "@/lib/datos/usuario";
 import { crearTest } from "../../acciones";
@@ -12,39 +13,51 @@ export default async function Simulacro() {
   const total = f.partes.reduce((s, p) => s + p.preguntas, 0);
   const tercio = f.penalizacion > 0.33 && f.penalizacion < 0.34;
 
-  return (
-    <div className="max-w-lectura">
-      <h1 className="font-serif text-[2rem] leading-tight font-semibold">Simulacro de examen</h1>
-      <p className="mt-2 font-serif text-[1.125rem]">Como el día del examen: con tiempo y sin ver la corrección hasta el final.</p>
+  const datos = [
+    { icono: ListChecks, valor: String(total), texto: "preguntas", detalle: f.partes.map((p) => `${p.preguntas} del bloque ${p.bloque}`).join(" y ") },
+    { icono: Clock, valor: String(f.minutos), texto: "minutos", detalle: "El tiempo empieza al pulsar" },
+    { icono: MinusCircle, valor: tercio ? "−⅓" : `−${f.penalizacion}`, texto: "por fallo", detalle: "Como en el examen real" },
+    { icono: CircleSlash, valor: "0", texto: "en blanco", detalle: "No suman ni restan" },
+  ];
 
-      <dl className="mt-6 border-t border-filete">
-        {[
-          ["Preguntas", `${total} (${f.partes.map((p) => `${p.preguntas} del bloque ${p.bloque}`).join(" y ")})`],
-          ["Tiempo", `${f.minutos} minutos`],
-          ["Penalización", tercio ? "Cada fallo resta un tercio de acierto" : `Cada fallo resta ${f.penalizacion}`],
-          ["En blanco", "No suman ni restan"],
-        ].map(([dt, dd]) => (
-          <div key={dt} className="flex justify-between gap-4 border-b border-filete py-3">
-            <dt className="font-semibold">{dt}</dt>
-            <dd className="text-right">{dd}</dd>
+  return (
+    <div className="flex flex-col gap-6">
+      <header>
+        <p className="antetitulo">Modo examen</p>
+        <h1 className="mt-1 font-serif text-[2rem] leading-tight font-semibold">Simulacro</h1>
+        <p className="mt-2 text-pizarra">Con tiempo y sin ver la corrección hasta el final. La mejor forma de medirte.</p>
+      </header>
+
+      <dl className="grid grid-cols-2 gap-3">
+        {datos.map((d) => (
+          <div key={d.texto} className="tarjeta flex flex-col p-4">
+            <dt className="order-2 text-sm font-semibold">{d.texto}</dt>
+            <dd className="order-1 flex items-center gap-2">
+              <d.icono aria-hidden size={20} className="text-pino" />
+              <span className="cifras text-3xl font-extrabold">{d.valor}</span>
+            </dd>
+            <dd className="order-3 mt-1 text-xs text-pizarra">{d.detalle}</dd>
           </div>
         ))}
       </dl>
-      <p className="mt-3 text-[0.95rem] text-pizarra">
-        No incluye la parte psicotécnica del examen; el tiempo es proporcional a las preguntas. El bloque II aún
-        tiene pocas o ninguna pregunta, así que el simulacro usa las que hay.
+
+      <p className="rounded-2xl bg-papel-hundido p-4 text-sm text-pizarra">
+        No incluye la parte psicotécnica; el tiempo es proporcional a las preguntas. El bloque II aún tiene pocas preguntas,
+        así que el simulacro usa las que hay.
       </p>
+
       {!suscrito && (
-        <p className="mt-3 text-[0.95rem]">El plan gratis incluye un simulacro de prueba. Los siguientes son Premium.</p>
+        <p className="rounded-2xl bg-oro-suave p-4 text-sm text-oro-texto">
+          El plan gratis incluye un simulacro de prueba. Los siguientes son de Premium.
+        </p>
       )}
 
-      <form action={crearTest} className="mt-8">
+      <form action={crearTest}>
         <input type="hidden" name="modo" value="simulacro" />
         <Boton type="submit" ancho>
-          Empezar simulacro
+          <Clock aria-hidden size={18} /> Empezar simulacro
         </Boton>
       </form>
-      <p className="mt-2 text-[0.95rem] text-pizarra">El tiempo empieza a contar al pulsar.</p>
     </div>
   );
 }

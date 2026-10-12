@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { Cabecera } from "@/components/cabecera";
-import { Pie } from "@/components/pie";
 import { estadisticasUsuario } from "@/lib/datos/estudio";
 import { progresoPorTema } from "@/lib/datos/usuario";
 import { OnboardingForm } from "./onboarding-form";
@@ -14,14 +13,10 @@ export default async function Onboarding() {
   const tema = progreso.find((t) => t.total > 0) ?? null;
   return (
     <>
-      <Cabecera />
-      <main className="mx-auto w-full max-w-3xl flex-1 px-4 pt-8 pb-16">
-        <OnboardingForm
-          temaId={tema?.tema_id ?? null}
-          temaNombre={tema ? `Tema ${tema.numero}` : null}
-        />
+      <Cabecera inicio="/app" derecha={null} />
+      <main className="mx-auto w-full max-w-lectura flex-1 px-4 pt-6 pb-16">
+        <OnboardingForm temaId={tema?.tema_id ?? null} tema={tema ? { numero: tema.numero, titulo: tema.titulo } : null} />
       </main>
-      <Pie />
     </>
   );
 }
