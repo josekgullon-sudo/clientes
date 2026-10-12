@@ -1,0 +1,425 @@
+{
+  "descripcion": "Ley 40/2015. Lote generado el 2026-10-12; citas comprobadas por script contra el texto consolidado del BOE (versión 2024-08-22).",
+  "preguntas": [
+    {
+      "id": "l40-021",
+      "ley": "ley-40-2015",
+      "articulo": "23.2.b",
+      "enunciado": "Es motivo de abstención el parentesco con cualquiera de los interesados:",
+      "opciones": [
+        "De consanguinidad dentro del segundo grado o de afinidad dentro del primero",
+        "De consanguinidad o afinidad dentro del cuarto grado",
+        "De consanguinidad dentro del tercer grado o de afinidad dentro del segundo",
+        "De consanguinidad dentro del cuarto grado o de afinidad dentro del segundo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 23.2.b) se refiere al «parentesco de consanguinidad dentro del cuarto grado o de afinidad dentro del segundo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-022",
+      "ley": "ley-40-2015",
+      "articulo": "23.2.e",
+      "enunciado": "Es motivo de abstención haber prestado servicios profesionales a una persona interesada directamente en el asunto:",
+      "opciones": [
+        "En el último año",
+        "En los cuatro últimos años",
+        "En los dos últimos años",
+        "En los cinco últimos años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 23.2.e) incluye tener relación de servicio con persona interesada directamente en el asunto, «o haberle prestado en los dos últimos años servicios profesionales de cualquier tipo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-023",
+      "ley": "ley-40-2015",
+      "articulo": "24.4",
+      "enunciado": "Si el recusado niega la causa de recusación, el superior resuelve en el plazo de:",
+      "opciones": [
+        "Diez días",
+        "Tres días",
+        "Cinco días",
+        "Un día"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 24.4 dice: «Si el recusado niega la causa de recusación, el superior resolverá en el plazo de tres días».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-024",
+      "ley": "ley-40-2015",
+      "articulo": "24.3",
+      "enunciado": "Planteada la recusación, ¿cuándo debe el recusado manifestar a su superior si se da o no en él la causa alegada?",
+      "opciones": [
+        "Al día siguiente",
+        "En el plazo de tres días",
+        "En el plazo de cinco días",
+        "En el plazo de diez días"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 24.3 establece: «En el día siguiente el recusado manifestará a su inmediato superior si se da o no en él la causa alegada».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-025",
+      "ley": "ley-40-2015",
+      "articulo": "24.1",
+      "enunciado": "La recusación pueden promoverla los interesados:",
+      "opciones": [
+        "Solo en los diez días siguientes al inicio del procedimiento",
+        "Solo antes del trámite de audiencia",
+        "Solo al interponer recurso contra la resolución",
+        "En cualquier momento de la tramitación del procedimiento"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 24.1 dice que podrá promoverse recusación por los interesados «en cualquier momento de la tramitación del procedimiento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-026",
+      "ley": "ley-40-2015",
+      "articulo": "29.1",
+      "enunciado": "Según la Ley 40/2015, las sanciones administrativas:",
+      "opciones": [
+        "Pueden implicar privación de libertad subsidiaria si no se paga la multa",
+        "Pueden implicar privación de libertad solo si lo prevé una ley orgánica",
+        "En ningún caso pueden implicar, directa o subsidiariamente, privación de libertad",
+        "Solo pueden ser de naturaleza pecuniaria"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 29.1 dice que las sanciones, sean o no pecuniarias, «en ningún caso podrán implicar, directa o subsidiariamente, privación de libertad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-027",
+      "ley": "ley-40-2015",
+      "articulo": "29.3.d",
+      "enunciado": "A efectos de graduar la sanción, la reincidencia se produce por la comisión de más de una infracción de la misma naturaleza, declarada por resolución firme en vía administrativa, en el término de:",
+      "opciones": [
+        "Seis meses",
+        "Un año",
+        "Dos años",
+        "Tres años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 29.3.d) define la reincidencia «por comisión en el término de un año de más de una infracción de la misma naturaleza» declarada por resolución firme en vía administrativa.",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-028",
+      "ley": "ley-40-2015",
+      "articulo": "30.1",
+      "enunciado": "Si la ley que establece las infracciones no fija plazos de prescripción, las infracciones leves prescriben:",
+      "opciones": [
+        "A los seis meses",
+        "Al año",
+        "A los tres meses",
+        "A los dos años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 30.1 dispone que, a falta de plazo en la ley, «las infracciones muy graves prescribirán a los tres años, las graves a los dos años y las leves a los seis meses».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-029",
+      "ley": "ley-40-2015",
+      "articulo": "30.1",
+      "enunciado": "Si la ley no fija plazos de prescripción, las sanciones impuestas por faltas leves prescriben:",
+      "opciones": [
+        "A los seis meses",
+        "A los dos años",
+        "A los tres meses",
+        "Al año"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 30.1 establece que, a falta de plazo en la ley, prescriben «las impuestas por faltas leves al año».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-030",
+      "ley": "ley-40-2015",
+      "articulo": "28.1",
+      "enunciado": "Según el artículo 28.1 de la Ley 40/2015, solo pueden ser sancionados por infracciones administrativas los responsables de los hechos:",
+      "opciones": [
+        "A título de dolo, exclusivamente",
+        "Con independencia de su culpabilidad",
+        "A título de dolo o culpa",
+        "A título de culpa grave"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 28.1 dice que solo pueden ser sancionados quienes «resulten responsables de los mismos a título de dolo o culpa».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-031",
+      "ley": "ley-40-2015",
+      "articulo": "32.2",
+      "enunciado": "En la responsabilidad patrimonial de las Administraciones, el daño alegado debe ser:",
+      "opciones": [
+        "Efectivo, previsible e individualizado",
+        "Efectivo, evaluable económicamente e individualizado",
+        "Evaluable económicamente, colectivo y actual",
+        "Efectivo, futuro y evaluable económicamente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 32.2 dice: «el daño alegado habrá de ser efectivo, evaluable económicamente e individualizado con relación a una persona o grupo de personas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-032",
+      "ley": "ley-40-2015",
+      "articulo": "32.1",
+      "enunciado": "Los particulares tienen derecho a ser indemnizados por las lesiones derivadas del funcionamiento de los servicios públicos, salvo:",
+      "opciones": [
+        "En los casos de fuerza mayor o de daños que tengan el deber jurídico de soportar",
+        "Cuando el funcionamiento del servicio haya sido normal",
+        "Cuando el daño lo cause personal laboral",
+        "En los casos de caso fortuito, exclusivamente"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 32.1 reconoce el derecho por el funcionamiento «normal o anormal de los servicios públicos salvo en los casos de fuerza mayor o de daños que el particular tenga el deber jurídico de soportar de acuerdo con la Ley».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-033",
+      "ley": "ley-40-2015",
+      "articulo": "55.3",
+      "enunciado": "En la organización central de la Administración General del Estado, son órganos superiores:",
+      "opciones": [
+        "Los Ministros y los Subsecretarios",
+        "Los Secretarios de Estado y los Secretarios generales",
+        "Los Ministros, los Secretarios de Estado y los Subsecretarios",
+        "Los Ministros y los Secretarios de Estado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 55.3 enumera como «Órganos superiores: 1.º Los Ministros. 2.º Los Secretarios de Estado». Los Subsecretarios son órganos directivos.",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "l40-034",
+      "ley": "ley-40-2015",
+      "articulo": "55.3",
+      "enunciado": "¿Cuál de los siguientes NO es un órgano directivo de la organización central de la Administración General del Estado?",
+      "opciones": [
+        "El Subsecretario",
+        "El Secretario general técnico",
+        "El Secretario de Estado",
+        "El Subdirector general"
+      ],
+      "correcta": 2,
+      "explicacion": "El Secretario de Estado es un órgano superior. El artículo 55.3 incluye entre los órganos directivos a «1.º Los Subsecretarios y Secretarios generales. 2.º Los Secretarios generales técnicos y Directores generales. 3.º Los Subdirectores generales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "l40-035",
+      "ley": "ley-40-2015",
+      "articulo": "55.6",
+      "enunciado": "¿Qué órganos superiores y directivos de la Administración General del Estado NO tienen la condición de alto cargo?",
+      "opciones": [
+        "Los Directores generales",
+        "Los Subdirectores generales y asimilados",
+        "Los Secretarios generales técnicos",
+        "Los Subdelegados del Gobierno"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 55.6 atribuye la condición de alto cargo a los órganos superiores y directivos, «excepto los Subdirectores generales y asimilados».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "l40-036",
+      "ley": "ley-40-2015",
+      "articulo": "57.3",
+      "enunciado": "El número, la denominación y el ámbito de competencia de los Ministerios y las Secretarías de Estado se establecen mediante:",
+      "opciones": [
+        "Real Decreto del Presidente del Gobierno",
+        "Real Decreto acordado en Consejo de Ministros",
+        "Ley de las Cortes Generales",
+        "Orden del Ministro de Hacienda"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 57.3 dice que se establecen «mediante Real Decreto del Presidente del Gobierno».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "l40-037",
+      "ley": "ley-40-2015",
+      "articulo": "66.2",
+      "enunciado": "Los Directores generales son nombrados y separados:",
+      "opciones": [
+        "Por Orden del Ministro",
+        "Por Real Decreto del Presidente del Gobierno",
+        "Por resolución del Subsecretario",
+        "Por Real Decreto del Consejo de Ministros"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 66.2 establece que «serán nombrados y separados por Real Decreto del Consejo de Ministros, a propuesta del titular del Departamento o del Presidente del Gobierno».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "l40-038",
+      "ley": "ley-40-2015",
+      "articulo": "67.2",
+      "enunciado": "Los Subdirectores generales son nombrados y cesados por:",
+      "opciones": [
+        "El Consejo de Ministros, a propuesta del titular del Departamento",
+        "El Director general del que dependan, previa convocatoria pública",
+        "El Ministro, Secretario de Estado o Subsecretario del que dependan",
+        "El Presidente del Gobierno, a propuesta del Ministro correspondiente"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 67.2 dice que son nombrados y cesados «por el Ministro, Secretario de Estado o Subsecretario del que dependan».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "l40-039",
+      "ley": "ley-40-2015",
+      "articulo": "63.1.f",
+      "enunciado": "¿A qué órgano corresponde desempeñar la jefatura superior de todo el personal del Departamento ministerial?",
+      "opciones": [
+        "Al Ministro",
+        "Al Subsecretario",
+        "Al Secretario general técnico",
+        "Al Secretario de Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 63.1.f) atribuye a los Subsecretarios «Desempeñar la jefatura superior de todo el personal del Departamento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "l40-040",
+      "ley": "ley-40-2015",
+      "articulo": "72.3",
+      "enunciado": "Los Delegados del Gobierno en las Comunidades Autónomas son órganos directivos:",
+      "opciones": [
+        "Con rango de Subsecretario, que dependen orgánicamente del Presidente del Gobierno",
+        "Con rango de Secretario de Estado, que dependen del Ministro del Interior",
+        "Con rango de Director general, que dependen del Presidente del Gobierno",
+        "Con rango de Subsecretario, que dependen orgánicamente del Ministro de Hacienda"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 72.3 dice que son «órganos directivos con rango de Subsecretario que dependen orgánicamente del Presidente del Gobierno» y funcionalmente del Ministerio competente por razón de la materia.",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "borrador",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "l40-041",
+      "ley": "ley-40-2015",
+      "articulo": "84.1.a",
+      "enunciado": "¿Cuál de las siguientes entidades NO es un organismo público vinculado o dependiente de la Administración General del Estado según el artículo 84.1.a)?",
+      "opciones": [
+        "Los organismos autónomos",
+        "Las entidades públicas empresariales",
+        "Las agencias estatales",
+        "Las sociedades mercantiles estatales"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 84.1.a) clasifica los organismos públicos en «Organismos autónomos. 2. Entidades públicas empresariales. 3. Agencias estatales». Las sociedades mercantiles estatales forman parte del sector público institucional, pero no son organismos públicos (letra c).",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    }
+  ]
+}

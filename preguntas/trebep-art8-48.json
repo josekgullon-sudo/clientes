@@ -1,0 +1,405 @@
+{
+  "descripcion": "TREBEP (RDL 5/2015). Lote generado el 2026-10-12; citas comprobadas por script contra el texto consolidado del BOE (versión 2025-07-31).",
+  "preguntas": [
+    {
+      "id": "trebep-001",
+      "ley": "trebep",
+      "articulo": "8.2",
+      "enunciado": "Según el artículo 8.2 del TREBEP, ¿cuál de las siguientes NO es una de las clases de empleados públicos?",
+      "opciones": [
+        "Funcionarios interinos",
+        "Personal laboral",
+        "Personal eventual",
+        "Personal directivo profesional"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 8.2 clasifica a los empleados públicos en «a) Funcionarios de carrera. b) Funcionarios interinos. c) Personal laboral, ya sea fijo, por tiempo indefinido o temporal. d) Personal eventual». El personal directivo se regula aparte, en el artículo 13.",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-002",
+      "ley": "trebep",
+      "articulo": "8.1",
+      "enunciado": "Según el TREBEP, son empleados públicos:",
+      "opciones": [
+        "Solo los funcionarios de carrera y los funcionarios interinos de cualquier Administración Pública",
+        "Quienes han superado un proceso selectivo basado en la igualdad, el mérito y la capacidad",
+        "Quienes desempeñan funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales",
+        "Quienes prestan servicios en el sector público, sean retribuidos o no, al servicio de la ciudadanía"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 8.1 dice: «Son empleados públicos quienes desempeñan funciones retribuidas en las Administraciones Públicas al servicio de los intereses generales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-003",
+      "ley": "trebep",
+      "articulo": "9.1",
+      "enunciado": "Los funcionarios de carrera están vinculados a la Administración por una relación:",
+      "opciones": [
+        "Laboral regulada por el Estatuto de los Trabajadores",
+        "Estatutaria regulada por el Derecho Administrativo",
+        "Contractual regulada por el Derecho Civil",
+        "Mixta, administrativa y laboral"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 9.1 dice que están vinculados «por una relación estatutaria regulada por el Derecho Administrativo para el desempeño de servicios profesionales retribuidos de carácter permanente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-004",
+      "ley": "trebep",
+      "articulo": "9.2",
+      "enunciado": "El ejercicio de funciones que impliquen la participación en las potestades públicas o en la salvaguardia de los intereses generales corresponde:",
+      "opciones": [
+        "Exclusivamente a los funcionarios públicos",
+        "A los empleados públicos de cualquier clase",
+        "Al personal laboral fijo y a los funcionarios",
+        "Al personal directivo profesional"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 9.2 dice que esas funciones «corresponden exclusivamente a los funcionarios públicos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-005",
+      "ley": "trebep",
+      "articulo": "10.1.a",
+      "enunciado": "Un funcionario interino nombrado por la existencia de una plaza vacante puede ocuparla:",
+      "opciones": [
+        "Por un máximo de dos años",
+        "Por un máximo de cinco años",
+        "Sin límite temporal hasta su cobertura",
+        "Por un máximo de tres años"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 10.1.a) permite nombrar interinos para plazas vacantes «por un máximo de tres años», en los términos del apartado 4.",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-006",
+      "ley": "trebep",
+      "articulo": "10.1.d",
+      "enunciado": "Puede nombrarse funcionario interino por exceso o acumulación de tareas:",
+      "opciones": [
+        "Por un plazo máximo de seis meses, dentro de un periodo de doce meses",
+        "Por un plazo máximo de doce meses, dentro de un periodo de dieciocho meses",
+        "Por un plazo máximo de nueve meses, dentro de un periodo de dieciocho meses",
+        "Por un plazo máximo de tres años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 10.1.d) se refiere al exceso o acumulación de tareas «por plazo máximo de nueve meses, dentro de un periodo de dieciocho meses».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-007",
+      "ley": "trebep",
+      "articulo": "10.1.c",
+      "enunciado": "Los programas de carácter temporal que justifican el nombramiento de interinos no pueden durar más de:",
+      "opciones": [
+        "Dos años, ampliables hasta seis meses más por las leyes de Función Pública",
+        "Tres años, ampliables hasta doce meses más por las leyes de Función Pública",
+        "Tres años, sin que las leyes de Función Pública puedan ampliar ese plazo",
+        "Cuatro años, ampliables hasta doce meses más por las leyes de Función Pública"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 10.1.c) dice que estos programas «no podrán tener una duración superior a tres años, ampliable hasta doce meses más por las leyes de Función Pública».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-008",
+      "ley": "trebep",
+      "articulo": "11.1",
+      "enunciado": "El personal laboral presta servicios retribuidos en las Administraciones Públicas:",
+      "opciones": [
+        "En virtud de contrato de trabajo formalizado por escrito",
+        "En virtud de nombramiento legal",
+        "En virtud de nombramiento libre",
+        "En virtud de contrato administrativo de servicios"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 11.1 dice que es personal laboral el que presta servicios retribuidos «en virtud de contrato de trabajo formalizado por escrito».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-009",
+      "ley": "trebep",
+      "articulo": "12.1",
+      "enunciado": "El personal eventual realiza:",
+      "opciones": [
+        "Funciones directivas profesionales",
+        "Funciones propias de funcionarios de carrera, con carácter temporal",
+        "Funciones de apoyo administrativo en los gabinetes",
+        "Solo funciones expresamente calificadas como de confianza o asesoramiento especial"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 12.1 dice que el personal eventual «sólo realiza funciones expresamente calificadas como de confianza o asesoramiento especial».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-010",
+      "ley": "trebep",
+      "articulo": "12.4",
+      "enunciado": "La condición de personal eventual:",
+      "opciones": [
+        "Es mérito para el acceso a la Función Pública, pero no para la promoción interna",
+        "Es mérito solo para la promoción interna, nunca para el acceso a la Función Pública",
+        "No puede constituir mérito para el acceso a la Función Pública ni para la promoción interna",
+        "Da derecho a adquirir la condición de funcionario tras tres años de servicios"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 12.4 dice: «La condición de personal eventual no podrá constituir mérito para el acceso a la Función Pública o para la promoción interna».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-011",
+      "ley": "trebep",
+      "articulo": "12.3",
+      "enunciado": "El cese del personal eventual tiene lugar, en todo caso:",
+      "opciones": [
+        "Al finalizar cada legislatura",
+        "Cuando cesa la autoridad a la que presta la función de confianza o asesoramiento",
+        "Cuando cumple cuatro años en el puesto",
+        "Cuando se cubre el puesto por un funcionario de carrera"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 12.3 dice que el cese tendrá lugar, en todo caso, «cuando se produzca el de la autoridad a la que se preste la función de confianza o asesoramiento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-012",
+      "ley": "trebep",
+      "articulo": "13.4",
+      "enunciado": "Cuando el personal directivo profesional tiene la condición de personal laboral, está sometido a:",
+      "opciones": [
+        "La relación laboral de carácter especial de alta dirección",
+        "El convenio colectivo único de la Administración General del Estado",
+        "El régimen general de los funcionarios de carrera",
+        "El régimen del personal eventual"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 13.4 dice que, en ese caso, «estará sometido a la relación laboral de carácter especial de alta dirección».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-013",
+      "ley": "trebep",
+      "articulo": "14.a",
+      "enunciado": "¿Cuál de los siguientes es un derecho individual de los empleados públicos según el artículo 14 del TREBEP?",
+      "opciones": [
+        "La libertad sindical",
+        "La negociación colectiva",
+        "El planteamiento de conflictos colectivos",
+        "La inamovilidad en la condición de funcionario de carrera"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 14.a) reconoce el derecho «A la inamovilidad en la condición de funcionario de carrera». Las otras opciones son derechos individuales ejercidos colectivamente (art. 15).",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "trebep-014",
+      "ley": "trebep",
+      "articulo": "15.c",
+      "enunciado": "¿Cuál de los siguientes es un derecho individual que se ejerce de forma colectiva?",
+      "opciones": [
+        "La formación continua y la actualización permanente de sus conocimientos",
+        "La progresión en la carrera profesional y la promoción interna",
+        "El ejercicio de la huelga, con mantenimiento de los servicios esenciales",
+        "La defensa jurídica por la Administración en los procedimientos judiciales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 15.c) incluye el derecho «Al ejercicio de la huelga, con la garantía del mantenimiento de los servicios esenciales de la comunidad».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "trebep-015",
+      "ley": "trebep",
+      "articulo": "22.1",
+      "enunciado": "Las retribuciones de los funcionarios de carrera se clasifican en:",
+      "opciones": [
+        "Fijas y variables",
+        "Básicas y complementarias",
+        "Ordinarias y extraordinarias",
+        "Básicas, complementarias y especiales"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 22.1 dice: «Las retribuciones de los funcionarios de carrera se clasifican en básicas y complementarias».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "trebep-016",
+      "ley": "trebep",
+      "articulo": "23",
+      "enunciado": "Las retribuciones básicas de los funcionarios:",
+      "opciones": [
+        "Se fijan en la Ley de Presupuestos Generales del Estado",
+        "Las fija cada Administración en su relación de puestos de trabajo",
+        "Se fijan por acuerdo de la Mesa General de Negociación",
+        "Las fija el Ministerio de Hacienda por orden"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 23 dice que las retribuciones básicas «se fijan en la Ley de Presupuestos Generales del Estado» y están formadas por el sueldo y los trienios.",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "trebep-017",
+      "ley": "trebep",
+      "articulo": "23.b",
+      "enunciado": "Los trienios consisten en una cantidad igual para cada Subgrupo o Grupo:",
+      "opciones": [
+        "Por cada dos años de servicio",
+        "Por cada cinco años de servicio",
+        "Por cada tres años en el mismo puesto de trabajo",
+        "Por cada tres años de servicio"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 23.b) define los trienios como una cantidad igual para cada Subgrupo o Grupo «por cada tres años de servicio».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "trebep-018",
+      "ley": "trebep",
+      "articulo": "22.4",
+      "enunciado": "¿Cuántas pagas extraordinarias al año perciben los funcionarios según el TREBEP?",
+      "opciones": [
+        "Una",
+        "Tres",
+        "Dos",
+        "Catorce"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 22.4 dice: «Las pagas extraordinarias serán dos al año».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "trebep-019",
+      "ley": "trebep",
+      "articulo": "48.k",
+      "enunciado": "¿Cuántos días de permiso por asuntos particulares al año reconoce el artículo 48 del TREBEP?",
+      "opciones": [
+        "Cinco días",
+        "Seis días",
+        "Tres días",
+        "Ocho días"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 48.k) reconoce el permiso «Por asuntos particulares, seis días al año».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "trebep-020",
+      "ley": "trebep",
+      "articulo": "48.l",
+      "enunciado": "El permiso por matrimonio o constitución formalizada de pareja de hecho es de:",
+      "opciones": [
+        "Quince días",
+        "Diez días",
+        "Veinte días",
+        "Quince días hábiles"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 48.l) fija el permiso «Por matrimonio o registro o constitución formalizada por documento público de pareja de hecho, quince días».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    }
+  ]
+}

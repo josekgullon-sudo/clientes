@@ -1,0 +1,405 @@
+{
+  "descripcion": "Ley 40/2015. Lote generado el 2026-10-12; citas comprobadas por script contra el texto consolidado del BOE (versión 2024-08-22).",
+  "preguntas": [
+    {
+      "id": "l40-001",
+      "ley": "ley-40-2015",
+      "articulo": "3.1",
+      "enunciado": "¿Cuál de los siguientes NO figura entre los principios con los que, según el artículo 3.1 de la Ley 40/2015, actúan las Administraciones Públicas?",
+      "opciones": [
+        "Jerarquía",
+        "Desconcentración",
+        "Coordinación",
+        "Autonomía"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 3.1 dice que las Administraciones «actúan de acuerdo con los principios de eficacia, jerarquía, descentralización, desconcentración y coordinación». La autonomía no figura en esa enumeración.",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-002",
+      "ley": "ley-40-2015",
+      "articulo": "3.1.e",
+      "enunciado": "Entre los principios que las Administraciones deben respetar en su actuación y relaciones, el artículo 3.1.e) de la Ley 40/2015 recoge:",
+      "opciones": [
+        "Buena fe, seguridad jurídica y lealtad constitucional",
+        "Publicidad, confianza legítima y jerarquía normativa",
+        "Buena fe, confianza legítima y lealtad institucional",
+        "Legalidad, buena fe y cooperación internacional"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 3.1.e) enumera literalmente: «Buena fe, confianza legítima y lealtad institucional».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-003",
+      "ley": "ley-40-2015",
+      "articulo": "5.1",
+      "enunciado": "Según la Ley 40/2015, tienen la consideración de órganos administrativos las unidades administrativas:",
+      "opciones": [
+        "Que tengan atribuidas funciones de coordinación interna, aunque carezcan de efectos frente a terceros",
+        "A las que se atribuyan funciones con efectos jurídicos frente a terceros, o cuya actuación tenga carácter preceptivo",
+        "Que estén dotadas de personalidad jurídica propia y de un presupuesto diferenciado",
+        "Que hayan sido creadas por una norma con rango de ley publicada en el boletín oficial"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 5.1 dice: «Tendrán la consideración de órganos administrativos las unidades administrativas a las que se les atribuyan funciones que tengan efectos jurídicos frente a terceros, o cuya actuación tenga carácter preceptivo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-004",
+      "ley": "ley-40-2015",
+      "articulo": "5.3",
+      "enunciado": "¿Cuál de los siguientes NO es uno de los requisitos mínimos que exige el artículo 5.3 de la Ley 40/2015 para crear un órgano administrativo?",
+      "opciones": [
+        "El informe previo del Consejo de Estado",
+        "La determinación de su forma de integración y su dependencia jerárquica",
+        "La delimitación de sus funciones y competencias",
+        "La dotación de los créditos necesarios para su puesta en marcha y funcionamiento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 5.3 exige «Determinación de su forma de integración en la Administración Pública de que se trate y su dependencia jerárquica», «Delimitación de sus funciones y competencias» y «Dotación de los créditos necesarios para su puesta en marcha y funcionamiento». No pide informe del Consejo de Estado.",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-005",
+      "ley": "ley-40-2015",
+      "articulo": "8.1",
+      "enunciado": "Según el artículo 8.1 de la Ley 40/2015, la competencia:",
+      "opciones": [
+        "Es renunciable, siempre que lo autorice expresamente el superior jerárquico del órgano",
+        "Puede cederse libremente a otro órgano de la misma Administración mediante acuerdo",
+        "Es irrenunciable, salvo en los casos de encomienda de gestión y de delegación de firma",
+        "Es irrenunciable y se ejerce por los órganos que la tienen atribuida como propia, salvo delegación o avocación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 8.1 dice: «La competencia es irrenunciable y se ejercerá por los órganos administrativos que la tengan atribuida como propia, salvo los casos de delegación o avocación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-006",
+      "ley": "ley-40-2015",
+      "articulo": "8.1",
+      "enunciado": "La delegación de competencias, las encomiendas de gestión, la delegación de firma y la suplencia:",
+      "opciones": [
+        "Suponen la transferencia de la titularidad de la competencia",
+        "Solo alteran la titularidad cuando se publican en el boletín oficial",
+        "No suponen alteración de la titularidad de la competencia",
+        "Alteran la titularidad, salvo la delegación de firma"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 8.1 establece que estas figuras «no suponen alteración de la titularidad de la competencia, aunque sí de los elementos determinantes de su ejercicio que en cada caso se prevén».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-007",
+      "ley": "ley-40-2015",
+      "articulo": "9.2.b",
+      "enunciado": "¿Cuál de las siguientes competencias NO puede ser objeto de delegación según la Ley 40/2015?",
+      "opciones": [
+        "La resolución de procedimientos sancionadores",
+        "La adopción de disposiciones de carácter general",
+        "La firma de convenios con otras Administraciones",
+        "La concesión de subvenciones"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 9.2 prohíbe delegar, entre otras, «La adopción de disposiciones de carácter general» (letra b).",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-008",
+      "ley": "ley-40-2015",
+      "articulo": "9.3",
+      "enunciado": "Las delegaciones de competencias y su revocación:",
+      "opciones": [
+        "Deben publicarse en el boletín oficial que corresponda según la Administración del órgano delegante",
+        "Solo deben notificarse a los interesados en los procedimientos afectados por ellas",
+        "No necesitan publicarse para ser válidas; basta con comunicarlas al órgano delegado",
+        "Deben publicarse siempre en el BOE, sea cual sea la Administración del órgano delegante"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 9.3 dice: «Las delegaciones de competencias y su revocación deberán publicarse» en el BOE, en el de la comunidad autónoma o en el de la provincia, según la Administración a que pertenezca el órgano delegante.",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-009",
+      "ley": "ley-40-2015",
+      "articulo": "9.4",
+      "enunciado": "Las resoluciones administrativas adoptadas por delegación:",
+      "opciones": [
+        "Se consideran dictadas por el órgano delegado",
+        "Se consideran dictadas por el superior común de delegante y delegado",
+        "No necesitan indicar que se han adoptado por delegación",
+        "Indican expresamente esta circunstancia y se consideran dictadas por el órgano delegante"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 9.4 establece que estas resoluciones «indicarán expresamente esta circunstancia y se considerarán dictadas por el órgano delegante».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-010",
+      "ley": "ley-40-2015",
+      "articulo": "9.5",
+      "enunciado": "¿Pueden delegarse las competencias que se ejercen por delegación?",
+      "opciones": [
+        "Sí, siempre que lo autorice el órgano delegante",
+        "Sí, con la aprobación del Ministro",
+        "No, salvo autorización expresa de una ley",
+        "No, en ningún caso"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 9.5 dice: «Salvo autorización expresa de una Ley, no podrán delegarse las competencias que se ejerzan por delegación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-011",
+      "ley": "ley-40-2015",
+      "articulo": "9.6",
+      "enunciado": "Según el artículo 9.6 de la Ley 40/2015, la delegación de competencias:",
+      "opciones": [
+        "Es irrevocable una vez publicada",
+        "Es revocable en cualquier momento por el órgano que la haya conferido",
+        "Solo puede revocarse transcurrido un año",
+        "Solo puede revocarla el superior jerárquico del delegante"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 9.6 establece: «La delegación será revocable en cualquier momento por el órgano que la haya conferido».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-012",
+      "ley": "ley-40-2015",
+      "articulo": "10.2",
+      "enunciado": "Contra el acuerdo de avocación:",
+      "opciones": [
+        "No cabe recurso, aunque puede impugnarse en el que se interponga contra la resolución del procedimiento",
+        "Cabe recurso de alzada ante el superior jerárquico del órgano que acuerda la avocación",
+        "Cabe recurso potestativo de reposición ante el mismo órgano que acordó la avocación",
+        "Cabe recurso extraordinario de revisión, solo en los supuestos tasados por la ley"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 10.2 dice: «Contra el acuerdo de avocación no cabrá recurso, aunque podrá impugnarse en el que, en su caso, se interponga contra la resolución del procedimiento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-013",
+      "ley": "ley-40-2015",
+      "articulo": "10.1",
+      "enunciado": "Cuando se delegan competencias en órganos no dependientes jerárquicamente, el conocimiento de un asunto puede avocarlo:",
+      "opciones": [
+        "Cualquier órgano superior del delegado",
+        "El superior común de delegante y delegado",
+        "El Ministro del departamento del órgano delegado",
+        "Únicamente el órgano delegante"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 10.1 establece que, en esos supuestos, «el conocimiento de un asunto podrá ser avocado únicamente por el órgano delegante».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-014",
+      "ley": "ley-40-2015",
+      "articulo": "11.1",
+      "enunciado": "La encomienda de gestión tiene por objeto la realización de actividades:",
+      "opciones": [
+        "De carácter normativo",
+        "De carácter sancionador",
+        "De carácter material o técnico",
+        "De carácter jurídico y resolutorio"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 11.1 dice que puede encomendarse «La realización de actividades de carácter material o técnico de la competencia de los órganos administrativos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-015",
+      "ley": "ley-40-2015",
+      "articulo": "11.2",
+      "enunciado": "Respecto a la encomienda de gestión, es correcto que:",
+      "opciones": [
+        "Supone la cesión de la titularidad de la competencia",
+        "No supone cesión de la titularidad de la competencia ni de los elementos sustantivos de su ejercicio",
+        "Transfiere al órgano encomendado la competencia para dictar los actos jurídicos",
+        "Puede tener por objeto prestaciones propias de los contratos del sector público"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 11.2 dice: «La encomienda de gestión no supone cesión de la titularidad de la competencia ni de los elementos sustantivos de su ejercicio».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-016",
+      "ley": "ley-40-2015",
+      "articulo": "12.2",
+      "enunciado": "Para la validez de la delegación de firma:",
+      "opciones": [
+        "No es necesaria su publicación",
+        "Es necesaria su publicación en el BOE",
+        "Es necesaria la aprobación del superior jerárquico",
+        "Es necesaria la notificación a todos los interesados"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 12.2 dice: «La delegación de firma no alterará la competencia del órgano delegante y para su validez no será necesaria su publicación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-017",
+      "ley": "ley-40-2015",
+      "articulo": "17.2",
+      "enunciado": "Para la válida constitución de un órgano colegiado se requiere la asistencia del Presidente y del Secretario, o de quienes les suplan, y de:",
+      "opciones": [
+        "Dos tercios de sus miembros",
+        "La mayoría absoluta de sus miembros, sin contar al Presidente",
+        "Un tercio de sus miembros",
+        "La mitad, al menos, de sus miembros"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 17.2 exige la asistencia del Presidente y Secretario «y la de la mitad, al menos, de sus miembros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-018",
+      "ley": "ley-40-2015",
+      "articulo": "19.2.d",
+      "enunciado": "En los órganos colegiados de la Administración General del Estado, ¿a quién corresponde dirimir con su voto los empates?",
+      "opciones": [
+        "Al Secretario",
+        "Al miembro de mayor antigüedad",
+        "Al Presidente",
+        "Al Vicepresidente"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 19.2 atribuye al Presidente, entre otras funciones, «Dirimir con su voto los empates, a efectos de adoptar acuerdos», salvo en los órganos del artículo 15.2.",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-019",
+      "ley": "ley-40-2015",
+      "articulo": "18.1",
+      "enunciado": "¿Quién levanta el acta de cada sesión de un órgano colegiado?",
+      "opciones": [
+        "El Presidente",
+        "El Secretario",
+        "El miembro de menor edad",
+        "El Vicepresidente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 18.1 dice: «De cada sesión que celebre el órgano colegiado se levantará acta por el Secretario».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    },
+    {
+      "id": "l40-020",
+      "ley": "ley-40-2015",
+      "articulo": "18.2",
+      "enunciado": "El acta de cada sesión de un órgano colegiado puede aprobarse:",
+      "opciones": [
+        "En la misma reunión o en la inmediata siguiente",
+        "Solo en la reunión inmediata siguiente",
+        "En el plazo de un mes desde la sesión",
+        "Solo en la misma reunión"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 18.2 dice: «El acta de cada sesión podrá aprobarse en la misma reunión o en la inmediata siguiente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 11
+      }
+    }
+  ]
+}

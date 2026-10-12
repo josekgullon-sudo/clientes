@@ -21,3 +21,18 @@ Anota aquí las preguntas dudosas que salgan de la validación: id, archivo y mo
 ## Dudosas
 
 Ninguna por ahora.
+
+### Lotes del 2026-10-12 (Ley 40/2015, TREBEP y art. 69.3 CE)
+
+- **l40-040** (`ley40-art3-84.json`, art. 72.3): un distractor dice que los Delegados del Gobierno
+  dependen orgánicamente del Ministro de Hacienda. El art. 69.3 del texto consolidado sigue
+  adscribiendo las Delegaciones al «Ministerio de Hacienda y Administraciones Públicas» (nombre
+  antiguo), así que la opción puede confundir. Hay que cambiar ese distractor.
+- **ce-033** (`constitucion-arranque-art1-167.json`, art. 69.3): la cita viene de la nota del BOE
+  sobre la disposición transitoria única de la reforma de 2026, no del texto del artículo. Hay que
+  comprobarla con el texto de la reforma (BOE-A-2026-10881).
+- **TREBEP, art. 49**: el BOE ya ha publicado una versión que entra en vigor el 2026-10-23
+  (BOE-A-2026-20528). `fuentes/trebep.txt` recoge la versión vigente hoy. No hay preguntas sobre el
+  art. 49; hay que actualizar la fuente después de esa fecha.
+- Los textos consolidados mantienen algunos nombres de ministerios antiguos («Ministerio de Hacienda
+  y Administraciones Públicas»). Evita preguntar por ministerios concretos.

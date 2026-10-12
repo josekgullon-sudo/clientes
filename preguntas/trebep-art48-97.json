@@ -1,0 +1,405 @@
+{
+  "descripcion": "TREBEP (RDL 5/2015). Lote generado el 2026-10-12; citas comprobadas por script contra el texto consolidado del BOE (versión 2025-07-31).",
+  "preguntas": [
+    {
+      "id": "trebep-021",
+      "ley": "trebep",
+      "articulo": "48.a",
+      "enunciado": "Por fallecimiento de un familiar de primer grado de consanguinidad, ocurrido en la misma localidad, el funcionario tiene un permiso de:",
+      "opciones": [
+        "Dos días hábiles",
+        "Cinco días hábiles",
+        "Cuatro días hábiles",
+        "Tres días hábiles"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 48.a) concede en caso de fallecimiento del cónyuge, pareja de hecho o familiar de primer grado «tres días hábiles cuando el suceso se produzca en la misma localidad», y cinco si es en distinta localidad.",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "trebep-022",
+      "ley": "trebep",
+      "articulo": "48.f",
+      "enunciado": "Por lactancia de un hijo menor de doce meses, el funcionario tiene derecho a:",
+      "opciones": [
+        "Dos horas de ausencia diarias",
+        "Media hora de ausencia al inicio de la jornada",
+        "Una hora de ausencia del trabajo, que puede dividir en dos fracciones",
+        "Una hora de ausencia, sin posibilidad de dividirla"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 48.f) dice: «Por lactancia de un hijo menor de doce meses tendrán derecho a una hora de ausencia del trabajo que podrá dividir en dos fracciones».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "trebep-023",
+      "ley": "trebep",
+      "articulo": "48.i",
+      "enunciado": "Para atender el cuidado de un familiar de primer grado por enfermedad muy grave, el funcionario puede solicitar:",
+      "opciones": [
+        "Una reducción de hasta el 50 % de la jornada, no retribuida, durante un máximo de tres meses",
+        "Una reducción de hasta el 50 % de la jornada, retribuida, durante un máximo de un mes",
+        "Un permiso retribuido de quince días",
+        "Una reducción de hasta un tercio de la jornada, retribuida, durante un máximo de dos meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 48.i) reconoce el derecho a solicitar «una reducción de hasta el cincuenta por ciento de la jornada laboral, con carácter retribuido, por razones de enfermedad muy grave y por el plazo máximo de un mes».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "trebep-024",
+      "ley": "trebep",
+      "articulo": "50.1",
+      "enunciado": "Las vacaciones anuales retribuidas de los funcionarios son de:",
+      "opciones": [
+        "Veintidós días hábiles",
+        "Treinta días naturales",
+        "Veinticinco días hábiles",
+        "Un mes natural"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 50.1 reconoce «unas vacaciones retribuidas de veintidós días hábiles», o los días que correspondan proporcionalmente.",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "trebep-025",
+      "ley": "trebep",
+      "articulo": "50.1",
+      "enunciado": "A efectos de vacaciones de los funcionarios, los sábados:",
+      "opciones": [
+        "Se consideran días hábiles",
+        "Se consideran hábiles solo en agosto",
+        "Se consideran hábiles si el funcionario trabaja en horario de mañana",
+        "No se consideran días hábiles, sin perjuicio de las adaptaciones para horarios especiales"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 50.1 dice: «no se considerarán como días hábiles los sábados, sin perjuicio de las adaptaciones que se establezcan para los horarios especiales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "trebep-026",
+      "ley": "trebep",
+      "articulo": "52",
+      "enunciado": "¿Cuál de los siguientes NO figura entre los principios del artículo 52 del TREBEP que inspiran el Código de Conducta?",
+      "opciones": [
+        "Neutralidad",
+        "Ejemplaridad",
+        "Jerarquía",
+        "Austeridad"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 52 enumera, entre otros, «objetividad, integridad, neutralidad, responsabilidad, imparcialidad, confidencialidad, dedicación al servicio público, transparencia, ejemplaridad, austeridad, accesibilidad, eficacia, honradez». La jerarquía no figura entre ellos.",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "trebep-027",
+      "ley": "trebep",
+      "articulo": "56.1.c",
+      "enunciado": "¿Qué edad mínima se exige para participar en los procesos selectivos de acceso al empleo público?",
+      "opciones": [
+        "Dieciocho años",
+        "Dieciséis años",
+        "Diecisiete años",
+        "Veintiún años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 56.1.c) exige «Tener cumplidos dieciséis años y no exceder, en su caso, de la edad máxima de jubilación forzosa».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-028",
+      "ley": "trebep",
+      "articulo": "57.2",
+      "enunciado": "Los descendientes de españoles y de nacionales de otros Estados de la UE pueden acceder al empleo público como funcionarios, cualquiera que sea su nacionalidad, si:",
+      "opciones": [
+        "Son menores de veintiún años o mayores de dicha edad dependientes",
+        "Son menores de dieciocho años",
+        "Son menores de veinticinco años",
+        "Residen legalmente en España desde hace cinco años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 57.2 extiende el acceso a los descendientes siempre que «sean menores de veintiún años o mayores de dicha edad dependientes».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-029",
+      "ley": "trebep",
+      "articulo": "57.4",
+      "enunciado": "Los extranjeros con residencia legal en España pueden acceder a las Administraciones Públicas:",
+      "opciones": [
+        "Como funcionarios de carrera, en igualdad de condiciones",
+        "Solo como personal eventual",
+        "En ningún caso",
+        "Como personal laboral, en igualdad de condiciones que los españoles"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 57.4 dice que los extranjeros con residencia legal en España «podrán acceder a las Administraciones Públicas, como personal laboral, en igualdad de condiciones que los españoles».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-030",
+      "ley": "trebep",
+      "articulo": "60.2",
+      "enunciado": "¿Quién puede formar parte de un órgano de selección?",
+      "opciones": [
+        "Un funcionario interino",
+        "Una persona del personal eventual",
+        "Un funcionario de carrera",
+        "Una persona de designación política"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 60.2 dice: «El personal de elección o de designación política, los funcionarios interinos y el personal eventual no podrán formar parte de los órganos de selección».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-031",
+      "ley": "trebep",
+      "articulo": "63",
+      "enunciado": "¿Cuál de las siguientes NO es causa de pérdida de la condición de funcionario de carrera?",
+      "opciones": [
+        "La renuncia a la condición de funcionario",
+        "La jubilación parcial",
+        "La pérdida de la nacionalidad",
+        "La sanción firme de separación del servicio"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 63 incluye «La jubilación total del funcionario», no la parcial, junto con la renuncia, la pérdida de la nacionalidad, la separación firme y la inhabilitación firme.",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-032",
+      "ley": "trebep",
+      "articulo": "64.2",
+      "enunciado": "No puede aceptarse la renuncia a la condición de funcionario cuando:",
+      "opciones": [
+        "El funcionario está sujeto a expediente disciplinario",
+        "El funcionario tiene menos de cinco años de servicio",
+        "El funcionario está en excedencia voluntaria",
+        "La renuncia se presenta en los últimos tres meses del año"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 64.2 dice que no podrá aceptarse la renuncia «cuando el funcionario esté sujeto a expediente disciplinario» o se haya dictado auto de procesamiento o de apertura de juicio oral por delito.",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-033",
+      "ley": "trebep",
+      "articulo": "67.3",
+      "enunciado": "Según el artículo 67.3 del TREBEP, puede solicitarse la prolongación de la permanencia en el servicio activo como máximo hasta:",
+      "opciones": [
+        "Los sesenta y siete años de edad",
+        "Los sesenta y ocho años de edad",
+        "Los setenta y dos años de edad",
+        "Los setenta años de edad"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 67.3 permite solicitar la prolongación «como máximo hasta que se cumpla setenta años de edad», en los términos de las leyes de Función Pública.",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-034",
+      "ley": "trebep",
+      "articulo": "76",
+      "enunciado": "¿Qué título se exige para el acceso a los cuerpos o escalas del Subgrupo C2?",
+      "opciones": [
+        "Bachiller o Técnico de Formación Profesional",
+        "Técnico Superior de Formación Profesional",
+        "Graduado en Educación Secundaria Obligatoria",
+        "Certificado de Estudios Primarios o equivalente"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 76 dice: «C2: Título de Graduado en Educación Secundaria Obligatoria».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-035",
+      "ley": "trebep",
+      "articulo": "85.1",
+      "enunciado": "¿Cuál de las siguientes NO es una situación administrativa de los funcionarios de carrera recogida en el artículo 85.1 del TREBEP?",
+      "opciones": [
+        "Servicios especiales",
+        "Expectativa de destino",
+        "Servicio en otras Administraciones Públicas",
+        "Suspensión de funciones"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 85.1 enumera: «a) Servicio activo. b) Servicios especiales. c) Servicio en otras Administraciones Públicas. d) Excedencia. e) Suspensión de funciones».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-036",
+      "ley": "trebep",
+      "articulo": "89.2",
+      "enunciado": "Para obtener la excedencia voluntaria por interés particular, el TREBEP exige haber prestado servicios efectivos en cualquier Administración durante:",
+      "opciones": [
+        "Un mínimo de cinco años inmediatamente anteriores",
+        "Un mínimo de tres años inmediatamente anteriores",
+        "Un mínimo de un año",
+        "Un mínimo de diez años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 89.2 lo exige «durante un periodo mínimo de cinco años inmediatamente anteriores», aunque las leyes de Función Pública pueden fijar uno menor.",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-037",
+      "ley": "trebep",
+      "articulo": "90.1",
+      "enunciado": "La suspensión de funciones determina la pérdida del puesto de trabajo cuando excede de:",
+      "opciones": [
+        "Tres meses",
+        "Un año",
+        "Dos años",
+        "Seis meses"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 90.1 dice: «La suspensión determinará la pérdida del puesto de trabajo cuando exceda de seis meses».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "trebep-038",
+      "ley": "trebep",
+      "articulo": "96.1.c",
+      "enunciado": "La sanción de suspensión firme de funciones tiene una duración máxima de:",
+      "opciones": [
+        "Tres años",
+        "Cuatro años",
+        "Seis años",
+        "Un año"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 96.1.c) prevé la «Suspensión firme de funciones, o de empleo y sueldo en el caso del personal laboral, con una duración máxima de 6 años».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "trebep-039",
+      "ley": "trebep",
+      "articulo": "97.1",
+      "enunciado": "Según el TREBEP, las faltas leves prescriben:",
+      "opciones": [
+        "Al año",
+        "A los seis meses",
+        "A los tres meses",
+        "A los dos años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 97.1 dice: «Las infracciones muy graves prescribirán a los tres años, las graves a los dos años y las leves a los seis meses».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "trebep-040",
+      "ley": "trebep",
+      "articulo": "95.2.c",
+      "enunciado": "¿Cuál de las siguientes conductas es una falta muy grave según el artículo 95.2 del TREBEP?",
+      "opciones": [
+        "El abandono del servicio",
+        "La falta de puntualidad",
+        "El descuido en el ejercicio de las funciones",
+        "La incorrección con el público"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 95.2.c) califica como falta muy grave «El abandono del servicio, así como no hacerse cargo voluntariamente de las tareas o funciones que tienen encomendadas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    }
+  ]
+}
