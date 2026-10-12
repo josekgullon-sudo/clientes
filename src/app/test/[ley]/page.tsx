@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ArrowRight, Check, ChevronRight } from "lucide-react";
+import { Faq } from "@/components/faq";
 import { notFound } from "next/navigation";
 import { Cabecera } from "@/components/cabecera";
 import { Pie } from "@/components/pie";
@@ -104,35 +106,58 @@ export default async function TestLey({ params }: PageProps<"/test/[ley]">) {
     },
   ].filter(Boolean);
 
+  // «de la Ley 39/2015», «del TREBEP», «del tema 3».
+  const deQue =
+    pagina.tipo === "tema"
+      ? `del tema ${pagina.tema?.numero}`
+      : pagina.ley?.nombreCorto === "TREBEP"
+        ? "del TREBEP"
+        : `de la ${pagina.ley?.nombreCorto ?? pagina.titulo}`;
+  const entradilla =
+    pagina.preguntas.length > 0
+      ? `${pagina.preguntas.length} preguntas ${deQue} con la respuesta explicada y el artículo exacto del BOE.`
+      : null;
+  const resto = parrafos;
+
   const intro = (
     <>
       <Cabecera />
-      <main className="mx-auto w-full max-w-lectura flex-1 px-4 pt-8 pb-28">
+      <main className="mx-auto w-full max-w-lectura flex-1 px-4 pt-6 pb-32">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
         />
-        <nav aria-label="Migas" className="text-[0.9rem] text-pizarra">
-          <Link href="/" className="underline underline-offset-4">Inicio</Link>
-          <span aria-hidden="true"> · </span>
-          <span>{pagina.tipo === "ley" ? "Por ley" : `Bloque ${pagina.tema?.bloque}`}</span>
+        <nav aria-label="Migas" className="flex items-center gap-1.5 text-sm text-pizarra">
+          <Link href="/" className="hover:text-pino hover:underline">
+            Inicio
+          </Link>
+          <ChevronRight aria-hidden size={14} />
+          <span>{pagina.tipo === "ley" ? "Test por ley" : `Bloque ${pagina.tema?.bloque}`}</span>
         </nav>
-        <p className="mt-4 text-[0.95rem] font-semibold text-pizarra">Auxiliar Administrativo del Estado</p>
-        <h1 className="mt-2 font-serif text-[2rem] leading-[1.15] font-semibold md:text-[2.4rem]">{pagina.h1}</h1>
-        {parrafos.map((p) => (
-          <p key={p.slice(0, 24)} className="mt-4 font-serif text-[1.05rem] leading-relaxed">{p}</p>
-        ))}
+        <p className="antetitulo mt-6">Auxiliar Administrativo del Estado</p>
+        <h1 className="mt-2 font-serif text-[2.25rem] leading-[1.1] font-semibold md:text-[2.75rem]">{pagina.h1}</h1>
+        {entradilla && <p className="mt-4 text-lg text-pizarra">{entradilla}</p>}
+
+        <ul className="mt-6 flex flex-wrap gap-2 text-sm font-semibold">
+          {[`${pagina.preguntas.length} preguntas`, "Sin registro", "5 minutos"].map((t) => (
+            <li key={t} className="cifras flex items-center gap-1.5 rounded-full border border-filete bg-superficie px-3 py-1.5">
+              <Check aria-hidden size={14} className="text-pino" strokeWidth={3} /> {t}
+            </li>
+          ))}
+        </ul>
 
         {pagina.preguntas.length > 0 && (
           <section aria-labelledby="preguntas" className="mt-10">
-            <h2 id="preguntas" className="font-serif text-xl font-semibold">Qué te vas a encontrar</h2>
-            <ol className="mt-2">
+            <h2 id="preguntas" className="text-lg font-bold">
+              Qué te vas a encontrar
+            </h2>
+            <ol className="tarjeta mt-3 divide-y divide-filete">
               {pagina.preguntas.map((p, i) => (
-                <li key={p.id} className="flex gap-3 border-b border-filete py-3">
-                  <span className="w-6 shrink-0 text-pizarra tabular-nums">{i + 1}.</span>
-                  <span>
+                <li key={p.id} className="flex gap-3 px-4 py-3.5">
+                  <span className="cifras w-6 shrink-0 font-bold text-pizarra">{i + 1}</span>
+                  <span className="leading-snug">
                     {p.enunciado}
-                    <span className="mt-1 block text-[0.9rem] text-pizarra">
+                    <span className="mt-1 block text-sm font-semibold text-pizarra">
                       Art. {p.articulo}
                       {p.ley ? ` · ${p.ley}` : ""}
                     </span>
@@ -144,20 +169,41 @@ export default async function TestLey({ params }: PageProps<"/test/[ley]">) {
         )}
 
         {pagina.enPreparacion && (
-          <p className="mt-8 rounded-md border border-filete bg-papel-hundido p-4" role="status">
-            En preparación. Puedes practicar mientras tanto con los temas que ya tienen preguntas.
+          <p className="mt-8 rounded-2xl bg-oro-suave p-4 text-oro-texto" role="status">
+            Este tema está en preparación. Mientras tanto, practica con los temas que ya tienen preguntas.
           </p>
         )}
 
+        {resto.length > 0 && (
+          <section aria-labelledby="sobre" className="mt-12">
+            <h2 id="sobre" className="font-serif text-2xl font-semibold">
+              {pagina.tipo === "ley" ? "Sobre esta ley en el examen" : "Sobre este tema"}
+            </h2>
+            {resto.map((p) => (
+              <p key={p.slice(0, 24)} className="mt-4 font-serif text-[1.0625rem] leading-relaxed">
+                {p}
+              </p>
+            ))}
+          </section>
+        )}
+
         {pagina.temasRelacionados.length > 0 && (
-          <section aria-labelledby="temas" className="mt-10">
-            <h2 id="temas" className="font-serif text-xl font-semibold">Temas del examen donde entra</h2>
-            <ul className="mt-2">
+          <section aria-labelledby="temas" className="mt-12">
+            <h2 id="temas" className="text-lg font-bold">
+              Temas del examen donde entra
+            </h2>
+            <ul className="mt-3 flex flex-col gap-2">
               {pagina.temasRelacionados.map((t) => (
-                <li key={t.slug} className="border-b border-filete">
-                  <Link href={`/test/${t.slug}`} className="flex min-h-12 items-center justify-between gap-3 py-2 font-semibold hover:underline">
-                    <span>Tema {t.numero}. {t.titulo}</span>
-                    <span aria-hidden="true">→</span>
+                <li key={t.slug}>
+                  <Link
+                    href={`/test/${t.slug}`}
+                    className="tarjeta flex min-h-14 items-center gap-3 px-4 py-3 transition hover:border-pino/50"
+                  >
+                    <span className="cifras grid size-9 shrink-0 place-items-center rounded-full bg-pino-suave text-sm font-extrabold text-pino">
+                      {t.numero}
+                    </span>
+                    <span className="line-clamp-2 flex-1 leading-snug font-semibold">{t.titulo}</span>
+                    <ArrowRight aria-hidden size={18} className="shrink-0 text-pino" />
                   </Link>
                 </li>
               ))}
@@ -166,13 +212,18 @@ export default async function TestLey({ params }: PageProps<"/test/[ley]">) {
         )}
 
         {pagina.leyesRelacionadas.length > 0 && (
-          <section aria-labelledby="leyes" className="mt-10">
-            <h2 id="leyes" className="font-serif text-xl font-semibold">Leyes de este tema</h2>
-            <ul className="mt-2">
+          <section aria-labelledby="leyes" className="mt-12">
+            <h2 id="leyes" className="text-lg font-bold">
+              Leyes de este tema
+            </h2>
+            <ul className="mt-3 flex flex-wrap gap-2">
               {pagina.leyesRelacionadas.map((l) => (
-                <li key={l.slug} className="border-b border-filete">
-                  <Link href={`/test/${l.slug}`} className="flex min-h-12 items-center justify-between py-2 font-semibold hover:underline">
-                    {l.nombreCorto} <span aria-hidden="true">→</span>
+                <li key={l.slug}>
+                  <Link
+                    href={`/test/${l.slug}`}
+                    className="inline-flex min-h-11 items-center gap-1.5 rounded-full border border-filete bg-superficie px-4 font-semibold transition hover:border-pino/50 hover:text-pino"
+                  >
+                    {l.nombreCorto} <ArrowRight aria-hidden size={15} />
                   </Link>
                 </li>
               ))}
@@ -180,24 +231,26 @@ export default async function TestLey({ params }: PageProps<"/test/[ley]">) {
           </section>
         )}
 
-        <section aria-labelledby="faq" className="mt-10">
-          <h2 id="faq" className="font-serif text-xl font-semibold">Preguntas frecuentes</h2>
-          <dl className="mt-2">
-            {faq.map((f) => (
-              <div key={f.q} className="border-b border-filete py-3">
-                <dt className="font-semibold">{f.q}</dt>
-                <dd className="mt-1 text-pizarra">{f.a}</dd>
-              </div>
-            ))}
-          </dl>
+        <section aria-labelledby="faq" className="mt-12">
+          <h2 id="faq" className="text-lg font-bold">
+            Preguntas frecuentes
+          </h2>
+          <div className="mt-3">
+            <Faq items={faq} />
+          </div>
         </section>
 
         {pagina.siguiente && (
-          <p className="mt-8">
-            <Link href={pagina.siguiente.href} className="font-semibold underline underline-offset-4">
-              Siguiente: {pagina.siguiente.texto}
-            </Link>
-          </p>
+          <Link
+            href={pagina.siguiente.href}
+            className="tarjeta mt-10 flex items-center justify-between gap-3 px-5 py-4 transition hover:border-pino/50"
+          >
+            <span>
+              <span className="block text-sm font-semibold text-pizarra">Siguiente</span>
+              <span className="font-bold">{pagina.siguiente.texto}</span>
+            </span>
+            <ArrowRight aria-hidden size={20} className="text-pino" />
+          </Link>
         )}
       </main>
       <Pie />

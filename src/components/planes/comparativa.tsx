@@ -11,33 +11,45 @@ export function Comparativa({
   ctaPremium?: string;
   mostrarBotones?: boolean;
 }) {
+  const ahorro = Math.round((1 - PRECIOS.anual / (PRECIOS.mensual * 12)) * 100);
   return (
-    <div className="grid items-stretch gap-4 md:grid-cols-2">
-      <article className="tarjeta flex flex-col p-6">
-        <h3 className="text-sm font-semibold tracking-wide text-pizarra uppercase">Gratis</h3>
-        <p className="mt-2 font-serif text-4xl font-semibold">0 €</p>
-        <Checks puntos={PUNTOS_GRATIS} />
+    <div className="grid items-stretch gap-5 md:grid-cols-2">
+      <article className="tarjeta flex flex-col p-7">
+        <h3 className="text-lg font-bold">Gratis</h3>
+        <p className="mt-1 text-sm text-pizarra">Para empezar y crear el hábito.</p>
+        <p className="mt-5 font-serif text-5xl font-semibold">0 €</p>
+        <p className="mt-1 text-sm text-pizarra">Para siempre</p>
+        <div className="mt-6 flex-1">
+          <Checks puntos={PUNTOS_GRATIS} />
+        </div>
         {mostrarBotones && (
-          <div className="mt-6">
+          <div className="mt-7">
             <EnlaceBoton href={ctaGratis} variante="secundario" ancho>
-              Probar
+              Empezar gratis
             </EnlaceBoton>
           </div>
         )}
       </article>
-      <article className="tarjeta relative flex flex-col border-2 border-pino bg-pino-suave p-6">
-        <p className="absolute -top-3 left-6 rounded-full bg-pino-boton px-3 py-1 text-xs font-semibold text-sobre-pino">Más elegido</p>
-        <h3 className="text-sm font-semibold tracking-wide text-pino uppercase">Anual</h3>
-        <p className="mt-2 font-serif text-4xl font-semibold">
-          {eur.format(precioMesEquivalente)}
-          <span className="font-sans text-base font-normal text-pizarra"> /mes</span>
+      <article className="relative flex flex-col rounded-[1.25rem] border-2 border-pino bg-superficie p-7 shadow-alta">
+        <p className="absolute -top-3.5 left-7 rounded-full bg-subrayador px-3 py-1 text-xs font-extrabold text-subrayador-texto">
+          Ahorras un {ahorro} %
         </p>
-        <p className="mt-1 text-sm text-pizarra">{eur.format(PRECIOS.anual)} al año</p>
-        <Checks puntos={PUNTOS_PREMIUM} />
+        <h3 className="text-lg font-bold text-pino">Premium anual</h3>
+        <p className="mt-1 text-sm text-pizarra">Para ir a por la plaza.</p>
+        <p className="mt-5 font-serif text-5xl font-semibold">
+          {eur.format(precioMesEquivalente)}
+          <span className="font-sans text-base font-semibold text-pizarra"> /mes</span>
+        </p>
+        <p className="cifras mt-1 text-sm text-pizarra">
+          {eur.format(PRECIOS.anual)} al año · o {eur.format(PRECIOS.mensual)} mes a mes
+        </p>
+        <div className="mt-6 flex-1">
+          <Checks puntos={PUNTOS_PREMIUM} />
+        </div>
         {mostrarBotones && (
-          <div className="mt-6">
+          <div className="mt-7">
             <EnlaceBoton href={ctaPremium} ancho>
-              Elegir anual
+              Elegir Premium
             </EnlaceBoton>
           </div>
         )}

@@ -37,7 +37,7 @@ export function ImportarDemo() {
 
   if (!mensaje) return null;
   return (
-    <p role="status" className="rounded-xl border border-pino bg-pino-suave px-4 py-3">
+    <p role="status" className="aparecer rounded-2xl border border-pino/40 bg-pino-suave px-4 py-3 font-semibold text-pino">
       {mensaje}
     </p>
   );
