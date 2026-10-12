@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SITIO } from "@/lib/sitio";
+import { Logo } from "./logo";
 
 const enlaces = [
   { href: "/legal/aviso-legal", texto: "Aviso legal" },
@@ -10,22 +11,24 @@ const enlaces = [
 
 export function Pie() {
   return (
-    <footer className="mt-auto border-t border-filete">
-      <div className="mx-auto max-w-5xl px-4 py-8 text-[0.95rem] text-pizarra">
-        <p className="max-w-lectura">{SITIO.avisoNoOficial}</p>
-        <nav aria-label="Información legal" className="mt-4 flex flex-wrap gap-x-5 gap-y-1">
+    <footer className="mt-auto border-t border-filete bg-superficie">
+      <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-10 md:flex-row md:items-start md:justify-between">
+        <div className="max-w-sm">
+          <Logo />
+          <p className="mt-3 text-sm text-pizarra">{SITIO.lema}.</p>
+          <p className="mt-3 text-sm text-pizarra">{SITIO.avisoNoOficial}</p>
+        </div>
+        <nav aria-label="Información legal" className="flex flex-wrap gap-x-5 gap-y-1 text-sm md:flex-col">
           {enlaces.map((e) => (
-            <Link
-              key={e.href}
-              href={e.href}
-              className="inline-flex min-h-11 items-center underline decoration-filete underline-offset-4 hover:text-tinta"
-            >
+            <Link key={e.href} href={e.href} className="inline-flex min-h-11 items-center font-semibold text-pizarra hover:text-pino md:min-h-9">
               {e.texto}
             </Link>
           ))}
         </nav>
-        <p className="mt-4">© {new Date().getFullYear()} {SITIO.nombre}</p>
       </div>
+      <p className="border-t border-filete py-4 text-center text-xs text-pizarra">
+        © {new Date().getFullYear()} {SITIO.nombre}
+      </p>
     </footer>
   );
 }

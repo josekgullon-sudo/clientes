@@ -42,21 +42,21 @@ export function AvisoCookies() {
     <div
       role="region"
       aria-label="Aviso de cookies"
-      className="fixed inset-x-0 bottom-0 z-20 border-t border-filete bg-papel-hundido pb-[env(safe-area-inset-bottom)]"
+      className="fixed inset-x-3 bottom-3 z-40 mx-auto max-w-xl rounded-2xl border border-filete bg-superficie p-3 pl-4 shadow-alta pb-[max(0.75rem,env(safe-area-inset-bottom))] sm:bottom-5"
     >
-      <div className="mx-auto flex max-w-5xl flex-col gap-3 px-4 py-4 sm:flex-row sm:items-center sm:justify-between">
-        <p className="text-[0.95rem]">
-          Solo usamos cookies técnicas para que puedas entrar y recordar tus preferencias. Nada de publicidad.{" "}
-          <Link href="/legal/cookies" className="underline underline-offset-4">
+      <div className="flex items-center gap-3">
+        <p className="flex-1 text-sm leading-snug">
+          Solo usamos cookies técnicas, nada de publicidad.{" "}
+          <Link href="/legal/cookies" className="enlace">
             Más información
           </Link>
         </p>
         <button
           type="button"
           onClick={cerrar}
-          className="min-h-11 shrink-0 rounded-md bg-tinta px-5 font-semibold text-papel"
+          className="min-h-11 shrink-0 rounded-xl bg-tinta px-4 text-sm font-bold text-papel"
         >
-          Entendido
+          Vale
         </button>
       </div>
     </div>

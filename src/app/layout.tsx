@@ -1,11 +1,12 @@
 import type { Metadata, Viewport } from "next";
-import { Atkinson_Hyperlegible_Next, Source_Serif_4 } from "next/font/google";
+import { Figtree, Source_Serif_4 } from "next/font/google";
 import { Analitica } from "@/components/analitica";
 import { AvisoCookies } from "@/components/aviso-cookies";
 import { SITIO } from "@/lib/sitio";
 import "./globals.css";
 
-const interfaz = Atkinson_Hyperlegible_Next({
+// Figtree: muy legible y con cifras limpias (el cero sin tachar) para contadores y botones.
+const interfaz = Figtree({
   variable: "--fuente-interfaz",
   subsets: ["latin"],
   display: "swap",
@@ -28,8 +29,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f5f7f4" },
-    { media: "(prefers-color-scheme: dark)", color: "#101614" },
+    { media: "(prefers-color-scheme: light)", color: "#f4f6f2" },
+    { media: "(prefers-color-scheme: dark)", color: "#0e1412" },
   ],
 };
 

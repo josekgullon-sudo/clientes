@@ -1,86 +1,111 @@
 @import "tailwindcss";
 
 /*
- * Identidad «el temario subrayado».
- * Los colores son variables CSS para que el modo oscuro cambie sin duplicar
- * clases: por defecto sigue al sistema y `data-theme` en <html> lo fuerza.
- * Contrastes comprobados (AA) en docs/propuesta-fase-1.md.
+ * Identidad «el temario subrayado», versión pino y oro.
+ * - papel: fondo de la página. superficie: tarjetas, que se separan del fondo por
+ *   tono y un filete fino, con sombra mínima.
+ * - pino: acción principal y acierto. teja: fallo, siempre en tono suave.
+ * - oro (subrayador): la cita legal, logros y racha.
+ * Colores como variables: el modo oscuro sigue al sistema y `data-theme` lo fuerza.
+ * Todos los pares texto/fondo cumplen AA.
  */
 :root {
-  --papel: #f5f7f4;
-  --papel-hundido: #e7eee9;
-  --tinta: #12211c;
-  --pizarra: #4e6158;
-  --filete: #d3ddd6;
+  --papel: #f4f6f2;
+  --superficie: #ffffff;
+  --papel-hundido: #e9efe9;
+  --tinta: #13221c;
+  --pizarra: #4b5d55;
+  --filete: #dbe3dc;
   --pino: #0f6b3c;
   --pino-boton: #0f6b3c;
-  --pino-suave: #e3f5ea;
+  --pino-boton-hover: #0c5a32;
+  --pino-suave: #e2f3e8;
   --sobre-pino: #f4fff8;
-  --teja: #b6402c;
-  --teja-suave: #f8e6e1;
+  --teja: #b23f2a;
+  --teja-suave: #fbe9e4;
   --subrayador: #e4b423;
-  --subrayador-texto: #12211c;
-  --foco: #12211c;
+  --subrayador-texto: #13221c;
+  --oro-suave: #fbf1cf;
+  --oro-texto: #7a5a00;
+  --foco: #13221c;
   --foco-halo: #e4b423;
-  --sombra: 0 10px 30px rgb(18 33 28 / 8%);
+  --trazo-inicio: 40%;
+  --sombra: 0 1px 2px rgb(19 34 28 / 5%), 0 8px 24px -12px rgb(19 34 28 / 14%);
+  --sombra-alta: 0 2px 4px rgb(19 34 28 / 6%), 0 24px 48px -20px rgb(19 34 28 / 28%);
   color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --papel: #101614;
-    --papel-hundido: #1a2420;
-    --tinta: #e8f3ec;
-    --pizarra: #a9bdb2;
-    --filete: #2c3b34;
+    --papel: #0e1412;
+    --superficie: #151d1a;
+    --papel-hundido: #1b2521;
+    --tinta: #e8f2ec;
+    --pizarra: #a3b7ad;
+    --filete: #26332d;
     --pino: #6dcea0;
-    --pino-boton: #146b3e;
-    --pino-suave: #163226;
+    --pino-boton: #1a7a48;
+    --pino-boton-hover: #208b53;
+    --pino-suave: #14301f;
     --sobre-pino: #f4fff8;
     --teja: #f0a090;
-    --teja-suave: #3a221c;
+    --teja-suave: #3a211b;
     --subrayador: #e4b423;
-    --subrayador-texto: #12211c;
-    --foco: #e8f3ec;
+    --subrayador-texto: #13221c;
+    --oro-suave: #3a3112;
+    --oro-texto: #f2d27a;
+    --foco: #e8f2ec;
     --foco-halo: #e4b423;
-    --sombra: 0 10px 30px rgb(0 0 0 / 28%);
+    --trazo-inicio: 72%;
+    --sombra: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 24px -12px rgb(0 0 0 / 50%);
+    --sombra-alta: 0 2px 4px rgb(0 0 0 / 30%), 0 24px 48px -20px rgb(0 0 0 / 70%);
     color-scheme: dark;
   }
 }
 
 :root[data-theme="dark"] {
-  --papel: #101614;
-  --papel-hundido: #1a2420;
-  --tinta: #e8f3ec;
-  --pizarra: #a9bdb2;
-  --filete: #2c3b34;
+  --papel: #0e1412;
+  --superficie: #151d1a;
+  --papel-hundido: #1b2521;
+  --tinta: #e8f2ec;
+  --pizarra: #a3b7ad;
+  --filete: #26332d;
   --pino: #6dcea0;
-  --pino-boton: #146b3e;
-  --pino-suave: #163226;
+  --pino-boton: #1a7a48;
+  --pino-boton-hover: #208b53;
+  --pino-suave: #14301f;
   --sobre-pino: #f4fff8;
   --teja: #f0a090;
-  --teja-suave: #3a221c;
+  --teja-suave: #3a211b;
   --subrayador: #e4b423;
-  --subrayador-texto: #12211c;
-  --foco: #e8f3ec;
+  --subrayador-texto: #13221c;
+  --oro-suave: #3a3112;
+  --oro-texto: #f2d27a;
+  --foco: #e8f2ec;
   --foco-halo: #e4b423;
-  --sombra: 0 10px 30px rgb(0 0 0 / 28%);
+  --trazo-inicio: 72%;
+  --sombra: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 24px -12px rgb(0 0 0 / 50%);
+  --sombra-alta: 0 2px 4px rgb(0 0 0 / 30%), 0 24px 48px -20px rgb(0 0 0 / 70%);
   color-scheme: dark;
 }
 
 @theme inline {
   --color-papel: var(--papel);
+  --color-superficie: var(--superficie);
   --color-papel-hundido: var(--papel-hundido);
   --color-tinta: var(--tinta);
   --color-pizarra: var(--pizarra);
   --color-filete: var(--filete);
   --color-pino: var(--pino);
   --color-pino-boton: var(--pino-boton);
+  --color-pino-boton-hover: var(--pino-boton-hover);
   --color-pino-suave: var(--pino-suave);
   --color-teja: var(--teja);
   --color-teja-suave: var(--teja-suave);
   --color-subrayador: var(--subrayador);
   --color-subrayador-texto: var(--subrayador-texto);
+  --color-oro-suave: var(--oro-suave);
+  --color-oro-texto: var(--oro-texto);
   --color-sobre-pino: var(--sobre-pino);
 
   --font-sans: var(--fuente-interfaz), system-ui, sans-serif;
@@ -89,15 +114,17 @@
   --radius-sm: 8px;
   --radius-md: 12px;
   --shadow-tarjeta: var(--sombra);
+  --shadow-alta: var(--sombra-alta);
 
   /* Ancho de lectura: menos de 75 caracteres por línea. */
-  --container-lectura: 36rem;
+  --container-lectura: 38rem;
 }
 
 html {
   background: var(--papel);
   color: var(--tinta);
   -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -105,16 +132,29 @@ body {
   color: var(--tinta);
   font-family: var(--font-sans);
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.55;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+p {
+  text-wrap: pretty;
+}
+
+/* Cifras alineadas solo donde hace falta (contadores, tiempos, porcentajes). */
+.cifras {
   font-variant-numeric: tabular-nums;
 }
 
 .bloque {
-  padding-block: 4.5rem;
+  padding-block: 4rem;
 }
 @media (min-width: 768px) {
   .bloque {
-    padding-block: 6.5rem;
+    padding-block: 6rem;
   }
 }
 
@@ -131,18 +171,48 @@ body {
   color: var(--subrayador-texto);
 }
 
-/* Trazo de subrayador: la marca de la casa para citas legales. */
+/* Trazo de subrayador: la marca de la casa. En oscuro va más fino para no deslumbrar. */
 .subrayado {
   background-image: linear-gradient(
-    transparent 38%,
-    var(--subrayador) 38%,
+    transparent var(--trazo-inicio),
+    var(--subrayador) var(--trazo-inicio),
     var(--subrayador) 92%,
     transparent 92%
   );
   color: inherit;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
-  padding-inline: 0.15em;
+  padding-inline: 0.12em;
+}
+
+/* Tarjeta: superficie clara sobre el papel, filete fino y sombra mínima. */
+.tarjeta {
+  border: 1px solid var(--filete);
+  border-radius: 1.25rem;
+  background: var(--superficie);
+  box-shadow: var(--sombra);
+}
+
+/* Etiqueta pequeña sobre un título. */
+.antetitulo {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--pino);
+}
+
+/* Enlace de texto de la casa. */
+.enlace {
+  font-weight: 600;
+  color: var(--pino);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--pino) 35%, transparent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+.enlace:hover {
+  text-decoration-color: var(--pino);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -156,7 +226,7 @@ body {
   }
 }
 
-/* Textos legales: jerarquía sobria, sin tarjetas. */
+/* Textos legales: jerarquía sobria. */
 .legal h2 {
   font-family: var(--font-sans);
   font-weight: 700;
@@ -189,157 +259,170 @@ body {
   border-bottom: 1px solid var(--filete);
 }
 
-.sendero {
+/* Camino de temas: raíl vertical con un nodo por tema. */
+.camino {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 1.35rem;
-  max-width: 28rem;
-  margin-inline: auto;
 }
-.sendero-nodo {
+.camino-paso {
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 0.875rem;
+  padding-bottom: 1rem;
 }
-.nodo-circulo {
+.camino-paso:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  left: calc(1.375rem - 1.5px);
+  top: 2.9rem;
+  bottom: 0.15rem;
+  width: 3px;
+  border-radius: 3px;
+  background: var(--filete);
+}
+.camino-paso[data-estado="hecho"]:not(:last-child)::before,
+.camino-paso[data-estado="corona"]:not(:last-child)::before {
+  background: color-mix(in srgb, var(--pino) 55%, var(--filete));
+}
+.camino-nodo {
+  position: relative;
+  z-index: 1;
   display: grid;
+  flex: none;
   place-items: center;
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 2.75rem;
+  height: 2.75rem;
   border-radius: 999px;
-  border: 3px solid var(--filete);
-  background: var(--papel);
-  font-weight: 700;
-  box-shadow: var(--sombra);
+  border: 2px solid var(--filete);
+  background: var(--superficie);
+  color: var(--pizarra);
+  font-weight: 800;
+  font-size: 0.95rem;
 }
-.nodo-actual {
-  width: 5.25rem;
-  height: 5.25rem;
+.camino-paso[data-estado="actual"] .camino-nodo {
   border-color: var(--pino-boton);
   background: var(--pino-boton);
   color: var(--sobre-pino);
+  box-shadow: 0 0 0 5px var(--pino-suave);
 }
-.nodo-corona {
+.camino-paso[data-estado="hecho"] .camino-nodo {
+  border-color: var(--pino);
+  color: var(--pino);
+}
+.camino-paso[data-estado="corona"] .camino-nodo {
   border-color: var(--subrayador);
   background: var(--subrayador);
   color: var(--subrayador-texto);
 }
-.nodo-vacio {
-  border-style: dashed;
-  color: var(--pizarra);
-  box-shadow: none;
-}
-.nodo-cerrado {
+.camino-paso[data-estado="cerrado"] .camino-nodo {
   background: var(--papel-hundido);
-  color: var(--pizarra);
+}
+.camino-paso[data-estado="vacio"] .camino-nodo {
+  border-style: dashed;
+  background: var(--papel);
 }
 
+/* Puntos de nivel (1 a 5). */
+.niveles {
+  display: flex;
+  gap: 0.25rem;
+}
+.niveles span {
+  width: 1.1rem;
+  height: 0.35rem;
+  border-radius: 999px;
+  background: var(--filete);
+}
+.niveles span[data-hecho="true"] {
+  background: var(--pino);
+}
+.niveles span[data-actual="true"] {
+  background: color-mix(in srgb, var(--pino) 40%, var(--filete));
+}
+
+/* Movimiento: suave y corto. Se desactiva con prefers-reduced-motion. */
+.aparecer {
+  animation: subir 0.4s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+@keyframes subir {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
 .opcion-ok {
   animation: pulso 0.35s ease;
 }
 .opcion-mal {
-  animation: pulso 0.22s ease;
+  animation: temblor 0.3s ease;
 }
 @keyframes pulso {
-  50% { transform: scale(1.02); }
+  50% {
+    transform: scale(1.015);
+  }
 }
-
-.camino {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
+@keyframes temblor {
+  25% {
+    transform: translateX(-3px);
+  }
+  75% {
+    transform: translateX(3px);
+  }
 }
-.camino-nodo {
-  display: flex;
-  gap: 0.85rem;
-  padding-bottom: 1.25rem;
-  position: relative;
+.hoja {
+  animation: hoja 0.28s cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
-.camino-nodo:not(:last-child)::before {
-  content: "";
-  position: absolute;
-  left: 1.15rem;
-  top: 2.4rem;
-  bottom: 0;
-  width: 2px;
-  background: var(--filete);
-}
-.camino-marca {
-  z-index: 1;
-  display: grid;
-  place-items: center;
-  width: 2.4rem;
-  height: 2.4rem;
-  flex: none;
-  border-radius: 999px;
-  border: 2px solid var(--filete);
-  background: var(--papel);
-  font-weight: 700;
-  font-size: 0.9rem;
-}
-.camino-actual .camino-marca {
-  border-color: var(--pino-boton);
-  background: var(--pino-boton);
-  color: var(--sobre-pino);
-}
-.camino-corona .camino-marca {
-  border-color: var(--subrayador);
-  background: var(--subrayador);
-  color: var(--subrayador-texto);
-}
-.camino-nivel {
-  width: 0.7rem;
-  height: 0.7rem;
-  border-radius: 999px;
-  background: var(--filete);
-}
-.camino-nivel-hecho {
-  background: var(--pino);
-}
-.camino-nivel-actual {
-  outline: 2px solid var(--pino);
-  outline-offset: 2px;
+@keyframes hoja {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: none;
+  }
 }
 .llama {
   display: inline-block;
   transform-origin: center bottom;
-  animation: llama 1.6s ease-in-out infinite;
+  animation: llama 1.8s ease-in-out infinite;
 }
 @keyframes llama {
-  50% { transform: scale(1.08); }
+  50% {
+    transform: scale(1.08) rotate(-2deg);
+  }
 }
 .confeti {
   pointer-events: none;
   position: absolute;
   inset: 0;
+  overflow: hidden;
 }
 .confeti span {
   position: absolute;
-  top: -0.4rem;
+  top: -0.6rem;
   width: 0.45rem;
-  height: 0.7rem;
+  height: 0.75rem;
   border-radius: 2px;
   background: var(--pino);
-  animation: caer 0.9s ease-in forwards;
+  animation: caer 1.1s ease-in forwards;
 }
-.confeti span:nth-child(3n) { background: var(--subrayador); }
-.confeti span:nth-child(3n + 1) { background: var(--teja); }
+.confeti span:nth-child(3n) {
+  background: var(--subrayador);
+}
+.confeti span:nth-child(3n + 1) {
+  background: var(--teja);
+}
 @keyframes caer {
-  to { transform: translateY(4.5rem) rotate(40deg); opacity: 0; }
+  to {
+    transform: translateY(9rem) rotate(260deg);
+    opacity: 0;
+  }
 }
 
-.tarjeta {
-  border: 1px solid var(--filete);
-  border-radius: 1rem;
-  background: var(--papel);
-  box-shadow: var(--sombra);
-}
-
-.aparecer {
-  animation: subir 0.45s ease both;
-}
-@keyframes subir {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: none; }
+/* En titulares grandes el trazo va más bajo para no tapar la letra. */
+.subrayado-titular {
+  --trazo-inicio: 66%;
 }

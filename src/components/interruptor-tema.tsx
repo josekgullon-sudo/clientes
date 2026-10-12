@@ -1,14 +1,16 @@
 "use client";
 
+import { Monitor, Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
 
 type Tema = "system" | "light" | "dark";
 const siguiente: Record<Tema, Tema> = { system: "light", light: "dark", dark: "system" };
 const textos: Record<Tema, string> = {
-  system: "Tema: automático",
-  light: "Tema: claro",
-  dark: "Tema: oscuro",
+  system: "Tema automático",
+  light: "Tema claro",
+  dark: "Tema oscuro",
 };
+const iconos = { system: Monitor, light: Sun, dark: Moon };
 
 export function InterruptorTema() {
   const [tema, setTema] = useState<Tema>("system");
@@ -36,25 +38,16 @@ export function InterruptorTema() {
     }
   }
 
+  const Icono = iconos[tema];
   return (
     <button
       type="button"
       onClick={cambiar}
-      className="inline-flex min-h-11 items-center gap-2 px-2 text-[0.95rem] text-pizarra hover:text-tinta"
+      className="inline-flex size-11 items-center justify-center rounded-xl text-pizarra transition hover:bg-papel-hundido hover:text-tinta"
       aria-label={`${textos[tema]}. Pulsa para cambiar.`}
+      title={textos[tema]}
     >
-      <IconoTema tema={tema} />
-      <span className="hidden sm:inline">{textos[tema]}</span>
+      <Icono aria-hidden size={19} strokeWidth={2.2} />
     </button>
-  );
-}
-
-function IconoTema({ tema }: { tema: Tema }) {
-  return (
-    <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
-      <circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" strokeWidth="1.6" />
-      {tema === "dark" && <circle cx="10" cy="10" r="7.5" fill="currentColor" />}
-      {tema === "system" && <path d="M10 2.5a7.5 7.5 0 0 1 0 15z" fill="currentColor" />}
-    </svg>
   );
 }
