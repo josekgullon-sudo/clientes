@@ -2,6 +2,7 @@ import Link from "next/link";
 import { EnlaceBoton } from "@/components/boton";
 import { Cabecera } from "@/components/cabecera";
 import { CtaFija } from "@/components/cta-fija";
+import { IlustracionCamino } from "@/components/ilustracion-camino";
 import { Pie } from "@/components/pie";
 import { Comparativa } from "@/components/planes/comparativa";
 import { Explicacion } from "@/components/test/explicacion";
@@ -76,8 +77,8 @@ export default function Inicio() {
       <Cabecera />
       <main className="flex-1">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
-        <section className="mx-auto max-w-5xl px-4 pt-10 pb-12 md:grid md:grid-cols-[1.1fr_1fr] md:gap-16 md:pt-20">
-          <div>
+        <section className="mx-auto max-w-5xl px-4 pt-10 pb-12 md:grid md:grid-cols-[1.1fr_1fr] md:items-center md:gap-16 md:pt-20">
+          <div className="aparecer">
             <p className="text-[0.95rem] font-semibold text-pino">Auxiliar Administrativo del Estado</p>
             <h1 className="mt-2 max-w-lectura font-serif text-[2.125rem] leading-[1.15] font-semibold md:text-[3rem]">
               Aprueba con diez minutos al día y cada respuesta explicada.
@@ -98,7 +99,10 @@ export default function Inicio() {
             </p>
           </div>
 
-          <figure className="mt-12 rounded-xl border border-filete bg-papel-hundido p-5 md:mt-2">
+          <div className="mt-8 md:mt-0">
+            <IlustracionCamino />
+          </div>
+          <figure className="tarjeta mt-8 p-5 md:col-span-2">
             <figcaption className="text-[0.95rem] font-semibold text-pizarra">Así se corrige cada pregunta</figcaption>
             <p className="mt-3 font-serif text-[1.0625rem] leading-relaxed font-medium">{ejemplo.enunciado}</p>
             <ul className="mt-3 flex flex-col gap-1.5" aria-label="Opciones">
@@ -137,7 +141,7 @@ export default function Inicio() {
             <p className="mt-2 max-w-lectura">Lo que se entrena es el hábito, no un maratón el fin de semana.</p>
             <ol className="mt-6 grid gap-4 md:grid-cols-3">
               {pasos.map((p, i) => (
-                <li key={p.titulo} className="rounded-xl border border-filete p-4">
+                <li key={p.titulo} className="tarjeta p-4">
                   <span className="font-serif text-xl text-pino tabular-nums">{String(i + 1).padStart(2, "0")}</span>
                   <h3 className="mt-2 font-semibold">{p.titulo}</h3>
                   <p className="mt-1 text-pizarra">{p.texto}</p>

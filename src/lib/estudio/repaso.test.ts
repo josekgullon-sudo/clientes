@@ -20,15 +20,16 @@ describe("repaso espaciado", () => {
     expect(r).toMatchObject({ intervalo: 1, repeticiones: 0, facilidad: 2.3 });
   });
 
-  it("al acertar sigue 1, 3, 7 y marca dominada desde 21", () => {
+  it("al acertar usa 1, 3, 7, 16 y 35 ajustados por la facilidad", () => {
     let t = { intervalo: 0, facilidad: 2.5, repeticiones: 0 };
-    const intervalos = [1, 3, 7, 16, 35];
+    const intervalos = [1, 3, 8, 18, 41];
     for (const esperado of intervalos) {
       t = revisar(t, true);
       expect(t.intervalo).toBe(esperado);
     }
+    expect(t.facilidad).toBe(3);
     expect(dominada(16)).toBe(false);
-    expect(dominada(35)).toBe(true);
+    expect(dominada(21)).toBe(true);
   });
 });
 
