@@ -1,25 +1,24 @@
 import Link from "next/link";
-import { ArrowRight, BookOpen, Check, Crown, Flame, Gauge, RotateCcw } from "lucide-react";
+import { ArrowRight, Check, Crown, Flame, Gauge, RotateCcw } from "lucide-react";
 import { EnlaceBoton } from "@/components/boton";
 import { Cabecera } from "@/components/cabecera";
 import { CtaFija } from "@/components/cta-fija";
 import { Faq } from "@/components/faq";
-import { MaquetaMovil } from "@/components/inicio/maqueta-movil";
+import { PreguntaPortada } from "@/components/inicio/pregunta-portada";
 import { Pie } from "@/components/pie";
 import { Comparativa } from "@/components/planes/comparativa";
 import { diasHastaExamenEstimado, examenEstimado } from "@/lib/examen";
 import { paginaPublica, resumenBanco, rutasPublicas } from "@/lib/seo/banco";
 import { CUOTA_GRATIS } from "@/lib/sitio";
 
-const pasos = [
-  { titulo: "Responde", texto: `${CUOTA_GRATIS} preguntas, unos cinco minutos.` },
-  { titulo: "Entiende", texto: "Cada respuesta trae el porqué y el artículo exacto." },
-  { titulo: "Repasa", texto: "Tus fallos vuelven hasta que los aciertas." },
-];
-
 export default function Inicio() {
   const banco = resumenBanco();
   const examen = examenEstimado();
+  // Preguntas cortas y fáciles de la demo para responder en la portada.
+  const paraPortada = (paginaPublica("demo")?.preguntas ?? [])
+    .filter((p) => p.enunciado.length <= 120 && Math.max(...p.opciones.map((o) => o.length)) <= 48)
+    .sort((a, b) => a.dificultad - b.dificultad)
+    .slice(0, 3);
   const dias = diasHastaExamenEstimado();
   const leyes = rutasPublicas()
     .filter((r) => r.tipo === "ley")
@@ -87,7 +86,7 @@ export default function Inicio() {
                 <span className="size-2 rounded-full bg-pino" aria-hidden="true" />
                 Auxiliar Administrativo del Estado
               </p>
-              <h1 className="mt-5 font-serif text-[2.5rem] leading-[1.08] font-semibold tracking-tight md:text-[3.75rem]">
+              <h1 className="mt-5 font-serif text-[2.375rem] leading-[1.08] font-semibold tracking-tight md:text-[3.75rem]">
                 Test que te explican <span className="subrayado subrayado-titular">cada respuesta</span>.
               </h1>
               <p className="mt-5 max-w-lg text-lg text-pizarra md:text-xl">
@@ -111,7 +110,9 @@ export default function Inicio() {
               </ul>
             </div>
             <div className="aparecer [animation-delay:120ms]">
-              <MaquetaMovil />
+              {paraPortada.length > 0 ? (
+                <PreguntaPortada preguntas={paraPortada} />
+              ) : null}
             </div>
           </div>
         </section>
@@ -139,23 +140,10 @@ export default function Inicio() {
             <h2 id="diferente" className="mt-2 max-w-2xl font-serif text-[2rem] leading-tight font-semibold md:text-[2.5rem]">
               Estudias entendiendo, no memorizando letras.
             </h2>
-            <div className="mt-10 grid gap-4 md:grid-cols-2">
-              <article className="tarjeta p-6">
-                <span className="grid size-11 place-items-center rounded-xl bg-oro-suave text-oro-texto">
-                  <BookOpen aria-hidden size={22} />
-                </span>
-                <h3 className="mt-4 text-xl font-bold">El artículo, en cada respuesta</h3>
-                <p className="mt-1 text-pizarra">Sabes por qué aciertas y por qué fallas, con el texto literal de la ley.</p>
-                <div className="mt-5 rounded-2xl bg-papel p-4" aria-hidden="true">
-                  <p className="border-l-[3px] border-pino pl-3 font-serif text-[0.95rem] leading-relaxed">
-                    «La soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado».
-                  </p>
-                  <p className="mt-3 text-sm font-bold">
-                    <span className="subrayado">Art. 1.2 · Constitución</span>
-                  </p>
-                </div>
-              </article>
-
+            <p className="mt-3 max-w-2xl text-lg text-pizarra">
+              Cada respuesta trae el porqué y el artículo. Y la app decide qué toca hoy, para que no pierdas tiempo.
+            </p>
+            <div className="mt-10 grid gap-4 md:grid-cols-3">
               <article className="tarjeta p-6">
                 <span className="grid size-11 place-items-center rounded-xl bg-pino-suave text-pino">
                   <Crown aria-hidden size={22} />
@@ -224,28 +212,6 @@ export default function Inicio() {
                 </div>
               </article>
             </div>
-          </div>
-        </section>
-
-        <section aria-labelledby="pasos" className="bloque border-y border-filete bg-superficie">
-          <div className="mx-auto max-w-6xl px-4">
-            <p className="antetitulo">Cómo funciona</p>
-            <h2 id="pasos" className="mt-2 font-serif text-[2rem] leading-tight font-semibold md:text-[2.5rem]">
-              Diez minutos, cada día.
-            </h2>
-            <ol className="mt-10 grid gap-8 md:grid-cols-3">
-              {pasos.map((p, i) => (
-                <li key={p.titulo} className="flex gap-4 md:flex-col">
-                  <span className="cifras grid size-12 shrink-0 place-items-center rounded-2xl bg-pino-boton font-serif text-xl font-semibold text-sobre-pino">
-                    {i + 1}
-                  </span>
-                  <div>
-                    <h3 className="text-xl font-bold">{p.titulo}</h3>
-                    <p className="mt-1 text-pizarra">{p.texto}</p>
-                  </div>
-                </li>
-              ))}
-            </ol>
           </div>
         </section>
 
