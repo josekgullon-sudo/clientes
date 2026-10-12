@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 import { supabaseServidor } from "@/lib/supabase/servidor";
 
 export type EstadoEntrar = { enviado?: string; error?: string };
+export type EstadoCodigo = { email?: string; error?: string };
 
 /** Solo rutas internas, para no redirigir fuera de la web. */
 function rutaSegura(siguiente: FormDataEntryValue | null) {
@@ -39,6 +40,21 @@ export async function enviarEnlace(_: EstadoEntrar, datos: FormData): Promise<Es
     };
   }
   return { enviado: email };
+}
+
+export async function verificarCodigo(_: EstadoCodigo, datos: FormData): Promise<EstadoCodigo> {
+  const email = String(datos.get("email") ?? "").trim();
+  const token = String(datos.get("codigo") ?? "").replace(/\s/g, "");
+  const siguiente = rutaSegura(datos.get("siguiente"));
+  if (!/^\d{6}$/.test(token)) {
+    return { email, error: "El código tiene 6 dígitos." };
+  }
+  const supabase = await supabaseServidor();
+  const { error } = await supabase.auth.verifyOtp({ email, token, type: "email" });
+  if (error) {
+    return { email, error: "Ese código no es válido o ha caducado. Pide otro correo." };
+  }
+  redirect(siguiente);
 }
 
 export async function entrarConGoogle(datos: FormData) {

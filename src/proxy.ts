@@ -3,7 +3,9 @@ import { NextResponse, type NextRequest } from "next/server";
 
 /** Refresca la sesión de Supabase y protege el área privada (/app). */
 export async function proxy(request: NextRequest) {
-  let respuesta = NextResponse.next({ request });
+  const cabeceras = new Headers(request.headers);
+  cabeceras.set("x-ruta", request.nextUrl.pathname);
+  let respuesta = NextResponse.next({ request: { headers: cabeceras } });
 
   const supabase = createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -13,7 +15,9 @@ export async function proxy(request: NextRequest) {
         getAll: () => request.cookies.getAll(),
         setAll: (lista) => {
           for (const { name, value } of lista) request.cookies.set(name, value);
-          respuesta = NextResponse.next({ request });
+          const siguientes = new Headers(request.headers);
+          siguientes.set("x-ruta", request.nextUrl.pathname);
+          respuesta = NextResponse.next({ request: { headers: siguientes } });
           for (const { name, value, options } of lista) respuesta.cookies.set(name, value, options);
         },
       },

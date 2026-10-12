@@ -15,5 +15,5 @@ export default async function Demo() {
   if (preguntas.length === 0) {
     return <p className="p-6">Aún no hay preguntas de prueba. Vuelve en un rato.</p>;
   }
-  return <TestPublico preguntas={preguntas} salirA="/" />;
+  return <TestPublico preguntas={preguntas} salirA="/" origen="demo" />;
 }

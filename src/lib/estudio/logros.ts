@@ -1,0 +1,20 @@
+/** Nombres del catálogo sembrado en la migración de gamificación. */
+export const NOMBRES_LOGRO: Record<string, string> = {
+  "primera-leccion": "Primera lección",
+  "primer-nivel": "Primer nivel",
+  "primera-corona": "Primera corona",
+  "racha-7": "Una semana",
+  "racha-30": "Un mes",
+  "racha-100": "Cien días",
+  "objetivo-10": "Constancia",
+  "seguidas-10": "Diez seguidas",
+  "perfecta-5": "Cinco perfectas",
+  "simulacro-7": "Simulacro sólido",
+  "volumen-500": "500 respuestas",
+  "volumen-1000": "1.000 respuestas",
+  "volumen-5000": "5.000 respuestas",
+  "coronas-bloque-i": "Bloque I",
+  "coronas-todas": "Temario con corona",
+  madrugador: "Madrugador",
+  nocturno: "Nocturno",
+};

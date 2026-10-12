@@ -7,55 +7,64 @@
  * Contrastes comprobados (AA) en docs/propuesta-fase-1.md.
  */
 :root {
-  --papel: #f6f2ea;
-  --papel-hundido: #ede7db;
-  --tinta: #1d2a31;
-  --pizarra: #56626a;
-  --filete: #cfc8ba;
-  --pino: #2e6a4e;
-  --pino-suave: #e3efe7;
-  --teja: #a64b34;
-  --teja-suave: #f5e4dd;
-  --subrayador: #e9c25b;
-  --subrayador-texto: #1d2a31;
-  --foco: #1d2a31;
-  --foco-halo: #e9c25b;
+  --papel: #f5f7f4;
+  --papel-hundido: #e7eee9;
+  --tinta: #12211c;
+  --pizarra: #4e6158;
+  --filete: #d3ddd6;
+  --pino: #0f6b3c;
+  --pino-boton: #0f6b3c;
+  --pino-suave: #e3f5ea;
+  --sobre-pino: #f4fff8;
+  --teja: #b6402c;
+  --teja-suave: #f8e6e1;
+  --subrayador: #e4b423;
+  --subrayador-texto: #12211c;
+  --foco: #12211c;
+  --foco-halo: #e4b423;
+  --sombra: 0 10px 30px rgb(18 33 28 / 8%);
   color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --papel: #15191b;
-    --papel-hundido: #1f2528;
-    --tinta: #e8e3d8;
-    --pizarra: #9ea8ae;
-    --filete: #343c40;
-    --pino: #6fbf97;
-    --pino-suave: #1c2e25;
-    --teja: #e08c74;
-    --teja-suave: #35211b;
-    --subrayador: #5a4612;
-    --subrayador-texto: #f1e6c4;
-    --foco: #e8e3d8;
-    --foco-halo: #d9b24f;
+    --papel: #101614;
+    --papel-hundido: #1a2420;
+    --tinta: #e8f3ec;
+    --pizarra: #a9bdb2;
+    --filete: #2c3b34;
+    --pino: #6dcea0;
+    --pino-boton: #146b3e;
+    --pino-suave: #163226;
+    --sobre-pino: #f4fff8;
+    --teja: #f0a090;
+    --teja-suave: #3a221c;
+    --subrayador: #e4b423;
+    --subrayador-texto: #12211c;
+    --foco: #e8f3ec;
+    --foco-halo: #e4b423;
+    --sombra: 0 10px 30px rgb(0 0 0 / 28%);
     color-scheme: dark;
   }
 }
 
 :root[data-theme="dark"] {
-  --papel: #15191b;
-  --papel-hundido: #1f2528;
-  --tinta: #e8e3d8;
-  --pizarra: #9ea8ae;
-  --filete: #343c40;
-  --pino: #6fbf97;
-  --pino-suave: #1c2e25;
-  --teja: #e08c74;
-  --teja-suave: #35211b;
-  --subrayador: #5a4612;
-  --subrayador-texto: #f1e6c4;
-  --foco: #e8e3d8;
-  --foco-halo: #d9b24f;
+  --papel: #101614;
+  --papel-hundido: #1a2420;
+  --tinta: #e8f3ec;
+  --pizarra: #a9bdb2;
+  --filete: #2c3b34;
+  --pino: #6dcea0;
+  --pino-boton: #146b3e;
+  --pino-suave: #163226;
+  --sobre-pino: #f4fff8;
+  --teja: #f0a090;
+  --teja-suave: #3a221c;
+  --subrayador: #e4b423;
+  --subrayador-texto: #12211c;
+  --foco: #e8f3ec;
+  --foco-halo: #e4b423;
+  --sombra: 0 10px 30px rgb(0 0 0 / 28%);
   color-scheme: dark;
 }
 
@@ -66,17 +75,20 @@
   --color-pizarra: var(--pizarra);
   --color-filete: var(--filete);
   --color-pino: var(--pino);
+  --color-pino-boton: var(--pino-boton);
   --color-pino-suave: var(--pino-suave);
   --color-teja: var(--teja);
   --color-teja-suave: var(--teja-suave);
   --color-subrayador: var(--subrayador);
   --color-subrayador-texto: var(--subrayador-texto);
+  --color-sobre-pino: var(--sobre-pino);
 
   --font-sans: var(--fuente-interfaz), system-ui, sans-serif;
   --font-serif: var(--fuente-lectura), Georgia, serif;
 
-  --radius-sm: 4px;
-  --radius-md: 6px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --shadow-tarjeta: var(--sombra);
 
   /* Ancho de lectura: menos de 75 caracteres por línea. */
   --container-lectura: 36rem;
@@ -166,4 +178,103 @@ body {
   vertical-align: top;
   padding: 0.5rem 0.5rem 0.5rem 0;
   border-bottom: 1px solid var(--filete);
+}
+
+.camino {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.camino-nodo {
+  display: flex;
+  gap: 0.85rem;
+  padding-bottom: 1.25rem;
+  position: relative;
+}
+.camino-nodo:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  left: 1.15rem;
+  top: 2.4rem;
+  bottom: 0;
+  width: 2px;
+  background: var(--filete);
+}
+.camino-marca {
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  flex: none;
+  border-radius: 999px;
+  border: 2px solid var(--filete);
+  background: var(--papel);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.camino-actual .camino-marca {
+  border-color: var(--pino-boton);
+  background: var(--pino-boton);
+  color: var(--sobre-pino);
+}
+.camino-corona .camino-marca {
+  border-color: var(--subrayador);
+  background: var(--subrayador);
+  color: var(--subrayador-texto);
+}
+.camino-nivel {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 999px;
+  background: var(--filete);
+}
+.camino-nivel-hecho {
+  background: var(--pino);
+}
+.camino-nivel-actual {
+  outline: 2px solid var(--pino);
+  outline-offset: 2px;
+}
+.llama {
+  display: inline-block;
+  transform-origin: center bottom;
+  animation: llama 1.6s ease-in-out infinite;
+}
+@keyframes llama {
+  50% { transform: scale(1.08); }
+}
+.confeti {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+}
+.confeti span {
+  position: absolute;
+  top: -0.4rem;
+  width: 0.45rem;
+  height: 0.7rem;
+  border-radius: 2px;
+  background: var(--pino);
+  animation: caer 0.9s ease-in forwards;
+}
+.confeti span:nth-child(3n) { background: var(--subrayador); }
+.confeti span:nth-child(3n + 1) { background: var(--teja); }
+@keyframes caer {
+  to { transform: translateY(4.5rem) rotate(40deg); opacity: 0; }
+}
+
+.tarjeta {
+  border: 1px solid var(--filete);
+  border-radius: 1rem;
+  background: var(--papel);
+  box-shadow: var(--sombra);
+}
+
+.aparecer {
+  animation: subir 0.45s ease both;
+}
+@keyframes subir {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
 }

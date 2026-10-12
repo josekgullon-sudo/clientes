@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Atkinson_Hyperlegible_Next, Source_Serif_4 } from "next/font/google";
+import { Analitica } from "@/components/analitica";
 import { AvisoCookies } from "@/components/aviso-cookies";
 import { SITIO } from "@/lib/sitio";
 import "./globals.css";
@@ -27,8 +28,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f6f2ea" },
-    { media: "(prefers-color-scheme: dark)", color: "#15191b" },
+    { media: "(prefers-color-scheme: light)", color: "#f5f7f4" },
+    { media: "(prefers-color-scheme: dark)", color: "#101614" },
   ],
 };
 
@@ -47,6 +48,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </head>
       <body className="flex min-h-full flex-col">
         {children}
+        <Analitica />
         <AvisoCookies />
       </body>
     </html>

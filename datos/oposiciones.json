@@ -13,6 +13,12 @@
       ],
       "nota": "Verificado con la Resolución de 18 de diciembre de 2025, de la Secretaría de Estado de Función Pública (BOE núm. 306, de 22/12/2025, BOE-A-2025-26262), anexo I (ingreso libre, código 1146). Examen real: ejercicio único de 90 minutos con dos partes eliminatorias: 1.ª parte, 30 preguntas del bloque I + 30 psicotécnicas; 2.ª parte, 50 preguntas del bloque II (Windows 11 y Microsoft 365 de escritorio); cada error resta un tercio. El simulacro omite las 30 psicotécnicas, así que el tiempo es proporcional: 90 × 80/110 ≈ 65 minutos. La convocatoria numera el bloque II del 1 al 12; aquí van del 17 al 28."
     },
+    "examen_estimado": {
+      "fecha": "2027-05-15",
+      "etiqueta": "mayo de 2027",
+      "convocatoria": "BOE-A-2025-26262",
+      "nota": "Estimación a partir del calendario habitual de esta oposición. No es la fecha oficial del examen: esa se publica en el BOE y en el INAP."
+    },
     "temas": [
       { "numero": 1, "bloque": "I", "titulo": "La Constitución Española de 1978. Características. Los principios constitucionales y los valores superiores. Derechos y deberes fundamentales. Su garantía y suspensión" },
       { "numero": 2, "bloque": "I", "titulo": "El Tribunal Constitucional. La reforma de la Constitución. La Corona: funciones constitucionales del Rey. Sucesión y regencia" },

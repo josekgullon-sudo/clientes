@@ -4,13 +4,12 @@ import type { ComponentProps } from "react";
 type Variante = "principal" | "secundario" | "texto";
 
 const base =
-  "inline-flex min-h-14 items-center justify-center gap-2 rounded-md px-5 text-[1.0625rem] font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-45";
+  "inline-flex min-h-14 items-center justify-center gap-2 rounded-xl px-5 text-[1.0625rem] font-semibold transition duration-150 disabled:cursor-not-allowed disabled:opacity-45";
 
 const variantes: Record<Variante, string> = {
-  principal: "bg-tinta text-papel hover:bg-tinta/90",
-  secundario:
-    "border border-tinta/70 text-tinta hover:bg-papel-hundido",
-  texto: "min-h-11 px-2 text-tinta underline decoration-filete decoration-2 underline-offset-4 hover:decoration-tinta",
+  principal: "bg-pino-boton text-sobre-pino shadow-tarjeta hover:brightness-110",
+  secundario: "border border-pino/40 bg-papel text-tinta shadow-tarjeta hover:bg-pino-suave",
+  texto: "min-h-11 px-2 text-pino underline decoration-pino/40 decoration-2 underline-offset-4 hover:decoration-pino",
 };
 
 export function clasesBoton(variante: Variante = "principal", ancho = false) {

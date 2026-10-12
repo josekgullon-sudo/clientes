@@ -32,15 +32,21 @@ export default async function Entrar({ searchParams }: PageProps<"/entrar">) {
         <h1 className="font-serif text-[2rem] leading-tight font-semibold">
           {registro ? "Crea tu cuenta" : "Entra en tu cuenta"}
         </h1>
-        <p className="mt-2 mb-8 font-serif text-[1.125rem]">
-          {registro ? "Solo necesitas tu correo." : "Con el mismo correo con el que te registraste."}
+        <p className={`mt-2 font-serif text-[1.125rem] ${registro ? "mb-4" : "mb-8"}`}>
+          {registro ? "Gratis: 10 preguntas al día, tu racha y tus fallos guardados." : "Con el mismo correo con el que te registraste."}
         </p>
+        {registro && (
+          <ul className="mb-8 flex flex-col gap-1 text-[0.95rem] text-pizarra">
+            <li>En el móvil, Google es el camino más corto.</li>
+            <li>Si usas el correo, el código de 6 dígitos vale en este dispositivo.</li>
+          </ul>
+        )}
         {error && (
           <p role="alert" className="mb-6 rounded-md border border-teja bg-teja-suave p-3">
             {error}
           </p>
         )}
-        <FormularioEntrar siguiente={siguiente} />
+        <FormularioEntrar siguiente={siguiente} registro={registro} />
         <p className="mt-8 text-[0.9rem] text-pizarra">
           Al continuar aceptas las{" "}
           <Link href="/legal/condiciones" className="underline underline-offset-4">

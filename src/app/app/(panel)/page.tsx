@@ -1,22 +1,52 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Boton, EnlaceBoton } from "@/components/boton";
-import { falladasPendientes, progresoPorTema, rachaActual, ultimosIntentos, usuarioActual } from "@/lib/datos/usuario";
+import { Anillo } from "@/components/estudio/anillo";
+import { Camino } from "@/components/estudio/camino";
+import { Racha } from "@/components/estudio/racha";
+import { Evento } from "@/components/evento";
+import { caminoTemas, estadisticasUsuario } from "@/lib/datos/estudio";
+import { minutosDeLeccion, preguntasDeLeccion, siguienteBloqueado, siguienteLeccion } from "@/lib/estudio/camino";
+import { diasEntre, hoyMadrid } from "@/lib/seo/seleccion";
+import { examenEstimado } from "@/lib/examen";
+import { cuotaRestante, falladasPendientes, progresoPorTema, rachaActual, ultimosIntentos, usuarioActual } from "@/lib/datos/usuario";
 import { crearTest } from "../acciones";
 
 export const metadata: Metadata = { title: "Tu panel" };
 
-const nombresModo = { tema: "Test por tema", mixto: "Test mezclado", falladas: "Repaso de fallos", simulacro: "Simulacro" };
+const nombresModo = {
+  tema: "Test por tema",
+  mixto: "Test mezclado",
+  falladas: "Repaso de fallos",
+  simulacro: "Simulacro",
+  leccion: "Lección",
+  repaso: "Repaso",
+  salto: "Test de salto",
+};
 const fecha = new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "short", timeZone: "Europe/Madrid" });
 
-export default async function Panel() {
+export default async function Panel({ searchParams }: PageProps<"/app">) {
+  const q = await searchParams;
   const { suscrito } = await usuarioActual();
-  const [progreso, racha, intentos, falladas] = await Promise.all([
+  const [progreso, racha, intentos, falladas, cuota, estudio, camino] = await Promise.all([
     progresoPorTema(),
     rachaActual(),
     ultimosIntentos(),
     falladasPendientes(),
+    cuotaRestante(),
+    estadisticasUsuario(),
+    caminoTemas(),
   ]);
+  const rachaVisible = estudio?.racha_actual ?? racha;
+  const objetivo = estudio?.objetivo_diario ?? 10;
+  const hechasHoy = estudio?.preguntas_hoy ?? 0;
+  const fechaExamen = estudio?.fecha_examen ?? examenEstimado()?.fecha ?? null;
+  const diasExamen = fechaExamen ? diasEntre(hoyMadrid(), fechaExamen) : null;
+  const leccion = camino ? siguienteLeccion(camino, suscrito) : null;
+  const bloqueada = camino ? siguienteBloqueado(camino, suscrito) : null;
+  const preguntas = leccion ? preguntasDeLeccion(leccion) : 10;
+  const puedeLeccion = suscrito || !cuota || cuota.tema > 0;
+  const temaRespaldo = !camino ? progreso.find((t) => t.total > 0) : null;
 
   const flojos = progreso
     .filter((t) => t.vistas >= 5 && t.dominadas / t.vistas < 0.6)
@@ -26,49 +56,87 @@ export default async function Panel() {
 
   return (
     <div className="flex flex-col gap-10">
-      <section>
-        <h1 className="font-serif text-[2rem] leading-tight font-semibold">Tu estudio</h1>
-        <p className="mt-2 font-serif text-[1.125rem]">
-          {racha > 1 ? (
-            <>
-              Llevas <span className="subrayado font-semibold">{racha} días seguidos</span> estudiando.
-            </>
-          ) : racha === 1 ? (
-            "Hoy ya has estudiado. Mañana sumas otro día."
-          ) : (
-            "Un test al día hace más que una tarde entera de vez en cuando."
-          )}
-        </p>
-      </section>
-
-      {!suscrito && (
-        <section className="border-l-[3px] border-subrayador pl-4">
-          <h2 className="font-serif text-xl font-semibold">Activa tu suscripción</h2>
-          <p className="mt-1">Con ella haces test de todo el temario, repasas tus fallos y haces simulacros.</p>
-          <div className="mt-4 flex flex-col gap-2 sm:flex-row">
-            <EnlaceBoton href="/suscripcion">Ver planes</EnlaceBoton>
-            <EnlaceBoton href="/demo" variante="secundario">
-              Hacer el test de prueba
-            </EnlaceBoton>
+      {q.suscripcion === "ok" && <Evento nombre="purchase" />}
+      {q.suscripcion === "ok" && (
+        <section className="rounded-xl border border-pino bg-pino-suave p-4">
+          <h2 className="font-serif text-xl font-semibold">Ya eres Premium</h2>
+          <p className="mt-1">El límite diario ya no aplica. Un buen siguiente paso es el simulacro.</p>
+          <div className="mt-3">
+            <EnlaceBoton href="/app/simulacro">Hacer un simulacro</EnlaceBoton>
           </div>
         </section>
       )}
+      <section className="flex items-center gap-4">
+        <Anillo hecho={hechasHoy} objetivo={objetivo} />
+        <div>
+          <h1 className="font-serif text-[2rem] leading-tight font-semibold">Tu estudio</h1>
+          <Racha dias={rachaVisible} protectores={estudio?.protectores} />
+          <p className="text-[0.95rem] text-pizarra">
+            Hoy {hechasHoy} de {objetivo}
+            {estudio ? ` · ${estudio.xp_total} XP` : ""}
+            {diasExamen !== null && diasExamen >= 0 ? ` · ${diasExamen} días para el examen` : ""}
+          </p>
+        </div>
+      </section>
 
-      {suscrito && (
-        <section aria-label="Empezar" className="flex flex-col gap-2 sm:flex-row">
-          <EnlaceBoton href="/app/nuevo" ancho>
-            Empezar test
+      <section aria-label="Empezar" className="flex flex-col gap-3">
+        {temaRespaldo && puedeLeccion ? (
+          <form action={crearTest}>
+            <input type="hidden" name="modo" value="tema" />
+            <input type="hidden" name="tema" value={temaRespaldo.tema_id} />
+            <input type="hidden" name="num" value="10" />
+            <Boton ancho>Continuar: Tema {temaRespaldo.numero} · 10 preguntas · 5 min</Boton>
+          </form>
+        ) : leccion && puedeLeccion ? (
+          <form action={crearTest}>
+            <input type="hidden" name="modo" value="leccion" />
+            <input type="hidden" name="tema" value={leccion.tema_id} />
+            <input type="hidden" name="num" value={String(preguntas)} />
+            <Boton ancho>
+              Continuar: Tema {leccion.numero} · {preguntas} preguntas · {minutosDeLeccion(preguntas)} min
+            </Boton>
+          </form>
+        ) : !puedeLeccion ? (
+          <EnlaceBoton href="/suscripcion?motivo=cuota" ancho>
+            Has hecho las 10 de hoy · Ver Premium
           </EnlaceBoton>
+        ) : bloqueada ? (
+          <EnlaceBoton href="/suscripcion?motivo=nivel" ancho>
+            Tema {bloqueada.numero} sigue en el nivel {bloqueada.nivel > 0 ? bloqueada.nivel : 1} · Ver Premium
+          </EnlaceBoton>
+        ) : null}
+        <div className="flex flex-col gap-2 sm:flex-row">
           <form action={crearTest} className="w-full">
-            <input type="hidden" name="modo" value="falladas" />
-            <input type="hidden" name="num" value="20" />
-            <Boton variante="secundario" ancho disabled={falladas === 0}>
+            <input type="hidden" name="modo" value="repaso" />
+            <input type="hidden" name="num" value="10" />
+            <Boton variante="secundario" ancho disabled={falladas === 0 || (!suscrito && !!cuota && cuota.repaso === 0)}>
               Repasar fallos{falladas ? ` (${falladas})` : ""}
             </Boton>
           </form>
           <EnlaceBoton href="/app/simulacro" variante="secundario" ancho>
-            Simulacro
+            Simulacro{!suscrito ? " de prueba" : ""}
           </EnlaceBoton>
+          {suscrito ? (
+            <EnlaceBoton href="/app/nuevo" variante="secundario" ancho>
+              Test personalizado
+            </EnlaceBoton>
+          ) : (
+            <EnlaceBoton href="/suscripcion?motivo=personalizado" variante="secundario" ancho>
+              Test personalizado
+            </EnlaceBoton>
+          )}
+        </div>
+      </section>
+
+      {!suscrito && (
+        <section className="rounded-xl border border-filete p-4">
+          <h2 className="font-serif text-xl font-semibold">Plan gratis</h2>
+          <p className="mt-1">
+            Una lección al día en los niveles 1 y 2, y el repaso de esos fallos. Premium abre el resto del camino, la predicción y los simulacros.
+          </p>
+          <div className="mt-4">
+            <EnlaceBoton href="/suscripcion" variante="secundario">Ver planes</EnlaceBoton>
+          </div>
         </section>
       )}
 
@@ -97,6 +165,16 @@ export default async function Panel() {
               </li>
             ))}
           </ul>
+        </section>
+      )}
+
+      {camino && (
+        <section aria-labelledby="camino">
+          <h2 id="camino" className="font-serif text-xl font-semibold">Camino de temas</h2>
+          <p className="mt-1 mb-4 text-[0.95rem] text-pizarra">
+            Cinco niveles por tema. Una lección se aprueba con un 70 %. El nivel 5 es el examen del tema.
+          </p>
+          <Camino temas={camino} premium={suscrito} puedeLeccion={puedeLeccion} />
         </section>
       )}
 

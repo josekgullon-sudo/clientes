@@ -3,20 +3,25 @@
 import { useState, type ReactNode } from "react";
 import { Boton } from "@/components/boton";
 import type { PreguntaTest } from "@/lib/test/tipos";
+import { evento } from "@/components/evento";
 import { TestPublico } from "./test-publico";
 
 /** Muestra la presentación (renderizada en el servidor, indexable) hasta que se pulsa Empezar. */
 export function TestConIntro({
   preguntas,
   salirA,
+  origen,
+  siguiente,
   children,
 }: {
   preguntas: PreguntaTest[];
   salirA: string;
+  origen?: string;
+  siguiente?: { href: string; texto: string } | null;
   children: ReactNode;
 }) {
   const [empezado, setEmpezado] = useState(false);
-  if (empezado) return <TestPublico preguntas={preguntas} salirA={salirA} />;
+  if (empezado) return <TestPublico preguntas={preguntas} salirA={salirA} origen={origen} siguiente={siguiente} />;
   return (
     <>
       {children}
@@ -25,6 +30,7 @@ export function TestConIntro({
           <Boton
             ancho
             onClick={() => {
+              evento("demo_start");
               setEmpezado(true);
               window.scrollTo({ top: 0 });
             }}

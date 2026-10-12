@@ -24,6 +24,9 @@ type Props = {
   /** Si se pasa, guarda en el servidor (que redirige a la corrección). Si no, se llama a `alTerminarLocal`. */
   alTerminar?: (respuestas: Respuesta[]) => Promise<{ error: string } | void>;
   alTerminarLocal?: (respuestas: Map<string, number | null>) => void;
+  /** Aviso no bloqueante al llegar a esa pregunta (1-based). */
+  avisoEn?: number;
+  aviso?: string;
 };
 
 export function SesionTest({
@@ -34,6 +37,8 @@ export function SesionTest({
   salirA,
   alTerminar,
   alTerminarLocal,
+  avisoEn,
+  aviso,
 }: Props) {
   const router = useRouter();
   const [indice, setIndice] = useState(0);
@@ -208,6 +213,12 @@ export function SesionTest({
         >
           {pregunta.enunciado}
         </h1>
+
+        {aviso && avisoEn === indice + 1 && !comprobada && (
+          <p className="mt-4 rounded-md border border-filete bg-papel-hundido px-3 py-2 text-[0.95rem] text-pizarra" role="status">
+            {aviso}
+          </p>
+        )}
 
         <fieldset className="mt-5" aria-labelledby={`enunciado-${pregunta.id}`}>
           <div className="flex flex-col gap-2.5">
