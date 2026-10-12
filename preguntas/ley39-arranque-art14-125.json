@@ -1,5 +1,5 @@
 {
-  "descripcion": "Ley 39/2015. Lote de arranque escrito sin el texto de /fuentes. Antes de validar, contrastar cada cita con el texto consolidado del BOE.",
+  "descripcion": "Ley 39/2015. Lote de arranque contrastado con el texto consolidado del BOE (versión 2024-11-07) el 2026-10-12.",
   "preguntas": [
     {
       "id": "l39-001",
@@ -15,10 +15,10 @@
       "correcta": 1,
       "explicacion": "El artículo 21.3 lo resuelve: «Cuando las normas reguladoras de los procedimientos no fijen el plazo máximo, éste será de tres meses».",
       "dificultad": 1,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 19
+        "aux-age": 11
       }
     },
     {
@@ -35,10 +35,10 @@
       "correcta": 2,
       "explicacion": "El artículo 21.2 dice que este plazo «no podrá exceder de seis meses salvo que una norma con rango de ley establezca uno mayor o así venga previsto en el Derecho de la Unión Europea».",
       "dificultad": 2,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 19
+        "aux-age": 11
       }
     },
     {
@@ -55,10 +55,10 @@
       "correcta": 0,
       "explicacion": "El artículo 30.2 establece que, cuando los plazos se señalen por días, «se entiende que éstos son hábiles, excluyéndose del cómputo los sábados, los domingos y los declarados festivos».",
       "dificultad": 1,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 19
+        "aux-age": 11
       }
     },
     {
@@ -75,10 +75,10 @@
       "correcta": 3,
       "explicacion": "El artículo 30.4 dice que los plazos en meses o años «se computarán a partir del día siguiente a aquel en que tenga lugar la notificación o publicación del acto de que se trate».",
       "dificultad": 2,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 19
+        "aux-age": 11
       }
     },
     {
@@ -95,10 +95,10 @@
       "correcta": 2,
       "explicacion": "El artículo 30.5 lo dice así: «Cuando el último día del plazo sea inhábil, se entenderá prorrogado al primer día hábil siguiente».",
       "dificultad": 1,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 19
+        "aux-age": 11
       }
     },
     {
@@ -115,10 +115,10 @@
       "correcta": 0,
       "explicacion": "El artículo 32.1 permite conceder «una ampliación de los plazos establecidos, que no exceda de la mitad de los mismos, si las circunstancias lo aconsejan y con ello no se perjudican derechos de tercero».",
       "dificultad": 1,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 19
+        "aux-age": 11
       }
     },
     {
@@ -133,12 +133,12 @@
         "Cabe recurso extraordinario de revisión en los supuestos tasados por la ley"
       ],
       "correcta": 2,
-      "explicacion": "El artículo 32.3 dice: «Contra el acuerdo que resuelva sobre la ampliación de plazos, que deberá ser notificado a los interesados, no cabrá recurso, sin perjuicio del procedente contra la resolución que ponga fin al procedimiento».",
+      "explicacion": "El artículo 32.3 dice: «Los acuerdos sobre ampliación de plazos o sobre su denegación no serán susceptibles de recurso, sin perjuicio del procedente contra la resolución que ponga fin al procedimiento».",
       "dificultad": 3,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 19
+        "aux-age": 11
       }
     },
     {
@@ -155,10 +155,10 @@
       "correcta": 3,
       "explicacion": "Las personas físicas pueden elegir si se comunican por medios electrónicos o no (art. 14.1). El artículo 14.2 obliga, entre otros, a «las personas jurídicas», «las entidades sin personalidad jurídica» y a quienes ejerzan «una actividad profesional para la que se requiera colegiación obligatoria».",
       "dificultad": 1,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 16
+        "aux-age": 11
       }
     },
     {
@@ -175,10 +175,10 @@
       "correcta": 1,
       "explicacion": "El artículo 40.2 establece: «Toda notificación deberá ser cursada dentro del plazo de diez días a partir de la fecha en que el acto haya sido dictado».",
       "dificultad": 2,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 18
+        "aux-age": 11
       }
     },
     {
@@ -195,16 +195,16 @@
       "correcta": 3,
       "explicacion": "El artículo 43.2 dice que se entenderá rechazada «cuando hayan transcurrido diez días naturales desde la puesta a disposición de la notificación sin que se acceda a su contenido». Es uno de los pocos plazos de la ley en días naturales.",
       "dificultad": 3,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 18
+        "aux-age": 11
       }
     },
     {
       "id": "l39-011",
       "ley": "ley-39-2015",
-      "articulo": "47.1",
+      "articulo": "48.1",
       "enunciado": "¿Cuál de los siguientes actos NO es nulo de pleno derecho, sino anulable?",
       "opciones": [
         "El dictado por un órgano manifiestamente incompetente por razón de la materia o del territorio",
@@ -215,10 +215,10 @@
       "correcta": 1,
       "explicacion": "La infracción del ordenamiento jurídico es la causa general de anulabilidad del artículo 48.1: «Son anulables los actos de la Administración que incurran en cualquier infracción del ordenamiento jurídico, incluso la desviación de poder». Las otras tres opciones son causas de nulidad del artículo 47.1.",
       "dificultad": 2,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 18
+        "aux-age": 11
       }
     },
     {
@@ -235,10 +235,10 @@
       "correcta": 2,
       "explicacion": "El artículo 48.3 establece: «La realización de actuaciones administrativas fuera del tiempo establecido para ellas sólo implicará la anulabilidad del acto cuando así lo imponga la naturaleza del término o plazo».",
       "dificultad": 3,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 18
+        "aux-age": 11
       }
     },
     {
@@ -255,10 +255,10 @@
       "correcta": 1,
       "explicacion": "El artículo 39.1 dice que los actos «se presumirán válidos y producirán efectos desde la fecha en que se dicten, salvo que en ellos se disponga otra cosa». El artículo 39.2 prevé que la eficacia se demore en algunos casos, por ejemplo cuando dependa de la notificación.",
       "dificultad": 1,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 18
+        "aux-age": 11
       }
     },
     {
@@ -275,10 +275,10 @@
       "correcta": 2,
       "explicacion": "El artículo 68.1 dice que se requerirá al interesado «para que, en un plazo de diez días, subsane la falta o acompañe los documentos preceptivos, con indicación de que, si así no lo hiciera, se le tendrá por desistido de su petición».",
       "dificultad": 1,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 19
+        "aux-age": 11
       }
     },
     {
@@ -295,10 +295,10 @@
       "correcta": 0,
       "explicacion": "El artículo 82.2 establece: «Los interesados, en un plazo no inferior a diez días ni superior a quince, podrán alegar y presentar los documentos y justificaciones que estimen pertinentes».",
       "dificultad": 2,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 19
+        "aux-age": 11
       }
     },
     {
@@ -313,12 +313,12 @@
         "Treinta días"
       ],
       "correcta": 2,
-      "explicacion": "El artículo 83.2 dice: «El plazo para formular alegaciones no podrá ser inferior a veinte días».",
+      "explicacion": "El artículo 83.2 dice que el anuncio determinará «el plazo para formular alegaciones, que en ningún caso podrá ser inferior a veinte días».",
       "dificultad": 1,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 19
+        "aux-age": 11
       }
     },
     {
@@ -335,10 +335,10 @@
       "correcta": 1,
       "explicacion": "El artículo 24.1 establece que el vencimiento del plazo sin resolución «legitima al interesado o interesados para entenderla estimada por silencio administrativo», salvo que una norma con rango de ley, del Derecho de la Unión Europea o del Derecho internacional aplicable en España diga lo contrario.",
       "dificultad": 1,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 19
+        "aux-age": 11
       }
     },
     {
@@ -355,10 +355,10 @@
       "correcta": 3,
       "explicacion": "El artículo 24.1 dice que, aunque en la impugnación de actos el silencio es desestimatorio, «cuando el recurso de alzada se haya interpuesto contra la desestimación por silencio administrativo de una solicitud por el transcurso del plazo, se entenderá estimado el mismo si, llegado el plazo de resolución, el órgano administrativo competente no dictase y notificase resolución expresa».",
       "dificultad": 3,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 19
+        "aux-age": 11
       }
     },
     {
@@ -375,10 +375,10 @@
       "correcta": 2,
       "explicacion": "El artículo 25.1.b establece que en los procedimientos en que la Administración ejerza «potestades sancionadoras o, en general, de intervención, susceptibles de producir efectos desfavorables o de gravamen, se producirá la caducidad».",
       "dificultad": 2,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 19
+        "aux-age": 11
       }
     },
     {
@@ -395,10 +395,10 @@
       "correcta": 0,
       "explicacion": "El artículo 122.1 dice: «El plazo para la interposición del recurso de alzada será de un mes, si el acto fuera expreso».",
       "dificultad": 1,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 20
+        "aux-age": 11
       }
     },
     {
@@ -415,10 +415,10 @@
       "correcta": 1,
       "explicacion": "El artículo 122.2 establece: «El plazo máximo para dictar y notificar la resolución será de tres meses». Si pasa sin resolución, el recurso se entiende desestimado, salvo el caso del artículo 24.1.",
       "dificultad": 2,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 20
+        "aux-age": 11
       }
     },
     {
@@ -435,10 +435,10 @@
       "correcta": 2,
       "explicacion": "El artículo 124.2 lo fija: «El plazo máximo para dictar y notificar la resolución del recurso será de un mes».",
       "dificultad": 2,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 20
+        "aux-age": 11
       }
     },
     {
@@ -455,10 +455,10 @@
       "correcta": 1,
       "explicacion": "El artículo 125.2 dice que, en la causa a) del apartado 1, el recurso se interpone «dentro del plazo de cuatro años siguientes a la fecha de la notificación de la resolución impugnada». En los demás casos el plazo es de tres meses.",
       "dificultad": 3,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 20
+        "aux-age": 11
       }
     },
     {
@@ -475,10 +475,10 @@
       "correcta": 3,
       "explicacion": "El artículo 109.2 establece que las Administraciones pueden «rectificar en cualquier momento, de oficio o a instancia de los interesados, los errores materiales, de hecho o aritméticos existentes en sus actos».",
       "dificultad": 2,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 20
+        "aux-age": 11
       }
     },
     {
@@ -495,10 +495,10 @@
       "correcta": 2,
       "explicacion": "El artículo 107.2 dice: «La declaración de lesividad no podrá adoptarse una vez transcurridos cuatro años desde que se dictó el acto administrativo». El plazo cuenta desde que se dicta, no desde la notificación.",
       "dificultad": 3,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 20
+        "aux-age": 11
       }
     },
     {
@@ -515,10 +515,10 @@
       "correcta": 1,
       "explicacion": "El artículo 95.1 dice que la Administración «le advertirá que, transcurridos tres meses, se producirá la caducidad del procedimiento».",
       "dificultad": 2,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 19
+        "aux-age": 11
       }
     },
     {
@@ -535,10 +535,10 @@
       "correcta": 3,
       "explicacion": "La solicitud del interesado es la otra vía de inicio, distinta de la de oficio (art. 54). El artículo 58 dice: «Los procedimientos se iniciarán de oficio por acuerdo del órgano competente, bien por propia iniciativa o como consecuencia de orden superior, a petición razonada de otros órganos o por denuncia».",
       "dificultad": 1,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 19
+        "aux-age": 11
       }
     },
     {
@@ -555,10 +555,10 @@
       "correcta": 0,
       "explicacion": "El artículo 96.6 establece que estos procedimientos «deberán ser resueltos en treinta días, a contar desde el siguiente al que se notifique al interesado el acuerdo de tramitación simplificada del procedimiento».",
       "dificultad": 2,
-      "fecha_version_boe": null,
-      "estado": "borrador",
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
       "temas": {
-        "aux-age": 19
+        "aux-age": 11
       }
     }
   ]
