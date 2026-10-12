@@ -13,7 +13,7 @@ const errores: Record<string, string> = {
 
 export default async function NuevoTest({ searchParams }: PageProps<"/app/nuevo">) {
   const { suscrito } = await usuarioActual();
-  if (!suscrito) redirect("/suscripcion");
+  if (!suscrito) redirect("/suscripcion?motivo=personalizado");
   const q = await searchParams;
   const [opo, progreso] = await Promise.all([oposicionActual(), progresoPorTema()]);
   const totales = new Map(progreso.map((t) => [t.tema_id, t.total]));
@@ -39,12 +39,12 @@ export default async function NuevoTest({ searchParams }: PageProps<"/app/nuevo"
       <fieldset>
         <legend className="font-semibold">Número de preguntas</legend>
         <div className="mt-2 grid grid-cols-4 gap-2">
-          {[10, 20, 30, 50].map((n) => (
+          {[5, 10, 20, 30].map((n) => (
             <label
               key={n}
               className="flex min-h-12 cursor-pointer items-center justify-center rounded-md border border-filete has-checked:border-tinta has-checked:bg-tinta has-checked:text-papel has-focus-visible:outline-3 has-focus-visible:outline-tinta"
             >
-              <input type="radio" name="num" value={n} defaultChecked={n === 20} className="sr-only" />
+              <input type="radio" name="num" value={n} defaultChecked={n === 10} className="sr-only" />
               {n}
             </label>
           ))}

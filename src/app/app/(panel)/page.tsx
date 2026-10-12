@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Boton, EnlaceBoton } from "@/components/boton";
-import { falladasPendientes, progresoPorTema, rachaActual, ultimosIntentos, usuarioActual } from "@/lib/datos/usuario";
+import { cuotaRestante, falladasPendientes, progresoPorTema, rachaActual, ultimosIntentos, usuarioActual } from "@/lib/datos/usuario";
+import { Evento } from "@/components/evento";
 import { crearTest } from "../acciones";
 
 export const metadata: Metadata = { title: "Tu panel" };
@@ -9,14 +10,17 @@ export const metadata: Metadata = { title: "Tu panel" };
 const nombresModo = { tema: "Test por tema", mixto: "Test mezclado", falladas: "Repaso de fallos", simulacro: "Simulacro" };
 const fecha = new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "short", timeZone: "Europe/Madrid" });
 
-export default async function Panel() {
+export default async function Panel({ searchParams }: PageProps<"/app">) {
+  const q = await searchParams;
   const { suscrito } = await usuarioActual();
-  const [progreso, racha, intentos, falladas] = await Promise.all([
+  const [progreso, racha, intentos, falladas, cuota] = await Promise.all([
     progresoPorTema(),
     rachaActual(),
     ultimosIntentos(),
     falladasPendientes(),
+    cuotaRestante(),
   ]);
+  const temaHoy = progreso.find((t) => t.total > 0);
 
   const flojos = progreso
     .filter((t) => t.vistas >= 5 && t.dominadas / t.vistas < 0.6)
@@ -26,6 +30,7 @@ export default async function Panel() {
 
   return (
     <div className="flex flex-col gap-10">
+      {q.suscripcion === "ok" && <Evento nombre="purchase" />}
       <section>
         <h1 className="font-serif text-[2rem] leading-tight font-semibold">Tu estudio</h1>
         <p className="mt-2 font-serif text-[1.125rem]">
@@ -41,34 +46,52 @@ export default async function Panel() {
         </p>
       </section>
 
-      {!suscrito && (
-        <section className="border-l-[3px] border-subrayador pl-4">
-          <h2 className="font-serif text-xl font-semibold">Activa tu suscripción</h2>
-          <p className="mt-1">Con ella haces test de todo el temario, repasas tus fallos y haces simulacros.</p>
-          <div className="mt-4 flex flex-col gap-2 sm:flex-row">
-            <EnlaceBoton href="/suscripcion">Ver planes</EnlaceBoton>
-            <EnlaceBoton href="/demo" variante="secundario">
-              Hacer el test de prueba
-            </EnlaceBoton>
-          </div>
-        </section>
-      )}
-
-      {suscrito && (
-        <section aria-label="Empezar" className="flex flex-col gap-2 sm:flex-row">
-          <EnlaceBoton href="/app/nuevo" ancho>
-            Empezar test
+      <section aria-label="Empezar" className="flex flex-col gap-3">
+        {temaHoy && (suscrito || !cuota || cuota.tema > 0) ? (
+          <form action={crearTest}>
+            <input type="hidden" name="modo" value="tema" />
+            <input type="hidden" name="tema" value={temaHoy.tema_id} />
+            <input type="hidden" name="num" value="10" />
+            <Boton ancho>Continuar: Tema {temaHoy.numero} · 10 preguntas</Boton>
+          </form>
+        ) : (
+          <EnlaceBoton href="/suscripcion?motivo=cuota" ancho>
+            Has hecho las 10 de hoy · Ver Premium
           </EnlaceBoton>
+        )}
+        <div className="flex flex-col gap-2 sm:flex-row">
           <form action={crearTest} className="w-full">
             <input type="hidden" name="modo" value="falladas" />
-            <input type="hidden" name="num" value="20" />
-            <Boton variante="secundario" ancho disabled={falladas === 0}>
+            <input type="hidden" name="num" value="10" />
+            <Boton variante="secundario" ancho disabled={falladas === 0 || (!suscrito && !!cuota && cuota.repaso === 0)}>
               Repasar fallos{falladas ? ` (${falladas})` : ""}
             </Boton>
           </form>
           <EnlaceBoton href="/app/simulacro" variante="secundario" ancho>
-            Simulacro
+            Simulacro{!suscrito ? " de prueba" : ""}
           </EnlaceBoton>
+          {suscrito ? (
+            <EnlaceBoton href="/app/nuevo" variante="secundario" ancho>
+              Test personalizado
+            </EnlaceBoton>
+          ) : (
+            <EnlaceBoton href="/suscripcion?motivo=personalizado" variante="secundario" ancho>
+              Test personalizado
+            </EnlaceBoton>
+          )}
+        </div>
+      </section>
+
+      {!suscrito && (
+        <section className="rounded-xl border border-filete p-4">
+          <h2 className="font-serif text-xl font-semibold">Plan gratis</h2>
+          <p className="mt-1">
+            10 preguntas de un tema al día y el repaso de esos fallos. Premium quita el límite y abre el test
+            personalizado y los simulacros.
+          </p>
+          <div className="mt-4">
+            <EnlaceBoton href="/suscripcion" variante="secundario">Ver planes</EnlaceBoton>
+          </div>
         </section>
       )}
 

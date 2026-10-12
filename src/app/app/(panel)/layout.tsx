@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Cabecera } from "@/components/cabecera";
+import { ImportarDemo } from "@/components/importar-demo";
 import { Pie } from "@/components/pie";
 import { usuarioActual } from "@/lib/datos/usuario";
 
@@ -19,7 +20,10 @@ export default async function LayoutPanel({ children }: LayoutProps<"/app">) {
           </nav>
         }
       />
-      <main className="mx-auto w-full max-w-3xl flex-1 px-4 pt-8 pb-16">{children}</main>
+      <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col gap-6 px-4 pt-8 pb-16">
+        <ImportarDemo />
+        {children}
+      </main>
       <Pie />
     </>
   );

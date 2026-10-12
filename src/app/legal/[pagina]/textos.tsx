@@ -114,9 +114,10 @@ export const TEXTOS: Record<string, TextoLegal> = {
       <>
         <h2>Solo usamos lo necesario</h2>
         <p>
-          {SITIO.nombre} no usa cookies de publicidad ni de análisis de terceros. Solo usamos cookies y almacenamiento
-          local técnicos, imprescindibles para que la web funcione. Por eso no necesitan tu consentimiento (artículo 22.2
-          de la LSSI), aunque te informamos de ellas.
+          {SITIO.nombre} no usa cookies de publicidad. Solo usamos cookies y almacenamiento local técnicos,
+          imprescindibles para que la web funcione. Por eso no necesitan tu consentimiento (artículo 22.2 de la LSSI),
+          aunque te informamos de ellas. Si en el servidor está configurada analítica (Plausible, variable de entorno),
+          es sin cookies y no identifica a la persona. Si no está configurada, no se carga.
         </p>
         <table>
           <thead>
@@ -164,8 +165,9 @@ export const TEXTOS: Record<string, TextoLegal> = {
       <>
         <h2>Qué incluye</h2>
         <p>
-          Acceso a todos los test de la oposición, repaso de fallos, simulacros y panel de progreso mientras la suscripción
-          esté activa. Sin suscripción puedes usar el test de prueba y los test gratuitos por ley.
+          Con suscripción activa: test sin el límite diario, test personalizado, simulacros y el panel de progreso.
+          Sin suscripción puedes hacer el test de prueba, los test públicos por ley y por tema, y —con cuenta— 10
+          preguntas al día de un tema más el repaso de esos fallos.
         </p>
         <h2>Precio y pago</h2>
         <ul>

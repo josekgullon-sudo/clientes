@@ -1,13 +1,33 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { Boton } from "@/components/boton";
 import { Cabecera } from "@/components/cabecera";
 import { Pie } from "@/components/pie";
-import { PRECIOS, eur } from "@/lib/sitio";
+import { FormularioPlan } from "@/components/planes/formulario-plan";
+import { Comparativa } from "@/components/planes/comparativa";
+import { PRECIOS, eur, precioMesEquivalente } from "@/lib/sitio";
 import { supabaseServidor } from "@/lib/supabase/servidor";
 
 export const metadata: Metadata = { title: "Planes", robots: { index: false } };
+
+const motivos: Record<string, { titulo: string; texto: string }> = {
+  cuota: {
+    titulo: "Has hecho tus 10 preguntas de hoy",
+    texto: "Con Premium sigues ahora, sin esperar a mañana, y desbloqueas el simulacro ilimitado. La racha no se pierde por pasar a premium.",
+  },
+  simulacro: {
+    titulo: "El simulacro de prueba ya está usado",
+    texto: "Premium incluye simulacros con el formato real, las veces que quieras, con el histórico en tu cuenta.",
+  },
+  personalizado: {
+    titulo: "El test personalizado es de Premium",
+    texto: "En gratis eliges un tema y haces 10 preguntas. Premium mezcla temas y el número que tú marques.",
+  },
+  premium: {
+    titulo: "Esto está en el plan de pago",
+    texto: "El plan gratis cubre la sesión diaria y el repaso de tus fallos. Lo demás —varios temas, niveles avanzados y simulacros— es Premium.",
+  },
+};
 
 export default async function Suscripcion({ searchParams }: PageProps<"/suscripcion">) {
   const supabase = await supabaseServidor();
@@ -18,47 +38,61 @@ export default async function Suscripcion({ searchParams }: PageProps<"/suscripc
   const { data: activa } = await supabase.rpc("tiene_suscripcion_activa");
   if (activa) redirect("/app/cuenta");
   const q = await searchParams;
+  const motivo = typeof q.motivo === "string" ? motivos[q.motivo] : undefined;
   const ahorro = Math.round((1 - PRECIOS.anual / (PRECIOS.mensual * 12)) * 100);
-
-  const planes = [
-    { id: "anual", nombre: "Anual", precio: `${eur.format(PRECIOS.anual)} al año`, nota: `Ahorras un ${ahorro} %. Equivale a ${eur.format(PRECIOS.anual / 12)} al mes.` },
-    { id: "mensual", nombre: "Mensual", precio: `${eur.format(PRECIOS.mensual)} al mes`, nota: "Sin permanencia." },
-  ];
+  const alDia = PRECIOS.anual / 365;
 
   return (
     <>
       <Cabecera derecha={<Link href="/app" className="inline-flex min-h-11 items-center px-2 font-semibold">Panel</Link>} />
-      <main className="mx-auto w-full max-w-lectura flex-1 px-4 pt-10 pb-16">
-        <h1 className="font-serif text-[2rem] leading-tight font-semibold">Elige tu plan</h1>
-        <p className="mt-2 font-serif text-[1.125rem]">
-          Los dos incluyen todo: test por tema, repaso de fallos, simulacros y tu progreso.
+      <main className="mx-auto w-full max-w-3xl flex-1 px-4 pt-10 pb-16">
+        <h1 className="font-serif text-[2rem] leading-tight font-semibold">Elige cómo seguir</h1>
+        <p className="mt-2 max-w-lectura font-serif text-[1.125rem]">
+          El anual es el que más conviene si vas a preparar la oposición en serio.
         </p>
+
+        {motivo && (
+          <section className="mt-6 rounded-xl border border-pino bg-pino-suave p-4" role="status">
+            <h2 className="font-serif text-xl font-semibold">{motivo.titulo}</h2>
+            <p className="mt-1">{motivo.texto}</p>
+          </section>
+        )}
         {q.error && (
           <p role="alert" className="mt-6 rounded-md border border-teja bg-teja-suave p-3">
             Ese plan no está disponible ahora mismo. Prueba con el otro o vuelve en un rato.
           </p>
         )}
-        <div className="mt-8 flex flex-col gap-6">
-          {planes.map((p) => (
-            <form key={p.id} action="/api/stripe/checkout" method="post" className="border-t border-filete pt-5">
-              <input type="hidden" name="plan" value={p.id} />
-              <h2 className="font-serif text-xl font-semibold">{p.nombre}</h2>
-              <p className="mt-1 text-[1.25rem] font-semibold">{p.precio}</p>
-              <p className="mt-1 text-pizarra">{p.nota}</p>
-              <Boton type="submit" ancho variante={p.id === "anual" ? "principal" : "secundario"} className="mt-4">
-                Elegir plan {p.nombre.toLowerCase()}
-              </Boton>
-            </form>
-          ))}
+
+        <div className="mt-8">
+          <Comparativa mostrarBotones={false} />
         </div>
-        <p className="mt-8 text-[0.95rem] text-pizarra">
-          Pago seguro con Stripe. IVA incluido y factura en tu correo. Cancelas cuando quieras desde tu cuenta y
-          mantienes el acceso hasta el final del periodo pagado. Consulta las{" "}
-          <Link href="/legal/condiciones" className="underline underline-offset-4">
-            condiciones de suscripción
-          </Link>
-          .
-        </p>
+
+        <div className="mt-8 grid gap-4">
+          <FormularioPlan
+            plan="anual"
+            destacado
+            titulo="Anual"
+            precio={eur.format(precioMesEquivalente)}
+            detalle={`${eur.format(PRECIOS.anual)} al año · ${eur.format(alDia)} al día · ahorras un ${ahorro} %`}
+            etiqueta="Más elegido"
+          />
+          <FormularioPlan
+            plan="mensual"
+            titulo="Mensual"
+            precio={eur.format(PRECIOS.mensual)}
+            detalle="Al mes, sin permanencia. Cancelas cuando quieras."
+          />
+        </div>
+
+        <ul className="mt-8 flex flex-col gap-2 text-[0.95rem]">
+          <li>Cancelas en dos clics desde tu cuenta. El acceso sigue hasta el final de lo pagado.</li>
+          <li>Pago con Stripe. Si tu dispositivo lo permite, Checkout ofrece tarjeta, Apple Pay o Google Pay.</li>
+          <li>
+            Al empezar el contenido digital se aplica la renuncia al desistimiento del art. 103.m, como se explica en las{" "}
+            <Link href="/legal/condiciones" className="underline underline-offset-4">condiciones</Link>.
+          </li>
+        </ul>
+        <p className="mt-6 text-[0.95rem] text-pizarra">IVA incluido y factura en tu correo.</p>
       </main>
       <Pie />
     </>

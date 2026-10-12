@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { redirect } from "next/navigation";
 import { Boton } from "@/components/boton";
 import { oposicionActual, usuarioActual } from "@/lib/datos/usuario";
 import { crearTest } from "../../acciones";
@@ -8,7 +7,6 @@ export const metadata: Metadata = { title: "Simulacro" };
 
 export default async function Simulacro() {
   const { suscrito } = await usuarioActual();
-  if (!suscrito) redirect("/suscripcion");
   const opo = await oposicionActual();
   const f = opo.formato_simulacro;
   const total = f.partes.reduce((s, p) => s + p.preguntas, 0);
@@ -33,8 +31,12 @@ export default async function Simulacro() {
         ))}
       </dl>
       <p className="mt-3 text-[0.95rem] text-pizarra">
-        No incluye la parte psicotécnica del examen; el tiempo es proporcional a las preguntas.
+        No incluye la parte psicotécnica del examen; el tiempo es proporcional a las preguntas. El bloque II aún
+        tiene pocas o ninguna pregunta, así que el simulacro usa las que hay.
       </p>
+      {!suscrito && (
+        <p className="mt-3 text-[0.95rem]">El plan gratis incluye un simulacro de prueba. Los siguientes son Premium.</p>
+      )}
 
       <form action={crearTest} className="mt-8">
         <input type="hidden" name="modo" value="simulacro" />

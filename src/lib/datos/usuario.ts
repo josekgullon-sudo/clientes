@@ -52,6 +52,19 @@ export async function progresoPorTema() {
   }[];
 }
 
+export async function cuotaRestante() {
+  const { supabase } = await usuarioActual();
+  const { data, error } = await supabase.rpc("cuota_restante");
+  if (error || !data) return null;
+  return data as {
+    premium: boolean;
+    tema: number;
+    repaso: number;
+    simulacro: boolean;
+    ilimitado?: boolean;
+  };
+}
+
 export async function rachaActual() {
   const { supabase } = await usuarioActual();
   const { data } = await supabase.rpc("racha_actual");

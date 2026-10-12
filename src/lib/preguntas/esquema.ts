@@ -75,6 +75,15 @@ export const esquemaOposicion = z.object({
   temas: z.array(
     z.object({ numero: z.number().int().positive(), bloque: z.string(), titulo: z.string() }),
   ),
+  /** Fecha orientativa del próximo examen. No es un dato oficial. */
+  examen_estimado: z
+    .object({
+      fecha: fecha,
+      etiqueta: z.string(),
+      convocatoria: z.string(),
+      nota: z.string(),
+    })
+    .optional(),
 });
 
 export type Ley = z.infer<typeof esquemaLey>;

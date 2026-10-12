@@ -244,6 +244,16 @@ otp_expiry = 3600
 # admin_email = "admin@email.com"
 # sender_name = "Admin"
 
+# Código de 6 dígitos ({{ .Token }}) además del enlace. En producción hay que pegar
+# el mismo contenido en Authentication → Email Templates del proyecto de Supabase.
+[auth.email.template.magic_link]
+subject = "Tu código para entrar en Oposiciones Claras"
+content_path = "./supabase/templates/magic_link.html"
+
+[auth.email.template.confirmation]
+subject = "Tu código para entrar en Oposiciones Claras"
+content_path = "./supabase/templates/confirmation.html"
+
 # Uncomment to customize email template
 # [auth.email.template.invite]
 # subject = "You have been invited"
