@@ -167,3 +167,87 @@ body {
   padding: 0.5rem 0.5rem 0.5rem 0;
   border-bottom: 1px solid var(--filete);
 }
+
+.camino {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.camino-nodo {
+  display: flex;
+  gap: 0.85rem;
+  padding-bottom: 1.25rem;
+  position: relative;
+}
+.camino-nodo:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  left: 1.15rem;
+  top: 2.4rem;
+  bottom: 0;
+  width: 2px;
+  background: var(--filete);
+}
+.camino-marca {
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  flex: none;
+  border-radius: 999px;
+  border: 2px solid var(--filete);
+  background: var(--papel);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.camino-actual .camino-marca {
+  border-color: var(--pino);
+  background: var(--pino);
+  color: #fff;
+}
+.camino-corona .camino-marca {
+  border-color: var(--subrayador);
+  background: var(--subrayador);
+  color: var(--subrayador-texto);
+}
+.camino-nivel {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 999px;
+  background: var(--filete);
+}
+.camino-nivel-hecho {
+  background: var(--pino);
+}
+.camino-nivel-actual {
+  outline: 2px solid var(--pino);
+  outline-offset: 2px;
+}
+.llama {
+  display: inline-block;
+  transform-origin: center bottom;
+  animation: llama 1.6s ease-in-out infinite;
+}
+@keyframes llama {
+  50% { transform: scale(1.08); }
+}
+.confeti {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+}
+.confeti span {
+  position: absolute;
+  top: -0.4rem;
+  width: 0.45rem;
+  height: 0.7rem;
+  border-radius: 2px;
+  background: var(--pino);
+  animation: caer 0.9s ease-in forwards;
+}
+.confeti span:nth-child(3n) { background: var(--subrayador); }
+.confeti span:nth-child(3n + 1) { background: var(--teja); }
+@keyframes caer {
+  to { transform: translateY(4.5rem) rotate(40deg); opacity: 0; }
+}

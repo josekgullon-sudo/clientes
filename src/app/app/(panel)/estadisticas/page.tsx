@@ -3,7 +3,9 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 import { Boton, EnlaceBoton } from "@/components/boton";
 import { Anillo } from "@/components/estudio/anillo";
-import { estadisticasUsuario } from "@/lib/datos/estudio";
+import { Racha } from "@/components/estudio/racha";
+import { caminoTemas, estadisticasUsuario } from "@/lib/datos/estudio";
+import { minutosDeLeccion, preguntasDeLeccion, siguienteLeccion } from "@/lib/estudio/camino";
 import { examenEstimado } from "@/lib/examen";
 import { diasEntre, hoyMadrid, sumarDias } from "@/lib/seo/seleccion";
 import { crearTest } from "../../acciones";
@@ -26,7 +28,7 @@ function Premium({ activo, children, texto }: { activo: boolean; children: React
 }
 
 export default async function Estadisticas() {
-  const est = await estadisticasUsuario();
+  const [est, camino] = await Promise.all([estadisticasUsuario(), caminoTemas()]);
   if (!est) {
     return (
       <p role="status">
@@ -44,7 +46,13 @@ export default async function Estadisticas() {
   const ritmoFecha = llegada
     ? new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "short", timeZone: "UTC" }).format(new Date(`${llegada}T00:00:00Z`))
     : null;
-  const siguiente = est.temas.find((t) => t.total > 0 && t.dominadas < t.total) ?? est.temas.find((t) => t.total > 0);
+  const leccion = camino ? siguienteLeccion(camino, est.premium) : null;
+  const siguiente = leccion
+    ? { tema_id: leccion.tema_id, numero: leccion.numero, preguntas: preguntasDeLeccion(leccion), modo: "leccion" as const }
+    : (() => {
+        const t = est.temas.find((x) => x.total > 0 && x.dominadas < x.total) ?? est.temas.find((x) => x.total > 0);
+        return t ? { tema_id: t.tema_id, numero: t.numero, preguntas: 10, modo: "tema" as const } : null;
+      })();
   const debiles = est.prediccion.debilidades ?? [];
   const maxHeat = Math.max(est.objetivo_diario, ...est.heatmap.map((d) => d.preguntas), 1);
 
@@ -54,17 +62,19 @@ export default async function Estadisticas() {
         <Anillo hecho={est.preguntas_hoy} objetivo={est.objetivo_diario} />
         <div>
           <h1 className="font-serif text-[2rem] leading-tight font-semibold">Tu progreso</h1>
-          <p className="text-[1.35rem] font-semibold">🔥 {est.racha_actual} {est.racha_actual === 1 ? "día" : "días"}</p>
+          <Racha dias={est.racha_actual} protectores={est.protectores} />
           <p className="text-[0.95rem] text-pizarra">Mejor racha: {est.racha_maxima}. Objetivo: {est.objetivo_diario} al día.</p>
         </div>
       </section>
 
       {siguiente && (
         <form action={crearTest}>
-          <input type="hidden" name="modo" value="tema" />
+          <input type="hidden" name="modo" value={siguiente.modo} />
           <input type="hidden" name="tema" value={siguiente.tema_id} />
-          <input type="hidden" name="num" value="10" />
-          <Boton ancho>Continuar: Tema {siguiente.numero} · 10 preguntas · 5 min</Boton>
+          <input type="hidden" name="num" value={String(siguiente.preguntas)} />
+          <Boton ancho>
+            Continuar: Tema {siguiente.numero} · {siguiente.preguntas} preguntas · {minutosDeLeccion(siguiente.preguntas)} min
+          </Boton>
         </form>
       )}
 

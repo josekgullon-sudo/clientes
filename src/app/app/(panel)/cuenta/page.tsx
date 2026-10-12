@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Boton, EnlaceBoton } from "@/components/boton";
-import { estadisticasUsuario } from "@/lib/datos/estudio";
+import { estadisticasUsuario, logrosUsuario } from "@/lib/datos/estudio";
 import { usuarioActual } from "@/lib/datos/usuario";
 import { guardarAjustes } from "../../ajustes";
 
@@ -18,7 +18,7 @@ const estados: Record<string, string> = {
 export default async function Cuenta({ searchParams }: PageProps<"/app/cuenta">) {
   const q = await searchParams;
   const { user, suscrito, suscripcion } = await usuarioActual();
-  const estudio = await estadisticasUsuario();
+  const [estudio, logros] = await Promise.all([estadisticasUsuario(), logrosUsuario()]);
   return (
     <div className="max-w-lectura">
       <h1 className="font-serif text-[2rem] leading-tight font-semibold">Tu cuenta</h1>
@@ -74,6 +74,25 @@ export default async function Cuenta({ searchParams }: PageProps<"/app/cuenta">)
           </label>
           <Boton type="submit">Guardar</Boton>
         </form>
+      )}
+
+      {logros && (
+        <section className="mt-10" aria-labelledby="logros">
+          <h2 id="logros" className="font-serif text-xl font-semibold">Logros</h2>
+          <ul className="mt-3 grid gap-2">
+            {logros.map((l) => (
+              <li key={l.catalogo_id} className={`rounded-xl border p-3 ${l.conseguido_en ? "border-pino bg-pino-suave" : "border-filete text-pizarra"}`}>
+                <p className="font-semibold text-tinta">{l.nombre}</p>
+                <p className="text-[0.95rem]">{l.descripcion}</p>
+                {l.conseguido_en && (
+                  <p className="mt-1 text-[0.9rem] text-pino">
+                    Conseguido el {fecha.format(new Date(l.conseguido_en))}
+                  </p>
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
 
       <div className="mt-8 flex flex-col gap-2">

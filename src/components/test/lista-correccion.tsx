@@ -2,15 +2,18 @@
 
 import { useState } from "react";
 import { LETRAS, type PreguntaTest } from "@/lib/test/tipos";
+import { AccionesPregunta } from "./acciones-pregunta";
 import { Explicacion } from "./explicacion";
 
 /** Corrección completa: cada pregunta con tu respuesta, la correcta y la explicación. */
 export function ListaCorreccion({
   preguntas,
   respuestas,
+  puedeGuardar = false,
 }: {
   preguntas: PreguntaTest[];
   respuestas: Record<string, number | null>;
+  puedeGuardar?: boolean;
 }) {
   const [soloFallos, setSoloFallos] = useState(false);
   const fallos = preguntas.filter((p) => respuestas[p.id] !== p.correcta).length;
@@ -74,6 +77,7 @@ export function ListaCorreccion({
               <div className="mt-4">
                 <Explicacion pregunta={p} respuesta={r} titular={false} />
               </div>
+              {puedeGuardar && <AccionesPregunta preguntaId={p.id} fallo={r !== p.correcta} />}
             </li>
           );
         })}

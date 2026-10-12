@@ -1,5 +1,6 @@
 import "server-only";
 import { cache } from "react";
+import type { NodoCamino } from "@/lib/estudio/camino";
 import { usuarioActual } from "./usuario";
 
 export type ParteNota = { nota: number; bajo: number; alto: number };
@@ -52,4 +53,37 @@ export const estadisticasUsuario = cache(async (): Promise<Estadisticas | null> 
   const { data, error } = await supabase.rpc("estadisticas_usuario");
   if (error || !data) return null;
   return data as Estadisticas;
+});
+
+export const caminoTemas = cache(async (): Promise<NodoCamino[] | null> => {
+  const { supabase } = await usuarioActual();
+  const { data, error } = await supabase.rpc("camino_temas");
+  if (error || !data) return null;
+  return data as NodoCamino[];
+});
+
+export type LogroUsuario = {
+  catalogo_id: string;
+  nombre: string;
+  descripcion: string;
+  icono: string;
+  conseguido_en: string | null;
+};
+
+export const logrosUsuario = cache(async (): Promise<LogroUsuario[] | null> => {
+  const { supabase } = await usuarioActual();
+  const { data: catalogo, error } = await supabase
+    .from("logros")
+    .select("catalogo_id, nombre, descripcion, icono, orden")
+    .order("orden");
+  if (error || !catalogo) return null;
+  const { data: mios } = await supabase.from("logros_usuario").select("logro_id, conseguido_en");
+  const mapa = new Map((mios ?? []).map((m) => [m.logro_id as string, m.conseguido_en as string]));
+  return catalogo.map((l) => ({
+    catalogo_id: l.catalogo_id as string,
+    nombre: l.nombre as string,
+    descripcion: l.descripcion as string,
+    icono: l.icono as string,
+    conseguido_en: mapa.get(l.catalogo_id as string) ?? null,
+  }));
 });

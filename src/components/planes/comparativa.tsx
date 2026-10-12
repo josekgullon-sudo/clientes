@@ -2,9 +2,11 @@ import { EnlaceBoton } from "@/components/boton";
 import { CUOTA_GRATIS, PRECIOS, eur, precioMesEquivalente } from "@/lib/sitio";
 
 const filas = [
-  { funcion: "Test de un tema", gratis: `${CUOTA_GRATIS} preguntas al día`, premium: "Sin límite y varios temas a la vez" },
-  { funcion: "Repaso de tus fallos", gratis: `Hasta ${CUOTA_GRATIS} al día`, premium: "Sin límite" },
-  { funcion: "Progreso por tema", gratis: "Sí", premium: "Sí, con estadísticas avanzadas" },
+  { funcion: "Lecciones del camino", gratis: "1 al día, niveles 1 y 2", premium: "Sin límite y todos los niveles" },
+  { funcion: "Racha, XP y logros", gratis: "Sí", premium: "Sí" },
+  { funcion: "Protector de racha", gratis: "1 a la semana", premium: "2 a la semana y extras" },
+  { funcion: "Repaso de fallos", gratis: `Hasta ${CUOTA_GRATIS} al día`, premium: "Sin límite, con repetición espaciada" },
+  { funcion: "Estadísticas", gratis: "Racha, % global y progreso", premium: "Predicción, calendario y debilidades" },
   { funcion: "Simulacro con el formato real", gratis: "1 de prueba", premium: "Ilimitados" },
   { funcion: "Test personalizado", gratis: "No", premium: "Varios temas y el número que elijas" },
 ];

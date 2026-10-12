@@ -27,6 +27,14 @@ const motivos: Record<string, { titulo: string; texto: string }> = {
     titulo: "Esto está en el plan de pago",
     texto: "El plan gratis cubre la sesión diaria y el repaso de tus fallos. Lo demás —varios temas, niveles avanzados y simulacros— es Premium.",
   },
+  nivel: {
+    titulo: "El nivel 3 es de Premium",
+    texto: "En gratis practicas los niveles 1 y 2 de cada tema. Premium abre el resto del camino, el examen del tema y el salto.",
+  },
+  prediccion: {
+    titulo: "La predicción de nota es de Premium",
+    texto: "El porcentaje global sigue siendo gratis. La estimación con penalización de un tercio, el calendario y las debilidades están en Premium.",
+  },
 };
 
 export default async function Suscripcion({ searchParams }: PageProps<"/suscripcion">) {

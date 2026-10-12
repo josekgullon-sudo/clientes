@@ -2,8 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Boton, EnlaceBoton } from "@/components/boton";
 import { Anillo } from "@/components/estudio/anillo";
+import { Camino } from "@/components/estudio/camino";
+import { Racha } from "@/components/estudio/racha";
 import { Evento } from "@/components/evento";
-import { estadisticasUsuario } from "@/lib/datos/estudio";
+import { caminoTemas, estadisticasUsuario } from "@/lib/datos/estudio";
+import { minutosDeLeccion, preguntasDeLeccion, siguienteBloqueado, siguienteLeccion } from "@/lib/estudio/camino";
 import { diasEntre, hoyMadrid } from "@/lib/seo/seleccion";
 import { examenEstimado } from "@/lib/examen";
 import { cuotaRestante, falladasPendientes, progresoPorTema, rachaActual, ultimosIntentos, usuarioActual } from "@/lib/datos/usuario";
@@ -11,26 +14,39 @@ import { crearTest } from "../acciones";
 
 export const metadata: Metadata = { title: "Tu panel" };
 
-const nombresModo = { tema: "Test por tema", mixto: "Test mezclado", falladas: "Repaso de fallos", simulacro: "Simulacro" };
+const nombresModo = {
+  tema: "Test por tema",
+  mixto: "Test mezclado",
+  falladas: "Repaso de fallos",
+  simulacro: "Simulacro",
+  leccion: "Lección",
+  repaso: "Repaso",
+  salto: "Test de salto",
+};
 const fecha = new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "short", timeZone: "Europe/Madrid" });
 
 export default async function Panel({ searchParams }: PageProps<"/app">) {
   const q = await searchParams;
   const { suscrito } = await usuarioActual();
-  const [progreso, racha, intentos, falladas, cuota, estudio] = await Promise.all([
+  const [progreso, racha, intentos, falladas, cuota, estudio, camino] = await Promise.all([
     progresoPorTema(),
     rachaActual(),
     ultimosIntentos(),
     falladasPendientes(),
     cuotaRestante(),
     estadisticasUsuario(),
+    caminoTemas(),
   ]);
   const rachaVisible = estudio?.racha_actual ?? racha;
   const objetivo = estudio?.objetivo_diario ?? 10;
   const hechasHoy = estudio?.preguntas_hoy ?? 0;
   const fechaExamen = estudio?.fecha_examen ?? examenEstimado()?.fecha ?? null;
   const diasExamen = fechaExamen ? diasEntre(hoyMadrid(), fechaExamen) : null;
-  const temaHoy = progreso.find((t) => t.total > 0);
+  const leccion = camino ? siguienteLeccion(camino, suscrito) : null;
+  const bloqueada = camino ? siguienteBloqueado(camino, suscrito) : null;
+  const preguntas = leccion ? preguntasDeLeccion(leccion) : 10;
+  const puedeLeccion = suscrito || !cuota || cuota.tema > 0;
+  const temaRespaldo = !camino ? progreso.find((t) => t.total > 0) : null;
 
   const flojos = progreso
     .filter((t) => t.vistas >= 5 && t.dominadas / t.vistas < 0.6)
@@ -54,33 +70,44 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
         <Anillo hecho={hechasHoy} objetivo={objetivo} />
         <div>
           <h1 className="font-serif text-[2rem] leading-tight font-semibold">Tu estudio</h1>
-          <p className="text-[1.35rem] font-semibold">
-            <span aria-hidden="true">🔥 </span>
-            {rachaVisible} {rachaVisible === 1 ? "día" : "días"} de racha
-          </p>
+          <Racha dias={rachaVisible} protectores={estudio?.protectores} />
           <p className="text-[0.95rem] text-pizarra">
             Hoy {hechasHoy} de {objetivo}
+            {estudio ? ` · ${estudio.xp_total} XP` : ""}
             {diasExamen !== null && diasExamen >= 0 ? ` · ${diasExamen} días para el examen` : ""}
           </p>
         </div>
       </section>
 
       <section aria-label="Empezar" className="flex flex-col gap-3">
-        {temaHoy && (suscrito || !cuota || cuota.tema > 0) ? (
+        {temaRespaldo && puedeLeccion ? (
           <form action={crearTest}>
             <input type="hidden" name="modo" value="tema" />
-            <input type="hidden" name="tema" value={temaHoy.tema_id} />
+            <input type="hidden" name="tema" value={temaRespaldo.tema_id} />
             <input type="hidden" name="num" value="10" />
-            <Boton ancho>Continuar: Tema {temaHoy.numero} · 10 preguntas · 5 min</Boton>
+            <Boton ancho>Continuar: Tema {temaRespaldo.numero} · 10 preguntas · 5 min</Boton>
           </form>
-        ) : (
+        ) : leccion && puedeLeccion ? (
+          <form action={crearTest}>
+            <input type="hidden" name="modo" value="leccion" />
+            <input type="hidden" name="tema" value={leccion.tema_id} />
+            <input type="hidden" name="num" value={String(preguntas)} />
+            <Boton ancho>
+              Continuar: Tema {leccion.numero} · {preguntas} preguntas · {minutosDeLeccion(preguntas)} min
+            </Boton>
+          </form>
+        ) : !puedeLeccion ? (
           <EnlaceBoton href="/suscripcion?motivo=cuota" ancho>
             Has hecho las 10 de hoy · Ver Premium
           </EnlaceBoton>
-        )}
+        ) : bloqueada ? (
+          <EnlaceBoton href="/suscripcion?motivo=nivel" ancho>
+            Tema {bloqueada.numero} sigue en el nivel {bloqueada.nivel > 0 ? bloqueada.nivel : 1} · Ver Premium
+          </EnlaceBoton>
+        ) : null}
         <div className="flex flex-col gap-2 sm:flex-row">
           <form action={crearTest} className="w-full">
-            <input type="hidden" name="modo" value="falladas" />
+            <input type="hidden" name="modo" value="repaso" />
             <input type="hidden" name="num" value="10" />
             <Boton variante="secundario" ancho disabled={falladas === 0 || (!suscrito && !!cuota && cuota.repaso === 0)}>
               Repasar fallos{falladas ? ` (${falladas})` : ""}
@@ -105,8 +132,7 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
         <section className="rounded-xl border border-filete p-4">
           <h2 className="font-serif text-xl font-semibold">Plan gratis</h2>
           <p className="mt-1">
-            10 preguntas de un tema al día y el repaso de esos fallos. Premium quita el límite y abre el test
-            personalizado y los simulacros.
+            Una lección al día en los niveles 1 y 2, y el repaso de esos fallos. Premium abre el resto del camino, la predicción y los simulacros.
           </p>
           <div className="mt-4">
             <EnlaceBoton href="/suscripcion" variante="secundario">Ver planes</EnlaceBoton>
@@ -139,6 +165,16 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
               </li>
             ))}
           </ul>
+        </section>
+      )}
+
+      {camino && (
+        <section aria-labelledby="camino">
+          <h2 id="camino" className="font-serif text-xl font-semibold">Camino de temas</h2>
+          <p className="mt-1 mb-4 text-[0.95rem] text-pizarra">
+            Cinco niveles por tema. Una lección se aprueba con un 70 %. El nivel 5 es el examen del tema.
+          </p>
+          <Camino temas={camino} premium={suscrito} puedeLeccion={puedeLeccion} />
         </section>
       )}
 
