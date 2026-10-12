@@ -74,9 +74,12 @@ export function ListaCorreccion({
                   );
                 })}
               </ul>
-              <div className="mt-4">
-                <Explicacion pregunta={p} respuesta={r} titular={false} />
-              </div>
+              <details className="mt-4">
+                <summary className="min-h-11 cursor-pointer font-semibold">Explicación</summary>
+                <div className="mt-2">
+                  <Explicacion pregunta={p} respuesta={r} titular={false} />
+                </div>
+              </details>
               {puedeGuardar && <AccionesPregunta preguntaId={p.id} fallo={r !== p.correcta} />}
             </li>
           );

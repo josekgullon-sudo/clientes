@@ -249,9 +249,12 @@ export function SesionTest({
 
         <div aria-live="polite">
           {modo === "estudio" && comprobada && (
-            <div className="mt-6">
-              <Explicacion pregunta={pregunta} respuesta={elegida} />
-            </div>
+            <details className="tarjeta mt-6 p-4">
+              <summary className="cursor-pointer font-semibold">Explicación</summary>
+              <div className="mt-3">
+                <Explicacion pregunta={pregunta} respuesta={elegida} titular={false} />
+              </div>
+            </details>
           )}
         </div>
 

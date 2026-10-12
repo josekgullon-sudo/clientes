@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Boton, EnlaceBoton } from "@/components/boton";
-import { Anillo } from "@/components/estudio/anillo";
 import { Camino } from "@/components/estudio/camino";
-import { Racha } from "@/components/estudio/racha";
+import { Tablero } from "@/components/estudio/tablero";
 import { Evento } from "@/components/evento";
 import { caminoTemas, estadisticasUsuario } from "@/lib/datos/estudio";
-import { minutosDeLeccion, preguntasDeLeccion, siguienteBloqueado, siguienteLeccion } from "@/lib/estudio/camino";
+import { preguntasDeLeccion, siguienteBloqueado, siguienteLeccion } from "@/lib/estudio/camino";
 import { diasEntre, hoyMadrid } from "@/lib/seo/seleccion";
 import { examenEstimado } from "@/lib/examen";
 import { cuotaRestante, falladasPendientes, progresoPorTema, rachaActual, ultimosIntentos, usuarioActual } from "@/lib/datos/usuario";
@@ -66,18 +65,15 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
           </div>
         </section>
       )}
-      <section className="flex items-center gap-4">
-        <Anillo hecho={hechasHoy} objetivo={objetivo} />
-        <div>
-          <h1 className="font-serif text-[2rem] leading-tight font-semibold">Tu estudio</h1>
-          <Racha dias={rachaVisible} protectores={estudio?.protectores} />
-          <p className="text-[0.95rem] text-pizarra">
-            Hoy {hechasHoy} de {objetivo}
-            {estudio ? ` · ${estudio.xp_total} XP` : ""}
-            {diasExamen !== null && diasExamen >= 0 ? ` · ${diasExamen} días para el examen` : ""}
-          </p>
-        </div>
-      </section>
+      <h1 className="font-serif text-3xl font-semibold">Hoy</h1>
+      <Tablero
+        racha={rachaVisible}
+        protectores={estudio?.protectores}
+        hecho={hechasHoy}
+        objetivo={objetivo}
+        xp={estudio?.xp_total}
+        dias={diasExamen}
+      />
 
       <section aria-label="Empezar" className="flex flex-col gap-3">
         {temaRespaldo && puedeLeccion ? (
@@ -85,24 +81,22 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
             <input type="hidden" name="modo" value="tema" />
             <input type="hidden" name="tema" value={temaRespaldo.tema_id} />
             <input type="hidden" name="num" value="10" />
-            <Boton ancho>Continuar: Tema {temaRespaldo.numero} · 10 preguntas · 5 min</Boton>
+            <Boton ancho>Continuar · Tema {temaRespaldo.numero}</Boton>
           </form>
         ) : leccion && puedeLeccion ? (
           <form action={crearTest}>
             <input type="hidden" name="modo" value="leccion" />
             <input type="hidden" name="tema" value={leccion.tema_id} />
             <input type="hidden" name="num" value={String(preguntas)} />
-            <Boton ancho>
-              Continuar: Tema {leccion.numero} · {preguntas} preguntas · {minutosDeLeccion(preguntas)} min
-            </Boton>
+            <Boton ancho>Continuar · Tema {leccion.numero}</Boton>
           </form>
         ) : !puedeLeccion ? (
           <EnlaceBoton href="/suscripcion?motivo=cuota" ancho>
-            Has hecho las 10 de hoy · Ver Premium
+            Límite de hoy · Ver Premium
           </EnlaceBoton>
         ) : bloqueada ? (
           <EnlaceBoton href="/suscripcion?motivo=nivel" ancho>
-            Tema {bloqueada.numero} sigue en el nivel {bloqueada.nivel > 0 ? bloqueada.nivel : 1} · Ver Premium
+            Nivel de pago · Tema {bloqueada.numero}
           </EnlaceBoton>
         ) : null}
         <div className="flex flex-col gap-2 sm:flex-row">
@@ -110,11 +104,11 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
             <input type="hidden" name="modo" value="repaso" />
             <input type="hidden" name="num" value="10" />
             <Boton variante="secundario" ancho disabled={falladas === 0 || (!suscrito && !!cuota && cuota.repaso === 0)}>
-              Repasar fallos{falladas ? ` (${falladas})` : ""}
+              Repaso{falladas ? ` · ${falladas}` : ""}
             </Boton>
           </form>
           <EnlaceBoton href="/app/simulacro" variante="secundario" ancho>
-            Simulacro{!suscrito ? " de prueba" : ""}
+            Simulacro
           </EnlaceBoton>
           {suscrito ? (
             <EnlaceBoton href="/app/nuevo" variante="secundario" ancho>
@@ -129,15 +123,7 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
       </section>
 
       {!suscrito && (
-        <section className="rounded-xl border border-filete p-4">
-          <h2 className="font-serif text-xl font-semibold">Plan gratis</h2>
-          <p className="mt-1">
-            Una lección al día en los niveles 1 y 2, y el repaso de esos fallos. Premium abre el resto del camino, la predicción y los simulacros.
-          </p>
-          <div className="mt-4">
-            <EnlaceBoton href="/suscripcion" variante="secundario">Ver planes</EnlaceBoton>
-          </div>
-        </section>
+        <EnlaceBoton href="/suscripcion" variante="texto">Plan gratis · ver Premium</EnlaceBoton>
       )}
 
       {flojos.length > 0 && (
@@ -170,21 +156,14 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
 
       {camino && (
         <section aria-labelledby="camino">
-          <h2 id="camino" className="font-serif text-xl font-semibold">Camino de temas</h2>
-          <p className="mt-1 mb-4 text-[0.95rem] text-pizarra">
-            Cinco niveles por tema. Una lección se aprueba con un 70 %. El nivel 5 es el examen del tema.
-          </p>
+          <h2 id="camino" className="mb-6 text-center font-serif text-2xl font-semibold">Camino</h2>
           <Camino temas={camino} premium={suscrito} puedeLeccion={puedeLeccion} />
         </section>
       )}
 
-      <section aria-labelledby="progreso">
-        <h2 id="progreso" className="font-serif text-xl font-semibold">
-          Progreso por tema
-        </h2>
-        <p className="mt-1 text-[0.95rem] text-pizarra">
-          Dominadas: preguntas que acertaste la última vez que te salieron.
-        </p>
+      <details className="tarjeta p-4">
+        <summary className="cursor-pointer font-semibold">Progreso por tema</summary>
+        <div className="mt-2">
         {bloques.map((b) => (
           <div key={b} className="mt-4">
             <h3 className="text-[0.95rem] font-semibold text-pizarra">Bloque {b}</h3>
@@ -218,7 +197,8 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
             </ul>
           </div>
         ))}
-      </section>
+        </div>
+      </details>
 
       {intentos.length > 0 && (
         <section aria-labelledby="ultimos">

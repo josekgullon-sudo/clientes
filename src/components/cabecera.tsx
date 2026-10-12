@@ -4,7 +4,7 @@ import { InterruptorTema } from "./interruptor-tema";
 
 export function Cabecera({ derecha }: { derecha?: React.ReactNode }) {
   return (
-    <header className="border-b border-filete">
+    <header className="sticky top-0 z-20 border-b border-filete bg-papel/90 backdrop-blur">
       <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4">
         <Link href="/" className="font-serif text-[1.125rem] font-semibold tracking-tight whitespace-nowrap sm:text-xl" aria-label={SITIO.nombre}>
           Oposiciones <span className="subrayado">Claras</span>

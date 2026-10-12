@@ -104,9 +104,18 @@ body {
   background: var(--papel);
   color: var(--tinta);
   font-family: var(--font-sans);
-  font-size: 1.0625rem; /* 17 px */
-  line-height: 1.55;
+  font-size: 1rem;
+  line-height: 1.5;
   font-variant-numeric: tabular-nums;
+}
+
+.bloque {
+  padding-block: 4.5rem;
+}
+@media (min-width: 768px) {
+  .bloque {
+    padding-block: 6.5rem;
+  }
 }
 
 /* Foco visible con teclado, en ambos modos. */
@@ -178,6 +187,62 @@ body {
   vertical-align: top;
   padding: 0.5rem 0.5rem 0.5rem 0;
   border-bottom: 1px solid var(--filete);
+}
+
+.sendero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.35rem;
+  max-width: 28rem;
+  margin-inline: auto;
+}
+.sendero-nodo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nodo-circulo {
+  display: grid;
+  place-items: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 999px;
+  border: 3px solid var(--filete);
+  background: var(--papel);
+  font-weight: 700;
+  box-shadow: var(--sombra);
+}
+.nodo-actual {
+  width: 5.25rem;
+  height: 5.25rem;
+  border-color: var(--pino-boton);
+  background: var(--pino-boton);
+  color: var(--sobre-pino);
+}
+.nodo-corona {
+  border-color: var(--subrayador);
+  background: var(--subrayador);
+  color: var(--subrayador-texto);
+}
+.nodo-vacio {
+  border-style: dashed;
+  color: var(--pizarra);
+  box-shadow: none;
+}
+.nodo-cerrado {
+  background: var(--papel-hundido);
+  color: var(--pizarra);
+}
+
+.opcion-ok {
+  animation: pulso 0.35s ease;
+}
+.opcion-mal {
+  animation: pulso 0.22s ease;
+}
+@keyframes pulso {
+  50% { transform: scale(1.02); }
 }
 
 .camino {

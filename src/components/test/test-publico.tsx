@@ -34,7 +34,7 @@ export function TestPublico({
         modo="estudio"
         salirA={salirA}
         avisoEn={Math.min(5, preguntas.length)}
-        aviso="Cuando acabes, puedes guardar los fallos y repasarlos mañana."
+        aviso="Al acabar puedes guardar los fallos."
         alTerminarLocal={(r) => {
           const resultado = calcularResultado(preguntas, r, PENALIZACION);
           const guardado: DemoGuardada = {
@@ -74,12 +74,10 @@ export function TestPublico({
         temas={temasAMejorar(preguntas, respuestas)}
         acciones={
           <>
-            <div className="mb-4 rounded-xl border border-filete bg-papel-hundido p-4">
-              <p className="font-serif text-[1.125rem] font-semibold">{textoFallos} y repásalos mañana</p>
-              <p className="mt-1">
-                Nota estimada: {resultado.nota.toLocaleString("es-ES", { maximumFractionDigits: 2 })} sobre 10, con la
-                penalización de un tercio del examen. Si creas la cuenta, importamos estas respuestas y la racha puede
-                empezar hoy. El plan gratis son 10 preguntas al día.
+            <div className="tarjeta mb-4 p-4">
+              <p className="font-semibold">{textoFallos}</p>
+              <p className="mt-1 text-sm text-pizarra">
+                Nota {resultado.nota.toLocaleString("es-ES", { maximumFractionDigits: 2 })}/10. Se importan al crear la cuenta.
               </p>
             </div>
             <EnlaceBoton href={`/entrar?registro=1&siguiente=${encodeURIComponent("/app")}`} ancho>

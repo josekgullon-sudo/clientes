@@ -53,7 +53,7 @@ export function Opcion({
   const marca = marcas[estado];
   return (
     <label
-      className={`flex min-h-14 cursor-pointer items-start gap-3 rounded-md border px-3 py-3 transition-colors has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-tinta ${e.caja} ${bloqueada ? "cursor-default" : ""}`}
+      className={`flex min-h-16 cursor-pointer items-center gap-3 rounded-2xl border px-4 py-4 text-lg transition has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-tinta ${e.caja} ${bloqueada ? "cursor-default" : ""} ${estado === "correcta" ? "opcion-ok" : ""} ${estado === "fallada" ? "opcion-mal" : ""}`}
     >
       <input
         type="radio"

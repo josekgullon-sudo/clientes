@@ -2,10 +2,9 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { Boton, EnlaceBoton } from "@/components/boton";
-import { Anillo } from "@/components/estudio/anillo";
-import { Racha } from "@/components/estudio/racha";
+import { Tablero } from "@/components/estudio/tablero";
 import { caminoTemas, estadisticasUsuario } from "@/lib/datos/estudio";
-import { minutosDeLeccion, preguntasDeLeccion, siguienteLeccion } from "@/lib/estudio/camino";
+import { preguntasDeLeccion, siguienteLeccion } from "@/lib/estudio/camino";
 import { examenEstimado } from "@/lib/examen";
 import { diasEntre, hoyMadrid, sumarDias } from "@/lib/seo/seleccion";
 import { crearTest } from "../../acciones";
@@ -58,14 +57,15 @@ export default async function Estadisticas() {
 
   return (
     <div className="flex flex-col gap-10">
-      <section className="flex items-center gap-4">
-        <Anillo hecho={est.preguntas_hoy} objetivo={est.objetivo_diario} />
-        <div>
-          <h1 className="font-serif text-[2rem] leading-tight font-semibold">Tu progreso</h1>
-          <Racha dias={est.racha_actual} protectores={est.protectores} />
-          <p className="text-[0.95rem] text-pizarra">Mejor racha: {est.racha_maxima}. Objetivo: {est.objetivo_diario} al día.</p>
-        </div>
-      </section>
+      <h1 className="font-serif text-3xl font-semibold">Progreso</h1>
+      <Tablero
+        racha={est.racha_actual}
+        protectores={est.protectores}
+        hecho={est.preguntas_hoy}
+        objetivo={est.objetivo_diario}
+        xp={est.xp_total}
+        dias={dias}
+      />
 
       {siguiente && (
         <form action={crearTest}>
@@ -73,7 +73,7 @@ export default async function Estadisticas() {
           <input type="hidden" name="tema" value={siguiente.tema_id} />
           <input type="hidden" name="num" value={String(siguiente.preguntas)} />
           <Boton ancho>
-            Continuar: Tema {siguiente.numero} · {siguiente.preguntas} preguntas · {minutosDeLeccion(siguiente.preguntas)} min
+            Continuar · Tema {siguiente.numero}
           </Boton>
         </form>
       )}

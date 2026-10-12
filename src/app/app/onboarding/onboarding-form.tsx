@@ -23,8 +23,8 @@ export function OnboardingForm({ temaId, temaNombre }: { temaId: string | null; 
             setPaso(2);
           }}
         >
-          <h1 className="font-serif text-[2rem] leading-tight font-semibold">¿Cuándo es tu examen?</h1>
-          <p>Si aún no hay fecha oficial, puedes dejar la estimada o decir que no lo sabes. Luego se puede cambiar.</p>
+          <h1 className="font-serif text-3xl font-semibold">¿Cuándo es el examen?</h1>
+          <p className="text-pizarra">Puedes cambiarla después.</p>
           <label className="font-semibold" htmlFor="fecha">Fecha</label>
           <input
             id="fecha"
