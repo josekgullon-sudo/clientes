@@ -14,7 +14,8 @@
     "typecheck": "tsc --noEmit",
     "capturas": "tsx scripts/capturas.ts",
     "test": "vitest run",
-    "local:suscribir": "tsx scripts/suscribir-local.ts"
+    "local:suscribir": "tsx scripts/suscribir-local.ts",
+    "recorrido": "tsx scripts/recorrido.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

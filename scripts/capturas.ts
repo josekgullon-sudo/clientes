@@ -27,11 +27,11 @@ const flujos: Record<string, (p: Page, foto: (n: string) => Promise<void>) => Pr
         await fin.click();
         break;
       }
-      await p.getByRole("button", { name: /Siguiente/ }).click();
+      await p.getByRole("button", { name: /Siguiente|Continuar/ }).click();
       await p.locator("label").nth(i % 4).click();
       await p.getByRole("button", { name: /Comprobar/ }).click();
     }
-    await p.getByRole("heading", { name: /aciertos/ }).waitFor();
+    await p.getByRole("heading", { name: /acierto/ }).waitFor();
     await foto("resumen");
   },
 };
