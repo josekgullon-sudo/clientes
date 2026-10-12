@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Boton, EnlaceBoton } from "@/components/boton";
+import { estadisticasUsuario } from "@/lib/datos/estudio";
 import { usuarioActual } from "@/lib/datos/usuario";
+import { guardarAjustes } from "../../ajustes";
 
 export const metadata: Metadata = { title: "Tu cuenta" };
 
@@ -13,8 +15,10 @@ const estados: Record<string, string> = {
   unpaid: "Sin pagar",
 };
 
-export default async function Cuenta() {
+export default async function Cuenta({ searchParams }: PageProps<"/app/cuenta">) {
+  const q = await searchParams;
   const { user, suscrito, suscripcion } = await usuarioActual();
+  const estudio = await estadisticasUsuario();
   return (
     <div className="max-w-lectura">
       <h1 className="font-serif text-[2rem] leading-tight font-semibold">Tu cuenta</h1>
@@ -37,6 +41,40 @@ export default async function Cuenta() {
           </dd>
         </div>
       </dl>
+
+      {estudio && (
+        <form action={guardarAjustes} className="mt-8 flex flex-col gap-4">
+          <input type="hidden" name="volver" value="/app/cuenta" />
+          <h2 className="font-serif text-xl font-semibold">Cómo estudias</h2>
+          {q.error === "ajustes" && (
+            <p role="alert" className="rounded-md border border-teja bg-teja-suave p-3">No hemos podido guardar los cambios.</p>
+          )}
+          <fieldset>
+            <legend className="font-semibold">Objetivo diario</legend>
+            <div className="mt-2 grid grid-cols-4 gap-2">
+              {[5, 10, 20, 30].map((n) => (
+                <label key={n} className="flex min-h-12 cursor-pointer items-center justify-center rounded-md border border-filete has-checked:border-tinta has-checked:bg-tinta has-checked:text-papel">
+                  <input type="radio" name="objetivo" value={n} defaultChecked={estudio.objetivo_diario === n} className="sr-only" />
+                  {n}
+                </label>
+              ))}
+            </div>
+          </fieldset>
+          <label className="font-semibold" htmlFor="fecha">Fecha del examen</label>
+          <input
+            id="fecha"
+            name="fecha"
+            type="date"
+            defaultValue={estudio.fecha_examen ?? ""}
+            className="min-h-14 rounded-md border border-pizarra/70 bg-papel px-4"
+          />
+          <label className="flex min-h-11 items-center gap-3">
+            <input type="checkbox" name="recordatorio" value="1" defaultChecked={estudio.recordatorio_email} className="size-5" />
+            Recordatorio por correo si un día no estudias
+          </label>
+          <Boton type="submit">Guardar</Boton>
+        </form>
+      )}
 
       <div className="mt-8 flex flex-col gap-2">
         {suscripcion?.stripe_customer_id ? (

@@ -20,6 +20,13 @@ export function semanaISO(fecha = new Date()): string {
   return `${utc.getUTCFullYear()}-W${String(semana).padStart(2, "0")}`;
 }
 
+export function sumarDias(iso: string, dias: number): string {
+  const [y, m, d] = iso.split("-").map(Number);
+  const fecha = new Date(Date.UTC(y, m - 1, d));
+  fecha.setUTCDate(fecha.getUTCDate() + dias);
+  return fecha.toISOString().slice(0, 10);
+}
+
 export function diasEntre(desdeISO: string, hastaISO: string): number {
   const a = Date.parse(`${desdeISO}T00:00:00Z`);
   const b = Date.parse(`${hastaISO}T00:00:00Z`);

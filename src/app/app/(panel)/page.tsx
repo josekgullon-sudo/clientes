@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Boton, EnlaceBoton } from "@/components/boton";
-import { cuotaRestante, falladasPendientes, progresoPorTema, rachaActual, ultimosIntentos, usuarioActual } from "@/lib/datos/usuario";
+import { Anillo } from "@/components/estudio/anillo";
 import { Evento } from "@/components/evento";
+import { estadisticasUsuario } from "@/lib/datos/estudio";
+import { diasEntre, hoyMadrid } from "@/lib/seo/seleccion";
+import { examenEstimado } from "@/lib/examen";
+import { cuotaRestante, falladasPendientes, progresoPorTema, rachaActual, ultimosIntentos, usuarioActual } from "@/lib/datos/usuario";
 import { crearTest } from "../acciones";
 
 export const metadata: Metadata = { title: "Tu panel" };
@@ -13,13 +17,19 @@ const fecha = new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "short",
 export default async function Panel({ searchParams }: PageProps<"/app">) {
   const q = await searchParams;
   const { suscrito } = await usuarioActual();
-  const [progreso, racha, intentos, falladas, cuota] = await Promise.all([
+  const [progreso, racha, intentos, falladas, cuota, estudio] = await Promise.all([
     progresoPorTema(),
     rachaActual(),
     ultimosIntentos(),
     falladasPendientes(),
     cuotaRestante(),
+    estadisticasUsuario(),
   ]);
+  const rachaVisible = estudio?.racha_actual ?? racha;
+  const objetivo = estudio?.objetivo_diario ?? 10;
+  const hechasHoy = estudio?.preguntas_hoy ?? 0;
+  const fechaExamen = estudio?.fecha_examen ?? examenEstimado()?.fecha ?? null;
+  const diasExamen = fechaExamen ? diasEntre(hoyMadrid(), fechaExamen) : null;
   const temaHoy = progreso.find((t) => t.total > 0);
 
   const flojos = progreso
@@ -31,19 +41,28 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
   return (
     <div className="flex flex-col gap-10">
       {q.suscripcion === "ok" && <Evento nombre="purchase" />}
-      <section>
-        <h1 className="font-serif text-[2rem] leading-tight font-semibold">Tu estudio</h1>
-        <p className="mt-2 font-serif text-[1.125rem]">
-          {racha > 1 ? (
-            <>
-              Llevas <span className="subrayado font-semibold">{racha} días seguidos</span> estudiando.
-            </>
-          ) : racha === 1 ? (
-            "Hoy ya has estudiado. Mañana sumas otro día."
-          ) : (
-            "Un test al día hace más que una tarde entera de vez en cuando."
-          )}
-        </p>
+      {q.suscripcion === "ok" && (
+        <section className="rounded-xl border border-pino bg-pino-suave p-4">
+          <h2 className="font-serif text-xl font-semibold">Ya eres Premium</h2>
+          <p className="mt-1">El límite diario ya no aplica. Un buen siguiente paso es el simulacro.</p>
+          <div className="mt-3">
+            <EnlaceBoton href="/app/simulacro">Hacer un simulacro</EnlaceBoton>
+          </div>
+        </section>
+      )}
+      <section className="flex items-center gap-4">
+        <Anillo hecho={hechasHoy} objetivo={objetivo} />
+        <div>
+          <h1 className="font-serif text-[2rem] leading-tight font-semibold">Tu estudio</h1>
+          <p className="text-[1.35rem] font-semibold">
+            <span aria-hidden="true">🔥 </span>
+            {rachaVisible} {rachaVisible === 1 ? "día" : "días"} de racha
+          </p>
+          <p className="text-[0.95rem] text-pizarra">
+            Hoy {hechasHoy} de {objetivo}
+            {diasExamen !== null && diasExamen >= 0 ? ` · ${diasExamen} días para el examen` : ""}
+          </p>
+        </div>
       </section>
 
       <section aria-label="Empezar" className="flex flex-col gap-3">
@@ -52,7 +71,7 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
             <input type="hidden" name="modo" value="tema" />
             <input type="hidden" name="tema" value={temaHoy.tema_id} />
             <input type="hidden" name="num" value="10" />
-            <Boton ancho>Continuar: Tema {temaHoy.numero} · 10 preguntas</Boton>
+            <Boton ancho>Continuar: Tema {temaHoy.numero} · 10 preguntas · 5 min</Boton>
           </form>
         ) : (
           <EnlaceBoton href="/suscripcion?motivo=cuota" ancho>
