@@ -38,19 +38,13 @@ export default async function PaginaTest({ params }: PageProps<"/app/test/[id]">
   }
 
   const mapa = new Map(Object.entries(respuestas));
-  const estados = preguntas.map((p) => {
-    const r = respuestas[p.id] ?? null;
-    return r === null ? ("pendiente" as const) : r === p.correcta ? ("acierto" as const) : ("fallo" as const);
-  });
 
   return (
     <>
-      <Cabecera />
+      <Cabecera inicio="/app" derecha={null} />
       <main className="flex-1">
-        <div className="mx-auto w-full max-w-lectura px-4 pt-6">
-          <Celebracion meta={intento.meta as MetaSesion | null} />
-        </div>
         <Resumen
+          antes={<Celebracion meta={intento.meta as MetaSesion | null} />}
           resultado={{
             total: intento.preguntas.length,
             aciertos: intento.aciertos ?? 0,
@@ -59,16 +53,17 @@ export default async function PaginaTest({ params }: PageProps<"/app/test/[id]">
             nota: Number(intento.puntuacion ?? 0),
           }}
           penalizacion={examen ? Number(intento.penalizacion) : 0}
-          estados={estados}
           temas={temasAMejorar(preguntas, mapa)}
           acciones={
             <>
               <EnlaceBoton href="/app" ancho>
-                Seguir el camino
+                Seguir
               </EnlaceBoton>
-              <EnlaceBoton href="/app" variante="secundario" ancho>
-                Volver al panel
-              </EnlaceBoton>
+              {(intento.fallos ?? 0) > 0 && (
+                <EnlaceBoton href="#titulo-correccion" variante="secundario" ancho>
+                  Ver mis fallos
+                </EnlaceBoton>
+              )}
             </>
           }
         />

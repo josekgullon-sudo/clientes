@@ -57,46 +57,43 @@ export function TestPublico({
   }
 
   const resultado = calcularResultado(preguntas, respuestas, PENALIZACION);
-  const estados = preguntas.map((p) => {
-    const r = respuestas.get(p.id) ?? null;
-    return r === null ? ("pendiente" as const) : r === p.correcta ? ("acierto" as const) : ("fallo" as const);
-  });
   const nFallos = resultado.fallos;
   const textoFallos =
-    nFallos === 0 ? "Guarda este resultado" : nFallos === 1 ? "Guarda tu fallo" : `Guarda tus ${nFallos} fallos`;
+    nFallos === 0 ? "Guarda tu resultado" : nFallos === 1 ? "Guarda tu fallo para repasarlo" : `Guarda tus ${nFallos} fallos para repasarlos`;
 
   return (
-    <main className="flex-1">
+    <main className="flex-1 bg-papel">
       <Resumen
         resultado={resultado}
         penalizacion={PENALIZACION}
-        estados={estados}
         temas={temasAMejorar(preguntas, respuestas)}
         acciones={
           <>
-            <div className="tarjeta mb-4 p-4">
-              <p className="font-semibold">{textoFallos}</p>
-              <p className="mt-1 text-sm text-pizarra">
-                Nota {resultado.nota.toLocaleString("es-ES", { maximumFractionDigits: 2 })}/10. Se importan al crear la cuenta.
-              </p>
+            <div className="tarjeta border-pino/40 p-5">
+              <p className="font-serif text-xl font-semibold">{textoFallos}</p>
+              <ul className="mt-2 flex flex-col gap-1 text-[0.95rem] text-pizarra">
+                <li>· 10 preguntas al día gratis, con tu racha.</li>
+                <li>· Los fallos de este test pasan a tu repaso.</li>
+                <li>· Sin tarjeta. En 30 segundos.</li>
+              </ul>
+              <EnlaceBoton href={`/entrar?registro=1&siguiente=${encodeURIComponent("/app")}`} ancho className="mt-4">
+                Crear cuenta gratis
+              </EnlaceBoton>
             </div>
-            <EnlaceBoton href={`/entrar?registro=1&siguiente=${encodeURIComponent("/app")}`} ancho>
-              {textoFallos}
-            </EnlaceBoton>
             {siguiente && (
               <EnlaceBoton href={siguiente.href} variante="secundario" ancho>
-                Otro test de 10 · {siguiente.texto}
+                Otro test · {siguiente.texto}
               </EnlaceBoton>
             )}
             <Boton
-              variante="secundario"
+              variante="texto"
               ancho
               onClick={() => {
                 setRespuestas(null);
                 setRonda((n) => n + 1);
               }}
             >
-              Repetir el test
+              Repetir este test
             </Boton>
           </>
         }

@@ -1,33 +1,34 @@
+import { Check, X } from "lucide-react";
 import { LETRAS } from "@/lib/test/tipos";
 
 export type EstadoOpcion = "libre" | "elegida" | "correcta" | "fallada" | "neutra";
 
 const estilos: Record<EstadoOpcion, { caja: string; letra: string }> = {
   libre: {
-    caja: "border-filete bg-papel hover:bg-papel-hundido",
-    letra: "border-pizarra/60 text-pizarra",
+    caja: "border-filete bg-superficie shadow-tarjeta hover:border-pino/45 hover:bg-pino-suave/40",
+    letra: "border-filete bg-papel text-pizarra",
   },
   elegida: {
-    caja: "border-tinta bg-papel-hundido ring-1 ring-tinta",
-    letra: "border-tinta bg-tinta text-papel",
+    caja: "border-pino bg-pino-suave/60 shadow-tarjeta",
+    letra: "border-pino bg-pino-boton text-sobre-pino",
   },
   correcta: {
-    caja: "border-pino bg-pino-suave ring-1 ring-pino",
-    letra: "border-pino bg-pino text-papel",
+    caja: "border-pino bg-pino-suave",
+    letra: "border-pino bg-pino-boton text-sobre-pino",
   },
   fallada: {
     caja: "border-teja bg-teja-suave",
-    letra: "border-teja bg-teja text-papel",
+    letra: "border-teja bg-teja text-superficie",
   },
   neutra: {
-    caja: "border-filete bg-papel",
-    letra: "border-filete text-pizarra",
+    caja: "border-filete bg-superficie opacity-70",
+    letra: "border-filete bg-papel text-pizarra",
   },
 };
 
-const marcas: Partial<Record<EstadoOpcion, { icono: string; texto: string }>> = {
-  correcta: { icono: "✓", texto: "Respuesta correcta" },
-  fallada: { icono: "✕", texto: "Tu respuesta" },
+const marcas: Partial<Record<EstadoOpcion, string>> = {
+  correcta: "Respuesta correcta",
+  fallada: "Tu respuesta",
 };
 
 /** Opción de respuesta como bloque grande. Es un radio real para que funcione con teclado y lector. */
@@ -53,7 +54,7 @@ export function Opcion({
   const marca = marcas[estado];
   return (
     <label
-      className={`flex min-h-16 cursor-pointer items-center gap-3 rounded-2xl border px-4 py-4 text-lg transition has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-tinta ${e.caja} ${bloqueada ? "cursor-default" : ""} ${estado === "correcta" ? "opcion-ok" : ""} ${estado === "fallada" ? "opcion-mal" : ""}`}
+      className={`flex min-h-16 cursor-pointer items-center gap-3.5 rounded-2xl border-2 px-4 py-3.5 transition duration-150 has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-tinta ${e.caja} ${bloqueada ? "cursor-default" : "active:scale-[0.99]"} ${estado === "correcta" ? "opcion-ok" : ""} ${estado === "fallada" ? "opcion-mal" : ""}`}
     >
       <input
         type="radio"
@@ -66,17 +67,18 @@ export function Opcion({
       />
       <span
         aria-hidden="true"
-        className={`mt-px flex size-7 shrink-0 items-center justify-center rounded-full border text-[0.9rem] font-bold ${e.letra}`}
+        className={`flex size-8 shrink-0 items-center justify-center rounded-xl border-2 text-sm font-extrabold transition ${e.letra}`}
       >
-        {LETRAS[indice]}
+        {estado === "correcta" ? (
+          <Check size={17} strokeWidth={3} />
+        ) : estado === "fallada" ? (
+          <X size={17} strokeWidth={3} />
+        ) : (
+          LETRAS[indice]
+        )}
       </span>
-      <span className="flex-1 pt-0.5 text-[1.0625rem] leading-snug">{texto}</span>
-      {marca && (
-        <span className="pt-0.5 text-lg font-bold" aria-hidden="true">
-          {marca.icono}
-        </span>
-      )}
-      {marca && <span className="sr-only">. {marca.texto}</span>}
+      <span className="flex-1 text-[1.0625rem] leading-snug font-medium">{texto}</span>
+      {marca && <span className="sr-only">. {marca}</span>}
     </label>
   );
 }

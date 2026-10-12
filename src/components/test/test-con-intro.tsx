@@ -1,5 +1,6 @@
 "use client";
 
+import { ArrowRight } from "lucide-react";
 import { useState, type ReactNode } from "react";
 import { Boton } from "@/components/boton";
 import type { PreguntaTest } from "@/lib/test/tipos";
@@ -25,7 +26,7 @@ export function TestConIntro({
   return (
     <>
       {children}
-      <div className="fixed inset-x-0 bottom-0 border-t border-filete bg-papel pb-[env(safe-area-inset-bottom)]">
+      <div className="fixed inset-x-0 bottom-0 z-30 border-t border-filete bg-superficie/90 pb-[env(safe-area-inset-bottom)] backdrop-blur-md">
         <div className="mx-auto max-w-lectura px-4 py-3">
           <Boton
             ancho
@@ -35,7 +36,7 @@ export function TestConIntro({
               window.scrollTo({ top: 0 });
             }}
           >
-            Empezar test de {preguntas.length} preguntas
+            Empezar test de {preguntas.length} preguntas <ArrowRight aria-hidden size={20} />
           </Boton>
         </div>
       </div>

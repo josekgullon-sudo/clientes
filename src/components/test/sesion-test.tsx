@@ -2,9 +2,10 @@
 
 import { useCallback, useEffect, useRef, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
+import { ArrowLeft, ArrowRight, Check, Timer, X } from "lucide-react";
 import { Boton } from "@/components/boton";
-import { ReglaProgreso } from "@/components/regla-progreso";
 import {
+  LETRAS,
   type ModoSesion,
   type PreguntaTest,
   type Respuesta,
@@ -118,10 +119,17 @@ export function SesionTest({
     }
   }
 
+  const explicacion = useRef<HTMLDivElement>(null);
+
   function accionPrincipal() {
     if (modo === "estudio" && !comprobada) {
       if (elegida === undefined || elegida === null) return;
       setComprobadas((s) => new Set(s).add(pregunta.id));
+      // La explicación aparece bajo las opciones: la acercamos sin perder el enunciado de vista.
+      const suave = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      requestAnimationFrame(() =>
+        explicacion.current?.scrollIntoView({ behavior: suave ? "smooth" : "auto", block: "nearest" }),
+      );
       return;
     }
     siguiente();
@@ -155,12 +163,11 @@ export function SesionTest({
     return i === elegida ? "elegida" : "libre";
   }
 
-  const estadosRegla = preguntas.map((p) => {
-    if (modo === "estudio" && comprobadas.has(p.id)) {
-      return elegidas.get(p.id) === p.correcta ? ("acierto" as const) : ("fallo" as const);
-    }
-    return (elegidas.get(p.id) ?? null) !== null ? ("respondida" as const) : ("pendiente" as const);
-  });
+  const respondidas = preguntas.filter((p) =>
+    modo === "estudio" ? comprobadas.has(p.id) : (elegidas.get(p.id) ?? null) !== null,
+  ).length;
+  const avance = Math.round(((modo === "estudio" ? respondidas : indice + (elegida != null ? 1 : 0)) / preguntas.length) * 100);
+  const acierto = comprobada && elegida === pregunta.correcta;
 
   const textoPrincipal =
     modo === "estudio" && !comprobada
@@ -169,59 +176,74 @@ export function SesionTest({
         ? modo === "examen"
           ? "Terminar"
           : "Ver resultado"
-        : "Siguiente";
+        : modo === "estudio"
+          ? "Continuar"
+          : "Siguiente";
   const principalDesactivado =
     enviando || (modo === "estudio" && !comprobada && (elegida === undefined || elegida === null));
+  const tonoPie =
+    modo === "estudio" && comprobada ? (acierto ? "bg-pino-suave border-pino/30" : "bg-teja-suave border-teja/30") : "bg-superficie border-filete";
 
   return (
     <div className="flex min-h-dvh flex-col">
-      <header className="sticky top-0 z-10 border-b border-filete bg-papel">
-        <div className="mx-auto flex h-12 max-w-lectura items-center justify-between px-2">
+      <header className="sticky top-0 z-10 bg-papel/90 backdrop-blur-md">
+        <div className="mx-auto flex h-16 max-w-lectura items-center gap-3 px-3">
           <button
             type="button"
             onClick={() => dialogoSalir.current?.showModal()}
-            className="inline-flex size-11 items-center justify-center text-2xl text-pizarra hover:text-tinta"
+            className="inline-flex size-11 shrink-0 items-center justify-center rounded-xl text-pizarra transition hover:bg-papel-hundido hover:text-tinta"
             aria-label="Salir del test"
           >
-            ×
+            <X aria-hidden size={24} strokeWidth={2.4} />
           </button>
-          <p className="text-[0.95rem] font-semibold" aria-live="polite">
-            {indice + 1} de {preguntas.length}
-          </p>
-          <div className="flex w-16 justify-end pr-2">
-            {modo === "examen" && minutos ? (
-              <Cronometro minutos={minutos} inicio={inicio} alAcabar={terminar} />
-            ) : null}
+          <div
+            className="h-3 flex-1 overflow-hidden rounded-full bg-papel-hundido"
+            role="progressbar"
+            aria-label={`Pregunta ${indice + 1} de ${preguntas.length}`}
+            aria-valuemin={0}
+            aria-valuemax={preguntas.length}
+            aria-valuenow={indice + 1}
+          >
+            <div
+              className="h-full rounded-full bg-pino transition-[width] duration-500 ease-out"
+              style={{ width: `${Math.max(avance, 3)}%` }}
+            />
           </div>
-        </div>
-        <div className="mx-auto max-w-lectura px-4 pb-2">
-          <ReglaProgreso total={preguntas.length} actual={indice} estados={estadosRegla} />
+          {modo === "examen" && minutos ? (
+            <Cronometro minutos={minutos} inicio={inicio} alAcabar={terminar} />
+          ) : (
+            <p className="cifras min-w-12 text-right text-sm font-bold text-pizarra" aria-hidden="true">
+              {indice + 1}/{preguntas.length}
+            </p>
+          )}
         </div>
       </header>
 
-      <main className="mx-auto w-full max-w-lectura flex-1 px-4 pt-5 pb-36">
-        {(pregunta.tema || pregunta.ley) && (
-          <p className="mb-2 text-[0.9rem] text-pizarra">
-            {[pregunta.tema && `Tema ${pregunta.tema.numero}`, pregunta.ley].filter(Boolean).join(" · ")}
-          </p>
-        )}
+      <main className="mx-auto w-full max-w-lectura flex-1 px-4 pt-3 pb-44">
+        <p className="flex flex-wrap items-center gap-2 text-sm font-semibold text-pizarra">
+          {modo === "examen" && <span className="cifras">Pregunta {indice + 1} de {preguntas.length}</span>}
+          {pregunta.tema && (
+            <span className="rounded-full bg-papel-hundido px-2.5 py-1">Tema {pregunta.tema.numero}</span>
+          )}
+          {pregunta.ley && <span className="rounded-full bg-papel-hundido px-2.5 py-1">{pregunta.ley}</span>}
+        </p>
         <h1
           ref={titulo}
           tabIndex={-1}
           id={`enunciado-${pregunta.id}`}
-          className="font-serif text-[1.125rem] leading-relaxed font-medium focus:outline-none focus-visible:shadow-none focus-visible:outline-none"
+          className="mt-4 font-serif text-[1.25rem] leading-[1.5] font-medium focus:outline-none focus-visible:shadow-none focus-visible:outline-none"
         >
           {pregunta.enunciado}
         </h1>
 
         {aviso && avisoEn === indice + 1 && !comprobada && (
-          <p className="mt-4 rounded-md border border-filete bg-papel-hundido px-3 py-2 text-[0.95rem] text-pizarra" role="status">
+          <p className="mt-4 rounded-xl bg-oro-suave px-3 py-2 text-[0.95rem] text-oro-texto" role="status">
             {aviso}
           </p>
         )}
 
-        <fieldset className="mt-5" aria-labelledby={`enunciado-${pregunta.id}`}>
-          <div className="flex flex-col gap-2.5">
+        <fieldset className="mt-6" aria-labelledby={`enunciado-${pregunta.id}`}>
+          <div className="flex flex-col gap-3">
             {pregunta.opciones.map((texto, i) => (
               <Opcion
                 key={`${pregunta.id}-${i}`}
@@ -241,66 +263,76 @@ export function SesionTest({
           <button
             type="button"
             onClick={borrar}
-            className="mt-3 inline-flex min-h-11 items-center px-1 text-[0.95rem] text-pizarra underline underline-offset-4 hover:text-tinta"
+            className="mt-3 inline-flex min-h-11 items-center px-1 text-[0.95rem] font-semibold text-pizarra underline underline-offset-4 hover:text-tinta"
           >
             Dejar en blanco
           </button>
         )}
 
-        <div aria-live="polite">
+        <div aria-live="polite" ref={explicacion} className="scroll-mb-48">
           {modo === "estudio" && comprobada && (
-            <details className="tarjeta mt-6 p-4">
-              <summary className="cursor-pointer font-semibold">Explicación</summary>
-              <div className="mt-3">
-                <Explicacion pregunta={pregunta} respuesta={elegida} titular={false} />
-              </div>
-            </details>
+            <div className="aparecer mt-6">
+              <Explicacion pregunta={pregunta} respuesta={elegida} titular={false} />
+            </div>
           )}
         </div>
 
         {error && (
-          <p role="alert" className="mt-6 rounded-md border border-teja bg-teja-suave p-3">
+          <p role="alert" className="mt-6 rounded-xl border border-teja bg-teja-suave p-3">
             {error}
           </p>
         )}
       </main>
 
-      <footer className="fixed inset-x-0 bottom-0 border-t border-filete bg-papel pb-[env(safe-area-inset-bottom)]">
-        <div className="mx-auto flex max-w-lectura gap-2 px-4 py-3">
-          {modo === "examen" && indice > 0 && (
-            <Boton variante="secundario" onClick={() => setIndice((i) => i - 1)} aria-label="Pregunta anterior">
-              ←
-            </Boton>
+      <footer className={`fixed inset-x-0 bottom-0 z-10 border-t pb-[env(safe-area-inset-bottom)] transition-colors ${tonoPie}`}>
+        <div className="mx-auto max-w-lectura px-4 pt-3 pb-4">
+          {modo === "estudio" && comprobada && (
+            <p className={`hoja mb-3 flex items-center gap-2.5 text-lg font-extrabold ${acierto ? "text-pino" : "text-teja"}`} role="status">
+              <span
+                className={`grid size-8 place-items-center rounded-full ${acierto ? "bg-pino text-superficie" : "bg-teja text-superficie"}`}
+                aria-hidden="true"
+              >
+                {acierto ? <Check size={18} strokeWidth={3} /> : <X size={18} strokeWidth={3} />}
+              </span>
+              {acierto ? "¡Correcto!" : `La correcta es la ${LETRAS[pregunta.correcta]}`}
+            </p>
           )}
-          <Boton ancho onClick={accionPrincipal} disabled={principalDesactivado}>
-            <span>{enviando ? "Corrigiendo…" : textoPrincipal}</span>
-            <span aria-hidden="true">→</span>
-          </Boton>
+          <div className="flex gap-2">
+            {modo === "examen" && indice > 0 && (
+              <Boton variante="secundario" onClick={() => setIndice((i) => i - 1)} aria-label="Pregunta anterior" className="px-4">
+                <ArrowLeft aria-hidden size={20} />
+              </Boton>
+            )}
+            <Boton ancho onClick={accionPrincipal} disabled={principalDesactivado}>
+              {enviando ? "Corrigiendo…" : textoPrincipal}
+              {!enviando && textoPrincipal !== "Comprobar" && <ArrowRight aria-hidden size={20} />}
+            </Boton>
+          </div>
         </div>
       </footer>
 
       <dialog
         ref={dialogoSalir}
-        className="m-auto w-[min(92vw,26rem)] rounded-md border border-filete bg-papel p-5 text-tinta backdrop:bg-tinta/40"
+        className="m-auto w-[min(92vw,26rem)] rounded-3xl border border-filete bg-superficie p-6 text-tinta shadow-alta backdrop:bg-tinta/50 backdrop:backdrop-blur-sm"
       >
-        <h2 className="font-serif text-xl font-semibold">¿Salir del test?</h2>
-        <p className="mt-2">Las respuestas de este test no se guardarán.</p>
-        <div className="mt-5 flex flex-col gap-2">
+        <h2 className="font-serif text-2xl font-semibold">¿Lo dejas por ahora?</h2>
+        <p className="mt-2 text-pizarra">Si sales, las respuestas de este test no se guardan.</p>
+        <div className="mt-6 flex flex-col gap-2">
           <Boton variante="principal" onClick={() => dialogoSalir.current?.close()} autoFocus>
             Seguir con el test
           </Boton>
-          <Boton variante="secundario" onClick={() => router.push(salirA)}>
-            Salir
+          <Boton variante="texto" onClick={() => router.push(salirA)} className="text-teja decoration-teja/35">
+            Salir sin guardar
           </Boton>
         </div>
       </dialog>
 
       <dialog
         ref={dialogoTerminar}
-        className="m-auto w-[min(92vw,26rem)] rounded-md border border-filete bg-papel p-5 text-tinta backdrop:bg-tinta/40"
+        className="m-auto w-[min(92vw,26rem)] rounded-3xl border border-filete bg-superficie p-6 text-tinta shadow-alta backdrop:bg-tinta/50 backdrop:backdrop-blur-sm"
       >
-        <h2 className="font-serif text-xl font-semibold">¿Terminar el examen?</h2>
-        <p className="mt-2">
+        <h2 className="font-serif text-2xl font-semibold">¿Terminar el examen?</h2>
+        <p className="mt-2 text-pizarra">
           {enBlanco === 0
             ? "Has respondido todas las preguntas."
             : enBlanco === 1
@@ -308,9 +340,9 @@ export function SesionTest({
               : `Te quedan ${enBlanco} preguntas en blanco.`}{" "}
           Las preguntas en blanco no restan.
         </p>
-        <div className="mt-5 flex flex-col gap-2">
+        <div className="mt-6 flex flex-col gap-2">
           <Boton onClick={terminar} autoFocus>
-            Terminar y ver corrección
+            Terminar y ver la nota
           </Boton>
           <Boton variante="secundario" onClick={() => dialogoTerminar.current?.close()}>
             Revisar respuestas
@@ -352,10 +384,11 @@ function Cronometro({
   const poco = restante < 5 * 60_000;
   return (
     <span
-      className={`text-[0.95rem] font-semibold tabular-nums ${poco ? "text-teja" : "text-pizarra"}`}
+      className={`cifras inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-sm font-bold ${poco ? "bg-teja-suave text-teja" : "bg-papel-hundido text-pizarra"}`}
       aria-label={`Quedan ${min} minutos`}
       role="timer"
     >
+      <Timer aria-hidden size={14} />
       {min}:{String(seg).padStart(2, "0")}
     </span>
   );
