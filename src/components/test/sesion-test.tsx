@@ -2,8 +2,10 @@
 
 import { useCallback, useEffect, useRef, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
-import { ArrowLeft, ArrowRight, Check, Timer, X } from "lucide-react";
+import { ArrowLeft, ArrowRight, Flame, Timer, Volume2, VolumeX, X } from "lucide-react";
 import { Boton } from "@/components/boton";
+import { Clara } from "@/components/mascota/clara";
+import { guardarSonido, sonidoActivo, sonidos } from "@/lib/ui/sonido";
 import {
   LETRAS,
   type ModoSesion,
@@ -52,6 +54,13 @@ export function SesionTest({
   const titulo = useRef<HTMLHeadingElement>(null);
   const dialogoSalir = useRef<HTMLDialogElement>(null);
   const dialogoTerminar = useRef<HTMLDialogElement>(null);
+  const [sonido, setSonido] = useState(true);
+  const [aviso3, setAviso3] = useState<number | null>(null);
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- la preferencia vive en localStorage, solo en el cliente
+    setSonido(sonidoActivo());
+  }, []);
 
   const pregunta = preguntas[indice];
   const elegida = elegidas.get(pregunta.id);
@@ -115,8 +124,20 @@ export function SesionTest({
       if (modo === "examen") dialogoTerminar.current?.showModal();
       else terminar();
     } else {
+      setAviso3(null);
       setIndice((i) => i + 1);
     }
+  }
+
+  /** Aciertos seguidos hasta la pregunta `hasta`, incluida. */
+  function comboHasta(hasta: number, hechas: Set<string>) {
+    let n = 0;
+    for (let k = hasta; k >= 0; k--) {
+      const p = preguntas[k];
+      if (!hechas.has(p.id) || elegidas.get(p.id) !== p.correcta) break;
+      n++;
+    }
+    return n;
   }
 
   const explicacion = useRef<HTMLDivElement>(null);
@@ -124,7 +145,15 @@ export function SesionTest({
   function accionPrincipal() {
     if (modo === "estudio" && !comprobada) {
       if (elegida === undefined || elegida === null) return;
-      setComprobadas((s) => new Set(s).add(pregunta.id));
+      const nuevas = new Set(comprobadas).add(pregunta.id);
+      setComprobadas(nuevas);
+      if (elegida === pregunta.correcta) {
+        sonidos.acierto();
+        const c = comboHasta(indice, nuevas);
+        if (c === 3 || c === 5 || c === 10) setAviso3(c);
+      } else {
+        sonidos.fallo();
+      }
       // La explicación aparece bajo las opciones: la acercamos sin perder el enunciado de vista.
       const suave = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
       requestAnimationFrame(() =>
@@ -168,6 +197,9 @@ export function SesionTest({
   ).length;
   const avance = Math.round(((modo === "estudio" ? respondidas : indice + (elegida != null ? 1 : 0)) / preguntas.length) * 100);
   const acierto = comprobada && elegida === pregunta.correcta;
+  const combo = modo === "estudio" ? comboHasta(comprobada ? indice : indice - 1, comprobadas) : 0;
+  const frasesAcierto = ["¡Genial!", "¡Muy bien!", "¡Perfecto!", "¡Así se hace!", "¡Exacto!", "¡Eso es!"];
+  const frasesFallo = ["¡Casi!", "No pasa nada", "Así se aprende", "La próxima es tuya"];
 
   const textoPrincipal =
     modo === "estudio" && !comprobada
@@ -182,7 +214,7 @@ export function SesionTest({
   const principalDesactivado =
     enviando || (modo === "estudio" && !comprobada && (elegida === undefined || elegida === null));
   const tonoPie =
-    modo === "estudio" && comprobada ? (acierto ? "bg-pino-suave border-pino/30" : "bg-teja-suave border-teja/30") : "bg-superficie border-filete";
+    modo === "estudio" && comprobada ? (acierto ? "bg-pino-suave border-transparent" : "bg-teja-suave border-transparent") : "bg-superficie border-filete";
 
   return (
     <div className="flex min-h-dvh flex-col">
@@ -197,7 +229,7 @@ export function SesionTest({
             <X aria-hidden size={24} strokeWidth={2.4} />
           </button>
           <div
-            className="h-3 flex-1 overflow-hidden rounded-full bg-papel-hundido"
+            className="h-4 flex-1 overflow-hidden rounded-full bg-papel-hundido"
             role="progressbar"
             aria-label={`Pregunta ${indice + 1} de ${preguntas.length}`}
             aria-valuemin={0}
@@ -205,17 +237,36 @@ export function SesionTest({
             aria-valuenow={indice + 1}
           >
             <div
-              className="h-full rounded-full bg-pino transition-[width] duration-500 ease-out"
-              style={{ width: `${Math.max(avance, 3)}%` }}
-            />
+              className="relative h-full rounded-full bg-pino-vivo transition-[width] duration-500 ease-out"
+              style={{ width: `${Math.max(avance, 4)}%` }}
+            >
+              <span className="absolute inset-x-2 top-[3px] h-1 rounded-full bg-white/35" />
+            </div>
           </div>
           {modo === "examen" && minutos ? (
             <Cronometro minutos={minutos} inicio={inicio} alAcabar={terminar} />
+          ) : combo >= 2 ? (
+            <p className="cifras rebote flex min-w-12 items-center justify-end gap-0.5 font-extrabold text-naranja" aria-label={`${combo} aciertos seguidos`}>
+              <Flame aria-hidden size={18} className="llama" /> {combo}
+            </p>
           ) : (
             <p className="cifras min-w-12 text-right text-sm font-bold text-pizarra" aria-hidden="true">
               {indice + 1}/{preguntas.length}
             </p>
           )}
+          <button
+            type="button"
+            onClick={() => {
+              const nuevo = !sonido;
+              setSonido(nuevo);
+              guardarSonido(nuevo);
+            }}
+            className="hidden size-10 shrink-0 items-center justify-center rounded-xl text-pizarra hover:bg-papel-hundido sm:inline-flex"
+            aria-label={sonido ? "Silenciar sonidos" : "Activar sonidos"}
+            aria-pressed={!sonido}
+          >
+            {sonido ? <Volume2 aria-hidden size={20} /> : <VolumeX aria-hidden size={20} />}
+          </button>
         </div>
       </header>
 
@@ -231,7 +282,7 @@ export function SesionTest({
           ref={titulo}
           tabIndex={-1}
           id={`enunciado-${pregunta.id}`}
-          className="mt-4 font-serif text-[1.25rem] leading-[1.5] font-medium focus:outline-none focus-visible:shadow-none focus-visible:outline-none"
+          className="mt-4 text-[1.25rem] leading-[1.5] font-bold [text-wrap:pretty] focus:outline-none focus-visible:shadow-none focus-visible:outline-none"
         >
           {pregunta.enunciado}
         </h1>
@@ -277,6 +328,12 @@ export function SesionTest({
           )}
         </div>
 
+        {aviso3 && comprobada && (
+          <p className="rebote mt-4 flex items-center justify-center gap-2 rounded-2xl bg-naranja-suave px-4 py-3 font-display text-lg font-black text-naranja-texto" role="status">
+            <Flame aria-hidden className="llama" /> ¡{aviso3} seguidas!
+          </p>
+        )}
+
         {error && (
           <p role="alert" className="mt-6 rounded-xl border border-teja bg-teja-suave p-3">
             {error}
@@ -287,15 +344,21 @@ export function SesionTest({
       <footer className={`fixed inset-x-0 bottom-0 z-10 border-t pb-[env(safe-area-inset-bottom)] transition-colors ${tonoPie}`}>
         <div className="mx-auto max-w-lectura px-4 pt-3 pb-4">
           {modo === "estudio" && comprobada && (
-            <p className={`hoja mb-3 flex items-center gap-2.5 text-lg font-extrabold ${acierto ? "text-pino" : "text-teja"}`} role="status">
-              <span
-                className={`grid size-8 place-items-center rounded-full ${acierto ? "bg-pino text-superficie" : "bg-teja text-superficie"}`}
-                aria-hidden="true"
-              >
-                {acierto ? <Check size={18} strokeWidth={3} /> : <X size={18} strokeWidth={3} />}
-              </span>
-              {acierto ? "¡Correcto!" : `La correcta es la ${LETRAS[pregunta.correcta]}`}
-            </p>
+            <div className="hoja mb-3 flex items-center gap-3" role="status">
+              <Clara pose={acierto ? "celebra" : "animo"} className="-my-2 size-16 shrink-0" />
+              <div className="min-w-0">
+                <p className={`font-display text-[1.375rem] leading-tight font-black ${acierto ? "text-pino" : "text-teja"}`}>
+                  {acierto ? frasesAcierto[indice % frasesAcierto.length] : frasesFallo[indice % frasesFallo.length]}
+                </p>
+                <p className={`text-sm font-bold ${acierto ? "text-pino" : "text-teja"}`}>
+                  {acierto
+                    ? combo >= 3
+                      ? `${combo} seguidas. ¡Estás en racha!`
+                      : "Lee el porqué y sigue."
+                    : `La correcta es la ${LETRAS[pregunta.correcta]}. Mira el porqué arriba.`}
+                </p>
+              </div>
+            </div>
           )}
           <div className="flex gap-2">
             {modo === "examen" && indice > 0 && (
@@ -303,7 +366,12 @@ export function SesionTest({
                 <ArrowLeft aria-hidden size={20} />
               </Boton>
             )}
-            <Boton ancho onClick={accionPrincipal} disabled={principalDesactivado}>
+            <Boton
+              ancho
+              onClick={accionPrincipal}
+              disabled={principalDesactivado}
+              variante={modo === "estudio" && comprobada && !acierto ? "error" : "principal"}
+            >
               {enviando ? "Corrigiendo…" : textoPrincipal}
               {!enviando && textoPrincipal !== "Comprobar" && <ArrowRight aria-hidden size={20} />}
             </Boton>
@@ -315,7 +383,7 @@ export function SesionTest({
         ref={dialogoSalir}
         className="m-auto w-[min(92vw,26rem)] rounded-3xl border border-filete bg-superficie p-6 text-tinta shadow-alta backdrop:bg-tinta/50 backdrop:backdrop-blur-sm"
       >
-        <h2 className="font-serif text-2xl font-semibold">¿Lo dejas por ahora?</h2>
+        <h2 className="font-display text-2xl font-extrabold">¿Lo dejas por ahora?</h2>
         <p className="mt-2 text-pizarra">Si sales, las respuestas de este test no se guardan.</p>
         <div className="mt-6 flex flex-col gap-2">
           <Boton variante="principal" onClick={() => dialogoSalir.current?.close()} autoFocus>
@@ -331,7 +399,7 @@ export function SesionTest({
         ref={dialogoTerminar}
         className="m-auto w-[min(92vw,26rem)] rounded-3xl border border-filete bg-superficie p-6 text-tinta shadow-alta backdrop:bg-tinta/50 backdrop:backdrop-blur-sm"
       >
-        <h2 className="font-serif text-2xl font-semibold">¿Terminar el examen?</h2>
+        <h2 className="font-display text-2xl font-extrabold">¿Terminar el examen?</h2>
         <p className="mt-2 text-pizarra">
           {enBlanco === 0
             ? "Has respondido todas las preguntas."

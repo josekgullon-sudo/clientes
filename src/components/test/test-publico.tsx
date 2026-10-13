@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import { EnlaceBoton, Boton } from "@/components/boton";
+import { ClaraDice } from "@/components/mascota/bocadillo";
+import { sonidos } from "@/lib/ui/sonido";
 import { evento } from "@/components/evento";
 import { CLAVE_DEMO, type DemoGuardada } from "@/lib/test/demo-local";
 import { calcularResultado, temasAMejorar, type PreguntaTest } from "@/lib/test/tipos";
@@ -49,6 +51,7 @@ export function TestPublico({
             /* sin almacenamiento: el resultado se ve igual */
           }
           evento("demo_end", { fallos: resultado.fallos, aciertos: resultado.aciertos });
+          sonidos.fin();
           setRespuestas(r);
           window.scrollTo({ top: 0 });
         }}
@@ -69,12 +72,14 @@ export function TestPublico({
         temas={temasAMejorar(preguntas, respuestas)}
         acciones={
           <>
-            <div className="tarjeta border-pino/40 p-5">
-              <p className="font-serif text-xl font-semibold">{textoFallos}</p>
-              <ul className="mt-2 flex flex-col gap-1 text-[0.95rem] text-pizarra">
-                <li>· 10 preguntas al día gratis, con tu racha.</li>
-                <li>· Los fallos de este test pasan a tu repaso.</li>
-                <li>· Sin tarjeta. En 30 segundos.</li>
+            <div className="tarjeta p-5">
+              <ClaraDice pose="senala" tamano="size-20">
+                {textoFallos}: crea tu cuenta y te los guardo para mañana.
+              </ClaraDice>
+              <ul className="mt-1 grid grid-cols-3 gap-2 text-center text-xs font-bold text-pizarra">
+                <li className="rounded-xl bg-naranja-suave px-2 py-2 text-naranja-texto">🔥 Tu racha diaria</li>
+                <li className="rounded-xl bg-cielo-suave px-2 py-2 text-cielo-texto">🔁 Repaso de fallos</li>
+                <li className="rounded-xl bg-pino-suave px-2 py-2 text-pino">🎁 Gratis, sin tarjeta</li>
               </ul>
               <EnlaceBoton href={`/entrar?registro=1&siguiente=${encodeURIComponent("/app")}`} ancho className="mt-4">
                 Crear cuenta gratis

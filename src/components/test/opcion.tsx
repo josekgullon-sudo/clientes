@@ -5,23 +5,23 @@ export type EstadoOpcion = "libre" | "elegida" | "correcta" | "fallada" | "neutr
 
 const estilos: Record<EstadoOpcion, { caja: string; letra: string }> = {
   libre: {
-    caja: "border-filete bg-superficie shadow-tarjeta hover:border-pino/45 hover:bg-pino-suave/40",
+    caja: "border-filete bg-superficie shadow-[0_3px_0_var(--filete)] hover:bg-papel-hundido active:translate-y-[2px] active:shadow-none",
     letra: "border-filete bg-papel text-pizarra",
   },
   elegida: {
-    caja: "border-pino bg-pino-suave/60 shadow-tarjeta",
-    letra: "border-pino bg-pino-boton text-sobre-pino",
+    caja: "border-cielo bg-cielo-suave shadow-[0_3px_0_var(--cielo)]",
+    letra: "border-cielo-texto bg-cielo-texto text-superficie",
   },
   correcta: {
-    caja: "border-pino bg-pino-suave",
-    letra: "border-pino bg-pino-boton text-sobre-pino",
+    caja: "border-pino-vivo bg-pino-suave shadow-[0_3px_0_var(--pino-vivo)]",
+    letra: "border-pino-vivo bg-pino-boton text-sobre-pino",
   },
   fallada: {
-    caja: "border-teja bg-teja-suave",
-    letra: "border-teja bg-teja text-superficie",
+    caja: "border-teja-vivo bg-teja-suave shadow-[0_3px_0_var(--teja-vivo)]",
+    letra: "border-teja-vivo bg-[#dc2626] text-white",
   },
   neutra: {
-    caja: "border-filete bg-superficie opacity-70",
+    caja: "border-filete bg-superficie opacity-60",
     letra: "border-filete bg-papel text-pizarra",
   },
 };
@@ -54,7 +54,7 @@ export function Opcion({
   const marca = marcas[estado];
   return (
     <label
-      className={`flex min-h-16 cursor-pointer items-center gap-3.5 rounded-2xl border-2 px-4 py-3.5 transition duration-150 has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-tinta ${e.caja} ${bloqueada ? "cursor-default" : "active:scale-[0.99]"} ${estado === "correcta" ? "opcion-ok" : ""} ${estado === "fallada" ? "opcion-mal" : ""}`}
+      className={`flex min-h-16 cursor-pointer items-center gap-3.5 rounded-2xl border-2 px-4 py-3.5 transition duration-150 has-[:focus-visible]:outline-3 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-tinta ${e.caja} ${bloqueada ? "cursor-default" : ""} ${estado === "correcta" ? "opcion-ok" : ""} ${estado === "fallada" ? "opcion-mal" : ""}`}
     >
       <input
         type="radio"
@@ -77,7 +77,7 @@ export function Opcion({
           LETRAS[indice]
         )}
       </span>
-      <span className="flex-1 text-[1.0625rem] leading-snug font-medium">{texto}</span>
+      <span className="flex-1 text-[1.0625rem] leading-snug font-semibold">{texto}</span>
       {marca && <span className="sr-only">. {marca}</span>}
     </label>
   );

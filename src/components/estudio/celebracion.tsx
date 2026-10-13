@@ -1,50 +1,53 @@
-import { Award, Flame, Zap } from "lucide-react";
-import { frasesCelebracion, hayCelebracion, type MetaSesion } from "@/lib/estudio/celebracion";
+import { Award, Crown, Flame, TrendingUp } from "lucide-react";
+import { frasesCelebracion, type MetaSesion } from "@/lib/estudio/celebracion";
 import { NOMBRES_LOGRO } from "@/lib/estudio/logros";
 
-/** Lo que has ganado en la sesión: XP, racha y logros. */
+/**
+ * Lo que ha pasado en la sesión, además de la nota: racha, nivel, corona y logros.
+ * La XP ya va en las fichas del resultado.
+ */
 export function Celebracion({ meta }: { meta: MetaSesion | null | undefined }) {
-  const frases = frasesCelebracion(meta);
-  const logros = (meta?.logros ?? []).map((id) => NOMBRES_LOGRO[id] ?? id);
-  if (frases.length === 0 && logros.length === 0 && !meta?.xp) return null;
-  const fiesta = hayCelebracion(meta);
+  if (!meta) return null;
+  const logros = (meta.logros ?? []).map((id) => NOMBRES_LOGRO[id] ?? id);
+  const frases = frasesCelebracion(meta).filter((f) => !f.startsWith("Racha de"));
+  const racha = meta.racha_nueva && meta.racha ? meta.racha : null;
+  if (!racha && frases.length === 0 && logros.length === 0) return null;
 
   return (
-    <section
-      className={`relative overflow-hidden rounded-[1.25rem] border p-5 ${fiesta ? "border-subrayador/60 bg-oro-suave" : "border-filete bg-superficie"}`}
-      role="status"
-    >
-      {fiesta && (
-        <div className="confeti" aria-hidden="true">
-          {Array.from({ length: 14 }, (_, i) => (
-            <span key={i} style={{ left: `${4 + i * 7}%`, animationDelay: `${i * 0.05}s` }} />
-          ))}
+    <div className="flex flex-col gap-3" role="status">
+      {racha && (
+        <div className="rebote flex items-center gap-4 rounded-[1.25rem] border-2 border-naranja/50 bg-naranja-suave p-4">
+          <span className="relative grid size-16 shrink-0 place-items-center">
+            <Flame aria-hidden className="llama size-16 fill-naranja text-naranja" strokeWidth={1.5} />
+            <span className="cifras absolute bottom-1.5 font-display text-lg font-black text-white">{racha}</span>
+          </span>
+          <div>
+            <p className="font-display text-xl leading-tight font-black text-naranja-texto">
+              ¡{racha} {racha === 1 ? "día" : "días"} de racha!
+            </p>
+            <p className="text-sm font-semibold text-naranja-texto">
+              {racha === 1 ? "Has empezado tu racha. Vuelve mañana para que crezca." : "Sigue así: vuelve mañana para no perderla."}
+            </p>
+          </div>
         </div>
       )}
-      <div className="flex flex-wrap items-center gap-2">
-        <span className="cifras inline-flex items-center gap-1 rounded-full bg-superficie px-3 py-1 text-sm font-extrabold text-oro-texto shadow-tarjeta">
-          <Zap aria-hidden size={15} /> +{meta?.xp ?? 0} XP
-        </span>
-        {meta?.racha_nueva && meta.racha ? (
-          <span className="cifras inline-flex items-center gap-1 rounded-full bg-superficie px-3 py-1 text-sm font-extrabold text-teja shadow-tarjeta">
-            <Flame aria-hidden size={15} /> {meta.racha} {meta.racha === 1 ? "día" : "días"}
-          </span>
-        ) : null}
-      </div>
       {frases.map((f) => (
-        <p key={f} className="mt-3 font-serif text-xl leading-snug font-semibold">
+        <p key={f} className="rebote flex items-center gap-3 rounded-[1.25rem] border-2 border-pino-vivo/50 bg-pino-suave p-4 font-bold text-pino">
+          {f.startsWith("Corona") ? <Crown aria-hidden size={22} /> : <TrendingUp aria-hidden size={22} />}
           {f}
         </p>
       ))}
-      {logros.length > 0 && (
-        <ul className="mt-3 flex flex-col gap-1.5">
-          {logros.map((nombre) => (
-            <li key={nombre} className="flex items-center gap-2 font-semibold">
-              <Award aria-hidden size={18} className="text-oro-texto" /> Logro: {nombre}
-            </li>
-          ))}
-        </ul>
-      )}
-    </section>
+      {logros.map((nombre) => (
+        <p key={nombre} className="rebote flex items-center gap-3 rounded-[1.25rem] border-2 border-subrayador/60 bg-oro-suave p-4 font-bold text-oro-texto">
+          <span className="grid size-10 shrink-0 place-items-center rounded-full bg-subrayador text-subrayador-texto">
+            <Award aria-hidden size={20} />
+          </span>
+          <span>
+            <span className="block text-xs font-black tracking-wider uppercase">Logro desbloqueado</span>
+            {nombre}
+          </span>
+        </p>
+      ))}
+    </div>
   );
 }

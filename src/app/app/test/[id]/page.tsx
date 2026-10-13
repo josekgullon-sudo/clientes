@@ -38,13 +38,24 @@ export default async function PaginaTest({ params }: PageProps<"/app/test/[id]">
   }
 
   const mapa = new Map(Object.entries(respuestas));
+  const meta = intento.meta as MetaSesion | null;
+  const titulo =
+    intento.modo === "simulacro"
+      ? "¡Simulacro terminado!"
+      : intento.modo === "leccion"
+        ? "¡Lección completada!"
+        : intento.modo === "repaso" || intento.modo === "falladas"
+          ? "¡Repaso hecho!"
+          : "¡Test terminado!";
 
   return (
     <>
       <Cabecera inicio="/app" derecha={null} />
       <main className="flex-1">
         <Resumen
-          antes={<Celebracion meta={intento.meta as MetaSesion | null} />}
+          antes={<Celebracion meta={meta} />}
+          xp={meta?.xp ?? undefined}
+          titulo={titulo}
           resultado={{
             total: intento.preguntas.length,
             aciertos: intento.aciertos ?? 0,
@@ -57,7 +68,7 @@ export default async function PaginaTest({ params }: PageProps<"/app/test/[id]">
           acciones={
             <>
               <EnlaceBoton href="/app" ancho>
-                Seguir
+                Continuar
               </EnlaceBoton>
               {(intento.fallos ?? 0) > 0 && (
                 <EnlaceBoton href="#titulo-correccion" variante="secundario" ancho>

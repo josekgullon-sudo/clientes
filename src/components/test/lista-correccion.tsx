@@ -30,7 +30,7 @@ export function ListaCorreccion({
 
   return (
     <section aria-labelledby="titulo-correccion" className="mx-auto w-full max-w-lectura px-4 pt-10 pb-24">
-      <h2 id="titulo-correccion" className="font-serif text-2xl font-semibold">
+      <h2 id="titulo-correccion" className="font-display text-2xl font-extrabold">
         Corrección
       </h2>
       <div role="group" aria-label="Filtrar preguntas" className="mt-4 inline-flex rounded-2xl bg-papel-hundido p-1">
@@ -64,7 +64,7 @@ export function ListaCorreccion({
                 <span className="cifras">Pregunta {n + 1}</span>
                 <span className={`rounded-full px-2.5 py-1 text-xs font-bold ${e.clase}`}>{e.texto}</span>
               </p>
-              <p className="mt-2 font-serif text-[1.0625rem] leading-relaxed font-medium">{p.enunciado}</p>
+              <p className="mt-2 text-[1.0625rem] leading-relaxed font-bold">{p.enunciado}</p>
               <ul className="mt-3 flex flex-col gap-1.5">
                 {p.opciones.map((o, i) => {
                   const correcta = i === p.correcta;
