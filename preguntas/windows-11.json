@@ -1,0 +1,635 @@
+{
+  "descripcion": "Windows 11 (tema 22): métodos abreviados de teclado, barra de tareas, menú Inicio, Portapapeles, Recortes, varios escritorios y Acoplar. Lote generado el 2026-10-13 a partir de páginas de support.microsoft.com/es-es; en borrador.",
+  "preguntas": [
+    {
+      "id": "win-001",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado con las teclas de Windows",
+      "fuente": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "enunciado": "En Windows 11, ¿qué combinación de teclas muestra y oculta el escritorio?",
+      "opciones": [
+        "Tecla Windows + D",
+        "Tecla Windows + E",
+        "Tecla Windows + L",
+        "Tecla Windows + I"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la tabla de la tecla Windows, Tecla Windows + D sirve para «Mostrar y ocultar el escritorio». Windows + E abre el Explorador de archivos, Windows + L bloquea el equipo y Windows + I abre Configuración.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-002",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado con las teclas de Windows",
+      "fuente": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "enunciado": "¿Qué acción realiza la combinación Tecla Windows + L?",
+      "opciones": [
+        "Abre el Explorador de archivos",
+        "Bloquea el equipo",
+        "Minimiza todas las ventanas",
+        "Abre la Vista de tareas"
+      ],
+      "correcta": 1,
+      "explicacion": "La página indica para Tecla Windows + L: «Bloquee el equipo». Minimizar todas las ventanas corresponde a Windows + M.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-003",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado de Windows en general y para escritorio",
+      "fuente": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "enunciado": "¿Qué combinación de teclas abre directamente el Administrador de tareas?",
+      "opciones": [
+        "Ctrl+Alt+Tab",
+        "Alt+Esc",
+        "Ctrl+Mayús+Esc",
+        "Ctrl+Esc"
+      ],
+      "correcta": 2,
+      "explicacion": "Ctrl+Mayús+Esc sirve para «Abra el administrador de tareas». En cambio, Ctrl+Esc «Abre el menú Inicio».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-004",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado con las teclas de Windows",
+      "fuente": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "enunciado": "¿Qué método abreviado abre el historial del Portapapeles?",
+      "opciones": [
+        "Tecla Windows + X",
+        "Tecla Windows + H",
+        "Tecla Windows + K",
+        "Tecla Windows + V"
+      ],
+      "correcta": 3,
+      "explicacion": "Tecla Windows + V: «Abra el historial del Portapapeles». La página añade que «El historial del Portapapeles no está activado de forma predeterminada».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-005",
+      "ley": null,
+      "articulo": "Varios métodos abreviados de teclado de escritorios",
+      "fuente": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "enunciado": "¿Qué combinación de teclas crea otro escritorio virtual?",
+      "opciones": [
+        "Tecla Windows + Ctrl + F4",
+        "Tecla Windows + Ctrl + D",
+        "Tecla Windows + Tab",
+        "Tecla Windows + D"
+      ],
+      "correcta": 1,
+      "explicacion": "En los atajos de varios escritorios, Tecla Windows + Ctrl + D sirve para «Crear otro escritorio». Windows + Ctrl + F4 es para «Cerrar el escritorio que estás usando».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-006",
+      "ley": null,
+      "articulo": "Varios métodos abreviados de teclado de escritorios",
+      "fuente": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "enunciado": "¿Qué hace la combinación Tecla Windows + Ctrl + F4?",
+      "opciones": [
+        "Cierra la ventana activa",
+        "Cierra la Lupa abierta",
+        "Cierra el escritorio en uso",
+        "Crea otro escritorio"
+      ],
+      "correcta": 2,
+      "explicacion": "La página indica para Tecla Windows +Ctrl+F4: «Cerrar el escritorio que estás usando». Cerrar la ventana activa corresponde a Alt+F4.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-007",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado con las teclas de Windows",
+      "fuente": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "enunciado": "¿Qué combinación abre el menú Vínculo rápido, igual que hacer clic con el botón derecho en el menú Inicio?",
+      "opciones": [
+        "Tecla Windows + R",
+        "Tecla Windows + Z",
+        "Tecla Windows + B",
+        "Tecla Windows + X"
+      ],
+      "correcta": 3,
+      "explicacion": "Tecla Windows + X: «Abrir el menú Vínculo rápido. Este acceso directo es la misma acción que hacer clic con el botón derecho en el menú Inicio».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-008",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado con las teclas de Windows",
+      "fuente": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "enunciado": "¿Qué abre la combinación Tecla Windows + R?",
+      "opciones": [
+        "El cuadro de diálogo Ejecutar",
+        "La aplicación Configuración",
+        "El centro de notificaciones",
+        "El panel de emojis"
+      ],
+      "correcta": 0,
+      "explicacion": "Tecla Windows + R sirve para «Abrir el cuadro de diálogo Ejecutar». La aplicación Configuración se abre con Windows + I.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-009",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado con las teclas de Windows",
+      "fuente": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "enunciado": "¿Qué combinación minimiza o restaura todas las ventanas excepto la activa?",
+      "opciones": [
+        "Tecla Windows + M",
+        "Tecla Windows + Inicio",
+        "Tecla Windows + Mayús + M",
+        "Tecla Windows + Flecha abajo"
+      ],
+      "correcta": 1,
+      "explicacion": "Tecla Windows + Inicio: «Minimizar o restaurar todas las ventanas excepto la activa». Windows + M sirve para «Minimizar todas las ventanas» y Windows + Flecha abajo para «Minimizar la ventana activa».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-010",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado de Windows en general y para escritorio",
+      "fuente": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "enunciado": "¿Qué combinación permite desplazarse por las ventanas en el orden en que se abrieron?",
+      "opciones": [
+        "Alt+Tab",
+        "Ctrl+Alt+Tab",
+        "Alt+Esc",
+        "Tecla Windows + T"
+      ],
+      "correcta": 2,
+      "explicacion": "Alt+Esc sirve para «Desplazarse por las ventanas en el orden en que se abrieron». Alt+Tab es para «Cambiar entre ventanas abiertas».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-011",
+      "ley": null,
+      "articulo": "Configurar el diseño de la barra de tareas",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+      "enunciado": "¿Cómo está alineada de forma predeterminada la barra de tareas en Windows 11?",
+      "opciones": [
+        "A la izquierda",
+        "En la parte superior",
+        "A la derecha",
+        "Centrada"
+      ],
+      "correcta": 3,
+      "explicacion": "La página lo indica así: «De manera predeterminada, la barra de tareas está centrada en Windows 11».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-012",
+      "ley": null,
+      "articulo": "Aplicaciones",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+      "enunciado": "En la barra de tareas de Windows 11, ¿cómo se indica que una aplicación está abierta?",
+      "opciones": [
+        "Con una línea debajo de su icono",
+        "Con el icono en gris",
+        "Con un distintivo de campana",
+        "Con el icono parpadeando"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la página, «Las aplicaciones en ejecución se muestran en la barra de tareas con una línea debajo del icono para indicar que están abiertas».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-013",
+      "ley": null,
+      "articulo": "Aplicaciones",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+      "enunciado": "¿Cómo se accede a la lista de accesos directos de una aplicación de la barra de tareas?",
+      "opciones": [
+        "Con clic derecho en el icono",
+        "Con doble clic en el icono",
+        "Arrastrando el icono al escritorio",
+        "Pulsando la tecla Windows"
+      ],
+      "correcta": 0,
+      "explicacion": "La página explica: «Para acceder a la lista de accesos directos, simplemente haga clic con el botón derecho en el icono de la aplicación».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-014",
+      "ley": null,
+      "articulo": "Configurar el diseño de la barra de tareas",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+      "enunciado": "¿Cuál de estos elementos NO aparece entre los componentes de la barra de tareas de Windows 11?",
+      "opciones": [
+        "Widgets",
+        "Vista de tareas",
+        "Noticias e intereses",
+        "Bandeja del sistema"
+      ],
+      "correcta": 2,
+      "explicacion": "Para Windows 11 la página enumera «1. Widgets», «2. Inicio», «3. Buscar», «4. Vista de tareas», «5. Aplicaciones» y «6. Bandeja del sistema». Noticias e intereses aparece solo en el apartado de Windows 10.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-015",
+      "ley": null,
+      "articulo": "Configuración rápida",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+      "enunciado": "¿Qué iconos forman el área Configuración rápida de la barra de tareas?",
+      "opciones": [
+        "Reloj, campana y calendario",
+        "Red, volumen y batería",
+        "Widgets, Buscar y Vista de tareas",
+        "Menú lápiz, teclado táctil y panel táctil"
+      ],
+      "correcta": 1,
+      "explicacion": "El área Configuración rápida consta del «Icono de red», el «Icono de volumen» y el «Icono de batería».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-016",
+      "ley": null,
+      "articulo": "Mostrar el escritorio",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+      "enunciado": "¿Para qué sirve la pequeña área situada en el extremo de la barra de tareas de Windows 11?",
+      "opciones": [
+        "Para abrir el centro de notificaciones",
+        "Para abrir la Vista de tareas",
+        "Para ocultar la barra de tareas",
+        "Para mostrar el escritorio"
+      ],
+      "correcta": 3,
+      "explicacion": "La página indica que «Esta pequeña área situada en el lateral de la barra de tareas es útil para acceder rápidamente al escritorio minimizando todas las ventanas abiertas».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-017",
+      "ley": null,
+      "articulo": "Inicio",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows",
+      "enunciado": "¿En qué secciones se divide el menú Inicio de Windows 11?",
+      "opciones": [
+        "Aplicaciones ancladas, todas y recomendadas",
+        "Widgets, noticias e intereses",
+        "Favoritos, recientes y compartidos",
+        "Escritorio, Documentos e Imágenes"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la página, «El menú Inicio está dividido en varias secciones, incluidas las aplicaciones ancladas , todas y recomendadas».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-018",
+      "ley": null,
+      "articulo": "Mis elementos del Portapapeles desaparecen del historial de mi Portapapeles",
+      "fuente": "https://support.microsoft.com/es-es/windows/apps/using-the-clipboard",
+      "enunciado": "¿Cuántas entradas copiadas admite como máximo el historial del Portapapeles?",
+      "opciones": [
+        "10",
+        "50",
+        "25",
+        "100"
+      ],
+      "correcta": 2,
+      "explicacion": "La página indica que «El historial del Portapapeles tiene un límite de 25 entradas copiadas». Los elementos antiguos no anclados se quitan automáticamente.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-019",
+      "ley": null,
+      "articulo": "No consigo ver mi historial del Portapapeles",
+      "fuente": "https://support.microsoft.com/es-es/windows/apps/using-the-clipboard",
+      "enunciado": "¿Qué ocurre con el historial del Portapapeles al reiniciar el PC?",
+      "opciones": [
+        "Se conserva completo",
+        "Se borra, excepto los elementos anclados",
+        "Se guarda en la carpeta Documentos",
+        "Se borra, incluidos los anclados"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la página, «El historial del Portapapeles se borra cada vez que reinicias el PC, excepto los elementos que hayas anclado».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-020",
+      "ley": null,
+      "articulo": "Usar Recortes para realizar capturas de pantalla",
+      "fuente": "https://support.microsoft.com/es-es/windows/apps/use-snipping-tool-to-capture-screenshots",
+      "enunciado": "En la herramienta Recortes, ¿qué tipo de recorte permite seleccionar una ventana, como un cuadro de diálogo?",
+      "opciones": [
+        "Ventana",
+        "Rectángulo",
+        "Forma libre",
+        "Pantalla completa"
+      ],
+      "correcta": 0,
+      "explicacion": "El tipo Ventana se describe así: «Selecciona una ventana, como un cuadro de diálogo, que quieras capturar».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-021",
+      "ley": null,
+      "articulo": "Guardar un recorte",
+      "fuente": "https://support.microsoft.com/es-es/windows/apps/use-snipping-tool-to-capture-screenshots",
+      "enunciado": "En Windows 11, ¿dónde se guarda automáticamente un recorte capturado con la herramienta Recortes?",
+      "opciones": [
+        "En la carpeta Descargas",
+        "En la carpeta Documentos",
+        "En el Escritorio",
+        "En la carpeta Capturas de pantalla"
+      ],
+      "correcta": 3,
+      "explicacion": "La página indica: «Después de capturar un recorte, se guarda automáticamente en la carpeta Capturas de pantalla».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-022",
+      "ley": null,
+      "articulo": "Copiar o redactar texto",
+      "fuente": "https://support.microsoft.com/es-es/windows/apps/use-snipping-tool-to-capture-screenshots",
+      "enunciado": "¿Qué botón de la herramienta Recortes activa el reconocimiento óptico de caracteres (OCR) para extraer texto?",
+      "opciones": [
+        "Formas",
+        "Acciones de texto",
+        "Recorte de imagen",
+        "Resaltador"
+      ],
+      "correcta": 1,
+      "explicacion": "Hay que seleccionar «el botón Acciones de texto para activar la característica de reconocimiento óptico de caracteres (OCR)».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-023",
+      "ley": null,
+      "articulo": "Agregar subtítulos o audio a un recorte de vídeo",
+      "fuente": "https://support.microsoft.com/es-es/windows/apps/use-snipping-tool-to-capture-screenshots",
+      "enunciado": "Tras grabar un recorte de vídeo con Recortes, ¿qué botón permite añadir subtítulos o audio?",
+      "opciones": [
+        "Editar con Paint",
+        "Guardar como",
+        "Editar en Clipchamp",
+        "Acciones de texto"
+      ],
+      "correcta": 2,
+      "explicacion": "La página indica: «Cuando termines de grabar un recorte de vídeo, selecciona el botón Editar en Clipchamp para añadir subtítulos o audio».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-024",
+      "ley": null,
+      "articulo": "Crear un nuevo escritorio",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/configure-multiple-desktops-in-windows",
+      "enunciado": "Desde la Vista de tareas, ¿qué opción se selecciona para crear un escritorio?",
+      "opciones": [
+        "Agregar área de trabajo",
+        "Duplicar escritorio",
+        "Elegir fondo",
+        "Nuevo escritorio"
+      ],
+      "correcta": 3,
+      "explicacion": "Tras abrir la vista de tareas, la página indica: «Seleccione Nuevo escritorio».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-025",
+      "ley": null,
+      "articulo": "Configure fondos para cada escritorio",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/configure-multiple-desktops-in-windows",
+      "enunciado": "Con varios escritorios, ¿qué tipo de fondo personalizado se puede poner en cada uno?",
+      "opciones": [
+        "Solo una imagen",
+        "Una presentación de diapositivas",
+        "Un color sólido distinto",
+        "Cualquier tipo de fondo"
+      ],
+      "correcta": 0,
+      "explicacion": "La página indica que «solo es posible configurar un fondo personalizado para cada escritorio cuando se usa una imagen» y que no se puede usar una presentación de diapositivas.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-026",
+      "ley": null,
+      "articulo": "Personalizar la experiencia de múltiples escritorios",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/configure-multiple-desktops-in-windows",
+      "enunciado": "¿En qué apartado de Configuración se personaliza el uso de varios escritorios?",
+      "opciones": [
+        "Personalización > Barra de tareas",
+        "Sistema > Multitarea",
+        "Accesibilidad > Teclado",
+        "Sistema > Pantalla"
+      ],
+      "correcta": 1,
+      "explicacion": "La página remite a la aplicación Configuración y a «Abrir la configuración de multitarea», donde hay que expandir «Escritorios».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-027",
+      "ley": null,
+      "articulo": "Cómo usar Acoplar",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/snap-your-windows",
+      "enunciado": "¿Qué ocurre al arrastrar una ventana a una esquina de la pantalla?",
+      "opciones": [
+        "Se maximiza",
+        "Se minimiza",
+        "Se acopla a ese cuarto de la pantalla",
+        "Se mueve a otro escritorio"
+      ],
+      "correcta": 2,
+      "explicacion": "La función Acoplar lo explica así: «Arrastra una ventana a una esquina para acoplarla a ese cuarto de la pantalla».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-028",
+      "ley": null,
+      "articulo": "Menú flotante Acoplar",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/snap-your-windows",
+      "enunciado": "¿Cuándo aparece el control flotante Acoplar con los diseños de ajuste?",
+      "opciones": [
+        "Al pulsar Alt+Tab",
+        "Al hacer doble clic en la barra de título",
+        "Al abrir la Vista de tareas",
+        "Al mantener el puntero sobre el botón Maximizar"
+      ],
+      "correcta": 3,
+      "explicacion": "La página indica: «El control flotante Acoplar aparece al mantener el puntero sobre el botón Maximizar en una ventana».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-029",
+      "ley": null,
+      "articulo": "Asistente para ajustar",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/snap-your-windows",
+      "enunciado": "Al acoplar una ventana a un lado de la pantalla, ¿qué muestra el Asistente para ajustar?",
+      "opciones": [
+        "Miniaturas de las otras ventanas abiertas",
+        "La lista de escritorios virtuales",
+        "El historial del Portapapeles",
+        "Las aplicaciones ancladas a Inicio"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la página, el Asistente para el acoplamiento «mostrará miniaturas de las otras ventanas abiertas».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    },
+    {
+      "id": "win-030",
+      "ley": null,
+      "articulo": "Grupos de acoplamiento",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/snap-your-windows",
+      "enunciado": "¿Cómo se crean los grupos de acoplamiento en Windows 11?",
+      "opciones": [
+        "Desde Configuración > Multitarea",
+        "Automáticamente al acoplar varias ventanas",
+        "Con la opción Nuevo grupo de la Vista de tareas",
+        "Al anclar aplicaciones a la barra de tareas"
+      ],
+      "correcta": 1,
+      "explicacion": "Los grupos de acoplamiento «Se crean automáticamente al acoplar varias ventanas».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 22
+      }
+    }
+  ]
+}
