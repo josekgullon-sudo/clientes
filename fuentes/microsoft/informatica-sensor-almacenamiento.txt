@@ -1,0 +1,48 @@
+Administrar el espacio de unidad con Sensor de almacenamiento
+https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense
+Descargado: 2026-10-13
+
+Administrar espacio de unidad con el Sensor de almacenamiento
+Se aplica a Windows 11 Windows 10
+Obtener ayuda con Copilot
+¿Cómo elijo la configuración de Storage Sense?
+¿Cómo gestiono la configuración de Almacenamiento en Windows?
+¿Cómo activo Storage Sense?
+Resumen
+El Sensor de almacenamiento puede liberar automáticamente espacio en el disco al deshacerse de los elementos que no necesitas, como archivos temporales y elementos en la Papelera de reciclaje. Aquí encontrarás más información sobre cómo funciona y cómo configurarlo para satisfacer tus necesidades.
+Si el Sensor de almacenamiento está activado con la configuración predeterminada, se ejecutará cuando el dispositivo tenga poco espacio en disco y limpiará los archivos temporales innecesarios. El contenido de la Papelera de reciclaje se eliminará de forma predeterminada después de algún tiempo, pero los elementos de la carpeta Descargas y OneDrive (o cualquier otro proveedor de nube) no se tocarán a menos que configure el Sensor de almacenamiento para hacerlo.
+Importante
+El Sensor de almacenamiento solo funciona en la unidad del sistema, que contiene el sistema operativo Windows, y generalmente se conoce como C: . Para liberar espacio en otras unidades, ve a Configuración de > Inicio > Sistema Almacenamiento >> Configuración de almacenamiento > avanzada Almacenamiento usado en otras unidades .
+Activar el Sensor de almacenamiento
+Vaya a Inicio > Configuración > Almacenamiento del sistema > .
+Establece el Sensor de almacenamiento en Activado .
+Elegir la configuración del Sensor de almacenamiento
+Nota
+Cualquier configuración que elijas se aplicará solo para ti. Otros usuarios del dispositivo pueden administrar su propia configuración.
+Vaya a Inicio > Configuración > Almacenamiento del sistema > .
+Selecciona Sensor de almacenamiento . Para indicar a Storage Sense con qué frecuencia ejecutar y qué limpiar, sigue estas instrucciones.
+Elegir cuándo ejecutar el Sensor de almacenamiento
+Asegúrate de que el Sensor de almacenamiento esté activado.
+En Ejecutar Sensor de almacenamiento , selecciona la frecuencia con la que quieres que se ejecute el Sensor de almacenamiento cuando estés en línea y hayas iniciado sesión.
+Nota
+Poco espacio libre en disco variará en función del tamaño del disco y los umbrales operativos mínimos. Se encuentra en un estado de disco bajo cuando la barra de capacidad de Configuración de Inicio > > Almacenamiento del sistema > se vuelve roja.
+Elija sus preferencias para eliminar archivos temporales
+En Eliminar archivos de mi papelera de reciclaje si han estado allí durante más de: y Eliminar archivos de mi carpeta Descargas si no se han abierto durante más de: , elija cuándo se eliminan los archivos de la papelera de reciclaje o de la carpeta Descargas.
+Administrar el contenido en la nube disponible localmente
+Nota
+Solo verás la configuración del contenido en la nube cuando hayas iniciado sesión en tu cuenta en la nube.
+Los archivos en la nube pueden existir localmente en el disco o estar disponibles solo en línea. Para elegir las condiciones para cuándo los archivos inactivos se ponen solo en línea, en el contenido, solo estarán en línea si no se abren durante más de: Elija la cantidad de tiempo que prefiera. Tenga en cuenta que a partir de Windows 11, versión 22H2, el valor predeterminado para los archivos en la nube de OneDrive es crear archivos solo en línea si no se abren durante más de 30 días.
+Importante
+Esta configuración no eliminará permanentemente los archivos. Files puede volver a estar disponible localmente si hay espacio libre en disco y conectividad de red. Cualquier archivo marcado como Mantener siempre en este dispositivo está exento y no será administrado por el Sensor de almacenamiento.
+Para obtener más información sobre el contenido disponible localmente, consulta ¿Qué significan los iconos de OneDrive?
+Preguntas más frecuentes (P+F)
+¿Está activado el Sensor de almacenamiento de forma predeterminada?
+El Sensor de almacenamiento está desactivado de forma predeterminada. Si el PC se queda sin espacio en disco y no has interactuado con el Sensor de almacenamiento en el pasado, podemos activar el Sensor de almacenamiento para administrar archivos temporales seleccionados y, a continuación, notificártelo. Si lo prefieres, puedes elegir desactivar el Sensor de almacenamiento inmediatamente o después de resolver el estado de disco bajo.
+Si activas el Sensor de almacenamiento, la configuración predeterminada se ejecutará cuando el dispositivo tenga poco espacio en disco. Tenga en cuenta que la carpeta Descargas y el contenido de la nube no se administrarán a menos que usted especifique.
+¿Cómo eliminar la carpeta Windows.old o las instalaciones anteriores de Windows?
+Vaya a Inicio > Configuración > Almacenamiento del sistema > .
+En Uso del disco, seleccione Archivos temporales y, a continuación, asegúrese de que las instalaciones anteriores de Windows estén activadas y seleccione Eliminar archivos .
+¿Se puede ejecutar el Sensor de almacenamiento si no he iniciado sesión?
+No. El Sensor de almacenamiento no se puede ejecutar a menos que haya iniciado sesión y esté en línea durante más de 10 minutos.
+¿Por qué recibo notificaciones para activar el Sensor de almacenamiento o una notificación para poco almacenamiento?
+Verás estas notificaciones cuando la unidad se esté quedando sin espacio libre. Esto puede afectar al rendimiento del dispositivo y dificultar la recepción de actualizaciones del sistema.

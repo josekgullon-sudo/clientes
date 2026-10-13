@@ -1,0 +1,122 @@
+Copia de seguridad y restauración con Copia de seguridad de Windows
+https://support.microsoft.com/es-es/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup
+Descargado: 2026-10-13
+
+Realizar copias de seguridad y restaurar con Copias de seguridad de Windows
+Se aplica a Windows 11 Windows 10
+Obtener ayuda con Copilot
+¿Cómo respaldo mis carpetas con la Copia de Seguridad de Windows?
+¿Cómo restauro desde la copia de seguridad de Windows?
+¿Cómo modifico mi configuración de respaldo?
+Windows 11
+Windows 10
+Su PC Windows viene con una solución de copia de seguridad integral, Copias de seguridad de Windows , que le ayuda a realizar una copia de seguridad de muchas de las cosas que son más importantes para usted. Desde los archivos, temas y configuraciones hasta muchas de las aplicaciones instaladas e información Wi-Fi, Copias de seguridad de Windows protege lo importante y hace que sea más fácil que nunca pasar a un equipo nuevo.
+En esta guía se describe cómo usar las Copias de seguridad de Windows y las distintas opciones de configuración para realizar copias de seguridad y restaurar elementos clave en su PC Windows.
+Hacer una copia de seguridad de tu PC
+Paso 1: iniciar sesión con una cuenta de Microsoft
+Esta es la cuenta asociada a Windows, Microsoft 365, OneDrive, Xbox y mucho más. La información de la copia de seguridad se almacenará con tu cuenta de Microsoft, por lo que volver a tus cosas en un equipo nuevo es tan fácil como iniciar sesión.
+En la aplicación Configuración de tu dispositivo Windows, selecciona Cuentas > Tu información o usa el siguiente acceso directo:
+Tu información
+Seleccione Iniciar sesión con una cuenta de Microsoft en su lugar . Solo verás esto si usas una cuenta local. Si ves Iniciar sesión con una cuenta local en su lugar , ya estás usando tu cuenta de Microsoft
+Importante
+Actualmente, la aplicación Copias de seguridad de Windows se centra en dispositivos de consumidor, por ejemplo, dispositivos que se pueden usar iniciando sesión en una cuenta personal de Microsoft (MSA) como *@outlook.com, *@live.com, etc. Las cuentas profesionales o educativas de Microsoft no funcionarán.
+Crear una nueva cuenta de Microsoft
+Paso 2: Hacer una copia de seguridad de las carpetas
+Copias de seguridad de Windows es una parada sencilla y única para todas sus necesidades de copia de seguridad. Su cuenta Microsoft gratuita incluye 5 GB de almacenamiento en la nube de OneDrive (y hay más almacenamiento disponible para comprar si lo necesita), y la copia de seguridad de sus carpetas sincroniza las carpetas que especifique con su cuenta de OneDrive, lo que las hace accesibles al instante en todos los equipos que use con esta cuenta Microsoft. Y dado que están sincronizados con OneDrive, una vez que inicie sesión en OneDrive en un equipo nuevo, esos archivos estarán disponibles una vez más.
+Para abrir las Copias de seguridad de Windows, búsquelo en el menú Inicio:
+Seleccionar Inicio
+Escriba backupy seleccione Copias de seguridad de Windows en los resultados
+Expanda Carpetas y seleccione cuáles de las carpetas de usuario desea realizar una copia de seguridad en OneDrive. Puede hacer una copia de seguridad de las carpetas Escritorio , Documentos , Imágenes , Vídeos y Música activando el conmutador de cada carpeta
+Recomendación
+también puede administrar la configuración de las Copias de seguridad de Windows desde Configuración. En la aplicación Configuración de tu dispositivo Windows, selecciona Copias de seguridad de Windows de cuentas >.
+Paso 3: Haz una copia de seguridad de tu configuración y preferencias
+Con las Copias de seguridad de Windows, tienes la flexibilidad de elegir la configuración y las preferencias de Windows de las que quieres hacer una copia de seguridad. Las opciones disponibles son:
+Aplicaciones instaladas
+Accesibilidad
+Cuentas, red Wi-Fi y contraseñas
+Personalización como fondo de pantalla, color, tema, diseño de inicio, etc.
+Nota
+La personalización requiere el inicio de sesión de OneDrive y el almacenamiento disponible. No se realizará una copia de seguridad de las preferencias de personalización si no tiene suficiente almacenamiento en OneDrive.
+Preferencias de idioma y diccionario
+Otra configuración de Windows
+Para comprobar el estado de todas estas opciones de configuración desde Copias de seguridad de Windows, expanda cada elemento. Para hacer una copia de seguridad de una configuración, actívela .
+Nota
+Si se ha realizado una copia de seguridad de esta configuración en el pasado (y algunas lo hacen de forma predeterminada), se mostrarán como copias de seguridad y el botón de alternancia no estará disponible. Si desea dejar de realizar copias de seguridad, consulte Modificar la configuración de copia de seguridad .
+Una vez que tengas todo configurado de la forma que quieras, selecciona Copia de seguridad .
+Si recibe un error de OneDrive al intentar realizar una copia de seguridad, es posible que no haya iniciado sesión en OneDrive, que el almacenamiento sea insuficiente o que haya otro problema con OneDrive que deba resolverse para que funcionen las Copias de seguridad de Windows. Para obtener más información, consulte Solución de problemas de Sincronización de OneDrive .
+Paso 4: ¡Es hora de relajarse!
+¡Ya hemos acabado! Se realiza una copia de seguridad de las carpetas y la configuración y puedes acceder a tus archivos en todos los equipos en los que inicies sesión con esta cuenta de Microsoft.
+Si desea comprobar y asegurarse de que aún se ha realizado una copia de seguridad de todo, puede abrir la aplicación Copias de seguridad de Windows y esta mostrará el estado actual de la copia de seguridad.
+También puede verificar el estado en la aplicación Configuración , seleccione Copias de seguridad de Windows de cuentas >
+¿Qué pasa con mis preferencias de Microsoft Edge?
+Para explorar fácilmente la Web desde cualquiera de tus dispositivos y mantener los favoritos organizados, inicia sesión en Microsoft Edge y activa la sincronización.
+Iniciar sesión para sincronizar Microsoft Edge entre dispositivos
+Modificar la configuración de la copia de seguridad
+Si desea cambiar la configuración de la copia de seguridad, abra Configuración > cuentas > de Copias de seguridad de Windows o use el siguiente acceso directo:
+Copias de seguridad de Windows
+Para cambiar la sincronización de carpetas a OneDrive, seleccione Administrar la configuración de sincronización en Sincronización de carpetas de OneDrive y active o desactive las carpetas de las que quiere hacer una copia de seguridad
+Para modificar la copia de seguridad de las aplicaciones, use el botón de alternancia Recordar mis aplicaciones . Esta configuración no está disponible para cuentas de trabajo o escuela, y Windows no recuerda las aplicaciones para cuentas de trabajo o escuela
+Para modificar la copia de seguridad de la configuración, use las casillas que aparecen en Recordar mis preferencias , asegurándose de que las casillas de cualquiera de los elementos de los que desea realizar una copia de seguridad estén marcadas. Si se activa Otra configuración de Windows , Windows también sincroniza algunos ajustes del dispositivo (por ejemplo, opciones de ratón e impresoras), la configuración del explorador de archivos y preferencias de notificación. Esta opción está disponible para una cuenta profesional o educativa si lo permite su organización. Para obtener más información, consulte Habilitar Enterprise State Roaming en Microsoft Entra ID
+Si ha desactivado la copia de seguridad y desea eliminar los datos de los que se ha realizado una copia de seguridad anteriormente en su cuenta de Microsoft, puede visitar la página Dispositivos de su cuenta de Microsoft , encontrar la sección Configuración sincronizada en la nube en la parte inferior de la página y seleccionar y seleccionar Borrar configuración almacenada .
+Nota
+El soporte técnico para Windows 10 finalizó el 14 de octubre de 2025
+Después del 14 de octubre de 2025, Microsoft ya no proporcionará actualizaciones de software gratuitas desde Windows Update, asistencia técnica ni correcciones de seguridad para Windows 10. El PC seguirá funcionando, pero recomendamos que se cambie a Windows 11.
+Más información
+Su PC Windows viene con una solución de copia de seguridad integral, Copias de seguridad de Windows , que le ayuda a realizar una copia de seguridad de muchas de las cosas que son más importantes para usted. Desde los archivos, temas y configuraciones hasta muchas de las aplicaciones instaladas e información Wi-Fi, Copias de seguridad de Windows protege lo importante y hace que sea más fácil que nunca pasar a un equipo nuevo.
+En esta guía se describe cómo usar las Copias de seguridad de Windows y las distintas opciones de configuración para realizar copias de seguridad y restaurar elementos clave en su PC Windows.
+Hacer una copia de seguridad de tu PC
+Paso 1: iniciar sesión con una cuenta de Microsoft
+Esta es la cuenta asociada a Windows, Microsoft 365, OneDrive, Xbox y mucho más. La información de la copia de seguridad se almacenará con tu cuenta de Microsoft, por lo que volver a tus cosas en un equipo nuevo es tan fácil como iniciar sesión.
+En la aplicación Configuración de tu dispositivo Windows, selecciona Cuentas > Tu información o usa el siguiente acceso directo:
+Tu información
+Seleccione Iniciar sesión con una cuenta de Microsoft en su lugar . Solo verás esto si usas una cuenta local. Si ves Iniciar sesión con una cuenta local en su lugar , ya estás usando tu cuenta de Microsoft
+Importante
+Actualmente, la aplicación Copias de seguridad de Windows se centra en dispositivos de consumidor, por ejemplo, dispositivos que se pueden usar iniciando sesión en una cuenta personal de Microsoft (MSA) como *@outlook.com, *@live.com, etc. Las cuentas profesionales o educativas de Microsoft no funcionarán.
+Crear una nueva cuenta de Microsoft
+Paso 2: Hacer una copia de seguridad de las carpetas
+Copias de seguridad de Windows es una parada sencilla y única para todas sus necesidades de copia de seguridad. Su cuenta Microsoft gratuita incluye 5 GB de almacenamiento en la nube de OneDrive (y hay más almacenamiento disponible para comprar si lo necesita), y la copia de seguridad de sus carpetas sincroniza las carpetas que especifique con su cuenta de OneDrive, lo que las hace accesibles al instante en todos los equipos que use con esta cuenta Microsoft. Y dado que están sincronizados con OneDrive, una vez que inicie sesión en OneDrive en un equipo nuevo, esos archivos estarán disponibles una vez más.
+Para abrir las Copias de seguridad de Windows, búsquelo en el menú Inicio:
+Seleccionar Inicio
+Escriba backupy seleccione Copias de seguridad de Windows en los resultados
+Expanda Carpetas y seleccione cuáles de las carpetas de usuario desea realizar una copia de seguridad en OneDrive. Puede hacer una copia de seguridad de las carpetas Escritorio , Documentos , Imágenes , Vídeos y Música activando el conmutador de cada carpeta
+Recomendación
+también puede administrar la configuración de las Copias de seguridad de Windows desde Configuración. En la aplicación Configuración de tu dispositivo Windows, selecciona Copias de seguridad de Windows de cuentas >.
+Paso 3: Haz una copia de seguridad de tu configuración y preferencias
+Con las Copias de seguridad de Windows, tienes la flexibilidad de elegir la configuración y las preferencias de Windows de las que quieres hacer una copia de seguridad. Las opciones disponibles son:
+Aplicaciones instaladas
+Accesibilidad
+Cuentas, red Wi-Fi y contraseñas
+Personalización como fondo de pantalla, color, tema, diseño de inicio, etc.
+Nota
+La personalización requiere el inicio de sesión de OneDrive y el almacenamiento disponible. No se realizará una copia de seguridad de las preferencias de personalización si no tiene suficiente almacenamiento en OneDrive.
+Preferencias de idioma y diccionario
+Otra configuración de Windows
+Para comprobar el estado de todas estas opciones de configuración desde Copias de seguridad de Windows, expanda cada elemento. Para hacer una copia de seguridad de una configuración, actívela .
+Nota
+Si se ha realizado una copia de seguridad de esta configuración en el pasado (y algunas lo hacen de forma predeterminada), se mostrarán como copias de seguridad y el botón de alternancia no estará disponible. Si desea dejar de realizar copias de seguridad, consulte Modificar la configuración de copia de seguridad .
+Una vez que tengas todo configurado de la forma que quieras, selecciona Copia de seguridad .
+Si recibe un error de OneDrive al intentar realizar una copia de seguridad, es posible que no haya iniciado sesión en OneDrive, que el almacenamiento sea insuficiente o que haya otro problema con OneDrive que deba resolverse para que funcionen las Copias de seguridad de Windows. Para obtener más información, consulte Solución de problemas de Sincronización de OneDrive .
+Paso 4: ¡Es hora de relajarse!
+¡Ya hemos acabado! Se realiza una copia de seguridad de las carpetas y la configuración y puedes acceder a tus archivos en todos los equipos en los que inicies sesión con esta cuenta de Microsoft.
+Si desea comprobar y asegurarse de que aún se ha realizado una copia de seguridad de todo, puede abrir la aplicación Copias de seguridad de Windows y esta mostrará el estado actual de la copia de seguridad.
+También puedes comprobar el estado de la copia de seguridad de OneDrive desde la página principal de la configuración:
+¿Qué pasa con mis preferencias de Microsoft Edge?
+Para explorar fácilmente la Web desde cualquiera de tus dispositivos y mantener los favoritos organizados, inicia sesión en Microsoft Edge y activa la sincronización.
+Iniciar sesión para sincronizar Microsoft Edge entre dispositivos
+Modificar la configuración de la copia de seguridad
+Si desea cambiar la configuración de la copia de seguridad, abra Configuración > cuentas > de Copias de seguridad de Windows o use el siguiente acceso directo:
+Copias de seguridad de Windows
+Para cambiar la configuración de la copia de seguridad de archivos, seleccione Hacer una copia de seguridad de archivos y modifique las carpetas que desea sincronizar con OneDrive
+Para modificar la copia de seguridad de las aplicaciones, use el botón de alternancia Obtener acceso rápido a las aplicaciones en un dispositivo Windows . Esta configuración no está disponible para cuentas de trabajo o escuela, y Windows no recuerda las aplicaciones para cuentas de trabajo o escuela
+Para modificar la copia de seguridad de la configuración, use los botones de alternancia que aparecen en Recordar mis preferencias
+Si ha desactivado la copia de seguridad y desea eliminar los datos de los que se ha realizado una copia de seguridad anteriormente en su cuenta de Microsoft, puede visitar la página Dispositivos de su cuenta de Microsoft , encontrar la sección Configuración sincronizada en la nube en la parte inferior de la página y seleccionar y seleccionar Borrar configuración almacenada .
+Restaurar el equipo
+Cómo restauro una copia de seguridad?
+¡Te cubrimos las espaldas! Cuando adquiera un nuevo PC o tenga que reinstalar Windows, cuando lo esté configurando, inicie sesión con la misma cuenta de Microsoft que utilizó para realizar la copia de seguridad aquí. Veremos que tiene copias de seguridad y le preguntaremos si desea restaurar alguna.
+Si tiene más de una copia de seguridad de PC, puede seleccionar Más opciones y seleccionar la copia de seguridad desde la que desea restaurar. Cuando llegues a tu escritorio, ¡todo estará allí esperándote!
+Los pines de las aplicaciones se restauran donde los dejaste. Las aplicaciones que están disponibles en Microsoft Store se pueden restaurar seleccionando el sitio anclado de la aplicación para empezar. Para las aplicaciones que no están disponibles en Store, se te dirigirá a la Web para descargar el instalador
+La configuración más importante también se restaurará en el nuevo dispositivo. Para obtener una lista completa de las opciones de configuración admitidas, consulte el catálogo de configuración de Copias de seguridad de Windows
+Los Files se pueden restaurar en cualquier momento iniciando sesión en OneDrive con la misma cuenta de Microsoft que usó para realizar la copia de seguridad original
+Temas relacionados
+Copias de seguridad de Windows Catálogo de configuración
+Página principal de la cuenta de Microsoft

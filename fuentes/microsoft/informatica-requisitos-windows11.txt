@@ -1,0 +1,61 @@
+Requisitos del sistema de Windows 11
+https://support.microsoft.com/es-es/windows/experience/compatibility/windows-11-system-requirements
+Descargado: 2026-10-13
+
+Requisitos del sistema de Windows 11
+Obtener ayuda con Copilot
+¿Cuáles son los pasos para actualizar a Windows 11 en modo S?
+Muéstrame cómo actualizar a Windows 11 de forma gratuita.
+¿Cómo puedo configurar Windows 11 en modo S en Windows 11?
+Resumen
+Windows 11 está diseñado para acercarte a lo que te gusta, iniciando en un momento en que los PC son más centrales que nunca en la forma en que nos conectamos, creamos y jugamos. Al establecer los requisitos mínimos del sistema para Windows 11, nos centramos en tres principios rectores para garantizar una gran experiencia del usuario:
+Confiabilidad
+Seguridad
+Compatibilidad
+Para una comprensión más profunda de nuestros requisitos mínimos del sistema y cómo estos principios influyeron en nuestras decisiones, consulte esta entrada detallada del blog .
+Nota
+En este artículo se describen los requisitos mínimos del sistema para ejecutar Windows 11 en un equipo. Estos requisitos están diseñados para garantizar una gran experiencia informática en una variedad de dispositivos, tanto ahora como en el futuro. Las funciones específicas, las aplicaciones y el hardware que agregues a tu PC pueden superar estos requisitos mínimos. Para obtener más información sobre los requisitos específicos de las características, visite la página Windows 11 especificaciones . Para obtener más información sobre los requisitos de las aplicaciones o el hardware, consulta al editor o fabricante específico.
+Requisitos mínimos del sistema para ejecutar Windows 11
+Estos son los requisitos mínimos del sistema que el equipo debe cumplir:
+Procesadores/CPU (Unidades de procesamiento central)
+1 GHz o más rápido con 2 o más núcleos y que aparece en nuestra lista de CPU aprobadas . El procesador de tu PC será un factor determinante principal para ejecutar Windows 11. La velocidad del reloj (el requisito de 1 GHz o más rápido) y el número de núcleos (2 o más) son inherentes al diseño del procesador, ya que se fabricó y no se consideran componentes actualizables.
+RAM
+4 GB. Si el equipo tiene menos de 4 GB de memoria, a veces hay opciones para actualizar para obtener memoria RAM adicional. Es posible que quieras consultar el sitio web del fabricante de tu PC o con un distribuidor para ver si hay opciones fáciles y asequibles para cumplir los requisitos mínimos de Windows 11.
+Almacenamiento
+64 GB o dispositivo de almacenamiento más grande. Si el equipo no tiene una unidad de almacenamiento lo suficientemente grande, a veces hay opciones para actualizar la unidad. Es posible que quieras consultar el sitio web del fabricante de tu PC o con un distribuidor para ver si hay opciones fáciles y asequibles para cumplir los requisitos mínimos de Windows 11.
+Firmware del sistema
+UEFI (para Unified Extensible Firmware Interface, una versión moderna del BIOS del equipo) y compatible con el arranque seguro. Si el dispositivo no cumple los requisitos mínimos porque no es compatible con el arranque seguro, es posible que quieras leer este artículo para ver si hay pasos que puedes seguir para habilitarlo. El arranque seguro solo puede habilitarse con UEFI y este artículo te ayudará a comprender las posibles opciones de cambiar la configuración para que esto sea posible.
+TPM
+Módulo de plataforma segura (TPM) versión 2.0. Si el dispositivo no cumple los requisitos mínimos debido a TPM, es posible que quieras leer este artículo para ver si hay pasos que puedes seguir para corregirlo.
+Tarjeta gráfica
+Compatible con DirectX 12 o posterior con controlador WDDM 2.0.
+Mostrar
+Pantalla de alta definición (720p) superior a 9" diagonalmente, 8 bits por canal de color. Si el tamaño de la pantalla es inferior a 9", es posible que la interfaz de usuario de Windows no sea totalmente visible.
+Conectividad a Internet y cuentas de Microsoft
+Windows 11 Pro para uso personal y Windows 11 Home requieren conectividad a Internet y una cuenta de Microsoft durante la configuración inicial del dispositivo.
+Versión de Windows para actualización
+El dispositivo debe ejecutar Windows 10, versión 2004 o posterior, para actualizar a través de Windows Update. Las actualizaciones gratuitas están disponibles a través de Windows Update en Actualización de configuración > y seguridad .
+Actualizar a Windows 11 en modo S
+Nota
+Para Windows 10 Pro, Windows Education y Windows Enterprise, el modo S ya no está disponible en Windows 11. Los usuarios que quieran actualizar a Windows 11 tendrán que salir del modo S y no tendrán una opción para volver. Windows 10 Home puede actualizar a Windows 11 Home en modo S sin tener que salir del modo S.
+Antes de actualizar a Windows 11 , sigue estas instrucciones para salir del modo S:
+En el equipo que ejecuta Windows 10 en modo S, abre Configuración > Update & Activación de seguridad >.
+Busca la sección Cambiar a Windows 10 Home o Cambiar a Windows 10 Pro y luego selecciona el vínculo Ir a Store .
+Importante
+No debes seleccionar el vínculo de Actualizar la edición de Windows . Se trata de un proceso distinto que te mantendrá en modo S.
+En la página que aparece en Microsoft Store (Salir del modo S o de una página similar), selecciona el botón Obtener . Después de confirmar esta acción, podrás instalar aplicaciones que no pertenezcan a Microsoft Store.
+Windows 11 elegibilidad para la actualización
+Sabemos que algunos clientes querrán un proceso fácil de usar para determinar si su equipo cumple los requisitos mínimos del sistema para Windows 11 y es apto para la actualización. Para ayudar con esto, proporcionamos la aplicación Comprobación de estado del equipo para Windows 10 equipos. Además de las comprobaciones de diagnóstico, hay una forma sencilla de comprobar la idoneidad de la actualización para Windows 11.
+Windows Update también ofrecen una forma de evaluar la idoneidad para la actualización desde el Windows Update de seguridad > de Configuración > Update &.
+Nota
+Estas opciones están diseñadas para equipos de cliente que no están administrados por un administrador de TI. Si tu equipo está administrado por un administrador de TI, deberías consultar con ellos las opciones para evaluar la idoneidad y actualizar a Windows 11.
+Importante
+Si realizas cambios en el equipo para cumplir los requisitos de actualización, espera a actualizar hasta que Windows Update te notifique que Windows 11 está listo para tu dispositivo.
+Si el equipo no es apto para Windows 11 y no estás listo para reemplazarlo, puedes seguir usando Windows 10 hasta el 14 de octubre de 2025 o actualizar a un nuevo dispositivo que cumpla los requisitos del sistema Windows 11.
+También te puede gustar...
+La Administrador de PC de Microsoft para ayudar a proteger un equipo a mejorar el rendimiento.
+No disponible en todas las configuraciones regionales.
+Artículos relacionados
+Encontrar Windows 11 especificaciones, características y requisitos del equipo
+Formas de instalar Windows 11
+Ayuda de Windows & aprendizaje

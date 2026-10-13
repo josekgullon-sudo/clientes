@@ -1,0 +1,34 @@
+Mantente protegido con Seguridad de Windows
+https://support.microsoft.com/es-es/windows/security/windows-security/stay-protected-with-the-windows-security-app
+Descargado: 2026-10-13
+
+Mantente protegido con la aplicación Seguridad de Windows
+Se aplica a Windows 11 Windows 10
+Obtener ayuda con Copilot
+¿Cómo activo o desactivo la protección de Defender Antivirus?
+¿Cómo envío un correo electrónico programado?
+¿Cómo ejecuto un análisis de malware manualmente?
+Resumen
+La aplicación Seguridad de Windows es una solución de seguridad integral integrada en Windows, diseñada para proteger el dispositivo y los datos de diversas amenazas. Incluye características como Antivirus de Microsoft Defender, Firewall de Windows y Control Inteligente de Aplicaciones, que trabajan juntas para proporcionar protección en tiempo real contra virus, malware y otras amenazas de seguridad. La aplicación está integrada en Windows, lo que garantiza que el dispositivo está protegido desde el momento en que la inicias.
+Recomendación
+Si eres suscriptor de Microsoft 365 Familia o Personal, obtendrás Microsoft Defender, nuestro software de seguridad avanzada para Windows, Mac, iOS y Android, como parte de tu suscripción. Más información en Introducción a Microsoft Defender.
+Una de las principales ventajas de la aplicación Seguridad de Windows es su capacidad para proporcionar protección en tiempo real. Antivirus de Microsoft Defender examina continuamente el dispositivo en busca de posibles amenazas y toma medidas inmediatas para neutralizarlas. Este enfoque proactivo ayuda a evitar infecciones de malware y mantiene el dispositivo funcionando sin problemas. Además, la función de firewall monitorea el tráfico de red entrante y saliente, bloqueando cualquier actividad sospechosa para proteger sus datos y privacidad.
+Para abrir la aplicación Seguridad de Windows, búsquela en el menú Inicio.
+Abrir Seguridad de Windows
+Tareas comunes
+Aquí tienes una breve lista de tareas comunes que puedes llevar a cabo desde la aplicación de Seguridad de Windows. Expande cada sección para obtener más información:
+Ejecutar un examen de malware manualmente
+Si te preocupa un archivo o carpeta específico en el dispositivo local, puedes hacer clic con el botón derecho en el archivo o carpeta en el Explorador de archivos y seleccionar Examinar con Microsoft Defender .
+Recomendación
+En Windows 11, es posible que tengas que seleccionar Mostrar más opciones después de hacer clic con el botón derecho para ver la opción de examinar el archivo o carpeta.
+Realice un examen rápido
+Si sospechas que hay malware o un virus en tu dispositivo, debes ejecutar inmediatamente un análisis rápido.
+En la aplicación Seguridad de Windows del equipo, selecciona Protección contra virus & amenazas > Examen rápido o usa el siguiente acceso directo:
+Iniciar un examen rápido
+Si el examen no encuentra ningún problema, pero te sigue preocupando, es posible que quieras comprobar el dispositivo con más detalle.
+Activar o desactivar la protección en tiempo real del Antivirus de Defender
+A veces es posible que tengas que dejar de ejecutar brevemente la protección en tiempo real. Mientras la protección en tiempo real esté desactivada, no se analizarán en busca de amenazas los archivos que abras ni los que descargues. Sin embargo, la protección en tiempo real pronto se activará automáticamente para proteger el dispositivo.
+En la aplicación Seguridad de Windows del equipo, selecciona Protección contra amenazas & > virus Administra la configuración o usa el siguiente acceso directo:
+Configuración de la protección contra virus & amenazas
+Puedes activar o desactivar la protección en tiempo real con el botón de alternar.
+Para obtener más información sobre la aplicación Seguridad de Windows y todas sus características, consulte Información general sobre la aplicación de Seguridad de Windows .

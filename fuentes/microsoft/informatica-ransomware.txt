@@ -1,0 +1,56 @@
+Proteger el PC contra el ransomware
+https://support.microsoft.com/es-es/security/protect-your-pc-from-ransomware
+Descargado: 2026-10-13
+
+Proteger el PC contra el ransomware
+Se aplica a Security Windows 7 Windows 8.1 Windows 10
+Obtener ayuda con Copilot
+¿Cómo protejo mi PC contra el ransomware?
+Explica cómo proteger la PC de software no deseado.
+Explica cómo protegerme de estafas.
+El ransomware es un malware que cifra tus archivos o te impide usar tu equipo hasta que pagues dinero (un rescate) para que se desbloqueen. Si tu equipo está conectado a una red, el ransomware también puede propagarse a otros equipos o dispositivos de almacenamiento en la red.
+Entre las formas en las que ransomware puede infectarte se incluyen las siguientes:
+Visitar sitios web falsos, no seguros o sospechosos.
+Abrir archivos adjuntos de correos electrónicos que no esperabas o de personas que no conoces.
+Abrir vínculos incorrectos o malintencionados de correos electrónicos, Facebook, Twitter y otras publicaciones de redes sociales, o en los chats de mensajería instantánea.
+A menudo, puedes reconocer un correo electrónico y una página web porque la ortografía es incorrecta, o simplemente su aspecto es inusual. Presta atención a si hay nombres de empresas escritos de forma extraña (por ejemplo, "PayePal" en lugar de "PayPal") o espacios, símbolos o signos de puntuación inusuales (como "Servicio de atención al cliente deiTunes" en lugar de "Servicio de atención al cliente de iTunes").
+El ransomware puede dirigirse a cualquier equipo, tanto un equipo doméstico, equipos en una red de empresa o servidores que usa un organismo gubernamental.
+Precaución
+Los dispositivos móviles también pueden verse afectados por ransomware.
+Obtenga información sobre cómo proteger sus dispositivos
+¿Cómo puedo ayudar a proteger mi equipo?
+Asegúrate de que el equipo esté actualizado con la versión más reciente de Windows y todas las revisiones recientes.
+Más información acerca de Windows Update .
+Asegúrate de que Seguridad de Windows esté activada para ayudarte a protegerte de los virus y el malware (o el Centro de seguridad de Windows Defender en versiones anteriores de Windows 10).
+En Windows 10 u 11, activa el Acceso controlado a carpetas para proteger las carpetas locales importantes de programas no autorizados como ransomware u otro malware.
+Obtenga detección de ransomware y recuperación mediante la protección avanzada de Microsoft 365 .
+Almacenar archivos importantes en Microsoft OneDrive. OneDrive incluye detección y recuperación de ransomware integradas , así como control de versiones de archivos para que pueda restaurar una versión anterior de un archivo. Y cuando editas archivos de Microsoft Office almacenados en OneDrive, tu trabajo se guarda automáticamente a medida que avanzas.
+Usa un navegador moderno, como Microsoft Edge .
+Reinicia tu equipo periódicamente; al menos una vez a la semana. Esto permite asegurar que las aplicaciones y el sistema operativo están actualizados y ayuda a que el sistema funcione mejor.
+Nota
+Si eres el propietario de una pequeña empresa, considera la posibilidad de usar Microsoft 365 Empresa Premium. Incluye ATP de Microsoft Defender para ayudar a proteger tu empresa contra amenazas en línea.
+Más información sobre Seguridad de Microsoft 365 Empresa Premium
+Si sospechas de una infección
+Use programas antimalware, como Seguridad de Windows, cada vez que crea que el equipo esté infectado. Por ejemplo, si oye acerca de un tipo de malware nuevo en las noticias o si observa un comportamiento extraño en el PC. Consulta Protección contra virus y amenazas de Seguridad de Windows para saber cómo analizar el dispositivo en busca de amenazas .
+Si realmente el equipo está infectado con ransomware
+Desafortunadamente, una infección de ransomware normalmente no se muestra hasta que ves algún tipo de notificación, en una ventana, una aplicación o un mensaje de pantalla completa, en el que se te pide dinero para recuperar el acceso a tu PC o a los archivos. A menudo, estos mensajes se muestran después de cifrar los archivos.
+Intenta limpiar completamente tu equipo con Seguridad de Windows . Debes hacer esto antes de intentar recuperar los archivos. Consulta también Hacer una copia de seguridad de tu PC Windows para obtener ayuda en la creación de copias de seguridad y la recuperación de archivos para tu versión de Windows.
+No pagues nada de dinero para recuperar los archivos. Aunque pagues el rescate, no hay ninguna garantía de que vuelvas a obtener acceso a tu PC o los archivos.
+Qué debes hacer si ya pagaste
+Si ya has pagado el rescate, ponte en contacto inmediatamente con tu banco y las autoridades locales. Si has pagado con una tarjeta de crédito, es posible que el banco pueda bloquear la transacción y devolverte el dinero.
+También puedes ponerte en contacto con los siguientes sitios web de denuncias de estafas y fraude del gobierno:
+En Australia, visita el sitio web de SCAMwatch .
+En Canadá, visita el Canadian Anti-Fraud Centre .
+En Francia, visita el sitio web de Agence nationale de la sécurité des systèmes d'information .
+En Alemania, visita el sitio web de Bundesamt für Sicherheit in der Informationstechnik .
+En Irlanda, visita el sitio web de An Garda Síochána .
+En Nueva Zelanda, visita el sitio web de Consumer Affairs Scams .
+En el Reino Unido, visita el sitio web de Action Fraud .
+En los Estados Unidos, visita el sitio web de On Guard Online .
+Si no aparece aquí tu región, Microsoft recomienda que te pongas en contacto con la policía federal o la autoridad de comunicaciones de tu región.
+Para obtener una introducción ilustrada sobre ransomware y lo que puedes hacer para protegerte, consulta The 5Ws and 1H of ransomware (Las 5 preguntas indispensables y un modo de evitar ransomware).
+Si estás en una empresa, consulta el Centro de protección contra malware de Microsoft para obtener información detallada sobre ransomware .
+Vea también
+Cómo el malware puede infectar tu equipo
+Protección contra estafas y ataques en línea
+Hacer una copia de seguridad de tu PC Windows

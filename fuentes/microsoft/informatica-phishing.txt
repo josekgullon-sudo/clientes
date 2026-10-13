@@ -1,0 +1,60 @@
+Protegerse contra la suplantación de identidad (phishing)
+https://support.microsoft.com/es-es/security/protect-yourself-from-phishing
+Descargado: 2026-10-13
+
+Protéjase del fraude en línea
+Obtener ayuda con Copilot
+¿Cómo identifico un mensaje de phishing en Microsoft 365?
+¿Cómo me protege Outlook del phishing?
+Proporcione una guía rápida para protegerme del phishing.
+El phishing es un ataque que intenta robar su dinero o su identidad, haciendo que divulgue información personal (como números de tarjeta de crédito, información bancaria o contraseñas) en sitios web que fingen ser sitios legítimos. Los ciberdelincuentes suelen fingir ser empresas prestigiosas, amigos o conocidos en un mensaje falso, que contiene un vínculo a un sitio web de phishing.
+Para obtener más información, seleccione los títulos siguientes.
+Obtenga información sobre cómo detectar un mensaje de phishing
+El phishing es una forma popular de ciberdelincuencia debido a su eficacia. Los ciberdelincuentes han tenido éxito al usar correos electrónicos, mensajes de texto y mensajes directos en las redes sociales o en videojuegos para que las personas respondan con su información personal. La mejor defensa es el conocimiento y saber qué buscar.
+Aquí se muestran algunas formas de reconocer un correo electrónico de phishing:
+Llamada urgente a la acción o amenazas: sospeche de los correos electrónicos y mensajes de Teams que afirman que debe hacer clic, llamar o abrir un archivo adjunto de inmediato . A menudo, afirmarán que tiene que actuar ahora para reclamar una recompensa o evitar una penalización.
+Crear un falso sentido de urgencia es un truco común de los ataques de phishing y estafas. Lo hacen para que no piense en ello demasiado ni consulte con un asesor de confianza que pueda advertirle.
+Recomendación
+Cuando vea un mensaje que exige una acción inmediata, espere un momento y revíselo con cuidado. ¿Seguro que es real? Pause y protéjase.
+Remitentes infrecuentes o marcados como [externos]: aunque no es habitual recibir un correo electrónico o un mensaje de Teams por primera vez, especialmente si está fuera de la organización, esto puede ser una señal de suplantación de identidad (phishing). Disminuya la velocidad y tenga especial cuidado en estos momentos. Cuando reciba un correo electrónico o un mensaje de Teams de alguien que no reconoce, o que Outlook o Teams identifican como un nuevo remitente, examine el correo electrónico o el mensaje de Teams con sumo cuidado siguiendo algunas de las medidas que se indican a continuación.
+Mala ortografía y mala gramática: las empresas y organizaciones profesionales suelen tener un personal editorial y de redacción para asegurarse de que los clientes reciban contenido profesional de alta calidad. Si un mensaje de correo electrónico tiene errores ortográficos o gramaticales obvios, es posible que se trate de una estafa. Estos errores a veces son el resultado de una traducción incorrecta de otro idioma. A veces es deliberado, en un intento de sortear filtros que intentan bloquear estos ataques.
+Saludos genéricos : una organización que trabaja con usted debe conocer su nombre y, hoy en día, es fácil personalizar un correo electrónico. Si el correo electrónico empieza con un mensaje genérico, como "Estimado señor o señora", es un signo de que puede que no sea realmente su banco o sitio de compras.
+Dominios de correo electrónico que no coinciden : si el correo electrónico dice ser de una empresa acreditada, como Microsoft o su banco, pero el correo se envía desde otro dominio de correo electrónico como Gmail.com o microsoftsupport.ru probablemente sea una estafa. También esté atento a los errores ortográficos muy sutiles del nombre del dominio legítimo. Como micros0ft.com donde la segunda "o" se ha reemplazado por un 0 o rnicrosoft.com, donde la "m" se ha reemplazado por una "r" y una "n". Son trucos comunes de estafadores.
+Outlook muestra un banner que indica que no pudimos verificar el remitente : Outlook muestra este banner cuando algo en los encabezados de correo electrónico es sospechoso. Tal vez el correo electrónico no se había autenticado utilizando los estándares de Internet comúnmente aceptados . Quizás el campo De pueda tener un valor que se desvíe de los estándares de la industria para representar erróneamente al remitente real y engañar al servidor de correo electrónico. Sea lo que sea, debe tener cuidado con el contenido del correo electrónico.
+Vínculos sospechosos o datos adjuntos inesperados : si sospecha que un mensaje de correo electrónico o un mensaje en Teams es un fraude, no abra los vínculos o datos adjuntos que vea. En su lugar, pase el ratón por encima, pero no haga clic en el vínculo. Mire la dirección que aparece cuando mantiene el puntero sobre el vínculo. Pregúntese si esa dirección coincide con el vínculo escrito en el mensaje. En el ejemplo siguiente, al situar el mouse sobre el vínculo, la dirección web real se muestra en el cuadro con el fondo amarillo. La cadena de números no se parece en nada a la dirección web de la empresa.
+Recomendación
+En Android, mantenga presionado el vínculo para obtener una página de propiedades que revelará el verdadero destino del vínculo. En iOS, haga lo que Apple llama una "pulsación ligera y prolongada".
+Los ciberdelincuentes también pueden convencerle de visitar sitios web falsos con otros métodos, como mensajes de texto o llamadas telefónicas. Si se siente amenazado o presionado, puede ser el momento de colgar, encontrar el número de teléfono del establecimiento y volver a llamar cuando tenga la cabeza despejada. Los ciberdelincuentes más sofisticados configuran centralitas para llamar o enviar mensajes automáticamente a números de potenciales objetivos. Estos mensajes suelen incluir indicaciones para que escriba un número PIN u otro tipo de información personal.
+Para obtener más información, consulta Cómo detectar una estafa de "pedido falso".
+Nota
+¿Es un administrador o profesional de Tecnologías de la información?
+Si es así, debe tener en cuenta que los intentos de suplantación de identidad (phishing) pueden dirigirse a los usuarios de Teams. Tomar medidas.
+Obtenga más información sobre qué hacer al respecto aquí .
+Si tiene una suscripción a Microsoft 365 con la protección contra amenazas avanzada, puede habilitar el filtro de protección contra suplantación de identidad (anti-phishing) de ATP para proteger a los usuarios.
+Más información
+Si recibe un correo electrónico o un mensaje de suplantación de identidad (phishing) en Teams
+No haga clic nunca en vínculos ni datos adjuntos en correos electrónicos o mensajes de Teams sospechosos. Si recibe un mensaje sospechoso de una organización y le preocupa que pueda ser legítimo, vaya a su explorador web y abra una nueva pestaña. A continuación, vaya al sitio web de la organización desde su propio favorito guardado o a través de una búsqueda web. Hable con ellos usando números oficiales o correos electrónicos desde su sitio. Llame a la organización con un número de teléfono que aparece en la parte posterior de una tarjeta de suscripción , que está impreso en una factura o extracto , o que se encuentra en el sitio web oficial de la organización .
+Si parece que el mensaje sospechoso procede de una persona a quien conoce, póngase en contacto con esa persona por otros medios , como por mensaje de texto o llamada de teléfono, para confirmarlo.
+Informe del mensaje (consulte a continuación).
+Elimínelo.
+Cómo informar de una estafa de phishing
+Microsoft 365 Outlook y Outlook.com : con el mensaje sospechoso seleccionado, elija Informe > de suplantación de identidad (phishing ) en la cinta de opciones. Esta es la forma más rápida de notificar el mensaje, quitarlo de la Bandeja de entrada y mejorar nuestros filtros para que pueda recibir menos de estos mensajes en el futuro. Para obtener más información, consulte Notificar suplantación de identidad (phishing ).
+Mensajes de Teams : si está en Microsoft Teams, mantenga el puntero sobre el mensaje malintencionado sin seleccionarlo y, después, seleccione Más opciones > Más acciones > Notificar este mensaje . Cuando se te pida "Informar de este mensaje", elige la opción Riesgo de seguridad: spam, suplantación de identidad (phishing) y contenido malintencionado está seleccionado y, a continuación, selecciona Informar. Haz clic en el botón Informar .
+Si ves signos de una estafa y sospechas de un mensaje, más vale prevenir que curar. ¡Cuéntalo!
+Nota
+Si usa un cliente de correo electrónico que no sea Outlook, incluya el mensaje de suplantación de identidad (phishing) como datos adjuntos en un nuevo correo electrónico en .phish@office365.microsoft.com No reenvíe el correo electrónico sospechoso; Necesitamos el correo electrónico original como datos adjuntos para poder examinar los encabezados de los mensajes.
+Si se encuentra en un sitio web sospechoso:
+Cuando se encuentre en un sitio sospechoso en Microsoft Edge, seleccione el botón Configuración y Más (...) hacia la esquina superior derecha de la ventana y, después, Ayuda y comentarios > Notificar sitios no seguros. O haga clic aquí .
+Recomendación
+ALT+F abrirá el menú Configuración y más .
+Para más información, consulte Explorar la Web de forma segura en Microsoft Edge.
+Qué hacer si cree que ya ha sufrido un ataque de phishing
+Si sospecha que ha sido víctima de un ataque de phishing, hay algunas cosas que debe hacer.
+Anote todos los detalles del ataque antes de que los olvide. En particular, trate de anotar cualquier información como nombres de usuario, números de cuenta o contraseñas que pueda haber compartido y dónde se produjo el ataque, como en Teams o Outlook.
+Cambie inmediatamente la contraseña en todas las cuentas afectadas y en cualquier otro lugar donde quiera usar la misma contraseña. Cuando cambie de contraseña, tenga en cuenta que debe crear una contraseña distinta para cada cuenta. Le recomendamos consultar Crear y usar contraseñas seguras.
+Confirme que tiene activada la autenticación multifactor (también denominada verificación en dos pasos) para todas las cuentas que pueda. Vea ¿Qué es?: Autenticación multifactor
+Si este ataque afecta a sus cuentas profesionales o educativas, debe avisar al soporte técnico de TI de su trabajo o escuela del posible ataque. Si ha compartido información de las tarjetas de crédito o cuentas bancarias, es posible que quiera ponerse en contacto con estas empresas para alertarles de la posibilidad de fraude.
+Si ha perdido dinero o ha sido víctima del robo de identidad, no lo dude en informar a las autoridades locales . Los detalles del paso 1 les serán muy útiles.
+Vea también
+Las llaves del reino: asegurar los dispositivos y cuentas
+Cómo puede el malware infectar su equipo

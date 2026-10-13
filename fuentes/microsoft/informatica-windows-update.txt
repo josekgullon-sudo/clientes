@@ -1,0 +1,39 @@
+Instalar actualizaciones de Windows
+https://support.microsoft.com/es-es/windows/deployment/updates-lifecycle/install-windows-updates
+Descargado: 2026-10-13
+
+Instalar Novedades de Windows
+Se aplica a Windows 11 Windows 10 Windows
+Windows 11
+Windows 10
+En Windows, tú decides cuándo y cómo obtener las últimas actualizaciones para mantener el dispositivo funcionando sin problemas y protegido.
+Instalar actualizaciones en Windows
+Seleccione Inicio Configuración , Windows Update >, seleccione Buscar actualizaciones de Windows.
+Si hay actualizaciones disponibles, selecciona Descargar & instalar . Su dispositivo descargará e instalará las actualizaciones. Si se te pide, reinicia el dispositivo para aplicar las actualizaciones.
+Recomendaciones de Windows Update
+Para obtener las Novedades de Windows automáticamente, consulta Obtener las últimas actualizaciones de Windows en cuanto estén disponibles para el dispositivo .
+Para evitar instalaciones y reinicios incómodos cuando usa el dispositivo desde las Novedades de Windows, consulte Mantener el dispositivo actualizado con las horas activas.
+Buscar actualizaciones de Windows
+Temas relacionados con Windows Update
+Si recibes un error al intentar actualizar o tienes problemas al instalar actualizaciones, consulta Solución de problemas de actualización de Windows .
+Si Windows Update le advierte que no tiene suficiente espacio en el dispositivo para instalar actualizaciones, consulte Liberar espacio para las actualizaciones de Windows .
+Si no se ofrece la versión más reciente automáticamente a través de Buscar actualizaciones, puede obtenerla manualmente a través del Asistente de Windows Update .
+Para obtener respuestas a preguntas frecuentes, consulta Windows Update: preguntas frecuentes .
+Nota
+El soporte técnico para Windows 10 finalizó el 14 de octubre de 2025
+Después del 14 de octubre de 2025, Microsoft ya no proporcionará actualizaciones de software gratuitas desde Windows Update, asistencia técnica ni correcciones de seguridad para Windows 10. El PC seguirá funcionando, pero recomendamos que se cambie a Windows 11.
+Más información
+En Windows, tú decides cuándo y cómo obtener las últimas actualizaciones para mantener el dispositivo funcionando sin problemas y protegido.
+Instalar actualizaciones en Windows
+Selecciona Inicio , ve a Configuración Actualizar & Seguridad Windows Update > selecciona Buscar actualizaciones de Windows .
+Si hay actualizaciones disponibles, selecciona Descargar & instalar . Su dispositivo descargará e instalará las actualizaciones. Si se te pide, reinicia el dispositivo para aplicar las actualizaciones.
+Recomendaciones de Windows Update
+Para obtener las Novedades de Windows automáticamente, consulta Obtener las últimas actualizaciones de Windows en cuanto estén disponibles para el dispositivo .
+Para evitar instalaciones y reinicios incómodos cuando usa el dispositivo desde las Novedades de Windows, consulte Mantener el dispositivo actualizado con las horas activas.
+Buscar actualizaciones de Windows
+Temas relacionados con Windows Update
+Si necesita más información sobre cómo actualizar a Windows 11, consulte Windows 11: Preguntas frecuentes .
+Si recibes un error al intentar actualizar o tienes problemas al instalar actualizaciones, consulta Solución de problemas de actualización de Windows .
+Si Windows Update le advierte que no tiene suficiente espacio en el dispositivo para instalar actualizaciones, consulte Liberar espacio para las actualizaciones de Windows .
+Si no se ofrece la versión más reciente automáticamente a través de Buscar actualizaciones, puede obtenerla manualmente a través del Asistente de Windows Update .
+Para obtener respuestas a preguntas frecuentes, consulta Windows Update: preguntas frecuentes .
