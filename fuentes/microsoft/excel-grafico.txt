@@ -1,0 +1,261 @@
+Crear un gráfico de principio a fin
+https://support.microsoft.com/es-es/office/crear-un-gr%C3%A1fico-de-principio-a-fin-0baf399e-dd61-4e18-8a73-b3fd5d5680c2
+Descargado: 2026-10-13
+
+Crear un gráfico de principio a fin
+Se aplica a Excel para Microsoft 365 Excel para Microsoft 365 para Mac Excel 2024 Excel 2024 para Mac Excel 2021 Excel 2021 para Mac Excel 2019 Excel 2016
+Obtener ayuda con Copilot
+¿Cómo personalizo mi gráfico en Excel?
+¿Cómo elijo el tipo de gráfico adecuado?
+Dame una lista rápida para crear un gráfico en Excel.
+Los gráficos le ayudan a que la audiencia visualice los datos de una forma más efectiva. Obtenga información sobre cómo crear un gráfico y agregar una línea de tendencia. Puede empezar el documento a partir de un gráfico recomendado o elegir uno de nuestra colección de plantillas de gráfico predefinidas .
+Windows
+macOS
+Web
+Crear un gráfico
+Seleccione datos para el gráfico.
+Seleccione Insertar > gráficos recomendados .
+Seleccione un gráfico en la pestaña Gráficos recomendados para obtener una vista previa del gráfico.
+Nota
+Puede seleccionar los datos que quiera en el gráfico y presionar ALT + F1 para crear un gráfico inmediatamente, pero es posible que no sea el mejor gráfico para los datos. Si no ve un gráfico que le guste, seleccione la pestaña Todos los gráficos para ver todos los tipos de gráficos.
+Seleccione un gráfico.
+Seleccione Aceptar .
+Agregar una línea de tendencia
+Seleccione un gráfico.
+Seleccione ChartDesign > Agregar elemento de gráfico .
+Seleccione Línea de tendencia y, a continuación, seleccione el tipo de línea de tendencia que desee, como Lineal, Exponencial, Previsión lineal o Media móvil .
+Nota
+Es posible que parte del contenido de este tema no pueda aplicarse a algunos idiomas.
+Los gráficos muestran datos en un formato gráfico que pueden ayudarle (y también a su público) a visualizar las relaciones entre los datos. Al crear un gráfico, puede seleccionar entre diversos tipos de gráfico (por ejemplo, un gráfico de columnas apiladas o un gráfico circular seccionado en 3D). Después de crear un gráfico, puede personalizarlo aplicándole estilos o diseños rápidos de gráfico.
+Información sobre los elementos de un gráfico
+Los gráficos contienen diversos elementos, como un título, etiquetas de ejes, una leyenda y líneas de división. Puede ocultar o mostrar estos elementos, así como cambiar su ubicación y formato.
+Título del gráfico
+Área de trazado
+Leyenda
+Títulos de eje
+Etiquetas de eje
+Marcas de graduación
+Líneas de cuadrícula
+Crear un gráfico
+Puede crear un gráfico en Excel, Word y PowerPoint. Pero los datos del gráfico se escriben y se guardan en una hoja de cálculo de Excel. Si inserta un gráfico en Word o PowerPoint, se abrirá una nueva hoja en Excel. Cuando guarda un documento de Word o una presentación de PowerPoint que contiene un gráfico, los datos del gráfico subyacente de Excel se guardan dentro del documento de Word o de la presentación de PowerPoint.
+Nota
+La Galería de libros de Excel sustituye al anterior Asistente para gráficos. De forma predeterminada, la Galería de libros de Excel se abre en el mismo momento en que abre Excel. En esta galería puede explorar las plantillas y crear un libro nuevo basado en una de ellas. Si no aparece la Galería de libros de Excel, en el menú Archivo , haga clic en Nuevo desde plantilla .
+En el menú Ver , haga clic en Diseño de impresión .
+Haga clic en la pestaña Insertar , seleccione el tipo de gráfico y, a continuación, haga doble clic en el gráfico que desea agregar.
+Al insertar un gráfico en Word o PowerPoint, se abre una hoja de cálculo de Excel que contiene una tabla de datos de ejemplo.
+En Excel, reemplace los datos de ejemplo con los datos que quiere representar en el gráfico. Si ya tiene los datos en otra tabla, puede copiarlos y, después, pegarlos sobre los datos de ejemplo. Vea la tabla siguiente para obtener instrucciones sobre cómo organizar los datos para que se ajusten a su tipo de gráfico.
+Para este tipo de gráfico
+Organice los datos
+Gráfico de áreas, barras, columnas, anillos, líneas, superficie o radial
+En columnas o filas, como se muestra en los ejemplos siguientes:
+Serie 1Serie 2Categoría A1012Categoría B1114Categoría C915orCategoría ACategoría BSeries 11011Serie 21214
+Gráfico de burbujas
+En columnas, colocar los valores x en la primera columna y los valores y correspondientes y los valores de tamaño de burbuja en columnas adyacentes, como en los siguientes ejemplos:X-ValuesY-Value 1Size 10.72.741.83.252.60.086
+Gráfico circular
+En una columna o fila de datos y una columna o fila de etiquetas de datos, como en los siguientes ejemplos:
+Sales1st Qtr252nd Qtr303rd Qtr45or1st Qtr2nd Qtr3rd QtrSales253045
+Gráfico de cotizaciones
+En columnas o filas en el orden siguiente, utilizando nombres o fechas como etiquetas, como en los ejemplos siguientes:
+OpenHighLowClose1/5/02445511251/6/0225571238or1/5/021/6/02Open4425High5557Low1112Close2538
+Gráfico X Y (dispersión)
+En columnas, con los valores X en la primera columna y los valores Y correspondientes en las columnas adyacentes, como en los ejemplos siguientes:
+Valores XY-value 10.72.71.83.22.60.08orX-Values0.71.82.6Y-Value 12.73.20.08
+Para cambiar el número de filas y columnas incluidas en el gráfico, sitúe el puntero en la esquina inferior derecha de los datos seleccionados y, después, arrastre para seleccionar datos adicionales. En el ejemplo siguiente, la tabla se amplía para incluir más categorías y series de datos.
+Para ver los resultados de los cambios, vuelva a Word o PowerPoint.
+Nota
+Al cerrar el documento de Word o la presentación de PowerPoint que contiene el gráfico, la tabla de datos de Excel del gráfico se cierra automáticamente.
+Cambiar el eje del gráfico que se resalta
+Después de crear un gráfico, es posible que desee cambiar el modo en que se trazan las filas y las columnas de la tabla en el gráfico. Por ejemplo, imagine que en la primera versión de un gráfico se trazan las filas de datos de la tabla en el eje vertical del gráfico (valor) y las columnas de datos en el eje horizontal (categoría). En el ejemplo siguiente, el gráfico resalta las ventas por instrumento.
+Sin embargo, si prefiere que el gráfico resalte las ventas por mes, puede invertir el trazado del gráfico.
+En el menú Ver , haga clic en Diseño de impresión .
+Haga clic en el gráfico.
+Haga clic en la pestaña Diseño de gráfico y, después, seleccione Cambiar fila o columna .
+Si la opción “Cambiar fila o columna” no está disponible
+La opción “Cambiar fila o columna” solo está disponible cuando la tabla de datos de Excel del gráfico está abierta, y solo para determinados tipos de gráfico. También puede editar los datos si hace clic en el gráfico y, después, edita la hoja de cálculo en Excel.
+Aplicar un diseño de gráfico predefinido
+En el menú Ver , haga clic en Diseño de impresión .
+Haga clic en el gráfico.
+Haga clic en la pestaña Diseño de gráfico y, después, seleccione Diseño rápido .
+Haga clic en el diseño que quiera usar.
+Para deshacer inmediatamente un diseño rápido que has aplicado, presiona + Z .
+Aplicar un estilo de gráfico predefinido
+Los estilos de gráfico son un conjunto de colores y efectos complementarios que puede aplicar a su gráfico. Cuando selecciona un estilo de gráfico, los cambios afectan a todo el gráfico.
+En el menú Ver , haga clic en Diseño de impresión .
+Haga clic en el gráfico.
+Haga clic en la pestaña Diseño de gráfico y, después, seleccione el estilo que prefiera.
+Para ver más estilos, seleccione un estilo y haga clic en .
+Para deshacer inmediatamente un estilo que has aplicado, presiona + Z .
+Agregar un título al gráfico
+En el menú Ver , haga clic en Diseño de impresión .
+Haga clic en el gráfico y, después, en la pestaña Diseño de gráfico .
+Haga clic en Agregar elemento de gráfico .
+Haga clic en Título del gráfico para seleccionar las opciones de formato del título y, después, vuelva al gráfico para escribir un título en el cuadro Título del gráfico .
+Vea también
+Actualizar los datos de un gráfico existente
+Tipos de gráficos
+1. Crear un gráfico
+Para empezar a crear un gráfico en Excel, asegúrese de que tiene los datos listos en el libro. Comenzar con un libro nuevo o abrir un libro actual con Excel para la Web . Para crear un gráfico, puede usar gráficos recomendados , elegir entre nuestra colección en Crear o elegir el tipo de gráfico más adecuado para los datos. Una vez preparados los datos, siga estos pasos:
+Seleccione el rango de celdas que contiene los datos que desea visualizar.
+Vaya a la pestaña "Insertar" de la cinta de opciones.
+Vaya a "Gráficos" y seleccione el tipo de gráfico que mejor se adapte a sus necesidades.
+Más información sobre los tipos de gráficos
+Nota
+Pruebe los gráficos recomendados para ver sugerencias basadas en los datos. Solo tienes que ir a "Gráficos" en la cinta de opciones y seleccionar. Los gráficos recomendados están disponibles para los suscriptores de Microsoft 365 en inglés, francés, español, alemán, chino simplificado y japonés. Si es un suscriptor de Microsoft 365, asegúrese de tener la última versión de Office . Para obtener más información acerca de los diferentes canales de actualización para Office, vea: Información general sobre los canales de actualización de las Aplicaciones Microsoft 365 .
+2. Editar los datos
+Si necesita cambiar la selección de datos o agregar más datos a su gráfico, haga clic con el botón derecho en el gráfico y elija "Seleccionar datos" para abrir el panel de tareas.
+Cambiar selección de datos
+Desde el origen > de datos >: Seleccione un nuevo rango de celdas o escriba manualmente el rango en " Origen" y aplíquelo.
+Agregar, quitar o modificar una serie de datos
+Para agregar una nueva serie de datos, desde Configuración de datos > Agregar campo > Seleccione el rango de celdas de la hoja y aplíquelo.>
+Para modificar una serie existente, haz clic en la serie que te gustaría cambiar en ' Configurar' .
+Para modificar el nombre de la serie, haga clic en✏️ . Puede escribir el nuevo nombre o seleccionar una celda para vincularlo. También puede cambiar el nombre en Formato > > de nombre de serie de serie .
+Para modificar el tipo de gráfico de un conjunto de datos, use "Trazar como".
+Para reorganizar el orden en que aparecen las series en el gráfico, use las ⬆️ flechas Y ⬇️.
+Intercambiar eje vertical y horizontal
+Una vez que tenga los datos correctos en el gráfico, si necesita intercambiar qué eje refleja qué datos:
+Vaya a Configuración de datos > > Eje > horizontal Campo horizontal.
+Escriba la serie o el rango de celdas que tiene actualmente en el eje vertical.
+Quite el rango seleccionado original del eje horizontal.
+En Agregar campo de eje > vertical , escriba el rango original desde el eje horizontal.
+Quite la serie original de su eje vertical para completar el cambio.
+3. Personaliza tu gráfico
+Para realizar cambios en el gráfico, haga doble clic en el gráfico para abrir el panel de tareas del gráfico y navegar a la pestaña Formato .
+Agregar, quitar o modificar el título
+En Formato > de título > de gráfico, active o desactive .
+Expanda "Título del gráfico" para modificar el título, la posición y la fuente.
+Agregue, quite o modifique los títulos de los ejes
+Seleccione el eje vertical u horizontal para ver las opciones respectivas en el panel de tareas.
+En el eje correspondiente, desplácese hacia abajo hasta 'Título del eje'.
+Active o desactive para agregar o quitar.
+Cambie el nombre y la fuente del título del eje expandiendo "Título del eje".
+Cambiar el color de una serie o punto de datos
+Para cambiar el color de una serie, seleccione la serie que desea modificar y vea las opciones respectivas en el panel de tareas. Seleccione el color deseado para su serie en el panel de tareas.
+Para cambiar el color de un punto de datos individual, selecciona punto de datos y, a continuación, haz clic con el botón derecho en el punto de datos del gráfico. Seleccione el color deseado para el punto de datos del elemento flotante.
+Agregar, quitar o modificar etiquetas de datos
+Seleccione la serie que desea modificar y vea las opciones respectivas en el panel de tareas.
+Active o desactive para agregar o quitar etiquetas de datos.
+Para mostrar u ocultar el nombre de la serie, la categoría, el valor, la clave de leyenda y cambiar el separador:
+Vaya al panel de > tareas del gráfico Formato > de etiquetas de datos de serie >.
+Agregar, quitar o modificar leyenda
+Haga doble clic en el gráfico hasta que se abra el panel de tareas del gráfico a la derecha de la pantalla.
+Seleccione Formato > de leyenda .
+Active o desactive para agregar o quitar la leyenda.
+Modifique la posición y la fuente del gráfico expandiendo "Leyenda".
+Agregar, quitar o modificar una línea de tendencia
+Haga doble clic en el gráfico hasta que se abra el panel de tareas del gráfico a la derecha de la pantalla.
+Seleccione Línea de tendencia de formato >.
+Active o desactive para agregar o quitar la línea de tendencia.
+Modifique el nombre, el tipo de tendencia, el estilo o la interceptación expandiendo "Leyenda".
+Más formas de personalizar gráficos en Excel Web
+Realizar cambios en el gráfico a través del menú contextual
+Para ver todas las opciones de formato disponibles para el gráfico, diríjase al Formato del panel > de tareas del gráfico.
+También puede realizar algunos cambios en el gráfico haciendo clic con el botón derecho en la parte del gráfico que desea editar.
+Tipos de gráficos disponibles
+Es una buena idea revisar los datos y decidir qué tipo de gráfico funcionaría mejor. Los tipos disponibles se enumeran a continuación.
+Gráficos de columnas
+Los datos que están organizados en columnas o filas en una hoja de cálculo se pueden trazar en un gráfico de columnas. Un gráfico de columnas muestra normalmente categorías a lo largo del eje horizontal y valores a lo largo del eje vertical, como se muestra en este gráfico:
+Tipos de gráficos de columnas
+Columna agrupada Un gráfico de columnas agrupadas muestra los valores en columnas 2D. Use este gráfico cuando tenga categorías que representen:
+Rangos de valores (por ejemplo, recuentos de elementos).
+Disposiciones de escala específicas (por ejemplo, una escala de Likert con entradas, como totalmente de acuerdo, de acuerdo, neutral, en desacuerdo, totalmente en desacuerdo).
+Nombres que no se encuentran en ningún orden específico (por ejemplo, nombres de artículos, nombres geográficos o los nombres de personas).
+Columna apilada Un gráfico de columnas apiladas muestra los valores en columnas apiladas 2D. Use este gráfico cuando tenga varias series de datos y desee destacar el total.
+Columna 100 % apilada Un gráfico de columnas 100 % apiladas muestra los valores en columnas 2D que se apilan para representar el 100 %. Use este gráfico cuando tenga dos o más series de datos y desee destacar las contribuciones al conjunto, especialmente si el total es el mismo para cada categoría.
+Gráficos de líneas
+Se pueden trazar datos que se organizan en columnas o filas de una hoja de cálculo en un gráfico de líneas. En un gráfico de líneas, los datos de categoría se distribuyen de forma uniforme a lo largo del eje horizontal y todos los datos de valores se distribuyen de forma uniforme en el eje vertical. Los gráficos lineales pueden mostrar datos continuos con el tiempo en un eje de escala regular y por tanto son idóneos para mostrar tendencias en datos a intervalos iguales, como meses, trimestres o ejercicios fiscales.
+Tipos de gráficos de línea
+Línea y línea con marcadores Los gráficos de líneas, que se muestran con o sin marcadores para indicar valores de datos individuales, pueden mostrar tendencias a lo largo del tiempo o categorías espaciadas uniformemente, especialmente cuando tiene muchos puntos de datos y el orden en que se presentan es importante. Si hay muchas categorías o los valores son aproximados, use un gráfico de líneas sin marcadores.
+Línea apilada y línea apilada con marcadores Tanto si se muestran con o sin marcadores para indicar valores de datos individuales, los gráficos de líneas apiladas permiten mostrar la tendencia de la contribución que hace cada valor a lo largo del tiempo o categorías distribuidas de forma uniforme.
+Línea 100% apilada y línea 100% apilada con marcadores Si se muestran con o sin marcadores para indicar valores de datos individuales, los gráficos de líneas 100 % apiladas pueden mostrar la tendencia del porcentaje que aporta cada valor a lo largo del tiempo o en categorías espaciadas uniformemente. Si hay muchas categorías o los valores son aproximados, use un gráfico de líneas 100 % apiladas sin marcadores.
+Nota
+Los gráficos de líneas funcionan mejor cuando tiene varias series de datos en su gráfico (si solo tiene una serie de datos, piense en usar un gráfico de dispersión en su lugar).
+Los gráficos de líneas apiladas suman los datos, lo que tal vez no sea el resultado deseado. Puede que no sea sencillo ver que las líneas están apiladas, por tanto, considere la posibilidad de usar otro tipo de gráfico de líneas o un gráfico de áreas apiladas como alternativa.
+Gráficos circulares
+Los datos que se organizan en una columna o fila de una hoja de cálculo se pueden trazar en un gráfico circular. Los gráficos circulares muestran el tamaño de los elementos en una serie de datos, proporcional a la suma de los elementos. Los puntos de datos en un gráfico circular se muestran como un porcentaje de todo el pastel.
+Piense en utilizar un gráfico circular cuando:
+Solo haya una serie de datos.
+Ninguno de los valores de sus datos son negativos.
+Casi ninguno de los valores de sus datos son valores cero.
+No tiene más de siete categorías, representando todas ellas partes de todo el gráfico circular.
+Gráficos de anillos
+En un gráfico de anillos se pueden representar datos organizados únicamente en columnas o en filas de una hoja de cálculo. Al igual que un gráfico circular, un gráfico de anillos muestra la relación de las partes con un todo, pero puede contener más de una serie de datos.
+Recomendación
+Los gráficos de anillos no son fáciles de leer. Puede que desee utilizar un gráfico de columnas apiladas o un gráfico de barras apiladas en su lugar.
+Gráficos de barras
+En un gráfico de barras se pueden trazar datos que se organizan en columnas o filas de una hoja de cálculo. Este tipo de gráfico muestra comparaciones entre elementos individuales. En un gráfico de barras, las categorías se organizan típicamente a lo largo del eje vertical y los valores a lo largo del eje horizontal.
+Piense en utilizar un gráfico de barras cuando:
+Las etiquetas de eje son largas.
+Los valores que se muestran son duraciones.
+Tipos de gráficos de barras
+Barras agrupadas Un gráfico de barras agrupadas muestra barras en formato 2D.
+Barras apiladas Los gráficos de barras apiladas muestran la relación de elementos individuales con el conjunto en barras 2D.
+100 % apilado Una barra 100 % apilada muestra barras 2D que comparan el porcentaje que cada valor aporta a un total en todas las categorías.
+Gráficos de área
+En un gráfico de área se pueden trazar datos que se organizan en columnas o filas de una hoja de cálculo. Los gráficos de área se pueden usar para trazar el cambio con el tiempo y para llamar la atención en el valor total en una tendencia. Al mostrar la suma de los valores trazados, un gráfico de área también muestra la relación de las partes con un todo.
+Tipos de gráficos de área
+Área Los gráficos de áreas, que se muestran en formato 2D, muestran la tendencia de los valores a lo largo del tiempo u otros datos de categoría. Como norma, considere la posibilidad de usar un gráfico de líneas en lugar de un gráfico de áreas no apilado, ya que los datos de una serie pueden quedar ocultos por los de otra.
+Áreas apiladas Los gráficos de áreas apiladas muestran la tendencia de la contribución de cada valor a lo largo del tiempo u otros datos de categoría en formato 2D.
+Áreas 100% apiladas Los gráficos de áreas 100% apiladas muestran la tendencia del porcentaje en que cada valor contribuye a lo largo del tiempo u otros datos de categoría.
+Gráficos de dispersión
+En un gráfico de dispersión se pueden trazar datos organizados en columnas y filas de una hoja de cálculo. Coloque los valores X en una fila o columna y, a continuación, introduzca los valores y correspondientes en las filas o columnas adyacentes.
+Un gráfico de dispersión tiene dos ejes de valores, un eje horizontal (X) y otro en el eje vertical (Y). Combina estos valores en puntos de datos únicos y los muestra en intervalos irregulares o agrupaciones. Los gráficos de dispersión se utilizan por lo general para mostrar y comparar valores numéricos, como datos científicos, estadísticos y de ingeniería.
+Piense en utilizar un gráfico de dispersión cuando:
+Desea cambiar la escala del eje horizontal.
+Desea convertir dicho eje en una escala logarítmica.
+Los espacios entre los valores del eje horizontal no son uniformes.
+Hay muchos puntos de datos en el eje horizontal.
+Desea ajustar las escalas de ejes independientes de un gráfico de dispersión para revelar más información acerca de los datos que incluyen pares o conjuntos agrupados de valores.
+Desea mostrar similitudes entre grandes conjuntos de datos en lugar de diferencias entre puntos de datos.
+Desea comparar muchos puntos de datos sin tener en cuenta el tiempo:cuantos más datos incluya en un gráfico de dispersión, mejores serán las comparaciones que podrá realizar.
+Tipos de gráficos de dispersión
+Dispersión Este gráfico muestra puntos de datos sin conectar líneas para comparar pares de valores.
+Dispersar con líneas y marcadores suaves y dispersar con líneas suaves Este gráfico muestra una curva suave que conecta los puntos de datos. Las líneas suavizadas se pueden mostrar con o sin marcadores. Use una línea suavizada sin marcadores si hay muchos puntos de datos.
+Dispersión con líneas rectas y marcadores ydispersión con líneas rectas Este gráfico muestra líneas de conexión rectas entre los puntos de datos. Las líneas rectas se pueden mostrar con o sin marcadores.
+Gráficos radiales
+En un gráfico radial se pueden representar datos organizados únicamente en columnas o en filas de una hoja de cálculo. Los gráficos de radar comparan los valores agregados de varias series de datos.
+Tipo de gráficos radiales
+Radar y radar con marcadores Con o sin marcadores para puntos de datos individuales, los gráficos de radar muestran cambios en los valores relativos a un punto central.
+Radial relleno En un gráfico radial relleno, el área cubierta con una serie de datos se rellena con un color.
+Realizar más cambios en el gráfico
+Dividir campos por fila o columna
+Cambiar "filas por columnas" invierte su diseño de datos: lo que antes estaba en filas ahora está en columnas, y viceversa.
+De origen de datos > > campos de datos divididos por.
+Cambiar la dirección del eje de arriba a abajo o de izquierda a derecha
+Desde el eje vertical o el eje > horizontal 'Valores en orden inverso '.
+Cambiar el nombre de la serie
+Seleccione la serie que desea modificar y vea las opciones respectivas en el panel de tareas.
+Ingrese el nuevo nombre para su serie en 'Nombre de la serie'.
+Cambiar el ancho de las columnas y barras
+Desde el eje >horizontal , ajuste el control deslizante Ancho del espacio según sus preferencias.
+Modificar los límites superior e inferior del eje
+Seleccione la serie que desea modificar para ver las opciones respectivas en el panel de tareas.
+Seleccione "Límites".
+Escriba los valores " Mínimo " y " Máximo ".
+Modificar unidades
+Las unidades de un gráfico especifican la escala usada para representar los datos a lo largo de los ejes.
+Seleccione la serie que desea modificar y vea las opciones respectivas en el panel de tareas.
+Selecciona "Unidades"
+Escriba "Unidades principales" y "Unidades secundarias".
+Modificar las marcas de graduación
+Seleccione la serie que desea modificar y vea las opciones respectivas en el panel de tareas.
+Seleccione "marcas de graduación".
+Seleccione "Tipo principal" y "Tipo secundario".
+Personalizar el tipo, tamaño y color del marcador para determinados gráficos
+Seleccione la serie que desea modificar y vea las opciones respectivas en el panel de tareas.
+Seleccione Opciones de > marcador Ajuste el tamaño del marcador , el tipo de marcador y el color según sus preferencias.
+Agregar, quitar o modificar barras de error
+Haga doble clic en el gráfico hasta que se abra el panel de tareas del gráfico a la derecha de la pantalla.
+Seleccione Formatear > barras >de error para activar/desactivar
+Expanda las barras de error para ajustar el estilo, la dirección y la cantidad de error.
+Nota
+Actualmente, las barras de error personalizadas no se admiten en Excel Web y solo están disponibles en el escritorio.
+Agregar o quitar líneas de cuadrícula
+Haga doble clic en el gráfico hasta que se abra el panel de tareas del gráfico a la derecha de la pantalla.
+Seleccione Formato > de serie.
+Seleccione las líneas de cuadrícula "Principal" o "Secundaria".
+Agregar, quitar o modificar una tabla de datos
+Haga doble clic en el gráfico hasta que se abra el panel de tareas del gráfico a la derecha de la pantalla.
+Seleccione Formato > de tabla > de datos para activar o desactivar el botón de alternancia.
+Expanda "Tabla de datos" para cambiar los bordes, la leyenda y la fuente de la tabla.
+¿Necesitas más ayuda?
+Siempre puede preguntar a un experto en Excel Tech Community u obtener soporte técnico en Comunidades .

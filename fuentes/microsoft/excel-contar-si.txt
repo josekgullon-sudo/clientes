@@ -1,0 +1,85 @@
+Función CONTAR.SI
+https://support.microsoft.com/es-es/office/funci%C3%B3n-contar-si-e0de10c6-f885-4e71-abb4-1f464816df34
+Descargado: 2026-10-13
+
+Use la función CONTAR.SI en Microsoft Excel
+Se aplica a Excel para Microsoft 365 Excel para Microsoft 365 para Mac Excel 2024 Excel 2024 para Mac Excel 2021 Excel 2021 para Mac
+Use CONTAR.SI, una de las funciones estadísticas , para contar el número de celdas que cumplen un criterio. Por ejemplo, úselo para contar el número de veces que una ciudad determinada aparece en una lista de clientes.
+En su forma más sencilla, CONTAR.SI indica lo siguiente:
+=CONTAR.SI(¿Dónde quiere realizar la búsqueda y qué quiere buscar?)
+Por ejemplo:
+=CONTAR.SI(A2:A5;"Londres")
+=CONTAR.SI(A2:A5;A4)
+Sintaxis
+CONTAR.SI(rango;criterios)
+Nombre del argumento
+Descripción
+Rango (obligatorio)
+El grupo de celdas que desea contar.
+Un rango puede contener números, matrices, un rango con nombre o referencias que contengan números. Excel omite los valores en blanco y de texto. Obtenga información sobre cómo seleccionar rangos en una hoja de cálculo
+Criterios (obligatorio)
+Número, expresión, referencia de celda o cadena de texto que determina las celdas que cuenta CONTAR.SI. Por ejemplo, puede usar un número como 32, una comparación como ">32", una celda como B4 o una palabra como "manzanas". CONTAR.SI usa solo un criterio. Use CONTAR.SI.CONJUNTO si desea usar varios criterios.
+Ejemplos de uso de CONTAR.SI en Excel
+Para utilizar estos ejemplos en Excel, copie los datos de la tabla siguiente y péguelos en la celda A1 de una hoja de cálculo nueva.
+Datos
+Datos
+manzanas
+32
+naranjas
+54
+melocotones
+75
+manzanas
+86
+Fórmula
+Descripción
+=CONTAR.SI(A2:A5;"manzanas")
+Cuenta el número de celdas con manzanas entre las celdas A2 y A5. El resultado es 2.
+=CONTAR.SI(A2:A5;A4)
+Cuenta el número de celdas con melocotones, el valor de A4, entre las celdas A2 y A5. El resultado es 1.
+=CONTAR.SI(A2:A5;A2)+CONTAR.SI(A2:A5;A3)
+Cuenta el número de manzanas, el valor de A2, y de naranjas, el valor de A3, entre las celdas A2 y A5. El resultado es 3. Esta fórmula usa CONTAR.SI dos veces para especificar varios criterios, un criterio por expresión. También puede utilizar la función CONTAR.SI.CONJUNTO .
+=CONTAR.SI(B2:B5;">55")
+Cuenta el número de celdas con un valor superior a 55 entre las celdas B2 y B5. El resultado es 2.
+=CONTAR.SI(B2:B5;"<>"&B4)
+Cuenta el número de celdas con un valor distinto de 75 entre las celdas B2 y B5. La Y comercial (&) combina el operador de comparación para distinto de igual a ("<>") y el valor de B4 para que lea =CONTAR.SI(B2:B5;"<>75"). El resultado es 3.
+=CONTAR.SI(B2:B5;">=32")-CONTAR.SI(B2:B5;"<=85")
+Cuenta el número de celdas con un valor mayor que (>) o igual a (=) 32 y menor que (<) o igual a (=) 85 en las celdas B2 a B5. El resultado es 1.
+=CONTAR.SI(A2:A5;"*")
+Cuenta el número de celdas que contienen texto entre las celdas A2 y A5. El carácter comodín * se usa para reemplazar cualquier carácter. El resultado es 4.
+=CONTAR.SI(A2:A5;"?????nas")
+Cuenta el número de celdas que tienen exactamente 8 caracteres y que terminan con las letras "nas" entre las celdas A2 y A5. El signo de interrogación (?) se usa como carácter comodín para coincidir con caracteres individuales. El resultado es 2.
+Solución de problemas de errores comunes de CONTAR.SI en Excel
+Problema
+Qué ha fallado
+Se devolvió un valor incorrecto para cadenas largas.
+La función CONTAR.SI devuelve resultados incorrectos cuando se usa para comparar cadenas de más de 255 caracteres.
+Para comparar cadenas de más de 255 caracteres, use la función CONCATENAR o el operador concatenar &. Por ejemplo, =CONTAR.SI(A2:A5;"cadena larga"&"otra cadena larga").
+No se devolvió ningún valor cuando se esperaba uno.
+Asegúrese de encerrar el argumento de los criterios entre comillas.
+Una formula CONTAR.SI recibe un error #¡VALOR! al hacer referencia a otra hoja de cálculo.
+Este error se produce cuando la fórmula que contiene la función hace referencia a celdas o a un rango de un libro cerrado y se calculan las celdas. Para que esta característica funcione, el otro libro debe estar abierto.
+Procedimientos recomendados para usar CONTAR.SI en Excel
+Haz esto
+¿Por qué?
+Tenga en cuenta que CONTAR.SI pasa por alto mayúsculas y minúsculas en las cadenas de texto.
+Los criterios no distinguen mayúsculas de minúsculas. En otras palabras, la cadena "manzanas" y la cadena "MANZANAS" coinciden con las mismas celdas.
+Use caracteres comodín.
+Use los caracteres comodín de signo de interrogación (?) y asterisco (*) en los criterios . El signo de interrogación reemplaza cualquier carácter individual. El asterisco reemplaza cualquier secuencia de caracteres. Si lo que desea buscar es un signo de interrogación o un asterisco, escriba una tilde (~) antes del carácter.
+Por ejemplo, =CONTAR.SI(A2:A5;"manzana?") cuenta todas las instancias de "manzana" con una última letra que podría variar.
+Asegúrese de que los datos no contienen caracteres incorrectos.
+Al contar valores de texto, asegúrese de que los datos no contienen espacios al principio ni al final, de que no haya un uso incoherente de las comillas rectas (' o ") ni tipográficas (‘ o “) y de que no haya caracteres no imprimibles. En estos casos, CONTAR.SI puede devolver un valor inesperado o incorrecto.
+Intente usar la función LIMPIAR o la función ESPACIOS .
+Para mayor comodidad, use rangos con nombre.
+CONTAR.SI admite rangos con nombre en fórmulas como =CONTAR.SI(fruta,">=32")-CONTAR.SI(fruta,">85"). El rango con nombre puede estar en la hoja de cálculo actual, en otra hoja de cálculo del mismo libro o en una hoja de cálculo de otro libro. Para hacer referencia a un rango con nombre de otro libro, ese libro también debe estar abierto.
+Nota
+La función CONTAR.SI no puede contar celdas según el color de fondo o el color de fuente. Sin embargo, puede usar una función User-Defined (UDF) escrita en Visual Basic para Aplicaciones (VBA) para contar o realizar otras operaciones en celdas en función de su color de fondo o de fuente.
+¿Necesitas más ayuda?
+Siempre puede preguntar a un experto en Excel Tech Community u obtener soporte técnico en Comunidades .
+Vea también
+Función CONTAR.SI.CONJUNTO
+Función SI
+Función CONTARA
+Información general sobre fórmulas en Excel
+Función SI.CONJUNTO
+SUMAR.SI (función SUMAR.SI)

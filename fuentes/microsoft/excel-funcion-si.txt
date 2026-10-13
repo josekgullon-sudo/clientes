@@ -1,0 +1,49 @@
+Función SI
+https://support.microsoft.com/es-es/office/funci%C3%B3n-si-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2
+Descargado: 2026-10-13
+
+SI (función SI)
+Se aplica a Excel para Microsoft 365 Excel para Microsoft 365 para Mac Excel 2024 Excel 2024 para Mac Excel 2021 Excel 2021 para Mac Excel 2019 Excel 2016
+Obtener ayuda con Copilot
+¿Cómo uso la función SI en Excel?
+¿Cómo utilizo la función CONCAT de Excel?
+Obtén una lista de verificación personalizada para la función SI.
+La función SI es una de las funciones más populares de Excel y le permite realizar comparaciones lógicas entre un valor y un resultado que espera.
+Por esto, una instrucción SI puede tener dos resultados. El primer resultado es si la comparación es Verdadera y el segundo si la comparación es Falsa.
+Por ejemplo, =SI(C2="Sí";1;2) dice: SI(C2 = Sí; entonces devolver un 1; en caso contrario devolver un 2)
+Sintaxis
+Use la función SI, una de las funciones lógicas , para devolver un valor si una condición es verdadera y otro si es falsa.
+SI(prueba_lógica; valor_si_verdadero; [valor_si_falso])
+Por ejemplo:
+=SI(A2>B2;"Presupuesto excedido";"Correcto")
+=SI(A2=B2,B4-A4,"")
+Nombre del argumento
+Descripción
+prueba_lógica (requerido)
+El valor que quiere probar.
+valor_si_verdadero (obligatorio)
+El valor que desea devuelto si el resultado de logical_test es VERDADERO.
+valor_si_falso (opcional)
+El valor que desea devuelto si el resultado de logical_test es FALSO.
+Ejemplos sencillos de SI
+=SI(C2="Sí";1;2)
+En el ejemplo anterior, la celda D2 dice: SI(C2 = Sí; entonces devolver un 1; en caso contrario devolver un 2)
+=SI(C2=1;"Sí";"No")
+En este ejemplo, la fórmula de la celda D2 dice: SI(C2 = 1; entonces devolver Sí; en caso contrario devolver No) Como puede ver, la función SI se puede usar para evaluar tanto texto como valores. También se puede usar para evaluar errores . No está limitado exclusivamente a comprobar si un elemento es igual a otro y devolver un único resultado, también puede usar operadores matemáticos y realizar cálculos adicionales según sus criterios. También se pueden anidar varias funciones SI para realizar varias comparaciones.
+=SI(C2>B2;"Presupuesto excedido";"Dentro de presupuesto")
+En el ejemplo anterior, la función en D2 dice SI(C2 es mayor que B2; devolver "Presupuesto excedido"; de lo contrario, devolver "Dentro de presupuesto")
+=SI(C2>B2;C2-B2;0)
+En la ilustración anterior, en lugar de devolver un resultado de texto, vamos a devolver un cálculo matemático. Entonces, la fórmula en E2 dice SI (la cantidad real es mayor que la presupuestada, entonces reste la cantidad presupuestada de la cantidad real, de lo contrario, no devuelva nada).
+=SI(E7="Sí";F5*0,0825;0)
+En este ejemplo, la fórmula en F7 dice lo siguiente: SI(E7 = "Sí"; calcula la cantidad total con F5 * 8,25 %; en caso contrario, no hay ningún impuesto sobre las ventas, por lo que se devuelve 0)
+Nota
+Si va a usar texto en fórmulas, tendrá que escribir el texto entre comillas (por ejemplo, "Texto"). La única excepción es el uso de VERDADERO o FALSO, que Excel entiende de forma automática.
+Problemas comunes
+Problema
+Qué ha fallado
+0 (cero) en la celda
+No había argumentos para value_if_true o value_if_False argumentos. Para que se devuelva un valor correcto, agregue texto de argumento a los dos argumentos, o agregue VERDADERO o FALSO al argumento.
+#¿NOMBRE? en la celda
+Normalmente, esto significa que la fórmula se ha escrito mal.
+¿Necesitas más ayuda?
+Siempre puede preguntar a un experto en Excel Tech Community u obtener soporte técnico en Comunidades .

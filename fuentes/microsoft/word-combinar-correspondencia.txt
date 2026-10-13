@@ -1,0 +1,44 @@
+Usar la combinación de correspondencia
+https://support.microsoft.com/es-es/word/use-mail-merge-for-bulk-email-letters-labels-and-envelopes
+Descargado: 2026-10-13
+
+Usar la combinación de correspondencia de correo electrónico masivo, cartas, etiquetas y sobres
+Se aplica a Word para Microsoft 365 Word para Microsoft 365 para Mac Word 2024 Word 2024 para Mac Word 2021 Word 2021 para Mac Word 2019 Word 2016
+La combinación de correspondencia le permite crear un lote de documentos personalizados para cada destinatario. Por ejemplo, una carta puede personalizarse para dirigirse a cada destinatario por su nombre. Los orígenes de datos, como las listas, hojas de cálculo o bases de datos, están asociados al documento. Los marcadores de posición (denominados campos de combinación) indican a Word en qué parte del documento incluir información del origen de datos.
+Usted trabaja en el documento principal en Word, insertando campos de combinación para el contenido personalizado que quiere incluir. Cuando finalice la combinación de correspondencia, el documento de combinación generará una versión personalizada de sí misma para cada nombre del origen de datos.
+Windows
+macOS
+Web
+Orígenes de datos
+El primer paso para configurar la combinación de correspondencia consiste en seleccionar el origen de datos que usará para la información personalizada. Las hojas de cálculo de Excel y las listas de contactos de Outlook son los orígenes de datos más comunes, pero se puede usar cualquier base de datos que se pueda conectar a Word. Si aún no tiene un origen de datos, puede incluso escribirlo en Word como parte del proceso de combinación de correspondencia.
+Para obtener más información sobre los orígenes de datos, vea Orígenes de datos que puede usar para una combinación de correspondencia .
+Excel o Outlook
+Si sabe que va a usar Excel o Outlook como el origen de los datos, consulte:
+Combinación de correspondencia con una hoja de cálculo de Excel
+Usar los contactos de Outlook como un origen de datos para una combinación de correspondencia
+Tipos de documentos
+Word ofrece herramientas para incorporar los datos en los siguientes tipos de documentos. Siga los vínculos para obtener más información sobre cada tipo:
+Cartas que incluyen un saludo personalizado. Cada carta se imprime en una hoja de papel separada.
+Cree e imprima un lote de cartas personalizadas
+Correo electrónico en el que la dirección de cada destinatario es la única dirección en la línea Para. Se enviará el correo electrónico directamente desde Word.
+Cree y envíe mensajes de correo electrónico
+Sobres o etiquetas en las que los nombres y las direcciones provienen del origen de datos.
+Cree e imprima un lote de sobres para correspondencia
+Cree e imprima hojas de etiquetas postales
+Directorio en el que se muestra un lote de información para cada elemento en el origen de datos. Úselo para imprimir la lista de contactos o para hacer una lista de grupos de información, como todos los alumnos de cada clase. Este tipo de documento también se denomina combinación de catálogos.
+Cree un directorio de nombres, direcciones y otra información
+Orígenes de datos
+El primer paso para configurar la combinación de correspondencia consiste en seleccionar el origen de datos que usará para la información personalizada. Las hojas de cálculo de Excel y las listas de contactos de Outlook son los orígenes de datos más comunes pero, si aún no tiene un origen de datos, puede escribirlo en Word como parte del proceso de combinación de correspondencia.
+Una hoja de cálculo de Excel funciona bien como un origen de datos si todos los datos están en una hoja y tienen el formato correcto para que Word los pueda leer. Para obtener más información, vea Preparar el origen de datos de Excel para una combinación de correspondencia en Word para Mac .
+La lista de contactos de Outlook contiene datos en un formato que Word puede leer. Vea Usar los contactos de Outlook como un origen de datos para combinar correspondencia
+Un archivo de datos de Word es un origen de datos que se puede crear sobre la marcha, en Word. Para obtener más información, vea Configurar una nueva lista de combinación de correspondencia con Word .
+Tipos de documentos
+Cartas que incluyen un saludo personalizado. Cada carta se imprime en una hoja de papel separada.
+Cree e imprima un lote de cartas personalizadas
+Correo electrónico en el que la dirección de cada destinatario es la única dirección en la línea Para. Se enviará el correo electrónico directamente desde Word.
+Cree y envíe mensajes de correo electrónico
+Sobres o etiquetas en las que los nombres y las direcciones provienen del origen de datos.
+Cree sobres con la combinación de correspondencia en Word
+Cree e imprima etiquetas con la combinación de correspondencia
+Si abre un documento de combinación de correspondencia creado con la aplicación de escritorio Word, Word Web App conservará toda la configuración de combinación de correspondencia, pero no podrá realizar una combinación de correspondencia ni editar la configuración de combinación de correspondencia.
+Si tiene la aplicación de escritorio de Word, debe abrir el documento y realizar una combinación de correspondencia.

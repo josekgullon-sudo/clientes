@@ -1,0 +1,21 @@
+Guardar un documento
+https://support.microsoft.com/es-es/word/training/save-a-document
+Descargado: 2026-10-13
+
+Guardar un documento
+Se aplica a Word para Microsoft 365 Word 2024 Word 2021 Word 2019 Word 2016
+Obtener ayuda con Copilot
+¿Cómo configuraría un documento en Word?
+¿Cómo creo o guardo un documento para versiones anteriores?
+Guarda un documento para mí.
+Guarde su documento en OneDrive para poder obtener acceso a él desde cualquier lugar: en el trabajo, en casa o mientras se desplaza. O bien, guárdelo en otra ubicación, como el escritorio.
+En la pestaña Archivo , seleccione Guardar una copia .
+En el cuadro de diálogo Guardar una copia, seleccione OneDrive o Examinar para seleccionar otra ubicación, como Escritorio .
+Actualice el nombre y el tipo de archivo si es necesario, y seleccione .
+Al guardar en OneDrive o SharePoint, todos los cambios se guardan automáticamente. Puede activar o desactivar Autoguardado en la barra de herramientas de acceso rápido, ya sea encima o debajo de la cinta de opciones.
+Si no ve la barra de herramientas de acceso rápido, haga clic con el botón derecho en la cinta y seleccione Mostrar barra de herramientas de acceso rápido .
+Nota
+Cuando el documento esté almacenado en OneDrive, Word guardará los cambios automáticamente.
+¿Quiere más?
+Opciones de Word (Guardar)
+Crear una plantilla

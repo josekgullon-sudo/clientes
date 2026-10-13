@@ -1,0 +1,40 @@
+Personalizar o crear estilos nuevos
+https://support.microsoft.com/es-es/word/customize-or-create-new-styles
+Descargado: 2026-10-13
+
+Personalizar o crear nuevos estilos
+Se aplica a Word para Microsoft 365 Outlook para Microsoft 365 Word 2024 Outlook 2024 Word 2021 Outlook 2021 Word 2019 Outlook 2019 Word 2016 Outlook 2016
+Obtener ayuda con Copilot
+¿Cómo creo un nuevo estilo a partir del formato?
+¿Cómo modifico un estilo en la galería de estilos?
+Obtén ayuda de Copilot para personalizar o crear estilos.
+Puede usar estilos para aplicar rápidamente un conjunto de opciones de formato de forma sistemática en todo el documento. Si quiere usar opciones de formato que no están disponibles en los estilos y temas integrados en Word, puede modificar un estilo existente y personalizarlo para adaptarlo a sus necesidades. Puede cambiar el formato (como el tamaño de fuente, el color y la sangría del texto) en los estilos aplicados a títulos, títulos, párrafos, listas, etc. También puede seleccionar texto con formato en el documento para crear un nuevo estilo en la galería de estilos .
+Los estilos descritos en este artículo se encuentran en la galería de estilos, un menú visual situado en la pestaña Inicio . Para aplicar un estilo, simplemente seleccione el texto al que desea dar formato y, a continuación, haga clic en el estilo que desee en la galería de estilos. Para obtener más información, vea Personalizar o crear nuevos estilos .
+Modificar un estilo existente
+Hay dos maneras de modificar un estilo existente en la galería de estilos:
+Modificar un estilo actualizándolo para que coincida con el formato del documento
+Modificar un estilo de forma manual en el cuadro de diálogo Modificar estilo
+Modificar un estilo actualizándolo para que coincida con el formato del documento
+Si tiene texto al que ya se ha aplicado un estilo en el documento, puede cambiar el formato del texto y aplicarlo al estilo en la galería de estilos.
+Seleccione texto del documento que tenga aplicado el estilo, como, por ejemplo, Título 1.
+Al seleccionar texto al que se le ha aplicado un estilo, se resalta ese estilo en la galería de estilos.
+Aplique formato al texto seleccionado con los nuevos atributos que prefiera.
+Por ejemplo, puede que quiera cambiar el tamaño de punto de la fuente en el estilo Título 1 de 16 puntos a 14 puntos.
+En el grupo Estilos de la pestaña Inicio , haga clic con el botón derecho en el estilo que quiere cambiar y haga clic Actualizar [nombre de estilo] para que coincida con la selección .
+Nota
+Todo el texto con el estilo que haya cambiado cambiará automáticamente para coincidir con el nuevo estilo definido.
+Modificar un estilo de forma manual en el cuadro de diálogo Modificar estilo
+Puede modificar un estilo directamente en la galería de estilos, sin usar el texto del documento.
+En la pestaña Inicio , haga clic con el botón derecho en cualquier estilo de la galería de estilos y haga clic en Modificar .
+En la sección Formato , haga los cambios de formato que quiera, como, por ejemplo, estilo de fuente, tamaño o color, alineación, interlineado o sangría.
+Elija si el cambio de estilo se aplica al documento actual o a todos los documentos futuros.
+Crear un estilo basado en el formato del documento
+También puede seleccionar texto con formato del documento para crear un estilo para agregarlo la galería de estilos.
+Haga clic con el botón derecho en el texto en el que quiere basar un nuevo estilo.
+En la minibarra de herramientas que aparece, haga clic en Estilos y luego en Crear un estilo .
+En el cuadro de diálogo Crear nuevo estilo a partir del formato , asigne un nombre al estilo y haga clic en Aceptar .
+El nuevo estilo aparecerá ahora en la galería de estilos.
+Nota
+Si quiere que el nuevo estilo aparezca en los nuevos documentos de Word, haga clic con el botón derecho en la galería de estilos, haga clic en Modificar y seleccione Documentos nuevos basados en esta plantilla en la parte inferior del cuadro de diálogo.
+Vea también
+Personalizar o crear nuevos estilos

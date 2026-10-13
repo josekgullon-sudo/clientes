@@ -1,0 +1,632 @@
+Usar formato condicional para resaltar información
+https://support.microsoft.com/es-es/office/usar-formato-condicional-para-resaltar-informaci%C3%B3n-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f
+Descargado: 2026-10-13
+
+Utilice el formato condicional para resaltar la información en Excel
+Se aplica a Excel para Microsoft 365 Excel 2024 Excel 2021 Excel 2019 Excel 2016
+El formato condicional puede ayudar a que los patrones y tendencias en sus datos sean más visibles. Para usarlo, cree reglas que determinen el formato de las celdas en función de sus valores, como los siguientes datos de temperatura mensual con colores de celda vinculados a valores de celda.
+Puede aplicar formato condicional a un rango de celdas (tanto a una selección como a un rango con nombre), a una tabla de Excel y, en Excel para Windows, incluso a un informe de tabla dinámica.
+Windows
+Web
+Aplicar formato condicional a un informe de tabla dinámica
+Normalmente, el formato condicional funciona de la misma manera en un rango de celdas, una tabla de Excel o un informe de tabla dinámica. Sin embargo, el formato condicional en un informe de tabla dinámica tiene algunas consideraciones adicionales:
+Algunos formatos condicionales no funcionan con los campos en el área Valores de un informe de tabla dinámica. Por ejemplo, no se puede dar formato a esos campos en función de si contienen valores únicos o duplicados. Estas restricciones se mencionan en el resto de las secciones de este artículo donde sea apropiado.
+Si se cambia el diseño del informe de tabla dinámica filtrando, ocultando, contrayendo y expandiendo niveles o moviendo un campo, el formato condicional se mantendrá siempre y cuando no se quiten los campos de los datos subyacentes.
+El ámbito del formato condicional para los campos del área Valores puede estar basado en la jerarquía de datos y queda determinado por todos los elementos secundarios visibles (el siguiente nivel inferior de una jerarquía) de un elemento primario (el siguiente nivel superior de una jerarquía) en filas para una o más columnas, o en columnas para una o más filas.
+Nota
+En la jerarquía de datos, los elementos secundarios no heredan el formato condicional del elemento primario y este no hereda el formato condicional de los elementos secundarios.
+Existen tres métodos para especificar el ámbito del formato condicional de los campos del área Valores: por selección, por campo correspondiente y por campo de valor.
+El método predeterminado para especificar el ámbito de los campos del área de valores es por selección. Puede cambiar este método por el método de campo correspondiente o campo de valor mediante el botón de opción Aplicar regla de formato a , el cuadro de diálogo Nueva regla de formato o el cuadro de diálogo Editar regla de formato .
+Método
+Utilice este método si desea seleccionar
+Especificar el ámbito por selección
+Un conjunto de campos contiguos en el área Valores, por ejemplo, todos los totales de productos de una región específica.
+Un conjunto de campos no contiguos en el área Valores, como los totales de productos de diferentes regiones en distintos niveles de la jerarquía de datos.
+Especificar el ámbito por campo de valor
+Evitar seleccionar muchos campos no contiguos.
+Aplicar formato condicional a un conjunto de campos en el área Valores para todos los niveles de la jerarquía de datos.
+Incluir subtotales y totales generales.
+Especificar el ámbito por campo correspondiente
+Evitar seleccionar muchos campos no contiguos.
+Aplicar formato condicional a un conjunto de campos en el área Valores para un nivel específico de la jerarquía de datos.
+Excluir subtotales.
+Cuando se aplica formato condicional a campos en el área Valores para valores superiores, inferiores, superiores al promedio o inferiores al promedio, la regla se basa en todos los valores visibles de forma predeterminada. No obstante, cuando se especifica el ámbito por el método de campo correspondiente, en lugar de usar todos los valores visibles puede aplicar el formato condicional a cada combinación de:
+Una columna y el campo de su fila principal.
+Una fila y el campo de su columna principal.
+Usar el Análisis rápido para aplicar formato condicional en Excel
+Utilice el botón Análisis para aplicar el formato condicional seleccionado a los datos seleccionados. El botón Análisis rápido aparece automáticamente al seleccionar datos.
+Seleccione los datos donde quiera aplicar el formato condicional. El botón Análisis rápido aparece en la esquina inferior derecha de la selección.
+Haga clic en Análisis rápido o presione Ctrl+Q.
+En la ventana emergente, en la pestaña Formato , pase el puntero del mouse por las diferentes opciones para visualizar una Vista previa dinámica de los datos y haga clic en la opción de formato que desee.
+Nota
+Las opciones de formato que aparecen en la pestaña Formato dependerán de los datos que haya seleccionado. Si la selección contiene solo texto, a continuación, las opciones disponibles son Texto , Duplicar , Único , Igual que y Borrar . Cuando la selección contiene solo números, o texto y números, las opciones son Barras de datos , Colores , Conjuntos de iconos , Mayor que , Superior 10 % y Borrar .
+La vista previa dinámica solo se representará para las opciones de formato que pueden usarse en sus datos. Por ejemplo, si las celdas seleccionadas no contienen de coincidencia de datos y selecciona Duplicar , la vista previa dinámica no funcionará.
+Si aparece el cuadro de diálogo Texto que contiene , escriba la opción de formato que desea aplicar y haga clic en Aceptar .
+Descargar un libro de ejemplo
+Puede descargar un libro de ejemplo que contenga diferentes ejemplos de aplicación de formato condicional, tanto con reglas estándar como las de superior e inferior, duplicados, barras de datos, conjuntos de iconos y escalas de colores, así como para crear manualmente reglas propias.
+Descargar: Ejemplos de formato condicional en Excel
+Aplicar formato a las celdas empleando una escala de dos colores
+Las escalas de colores son guías visuales que ayudan a comprender la variación y la distribución de datos. Una escala de dos colores permite comparar un rango de celdas usando una gradación de dos colores. El tono del color representa los valores superiores o inferiores. Por ejemplo, en una escala de verde y amarillo, como se muestra abajo, se puede especificar que las celdas de valor superior tengan un color más verde y las celdas de valor inferior tengan un color más amarillo.
+Recomendación
+Puede ordenar las celdas con este formato por su color, solo tiene que usar el menú contextual.
+Recomendación
+Si una o varias celdas de la selección contienen una fórmula que devuelve un error, el formato condicional no se aplica a ninguna celda del rango. Para garantizar que el formato condicional se aplique a todo el rango, use una función ES o SIERROR para devolver un valor (como 0 o "N/A") que no sea un valor de error.
+Formato rápido
+Seleccione una o más celdas de un rango, tabla o informe de tabla dinámica.
+En la pestaña Inicio , en el grupo Estilos , haga clic en la flecha situada junto a Formato condicional y, a continuación, haga clic en Borrar reglas .
+Seleccione una escala de dos colores.
+Mantenga el mouse sobre los iconos de escala de color para ver cuál corresponde a una escala de dos colores. El color superior representa valores superiores y el color inferior representa valores inferiores.
+Puede cambiar el método usado para especificar el ámbito de los campos del área Valores de un informe de tabla dinámica mediante el botón Opciones de formato que aparece junto al campo de la tabla dinámica que tiene aplicado el formato condicional.
+Formato avanzado
+Seleccione una o más celdas de un rango, tabla o informe de tabla dinámica.
+En la pestaña Inicio , en el grupo Estilos , haga clic en la flecha situada junto a Formato condicional y, a continuación, en Administrar reglas . Aparecerá el cuadro de diálogo Administrador de reglas de formato condicionales .
+Siga uno de los siguientes procedimientos:
+Para agregar un formato condicional completamente nuevo, haga clic en Nueva regla . Aparecerá el cuadro de diálogo Nueva regla de formato .
+Para agregar un nuevo formato condicional basado en uno existente, seleccione la regla y, a continuación, haga clic en Duplicar regla . La regla duplicada aparecerá en el cuadro de diálogo. Seleccione el duplicado y, después, Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+Para cambiar un formato condicional, haga lo siguiente:
+Asegúrese de haber seleccionado la hoja de cálculo, tabla o informe de tabla dinámica correctos en el cuadro de lista Mostrar reglas de formato para .
+Opcionalmente, puede cambiar el rango de celdas. Para ello, haga clic en Contraer diálogo en el cuadro Se aplica a para ocultar temporalmente el cuadro de diálogo, seleccione el nuevo rango de celdas de la hoja de cálculo y luego seleccione Expandir diálogo .
+Seleccione la regla y después haga clic en Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+En Aplicar regla a , si desea cambiar el ámbito para los campos del área Valores de un informe de tabla dinámica según el método de:
+Selección: haga clic en Celdas seleccionadas .
+Todas las celdas para una etiqueta Valor: haga clic en Todas las celdas que muestran <valores de etiqueta> Valor .
+Todas las celdas para una etiqueta Valor, salvo los subtotales y los totales generales: haga clic en Todas las celdas que muestran <valores de etiqueta> de valor para <Etiqueta> de fila .
+En Seleccionar un tipo de regla , haga clic en Dar formato a todas las celdas según sus valores (opción predeterminada).
+En Editar una descripción de regla , en la lista Estilo de formato , seleccione Escala de 2 colores .
+Para seleccionar un tipo en el cuadro Tipo para Mínima y Máxima , siga uno de los procedimientos siguientes:
+Aplicar formato a los valores inferiores y superiores: Seleccione Valor más bajo y Valor más alto .
+En este caso, no escriba un valor mínimo y un valor máximo .
+Aplicar formato a un valor de número, fecha u hora: Seleccione Número y después escriba un valor mínimo y un valor máximo .
+Aplicar formato a un porcentaje: Escriba un valor mínimo y máximo.
+Los valores válidos son del 0 (cero) al 100. No escriba un signo de porcentaje.
+Use un porcentaje cuando desee ver todos los valores proporcionalmente porque la distribución de los valores es proporcional.
+Aplicar formato a un percentil: Seleccione Percentil y después escriba un valor mínimo y un valor máximo . Los valores de percentiles válidos son del 0 (cero) al 100.
+Use un percentil cuando desee ver un grupo de valores altos (como el percentil 20superior) en una proporción de escala de color y un grupo de valores bajos (como el percentil 20inferior) en otra proporción de escala de color porque representan valores extremos que podrían sesgar la presentación de sus datos.
+Aplicar formato al resultado de una fórmula: Seleccione Fórmula y, a continuación, escriba valores en Mínima y Máxima .
+La fórmula debe devolver un valor de número, de fecha o de hora.
+Empiece la fórmula con un signo igual (=).
+Las fórmulas no válidas hacen que no se aplique ningún formato.
+Se recomienda probar la fórmula para asegurarse de que no devuelve ningún valor de error.
+Nota
+Asegúrese de que el valor de Mínima sea menor que el valor de Máxima .
+Puede elegir tipos diferentes en Mínima y Máxima . Por ejemplo, puede elegir un número en Mínima y un porcentaje en Máxima .
+Para elegir una escala de color Mínima y Máxima , haga clic en Color para cada una y después seleccione un color.
+Si desea elegir colores adicionales o crear un color personalizado, haga clic en Más colores . La escala de colores que seleccione aparecerá en el cuadro Vista previa .
+Aplicar formato a las celdas empleando una escala de tres colores en Excel
+Las escalas de colores son guías visuales que ayudan a comprender la variación y la distribución de datos. Una escala de tres colores permite comparar un rango de celdas usando una gradación de tres colores. El tono de color representa los valores superiores, medios o inferiores. Por ejemplo, en una escala de colores verde, amarillo y rojo, se puede especificar que las celdas con el valor superior tengan un color verde, las celdas de valor medio tengan un color amarillo y las celdas de valor inferior tengan un color rojo.
+Recomendación
+Puede ordenar las celdas con este formato por su color, solo tiene que usar el menú contextual.
+Formato rápido
+Seleccione una o más celdas de un rango, tabla o informe de tabla dinámica.
+En la pestaña Inicio , en el grupo Estilos , haga clic en la flecha situada junto a Formato condicional y, a continuación, haga clic en Borrar reglas .
+Seleccione una escala de tres colores. El color superior representa valores superiores, el color central representa valores medios y el color inferior representa valores inferiores.
+Mantenga el mouse sobre los iconos de escala de color para ver cuál corresponde a una escala de tres colores.
+Puede cambiar el método usado para especificar el ámbito de los campos del área Valores de un informe de tabla dinámica mediante el botón Opciones de formato que aparece junto al campo de la tabla dinámica que tiene aplicado el formato condicional.
+Formato avanzado
+Seleccione una o más celdas de un rango, tabla o informe de tabla dinámica.
+En la pestaña Inicio , en el grupo Estilos , haga clic en la flecha situada junto a Formato condicional y, a continuación, en Administrar reglas . Aparecerá el cuadro de diálogo Administrador de reglas de formato condicionales .
+Siga uno de los siguientes procedimientos:
+Para agregar un nuevo formato condicional, haga clic en Nueva regla . Aparecerá el cuadro de diálogo Nueva regla de formato .
+Para agregar un nuevo formato condicional basado en uno existente, seleccione la regla y, a continuación, haga clic en Duplicar regla . La regla duplicada se copiará y aparecerá en el cuadro de diálogo. Seleccione el duplicado y, después, Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+Para cambiar un formato condicional, haga lo siguiente:
+Asegúrese de haber seleccionado la hoja de cálculo, tabla o informe de tabla dinámica correctos en el cuadro de lista Mostrar reglas de formato para .
+Opcionalmente, puede cambiar el rango de celdas. Para ello, haga clic en Contraer diálogo en el cuadro Se aplica a para ocultar temporalmente el cuadro de diálogo, seleccione el nuevo rango de celdas de la hoja de cálculo y luego seleccione Expandir diálogo .
+Seleccione la regla y después haga clic en Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+En Aplicar regla a , si desea cambiar el ámbito para los campos del área Valores de un informe de tabla dinámica según el método de:
+Selección: Haga clic en Solo estas celdas .
+Campo correspondiente: Haga clic en Todas <las celdas de campo> de valor con los mismos campos .
+Campo de valor: Haga clic en Todas las <celdas del campo de> valor .
+En Seleccionar un tipo de regla , haga clic en Dar formato a todas las celdas según sus valores .
+En Editar una descripción de regla , en la lista Estilo de formato , seleccione Escala de 3 colores .
+Seleccione un tipo en Mínima , Punto medio y Máxima . Siga uno de los procedimientos siguientes:
+Aplicar formato a los valores inferiores y superiores: Seleccione un Punto medio .
+En este caso, no escriba un valor más bajo y un valor más alto .
+Aplicar formato a un valor de número, fecha u hora: Seleccione Número y, a continuación, escriba un valor en Mínima , Punto medio y Máxima .
+Aplicar formato a un porcentaje: Seleccione Porcentaje y, a continuación, escriba un valor en Mínimo , Punto medio y Máximo . Los valores válidos son del 0 (cero) al 100. No escriba un signo de porcentaje (%).
+Use un porcentaje cuando desee ver todos los valores proporcionalmente, ya que al usar un porcentaje la distribución de los valores es proporcional.
+Aplicar formato a un percentil: Seleccione Percentil y a continuación escriba un valor en Mínima , Punto medio y Máxima .
+Los valores de percentiles válidos son del 0 (cero) al 100.
+Use un percentil cuando desee ver un grupo de valores altos (como el percentil 20superior) en una proporción de escala de color y un grupo de valores bajos (como el percentil 20inferior) en otra proporción de escala de color porque representan valores extremos que podrían sesgar la presentación de sus datos.
+Aplicar formato al resultado de una fórmula: Seleccione Fórmula y, a continuación, escriba un valor en Mínima , Punto medio y Máxima .
+La fórmula debe devolver un valor de número, de fecha o de hora. Empiece la fórmula con un signo igual ( = ). Las fórmulas no válidas hacen que no se aplique ningún formato. Se recomienda probar la fórmula para asegurarse de que no devuelve ningún valor de error.
+Nota
+Se pueden configurar valores de Mínima, Punto medio y Máxima para el rango de celdas. Asegúrese de que el valor de Mínima sea menor que el valor de Punto medio , el cual, a su vez, deberá ser menor que el valor de Máxima .
+Puede elegir tipos diferentes para Mínima , Punto medio y Máxima . Por ejemplo, puede elegir un número en Mínima , un percentil en Punto medio y un porcentaje en Máxima .
+En muchos casos, el valor de Punto medio predeterminado del 50 por ciento funciona mejor pero puede ajustarse para satisfacer requisitos únicos.
+Para elegir una escala de color Mínima , Punto medio y Máxima , haga clic en Color para cada uno y después seleccione un color.
+Para elegir colores adicionales o crear un color personalizado, haga clic en Más colores .
+La escala de colores que seleccione aparecerá en el cuadro Vista previa .
+Aplicar formato a las celdas usando barras de datos
+Una barra de datos le ayuda a ver el valor de una celda con relación a las demás. La longitud de la barra de datos representa el valor de la celda. Una barra más larga representa un valor más alto y una barra más corta representa un valor más bajo. Las barras de datos son útiles para encontrar números más altos y más bajos especialmente con grandes cantidades de datos, como las mayores y menores ventas de juguetes en un informe de ventas.
+El ejemplo que se muestra aquí usa barras de datos para resaltar valores positivos y negativos espectaculares. Puede formatear las barras de datos de tal modo que la barra empiece en mitad de la celda y se extienda hacia la izquierda para mostrar los valores negativos.
+Recomendación
+Si una o varias celdas del rango contienen una fórmula que devuelve un error, el formato condicional no se aplica a ninguna celda del rango. Para garantizar que el formato condicional se aplique a todo el rango, use una función ES o SIERROR para devolver un valor (como 0 o "N/A") que no sea un valor de error.
+Formato rápido
+Seleccione una o más celdas de un rango, tabla o informe de tabla dinámica.
+En el grupo Estilo de la pestaña Inicio , haga clic en la flecha junto a Formato condicional , haga clic en Barras de datos y a continuación seleccione un icono de la barra de datos.
+Puede cambiar el método usado para especificar el ámbito para los campos del área Valores de un informe de tabla dinámica mediante el botón de opción Aplicar regla de formato a .
+Formato avanzado
+Seleccione una o más celdas de un rango, tabla o informe de tabla dinámica.
+En la pestaña Inicio , en el grupo Estilos , haga clic en la flecha situada junto a Formato condicional y, a continuación, en Administrar reglas . Aparecerá el cuadro de diálogo Administrador de reglas de formato condicionales .
+Siga uno de los siguientes procedimientos:
+Para agregar un formato condicional, haga clic en Nueva regla . Aparecerá el cuadro de diálogo Nueva regla de formato .
+Para agregar un nuevo formato condicional basado en uno existente, seleccione la regla y, a continuación, haga clic en Duplicar regla . La regla duplicada se copiará y aparecerá en el cuadro de diálogo. Seleccione el duplicado y, después, Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+Para cambiar un formato condicional, haga lo siguiente:
+Asegúrese de haber seleccionado la hoja de cálculo, tabla o informe de tabla dinámica correctos en el cuadro de lista Mostrar reglas de formato para .
+Opcionalmente, puede cambiar el rango de celdas. Para ello, haga clic en Contraer diálogo en el cuadro Se aplica a para ocultar temporalmente el cuadro de diálogo, seleccione el nuevo rango de celdas de la hoja de cálculo y luego seleccione Expandir diálogo .
+Seleccione la regla y después haga clic en Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+En Aplicar regla a , si desea cambiar el ámbito para los campos del área Valores de un informe de tabla dinámica según el método de:
+Selección: Haga clic en Solo estas celdas .
+Campo correspondiente: Haga clic en Todas <las celdas de campo> de valor con los mismos campos .
+Campo de valor: Haga clic en Todas las <celdas del campo de> valor .
+En Seleccionar un tipo de regla , haga clic en Dar formato a todas las celdas según sus valores .
+En Editar una descripción de regla , en la lista Estilo de formato , seleccione Barra de datos .
+Seleccione un Minimum and MaximumType . Siga uno de estos procedimientos:
+Aplicar formato a los valores inferiores y superiores: Seleccione Valor más bajo y Valor más alto .
+En este caso, no escriba un valor en Mínima y en Máxima .
+Aplicar formato a un valor de número, fecha u hora: Seleccione Número y después escriba un valor mínimo y un valor máximo .
+Aplicar formato a un porcentaje: Seleccione Porcentaje y, a continuación, escriba un valor en Mínima y Máxima .
+Los valores válidos son del 0 (cero) al 100. No escriba un signo de porcentaje (%).
+Use un porcentaje cuando desee ver todos los valores proporcionalmente, ya que al usar un porcentaje la distribución de los valores es proporcional.
+Aplicar formato a un percentil Seleccione Percentil y a continuación escriba un valor en Mínima y en Máxima .
+Los valores de percentiles válidos son del 0 (cero) al 100.
+Use un percentil cuando desee ver un grupo de valores altos (como el percentil 20superior) en una proporción de barra de datos y valores bajos (como el percentil 20inferior) en otra proporción de barra de datos, porque representan valores extremos que podrían sesgar la presentación de sus datos.
+Aplicar formato al resultado de una fórmula Seleccione Fórmula y a continuación escriba un valor en Mínima y Máxima .
+La fórmula debe devolver un valor de número, de fecha o de hora.
+Empiece la fórmula con un signo igual ( = ).
+Las fórmulas no válidas hacen que no se aplique ningún formato.
+Se recomienda probar la fórmula para asegurarse de que no devuelve ningún valor de error.
+Nota
+Asegúrese de que el valor de Mínima sea menor que el valor de Máxima .
+Puede elegir tipos diferentes en Mínima y en Máxima . Por ejemplo, puede elegir un número en Mínima y un porcentaje en Máxima .
+Para elegir una escala de color de Mínima y Máxima , haga clic en Color de la barra .
+Si desea elegir colores adicionales o crear un color personalizado, haga clic en Más colores . El color de la barra que seleccione aparecerá en el cuadro Vista previa .
+Para mostrar solo la barra de datos y no el valor en la celda, seleccione Mostrar solo la barra .
+Para aplicar un borde sólido a las barras de datos, seleccione Borde sólido en el cuadro de lista Borde y elija un color para el borde.
+Para elegir entre una barra sólida y una barra degradada, elija Relleno sólido o Relleno degradado en el cuadro de lista Relleno .
+Para aplicar formato a las barras negativas, haga clic en Valor negativo y eje y después en el cuadro de diálogo Valor negativo y configuración del eje , elija las opciones para los colores del relleno y el borde de la barra negativa. También puede configurar la posición y el color del eje. Cuando termine de seleccionar las opciones, haga clic en Aceptar .
+Puede cambiar la dirección de las barras. Para ello, elija una configuración en el cuadro de lista Dirección de barra . Esta opción está configurada en Contexto de forma predeterminada, pero puede elegir entre dirección de izquierda a derecha o de derecha a izquierda, según el modo en que desee presentar los datos.
+Aplicar formato a las celdas empleando un conjunto de iconos
+Use un conjunto de iconos para comentar y clasificar los datos en tres y hasta cinco categorías separadas por un valor de umbral. Cada icono representa un rango de valores. Por ejemplo, en el conjunto de iconos de 3 flechas, la flecha verde hacia arriba representa los valores más altos, la flecha amarilla de lado representa los valores medios y la flecha roja hacia abajo representa los valores más bajos.
+Recomendación
+Puede ordenar las celdas con este formato por su icono. solo tiene que usar el menú contextual.
+El ejemplo que se muestra aquí funciona con varios ejemplos de conjuntos de iconos de formato condicional.
+Puede elegir mostrar iconos solo para celdas que cumplen con una determinada condición; por ejemplo, puede mostrar un icono de advertencia para las celdas que se encuentran por debajo de un valor crítico y ningún icono para los que lo superan. Para ello, oculte los iconos al configurar las condiciones; seleccione No hay icono de celda en la lista desplegable de iconos junto al icono. También puede crear su propia combinación de conjuntos de iconos; por ejemplo, una marca de verificación de "símbolo" verde, una "luz de semáforo" amarilla y una "bandera" roja.
+Recomendación
+Si una o varias celdas de la selección contienen una fórmula que devuelve un error, el formato condicional no se aplica a ninguna celda del rango. Para garantizar que el formato condicional se aplique a todo el rango, use una función ES o SIERROR para devolver un valor (como 0 o "N/A") que no sea un valor de error.
+Formato rápido
+Seleccione las celdas donde quiera aplicar el formato condicional.
+En el grupo Estilo de la pestaña Inicio , haga clic en la flecha junto a Formato condicional , haga clic en Conjunto de iconos y después seleccione un conjunto de iconos.
+Puede cambiar el método usado para especificar el ámbito para los campos del área Valores de un informe de tabla dinámica mediante el botón de opción Aplicar regla de formato a .
+Formato avanzado
+Seleccione las celdas donde quiera aplicar el formato condicional.
+En la pestaña Inicio , en el grupo Estilos , haga clic en la flecha situada junto a Formato condicional y, a continuación, en Administrar reglas . Aparecerá el cuadro de diálogo Administrador de reglas de formato condicionales .
+Siga uno de los siguientes procedimientos:
+Para agregar un formato condicional, haga clic en Nueva regla . Aparecerá el cuadro de diálogo Nueva regla de formato .
+Para agregar un nuevo formato condicional basado en uno existente, seleccione la regla y, a continuación, haga clic en Duplicar regla . La regla duplicada se copiará y aparecerá en el cuadro de diálogo. Seleccione el duplicado y, después, Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+Para cambiar un formato condicional, haga lo siguiente:
+Asegúrese de haber seleccionado la hoja de cálculo, tabla o informe de tabla dinámica correctos en el cuadro de lista Mostrar reglas de formato para .
+Opcionalmente, puede cambiar el rango de celdas. Para ello, haga clic en Contraer diálogo en el cuadro Se aplica a para ocultar temporalmente el cuadro de diálogo, seleccione el nuevo rango de celdas de la hoja de cálculo y luego seleccione Expandir diálogo .
+Seleccione la regla y después haga clic en Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+En Aplicar regla a , si desea cambiar el ámbito para los campos del área Valores de un informe de tabla dinámica según el método de:
+Selección: Haga clic en Solo estas celdas .
+Campo correspondiente: Haga clic en Todas <las celdas de campo> de valor con los mismos campos .
+Campo de valor: Haga clic en Todas las <celdas del campo de> valor .
+En Seleccionar un tipo de regla , haga clic en Dar formato a todas las celdas según sus valores .
+En Editar una descripción de regla , en la lista Estilo de formato , seleccione Conjunto de iconos .
+Seleccione un conjunto de iconos. El valor predeterminado es 3 semáforos (sin marco) . El número de iconos, los operadores de comparación y los valores de umbral para cada icono pueden variar para cada conjunto de iconos.
+Puede ajustar los operadores de comparación y los valores de umbral. El rango predeterminado de valores para cada icono es igual en tamaño, pero puede ajustarlo para cumplir con sus requisitos particulares. Asegúrese de que los umbrales estén en una secuencia lógica de los más altos a los más bajos y de arriba a abajo.
+Siga uno de los procedimientos siguientes:
+Aplicar formato a un valor de número, fecha u hora: Seleccione Número .
+Aplicar formato a un porcentaje: Seleccione Porcentaje .
+Los valores válidos son del 0 (cero) al 100. No escriba un signo de porcentaje (%).
+Use un porcentaje cuando desee ver todos los valores proporcionalmente, ya que al usar un porcentaje la distribución de los valores es proporcional.
+Aplicar formato a un percentil: Seleccione Percentil . Los valores de percentiles válidos son del 0 (cero) al 100.
+Use un percentil cuando desee ver un grupo de valores altos (como el percentil 20superior) con un icono concreto y de valores bajos (como el percentil 20inferior) con otro icono, porque representan valores extremos que podrían sesgar la presentación de sus datos.
+Aplicar formato al resultado de una fórmula: Seleccione Fórmula y después escriba una fórmula en cada uno de los cuadros Valor .
+La fórmula debe devolver un valor de número, de fecha o de hora.
+Empiece la fórmula con un signo igual (=).
+Las fórmulas no válidas hacen que no se aplique ningún formato.
+Se recomienda probar la fórmula para asegurarse de que no devuelve ningún valor de error.
+Para que el primer icono represente valores más bajos y el último valores más altos, seleccione Invertir criterio de ordenación de icono .
+Para mostrar solo el icono y no el valor en la celda, seleccione Mostrar icono únicamente .
+Nota
+Puede que tenga que ajustar el ancho de la columna para acomodar el icono.
+El tamaño del icono mostrado dependerá del tamaño de fuente que se use en la celda. A medida que aumenta el tamaño de la fuente, también aumenta el tamaño del icono de forma proporcional.
+Aplicar formato a las celdas que contienen valores de texto, número, o fecha y hora
+Para encontrar más fácilmente celdas específicas, puede aplicarles formato mediante un operador de comparación. Por ejemplo, en una hoja de cálculo de inventario ordenada según categorías, podría resaltar en amarillo los productos con menos de 10 artículos disponibles. En una hoja de cálculo de resumen de almacén al por menor, puede identificar todos los almacenes con beneficios superiores al 10 %, volúmenes de ventas menores de 100 000 USD, y región igual a "Sudeste".
+Los ejemplos que se muestran aquí funcionan con ejemplos de criterios integrados de formatos condicionales, como, por ejemplo, "Mayor que" y "Superior %". Esto aplica formato a ciudades con una población superior a 2.000.000 con un fondo verde y el 30% principal de altas temperaturas promedio con naranja.
+Nota
+No se puede aplicar formato condicional a campos del área Valores de un informe de tabla dinámica por texto o por fecha, solo por número.
+Formato rápido
+Seleccione una o más celdas de un rango, tabla o informe de tabla dinámica.
+En el grupo Estilo de la pestaña Inicio , haga clic en la flecha junto a Formato condicional y después haga clic en Resaltar reglas de celdas .
+Seleccione el comando que desea, como Entre , Igual a texto que contiene o Una fecha .
+Escriba los valores que desee usar y después seleccione un formato.
+Puede cambiar el método usado para especificar el ámbito para los campos del área Valores de un informe de tabla dinámica mediante el botón de opción Aplicar regla de formato a .
+Formato avanzado
+Seleccione una o más celdas de un rango, tabla o informe de tabla dinámica.
+En la pestaña Inicio, en el grupo Estilos, haga clic en la flecha situada junto a Formato condicional y, a continuación, en Administrar reglas. Aparecerá el cuadro de diálogo Administrador de reglas de formato condicionales .
+Siga uno de los siguientes procedimientos:
+Para agregar un formato condicional, haga clic en Nueva regla . Aparecerá el cuadro de diálogo Nueva regla de formato .
+Para agregar un nuevo formato condicional basado en uno existente, seleccione la regla y, a continuación, haga clic en Duplicar regla . La regla duplicada se copiará y aparecerá en el cuadro de diálogo. Seleccione el duplicado y, después, Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+Para cambiar un formato condicional, haga lo siguiente:
+Asegúrese de haber seleccionado la hoja de cálculo, tabla o informe de tabla dinámica correctos en el cuadro de lista Mostrar reglas de formato para .
+Opcionalmente, puede cambiar el rango de celdas. Para ello, haga clic en Contraer diálogo en el cuadro Se aplica a para ocultar temporalmente el cuadro de diálogo, seleccione el nuevo rango de celdas de la hoja de cálculo o en las otras hojas de cálculo y luego seleccione Expandir diálogo .
+Seleccione la regla y después haga clic en Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+En Aplicar regla a , si desea cambiar el ámbito para los campos del área Valores de un informe de tabla dinámica según el método de:
+Selección: Haga clic en Solo estas celdas .
+Campo correspondiente: Haga clic en Todas <las celdas de campo> de valor con los mismos campos .
+Campo de valor: Haga clic en Todas las <celdas del campo de> valor .
+En Seleccionar un tipo de regla , haga clic en Aplicar formato únicamente a las celdas que contengan .
+En Editar una descripción de regla , en el cuadro de lista Dar formato únicamente a las celdas con , siga uno de los procedimientos siguientes:
+Aplicar formato por número, por fecha o por hora: Seleccione Valor de la celda , seleccione un operador de comparación y después escriba un número, una fecha o una hora.
+Por ejemplo, seleccione Entre y a continuación escriba 100 y 200 , o bien seleccione Igual a y a continuación escriba 1/1/2009 .
+También puede escribir una fórmula que devuelva un valor de número, de fecha o de hora.
+Si escribe una fórmula, empiece con un signo igual (=).
+Las fórmulas no válidas hacen que no se aplique ningún formato.
+Se recomienda probar la fórmula para asegurarse de que no devuelve ningún valor de error.
+Aplicar formato por texto: Seleccione Texto específico , elija un operador de comparación y, a continuación, escriba texto.
+Por ejemplo, seleccione Contiene y después escriba Plata o seleccione Que empieza por y después escriba Tri .
+Se incluyen comillas en la cadena de búsqueda y puede usar caracteres comodín. La longitud máxima de una cadena es de 255 caracteres.
+También puede escribir una fórmula que devuelva texto.
+Si escribe una fórmula, empiece con un signo igual (=).
+Las fórmulas no válidas hacen que no se aplique ningún formato.
+Se recomienda probar la fórmula para asegurarse de que no devuelve ningún valor de error.
+Aplicar formato por fecha: Seleccione Fechas y, a continuación, una comparación de fechas.
+Por ejemplo, seleccione Ayer o Semana siguiente .
+Aplicar formato a celdas con espacios en blanco o sin espacios en blanco: Seleccione Celdas en blanco o Sin espacios en blanco .
+Un valor en blanco es una celda que no contiene datos y es diferente de una celda que contiene uno o más espacios (los espacios se consideran texto).
+Aplicar formato a celdas con valores de error o sin error: Seleccione Errores o No hay errores .
+Los valores erróneos son: #####, #¡VALOR!, #¡DIV/0!, #¿NOMBRE?, #N/A, #¡REF!, #¡NUM!, y #¡NULL!
+Para especificar un formato, haga clic en Formato . Aparecerá el cuadro de diálogo Formato de celdas .
+Seleccione el número, la fuente, el borde o el formato de relleno que desea aplicar cuando el valor de la celda cumpla con la condición y después haga clic en Aceptar .
+Puede elegir más de un formato. Los formatos que seleccione aparecerán en el cuadro Vista previa .
+Aplicar formato únicamente a los valores de rango inferior o superior
+Puede buscar los valores más altos y más bajos en un rango de celdas según un valor de corte que especifique. Por ejemplo, puede buscar los 5 productos más vendidos en un informe regional, el 15% de los productos del final de una encuesta al cliente o los 25 mejores salarios de un análisis de personal de departamento.
+Formato rápido
+Seleccione una o más celdas de un rango, tabla o informe de tabla dinámica.
+En el grupo Estilo de la pestaña Inicio , haga clic en la flecha junto a Formato condicional y a continuación haga clic en Reglas superiores e inferiores .
+Seleccione el comando que desee, como 10 elementos superiores o 10% de valores inferiores .
+Escriba los valores que desee usar y después seleccione un formato.
+Puede cambiar el método usado para especificar el ámbito para los campos del área Valores de un informe de tabla dinámica mediante el botón de opción Aplicar regla de formato a .
+Formato avanzado
+Seleccione una o más celdas de un rango, tabla o informe de tabla dinámica.
+En la pestaña Inicio , en el grupo Estilos , haga clic en la flecha situada junto a Formato condicional y, a continuación, en Administrar reglas . Aparecerá el cuadro de diálogo Administrador de reglas de formato condicionales .
+Siga uno de los siguientes procedimientos:
+Para agregar un formato condicional, haga clic en Nueva regla . Aparecerá el cuadro de diálogo Nueva regla de formato .
+Para agregar un nuevo formato condicional basado en uno existente, seleccione la regla y, a continuación, haga clic en Duplicar regla . La regla duplicada se copiará y aparecerá en el cuadro de diálogo. Seleccione el duplicado y, después, Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+Para cambiar un formato condicional, haga lo siguiente:
+Asegúrese de haber seleccionado la hoja de cálculo, tabla o informe de tabla dinámica correctos en el cuadro de lista Mostrar reglas de formato para .
+Opcionalmente, puede cambiar el rango de celdas. Para ello, haga clic en Contraer diálogo en el cuadro Se aplica a para ocultar temporalmente el cuadro de diálogo, seleccione el nuevo rango de celdas de la hoja de cálculo y luego seleccione Expandir diálogo .
+Seleccione la regla y después haga clic en Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+En Aplicar regla a , si desea cambiar el ámbito para los campos del área Valores de un informe de tabla dinámica según el método de:
+Selección: Haga clic en Solo estas celdas .
+Campo correspondiente: Haga clic en Todas <las celdas de campo> de valor con los mismos campos .
+Campo de valor: Haga clic en Todas las <celdas del campo de> valor .
+En Seleccionar un tipo de regla , haga clic en Aplicar formato únicamente a los valores de rango inferior o superior .
+En Editar una descripción de regla , en el cuadro de lista Aplicar formato a los valores que están en el rango en , seleccione Superior o Inferior .
+Siga uno de los procedimientos siguientes:
+Para especificar un número superior o inferior, escriba un número y después desactive la casilla % del rango seleccionado . Los valores válidos son del 1 al 1000.
+Para especificar un porcentaje superior o inferior, escriba un número y después desactive la casilla % del rango seleccionado . Los valores válidos son del 1 al 100.
+Otra opción es cambiar el modo en que se aplica el formato a los campos en el área Valores de un informe de tabla dinámica cuyo ámbito se especifica por campo correspondiente.
+De forma predeterminada, el formato condicional se basa en todos los valores visibles. No obstante, cuando se especifica el ámbito por el método de campo correspondiente, en lugar de usar todos los valores visibles es posible aplicar el formato condicional a cada combinación de:
+Una columna y el campo de su fila principal seleccionando cada grupo de columnas .
+Una fila y el campo de su columna principal seleccionando cada grupo de filas .
+Para especificar un formato, haga clic en Formato . Aparecerá el cuadro de diálogo Formato de celdas .
+Seleccione el número, la fuente, el borde o el formato de relleno que desea aplicar cuando el valor de la celda cumpla con la condición y después haga clic en Aceptar .
+Puede elegir más de un formato. Los formatos que seleccione aparecerán en el cuadro Vista previa .
+Aplicar formato a los valores por encima o por debajo del promedio
+Puede buscar valores por encima o por debajo del promedio o desviación estándar en un rango de celdas. Por ejemplo, puede buscar los ejecutores medios anteriores en una evaluación del rendimiento anual o puede buscar materiales fabricados que se encuentran por debajo de dos desviaciones estándar de una calificación de calidad.
+Formato rápido
+Seleccione una o más celdas de un rango, tabla o informe de tabla dinámica.
+En el grupo Estilo de la pestaña Inicio , haga clic en la flecha junto a Formato condicional y a continuación haga clic en Reglas superiores e inferiores .
+Seleccione el comando que desee, como Por encima del promedio o Por debajo del promedio .
+Escriba los valores que desee usar y después seleccione un formato.
+Puede cambiar el método usado para especificar el ámbito para los campos del área Valores de un informe de tabla dinámica mediante el botón de opción Aplicar regla de formato a .
+Formato avanzado
+Seleccione una o más celdas de un rango, tabla o informe de tabla dinámica.
+En la pestaña Inicio , en el grupo Estilos , haga clic en la flecha situada junto a Formato condicional y, a continuación, en Administrar reglas . Aparecerá el cuadro de diálogo Administrador de reglas de formato condicionales .
+Siga uno de los siguientes procedimientos:
+Para agregar un formato condicional, haga clic en Nueva regla . Aparecerá el cuadro de diálogo Nueva regla de formato .
+Para agregar un nuevo formato condicional basado en uno existente, seleccione la regla y, a continuación, haga clic en Duplicar regla . La regla duplicada se copiará y aparecerá en el cuadro de diálogo. Seleccione el duplicado y, después, Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+Para cambiar un formato condicional, haga lo siguiente:
+Asegúrese de haber seleccionado la hoja de cálculo, tabla o informe de tabla dinámica correctos en el cuadro de lista Mostrar reglas de formato para .
+Opcionalmente, puede cambiar el rango de celdas. Para ello, haga clic en Contraer diálogo en el cuadro Se aplica a para ocultar temporalmente el cuadro de diálogo, seleccione el nuevo rango de celdas de la hoja de cálculo y luego seleccione Expandir diálogo .
+Seleccione la regla y después haga clic en Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+En Aplicar regla a , si desea cambiar el ámbito para los campos del área Valores de un informe de tabla dinámica según el método de:
+Selección: Haga clic en Solo estas celdas .
+Campo correspondiente: Haga clic en Todas <las celdas de campo> de valor con los mismos campos .
+Campo de valor: Haga clic en Todas las <celdas del campo de> valor .
+En Seleccionar un tipo de regla , haga clic en Aplicar formato a los valores por encima o por debajo del promedio .
+En Editar una descripción de regla , en el cuadro de lista Dar formato a valores que sean , siga uno de los procedimientos siguientes:
+Para aplicar formato a celdas que estén por encima o por debajo del promedio de todas las celdas del rango, seleccione por encima de o por debajo de .
+Para dar formato a las celdas que están encima o en una, dos o tres desviaciones estándar para todas las celdas del rango, seleccione una desviación estándar.
+Otra opción es cambiar el modo en que se aplica el formato a los campos en el área Valores de un informe de tabla dinámica cuyo ámbito se especifica por campo correspondiente.
+De forma predeterminada, el formato condicional se basa en todos los valores visibles. No obstante, cuando se especifica el ámbito por el método de campo correspondiente, en lugar de usar todos los valores visibles es posible aplicar el formato condicional a cada combinación de:
+Una columna y el campo de su fila principal seleccionando cada grupo de columnas .
+Una fila y el campo de su columna principal seleccionando cada grupo de filas .
+Haga clic en Formato para mostrar el cuadro de diálogo Formato de celdas .
+Seleccione el número, la fuente, el borde o el formato de relleno que desea aplicar cuando el valor de la celda cumpla con la condición y después haga clic en Aceptar .
+Puede elegir más de un formato. Los formatos que seleccione aparecerán en el cuadro Vista previa .
+Aplicar formato únicamente a los valores únicos o duplicados
+Nota
+No se puede aplicar formato condicional a campos del área Valores de un informe de tabla dinámica según valores únicos o duplicados.
+Recomendación
+Cuando se usa la regla de formato "Valores duplicados", si la configuración "Idiomas de creación y corrección de Office" se establece en un idioma que usa la codificación de juego de caracteres de doble byte (DBCS), como el japonés, los caracteres de ancho medio y ancho completo se tratan igual. Si necesita diferenciarlas, puede usar el tipo de regla "Usar una fórmula para determinar dónde se cumple esta fórmula" con una fórmula CONTAR.SI. Por ejemplo, para identificar valores duplicados en el rango A2:A400, aplique la fórmula "=CONTAR.SI($A$2:$A$400,A2)> 1" para el formato condicional.
+Nota
+Las reglas de formato "Valores únicos" o "Duplicados" considerarán "*" y "?" como caracteres comodín, incluso cuando se utilicen en una fórmula de una celda.
+En el ejemplo que se muestra aquí, se usa formato condicional en la columna Instructor para buscar profesores que den más de una clase (los nombres de profesor duplicados se resaltan de color rojo pálido). Los valores de calificación que se encuentran únicamente una vez en la columna Calificación (valores únicos) se resaltan de color verde.
+Formato rápido
+Seleccione las celdas donde quiera aplicar el formato condicional.
+En el grupo Estilo de la pestaña Inicio , haga clic en la flecha junto a Formato condicional y después haga clic en Resaltar reglas de celdas .
+Seleccione Duplicar valores .
+Escriba los valores que desee usar y después seleccione un formato.
+Formato avanzado
+Seleccione las celdas donde quiera aplicar el formato condicional.
+En la pestaña Inicio , en el grupo Estilos , haga clic en la flecha situada junto a Formato condicional y, a continuación, en Administrar reglas . Aparecerá el cuadro de diálogo Administrador de reglas de formato condicionales .
+Siga uno de los siguientes procedimientos:
+Para agregar un formato condicional, haga clic en Nueva regla . Aparecerá el cuadro de diálogo Nueva regla de formato .
+Para agregar un nuevo formato condicional basado en uno existente, seleccione la regla y, a continuación, haga clic en Duplicar regla . La regla duplicada se copiará y aparecerá en el cuadro de diálogo. Seleccione el duplicado y, después, Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+Para cambiar un formato condicional, haga lo siguiente:
+Asegúrese de que la hoja de cálculo o la tabla adecuada está seleccionada en el cuadro de lista Mostrar reglas de formato para .
+Opcionalmente, puede cambiar el rango de celdas. Para ello, haga clic en Contraer diálogo en el cuadro Se aplica a para ocultar temporalmente el cuadro de diálogo, seleccione el nuevo rango de celdas de la hoja de cálculo y luego seleccione Expandir diálogo .
+Seleccione la regla y después haga clic en Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+En Seleccionar un tipo de regla , haga clic en Aplicar formato únicamente a los valores únicos o duplicados .
+En Editar una descripción de regla , en el cuadro de lista Dar formato a todo , seleccione única o duplicada .
+Haga clic en Formato para mostrar el cuadro de diálogo Formato de celdas .
+Seleccione el número, la fuente, el borde o el formato de relleno que desea aplicar cuando el valor de la celda cumpla con la condición y después haga clic en Aceptar .
+Puede elegir más de un formato. Los formatos que seleccione aparecerán en el cuadro Vista previa .
+Establecer sus propias reglas de formato condicional.
+Si ninguna de las opciones anteriores es la que estaba buscando, puede crear su propia regla de formato condicional siguiendo unos pocos pasos.
+Nota
+Si ya tiene una regla definida y solo quiere cambiarla ligeramente, duplique la regla y edítela.
+Seleccione Inicio > Formato condicional > Administrar reglas y, a continuación, en el cuadro de diálogo Administrador de reglas de formato condicional , seleccione una regla de la lista y, a continuación, seleccione Duplicar regla . La regla duplicada aparecerá en la lista.
+Seleccione la regla duplicada y haga clic en Editar regla .
+Seleccione las celdas a las que desee aplicar formato.
+En la pestaña Inicio , haga clic en Nueva regla de > formato condicional .
+Cree una regla, especifique sus opciones de formato y, después, haga clic en Aceptar .
+Si no ve las opciones que desea, puede usar una fórmula que determine las celdas para aplicar formato. Vea la sección siguiente para obtener los pasos necesarios.
+Usar una fórmula que determine las celdas para aplicar formato
+Si no ve las opciones exactas que necesita para crear su propia regla de formato condicional, puede usar una fórmula lógica para especificar los criterios de formato. Por ejemplo, puede que desee comparar los valores en una selección con un resultado devuelto por una función o evaluar datos de celdas que se encuentran fuera del rango seleccionado, que pueden estar en otra hoja de cálculo del mismo libro. Su fórmula debe devolver Verdadero o Falso (1 o 0), sin embargo, puede utilizar la lógica condicional para enlazar un conjunto de formatos condicionales correspondientes, como colores diferentes para cada uno de los pequeños valores de texto (por ejemplo, nombres de categorías de productos).
+Nota
+Puede escribir referencias de celda en una fórmula seleccionando las celdas directamente en una hoja de cálculo o en otras hojas de cálculo. Al seleccionar las celdas de la hoja de cálculo, se insertan las referencias de celdas absolutas. Si desea que Excel adapte las referencias a cada celda del rango seleccionado, use referencias de celda relativas. Para obtener más información, vea Crear o cambiar una referencia de celda y Alternar entre referencias relativas, absolutas y mixtas .
+Recomendación
+Si una o varias celdas contienen una fórmula que devuelve un error, el formato condicional no se aplica a ninguna celda del rango. Para solucionar este problema, use las funciones IS o una función SI.ERROR en la fórmula para devolver el valor que especifique (como 0 o "N/A") en lugar de un valor de error.
+En la pestaña Inicio , en el grupo Estilos , haga clic en la flecha situada junto a Formato condicional y, a continuación, haga clic en Administrar reglas .
+Aparecerá el cuadro de diálogo Administrador de reglas de formato condicionales .
+Siga uno de los siguientes procedimientos:
+Para agregar un formato condicional, haga clic en Nueva regla . Aparecerá el cuadro de diálogo Nueva regla de formato .
+Para agregar un nuevo formato condicional basado en uno existente, seleccione la regla y, a continuación, haga clic en Duplicar regla . La regla duplicada se copiará y aparecerá en el cuadro de diálogo. Seleccione el duplicado y, después, Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+Para cambiar un formato condicional, haga lo siguiente:
+Asegúrese de haber seleccionado la hoja de cálculo, tabla o informe de tabla dinámica correctos en el cuadro de lista Mostrar reglas de formato para .
+Opcionalmente, puede cambiar el rango de celdas. Para ello, haga clic en Contraer diálogo en el cuadro Se aplica a para ocultar temporalmente el cuadro de diálogo, seleccione el nuevo rango de celdas de la hoja de cálculo o en las otras hojas de cálculo y luego haga clic en Expandir diálogo .
+Seleccione la regla y después haga clic en Editar regla . Aparecerá el cuadro de diálogo Editar regla de formato .
+En Aplicar regla a , si desea cambiar el ámbito para los campos del área Valores de un informe de tabla dinámica, haga lo siguiente:
+Para definir el ámbito por selección: Haga clic en Celdas seleccionadas .
+Para definir el ámbito por el campo correspondiente: Haga clic en Todas las celdas que muestran <los valores del campo> Valores .
+Para definir el ámbito por campo de valor: Haga clic en Todas las celdas que muestran <el campo> Valores para <la fila> .
+En Seleccionar un tipo de regla , haga clic en Utilizar una fórmula que determine las celdas para aplicar formato .
+En Editar la descripción de la regla , en el cuadro de lista Dar formato a los valores donde esta fórmula sea verdadera , escriba una fórmula.
+Se debe comenzar la fórmula con un signo igual (=) y la fórmula debe devolver el valor lógico TRUE (1) o FALSE (0).
+Haga clic en Formato para mostrar el cuadro de diálogo Formato de celdas .
+Seleccione el número, la fuente, el borde o el formato de relleno que desea aplicar cuando el valor de la celda cumpla con la condición y después haga clic en Aceptar .
+Puede elegir más de un formato. Los formatos que seleccione aparecerán en el cuadro Vista previa .
+Ejemplo 1: Usar dos formatos condicionales con criterios que usan pruebas con Y y O
+En el ejemplo siguiente se muestra el uso de dos reglas de formato condicional. Si no se aplica la primera regla, se aplica la segunda.
+Primera regla: un comprador de vivienda ha presupuestado hasta 75 000 $ como entrada y 1500 $ mensuales como pago de la hipoteca. Si tanto la entrada como los pagos mensuales se ajustan a los requisitos, se aplica formato verde a las celdas B4 y B5.
+Segunda regla: si la entrada o el pago mensual no cumplen el presupuesto del comprador, se aplica formato rojo a B4 y B5. Cambie algunos valores, como la tasa de porcentaje anual (APR), el plazo del préstamo, la entrada y el importe de la compra para ver qué pasa con las celdas de formato condicional.
+Fórmula para la primera regla (se aplica el color verde)
+=Y(SI($B$4<=75000,1),SI(ABS($B 5 USD)<=1500,1))
+Fórmula para la segunda regla (se aplica el color rojo)
+=O(SI($B$4>=75000,1),SI(ABS($B$5)>=1500,1))
+Ejemplo 2: Aplicar sombra a todas las filas empleando las funciones RESTO y FILA
+Un formato condicional que aplica sombra a filas alternas del rango de celdas con un color de celda azul. Para seleccionar todas las celdas de una hoja de cálculo, haga clic en el cuadrado situado encima de la fila 1 y a la izquierda de la columna A. La función RESTO devuelve un resto después de que un número (el primer argumento) se divide por un divisor (el segundo argumento). La función FILA devuelve el número de fila actual. Cuando se divide el número de fila actual por 2, siempre se obtiene un resto de 0 para un número par y un resto de 1 para un número impar. Debido a que 0 es FALSO y 1 es VERDADERO, a todas las filas impares se les aplica formato. La regla usa esta fórmula: =RESTO(FILA(),2)=1.
+Nota
+Puede escribir referencias de celda en una fórmula seleccionando las celdas directamente en una hoja de cálculo o en otras hojas de cálculo. Al seleccionar las celdas de la hoja de cálculo, se insertan las referencias de celdas absolutas. Si desea que Excel adapte las referencias a cada celda del rango seleccionado, use referencias de celda relativas. Para obtener más información, vea Crear o cambiar una referencia de celda y Alternar entre referencias relativas, absolutas y mixtas .
+En el siguiente vídeo se muestran los conceptos básicos sobre el uso de fórmulas con formato condicional.
+Copiar y pegar el formato condicional
+Si desea aplicar un estilo de formato existente a datos nuevos o a otros datos en la hoja de cálculo, puede usar Copiar formato para copiar el formato condicional en esos datos.
+Haga clic en la celda con el formato condicional que quiere copiar.
+Haga clic en Copiar formato inicial >.
+El puntero cambia a un pincel.
+Recomendación
+Puede hacer doble clic en Copiar formato si desea seguir utilizando el pincel para pegar el formato condicional a otras celdas.
+Para copiar el formato condicional, arrastre el pincel por las celdas o rangos de celdas a los que quiere aplicar formato.
+Para dejar de utilizar el pincel, pulse Esc.
+Nota
+Si ha utilizado una fórmula en la regla que aplica el formato condicional, puede que tenga que ajustar las referencias a cualquier celda de la fórmula después de pegar el formato condicional. Para obtener más información, vea Cambiar entre referencias relativas, absolutas y mixtas .
+Encontrar celdas con formato condicional
+Si la hoja de cálculo contiene formato condicional, puede buscar las celdas rápidamente de manera que pueda copiar, cambiar o eliminar los formatos condicionales. Use el comando Ir a Especial para buscar solo las celdas con un formato condicional específico o todas las celdas con formatos condicionales.
+Buscar todas las celdas que tengan un formato condicional
+Haga clic en cualquier celda que no tenga un formato condicional.
+En la pestaña Inicio , en el grupo Edición , haga clic en la flecha situada junto a Buscar y seleccionar y, a continuación, haga clic en Formato condicional .
+Buscar solo las celdas con el mismo formato condicional
+Haga clic en cualquier celda que tenga el formato condicional que desea buscar.
+En la pestaña Inicio , en el grupo Edición , haga clic en la flecha situada junto a Buscar y seleccionar y, a continuación, haga clic en Ir a Especial .
+Haga clic en Celdas con formatos condicionales .
+Haga clic en Iguales a celda activa , en Validación de datos .
+Administrar reglas de formato condicional
+Con el formato condicional, usted configura las reglas que Excel utiliza para determinar cuándo se aplica el formato condicional. Para administrar estas reglas, debe entender el orden en el que se evalúan, qué ocurre cuando hay dos o más reglas en conflicto, cómo copiar y pegar puede afectar a la evaluación de la regla, cómo cambiar el orden en qué reglas se evalúan, y cuándo detener la evaluación de la regla.
+Obtener información acerca de la prioridad de la regla de formato condicional
+Para crear, modificar, eliminar y mostrar todas las reglas de formato condicional del libro, use el cuadro de diálogo Administrador de reglas de formato condicionales . En la pestaña Inicio , haga clic en Formato condicional y luego en Administrar reglas .)
+Aparecerá el cuadro de diálogo Administrador de reglas de formato condicionales .
+Cuando se aplican dos o más reglas de formato condicional, estas reglas se evalúan por orden de prioridad (de arriba a abajo) en función de cómo aparezcan en este cuadro de diálogo.
+A continuación, se incluye un ejemplo con fechas de expiración para los identificadores. Deseamos marcar los identificadores que expiran dentro de 60 días pero que aún no han expirado con un color de fondo amarillo, y los identificadores expirados con un color de fondo rojo.
+En este ejemplo, las celdas con números de identificador de empleados cuyas fechas de certificación vencen en 60 días están en formato amarillo, y los números de identificador de empleados con certificación vencida están en rojo. Las reglas de muestran en la siguiente imagen.
+La primera regla (que si es Verdadera, establece el color de fondo de la celda en rojo) comprueba un valor de fecha en la columna B con la fecha actual (obtenida mediante la función HOY en una fórmula). Asigne la fórmula al primer valor de datos en la columna B, que es B2. La fórmula para esta regla es =B2<HOY() . Esta fórmula comprueba las celdas en la columna B (las celdas B2:B15). Si la fórmula de cualquier celda de la columna B da como resultado Verdadero, se le da formato de color de fondo rojo a la celda correspondiente en la columna A (por ejemplo, A5 corresponde a B5, A11 corresponde a B11). Después de evaluar todas las celdas especificadas en Se aplica a con esta primera regla, se prueba la segunda regla. Esta fórmula comprueba si los valores de la columna B son inferiores a 60 días de la fecha actual (por ejemplo, supongamos que hoy es 11/8/2010). La celda B4, 4/10/2010, es menos de 60 días desde la fecha actual, por lo que se evalúa como Verdadera y se le da formato con un color de fondo amarillo. La fórmula para esta regla es =B2<HOY()+60 . Cualquier celda a la que primero se le dé formato rojo con la regla más alta en la lista se deja tal y como está.
+Una regla más alta en la lista tiene una mayor prioridad que una regla más baja en la lista. De manera predeterminada, las nuevas reglas siempre se agregan al principio de la lista, por lo que deseará controlar su orden. Puede cambiar el orden de prioridad mediante las flechas Subir y Bajar del cuadro de diálogo.
+Qué ocurre cuando más de una regla de formato condicional da como resultado Verdadero
+A veces, puede tener más de una regla de formato condicional que dé como resultado Verdadero. Aquí se explica como se aplican las reglas, en primer lugar cuando las reglas no entran y, a continuación, cuando entran en conflicto:
+Cuando las reglas no entran en conflicto Por ejemplo, si una regla aplica a una celda el formato de fuente en negrita y otra regla aplica a la misma celda el formato de color rojo, se aplica un formato a la celda con una fuente en negrita y color rojo. Debido a que no hay conflicto entre los dos formatos, se aplican ambas reglas.
+Cuando las reglas entran en conflicto Por ejemplo, una regla establece un color de fuente de celda en rojo y otra establece un color de fuente de celda en verde. Debido a que estas dos reglas entran en conflicto, solo se puede aplicar una. La regla que se aplica es la de mayor prioridad (la más alta en la lista del cuadro de diálogo).
+Cómo pegar, rellenar y cómo afectan las reglas de formato condicional a Copiar formato
+Mientras se edita la hoja de cálculo, puede copiar y pegar valores de celdas que tengan formatos condicionales, rellenar un rango de celdas con formatos condicionales o usar Copiar formato. Estas operaciones pueden afectar a la prioridad de regla de formato condicional de la siguiente manera: se crea una nueva regla de formato condicional basada en las celdas de origen para las celdas de destino.
+Si copia y pega los valores de celda que tienen formatos condicionales en una hoja de cálculo abierta en otra instancia de Excel (otro proceso de Excel.exe que se ejecute a la vez en el equipo), no se crea ninguna regla de formato condicional en la otra instancia y no se copia el formato a dicha instancia.
+Qué ocurre cuando un formato condicional y un formato manual entran en conflicto
+Si una regla de formato condicional se evalúa como Verdadero, tiene prioridad sobre cualquier formato aplicado manualmente a la misma selección. Esto significa que si entran en conflicto, el formato condicional se aplica y el formato manual no. Si se elimina la regla de formato condicional, el rango de celdas conserva el formato manual.
+El formato manual no se muestra en el cuadro de diálogo Administrador de reglas de formato condicionales ni se utiliza para determinar prioridad.
+Controlar cuándo se detiene la evaluación de la regla mediante la casilla de verificación Detener si es verdad
+Para la compatibilidad con versiones anteriores, active la casilla Detener si es verdad en el cuadro de diálogo Administrar reglas para simular de qué forma podría aparecer el formato condicional en versiones anteriores de Excel que no admiten más de tres reglas de formato condicional, o varias reglas aplicadas al mismo rango.
+Por ejemplo, si tiene más de tres reglas de formato condicional para un rango de celdas y trabaja con una versión anterior de Excel, dicha versión:
+Solo evalúa las tres primeras reglas.
+Aplica la regla de mayor prioridad que sea Verdadera.
+Omite las reglas de menor prioridad si son Verdaderas.
+La siguiente tabla resume todas las condiciones posibles para las tres primeras reglas:
+Si la regla
+Es
+Y si la regla
+Es
+Y si la regla
+Es
+Entonces
+Uno
+Verdadera
+Dos
+Verdadera o Falsa
+Tres
+Verdadera o Falsa
+Se aplica la regla uno y se omiten las reglas dos y tres.
+Uno
+Falsa
+Dos
+Verdadera
+Tres
+Verdadera o Falsa
+Se aplica la regla dos y se omite la regla tres.
+Uno
+Falsa
+Dos
+Falsa
+Tres
+Verdadera
+Se aplica la regla tres.
+Uno
+Falsa
+Dos
+Falsa
+Tres
+Falsa
+No se aplica ninguna regla.
+Puede activar o desactivar la casilla de verificación Detener si es verdad para cambiar la conducta predeterminada:
+Para evaluar únicamente la primera regla, active la casilla de verificación Detener si es verdad para la primera regla.
+Para evaluar únicamente la primera y la segunda regla, active la casilla de verificación Detener si es verdad para la segunda regla.
+No es posible activar o desactivar la casilla Detener si es verdad si el formato de la regla se aplica mediante una barra de datos, una escala de colores o un conjunto de iconos.
+Editar el orden en el que se evalúan las reglas de formato condicional
+El orden en el que se evalúan las reglas de formato condicional (su precedencia) también refleja su importancia relativa: cuanto más alta esté una regla en la lista de reglas de formato condicional, más importante será. Esto significa que, en los casos en los que se producen conflictos entre dos reglas de formato condicional, la regla que está en la parte superior de la lista se aplica y la regla que está por debajo de la lista no.
+En la pestaña Inicio , en el grupo Estilos , haga clic en la flecha situada junto a Formato condicional y, a continuación, haga clic en Administrar reglas .
+Aparecerá el cuadro de diálogo Administrador de reglas de formato condicionales .
+Se muestran las reglas de formato condicional para la selección actual, incluido el tipo de regla, el formato, el rango de celdas al que se aplica la regla y el valor Detener si es verdad .
+Si no ve la regla que desea, en el cuadro de lista Mostrar reglas de formato para , asegúrese de que está seleccionado el rango de celdas, la hoja de cálculo, la tabla o el informe de tabla dinámica correctos.
+Seleccione una regla. Solo se puede seleccionar una regla cada vez.
+Para mover la regla seleccionada hacia arriba en la prioridad, haga clic en Subir . Para mover la regla seleccionada hacia abajo en la prioridad, haga clic en Bajar .
+Opcionalmente, para detener la evaluación de una regla específica, active la casilla Detener si es verdad .
+Borrar formato condicional
+Borrar formato condicional de una hoja de cálculo
+En la pestaña Inicio , haga clic en Formato > condicional Borrar reglas > Borrar reglas de toda la hoja.
+Si tiene formato condicional aplicado en una hoja de cálculo y quiere quitarlo, siga estos pasos.
+Para una hoja de cálculo completa
+En la pestaña Inicio , haga clic en Formato > condicional Borrar reglas > Borrar reglas de toda la hoja.
+En un rango de celdas
+Seleccione las celdas que contiene el formato condicional.
+Haga clic en el Lente de Análisis rápido que aparece en la parte inferior derecha de los datos seleccionados.
+Nota
+Lente de análisis rápido no se mostrará en los casos siguientes:
+Todas las celdas del rango seleccionado están vacías.
+En la celda superior izquierda del rango seleccionado solo hay una entrada y todas las demás celdas del rango están vacías.
+Haga clic en Borrar formato .
+Buscar y eliminar los mismos formatos condicionales en una hoja de cálculo
+Haga clic en una celda que tenga el formato condicional que quiera eliminar de toda la hoja de cálculo.
+En la pestaña Inicio , haga clic en la flecha junto a Buscar y seleccionar y, a continuación, haga clic en Ir a Especial .
+Haga clic en Celdas con formatos condicionales .
+Haga clic en Iguales a celda activa , en Validación de datos . Así, seleccionará todas las celdas que contienen las mismas reglas de formato condicional.
+En la pestaña Inicio , haga clic en Formato > condicional Borrar reglas > Borrar reglas de celdas seleccionadas .
+Recomendación
+Las siguientes secciones utilizan ejemplos de manera que pueda entender el funcionamiento de Excel para la Web . Para empezar, descargue el libro Ejemplos de formato condicional y guárdelo en OneDrive. A continuación, abra OneDrive en un navegador web y seleccione el archivo descargado.
+Agregar una nueva regla de formato condicional
+Abra una hoja de cálculo en Excel para la Web .
+Seleccione las celdas a las que desea aplicar formato y, luego, seleccione Nueva > regla de > formato condicional de estilos de vivienda> . También puede abrir el panel Formato condicional y crear una nueva regla sin seleccionar primero un rango de celdas.
+Compruebe o ajuste las celdas en Aplicar al rango .
+Elija un tipo de regla y ajuste las opciones según sea necesario.
+Cuando termine, seleccione Listo y la regla se aplicará al rango.
+Editar una regla de formato condicional
+Seleccione una celda que tenga un formato condicional que quiera modificar. También puede seleccionar Estilos > de inicio>, Formato > condicional, Administrar reglas para abrir el panel de tareas Formato condicional y seleccionar una regla existente.
+El panel de tareas Formato condicional muestra las reglas que se aplican a celdas o rangos de celdas específicos.
+Mantenga el puntero sobre la regla y seleccione Editar haciendo clic en el icono de lápiz. Se abrirá el panel de tareas para editar reglas.
+Modifique la configuración de la regla y haga clic en Listo para aplicar los cambios.
+Administrar reglas de formato condicional
+El panel de tareas de Formato condicional proporciona todo lo necesario para crear, editar y eliminar reglas. Use Administrar reglas para abrir el panel de tareas y trabajar con todas las reglas de formato condicional de una selección u hoja.
+En un libro abierto, seleccione Estilos > de casa > Formato > condicional Administrar reglas .
+Se abrirá el panel de tareas Formato condicional y se mostrarán las reglas con el ámbito de la selección actual.
+Desde ahí, puede:
+Elija un ámbito diferente en el menú Administrar reglas en: por ejemplo, al elegir esta hoja , Excel debe buscar todas las reglas de la hoja actual.
+Para agregar una regla, seleccione Nueva regla (el signo más).
+Elimine todas las reglas del ámbito seleccionando Eliminar todas las reglas (la papelera).
+Usar una fórmula que determine las celdas para aplicar formato
+Puede usar una fórmula para determinar cómo Excel evalúa y da formato a una celda. Abra el panel Formato condicional y seleccione una regla existente o cree una nueva.
+En la lista desplegable Tipo de regla , seleccione Fórmula .
+Escriba la fórmula en el cuadro. Puede usar cualquier fórmula que devuelva un valor lógico VERDADERO (1) o FALSO (0), pero puede usar AND y OR para combinar un conjunto de comprobaciones lógicas.
+Por ejemplo, =AND(B3="Grain",D3<500) es verdadero para una celda en la fila 3 si tanto B3="Grain" como D3<500 son verdaderos.
+Borrar formato condicional
+Puede borrar formato condicional en las celdas seleccionadas o en toda la hoja de cálculo.
+Para borrar el formato condicional en celdas seleccionadas, seleccione las celdas de la hoja de cálculo. Después, seleccione Estilos > de inicio>, Formato > condicional, Borrar reglas > y Borrar reglas de celdas seleccionadas .
+Para borrar el formato condicional en toda la hoja de cálculo, seleccione Estilos > de inicio > Formato > condicional Borrar reglas > Borrar reglas de toda la hoja .
+Para eliminar reglas de formato condicional, seleccione Estilos > de inicio > Formato >condicional Administrar reglas y use el botón eliminar (papelera) en una regla específica o el botón Eliminar todas las reglas .
+Aplicar formato a las celdas empleando una escala de color
+Las escalas de color son guías visuales que le ayudan a comprender la distribución y variación de datos. Excel ofrece tanto escalas de dos como de tres colores.
+Una escala de dos colores le permite comparar un rango de celdas usando una gradación de dos colores. El tono del color representa los valores superiores o inferiores. Por ejemplo, en una escala de colores verde y amarillo, puede especificar que las celdas de mayor valor sean más verdes y las de menor valor tengan un color más amarillo.
+Una escala de tres colores le permite comparar un rango de celdas usando una gradación de tres colores. El tono de color representa los valores superiores, medios o inferiores. Por ejemplo, en una escala de colores verde, amarillo y rojo, se puede especificar que las celdas con el valor superior tengan un color verde, las celdas de valor medio tengan un color amarillo y las celdas de valor inferior tengan un color rojo.
+Recomendación
+Puede ordenar las celdas que tengan uno de estos formatos por colores, solo tiene que usar el menú contextual.
+Seleccione las celdas a las que desea aplicar formato condicional con escala de colores.
+Haga clic en Inicio > Estilos > Formato > condicional Escalas de color y seleccione una escala de colores.
+Aplicar formato a las celdas usando barras de datos
+Una barra de datos le ayuda a ver el valor de una celda con relación a las demás. La longitud de la barra de datos representa el valor de la celda. Una barra más larga representa un valor más alto y una barra más corta representa un valor más bajo. Las barras de datos son útiles para encontrar números más altos y más bajos, sobre todo con grandes cantidades de datos, como los juguetes más y menos vendidos en un informe de ventas navideñas.
+Seleccione las celdas donde quiera aplicar el formato condicional.
+Seleccione Estilos > de inicio>, Formato > condicional, Barras de datos y seleccione un estilo.
+Aplicar formato a las celdas empleando un conjunto de iconos
+Use un conjunto de iconos para comentar y clasificar los datos en categorías, entre tres y cinco, separadas por un valor de umbral. Cada icono representa un rango de valores. Por ejemplo, en el conjunto de iconos de 3 flechas, la flecha verde hacia arriba representa los valores más altos, la flecha amarilla de lado representa los valores medios y la flecha roja hacia abajo representa los valores más bajos.
+Seleccione las celdas donde quiera aplicar el formato condicional.
+Seleccione Conjuntos de iconos de Formatos > de > inicio > y elija un conjunto de iconos.
+Aplicar formato solo a las celdas que contienen valores de texto, número o fecha y hora
+Esta opción permite resaltar valores de celda específicos dentro de un rango de celdas en función de su contenido específico. Esto puede ser especialmente útil cuando se trabaja con datos ordenados con un rango diferente.
+Por ejemplo, en una hoja de cálculo de inventario ordenada por categorías, puede resaltar los nombres de los productos en los que tiene menos de 10 elementos en existencias para que sea fácil ver qué productos necesitan rellenar existencias sin necesidad de reordenar los datos.
+Seleccione las celdas donde quiera aplicar el formato condicional.
+Seleccione Estilos > de inicio>, Formato > condicional, Resaltar reglas de celda .
+Seleccione la comparación, por ejemplo, Entre , Igual a, texto que contiene o Una fecha .
+Aplicar formato únicamente a los valores de rango inferior o superior
+Puede resaltar los valores más altos y más bajos de un rango de celdas que se basan en un valor de corte especificado.
+Algunos ejemplos podrían ser resaltar los cinco productos más vendidos en un informe regional, los productos del 15 % inferior en una encuesta a clientes o los 25 mejores salarios de un departamento.
+Seleccione las celdas donde quiera aplicar el formato condicional.
+Seleccione Reglas > superiores e inferiores de > Formatos de inicio> .
+Seleccione el comando que desee, como 10 elementos superiores o 10% de valores inferiores .
+Escriba los valores que quiera usar y seleccione un formato (relleno, texto o color de borde).
+Aplicar formato a los valores por encima o por debajo del promedio
+Puede resaltar valores por encima o por debajo de una desviación promedio o estándar en un rango de celdas.
+Puede buscar rendimientos por encima o por debajo del promedio en una evaluación de rendimiento anual o puede buscar materiales fabricados que se encuentran por debajo de dos desviaciones estándar de una calificación de calidad.
+Seleccione las celdas donde quiera aplicar el formato condicional.
+Seleccione Reglas > superiores e inferiores de > Formatos de inicio> .
+Seleccione la opción que quiera, como Por encima del promedio o Por debajo del promedio .
+Escriba los valores que quiera usar y seleccione un formato (relleno, texto o color de borde).
+Aplicar formato únicamente a los valores únicos o duplicados
+Seleccione las celdas donde quiera aplicar el formato condicional.
+Seleccione Estilos > de inicio>, Formato > condicional, Resaltar reglas de celda, > Duplicar valores .
+Escriba los valores que quiera usar y seleccione un formato (relleno, texto o color de borde).
+Copiar y pegar el formato condicional
+Si desea aplicar un estilo de formato existente a otras celdas de la hoja de cálculo, use Copiar formato para copiar el formato condicional a los datos.
+Haga clic en la celda con el formato condicional que quiere copiar.
+Haga clic en Copiar formato inicial >.
+El puntero cambiará a un pincel.
+Recomendación
+Puede hacer doble clic en Copiar formato si desea seguir utilizando el pincel para pegar el formato condicional a otras celdas.
+Arrastre el pincel por las celdas o el rango de celdas a las que quiera dar formato.
+Para dejar de utilizar el pincel, pulse Esc.
+Nota
+Si ha utilizado una fórmula en la regla que aplica el formato condicional, puede que tenga que ajustar las referencias absolutas y relativas de la fórmula después de pegar el formato condicional. Para obtener más información, vea Cambiar entre referencias relativas, absolutas y mixtas .
+Nota
+No se puede usar formato condicional en referencias externas a otro libro.
+¿Necesitas más ayuda?
+Siempre puede preguntar a un experto en Excel Tech Community u obtener soporte técnico en Comunidades .
+Consulte también
+Problemas de compatibilidad con el formato condicional
+Introducción a Excel de forma gratuita en la web

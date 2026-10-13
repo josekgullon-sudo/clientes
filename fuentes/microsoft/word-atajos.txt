@@ -1,0 +1,1708 @@
+Métodos abreviados de teclado de Word
+https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-word-95ef89dd-7142-4b50-afb2-f762f663ceb2
+Descargado: 2026-10-13
+
+Métodos abreviados de teclado de Word
+Se aplica a Word para Microsoft 365 Word para Microsoft 365 para Mac Word 2024 Word 2024 para Mac Word 2021 Word 2021 para Mac Word 2019 Word 2016 Word para iPad Word para iPhone Word para tabletas Android Word para teléfonos Android Word Mobile
+Usar un teclado externo con métodos abreviados de teclado en Word le permite trabajar de forma más rápida y eficiente. Para los usuarios con discapacidades visuales o de movilidad, los métodos abreviados de teclado pueden ser más fáciles de usar que la pantalla táctil y son una alternativa esencial al uso de un ratón.
+Nota
+Los métodos abreviados de teclado de este tema hacen referencia a la distribución del teclado de España. Es posible que las teclas de otras distribuciones no se correspondan exactamente con las teclas de un teclado de España.
+Un signo más ( + ) en un método abreviado significa que necesita presionar varias teclas al mismo tiempo.
+Una coma ( , ) en un método abreviado significa que necesita presionar varias teclas en orden.
+Windows
+macOS
+Office para iOS
+Office para Android
+Web
+En este artículo se describen los métodos abreviados de teclado y las teclas de función en Word para Windows.
+Nota
+Para encontrar rápidamente un método abreviado en este artículo, pulse Ctrl+F, y después escriba los términos de búsqueda.
+Si una acción no tiene una tecla de método abreviado correspondiente, puede grabar una macro para crear una. Obtenga información sobre cómo hacerlo aquí: Crear o ejecutar una macro o Usar un lector de pantalla para crear una macro en Word .
+No todas las características de acceso directo enumeradas para Word se admiten en la versión Starter de Word. Obtenga más información aquí: Características de Word que no son totalmente compatibles con Word Starter .
+Como referencia, puede usar esta Word documento y PDF .
+Contenido
+Métodos abreviados de teclado más usados
+Métodos abreviados de teclado de la cinta de opciones
+Navegar por el documento
+Obtener una vista previa e imprimir documentos
+Seleccionar texto y gráficos
+Editar texto y gráficos
+Trabajar con contenido web
+Trabajar con tablas
+Revisar un documento
+Trabajar con referencias, citas e indices
+Trabajar con campos y correo combinado
+Trabajar con texto en otros idiomas
+Trabajar con vistas de documentos
+Acercar y ajustar la vista
+Usar métodos abreviados de tecla de función
+Métodos abreviados de teclado más usados
+Esta tabla muestra los métodos abreviados de teclado que se usan con más frecuencia en Microsoft.
+Para ello
+Pulse
+Abrir un documento.
+Ctrl+A
+Crear un nuevo documento.
+Ctrl+U
+Guardar el documento.
+Ctrl+S
+Cerrar el documento.
+Ctrl+W
+Cortar el contenido seleccionado en el Portapapeles.
+Ctrl+X
+Copiar el contenido seleccionado en el Portapapeles.
+Ctrl+C
+Pegar el contenido del Portapapeles.
+Ctrl+V
+Pegar solo texto.
+Ctrl+Mayús+V
+Seleccionar todo el contenido de documento.
+Ctrl+A
+Aplicar formato en negrita al texto.
+Ctrl+N
+Aplicar formato en cursiva al texto.
+Ctrl+I
+Aplicar subrayado al texto
+Ctrl+U
+Disminuir en 1 punto el tamaño de fuente.
+Ctrl+corchete de apertura ([)
+Aumentar en 1 punto el tamaño de fuente.
+Ctrl+corchete de cierre (])
+Centrar el texto.
+Ctrl+E
+Alinear el texto a la izquierda.
+Ctrl+L
+Alinear el texto a la derecha.
+Ctrl+R
+Cancelar un comando.
+Esc
+Deshacer la acción anterior.
+Ctrl+Z
+Rehacer la acción anterior, si es posible.
+Ctrl+Y
+Acercar.
+Ctrl+Signo más (+)
+Alejar.
+Ctrl+signo menos (-)
+Volver al zoom al 100 %.
+Ctrl+0
+Acercar y alejar con el ratón.
+Ctrl+Desplazamiento
+Dividir la ventana de documento.
+Ctrl+Alt+S
+Quitar la división de la ventana de documento.
+Alt+Shift+C o Ctrl+Alt+S
+Principio de página
+Cerrar un panel de tareas
+Para cerrar un panel de tareas con el teclado:
+Presione F6 hasta seleccionar el panel de tareas.
+Presione Ctrl+Barra espaciadora
+Use las teclas de dirección para seleccionar Cerrar y luego presione Entrar.
+Métodos abreviados de teclado de la cinta
+El área de la cinta agrupa las opciones relacionadas en pestañas. Por ejemplo, en la pestaña Inicio , el grupo Fuentes incluye la opción Color de fuente . Presione la tecla Alt para mostrar los accesos directos de la cinta de opciones, denominados Sugerencias de teclas, como se muestra a continuación.
+Nota
+Los complementos y otros programas pueden agregar pestañas a la cinta y podrían proporcionar teclas de acceso para esas pestañas.
+Puede combinar las letras de Sugerencias de teclas con la tecla Alt para crear métodos abreviados denominados Teclas de acceso para varias cintas de opciones. Por ejemplo, presione Alt+H para abrir la pestaña Inicio y Alt+Q para desplazarse hasta el campo Información o Búsqueda . Vuelva a presionar Alt para ver las Key Tips de las opciones de la pestaña seleccionada.
+Según la versión de Microsoft 365 que use, el campo de texto Buscar de la parte superior de la ventana de la aplicación podría llamarse Información en su lugar. Ambos ofrecen una experiencia similar en gran medida, pero algunas opciones y los resultados de búsqueda pueden variar.
+En las versiones más recientes de Office, la mayoría de los métodos abreviados de teclado antiguos con la tecla Alt también siguen funcionando. Sin embargo, debe conocer el método abreviado completo. Por ejemplo, presione Alt y, luego, presione una de las teclas del menú antiguas: E (Editar), V (Ver), I (Insertar), etc. Aparece una notificación que le indica que está usando una tecla de acceso de una versión anterior. Si conoce toda la secuencia de claves, todavía puede usarla. De lo contrario, presione Esc y use Sugerencia de tecla en su lugar.
+Usar las teclas de acceso para las pestañas de la cinta de opciones
+Para ir directamente a una pestaña en la cinta de opciones, presione una de las teclas de acceso siguientes: Pueden aparecer pestañas adicionales según la selección que haya en el documento.
+Para
+Pulse
+Ir al campo Información o Búsqueda en la cinta de opciones para buscar ayuda o contenido de ayuda.
+Alt, Q y, a continuación, escriba el término de búsqueda.
+Abrir la página Archivo para usar la vista Backstage.
+Alt, F
+Abrir la pestaña Inicio para usar comandos de formato comunes, estilos de párrafo y la herramienta Buscar.
+Alt, H
+Abrir la pestaña Insertar para insertar tablas, imágenes y formas, encabezados o cuadros de texto.
+Alt, N
+Abrir la pestaña Diseño para usar temas, colores y efectos, como bordes de página.
+Alt, G
+Abrir la pestaña Disposición para trabajar con márgenes de página, la orientación de la página, la sangría y el espaciado.
+Alt, P
+Abrir la pestaña Referencias para agregar una tabla de contenido, notas al pie, o una tabla de citas.
+Alt, S
+Abrir la pestaña Correspondencia para administrar tareas de combinación de correspondencia y para trabajar con sobres y etiquetas.
+Alt, M
+Abrir la pestaña Revisar para usar la Revisión ortográfica, establecer los idiomas de revisión y para realizar un seguimiento y revisar los cambios de su documento.
+Alt, R
+Abrir la pestaña Vista para elegir una vista o un modo del documento, como el modo Lectura o la vista Esquema. También puede establecer el aumento de zoom y administrar varias ventanas de documentos.
+Alt, W
+Abrir el cuadro Ayuda .
+Alt, F1
+Abra el cuadro Desarrollador .
+Alt, L
+Principio de página
+Trabajar en la cinta de opciones con el teclado
+Para hacer esto
+Pulse
+Seleccionar la pestaña activa de la cinta de opciones y activar las teclas de acceso.
+Alt o F10. Moverse a una pestaña diferente o usar las teclas de acceso o las teclas de dirección.
+Mover el foco a comandos en la cinta.
+Tecla TAB o Mayús+TAB
+Desplazarse entre agrupaciones de comandos en la cinta de opciones.
+Ctrl+Tecla de dirección izquierda o derecha
+Desplazarse entre los elementos de la cinta de opciones.
+Teclas de dirección
+Muestra la información sobre herramientas del elemento de la cinta de opciones que está actualmente en el foco.
+Ctrl+Shift+F10
+Activar el botón seleccionado.
+Barra espaciadora o Entrar
+Abrir la lista del comando seleccionado.
+Tecla de flecha abajo
+Abrir el menú del botón seleccionado.
+Alt+flecha abajo
+Cuando un menú o submenú está abierto, úselo para moverse al siguiente comando.
+Tecla de flecha abajo
+Expandir o contraer la cinta de opciones.
+Ctrl+F1
+Abrir el menú contextual.
+Mayús+F10
+O bien, en un teclado de Windows, use la tecla Windows (situada con la tecla Alt a la derecha y la tecla Ctrl a la izquierda)
+Úselo para moverse al submenú cuando un menú principal está abierto o seleccionado.
+Tecla de flecha derecha
+Activar o desactivar Autoguardado.
+Alt+Z, A
+Expandir o contraer la cinta de opciones.
+Ctrl+F1
+Abra el cuadro de diálogo para cambiar el nombre del documento o guardarlo en otra ubicación.
+Alt+B
+Principio de página
+Navegar por el documento
+Para
+Pulse
+Mover el cursor una palabra a la izquierda.
+Ctrl+Tecla de flecha izquierda
+Mover el cursor una palabra a la derecha.
+Ctrl+Tecla de flecha derecha
+Mover el cursor un párrafo hacia arriba.
+Ctrl+Tecla de flecha arriba
+Mover el cursor un párrafo hacia abajo.
+Ctrl+Tecla de flecha abajo
+Mover el cursor al final de la línea actual.
+Fin
+Mover el cursor al principio de la línea actual.
+Inicio
+Mover el cursor a la parte superior de la pantalla.
+Ctrl+Alt+Re Pág
+Mover el cursor a la parte inferior de la pantalla.
+Ctrl+Alt+Av Pág
+Mover el cursor desplazando la vista del documento una pantalla hacia arriba.
+Página arriba
+Mover el cursor desplazando la vista del documento una pantalla hacia abajo.
+Página abajo
+Mover el cursor a la parte superior de la página siguiente.
+Ctrl+Av Pág
+Mover el cursor a la parte superior de la página anterior.
+Ctrl+Re Pág
+Mover el cursor al final del documento.
+Ctrl+Fin
+Mover el cursor al principio del documento.
+Ctrl+Inicio
+Mover el cursor a la ubicación de la revisión anterior.
+Mayús+F5
+Mueva el cursor a la ubicación de la última revisión realizada antes de cerrar el documento por última vez.
+Mayús+F5, inmediatamente después de abrir el documento.
+Recorrer las formas flotantes, como cuadros de texto o imágenes.
+Presione Ctrl + Alt + 5 y después la tecla TAB varias veces
+Salga de la navegación de forma flotante y vuelva a la navegación normal.
+Esc
+Mostrar el panel de tareas de Navegación para buscar en el contenido del documento.
+Ctrl+B
+Mostrar el cuadro de diálogo Ir a , para ir a una página, marcador, nota al pie, tabla, comentario, gráfico u otra ubicación específica.
+Ctrl+G
+Recorrer las ubicaciones de los cuatro cambios anteriores realizados en el documento.
+Ctrl+Alt+Z
+Principio de página
+Obtener una vista previa e imprimir documentos
+Para
+Pulse
+Imprimir el documento.
+Ctrl+P
+Cambiar a vista previa de impresión.
+Ctrl+Alt+I
+Desplazarse por la página de vista preliminar cuando está ampliada.
+Teclas de dirección
+Desplazarse por una página de vista preliminar cuando está reducida.
+Retroceder página o Avanzar página
+Desplazarse hasta la primera página de vista preliminar cuando se encuentra reducida.
+Ctrl+Inicio
+Desplazarse hasta la última página de vista preliminar cuando se encuentra reducida.
+Ctrl+Fin
+Principio de página
+Seleccionar texto y gráficos
+Para
+Pulse
+Seleccionar texto.
+Mayús+Teclas de dirección
+Seleccionar la palabra a la izquierda.
+Ctrl+Mayús+Tecla de dirección izquierda
+Seleccionar la palabra a la derecha.
+Ctrl+Mayús+Tecla de dirección derecha
+Seleccionar desde la posición actual hasta el principio de la línea actual.
+Mayús+Inicio
+Seleccionar desde la posición actual hasta el final de la línea actual.
+Mayús+Fin
+Seleccionar desde la posición actual hasta el principio del párrafo actual.
+Ctrl+Mayús+Tecla de flecha arriba
+Seleccionar desde la posición actual hasta el final del párrafo actual.
+Ctrl+Mayús+Tecla de flecha abajo
+Seleccionar desde la posición actual hasta la parte superior de la pantalla.
+Mayús+Re Pág
+Seleccionar desde la posición actual hasta la parte inferior de la pantalla.
+Mayús+Av Pág
+Seleccionar desde la posición actual hasta el principio del documento.
+Ctrl+Mayús+Inicio
+Seleccionar desde la posición actual hasta el final del documento
+Ctrl+Mayús+Fin
+Seleccionar desde la posición actual hasta la parte inferior de la ventana.
+Ctrl+Alt+Mayús+Re Pág
+Seleccionar todo el contenido de documento.
+Ctrl+A
+Principio de página
+Extender una selección
+Para ello
+Pulse
+Iniciar la extensión de la selección.
+F8
+En el modo de selección extendido, al hacer clic en una ubicación en el documento se extiende la selección actual a esa ubicación.
+Seleccionar el carácter más próximo por la izquierda o la derecha.
+F8, tecla de dirección izquierda o derecha
+Expandir la selección.
+Presione F8 varias veces para ampliar la selección a toda la palabra, frase, párrafo, sección y documento.
+Reducir la selección.
+Mayús+F8
+Seleccionar un bloque de texto vertical.
+Ctrl+Mayús+F8 y, después, presione las teclas de dirección
+Detener la extensión de la selección.
+Esc
+Principio de página
+Editar texto y gráficos
+Para ello
+Pulse
+Eliminar una palabra hacia la izquierda.
+Ctrl+Retroceso
+Eliminar una palabra hacia la derecha.
+Ctrl+Suprimir
+Abra el panel de tareas Portapapeles y habilite el Portapapeles de Office, lo que le permite copiar y pegar contenido entre aplicaciones de Microsoft 365.
+Alt, H, F, O
+Cortar el contenido seleccionado en el Portapapeles.
+Ctrl+X
+Copiar el contenido seleccionado en el Portapapeles.
+Ctrl+C
+Pegar el contenido del Portapapeles.
+Ctrl+V
+Mover el contenido seleccionado a una ubicación específica.
+F2, mover el cursor al destino y presionar Entrar.
+Copiar el contenido seleccionado en una ubicación específica.
+Mayús+F2, mover el cursor al destino y presionar Entrar.
+Definir un bloque de Autotexto con el contenido seleccionado.
+Alt+F3
+Insertar un bloque de Autotexto.
+Los primeros caracteres del bloque de Autotexto y, después, presionar Entrar cuando aparezca la información en pantalla.
+Cortar el contenido seleccionado en Especial.
+Ctrl+F3
+Pegar el contenido de Especial.
+Ctrl+Mayús+F3
+Copiar el formato de texto seleccionado.
+Ctrl+Alt+C
+Pegar el formato de texto seleccionado.
+Ctrl+Alt+V
+Pegar solo texto.
+Ctrl+Mayús+V
+Copiar el encabezado o pie de página que se usó en la sección anterior del documento.
+Alt+Mayús+R
+Muestra el cuadro de diálogo Reemplazar para buscar y reemplazar texto, formato específico o elementos especiales.
+Ctrl+H
+Mostrar el cuadro de diálogo Objeto para insertar un objeto de archivo en el documento.
+Alt, N, J, J
+Insertar un gráfico SmartArt.
+Alt, N, M
+Insertar un gráfico WordArt.
+Alt, N, W
+Principio de página
+Alinear y dar formato a párrafos
+Para ello
+Pulse
+Centrar el párrafo.
+Ctrl+E
+Justificar el párrafo.
+Ctrl+J
+Alinear el párrafo a la izquierda.
+Ctrl+I
+Alinear el párrafo a la derecha.
+Ctrl+R
+Aplicar sangría al párrafo.
+Ctrl+M
+Quitar la sangría de un párrafo.
+Ctrl+Mayús+M
+Crear una sangría francesa.
+Ctrl+T
+Quitar una sangría francesa.
+Ctrl+Mayús+T
+Quitar el formato de párrafo.
+Ctrl+Q
+Aplicar espaciado simple al párrafo.
+Ctrl+1
+Aplicar espaciado doble al párrafo.
+Ctrl+2
+Aplicar un interlineado de 1,5 líneas en el párrafo.
+Ctrl+5
+Habilitar formato automático.
+Ctrl+Alt+K
+Aplicar el estilo Normal .
+Ctrl+Mayús+N
+Aplicar el estilo de Título 1 .
+Ctrl+Alt+1
+Aplicar el estilo de Título 2 .
+Ctrl+Alt+2
+Aplicar el estilo de Título 3 .
+Ctrl+Alt+3
+Mostrar el panel de tareas Aplicar estilos .
+Ctrl+Mayús+S
+Mostrar el panel de tareas Estilos .
+Ctrl+Alt+Mayús+S
+Principio de página
+Aplicar formato a caracteres
+Para ello
+Presione
+Mostrar el cuadro de diálogo Fuente .
+Ctrl+D o Ctrl+Mayús+F
+Aumentar el tamaño de fuente.
+Ctrl+Mayús+corchete angular de cierre (>)
+Disminuir el tamaño de fuente.
+Ctrl+Mayús+corchete angular de apertura (<)
+Aumentar en 1 punto el tamaño de fuente.
+Ctrl+corchete de cierre (])
+Disminuir en 1 punto el tamaño de fuente.
+Ctrl+corchete de apertura ([)
+Cambiar el texto entre mayúsculas, minúsculas y mayúsculas y minúsculas.
+Mayús+F3
+Cambie el texto a todo mayúsculas.
+Ctrl+Mayús+A
+Ocultar el texto seleccionado.
+Ctrl+Mayús+H
+Aplicar el formato de negrita.
+Ctrl+N
+Agregar una lista con viñetas
+Ctrl+Mayús+L
+Aplicar formato de subrayado
+Ctrl+U
+Aplicar formato de subrayado a las palabras, pero no a los espacios.
+Ctrl+Mayús+W
+Aplicar el formato de doble subrayado.
+Ctrl+Mayús+D
+Aplicar el formato de cursiva.
+Ctrl+I
+Aplicar el formato de mayúsculas pequeñas.
+Ctrl+Mayús+K
+Aplicar el formato de subíndice.
+Ctrl+Mayús+signo menos (-)
+Aplicar el formato de superíndice.
+Ctrl+Mayús+signo más (+)
+Quitar manualmente el formato de caracteres
+Ctrl+barra espaciadora
+Cambiar el texto seleccionado a la fuente Symbol.
+Ctrl+Mayús+Q
+Principio de página
+Administrar el formato del texto
+Para
+Pulse
+Mostrar todos los caracteres no imprimibles.
+Ctrl+Mayús+8 (no usar el teclado numérico)
+Mostrar el panel de tareas Mostrar formato .
+Mayús+F1
+Principio de página
+Insertar caracteres especiales
+Para ello
+Pulse
+Insertar un salto de línea.
+Mayús+Entrar
+Insertar un salto de página.
+Ctrl+Entrar
+Insertar un salto de columna.
+Ctrl+Mayús+Entrar
+Insertar un guion largo (—).
+Alt+Ctrl+Signo menos (del teclado numérico)
+Insertar un guion (-).
+Ctrl+signo menos (del teclado numérico)
+Insertar un guion opcional.
+Ctrl+Alt+Signo menos (-)
+Insertar un guion de no separación.
+Mayús+Alt+Signo menos(-)
+Insertar un espacio de no separación.
+Ctrl+Mayús+barra espaciadora
+Insertar un símbolo de copyright (©).
+Presione (, C, )
+Insertar un símbolo de marca registrada (®).
+Ctrl+Alt+R
+Insertar un símbolo de marca comercial (™).
+Ctrl+Alt+T
+Insertar puntos suspensivos (...)
+Ctrl+Alt+Punto (.)
+Insertar el carácter Unicode del código de carácter Unicode (hexadecimal) especificado. Por ejemplo, para insertar el símbolo del euro ( ), escriba 20AC y, a continuación, mantenga presionada alt y presione X.
+Propina: Para averiguar el código de carácter Unicode de un carácter seleccionado, presione Alt+X.
+El código de carácter y, después, presione Alt+X
+Insertar el carácter ANSI del código de carácter ANSI (decimal) especificado. Por ejemplo, para insertar el símbolo del euro, mantenga presionada Alt y presione 0128 en el teclado numérico.
+Alt+el código de carácter (en el teclado numérico)
+Principio de página
+Trabajar con contenido web
+Para
+Presione
+Insertar un hipervínculo.
+Ctrl+Alt+K
+Ir a la página anterior.
+Alt+Tecla de dirección izquierda
+Ir a la página siguiente.
+Alt+Tecla de dirección derecha
+Actualizar la página.
+F9
+Principio de página
+Trabajar con tablas
+Desplazarse por una tabla
+Para ello
+Pulse
+Ir a la siguiente celda de la fila y seleccionar su contenido.
+Tecla TAB
+Ir a la celda anterior de la fila y seleccionar su contenido.
+Mayús+TAB
+Ir a la primera celda de la fila.
+Alt+Inicio
+Ir a la última celda de la fila.
+Alt+Fin
+Ir a la primera celda de la columna.
+Alt+Re Pág
+Ir a la última celda de la columna.
+Alt+Av Pág
+Desplazarse a la fila anterior.
+Tecla de dirección arriba
+Desplazarse a la siguiente fila.
+Tecla de flecha abajo
+Desplazarse una fila hacia arriba.
+Alt+Mayús+Tecla de dirección arriba
+Desplazarse una fila hacia abajo.
+Alt+Mayús+Tecla de dirección abajo
+Principio de página
+Seleccionar contenido de tabla
+Para
+Pulse
+Seleccionar el contenido de la celda siguiente.
+Tecla TAB
+Seleccionar el contenido de la celda anterior.
+Mayús+Tab
+Extender la selección a las celdas adyacentes.
+Mayús+Teclas de dirección
+Seleccionar una columna.
+Seleccione la celda superior o inferior de la columna y, después, presione Mayús+ Re Pág o Flecha abajo
+Seleccionar una fila.
+Seleccionar la primera o la última celda de la fila y, después, presionar Mayús+Alt+Fin o Inicio.
+Seleccionar toda la tabla.
+Alt+5 en el teclado numérico (con la tecla Bloq Num desactivada)
+Principio de página
+Insertar párrafos y tabulaciones en una tabla
+Para ello
+Pulse
+Insertar un párrafo nuevo en una celda.
+Entrar
+Insertar un carácter de tabulación en una celda.
+Ctrl+Tab
+Principio de página
+Revisar un documento
+Para ello
+Pulse
+Abrir la pestaña Revisar.
+Alt, R
+Mostrar lista de comentarios.
+Alt, R, P, 1, L
+Insertar un comentario.
+Ctrl+Alt+M
+Activar o desactivar el control de cambios.
+Ctrl+Mayús+E
+Cerrar el Panel de revisión
+Alt+Mayús+C
+Principio de página
+Trabajar con referencias, citas e indices
+Use los siguientes métodos abreviados para agregar referencias al documento, como una tabla de contenido, notas al pie y citas.
+Para
+Presione
+Marcar un elemento de tabla de contenido.
+Alt+Mayús+B
+Marcar un elemento de tabla de autoridades (cita).
+Alt+Mayús+I
+Elegir opciones de cita.
+Alt+Mayús.+F12, barra espaciadora
+Marcar una entrada de índice.
+Alt+Mayús+X
+Insertar una nota al pie.
+Ctrl+Alt+F
+Insertar una nota al final.
+Ctrl+Alt+D
+Ir a la siguiente nota al pie.
+Alt+Mayús+corchete angular de cierre (>)
+Ir a la nota al pie anterior.
+Alt+Mayús+corchete angular de apertura (<)
+Principio de página
+Trabajar con campos y correo combinado
+Para usar los siguientes métodos abreviados de teclado, la pestaña Correspondencia de la cinta de opciones debe estar seleccionadas. Para seleccionar la pestaña Correspondencia , presione Alt+M.
+Realizar una combinación de correspondencia
+Para ello
+Pulse
+Obtener una vista previa de la combinación de correspondencia.
+Alt+Mayús+K
+Combinar un documento.
+Alt+Mayús+N
+Imprimir el documento combinado.
+Alt+Mayús+M
+Modificar un documento de datos para combinar correspondencia.
+Alt+Mayús+E
+Insertar un campo de combinación.
+Alt+Mayús+V
+Principio de página
+Trabajar con campos
+Para ello
+Presione
+Insertar un campo de FECHA.
+Alt+Mayús+F
+Insertar un campo LISTNUM.
+Ctrl+Alt+L
+Insertar un campo PÁGINA.
+Alt+Mayús+P
+Insertar un campo HORA.
+Alt+Mayús+H
+Insertar un campo vacío.
+Ctrl+F9
+Actualizar la información vinculada en un documento de origen de Word.
+Ctrl+Mayús+F7
+Actualizar los campos seleccionados.
+F9
+Desvincular un campo.
+Ctrl+Mayús+F9
+Cambiar entre un código de campo seleccionado y su resultado.
+Mayús+F9
+Cambiar entre todos los códigos de campo y sus resultados.
+Alt+F9
+Ejecutar GOTOBUTTON o MACROBUTTON desde un campo que muestra los resultados de campo.
+Alt+Mayús+F9
+Ir al campo siguiente.
+F11
+Ir al campo anterior.
+Mayús+F11
+Bloquear un campo.
+Ctrl+F11
+Desbloquear un campo.
+Ctrl+Mayús+F11
+Principio de página
+Trabajar con texto en otros idiomas
+Establecer el idioma de corrección
+Cada documento tiene un idioma predeterminado, normalmente el mismo idioma predeterminado que el sistema operativo de su equipo. Si el documento también contiene palabras o frases en un idioma diferente, es una buena idea establecer el idioma de corrección para esas palabras. Esto no solo hace posible revisar la ortografía y la gramática de esas frases, sino que también habilita que las tecnologías de asistencia, como los lectores de pantalla, las manejen correctamente.
+Para realizar esta acción
+Pulse
+Mostrar el cuadro de diálogo de Idioma para establecer el idioma de corrección.
+Alt+R, U, L
+Establecer idiomas predeterminados.
+Alt+R, L
+Principio de página
+Insertar caracteres internacionales
+Para escribir un carácter en minúsculas con una combinación de teclas que incluye la tecla Mayús, mantenga presionadas las teclas Ctrl+Mayús+Símbolo a la vez y, después, suéltelas antes de escribir la letra.
+Nota
+Si escribe mucho en otro idioma, es posible que prefiera cambiar a otro teclado.
+Para insertar
+Presione
+à, è, ì, ò, ù,
+À, È, Ì, Ò, Ù
+Ctrl+acento grave (`), la letra
+á, é, í, ó, ú, ý
+Á, É, Í, Ó, Ú, Ý
+Ctrl+comilla simple ('), la letra
+â, ê, î, ô, û
+Â, Ê, Î, Ô, Û
+Ctrl+Mayús+Símbolo de intercalación (^), la letra
+ã, ñ, õ
+Ã, Ñ, Õ
+Ctrl+Mayús+Tilde (~), la letra
+ä, ë, ï, ö, ü, ÿ,
+Ä, Ë, Ï, Ö, Ü, Ÿ
+Ctrl+Mayús+dos puntos (:), la letra
+å, Å
+Ctrl+Mayús+arroba (@), a o A
+æ, Æ
+Ctrl+Mayús+Y comercial (&), a o A
+œ, Œ
+Ctrl+Mayús+Y comercial (&), o u O
+ç, Ç
+Ctrl+coma (,), c o C
+ð, Ð
+Ctrl+comilla simple ('), d o D
+ø, Ø
+Ctrl+Barra diagonal (/), o u O
+¿
+Ctrl+Alt+Mayús+signo de interrogación (?)
+¡
+Ctrl+Alt+Mayús+signo de exclamación (!)
+ß
+Ctrl+Mayús+Y comercial (&), s
+Principio de página
+Usar Editores de métodos de entrada para idiomas de Asia Oriental
+Para
+Pulse
+Cambiar al Editor de métodos de entrada (IME) japonés para un teclado de 101 teclas, si está disponible.
+Alt+Comillas inversas (')
+Cambiar al Editor de métodos de entrada (IME) coreano para un teclado de 101 teclas, si está disponible.
+Alt derecha
+Cambiar al Editor de métodos de entrada (IME) chino para un teclado de 101 teclas, si está disponible.
+Ctrl+barra espaciadora
+Volver al principio
+Trabajar con vistas de documentos
+Word ofrece diferentes vistas de un documento. Cada vista facilita realizar determinadas tareas. Por ejemplo, el modo Lectura le permite ver el documento como una secuencia horizontal de páginas, que puede examinar rápidamente con las teclas de dirección izquierda y derecha.
+Cambiar la vista del documento
+Para
+Pulse
+Cambiar a la vista de modo Lectura .
+Alt+W, F
+Cambiar a la vista Diseño de impresión .
+Ctrl+Alt+P
+Cambiar a la vista Esquema .
+Ctrl+Alt+O
+Cambiar a la vista Borrador .
+Ctrl+Alt+N
+Principio de página
+Crear un esquema de un documento
+Estos métodos abreviados solo se aplican cuando el documento está en la vista Esquema .
+Para
+Presione
+Aumentar el nivel de un párrafo.
+Alt+Mayús+Flecha izquierda
+Disminuir el nivel de un párrafo.
+Alt+Mayús+Tecla de dirección derecha
+Disminuir el nivel del párrafo al texto de cuerpo.
+Ctrl+Mayús+N
+Mover los párrafos seleccionados hacia arriba.
+Alt+Mayús+Tecla de dirección arriba
+Mover los párrafos seleccionados hacia abajo.
+Alt+Mayús+Tecla de dirección abajo
+Expandir el texto situado debajo de un título.
+Alt+Mayús+Signo más (+)
+Contraer el texto situado debajo de un título.
+Alt+Mayús+Signo más (+)
+Expandir o contraer todo el texto o todos los títulos.
+Alt+Mayús+A
+Ocultar o mostrar el formato de caracteres.
+Barra diagonal (/) (en el teclado numérico)
+Cambiar entre mostrar la primera línea del texto de cuerpo y mostrar todo el texto de cuerpo.
+Alt+Mayús+L
+Mostrar todos los títulos con el estilo Título 1 .
+Alt+Mayús+1
+Mostrar todos los títulos con el nivel de título especificado.
+Alt+Mayús+Número de nivel de título
+Insertar una marca de tabulación.
+Ctrl+Tab
+Principio de página
+Desplazarse por el documento en modo Lectura
+Para
+Pulse
+Ir al principio del documento.
+Inicio
+Ir al final del documento.
+Fin
+Ir a una página específica.
+Escribir el número de página y presionar Entrar.
+Salir del modo Lectura.
+Esc
+Acercar y ajustar la vista
+Utilice estos atajos mientras el documento está enfocado para ajustar rápidamente el nivel de zoom.
+Para
+Presione
+Acercar.
+Ctrl+Signo más (+)
+Alejar.
+Ctrl+Signo menos (-)
+Volver al nivel de zoom al 100 %.
+Ctrl+0
+Acercar y alejar.
+Ctrl+Desplazamiento
+Principio de página
+Usar métodos abreviados de tecla de función
+Tecla
+Descripción
+F1
+Solo F1: muestra el panel de tareas Ayuda de Word .
+Mayús+F1: muestra u oculta la ayuda contextual o el panel de tareas Mostrar formato .
+Ctrl+F1: muestra u oculta la cinta de opciones.
+Alt+F1: va al campo siguiente.
+Alt+Mayús+F1: va al campo anterior.
+F2
+Solo F2: mueve el texto o gráfico seleccionado. Use las teclas de dirección para colocar el cursor donde quiera mover el texto o el gráfico y presione Entrar para moverse o Esc para cancelar.
+Mayús+F2: copia el texto o gráfico seleccionado. Use las teclas de dirección para colocar el cursor donde quiera copiar el texto o el gráfico y presione Entrar para copiar o Esc para cancelar.
+Ctrl+F2: muestra un área de vista previa de impresión en la pestaña Imprimir en la vista Backstage.
+Alt+Mayús+F2: guarda el documento.
+Ctrl+Alt+F2: muestra el cuadro de diálogo Abrir .
+F3
+Mayús+F3: cambia el texto seleccionado entre mayúsculas, minúsculas y tipo título.
+Ctrl+F3: corta el contenido seleccionado en Especial. Puede cortar varios textos y gráficos en Especial y pegarlos como un grupo en otra ubicación.
+Ctrl+Mayús+F3: pega el contenido de Especial.
+Alt+F3: crea un nuevo bloque de creación.
+F4
+Solo F4: repite el último comando o acción, si es posible.
+Mayús+F4: repite la última acción de Buscar o Ir a .
+Ctrl+F4: cierra el documento actual.
+Alt+F4: cierra Word.
+F5
+Solo F5: muestra el cuadro de diálogo Ir a .
+Mayús+F5: mueve el cursor al último cambio.
+Ctrl+Mayús+F5: muestra el cuadro de diálogo Marcador .
+Alt+F5: restaura el tamaño de la ventana del documento.
+F6
+Solo F6: cambiar entre el documento, el panel de tareas, la barra de estado y la cinta de opciones. En un documento que se ha dividido, F6 incluye los paneles divididos cuando se alterna entre los paneles y el panel de tareas.
+Mayús+F6: cambia entre el documento, la cinta, la barra de estado y el panel de tareas.
+Ctrl+F6: cambia a la ventana del documento siguiente cuando hay más de un documento abierto.
+Ctrl+Mayús+F6: cambia a la ventana del documento anterior cuando hay más de un documento abierto.
+Alt+F6: va de un cuadro de diálogo abierto al documento, en los cuadros de diálogo que admiten este comportamiento.
+F7
+Solo F7: muestra el panel de tareas del Editor para revisar la ortografía y la gramática del documento o del texto seleccionado.
+Mayús+F7: muestra el panel de tareas del diccionario de sinónimos .
+Ctrl+Mayús+F7: actualiza la información vinculada en un documento de origen de Word.
+Alt+F7: busca el siguiente error gramatical u ortográfico.
+Alt+Mayús+F7: muestra el panel de tareas Traductor .
+F8
+Solo F8: extiende la selección. Por ejemplo, si se selecciona una palabra, el tamaño de la selección se ampliará a una frase.
+Mayús+F8: reduce la selección. Por ejemplo, si se selecciona un párrafo, el tamaño de la selección se reduce a una frase.
+Ctrl+Mayús+F8: activa y desactiva el modo de selección extensible. En el modo de selección extensible, las teclas de dirección extienden la selección.
+ALT+F8 muestra el cuadro de diálogo Macro para crear, ejecutar, modificar o eliminar una macro.
+F9
+Solo F9: actualiza los campos seleccionados.
+Mayús+F9: cambia entre un código de campo y su resultado.
+Ctrl+F9: inserta un campo vacío.
+Ctrl+Mayús+F9: desvincula el campo actual.
+Alt+F9: cambia entre todos los códigos de campo y sus resultados.
+Alt+Mayús+F9: ejecuta GOTOBUTTON o MACROBUTTON desde un campo que muestra los resultados del campo.
+F10
+Solo F10: activa o desactiva las KeyTips.
+Mayús+F10: muestra el menú contextual del elemento seleccionado.
+Ctrl+F10: maximiza o restaura el tamaño de la ventana del documento.
+Alt+F10: muestra el panel de tareas de Selección .
+Alt+Mayús+F10: muestra el menú o mensaje de las acciones disponibles, por ejemplo, para texto pegado o un cambio de Autocorrección .
+F11
+Solo F11: va al campo siguiente.
+Mayús+F11: va al campo anterior.
+Ctrl+F11: bloquea el campo actual.
+Ctrl+Mayús+F11: desbloquea el campo actual.
+Alt+F11: abre el editor de Microsoft Visual Basic para Aplicaciones , en el que puede crear una macro con Visual Basic para Aplicaciones (VBA).
+F12
+Solo F12: muestra el cuadro de diálogo Guardar como .
+Mayús+F12: guarda el documento.
+Ctrl+F12: muestra el cuadro de diálogo Abrir .
+Ctrl+Mayús+F12: muestra la pestaña Imprimir en la vista Backstage.
+Alt+Mayús+F12: selecciona el botón Tabla de contenido en el contenedor de la tabla de contenido cuando el contenedor está activo.
+Principio de página
+Vea también
+Centro de ayuda de Word
+Tareas básicas al usar un lector de pantalla con Word
+Usar un lector de pantalla para explorar y desplazarse en Word
+Soporte técnico del lector de pantalla para Word
+En este artículo se describen los métodos abreviados de teclado y las teclas de función de Word para Mac.
+Nota
+La configuración en algunas versiones del sistema operativo Mac (Mac OS) y algunas aplicaciones de utilidad pueden entrar en conflicto con los métodos abreviados de teclado y las operaciones de las teclas de función en Microsoft 365 para Mac. Para más información sobre cómo cambiar la asignación de teclas de un método abreviado de teclado, vea la Ayuda de Mac para su versión de Mac OS, su aplicación de utilidad o consulte Conflictos de métodos abreviados de teclado .
+Si no encuentra un método abreviado de teclado que se adapte a sus necesidades, puede crear un método abreviado de teclado personalizado. Para obtener instrucciones, vaya a Crear un método abreviado de teclado personalizado para Office para Mac .
+Muchos de los métodos abreviados que usan la tecla Ctrl en un teclado de Windows funcionan también con la tecla Control de Word para Mac. Pero no todos lo hacen.
+Para encontrar rápidamente un acceso directo en este artículo, puede usar la búsqueda. Presione Comando+F y después escriba las palabras de búsqueda.
+Para obtener la mejor experiencia usando el teclado con la cinta de opciones, habilite el teclado para acceder a todos los controles.
+Para abrir preferencias del sistema , presione +Barra espaciadora, escriba system preferencesy presione Retorno.
+Para ir a Configuración del teclado , escriba keyboard y presione Retorno.
+En la pestaña Métodos abreviados de teclado , presione Control+F7 para cambiar la configuración de Acceso de teclado completo de Solo cuadros de texto y listas a Todos los controles .
+Contenido
+Métodos abreviados de teclado más usados
+Conflictos entre métodos abreviados
+Navegar por el documento
+Seleccionar texto y gráficos
+Editar texto y gráficos
+Trabajar con tablas
+Dibujo
+Trabajar con campos
+Crear un esquema de un documento
+Revisar un documento
+Usar notas al pie y notas al final
+Trabajar con idiomas de derecha a izquierda
+Usar métodos abreviados de tecla de función
+Métodos abreviados de teclado más usados
+En esta tabla se enumeran los métodos abreviados de teclado que se usan con frecuencia en Word para Mac.
+Para realizar esta acción
+Pulse
+Deshacer la acción anterior.
++Z o F1
+Rehacer la acción anterior, si es posible.
++Y
+Cortar el contenido seleccionado en el Portapapeles.
++X o F2
+Copiar el contenido seleccionado en el Portapapeles.
++C o F3
+Pegar el contenido del Portapapeles.
++V o F4
+Pegar solo texto.
+Cmd+Mayús+V
+Acercar.
+Cmd + signo más (+)
+Alejar.
+Cmd + signo menos (-)
+Volver al zoom al 100 %.
+Cmd +0
+Acercar y alejar con el ratón.
+Cmd +Scroll
+Mostrar el menú contextual del elemento seleccionado. *
+Mayús+F10
+Muestra el cuadro de diálogo Ir a la página
++Opción+G o F5
+Abre el cuadro de diálogo Ortografía y gramática .
++Opción+L o F7
+Habilitar el modo de selección extendida.
+F8
+Cambiar a la siguiente ventana.
++acento grave ( ' )
+Cambiar a la ventana anterior.
++Mayús+acento grave (')
+Mostrar el cuadro de diálogo Guardar como .
++Mayús+S
+Buscar texto (mover el foco al cuadro Buscar en el documento ).
++F
+Mostrar el panel Buscar y reemplazar .
+Control+H
+Mostrar el cuadro de diálogo Imprimir .
++P
+Cerrar el documento actual.
++F4
+Expandir o minimizar la cinta de opciones
++Opción+R
+Buscar el siguiente error de ortografía o gramatical. La característica Revisar ortografía mientras escribe debe estar habilitada.
+Opción+F7
+Abrir el diccionario.
+Option+Mayús+F7
+Principio de página
+Conflictos entre métodos abreviados
+Algunos Word para Mac métodos abreviados de teclado entran en conflicto con los métodos abreviados de teclado predeterminados de macOS. En este tema se marcan dichos métodos abreviados con un asterisco (*). Para usar estos métodos abreviados, es probable que tenga que modificar la configuración de teclado del equipo Mac para cambiar el método abreviado correspondiente a la tecla.
+Cambiar las preferencias del sistema para los métodos abreviados de teclado
+En el menú Apple , seleccione Preferencias del sistema .
+Seleccione Teclado .
+Seleccione la pestaña Métodos abreviados de teclado .
+Seleccione Control de misión .
+Desactive la casilla del método abreviado de teclado que entra en conflicto con el método abreviado de Word para Mac que desea usar.
+Navegar por el documento
+Para
+Pulse
+Mover el cursor una palabra a la izquierda.
+Opción+tecla de dirección izquierda
+Mover el cursor una palabra a la derecha.
+Opción+tecla de dirección derecha
+Mover el cursor un párrafo hacia arriba.
++Flecha arriba
+Mover el cursor un párrafo hacia abajo.
++Flecha abajo
+Mover el cursor al principio de la línea actual.
++Flecha izquierda
+Inicio
+Mover el cursor al final de la línea actual.
++Flecha derecha
+Fin
+Mover el cursor a la parte superior de la página anterior.
++Re Pág
+En un MacBook, presione +Fn+Tecla de dirección arriba
+Mover el cursor a la parte superior de la página siguiente.
++Av Pág
+En un MacBook, presione +Fn+Tecla de dirección abajo
+Mover el cursor al principio del documento.
++Inicio
+En un MacBook, presione +Fn+Tecla de dirección izquierda
+Mover el cursor al final del documento.
++Fin
+En un MacBook, presione +Fn+Flecha derecha
+Mover el cursor al punto de inserción anterior.
+Mayús+F5
+Mover el cursor desplazando la vista del documento una pantalla hacia arriba.
+Página arriba
+Mover el cursor desplazando la vista del documento una pantalla hacia abajo.
+Página abajo
+Principio de página
+Seleccionar texto y gráficos
+Recomendación
+Por lo general, si usa la combinación de teclas para mover el cursor, puede seleccionar el texto si además mantiene presionada la tecla Mayús al mismo tiempo. Por ejemplo, +Flecha derecha mueve el cursor a la palabra siguiente y +Mayús+Flecha derecha selecciona el texto desde el cursor hasta el principio de la palabra siguiente.
+Para realizar esta acción
+Pulse
+Seleccionar varios elementos que no están uno al lado del otro.
+Selecciona el primer elemento que quieras, mantén presionado y, a continuación, haz clic con el botón del mouse en los elementos adicionales.
+Seleccionar texto.
+Mayús+Teclas de dirección
+Seleccionar la palabra a la izquierda.
+Mayús+Opción+Tecla de dirección izquierda
+Seleccionar la palabra a la derecha.
+Mayús+Opción+Tecla de dirección derecha
+Seleccionar desde la posición actual hasta el principio de la línea actual.
+Cmd +Mayús+Tecla de dirección izquierda
+Mayús+Inicio
+Seleccionar desde la posición actual hasta el final de la línea actual.
+Cmd +Mayús+Tecla de dirección derecha
+Mayús+Fin
+Seleccionar desde la posición actual hasta el principio del párrafo actual.
+Cmd +Mayús+Tecla de dirección arriba
+Seleccionar desde la posición actual hasta el final del párrafo actual.
+Cmd +Mayús+Tecla de dirección abajo
+Seleccionar desde la posición actual hasta la parte superior de la pantalla.
+Mayús+Re Pág
+Seleccionar desde la posición actual hasta la parte inferior de la pantalla.
+Mayús+Av Pág
+Seleccionar desde la posición actual hasta el principio del documento.
+Cmd +Mayús+Inicio
+Seleccionar desde la posición actual hasta el final del documento
+Cmd +Mayús+Fin
+Seleccionar desde la posición actual hasta la parte inferior de la ventana.
+Cmd +Mayús+Opción+Av Pág
+Seleccionar todo el contenido de documento.
+Cmd +A
+Principio de página
+Extender una selección
+Para ello
+Pulse
+Iniciar la extensión de la selección. *
+F8
+En el modo de selección extendido, al hacer clic en una ubicación en el documento se extiende la selección actual a esa ubicación.
+Seleccionar el carácter más próximo por la izquierda.
+F8, tecla de dirección izquierda
+Seleccionar el carácter más próximo por la derecha.
+F8, tecla de dirección derecha
+Expandir la selección.
+Presione F8 varias veces para ampliar la selección a toda la palabra, frase, párrafo, sección y documento.
+Reducir la selección. *
+Mayús+F8
+Seleccionar un bloque de texto vertical.
+Cmd +Mayús+F8 y, a continuación, presione las teclas de dirección.
+Detener la extensión de la selección.
+Esc
+Principio de página
+Editar texto y gráficos
+Para ello
+Pulse
+Cortar el contenido seleccionado en el Portapapeles.
+Cmd +X
+F2
+Copiar el contenido seleccionado en el Portapapeles.
+Cmd +C
+F3
+Pegar el contenido del Portapapeles.
+Cmd +V
+F4
+Muestra el cuadro de diálogo Pegado especial .
+Cmd +Control+V
+Cortar el contenido seleccionado en Especial.
+Cmd +F3
+Pegar el contenido de Especial.
+Cmd +Mayús+F3
+Copiar el formato de texto seleccionado.
+Cmd +Opción+C
+Pegar el formato de texto seleccionado.
+Cmd +Opción+V
+Pegar solo texto.
+Cmd +Mayús+V
+Crear una entrada de Autotexto.
+Opción+F3
+Principio de página
+Alinear y dar formato a párrafos
+Para ello
+Pulse
+Centrar el párrafo.
++E
+Justificar el párrafo.
++J
+Alinear el párrafo a la izquierda.
++L
+Alinear el párrafo a la derecha.
++R
+Aplicar sangría al párrafo.
+Control+Mayús+M
+Quitar la sangría de un párrafo.
++Mayús+M
+Crear una sangría francesa.
++T
+Quitar una sangría francesa.
++Mayús+T
+Aplicar espaciado simple al párrafo.
++1
+Aplicar espaciado doble al párrafo.
++2
+Aplicar un interlineado de 1,5 líneas en el párrafo.
++5
+Habilitar formato automático.
++Opción+K
+Aplicar el estilo Normal .
++Mayús+N
+Aplicar el estilo de Título 1 .
++Opción+1
+Aplicar el estilo de Título 2 .
++Opción+2
+Aplicar el estilo de Título 3 .
++Opción+3
+Aplicar el estilo Lista .
++Mayús+L, cuando el cursor está al principio de una línea
+Insertar un espacio de no separación.
+Opción+barra espaciadora
+Principio de página
+Aplicar formato a caracteres
+Para ello
+Presione
+Aumentar el tamaño de fuente.
++Mayús+corchete angular de cierre (>)
+Disminuir el tamaño de fuente.
++Mayús+corchete angular de apertura (<)
+Aumentar en 1 punto el tamaño de fuente.
++Corchete de cierre (])
+Disminuir en 1 punto el tamaño de fuente.
++Corchete de apertura ([)
+Mostrar el cuadro de diálogo Fuente .
++D
+Cambiar el texto entre mayúsculas, minúsculas y mayúsculas y minúsculas.
+Mayús+F3
+Cambie el texto a todo mayúsculas.
++Mayús+A
+Aplicar el formato de negrita.
++B
+Agregar una lista con viñetas
++Mayús+L
+Aplicar formato de subrayado.
++U
+Aplicar formato de subrayado a las palabras, pero no a los espacios.
++Mayús+W
+Aplicar el formato de doble subrayado.
++Mayús+D
+Aplicar el formato de cursiva.
++I
+Aplicar el formato de mayúsculas pequeñas.
++Mayús+K
+Aplicar formato de tachado.
++Mayús+X
+Aplicar el formato de subíndice.
+Cmd +Mayús+signo menos (-)
+Principio de página
+Insertar caracteres especiales
+Para ello
+Pulse
+Insertar un campo vacío.
++F9
+Insertar un salto de línea.
+Mayús+Entrar
+Insertar un salto de página.
++Retorno
+Insertar un salto de columna.
++Mayús+Retorno
+Insertar un guion opcional.
+Cmd +Opción+signo menos(-)
+Insertar un guion de no separación.
+Mayús+Opción+Signo menos(-)
+Insertar un símbolo de copyright (©).
+Presione (, C, )
+Insertar un símbolo de marca registrada (®).
+Opción+R
+Insertar un símbolo de marca comercial (™).
+Opción+2
+Principio de página
+Trabajar con tablas
+Desplazarse por una tabla
+Para ello
+Pulse
+Desplazarse a la celda siguiente y seleccionar su contenido.
+Tecla TAB
+Desplazarse a la celda anterior y seleccionar su contenido.
+Mayús+Tab
+Desplazarse a la siguiente fila.
+Tecla de flecha abajo
+Desplazarse a la fila anterior.
+Tecla de dirección arriba
+Ir a la primera celda de la fila.
+Control+Inicio
+Ir a la última celda de la fila.
+Control+Fin
+Ir a la primera celda de la columna.
+Control+Re Pág
+Ir a la última celda de la columna.
+Control+Av Pág
+Agregar una nueva fila a la parte inferior de la tabla.
+La tecla TAB al final de la última fila
+Insertar una fila.
++Control+I
+Principio de página
+Seleccionar contenido de tabla
+Para
+Pulse
+Seleccionar el contenido de la celda siguiente.
+Tecla TAB
+Seleccionar el contenido de la celda anterior.
+Mayús+Tab
+Extender la selección a las celdas adyacentes.
+Mayús+Teclas de dirección
+Seleccionar una fila.
+Seleccionar la primera o la última celda de la fila y, después, presionar Mayús+Alt+Fin o Inicio.
+Principio de página
+Cambiar el tamaño de las columnas de una tabla con la regla
+Para
+Pulse
+Mantener los tamaños de las columnas a la derecha y cambiar el ancho de la tabla.
+Arrastrar el borde de la columna en la regla
+Mover una sola línea de columna y conservar el ancho de la tabla.
+Mayús+Arrastrar el borde de la columna en la regla
+Dar el mismo tamaño a todas las columnas a la derecha y conservar el ancho de la tabla.
++Mayús+Arrastrar el borde de columna en la regla
+Cambiar proporcionalmente el tamaño de todas las columnas a la derecha y conservar el ancho de la tabla.
++Arrastrar el borde de columna en la regla
+Principio de página
+Cambiar el tamaño de las columnas de una tabla directamente en una tabla
+Recomendación
+Para ajustar con precisión el ancho de columna y mostrar las medidas de columna en la regla al cambiar el tamaño de la columna, desactive la funcionalidad de acoplar pulsando Opción con las teclas de método abreviado.
+Para
+Pulse
+Mover una sola línea de columna y conservar el ancho de la tabla.
+Arrastrar el borde de la columna
+Mantener los tamaños de las columnas a la derecha y cambiar el ancho de la tabla.
+Mayús+Arrastrar el borde de columna
+Dar el mismo tamaño a todas las columnas a la derecha y conservar el ancho de la tabla.
++Mayús+Arrastrar el borde de columna
+Cambiar proporcionalmente el tamaño de todas las columnas a la derecha y conservar el ancho de la tabla.
++Arrastrar el borde de columna
+Principio de página
+Insertar párrafos y tabulaciones en una tabla
+Para ello
+Pulse
+Insertar un párrafo nuevo en una celda.
+Entrar
+Insertar un carácter de tabulación en una celda.
+Opción+TAB
+Principio de página
+Dibujo
+Para
+Pulse
+Activar o desactivar el modo de dibujo.
++Control+Z
+Principio de página
+Trabajar con campos
+Para ello
+Presione
+Insertar un campo de FECHA.
+Control+Mayús+D
+Insertar un campo LISTNUM.
++Opción+Mayús+L
+Insertar un campo PÁGINA.
+Control+Mayús+P
+Insertar un campo HORA.
+Control+Mayús+T
+Insertar un campo vacío.
++F9
+Actualizar los campos seleccionados. *
+F9
+Pasar de un código de campo a su resultado y viceversa. *
+Mayús+F9
+Cambiar entre todos los códigos de campo y sus resultados.
+Opción+F9
+Ejecutar GOTOBUTTON o MACROBUTTON desde un campo que muestra los resultados de campo.
+Opción+Mayús+F9
+Bloquear un campo.
++F11
+Desbloquear un campo.
++Mayús+F11
+Principio de página
+Crear un esquema de un documento
+Estos métodos abreviados solo se aplican cuando el documento está en la vista Esquema .
+Para
+Presione
+Aumentar el nivel de un párrafo.
+Control+Mayús+Tecla de dirección izquierda
+Disminuir el nivel de un párrafo.
+Control+Mayús+Tecla de dirección derecha
+Disminuir el nivel del párrafo al texto de cuerpo.
++Mayús+N
+Mover los párrafos seleccionados hacia arriba. *
+Control+Mayús+Tecla de dirección arriba
+Mover los párrafos seleccionados hacia abajo. *
+Control+Mayús+Tecla de dirección abajo
+Expandir el texto situado debajo de un título.
+Control+Mayús+signo más (+)
+Contraer el texto situado debajo de un título. *
+Control+Mayús+signo menos (-)
+Expandir todo el texto del cuerpo y los títulos o contraer todo el texto del cuerpo.
+Control+Mayús+A
+Cambiar entre mostrar la primera línea del texto de cuerpo y mostrar todo el texto de cuerpo.
+Control+Mayús+L
+Mostrar todos los títulos con el nivel de título especificado.
+Control+Mayús+Número de nivel de título
+Principio de página
+Revisar un documento
+Para ello
+Presione
+Insertar un comentario.
++Opción+A
+Activar o desactivar el control de cambios.
++Mayús+E
+Ir al principio de un comentario.
+Inicio
+Ir al final de un comentario.
+Fin
+(La tecla Fin no está disponible en todos los teclados).
+Ir al principio de la lista de comentarios.
++Inicio, en el Panel de revisiones .
+Ir al final de la lista de comentarios.
++Fin, en el Panel de revisiones .
+Principio de página
+Usar notas al pie y notas al final
+Para ello
+Pulse
+Insertar una nota al pie.
++Opción+F
+Insertar una nota al final.
++Opción+E
+Principio de página
+Trabajar con idiomas de derecha a izquierda
+Word es compatible con la funcionalidad de derecha a izquierda para aquellos idiomas cuyos textos se escriben, editan y muestran en entornos de derecha a izquierda o en entornos que combinan las lecturas de derecha a izquierda y de izquierda a derecha. En este contexto, idiomas de derecha a izquierda se refiere a aquellos sistemas de escritura que se escriben de derecha a izquierda e incluye tanto los idiomas que requieren formas contextuales, como el árabe, como aquellos que no lo hacen.
+Antes de poder usar estos métodos abreviados de teclado, debe asegurarse de que los métodos abreviados de teclado están habilitados para el idioma que usa:
+Vaya a Teclado de preferencias del > sistema de Apple >.
+En la pestaña Origen de entrada . seleccione el idioma para el que desea habilitar los métodos abreviados.
+En el lado derecho de la pestaña, seleccione la casilla de verificación Habilitar métodos abreviados de teclado .
+Para
+Pulse
+Cambiar la dirección de escritura de derecha a izquierda.
+Control+ + Tecla de dirección izquierda
+Cambiar la dirección de escritura de izquierda a derecha.
+Control+ + Tecla de flecha derecha
+Principio de página
+Acercar y ajustar la vista
+Utilice estos atajos mientras el documento está enfocado para ajustar rápidamente el nivel de zoom.
+Para
+Presione
+Acercar.
+Cmd+Signo más (+)
+Alejar.
+Cmd+Signo menos (-)
+Volver al nivel de zoom al 100 %.
+Cmd+0
+Acercar y alejar.
+Cmd+Desplazamiento
+Principio de página
+Usar métodos abreviados de tecla de función
+Word para Mac usa las teclas de función para los comandos comunes, como Copiar y Pegar. Para obtener acceso rápido a estos métodos abreviados, puede cambiar las preferencias del sistema Apple para que no sea necesario presionar la tecla Fn cada vez que usa un método abreviado de tecla de función.
+Nota
+El cambio de preferencias de tecla de función del sistema afecta al funcionamiento de las teclas de función del equipo Mac, no solo de Word. Después de cambiar esta configuración, aún puede realizar las funciones especiales impresas en una tecla de función. Solo tiene que presionar la tecla Fn. Por ejemplo, para usar la tecla F12 para cambiar el volumen, presione Fn+F12.
+Si una tecla de función no funciona según lo previsto, pulse la tecla Fn además de la tecla de función. Si no quiere tener que estar pulsando siempre la tecla Fn, puede cambiar las preferencias del sistema de Apple: Para obtener instrucciones, vaya a Cambiar preferencias de tecla de función .
+En la tabla siguiente se proporcionan los métodos abreviados de tecla de función para Word para Mac.
+Tecla
+Descripción
+F1
+Solo F1: deshace la acción anterior.
+F2
+Solo F2: corta el contenido seleccionado en el Portapapeles.
+Mayús+F2: copia el texto o gráfico seleccionado. Use las teclas de dirección para colocar el cursor donde quiere copiar el texto o el gráfico y, después, presione Entrar para copiar o Esc para cancelar.
+F3
+Solo F3: copia el contenido seleccionado en el Portapapeles.
+Mayús+F3: cambia el texto seleccionado entre mayúsculas, minúsculas y tipo título.
++F3: corta el contenido seleccionado en Especial. Puede cortar varios textos y gráficos en Especial y pegarlos como un grupo en otra ubicación.
++Mayús+F3: pega el contenido de Especial.
+Opción+F3: crea una entrada de Autotexto.
+F4
+Solo F4: pega el contenido del Portapapeles.
+Mayús+F4: repite la última acción de Buscar o Ir a .
+Mayús+F4: repite la última acción de Buscar o Ir a .
+F5
+Solo F5: muestra el cuadro de diálogo Ir a .
+Mayús+F5: mueve el cursor al último cambio.
++Mayús+F5: muestra el cuadro de diálogo Marcador .
+F6
+Solo F6: cambiar entre el documento, el panel de tareas, la barra de estado y la cinta de opciones. En un documento que se ha dividido, F6 incluye los paneles divididos cuando se alterna entre los paneles y el panel de tareas.
+Mayús+F6: cambia entre el documento, la cinta, la barra de estado y el panel de tareas.
++F6: cambia a la ventana del documento siguiente cuando hay más de un documento abierto.
++Mayús+F6: cambia a la ventana del documento anterior cuando hay más de un documento abierto.
+F7
+Solo F7: muestra el cuadro de diálogo Ortografía y gramática .
+Mayús+F7: muestra el panel de tareas del diccionario de sinónimos .
++Mayús+F7: actualiza la información vinculada en un Word documento de origen.
+Opción+F7: busca el siguiente error gramatical u ortográfico.
+Opción+Mayús+F7: abre el diccionario .
+F8
+Solo F8 *: extiende la selección. Por ejemplo, si se selecciona una palabra, el tamaño de la selección se ampliará a una frase.
+Mayús+F8 *: reduce la selección. Por ejemplo, si se selecciona un párrafo, el tamaño de la selección se reduce a una frase.
++Mayús+F8: activa y desactiva el modo de selección extendido. En el modo de selección extensible, las teclas de dirección extienden la selección.
+Opción+F8: muestra el cuadro de diálogo Macro para crear, ejecutar, modificar o eliminar una macro.
+F9
+Solo F9 *: actualiza los campos seleccionados.
+Mayús+F9 *: cambia entre un código de campo y su resultado.
++F9: inserta un campo vacío.
++Mayús+F9: desvincula el campo actual.
+Opción+F9: cambia entre todos los códigos de campo y sus resultados.
+Opción+Mayús+F9: ejecuta GOTOBUTTON o MACROBUTTON desde un campo que muestra los resultados de campo.
+F10
+Mayús+F10 *: muestra el menú contextual del elemento seleccionado.
+F11
+Solo F11 *: va al campo siguiente.
+Mayús+F11 *: va al campo anterior.
++F11: bloquea el campo actual.
++Mayús+F11: desbloquea el campo actual.
+Opción+F11: abre el editor de Microsoft Visual Basic para Aplicaciones , en el que puede crear una macro con Visual Basic para Aplicaciones (VBA).
+Principio de página
+Cambiar las preferencias de tecla de función
+En el menú Apple , seleccione Preferencias del sistema .
+Seleccione Teclado .
+En la pestaña Teclado , seleccione la casilla Usar teclas de función (F1, F2, etc.) como teclas de función estándar .
+Vea también
+Centro de ayuda de Word
+Tareas básicas al usar un lector de pantalla con Word
+Usar un lector de pantalla para explorar y desplazarse en Word
+Soporte técnico del lector de pantalla para Word
+En este artículo se describen los métodos abreviados de teclado de Word para iOS.
+Nota
+Si ya está familiarizado con los métodos abreviados de teclado en su equipo macOS, las mismas combinaciones de teclas funcionan con Word para iOS con un teclado externo.
+Para encontrar rápidamente un acceso directo en este artículo, puede usar la búsqueda. Presione +F y, después, escriba las palabras de búsqueda.
+Contenido
+Métodos abreviados de teclado más usados
+Navegar por el documento
+Editar y dar formato al documento
+Métodos abreviados de teclado más usados
+Para realizar esta acción
+Presione
+Guardar el documento.
++S
+Imprimir el documento.
++P
+Cerrar el documento.
++W
+Principio de página
+Navegar por el documento
+Para
+Pulse
+Buscar texto
++F
+Busca la siguiente instancia en que aparece el texto.
++G
+Busca la anterior instancia en que aparece el texto.
+Mayús+ +G
+Seleccionar todo el contenido de documento.
++A
+Principio de página
+Editar y dar formato al documento
+Para
+Presione
+Aceptar predicción de texto.
+Tecla de dirección derecha
+Deshacer la acción anterior
++Z
+Rehacer la acción anterior, si es posible.
++Y
+Cortar el contenido seleccionado en el portapapeles.
++X
+Copiar el contenido seleccionado en el Portapapeles.
++C
+Pegar el contenido del portapapeles.
++V
+Aplicar formato en negrita al texto seleccionado.
++B
+Aplicar formato en cursiva al texto seleccionado.
++I
+Subrayar el texto seleccionado.
++U
+Subraya las palabras seleccionadas, pero no los espacios.
++Mayús+W
+Aplica el estilo Normal al texto seleccionado.
+Alt+ +N
+Cambia el texto seleccionado a un hipervínculo.
++K
+Cambia el texto seleccionado a versalitas.
+Mayús+ +K
+Cambia el texto seleccionado a mayúsculas.
+Mayús+ +A
+Centrar el párrafo seleccionado.
++E
+Justificar el párrafo seleccionado.
++J
+Alinea el párrafo seleccionado a la izquierda.
++L
+Alinea el párrafo seleccionado a la derecha.
++R
+Aplica sangría al párrafo seleccionado.
+Control+Mayús+M
+Quita la sangría del párrafo seleccionado.
+Mayús+ +M
+Aplica la sangría francesa al párrafo seleccionado.
++T
+Aplica el formato del texto copiado anteriormente al texto seleccionado actualmente.
+Mayús+ +V
+Agrega un comentario al texto o la forma seleccionados.
+Alt+ +A
+Buscar y reemplazar texto.
+Control+H
+Activa o desactiva las marcas de revisión en el documento.
+Mayús+ +E
+Principio de página
+Vea también
+Word ayudar a & aprendizaje
+Tareas básicas al usar un lector de pantalla con Word
+Usar un lector de pantalla para explorar y desplazarse en Word
+Soporte técnico del lector de pantalla para Word
+En este artículo se describen los métodos abreviados de teclado de Word para Android.
+Nota
+Para encontrar rápidamente un acceso directo en este artículo, puede usar la búsqueda. Presione Ctrl+F y después escriba las palabras de búsqueda.
+Contenido
+Navegar por el documento
+Editar y dar formato al documento
+Navegar por el documento
+Para
+Pulse
+Buscar texto
+Ctrl+B
+Mover el cursor un párrafo hacia arriba.
+Alt+tecla de dirección arriba
+Mover el cursor un párrafo hacia abajo.
+Alt+flecha abajo
+Mover el cursor una palabra a la izquierda.
+Alt+Tecla de dirección izquierda
+Mover el cursor una palabra a la derecha.
+Alt+Tecla de dirección derecha
+Mover el cursor al principio de la línea actual.
+Ctrl+Tecla de flecha izquierda
+Mover el cursor al final de la línea actual.
+Ctrl+Tecla de flecha derecha
+Seleccionar texto.
+Mayús+Teclas de dirección
+Seleccionar el párrafo de arriba.
+Mayús+Alt+Tecla de dirección arriba
+Seleccionar el párrafo siguiente.
+Mayús+Alt+Tecla de dirección abajo
+Seleccionar la palabra a la izquierda.
+Mayús+Alt+Tecla de dirección izquierda
+Seleccionar la palabra a la derecha.
+Mayús+Alt+Tecla de dirección derecha
+Seleccionar desde la posición actual hasta el principio de la línea.
+Mayús+Ctrl+Tecla de dirección izquierda
+Seleccionar desde la posición actual hasta el final de la línea.
+Mayús+Ctrl+Tecla de dirección derecha
+Seleccionar todo el contenido de documento.
+Ctrl+A
+Principio de página
+Editar y dar formato al documento
+Para
+Pulse
+Deshacer la acción anterior.
+Ctrl+Z
+Rehacer la acción anterior, si es posible.
+Ctrl+Y
+Cortar el contenido seleccionado en el portapapeles.
+Ctrl+X
+Copiar el contenido seleccionado en el Portapapeles.
+Ctrl+C
+Pegar el contenido del portapapeles.
+Ctrl+V
+Aplicar formato en negrita al texto seleccionado.
+Ctrl+N
+Aplicar formato en cursiva al texto seleccionado.
+Ctrl+I
+Subrayar el texto seleccionado.
+Ctrl+U
+Insertar un salto de línea.
+Mayús+Entrar
+Principio de página
+Vea también
+Word ayudar a & aprendizaje
+Tareas básicas al usar un lector de pantalla con Word
+Usar un lector de pantalla para explorar y desplazarse en Word
+Soporte técnico del lector de pantalla para Word
+En este artículo se describen los métodos abreviados de teclado de Word para la Web.
+Nota
+Si usa Narrador con el Windows 10 Fall Creators Update, tiene que desactivar el modo de examen para editar documentos, hojas de cálculo o presentaciones con Microsoft 365 para la Web. Para obtener más información, consulte Turn off virtual or browse mode in screen readers in Windows 10 Fall Creators Update (Desactivar el modo virtual o de examen en lectores de pantalla en Windows 10 Fall Creators Update).
+Para encontrar rápidamente un acceso directo en este artículo, puede usar la búsqueda. Presione Ctrl+F y después escriba las palabras de búsqueda.
+Cuando uses Word para la Web, te recomendamos que uses el explorador web Microsoft Edge. Como Word para la web se ejecuta en el explorador web, los métodos abreviados de teclado son diferentes a los del programa de escritorio. Por ejemplo, deberá usar Ctrl+F6 en lugar de F6 para entrar y salir de los comandos. Además, los métodos abreviados comunes como F1 (Ayuda) y Ctrl+O (Abrir) se aplican al explorador web, no a Word para la Web.
+Contenido
+Métodos abreviados de teclado más usados
+Métodos abreviados de teclado de la cinta de opciones
+Navegar por el documento
+Editar y dar formato al documento
+Trabajar con comentarios
+Métodos abreviados de teclado más usados
+En esta tabla se enumeran los métodos abreviados de teclado que se usan con más frecuencia en Word para la Web.
+Recomendación
+Para crear rápidamente un documento en Word para la Web, abra el explorador, escriba Word.new en la barra de direcciones y, después, presione Entrar.
+Para ello
+Pulse
+En la vista de lectura, abrir una vista basada en PDF etiquetada para funcionar con lectores de pantalla.
+Presione la tecla TAB para desplazarse hasta el botón Modo de accesibilidad y, después, presione Entrar.
+Buscar texto en la vista de lectura.
+Ctrl+B o F3
+Buscar texto en la vista de edición.
+Ctrl+B
+Buscar y reemplazar texto en la vista de edición.
+Ctrl+H
+Si hay uno abierto, ocultar el panel de tareas.
+Esc
+Cambiar al control Zoom .
+Alt+Punto, W, después Q o Alt+tecla del logotipo de Windows, W y luego Q
+Imprimir el documento.
+Ctrl+P
+Ir a la siguiente región de punto de referencia.
+Ctrl+F6
+Vaya al campo Información o Buscar .
+Alt+Q
+Principio de página
+Métodos abreviados de teclado de la cinta
+Word para la web ofrece métodos abreviados denominados teclas de acceso para navegar por la cinta de opciones. Si has usado teclas de acceso para ahorrar tiempo en Word para equipos de escritorio, encontrarás teclas de acceso muy similares en Word para la Web.
+En un equipo Windows, todas las teclas de acceso comienzan por Alt+Punto (.) o Alt+tecla del logotipo de Windows y, a continuación, se agrega una letra para la pestaña de la cinta de opciones. Por ejemplo, para ir a la pestaña Revisar , presione Alt+Punto, R o Alt+Tecla del logotipo de Windows, R.
+Si usa Word para la Web en un equipo Mac, presione Control+Punto (.) para empezar.
+Para ir a la cinta de opciones, presione Alt+punto o Alt+la tecla del logotipo de Windows. También puede presionar Ctrl+F6 hasta llegar a la pestaña Inicio .
+Para desplazarse de una pestaña de la cinta de opciones a otra, presione la tecla TAB.
+Para ocultar la cinta y disponer de más espacio para trabajar, presione Ctrl+F3. Repita este paso para volver a mostrar la cinta de opciones.
+Ir a las teclas de acceso de la cinta de opciones
+Para ir directamente a una pestaña en la cinta de opciones, presione una de las teclas de acceso siguientes:
+Para realizar esta acción
+Presionar
+Abrir el cuadro Información o el campo de texto Buscar en la cinta para escribir un término de búsqueda.
+Alt+Punto, Q o Alt+tecla del logotipo de Windows, Q
+Abrir la pestaña Archivo para usar la vista Backstage.
+Alt+Punto, F o Alt+tecla del logotipo de Windows, F
+Abrir la pestaña Inicio para dar formato al texto y usar la herramienta Buscar .
+Alt+Punto, H o Alt+tecla del logotipo de Windows, H
+Abrir la pestaña Insertar para insertar una imagen, vínculo, comentario, encabezado o pie de página, o un número de página. También puede acceder a la galería de Símbolos .
+Alt+Punto, N o Alt+tecla del logotipo de Windows, N
+Abrir la pestaña Diseño de página para establecer los márgenes de página, la orientación, el tamaño y el espaciado entre párrafos.
+Alt+Punto, A o Alt+tecla del logotipo de Windows, A
+Abrir la pestaña Referencias para insertar una tabla de contenido, notas al pie o notas al final.
+Alt+Punto, S o Alt+tecla del logotipo de Windows, S
+Abrir la pestaña Revisar para revisar la ortografía, agregar comentarios o realizar un seguimiento y revisar los cambios en el documento.
+Alt+Punto, R o Alt+tecla del logotipo de Windows, R
+Abrir la pestaña Vista para elegir una vista, abrir el panel de Navegación , editar Encabezados y pies de página y hacer Zoom en la vista del documento.
+Alt+Punto, W o Alt+tecla del logotipo de Windows, W
+Principio de página
+Uso de la búsqueda
+Para buscar una opción o realizar una acción rápidamente, use el campo de texto Buscar . Para obtener más información sobre la característica Buscar, vaya a Encuentre lo que necesita con Búsqueda de Microsoft .
+Nota
+Según la versión de Microsoft 365 que use, el campo de texto Buscar de la parte superior de la ventana de la aplicación podría llamarse Información en su lugar. Ambos ofrecen una experiencia similar en gran medida, pero algunas opciones y los resultados de búsqueda pueden variar.
+Seleccione el elemento o el lugar en su documento, presentación u hoja de cálculo en el que quiera realizar una acción.
+Presione ALT + Q para ir al cuadro Buscar .
+Escriba las palabras de búsqueda de la acción que quiera realizar. Por ejemplo, si desea agregar una lista con viñetas, escriba bullets.
+Presione la tecla de flecha abajo para examinar los resultados de la búsqueda.
+Cuando haya encontrado el resultado deseado, presione ENTRAR para seleccionarlo y para realizar la acción.
+Trabajar en las pestañas y los menús de la cinta
+Los siguientes métodos abreviados pueden ahorrar tiempo al trabajar con las pestañas de la cinta y los menús de la cinta.
+Para
+Pulse
+Seleccionar la pestaña activa de la cinta de opciones y activar las teclas de acceso.
+Alt+Punto o Alt+tecla del logotipo de Windows. Para ir a otra pestaña, use las teclas de acceso o la tecla Tab.
+Cuando se selecciona una pestaña de la cinta de opciones, mover el foco a los comandos de la pestaña.
+Entrar y, luego, TAB o Mayús+TAB
+Activar el botón seleccionado.
+Barra espaciadora o Entrar
+Úselo para abrir la lista de un comando seleccionado.
+Barra espaciadora o Entrar
+Abrir el menú de un botón seleccionado.
+Alt+flecha abajo
+Cuando un menú o submenú está abierto, úselo para moverse al siguiente comando.
+Tecla de flecha abajo
+Contraer o expandir la cinta de opciones
+Ctrl+F3
+Principio de página
+Navegar por el documento
+Para
+Pulse
+Mover el cursor una palabra a la derecha.
+Ctrl+Tecla de flecha derecha
+Mover el cursor una palabra a la izquierda.
+Ctrl+Tecla de flecha izquierda
+Mover el cursor un párrafo hacia arriba.
+Ctrl+Tecla de flecha arriba
+Mover el cursor un párrafo hacia abajo.
+Ctrl+Tecla de flecha abajo
+Mover el cursor al principio de la línea actual.
+Inicio
+Mover el cursor al final de la línea actual.
+Fin
+Mover el cursor al principio del documento.
+Ctrl+Inicio
+Mover el cursor al final del documento.
+Ctrl+Fin
+Seleccionar texto.
+Mayús+Teclas de dirección
+Seleccionar la palabra a la derecha.
+Mayús+Ctrl+Tecla de dirección derecha
+Seleccionar la palabra a la izquierda.
+Mayús+Ctrl+Tecla de dirección izquierda
+Seleccionar el párrafo de arriba.
+Mayús+Ctrl+Tecla de dirección arriba
+Seleccionar el párrafo siguiente.
+Mayús+Ctrl+Tecla de dirección abajo
+Seleccionar desde la posición actual hasta el principio de la línea.
+Mayús+Inicio
+Seleccionar desde la posición actual hasta el final de la línea.
+Mayús+Fin
+Seleccionar desde la posición actual hasta el principio del documento.
+Mayús+Ctrl+Inicio
+Seleccionar desde la posición actual hasta el final del documento
+Mayús+Ctrl+Fin
+Seleccionar todo el contenido de documento.
+Ctrl+E
+Principio de página
+Editar y dar formato al documento
+Para
+Pulse
+Cortar el contenido seleccionado en el Portapapeles.
+Ctrl+X
+Copiar el contenido seleccionado en el Portapapeles.
+Ctrl+C
+Pegar el contenido del Portapapeles.
+Ctrl+V
+Deshacer la acción anterior.
+Ctrl+Z
+Rehacer la acción anterior.
+Ctrl+Y
+Reducir el tamaño de fuente.
+Ctrl+corchete de apertura ([)
+Aumentar el tamaño de fuente.
+Ctrl+corchete de cierre (])
+Aplicar formato en negrita al texto seleccionado.
+Ctrl+N
+Aplicar formato en cursiva al texto seleccionado.
+Ctrl+I
+Subrayar el texto seleccionado.
+Ctrl+S
+Alinear el párrafo a la izquierda.
+Ctrl+I
+Alinear el párrafo a la derecha.
+CTRL+D
+Centrar el párrafo.
+Ctrl+E
+Justificar el párrafo.
+Ctrl+J
+Crear una lista con viñetas.
+Ctrl+Punto (.)
+Crear una lista numerada.
+Ctrl+Barra diagonal (/)
+Principio de página
+Trabajar con comentarios
+Los métodos abreviados de teclado siguientes solo funcionan cuando el panel Comentarios está abierto y seleccionado (o con el foco en él si usa un lector de pantalla).
+Para
+Pulse
+Mostrar u ocultar el panel Comentarios .
+Alt+Punto, R, K o Alt+tecla del logotipo de Windows, R, K
+Agregar un nuevo comentario.
+Ctrl+Alt+M
+Ir al siguiente hilo de comentarios o a la siguiente respuesta de un hilo de comentarios expandido.
+Tecla de flecha abajo
+Ir al hilo de comentarios anterior.
+Tecla de dirección arriba
+Expandir el hilo de comentarios actual.
+Tecla de dirección derecha
+Contraer el hilo de comentarios actual.
+Tecla de dirección izquierda
+Desplazarse hasta el cuadro de respuesta cuando el foco esté en un comentario.
+Tecla Tab, tecla Tab, Entrar
+Editar un comentario o una respuesta, cuando el foco está en el comentario o en la respuesta.
+Tecla Tab, Entrar
+Publicar un comentario o una respuesta o guardar una edición.
+Ctrl+Entrar
+Descartar un borrador de comentario o respuesta o editarlo.
+Esc
+Principio de página
+Vea también
+Centro de ayuda de Word
+Tareas básicas al usar un lector de pantalla con Word
+Usar un lector de pantalla para explorar y desplazarse en Word
+Soporte técnico del lector de pantalla para Word
+Comienza gratis con Word para la Web .
+Soporte técnico para los clientes con discapacidades
+Microsoft desea proporcionar la mejor experiencia posible a todos nuestros clientes. Si tienes alguna discapacidad o preguntas relacionadas con la accesibilidad, ponte en contacto con Answer Desk Accesibilidad de Microsoft para obtener asistencia técnica. El equipo de soporte técnico de Answer Desk Accesibilidad está preparado para usar muchas tecnologías de asistencia conocidas y puede ofrecer asistencia en lenguaje de signos en inglés, español, francés y estadounidense. Vaya al sitio de Answer Desk Accesibilidad de Microsoft para saber los detalles de contacto de su región.
+Si eres un usuario gubernamental, comercial o empresarial, ponte en contacto con Answer Desk Accesibilidad de la empresa .

@@ -1,0 +1,614 @@
+{
+  "descripcion": "Word 365 (tema 24): atajos, estilos, control de cambios, combinación de correspondencia, guardar e imprimir. Lote generado el 2026-10-13 a partir de páginas de support.microsoft.com/es-es; en borrador.",
+  "preguntas": [
+    {
+      "id": "wrd-001",
+      "ley": null,
+      "articulo": "Usar métodos abreviados de tecla de función",
+      "fuente": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-word-95ef89dd-7142-4b50-afb2-f762f663ceb2",
+      "enunciado": "En Word, ¿qué tecla muestra el cuadro de diálogo Guardar como?",
+      "opciones": [
+        "F12",
+        "Mayús+F12",
+        "Ctrl+F12",
+        "Ctrl+Mayús+F12"
+      ],
+      "correcta": 0,
+      "explicacion": "La página indica: «Solo F12: muestra el cuadro de diálogo Guardar como». Mayús+F12 guarda el documento y Ctrl+F12 muestra el cuadro Abrir.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-002",
+      "ley": null,
+      "articulo": "Obtener una vista previa e imprimir documentos",
+      "fuente": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-word-95ef89dd-7142-4b50-afb2-f762f663ceb2",
+      "enunciado": "¿Qué combinación de teclas cambia a la vista previa de impresión en Word?",
+      "opciones": [
+        "Ctrl+Alt+P",
+        "Ctrl+Alt+O",
+        "Ctrl+Alt+I",
+        "Ctrl+Alt+N"
+      ],
+      "correcta": 2,
+      "explicacion": "Para «Cambiar a vista previa de impresión» se pulsa Ctrl+Alt+I. Ctrl+Alt+P cambia a la vista Diseño de impresión.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-003",
+      "ley": null,
+      "articulo": "Insertar caracteres especiales",
+      "fuente": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-word-95ef89dd-7142-4b50-afb2-f762f663ceb2",
+      "enunciado": "¿Qué combinación inserta un salto de página en Word?",
+      "opciones": [
+        "Mayús+Entrar",
+        "Ctrl+Entrar",
+        "Ctrl+Mayús+Entrar",
+        "Ctrl+Tab"
+      ],
+      "correcta": 1,
+      "explicacion": "La tabla asigna Ctrl+Entrar a «Insertar un salto de página». Mayús+Entrar inserta un salto de línea y Ctrl+Mayús+Entrar, un salto de columna.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-004",
+      "ley": null,
+      "articulo": "Revisar un documento",
+      "fuente": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-word-95ef89dd-7142-4b50-afb2-f762f663ceb2",
+      "enunciado": "¿Qué combinación activa o desactiva el control de cambios?",
+      "opciones": [
+        "Ctrl+Alt+M",
+        "Alt+Mayús+C",
+        "Ctrl+Mayús+H",
+        "Ctrl+Mayús+E"
+      ],
+      "correcta": 3,
+      "explicacion": "Para «Activar o desactivar el control de cambios» se pulsa Ctrl+Mayús+E. Ctrl+Alt+M sirve para «Insertar un comentario».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-005",
+      "ley": null,
+      "articulo": "Alinear y dar formato a párrafos",
+      "fuente": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-word-95ef89dd-7142-4b50-afb2-f762f663ceb2",
+      "enunciado": "¿Qué combinación aplica el estilo Título 1 al párrafo?",
+      "opciones": [
+        "Ctrl+1",
+        "Ctrl+Alt+1",
+        "Alt+Mayús+1",
+        "Ctrl+Mayús+N"
+      ],
+      "correcta": 1,
+      "explicacion": "La página asigna Ctrl+Alt+1 a «Aplicar el estilo de Título 1». Ctrl+1 aplica espaciado simple y Ctrl+Mayús+N, el estilo Normal.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-006",
+      "ley": null,
+      "articulo": "Navegar por el documento",
+      "fuente": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-word-95ef89dd-7142-4b50-afb2-f762f663ceb2",
+      "enunciado": "En Word con teclado de España, ¿qué hace Ctrl+B?",
+      "opciones": [
+        "Muestra el panel de tareas de Navegación",
+        "Aplica formato de negrita al texto",
+        "Muestra el cuadro de diálogo Reemplazar",
+        "Muestra el cuadro de diálogo Ir a"
+      ],
+      "correcta": 0,
+      "explicacion": "Ctrl+B sirve para «Mostrar el panel de tareas de Navegación para buscar en el contenido del documento». La negrita es Ctrl+N.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-007",
+      "ley": null,
+      "articulo": "Trabajar con referencias, citas e indices",
+      "fuente": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-word-95ef89dd-7142-4b50-afb2-f762f663ceb2",
+      "enunciado": "¿Qué combinación inserta una nota al pie?",
+      "opciones": [
+        "Ctrl+Alt+D",
+        "Alt+Mayús+X",
+        "Ctrl+Alt+F",
+        "Alt+Mayús+B"
+      ],
+      "correcta": 2,
+      "explicacion": "Para «Insertar una nota al pie» se pulsa Ctrl+Alt+F; Ctrl+Alt+D sirve para «Insertar una nota al final».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-009",
+      "ley": null,
+      "articulo": "Usar métodos abreviados de tecla de función",
+      "fuente": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-word-95ef89dd-7142-4b50-afb2-f762f663ceb2",
+      "enunciado": "En Word, ¿qué muestra la combinación Mayús+F7?",
+      "opciones": [
+        "El panel del Editor de ortografía",
+        "El panel del diccionario de sinónimos",
+        "El panel de tareas Traductor",
+        "El siguiente error ortográfico"
+      ],
+      "correcta": 1,
+      "explicacion": "La página indica: «Mayús+F7: muestra el panel de tareas del diccionario de sinónimos». F7 muestra el Editor y Alt+Mayús+F7, el Traductor.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-010",
+      "ley": null,
+      "articulo": "Usar métodos abreviados de tecla de función",
+      "fuente": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-word-95ef89dd-7142-4b50-afb2-f762f663ceb2",
+      "enunciado": "En Word, ¿qué hace la combinación Ctrl+F1?",
+      "opciones": [
+        "Muestra u oculta la cinta de opciones",
+        "Muestra el panel de tareas Ayuda",
+        "Muestra el panel Mostrar formato",
+        "Va al campo siguiente del documento"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la página, «Ctrl+F1: muestra u oculta la cinta de opciones». Solo F1 muestra la Ayuda de Word.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-011",
+      "ley": null,
+      "articulo": "Personalizar o crear nuevos estilos",
+      "fuente": "https://support.microsoft.com/es-es/word/customize-or-create-new-styles",
+      "enunciado": "¿En qué pestaña de la cinta se encuentra la galería de estilos de Word?",
+      "opciones": [
+        "Diseño",
+        "Disposición",
+        "Inicio",
+        "Referencias"
+      ],
+      "correcta": 2,
+      "explicacion": "Los estilos se encuentran en «la galería de estilos, un menú visual situado en la pestaña Inicio».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-012",
+      "ley": null,
+      "articulo": "Modificar un estilo actualizándolo para que coincida con el formato del documento",
+      "fuente": "https://support.microsoft.com/es-es/word/customize-or-create-new-styles",
+      "enunciado": "Ha cambiado el formato de un texto con estilo Título 1. Para que el estilo adopte ese formato, haga clic con el botón derecho en el estilo y elija:",
+      "opciones": [
+        "Modificar el estilo Título 1",
+        "Crear un estilo a partir de Título 1",
+        "Aplicar el estilo Normal a Título 1",
+        "Actualizar Título 1 para que coincida con la selección"
+      ],
+      "correcta": 3,
+      "explicacion": "En el grupo Estilos se hace clic con el botón derecho en el estilo y se elige «Actualizar [nombre de estilo] para que coincida con la selección».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-013",
+      "ley": null,
+      "articulo": "Modificar un estilo actualizándolo para que coincida con el formato del documento",
+      "fuente": "https://support.microsoft.com/es-es/word/customize-or-create-new-styles",
+      "enunciado": "Si modifica un estilo de la galería, ¿qué ocurre con el texto que ya tiene ese estilo?",
+      "opciones": [
+        "Cambia automáticamente al nuevo formato",
+        "Conserva el formato anterior",
+        "Solo cambia el párrafo seleccionado",
+        "Pasa a tener el estilo Normal"
+      ],
+      "correcta": 0,
+      "explicacion": "La página advierte: «Todo el texto con el estilo que haya cambiado cambiará automáticamente para coincidir con el nuevo estilo definido».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-014",
+      "ley": null,
+      "articulo": "Crear un estilo basado en el formato del documento",
+      "fuente": "https://support.microsoft.com/es-es/word/customize-or-create-new-styles",
+      "enunciado": "Al crear un estilo desde la minibarra de herramientas (Estilos > Crear un estilo), ¿qué cuadro de diálogo se abre?",
+      "opciones": [
+        "Modificar estilo",
+        "Crear nuevo estilo a partir del formato",
+        "Panel de tareas Aplicar estilos",
+        "Panel de tareas Mostrar formato"
+      ],
+      "correcta": 1,
+      "explicacion": "Tras elegir Crear un estilo, «En el cuadro de diálogo Crear nuevo estilo a partir del formato , asigne un nombre al estilo y haga clic en Aceptar».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-015",
+      "ley": null,
+      "articulo": "Crear un estilo basado en el formato del documento",
+      "fuente": "https://support.microsoft.com/es-es/word/customize-or-create-new-styles",
+      "enunciado": "Para que un estilo nuevo aparezca en los documentos nuevos, ¿qué opción se marca en el cuadro Modificar?",
+      "opciones": [
+        "Documentos nuevos basados en esta plantilla",
+        "Agregar a la galería de estilos",
+        "Actualizar automáticamente",
+        "Solo en este documento"
+      ],
+      "correcta": 0,
+      "explicacion": "Hay que hacer clic en Modificar y seleccionar «Documentos nuevos basados en esta plantilla en la parte inferior del cuadro de diálogo».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-016",
+      "ley": null,
+      "articulo": "Activar y desactivar el control de cambios",
+      "fuente": "https://support.microsoft.com/es-es/word/training/track-changes-in-word",
+      "enunciado": "¿En qué pestaña de la cinta se activa el Control de cambios?",
+      "opciones": [
+        "Insertar",
+        "Vista",
+        "Revisar",
+        "Referencias"
+      ],
+      "correcta": 2,
+      "explicacion": "La página indica que se activa «En la pestaña Revisar» seleccionando Seguimiento y Control de cambios.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-017",
+      "ley": null,
+      "articulo": "Activar y desactivar el control de cambios",
+      "fuente": "https://support.microsoft.com/es-es/word/training/track-changes-in-word",
+      "enunciado": "Con el Control de cambios activado, ¿cómo se marcan las eliminaciones?",
+      "opciones": [
+        "Con un tachado",
+        "Con un subrayado",
+        "Con un resaltado amarillo",
+        "Con letra cursiva"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la página, «Las eliminaciones se marcan con un tachado y las adiciones se marcan con un subrayado».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-018",
+      "ley": null,
+      "articulo": "Elija cómo quiere mostrar los cambios en el documento",
+      "fuente": "https://support.microsoft.com/es-es/word/training/track-changes-in-word",
+      "enunciado": "¿Qué opción de marcado muestra el documento con los cambios incorporados y oculta las marcas?",
+      "opciones": [
+        "Revisión simple",
+        "Sin marcado",
+        "Todas las marcas",
+        "Original"
+      ],
+      "correcta": 1,
+      "explicacion": "«Sin marcado oculta el marcado para mostrar el documento con los cambios incorporados». Revisión simple muestra una línea roja en el margen.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-019",
+      "ley": null,
+      "articulo": "Elija la forma en que se muestra el control de cambios",
+      "fuente": "https://support.microsoft.com/es-es/word/training/track-changes-in-word",
+      "enunciado": "Para ver las marcas de revisión en globos, el documento debe estar en la vista:",
+      "opciones": [
+        "Borrador o Esquema",
+        "Modo Lectura o Borrador",
+        "Esquema o Modo Lectura",
+        "Diseño de impresión o Diseño web"
+      ],
+      "correcta": 3,
+      "explicacion": "La nota dice: «Si desea ver las marcas de revisión en globos, debe estar en la vista Diseño de impresión o Diseño web».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-020",
+      "ley": null,
+      "articulo": "Elija los cambios de los que realizar un seguimiento",
+      "fuente": "https://support.microsoft.com/es-es/word/training/track-changes-in-word",
+      "enunciado": "¿Qué opción usa una contraseña para evitar que otros desactiven el Control de cambios?",
+      "opciones": [
+        "Solo míos",
+        "Para todos",
+        "Bloquear seguimiento",
+        "Mostrar marcado"
+      ],
+      "correcta": 2,
+      "explicacion": "Para usar una contraseña se selecciona en la pestaña Revisar «Seguimiento > Control de cambios > Bloquear seguimiento».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-021",
+      "ley": null,
+      "articulo": "Activar y desactivar el control de cambios",
+      "fuente": "https://support.microsoft.com/es-es/word/training/track-changes-in-word",
+      "enunciado": "Si desactiva el Control de cambios, ¿qué ocurre con las marcas que ya había?",
+      "opciones": [
+        "Siguen apareciendo en el documento",
+        "Se aceptan todas automáticamente",
+        "Se rechazan todas automáticamente",
+        "Se ocultan hasta volver a activarlo"
+      ],
+      "correcta": 0,
+      "explicacion": "La página indica: «Word deja de marcar cambios, pero los subrayados y tachados coloreados siguen apareciendo en el documento».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-022",
+      "ley": null,
+      "articulo": "Usar la combinación de correspondencia de correo electrónico masivo, cartas, etiquetas y sobres",
+      "fuente": "https://support.microsoft.com/es-es/word/use-mail-merge-for-bulk-email-letters-labels-and-envelopes",
+      "enunciado": "En la combinación de correspondencia, ¿cómo se llaman los marcadores de posición que indican dónde va la información del origen de datos?",
+      "opciones": [
+        "Bloques de Autotexto",
+        "Marcadores",
+        "Campos de formulario",
+        "Campos de combinación"
+      ],
+      "correcta": 3,
+      "explicacion": "La página explica que «Los marcadores de posición (denominados campos de combinación) indican a Word en qué parte del documento incluir información del origen de datos».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-023",
+      "ley": null,
+      "articulo": "Orígenes de datos",
+      "fuente": "https://support.microsoft.com/es-es/word/use-mail-merge-for-bulk-email-letters-labels-and-envelopes",
+      "enunciado": "¿Cuál es el primer paso para configurar la combinación de correspondencia?",
+      "opciones": [
+        "Insertar los campos de combinación",
+        "Seleccionar el origen de datos",
+        "Elegir la impresora de destino",
+        "Obtener una vista previa de resultados"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la página, «El primer paso para configurar la combinación de correspondencia consiste en seleccionar el origen de datos».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-024",
+      "ley": null,
+      "articulo": "Tipos de documentos",
+      "fuente": "https://support.microsoft.com/es-es/word/use-mail-merge-for-bulk-email-letters-labels-and-envelopes",
+      "enunciado": "¿Qué tipo de documento de combinación de correspondencia también se denomina combinación de catálogos?",
+      "opciones": [
+        "Cartas",
+        "Sobres",
+        "Directorio",
+        "Etiquetas"
+      ],
+      "correcta": 2,
+      "explicacion": "El directorio muestra un lote de información para cada elemento del origen de datos: «Este tipo de documento también se denomina combinación de catálogos».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-025",
+      "ley": null,
+      "articulo": "Usar las teclas de acceso para las pestañas de la cinta de opciones",
+      "fuente": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-word-95ef89dd-7142-4b50-afb2-f762f663ceb2",
+      "enunciado": "¿Qué pestaña de la cinta se usa para la combinación de correspondencia y para sobres y etiquetas?",
+      "opciones": [
+        "Referencias",
+        "Insertar",
+        "Revisar",
+        "Correspondencia"
+      ],
+      "correcta": 3,
+      "explicacion": "Alt, M permite «Abrir la pestaña Correspondencia para administrar tareas de combinación de correspondencia y para trabajar con sobres y etiquetas».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-026",
+      "ley": null,
+      "articulo": "Imprimir páginas determinadas",
+      "fuente": "https://support.microsoft.com/es-es/word/print-a-document-in-word",
+      "enunciado": "Para imprimir la página 3 y de la 4 a la 6, en Impresión personalizada se escribe en el cuadro Páginas:",
+      "opciones": [
+        "3, 4-6",
+        "3; 4/6",
+        "3 + 4:6",
+        "3 y 4 a 6"
+      ],
+      "correcta": 0,
+      "explicacion": "Se elige Impresión personalizada y se escriben «los números de página y los intervalos separados por comas (por ejemplo 3, 4-6)».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-027",
+      "ley": null,
+      "articulo": "Imprimir los comentarios del documento",
+      "fuente": "https://support.microsoft.com/es-es/word/print-a-document-in-word",
+      "enunciado": "Para imprimir un documento con sus comentarios, ¿qué se selecciona en Configuración?",
+      "opciones": [
+        "Imprimir página actual",
+        "Imprimir documento con revisiones",
+        "Impresión personalizada",
+        "Imprimir todas las páginas"
+      ],
+      "correcta": 1,
+      "explicacion": "La página indica: «En Configuración , seleccione Imprimir documento con revisiones». Después se selecciona Imprimir.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-028",
+      "ley": null,
+      "articulo": "Obtener una vista previa del documento",
+      "fuente": "https://support.microsoft.com/es-es/word/print-a-document-in-word",
+      "enunciado": "En Word para Windows, ¿desde dónde se obtiene una vista previa del documento antes de imprimirlo?",
+      "opciones": [
+        "Vista > Modo Lectura",
+        "Disposición > Márgenes",
+        "Archivo > Imprimir",
+        "Revisar > Mostrar marcado"
+      ],
+      "correcta": 2,
+      "explicacion": "La vista previa se obtiene en Archivo > Imprimir: «Para obtener una vista previa de cada página, seleccione las flechas hacia delante y hacia atrás en la parte inferior de la página».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-029",
+      "ley": null,
+      "articulo": "Guardar un documento",
+      "fuente": "https://support.microsoft.com/es-es/word/training/save-a-document",
+      "enunciado": "¿Dónde debe estar guardado un documento para que Word guarde todos los cambios automáticamente?",
+      "opciones": [
+        "En el escritorio del equipo",
+        "En la carpeta Documentos local",
+        "En una unidad USB externa",
+        "En OneDrive o SharePoint"
+      ],
+      "correcta": 3,
+      "explicacion": "La página indica: «Al guardar en OneDrive o SharePoint, todos los cambios se guardan automáticamente».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    },
+    {
+      "id": "wrd-030",
+      "ley": null,
+      "articulo": "Guardar un documento",
+      "fuente": "https://support.microsoft.com/es-es/word/training/save-a-document",
+      "enunciado": "¿Dónde se puede activar o desactivar el Autoguardado en Word?",
+      "opciones": [
+        "En el menú contextual de la barra de estado",
+        "En la pestaña Revisar, grupo Seguimiento",
+        "En la barra de herramientas de acceso rápido",
+        "En la pestaña Vista, grupo Ventana"
+      ],
+      "correcta": 2,
+      "explicacion": "Según la página, «Puede activar o desactivar Autoguardado en la barra de herramientas de acceso rápido, ya sea encima o debajo de la cinta de opciones».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 24
+      }
+    }
+  ]
+}

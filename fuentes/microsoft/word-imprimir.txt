@@ -1,0 +1,45 @@
+Imprimir un documento en Word
+https://support.microsoft.com/es-es/word/print-a-document-in-word
+Descargado: 2026-10-13
+
+Imprimir un documento en Word para Windows
+Se aplica a Word para Microsoft 365 Word 2024 Word 2021 Word 2019 Word 2016
+Antes de imprimir, puede obtener una vista previa del documento y especificar las páginas que desea imprimir.
+Windows
+Web
+Obtener una vista previa del documento
+Seleccione Imprimir archivo >.
+Para obtener una vista previa de cada página, seleccione las flechas hacia delante y hacia atrás en la parte inferior de la página.
+Si es difícil leer el texto porque es muy pequeño, use el control deslizante del zoom en la parte inferior de la página para ampliarlo.
+Elija el número de copias y las demás opciones que desee y seleccione el botón Imprimir .
+Imprimir páginas determinadas
+Seleccione Imprimir archivo >.
+Para imprimir solo algunas páginas, algunas de las propiedades del documento o los comentarios y las marcas de revisión, seleccione la flecha en Configuración , junto a Imprimir todas las páginas (opción predeterminada), para ver todas las opciones.
+Para imprimir solo algunas páginas, realice una de las siguientes acciones:
+Para imprimir la página que se muestra en la Vista previa, seleccione Imprimir página actual .
+Para imprimir páginas consecutivas como de la 1 a la 3, seleccione Impresión personalizada e introduzca el primer y el último número de página en el cuadro Páginas .
+Para imprimir páginas individuales y un intervalo de páginas (como, por ejemplo, página 3, y las páginas de la 4 a la 6) al mismo tiempo, seleccione Impresión personalizada y escriba los números de página y los intervalos separados por comas (por ejemplo 3, 4-6).
+Imprimir en color
+Nota
+Si la impresora que ha elegido en Impresora admite las opciones de impresión de color, blanco y negro y escala de grises, dichas opciones aparecerán en la lista en Configuración .
+Seleccione Imprimir archivo >.
+En Configuración , elija la opción de impresión en color y otras opciones que quiera y seleccione el botón Imprimir .
+Imprimir los comentarios del documento
+Abra un documento que tenga comentarios. Si la opción de comentarios no se muestra inmediatamente, vaya a Revisar > Mostrar marcas y seleccione solo Comentarios de la lista.
+Para imprimir los comentarios de un revisor específico, seleccione el revisor en Personas específicas .
+Seleccione Imprimir archivo >.
+En Configuración , seleccione Imprimir documento con revisiones .
+Seleccione Imprimir .
+El documento se imprimirá con comentarios.
+Nota
+Si desea imprimir el documento sin comentarios, vaya a la pestaña Revisar . A continuación, en el grupo Revisión , seleccione la lista desplegable Mostrar para revisión , Ninguna revisión y, a continuación, imprima el documento.
+Seleccione Imprimir archivo >.
+Nota
+Si está en la vista de lectura, seleccione Imprimir cerca de la parte superior de la pantalla.
+Word para la Web genera una copia en PDF del documento.
+Seleccione una impresora y, a continuación, seleccione Imprimir .
+Introducción a la impresión de documentos en Word para la Web .
+Artículos relacionados
+Imprimir en blanco y negro
+Foros de la comunidad de Microsoft 365
+El sitio web del fabricante de la impresora, donde puede encontrar controladores de la impresora actualizados.

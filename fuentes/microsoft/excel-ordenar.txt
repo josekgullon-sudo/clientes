@@ -1,0 +1,196 @@
+Ordenar datos en un rango o tabla
+https://support.microsoft.com/es-es/office/ordenar-datos-en-un-rango-o-tabla-62d0b95d-2a90-4610-a6ae-2e545c4a4654
+Descargado: 2026-10-13
+
+Ordenar datos de una tabla o un rango en Excel
+Se aplica a Excel para Microsoft 365 Excel 2024 Excel 2021 Excel 2019 Excel 2016
+Obtener ayuda con Copilot
+¿Cómo ordeno datos en un rango?
+¿Cómo ordeno texto sensible a mayúsculas y minúsculas?
+Simplifica la ordenación de datos en un rango o tabla con Copilot.
+Ordenar los datos es una parte esencial del análisis de datos. Puede que desee poner una lista de nombres en orden alfabético, compilar una lista de niveles de inventario de productos de mayor a menor u ordenar filas por colores o por iconos. Ordenar los datos ayuda a verlos y a comprenderlos mejor, así como a organizarlos y encontrarlos más fácilmente y a tomar decisiones más eficaces.
+Puede ordenar datos por texto (de la A a la Z o de la Z a la A), números (de menor a mayor o de mayor a menor) y fechas y horas (de más antiguos a más recientes y de más recientes a más antiguos) en una o varias columnas. También puede ordenar por una lista personalizada que cree (como Grande, Medio y Pequeño) o por formato, incluido el color de celda, el color de fuente o el conjunto de iconos. Para identificar los valores superiores o inferiores de un rango de celdas o de una tabla (por ejemplo, las diez mejores calificaciones o los cinco peores importes de ventas), use un filtro automático o el formato condicional. Vea el vídeo para ver cómo se hace.
+Windows
+Web
+Ordenar texto
+Seleccione una celda de la columna que quiere ordenar.
+En la ficha Datos , en el grupo Ordenar y filtrar , siga uno de estos procedimientos.
+Para ordenar rápidamente en orden ascendente, seleccione ( Ordenar de la A a la Z ).
+Para ordenar rápidamente en orden descendente, seleccione ( Ordenar de la Z a la A ).
+Nota
+Posibles problemas
+Comprobar que todos los datos están almacenados como texto Si la columna que quiere ordenar contiene números almacenados como números y números almacenados como texto, será necesario que les aplique formato de número o de texto a todos. Si no lo hace, los números almacenados como números se ordenarán antes que los números almacenados como texto. Para formatear todos los datos seleccionados como texto, presione Ctrl+1 para abrir el cuadro de diálogo Formato de celdas , seleccione la pestaña Número y, a continuación, en Categoría , seleccione General , Número o Texto .
+Quitar los espacios iniciales En algunos casos, los datos que se han importado de otra aplicación pueden tener espacios iniciales insertados delante de los mismos. Antes de ordenar los datos, quite estos espacios. Puede hacerlo manualmente o mediante la función RECORTAR .
+Ordenar números
+Seleccione una celda de la columna que quiere ordenar.
+En la ficha Datos , en el grupo Ordenar y filtrar , siga uno de estos procedimientos.
+Para ordenar de menor a mayor, seleccione ( Ordenar de menor a mayor ).
+Para ordenar de mayor a menor, seleccione ( Ordenar de mayor a menor ).
+Nota
+Posible problema
+Compruebe que todos los números se almacenen como números Si los resultados no son los que esperaba, es posible que la columna contenga números almacenados como texto en lugar de números. Por ejemplo, los números negativos importados de algunos sistemas de contabilidad o los números con un apóstrofo inicial ( ' ) se almacenan como texto. Para obtener más información, vea Corregir números con formato de texto aplicando un formato de número .
+Ordenar fechas u horas
+Seleccione una celda de la columna que quiere ordenar.
+En la ficha Datos , en el grupo Ordenar y filtrar , siga uno de estos procedimientos.
+Para ordenar de una fecha u hora anterior a una posterior, seleccione ( Ordenar del más antiguo al más reciente ).
+Para ordenar de una fecha u hora posterior a una anterior, seleccione ( Ordenar de más reciente a más antiguo).
+Nota
+Posibles problemas
+Compruebe que las fechas y horas se almacenan como valores de fecha y hora Si los resultados obtenidos no son los que esperaba, es posible que la columna contenga fechas u horas almacenadas como texto y no como valores de fecha u hora. Para que Excel las ordene correctamente, todos los valores de fecha y hora de una columna tienen que estar almacenados como números de serie de fecha u hora. Si Excel no puede reconocer un valor como fecha u hora, significa que la fecha u hora se almacenó como texto. Para obtener más información, vea Convertir fechas almacenadas como texto en fechas .
+Si quiere ordenar por días de la semana, aplique formato a las celdas para mostrar el día de la semana. Si quiere ordenar por el día de la semana independientemente de la fecha que sea, conviértalos en texto mediante la función TEXTO . Pero la función TEXTO devuelve un valor de texto y, por tanto, la operación de ordenación estará basada en datos alfanuméricos. Para obtener más información, vea Mostrar la fecha como día de la semana .
+Ordenar por más de una columna o fila
+Es posible que quiera ordenar por más de una columna o fila si tiene datos que desea agrupar por el mismo valor en una columna o fila y, además, ordenar otra columna o fila dentro de ese grupo de valores iguales. Por ejemplo, si tiene una columna Departamento y otra Empleado, puede querer ordenar primero por departamento (para agrupar todos los empleados del mismo departamento) y, a continuación, ordenar por nombre de empleado (para poner los nombres en orden alfabético dentro de cada departamento). Puede ordenar por un máximo de 64 columnas.
+Nota
+Para obtener resultados óptimos, el rango de celdas que se ordene debe tener encabezados de columna.
+Seleccione cualquier celda del rango de datos.
+En la pestaña Datos , en el grupo Ordenar & filtrar , seleccione Ordenar .
+En el cuadro de diálogo Ordenar , en el cuadro Ordenar por que aparece bajo Columna , seleccione la primera columna que quiere ordenar.
+En Ordenar según , seleccione el tipo de ordenación. Siga uno de estos procedimientos:
+Para ordenar por texto, número, o fecha y hora, seleccione Valores de celda .
+Para ordenar por formato, seleccione Color de celda , Color de fuente o Icono de celda .
+En Orden , seleccione cómo desea ordenar. Siga uno de estos procedimientos:
+Para valores de texto, seleccione De la A a la Z o De la Z a la A .
+Para valores numéricos, seleccione De menor a mayor o De mayor a menor .
+Para valores de fecha u hora, seleccione De más antiguo a más reciente o De más reciente a más antiguo .
+Para ordenar según una lista personalizada, seleccione Lista personalizada .
+Para agregar otra columna por la que ordenar, seleccione Agregar nivel y, a continuación, repita los pasos del tres al cinco.
+Para copiar una columna por la que ordenar, seleccione la entrada y, a continuación, seleccione Copiar nivel .
+Para eliminar una columna según la que ordenar, seleccione la entrada y, a continuación, seleccione Eliminar nivel .
+Nota
+Debe conservar al menos una entrada en la lista.
+Para cambiar el orden de las columnas, seleccione una entrada y, a continuación, seleccione la flecha arriba o abajo situada junto al botón Opciones para cambiar el orden.
+Las entradas más arriba en la lista se ordenan antes que las que están más abajo.
+Ordenar por color de celda, color de fuente o icono
+Si ha aplicado formato manual o condicionalmente a un rango de celdas o a una columna de tabla por color de celda o color de fuente, también puede ordenar por estos colores. Además, puede ordenar por un conjunto de iconos creado con formato condicional.
+Seleccione una celda de la columna que quiere ordenar.
+En la pestaña Datos , en el grupo Ordenar & filtrar , seleccione Ordenar .
+En el cuadro de diálogo Ordenar , en el cuadro Ordenar por que aparece bajo Columna , seleccione la columna que quiere ordenar.
+En Ordenar según , seleccione Color de celda , Color de fuente o Icono de celda .
+En Orden , seleccione la flecha situada junto al botón y, a continuación, según el tipo de formato, seleccione un color de celda, un color de fuente o un icono de celda.
+Después, seleccione el modo en que quiere ordenar. Siga uno de los procedimientos siguientes:
+Para mover el color de celda, el color de fuente o el icono a la parte superior o a la izquierda, seleccione En la parte superior para una ordenación de columnas y A la izquierda para una ordenación de filas.
+Para mover el color de celda, el color de fuente o el icono en la parte inferior o a la derecha, seleccione En la parte inferior al ordenar por columna, y A la derecha para ordenar por fila.
+Nota
+No hay un criterio predeterminado de color de celda, color de fuente o icono. Debe definir el orden para cada operación de ordenación.
+Para especificar el siguiente color de celda, color de fuente o icono de la ordenación, seleccione Agregar nivel y, a continuación, repita los pasos tres a cinco.
+Asegúrese de seleccionar la misma columna en el cuadro Luego por y haga la misma selección en Orden .
+Repita el procedimiento por cada color de celda, color de fuente o icono adicionales que quiere incluir en la ordenación.
+Ordenar por una lista personalizada
+Puede utilizar una lista personalizada para ordenar según un orden definido por el usuario. Por ejemplo, una columna puede contener valores por los que desea ordenar, como Alto, Mediano y Bajo. ¿Cómo puede ordenar de modo que las filas que contienen Alto aparezcan primero, seguidas por Mediano y luego Bajo? Si fuera a ordenar alfabéticamente, una ordenación "A a Z" pondría Alto primero, pero Bajo vendría antes que Mediano. Y si ordenara de "Z a A", Mediano aparecería primero, con Bajo en el medio. Independientemente del orden, siempre desea "Mediano" en el medio. Al crear su propia lista personalizada, puede evitar este problema.
+Opcionalmente, cree una lista personalizada:
+En un rango de celdas, escriba los valores por los que va a ordenar, en el orden que quiera, de arriba abajo como en este ejemplo.
+Seleccione el rango que acaba de especificar. En el ejemplo anterior, seleccione las celdas A1:A3.
+Vaya a Opciones > de archivo > Avanzadas > General > Editar listas personalizadas y, a continuación, en el cuadro de diálogo Listas personalizadas , seleccione Importar y, después, seleccione Aceptar dos veces.
+Nota
+Una lista personalizada solo puede crearse basada en un valor (texto, número y fecha u hora). No puede crear una lista personalizada basada en un formato (color de celda, color de fuente o icono).
+La longitud máxima para una lista personalizada es de 255 caracteres y el primer carácter puede no empezar por un número.
+Seleccione una celda de la columna que quiere ordenar.
+En la pestaña Datos , en el grupo Ordenar & filtrar , seleccione Ordenar .
+En el cuadro de diálogo Ordenar , en Columna , en el cuadro Ordenar por o en Luego por , seleccione la columna que quiere ordenar según una lista personalizada.
+En Ordenar , seleccione Lista personalizada .
+En el cuadro de diálogo Listas personalizadas , seleccione la lista que desee. En la lista personalizada que creó en el ejemplo anterior, seleccione Alto, Medio, Bajo .
+Seleccione Aceptar .
+Ordenar distinguiendo mayúsculas de minúsculas
+En la pestaña Datos , en el grupo Ordenar & filtrar , seleccione Ordenar .
+En el cuadro de diálogo Ordenar , seleccione Opciones .
+En el cuadro de diálogo Opciones de ordenación , seleccione Distinguir mayúsculas de minúsculas .
+Seleccione Aceptar dos veces.
+Ordenar de izquierda a derecha
+Es más común ordenar de arriba a abajo, pero también puede ordenar de izquierda a derecha.
+Nota
+Las tablas no admiten la ordenación de izquierda a derecha. Para ello, primero debe convertir la tabla en un rango, seleccionando cualquier celda de la tabla y, a continuación, seleccionando Herramientas > de tabla Convertir en rango .
+Seleccione cualquier celda del rango que quiera ordenar.
+En la pestaña Datos , en el grupo Ordenar & filtrar , seleccione Ordenar .
+En el cuadro de diálogo Ordenar , seleccione Opciones .
+En el cuadro de diálogo Opciones de ordenación, en Orientación , seleccione Ordenar de izquierda a derecha y, después, Aceptar .
+En Fila , en el cuadro Ordenar por , seleccione la fila que quiere ordenar. Por lo general, será la fila 1 si quiere ordenar por la fila de encabezado.
+Recomendación
+Si la fila de encabezado es texto pero quiere ordenar las columnas por números, puede agregar una nueva fila sobre el rango de datos y agregar números según el orden que quiera.
+Para ordenar por valor, seleccione una de las opciones de la lista desplegable Orden:
+Para los valores de texto, seleccione A a Z o Z a A .
+Para valores numéricos, seleccione De menor a mayor o De mayor a menor .
+Para valores de fecha u hora, seleccione De más antiguo a más reciente o De más reciente a más antiguo .
+Para ordenar por color de celda, color de fuente o icono de celda, haga lo siguiente:
+En Ordenar según , seleccione Color de celda , Color de fuente o Icono de celda .
+En Orden , seleccione un color de celda, un color de fuente o un icono de celda y, después, seleccione A la izquierda o A la derecha .
+Nota
+Al ordenar filas que forman parte de un esquema de hoja de cálculo, Excel ordenará los grupos de nivel más alto (nivel 1) de modo que las filas o las columnas de detalle permanezcan juntas, aunque estén ocultas.
+Ordenar por un valor parcial en una columna
+Para ordenar por una parte de un valor de una columna, como un código de números de pieza (789- WDG -34), apellidos (Carlota Melgar) o nombres (Melgar, Carlota), primero necesita dividir la columna en dos o más columnas para que el valor por el que quiera ordenar esté en su propia columna. Para hacerlo, puede usar funciones de texto para separar las partes de las celdas, o bien puede usar el Asistente para convertir texto en columnas. Para obtener más información y ejemplos, vea Dividir texto en varias celdas y Dividir texto en columnas con funciones .
+Ordenar un rango dentro de un rango mayor
+Advertencia
+Es posible ordenar un rango dentro de un rango, aunque no se recomienda, ya que el resultado desasocia el rango ordenado de sus datos originales. Si ordenara los datos siguientes como se muestra, los empleados seleccionados se asociarían con departamentos diferentes.
+Afortunadamente, Excel se lo notificará si detecta que va a intentar hacerlo:
+Si no quería ordenar de este modo, presione la opción Ampliar la selección . En caso contrario, seleccione Continuar con la selección actual .
+Si los resultados no son los que desea, seleccione Deshacer .
+Nota
+No puede ordenar de esta forma en una tabla.
+Más información sobre problemas generales de ordenación
+Si obtiene resultados inesperados al ordenar los datos, haga lo siguiente:
+Compruebe si los valores devueltos por una fórmula han cambiado Si los datos que ha ordenado contienen una o varias fórmulas, los valores devueltos por ellas pueden cambiar cuando se vuelve a calcular la hoja. En este caso, asegúrese de que vuelve a aplicar la ordenación para obtener resultados actualizados.
+Muestre filas y columnas antes de ordenar Las columnas ocultas no se mueven al ordenar las columnas, y las filas ocultas no se mueven al ordenar las filas. Antes de ordenar los datos, es una buena idea para mostrar las columnas y filas ocultas.
+Compruebe la configuración regional Los criterios de ordenación varían según la configuración regional. Asegúrese de tener la configuración regional correcta en Configuración regional o en Configuración regional y de idioma en Panel de control en su equipo. Para obtener más información acerca de cómo cambiar la configuración regional, consulte la ayuda de Windows.
+Escriba los encabezados de columna en una sola fila Si necesita varias etiquetas de línea, ajuste el texto dentro de la celda.
+Activar o desactivar la fila de encabezado Normalmente, es mejor tener una fila de encabezado al ordenar una columna para que le resulte más fácil entender el significado de los datos. De forma predeterminada, el valor en el encabezado no está incluido en la operación de ordenación. En ocasiones, puede que tenga que activar o desactivar el encabezado para que su valor se incluya o no en la operación de ordenación. Siga uno de estos procedimientos:
+Para excluir la primera fila de datos de la ordenación porque es un encabezado de columna, en la pestaña Inicio , en el grupo Edición , seleccione Ordenar & filtrar , Orden personalizado y, después, seleccione Mis datos tienen encabezados .
+Para incluir la primera fila de datos en la ordenación por no ser un encabezado de columna, en la pestaña Inicio , en el grupo Edición , seleccione Ordenar & filtrar , Orden personalizado y después desactive Mis datos tienen encabezados .
+Ordenar datos en una tabla
+Abra un libro nuevo en Excel para la Web o abra un libro actual. Si los datos tienen el formato de una tabla de Excel, puede rápidamente ordenar y filtrarlos con los botones de filtro en la fila de encabezado.
+Si los datos aún no están en una tabla, deles formato de tabla . Esto agregará automáticamente un botón de filtro en la parte superior de cada columna de la tabla.
+Seleccione el botón de filtro en la parte superior de la columna que quiera ordenar y elija el criterio de ordenación que quiera.
+Para deshacer una ordenación, utilice el botón Deshacer en la pestaña Inicio .
+Ordenar datos en un rango
+Seleccione una celda para ordenar:
+Si los datos tienen una fila de títulos, seleccione el título que quiera ordenar, como Población .
+Si los datos no tienen una fila de títulos, seleccione el valor superior que quiera ordenar, como 634535 .
+En la pestaña Datos , seleccione uno de los métodos de ordenación:
+Orden ascendente para ordenar de la A a la Z, de menor a mayor, o de la fecha más antigua a la más reciente.
+Orden descendente para ordenar de la Z a la A, de mayor a menor o de la fecha más reciente a la más antigua.
+Ordenar por más de una columna o fila
+Supongamos que tiene una tabla con una columna Departamento y una columna Empleado. Puede ordenar primero por Departamento, para agrupar a todos los empleados del mismo departamento, y luego, puede ordenar por nombre de empleado, para poner los nombres en orden alfabético dentro de cada departamento.
+Seleccione una celda del rango de datos.
+En la pestaña Datos , seleccione Orden personalizado .
+En el cuadro de diálogo Orden personalizado , en Columna , en el cuadro Ordenar por , seleccione la primera columna que quiere ordenar.
+Nota
+El menú Ordenar en está deshabilitado porque ya no es compatible. Por ahora, puede cambiarlo en la aplicación de escritorio de Excel.
+En Orden , seleccione cómo quiere ordenar:
+Orden ascendente para ordenar de la A a la Z, de menor a mayor, o de la fecha más antigua a la más reciente.
+Orden descendente para ordenar de la Z a la A, de mayor a menor o de la fecha más reciente a la más antigua.
+Para agregar otra columna por la que ordenar, seleccione Agregar y, a continuación, repita los pasos cinco y seis.
+Para cambiar el orden de las columnas, seleccione una entrada y, a continuación, seleccione la flecha arriba o abajo situada junto al botón Opciones .
+Ordenar por color de celda, color de fuente o icono
+Si ha aplicado formato manual o condicionalmente a un rango de celdas o a una columna de tabla por color de celda o color de fuente, también puede ordenar por estos colores. Además, puede ordenar por un conjunto de iconos creado con formato condicional.
+Seleccione una celda de la columna que quiere ordenar.
+En la pestaña Datos , seleccione Orden personalizado .
+En el cuadro de diálogo Orden personalizado , debajo de Columnas , seleccione la columna por la que quiera ordenar.
+En Ordenar según , seleccione Color de celda , Color de fuente o Icono de formato condicional.
+En Orden , seleccione el orden que quiera (lo que vea depende del tipo de formato que tenga). Entonces, seleccione un color de celda, color de fuente o icono de celda.
+Después, elija cómo quiere ordenar, cambiando el color de celda, el color de fuente o el icono:
+Nota
+No hay un criterio predeterminado de color de celda, color de fuente o icono. Debe definir el orden para cada operación de ordenación.
+Para cambiar a la parte superior o a la izquierda: Seleccione En la parte superior para ordenar por columnas y En la izquierda para ordenar por filas.
+Para cambiar a la parte inferior o a la derecha: Seleccione En la parte inferior para ordenar por columnas y En la derecha para ordenar por filas.
+Para especificar el siguiente color de celda, color de fuente o icono de la ordenación, seleccione Agregar nivel y, luego, repita los pasos uno a cinco.
+Asegúrese de que la columna en el cuadro Luego por y la selección en Orden coincidan.
+Repita el procedimiento por cada color de celda, color de fuente o icono adicionales que quiera incluir en la ordenación.
+Ordenar distinguiendo mayúsculas de minúsculas
+En la pestaña Datos , seleccione Orden personalizado .
+En el cuadro de diálogo Orden personalizado , seleccione Opciones .
+En el menú Opciones , seleccione Distinguir mayúsculas de minúsculas .
+Seleccione Aceptar .
+Ordenar de izquierda a derecha
+Es más común ordenar de arriba a abajo, pero también puede ordenar de izquierda a derecha.
+Nota
+Las tablas no admiten la ordenación de izquierda a derecha. Para ello, primero debe convertir la tabla en un rango, seleccionando cualquier celda de la tabla y, a continuación, seleccionando Herramientas > de tabla Convertir en rango .
+Seleccione cualquier celda del rango que quiera ordenar.
+En la pestaña Datos , seleccione Orden personalizado .
+En el cuadro de diálogo Orden personalizado, seleccione Opciones .
+En Orientación , seleccione Ordenar de izquierda a derecha .
+En Fila , en el cuadro desplegable Ordenar por , seleccione la fila que quiere ordenar. Por lo general, será la fila 1 si quiere ordenar por la fila de encabezado.
+Para ordenar por valor, seleccione una de las opciones de la lista desplegable Orden :
+Orden ascendente para ordenar de la A a la Z, de menor a mayor, o de la fecha más antigua a la más reciente.
+Orden descendente para ordenar de la Z a la A, de mayor a menor o de la fecha más reciente a la más antigua.
+¿Necesita más ayuda?
+Siempre puede preguntar a un experto en Excel Tech Community u obtener soporte técnico en Comunidades .
+Vea también
+Use las funciones ORDENAR y ORDENARPOR para ordenar automáticamente los datos. Además, vaya a Filtrar datos en un rango o una tabla de Excel y Aplicar formato condicional en Excel .

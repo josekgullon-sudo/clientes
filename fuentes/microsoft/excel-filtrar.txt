@@ -1,0 +1,200 @@
+Filtrar datos en un rango o tabla
+https://support.microsoft.com/es-es/office/filtrar-datos-en-un-rango-o-tabla-01832226-31b5-4568-8806-38c37dcc180e
+Descargado: 2026-10-13
+
+Filtrar datos de una tabla o un rango en Excel
+Se aplica a Excel para Microsoft 365 Excel para Microsoft 365 para Mac Excel 2024 Excel 2021 Excel 2019 Excel 2016
+Obtener ayuda con Copilot
+¿Cómo puedo filtrar un rango de datos?
+¿Cómo filtro fechas u horas en Excel?
+Guíame sobre cómo filtrar datos en un rango o tabla.
+Use Autofiltro u operadores de comparación integrados como "mayor que" y "10 superior" en Excel para mostrar los datos que quiera y ocultar el resto. Una vez que filtre los datos de una tabla o un rango de celdas, puede volver a aplicar un filtro para obtener resultados actualizados o borrar un filtro para volver a mostrar todos los datos.
+Windows
+Web
+macOS
+Use filtros para ocultar temporalmente algunos de los datos de una tabla y así poder centrarse en los datos que desee.
+Filtrar un rango de datos
+Seleccione cualquier celda del rango.
+Seleccione Filtro de datos >.
+Seleccione la flecha de encabezado de columna .
+Seleccione Filtros de texto o Filtros de número y, a continuación, seleccione una comparación, como Entre .
+Escriba los criterios de filtro y seleccione Aceptar .
+Filtrar datos en una tabla
+Al colocar datos en una tabla , los controles de filtro se agregan automáticamente a los encabezados de tabla.
+Seleccione la flecha desplegable del encabezado de la columna para la columna que desea filtrar.
+Desactive (Seleccionar todo) y seleccione las casillas que desee mostrar.
+Seleccione Aceptar .
+La flecha la columna Filtro cambia a un Icono de de filtro . Seleccione este icono para cambiar o borrar el filtro.
+Artículos relacionados
+Filtrar datos en una tabla
+Consideraciones y ejemplos para ordenar y filtrar datos por color
+Filtrar elementos en una tabla dinámica
+Filtrar por criterios avanzados
+Quitar un filtro
+Los datos filtrados muestran solo las filas que cumplen los criterios especificados y ocultan las filas que no desea que se muestren. Después de filtrar los datos, puede copiarlos, buscarlos, editarlos, aplicarles formato, graficarlos e imprimirlos sin tener que reorganizarlos ni moverlos.
+También puede filtrar por más de una columna. Los filtros son aditivos, lo que significa que cada filtro adicional se basa en el filtro actual y reduce aún más el subconjunto de datos.
+Nota
+Cuando usa el cuadro de diálogo Buscar para buscar datos filtrados, solo se buscan los datos que se muestran; No se buscan datos que no se muestran. Para buscar todos los datos, borre todos los filtros.
+Más información sobre el filtrado
+Los dos tipos de filtros
+Con Autofiltro, puede crear dos tipos de filtros: por un valor de lista o por criterios. Cada uno de estos tipos de filtro es mutuamente excluyente para cada rango de celdas o tabla de columnas. Por ejemplo, puede filtrar por una lista de números o por criterios, pero no por ambos; Puede filtrar por icono o por un filtro personalizado, pero no por ambos.
+Reaplicar un filtro
+Para determinar si se aplica un filtro, observe el icono en el encabezado de columna:
+Una flecha desplegable desplegable significa que el filtrado está habilitado pero no aplicado.
+Al mantener el puntero sobre el encabezado de una columna con el filtrado habilitado pero no aplicado, la información en pantalla muestra "(Mostrando todo)".
+Botón Filtro significa que se aplica un filtro.
+Al mantener el puntero sobre el encabezado de una columna filtrada, una información en pantalla muestra el filtro aplicado a esa columna, como "Igual a un color de celda roja" o "Mayor que 150".
+Cuando vuelve a aplicar un filtro, aparecen resultados diferentes por los siguientes motivos:
+Los datos se han agregado, modificado o eliminado al rango de celdas o a la columna de tabla.
+Los valores devueltos por una fórmula han cambiado y la hoja de cálculo se ha actualizado.
+No mezclar tipos de datos
+Para obtener mejores resultados, no mezcle tipos de datos, como texto y número, o número y fecha en la misma columna, porque solo está disponible un tipo de comando de filtro para cada columna. Si hay una combinación de tipos de datos, el comando que se muestra es el tipo de datos que más se produce. Por ejemplo, si la columna contiene tres valores almacenados como número y cuatro como texto, se muestra el comando Filtros de texto .
+Filtrar datos en una tabla
+Al colocar datos en una tabla, los controles de filtrado se agregan automáticamente a los encabezados de tabla.
+Seleccione los datos que desea filtrar. En la pestaña Inicio , seleccione Dar formato como tabla y, a continuación, elija el estilo de tabla que desee.
+En el cuadro de diálogo Dar formato como tabla , puede elegir si la tabla tiene encabezados.
+Seleccione Mi tabla tiene encabezados para convertir la fila superior de los datos en encabezados de tabla. Los datos de esta fila no se filtrarán.
+No active la casilla si desea que Excel para la Web agregue encabezados de marcador de posición (cuyo nombre puede cambiar) encima de los datos de la tabla.
+Seleccione Aceptar.
+Para aplicar un filtro, selecciona la flecha en el encabezado de columna y elige una opción de filtro.
+Filtrar un rango de datos
+Si no desea dar formato de tabla a los datos, también puede aplicar filtros a un rango de datos.
+Seleccione los datos que desea filtrar. Para obtener mejores resultados, las columnas deben tener encabezados.
+En la pestaña Datos , elija Filtro .
+Opciones de filtrado para tablas o rangos
+Puede aplicar una opción de filtro general o un filtro personalizado específico para el tipo de datos. Por ejemplo, al filtrar números, tendrá filtros numéricos , para las fechas tendrá filtros de fecha y para el texto tendrá filtros de texto . La opción de filtro general le permite seleccionar los datos que desea de una lista de datos existentes como este:
+Los filtros de número le permiten aplicar un filtro personalizado:
+En este ejemplo, si desea obtener las regiones cuyas ventas fueron inferiores a 6000 USD en marzo, puede aplicar un filtro personalizado:
+Aquí le explicamos cómo hacerlo:
+Seleccione la flecha de filtro situada junto a Filtros > de número de marzo > menores que y escriba 6000.
+Seleccione Aceptar .
+Excel para la Web aplica el filtro y muestra solo las regiones con ventas por debajo de 6000 $.
+Puede aplicar filtros de fecha y filtros de texto personalizados de manera similar.
+Para borrar un filtro de una columna
+Seleccione el botón del situado junto al encabezado de columna y, a continuación, seleccione Borrar filtro de "Nombre de <columna".>
+Para quitar todos los filtros de una tabla o rango
+Seleccione cualquier celda de la tabla o rango y, en la pestaña Datos , seleccione el botón Filtro .
+Esto quitará los filtros de todas las columnas de la tabla o rango y mostrará todos los datos.
+Filtrar el conjunto de valores superior o inferior
+Seleccione una celda del rango o tabla que quiera filtrar.
+En la pestaña Datos , seleccione Filtrar .
+Seleccione la flecha en la columna que contiene el contenido que desea filtrar.
+En Filtro , selecciona Elegir uno y después introduce los criterios de filtro.
+Nota
+Los filtros se pueden aplicar a un rango de celdas de una sola hoja cada vez.
+Cuando se aplica un filtro a una columna, los únicos filtros disponibles para las demás columnas son los valores visibles del rango filtrado.
+Solo las primeras 10.000 entradas únicas de una lista aparecen en la ventana de filtro.
+Filtrar por un número específico o un rango de números
+Seleccione una celda del rango o tabla que quiera filtrar.
+En la pestaña Datos , seleccione Filtrar .
+Seleccione la flecha en la columna que contiene el contenido que desea filtrar.
+En Filtro , selecciona Elegir uno y después introduce los criterios de filtro.
+En el cuadro situado junto al menú emergente, escriba el número que desea usar.
+Según su elección, es posible que se le ofrezcan criterios adicionales para seleccionar:
+Nota
+Los filtros se pueden aplicar a un rango de celdas de una sola hoja cada vez.
+Cuando se aplica un filtro a una columna, los únicos filtros disponibles para las demás columnas son los valores visibles del rango filtrado.
+Solo las primeras 10.000 entradas únicas de una lista aparecen en la ventana de filtro.
+En lugar del filtrado, puede usar formato condicional para que los números de la parte superior o inferior destaquen claramente en los datos.
+Filtrar por color de fuente, color de celda o conjuntos de iconos
+Puede filtrar datos rápidamente según criterios visuales, como el color de fuente, color de celda o conjuntos de iconos. También puede filtrar por celdas con formato, estilos de celda aplicados o formato condicional usado.
+En un rango de celdas o en una columna de tabla, seleccione una celda que contenga el color de celda, el color de fuente o el icono por el que desea filtrar.
+En la pestaña Datos , seleccione Filtrar .
+Seleccione la en la columna que contiene el contenido que desea filtrar.
+En Filtro , en el menú desplegable Por color , seleccione Color de celda , Color de fuente o Icono de celda y, a continuación, seleccione un color.
+Filtrar celdas en blanco
+Esta opción solo está disponible si la columna que desea filtrar contiene una celda en blanco.
+Seleccione una celda del rango o tabla que quiera filtrar.
+En la barra de herramientas Datos , seleccione Filtrar .
+Seleccione la en la columna que contiene el contenido que desea filtrar.
+En el área (Seleccionar todo) , desplácese hacia abajo y seleccione la casilla Celdas en blanco .
+Nota
+Los filtros se pueden aplicar a un rango de celdas de una sola hoja cada vez.
+Cuando se aplica un filtro a una columna, los únicos filtros disponibles para las demás columnas son los valores visibles del rango filtrado.
+Solo las primeras 10.000 entradas únicas de una lista aparecen en la ventana de filtro.
+Filtrar por un texto determinado
+Seleccione una celda del rango o tabla que quiera filtrar.
+En la pestaña Datos , seleccione Filtrar .
+Seleccione la en la columna que contiene el contenido que desea filtrar.
+En Filtro , selecciona Elegir uno y, a continuación, en el menú emergente, realiza una de las siguientes acciones:
+Para filtrar el rango por
+Seleccionar
+Las filas que contienen texto concreto
+Contiene o Es igual a .
+Las filas que no contienen texto concreto
+No contiene o no es igual .
+En el cuadro situado junto al menú emergente, escriba el texto que desea usar.
+Según su elección, es posible que se le ofrezcan criterios adicionales para seleccionar:
+Para
+Seleccionar
+Filtrar la columna de la tabla o la selección de forma que ambos criterios sean verdaderos
+Y .
+Filtrar la columna de la tabla o la selección de forma que uno de los criterios, o ambos, puedan ser verdaderos
+O .
+Filtrar por el principio o el final de una línea de texto
+Seleccione una celda del rango o tabla que quiera filtrar.
+En la barra de herramientas Datos , seleccione Filtrar .
+Seleccione la en la columna que contiene el contenido que desea filtrar.
+En Filtro , selecciona Elegir uno y, a continuación, en el menú emergente, realiza una de las siguientes acciones:
+Para filtrar por
+Seleccionar
+El principio de una línea de texto
+Comienza por .
+El final de una línea de texto
+Termina con .
+Las celdas que contienen texto pero no empiezan con letras
+No empieza por .
+Las celdas que contienen texto pero no terminan con letras
+No termina con .
+En el cuadro situado junto al menú emergente, escriba el texto que desea usar.
+Según su elección, es posible que se le ofrezcan criterios adicionales para seleccionar:
+Para
+Seleccionar
+Filtrar la columna de la tabla o la selección de forma que ambos criterios sean verdaderos
+Y .
+Filtrar la columna de la tabla o la selección de forma que uno de los criterios, o ambos, puedan ser verdaderos
+O .
+Usar caracteres comodín para filtrar
+Puede usar caracteres comodín para facilitar la creación de criterios.
+Seleccione una celda del rango o tabla que quiera filtrar.
+En la barra de herramientas Datos , seleccione Filtrar .
+Seleccione la en la columna que contiene el contenido que desea filtrar.
+En Filtro , seleccione Elegir una opción y seleccione cualquier opción.
+En el cuadro de texto, escriba los criterios e incluya un carácter comodín.
+Por ejemplo, si desea crear un filtro para obtener tanto la palabra "mar" como "mal", escriba ma? .
+Siga uno de estos procedimientos:
+Use
+Para buscar
+? (signo de interrogación)
+Cualquier carácter
+Por ejemplo, Gr?cia buscará "Gracia" y "Grecia"
+* (asterisco)
+Cualquier número de caracteres
+Por ejemplo, *este buscará "Nordeste" y "Sudeste"
+~ (tilde)
+Un signo de interrogación o un asterisco
+Por ejemplo, hay~? busca "hay?".
+Quitar o volver a aplicar un filtro
+Realice una de las siguientes acciones:
+Para
+Haz esto
+Quitar criterios concretos de un filtro
+Seleccione la en una columna que incluya un filtro y, a continuación, seleccione Borrar filtro .
+Quitar todos los filtros aplicados a un rango o una tabla
+Seleccione las columnas del rango o tabla que tienen filtros aplicados y, a continuación, en la pestaña Datos , seleccione Filtro .
+Quitar o volver a aplicar flechas de filtro en un rango o una tabla
+Seleccione las columnas del rango o tabla que tienen filtros aplicados y, a continuación, en la pestaña Datos , seleccione Filtro .
+Más información sobre el filtrado
+Cuando filtra datos, solo aparecen los datos que cumplen con sus criterios. Los datos que no cumplen con esos criterios están ocultos. Después de filtrar los datos, puede copiarlos, buscarlos, editarlos, aplicarles formato, graficarlos e imprimirlos.
+Tabla con filtro de los 4 elementos principales aplicado
+Los filtros son aditivos. Esto significa que cada filtro adicional se basa en el filtro actual y reduce aún más el subconjunto de datos. Puede crear filtros complejos filtrando por más de un valor, más de un formato o más de un criterio. Por ejemplo, puede filtrar por todos los números mayores que 5 que también estén por debajo del promedio. Pero algunos filtros (diez superiores e inferiores, por encima y por debajo del promedio) se basan en el rango de celdas original. Por ejemplo, al filtrar los diez valores principales, obtendrá los diez valores principales de toda la lista, no los diez valores principales del subconjunto del último filtro.
+En Excel, puede crear tres tipos de filtros: por valores, por formato o por criterios. Pero cada uno de estos tipos de filtro es mutuamente excluyente. Por ejemplo, puede filtrar por color de celda o por una lista de números, pero no por ambos. Puede filtrar por icono o por un filtro personalizado, pero no por ambos.
+Los filtros ocultan los datos extraños. De esta manera, puede concentrarse en lo que desea ver. En cambio, al ordenar los datos, estos se reorganizan en un orden. Para obtener más información sobre cómo ordenar, vaya a Ordenar una lista de datos .
+Al aplicar el filtro, tenga en cuenta las siguientes directrices:
+Solo las primeras 10.000 entradas únicas de una lista aparecen en la ventana de filtro.
+Puede filtrar por más de una columna. Cuando se aplica un filtro a una columna, los únicos filtros disponibles para las demás columnas son los valores visibles del rango filtrado.
+Los filtros se pueden aplicar a un rango de celdas de una sola hoja cada vez.
+Nota
+Cuando se usa Buscar para buscar datos filtrados, solo se buscan los datos que se muestran; No se buscan datos que no se muestran. Para buscar todos los datos, borre todos los filtros.
+¿Necesitas más ayuda?
+Siempre puede preguntar a un experto en Excel Tech Community u obtener soporte técnico en Comunidades .

@@ -1,0 +1,28 @@
+Cambiar entre referencias relativas, absolutas y mixtas
+https://support.microsoft.com/es-es/office/cambiar-entre-referencias-relativas-absolutas-y-mixtas-dfec08cd-ae65-4f56-839e-5f0d8d0baca9
+Descargado: 2026-10-13
+
+Cambiar entre referencias relativas, absolutas y mixtas
+Se aplica a Excel para Microsoft 365 Excel 2024 Excel 2021 Excel 2019 Excel 2016 Aplicación web de Excel
+Obtener ayuda con Copilot
+Háblame sobre cambiar entre referencias relativas, absolutas y mixtas.
+Muéstrame cómo usar la función isformula.
+De forma predeterminada, una referencia de celda es una referencia relativa, lo que significa que la referencia es relativa a la ubicación de la celda. Si, por ejemplo, hace referencia a la celda A2 desde la celda C2, en realidad se refiere a una celda que se encuentra dos columnas a la izquierda (C menos A), en la misma fila (2). Al copiar una fórmula que contiene una referencia relativa a celda, esa referencia en la fórmula cambiará.
+Por ejemplo, si copia la fórmula =B4*C4 de la celda D4 a D5, la fórmula en D5 se ajusta a la derecha por una columna y se convierte en =B5*C5 . Si desea conservar la referencia de celda original de este ejemplo al copiarla, hará que la referencia de celda sea absoluta precediendo las columnas (B y C) y la fila (2) con un signo de dólar ( $ ). Entonces, al copiar la fórmula =$B 4 $ * $C 4 $ de D4 a D5, la fórmula permanece exactamente igual.
+Con menos frecuencia, es posible que desee mezclar referencias de celda absolutas y relativas precediendo el valor de la columna o la fila con un signo de dólar ($), lo que corrige la columna o la fila (por ejemplo, $B 4 o C$4).
+Para cambiar el tipo de referencia de celda:
+Seleccione la celda que contenga la fórmula.
+En la barra de fórmulas , seleccione la referencia que desea cambiar.
+Presione F4 para cambiar entre los tipos de referencia.
+En la tabla siguiente se resume cómo se actualiza un tipo de referencia si una fórmula que contiene la referencia se copia dos celdas hacia abajo y dos celdas hacia la derecha.
+Para una fórmula que se está copiando:
+Si la referencia es
+Cambia a:
+$A$1 (columna absoluta y fila absoluta)
+$A$1 (la referencia es absoluta)
+A$1 (columna relativa y fila absoluta)
+C$1 (la referencia es mixta)
+$A1 (columna mixta y fila relativa)
+$A3 (la referencia es mixta)
+A1 (columna relativa y fila relativa)
+C3 (la referencia es relativa)

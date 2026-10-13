@@ -1,0 +1,292 @@
+Control de cambios en Word
+https://support.microsoft.com/es-es/word/training/track-changes-in-word
+Descargado: 2026-10-13
+
+Realizar un seguimiento de los cambios en Word
+Se aplica a Word para Microsoft 365 Word 2024 Word 2021 Word 2019 Word 2016 Word para iPad Aplicación web de Word Word para iPhone
+Nota
+Si un documento se ha compartido con usted para su revisión, es posible que no pueda desactivar el Control de cambios. Si desea editar el documento sin realizar un seguimiento de los cambios, tendrá que guardar una copia o pedir a la persona que se la envió que la comparta de nuevo con el modo de revisión desactivado.
+Windows
+Web
+macOS
+Office para iOS
+Activar y desactivar el control de cambios
+En la pestaña Revisar , seleccione Seguimiento de > cambios .
+Cuando se activa Control de cambios, se resalta la sección. Las eliminaciones se marcan con un tachado y las adiciones se marcan con un subrayado. Se indican los cambios de los distintos autores con diferentes colores.
+Si Control de cambios está desactivado, la sección no se resalta. Word deja de marcar cambios, pero los subrayados y tachados coloreados siguen apareciendo en el documento.
+Recomendación
+También puede agregar un indicador de control de cambios a la barra de estado. Haga clic con el botón derecho en la barra de estado y seleccione Control de cambios .
+Ver las marcas de revisión
+Nota
+Cuando un documento está en modo de edición o revisión, puedes seleccionar una marca de revisión para ver el cambio completo sugerido por un colaborador en una tarjeta que se muestra. Mantenga el puntero sobre el botón Aceptar o Rechazar para ver una vista previa de lo que esa acción haría con el documento final.
+Elija los cambios de los que realizar un seguimiento
+Puede elegir realizar un seguimiento solo de sus propios cambios o de los cambios de todos.
+Para realizar un seguimiento de los cambios de todos: en la pestaña Revisar , seleccione Seguimiento de > cambios > para todos .
+Para realizar un seguimiento solo de sus propios cambios: en la pestaña Revisar , seleccione Seguimiento de > cambios > Solo míos .
+Recomendación
+para usar una contraseña para evitar que otros usuarios desactiven Control de cambios: en la pestaña Revisar , seleccione Seguimiento > Control de cambios > Bloquear seguimiento .
+Elija cómo quiere mostrar los cambios en el documento
+Puede elegir el tipo de margen de beneficio que quiera.
+En el grupo Marcado , seleccione Todo el marcado en la lista desplegable.
+Seleccione una de las opciones:
+Revisión simple muestra las marcas de revisión con una línea roja en el margen.
+Todas las marcas muestran marcas de revisión con diferentes colores de texto y líneas para cada revisor.
+Sin marcado oculta el marcado para mostrar el documento con los cambios incorporados.
+El original muestra el documento original sin marcas de revisión de cambios ni comentarios. Sin embargo, las marcas de revisión o comentarios del documento que no se han aceptado, rechazado o eliminado permanecen en él.
+Elija la forma en que se muestra el control de cambios
+Puede elegir los tipos de revisiones que se muestran y la manera en que se muestran. Si elige mostrar las revisiones como globos, se mostrarán en los márgenes del documento. Si decide mostrarlas directamente dentro del documento en línea, las revisiones en línea muestran todas las eliminaciones tachadas en lugar de dentro de globos.
+En la pestaña Revisar , en el grupo Marcado , seleccione Mostrar marcado .
+Seleccione Globos y, a continuación, seleccione el tipo de pantalla que desee.
+Mostrar revisiones en globos
+Mostrar todas las revisiones en línea
+Mostrar solo formato en globos
+Nota
+Si desea ver las marcas de revisión en globos, debe estar en la vista Diseño de impresión o Diseño web.
+Mostrar cambios por tipo de edición
+En la pestaña Revisar , en el grupo Marcado , seleccione Mostrar marcado .
+Seleccione el tipo de edición.
+Inserciones y eliminaciones
+Formato
+La marca de verificación situada junto al elemento indica que está seleccionado.
+Nota
+Incluso si oculta un tipo de revisión desactivándola en el menú Mostrar revisión , la revisión se muestra automáticamente cada vez que usted o un revisor abra el documento.
+Mostrar los cambios realizados por revisores
+En la pestaña Revisar , en el grupo Marcado , seleccione Mostrar marcado .
+Seleccione específicos People .
+Active esta casilla para desactivar todas las casillas excepto las próximas a los nombres de los revisores cuyos cambios desea mostrar.
+Nota
+Para activar o desactivar todas las casillas de la lista para todos los revisores, seleccione Todos los revisores .
+Navegar por el control de cambios en la sección del menú Cambios
+Puede desplazarse de un cambio de revisión a otro.
+En la pestaña Revisar , seleccione Seguimiento y haga clic en Siguiente para ver el siguiente cambio de revisión.
+En la pestaña Revisar , selecciona Seguimiento y después selecciona Anterior para ver el cambio anterior.
+Aceptar o rechazar marcas de revisión
+Hay varias formas de solucionar el seguimiento de cambios. El método más competente es identificar al comentarista y responder al seguimiento de cambios es a través de la visualización de la tarjeta al hacer clic en el cambio marcado. La tarjeta muestra el nombre del comentarista y la opción para aceptar o rechazar la sugerencia.
+Aceptar o rechazar marcas de revisión en secuencia mediante el menú principal
+Puede resolver el aprendizaje de cambios desde el principio del documento hasta el final del documento en secuencia.
+En la pestaña Revisar , seleccione Seguimiento y, a continuación, seleccione Siguiente .
+Seleccione Aceptar o Rechazar . El siguiente cambio secuencial se resalta para su revisión y acción.
+Nota
+También puedes aceptar o rechazar marcas de revisión individuales mediante los menús desplegables de los menús principales. Este método se suele usar como un enfoque metódico para revisar el seguimiento de cambios.
+Aceptar cambios mediante el menú principal
+En la pestaña Revisar , seleccione Seguimiento y, a continuación, seleccione Aceptar .
+Seleccione una de las opciones:
+Aceptar y pasar al siguiente .
+Acepte este cambio .
+Aceptar todos los cambios que se muestran .
+Acepta todos los cambios .
+Acepte todos los cambios y deje de realizar el seguimiento .
+Rechazar cambios mediante el menú principal
+En la pestaña Revisar , seleccione Seguimiento y, a continuación, seleccione Rechazar .
+Seleccione una de las opciones:
+Rechazar y pasar al siguiente .
+Rechazar el cambio .
+Rechazar todos los cambios mostrados .
+Rechazar todos los cambios .
+Rechazar todos los cambios y detener el seguimiento
+Aceptar o rechazar cambios dentro de un documento con un clic derecho
+Al trabajar en un documento, puedes hacer clic con el botón derecho en una marca de revisión para aceptar o rechazar el cambio. Al hacer clic con el botón derecho, se muestra una opción de menú banner y una opción de menú desplegable.
+Aceptar los cambios en línea con la opción de banner del botón derecho
+Haga clic con el botón derecho en una marca de revisión en el documento para revisar una única sugerencia.
+En el banner, seleccione una de las opciones siguientes:
+Aceptar > Acepta y ve al siguiente .
+Aceptar > Acepte este cambio .
+Aceptar > Aceptar todos los cambios que se muestran .
+Aceptar > Acepta todos los cambios .
+Aceptar > Acepte todos los cambios y deje de realizar el seguimiento .
+Aceptar cambios en línea con la opción de menú desplegable del botón derecho
+Haga clic con el botón derecho en una marca de revisión en el documento para revisar una única sugerencia.
+En el menú desplegable, selecciona una de las opciones siguientes:
+Aceptar inserción (o aceptar eliminación )
+Rechazar inserción (o rechazar eliminación )
+Aceptar o rechazar todas las marcas de revisión a la vez en el menú principal
+Aceptar todas las marcas de revisión
+En la pestaña Revisar , seleccione Seguimiento y, a continuación, seleccione Aceptar .
+Seleccione una de las opciones:
+Aceptar todos los cambios mostrados
+Aceptar todos los cambios
+Aceptar todos los cambios y dejar de realizar un seguimiento
+Rechazar todas las marcas de revisión
+En la pestaña Revisar , seleccione Seguimiento y, a continuación, seleccione Rechazar .
+Seleccione una de las opciones:
+Rechazar todos los cambios mostrados
+Rechazar todos los cambios
+Rechazar todos los cambios y detener el seguimiento
+Nota
+Cuando se selecciona Specific PeopleAll > Reviewers , no se muestran las opciones Aceptar todos los cambios mostrados y Rechazar todos los cambios mostrados .
+Ocultar marcas de revisión y comentarios al imprimir
+Ocultar los cambios no los quita del documento. Debe utilizar los comandos Aceptar y Rechazar en el grupo Cambios para quitar la marcación del documento.
+Vaya a Configuración > de impresión de > archivos > Imprimir todas las páginas .
+En Información del documento , seleccione Imprimir marcas para desactivar la marca de verificación.
+Ver todos los cambios en una lista de resumen en el panel Revisión
+Nota
+El Panel de revisión, a diferencia del documento o los globos de comentarios, no es la mejor herramienta para realizar cambios en el documento. En lugar de eliminar texto, comentarios o realizar otros cambios en el panel de revisiones, haga todos los cambios de edición en el documento. Los cambios estarán visibles en el panel de revisiones.
+En la pestaña Revisar , seleccione Panel de revisión .
+Elija si desea que se muestre el Panel de revisión al lado o debajo del documento.
+Seleccione Panel de revisión vertical para mostrar una lista de todos los cambios junto al documento.
+Seleccione Panel de revisión horizontal para mostrar una lista de todos los cambios debajo del documento.
+Puede usar el panel Revisión como una herramienta útil para comprobar que se han quitado todas las marcas de revisión del documento para que se muestren a otras personas que puedan ver el documento. La sección de resumen en la parte superior del panel de revisiones muestra el número exacto de marcas de revisión y comentarios visibles que permanecen en el documento.
+El panel Revisión también le permite revisar comentarios largos que no caben dentro de una burbuja de comentarios.
+Importante
+Los comentarios ya no forman parte de la función Control de cambios.
+Activar Control de cambios
+Puede establecer que Word para la Web realice un seguimiento de los cambios de todos los usuarios que colaboran en el documento o para que realice un seguimiento solo de los cambios.
+En la pestaña Revisar , seleccione Seguimiento de cambios .
+En la lista desplegable Control de cambios , seleccione una de las opciones siguientes:
+Para realizar un seguimiento de los cambios realizados por todos los usuarios en el documento, seleccione Para todos .
+Para realizar un seguimiento solo de los cambios que realice en el documento, seleccione Solo míos .
+Desactivar Control de cambios
+En la pestaña Revisar , seleccione Seguimiento de cambios .
+En la lista desplegable Control de cambios , seleccione Desactivado .
+Seleccione la vista Marcas
+En la pestaña Revisar , seleccione Vista de marcado .
+Seleccione una de las opciones de marcado en la lista desplegable.
+Marcado simple: consulte las sugerencias en el margen.
+Todo el marcado - Vea las sugerencias en la página.
+Revisar, aceptar o rechazar cambios
+Aceptar o rechazar marcas de revisión en secuencia
+Puede revisar cada cambio en secuencia y decidir si desea aceptar o rechazar el cambio.
+Ir al principio del documento.
+En la pestaña Revisar , seleccione Control de cambios y haga clic en Aceptar o rechazar . A medida que acepta o rechaza cambios, Word pasa al siguiente cambio.
+Recomendación
+Para desplazarse por los cambios del documento sin aceptarlos ni rechazarlos, seleccione Siguiente o Anterior .
+Repita hasta que haya revisado todos los cambios en el documento.
+Aceptar o rechazar un único cambio
+En lugar de desplazarse por los cambios en secuencia, puede aceptar o rechazar un único cambio. Cuando acepte o rechace el cambio, Word no pasará al siguiente cambio en el documento.
+Seleccione el cambio.
+Seleccione la opción para aceptarla o rechazarla.
+Comenzar de forma gratuita con Word para la Web .
+Cuando se activa el control de cambios, Word marca los cambios realizados por los autores del documento. Esto es útil cuando colabora con otros autores, ya que puede ver qué autores realizaron un cambio concreto.
+Activar el control de cambios
+En la pestaña Revisar , seleccione Seguimiento de cambios .
+Seleccione esta opción para realizar un seguimiento solo de sus propios cambios o de los cambios de todos.
+Para realizar un seguimiento de los cambios de todos: en la pestaña Revisar , seleccione Control de cambios > para todos .
+Para realizar un seguimiento solo de sus propios cambios: en la pestaña Revisar , seleccione Control de cambios > solo míos .
+Nota
+Para desactivar Control de cambios, seleccione Control de cambios de nuevo.
+Aceptar o rechazar todas las marcas de revisión a la vez en el menú principal
+Aceptar todas las marcas de revisión
+Selecciona Revisar > y aceptar .
+Seleccione una de las opciones:
+AceptarTodos los cambios mostrados
+Aceptar todos los cambios
+Aceptar todos los cambios y dejar de realizar un seguimiento
+Rechazar todas las marcas de revisión
+Selecciona Rechazar en revisión >.
+Seleccione una de las opciones:
+RechazarTodos los cambios mostrados
+Rechazar todos los cambios
+Rechazar todos los cambios y detener el seguimiento
+Word muestra los cambios en el documento mostrando una línea en el margen. Si cambia a la vista Todas las revisiones , verá los cambios en línea o en globos.
+Cada vez que alguien agregue un comentario, aparecerá en un globo.
+Revisar cambios en línea
+Para mostrar los cambios en línea en lugar de en globos, haga lo siguiente:
+En la pestaña Revisar , seleccione Opciones de marcado
+Apunte a Globos y seleccione Mostrar todas las revisiones en línea .
+Mantener activado el control de cambios
+Para impedir que otros usuarios desactiven Control de cambios, bloquee Control de cambios con una contraseña.
+Importante
+Asegúrese de recordar la contraseña para poder desactivar Control de cambios cuando esté listo para aceptar o rechazar los cambios.
+Bloquear el control de cambios con una contraseña
+En la pestaña Revisar , seleccione Proteger > Proteger documento .
+En el cuadro Contraseña , escriba una contraseña.
+Vuelva a escribir la contraseña y seleccione Aceptar .
+Mientras se bloquea el control de cambios, no se puede desactivar el seguimiento de cambios y no se pueden aceptar o rechazar cambios.
+Desbloquear el control de cambios
+En la pestaña Revisar , seleccione Proteger > Proteger documento .
+En Protección , desactive Proteger documento para .
+Escriba su contraseña y seleccione Aceptar .
+Artículo relacionado
+Aceptar o rechazar marcas de revisión en Word
+Control de cambios en Word para iPad
+Activar o desactivar Control de cambios
+Pulse la pestaña Revisar .
+Pulse el botón Control de cambios y opciones de marcado .
+Toca Control de cambios y, a continuación, elige Para todos o Solo los míos .
+Mostrar u ocultar las marcas
+En la pestaña Revisar , pulse el botón Control de cambios y opciones de marcado .
+En la lista, pulse la opción que desee.
+Mostrar control de cambios por tipo
+En la pestaña Revisar , pulse el botón Control de cambios y opciones de marcado .
+Pulse Mostrar marcado .
+En la lista Mostrar marcas , pulse la opción que quiera:
+La entrada de lápiz muestra u oculta las marcas realizadas por la entrada manuscrita digital en el documento.
+Inserciones & Eliminaciones : muestra u oculta texto insertado o eliminado.
+El formato muestra u oculta los cambios de formato.
+Mostrar revisiones en globos muestra los cambios en los globos en el margen derecho.
+Mostrar solo formato en globos muestra solo los cambios de formato en globos y mantiene los demás cambios como seguimiento en línea.
+Mostrar el control de cambios realizado por el revisor
+Si hay varios revisores para el documento, Word mostrará todos los cambios de forma predeterminada. Sin embargo, puedes elegir mostrar solo los cambios realizados por espectadores específicos.
+En la pestaña Revisar , botón Control de cambios y opciones de marcado .
+Pulse Mostrar marcado .
+En la lista Mostrar marcas , pulse Revisores .
+En la lista Otros autores , pulse los nombres de los revisores cuyos cambios desee ver o pulse Todos los revisores .
+Aceptar los cambios
+Pulse dos veces en un cambio del documento para seleccionarlo.
+En la pestaña Revisar , pulse el botón Cambios y, a continuación, pulse Aceptar .
+Siga uno de estos procedimientos:
+Pulse Aceptar & Ir al siguiente para aceptar el cambio y pasar al siguiente cambio en el documento.
+Pulse Aceptar eliminación , Aceptar inserción o Aceptar cambio para aceptar el cambio seleccionado, identificado contextualmente por tipo, y no pasar al siguiente cambio en el documento.
+Toca Aceptar todo Mostrado para aceptar todos los cambios que son visibles pero no los cambios que están ocultos. Por ejemplo, si está viendo solo los cambios realizados por un revisor específico, al pulsar Aceptar todo lo mostrado solo acepta los cambios realizados por ese revisor.
+Pulse Aceptar todo para aceptar todos los cambios del documento.
+Pulse Aceptar todo & Detener seguimiento para aceptar todos los cambios en el documento y desactivar Control de cambios.
+Para pasar a otro cambio sin aceptarlo o rechazarlo, pulse el icono Anterior o Siguiente .
+Rechazar cambios
+Pulse dos veces en un cambio del documento para seleccionarlo.
+En la pestaña Revisar , pulse el botón Cambios y, a continuación, pulse Rechazar .
+Siga uno de estos procedimientos:
+Pulse Rechazar & Ir al siguiente para rechazar el cambio y pasar al siguiente cambio en el documento.
+Pulse Rechazar eliminación , Rechazar inserción o Rechazar cambio para rechazar el cambio seleccionado, identificado contextualmente por tipo, y no pasar al siguiente cambio en el documento.
+Pulse Rechazar todo mostrado para rechazar todos los cambios que son visibles pero no los cambios que están ocultos. Por ejemplo, si está viendo solo los cambios realizados por un revisor específico, al pulsar Rechazar todo lo mostrado , solo se rechazan los cambios realizados por ese revisor.
+Pulse Rechazar todo para rechazar todos los cambios del documento.
+Pulse Rechaza todo & Detener seguimiento para rechazar todos los cambios en el documento y desactivar Control de cambios.
+Para pasar a otro cambio sin aceptarlo o rechazarlo, pulse el icono Anterior o Siguiente .
+Eliminar comentarios
+Pulse dos veces en un comentario del documento para seleccionarlo.
+Pulse la pestaña Revisar .
+Toque el comentario, toque los puntos suspensivos ... y, a continuación, toque Eliminar hilo .
+Control de cambios en Word para iPhone
+Activar o desactivar Control de cambios
+Pulse el botón de edición icono de para abrir la cinta de opciones.
+Toca Inicio y, a continuación, toca Revisar .
+Desplázate hasta Control de cambios y luego activa o desactiva el conmutador.
+Mostrar u ocultar las marcas
+En la pestaña Revisar , pulse Mostrar para revisión .
+Pulse en la opción que quiera:
+Todo el marcado (en línea) muestra el documento final con el control de cambios visible en línea
+Sin marcas muestra el documento final sin cambios de seguimiento
+Original muestra el documento original sin marcas de revisión
+Mostrar control de cambios por tipo
+En la pestaña Revisar , pulse Mostrar para revisión .
+Pulse Mostrar marcado .
+En la lista Mostrar marcas , pulse la opción que quiera:
+La entrada de lápiz muestra u oculta las marcas realizadas por la entrada manuscrita digital en el documento.
+Inserciones & Eliminaciones : muestra u oculta texto insertado o eliminado.
+El formato muestra u oculta los cambios de formato.
+Mostrar el control de cambios realizado por el revisor
+Si hay varios revisores para el documento, Word mostrará todos los cambios de forma predeterminada. Sin embargo, puedes elegir mostrar solo los cambios realizados por espectadores específicos.
+En la pestaña Revisar , pulse Mostrar para revisión .
+Pulse Mostrar marcado .
+Pulse Revisores .
+En la lista Otros autores , pulse los nombres de los revisores cuyos cambios desee ver o pulse Todos los revisores .
+Aceptar los cambios
+Pulse dos veces en un cambio del documento para seleccionarlo.
+En la pestaña Revisar , pulse Aceptar .
+Siga uno de estos procedimientos:
+Pulse Aceptar & Ir al siguiente para aceptar el cambio y pasar al siguiente cambio en el documento.
+Pulse Aceptar eliminación , Aceptar inserción o Aceptar cambio para aceptar el cambio seleccionado, identificado contextualmente por tipo, y no pasar al siguiente cambio en el documento.
+Toca Aceptar todo Mostrado para aceptar todos los cambios que son visibles pero no los cambios que están ocultos. Por ejemplo, si está viendo solo los cambios realizados por un revisor específico, al pulsar Aceptar todo lo mostrado solo acepta los cambios realizados por ese revisor.
+Pulse Aceptar todo para aceptar todos los cambios del documento.
+Pulse Aceptar todo & Detener seguimiento para aceptar todos los cambios en el documento y desactivar Control de cambios.
+Rechazar cambios
+Pulse dos veces en un cambio del documento para seleccionarlo.
+En la pestaña Revisar , pulse Rechazar .
+Siga uno de estos procedimientos:
+Pulse Rechazar & Ir al siguiente para rechazar el cambio y pasar al siguiente cambio en el documento.
+Pulse Rechazar eliminación , Rechazar inserción o Rechazar cambio para rechazar el cambio seleccionado, identificado contextualmente por tipo, y no pasar al siguiente cambio en el documento.
+Pulse Rechazar todo mostrado para rechazar todos los cambios que son visibles pero no los cambios que están ocultos. Por ejemplo, si está viendo solo los cambios realizados por un revisor específico, al pulsar Rechazar todo lo mostrado , solo se rechazan los cambios realizados por ese revisor.
+Pulse Rechazar todo para rechazar todos los cambios del documento.
+Pulse Rechazar todo & Detener seguimiento para rechazar todos los cambios en el documento y desactivar Control de cambios.
+Eliminar comentarios
+Pulse dos veces en un comentario del documento para seleccionarlo.
+Toque el comentario, toque los puntos suspensivos ... y, a continuación, toque Eliminar hilo .

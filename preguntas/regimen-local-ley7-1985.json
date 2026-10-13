@@ -1,0 +1,605 @@
+{
+  "descripcion": "Ley 7/1985, Reguladora de las Bases del Régimen Local: entidades locales, municipio, padrón, organización municipal, competencias, provincia y municipios de gran población. Lote generado el 2026-10-13 contra el texto consolidado del BOE (versión 2026-10-05).",
+  "preguntas": [
+    {
+      "id": "loc-001",
+      "ley": "ley-7-1985",
+      "articulo": "3.1",
+      "enunciado": "Según la Ley 7/1985, son Entidades Locales territoriales:",
+      "opciones": [
+        "El Municipio, la Provincia y la Isla en los archipiélagos balear y canario",
+        "El Municipio, la Provincia y la Comarca",
+        "El Municipio, la Provincia y el Área Metropolitana",
+        "El Municipio, la Comarca y la Mancomunidad de Municipios"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 3.1 enumera como Entidades Locales territoriales el Municipio, la Provincia y «La Isla en los archipiélagos balear y canario».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-002",
+      "ley": "ley-7-1985",
+      "articulo": "3.2",
+      "enunciado": "¿Cuál de estas entidades goza de la condición de Entidad Local sin ser entidad local territorial?",
+      "opciones": [
+        "La Isla en el archipiélago canario",
+        "La Provincia",
+        "El Municipio",
+        "Las Áreas Metropolitanas"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 3.2 dice: «Gozan, asimismo, de la condición de Entidades Locales: […] b) Las Áreas Metropolitanas.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-003",
+      "ley": "ley-7-1985",
+      "articulo": "11.1",
+      "enunciado": "Según el artículo 11 de la Ley 7/1985, el Municipio es:",
+      "opciones": [
+        "La entidad local intermedia entre la Provincia y la Comunidad",
+        "La entidad local básica de la organización territorial del Estado",
+        "La agrupación de núcleos de población con autonomía financiera",
+        "El órgano de gobierno y administración del término municipal"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 11.1 dice: «El Municipio es la entidad local básica de la organización territorial del Estado.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-004",
+      "ley": "ley-7-1985",
+      "articulo": "13.2",
+      "enunciado": "La creación de nuevos municipios solo puede hacerse sobre núcleos de población territorialmente diferenciados de al menos:",
+      "opciones": [
+        "5.000 habitantes",
+        "2.000 habitantes",
+        "4.000 habitantes",
+        "1.000 habitantes"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 13.2 exige «núcleos de población territorialmente diferenciados, de al menos 4.000 habitantes».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-005",
+      "ley": "ley-7-1985",
+      "articulo": "15",
+      "enunciado": "Quien viva en varios municipios deberá inscribirse en el Padrón:",
+      "opciones": [
+        "De todos los municipios en los que resida",
+        "Del municipio en el que tenga su domicilio fiscal",
+        "Del municipio que elija libremente",
+        "Únicamente del que habite durante más tiempo al año"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 15 dice: «Quien viva en varios municipios deberá inscribirse únicamente en el que habite durante más tiempo al año.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-006",
+      "ley": "ley-7-1985",
+      "articulo": "15",
+      "enunciado": "La condición de vecino se adquiere:",
+      "opciones": [
+        "En el mismo momento de la inscripción en el Padrón",
+        "Tras un año de residencia en el municipio",
+        "Cuando el Pleno acepte la solicitud de alta",
+        "A los seis meses de la inscripción en el Padrón"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 15 dice: «La condición de vecino se adquiere en el mismo momento de su inscripción en el Padrón.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-007",
+      "ley": "ley-7-1985",
+      "articulo": "16.1",
+      "enunciado": "La inscripción en el Padrón de extranjeros no comunitarios sin autorización de residencia de larga duración debe renovarse:",
+      "opciones": [
+        "Cada año",
+        "Cada dos años",
+        "Cada cinco años",
+        "Cada tres años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 16.1 dice que la inscripción «deberá ser objeto de renovación periódica cada dos años cuando se trate de la inscripción de extranjeros sin autorización de residencia de larga duración […]».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-008",
+      "ley": "ley-7-1985",
+      "articulo": "16.1",
+      "enunciado": "Las certificaciones de los datos del Padrón municipal tienen carácter de:",
+      "opciones": [
+        "Documento privado con valor probatorio limitado",
+        "Documento público solo a efectos electorales",
+        "Documento público y fehaciente para todos los efectos administrativos",
+        "Mera prueba indiciaria del domicilio habitual"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 16.1 dice: «Las certificaciones que de dichos datos se expidan tendrán carácter de documento público y fehaciente para todos los efectos administrativos.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-009",
+      "ley": "ley-7-1985",
+      "articulo": "16.2",
+      "enunciado": "¿Cuál de estos datos se aporta de forma voluntaria al inscribirse en el Padrón municipal?",
+      "opciones": [
+        "La nacionalidad",
+        "El lugar y fecha de nacimiento",
+        "El certificado o título escolar o académico",
+        "El número de teléfono de contacto"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 16.2, la inscripción «podrá recoger la aportación voluntaria de los datos relativos a la designación de las personas que pueden representar a cada vecino […], el número de teléfono de contacto y la dirección de correo electrónico».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-010",
+      "ley": "ley-7-1985",
+      "articulo": "17.1",
+      "enunciado": "La formación, mantenimiento, revisión y custodia del Padrón municipal corresponde:",
+      "opciones": [
+        "Al Ayuntamiento",
+        "Al Instituto Nacional de Estadística",
+        "A la Diputación Provincial",
+        "A la Comunidad Autónoma"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 17.1 dice: «La formación, mantenimiento, revisión y custodia del Padrón municipal corresponde al Ayuntamiento, de acuerdo con lo que establezca la legislación del Estado.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-011",
+      "ley": "ley-7-1985",
+      "articulo": "17.3",
+      "enunciado": "Las discrepancias en materia de empadronamiento entre Ayuntamientos las resuelve:",
+      "opciones": [
+        "El Consejo de Empadronamiento, en Pleno",
+        "La persona que ejerza la Presidencia del Instituto Nacional de Estadística",
+        "La Diputación Provincial correspondiente",
+        "La Sección Provincial del Consejo de Empadronamiento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 17.3 dice: «Corresponderá a la persona que ejerza la Presidencia del Instituto Nacional de Estadística la resolución de las discrepancias que, en materia de empadronamiento, surjan entre los Ayuntamientos […]».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-012",
+      "ley": "ley-7-1985",
+      "articulo": "18.1.e",
+      "enunciado": "Los vecinos tienen derecho a ser informados sobre los expedientes y la documentación municipal:",
+      "opciones": [
+        "Previa petición razonada",
+        "Sin necesidad de petición previa",
+        "Solo si acreditan un interés legítimo",
+        "Previo pago de la tasa correspondiente"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 18.1.e) reconoce el derecho a «Ser informado, previa petición razonada, y dirigir solicitudes a la Administración municipal […]».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-013",
+      "ley": "ley-7-1985",
+      "articulo": "18.2",
+      "enunciado": "Según la Ley 7/1985, la inscripción de los extranjeros en el padrón municipal:",
+      "opciones": [
+        "Acredita su residencia legal en España",
+        "No constituye prueba de su residencia legal en España",
+        "Les atribuye la condición de electores municipales",
+        "Sustituye a la autorización de residencia"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 18.2 dice: «La inscripción de los extranjeros en el padrón municipal no constituirá prueba de su residencia legal en España […]».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-014",
+      "ley": "ley-7-1985",
+      "articulo": "20.1.a",
+      "enunciado": "¿Qué órganos existen en todos los ayuntamientos?",
+      "opciones": [
+        "El Alcalde, el Pleno y la Junta de Gobierno Local",
+        "El Alcalde, el Pleno y la Comisión de Sugerencias",
+        "El Alcalde, los Tenientes de Alcalde y el Pleno",
+        "El Pleno, la Junta de Gobierno Local y los Concejales delegados"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 20.1.a) dice: «El Alcalde, los Tenientes de Alcalde y el Pleno existen en todos los ayuntamientos.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-015",
+      "ley": "ley-7-1985",
+      "articulo": "20.1.b",
+      "enunciado": "La Junta de Gobierno Local existe en todo caso en los municipios con población superior a:",
+      "opciones": [
+        "20.000 habitantes",
+        "50.000 habitantes",
+        "2.000 habitantes",
+        "5.000 habitantes"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 20.1.b) dice: «La Junta de Gobierno Local existe en todos los municipios con población superior a 5.000 habitantes […]».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-016",
+      "ley": "ley-7-1985",
+      "articulo": "21.1.i",
+      "enunciado": "¿A quién corresponde ejercer la jefatura de la Policía Municipal?",
+      "opciones": [
+        "Al Pleno",
+        "Al Alcalde",
+        "A la Junta de Gobierno Local",
+        "Al primer Teniente de Alcalde"
+      ],
+      "correcta": 1,
+      "explicacion": "Entre las atribuciones del Alcalde, el artículo 21.1.i) incluye «Ejercer la jefatura de la Policía Municipal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-017",
+      "ley": "ley-7-1985",
+      "articulo": "21.3",
+      "enunciado": "¿Cuál de estas atribuciones del Alcalde no puede delegar?",
+      "opciones": [
+        "El otorgamiento de las licencias",
+        "Aprobar la oferta de empleo público",
+        "Dictar bandos",
+        "Sancionar las faltas por infracción de las ordenanzas"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 21.3 excluye de la delegación, entre otras, «las enunciadas en los párrafos a), e), j), k), l) y m) del apartado 1», y el párrafo e) es «Dictar bandos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-018",
+      "ley": "ley-7-1985",
+      "articulo": "22.4",
+      "enunciado": "¿Cuál de estas atribuciones del Pleno municipal puede delegarse en el Alcalde o en la Junta de Gobierno Local?",
+      "opciones": [
+        "La aprobación del reglamento orgánico y de las ordenanzas",
+        "La aprobación de la plantilla de personal",
+        "El control y la fiscalización de los órganos de gobierno",
+        "La declaración de lesividad de los actos del Ayuntamiento"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 22.4 permite delegar «salvo las enunciadas en el apartado 2, párrafos a), b), c), d), e), f), g), h), i), l) y p)»; la declaración de lesividad es el párrafo k), por lo que es delegable.",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-019",
+      "ley": "ley-7-1985",
+      "articulo": "23.1",
+      "enunciado": "La Junta de Gobierno Local la integran el Alcalde y un número de Concejales no superior:",
+      "opciones": [
+        "Al tercio del número legal de los mismos",
+        "A la mitad del número legal de los mismos",
+        "A la cuarta parte del número legal de los mismos",
+        "A los dos tercios del número legal de los mismos"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 23.1 dice que la integran «el Alcalde y un número de Concejales no superior al tercio del número legal de los mismos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-020",
+      "ley": "ley-7-1985",
+      "articulo": "23.3",
+      "enunciado": "Los Tenientes de Alcalde son designados libremente por el Alcalde de entre:",
+      "opciones": [
+        "Los Concejales del grupo político con más votos",
+        "Los miembros de la Junta de Gobierno Local o, si no existe, los Concejales",
+        "Los vecinos inscritos en el Padrón municipal",
+        "Los miembros de la Comisión Especial de Cuentas"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 23.3 dice que son «libremente designados y removidos por éste de entre los miembros de la Junta de Gobierno Local y, donde ésta no exista, de entre los Concejales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-021",
+      "ley": "ley-7-1985",
+      "articulo": "25.2",
+      "enunciado": "¿Cuál de estas materias es competencia propia del Municipio según el artículo 25.2?",
+      "opciones": [
+        "Inspección y sanción de establecimientos comerciales",
+        "Liquidación de tributos propios de la Comunidad Autónoma",
+        "Cementerios y actividades funerarias",
+        "Protección del medio natural"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 25.2.k) incluye entre las competencias propias «Cementerios y actividades funerarias».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-022",
+      "ley": "ley-7-1985",
+      "articulo": "26.1.a",
+      "enunciado": "¿Cuál de estos servicios deben prestar todos los Municipios?",
+      "opciones": [
+        "Biblioteca pública",
+        "Parque público",
+        "Alcantarillado",
+        "Protección civil"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 26.1.a) obliga «En todos los Municipios: alumbrado público, cementerio, recogida de residuos, limpieza viaria, abastecimiento domiciliario de agua potable, alcantarillado […]».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-023",
+      "ley": "ley-7-1985",
+      "articulo": "26.1.b",
+      "enunciado": "La biblioteca pública es un servicio obligatorio en los Municipios con población superior a:",
+      "opciones": [
+        "5.000 habitantes",
+        "1.000 habitantes",
+        "20.000 habitantes",
+        "50.000 habitantes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 26.1.b) dice: «En los Municipios con población superior a 5.000 habitantes, además: parque público, biblioteca pública y tratamiento de residuos.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-024",
+      "ley": "ley-7-1985",
+      "articulo": "26.1.d",
+      "enunciado": "El transporte colectivo urbano de viajeros es obligatorio en los Municipios con población superior a:",
+      "opciones": [
+        "20.000 habitantes",
+        "50.000 habitantes",
+        "75.000 habitantes",
+        "100.000 habitantes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 26.1.d) dice: «En los Municipios con población superior a 50.000 habitantes, además: transporte colectivo urbano de viajeros y medio ambiente urbano.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-025",
+      "ley": "ley-7-1985",
+      "articulo": "27.1",
+      "enunciado": "La duración de la delegación de competencias del Estado o de las Comunidades Autónomas en los Municipios no podrá ser inferior a:",
+      "opciones": [
+        "Dos años",
+        "Cuatro años",
+        "Cinco años",
+        "Diez años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 27.1 dice que la delegación debe determinar su duración, «que no podrá ser inferior a cinco años».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-026",
+      "ley": "ley-7-1985",
+      "articulo": "32.1",
+      "enunciado": "¿Qué órganos existen en todas las Diputaciones?",
+      "opciones": [
+        "El Presidente, el Pleno y la Comisión Especial de Cuentas",
+        "El Presidente, el Pleno y la Comisión de Sugerencias",
+        "El Presidente, la Junta de Gobierno y el Consejo Provincial",
+        "El Presidente, los Vicepresidentes, la Junta de Gobierno y el Pleno"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 32.1 dice: «El Presidente, los Vicepresidentes, la Junta de Gobierno y el Pleno existen en todas las Diputaciones.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-027",
+      "ley": "ley-7-1985",
+      "articulo": "36.1.b",
+      "enunciado": "La Diputación garantiza la prestación de los servicios de secretaría e intervención en los municipios de menos de:",
+      "opciones": [
+        "1.000 habitantes",
+        "5.000 habitantes",
+        "2.000 habitantes",
+        "20.000 habitantes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 36.1.b) dice: «En todo caso garantizará en los municipios de menos de 1.000 habitantes la prestación de los servicios de secretaría e intervención.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-028",
+      "ley": "ley-7-1985",
+      "articulo": "36.2.a",
+      "enunciado": "¿Con qué periodicidad aprueba la Diputación el plan provincial de cooperación a las obras y servicios de competencia municipal?",
+      "opciones": [
+        "Cada dos años",
+        "Anualmente",
+        "Cada cuatro años, al inicio del mandato",
+        "Cada cinco años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 36.2.a) dice que la Diputación «Aprueba anualmente un plan provincial de cooperación a las obras y servicios de competencia municipal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-029",
+      "ley": "ley-7-1985",
+      "articulo": "121.1.a",
+      "enunciado": "El régimen de los municipios de gran población se aplica, sin más requisitos, a los municipios cuya población supere:",
+      "opciones": [
+        "250.000 habitantes",
+        "175.000 habitantes",
+        "75.000 habitantes",
+        "500.000 habitantes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 121.1.a) lo aplica «A los municipios cuya población supere los 250.000 habitantes.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "loc-030",
+      "ley": "ley-7-1985",
+      "articulo": "121.2",
+      "enunciado": "Cuando un municipio alcanza la población del régimen de gran población, la nueva corporación debe adaptar su organización en un plazo máximo de:",
+      "opciones": [
+        "Tres meses desde su constitución",
+        "Un año desde su constitución",
+        "Seis meses desde la publicación del padrón",
+        "Seis meses desde su constitución"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 121.2 dice que «la nueva corporación dispondrá de un plazo máximo de seis meses desde su constitución para adaptar su organización».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    }
+  ]
+}

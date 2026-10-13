@@ -1,0 +1,71 @@
+Función BUSCARX
+https://support.microsoft.com/es-es/office/funci%C3%B3n-buscarx-b7fd680e-6d10-43e6-84f9-88eae8bf5929
+Descargado: 2026-10-13
+
+Función BUSCARX
+Se aplica a Excel para Microsoft 365 Excel para Microsoft 365 para Mac Excel 2024 Excel 2024 para Mac Excel 2021 Excel 2021 para Mac Excel 2019 Excel 2016 Excel para iPad Excel para iPhone Excel para tabletas Android Excel para teléfonos Android
+Obtener ayuda con Copilot
+Explica cómo funciona XLOOKUP
+¿Cómo puedo dar formato a un gráfico de líneas de chispa?
+Escribe una fórmula XLOOKUP que pueda pegar y adaptar
+Use la función BUSCARX para encontrar elementos en una tabla o rango por fila. Por ejemplo, puede buscar el precio de una pieza de automóvil por el número de pieza o buscar un nombre de empleado en función de su ID. de empleado. Con BUSCARX, puede buscar en una columna un término de búsqueda y devolver un resultado de la misma fila en otra columna, independientemente de en qué lado se encuentre la columna devuelta.
+Nota
+BUSCARX no está disponible en Excel 2016 ni en Excel 2019. Sin embargo, puede darse el caso de usar un libro en Excel 2016 o Excel 2019 que contenga la función BUSCARX, si fue creado por alguien con una versión más reciente de Excel.
+Sintaxis
+La función BUSCARX busca en un rango o matriz y devuelve el elemento correspondiente a la primera coincidencia que encuentra. Si no existe ninguna coincidencia, BUSCARX puede devolver la coincidencia más cercana (aproximada).
+=BUSCARX(valor_buscado; matriz_buscada; matriz_devuelta; [si_no_se_encuentra]; [modo_de_coincidencia]; [modo_de_búsqueda])
+argumento
+Descripción
+valor buscado
+Necesario*
+El valor que se va a buscar
+*Si se omite, BUSCARX devuelve celdas en blanco que encuentra en lookup_array .
+matriz_buscada
+Requerido
+La matriz o rango para buscar
+matriz_devuelta
+Requerido
+La matriz o rango para devolver
+[si_no_se_encuentra]
+Opcional
+Si no se encuentra una coincidencia válida, devolver el texto [if_not_found] que proporcione.
+Si no se encuentra una coincidencia válida y no hay [if_not_found], se devuelve #N/A .
+[modo_de_coincidencia]
+Opcional
+Especifique el tipo de coincidencia:
+0: coincidencia exacta. Si no se encuentra ninguno, devolver #N/A. Este valor es el predeterminado.
+-1: coincidencia exacta. Si no se encuentra ninguna, devolver el siguiente elemento más pequeño.
+1: coincidencia exacta. Si no se encuentra ninguna, devolver el siguiente elemento más grande.
+2: una coincidencia comodín donde *, ? y ~ tienen significado especial .
+[modo_de_búsqueda]
+Opcional
+Especifique el modo de búsqueda que se usará:
+1: realizar una búsqueda empezando por el primer elemento. Este valor es el predeterminado.
+-1: realizar una búsqueda inversa empezando por el último elemento.
+2: realizar una búsqueda binaria que se base en que matriz_buscada se ordene en orden ascendente . Si no está ordenada, se devolverán resultados no válidos.
+-2: realizar una búsqueda binaria que se base en que matriz_buscada se ordene en orden descendente . Si no está ordenada, se devolverán resultados no válidos.
+Ejemplos
+En el ejemplo 1 se usa BUSCARX para buscar el nombre de un país en un rango y después devolver el código de país o región del teléfono. Se incluyen los argumentos valor_buscado (celda F2), matriz_buscada (rango B2:B11) y matriz_devuelta (rango D2:D11). No incluye el argumento modo_de_coincidencia , ya que BUSCARX realiza una coincidencia exacta de manera predeterminada.
+Nota
+BUSCARX usa una matriz de búsqueda y una matriz de devolución, mientras que BUSCARV usa una matriz de tabla única seguida de un número de índice de columna. La fórmula equivalente de BUSCARV en este caso sería: =VLOOKUP(F2,B2:D11,3,FALSE)
+———————————————————————————
+El ejemplo 2 busca información de empleados basada en un número de identificación de empleado. Al contrario que BUSCARV, BUSCARX puede devolver una matriz con varios elementos, por lo que una sola fórmula puede devolver tanto el nombre del empleado como el de un departamento de las celdas C5:D14.
+———————————————————————————
+En el ejemplo 3 se agrega un argumento if_not_found al ejemplo anterior.
+———————————————————————————
+En el ejemplo 4 , se buscan en la columna C los ingresos personales especificados en la celda E2 y se encuentra un tipo impositivo coincidente en la columna B. Establece el argumento if_not_found para devolver 0 (cero) si no se encuentra nada. El argumento match_mode está establecido en 1, lo que significa que la función buscará una coincidencia exacta y, si no encuentra una, devuelve el siguiente elemento más grande. Por último, el argumento modo_de_búsqueda está establecido en 1 , lo que significa que la función buscará desde el primer elemento hasta el último.
+Nota
+La columna matriz_buscada de XARRAY está a la derecha de la columna matriz_devuelta , mientras que BUSCARV solo puede buscar de izquierda a derecha.
+———————————————————————————
+En el ejemplo 5 se usa una función anidada BUSCARX para realizar una coincidencia vertical y otra horizontal. En primer lugar busca Ingresos brutos en la columna B y después buscará Trim1 en la fila superior de la tabla (rango C5:F5) y, por último, devuelve el valor en la intersección de los dos. Esto es similar a usar las funciones INDICE y COINCIDIR conjuntamente.
+Recomendación
+También puede usar BUSCARX para reemplazar la función BUSCARH .
+Nota
+La fórmula en las celdas D3:F3 es: =BUSCARX(D2,$B6:$B17,XLOOKUP($C3,$C5:$G5,$C6:$G17)) .
+———————————————————————————
+En el ejemplo 6 se usa la función SUMA y dos funciones BUSCARX anidadas para sumar todos los valores entre dos rangos. En este caso, queremos sumar los valores de uvas, plátanos e incluir peras, que están entre ambos.
+La fórmula de la celda E3 es: =SUM(XLOOKUP(B3,B6:B10,E6:E10):XLOOKUP(C3,B6:B10,E6:E10))
+¿Cómo funciona? BUSCARX devuelve un rango, por lo que, cuando se calcula, la fórmula tiene un aspecto similar al siguiente: =SUM($E$7:$E$9). Puede ver cómo funciona por su cuenta. Para ello, seleccione una celda con una fórmula BUSCARX similar a esta, seleccione Fórmulas > Auditoría de fórmulas >, Evaluar fórmula y, a continuación, seleccione Evaluar para avanzar por el cálculo.
+Nota
+Gracias al MVP de Microsoft Excel, Bill Jelen , por sugerir este ejemplo.
+———————————————————————————
