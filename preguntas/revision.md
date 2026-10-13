@@ -71,6 +71,9 @@ Ninguna por ahora.
   **Ojo con los atajos**: la página de Microsoft en español mezcla atajos de la versión inglesa
   (Ctrl+A abrir y seleccionar todo, Ctrl+I cursiva…). Solo se preguntan atajos sin contradicción e
   iguales en el teclado español (F12, Ctrl+Entrar, Ctrl+Alt+1, Ctrl+B para Navegación…).
+- **union-europea-tue-tfue** (29, tema 10): revisado y `validada`. Se retira ue-027 (ocho
+  abogados generales, art. 252 TFUE): el Consejo los ha aumentado y la cifra literal confunde.
+  ue-019 pregunta por el texto del 17.5 TUE (dos tercios, salvo decisión unánime del Consejo Europeo).
 - Fuentes nuevas, descargadas con `python3 scripts/descargar_boe.py`: Ley 19/2013, Ley 47/2003,
   RD 208/1996, RD 203/2021, RD 951/2005, Ley 7/1985 (Bases de Régimen Local) y LO 6/1985 (Poder
   Judicial). Sirven para los temas 4, 6, 7, 9, 15, 17, 18, 19 y 20.
