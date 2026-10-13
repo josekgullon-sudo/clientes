@@ -15,15 +15,15 @@ export function BarraApp({ racha, xp, premium }: { racha: number; xp: number; pr
         <NavApp lugar="cabecera" />
         <div className="flex items-center gap-1">
           <Link
-            href="/app/estadisticas"
-            className="cifras inline-flex min-h-11 items-center gap-1 rounded-xl px-2.5 font-display text-lg font-black text-naranja hover:bg-papel-hundido"
+            href="/app/racha"
+            className="cifras inline-flex min-h-11 items-center gap-1 rounded-xl px-2.5 font-display text-lg font-black text-naranja-texto hover:bg-papel-hundido"
             aria-label={`Racha de ${racha} ${racha === 1 ? "día" : "días"}`}
           >
             <Flame aria-hidden size={22} className={racha > 0 ? "llama fill-naranja" : "text-filete"} strokeWidth={2.2} />
             <span className={racha > 0 ? "" : "text-pizarra"}>{racha}</span>
           </Link>
           <Link
-            href="/app/cuenta"
+            href="/app/liga"
             className="cifras inline-flex min-h-11 items-center gap-1 rounded-xl px-2.5 font-display text-lg font-black text-oro-texto hover:bg-papel-hundido"
             aria-label={`${xp} puntos de experiencia`}
           >

@@ -545,3 +545,48 @@ p {
     opacity: 1;
   }
 }
+
+/* Cofre diario: se balancea cuando está listo y salta al abrirse. */
+.cofre-listo {
+  transform-origin: center bottom;
+  animation: cofre-balanceo 1.6s ease-in-out infinite;
+}
+@keyframes cofre-balanceo {
+  0%,
+  60%,
+  100% {
+    transform: none;
+  }
+  70% {
+    transform: rotate(-7deg) scale(1.05);
+  }
+  80% {
+    transform: rotate(7deg) scale(1.05);
+  }
+  90% {
+    transform: rotate(-3deg);
+  }
+}
+.cofre-tapa {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  transition: transform 0.45s cubic-bezier(0.3, 1.6, 0.5, 1);
+}
+.cofre-abierto .cofre-tapa {
+  transform: translateY(-6px) rotate(-14deg);
+}
+.cofre-luz {
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+.cofre-abierto .cofre-luz {
+  opacity: 1;
+}
+.fondo-modal {
+  animation: fundido 0.2s ease both;
+}
+@keyframes fundido {
+  from {
+    opacity: 0;
+  }
+}

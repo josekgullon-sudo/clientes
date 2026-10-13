@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ChevronRight, Crown, Flame, Gift, Lock, RotateCcw, SlidersHorizontal, Timer, Zap } from "lucide-react";
+import { Check, ChevronRight, Crown, Flame, Lock, RotateCcw, SlidersHorizontal, Timer, Trophy, Zap } from "lucide-react";
 import type { ReactNode } from "react";
 import { Boton, EnlaceBoton } from "@/components/boton";
 import { CaminoJuego } from "@/components/estudio/camino-juego";
+import { CofreDiario } from "@/components/estudio/cofre";
+import { Avatar } from "@/components/ui/avatar";
 import { Evento } from "@/components/evento";
 import { ClaraDice } from "@/components/mascota/bocadillo";
 import { Clara } from "@/components/mascota/clara";
-import { caminoTemas, estadisticasUsuario } from "@/lib/datos/estudio";
+import { caminoTemas, cofreHoy, estadisticasUsuario, ligaSemanal } from "@/lib/datos/estudio";
 import { siguienteBloqueado, siguienteLeccion } from "@/lib/estudio/camino";
 import { diasEntre, hoyMadrid } from "@/lib/seo/seleccion";
 import { examenEstimado } from "@/lib/examen";
@@ -73,13 +75,11 @@ function Mision({
           </span>
         </div>
       </div>
-      <Gift
-        aria-label={cumplida ? "Misión cumplida" : "Misión pendiente"}
-        size={28}
-        className={cumplida ? "text-subrayador" : "text-filete"}
-        fill={cumplida ? "currentColor" : "none"}
-        strokeWidth={2}
-      />
+      <span
+        className={`grid size-8 shrink-0 place-items-center rounded-full ${cumplida ? "bg-pino-vivo text-white" : "border-2 border-dashed border-filete"}`}
+      >
+        {cumplida ? <Check aria-label="Misión cumplida" size={18} strokeWidth={3.5} /> : <span className="sr-only">Misión pendiente</span>}
+      </span>
     </li>
   );
 }
@@ -128,7 +128,7 @@ function Modo({
 export default async function Panel({ searchParams }: PageProps<"/app">) {
   const q = await searchParams;
   const { suscrito, user } = await usuarioActual();
-  const [progreso, racha, intentos, falladas, cuota, estudio, camino] = await Promise.all([
+  const [progreso, racha, intentos, falladas, cuota, estudio, camino, cofre, liga] = await Promise.all([
     progresoPorTema(),
     rachaActual(),
     ultimosIntentos(3),
@@ -136,6 +136,8 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
     cuotaRestante(),
     estadisticasUsuario(),
     caminoTemas(),
+    cofreHoy(),
+    ligaSemanal(),
   ]);
   const rachaVisible = estudio?.racha_actual ?? racha;
   const objetivo = estudio?.objetivo_diario ?? 10;
@@ -219,6 +221,7 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
             meta={metaAciertos}
             color="#f97316"
           />
+          <CofreDiario listo={hechasHoy >= objetivo && aciertosHoy >= metaAciertos} xpAbierto={cofre} />
         </ul>
       </section>
 
@@ -266,6 +269,28 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
           </form>
         </section>
       ) : null}
+
+      {liga && (
+        <Link href="/app/liga" className="tarjeta flex items-center gap-4 p-4 transition hover:bg-papel-hundido/60">
+          <span className="grid size-14 shrink-0 place-items-center rounded-2xl bg-naranja-suave text-naranja-texto" aria-hidden="true">
+            <Trophy size={30} strokeWidth={2.4} />
+          </span>
+          <span className="min-w-0 flex-1">
+            <span className="block font-display text-lg leading-tight font-black">Liga de la semana</span>
+            <span className="text-sm font-semibold text-pizarra">
+              {liga.mi_posicion && (liga.filas.find((f) => f.yo)?.xp ?? 0) > 0
+                ? `Vas ${liga.mi_posicion}.º de ${liga.participantes}. ¡A por más XP!`
+                : "Gana XP esta semana para entrar en la clasificación."}
+            </span>
+          </span>
+          <span className="hidden -space-x-3 sm:flex" aria-hidden="true">
+            {liga.filas.slice(0, 3).map((f) => (
+              <Avatar key={f.pos} clave={f.avatar} className="size-9 text-lg ring-2 ring-superficie" />
+            ))}
+          </span>
+          <ChevronRight aria-hidden size={20} className="shrink-0 text-pizarra" />
+        </Link>
+      )}
 
       <section aria-labelledby="practicar">
         <h2 id="practicar" className="mb-3 font-display text-xl font-black">

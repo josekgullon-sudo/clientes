@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { AlarmClock, Award, BookOpen, Check, Crosshair, Crown, Flag, Flame, LogOut } from "lucide-react";
+import { AlarmClock, Award, BookOpen, Check, Crosshair, Crown, Flag, Flame, Gift, LogOut, Trophy, Zap } from "lucide-react";
 import { Boton, EnlaceBoton } from "@/components/boton";
-import { estadisticasUsuario, logrosUsuario } from "@/lib/datos/estudio";
+import { Avatar } from "@/components/ui/avatar";
+import { estadisticasUsuario, logrosUsuario, perfilPublico } from "@/lib/datos/estudio";
+import { AVATARES } from "@/lib/estudio/perfil";
 import { usuarioActual } from "@/lib/datos/usuario";
-import { guardarAjustes } from "../../ajustes";
+import { guardarAjustes, guardarPerfilPublico } from "../../ajustes";
 
-export const metadata: Metadata = { title: "Tu cuenta" };
+export const metadata: Metadata = { title: "Tu perfil" };
 
 const fecha = new Intl.DateTimeFormat("es-ES", { dateStyle: "long", timeZone: "Europe/Madrid" });
 const estados: Record<string, string> = {
@@ -24,6 +26,8 @@ const ESTILOS_LOGRO: Record<string, { Icono: typeof Award; color: string; sombra
   punteria: { Icono: Crosshair, color: "#0ea5e9", sombra: "#0369a1" },
   volumen: { Icono: BookOpen, color: "#8b5cf6", sombra: "#6d28d9" },
   reloj: { Icono: AlarmClock, color: "#ec4899", sombra: "#be185d" },
+  cofre: { Icono: Gift, color: "#c2410c", sombra: "#9a3412" },
+  liga: { Icono: Trophy, color: "#f59e0b", sombra: "#b45309" },
 };
 
 const objetivos = [
@@ -36,31 +40,44 @@ const objetivos = [
 export default async function Cuenta({ searchParams }: PageProps<"/app/cuenta">) {
   const q = await searchParams;
   const { user, suscrito, suscripcion } = await usuarioActual();
-  const [estudio, logros] = await Promise.all([estadisticasUsuario(), logrosUsuario()]);
+  const [estudio, logros, perfil] = await Promise.all([estadisticasUsuario(), logrosUsuario(), perfilPublico()]);
   const conseguidos = logros?.filter((l) => l.conseguido_en).length ?? 0;
-  const inicial = (user.email ?? "?").slice(0, 1).toUpperCase();
 
   return (
     <div className="flex flex-col gap-6">
-      <h1 className="font-display text-[2rem] leading-tight font-extrabold">Tu cuenta</h1>
+      <section aria-labelledby="titulo-perfil" className="flex flex-col items-center text-center">
+        <Avatar clave={perfil?.avatar} className="size-24 text-5xl shadow-[0_4px_0_var(--filete)]" />
+        <h1 id="titulo-perfil" className="mt-3 font-display text-[1.75rem] leading-tight font-black">
+          {perfil?.alias ?? "Tu perfil"}
+        </h1>
+        <p className="max-w-full truncate text-sm font-semibold text-pizarra">{user.email}</p>
+        {estudio && (
+          <div className="mt-4 grid w-full grid-cols-3 gap-3">
+            {[
+              { v: estudio.racha_actual, t: "Racha", Icono: Flame, c: "text-naranja-texto" },
+              { v: estudio.xp_total, t: "XP total", Icono: Zap, c: "text-oro-texto" },
+              { v: conseguidos, t: "Logros", Icono: Award, c: "text-morado-texto" },
+            ].map(({ v, t, Icono, c }) => (
+              <div key={t} className="tarjeta flex flex-col items-center px-2 py-3">
+                <Icono aria-hidden size={22} className={c} />
+                <span className="cifras mt-1 font-display text-xl font-black">{v}</span>
+                <span className="text-xs font-bold text-pizarra">{t}</span>
+              </div>
+            ))}
+          </div>
+        )}
+      </section>
 
       <section aria-label="Tu plan" className="tarjeta p-5">
-        <div className="flex items-center gap-4">
-          <span className="grid size-14 shrink-0 place-items-center rounded-full bg-pino-suave font-display text-2xl font-extrabold text-pino" aria-hidden="true">
-            {inicial}
-          </span>
-          <div className="min-w-0">
-            <p className="truncate font-bold">{user.email}</p>
-            <p className="mt-1">
-              {suscrito ? (
-                <span className="inline-flex items-center gap-1 rounded-full bg-oro-suave px-2.5 py-0.5 text-sm font-bold text-oro-texto">
-                  <Crown aria-hidden size={14} /> Premium{suscripcion?.plan ? ` · ${suscripcion.plan}` : ""}
-                </span>
-              ) : (
-                <span className="rounded-full bg-papel-hundido px-2.5 py-0.5 text-sm font-bold text-pizarra">Plan gratis</span>
-              )}
-            </p>
-          </div>
+        <div className="flex items-center justify-between gap-3">
+          <h2 className="font-display text-lg font-black">Tu plan</h2>
+          {suscrito ? (
+            <span className="inline-flex items-center gap-1 rounded-full bg-morado-suave px-2.5 py-0.5 text-sm font-black text-morado-texto">
+              <Crown aria-hidden size={14} /> Premium{suscripcion?.plan ? ` · ${suscripcion.plan}` : ""}
+            </span>
+          ) : (
+            <span className="rounded-full bg-papel-hundido px-2.5 py-0.5 text-sm font-bold text-pizarra">Plan gratis</span>
+          )}
         </div>
         {suscripcion?.estado && estados[suscripcion.estado] && (
           <p className="mt-4 text-sm text-pizarra">
@@ -77,18 +94,78 @@ export default async function Cuenta({ searchParams }: PageProps<"/app/cuenta">)
               </Boton>
             </form>
           ) : suscrito ? null : (
-            <EnlaceBoton href="/suscripcion" ancho tamano="md">
+            <EnlaceBoton href="/suscripcion" variante="premium" ancho tamano="md">
               <Crown aria-hidden size={16} /> Pasar a Premium
             </EnlaceBoton>
           )}
         </div>
       </section>
 
+      {perfil && (
+        <form id="perfil" action={guardarPerfilPublico} className="tarjeta flex scroll-mt-24 flex-col gap-5 p-5">
+          <h2 className="font-display text-lg font-black">Tu perfil en la liga</h2>
+          {q.error === "perfil" && (
+            <p role="alert" className="rounded-xl border-2 border-teja bg-teja-suave p-3 font-semibold">
+              Revisa el alias: de 3 a 20 letras o números, sin símbolos raros.
+            </p>
+          )}
+          {q.guardado === "perfil" && (
+            <p role="status" className="flex items-center gap-2 rounded-xl bg-pino-suave p-3 font-bold text-pino">
+              <Check aria-hidden size={18} /> ¡Perfil guardado!
+            </p>
+          )}
+          <div className="flex flex-col gap-2">
+            <label htmlFor="alias" className="font-bold">
+              Alias
+            </label>
+            <input
+              id="alias"
+              name="alias"
+              defaultValue={perfil.personalizado ? perfil.alias : ""}
+              placeholder={perfil.alias}
+              minLength={3}
+              maxLength={20}
+              autoComplete="nickname"
+              className="min-h-14 rounded-2xl border-2 border-filete bg-papel px-4 font-semibold"
+            />
+            <p className="text-sm text-pizarra">Es lo único que ven los demás. Si lo dejas vacío, usamos «{perfil.alias}».</p>
+          </div>
+          <fieldset>
+            <legend className="font-bold">Avatar</legend>
+            <div className="mt-2 grid grid-cols-6 gap-2">
+              {Object.entries(AVATARES).map(([clave, a]) => (
+                <label
+                  key={clave}
+                  className="grid aspect-square cursor-pointer place-items-center rounded-2xl border-2 border-filete text-2xl transition has-checked:border-cielo has-checked:shadow-[0_3px_0_var(--cielo)] has-focus-visible:outline-3 has-focus-visible:outline-tinta"
+                  style={{ background: a.fondo }}
+                >
+                  <input type="radio" name="avatar" value={clave} defaultChecked={perfil.avatar === clave} className="sr-only" />
+                  <span aria-hidden="true">{a.emoji}</span>
+                  <span className="sr-only">{a.nombre}</span>
+                </label>
+              ))}
+            </div>
+          </fieldset>
+          <label className="flex min-h-12 cursor-pointer items-center justify-between gap-4">
+            <span>
+              <span className="block font-bold">Aparecer en la liga</span>
+              <span className="text-sm text-pizarra">Compite cada semana por XP con otros opositores.</span>
+            </span>
+            <input type="checkbox" name="en_liga" value="1" defaultChecked={perfil.en_liga} className="peer sr-only" />
+            <span
+              aria-hidden="true"
+              className="relative h-7 w-12 shrink-0 rounded-full bg-filete transition peer-checked:bg-pino-boton peer-focus-visible:outline-3 peer-focus-visible:outline-tinta after:absolute after:top-1 after:left-1 after:size-5 after:rounded-full after:bg-superficie after:shadow after:transition peer-checked:after:translate-x-5"
+            />
+          </label>
+          <Boton type="submit">Guardar perfil</Boton>
+        </form>
+      )}
+
       {estudio && (
         <form action={guardarAjustes} className="tarjeta flex flex-col gap-5 p-5">
           <input type="hidden" name="volver" value="/app/cuenta" />
           <input type="hidden" name="confirmar" value="1" />
-          <h2 className="text-lg font-bold">Cómo estudias</h2>
+          <h2 className="font-display text-lg font-black">Cómo estudias</h2>
           {q.error === "ajustes" && (
             <p role="alert" className="rounded-xl border border-teja bg-teja-suave p-3">
               No hemos podido guardar los cambios. Vuelve a intentarlo.
@@ -145,7 +222,7 @@ export default async function Cuenta({ searchParams }: PageProps<"/app/cuenta">)
       {logros && logros.length > 0 && (
         <section aria-labelledby="logros">
           <div className="mb-3 flex items-baseline justify-between">
-            <h2 id="logros" className="text-lg font-bold">
+            <h2 id="logros" className="font-display text-xl font-black">
               Logros
             </h2>
             <p className="cifras text-sm font-semibold text-pizarra">
