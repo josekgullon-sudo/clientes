@@ -1,0 +1,605 @@
+{
+  "descripcion": "TREBEP: clases de personal, acceso, adquisición y pérdida de la condición de funcionario, código de conducta, carrera, provisión, situaciones y régimen disciplinario. Lote generado el 2026-10-13; citas comprobadas contra el texto consolidado del BOE (versión 2025-07-31).",
+  "preguntas": [
+    {
+      "id": "teb-001",
+      "ley": "trebep",
+      "articulo": "55.2.d",
+      "enunciado": "¿Cuál de los siguientes es uno de los principios que deben garantizar los procedimientos de selección según el artículo 55.2 del TREBEP?",
+      "opciones": [
+        "Preferencia de los aspirantes con experiencia en la Administración",
+        "Representación sindical en los órganos de selección",
+        "Independencia y discrecionalidad técnica de los órganos de selección",
+        "Valoración prioritaria de la antigüedad de los aspirantes"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 55.2 incluye entre esos principios la «Independencia y discrecionalidad técnica en la actuación de los órganos de selección».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "teb-002",
+      "ley": "trebep",
+      "articulo": "56.1.c",
+      "enunciado": "Una edad máxima de acceso al empleo público distinta de la edad de jubilación forzosa solo puede establecerse:",
+      "opciones": [
+        "Por ley",
+        "Por las bases de cada convocatoria",
+        "Por real decreto del Gobierno",
+        "Por acuerdo de la Mesa General de Negociación"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 56.1.c) dispone: «Sólo por ley podrá establecerse otra edad máxima, distinta de la edad de jubilación forzosa, para el acceso al empleo público».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "teb-003",
+      "ley": "trebep",
+      "articulo": "57.5",
+      "enunciado": "¿Cómo puede eximirse del requisito de la nacionalidad para acceder a la condición de personal funcionario?",
+      "opciones": [
+        "Por resolución motivada del órgano convocante",
+        "Por real decreto aprobado en Consejo de Ministros",
+        "Por acuerdo de la Conferencia Sectorial de Administración Pública",
+        "Solo por ley de las Cortes Generales o de las asambleas legislativas autonómicas"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 57.5, «Sólo por ley de las Cortes Generales o de las asambleas legislativas de las comunidades autónomas podrá eximirse del requisito de la nacionalidad por razones de interés general».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "teb-004",
+      "ley": "trebep",
+      "articulo": "59.1",
+      "enunciado": "En las ofertas de empleo público se reserva para personas con discapacidad un cupo de las vacantes:",
+      "opciones": [
+        "No inferior al cinco por ciento",
+        "No inferior al siete por ciento",
+        "No inferior al diez por ciento",
+        "No superior al dos por ciento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 59.1 establece que «se reservará un cupo no inferior al siete por ciento de las vacantes para ser cubiertas entre personas con discapacidad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "teb-005",
+      "ley": "trebep",
+      "articulo": "59.1",
+      "enunciado": "Dentro de la reserva para personas con discapacidad, ¿qué parte de las plazas ofertadas se destina, al menos, a quienes acrediten discapacidad intelectual?",
+      "opciones": [
+        "El uno por ciento",
+        "El dos por ciento",
+        "El tres por ciento",
+        "El cinco por ciento"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 59.1, la reserva se hará de modo que «al menos, el dos por ciento de las plazas ofertadas lo sea para ser cubiertas por personas que acrediten discapacidad intelectual».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "teb-006",
+      "ley": "trebep",
+      "articulo": "60.3",
+      "enunciado": "La pertenencia a los órganos de selección será siempre:",
+      "opciones": [
+        "En representación de las organizaciones sindicales",
+        "Por cuenta de la Administración convocante",
+        "En representación del cuerpo o escala convocado",
+        "A título individual"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 60.3 dispone que «La pertenencia a los órganos de selección será siempre a título individual, no pudiendo ostentarse ésta en representación o por cuenta de nadie».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "teb-007",
+      "ley": "trebep",
+      "articulo": "61.6",
+      "enunciado": "El sistema de concurso, consistente únicamente en la valoración de méritos, puede aplicarse a la selección de funcionarios de carrera:",
+      "opciones": [
+        "Solo en virtud de ley y con carácter excepcional",
+        "Cuando lo prevean las bases de la convocatoria",
+        "En todo caso, como alternativa a la oposición",
+        "Solo para el acceso a los Subgrupos C1 y C2"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 61.6 señala: «Sólo en virtud de ley podrá aplicarse, con carácter excepcional, el sistema de concurso que consistirá únicamente en la valoración de méritos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "teb-008",
+      "ley": "trebep",
+      "articulo": "61.3",
+      "enunciado": "En los procesos selectivos que incluyan valoración de méritos, la puntuación de esos méritos:",
+      "opciones": [
+        "No podrá superar la mitad de la puntuación total",
+        "Determinará el orden de prelación de los aspirantes",
+        "Será proporcionada y no determinará por sí misma el resultado",
+        "Solo podrá servir para deshacer empates"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 61.3, la valoración de méritos tendrá «una puntuación proporcionada que no determinará, en ningún caso, por sí misma el resultado del proceso selectivo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "teb-009",
+      "ley": "trebep",
+      "articulo": "62.1",
+      "enunciado": "Según el artículo 62.1 del TREBEP, ¿qué requisito para adquirir la condición de funcionario de carrera sigue inmediatamente al nombramiento?",
+      "opciones": [
+        "La toma de posesión",
+        "La superación del proceso selectivo",
+        "La publicación de la lista de aprobados",
+        "El acto de acatamiento de la Constitución"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 62.1 enumera, por este orden, la superación del proceso selectivo, el «Nombramiento por el órgano o autoridad competente», el «Acto de acatamiento de la Constitución» y la «Toma de posesión dentro del plazo que se establezca».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "teb-010",
+      "ley": "trebep",
+      "articulo": "64.1",
+      "enunciado": "La renuncia voluntaria a la condición de funcionario:",
+      "opciones": [
+        "Puede hacerse de palabra y surte efecto inmediato",
+        "Se entiende aceptada si la Administración no resuelve en un mes",
+        "Se manifiesta por escrito y debe aceptarse expresamente por la Administración",
+        "Requiere informe previo de la Junta de Personal"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 64.1 dispone que la renuncia «habrá de ser manifestada por escrito y será aceptada expresamente por la Administración».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "teb-011",
+      "ley": "trebep",
+      "articulo": "66",
+      "enunciado": "La pena firme de inhabilitación especial produce la pérdida de la condición de funcionario:",
+      "opciones": [
+        "Respecto de todos los empleos o cargos que tuviere",
+        "Respecto de los empleos o cargos especificados en la sentencia",
+        "Solo durante el tiempo de cumplimiento de la pena",
+        "Únicamente si se impone como pena principal"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 66, la inhabilitación especial firme «produce la pérdida de la condición de funcionario respecto de aquellos empleos o cargos especificados en la sentencia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "teb-012",
+      "ley": "trebep",
+      "articulo": "67.3",
+      "enunciado": "Según el artículo 67.3 del TREBEP, la jubilación forzosa se declara de oficio al cumplir el funcionario:",
+      "opciones": [
+        "Sesenta y cinco años",
+        "Sesenta años",
+        "Sesenta y siete años",
+        "Setenta años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 67.3 dispone: «La jubilación forzosa se declarará de oficio al cumplir el funcionario los sesenta y cinco años de edad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "teb-013",
+      "ley": "trebep",
+      "articulo": "68.1",
+      "enunciado": "Desaparecida la causa, tiene derecho a que se le conceda la rehabilitación quien perdió la condición de funcionario por:",
+      "opciones": [
+        "Pérdida de la nacionalidad",
+        "Separación del servicio firme",
+        "Renuncia voluntaria",
+        "Condena a inhabilitación absoluta"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 68.1 prevé que, en caso de «pérdida de la nacionalidad o jubilación por incapacidad permanente para el servicio», el interesado podrá solicitar la rehabilitación, «que le será concedida».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "teb-014",
+      "ley": "trebep",
+      "articulo": "68.2",
+      "enunciado": "Si no se resuelve en plazo la solicitud de rehabilitación de quien perdió la condición de funcionario por condena a inhabilitación, se entiende:",
+      "opciones": [
+        "Estimada",
+        "Desestimada",
+        "Caducada",
+        "Remitida al Ministerio Fiscal"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 68.2 dispone: «Si transcurrido el plazo para dictar la resolución, no se hubiera producido de forma expresa, se entenderá desestimada la solicitud».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13
+      }
+    },
+    {
+      "id": "teb-015",
+      "ley": "trebep",
+      "articulo": "53.5",
+      "enunciado": "En el TREBEP, abstenerse en los asuntos en que se tenga un interés personal se recoge como:",
+      "opciones": [
+        "Un principio de conducta",
+        "Un principio rector del acceso",
+        "Un principio ético",
+        "Un derecho individual"
+      ],
+      "correcta": 2,
+      "explicacion": "Entre los principios éticos, el artículo 53.5 dispone que los empleados públicos «Se abstendrán en aquellos asuntos en los que tengan un interés personal».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "teb-016",
+      "ley": "trebep",
+      "articulo": "54.3",
+      "enunciado": "Si un superior da una orden que constituye una infracción manifiesta del ordenamiento jurídico, el empleado público:",
+      "opciones": [
+        "Debe cumplirla y presentar después una queja",
+        "Puede cumplirla si la orden consta por escrito",
+        "Debe comunicarlo al Ministerio Fiscal en un plazo de diez días",
+        "La pondrá inmediatamente en conocimiento de los órganos de inspección"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 54.3 indica que obedecerán las órdenes «salvo que constituyan una infracción manifiesta del ordenamiento jurídico, en cuyo caso las pondrán inmediatamente en conocimiento de los órganos de inspección procedentes».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "teb-017",
+      "ley": "trebep",
+      "articulo": "54.6",
+      "enunciado": "Según los principios de conducta, el empleado público rechazará cualquier regalo o favor que:",
+      "opciones": [
+        "Supere los cincuenta euros de valor",
+        "No haya sido comunicado a su superior",
+        "Vaya más allá de los usos habituales, sociales y de cortesía",
+        "Proceda de una persona interesada en un procedimiento"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 54.6 dispone: «Se rechazará cualquier regalo, favor o servicio en condiciones ventajosas que vaya más allá de los usos habituales, sociales y de cortesía».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "teb-018",
+      "ley": "trebep",
+      "articulo": "54.11",
+      "enunciado": "Los empleados públicos garantizarán la atención al ciudadano en la lengua que lo solicite:",
+      "opciones": [
+        "Siempre que sea oficial en la Unión Europea",
+        "Solo si es el castellano",
+        "Si el empleado la conoce",
+        "Siempre que sea oficial en el territorio"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 54.11 establece que «Garantizarán la atención al ciudadano en la lengua que lo solicite siempre que sea oficial en el territorio».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "teb-019",
+      "ley": "trebep",
+      "articulo": "18.2",
+      "enunciado": "Para la promoción interna, el funcionario debe tener una antigüedad mínima en el Subgrupo inferior de:",
+      "opciones": [
+        "Dos años de servicio activo",
+        "Un año de servicio activo",
+        "Tres años de servicio activo",
+        "Cinco años de servicio activo"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 18.2 exige «tener una antigüedad de, al menos, dos años de servicio activo en el inferior Subgrupo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "teb-020",
+      "ley": "trebep",
+      "articulo": "16.3.a",
+      "enunciado": "La progresión de grado, categoría o escalón sin necesidad de cambiar de puesto de trabajo es:",
+      "opciones": [
+        "La carrera vertical",
+        "La carrera horizontal",
+        "La promoción interna horizontal",
+        "La promoción interna vertical"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 16.3.a) define la «Carrera horizontal, que consiste en la progresión de grado, categoría, escalón u otros conceptos análogos, sin necesidad de cambiar de puesto de trabajo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "teb-021",
+      "ley": "trebep",
+      "articulo": "20.1",
+      "enunciado": "Según el TREBEP, el procedimiento mediante el cual se mide y valora la conducta profesional y el rendimiento o el logro de resultados es:",
+      "opciones": [
+        "La carrera horizontal",
+        "La evaluación del desempeño",
+        "El concurso de méritos",
+        "La relación de puestos de trabajo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 20.1 dispone: «La evaluación del desempeño es el procedimiento mediante el cual se mide y valora la conducta profesional y el rendimiento o el logro de resultados».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "teb-022",
+      "ley": "trebep",
+      "articulo": "79.1",
+      "enunciado": "¿Cuál es el procedimiento normal de provisión de puestos de trabajo del personal funcionario de carrera?",
+      "opciones": [
+        "El concurso",
+        "La libre designación",
+        "La comisión de servicios",
+        "La redistribución de efectivos"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 79.1, «El concurso, como procedimiento normal de provisión de puestos de trabajo, consistirá en la valoración de los méritos y capacidades».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "teb-023",
+      "ley": "trebep",
+      "articulo": "80.4",
+      "enunciado": "Los titulares de puestos provistos por libre designación con convocatoria pública:",
+      "opciones": [
+        "Solo pueden ser cesados por sanción disciplinaria",
+        "No pueden ser cesados en los dos primeros años",
+        "Solo pueden ser cesados previa evaluación del desempeño",
+        "Pueden ser cesados discrecionalmente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 80.4 dispone que estos titulares «podrán ser cesados discrecionalmente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "teb-024",
+      "ley": "trebep",
+      "articulo": "87.1.b",
+      "enunciado": "Pasa a servicios especiales el funcionario autorizado a realizar una misión en organismos internacionales por un periodo determinado superior a:",
+      "opciones": [
+        "Tres meses",
+        "Un año",
+        "Seis meses",
+        "Dos años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 87.1.b) incluye a quienes «sean autorizados para realizar una misión por periodo determinado superior a seis meses en organismos internacionales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "teb-025",
+      "ley": "trebep",
+      "articulo": "89.4",
+      "enunciado": "En la excedencia por cuidado de familiares, el puesto de trabajo desempeñado se reserva, al menos, durante:",
+      "opciones": [
+        "Un año",
+        "Tres años",
+        "Dieciocho meses",
+        "Dos años"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 89.4 dispone: «El puesto de trabajo desempeñado se reservará, al menos, durante dos años».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "teb-026",
+      "ley": "trebep",
+      "articulo": "89.5",
+      "enunciado": "En la excedencia por razón de violencia de género, la funcionaria percibe las retribuciones íntegras durante:",
+      "opciones": [
+        "Los seis primeros meses",
+        "Los dos primeros meses",
+        "El primer mes",
+        "Los tres primeros meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 89.5 establece: «Durante los dos primeros meses de esta excedencia la funcionaria tendrá derecho a percibir las retribuciones íntegras».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "teb-027",
+      "ley": "trebep",
+      "articulo": "94.3",
+      "enunciado": "Si de la instrucción de un procedimiento disciplinario resultan indicios fundados de criminalidad:",
+      "opciones": [
+        "Se archiva el procedimiento sin más trámite",
+        "Se continúa y se remite la resolución al juzgado",
+        "Se suspende su tramitación y se comunica al Ministerio Fiscal",
+        "Se impone de inmediato la suspensión firme de funciones"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 94.3 dispone que en ese caso «se suspenderá su tramitación poniéndolo en conocimiento del Ministerio Fiscal».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "teb-028",
+      "ley": "trebep",
+      "articulo": "96.1.e",
+      "enunciado": "La sanción disciplinaria que consiste en la penalización a efectos de carrera, promoción o movilidad voluntaria es:",
+      "opciones": [
+        "El demérito",
+        "El apercibimiento",
+        "El traslado forzoso",
+        "La suspensión firme de funciones"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 96.1.e) recoge el «Demérito, que consistirá en la penalización a efectos de carrera, promoción o movilidad voluntaria».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "teb-029",
+      "ley": "trebep",
+      "articulo": "97.1",
+      "enunciado": "Las sanciones impuestas por faltas leves prescriben:",
+      "opciones": [
+        "Al año",
+        "A los seis meses",
+        "A los dos años",
+        "A los tres meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 97.1 dispone que prescriben «las impuestas por faltas leves al año».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    },
+    {
+      "id": "teb-030",
+      "ley": "trebep",
+      "articulo": "98.3",
+      "enunciado": "Salvo paralización imputable al interesado, la suspensión provisional como medida cautelar en un expediente disciplinario no puede exceder de:",
+      "opciones": [
+        "Tres meses",
+        "Un año",
+        "Seis meses",
+        "Dieciocho meses"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 98.3, «La suspensión provisional como medida cautelar en la tramitación de un expediente disciplinario no podrá exceder de 6 meses».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14
+      }
+    }
+  ]
+}

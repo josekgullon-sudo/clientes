@@ -1,12 +1,12 @@
 /**
  * Comprueba que cada cita «entre comillas» de las explicaciones aparece literalmente en el texto
- * consolidado de su ley (/fuentes). Ignora mayúsculas, espacios y la puntuación final; «[…]» o «...»
+ * consolidado de su ley (/fuentes) o, en ofimática, en la página oficial descargada en /fuentes/microsoft. Ignora mayúsculas, espacios y la puntuación final; «[…]» o «...»
  * dentro de una cita separan trozos que se buscan por separado.
  *
  *   npm run preguntas:citas                 # todos los archivos
  *   npm run preguntas:citas -- archivo.json # solo esos
  */
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { RAIZ, archivosPreguntas, cargarLeyes, leerArchivo } from "./lib/cargar";
 
@@ -23,6 +23,16 @@ for (const l of cargarLeyes()) {
   if (l.fuente) textos.set(l.slug, normal(readFileSync(join(RAIZ, "fuentes", l.fuente), "utf8")));
 }
 
+// Ofimática: páginas oficiales descargadas en /fuentes/microsoft, con su URL en la segunda línea.
+const DIR_WEB = join(RAIZ, "fuentes", "microsoft");
+const paginas = new Map<string, string>();
+if (existsSync(DIR_WEB)) {
+  for (const f of readdirSync(DIR_WEB).filter((f) => f.endsWith(".txt"))) {
+    const crudo = readFileSync(join(DIR_WEB, f), "utf8");
+    paginas.set(crudo.split("\n")[1].trim(), normal(crudo));
+  }
+}
+
 const pedidos = process.argv.slice(2).filter((a) => a.endsWith(".json"));
 const archivos = pedidos.length ? pedidos.map((a) => a.replace(/^preguntas\//, "")) : archivosPreguntas();
 
@@ -37,9 +47,14 @@ for (const archivo of archivos) {
     continue;
   }
   for (const p of r.preguntas) {
-    if (!p.ley) continue;
-    const texto = textos.get(p.ley);
-    if (!texto) continue;
+    const texto = p.ley ? textos.get(p.ley) : p.fuente ? paginas.get(p.fuente) : undefined;
+    if (!texto) {
+      if (!p.ley && p.fuente) {
+        fallos++;
+        console.log(`${archivo} › ${p.id}: la fuente no está descargada en fuentes/microsoft: ${p.fuente}`);
+      }
+      continue;
+    }
     const encontradas = [...p.explicacion.matchAll(/«([^»]+)»/g)].map((m) => m[1]);
     if (encontradas.length === 0) sinCita++;
     for (const cita of encontradas) {
@@ -51,7 +66,7 @@ for (const archivo of archivos) {
       const falta = trozos.find((t) => !texto.includes(t));
       if (falta) {
         fallos++;
-        console.log(`${archivo} › ${p.id} (art. ${p.articulo}): no aparece en ${p.ley}: «${falta.slice(0, 90)}»`);
+        console.log(`${archivo} › ${p.id} (${p.articulo}): no aparece en ${p.ley ?? p.fuente}: «${falta.slice(0, 90)}»`);
       }
     }
   }
