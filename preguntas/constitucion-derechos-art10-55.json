@@ -1,0 +1,605 @@
+{
+  "descripcion": "Constitución Española, Título preliminar y Título I (arts. 10-55): derechos, deberes, garantías y suspensión. Lote generado el 2026-10-13; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-05-20).",
+  "preguntas": [
+    {
+      "id": "der-001",
+      "ley": "constitucion",
+      "articulo": "10.2",
+      "enunciado": "Las normas relativas a los derechos fundamentales que la Constitución reconoce se interpretarán de conformidad con:",
+      "opciones": [
+        "La Declaración Universal de Derechos Humanos y los tratados ratificados por España",
+        "La jurisprudencia del Tribunal Supremo y las leyes orgánicas que las desarrollen",
+        "El Convenio Europeo de Derechos Humanos exclusivamente",
+        "Los principios generales del Derecho y la costumbre internacional"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 10.2 dispone que esas normas «se interpretarán de conformidad con la Declaración Universal de Derechos Humanos y los tratados y acuerdos internacionales sobre las mismas materias ratificados por España».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-002",
+      "ley": "constitucion",
+      "articulo": "11.2",
+      "enunciado": "Según la Constitución, ¿quién no podrá ser privado de su nacionalidad?",
+      "opciones": [
+        "Ningún español residente en España",
+        "Ningún español mayor de edad",
+        "Ningún español de origen",
+        "Ningún español con doble nacionalidad"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 11.2 establece: «Ningún español de origen podrá ser privado de su nacionalidad.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-003",
+      "ley": "constitucion",
+      "articulo": "11.3",
+      "enunciado": "El Estado podrá concertar tratados de doble nacionalidad con:",
+      "opciones": [
+        "Los Estados miembros de la Unión Europea y Andorra",
+        "Los países iberoamericanos o con particular vinculación con España",
+        "Cualquier país que reconozca un derecho recíproco",
+        "Solo los países de lengua oficial española"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 11.3, «El Estado podrá concertar tratados de doble nacionalidad con los países iberoamericanos o con aquellos que hayan tenido o tengan una particular vinculación con España.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-004",
+      "ley": "constitucion",
+      "articulo": "13.2",
+      "enunciado": "Por tratado o ley, atendiendo a la reciprocidad, puede reconocerse a los extranjeros el derecho de sufragio activo y pasivo en las elecciones:",
+      "opciones": [
+        "Autonómicas",
+        "Generales",
+        "Al Parlamento Europeo",
+        "Municipales"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 13.2 reserva a los españoles los derechos del artículo 23, «salvo lo que, atendiendo a criterios de reciprocidad, pueda establecerse por tratado o ley para el derecho de sufragio activo y pasivo en las elecciones municipales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-005",
+      "ley": "constitucion",
+      "articulo": "13.3",
+      "enunciado": "Según la Constitución, ¿qué delitos quedan excluidos de la extradición?",
+      "opciones": [
+        "Los delitos de terrorismo",
+        "Los delitos castigados con pena de muerte",
+        "Los delitos políticos, sin considerar como tales los actos de terrorismo",
+        "Los delitos cometidos por españoles de origen"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 13.3 dispone: «Quedan excluidos de la extradición los delitos políticos, no considerándose como tales los actos de terrorismo.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-006",
+      "ley": "constitucion",
+      "articulo": "16.3",
+      "enunciado": "En materia religiosa, la Constitución establece que:",
+      "opciones": [
+        "Ninguna confesión tendrá carácter estatal",
+        "La religión católica es la confesión oficial del Estado",
+        "Los poderes públicos no mantendrán relaciones con las confesiones",
+        "Solo se reconocen las confesiones inscritas en un registro"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 16.3 dispone: «Ninguna confesión tendrá carácter estatal.» Añade que los poderes públicos «mantendrán las consiguientes relaciones de cooperación con la Iglesia Católica y las demás confesiones».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-007",
+      "ley": "constitucion",
+      "articulo": "17.3",
+      "enunciado": "La Constitución garantiza la asistencia de abogado al detenido:",
+      "opciones": [
+        "Solo en las diligencias judiciales",
+        "Solo si lo solicita en las primeras veinticuatro horas",
+        "Solo cuando la detención supere las setenta y dos horas",
+        "En las diligencias policiales y judiciales, en los términos que la ley establezca"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 17.3 dispone: «Se garantiza la asistencia de abogado al detenido en las diligencias policiales y judiciales, en los términos que la ley establezca.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-008",
+      "ley": "constitucion",
+      "articulo": "18.2",
+      "enunciado": "Sin consentimiento del titular ni resolución judicial, solo puede entrarse en un domicilio:",
+      "opciones": [
+        "Por orden de la autoridad gubernativa",
+        "En caso de flagrante delito",
+        "Cuando lo acuerde el Ministerio Fiscal",
+        "Durante la vigencia del estado de alarma"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 18.2 dispone: «Ninguna entrada o registro podrá hacerse en él sin consentimiento del titular o resolución judicial, salvo en caso de flagrante delito.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-009",
+      "ley": "constitucion",
+      "articulo": "55.2",
+      "enunciado": "La suspensión individual de los derechos de los artículos 17.2 y 18.2 y 3 para investigaciones sobre bandas armadas o terroristas la determinará:",
+      "opciones": [
+        "Una ley orgánica, con intervención judicial y control parlamentario",
+        "Un real decreto del Gobierno, con autorización del Congreso",
+        "Una ley ordinaria, con control del Ministerio Fiscal",
+        "Un decreto-ley, con convalidación de las Cortes Generales"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 55.2, «Una ley orgánica podrá determinar la forma y los casos en los que, de forma individual y con la necesaria intervención judicial y el adecuado control parlamentario, los derechos reconocidos en los artículos 17, apartado 2, y 18, apartados 2 y 3, pueden ser suspendidos para personas determinadas».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-010",
+      "ley": "constitucion",
+      "articulo": "20.2",
+      "enunciado": "Según la Constitución, el ejercicio de las libertades de expresión e información:",
+      "opciones": [
+        "Puede restringirse mediante autorización administrativa",
+        "Queda sujeto a censura previa en tiempo de guerra",
+        "No puede restringirse mediante ningún tipo de censura previa",
+        "Solo puede restringirse por ley orgánica"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 20.2 establece: «El ejercicio de estos derechos no puede restringirse mediante ningún tipo de censura previa.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-011",
+      "ley": "constitucion",
+      "articulo": "20.5",
+      "enunciado": "El secuestro de publicaciones, grabaciones y otros medios de información solo podrá acordarse:",
+      "opciones": [
+        "Por la autoridad gubernativa",
+        "En virtud de resolución judicial",
+        "Por el Ministerio Fiscal",
+        "Con autorización de las Cortes Generales"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 20.5 dispone: «Sólo podrá acordarse el secuestro de publicaciones, grabaciones y otros medios de información en virtud de resolución judicial.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-012",
+      "ley": "constitucion",
+      "articulo": "21.1",
+      "enunciado": "Según la Constitución, el ejercicio del derecho de reunión pacífica y sin armas:",
+      "opciones": [
+        "Necesita autorización previa de la autoridad",
+        "Necesita comunicación previa en todo caso",
+        "Solo puede ejercerse en locales cerrados",
+        "No necesitará autorización previa"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 21.1 reconoce «el derecho de reunión pacífica y sin armas. El ejercicio de este derecho no necesitará autorización previa.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-013",
+      "ley": "constitucion",
+      "articulo": "22.3",
+      "enunciado": "Las asociaciones constituidas al amparo del artículo 22 deberán inscribirse en un registro:",
+      "opciones": [
+        "A efectos constitutivos",
+        "Como requisito para adquirir personalidad jurídica",
+        "Para poder recibir ayudas públicas",
+        "A los solos efectos de publicidad"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 22.3 establece que esas asociaciones «deberán inscribirse en un registro a los solos efectos de publicidad».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-014",
+      "ley": "constitucion",
+      "articulo": "22.5",
+      "enunciado": "¿Qué asociaciones prohíbe expresamente el artículo 22.5 de la Constitución?",
+      "opciones": [
+        "Las secretas y las de carácter paramilitar",
+        "Las de carácter religioso o ideológico",
+        "Las que no estén inscritas en un registro",
+        "Las formadas por miembros de las Fuerzas Armadas"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 22.5 dispone: «Se prohíben las asociaciones secretas y las de carácter paramilitar.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-015",
+      "ley": "constitucion",
+      "articulo": "25.3",
+      "enunciado": "Según la Constitución, la Administración civil:",
+      "opciones": [
+        "Solo puede imponer multas de cuantía fijada por ley orgánica",
+        "No podrá imponer sanciones que impliquen privación de libertad",
+        "Puede imponer arresto domiciliario como sanción subsidiaria",
+        "No podrá imponer sanciones sin informe del Ministerio Fiscal"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 25.3 establece: «La Administración civil no podrá imponer sanciones que, directa o subsidiariamente, impliquen privación de libertad.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-016",
+      "ley": "constitucion",
+      "articulo": "25.2",
+      "enunciado": "Las penas privativas de libertad y las medidas de seguridad estarán orientadas hacia:",
+      "opciones": [
+        "La retribución y la prevención general",
+        "La reparación del daño causado a la víctima",
+        "La reeducación y reinserción social",
+        "El trabajo obligatorio del condenado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 25.2 dispone que «estarán orientadas hacia la reeducación y reinserción social y no podrán consistir en trabajos forzados».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-017",
+      "ley": "constitucion",
+      "articulo": "26",
+      "enunciado": "La Constitución prohíbe los Tribunales de Honor en el ámbito de:",
+      "opciones": [
+        "La Administración civil y las organizaciones profesionales",
+        "Las Fuerzas Armadas y la Guardia Civil",
+        "La Administración militar y los partidos políticos",
+        "Los sindicatos y las asociaciones empresariales"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 26 dispone: «Se prohíben los Tribunales de Honor en el ámbito de la Administración civil y de las organizaciones profesionales.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-018",
+      "ley": "constitucion",
+      "articulo": "27.4",
+      "enunciado": "Según la Constitución, la enseñanza básica es:",
+      "opciones": [
+        "Gratuita, pero no obligatoria",
+        "Obligatoria y gratuita",
+        "Obligatoria hasta los dieciocho años",
+        "Obligatoria y gratuita solo en centros públicos"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 27.4 establece: «La enseñanza básica es obligatoria y gratuita.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-019",
+      "ley": "constitucion",
+      "articulo": "28.1",
+      "enunciado": "Respecto al derecho de sindicación, la ley podrá limitarlo o exceptuarlo para:",
+      "opciones": [
+        "Los funcionarios públicos y el personal laboral de las Administraciones",
+        "Los jueces, magistrados y fiscales mientras se hallen en activo",
+        "El personal directivo y de alta dirección de las empresas públicas",
+        "Las Fuerzas o Institutos armados y los Cuerpos sometidos a disciplina militar"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 28.1 dispone: «La ley podrá limitar o exceptuar el ejercicio de este derecho a las Fuerzas o Institutos armados o a los demás Cuerpos sometidos a disciplina militar y regulará las peculiaridades de su ejercicio para los funcionarios públicos.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-020",
+      "ley": "constitucion",
+      "articulo": "29.2",
+      "enunciado": "Los miembros de las Fuerzas o Institutos armados pueden ejercer el derecho de petición:",
+      "opciones": [
+        "Solo de forma colectiva",
+        "Solo individualmente y con arreglo a su legislación específica",
+        "De forma individual y colectiva, sin limitación",
+        "Solo a través de sus mandos"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 29.2 establece que «podrán ejercer este derecho sólo individualmente y con arreglo a lo dispuesto en su legislación específica».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-021",
+      "ley": "constitucion",
+      "articulo": "31.1",
+      "enunciado": "Según la Constitución, el sistema tributario justo, inspirado en la igualdad y la progresividad:",
+      "opciones": [
+        "Tendrá un tipo máximo fijado por ley orgánica",
+        "Solo gravará la renta y el patrimonio",
+        "En ningún caso tendrá alcance confiscatorio",
+        "Se aplicará solo a quienes tengan capacidad contributiva suficiente"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 31.1 habla de «un sistema tributario justo inspirado en los principios de igualdad y progresividad que, en ningún caso, tendrá alcance confiscatorio».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-022",
+      "ley": "constitucion",
+      "articulo": "31.2",
+      "enunciado": "La programación y ejecución del gasto público responderán, según la Constitución, a los criterios de:",
+      "opciones": [
+        "Eficacia y transparencia",
+        "Estabilidad presupuestaria y sostenibilidad",
+        "Legalidad y equidad",
+        "Eficiencia y economía"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 31.2 dispone que el gasto público realizará una asignación equitativa de los recursos públicos, «y su programación y ejecución responderán a los criterios de eficiencia y economía».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-023",
+      "ley": "constitucion",
+      "articulo": "34.2",
+      "enunciado": "¿Qué apartados del artículo 22 rigen también para las fundaciones?",
+      "opciones": [
+        "Los apartados 2 y 4",
+        "Los apartados 1 y 3",
+        "Los apartados 3 y 5",
+        "Los apartados 2 y 5"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 34.2 dispone: «Regirá también para las fundaciones lo dispuesto en los apartados 2 y 4 del artículo 22.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-024",
+      "ley": "constitucion",
+      "articulo": "33.3",
+      "enunciado": "Según la Constitución, nadie podrá ser privado de sus bienes y derechos sino:",
+      "opciones": [
+        "Por resolución judicial firme y previo juicio contradictorio",
+        "Por ley orgánica aprobada por mayoría absoluta",
+        "Por causa justificada de utilidad pública o interés social, con indemnización",
+        "Por necesidad urgente declarada por el Gobierno"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 33.3 dispone que nadie podrá ser privado de sus bienes y derechos «sino por causa justificada de utilidad pública o interés social, mediante la correspondiente indemnización y de conformidad con lo dispuesto por las leyes».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-025",
+      "ley": "constitucion",
+      "articulo": "41",
+      "enunciado": "Respecto al régimen público de Seguridad Social, la Constitución establece que la asistencia y prestaciones complementarias:",
+      "opciones": [
+        "Serán obligatorias para todos los trabajadores",
+        "Serán libres",
+        "Las financiará el Estado",
+        "Solo podrán gestionarlas entidades públicas"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 41 termina así: «La asistencia y prestaciones complementarias serán libres.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-026",
+      "ley": "constitucion",
+      "articulo": "47",
+      "enunciado": "Según el artículo 47 de la Constitución, la comunidad participará en:",
+      "opciones": [
+        "Las plusvalías que genere la acción urbanística de los entes públicos",
+        "La planificación del suelo de uso residencial",
+        "Los beneficios de la promoción de vivienda privada",
+        "La gestión de las viviendas de protección oficial"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 47 dispone: «La comunidad participará en las plusvalías que genere la acción urbanística de los entes públicos.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-027",
+      "ley": "constitucion",
+      "articulo": "50",
+      "enunciado": "Durante la tercera edad, los poderes públicos garantizarán la suficiencia económica de los ciudadanos mediante:",
+      "opciones": [
+        "Un sistema de ahorro privado obligatorio",
+        "Prestaciones asistenciales de las familias",
+        "Pensiones adecuadas y periódicamente actualizadas",
+        "Pensiones mínimas fijadas cada cinco años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 50 dispone que los poderes públicos garantizarán, «mediante pensiones adecuadas y periódicamente actualizadas, la suficiencia económica a los ciudadanos durante la tercera edad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-028",
+      "ley": "constitucion",
+      "articulo": "53.1",
+      "enunciado": "El ejercicio de los derechos y libertades del Capítulo segundo del Título I solo podrá regularse:",
+      "opciones": [
+        "Por decreto legislativo",
+        "Por reglamento del Gobierno",
+        "Por ley o, en caso de urgencia, por decreto-ley",
+        "Por ley, que deberá respetar su contenido esencial"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 53.1 establece: «Sólo por ley, que en todo caso deberá respetar su contenido esencial, podrá regularse el ejercicio de tales derechos y libertades».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-029",
+      "ley": "constitucion",
+      "articulo": "53.3",
+      "enunciado": "Los principios rectores del Capítulo tercero del Título I:",
+      "opciones": [
+        "Solo podrán alegarse ante la Jurisdicción ordinaria según las leyes que los desarrollen",
+        "Pueden alegarse directamente en recurso de amparo",
+        "Se tutelan por un procedimiento de preferencia y sumariedad",
+        "No vinculan a los poderes públicos"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 53.3 dispone que los principios del Capítulo tercero «Sólo podrán ser alegados ante la Jurisdicción ordinaria de acuerdo con lo que dispongan las leyes que los desarrollen».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    },
+    {
+      "id": "der-030",
+      "ley": "constitucion",
+      "articulo": "55.1",
+      "enunciado": "¿Qué apartado del artículo 17 no puede suspenderse cuando se declara el estado de excepción?",
+      "opciones": [
+        "El apartado 1",
+        "El apartado 2",
+        "El apartado 4",
+        "El apartado 3"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 55.1 señala: «Se exceptúa de lo establecido anteriormente el apartado 3 del artículo 17 para el supuesto de declaración de estado de excepción.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 1
+      }
+    }
+  ]
+}
