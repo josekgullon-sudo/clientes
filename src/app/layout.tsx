@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Figtree, Nunito, Source_Serif_4 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { Analitica } from "@/components/analitica";
 import { AvisoCookies } from "@/components/aviso-cookies";
 import { SITIO } from "@/lib/sitio";
@@ -62,6 +63,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         {children}
         <Analitica />
         <AvisoCookies />
+        <Analytics />
       </body>
     </html>
   );
