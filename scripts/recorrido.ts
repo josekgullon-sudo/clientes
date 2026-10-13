@@ -80,6 +80,7 @@ async function main() {
   for (const [ruta, nombre] of [
     ["/", "home"],
     ["/test/constitucion", "seo-ley"],
+    ["/reto", "reto"],
     ["/legal/condiciones", "legal"],
   ]) {
     await p.goto(BASE + ruta, { waitUntil: "networkidle" });

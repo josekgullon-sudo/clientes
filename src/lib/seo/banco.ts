@@ -220,3 +220,34 @@ function idsDemo(): string[] {
 export function preguntasPublicasLocales(seleccion: string, fecha = new Date()): PreguntaTest[] {
   return paginaPublica(seleccion, fecha)?.preguntas ?? [];
 }
+
+/** Barajado estable: la misma semilla da siempre el mismo orden. */
+function barajar<T>(lista: T[], semilla: string): T[] {
+  let h = 2166136261;
+  for (const c of semilla) h = Math.imul(h ^ c.charCodeAt(0), 16777619);
+  const azar = () => {
+    h = Math.imul(h ^ (h >>> 15), 2246822507);
+    h = Math.imul(h ^ (h >>> 13), 3266489909);
+    return ((h ^= h >>> 16) >>> 0) / 4294967296;
+  };
+  const r = [...lista];
+  for (let i = r.length - 1; i > 0; i--) {
+    const j = Math.floor(azar() * (i + 1));
+    [r[i], r[j]] = [r[j], r[i]];
+  }
+  return r;
+}
+
+/**
+ * Preguntas del reto relámpago del día: las mismas para todo el mundo, sacadas solo de las
+ * que ya son públicas esa semana (demo, leyes y temas), para no regalar el banco completo.
+ */
+export function preguntasReto(dia: string, cuantas = 60): PreguntaTest[] {
+  const vistas = new Map<string, PreguntaTest>();
+  for (const slug of ["demo", ...rutasPublicas().map((r) => r.slug)]) {
+    for (const p of paginaPublica(slug, new Date(`${dia}T12:00:00Z`))?.preguntas ?? []) vistas.set(p.id, p);
+  }
+  // Las de enunciado largo no caben en un reto de 60 segundos.
+  const cortas = [...vistas.values()].filter((p) => p.enunciado.length <= 160);
+  return barajar(cortas, `reto-${dia}`).slice(0, cuantas);
+}

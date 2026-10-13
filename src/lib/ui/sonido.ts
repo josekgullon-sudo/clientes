@@ -49,4 +49,6 @@ export const sonidos = {
   acierto: () => notas([659.25, 987.77], { paso: 0.08, duracion: 0.25 }),
   fallo: () => notas([311.13, 233.08], { paso: 0.12, duracion: 0.28, tipo: "triangle", volumen: 0.09 }),
   fin: () => notas([523.25, 659.25, 783.99, 1046.5], { paso: 0.1, duracion: 0.35 }),
+  tic: () => notas([1318.5], { duracion: 0.06, volumen: 0.05, tipo: "square" }),
+  salida: () => notas([392, 523.25], { paso: 0.12, duracion: 0.2 }),
 };
