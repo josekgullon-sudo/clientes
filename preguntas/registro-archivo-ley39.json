@@ -1,0 +1,505 @@
+{
+  "descripcion": "Registro y archivo: Ley 39/2015 (arts. 16, 17, 26, 27, 28 y 31). Lote generado el 2026-10-13; citas comprobadas por script contra el texto consolidado del BOE (versión 2024-11-07).",
+  "preguntas": [
+    {
+      "id": "reg-001",
+      "ley": "ley-39-2015",
+      "articulo": "16.1",
+      "enunciado": "Según la Ley 39/2015, cada Administración dispondrá de un:",
+      "opciones": [
+        "Registro Central de Entrada y Salida",
+        "Registro Electrónico General",
+        "Archivo Electrónico de Documentos",
+        "Registro Único de Expedientes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 16.1 dispone: «Cada Administración dispondrá de un Registro Electrónico General, en el que se hará el correspondiente asiento de todo documento que sea presentado o que se reciba en cualquier órgano administrativo […]».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-002",
+      "ley": "ley-39-2015",
+      "articulo": "16.1",
+      "enunciado": "Las disposiciones de creación de los registros electrónicos se publicarán en:",
+      "opciones": [
+        "El diario oficial correspondiente",
+        "El Boletín Oficial del Estado, en todo caso",
+        "El Tablón Edictal Único",
+        "Solo la sede electrónica de acceso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 16.1, «Las disposiciones de creación de los registros electrónicos se publicarán en el diario oficial correspondiente y su texto íntegro deberá estar disponible para consulta en la sede electrónica de acceso al registro».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-003",
+      "ley": "ley-39-2015",
+      "articulo": "16.1",
+      "enunciado": "Las disposiciones de creación de registros electrónicos especificarán, en todo caso:",
+      "opciones": [
+        "El horario de las oficinas de asistencia y la dirección de cada una",
+        "Los funcionarios habilitados para expedir copias auténticas",
+        "Los trámites que pueden iniciarse y su plazo máximo de resolución",
+        "El órgano responsable de su gestión, la fecha y hora oficial y los días inhábiles"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 16.1 establece: «En todo caso, las disposiciones de creación de registros electrónicos especificarán el órgano o unidad responsable de su gestión, así como la fecha y hora oficial y los días declarados como inhábiles».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-004",
+      "ley": "ley-39-2015",
+      "articulo": "16.2",
+      "enunciado": "Los asientos en el registro se anotarán respetando:",
+      "opciones": [
+        "El orden alfabético de los interesados",
+        "El orden de prioridad que fije el órgano destinatario",
+        "El orden temporal de recepción o salida de los documentos",
+        "El orden de urgencia del asunto tramitado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 16.2 dispone: «Los asientos se anotarán respetando el orden temporal de recepción o salida de los documentos, e indicarán la fecha del día en que se produzcan».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-005",
+      "ley": "ley-39-2015",
+      "articulo": "16.2",
+      "enunciado": "Concluido el trámite de registro, los documentos serán cursados a sus destinatarios:",
+      "opciones": [
+        "Sin dilación",
+        "En el plazo de tres días",
+        "En el plazo de diez días",
+        "Dentro de las veinticuatro horas siguientes"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 16.2, «Concluido el trámite de registro, los documentos serán cursados sin dilación a sus destinatarios y a las unidades administrativas correspondientes […]».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-006",
+      "ley": "ley-39-2015",
+      "articulo": "16.3",
+      "enunciado": "El recibo que emite automáticamente el registro electrónico consiste en:",
+      "opciones": [
+        "Un justificante de entrega, sin valor de copia, con la fecha de presentación",
+        "Una copia simple del documento, sin indicación de hora",
+        "Una copia autenticada del documento, con fecha, hora y número de entrada",
+        "Un certificado de presentación expedido por el responsable del registro"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 16.3 prevé que «se emitirá automáticamente un recibo consistente en una copia autenticada del documento de que se trate, incluyendo la fecha y hora de presentación y el número de entrada de registro».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-007",
+      "ley": "ley-39-2015",
+      "articulo": "16.3",
+      "enunciado": "¿Cuál de estos datos NO figura entre los que el registro electrónico debe hacer constar en cada asiento?",
+      "opciones": [
+        "Un número y un epígrafe expresivo de su naturaleza",
+        "La fecha y hora de su presentación",
+        "La identificación del interesado",
+        "El plazo máximo para resolver y notificar"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 16.3 exige la constancia, en cada asiento, «de un número, epígrafe expresivo de su naturaleza, fecha y hora de su presentación, identificación del interesado, órgano administrativo remitente, si procede, y persona u órgano administrativo al que se envía, y, en su caso, referencia al contenido del documento que se registra».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-008",
+      "ley": "ley-39-2015",
+      "articulo": "16.4.c",
+      "enunciado": "Los documentos dirigidos a las Administraciones Públicas podrán presentarse, entre otros lugares, en:",
+      "opciones": [
+        "Las notarías, en la forma que reglamentariamente se establezca",
+        "Las representaciones diplomáticas u oficinas consulares de España en el extranjero",
+        "Las oficinas de las entidades bancarias colaboradoras",
+        "Los registros de la propiedad y mercantiles"
+      ],
+      "correcta": 1,
+      "explicacion": "Entre los lugares de presentación, el artículo 16.4 incluye: «En las representaciones diplomáticas u oficinas consulares de España en el extranjero».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-009",
+      "ley": "ley-39-2015",
+      "articulo": "16.5",
+      "enunciado": "Los documentos presentados de manera presencial deberán ser digitalizados por:",
+      "opciones": [
+        "El órgano destinatario, al recibirlos en papel",
+        "El propio interesado, antes de presentarlos",
+        "La oficina de asistencia en materia de registros donde se presentaron",
+        "El archivo electrónico único de cada Administración"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 16.5 dispone que deberán ser digitalizados «por la oficina de asistencia en materia de registros en la que hayan sido presentados para su incorporación al expediente administrativo electrónico».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-010",
+      "ley": "ley-39-2015",
+      "articulo": "16.5",
+      "enunciado": "Digitalizados los documentos presentados en persona, como regla general, los originales:",
+      "opciones": [
+        "Se devuelven al interesado",
+        "Se destruyen de forma inmediata",
+        "Se remiten al archivo del órgano destinatario",
+        "Se custodian en la oficina durante cuatro años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 16.5 indica que se digitalizan para su incorporación al expediente, «devolviéndose los originales al interesado, sin perjuicio de aquellos supuestos en que la norma determine la custodia por la Administración de los documentos presentados […]».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-011",
+      "ley": "ley-39-2015",
+      "articulo": "16.8",
+      "enunciado": "Según el artículo 16.8, no se tendrán por presentados en el registro:",
+      "opciones": [
+        "Los documentos presentados en un día inhábil",
+        "Los documentos presentados en las oficinas de Correos",
+        "Los documentos que no vayan acompañados de copia",
+        "Los documentos cuyo régimen especial establezca otra forma de presentación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 16.8 dispone: «No se tendrán por presentados en el registro aquellos documentos e información cuyo régimen especial establezca otra forma de presentación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-012",
+      "ley": "ley-39-2015",
+      "articulo": "17.1",
+      "enunciado": "El archivo electrónico único de cada Administración guarda los documentos electrónicos de:",
+      "opciones": [
+        "Procedimientos en tramitación",
+        "Procedimientos finalizados",
+        "Procedimientos iniciados en los últimos cinco años",
+        "Procedimientos sancionadores, exclusivamente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 17.1 establece: «Cada Administración deberá mantener un archivo electrónico único de los documentos electrónicos que correspondan a procedimientos finalizados […]».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-013",
+      "ley": "ley-39-2015",
+      "articulo": "17.2",
+      "enunciado": "La eliminación de los documentos electrónicos archivados:",
+      "opciones": [
+        "Es automática al finalizar el procedimiento",
+        "La decide libremente el órgano que los custodia",
+        "Debe ser autorizada conforme a la normativa aplicable",
+        "Está prohibida en todo caso"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 17.2, «La eliminación de dichos documentos deberá ser autorizada de acuerdo a lo dispuesto en la normativa aplicable».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-014",
+      "ley": "ley-39-2015",
+      "articulo": "26.1",
+      "enunciado": "Según la Ley 39/2015, son documentos públicos administrativos:",
+      "opciones": [
+        "Los válidamente emitidos por los órganos de las Administraciones Públicas",
+        "Los presentados por los interesados en cualquier registro público",
+        "Los que constan en un archivo público, sea cual sea su origen",
+        "Los autorizados por notario o por funcionario habilitado"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 26.1 dispone: «Se entiende por documentos públicos administrativos los válidamente emitidos por los órganos de las Administraciones Públicas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-015",
+      "ley": "ley-39-2015",
+      "articulo": "26.2",
+      "enunciado": "¿Cuál de estos NO es un requisito de validez de los documentos electrónicos administrativos?",
+      "opciones": [
+        "Incorporar una referencia temporal del momento de su emisión",
+        "Haber sido notificados al interesado por comparecencia en la sede",
+        "Incorporar los metadatos mínimos exigidos",
+        "Disponer de datos de identificación que permitan su individualización"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 26.2 exige, entre otros requisitos, «Incorporar una referencia temporal del momento en que han sido emitidos» e «Incorporar los metadatos mínimos exigidos». La notificación no figura entre ellos.",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-016",
+      "ley": "ley-39-2015",
+      "articulo": "26.3",
+      "enunciado": "No requerirán de firma electrónica los documentos electrónicos emitidos por las Administraciones que:",
+      "opciones": [
+        "Pongan fin al procedimiento administrativo",
+        "Sean actos de trámite cualificados",
+        "Sean copias auténticas de documentos en papel",
+        "Se publiquen con carácter meramente informativo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 26.3 dispone: «No requerirán de firma electrónica, los documentos electrónicos emitidos por las Administraciones Públicas que se publiquen con carácter meramente informativo, así como aquellos que no formen parte de un expediente administrativo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-017",
+      "ley": "ley-39-2015",
+      "articulo": "27.1",
+      "enunciado": "Las copias auténticas de documentos privados surten:",
+      "opciones": [
+        "Únicamente efectos administrativos",
+        "Plenos efectos civiles y mercantiles",
+        "Efectos solo ante el órgano que las expidió",
+        "Los mismos efectos que una escritura pública"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 27.1 establece: «Las copias auténticas de documentos privados surten únicamente efectos administrativos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-018",
+      "ley": "ley-39-2015",
+      "articulo": "27.1",
+      "enunciado": "En el registro de funcionarios habilitados para expedir copias auténticas constarán, al menos, los que presten servicios en:",
+      "opciones": [
+        "Las unidades de archivo central de cada departamento",
+        "Las secretarías generales técnicas",
+        "Las oficinas de asistencia en materia de registros",
+        "Las unidades de información y atención al ciudadano"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 27.1, «En este registro o sistema equivalente constarán, al menos, los funcionarios que presten servicios en las oficinas de asistencia en materia de registros».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-019",
+      "ley": "ley-39-2015",
+      "articulo": "27.2",
+      "enunciado": "Las copias auténticas tienen, respecto de los documentos originales:",
+      "opciones": [
+        "Validez, pero solo eficacia probatoria",
+        "La misma validez y eficacia",
+        "Menor eficacia, salvo que se cotejen",
+        "Eficacia solo dentro del procedimiento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 27.2 dispone: «Las copias auténticas tendrán la misma validez y eficacia que los documentos originales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-020",
+      "ley": "ley-39-2015",
+      "articulo": "27.4",
+      "enunciado": "Solicitada la expedición de una copia auténtica de un documento público administrativo, deberá expedirse en el plazo de:",
+      "opciones": [
+        "Diez días",
+        "Veinte días",
+        "Un mes",
+        "Quince días"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 27.4, debe expedirse «en el plazo de quince días a contar desde la recepción de la solicitud en el registro electrónico de la Administración u Organismo competente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-021",
+      "ley": "ley-39-2015",
+      "articulo": "28.2",
+      "enunciado": "Los informes preceptivos ya elaborados por un órgano distinto al que tramita deben remitirse en el plazo de:",
+      "opciones": [
+        "Cinco días desde su solicitud",
+        "Quince días desde su solicitud",
+        "Diez días desde su solicitud",
+        "Un mes desde su solicitud"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 28.2 dispone que esos informes «deberán ser remitidos en el plazo de diez días a contar desde su solicitud».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-022",
+      "ley": "ley-39-2015",
+      "articulo": "28.2",
+      "enunciado": "El interesado no puede oponerse a que la Administración recabe documentos en su poder cuando se exijan en el ejercicio de potestades:",
+      "opciones": [
+        "Sancionadoras o de inspección",
+        "Tributarias o recaudatorias",
+        "Expropiatorias o de policía",
+        "Disciplinarias o de revisión de oficio"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 28.2, «No cabrá la oposición cuando la aportación del documento se exigiera en el marco del ejercicio de potestades sancionadoras o de inspección».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-023",
+      "ley": "ley-39-2015",
+      "articulo": "28.6",
+      "enunciado": "Las copias que aporten los interesados al procedimiento administrativo tendrán eficacia:",
+      "opciones": [
+        "Ante cualquier persona física o jurídica",
+        "Solo en el ámbito de la actividad de las Administraciones Públicas",
+        "Solo ante el órgano que tramita el procedimiento",
+        "Ante las Administraciones y los órganos judiciales"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 28.6 establece: «Las copias que aporten los interesados al procedimiento administrativo tendrán eficacia, exclusivamente en el ámbito de la actividad de las Administraciones Públicas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-024",
+      "ley": "ley-39-2015",
+      "articulo": "31.2.a",
+      "enunciado": "El registro electrónico permitirá la presentación de documentos:",
+      "opciones": [
+        "Solo los días hábiles, durante las veinticuatro horas",
+        "Todos los días del año, de 8 a 20 horas",
+        "Solo en el horario de las oficinas de asistencia",
+        "Todos los días del año durante las veinticuatro horas"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 31.2.a) dispone que el registro electrónico «Permitirá la presentación de documentos todos los días del año durante las veinticuatro horas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "reg-025",
+      "ley": "ley-39-2015",
+      "articulo": "31.2.b",
+      "enunciado": "Con carácter general, a efectos de plazos en días hábiles, la presentación electrónica en día inhábil se entiende hecha:",
+      "opciones": [
+        "En la primera hora del primer día hábil siguiente",
+        "A las doce horas del primer día hábil siguiente",
+        "En la misma fecha y hora en que se presentó",
+        "En la última hora del primer día hábil siguiente"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 31.2.b), «la presentación en un día inhábil se entenderá realizada en la primera hora del primer día hábil siguiente salvo que una norma permita expresamente la recepción en día inhábil».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    }
+  ]
+}

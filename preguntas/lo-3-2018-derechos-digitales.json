@@ -1,0 +1,505 @@
+{
+  "descripcion": "LO 3/2018: ejercicio de derechos, delegado de protección de datos, Agencia Española de Protección de Datos, régimen sancionador y derechos digitales. Lote generado el 2026-10-13 contra el texto consolidado del BOE (versión 2025-12-28).",
+  "preguntas": [
+    {
+      "id": "pdd-001",
+      "ley": "lo-3-2018",
+      "articulo": "12.6",
+      "enunciado": "Los titulares de la patria potestad pueden ejercitar en nombre y representación de los menores los derechos de acceso, rectificación u oposición si son menores de:",
+      "opciones": [
+        "Catorce años",
+        "Dieciséis años",
+        "Doce años",
+        "Dieciocho años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 12.6 dispone que «los titulares de la patria potestad podrán ejercitar en nombre y representación de los menores de catorce años los derechos de acceso, rectificación, cancelación, oposición […]».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-002",
+      "ley": "lo-3-2018",
+      "articulo": "12.4",
+      "enunciado": "La prueba del cumplimiento del deber de responder a la solicitud de ejercicio de derechos del afectado recae sobre:",
+      "opciones": [
+        "El encargado del tratamiento",
+        "El responsable del tratamiento",
+        "El delegado de protección de datos",
+        "El propio afectado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 12.4 establece que la prueba del cumplimiento del deber de responder a la solicitud «recaerá sobre el responsable».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-003",
+      "ley": "lo-3-2018",
+      "articulo": "12.3",
+      "enunciado": "El encargado puede tramitar, por cuenta del responsable, las solicitudes de ejercicio de derechos de los afectados:",
+      "opciones": [
+        "Solo si lo autoriza la Agencia Española de Protección de Datos",
+        "Siempre que lo solicite el propio afectado",
+        "Si así se establece en el contrato o acto jurídico que les vincule",
+        "Únicamente cuando el responsable no haya designado delegado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 12.3 dice que el encargado podrá tramitar las solicitudes «si así se estableciere en el contrato o acto jurídico que les vincule».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-004",
+      "ley": "lo-3-2018",
+      "articulo": "13.2",
+      "enunciado": "El derecho de acceso se entiende otorgado si el responsable facilita al afectado un sistema de acceso a sus datos que sea:",
+      "opciones": [
+        "Presencial, gratuito y confidencial",
+        "Electrónico, gratuito y verificable",
+        "Remoto, cifrado y temporal",
+        "Remoto, directo y seguro"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 13.2, el derecho de acceso se entenderá otorgado si el responsable facilitara «un sistema de acceso remoto, directo y seguro a los datos personales que garantice, de modo permanente, el acceso a su totalidad».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-005",
+      "ley": "lo-3-2018",
+      "articulo": "13.4",
+      "enunciado": "Si el afectado elige para el acceso un medio distinto al ofrecido que supone un coste desproporcionado, su solicitud se considera:",
+      "opciones": [
+        "Excesiva",
+        "Repetitiva",
+        "Improcedente",
+        "Abusiva"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 13.4 indica que en ese caso «la solicitud será considerada excesiva, por lo que dicho afectado asumirá el exceso de costes que su elección comporte».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-006",
+      "ley": "lo-3-2018",
+      "articulo": "14",
+      "enunciado": "Al ejercer el derecho de rectificación, el afectado debe indicar en su solicitud:",
+      "opciones": [
+        "El motivo por el que se opone al tratamiento",
+        "A qué datos se refiere y la corrección que haya de realizarse",
+        "El responsable al que desea transmitir sus datos",
+        "El plazo en que debe atenderse su petición"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 14 establece que el afectado «deberá indicar en su solicitud a qué datos se refiere y la corrección que haya de realizarse».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-007",
+      "ley": "lo-3-2018",
+      "articulo": "15.2",
+      "enunciado": "Si la supresión deriva del ejercicio del derecho de oposición, el responsable puede conservar los datos identificativos del afectado para:",
+      "opciones": [
+        "Atender posibles reclamaciones judiciales",
+        "Elaborar estadísticas internas",
+        "Impedir tratamientos futuros con fines de mercadotecnia directa",
+        "Cumplir obligaciones de archivo en interés público"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 15.2 permite al responsable «conservar los datos identificativos del afectado necesarios con el fin de impedir tratamientos futuros para fines de mercadotecnia directa».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-008",
+      "ley": "lo-3-2018",
+      "articulo": "34.1.ñ",
+      "enunciado": "¿Cuál de estas entidades debe designar en todo caso un delegado de protección de datos según el artículo 34.1 de la LO 3/2018?",
+      "opciones": [
+        "Los profesionales sanitarios que ejerzan a título individual",
+        "Las comunidades de propietarios",
+        "Las asociaciones culturales sin ánimo de lucro",
+        "Las empresas de seguridad privada"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 34.1 incluye entre las entidades obligadas, en su letra ñ), «Las empresas de seguridad privada». En cambio, se exceptúan «los profesionales de la salud que […] ejerzan su actividad a título individual».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-009",
+      "ley": "lo-3-2018",
+      "articulo": "34.3",
+      "enunciado": "Las designaciones, nombramientos y ceses de los delegados de protección de datos se comunican a la autoridad de protección de datos en el plazo de:",
+      "opciones": [
+        "Diez días",
+        "Un mes",
+        "Quince días",
+        "Cinco días"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 34.3 dispone que los responsables y encargados «comunicarán en el plazo de diez días a la Agencia Española de Protección de Datos […] las designaciones, nombramientos y ceses de los delegados de protección de datos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-010",
+      "ley": "lo-3-2018",
+      "articulo": "36.2",
+      "enunciado": "El delegado de protección de datos que sea persona física integrada en la organización solo puede ser removido o sancionado por desempeñar sus funciones si incurre en:",
+      "opciones": [
+        "Cualquier incumplimiento de sus funciones",
+        "Dolo o negligencia grave en su ejercicio",
+        "Falta de titulación universitaria acreditada",
+        "Conflicto de intereses con el responsable"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 36.2, el delegado «no podrá ser removido ni sancionado por el responsable o el encargado por desempeñar sus funciones salvo que incurriera en dolo o negligencia grave en su ejercicio».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-011",
+      "ley": "lo-3-2018",
+      "articulo": "37.1",
+      "enunciado": "Si el afectado se dirige al delegado de protección de datos antes de reclamar ante la autoridad, el delegado le comunica la decisión en el plazo máximo de:",
+      "opciones": [
+        "Un mes",
+        "Tres meses",
+        "Dos meses",
+        "Seis meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 37.1 establece que el delegado «comunicará al afectado la decisión que se hubiera adoptado en el plazo máximo de dos meses a contar desde la recepción de la reclamación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-012",
+      "ley": "lo-3-2018",
+      "articulo": "37.2",
+      "enunciado": "La autoridad de protección de datos puede remitir una reclamación al delegado de protección de datos para que responda en el plazo de:",
+      "opciones": [
+        "Diez días",
+        "Dos meses",
+        "Quince días",
+        "Un mes"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 37.2 prevé que la autoridad podrá «remitir la reclamación al delegado de protección de datos a fin de que este responda en el plazo de un mes».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-013",
+      "ley": "lo-3-2018",
+      "articulo": "44.2",
+      "enunciado": "La Agencia Española de Protección de Datos tiene la condición de representante común de las autoridades de protección de datos españolas en:",
+      "opciones": [
+        "El Comité Europeo de Protección de Datos",
+        "El Consejo de Europa",
+        "La Comisión Europea",
+        "El Supervisor Europeo de Protección de Datos"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 44.2 dispone que la Agencia «tendrá la condición de representante común de las autoridades de protección de datos del Reino de España en el Comité Europeo de Protección de Datos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-014",
+      "ley": "lo-3-2018",
+      "articulo": "46.2",
+      "enunciado": "La Presidencia de la Agencia Española de Protección de Datos puede autorizar modificaciones presupuestarias que impliquen hasta un:",
+      "opciones": [
+        "Uno por ciento de su presupuesto total de gastos",
+        "Tres por ciento de la cifra inicial de su presupuesto total de gastos",
+        "Cinco por ciento de la cifra inicial de su presupuesto total de gastos",
+        "Diez por ciento de su presupuesto total de gastos"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 46.2 atribuye a la Presidencia «autorizar las modificaciones presupuestarias que impliquen hasta un tres por ciento de la cifra inicial de su presupuesto total de gastos, siempre que no se incrementen los créditos para gastos de personal».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-015",
+      "ley": "lo-3-2018",
+      "articulo": "48.6",
+      "enunciado": "Los actos y disposiciones de la Presidencia de la Agencia Española de Protección de Datos son recurribles directamente ante:",
+      "opciones": [
+        "El Tribunal Supremo",
+        "El Consejo de Ministros",
+        "La Sala de lo Contencioso-administrativo de la Audiencia Nacional",
+        "Los Juzgados Centrales de lo Contencioso-administrativo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 48.6 dice que estos actos «ponen fin a la vía administrativa, siendo recurribles, directamente, ante la Sala de lo Contencioso-administrativo de la Audiencia Nacional».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-016",
+      "ley": "lo-3-2018",
+      "articulo": "48.3",
+      "enunciado": "La propuesta de Presidencia y Adjunto de la Agencia debe ser ratificada por la Comisión de Justicia del Congreso, en primera votación, por mayoría de:",
+      "opciones": [
+        "Dos tercios de sus miembros",
+        "Absoluta de sus miembros",
+        "Simple de los presentes",
+        "Tres quintos de sus miembros"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 48.3 exige la ratificación por la Comisión de Justicia «en votación pública por mayoría de tres quintos de sus miembros en primera votación o, de no alcanzarse ésta, por mayoría absoluta en segunda votación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-017",
+      "ley": "lo-3-2018",
+      "articulo": "49.4",
+      "enunciado": "El Consejo Consultivo de la Agencia Española de Protección de Datos se reúne, en todo caso:",
+      "opciones": [
+        "Una vez al semestre",
+        "Una vez al trimestre",
+        "Una vez al año",
+        "Una vez al mes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 49.4 establece que el Consejo Consultivo se reunirá cuando lo disponga la Presidencia «y, en todo caso, una vez al semestre».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-018",
+      "ley": "lo-3-2018",
+      "articulo": "49.5",
+      "enunciado": "Las decisiones tomadas por el Consejo Consultivo de la Agencia Española de Protección de Datos:",
+      "opciones": [
+        "Son vinculantes para la Presidencia",
+        "No tienen en ningún caso carácter vinculante",
+        "Solo vinculan en materia sancionadora",
+        "Requieren ratificación del Gobierno"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 49.5 dispone: «Las decisiones tomadas por el Consejo Consultivo no tendrán en ningún caso carácter vinculante».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-019",
+      "ley": "lo-3-2018",
+      "articulo": "64.2",
+      "enunciado": "El procedimiento de la AEPD para determinar la posible existencia de una infracción tiene una duración máxima, desde el acuerdo de inicio, de:",
+      "opciones": [
+        "Seis meses",
+        "Dieciocho meses",
+        "Doce meses",
+        "Nueve meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 64.2 señala que «el procedimiento tendrá una duración máxima de doce meses a contar desde la fecha del acuerdo de inicio».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-020",
+      "ley": "lo-3-2018",
+      "articulo": "64.1",
+      "enunciado": "En el procedimiento por falta de atención de una solicitud de ejercicio de derechos, si transcurren seis meses sin resolver, el interesado:",
+      "opciones": [
+        "Debe reiterar su reclamación",
+        "Puede considerar desestimada su reclamación",
+        "Puede acudir al delegado de protección de datos",
+        "Puede considerar estimada su reclamación"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 64.1, el plazo para resolver es de seis meses y, «transcurrido ese plazo, el interesado podrá considerar estimada su reclamación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-021",
+      "ley": "lo-3-2018",
+      "articulo": "67.2",
+      "enunciado": "Las actuaciones previas de investigación de la AEPD no pueden durar más de:",
+      "opciones": [
+        "Dieciocho meses",
+        "Doce meses",
+        "Seis meses",
+        "Veinticuatro meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 67.2 dispone que las actuaciones previas de investigación «no podrán tener una duración superior a dieciocho meses».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-022",
+      "ley": "lo-3-2018",
+      "articulo": "76.4",
+      "enunciado": "Se publica en el BOE la identidad del infractor sancionado por la AEPD cuando sea persona jurídica y la sanción supere:",
+      "opciones": [
+        "Trescientos mil euros",
+        "Un millón de euros",
+        "Quinientos mil euros",
+        "Veinte millones de euros"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 76.4 prevé esa publicación cuando la autoridad competente sea la Agencia, «la sanción fuese superior a un millón de euros y el infractor sea una persona jurídica».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-023",
+      "ley": "lo-3-2018",
+      "articulo": "78.1.b",
+      "enunciado": "Las sanciones por importe comprendido entre 40.001 y 300.000 euros impuestas en aplicación de la LO 3/2018 prescriben:",
+      "opciones": [
+        "Al año",
+        "A los tres años",
+        "A los dos años",
+        "A los cinco años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 78.1.b) dispone: «Las sanciones por importe comprendido entre 40.001 y 300.000 euros prescriben a los dos años».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-024",
+      "ley": "lo-3-2018",
+      "articulo": "94.3",
+      "enunciado": "Si una persona pide suprimir de una red social datos facilitados durante su minoría de edad, el prestador debe suprimirlos:",
+      "opciones": [
+        "En el plazo de un mes",
+        "Solo si los facilitó un tercero",
+        "Previa autorización de sus representantes legales",
+        "Sin dilación, por su simple solicitud"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 94.3 dispone que, respecto de datos facilitados durante su minoría de edad, «el prestador deberá proceder sin dilación a su supresión por su simple solicitud».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    },
+    {
+      "id": "pdd-025",
+      "ley": "lo-3-2018",
+      "articulo": "89.2",
+      "enunciado": "¿En qué lugares no se admite en ningún caso la instalación de sistemas de videovigilancia o grabación de sonidos en el trabajo?",
+      "opciones": [
+        "En los destinados al descanso o esparcimiento, como vestuarios, aseos o comedores",
+        "En los accesos y zonas de entrada al centro de trabajo",
+        "En las oficinas de atención al público",
+        "En los almacenes y zonas de carga"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 89.2 dispone que «en ningún caso se admitirá la instalación de sistemas de grabación de sonidos ni de videovigilancia en lugares destinados al descanso o esparcimiento de los trabajadores o los empleados públicos, tales como vestuarios, aseos, comedores y análogos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-28",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 12
+      }
+    }
+  ]
+}

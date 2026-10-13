@@ -364,7 +364,7 @@
     {
       "id": "pd-019",
       "ley": "lo-3-2018",
-      "articulo": "12.2",
+      "articulo": "12.1",
       "enunciado": "Los derechos de los artículos 15 a 22 del Reglamento (UE) 2016/679 pueden ejercerse:",
       "opciones": [
         "Solo directamente por el afectado",
@@ -373,7 +373,7 @@
         "Directamente o por medio de representante legal o voluntario"
       ],
       "correcta": 3,
-      "explicacion": "El artículo 12.2 dice que estos derechos «podrán ejercerse directamente o por medio de representante legal o voluntario».",
+      "explicacion": "El artículo 12.1 dice que estos derechos «podrán ejercerse directamente o por medio de representante legal o voluntario».",
       "dificultad": 1,
       "fecha_version_boe": "2025-12-28",
       "estado": "validada",
@@ -384,7 +384,7 @@
     {
       "id": "pd-020",
       "ley": "lo-3-2018",
-      "articulo": "12.4",
+      "articulo": "12.7",
       "enunciado": "Las actuaciones del responsable para atender las solicitudes de ejercicio de derechos son, como regla general:",
       "opciones": [
         "De pago según tarifa oficial",
@@ -393,7 +393,7 @@
         "Gratuitas solo la primera vez cada año"
       ],
       "correcta": 2,
-      "explicacion": "El artículo 12 dice: «Serán gratuitas las actuaciones llevadas a cabo por el responsable del tratamiento para atender las solicitudes de ejercicio de estos derechos», sin perjuicio de lo previsto en el Reglamento.",
+      "explicacion": "El artículo 12.7 dice: «Serán gratuitas las actuaciones llevadas a cabo por el responsable del tratamiento para atender las solicitudes de ejercicio de estos derechos», sin perjuicio de lo previsto en el Reglamento.",
       "dificultad": 2,
       "fecha_version_boe": "2025-12-28",
       "estado": "validada",
