@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Crown, Receipt, RotateCcw, ShieldCheck } from "lucide-react";
+import { Receipt, RotateCcw, ShieldCheck } from "lucide-react";
+import { Clara } from "@/components/mascota/clara";
 import { redirect } from "next/navigation";
 import { Cabecera } from "@/components/cabecera";
 import { Pie } from "@/components/pie";
@@ -36,10 +37,8 @@ export default async function Suscripcion({ searchParams }: PageProps<"/suscripc
       <Cabecera inicio="/app" derecha={<Link href="/app" className="inline-flex min-h-11 items-center rounded-xl px-3 font-semibold hover:bg-papel-hundido">Volver</Link>} />
       <main className="mx-auto w-full max-w-3xl flex-1 px-4 pt-8 pb-16">
         <div className="text-center">
-          <span className="mx-auto grid size-14 place-items-center rounded-2xl bg-oro-suave text-oro-texto">
-            <Crown aria-hidden size={28} />
-          </span>
-          <h1 className="mt-4 font-serif text-[2.25rem] leading-tight font-semibold">
+          <Clara pose="premium" className="mx-auto size-32" />
+          <h1 className="mt-4 font-display text-[2.25rem] leading-tight font-extrabold">
             {motivo ? motivo.titulo : "Pasa a Premium"}
           </h1>
           <p className="mx-auto mt-2 max-w-md text-pizarra">

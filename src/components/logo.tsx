@@ -15,7 +15,7 @@ export function Logo() {
   return (
     <span className="inline-flex items-center gap-2.5" aria-label={SITIO.nombre}>
       <MarcaLogo />
-      <span className="font-serif text-[1.125rem] leading-none font-semibold tracking-tight whitespace-nowrap sm:text-xl" aria-hidden="true">
+      <span className="font-display text-[1.125rem] leading-none font-extrabold tracking-tight whitespace-nowrap sm:text-xl" aria-hidden="true">
         Oposiciones <span className="subrayado">Claras</span>
       </span>
     </span>

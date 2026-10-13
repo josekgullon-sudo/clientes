@@ -121,7 +121,7 @@ async function main() {
   await p.waitForLoadState("networkidle");
   await foto(p, "panel");
 
-  const continuar = p.getByRole("button", { name: /^Empezar lección|^Continuar|^Hacer 10/ }).first();
+  const continuar = p.getByRole("button", { name: /^Empezar ·|^Empezar lección|^Hacer 10/ }).first();
   if (await continuar.isVisible()) {
     await continuar.click();
     await p.waitForURL(/\/app\/test\//);

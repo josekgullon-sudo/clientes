@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Check } from "lucide-react";
+import { Clara } from "@/components/mascota/clara";
 import { redirect } from "next/navigation";
 import { Cabecera } from "@/components/cabecera";
 import { supabaseServidor } from "@/lib/supabase/servidor";
@@ -30,11 +31,12 @@ export default async function Entrar({ searchParams }: PageProps<"/entrar">) {
     <>
       <Cabecera derecha={null} />
       <main className="mx-auto w-full max-w-md flex-1 px-4 pt-8 pb-16">
-        <h1 className="font-serif text-[2.25rem] leading-tight font-semibold">
+        <Clara pose="hola" className="mx-auto size-28" />
+        <h1 className="mt-4 text-center font-display text-[2.25rem] leading-tight font-extrabold">
           {registro ? "Crea tu cuenta gratis" : "Hola de nuevo"}
         </h1>
         {registro ? (
-          <ul className="mt-4 flex flex-col gap-2">
+          <ul className="mx-auto mt-4 flex w-fit flex-col gap-2">
             {["10 preguntas al día, con su explicación", "Tu racha y tu progreso por tema", "Los fallos de tu test, guardados"].map((t) => (
               <li key={t} className="flex items-center gap-2.5">
                 <span className="grid size-5 shrink-0 place-items-center rounded-full bg-pino-suave text-pino" aria-hidden="true">
@@ -45,7 +47,7 @@ export default async function Entrar({ searchParams }: PageProps<"/entrar">) {
             ))}
           </ul>
         ) : (
-          <p className="mt-2 text-pizarra">Entra con tu cuenta de Google o con tu correo.</p>
+          <p className="mt-2 text-center text-pizarra">¡Qué bien verte! Entra con Google o con tu correo.</p>
         )}
         {error && (
           <p role="alert" className="mt-6 rounded-xl border border-teja bg-teja-suave p-3">

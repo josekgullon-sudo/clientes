@@ -135,7 +135,7 @@ export default async function TestLey({ params }: PageProps<"/test/[ley]">) {
           <span>{pagina.tipo === "ley" ? "Test por ley" : `Bloque ${pagina.tema?.bloque}`}</span>
         </nav>
         <p className="antetitulo mt-6">Auxiliar Administrativo del Estado</p>
-        <h1 className="mt-2 font-serif text-[2.25rem] leading-[1.1] font-semibold md:text-[2.75rem]">{pagina.h1}</h1>
+        <h1 className="mt-2 font-display text-[2.25rem] leading-[1.1] font-extrabold md:text-[2.75rem]">{pagina.h1}</h1>
         {entradilla && <p className="mt-4 text-lg text-pizarra">{entradilla}</p>}
 
         <ul className="mt-6 flex flex-wrap gap-2 text-sm font-semibold">
@@ -176,7 +176,7 @@ export default async function TestLey({ params }: PageProps<"/test/[ley]">) {
 
         {resto.length > 0 && (
           <section aria-labelledby="sobre" className="mt-12">
-            <h2 id="sobre" className="font-serif text-2xl font-semibold">
+            <h2 id="sobre" className="font-display text-2xl font-extrabold">
               {pagina.tipo === "ley" ? "Sobre esta ley en el examen" : "Sobre este tema"}
             </h2>
             {resto.map((p) => (

@@ -3,6 +3,8 @@
 import { ArrowRight, BookOpen, Check, RotateCcw, X } from "lucide-react";
 import { useState } from "react";
 import { EnlaceBoton } from "@/components/boton";
+import { Clara } from "@/components/mascota/clara";
+import { sonidos } from "@/lib/ui/sonido";
 import { Cita } from "@/components/cita";
 import { evento } from "@/components/evento";
 import { LETRAS, type PreguntaTest } from "@/lib/test/tipos";
@@ -22,18 +24,25 @@ export function PreguntaPortada({ preguntas }: { preguntas: PreguntaTest[] }) {
   function elegir(i: number) {
     if (respondida) return;
     setElegida(i);
+    if (i === p.correcta) sonidos.acierto();
+    else sonidos.fallo();
     evento("home_pregunta", { acierto: i === p.correcta ? 1 : 0 });
   }
 
   return (
+    <div className="relative mt-14">
+      <Clara
+        key={`${p.id}-${elegida}`}
+        pose={!respondida ? "hola" : acierto ? "celebra" : "animo"}
+        className="absolute -top-[4.75rem] right-3 z-10 size-24"
+      />
     <div className="tarjeta overflow-hidden shadow-alta">
-      <div className="flex items-center justify-between gap-3 border-b border-filete px-5 py-3">
-        <p className="text-sm font-bold text-pino">Pruébalo ahora</p>
-        {p.ley && <span className="shrink-0 rounded-full bg-papel-hundido px-2.5 py-0.5 text-xs font-bold text-pizarra">{p.ley}</span>}
+      <div className="flex items-center justify-between gap-3 border-b-2 border-filete px-5 py-3">
+        <p className="font-display font-black text-pino">¡Pruébalo ahora!</p>
       </div>
 
       <div className="p-5">
-        <p className="font-serif text-[1.1875rem] leading-snug font-medium" id={`portada-${p.id}`}>
+        <p className="text-[1.1875rem] leading-snug font-bold" id={`portada-${p.id}`}>
           {p.enunciado}
         </p>
 
@@ -120,6 +129,7 @@ export function PreguntaPortada({ preguntas }: { preguntas: PreguntaTest[] }) {
           )}
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -5,6 +5,7 @@ import { Cabecera } from "@/components/cabecera";
 import { CtaFija } from "@/components/cta-fija";
 import { Faq } from "@/components/faq";
 import { PreguntaPortada } from "@/components/inicio/pregunta-portada";
+import { Clara } from "@/components/mascota/clara";
 import { Pie } from "@/components/pie";
 import { Comparativa } from "@/components/planes/comparativa";
 import { diasHastaExamenEstimado, examenEstimado } from "@/lib/examen";
@@ -86,7 +87,7 @@ export default function Inicio() {
                 <span className="size-2 rounded-full bg-pino" aria-hidden="true" />
                 Auxiliar Administrativo del Estado
               </p>
-              <h1 className="mt-5 font-serif text-[2.375rem] leading-[1.08] font-semibold tracking-tight md:text-[3.75rem]">
+              <h1 className="mt-5 font-display text-[2.375rem] leading-[1.08] font-extrabold tracking-tight md:text-[3.75rem]">
                 Test que te explican <span className="subrayado subrayado-titular">cada respuesta</span>.
               </h1>
               <p className="mt-5 max-w-lg text-lg text-pizarra md:text-xl">
@@ -121,7 +122,7 @@ export default function Inicio() {
           <ul className="mx-auto grid max-w-6xl grid-cols-3 divide-x divide-filete px-2 py-7">
             {cifras.map((c) => (
               <li key={c.l} className="px-2 text-center">
-                <p className="cifras font-serif text-3xl font-semibold md:text-5xl">{c.n}</p>
+                <p className="cifras font-display text-3xl font-extrabold md:text-5xl">{c.n}</p>
                 <p className="mt-1 text-xs font-semibold text-pizarra md:text-sm">{c.l}</p>
               </li>
             ))}
@@ -137,7 +138,7 @@ export default function Inicio() {
         <section aria-labelledby="diferente" className="bloque">
           <div className="mx-auto max-w-6xl px-4">
             <p className="antetitulo">Por qué funciona</p>
-            <h2 id="diferente" className="mt-2 max-w-2xl font-serif text-[2rem] leading-tight font-semibold md:text-[2.5rem]">
+            <h2 id="diferente" className="mt-2 max-w-2xl font-display text-[2rem] leading-tight font-extrabold md:text-[2.5rem]">
               Estudias entendiendo, no memorizando letras.
             </h2>
             <p className="mt-3 max-w-2xl text-lg text-pizarra">
@@ -145,9 +146,7 @@ export default function Inicio() {
             </p>
             <div className="mt-10 grid gap-4 md:grid-cols-3">
               <article className="tarjeta p-6">
-                <span className="grid size-11 place-items-center rounded-xl bg-pino-suave text-pino">
-                  <Crown aria-hidden size={22} />
-                </span>
+                <Clara pose="senala" animada={false} className="size-20" />
                 <h3 className="mt-4 text-xl font-bold">Un camino por temas</h3>
                 <p className="mt-1 text-pizarra">Cinco niveles por tema y un examen final. Siempre sabes qué toca hoy.</p>
                 <ol className="camino mt-5" aria-hidden="true">
@@ -172,9 +171,7 @@ export default function Inicio() {
               </article>
 
               <article className="tarjeta p-6">
-                <span className="grid size-11 place-items-center rounded-xl bg-teja-suave text-teja">
-                  <RotateCcw aria-hidden size={22} />
-                </span>
+                <Clara pose="animo" animada={false} className="size-20" />
                 <h3 className="mt-4 text-xl font-bold">Tus fallos vuelven</h3>
                 <p className="mt-1 text-pizarra">Repaso espaciado: lo que fallas aparece otra vez justo antes de olvidarlo.</p>
                 <div className="mt-5 flex items-center gap-3 rounded-2xl bg-papel p-4" aria-hidden="true">
@@ -190,9 +187,7 @@ export default function Inicio() {
               </article>
 
               <article className="tarjeta p-6">
-                <span className="grid size-11 place-items-center rounded-xl bg-pino-suave text-pino">
-                  <Gauge aria-hidden size={22} />
-                </span>
+                <Clara pose="celebra" animada={false} className="size-20" />
                 <h3 className="mt-4 text-xl font-bold">Sabes cómo vas</h3>
                 <p className="mt-1 text-pizarra">Racha diaria, acierto por tema y predicción de nota con la penalización real.</p>
                 <div className="mt-5 grid grid-cols-3 gap-2 text-center" aria-hidden="true">
@@ -219,7 +214,7 @@ export default function Inicio() {
           <div className="mx-auto max-w-4xl px-4">
             <div className="text-center">
               <p className="antetitulo">Planes</p>
-              <h2 id="titulo-planes" className="mt-2 font-serif text-[2rem] leading-tight font-semibold md:text-[2.5rem]">
+              <h2 id="titulo-planes" className="mt-2 font-display text-[2rem] leading-tight font-extrabold md:text-[2.5rem]">
                 Empieza gratis. Pasa a Premium cuando quieras.
               </h2>
             </div>
@@ -232,7 +227,7 @@ export default function Inicio() {
         <section aria-labelledby="practica" className="bloque border-t border-filete bg-superficie">
           <div className="mx-auto max-w-6xl px-4">
             <p className="antetitulo">Test gratis, sin registro</p>
-            <h2 id="practica" className="mt-2 font-serif text-[2rem] leading-tight font-semibold md:text-[2.5rem]">
+            <h2 id="practica" className="mt-2 font-display text-[2rem] leading-tight font-extrabold md:text-[2.5rem]">
               Practica por ley o por tema
             </h2>
             <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -271,7 +266,7 @@ export default function Inicio() {
 
         <section aria-labelledby="faq" className="bloque">
           <div className="mx-auto max-w-lectura px-4">
-            <h2 id="faq" className="text-center font-serif text-[2rem] leading-tight font-semibold">
+            <h2 id="faq" className="text-center font-display text-[2rem] leading-tight font-extrabold">
               Preguntas frecuentes
             </h2>
             <div className="mt-8">
@@ -281,14 +276,15 @@ export default function Inicio() {
         </section>
 
         <section className="px-4 pb-16">
-          <div className="mx-auto flex max-w-6xl flex-col items-start gap-6 overflow-hidden rounded-[2rem] bg-pino-boton px-6 py-12 text-sobre-pino md:flex-row md:items-center md:justify-between md:px-12">
-            <div>
-              <h2 className="font-serif text-[2rem] leading-tight font-semibold">Tu primer test, en cinco minutos.</h2>
+          <div className="mx-auto flex max-w-6xl flex-col items-start gap-6 overflow-hidden rounded-[2rem] bg-pino-boton px-6 py-10 text-sobre-pino shadow-[0_6px_0_var(--pino-sombra)] md:flex-row md:items-center md:justify-between md:px-12">
+            <Clara pose="celebra" className="size-28 shrink-0 md:order-last" />
+            <div className="md:flex-1">
+              <h2 className="font-display text-[2rem] leading-tight font-extrabold">Tu primer test, en cinco minutos.</h2>
               <p className="mt-2 opacity-90">Sin registro y sin tarjeta. Si te gusta, guardas tus fallos al crear la cuenta.</p>
             </div>
             <Link
               href="/demo"
-              className="inline-flex min-h-14 shrink-0 items-center gap-2 rounded-2xl bg-superficie px-7 text-[1.0625rem] font-bold text-pino shadow-[inset_0_-3px_0_rgb(0_0_0/0.12)] transition hover:brightness-95 active:translate-y-px"
+              className="inline-flex min-h-14 shrink-0 items-center gap-2 rounded-2xl bg-white px-7 text-[0.9375rem] font-extrabold tracking-wide text-[#15803d] uppercase shadow-[0_4px_0_rgb(0_0_0/0.2)] transition hover:brightness-95 active:translate-y-[3px] active:shadow-none"
             >
               Hacer el test <ArrowRight aria-hidden size={20} />
             </Link>
