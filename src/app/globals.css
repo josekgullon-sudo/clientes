@@ -10,81 +10,120 @@
  * Todos los pares texto/fondo cumplen AA.
  */
 :root {
-  --papel: #f4f6f2;
+  --papel: #f7f9f6;
   --superficie: #ffffff;
-  --papel-hundido: #e9efe9;
-  --tinta: #13221c;
-  --pizarra: #4b5d55;
-  --filete: #dbe3dc;
-  --pino: #0f6b3c;
-  --pino-boton: #0f6b3c;
-  --pino-boton-hover: #0c5a32;
-  --pino-suave: #e2f3e8;
-  --sobre-pino: #f4fff8;
-  --teja: #b23f2a;
-  --teja-suave: #fbe9e4;
-  --subrayador: #e4b423;
-  --subrayador-texto: #13221c;
-  --oro-suave: #fbf1cf;
-  --oro-texto: #7a5a00;
-  --foco: #13221c;
-  --foco-halo: #e4b423;
+  --papel-hundido: #eef3ee;
+  --tinta: #1a2620;
+  --pizarra: #52615a;
+  --filete: #e2e8e3;
+  --pino: #15803d;
+  --pino-boton: #15803d;
+  --pino-boton-hover: #16893f;
+  --pino-sombra: #0f5f2d;
+  --pino-vivo: #22c55e;
+  --pino-suave: #dcfce7;
+  --sobre-pino: #ffffff;
+  --teja: #b91c1c;
+  --teja-vivo: #ef4444;
+  --teja-suave: #fee2e2;
+  --subrayador: #facc15;
+  --subrayador-texto: #1a2620;
+  --oro-suave: #fef9c3;
+  --oro-texto: #854d0e;
+  --naranja: #f97316;
+  --naranja-suave: #ffedd5;
+  --naranja-texto: #c2410c;
+  --cielo: #0284c7;
+  --cielo-vivo: #38bdf8;
+  --cielo-suave: #e0f2fe;
+  --cielo-texto: #0369a1;
+  --morado: #7c3aed;
+  --morado-suave: #ede9fe;
+  --morado-texto: #6d28d9;
+  --foco: #1a2620;
+  --foco-halo: #facc15;
   --trazo-inicio: 40%;
-  --sombra: 0 1px 2px rgb(19 34 28 / 5%), 0 8px 24px -12px rgb(19 34 28 / 14%);
-  --sombra-alta: 0 2px 4px rgb(19 34 28 / 6%), 0 24px 48px -20px rgb(19 34 28 / 28%);
+  --sombra: 0 2px 0 var(--filete);
+  --sombra-alta: 0 2px 4px rgb(26 38 32 / 6%), 0 24px 48px -20px rgb(26 38 32 / 28%);
   color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --papel: #0e1412;
-    --superficie: #151d1a;
-    --papel-hundido: #1b2521;
-    --tinta: #e8f2ec;
+    --papel: #0f1513;
+    --superficie: #17201c;
+    --papel-hundido: #1e2924;
+    --tinta: #ecf5ef;
     --pizarra: #a3b7ad;
-    --filete: #26332d;
-    --pino: #6dcea0;
-    --pino-boton: #1a7a48;
-    --pino-boton-hover: #208b53;
-    --pino-suave: #14301f;
-    --sobre-pino: #f4fff8;
-    --teja: #f0a090;
-    --teja-suave: #3a211b;
-    --subrayador: #e4b423;
-    --subrayador-texto: #13221c;
+    --filete: #2b3832;
+    --pino: #4ade80;
+    --pino-boton: #15803d;
+    --pino-boton-hover: #16893f;
+    --pino-sombra: #0b4a23;
+    --pino-vivo: #22c55e;
+    --pino-suave: #12301d;
+    --sobre-pino: #ffffff;
+    --teja: #f87171;
+    --teja-vivo: #ef4444;
+    --teja-suave: #3b1a1a;
+    --subrayador: #facc15;
+    --subrayador-texto: #1a2620;
     --oro-suave: #3a3112;
-    --oro-texto: #f2d27a;
-    --foco: #e8f2ec;
-    --foco-halo: #e4b423;
+    --oro-texto: #fde68a;
+    --naranja: #fb923c;
+    --naranja-suave: #3a2414;
+    --naranja-texto: #fdba74;
+    --cielo: #38bdf8;
+    --cielo-vivo: #38bdf8;
+    --cielo-suave: #0c2a3a;
+    --cielo-texto: #7dd3fc;
+    --morado: #a78bfa;
+    --morado-suave: #2a2145;
+    --morado-texto: #c4b5fd;
+    --foco: #ecf5ef;
+    --foco-halo: #facc15;
     --trazo-inicio: 72%;
-    --sombra: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 24px -12px rgb(0 0 0 / 50%);
+    --sombra: 0 2px 0 var(--filete);
     --sombra-alta: 0 2px 4px rgb(0 0 0 / 30%), 0 24px 48px -20px rgb(0 0 0 / 70%);
     color-scheme: dark;
   }
 }
 
 :root[data-theme="dark"] {
-  --papel: #0e1412;
-  --superficie: #151d1a;
-  --papel-hundido: #1b2521;
-  --tinta: #e8f2ec;
+  --papel: #0f1513;
+  --superficie: #17201c;
+  --papel-hundido: #1e2924;
+  --tinta: #ecf5ef;
   --pizarra: #a3b7ad;
-  --filete: #26332d;
-  --pino: #6dcea0;
-  --pino-boton: #1a7a48;
-  --pino-boton-hover: #208b53;
-  --pino-suave: #14301f;
-  --sobre-pino: #f4fff8;
-  --teja: #f0a090;
-  --teja-suave: #3a211b;
-  --subrayador: #e4b423;
-  --subrayador-texto: #13221c;
+  --filete: #2b3832;
+  --pino: #4ade80;
+  --pino-boton: #15803d;
+  --pino-boton-hover: #16893f;
+  --pino-sombra: #0b4a23;
+  --pino-vivo: #22c55e;
+  --pino-suave: #12301d;
+  --sobre-pino: #ffffff;
+  --teja: #f87171;
+  --teja-vivo: #ef4444;
+  --teja-suave: #3b1a1a;
+  --subrayador: #facc15;
+  --subrayador-texto: #1a2620;
   --oro-suave: #3a3112;
-  --oro-texto: #f2d27a;
-  --foco: #e8f2ec;
-  --foco-halo: #e4b423;
+  --oro-texto: #fde68a;
+  --naranja: #fb923c;
+  --naranja-suave: #3a2414;
+  --naranja-texto: #fdba74;
+  --cielo: #38bdf8;
+  --cielo-vivo: #38bdf8;
+  --cielo-suave: #0c2a3a;
+  --cielo-texto: #7dd3fc;
+  --morado: #a78bfa;
+  --morado-suave: #2a2145;
+  --morado-texto: #c4b5fd;
+  --foco: #ecf5ef;
+  --foco-halo: #facc15;
   --trazo-inicio: 72%;
-  --sombra: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 24px -12px rgb(0 0 0 / 50%);
+  --sombra: 0 2px 0 var(--filete);
   --sombra-alta: 0 2px 4px rgb(0 0 0 / 30%), 0 24px 48px -20px rgb(0 0 0 / 70%);
   color-scheme: dark;
 }
@@ -107,9 +146,23 @@
   --color-oro-suave: var(--oro-suave);
   --color-oro-texto: var(--oro-texto);
   --color-sobre-pino: var(--sobre-pino);
+  --color-pino-sombra: var(--pino-sombra);
+  --color-pino-vivo: var(--pino-vivo);
+  --color-teja-vivo: var(--teja-vivo);
+  --color-naranja: var(--naranja);
+  --color-naranja-suave: var(--naranja-suave);
+  --color-naranja-texto: var(--naranja-texto);
+  --color-cielo: var(--cielo);
+  --color-cielo-vivo: var(--cielo-vivo);
+  --color-cielo-suave: var(--cielo-suave);
+  --color-cielo-texto: var(--cielo-texto);
+  --color-morado: var(--morado);
+  --color-morado-suave: var(--morado-suave);
+  --color-morado-texto: var(--morado-texto);
 
   --font-sans: var(--fuente-interfaz), system-ui, sans-serif;
   --font-serif: var(--fuente-lectura), Georgia, serif;
+  --font-display: var(--fuente-titulos), var(--fuente-interfaz), system-ui, sans-serif;
 
   --radius-sm: 8px;
   --radius-md: 12px;
@@ -185,12 +238,12 @@ p {
   padding-inline: 0.12em;
 }
 
-/* Tarjeta: superficie clara sobre el papel, filete fino y sombra mínima. */
+/* Tarjeta: superficie sobre el papel con borde de 2 px y un canto inferior, al estilo de las apps de juego. */
 .tarjeta {
-  border: 1px solid var(--filete);
+  border: 2px solid var(--filete);
   border-radius: 1.25rem;
   background: var(--superficie);
-  box-shadow: var(--sombra);
+  box-shadow: 0 3px 0 var(--filete);
 }
 
 /* Etiqueta pequeña sobre un título. */
@@ -336,6 +389,12 @@ p {
 .niveles span[data-hecho="true"] {
   background: var(--pino);
 }
+.niveles-claro span {
+  background: rgb(255 255 255 / 30%);
+}
+.niveles-claro span[data-hecho="true"] {
+  background: #fff;
+}
 .niveles span[data-actual="true"] {
   background: color-mix(in srgb, var(--pino) 40%, var(--filete));
 }
@@ -425,4 +484,64 @@ p {
 /* En titulares grandes el trazo va más bajo para no tapar la letra. */
 .subrayado-titular {
   --trazo-inicio: 66%;
+}
+
+/* Clara, la mascota. */
+.clara-anima {
+  animation: clara-entra 0.6s cubic-bezier(0.3, 1.5, 0.5, 1) both;
+}
+@keyframes clara-entra {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.clara-anima .clara-saluda {
+  /* Gira desde el hombro (31, 86 en el viewBox). */
+  transform-origin: 31px 86px;
+  animation: clara-mano 1.2s ease-in-out 0.5s 2;
+}
+@keyframes clara-mano {
+  25% {
+    rotate: -18deg;
+  }
+  75% {
+    rotate: 12deg;
+  }
+}
+.clara-anima .clara-brillos {
+  animation: brillo 1.6s ease-in-out infinite;
+}
+@keyframes brillo {
+  50% {
+    opacity: 0.4;
+  }
+}
+.clara-anima .clara-zeta {
+  animation: flota 2.4s ease-in-out infinite;
+}
+@keyframes flota {
+  50% {
+    transform: translateY(-4px);
+  }
+}
+.flotar {
+  animation: flota 3s ease-in-out infinite;
+}
+.rebote {
+  animation: rebote 0.5s cubic-bezier(0.3, 1.6, 0.5, 1) both;
+}
+@keyframes rebote {
+  from {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
 }

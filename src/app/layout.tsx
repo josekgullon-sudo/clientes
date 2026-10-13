@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Figtree, Source_Serif_4 } from "next/font/google";
+import { Figtree, Nunito, Source_Serif_4 } from "next/font/google";
 import { Analitica } from "@/components/analitica";
 import { AvisoCookies } from "@/components/aviso-cookies";
 import { SITIO } from "@/lib/sitio";
@@ -12,6 +12,15 @@ const interfaz = Figtree({
   display: "swap",
 });
 
+// Nunito: titulares redondeados y cercanos.
+const titulos = Nunito({
+  variable: "--fuente-titulos",
+  subsets: ["latin"],
+  weight: ["700", "800", "900"],
+  display: "swap",
+});
+
+// Source Serif 4: solo para el texto literal de la ley, que así se distingue del resto.
 const lectura = Source_Serif_4({
   variable: "--fuente-lectura",
   subsets: ["latin"],
@@ -29,8 +38,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f4f6f2" },
-    { media: "(prefers-color-scheme: dark)", color: "#0e1412" },
+    { media: "(prefers-color-scheme: light)", color: "#f7f9f6" },
+    { media: "(prefers-color-scheme: dark)", color: "#0f1513" },
   ],
 };
 
@@ -41,7 +50,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="es"
-      className={`${interfaz.variable} ${lectura.variable} h-full antialiased`}
+      className={`${interfaz.variable} ${titulos.variable} ${lectura.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <head>

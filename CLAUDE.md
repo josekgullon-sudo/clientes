@@ -2,15 +2,19 @@
 
 # Plataforma de test para oposiciones
 
-- Identidad «el temario subrayado», versión pino y oro. Tokens en `src/app/globals.css`:
-  `papel` (fondo), `superficie` (tarjetas, clase `.tarjeta`), `tinta`, `pizarra`, `filete`,
-  `pino` (acción y acierto), `teja` (fallo, siempre suave), `subrayador`/`oro-*` (cita legal,
-  logros). Cita legal con `.subrayado`. Letra de interfaz Figtree; titulares en Source Serif 4.
-  Cifras alineadas con `.cifras`. Botones con `Boton`/`EnlaceBoton` (`principal`, `secundario`,
-  `suave`, `texto`).
-- Área privada: navegación inferior en móvil y arriba en escritorio (`components/app/nav-app.tsx`).
-  Durante un test no hay navegación: solo la pregunta, el progreso y el botón al alcance del pulgar.
-  La explicación se muestra abierta al corregir.
+- Estilo «app de juego» (tipo Duolingo) sobre la identidad pino y oro. Tokens en `src/app/globals.css`:
+  `papel`, `superficie`, `tinta`, `pizarra`, `filete`, `pino` (acción, acierto), `teja` (fallo),
+  `subrayador`/`oro-*` (XP, cita legal), `naranja-*` (racha), `cielo-*` (opción elegida, info),
+  `morado-*` (Premium). Tarjetas `.tarjeta` y botones `Boton`/`EnlaceBoton` con canto inferior de
+  relieve; variantes `principal`, `secundario`, `suave`, `texto`, `premium`, `error`.
+- Titulares en Nunito (`font-display`, negrita 800-900); interfaz en Figtree; Source Serif 4 solo
+  para el texto literal de la ley (explicaciones, citas). Cifras alineadas con `.cifras`.
+- Mascota: Clara, un rotulador fluorescente (`components/mascota/clara.tsx`), con poses `hola`,
+  `feliz`, `celebra`, `animo`, `piensa`, `duerme`, `premium`, `senala`. `ClaraDice` la pone con
+  bocadillo. Todas las poses en `/vista/clara`. Úsala para guiar, celebrar y animar; nunca para reñir.
+- Área privada: barra superior con racha, XP y Premium; navegación inferior en móvil. El camino es
+  un zigzag de nodos (`components/estudio/camino-juego.tsx`). Durante un test no hay navegación;
+  al corregir, Clara reacciona en el pie, suena un tono (se puede silenciar) y la explicación se ve abierta.
 - Textos de la interfaz en español, frases cortas, segunda persona, sin mensajes de castigo.
 - Mobile first: probar cada pantalla a 380 px. `npm run recorrido` (y `-- dark`) recorre la web
   entera, con registro, onboarding y una lección, y avisa si hay scroll horizontal.
