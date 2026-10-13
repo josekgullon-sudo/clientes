@@ -1,0 +1,505 @@
+{
+  "descripcion": "Ley 40/2015, artículos 54 a 80: la Administración General del Estado (órganos centrales, superiores y directivos, servicios comunes y órganos territoriales). Lote generado el 2026-10-13 contra el texto consolidado del BOE (versión 2024-08-22).",
+  "preguntas": [
+    {
+      "id": "age-001",
+      "ley": "ley-40-2015",
+      "articulo": "55.4",
+      "enunciado": "Los Subdelegados del Gobierno en las provincias tienen nivel de:",
+      "opciones": [
+        "Subdirector general",
+        "Director general",
+        "Subsecretario",
+        "Secretario general técnico"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 55.4 dispone que los Subdelegados del Gobierno en las provincias «tendrán nivel de Subdirector general».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-002",
+      "ley": "ley-40-2015",
+      "articulo": "55 bis",
+      "enunciado": "En cada departamento ministerial, los nombramientos de Secretarías de Estado y órganos directivos respetarán que las personas de cada sexo:",
+      "opciones": [
+        "No superen el setenta por ciento ni sean menos del treinta por ciento",
+        "No superen el sesenta por ciento ni sean menos del cuarenta por ciento",
+        "No superen el cincuenta y cinco por ciento ni sean menos del cuarenta y cinco",
+        "Representen exactamente el cincuenta por ciento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 55 bis exige que «las personas de cada sexo no superen el sesenta por ciento ni sean menos del cuarenta por ciento en el ámbito de cada departamento ministerial».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-003",
+      "ley": "ley-40-2015",
+      "articulo": "55.9",
+      "enunciado": "Corresponde a los órganos superiores establecer los planes de actuación. ¿Qué corresponde a los órganos directivos?",
+      "opciones": [
+        "Su aprobación definitiva",
+        "Su evaluación y control de eficacia",
+        "Su desarrollo y ejecución",
+        "Su financiación presupuestaria"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 55.9, «corresponde a los órganos superiores establecer los planes de actuación de la organización situada bajo su responsabilidad y a los órganos directivos su desarrollo y ejecución».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-004",
+      "ley": "ley-40-2015",
+      "articulo": "58.2",
+      "enunciado": "Según la Ley 40/2015, los Ministerios contarán en todo caso con:",
+      "opciones": [
+        "Una Secretaría de Estado y, dependiendo de ella, una Secretaría General",
+        "Una Subsecretaría y, dependiendo de ella, una Secretaría General",
+        "Una Secretaría General y, dependiendo de ella, una Dirección General",
+        "Una Subsecretaría y, dependiendo de ella, una Secretaría General Técnica"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 58.2 establece que «los Ministerios contarán, en todo caso, con una Subsecretaría, y dependiendo de ella una Secretaría General Técnica, para la gestión de los servicios comunes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-005",
+      "ley": "ley-40-2015",
+      "articulo": "59.2",
+      "enunciado": "Los órganos de nivel inferior a Subdirección General se crean, modifican y suprimen:",
+      "opciones": [
+        "Por Real Decreto del Consejo de Ministros",
+        "Por orden del Ministro respectivo",
+        "Por resolución del Subsecretario",
+        "Mediante las relaciones de puestos de trabajo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 59.2 dispone que «los órganos de nivel inferior a Subdirección General se crean, modifican y suprimen por orden del Ministro respectivo, previa autorización del Ministro de Hacienda y Administraciones Públicas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-006",
+      "ley": "ley-40-2015",
+      "articulo": "59.1",
+      "enunciado": "Las Direcciones Generales y las Subdirecciones Generales se crean, modifican y suprimen por:",
+      "opciones": [
+        "Real Decreto del Presidente del Gobierno",
+        "Orden del Ministro interesado",
+        "Ley de las Cortes Generales",
+        "Real Decreto del Consejo de Ministros"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 59.1, estos órganos «se crean, modifican y suprimen por Real Decreto del Consejo de Ministros, a iniciativa del Ministro interesado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-007",
+      "ley": "ley-40-2015",
+      "articulo": "60.2",
+      "enunciado": "Según la Ley 40/2015, los Secretarios generales tienen categoría de:",
+      "opciones": [
+        "Subsecretario",
+        "Secretario de Estado",
+        "Director general",
+        "Subdirector general"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 60.2 indica que «los Secretarios generales tienen categoría de Subsecretario y los Secretarios Generales Técnicos tienen categoría de Director general».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-008",
+      "ley": "ley-40-2015",
+      "articulo": "61.s",
+      "enunciado": "¿A quién corresponde imponer la sanción de separación del servicio por faltas muy graves?",
+      "opciones": [
+        "Al Subsecretario",
+        "Al Secretario de Estado",
+        "Al Ministro",
+        "Al Secretario general técnico"
+      ],
+      "correcta": 2,
+      "explicacion": "Entre las funciones de los Ministros, el artículo 61.s) incluye «imponer la sanción de separación del servicio por faltas muy graves». El Subsecretario ejerce la potestad disciplinaria «salvo la separación del servicio» (artículo 63.1.ñ).",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-009",
+      "ley": "ley-40-2015",
+      "articulo": "63.1",
+      "enunciado": "¿Qué órgano ostenta la representación ordinaria del Ministerio?",
+      "opciones": [
+        "El Secretario de Estado",
+        "El Secretario general técnico",
+        "El Subsecretario",
+        "El Director general"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 63.1 dispone que «los Subsecretarios ostentan la representación ordinaria del Ministerio, dirigen los servicios comunes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-010",
+      "ley": "ley-40-2015",
+      "articulo": "63.3",
+      "enunciado": "Los Subsecretarios se nombran entre funcionarios de carrera del Estado, de las Comunidades Autónomas o de las Entidades locales del:",
+      "opciones": [
+        "Subgrupo A1",
+        "Subgrupo A2",
+        "Grupo A, en cualquiera de sus subgrupos",
+        "Grupo B"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 63.3, los nombramientos de Subsecretarios se hacen entre funcionarios de carrera «pertenecientes al Subgrupo A1», o entre quienes hubieran perdido esa condición por jubilación.",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-011",
+      "ley": "ley-40-2015",
+      "articulo": "64.3",
+      "enunciado": "Los Secretarios generales de los Ministerios se nombran entre:",
+      "opciones": [
+        "Funcionarios de carrera del Subgrupo A1 del Estado, de las Comunidades Autónomas o de las Entidades locales",
+        "Funcionarios de carrera del Estado con al menos diez años de servicio en el Subgrupo A1",
+        "Funcionarios de carrera de los Subgrupos A1 o A2 de cualquier Administración",
+        "Personas con cualificación y experiencia en puestos de responsabilidad en la gestión pública o privada"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 64.3 dispone que «los nombramientos habrán de efectuarse entre personas con cualificación y experiencia en el desempeño de puestos de responsabilidad en la gestión pública o privada».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-012",
+      "ley": "ley-40-2015",
+      "articulo": "65.1",
+      "enunciado": "Los Secretarios generales técnicos tendrán, en todo caso, las competencias relativas a:",
+      "opciones": [
+        "Gestión financiera, estadística y publicaciones",
+        "Producción normativa, asistencia jurídica y publicaciones",
+        "Recursos humanos, asistencia jurídica e inspección de servicios",
+        "Producción normativa, presupuestación y sistemas de información"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 65.1, los Secretarios generales técnicos tienen las competencias sobre servicios comunes que les atribuya el Real Decreto de estructura «y, en todo caso, las relativas a producción normativa, asistencia jurídica y publicaciones».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-013",
+      "ley": "ley-40-2015",
+      "articulo": "63.1.m",
+      "enunciado": "¿Qué órgano del Ministerio convoca y resuelve las pruebas selectivas de personal funcionario y laboral?",
+      "opciones": [
+        "El Subsecretario",
+        "El Ministro",
+        "El Secretario general técnico",
+        "El Director general competente"
+      ],
+      "correcta": 0,
+      "explicacion": "Entre las competencias de los Subsecretarios, el artículo 63.1.m) recoge «convocar y resolver pruebas selectivas de personal funcionario y laboral».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-014",
+      "ley": "ley-40-2015",
+      "articulo": "66.2",
+      "enunciado": "Si el Real Decreto de estructura permite que el titular de una Dirección General no sea funcionario, esa circunstancia excepcional debe motivarse mediante:",
+      "opciones": [
+        "Informe preceptivo del Consejo de Estado",
+        "Acuerdo motivado del Consejo de Ministros",
+        "Memoria razonada",
+        "Informe de la Oficina de Conflictos de Intereses"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 66.2 exige en ese caso «motivarse mediante memoria razonada la concurrencia de las especiales características que justifiquen esa circunstancia excepcional».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-015",
+      "ley": "ley-40-2015",
+      "articulo": "68.3",
+      "enunciado": "La gestión compartida de algunos de los servicios comunes de los Ministerios podrá preverse mediante:",
+      "opciones": [
+        "Orden del Ministro del Departamento",
+        "Real Decreto",
+        "Resolución del Subsecretario",
+        "Instrucción de la Secretaría General Técnica"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 68.3 dispone que «mediante Real Decreto podrá preverse la gestión compartida de algunos de los servicios comunes».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-016",
+      "ley": "ley-40-2015",
+      "articulo": "69.2",
+      "enunciado": "Como regla general, las Delegaciones del Gobierno tienen su sede en la localidad donde radique:",
+      "opciones": [
+        "El Parlamento de la Comunidad Autónoma",
+        "El Tribunal Superior de Justicia de la Comunidad",
+        "La capital de la provincia más poblada",
+        "El Consejo de Gobierno de la Comunidad Autónoma"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 69.2, las Delegaciones del Gobierno «tendrán su sede en la localidad donde radique el Consejo de Gobierno de la Comunidad Autónoma, salvo que el Consejo de Ministros acuerde ubicarla en otra distinta».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-017",
+      "ley": "ley-40-2015",
+      "articulo": "69.4",
+      "enunciado": "En las Comunidades Autónomas uniprovinciales, las Subdelegaciones del Gobierno:",
+      "opciones": [
+        "Podrán crearse por Real Decreto si lo justifican la población, el volumen de gestión u otras singularidades",
+        "Existirán siempre, bajo la inmediata dependencia del Delegado del Gobierno",
+        "No pueden existir, porque sus funciones las asume el Secretario General",
+        "Podrán crearse por orden del Delegado del Gobierno si lo justifica el volumen de gestión"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 69.4 permite que «podrán crearse por Real Decreto Subdelegaciones del Gobierno en las Comunidades Autónomas uniprovinciales, cuando circunstancias tales como la población del territorio, el volumen de gestión o sus singularidades geográficas, sociales o económicas así lo justifiquen».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-018",
+      "ley": "ley-40-2015",
+      "articulo": "70",
+      "enunciado": "Los Directores Insulares de la Administración General del Estado ejercen en su ámbito territorial las competencias atribuidas por la Ley 40/2015 a:",
+      "opciones": [
+        "Los Delegados del Gobierno en las Comunidades Autónomas",
+        "Los Secretarios Generales de las Delegaciones",
+        "Los servicios territoriales no integrados",
+        "Los Subdelegados del Gobierno en las provincias"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 70, los Directores Insulares «ejercen, en su ámbito territorial, las competencias atribuidas por esta Ley a los Subdelegados del Gobierno en las provincias».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-019",
+      "ley": "ley-40-2015",
+      "articulo": "72.5",
+      "enunciado": "En una Comunidad Autónoma uniprovincial sin Subdelegado, la suplencia del Delegado del Gobierno por ausencia, vacante o enfermedad corresponde:",
+      "opciones": [
+        "Al Director Insular de mayor antigüedad",
+        "Al Secretario General",
+        "Al titular del servicio integrado de mayor rango",
+        "A quien designe el Consejo de Ministros"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 72.5 dispone que «en las Comunidades Autónomas uniprovinciales en las que no exista Subdelegado la suplencia corresponderá al Secretario General».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-020",
+      "ley": "ley-40-2015",
+      "articulo": "73.1.b",
+      "enunciado": "El informe del Delegado del Gobierno sobre el funcionamiento de los servicios públicos estatales en el ámbito autonómico se eleva al Gobierno con carácter:",
+      "opciones": [
+        "Semestral",
+        "Bienal",
+        "Anual",
+        "Trimestral"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 73.1.b).4.º atribuye al Delegado «elevar al Gobierno, con carácter anual, a través del titular del Ministerio de Hacienda y Administraciones Públicas, un informe sobre el funcionamiento de los servicios públicos estatales en el ámbito autonómico».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-021",
+      "ley": "ley-40-2015",
+      "articulo": "75.c",
+      "enunciado": "¿A quién corresponde dirigir y coordinar la protección civil en el ámbito de la provincia?",
+      "opciones": [
+        "Al Subdelegado del Gobierno",
+        "Al Presidente de la Diputación Provincial",
+        "Al Secretario General de la Subdelegación",
+        "Al Director Insular"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 75.c), a los Subdelegados del Gobierno les corresponde «dirigir y coordinar la protección civil en el ámbito de la provincia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-022",
+      "ley": "ley-40-2015",
+      "articulo": "76.1",
+      "enunciado": "Las Delegaciones y Subdelegaciones del Gobierno contarán en todo caso, como órgano de gestión de los servicios comunes, con:",
+      "opciones": [
+        "Una Secretaría General Técnica",
+        "Una Subdirección General de Servicios Comunes",
+        "Una Secretaría General",
+        "Una Comisión de asistencia"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 76.1 dispone que contarán, «en todo caso, con una Secretaría General, dependiente de los Delegados o, en su caso, de los Subdelegados del Gobierno, como órgano de gestión de los servicios comunes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-023",
+      "ley": "ley-40-2015",
+      "articulo": "77",
+      "enunciado": "La asistencia jurídica en relación con las Delegaciones y Subdelegaciones del Gobierno corresponde a:",
+      "opciones": [
+        "La Intervención General de la Administración del Estado",
+        "La Secretaría General de la Delegación",
+        "La Secretaría General Técnica del Ministerio de adscripción",
+        "La Abogacía del Estado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 77 establece que la asistencia jurídica y las funciones de intervención y control económico financiero «se ejercerán por la Abogacía del Estado y la Intervención General de la Administración del Estado respectivamente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-024",
+      "ley": "ley-40-2015",
+      "articulo": "79.1.a",
+      "enunciado": "En las Comunidades Autónomas pluriprovinciales, la Comisión territorial de asistencia al Delegado del Gobierno está integrada por:",
+      "opciones": [
+        "Los Directores Insulares de la Comunidad",
+        "Los Subdelegados del Gobierno en las provincias de la Comunidad",
+        "Los Secretarios Generales de las Subdelegaciones",
+        "Los titulares de todos los servicios no integrados"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 79.1.a) dispone que la Comisión «estará presidida por el Delegado del Gobierno en la Comunidad Autónoma e integrada por los Subdelegados del Gobierno en las provincias comprendidas en el territorio de ésta».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    },
+    {
+      "id": "age-025",
+      "ley": "ley-40-2015",
+      "articulo": "73.3",
+      "enunciado": "¿A quién corresponde la jefatura de las Fuerzas y Cuerpos de Seguridad del Estado en el territorio de la Comunidad Autónoma?",
+      "opciones": [
+        "Al Delegado del Gobierno",
+        "Al Presidente de la Comunidad Autónoma",
+        "Al Secretario General de la Delegación",
+        "Al Director Insular"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 73.3 encarga al Delegado garantizar la seguridad ciudadana a través de los Subdelegados y de «las Fuerzas y Cuerpos de seguridad del Estado, cuya jefatura corresponderá al Delegado del Gobierno».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 8
+      }
+    }
+  ]
+}
