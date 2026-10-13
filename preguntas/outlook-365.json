@@ -1,0 +1,614 @@
+{
+  "descripcion": "Outlook 365 (tema 27): crear y enviar mensajes, CC y CCO, datos adjuntos, reglas, respuestas automáticas y firmas. Lote generado el 2026-10-13 a partir de páginas de support.microsoft.com/es-es; en borrador.",
+  "preguntas": [
+    {
+      "id": "out-001",
+      "ley": null,
+      "articulo": "Crear un mensaje de correo electrónico en la versión clásica de Outlook",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/create-an-email-message-in-outlook",
+      "enunciado": "En Outlook clásico, al escribir más de un destinatario en el cuadro Para, ¿con qué carácter se separan?",
+      "opciones": [
+        "Con punto y coma",
+        "Con dos puntos",
+        "Con barra inclinada",
+        "Con el signo más"
+      ],
+      "correcta": 0,
+      "explicacion": "La página indica: «Separe con punto y coma cuando escriba más de un destinatario».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-002",
+      "ley": null,
+      "articulo": "Crear un mensaje de correo electrónico en la versión clásica de Outlook",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/create-an-email-message-in-outlook",
+      "enunciado": "En Outlook clásico, si no se muestra el campo CCO y quiere verlo en este y en todos los mensajes futuros, ¿qué debe seleccionar?",
+      "opciones": [
+        "Insertar > Mostrar campos > CCO",
+        "Opciones > Mostrar campos > CCO",
+        "Archivo > Opciones > Correo > CCO",
+        "Formato de texto > Campos > CCO"
+      ],
+      "correcta": 1,
+      "explicacion": "Según Microsoft, si no se muestra CCO y desea mostrarlo para este y todos los mensajes futuros, «seleccione Opciones > Mostrar campos > CCO».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-003",
+      "ley": null,
+      "articulo": "Crear un mensaje de correo electrónico en la versión clásica de Outlook",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/create-an-email-message-in-outlook",
+      "enunciado": "En Outlook clásico, en la pestaña Insertar de un mensaje, ¿qué opción permite adjuntar mensajes de correo, tareas, contactos o elementos del calendario?",
+      "opciones": [
+        "Imagen en línea",
+        "Firma de correo",
+        "Elemento de Outlook",
+        "Vínculo de texto"
+      ],
+      "correcta": 2,
+      "explicacion": "En la pestaña Insertar se puede seleccionar «Elemento de Outlook» para adjuntar elementos de Outlook, «como mensajes de correo electrónico, tareas, contactos o elementos del calendario».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-004",
+      "ley": null,
+      "articulo": "Crear un mensaje de correo electrónico en la versión clásica de Outlook",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/create-an-email-message-in-outlook",
+      "enunciado": "En Outlook clásico, con varias cuentas de correo configuradas, ¿qué botón del mensaje nuevo permite cambiar la cuenta que lo enviará?",
+      "opciones": [
+        "Para",
+        "Remitente",
+        "Cuenta",
+        "De"
+      ],
+      "correcta": 3,
+      "explicacion": "Con varias cuentas configuradas, «aparece el botón De y se muestra la cuenta que enviará el mensaje». Para cambiarla, se hace clic en De y se elige otra cuenta.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-005",
+      "ley": null,
+      "articulo": "Crear un mensaje de correo electrónico en el nuevo Outlook",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/create-an-email-message-in-outlook",
+      "enunciado": "En el nuevo Outlook, al seleccionar el botón Para, CC o CCO de un mensaje, ¿qué ventana se abre?",
+      "opciones": [
+        "Agregar destinatarios",
+        "Libreta de contactos",
+        "Seleccionar remitentes",
+        "Contactos sugeridos"
+      ],
+      "correcta": 0,
+      "explicacion": "La página indica: «Al seleccionar el botón Para , CC o CCO , se abrirá la ventana Agregar destinatarios». Allí se selecciona + junto a cada nombre y después Guardar.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-006",
+      "ley": null,
+      "articulo": "Mostrar, ocultar y ver el campo CCO (copia carbón oculta)",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows",
+      "enunciado": "¿Qué ocurre cuando escribe el nombre de un destinatario en el campo CCO de un correo?",
+      "opciones": [
+        "Recibe una copia y su nombre es visible para todos los destinatarios",
+        "Recibe una copia sin que su nombre sea visible para los demás destinatarios",
+        "Solo recibe el mensaje si alguien selecciona Responder a todos",
+        "Recibe un aviso de lectura, pero no el texto del mensaje"
+      ],
+      "correcta": 1,
+      "explicacion": "Con el campo CCO (copia carbón oculta), «ese destinatario recibe una copia del correo electrónico sin que el nombre sea visible para los demás destinatarios».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-007",
+      "ley": null,
+      "articulo": "Ver destinatarios del cuadro CCO",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows",
+      "enunciado": "En Outlook clásico, ¿quién puede ver los nombres de los destinatarios incluidos en el campo CCO de un mensaje?",
+      "opciones": [
+        "Los destinatarios del campo Para",
+        "Todos los destinatarios del mensaje",
+        "Solo el remitente del mensaje",
+        "Los destinatarios del campo CC"
+      ],
+      "correcta": 2,
+      "explicacion": "La página indica: «Solo el remitente de un mensaje puede ver los nombres de los destinatarios CCO», abriendo el mensaje en la carpeta Elementos enviados.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-008",
+      "ley": null,
+      "articulo": "Desactivar CCO",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows",
+      "enunciado": "En Outlook clásico, ¿qué indica un fondo oscuro en el botón CCO?",
+      "opciones": [
+        "Que hay destinatarios ocultos en el mensaje",
+        "Que el mensaje se ha marcado como no deseado",
+        "Que el campo CCO está desactivado",
+        "Que el campo CCO está activado"
+      ],
+      "correcta": 3,
+      "explicacion": "Según Microsoft, el color de fondo distingue el estado del botón: «Un fondo oscuro significa que está activado y un fondo claro significa que está desactivado».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-009",
+      "ley": null,
+      "articulo": "Procedimientos recomendados para usar el cuadro CCO",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows",
+      "enunciado": "Según Microsoft, ¿por qué un mensaje enviado con destinatarios en CCO puede acabar en la carpeta de correo no deseado?",
+      "opciones": [
+        "Porque muchos filtros de correo no deseado marcan los mensajes que usan CCO",
+        "Porque los mensajes con CCO se envían sin indicar el remitente",
+        "Porque el campo CCO elimina el asunto del mensaje",
+        "Porque Outlook bloquea los mensajes con más de un destinatario CCO"
+      ],
+      "correcta": 0,
+      "explicacion": "La página explica: «Usar el cuadro CCO es la técnica favorita de los remitentes de spam. Por lo tanto, muchos de los filtros de correo no deseado marcan los mensajes que usan el cuadro CCO como correo no deseado».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-010",
+      "ley": null,
+      "articulo": "Procedimientos recomendados para usar el cuadro CCO",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows",
+      "enunciado": "Si incluye una lista de distribución en el campo CCO, ¿qué puede ocurrir a los destinatarios que ordenan su correo con reglas?",
+      "opciones": [
+        "Que el mensaje se elimine sin llegar a la bandeja de entrada",
+        "Que el mensaje no se ordene según sus reglas",
+        "Que el mensaje se reenvíe de vuelta al remitente",
+        "Que el mensaje se duplique en todas sus carpetas"
+      ],
+      "correcta": 1,
+      "explicacion": "Las reglas de esas personas dependen de que la lista esté en los cuadros Para o CC, así que «el mensaje no se ordenará según sus reglas».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-011",
+      "ley": null,
+      "articulo": "Administrar mensajes de correo electrónico mediante reglas en Outlook",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/manage-email-messages-by-using-rules-in-outlook",
+      "enunciado": "En Outlook, ¿para qué sirven las reglas?",
+      "opciones": [
+        "Para programar el envío de un mensaje a una hora concreta",
+        "Para responder automáticamente mientras está ausente",
+        "Para realizar automáticamente acciones en el correo que llega a la bandeja de entrada",
+        "Para añadir automáticamente una firma a los mensajes nuevos"
+      ],
+      "correcta": 2,
+      "explicacion": "La página indica: «Use reglas para realizar automáticamente acciones específicas en el correo electrónico que llega a su bandeja de entrada», como cambiar la importancia, mover o eliminar mensajes.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-012",
+      "ley": null,
+      "articulo": "Crear una regla de bandeja de entrada para el nuevo Outlook para Windows",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/manage-email-messages-by-using-rules-in-outlook",
+      "enunciado": "En el nuevo Outlook para Windows, ¿qué elementos necesita como mínimo cada regla?",
+      "opciones": [
+        "Una condición, una acción y una excepción",
+        "Un remitente, una carpeta y una acción",
+        "Una condición y una excepción",
+        "Un nombre, una condición y una acción"
+      ],
+      "correcta": 3,
+      "explicacion": "Según Microsoft, «Cada regla necesita al menos tres elementos: Un nombre, una condición y una acción». Las excepciones son opcionales.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-013",
+      "ley": null,
+      "articulo": "Crear una regla a partir de una plantilla en Outlook clásico para Windows",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/manage-email-messages-by-using-rules-in-outlook",
+      "enunciado": "En Outlook clásico, ¿qué ruta permite crear una regla a partir de una plantilla?",
+      "opciones": [
+        "Archivo > Administrar reglas y alertas > Nueva regla",
+        "Archivo > Opciones > Correo > Nueva regla",
+        "Vista > Configuración de vista > Nueva regla",
+        "Insertar > Elemento de Outlook > Nueva regla"
+      ],
+      "correcta": 0,
+      "explicacion": "Para crear una regla a partir de una plantilla en Outlook clásico se elige Archivo > «Administrar reglas & Alertas» > nueva regla y, después, «Seleccione una plantilla».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-014",
+      "ley": null,
+      "articulo": "Crear una regla en un mensaje en Outlook clásico para Windows",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/manage-email-messages-by-using-rules-in-outlook",
+      "enunciado": "En Outlook clásico, al crear una regla desde un mensaje, ¿qué casilla aplica la regla de inmediato a los mensajes que ya están en la carpeta actual?",
+      "opciones": [
+        "Detener el procesamiento de más reglas",
+        "Ejecutar esta nueva regla ahora",
+        "Incluir subcarpetas",
+        "Mostrar en la ventana de alertas"
+      ],
+      "correcta": 1,
+      "explicacion": "La página indica: «Para usar la regla de inmediato, active la casilla Ejecutar esta nueva regla ahora en los mensajes que ya están en la carpeta actual».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-015",
+      "ley": null,
+      "articulo": "Eliminar una regla en Outlook clásico para Windows",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/manage-email-messages-by-using-rules-in-outlook",
+      "enunciado": "En Outlook clásico, ¿cómo se suspende temporalmente una regla sin eliminarla?",
+      "opciones": [
+        "Cambiando el nombre de la regla",
+        "Moviendo la regla al final de la lista",
+        "Desactivando la casilla junto a la regla",
+        "Exportando la regla a un archivo"
+      ],
+      "correcta": 2,
+      "explicacion": "Según Microsoft, «Para suspender temporalmente una regla, desactiva la casilla de verificación junto a la regla». Así se mantiene y se puede activar más tarde.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-016",
+      "ley": null,
+      "articulo": "Ejecutar reglas manualmente en Outlook clásico para Windows",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/manage-email-messages-by-using-rules-in-outlook",
+      "enunciado": "En Outlook clásico, en el cuadro Ejecutar reglas ahora, ¿qué permite elegir la lista Aplicar reglas a?",
+      "opciones": [
+        "Bandeja de entrada o Elementos enviados",
+        "Mensajes con o sin datos adjuntos",
+        "Mensajes de hoy, de la semana o del mes",
+        "Todos los mensajes, leídos o no leídos"
+      ],
+      "correcta": 3,
+      "explicacion": "En la lista Aplicar reglas a, se puede aceptar «la configuración predeterminada de todos los mensajes o cámbiela a mensajes leídos o no leídos».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-017",
+      "ley": null,
+      "articulo": "Crear una regla de bandeja de entrada para el nuevo Outlook para Windows",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/manage-email-messages-by-using-rules-in-outlook",
+      "enunciado": "En el nuevo Outlook para Windows, ¿qué casilla evita que se ejecute ninguna regla después de la que está creando?",
+      "opciones": [
+        "Detener el procesamiento de más reglas",
+        "Ejecutar reglas ahora",
+        "Omitir las reglas siguientes",
+        "Desactivar reglas posteriores"
+      ],
+      "correcta": 0,
+      "explicacion": "La página indica: «Si no quiere que se ejecute ninguna regla después de esta, seleccione la casilla Detener el procesamiento de más reglas».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-018",
+      "ley": null,
+      "articulo": "Resumen",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/how-to-set-up-out-of-office-automatic-replies-in-outlook",
+      "enunciado": "¿Qué hacen las respuestas automáticas de fuera de la oficina en Outlook?",
+      "opciones": [
+        "Reenvían los mensajes recibidos a otra dirección de correo",
+        "Envían un mensaje personalizado una vez a cada persona que le escribe",
+        "Responden a cada mensaje recibido, aunque sea de la misma persona",
+        "Mueven los mensajes recibidos a una carpeta de ausencias"
+      ],
+      "correcta": 1,
+      "explicacion": "Según Microsoft, esta función «envía automáticamente un mensaje personalizado una vez a cada persona que le envíe un correo electrónico durante su ausencia».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-019",
+      "ley": null,
+      "articulo": "Determinar el tipo de cuenta de correo electrónico",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/how-to-set-up-out-of-office-automatic-replies-in-outlook",
+      "enunciado": "En Outlook clásico, ¿dónde se encuentra el botón Respuestas automáticas?",
+      "opciones": [
+        "En la pestaña Inicio, grupo Mover",
+        "En la pestaña Vista, grupo Diseño",
+        "En la pestaña Archivo",
+        "En la pestaña Enviar y recibir"
+      ],
+      "correcta": 2,
+      "explicacion": "Para comprobarlo hay que seleccionar Archivo: «Seleccione Archivo en el extremo izquierdo de la cinta de opciones». Si aparece el botón Respuestas automáticas, se configuran desde ahí.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-020",
+      "ley": null,
+      "articulo": "Solución de problemas: No tengo respuestas automáticas",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/how-to-set-up-out-of-office-automatic-replies-in-outlook",
+      "enunciado": "En Outlook clásico, si al seleccionar Archivo no aparece Respuestas automáticas, ¿cuál puede ser la causa?",
+      "opciones": [
+        "Que no tenga ninguna firma configurada",
+        "Que tenga desactivadas todas las reglas",
+        "Que el panel de lectura esté oculto",
+        "Que use una cuenta de Gmail, Yahoo, POP o IMAP"
+      ],
+      "correcta": 3,
+      "explicacion": "La página explica que «es posible que esté usando una cuenta de Gmail, Yahoo u otra cuenta de POP o IMAP que no admite la característica Respuestas automáticas de Outlook». En ese caso puede usarse una regla.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-021",
+      "ley": null,
+      "articulo": "Nuevo Outlook",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/how-to-set-up-out-of-office-automatic-replies-in-outlook",
+      "enunciado": "En el nuevo Outlook, con una cuenta profesional, ¿qué recomienda Microsoft si quiere enviar respuestas automáticas a personas de fuera de su organización?",
+      "opciones": [
+        "Elegir Enviar respuestas solo a los contactos",
+        "Enviar respuestas a todos los remitentes externos",
+        "No establecer ningún período de tiempo",
+        "Escribir la respuesta solo en inglés"
+      ],
+      "correcta": 0,
+      "explicacion": "Enviar respuestas fuera de la organización las envía a todos los correos, «incluidos boletines, anuncios y, posiblemente, correo no deseado». Por eso, «le recomendamos que elija Enviar respuestas solo a los contactos».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-022",
+      "ley": null,
+      "articulo": "Crear su firma y elegir cuándo Outlook agrega una firma a sus mensajes en Outlook clásico para Windows",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/how-to-add-and-change-an-email-signature-in-outlook",
+      "enunciado": "En Outlook clásico, crea una firma desde un mensaje nuevo y la elige para todos los mensajes nuevos. ¿Se añade a ese mensaje abierto?",
+      "opciones": [
+        "Sí, se añade al pulsar Aceptar",
+        "No, debe agregarla manualmente a ese mensaje",
+        "Sí, pero solo si el mensaje está en HTML",
+        "No, solo se añade a las respuestas y reenvíos"
+      ],
+      "correcta": 1,
+      "explicacion": "La página indica: «Outlook clásico no agrega la nueva firma al mensaje que abrió en el paso 1» y «Tendrá que agregar la firma manualmente a este mensaje».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-023",
+      "ley": null,
+      "articulo": "Crear su firma y elegir cuándo Outlook agrega una firma a sus mensajes en Outlook clásico para Windows",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/how-to-add-and-change-an-email-signature-in-outlook",
+      "enunciado": "En Outlook clásico, en Elegir firma predeterminada, ¿qué lista desplegable hace que la firma aparezca en las respuestas y reenvíos?",
+      "opciones": [
+        "Nuevos mensajes",
+        "Cuenta de correo electrónico",
+        "Respuestas/reenvíos",
+        "Seleccionar firma para editar"
+      ],
+      "correcta": 2,
+      "explicacion": "Según Microsoft, «Puede seleccionar que su firma aparezca automáticamente en los mensajes de respuesta y reenvío. En la lista desplegable Respuestas/reenvíos», se selecciona una de las firmas.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-024",
+      "ley": null,
+      "articulo": "Crear su firma y elegir cuándo Outlook agrega una firma a sus mensajes en Outlook clásico para Windows",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/how-to-add-and-change-an-email-signature-in-outlook",
+      "enunciado": "En Outlook clásico para Windows, ¿dónde se almacenan las firmas creadas en el dispositivo?",
+      "opciones": [
+        "En el buzón del servidor de correo",
+        "En la carpeta Elementos enviados",
+        "En la plantilla Normal de Word",
+        "Localmente, en el dispositivo donde se crearon"
+      ],
+      "correcta": 3,
+      "explicacion": "La página indica: «Las firmas en este dispositivo se almacenan localmente en el dispositivo donde se crearon y es posible que no estén disponibles al usar Outlook en otro dispositivo».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-025",
+      "ley": null,
+      "articulo": "Adjuntar un archivo a un mensaje de correo electrónico en Outlook clásico",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/add-pictures-or-attach-files-to-emails-in-outlook",
+      "enunciado": "En Outlook clásico, ¿en qué grupo de la pestaña Mensaje está el botón Adjuntar archivo?",
+      "opciones": [
+        "Incluir",
+        "Insertar",
+        "Etiquetas",
+        "Básicos"
+      ],
+      "correcta": 0,
+      "explicacion": "La página indica: «En el borrador del mensaje, vaya a la pestaña Mensaje y seleccione Adjuntar archivo en el grupo Incluir».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-026",
+      "ley": null,
+      "articulo": "Adjuntar un archivo a un mensaje de correo electrónico en Outlook clásico",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/add-pictures-or-attach-files-to-emails-in-outlook",
+      "enunciado": "En Outlook clásico, al seleccionar Adjuntar archivo, ¿cuántos archivos muestra la opción Elementos recientes?",
+      "opciones": [
+        "Los 3 más recientes",
+        "Los 12 más recientes",
+        "Los 6 más recientes",
+        "Los 10 más recientes"
+      ],
+      "correcta": 1,
+      "explicacion": "En Elementos recientes, «Aquí se muestran los 12 archivos más recientes en los que haya trabajado», ya estén en el equipo, en OneDrive o en SharePoint.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-027",
+      "ley": null,
+      "articulo": "Adjuntar un archivo a un mensaje de correo electrónico en Outlook clásico",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/add-pictures-or-attach-files-to-emails-in-outlook",
+      "enunciado": "En Outlook clásico, ¿qué ventaja tiene enviar un vínculo a un archivo de OneDrive en lugar de una copia?",
+      "opciones": [
+        "Que el archivo se convierte a PDF",
+        "Que el destinatario no puede reenviarlo",
+        "Que el tamaño del mensaje es reducido",
+        "Que el archivo se cifra automáticamente"
+      ],
+      "correcta": 2,
+      "explicacion": "Según Microsoft, «Enviar un vínculo al archivo de OneDrive o SharePoint hace que el tamaño del mensaje de correo sea reducido».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-028",
+      "ley": null,
+      "articulo": "Adjuntar un archivo a un mensaje de correo electrónico en Outlook clásico",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/add-pictures-or-attach-files-to-emails-in-outlook",
+      "enunciado": "En Outlook clásico, adjunta un vínculo de OneDrive. ¿Qué permiso elige para que solo los destinatarios puedan leer el archivo, pero no modificarlo?",
+      "opciones": [
+        "La organización puede ver",
+        "Los destinatarios pueden editar",
+        "La organización puede editar",
+        "Los destinatarios pueden ver"
+      ],
+      "correcta": 3,
+      "explicacion": "La página describe: «Los destinatarios pueden ver , si quiere que solo los destinatarios del correo electrónico puedan leer el archivo, pero no modificarlo».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    },
+    {
+      "id": "out-030",
+      "ley": null,
+      "articulo": "Adjuntar una tarjeta de presentación, un calendario o un correo electrónico a un mensaje de correo electrónico en Outlook clásico",
+      "fuente": "https://support.microsoft.com/es-es/outlook/mail/add-pictures-or-attach-files-to-emails-in-outlook",
+      "enunciado": "En Outlook clásico, en Adjuntar archivo > Adjuntar elemento, ¿qué opción permite incluir una tarjeta electrónica de su lista de contactos?",
+      "opciones": [
+        "Calendario",
+        "Tarjeta de presentación",
+        "Elemento de Outlook",
+        "Firma"
+      ],
+      "correcta": 1,
+      "explicacion": "Al seleccionar Adjuntar archivo > Adjuntar elemento, la opción Tarjeta de presentación permite: «Elija una tarjeta de presentación electrónica de su lista de contactos».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 27
+      }
+    }
+  ]
+}

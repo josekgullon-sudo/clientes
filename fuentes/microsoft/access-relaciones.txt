@@ -1,0 +1,75 @@
+Guía de relaciones de tabla
+https://support.microsoft.com/es-es/access/guide-to-table-relationships
+Descargado: 2026-10-13
+
+Guía de relaciones de tablas
+Se aplica a Access para Microsoft 365 Access 2024 Access 2021 Access 2019 Access 2016
+Obtener ayuda con Copilot
+¿Cuáles son los pasos para abrir la ventana de relaciones?
+¿Qué hago si especificar claves primarias no funciona?
+¿Cuál es la mejor manera de ver las relaciones de tablas?
+Uno de los objetivos de un buen diseño de base de datos es eliminar la redundancia de los datos (datos duplicados). Para conseguirlo, conviene desglosar los datos en muchas tablas basadas en temas para que cada hecho esté representado solo una vez. A continuación, se proporciona a Access una manera de volver a reunir la información dividida; para ello, se colocan campos comunes en tablas relacionadas. Sin embargo, para realizar este paso correctamente, primero debe conocer las relaciones existentes entre las tablas y, a continuación, especificar dichas relaciones en la base de datos.
+En este artí­culo
+Introducción
+Tipos de relaciones de tablas
+¿Por qué crear relaciones de tablas?
+Descripción de la integridad referencial
+Ver relaciones de tablas
+Introducción
+Después de crear una tabla para cada tema en la base de datos, tiene que dar a Access una manera de volver a reunir esa información cuando sea necesario. Para ello, se colocan campos comunes en las tablas que estén relacionadas y se definen las relaciones entre las tablas. De ese modo, se pueden crear consultas, formularios e informes que muestren a la vez la información de varias tablas. Por ejemplo, el formulario que se muestra a continuación incluye información recopilada de varias tablas:
+1. La información en este formulario proviene de la tabla Clientes...
+2. ... la tabla Pedidos...
+3. ... la tabla Productos...
+4. ... y la tabla Detalles del pedido.
+El nombre de cliente del cuadro Facturar a se obtiene de la tabla Clientes, los valores de Id. de pedido y Fecha de pedido proceden de la tabla Pedidos, el nombre de producto viene de la tabla Productos, y los valores Precio por unidad y Cantidad proceden de la tabla Detalles del pedido. Estas tablas se vinculan entre sí de varias formas para recopilar información de cada una e incorporarla al formulario.
+Siguiendo en el ejemplo anterior, los campos de las tablas deben coordinarse de modo que muestren información acerca del mismo pedido. Esta coordinación se lleva a cabo mediante las relaciones de tablas. Una relación de tabla hace coincidir los datos de los campos clave (a menudo un campo con el mismo nombre en ambas tablas). En la mayoría de los casos, estos campos coincidentes son la clave principal de una tabla, que proporciona un identificador único para cada registro, y una clave externa de la otra tabla. Por ejemplo, los empleados pueden asociarse a los pedidos de los que son responsables mediante la creación de una relación de tabla entre los campos Id. de empleado en las tablas Empleados y Pedidos.
+1. EmployeeID aparece en ambas tablas, como una clave principal ...
+2. ... y como clave externa.
+Principio de página
+Tipos de relaciones de tablas
+Existen tres tipos de relaciones de tablas en Access.
+Una relación uno a varios
+Usemos una base de datos de seguimiento de pedidos que incluya una tabla Clientes y una tabla Pedidos como ejemplo. Un cliente puede realizar cualquier número de pedidos. Por cada cliente representado en la tabla Clientes puede haber representados muchos pedidos en la tabla Pedidos. Por lo tanto, la relación entre la tabla Clientes y la tabla Pedidos es una relación de uno a varios.
+Para representar una relación uno a varios en el diseño de la base de datos, tome la clave principal del lado "uno" de la relación y agréguela como campo o campos adicionales a la tabla en el lado "varios" de la relación. En este caso, por ejemplo, agregaría un nuevo campo (el campo Id. de la tabla Clientes) a la tabla Pedidos y lo denominaría Id. de cliente. Access puede usar el número de identificación de cliente de la tabla Pedidos para buscar el cliente correcto para cada pedido.
+Una relación varios a varios
+Ahora echemos un vistazo a la relación entre una tabla Productos y una tabla Pedidos. Un solo pedido puede incluir varios productos. Por otra parte, un único producto puede aparecer en muchos pedidos. Por tanto, por cada registro de la tabla Pedidos puede haber varios registros en la tabla Productos. Además, por cada registro de la tabla Productos puede haber varios registros en la tabla Pedidos. Esta relación se denomina relación de varios a varios. Tenga en cuenta que para detectar las relaciones de varios a varios existentes entre las tablas, es importante que considere ambas partes de la relación.
+Para representar una relación de varios a varios, debe crear una tercera tabla, a menudo denominada tabla de unión, que divide la relación de varios a varios en dos relaciones uno a varios. Debe insertar la clave principal de cada una de las dos tablas en la tercera. Como resultado, la tercera tabla registra cada ocurrencia, o instancia, de la relación. Por ejemplo, la tabla Pedidos y la tabla Productos tienen una relación varios a varios que se define mediante la creación de dos relaciones uno a varios con la tabla Detalles de pedidos. Un pedido puede incluir muchos productos, y cada producto puede aparecer en muchos pedidos.
+Una relación uno a uno
+En una relación uno a uno, cada registro de la primera tabla solo puede tener un registro coincidente en la segunda tabla y viceversa. Esta relación no es común porque la mayor parte de las veces la información relacionada de este modo se almacena en la misma tabla. Puede usar la relación uno a uno para dividir una tabla con muchos campos, para aislar parte de una tabla por razones de seguridad o para almacenar información que solo se aplica a un subconjunto de la tabla principal. Cuando identifique esta relación, ambas tablas deben compartir un campo común.
+Principio de página
+¿Por qué crear relaciones de tablas?
+Puede crear relaciones de tablas explícitamente mediante la ventana Relaciones, o bien arrastrando un campo desde el panel Lista de campos . Access utiliza las relaciones de tabla para decidir cómo unirlas cuando sea necesario usarlas en un objeto de base de datos. Existen varias razones por las que se deben crear relaciones de tablas antes de crear otros objetos de base de datos, como formularios, consultas e informes.
+Las relaciones de tabla inspiran los diseños de consulta
+Para trabajar con registros de más de una tabla, a menudo se debe crear una consulta que combine las tablas en cuestión. La consulta compara los valores del campo de clave principal de la primera tabla con el campo de clave externa de la segunda. Por ejemplo, para devolver filas que enumeren todos los pedidos de cada cliente, deberá crear una consulta que combine la tabla Clientes con la tabla Pedidos de acuerdo con el campo Id. de cliente. En la ventana Relaciones, puede especificar manualmente los campos que desea combinar. Pero, si ya tiene una relación definida entre las tablas, Access proporciona la combinación predeterminada, basada en la relación de tabla existente. Además, si usa uno de los asistentes para consultas, Access usa la información que recopila de las relaciones de tabla que ya ha definido para presentarle opciones informadas y rellenar previamente la configuración de la propiedad con valores predeterminados apropiados.
+Las relaciones de tablas inspiran los diseños de formulario e informe
+Al diseñar un formulario o un informe, Access usa la información que recopila de las relaciones de tabla que ya ha definido para ofrecerle elecciones informadas y rellenar previamente la configuración de la propiedad con los valores predeterminados adecuados.
+Las relaciones de tabla son la base con la que exigir integridad referencial y evitar los registros huérfanos en la base de datos. Un registro huérfano es el que hace referencia a otro registro que no existe por ejemplo, un registro de un pedido que hace referencia a un registro de un cliente que no existe.
+Al diseñar una base de datos, la información se divide en tablas y cada una de ellas tiene una clave principal. Después, se agregan claves externas a las tablas relacionadas que hacen referencia a dichas claves principales. Estos pares de clave principal y clave externa forman la base de las relaciones de tabla y de las consultas de varias tablas. Es importante que estas referencias de clave externa o clave principal permanezcan sincronizadas. La integridad referencial, que depende de las relaciones de tabla, sirve para asegurarse de que las referencias permanezcan sincronizadas.
+Volver al principio
+Descripción de la integridad referencial
+Al diseñar una base de datos, la información se divide en muchas tablas basadas en temas para minimizar la redundancia de los datos. Después, se proporciona a Access una manera de volver a reunir los datos colocando campos comunes en tablas relacionadas. Por ejemplo, para representar una relación uno a varios, se toma la clave principal de la tabla "uno" y se agrega como campo adicional a la tabla "varios". Para volver a juntar los datos, Access toma el valor de la tabla "varios" y busca el valor correspondiente en la tabla "uno". De este modo, los valores de la tabla "varios" hacen referencia a los valores correspondientes de la tabla "uno".
+Suponga que tiene una relación de uno a varios entre las tablas Transportistas y Pedidos y desea eliminar un transportista. Si el destinatario que desea quitar tiene pedidos en la tabla Pedidos, dichos pedidos quedarán "huérfanos" si elimina el registro Transportista. Los pedidos todavía contendrán un Id. de transportista, pero el Id. ya no será válido, porque el registro al que hace referencia ya no existe.
+El propósito de la integridad referencial es evitar los registros huérfanos y mantener las referencias sincronizadas para que esta situación hipotética no ocurra nunca.
+Para exigir la integridad referencial, es preciso habilitarla para una relación de tabla. Una vez habilitada, Access rechazará todas las operaciones que infrinjan la integridad referencial para esa relación de tabla. Esto significa que Access rechazará las actualizaciones que cambien el destino de una referencia así como las eliminaciones que quiten el destino de una referencia. Es posible que tenga una necesidad perfectamente válida de cambiar la clave principal de un transportista que tiene pedidos en la tabla Pedidos. En estos casos, lo que realmente necesita es que Access actualice automáticamente todas las filas afectadas como parte de una sola operación. De ese modo, Access garantiza que la actualización es completa para que la base de datos no se quede en un estado incoherente, con algunas filas actualizadas y otras no. Por este motivo, Access incluye la opción Actualizar en cascada los campos relacionados . Cuando se aplica la integridad referencial, se selecciona la opción Actualizar en cascada los campos relacionados y, a continuación, se actualiza una clave principal, Access actualiza automáticamente todos los campos que hacen referencia a la clave principal.
+También es posible que tenga la necesidad válida de eliminar una fila y todos los registros relacionados (por ejemplo, un registro Transportista y todos los pedidos relacionados de ese transportista). Por ello, Access incluye la opción Eliminar en cascada los registros relacionados . Cuando se aplica la integridad referencial, se selecciona la opción Eliminar en cascada los registros relacionados y, a continuación, se elimina un registro en el lado de la clave principal de la relación, Access elimina automáticamente todos los registros que hacen referencia a la clave principal.
+Volver al principio
+Ver relaciones de tablas
+Para ver las relaciones de tablas, haga clic en Relaciones en la pestaña Herramientas de base de datos . Se abre la ventana Relaciones y muestra las relaciones existentes. Si no se ha definido ninguna relación de tabla y abre la ventana Relaciones por primera vez, Access le pide que agregue una tabla o consulta a la ventana.
+Abra la ventana Relaciones.
+Haga clic en Archivo , en Abrir y, a continuación, seleccione y abra la base de datos.
+En la pestaña Herramientas de base de datos , en el grupo Relaciones , haga clic en Relaciones .
+En la pestaña Diseño de relaciones , en el grupo Relaciones , haga clic en Todas las relaciones .
+Se mostrarán todas las relaciones definidas en la base de datos. Observe que no se muestran las tablas ocultas (tablas con la casilla de verificación Oculto activada en el cuadro de diálogo Propiedades de la tabla) ni sus relaciones, a menos que esté seleccionada la opción Mostrar objetos ocultos en el cuadro de diálogo Opciones de exploración .
+Una relación de tabla se representa mediante una línea de relación trazada entre las tablas en la ventana Relaciones. Una relación que no exige integridad referencial aparece como una línea delgada entre los campos comunes que admiten la relación. Si selecciona la relación haciendo clic en su línea, la línea se hará más gruesa para indicar que está seleccionada. Si exige la integridad referencial, la línea aparecerá más gruesa en los extremos. Además, aparece el número 1 sobre la parte gruesa de un extremo de la línea de relación y aparece el símbolo de infinito ( ∞ ) en la parte gruesa del otro extremo de la línea.
+Cuando la ventana Relaciones está activa, puede seleccionar los siguientes comandos de la cinta:
+En la pestaña Diseño de relaciones , en el grupo Herramientas :
+Editar relaciones Abre el cuadro de diálogo Modificar relaciones . Si selecciona una línea de relación, puede hacer clic en Modificar relaciones para cambiar la relación de tabla. También puede hacer doble clic en la línea de relación.
+Borrar diseño Quita todas las tablas y relaciones para que no se muestren en la ventana Relaciones. Observe que este comando solo oculta las relaciones y tablas, no las elimina.
+Informe de relaciones Crea un informe que muestra las tablas y relaciones de la base de datos. El informe solo muestra todas las relaciones y tablas que no están ocultas en la ventana Relaciones.
+En la pestaña Diseño de relaciones , en el grupo Relaciones :
+Agregar tablas Permite la selección de tablas para mostrarlas en la ventana Relaciones.
+Ocultar tabla Oculta la tabla seleccionada en la ventana Relaciones.
+Relaciones directas Muestra todas las relaciones y tablas relacionadas de la tabla seleccionada en la ventana Relaciones, si aún no se muestran.
+Todas las relaciones Muestra todas las relaciones y tablas relacionadas de la base de datos en la ventana Relaciones. Observe que las tablas ocultas (las tablas que tienen activada la casilla de verificación Oculto del cuadro de diálogo Propiedades de la tabla) y sus relaciones no se mostrarán a no ser que esté activada la casilla de verificación Mostrar objetos ocultos en el cuadro de diálogo Opciones de navegación.
+Cerrar Cierra la ventana Relaciones. Si realiza algún cambio en el diseño de la ventana Relaciones, le pedirá que guarde los cambios.
+Principio de página

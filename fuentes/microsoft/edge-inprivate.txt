@@ -1,0 +1,44 @@
+Examinar InPrivate en Microsoft Edge
+https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge
+Descargado: 2026-10-13
+
+Explorar InPrivate en Microsoft Edge
+Se aplica a Microsoft Edge Windows 11 Microsoft Edge
+Obtener ayuda con Copilot
+¿Cómo navego en modo InPrivate en Microsoft Edge?
+¿Cómo protejo la privacidad al compartir ubicación?
+¿Cómo navego en modo InPrivate en Microsoft Edge?
+Microsoft Edge eliminará el historial de exploración, las cookies y los datos del sitio, así como las contraseñas, las direcciones y los datos de formulario al cerrar todas las ventanas de InPrivate.
+Puedes abrir una ventana de InPrivate de distintas formas:
+Selecciona y mantén presionado (haz clic con el botón derecho) en el logotipo de Microsoft Edge en la barra de tareas y selecciona Nueva ventana InPrivate .
+En Microsoft Edge, selecciona y mantén presionado (haz clic con el botón derecho) en un vínculo y selecciona Abrir vínculo en la ventana InPrivate .
+En Microsoft Edge, selecciona Configuración y más > Nueva ventana InPrivate .
+Otras personas que usen este dispositivo no verán tu actividad de exploración, pero es posible que el proveedor de servicios de Internet o tu centro de trabajo o escuela puedan tener acceso a estos datos.
+¿Qué hace Microsoft Edge con tus datos mientras te encuentras en InPrivate?
+Exploración de InPrivate
+Borra el historial de exploración, descarga el historial, las cookies y otros datos del sitio, las imágenes y archivos almacenados en caché, las contraseñas, los datos de formularios de autorrelleno, los permisos de sitio y los datos de aplicaciones hospedadas al cerrar todas las ventanas de InPrivate.
+Guarda tus favoritos y los archivos descargados, para que puedas acceder a ellos la próxima vez que uses Microsoft Edge.
+Te permite acceder a favoritos, contraseñas y datos de relleno de formulario desde el perfil que se usa para abrir la ventana InPrivate.
+Permite que las extensiones a las que hayas concedido permiso se ejecuten durante la exploración de InPrivate.
+Usa automáticamente la búsqueda InPrivate con Microsoft Bing:
+Para las búsquedas en la barra de búsqueda de la página de aterrizaje de InPrivate.
+En Bing.com.
+En la barra de direcciones, si Microsoft Bing es el motor de búsqueda predeterminado.
+Nota
+Los servicios Microsoft pueden aproximarse a tu área general para proporcionar experiencias relevantes, como el tiempo y las noticias. La ubicación puede aproximarse usando tecnologías como Bluetooth, WiFi, módem de red de telefonía móvil y dirección IP, o a través del servicio de ubicación de Windows, si ha habilitado la configuración de ubicación en su dispositivo Windows. Los datos generales de ubicación se borran del explorador al cerrar todas las ventanas InPrivate.
+Microsoft Edge no podrá impedir que las extensiones guarden el historial de exploración mientras exploras InPrivate.
+Cuando se usa el teclado de Windows IME para escribir e insertar entradas de lápiz, se pueden recopilar datos para mejorar el reconocimiento del idioma y la funcionalidad de sugerencias. Para detener la recopilación de datos de entrada manuscrita y escritura por parte de Microsoft al usar el teclado IME de Windows en InPrivate y las ventanas de exploración normal, ve a Configuración de > Windows Privacidad & seguridad > Entrada manuscrita & personalización de la escritura con teclado .
+Las páginas web. como edge://settings, edge://favorites y edge://history no se pueden ver en una ventana InPrivate. Si abres estas páginas al explorar, InPrivate las abrirá en una ventana de exploración normal.
+La exploración de InPrivate no
+Evita que los sitios web soliciten tu ubicación precisa. La exploración de InPrivate usa la configuración de permisos de ubicación del perfil desde el que se inició la sesión de InPrivate. Para administrar los permisos de ubicación, vaya a Configuración y más > Configuración > Privacidad, búsqueda y servicios > Permisos > del sitio Todos los permisos > Ubicación .
+Asocia tu historial de exploración con una cuenta de Microsoft o usa estos datos para la mejora del producto.
+Guarde nuevas contraseñas, direcciones o información rellenada en formularios en línea.
+Te permite volver a abrir las pestañas y ventanas cerradas recientemente desde Configuración y más > historial > cerrados recientemente .
+¿Es más seguro si exploro en InPrivate?
+La exploración de InPrivate te protege más de sitios web malintencionados ni proporciona más bloqueos de anuncios. Los sitios web también pueden personalizar contenido para ti durante la sesión de Exploración de InPrivate porque no se eliminan las cookies ni otros permisos de sitios hasta que no cierras todas las ventanas de InPrivate.
+Para ayudar a evitar que los sitios web personalicen el contenido y los anuncios, puedes:
+Bloquear cookies de terceros: Ve a Configuración y más > Configuración > Cookies de privacidad, búsqueda y servicios > y activa Bloquear cookies de terceros . —O bien—
+Cambia el nivel de seguimiento a Estricto: Ve a Configuración y más > Configuración > Privacidad, búsqueda y servicios > Prevención de seguimiento , activa Habilitar la prevención de seguimiento y establece el nivel de seguimiento en Estricto .
+Esto puede provocar que algunos sitios se comporten de forma inesperada.
+¿Cuándo no está disponible la Exploración de InPrivate?
+Los niños con Informes de actividades o filtrado web habilitados a través de su grupo familiar no pueden explorar InPrivate. Las organizaciones, como centros educativos o lugares de trabajo, pueden usar la directiva de grupo para impedir que los usuarios exploren InPrivate.

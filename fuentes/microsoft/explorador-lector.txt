@@ -1,0 +1,149 @@
+Usar un lector de pantalla para explorar el Explorador de archivos en Windows
+https://support.microsoft.com/es-es/accessibility/windows/use-a-screen-reader-to-explore-and-navigate-file-explorer-in-windows
+Descargado: 2026-10-13
+
+Usar un lector de pantalla para explorar el Explorador de archivos en Windows y navegar por él
+Obtener ayuda con Copilot
+¿Cómo uso un lector de pantalla para explorar y navegar por Archivo?
+Háblame sobre cómo navegar por el área de contenido principal.
+Háblame sobre cómo navegar por la barra de herramientas de OneDrive.
+Este artículo está destinado a personas que usan un programa de lector de pantalla como Narrador de Windows, JAWS o NVDA con herramientas o características de Windows y productos de Microsoft 365. Este artículo forma parte del conjunto de contenido de Ayuda y formación de accesibilidad donde podrá encontrar más información sobre accesibilidad en nuestras aplicaciones. Para obtener ayuda general, visite el Soporte técnico de Microsoft .
+Windows 11
+Windows 10
+Usa el teclado y un lector de pantalla para explorar y navegar por el Explorador de archivos en Windows 11. Hemos probado este artículo con el Narrador, JAWS y NVDA, pero las instrucciones pueden funcionar con otros lectores de pantalla siempre y cuando sigan las técnicas y los estándares de accesibilidad habituales.
+Nota
+Para obtener más información sobre los lectores de pantalla, vaya a Cómo funcionan los lectores de pantalla con Microsoft 365 .
+Para obtener más información sobre cómo compartir archivos, ve al Explorador de archivos de Windows o a Compartir archivos de Windows .
+Contenido
+Abrir el Explorador de archivos
+Desplazarse por los elementos principales de la ventana
+Navegar por el panel de contenido
+Navegar por el panel de navegación
+Navegar por la barra de herramientas
+Navegar por los botones de la barra de aplicaciones
+Usar el cuadro de búsqueda
+Abrir los archivos con aplicaciones específicas
+Abrir el Explorador de archivos
+Para abrir el Explorador de archivos, presione la tecla del logotipo de Windows + E . El foco estará automáticamente en el panel Inicio , que incluye secciones como Recomendados , Favoritos y Recientes .
+Recorrer los elementos principales de la pantalla
+Para desplazarse por los elementos principales del Explorador de archivos, use la tecla F6 para avanzar y Mayús + F6 para retroceder. El foco se moverá en el siguiente orden:
+Nota
+Para navegar por las vistas Inicio y Galería , las teclas F6 y Mayús + F6 recorren el control de pestañas, el panel de contenido y el panel de navegación. Para desplazarse entre los elementos de la barra de herramientas, la barra de aplicaciones y el icono Agregar una nueva pestaña , use la tecla Tab .
+Pestañas : Esta área se encuentra en la parte superior de la ventana. Muestra todas las pestañas abiertas actualmente e incluye una opción para agregar una pestaña nueva.
+Panel de navegación : esta área se encuentra en el lado izquierdo de la ventana, lo que permite el acceso a diferentes carpetas, unidades y bibliotecas.
+Panel de contenido : el área central de la ventana donde se muestran los archivos o carpetas. Si el panel Contenido está en el modo de vista Detalles , los botones de ordenación permiten ordenar por criterios como Nombre o Fecha de modificación .
+Panel de detalles (si se muestra): este panel opcional proporciona información adicional sobre el elemento seleccionado. Está desactivado de forma predeterminada, pero se puede habilitar según sea necesario.
+Barra de estado : esta área se encuentra en la parte inferior derecha de la ventana y contiene botones para cambiar la vista y el diseño del Explorador de archivos.
+Navegar por el panel de contenido
+El panel de contenido es el área principal donde se interactúa con los archivos y carpetas almacenados localmente en el equipo. Esta área muestra las carpetas y los archivos de una vista Inicio o de la carpeta, unidad o ubicación de red seleccionada actualmente. Siga estos pasos para navegar por el panel de contenido:
+Presione F6 o Mayús + F6 para mover el foco al panel de contenido. Oirá el nombre del primer elemento.
+Use las teclas de dirección arriba y abajo para examinar los archivos y carpetas. Presione Entrar para abrir el archivo o carpeta seleccionados.
+Si el panel de contenido está en el modo de vista Detalles , use la tecla F6 o Mayús + F6 para desplazarse hasta los botones de ordenación. Cuando el foco caiga en un criterio de ordenación, como "Fecha de modificación, botón de expansión", use las teclas de dirección izquierda y derecha para desplazarse por los botones de ordenación. Para ordenar la vista actual por la opción seleccionada, por ejemplo, Nombre o Fecha de modificación , presione Entrar . Puede ajustar el diseño para ver sus archivos y carpetas como iconos extra grandes , iconos grandes , iconos medianos , iconos pequeños , detalles , iconos o contenido . Los diferentes diseños muestran miniaturas de los archivos o iconos estándar según los tipos de archivo.
+Para seleccionar varios archivos, use las teclas de dirección para navegar al primer archivo o carpeta que desea seleccionar. Después, mantenga presionada la tecla Mayús y use las teclas de dirección para seleccionar los archivos o carpetas. Cuando haya seleccionado todos los archivos y carpetas que necesita, presione Ctrl + X para cortar o Ctrl + C para copiar, o presione la tecla Suprimir para eliminar.
+Navegar por el panel de navegación
+El panel de navegación se encuentra en el lado izquierdo del Explorador de archivos y le permite acceder a diferentes carpetas, unidades, bibliotecas, archivos o carpetas anclados y ubicaciones de red, como su OneDrive. Para mover el foco al panel de navegación:
+Presione F6 o Mayús + F6 hasta que oiga "Árbol del panel de navegación" con Narrador, seguido del nombre del primer elemento, por ejemplo, "Inicio". Con NVDA, escuchas: "Vista de árbol". Con JAWS, escuchará: "Panel de navegación, vista de árbol".
+Use las teclas de dirección arriba y abajo para examinar las carpetas y unidades.
+Presione Entrar para abrir la carpeta o unidad seleccionada en el panel de contenido.
+Navegar por la barra de herramientas
+La barra de herramientas se encuentra en la parte superior de la ventana, debajo de los controles de pestaña. Esta área contiene varios botones de navegación, dependiendo de la vista actual, como Atrás , Adelante , Arriba , Actualizar y el cuadro de búsqueda . Para mover el foco a la barra de herramientas:
+Presione F6 o Mayús + F6 hasta que oiga "Lista de control de pestañas" o el nombre de carpeta actual y, después, presione la tecla TAB para desplazarse a los elementos de la barra de herramientas. El foco se mueve al primer botón activo de la barra de herramientas.
+Presione Entrar para seleccionar los botones.
+Navegar por los botones de la barra de aplicaciones
+Debajo de la barra de herramientas, hay una fila de botones de la barra de aplicaciones que se usan para crear nuevas carpetas, copiar, mover, eliminar y compartir archivos. Para mover el foco a los botones de la barra de aplicaciones:
+Presione la tecla Alt . Escuchará el nombre del botón seleccionado actualmente, como "Botón nuevo, contraído".
+Usa las teclas de dirección izquierda y derecha para desplazarte entre los botones y presiona Entrar para seleccionar.
+Usar el cuadro de búsqueda
+El cuadro de búsqueda, situado en el lado derecho de la barra de herramientas, le ayuda a encontrar un archivo dentro de una carpeta o biblioteca específica. Para usar el cuadro de búsqueda, siga estos pasos:
+Presione Ctrl + E y escriba el término de búsqueda. La búsqueda se iniciará mientras escribe y oirá actualizaciones sobre el progreso y la finalización de la búsqueda.
+Presione la tecla F6 o la tecla Tab hasta llegar al panel de contenido o shell. Escuchará el nombre del primer elemento de resultado de búsqueda.
+Use las teclas de flecha arriba o abajo para examinar la lista de resultados de búsqueda y presione Entrar para abrir el elemento seleccionado.
+Si selecciona una carpeta, el foco se moverá al primer elemento de esa carpeta.
+Si seleccionas un archivo, este se abrirá en la aplicación asociada y el foco se desplazará a esa ventana.
+Abrir los archivos con aplicaciones específicas
+La función Abrir con le permite elegir una aplicación específica para abrir un archivo, incluso si ya hay un programa predeterminado configurado para ese tipo de archivo.
+Presione la tecla F6 o Mayús + F6 para mover el foco al panel de contenido. Oirá el nombre del primer elemento.
+Use las teclas de dirección para desplazarse por los archivos.
+Presione Mayús + F10 para abrir el menú contextual del elemento seleccionado actualmente después de seleccionar el archivo.
+Utilice la tecla de flecha abajo hasta que oiga «Abrir con un elemento de menú contraído» y presione Entrar para abrir el menú emergente.
+Use la tecla de dirección arriba o abajo para seleccionar la aplicación necesaria de la lista y presione Entrar .
+Si la aplicación no aparece en la lista, presione las teclas de dirección arriba o abajo hasta que oiga "Elegir otra aplicación" y, después, presione Entrar .
+Presione Tab para navegar al grupo de aplicaciones sugerido, luego use la tecla de flecha abajo para seleccionar la aplicación requerida y luego presione Entrar .
+Después de seleccionar la aplicación, use la tecla Tab para seleccionar Siempre o Solo una vez y, a continuación, presione Entrar .
+Nota
+Si elige Siempre , todos los archivos de este tipo se abrirán con la aplicación seleccionada de forma predeterminada.
+Vea también
+Usar un lector de pantalla para explorar el menú Inicio en Windows y navegar por él
+Usar un lector de pantalla para explorar la Configuración en Windows y navegar por ella
+Configure su dispositivo para que funcione con accesibilidad en Microsoft 365
+Soporte de accesibilidad para Windows
+Use el teclado y un lector de pantalla para explorar y navegar por el Explorador de archivos en Windows 10. Hemos probado este artículo con el Narrador, JAWS y NVDA, pero las instrucciones pueden funcionar con otros lectores de pantalla siempre y cuando sigan las técnicas y los estándares de accesibilidad habituales.
+Nota
+Para obtener más información sobre los lectores de pantalla, vaya a Cómo funcionan los lectores de pantalla con Microsoft 365 .
+Contenido
+Abrir el Explorador de archivos
+Desplazarse por los elementos principales de la ventana
+Navegar por el panel de contenido
+Navegar por el panel de navegación
+Navegar por la barra de herramientas
+Navegar por las pestañas de la cinta
+Usar el cuadro de búsqueda
+Abrir los archivos con aplicaciones específicas
+Abrir el Explorador de archivos
+Para abrir el Explorador de archivos, presione la tecla del logotipo de Windows + E . El foco se moverá automáticamente al primer elemento del panel de contenido, normalmente en la vista de acceso rápido , que muestra las carpetas frecuentes y los archivos recientes .
+Desplazarse por los elementos principales de la ventana
+Para desplazarse por los elementos principales del Explorador de archivos, presione la tecla F6 para avanzar y Mayús + F6 para retroceder. El foco se moverá en el siguiente orden:
+El panel de contenido es el área principal en la que se enumeran los archivos y carpetas.
+Si el panel de contenido está en modo de vista Detalles , los botones de ordenación permiten ordenar por criterios como Nombre o Fecha de modificación .
+La barra de estado de la parte inferior de la pantalla contiene botones para cambiar el modo de vista.
+La barra de herramientas de la parte superior de la pantalla contiene los botones de navegación y el cuadro de búsqueda .
+El panel de navegación se encuentra en el lado izquierdo de la pantalla, lo que permite el acceso a diferentes carpetas, unidades y bibliotecas.
+Navegar por el panel de contenido
+El panel de contenido muestra las carpetas y los archivos de la vista Acceso rápido , o la carpeta, unidad o ubicación de red seleccionada actualmente.
+Para mover el foco al panel de contenido, presione F6 o Mayús + F6 hasta que oiga "vista Elementos" o "Entrar vista Elementos de tabla", seguido del nombre del primer elemento.
+Para examinar el contenido, use la flecha arriba o abajo . Para abrir el archivo o carpeta seleccionados, presione Entrar .
+Para volver a la vista anterior, presione la tecla de dirección Alt + izquierda. Para avanzar a la vista de la que regresó, presione la tecla de dirección Alt + derecha.
+Para usar los botones de ordenación del panel de contenido (si el panel de contenido está en el modo de vista Detalles ), presione F6 o Mayús + F6 hasta que oiga el nombre del criterio de ordenación seleccionado actualmente, por ejemplo, "Fecha de modificación, botón de expansión". Para desplazarse por los botones de ordenación, use la tecla de dirección izquierda o derecha. Para ordenar la vista actual por la opción seleccionada, por ejemplo, Nombre o Fecha de modificación , presione Entrar .
+Para seleccionar varios archivos, use las teclas de dirección para navegar al primer archivo o carpeta que desea seleccionar. Después, mantenga presionada la tecla Ctrl y use las teclas de dirección para navegar a otros archivos o carpetas. Presione la barra espaciadora para seleccionar o quitar selección de elementos según sea necesario. Una vez que haya seleccionado todos los archivos y carpetas que necesita, presione Ctrl + X para cortar, Ctrl + C para copiar o presione la tecla Suprimir para eliminar.
+Navegar por el panel de navegación
+El panel de navegación muestra las carpetas y unidades del equipo, y las ubicaciones de red, como OneDrive. De forma predeterminada, el primer elemento del panel de navegación es la vista de acceso rápido , que muestra las carpetas frecuentes y los archivos recientes .
+Para mover el foco al panel de navegación, presione F6 o Mayús + F6 hasta que oiga: "Vista de árbol".
+Para examinar las carpetas y unidades, use la flecha arriba o abajo .
+Para abrir la carpeta o unidad seleccionada en el panel de contenido, presione Entrar .
+Navegar por la barra de herramientas
+La barra de herramientas contiene varios botones de navegación, según la vista actual. Estos incluyen los botones Atrás , Adelante , Ubicaciones recientes y Arriba .
+Para mover el foco a la barra de herramientas, presione F6 o Mayús + F6 hasta que oiga "Modo de vista" y vuelva a presionar F6 . El foco se mueve al primer botón activo de la barra de herramientas.
+Para navegar por los botones de la barra de herramientas, presione la tecla Tab . Presione Entrar para realizar una selección.
+Navegar por las pestañas de la cinta
+Encima de la barra de herramientas hay una fila de pestañas de la cinta de opciones que contienen herramientas para copiar, mover, eliminar y compartir archivos, por ejemplo.
+Para mover el foco a la fila de pestañas de la cinta, presione Alt . Oirá "Cinta, salir de la tabla", seguido de la pestaña seleccionada.
+Para desplazarse entre las pestañas de la cinta de opciones, use las teclas de flecha izquierda o derecha y presione Entrar para seleccionar una pestaña. El contenido de la pestaña seleccionada de la cinta se muestra en la cinta situada debajo de las pestañas de la cinta y el foco pasa a la primera opción de la cinta.
+Para desplazarse por la cinta de opciones, presione la tecla Tab o Mayús + . Presione Entrar para seleccionar una opción.
+Usar el cuadro de búsqueda
+El cuadro de búsqueda le ayuda a encontrar rápidamente un archivo si conoce su nombre. Para usar el cuadro de búsqueda :
+Presione Ctrl + E y escriba el término de búsqueda . Después de escribir, los resultados principales aparecerán debajo del cuadro de búsqueda . Puede realizar una de las siguientes acciones:
+Para abrir la lista completa de resultados de búsqueda en el panel de contenido, presione Entrar . Después presione F6 hasta que oiga el primer resultado de búsqueda, use las teclas de dirección arriba y abajo para examinar la lista y presione Entrar para abrir el resultado seleccionado.
+Para examinar los resultados principales que aparecen debajo del cuadro de búsqueda , presione la tecla de dirección abajo . Para abrir el resultado seleccionado, presione Entrar . Para cerrar la búsqueda, presione la tecla Esc .
+Si selecciona una carpeta, el foco se mueve al primer elemento de esa carpeta.
+Si selecciona un archivo, se abre en la aplicación asociada y el foco se mueve a esa ventana.
+Abrir los archivos con aplicaciones específicas
+La función Abrir con le permite elegir una aplicación específica para abrir un archivo, incluso si ya hay un programa predeterminado configurado para ese tipo de archivo.
+Presione la tecla F6 o Mayús + F6 para mover el foco al panel de contenido. Oirá el nombre del primer elemento.
+Use las teclas de dirección para desplazarse por los archivos.
+Presione Mayús + F10 para abrir el menú contextual del elemento seleccionado actualmente después de seleccionar el archivo.
+Use la tecla de dirección abajo hasta que oiga «Abrir con» y presione Entrar para abrir el cuadro de diálogo ¿Cómo desea abrir este archivo?
+Use la tecla de dirección arriba o abajo para seleccionar la aplicación necesaria de la lista y presione Entrar .
+Si la aplicación no aparece, presione la tecla de dirección arriba o abajo hasta que oiga "Más aplicaciones" y presione Entrar .
+Use la tecla de flecha abajo para seleccionar la aplicación necesaria y presione Entrar .
+Para establecer la aplicación seleccionada como la predeterminada para abrir todos los archivos de este tipo, presione la tecla Tab hasta que oiga "Usar siempre esta aplicación para abrir, seguido del formato de archivo" y, después, presione la barra espaciadora para confirmar.
+Use la tecla TAB para seleccionar el botón Aceptar y presione Entrar .
+Vea también
+Usar un lector de pantalla para explorar el menú Inicio en Windows y navegar por él
+Usar un lector de pantalla para explorar la Configuración en Windows y navegar por ella
+Configure su dispositivo para que funcione con accesibilidad en Microsoft 365
+Explorador de archivos en Windows
+Soporte de accesibilidad para Windows
+Métodos abreviados de teclado de Windows
+Soporte técnico para los clientes con discapacidades
+Microsoft desea proporcionar la mejor experiencia posible a todos nuestros clientes. Si tiene alguna discapacidad o tiene preguntas relacionadas con la accesibilidad, póngase en contacto con Answer Desk Accesibilidad de Microsoft para obtener asistencia técnica. El equipo de soporte técnico de Answer Desk Accesibilidad está preparado para usar muchas tecnologías de asistencia conocidas y puede ofrecer asistencia en lenguaje de signos en inglés, español, francés y estadounidense. Vaya al sitio de Answer Desk Accesibilidad de Microsoft para saber los detalles de contacto de su región.
+Si es un usuario de la administración pública, un usuario comercial o de empresa, póngase en contacto con el Answer Desk Accesibilidad para empresas .

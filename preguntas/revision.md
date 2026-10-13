@@ -76,6 +76,7 @@ Ninguna por ahora.
   ue-019 pregunta por el texto del 17.5 TUE (dos tercios, salvo decisión unánime del Consejo Europeo).
 - **reglamento-electronico-rd203-2021** (30, temas 19 y 20) y **excel-365** (30, tema 25): revisados y `validada`. En Excel solo hay atajos iguales en cualquier idioma (F2, F4, F9, F11, Mayús+F3, Mayús+F11, Alt+=).
 - **windows-11** (30, tema 22): revisado y `validada`. Solo atajos con la tecla Windows o universales; descartados los que la página de Microsoft da con dos significados (Windows+A, +C, +S, +Q).
+- **outlook-365** (29, tema 27): revisado y `validada`. Sin atajos (la página da Ctrl+N, de la versión inglesa). Se retira out-029 por rebuscada.
 - Fuentes nuevas, descargadas con `python3 scripts/descargar_boe.py`: Ley 19/2013, Ley 47/2003,
   RD 208/1996, RD 203/2021, RD 951/2005, Ley 7/1985 (Bases de Régimen Local) y LO 6/1985 (Poder
   Judicial). Sirven para los temas 4, 6, 7, 9, 15, 17, 18, 19 y 20.

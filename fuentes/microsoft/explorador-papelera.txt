@@ -1,0 +1,21 @@
+Buscar la papelera de reciclaje en Windows
+https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/find-the-recycle-bin-in-windows
+Descargado: 2026-10-13
+
+Buscar la papelera de reciclaje en Windows
+Se aplica a Windows 11 Windows 10
+Nota
+El soporte técnico para Windows 10 finalizó el 14 de octubre de 2025
+Después del 14 de octubre de 2025, Microsoft ya no proporcionará actualizaciones de software gratuitas desde Windows Update, asistencia técnica ni correcciones de seguridad para Windows 10. El PC seguirá funcionando, pero recomendamos que se cambie a Windows 11.
+Más información
+¿No encuentra la papelera de reciclaje en su dispositivo Windows? Si está oculta o no aparece después de una actualización, este artículo le ayuda a localizarla y restaurarla rápidamente.
+El escritorio no muestra ningún icono
+Si el escritorio no muestra ningún icono, haz clic con el botón derecho (o mantén presionado un dispositivo táctil) en el escritorio y selecciona Ver . Asegúrese de que la opción Mostrar iconos del escritorio esté activada. Si no es así, selecciónelo.
+El escritorio muestra iconos, pero falta la Papelera de reciclaje
+Si el escritorio muestra iconos, pero falta la papelera de reciclaje, comprueba que no esté deshabilitada en la configuración del escritorio.
+En la aplicación Configuración de su dispositivo Windows
+seleccione Temas de personalización > o use el siguiente acceso directo:
+Temas
+Selecciona la configuración del icono de escritorio
+Asegúrese de que la casilla de la papelera de reciclaje está activada y seleccione Aceptar
+El icono de la Papelera de reciclaje debería aparecer en el escritorio.

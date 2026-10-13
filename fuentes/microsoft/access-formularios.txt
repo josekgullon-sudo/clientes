@@ -1,0 +1,60 @@
+Crear un formulario en Access
+https://support.microsoft.com/es-es/access/create-a-form-in-access
+Descargado: 2026-10-13
+
+Crear un formulario en Access
+Se aplica a Access para Microsoft 365 Access 2024 Access 2021 Access 2019 Access 2016
+Obtener ayuda con Copilot
+Guíame sobre cómo crear un formulario en blanco en Access.
+¿Cómo debo crear un formulario utilizando la herramienta de formularios?
+¿Cómo puedo crear un formulario dividido en Access?
+Los formularios son como los expositores de una tienda. Facilitan la visualización u obtención de los elementos que se buscan. Los formularios le permiten a usted u otros usuarios agregar, editar o mostrar los datos almacenados en la base de datos de escritorio de Access, por lo que un buen diseño de formularios es importante. Si varios usuarios van a usar la base de datos de escritorio de Access, los formularios bien diseñados son esenciales para ser eficaces y poder introducir datos con precisión.
+Hay varias maneras de crear un formulario en una base de datos de escritorio de Access. En este artículo se le señalan algunas opciones comunes.
+¿Qué quiere hacer?
+Crear un formulario a partir de una tabla o consulta existente en Access
+Crear un formulario en blanco en Access
+Crear un formulario dividido en Access
+Crear un formulario que muestre varios registros en Access
+Crear un formulario que contenga un subformulario en Access
+Crear un formulario de navegación en Access
+Información adicional
+Crear un formulario a partir de una tabla o consulta existente en Access
+Para crear un formulario a partir de una tabla o consulta de la base de datos, en el panel de navegación, haga clic en la tabla o consulta que contenga los datos del formulario. Después, en la pestaña Crear , haga clic en Formulario .
+Access crea un formulario y lo abre en la vista Presentación. En caso necesario, se pueden realizar cambios de diseño, como ajustar el tamaño de los cuadros de texto para que quepan los datos. Para más información, consulte el artículo sobre cómo usar la herramienta de formulario .
+Crear un formulario en blanco en Access
+Para crear un formulario sin controles ni elementos con formato previo, en la pestaña Crear , haga clic en Formulario en blanco . Access abre un formulario en blanco en la vista Presentación y muestra el panel Lista de campos .
+En el panel Lista de campos , haga clic en el signo más ( + ) situado junto a la tabla o las tablas que contienen los campos que quiera ver en el formulario.
+Para agregar un campo, haga doble clic en él o arrástrelo hasta el formulario. Para agregar varios campos a la vez, mantenga presionada la tecla CTRL , haga clic en varios campos y arrástrelos todos juntos hasta el formulario.
+Nota
+El orden de las tablas en el panel Lista de campos puede cambiar según qué parte del formulario esté seleccionada en ese momento. Si no puede agregar un campo al formulario, pruebe a seleccionar otra parte distinta e intente agregar el campo de nuevo.
+Use las herramientas del grupo Encabezado o pie de página de la pestaña Diseño de presentación de formulario para incluir en el formulario un logotipo, un título o la fecha y la hora.
+Si desea agregar una mayor variedad de controles al formulario, haga clic en Diseño de presentación de formulario y use las herramientas del grupo Controles .
+Crear un formulario dividido en Access
+Un formulario dividido proporciona dos vistas de los datos al mismo tiempo: una vista Formulario y una vista Hoja de datos. Este formulario reporta las ventajas de ambos tipos de formularios en uno solo. Por ejemplo, puede usar la parte de la hoja de datos para buscar rápidamente un registro y, después, usar la parte correspondiente al formulario para verlo o editarlo. Las dos vistas están conectadas al mismo origen de datos y permanecen sincronizadas en todo momento.
+Para crear un formulario dividido con la herramienta Formulario dividido, en el panel de navegación, haga clic en la tabla o consulta que contiene los datos. Luego, en la pestaña Crear , haga clic en Más formularios > Formulario dividido .
+Access crea el formulario, en el que podrá realizar cambios de diseño. Así, por ejemplo, puede ajustar el tamaño de los cuadros de texto para que quepan los datos en caso necesario. Para aprender a usar un formulario dividido, vea el artículo sobre cómo crear un formulario dividido .
+Crear un formulario que muestre varios registros en Access
+Un formulario de varios elementos, también conocido como formulario continuo, resulta útil cuando se necesita disponer de un formulario que muestre varios registros, pero que sea más personalizable que una hoja de datos. Para crear uno, use la herramienta Varios elementos .
+En el panel de navegación, haga clic en la tabla o consulta que contiene los datos que desee ver en el formulario.
+En la pestaña Crear , haga clic en Más formularios > Varios elementos .
+Access crea el formulario y lo muestra en la vista Presentación. En la vista Presentación, se pueden realizar cambios de diseño en el formulario mientras se muestran los datos. Así, puede ajustar el tamaño de los cuadros de texto para que quepan los datos. Para más información, vea Crear un formulario mediante la herramienta Varios elementos .
+Crear un formulario que contenga un subformulario en Access
+Cuando se trabaja con datos relacionados almacenados en tablas independientes, a menudo es necesario ver los datos de varias tablas o consultas en el mismo formulario. Los subformularios son una forma conveniente de hacer esto. Dado que existen varias maneras de agregar un subformulario según sus necesidades, vea Crear un formulario que contiene un subformulario (formulario de uno a varios).
+Crear un formulario de navegación en Access
+Un formulario de navegación es, simplemente, un formulario que contiene un control de navegación. Este tipo de formularios constituye un enorme aliciente en cualquier base de datos, pero crear uno resulta especialmente importante si tiene previsto publicar una base de datos en la web, ya que el panel de navegación de Access no se muestra en un explorador.
+Abra la base de datos a la que vaya a agregar un formulario de navegación.
+En el grupo Formularios de la pestaña Crear , haga clic en Navegación y elija el estilo de navegación que desee.
+Access crea el formulario, le agrega el control de navegación y abre el formulario en la vista Presentación. Para más información, vea Crear un formulario de navegación .
+Información adicional
+Puede usar varias opciones para personalizar los formularios. Comprueba si alguna de las siguientes opciones satisface tus necesidades:
+Opciones
+Ver este recurso
+Si quiere poder seleccionar los campos que aparecen en el formulario, use el Asistente para formularios para crear el formulario.
+Crear un formulario mediante el Asistente para formularios
+Agregar pestañas a un formulario permite organizar mejor el contenido y facilitar su uso, especialmente si contiene muchos controles.
+Crear un formulario con pestañas
+Un control de explorador web permite ver páginas web en un formulario. Este control se puede vincular a los campos o a los controles de la base de datos para determinar dinámicamente qué página se muestra. Así, puede usar la información de direcciones de una base de datos para, por ejemplo, crear asignaciones personalizadas en un sitio de asignaciones de Internet, o usar la información sobre productos de una base de datos para buscar artículos en el sitio web de un proveedor.
+Agregar exploración web a un formulario
+Access coloca controles en guías denominadas diseños para que sea más fácil alinear los controles de un formulario. Aprenda a mover los controles y cambiar su tamaño uno a uno.
+Mover controles y cambiar su tamaño independientemente
+Principio de página

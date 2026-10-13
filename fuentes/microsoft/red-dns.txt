@@ -1,0 +1,59 @@
+Información general sobre DNS
+https://learn.microsoft.com/es-es/windows-server/networking/dns/dns-overview
+Descargado: 2026-10-13
+
+Tabla de contenido
+Salir del modo de editor
+Preguntar a Learn
+Preguntar a Learn
+Modo de lectura
+Tabla de contenido
+Leer en inglés
+Agregar
+Añadir a Planes
+Copiar Markdown
+Imprimir
+Nota:
+El acceso a esta página requiere autorización. Puede intentar iniciar sesión o cambiar directorios .
+El acceso a esta página requiere autorización. Puede intentar cambiar los directorios .
+¿Qué es el sistema de nombres de dominio (DNS)?
+Se aplica a: ✅ Windows Server 2025 , ✅ Windows Server 2022 , ✅ Windows Server 2019 , ✅ Windows Server 2016
+Comentarios
+DNS es un protocolo estándar del sector que asigna nombres de dominio a direcciones IP, lo que permite la resolución de nombres para computadoras y usuarios. En las redes de Windows, DNS es el servicio de resolución de nombres predeterminado. Como parte del conjunto de protocolos TCP/IP, todas las conexiones de red se configuran con la dirección IP de al menos un servidor DNS para garantizar una resolución de nombres sin problemas.
+Uso de DNS en Windows y Windows Server
+En Windows Server, DNS es un rol de servidor que se puede instalar mediante el Administrador del servidor o comandos de PowerShell. Al configurar un nuevo bosque y dominio de Active Directory, DNS se instala automáticamente con Active Directory.
+DNS es esencial para Active Directory Domain Services (AD DS), que actúa como mecanismo de ubicación del controlador de dominio para operaciones como autenticación, actualizaciones y búsquedas. Los controladores de dominio también usan DNS para localizarse entre sí. Los controladores de dominio también usan DNS para localizarse entre sí. El servidor DNS es responsable de almacenar y replicar las zonas DNS que contienen los nombres y direcciones IP de todos los equipos del dominio. Esto permite a los clientes resolver nombres en direcciones IP y buscar controladores de dominio.
+DNS de Windows Server puede funcionar como una solución DNS independiente sin Active Directory, como hospedar zonas de búsqueda públicas para una organización.
+El servicio cliente DNS se incluye en todas las versiones de cliente y servidor del sistema operativo Windows. El servicio se ejecuta de forma predeterminada después de instalar el sistema operativo. Al configurar una conexión de red TCP/IP con la dirección IP de un servidor DNS, el cliente DNS consulta al servidor DNS para realizar dos tareas clave:
+Detecta controladores de dominio.
+Convierte los nombres de equipo en direcciones IP.
+Por ejemplo, cuando un usuario de red con una cuenta de usuario de Active Directory inicia sesión en un dominio de Active Directory, el servicio cliente DNS consulta el servidor DNS para buscar un controlador de dominio para el dominio. Una vez que el servidor DNS responde con la dirección IP del controlador de dominio, el cliente se pone en contacto con el controlador de dominio para comenzar el proceso de autenticación.
+Los servicios de servidor DNS y cliente DNS de Windows Server usan el protocolo DNS que se incluye en el conjunto de protocolos TCP/IP. DNS forma parte de la capa de aplicación del modelo de referencia TCP/IP, como se muestra en la ilustración siguiente.
+Características del servidor DNS
+DNS de Windows Server ofrece características que mejoran la funcionalidad y el rendimiento en entornos de Windows. Algunas de las características clave incluyen:
+Integración de Active Directory : actualizaciones seguras y replicación de datos DNS.
+Actualizaciones dinámicas : registro automático y actualizaciones de registros DNS de cliente.
+DNSSEC : garantiza la integridad y la autenticidad de los datos, lo que evita ataques como la intoxicación por caché.
+Reenvío y reenvío condicional : resuelve de forma eficaz los nombres fuera de la red local mediante el reenvío de consultas.
+Almacenamiento en caché : mejora el rendimiento y reduce el tráfico de red almacenando los resultados de la consulta.
+Supervisión y registro : realiza un seguimiento de la actividad de DNS y ayuda en la solución de problemas.
+Directivas DNS : configura el comportamiento de DNS en función de criterios como ip de cliente o hora del día.
+Anycast : proporciona redundancia y equilibrio de carga compartiendo la misma dirección IP entre varios servidores DNS.
+Escenarios de implementación
+Dns de Windows Server se puede implementar en una variedad de escenarios para satisfacer diversas necesidades organizativas. En el caso de los entornos que usan Active Directory Domain Services (AD DS), DNS se integra para facilitar la ubicación y la autenticación del controlador de dominio. Las organizaciones también pueden usar DNS para hospedar zonas de búsqueda públicas, lo que permite a los clientes externos resolver nombres en direcciones IP o zonas de búsqueda privadas, lo que garantiza la resolución de nombres segura dentro de las redes internas.
+En entornos híbridos, DNS de Windows Server puede integrar DNS local con servicios DNS basados en la nube, lo que proporciona una resolución de nombres sin problemas en distintas plataformas. Para obtener rendimiento y confiabilidad, el equilibrio de carga de DNS puede distribuir consultas entre varios servidores, mientras que la conmutación por error de DNS garantiza una alta disponibilidad redirigiendo las consultas a los servidores de copia de seguridad en caso de error. Además, las medidas de seguridad de DNS, como DNSSEC, se pueden implementar para protegerse frente a ataques y mantener la integridad de los datos.
+Get started
+¿Listo para profundizar? Siga el inicio rápido: Instalación y configuración del servidor DNS en Windows Server para configurar DNS en su entorno.
+Comentarios
+¿Le ha resultado útil esta página?
+Sí
+No
+No
+¿Necesita ayuda con este tema?
+¿Desea intentar usar Ask Learn para aclarar o guiarle a través de este tema?
+Preguntar a Learn
+Preguntar a Learn
+¿Sugerir una corrección?
+Recursos adicionales
+Se actualizó por última vez el
+2025-08-16

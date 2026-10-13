@@ -1,0 +1,53 @@
+Conceptos básicos de bases de datos
+https://support.microsoft.com/es-es/access/database-basics
+Descargado: 2026-10-13
+
+Conceptos básicos sobre bases de datos
+Se aplica a Access para Microsoft 365 Access 2024 Access 2021 Access 2019 Access 2016
+Obtener ayuda con Copilot
+Háblame sobre los conceptos básicos de bases de datos en Access.
+¿Qué necesito saber sobre el video: Conozca la base de datos?
+Háblame sobre los archivos de bases de datos de Access.
+En este artículo se proporciona una breve descripción general de las bases de datos: qué son, por qué es posible que quiera usar una y qué hacen las diferentes partes de una base de datos. La terminología se orienta hacia las bases de datos de MicrosoftAccess, pero los conceptos se aplican a todos los productos de bases de datos.
+En este artículo
+¿Qué es una base de datos?
+Partes de una base de datos de Access
+¿Qué es una base de datos?
+Una base de datos es una herramienta para recopilar y organizar información. Las bases de datos pueden almacenar información sobre personas, productos, pedidos u otras cosas. Muchas bases de datos comienzan como una lista en una hoja de cálculo o en un programa de procesamiento de texto. A medida que la lista aumenta su tamaño, empiezan a aparecer redundancias e inconsistencias en los datos. Cada vez es más difícil comprender los datos en forma de lista y los métodos de búsqueda o extracción de subconjuntos de datos para revisión son limitados. Una vez que estos problemas comienzan a aparecer, una buena idea es transferir los datos a una base de datos creada con un sistema de administración de bases de datos (DBMS), como Access.
+Una base de datos computarizada es un contenedor de objetos. Una base de datos puede contener más de una tabla. Por ejemplo, un sistema de seguimiento de inventario que usa tres tablas no son tres bases de datos, sino una base de datos que contiene tres tablas. Salvo que haya sido específicamente diseñada para usar datos o códigos de otro origen, una base de datos de Access almacena sus tablas en un solo archivo, junto con otros objetos como formularios, informes, macros y módulos. Las bases de datos creadas en el formato de Access 2007-2016 (que también usan Access para Microsoft 365, Access 2024, Access 2021 y Access 2019) tienen la extensión de archivo .accdb y las bases de datos creadas en formatos de Access anteriores tienen la extensión de archivo .mdb.
+Con Access, puede:
+Agregar nuevos datos a una base de datos, como un nuevo artículo en un inventario.
+Modificar datos existentes en la base de datos, por ejemplo, cambiar la ubicación actual de un artículo.
+Eliminar información, por ejemplo, si un artículo se vende o se descarta.
+Organizar y ver los datos de diferentes formas.
+Compartir los datos con otras personas mediante informes, correo electrónico, intranet o Internet.
+Partes de una base de datos de Access
+Las secciones siguientes son breves descripciones de las partes de una base de datos de Access típica.
+Tablas
+Una tabla de base de datos es similar en apariencia a una hoja de cálculo, ya que los datos se almacenan en filas y columnas. Por ende, es bastante fácil importar una hoja de cálculo en una tabla de base de datos. La principal diferencia entre almacenar los datos en una hoja de cálculo y almacenarlos en una base de datos es la forma en la que están organizados los datos.
+Para aprovechar al máximo la flexibilidad de una base de datos, los datos deben organizarse en tablas para que no se produzcan redundancias. Por ejemplo, si quiere almacenar información sobre los empleados, cada empleado debe especificarse solo una vez en la tabla que está configurada para los datos de los empleados. Los datos sobre los productos se almacenarán en su propia tabla y los datos sobre las sucursales se almacenarán en otra tabla. Este proceso se denomina normalización .
+Cada fila de una tabla se denomina registro. En los registros se almacena información. Cada registro está formado por uno o varios campos. Los campos equivalen a las columnas de la tabla. Por ejemplo, puede tener una tabla llamada "Empleados" donde cada registro (fila) contiene información sobre un empleado distinto y cada campo (columna) contiene otro tipo de información como nombre, apellido, dirección, etc. Los campos deben designarse como un determinado tipo de datos, ya sea texto, fecha u hora, número o algún otro tipo.
+Otra forma de describir los registros y los campos es imaginar un catálogo de tarjetas antiguo de una biblioteca. Cada tarjeta del archivador corresponde a un registro de la base de datos. Cada dato de una tarjeta individual (autor, título, etc.) equivale a un campo de la base de datos.
+Para obtener más información sobre las tablas, vea el artículo Introducción a la tabla .
+Formularios
+Los formularios permiten crear una interfaz de usuario en la que puede escribir y editar los datos. Los formularios a menudo contienen botones de comandos y otros controles que realizan distintas tareas. Puede crear una base de datos sin usar formularios con tan solo modificar los datos en las hojas de datos de la tabla. Sin embargo, la mayoría de los usuarios de bases de datos prefieren usar formularios para ver, escribir y modificar datos en las tablas.
+Puede programar botones de comandos para determinar qué datos aparecen en el formulario, abrir otros formularios o informes, o ejecutar otras tareas. Por ejemplo, puede tener un formulario llamado "Formulario de cliente" en el que trabaja con los datos de los clientes. El formulario de cliente puede tener un botón que abra un formulario de pedido en el que puede especificar un pedido nuevo para el cliente.
+Los formularios también le permiten controlar de qué manera otros usuarios interactúan con los datos de la base de datos. Por ejemplo, puede crear un formulario que muestre solo determinados campos y permita que se realicen únicamente ciertas operaciones. Esto ayuda a proteger los datos y a asegurarse de que los datos se especifican correctamente.
+Para obtener más información sobre los formularios, vea el artículo Introducción a los formularios .
+Informes
+Los informes son lo que se usa para dar formato, resumir y presentar datos. Un informe suele responder a una pregunta específica, como "¿Cuánto dinero hemos recibido de cada cliente este año?" o "¿En qué ciudades se encuentran nuestros clientes?" Cada informe puede formatearse para presentar la información de la manera más legible posible.
+Se puede ejecutar un informe por vez y siempre se reflejan los datos actuales de la base de datos. Generalmente, se les da formato a los informes para imprimirlos, pero también pueden verse en pantalla, exportarse a otro programa o enviarse como datos adjuntos en un correo electrónico.
+Para obtener más información sobre los informes, vea el artículo Introducción a los informes en Access .
+Consultas
+Las consultas pueden realizar muchas funciones diferentes en una base de datos. La función más común es recuperar datos específicos de las tablas. Los datos que quiere ver generalmente están distribuidos en varias tablas y las consultas le permiten verlos en una única hoja de datos. Además, debido a que muchas veces no quiere ver todos los registros a la vez, las consultas le permiten agregar criterios para "filtrar" los datos y obtener solo los registros que quiere.
+Ciertas consultas son "actualizables", es decir, puede modificar los datos de las tablas subyacentes mediante la hoja de datos de la consulta. Si está trabajando en una consulta actualizable, recuerde que los cambios se realizan en realidad en las tablas, no solo en la hoja de datos de la consulta.
+Hay dos variedades básicas de consultas: consultas de selección y consultas de acciones. Una consulta de selección simplemente recupera los datos y los pone a disposición para su uso. Puede ver los resultados de la consulta en la pantalla, imprimirlos o copiarlos al portapapeles. O bien, puede usar el resultado de la consulta como un origen de registro para un formulario o un informe.
+Una consulta de acción, tal como el nombre lo indica, realiza una tarea con los datos. Las consultas de acción se pueden usar para crear tablas nuevas, agregar datos a las tablas existentes, o actualizar o eliminar datos.
+Para obtener más información sobre las consultas, vea el artículo Introducción a las consultas .
+Macros
+Las macros de Access se pueden considerar como un lenguaje de programación simplificado que puede usar para agregar funcionalidad a la base de datos. Por ejemplo, puede adjuntar una macro a un botón de comando en un formulario para que la macro se ejecute cada vez que se hace clic en ese botón. Las macros contienen acciones que ejecutan tareas, como abrir un informe, ejecutar una consulta o cerrar la base de datos. La mayoría de las operaciones de la base de datos que realiza manualmente se pueden automatizar mediante el uso de macros, por lo que se convierten en dispositivos que permiten ahorrar mucho tiempo.
+Para obtener más información sobre las macros, vea el artículo Introducción a las macros .
+Módulos
+Los módulos, como las macros, son objetos que puede usar para agregar funcionalidad a la base de datos. Mientras que las macros se crean en Access mediante la elección de una lista de acciones de macro, los módulos se escriben en el lenguaje de programación Visual Basic para Aplicaciones (VBA). Un módulo es una colección de declaraciones, instrucciones y procedimientos que se almacenan juntos como una unidad. Un módulo puede ser un módulo de clase o un módulo estándar. Los módulos de clase se adjuntan a formularios o informes y, por lo general, contienen procedimientos que son específicos para el formulario o el informe al que están adjuntos. Los módulos estándar contienen procedimientos generales que no están asociados a ningún otro objeto. Los módulos estándar aparecen en Módulos en el panel de navegación mientras que los módulos de clase no.
+Para obtener más información sobre los módulos, vea el artículo Introducción a la programación de Access .
+Principio de página

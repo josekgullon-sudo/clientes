@@ -1,0 +1,137 @@
+Importar o vincular a los datos de otra base de datos de Access
+https://support.microsoft.com/es-es/access/import-or-link-to-data-in-another-access-database
+Descargado: 2026-10-13
+
+Importar o vincular a los datos de otra base de datos de Access
+Se aplica a Access para Microsoft 365 Access 2024 Access 2021 Access 2019 Access 2016
+Obtener ayuda con Copilot
+Guíame en la configuración para importar datos desde otro Access.
+Muéstrame cómo importar un objeto de base de datos desde otro.
+Ayúdame a vincular datos en otra base de datos de Access.
+Puede incluir datos de una base de datos de Access a otra de varias formas. Copiar y pegar es el método más sencillo, pero importar y vincular le proporcionan un mejor control sobre los datos que aporta a la base de datos de destino y cómo los inserta.
+En este artículo se explica cómo importar o vincular a los datos de otra base de datos de Access.
+¿Qué quiere hacer?
+Comprender la importación y vinculación a datos desde otra base de datos de Access
+Importar datos de otra base de datos de Access
+Vincular a datos en otra base de datos de Access
+Comprender la importación y vinculación a datos desde otra base de datos de Access
+Al realizar una importación desde otra base de datos, Access crea una copia de los datos en la base de datos de destino sin cambiar el origen. Durante la operación de importación, puede elegir los objetos que desea copiar, controlar cómo se importan las tablas y consultas y especificar si se deben importar relaciones entre tablas.
+Es posible que desee importar datos para crear tablas similares a las tablas de otra base de datos. Puede copiar toda la tabla o solo sus definiciones para evitar diseñar cada una de ellas manualmente. Al importar solo la definición de la tabla, obtendrá una tabla vacía. Es decir, los campos y las propiedades de campo se copian en la base de datos de destino, pero no los datos de la tabla. Otra ventaja de la importación, con respecto a la operación de copiar y pegar, es que puede importar las relaciones entre las tablas junto con las propias tablas.
+Si su objetivo es agregar los registros de una base de datos a una tabla existente en otra base de datos, puede importar los registros a una tabla nueva y, después, crear una consulta de datos anexados. No puede anexar registros a una tabla existente durante una operación de importación. Para obtener más información sobre cómo crear consultas de datos anexados, consulte el artículo Agregar registros a una tabla con una consulta de datos anexados .
+Es posible que desee vincular a datos en otra base de datos de Access, si su organización usa varias bases de datos de Access, pero necesita compartir datos en algunas tablas, como Empleados. En lugar de duplicar la tabla en cada base de datos, puede mantener la tabla en una base de datos y crear vínculos a ella desde otras bases de datos. Esto también es útil cuando otro grupo de trabajo o departamento necesita agregar y usar los datos en la base de datos, pero desea mantener el control de la estructura de la tabla.
+Importar datos de otra base de datos de Access
+El proceso de importación de datos sigue estos pasos generales:
+Prepararse para la importación
+Ejecutar el Asistente para importación
+Opcionalmente, puede guardar la configuración de importación como especificación de importación para usarla más adelante
+Los pasos que se describen en las siguientes secciones indican cómo se lleva a cabo cada acción.
+Prepararse para la importación
+Busque la base de datos de origen e identifique los objetos que desea importar.
+Si la base de datos de origen es un .mdb archivo OR .accdb , puede importar tablas, consultas, formularios, informes, macros y módulos. Si el archivo de origen es un .mde archivo OR .accde , solo puede importar tablas.
+Si es la primera vez que importa datos de una base de datos de Access, consulte la tabla siguiente para obtener algunos consejos útiles.
+Elemento
+Descripción
+Varios objetos
+Puede importar varios objetos en una sola operación.
+Nuevo objeto
+Cada operación de importación crea un nuevo objeto en la base de datos de destino. No puede sobrescribir un objeto existente o anexar registros a una tabla existente mediante una operación de importación.
+Importar una tabla vinculada
+Si la tabla de origen (por ejemplo, Empleados1 en la base de datos Ventas) es realmente una tabla vinculada (una tabla que vincula a la tabla Empleados de la base de datos de Nóminas), la operación de importación se reemplaza por una operación de vinculación. Al final de la operación, verá una tabla vinculada (denominada, por ejemplo, Empleados1) que está vinculada a la tabla de origen original (Empleados de la base de datos de Nóminas).
+Omitir campos y registros
+No puede omitir determinados campos o registros al importar datos desde una tabla o consulta. Sin embargo, si no desea importar los registros de una tabla, puede importar solo la definición de la tabla.
+Relaciones
+Puede elegir importar las relaciones entre las tablas de origen.
+Definición de la tabla
+Puede importar una tabla entera o solo la definición de la tabla. Al importar solo la definición, Access crea una tabla que tiene los mismos campos que la tabla de origen, pero no los datos.
+Campos de búsqueda
+Si un campo de la tabla de origen busca valores en otra tabla o consulta, deberá importar la tabla o consulta relacionada si desea que el campo de destino muestre los valores de búsqueda. Si no importa la tabla o consulta relacionada, el campo de destino solo mostrará los identificadores de búsqueda.
+Consultas
+Puede importar una consulta como una consulta o como una tabla. Si importa una consulta como una consulta debe importar las tablas subyacentes.
+Cierre la base de datos de origen. Asegúrese de que ningún usuario la tenga abierta en modo exclusivo.
+Abra la base de datos de destino. Asegúrese de que la base de datos no es de solo lectura y de que tiene los permisos necesarios para agregar objetos y datos.
+Si la base de datos de origen está protegida con contraseña, se le solicitará que escriba la contraseña cada vez que la use como origen de una operación de importación.
+Nota
+Si desea importar los datos a una nueva base de datos, deberá crear una base de datos en blanco que no contenga tablas, formularios ni informes, antes de iniciar la operación de importación.
+La operación de importación no sobrescribe ni modifica los objetos o tablas existentes. Si en la base de datos actual ya existe un objeto con el mismo nombre que el objeto de origen, Access agrega un número (1, 2, 3 y así sucesivamente) al nombre del objeto importado. Por ejemplo, si importa la tabla Problemas a una base de datos que ya tiene una tabla denominada Problemas, la tabla importada se denominará Problemas1. Si el nombre Problemas1 ya está en uso, la nueva tabla se denomina Problemas2 y así sucesivamente.
+Si desea anexar los registros de la tabla de origen a una tabla de la base de datos de destino, debe usar una consulta anexión en lugar de ejecutar una operación de importación. Para obtener más información sobre cómo crear consultas de datos anexados, vea Agregar registros a una tabla con una consulta de datos anexados .
+Importar los datos
+La ubicación del asistente para la importación es ligeramente diferente según la versión de Access. Elija los pasos que coincidan con su versión de Access:
+Si usa Microsoft 365, Access 2021 o Access 2019 en la pestaña Datos externos , en el grupo Importar & Vincular , haga clic en Nuevo origen > de datos desde acceso a bases de datos > .
+Si usa Access 2016, en la pestaña Datos externos , en el grupo Importar & Vincular , haga clic en Access .
+Se abrirá el asistente para importar Datos externos: Base de datos de Access .
+En el cuadro Nombre de archivo , escriba el nombre de la base de datos de origen o haga clic en Examinar para abrir el cuadro de diálogo Abrir archivo .
+Seleccione Importar tablas, consultas, formularios, informes, macros y módulos en la base de datos actual y haga clic en Aceptar .
+Se abrirá el cuadro de diálogo Importar objetos .
+En el cuadro de diálogo Importar objetos de la pestaña Tablas , seleccione las tablas que desea importar. Para importar las consultas, haga clic en la pestaña Consultas y seleccione las consultas que desea importar.
+Para borrar un objeto seleccionado, vuelva a hacer clic en él.
+Haga clic en Opciones para especificar ajustes adicionales.
+En la siguiente tabla se describe cómo afecta cada opción a los resultados de la operación.
+Elemento
+Descripción
+Casilla Relaciones
+Seleccione esta opción para importar las relaciones entre las tablas seleccionadas.
+Casilla Menús y barras de herramientas
+Seleccione esta opción para importar todos los menús y barras de herramientas personalizados que existen en la base de datos de origen. Los menús y las barras de herramientas se muestran en una pestaña llamada Complementos .
+Casilla Especificaciones de importación/exportación
+Seleccione esta opción para importar todas las especificaciones de importación y exportación guardadas que existen en la base de datos de origen.
+Casilla Grupos del panel de exploración
+Seleccione esta opción para importar todos los grupos del panel de exploración personalizados que existen en la base de datos de origen.
+Botón de opción Definición y datos
+Seleccione esta opción para importar la estructura y los datos de todas las tablas seleccionadas.
+Botón de opción Sólo definición
+Seleccione esta opción para importar solo los campos de las tablas seleccionadas. No se importan los registros de origen.
+Botón de opción Como consultas
+Seleccione esta opción para importar las consultas seleccionadas como consultas. En este caso, recuerde importar todas las tablas subyacentes junto con las consultas.
+Botón de opción Como tablas
+Seleccione esta opción para importar las consultas como tablas. En este caso, no es necesario importar las tablas subyacentes.
+Haga clic en Aceptar para finalizar la operación.
+Access copia los datos y muestra mensajes de error si se producen problemas. Si la importación se realiza correctamente, la última página del asistente le permite guardar los detalles de la operación como una especificación de importación para usarla más adelante.
+Vincular a datos en otra base de datos de Access
+La vinculación le permite conectar a datos de otra base de datos sin importarlos. De este modo, puede ver y modificar los datos más recientes en ambas bases de datos sin crear ni mantener dos copias de los mismos datos. Solo puede crear vínculos a tablas de otra base de datos de Access. No puede crear vínculos a consultas, formularios, informes, macros o módulos.
+Al vincular a una tabla en una base de datos de Access, Access crea una nueva tabla denominada tabla vinculada. La tabla vinculada mantiene un vínculo a los campos y registros de origen. Los cambios que realice en los datos de la base de datos de origen se reflejan en la tabla vinculada en la base de datos de destino y viceversa. Sin embargo, no se puede cambiar la estructura de una tabla vinculada en la base de datos de destino. Es decir, no puede agregar o eliminar un campo ni modificar el tipo de datos de un campo.
+El proceso de vincular a datos en otra base de datos de Access sigue estos pasos generales:
+Prepararse para la operación de vinculación
+Ejecutar al Asistente para vinculación
+Los pasos que se describen en las siguientes secciones indican cómo se lleva a cabo cada acción.
+Prepararse para vincular tablas en una base de datos de Access
+Busque la base de datos de origen.
+El formato de archivo puede ser MDB , MDE , ACCDB o ACCDE . Si la base de datos de origen está protegida con contraseña, se le pedirá que escriba la contraseña durante la operación de vinculación.
+Identifique las tablas a las que quiere establecer el vínculo. Puede crear vínculos a tablas, pero no a consultas, formularios, informes, macros o módulos. Si es la primera vez que crea vínculos a tablas de otra base de datos de Access, consulte la tabla siguiente para obtener algunos consejos útiles.
+Elemento
+Descripción
+Varios objetos
+Puede crear vínculos a varias tablas en una sola operación de vinculación. Para cada tabla de origen, se crea una tabla vinculada.
+Tablas vinculadas como origen
+No puede crear vínculos a una tabla que ya sea una tabla vinculada en la base de datos de origen.
+Por ejemplo, si la tabla Empleados1 que desea vincular a la base de datos Ventas es realmente una tabla vinculada con un vínculo a la tabla Empleados de la base de datos nóminas, no puede usar la tabla Empleados1 en la base de datos Ventas como la tabla de origen. En su lugar, debe crear el vínculo directamente a la tabla Empleados de la base de datos Nóminas.
+Tabla nueva o existente
+Cada operación de vinculación crea una nueva tabla vinculada para cada tabla de origen. No puede sobrescribir o anexar a una tabla existente mediante una operación de vinculación.
+Relaciones
+Si selecciona varias tablas de origen, las relaciones entre las tablas se trasladan automáticamente a la base de datos de destino. Sin embargo, no puede cambiar ni eliminar la relación en la base de datos de destino.
+Campos de búsqueda
+Si un campo de la tabla de origen busca valores en otra tabla, deberá acordarse de crear un vínculo a la tabla relacionada si desea que el campo de destino muestre los valores de búsqueda. Si no vincula a la tabla o consulta relacionada, el campo de destino mostrará solo los identificadores de búsqueda.
+Cierre la base de datos de origen. Asegúrese de que ningún otro usuario tenga la base de datos abierta en modo exclusivo.
+Abra la base de datos de destino. Asegúrese de que la base de datos de destino no es de solo lectura y de que tiene los permisos necesarios para agregar objetos y datos.
+Nota
+Si desea crear los vínculos en una nueva base de datos, deberá crear una base de datos en blanco (una que no contenga tablas, formularios ni informes) antes de iniciar la operación de vinculación.
+La operación no sobrescribe ni modifica los objetos o tablas existentes. Si en la base de datos actual ya existe un objeto con el mismo nombre que el objeto de origen, Access agrega un número (1, 2, 3 y así sucesivamente) al nombre de la tabla vinculada. Por ejemplo, si vincula a la tabla Problemas desde una base de datos que ya tiene una tabla denominada Problemas, la tabla vinculada se denomina Problemas1. Si el nombre Problemas1 ya está en uso, la nueva tabla se denomina Problemas2 y así sucesivamente.
+Es importante que tenga en cuenta que si desea anexar los registros de la tabla de origen a una tabla de la base de datos de destino, debe usar una consulta de datos anexados en lugar de ejecutar una operación de vinculación.
+Para obtener más información sobre cómo crear consultas de datos anexados, vea Agregar registros a una tabla con una consulta de datos anexados .
+Vincular a los datos
+La ubicación del asistente para la vinculación es ligeramente diferente según la versión de Access. Elija los pasos que coincidan con su versión de Access:
+Si usa Microsoft 365, Access 2021 o Access 2019 en la pestaña Datos externos , en el grupo Importar & Vincular , haga clic en Nuevo origen > de datos desde acceso a bases de datos > .
+Si usa Access 2016, en la pestaña Datos externos , en el grupo Importar & Vincular , haga clic en Access .
+Se abrirá el asistente para importar Datos externos: Base de datos de Access .
+En el cuadro Nombre de archivo , escriba el nombre de la base de datos de origen o haga clic en Examinar para abrir el cuadro de diálogo Abrir archivo .
+Haga clic en Vincular al origen de datos creando una tabla vinculada y luego en Aceptar .
+Se abrirá el cuadro de diálogo Vincular tablas .
+En el cuadro de diálogo Vincular tablas , seleccione las tablas que desea vincular. Para borrar una selección, haga clic de nuevo en la tabla.
+Haga clic en Aceptar para finalizar la operación.
+Access crea las tablas vinculadas.
+Abra las tablas vinculadas en la vista Hoja de datos para asegurarse de que los datos son correctos.
+¿Qué más debo saber?
+Para obtener información sobre cómo guardar los detalles de la importación en una especificación que se puede volver a usar más adelante, vea el artículo Guardar los detalles de importación o exportación como especificación .
+Para obtener información sobre cómo ejecutar especificaciones de importación guardadas, vea el artículo Ejecutar una operación de importación o exportación guardada .
+Para obtener información sobre cómo programar especificaciones para ejecutarlas en horas específicas, vea el artículo Programar una operación de importación o exportación .
+Para obtener información sobre cómo cambiar el nombre de una especificación, eliminar especificaciones o actualizar los nombres de los archivos de origen en las especificaciones, vea el artículo Administrar tareas de datos .
+Principio de página

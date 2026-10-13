@@ -1,0 +1,209 @@
+Introducción a las consultas
+https://support.microsoft.com/es-es/access/introduction-to-queries
+Descargado: 2026-10-13
+
+Introducción a las consultas
+Se aplica a Access para Microsoft 365 Access 2024 Access 2021 Access 2019 Access 2016
+Obtener ayuda con Copilot
+Explica cómo crear una consulta de selección.
+Explica cómo usar datos de una tabla relacionada para mejorar.
+¿Cómo puedo crear una consulta de eliminación?
+Usar una consulta facilita ver, agregar, eliminar o cambiar datos en la base de datos de Access. Otros motivos para usar consultas:
+Encontrar datos específicos rápidamente, filtrándolos según criterios concretos (condiciones)
+Calcular o resumir datos
+Automatizar tareas de administración de datos como, por ejemplo, revisar de vez en cuando los datos más actuales.
+Las consultas pueden ayudarle a buscar datos y trabajar con ellos
+Crear una consulta de selección
+Crear una consulta de parámetros
+Crear una consulta de totales
+Crear una consulta de tabla de referencias cruzadas
+Crear una consulta de creación de tabla
+Crear una consulta de datos anexados
+Crear una consulta de actualización
+Crear una consulta de eliminación
+Las consultas pueden ayudarle a buscar datos y trabajar con ellos
+En una base de datos bien diseñada, los datos que se quieren plasmar en un formulario o informe suelen estar repartidos en varias tablas. Con una consulta, se puede extraer información de diversas tablas y ensamblarla para mostrarla en el formulario o informe. Una consulta puede servir para pedir resultados de datos de la base de datos, para llevar a cabo una acción relativa a los datos o para ambas cosas. También sirve para obtener una respuesta a una pregunta sencilla, efectuar cálculos, combinar datos de distintas tablas o agregar, cambiar o eliminar datos de una base de datos. Dada su enorme versatilidad, existen muchos tipos de consulta y el tipo que se cree depende de la tarea que quiera realizarse.
+Principales tipos de consulta
+Usar
+Seleccionar
+Para recuperar datos de una tabla o hacer cálculos.
+Acción
+Agregar, cambiar o eliminar datos. Cada tarea tiene un tipo específico de consulta de acciones.
+Crear una consulta de selección
+El tipo de consulta de selección es la opción adecuada si tiene intención de revisar datos de solo algunos campos de una tabla, revisar datos de varias tablas a la vez o, sencillamente, ver los datos de acuerdo con determinados criterios. Para obtener más información, vea Crear una consulta de selección sencilla .
+Revisar los datos de determinados campos
+Por ejemplo, si la base de datos tiene una tabla con mucha información sobre productos y desea revisar una lista de productos y sus precios, así es como crearía una consulta de selección para devolver solo los nombres de producto y el precio respectivo:
+Abra la base de datos y, en la pestaña Crear , haga clic en Diseño de consulta .
+En la pestaña Tablas , haga doble clic en la tabla Productos .
+En la tabla Productos, supongamos que tiene los campos Nombre de producto y Precio de lista. Haga doble clic en el nombre del producto y el precio de lista para agregar estos campos a la cuadrícula de diseño de la consulta.
+En la pestaña Diseño de consulta , haga clic en Ejecutar . La consulta se ejecuta y se muestra una lista de productos y sus precios.
+Principio de página
+Revisar los datos de varias tablas relacionadas a la vez
+Por ejemplo, si tiene una base de datos de una tienda que vende alimentos y desea revisar los pedidos de los clientes que viven en una ciudad determinada. Los datos de los pedidos y los clientes están almacenados en dos tablas denominadas Clientes y Pedidos, respectivamente. Si cada tabla tiene un campo Id. de cliente, que forma la base de una relación de uno a varios entre las dos tablas. Puede crear una consulta que devuelva los pedidos de los clientes de una determinada ciudad, como Las Vegas, del modo siguiente:
+Abra la base de datos. En la pestaña Crear , en el grupo Consulta , haga clic en Diseño de consulta .
+En la pestaña Tablas , haga doble clic en Clientes y pedidos .
+Fíjese en la línea (denominada combinación) que conecta el campo Id. de la tabla Clientes con el campo Id. de cliente de la tabla Pedidos. Esta línea muestra la relación entre las dos tablas.
+En la tabla Clientes, haga doble clic en Compañía y en Ciudad para agregar estos campos a la cuadrícula de diseño de la consulta.
+En la cuadrícula de diseño de la consulta, en la columna Ciudad , desactive la casilla de la fila Mostrar .
+En la fila Criterios de la columna Ciudad , escriba Las Vegas .
+Desactivar la casilla Mostrar hace que la consulta no muestre la ciudad en los resultados, y escribir Las Vegas en la fila Criterios indica que quiere ver solo los registros en los que el valor del campo Ciudad sea Las Vegas. En este caso, la consulta devuelve solo los clientes de Las Vegas. No es necesario mostrar un campo para usarlo con un criterio.
+En la tabla Pedidos, haga doble clic en Id. de pedido y en Fecha de pedido para agregar estos campos a las siguientes dos columnas de la cuadrícula de diseño de la consulta.
+En la pestaña Diseño de consulta , en el grupo Resultados , haga clic en Ejecutar . La consulta se inicia y muestra una lista de pedidos de los clientes de Las Vegas.
+Presione CTRL+G para guardar la consulta.
+Principio de página
+Crear una consulta de parámetros
+Si quiere iniciar variaciones de una consulta concreta con frecuencia, considere la posibilidad de usar una consulta de parámetros. Cuando inicia una consulta de este tipo, la consulta pide los valores de los campos y, después, usa los valores especificados para crear los criterios de la consulta.
+Siguiendo con el ejemplo anterior, en el que aprendió a crear una consulta de selección que devuelve los pedidos de los clientes de Las Vegas, puede modificar dicha consulta para que le pida que especifique la ciudad cada vez que se inicie. Para poner esto en práctica, abra la base de datos que creó en el ejemplo anterior:
+En el panel de navegación, haga clic con el botón secundario en la consulta denominada Pedidos por ciudad (que creó en la sección anterior) y después haga clic en Vista Diseño en el menú contextual.
+En la cuadrícula de diseño de la consulta, en la fila Criterios de la columna Ciudad, elimine Las Vegas y, después, escriba [¿Qué ciudad?] .
+La cadena [¿Qué ciudad?] es la petición de parámetros. Los corchetes indican que quiere que la consulta pida información y el texto (en este caso, ¿Qué ciudad? ) es la pregunta que aparece en la petición de parámetros.
+Nota
+No se pueden usar puntos ( . ) ni signos de exclamación ( ! ) como texto en una solicitud de parámetro.
+Active la casilla en la fila Mostrar de la columna Ciudad para que se muestre la ciudad en los resultados de la consulta.
+En la pestaña Diseño de consulta , en el grupo Resultados , haga clic en Ejecutar . La consulta le pide que escriba un valor en Ciudad.
+Escriba Nueva York y presione Entrar para ver los pedidos de clientes de Nueva York.
+¿Qué ocurre si no sabe qué valores puede especificar? Puede usar caracteres comodín como parte del mensaje:
+En la pestaña Inicio , en el grupo Vistas , haga clic en Ver y después en Vista Diseño .
+En la cuadrícula de diseño de la consulta, en la fila Criterios de la columna Ciudad , escriba Como [¿Qué ciudad?]&"*" .
+En esta consulta de parámetros, la palabra clave Like ( & ) y el asterisco ( * ) entre comillas permiten al usuario escribir una combinación de caracteres, incluidos caracteres comodín, para devolver diversos resultados. Por ejemplo, si el usuario escribe * , la consulta devolverá todas las ciudades; si el usuario escribe L , la consulta devolverá todas las ciudades que empiecen por la letra “L” y, si el usuario escribe *s* , la consulta devolverá todas las ciudades que contengan la letra “s”.
+En la pestaña Diseño de consulta , en el grupo Resultados , haga clic en Ejecutar y, en el símbolo del sistema, escriba Nuevo y presione ENTRAR.
+La consulta se inicia y muestra los pedidos de los clientes de Nueva York.
+Especificar los tipos de datos de los parámetros
+También puede especificar qué tipo de datos debe aceptar un parámetro. Puede establecer el tipo de datos de cualquier parámetro, pero es especialmente importante establecer el tipo de datos en los datos numéricos, de moneda o de fecha y hora. Cuando se especifica el tipo de datos que debe aceptar un parámetro, los usuarios ven un mensaje de error más específico si facilitan un tipo de datos equivocado como, por ejemplo, texto cuando se espera moneda.
+Si se establece un parámetro para que acepte datos de texto, cualquier entrada se interpreta como texto y no aparece ningún mensaje de error.
+Para especificar el tipo de datos de los parámetros de una consulta, siga este procedimiento:
+Con la consulta abierta en la vista Diseño, en la pestaña Diseño de la consulta , en el grupo Mostrar u ocultar , haga clic en Parámetros .
+En el cuadro de diálogo Parámetros de la consulta , en la columna Parámetro , escriba la petición de cada parámetro para el que quiera especificar el tipo de datos. Asegúrese de que cada parámetro coincida con la petición que usa en la fila Criterios de la cuadrícula de diseño de la consulta.
+En la columna Tipo de datos , seleccione el tipo de datos de cada parámetro.
+Para obtener más información, consulte Uso de parámetros para pedir información al ejecutar una consulta .
+Principio de página
+Crear una consulta de totales
+La fila de totales de una hoja de datos es muy útil, pero para preguntas más complejas, se usa una consulta de totales. Una consulta de totales es una consulta de selección que permite agrupar y resumir datos, por ejemplo, cuando se quieren ver las ventas totales por producto. En una consulta de totales, puede usar la función Suma (una función de agregado) para ver las ventas totales por producto.
+Use el siguiente el procedimiento para modificar la consulta Subtotales de productos que creó en el ejemplo anterior con el fin de obtener subtotales resumidos por producto.
+En la pestaña Inicio , haga clic en Vista > Diseño y Vista .
+Se abre la consulta Subtotales de productos en la vista Diseño.
+En la pestaña Diseño de consulta , en el grupo Mostrar u ocultar , haga clic en Totales .
+Aparece la fila Totales en la cuadrícula de diseño de la consulta.
+Nota
+Si bien tienen nombres similares, la fila Totales de la cuadrícula de diseño y la fila Total de una hoja de datos no son iguales:
+Puede agrupar datos por valores de campo con la fila Totales en la cuadrícula de diseño.
+Puede agregar la fila de hoja de datos Total a los resultados de una consulta de totales.
+Al usar la fila Totales en la cuadrícula de diseño, debe elegir una función de agregado para cada campo. Si no quiere hacer ningún cálculo en un campo, puede agrupar los datos por ese campo.
+En la segunda columna de la cuadrícula de diseño, en la fila Total , seleccione Suma en la lista desplegable.
+En la pestaña Diseño de consulta , en el grupo Resultados , haga clic en Ejecutar . La consulta se inicia y muestra una lista de productos con los subtotales.
+Presione CTRL+G para guardar la consulta. Deje la consulta abierta.
+Para obtener más información, vea Mostrar los totales de columna en una hoja de datos con la fila de totales .
+Principio de página
+Hacer cálculos basados en los datos
+Normalmente, las tablas no se usan para almacenar valores calculados (como subtotales), aun cuando se basen en datos de la misma base de datos, ya que los valores calculados dejan de estar actualizados si cambian los valores en los que están basados. Por ejemplo, no conviene almacenar la edad de una persona en una tabla porque cada año tendrá que actualizar el valor; en lugar de hacer esto, almacene la fecha de nacimiento de la persona y use una consulta para calcular su edad.
+Por ejemplo, si tiene una base de datos de algunos productos que le gustaría vender. En ella hay una tabla denominada Detalles de pedido que contiene información sobre los productos en campos (como el precio de cada uno de ellos y las cantidades). El subtotal se puede calcular con una consulta que multiplique la cantidad de cada producto por el precio de dicho producto, multiplique la cantidad de cada producto por el precio y el descuento de dicho producto y, finalmente reste el descuento total del precio total. Si creó la base de datos de prueba en el ejemplo anterior, ábrala y practique del siguiente modo:
+En la pestaña Crear , haga clic en Diseño de consulta .
+En la pestaña Tablas , haz doble clic en Detalles del pedido .
+En la tabla Detalles del pedido, haga doble clic en Id. del producto para agregar este campo a la primera columna de la cuadrícula de diseño de la consulta.
+En la segunda columna de la cuadrícula, haga clic con el botón derecho en la fila Campo y, después, haga clic en Zoom en el menú contextual.
+En el cuadro Zoom , escriba o pegue lo siguiente: Subtotal: ([Cantidad]*[Precio unitario])-([Cantidad]*[Precio unitario]*[Descuento])
+Haga clic en Aceptar .
+En la pestaña Diseño de consulta , haga clic en Ejecutar . La consulta se ejecuta y, después, se muestra una lista ordenada de productos y subtotales por pedido.
+Presione CTRL+G para guardar la consulta y después asígnele el nombre Subtotales de productos .
+Para obtener más información, vea Mostrar los totales de columna en una hoja de datos con la fila de totales .
+Principio de página
+Mostrar datos resumidos o agregados
+Cuando usa tablas para registrar transacciones o almacenar datos numéricos que aparecen regularmente, es útil poder revisar esos datos en conjunto, como sumas o promedios. En Access, puede agregar una fila de totales a una hoja de datos. La fila Totales es una fila situada al final de la hoja de datos que puede mostrar un total acumulado u otros valores agregados.
+Ejecute la consulta de subtotales de productos que creó anteriormente y deje los resultados abiertos en la vista Hoja de datos.
+En la pestaña Inicio , haga clic en Totales . Aparece una nueva fila en la parte inferior de la hoja de datos, con la palabra Total en la primera columna.
+Haga clic en la celda de la última fila de la hoja de datos denominada Total .
+Haga clic en la flecha para ver las funciones de agregado disponibles. Como la columna contiene datos de texto, existen solo dos opciones: Ninguno y Recuento .
+Seleccione Recuento . El contenido de la celda cambia de Total a un recuento de los valores de la columna.
+Haga clic en la celda adyacente (la segunda columna). Observe que aparece una flecha en la celda.
+Haga clic en la flecha y, después, en Suma . En el campo se muestra una suma de los valores de la columna.
+Deje la consulta abierta en la vista Hoja de datos.
+Principio de página
+Crear una consulta de tabla de referencias cruzadas
+Ahora supongamos que, además de comprobar los subtotales de los productos, también quiere agregar los datos por meses, de modo que cada fila muestre los subtotales de un producto y cada columna, los subtotales de productos de un mes. Para mostrar los subtotales de un producto y los subtotales de productos de un mes, usa una consulta de tabla de referencias cruzadas.
+Puede modificar nuevamente la consulta Subtotales de productos de manera que la consulta devuelva filas con los subtotales de producto y columnas con los subtotales mensuales.
+En la pestaña Inicio , en el grupo Vistas , haga clic en Ver y después en Vista Diseño .
+En el grupo Configuración de consulta , haga clic en Agregar tablas .
+Haga doble clic en Pedidos y luego haga clic en Cerrar .
+En la pestaña Diseño de consulta , en el grupo Tipo de consulta , haga clic en Tabla de referencias cruzadas . En la cuadrícula de diseño, la fila Mostrar está oculta y se muestra la fila Referencias cruzadas .
+En la tercera columna de la cuadrícula de diseño, haga clic con el botón secundario en la fila Campo y después haga clic en Zoom en el menú contextual. Se abre el cuadro Zoom .
+En el cuadro Zoom , escriba o pegue lo siguiente: Mes: "Month " & DatePart("m", [Fecha de pedido])
+Haga clic en Aceptar .
+En la fila Tabla de referencias cruzadas , seleccione los siguientes valores en la lista desplegable: Encabezado de fila para la primera columna, Valor para la segunda columna y Encabezado de columna para la tercera columna.
+En la pestaña Diseño de consulta , en el grupo Resultados , haga clic en Ejecutar . La consulta se inicia y muestra los subtotales de productos agregados por mes.
+Presione CTRL+G para guardar la consulta.
+Para obtener más información sobre las consultas de referencias cruzadas, vea Facilitar la lectura de los datos de resumen mediante una consulta de referencias cruzadas .
+Principio de página
+Crear una consulta de creación de tabla
+Puede usar una consulta de creación de tabla para crear una nueva tabla a partir de datos almacenados en otras tablas.
+Por ejemplo, supongamos que quiere enviar datos referentes a los pedidos de Chicago a un socio empresarial de Chicago que use Access para preparar informes. En lugar de enviar todos los datos de los pedidos, quiere restringirlos a los datos específicos de los pedidos de Chicago.
+Puede crear una consulta de selección que contenga datos de pedidos de Chicago y, a continuación, usar la consulta de selección para crear la nueva tabla mediante el siguiente procedimiento:
+Abra la base de datos del ejemplo anterior.
+Para iniciar una consulta de creación de tabla, puede que tenga que habilitar el contenido de la base de datos.
+Nota
+Si ve un mensaje debajo de la cinta sobre cómo habilitar la base de datos, haga clic en **Habilitar contenido.**Si la base de datos ya se encuentra en una ubicación de confianza, no verá la barra de mensajes.
+En la pestaña Crear , en el grupo Consulta , haga clic en Diseño de consulta .
+Haz doble clic en Detalles del pedido y Pedidos .
+En la tabla Pedidos , haga doble clic en Id. de cliente y en Ciudad de destino para agregar estos campos a la cuadrícula de diseño.
+En la tabla Detalles de pedido , haga doble clic en Id. de pedido , Id. de producto , Cantidad , Precio unitario y Descuento para agregar estos campos a la cuadrícula de diseño.
+En la columna Ciudad de destino de la cuadrícula de diseño, desactive la casilla de la fila Mostrar . En la fila Criterios , escriba 'Chicago' (comillas simples incluidas). Compruebe los resultados de la consulta antes de usarlos para crear la tabla.
+En la pestaña Diseño de consulta , en el grupo Resultados , haga clic en Ejecutar .
+Presione Ctrl+G para guardar la consulta.
+En el cuadro Nombre de la consulta , escriba Consulta de pedidos de Chicago y, después, haga clic en Aceptar .
+En la pestaña Inicio , en el grupo Vistas , haga clic en Vista y luego haga clic en Vista Diseño .
+En la pestaña Diseño de consulta , en el grupo Tipo de consulta , haga clic en Crear tabla .
+En el cuadro de diálogo Crear tabla , en el cuadro Nombre de la tabla , escriba Pedidos de Chicago y, después, haga clic en Aceptar .
+En la pestaña Diseño de consulta , en el grupo Resultados , haga clic en Ejecutar .
+En el cuadro de diálogo de confirmación, haga clic en Sí y vea la nueva tabla que aparece en el panel de navegación.
+Nota
+Si ya hay una tabla con el mismo nombre, Access la elimina antes de que se inicie la consulta.
+Para obtener más información sobre el uso de consultas de creación de tabla, consulte Creación de una consulta de creación de tabla .
+Principio de página
+Crear una consulta de datos anexados
+Puede usar una consulta de datos anexados para recuperar datos de una o varias tablas y agregar esos datos a otra tabla.
+Por ejemplo, supongamos que ha creado una tabla para compartirla con un socio comercial de Chicago, pero se da cuenta de que el asociado también trabaja con clientes del área de Milwaukee. Desea agregar filas que contengan datos de área de Milwaukee a la tabla antes de compartir la tabla con su asociado. Puede agregar datos del área de Milwaukee a la tabla Pedidos de Chicago mediante el siguiente procedimiento:
+Abra la consulta denominada "Consulta de pedidos de Chicago" que creó anteriormente en la vista Diseño.
+En la pestaña Diseño de consulta , en el grupo Tipo de consulta , haga clic en Anexar . Se abre el cuadro de diálogo Anexar .
+En el cuadro de diálogo Anexar , haga clic en la flecha del cuadro Nombre de tabla , seleccione Pedidos de Chicago en la lista desplegable y haga clic en Aceptar .
+En la cuadrícula de diseño, en la fila Criterios de la columna Ciudad de destino, elimine "Chicago" y escriba "Milwaukee" .
+En la fila Anexar a , seleccione el campo correspondiente a cada columna.
+En este ejemplo, los valores de la fila Anexar a deben coincidir con los de la fila Campo , pero no es obligatorio para que funcionen las consultas de datos anexados.
+En la pestaña Diseño de consulta , en el grupo Resultados , haga clic en Ejecutar .
+Nota
+Al iniciar una consulta que devuelve una gran cantidad de datos, puede aparecer un mensaje de error que indica que la consulta no se puede deshacer. Pruebe a aumentar el límite del segmento de memoria a 3 MB para que la consulta se procese correctamente.
+Para obtener más información sobre cómo crear consultas de datos anexados, vea Agregar registros a una tabla con una consulta de datos anexados .
+Principio de página
+Crear una consulta de actualización
+Puede usar una consulta de actualización para cambiar los datos de las tablas y para escribir los criterios a fin de especificar las filas que deben actualizarse. Las consultas de actualización permiten revisar los datos actualizados antes de realizar la actualización.
+Importante
+Las consultas de acciones no se pueden deshacer. Conviene que haga una copia de seguridad de las tablas que vaya a actualizar con una consulta de actualización.
+En el ejemplo anterior, anexó filas a la tabla Chicago Orders. En esta tabla, el campo Id. de producto muestra el identificador de producto numérico. Para que los datos resulten más útiles en los informes, puede cambiar los identificadores de producto por los nombres de producto del siguiente modo:
+Abra la tabla Pedidos de Chicago en la vista Diseño.
+En la fila Id. de producto, cambie el tipo de datos de Número a Texto .
+Guarde y cierre la tabla Pedidos de Chicago.
+En la pestaña Crear , en el grupo Consulta , haga clic en Diseño de consulta .
+Haga doble clic en Chicago Orders and Products .
+En la pestaña Diseño de consulta , en el grupo Tipo de consulta , haga clic en Actualizar .
+En la cuadrícula de diseño, desaparecen las filas Ordenar y Mostrar y aparece la fila Actualizar a .
+En la tabla Pedidos de Chicago , haga doble clic en Id. de producto para agregar este campo a la cuadrícula de diseño.
+En la cuadrícula de diseño, en la fila Actualizar a de la columna id. del producto , escriba o pegue lo siguiente: [Productos].[Nombre del producto] .
+Recomendación
+Puede usar una consulta de actualización para eliminar los valores de campo con una cadena vacía ( "" ) o un valor NULO en la fila Actualizar a .
+En la fila Criterios , escriba o pegue lo siguiente: [id. de producto] como ([Productos].[id.]) .
+Puede comprobar qué valores cambiarán con una consulta de actualización si visualiza la consulta en la vista Hoja de datos.
+En la pestaña Diseño , haga clic en Vista Hoja > de datos . La consulta devuelve una lista de identificadores de producto que se actualizarán.
+En la pestaña Diseño de consulta , haga clic en Ejecutar .
+Cuando abra la tabla Pedidos de Chicago, verá que los valores numéricos del campo Id. de producto se han cambiado por los nombres de producto de la tabla Productos.
+Para más información sobre las consultas de actualización, vea el artículo Crear y ejecutar una consulta de actualización .
+Principio de página
+Crear una consulta de eliminación
+Puede usar una consulta de eliminación para eliminar datos de las tablas o para introducir los criterios que especifiquen las filas que se deben eliminar. Las consultas de eliminación permiten revisar las filas que se van a eliminar antes de llevar a cabo la eliminación.
+Por ejemplo, supongamos que mientras se preparaba para enviar la tabla Pedidos de Chicago del ejemplo anterior a su socio comercial de Chicago, observa que algunas de las filas contienen varios campos vacíos. Ha decidido quitar estas filas antes de enviar la tabla. Podría abrir la tabla y eliminar las filas manualmente, pero si tiene muchas filas para eliminar y tiene criterios claros para qué filas deben eliminarse, puede que le resulte útil usar una consulta de eliminación.
+Puede usar una consulta para eliminar de la tabla Pedidos de Chicago las filas que no tengan un valor de Id. de pedido siguiendo este procedimiento:
+En la pestaña Crear , haga clic en Diseño de consulta .
+Haga doble clic en Pedidos de Chicago .
+En la pestaña Diseño de consulta , en el grupo Tipo de consulta , haga clic en Eliminar . En la cuadrícula de diseño, las filas Ordenar y Mostrar desaparecen y aparece la fila Eliminar .
+En la tabla Pedidos de Chicago , haga doble clic en Id. de pedido para agregarlo a la cuadrícula.
+En la cuadrícula de diseño, en la fila Criterios de la columna Id. de pedido, escriba Es nulo .
+En la pestaña Diseño de consulta , en el grupo Resultados , haga clic en Ejecutar .
+Para obtener más información sobre las consultas de eliminación, consulte Creación y ejecución de una consulta de eliminación .
+Principio de página

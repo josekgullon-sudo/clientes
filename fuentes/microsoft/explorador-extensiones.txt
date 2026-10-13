@@ -1,0 +1,438 @@
+Extensiones de nombre de archivo comunes en Windows
+https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows
+Descargado: 2026-10-13
+
+Extensiones de nombre de archivo comunes en Windows
+Se aplica a Windows 11 Windows 10
+Obtener ayuda con Copilot
+Infórmame sobre extensiones comunes de nombres de archivo.
+¿Cómo puedo protegerme de los virus de macros?
+¿Puedo abrir extensiones de archivo desconocidas?
+Windows 11
+Windows 10
+Los nombres de archivo de Windows tienen dos partes separadas por un punto: primero, el nombre del archivo, y segundo, una extensión de tres o cuatro caracteres que define el tipo de archivo. En expenses.xlsx , por ejemplo, la primera parte del nombre del archivo es gastos y la extensión es xlsx .
+Las extensiones indican qué aplicación ha creado el archivo o puede abrirlo, y qué icono se debe utilizar para el archivo. Por ejemplo, la extensión docx indica al equipo que Microsoft Word puede abrir el archivo y mostrar un icono de Word cuando lo vea en el Explorador de archivos.
+La mayoría de las extensiones de nombre de archivo son compatibles con un programa que hayas instalado. Puedes cambiar una extensión de nombre de archivo, pero eso no convertirá el archivo a otro formato ni cambiará nada más, excepto el nombre de archivo. Para obtener más información sobre cómo cambiar el programa que abrirá un archivo, lee Cambiar aplicaciones predeterminadas en Windows .
+Si no puedes ver las extensiones de nombre de archivo al ver los archivos en el Explorador de archivos:
+En el cuadro de búsqueda de la barra de tareas, escribe Explorador de archivos y, en los resultados de búsqueda, selecciona Explorador de archivos .
+En el Explorador de archivos, seleccione Ver > mostrar > extensiones de nombre de archivo .
+Extensiones de nombre de archivo habituales
+A continuación se incluye una lista de formatos y extensiones de nombres de archivo de Windows comunes.
+Extensión
+Formato
+aac, adt, adts
+Archivo de audio de Windows
+accdb
+Archivo de base de datos de Microsoft Access
+accde
+Archivo de solo ejecución de Microsoft Access
+accdr
+Base de datos de tiempo de ejecución de Microsoft Access
+accdt
+Plantilla de base de datos de Microsoft Access
+aif, aifc, aiff
+Archivo de formato de archivo de intercambio de audio
+aspx
+Página de ASP.NET Active Server
+avi
+Archivo de película de audio y vídeo entrelazados o de sonido
+bat
+Archivo de lotes de PC
+bin
+Archivo comprimido binario
+bmp
+Archivo de mapa de bits
+cab
+Archivo de Windows Cabinet
+cda
+Pista de audio en CD
+csv
+Archivo de valores separados por comas
+dif
+Archivo de formato de intercambio de datos de hoja de cálculo
+dll
+Archivo de biblioteca de vínculos dinámicos
+doc
+Documento de Microsoft Word anterior a Word 2007
+docm
+Documento habilitado para macros de Microsoft Word
+docx
+Documento de Microsoft Word
+dot
+Plantilla de Microsoft Word anterior a Word 2007
+dotx
+Plantilla de Microsoft Word
+eml
+Archivo de correo electrónico creado por Outlook Express, Windows Live Mail y otros programas
+eps
+Archivo postScript encapsulado
+exe
+Archivo de programa ejecutable
+flv
+Archivo de vídeo compatible con Flash
+gif
+Archivo de formato de intercambio de gráficos
+htm, html
+Página de lenguaje de marcado de hipertexto
+ini
+Archivo de configuración de inicialización de Windows
+iso
+Imagen de disco ISO-9660
+jar
+Archivo de arquitectura de Java
+Jpg, jpeg
+Archivo de grupo unido de expertos fotográficos
+m4a
+Archivo de audio MPEG-4
+mdb
+Base de datos de Microsoft Access antes de Access 2007
+mid, midi
+Archivo de interfaz digital de instrumentos musicales
+mov
+Archivo de película de Apple QuickTime
+.mp3
+Archivo de audio MPEG capa 3
+mp4
+Vídeo MPEG 4
+mp4
+Vídeo MPEG 4
+mpeg
+Archivo de película de grupo MPEG
+mpg
+Secuencia de sistema MPEG 1
+msi
+Archivo de instalador de Microsoft
+mui
+Archivo de interfaz de usuarios multilingües
+pdf
+Archivo de formato de documento portátil
+png
+Archivo de gráficos de red portables
+pot
+Plantilla de Microsoft PowerPoint antes de PowerPoint 2007
+potm
+Plantilla habilitada para macros de Microsoft PowerPoint
+potx
+Plantilla de Microsoft PowerPoint
+ppam
+Complemento de Microsoft PowerPoint
+pps
+Presentación de Microsoft PowerPoint antes de PowerPoint 2007
+ppsm
+Presentación habilitada para macros de Microsoft PowerPoint
+ppsx
+Presentación de Microsoft PowerPoint
+ppt
+Formato de Microsoft PowerPoint antes de PowerPoint 2007
+pptm
+Presentación habilitada para macros de Microsoft PowerPoint
+pptx
+Presentación de Microsoft PowerPoint
+psd
+Archivo de Adobe Photoshop
+pst
+Almacén de datos de Outlook
+pub
+Archivo de Microsoft Publisher
+rar
+Archivo comprimido de Roshal Archive
+rtf
+Archivo de formato de texto enriquecido
+sldm
+Presentación habilitada para macros de Microsoft PowerPoint
+sldx
+Diapositiva de Microsoft PowerPoint
+swf
+Archivo Shockwave Flash
+sys
+Archivo de variables y configuración del sistema de Microsoft DOS y Windows
+tif, tiff
+Archivo de formato de imagen etiquetado
+tmp
+Archivo de datos temporales
+txt
+Archivo de texto sin formato
+vob
+Archivo de objeto de vídeo
+vsd
+Dibujo de Microsoft Visio antes de Visio 2013
+vsdm
+Dibujo habilitado para macros de Microsoft Visio
+vsdx
+Archivo de dibujo de Microsoft Visio
+vss
+Galería de Microsoft Visio antes de Visio 2013
+vssm
+Galería habilitada para macros de Microsoft Visio
+vst
+Plantilla de Microsoft Visio antes de Visio 2013
+vstm
+Plantilla habilitada para macros de Microsoft Visio
+vstx
+Plantilla de Microsoft Visio
+wav
+Archivo de onda de audio
+wbk
+Documento de copia de seguridad de Microsoft Word
+wks
+Archivo de Microsoft Works
+wma
+Archivo de Windows Media Audio
+wmd
+Archivo de descarga de Windows Media
+wmv
+Archivo de Windows Media Video
+wmz, wms
+Archivo de aspectos de Windows Media
+wpd, wp5
+Documento de WordPerfect
+xla
+Archivo de complemento o macro de Microsoft Excel
+xlam
+Complemento de Microsoft Excel después de Excel 2007
+xll
+Aspecto de Microsoft Excel basado en DLL
+xlm
+Macro de Microsoft Excel antes de Excel 2007
+xls
+Hoja de cálculo de Microsoft Excel antes de Excel 2007
+xlsm
+Hoja de cálculo habilitada para macros de Microsoft Excel después de Microsoft Excel 2007
+xlsx
+Hoja de cálculo de Microsoft Excel después de Excel 2007
+xlt
+Plantilla de Microsoft Excel antes de Excel 2007
+xltm
+Plantilla habilitada para macros de Microsoft Excel después de Microsoft Excel 2007
+xltx
+Plantilla de Microsoft Excel después de Excel 2007
+xps
+Documento basado en XML
+zip
+Archivo comprimido
+Abrir extensiones de archivo desconocidas
+Microsoft Store:
+Haga clic en Inicio , escriba Microsoft Store y presione Entrar . Escriba el nombre de la extensión de archivo en la ventana de búsqueda y presione Entrar para buscar aplicaciones compatibles.
+Si no conoce el nombre de la extensión de archivo, haga clic con el botón derecho en el archivo, seleccione Abrir con > Buscar en Microsoft Store y haga clic en Aceptar . Microsoft Store mostrará una lista de las aplicaciones que pueden abrir el archivo.
+Aplicaciones de Windows:
+Haga clic con el botón derecho en el archivo y seleccione Abrir con > Elegir otra aplicación para ver una lista de aplicaciones en el equipo. Selecciona cualquiera de estas opciones para intentar abrir el archivo o selecciona Elegir una aplicación en tu PC para buscar otras aplicaciones instaladas.
+Recomendación
+El Bloc de notas, Adobe Acrobat Pro o Adobe Acrobat Reader pueden abrir cualquier tipo de formato de documento (texto). El Reproductor multimedia de Windows puede abrir muchos formatos de archivo de vídeo y la aplicación Fotos de Windows puede abrir muchos formatos de foto.
+Nota
+El soporte técnico para Windows 10 finalizó el 14 de octubre de 2025
+Después del 14 de octubre de 2025, Microsoft ya no proporcionará actualizaciones de software gratuitas desde Windows Update, asistencia técnica ni correcciones de seguridad para Windows 10. El PC seguirá funcionando, pero recomendamos que se cambie a Windows 11.
+Más información
+Los nombres de archivo de Windows tienen dos partes separadas por un punto: primero, el nombre del archivo, y segundo, una extensión de tres o cuatro caracteres que define el tipo de archivo. En expenses.xlsx , por ejemplo, la primera parte del nombre del archivo es gastos y la extensión es xlsx .
+Las extensiones indican qué aplicación ha creado el archivo o puede abrirlo, y qué icono se debe utilizar para el archivo. Por ejemplo, la extensión docx indica al equipo que Microsoft Word puede abrir el archivo y mostrar un icono de Word cuando lo vea en el Explorador de archivos.
+La mayoría de las extensiones de nombre de archivo son compatibles con un programa que hayas instalado. Puedes cambiar una extensión de nombre de archivo, pero eso no convertirá el archivo a otro formato ni cambiará nada más, excepto el nombre de archivo. Para obtener más información sobre cómo cambiar el programa que abrirá un archivo, lee Cambiar aplicaciones predeterminadas en Windows .
+Si no puedes ver las extensiones de nombre de archivo al ver los archivos en el Explorador de archivos:
+En el cuadro de búsqueda de la barra de tareas, escribe Explorador de archivos y, en los resultados de búsqueda, selecciona Explorador de archivos .
+En el Explorador de archivos, en Vista , en el grupo Mostrar/ocultar , selecciona la casilla Extensiones de nombre de archivo .
+Extensiones de nombre de archivo habituales
+A continuación se incluye una lista de formatos y extensiones de nombres de archivo de Windows comunes.
+Extensión
+Formato
+aac, adt, adts
+Archivo de audio de Windows
+accdb
+Archivo de base de datos de Microsoft Access
+accde
+Archivo de solo ejecución de Microsoft Access
+accdr
+Base de datos de tiempo de ejecución de Microsoft Access
+accdt
+Plantilla de base de datos de Microsoft Access
+aif, aifc, aiff
+Archivo de formato de archivo de intercambio de audio
+aspx
+Página de ASP.NET Active Server
+avi
+Archivo de película de audio y vídeo entrelazados o de sonido
+bat
+Archivo de lotes de PC
+bin
+Archivo comprimido binario
+bmp
+Archivo de mapa de bits
+cab
+Archivo de Windows Cabinet
+cda
+Pista de audio en CD
+csv
+Archivo de valores separados por comas
+dif
+Archivo de formato de intercambio de datos de hoja de cálculo
+dll
+Archivo de biblioteca de vínculos dinámicos
+doc
+Documento de Microsoft Word anterior a Word 2007
+docm
+Documento habilitado para macros de Microsoft Word
+docx
+Documento de Microsoft Word
+dot
+Plantilla de Microsoft Word anterior a Word 2007
+dotx
+Plantilla de Microsoft Word
+eml
+Archivo de correo electrónico creado por Outlook Express, Windows Live Mail y otros programas
+eps
+Archivo postScript encapsulado
+exe
+Archivo de programa ejecutable
+flv
+Archivo de vídeo compatible con Flash
+gif
+Archivo de formato de intercambio de gráficos
+htm, html
+Página de lenguaje de marcado de hipertexto
+ini
+Archivo de configuración de inicialización de Windows
+iso
+Imagen de disco ISO-9660
+jar
+Archivo de arquitectura de Java
+Jpg, jpeg
+Archivo de grupo unido de expertos fotográficos
+m4a
+Archivo de audio MPEG-4
+mdb
+Base de datos de Microsoft Access antes de Access 2007
+mid, midi
+Archivo de interfaz digital de instrumentos musicales
+mov
+Archivo de película de Apple QuickTime
+.mp3
+Archivo de audio MPEG capa 3
+mp4
+Vídeo MPEG 4
+mp4
+Vídeo MPEG 4
+mpeg
+Archivo de película de grupo MPEG
+mpg
+Secuencia de sistema MPEG 1
+msi
+Archivo de instalador de Microsoft
+mui
+Archivo de interfaz de usuarios multilingües
+pdf
+Archivo de formato de documento portátil
+png
+Archivo de gráficos de red portables
+pot
+Plantilla de Microsoft PowerPoint antes de PowerPoint 2007
+potm
+Plantilla habilitada para macros de Microsoft PowerPoint
+potx
+Plantilla de Microsoft PowerPoint
+ppam
+Complemento de Microsoft PowerPoint
+pps
+Presentación de Microsoft PowerPoint antes de PowerPoint 2007
+ppsm
+Presentación habilitada para macros de Microsoft PowerPoint
+ppsx
+Presentación de Microsoft PowerPoint
+ppt
+Formato de Microsoft PowerPoint antes de PowerPoint 2007
+pptm
+Presentación habilitada para macros de Microsoft PowerPoint
+pptx
+Presentación de Microsoft PowerPoint
+psd
+Archivo de Adobe Photoshop
+pst
+Almacén de datos de Outlook
+pub
+Archivo de Microsoft Publisher
+rar
+Archivo comprimido de Roshal Archive
+rtf
+Archivo de formato de texto enriquecido
+sldm
+Presentación habilitada para macros de Microsoft PowerPoint
+sldx
+Diapositiva de Microsoft PowerPoint
+swf
+Archivo Shockwave Flash
+sys
+Archivo de variables y configuración del sistema de Microsoft DOS y Windows
+tif, tiff
+Archivo de formato de imagen etiquetado
+tmp
+Archivo de datos temporales
+txt
+Archivo de texto sin formato
+vob
+Archivo de objeto de vídeo
+vsd
+Dibujo de Microsoft Visio antes de Visio 2013
+vsdm
+Dibujo habilitado para macros de Microsoft Visio
+vsdx
+Archivo de dibujo de Microsoft Visio
+vss
+Galería de Microsoft Visio antes de Visio 2013
+vssm
+Galería habilitada para macros de Microsoft Visio
+vst
+Plantilla de Microsoft Visio antes de Visio 2013
+vstm
+Plantilla habilitada para macros de Microsoft Visio
+vstx
+Plantilla de Microsoft Visio
+wav
+Archivo de onda de audio
+wbk
+Documento de copia de seguridad de Microsoft Word
+wks
+Archivo de Microsoft Works
+wma
+Archivo de Windows Media Audio
+wmd
+Archivo de descarga de Windows Media
+wmv
+Archivo de Windows Media Video
+wmz, wms
+Archivo de aspectos de Windows Media
+wpd, wp5
+Documento de WordPerfect
+xla
+Archivo de complemento o macro de Microsoft Excel
+xlam
+Complemento de Microsoft Excel después de Excel 2007
+xll
+Aspecto de Microsoft Excel basado en DLL
+xlm
+Macro de Microsoft Excel antes de Excel 2007
+xls
+Hoja de cálculo de Microsoft Excel antes de Excel 2007
+xlsm
+Hoja de cálculo habilitada para macros de Microsoft Excel después de Microsoft Excel 2007
+xlsx
+Hoja de cálculo de Microsoft Excel después de Excel 2007
+xlt
+Plantilla de Microsoft Excel antes de Excel 2007
+xltm
+Plantilla habilitada para macros de Microsoft Excel después de Microsoft Excel 2007
+xltx
+Plantilla de Microsoft Excel después de Excel 2007
+xps
+Documento basado en XML
+zip
+Archivo comprimido
+Abrir extensiones de archivo desconocidas
+Microsoft Store:
+Haga clic en Inicio , escriba Microsoft Store y presione Entrar . Escriba el nombre de la extensión de archivo en la ventana de búsqueda y presione Entrar para buscar aplicaciones compatibles.
+Si no conoce el nombre de la extensión de archivo, haga clic con el botón derecho en el archivo, seleccione Abrir con > Buscar en Microsoft Store y haga clic en Aceptar . Microsoft Store mostrará una lista de las aplicaciones que pueden abrir el archivo.
+Aplicaciones de Windows:
+Haga clic con el botón derecho en el archivo y seleccione Abrir con > Elegir otra aplicación para ver una lista de aplicaciones en el equipo. Selecciona cualquiera de estas opciones para intentar abrir el archivo o selecciona Elegir una aplicación en tu PC para buscar otras aplicaciones instaladas.
+Recomendación
+El Bloc de notas, Adobe Acrobat Pro o Adobe Acrobat Reader pueden abrir cualquier tipo de formato de documento (texto). El Reproductor multimedia de Windows puede abrir muchos formatos de archivo de vídeo y la aplicación Fotos de Windows puede abrir muchos formatos de foto.
+Vínculos relacionados
+Abrir formatos XML y extensiones de nombre de archivo
+Formatos de archivo compatibles con el Reproductor de Windows Media
+Formatos de archivo compatibles con Excel
+Formatos de archivo compatibles con PowerPoint
+Formatos de archivo compatibles con Project

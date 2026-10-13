@@ -1,0 +1,29 @@
+SmartScreen en Microsoft Edge
+https://support.microsoft.com/es-es/edge/how-can-smartscreen-help-protect-me-in-microsoft-edge
+Descargado: 2026-10-13
+
+¿De qué manera puede ser útil SmartScreen para protegerme en Microsoft Edge?
+Se aplica a Microsoft Edge Windows 11 Windows 10 Windows 8.1
+Cuando se usa Microsoft Edge , SmartScreen de Microsoft Defender ayuda a proteger su seguridad frente a sitios y software de suplantación de identidad y malware, y le ayuda a tomar decisiones informadas sobre las descargas.
+SmartScreen de Microsoft Defender le ayuda a navegar de forma más segura en Microsoft Edge:
+Alertándole sobre páginas web sospechosas: Al navegar por la web, SmartScreen analiza las páginas web y determina si pueden ser sospechosas. Si encuentra un sitio sospechoso, SmartScreen muestra una página de advertencia que le aconseja continuar con precaución y le ofrece la oportunidad de proporcionar comentarios a Microsoft.
+Defenderse de la suplantación de identidad (phishing) y los sitios malintencionados: SmartScreen usa una lista dinámica de los sitios de suplantación de identidad (phishing) y de software malintencionado notificados para comprobar los sitios que visite. Si encuentra una coincidencia, SmartScreen notifica que el sitio se ha bloqueado por su seguridad.
+Descargas de pantalla: SmartScreen comprueba los archivos descargados con una lista de sitios de software malintencionado denunciados y programas que se sabe que no son seguros. Si encuentra alguna coincidencia, SmartScreen le advertirá de que la descarga se bloqueó por seguridad. SmartScreen también comprueba los archivos descargados con una lista de descargas conocidas y populares de los usuarios de Microsoft Edge y le advierte si la descarga no está en esta lista.
+¿Qué puedo hacer si SmartScreen me avisa acerca de un sitio que visito, pero que es seguro?
+Puede notificar un sitio como seguro en Microsoft Edge.
+En la página de advertencia, selecciona Más información > Informe de que este sitio no contiene amenazas para ir al sitio de comentarios de Microsoft y siga las instrucciones.
+¿Qué ocurre si SmartScreen no me advierte sobre un sitio que visito, pero no es seguro?
+Puede notificar un sitio como no seguro en Microsoft Edge. Si visita un sitio sobre el que cree que SmartScreen debería advertirle en el futuro, puede notificarlo a Microsoft.
+Desde el sitio que cree que no es seguro, seleccione Configuración y más > Ayuda y comentarios > Informar de un sitio web no seguro y siga las instrucciones.
+¿Puedo activar o desactivar SmartScreen?
+En la mayoría de los casos, sí. En algunos casos, como en una red de escuela o trabajo, es posible que esta opción sea controlada por un administrador del sistema y no se pueda cambiar.
+Para activar o desactivar SmartScreen en Microsoft Edge:
+Selecciona Configuración y más > Configuración > Privacidad, búsqueda y servicios .
+Selecciona Seguridad y, a continuación, activa o desactiva el botón de alternancia SmartScreen de Microsoft Defender .
+¿SmartScreen es diferente al bloqueador de elementos emergentes?
+Sí. SmartScreen comprueba que los sitios que visitas y los archivos que descargas no supongan una amenaza para tu seguridad. Por lo general, el bloqueador de elementos emergentes solo bloquea la mayor parte de los elementos emergentes, que por lo general son anuncios y no suelen ser malintencionados.
+Más información
+Protéjase del fraude en línea
+Ayuda y aprendizaje sobre seguridad de Microsoft
+Introducción a SmartScreen de Microsoft Defender
+Compatibilidad de Microsoft Edge con SmartScreen de Microsoft Defender

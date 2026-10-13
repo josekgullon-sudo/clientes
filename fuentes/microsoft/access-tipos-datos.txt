@@ -1,0 +1,58 @@
+Tipos de datos para bases de datos de escritorio de Access
+https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases
+Descargado: 2026-10-13
+
+Tipos de datos para bases de datos de escritorio de Access
+Se aplica a Access para Microsoft 365 Access 2024 Access 2021 Access 2019 Access 2016
+Obtener ayuda con Copilot
+Háblame sobre los tipos de datos para bases de datos de escritorio de Access.
+Muéstrame cómo cambiar los tipos de datos en la vista de hoja de datos.
+Al crear tablas en Access, debe seleccionar un tipo de datos para cada columna de datos. El tipo de datos Texto corto es una elección habitual ya le permite escribir casi cualquier carácter (letra, símbolo o número). Sin embargo, una selección cuidadosa de los tipos de datos puede ayudarle a aprovechar más características de Access (como la validación de datos y las funciones), y mejora la precisión de la información que está almacenando. La tabla siguiente le proporciona información general de los tipos de datos disponibles en las bases de datos de escritorio de Access (.accdb y .mdb).
+Para obtener una lista completa de las diferentes propiedades de campo disponibles para los distintos tipos de datos, vea Introducción a los tipos de datos y las propiedades de los campos .
+Tipo de datos
+Uso
+Tamaño
+Texto breve (anteriormente conocido como "Texto")
+Datos alfanuméricos (nombres, títulos, etc.)
+Hasta 255 caracteres.
+Texto largo (anteriormente conocido como "Memo")
+Grandes cantidades de datos alfanuméricos: oraciones y párrafos. Consulte El tipo de datos Memo ahora se denomina "Texto largo" para obtener más información sobre los detalles del texto largo.
+Hasta 1 gigabyte (GB) aproximadamente, pero los controles para mostrar un texto largo se limitan a los primeros 64 000 caracteres.
+Número
+Datos numéricos.
+1, 2, 4, 8 o 16 bytes.
+Número grande
+Datos numéricos.
+8 bytes.
+Para obtener más información, vea Usando el tipo de datos de número grande .
+Fecha y hora
+Fechas y horas.
+8 bytes.
+Fecha y hora extendida
+Fechas y horas.
+Cadena codificada de 42 bytes
+Para obtener más información, vea Usar el tipo de datos Fecha y hora extendida .
+Moneda
+Datos monetarios, almacenados con 4 posiciones decimales de precisión.
+8 bytes.
+Autonumeración
+Valor único generado por Access para cada registro nuevo.
+4 bytes (16 bytes para el Id. de replicación).
+Sí/no
+Datos booleanos (verdadero/falso); Access almacena el valor numérico cero (0) para Falso y -1 para Verdadero.
+1 byte.
+Objeto OLE
+Imágenes, gráficos u otros objetos de ActiveX desde otra aplicación basada en Windows.
+Hasta unos 2 GB.
+Hipervínculo
+Una dirección de vínculo a un documento o archivo en Internet, en una intranet, en una red de área local (LAN) o en el equipo local
+Hasta 8192 (cada parte de un tipo de datos Hipervínculo puede contener un máximo de 2048 caracteres).
+Datos adjuntos
+Puede adjuntar archivos como imágenes, documentos, hojas de cálculo o gráficos; cada campo Datos adjuntos puede contener una cantidad ilimitada de datos adjuntos por registro, hasta el límite de almacenamiento del tamaño de un archivo de base de datos. Tenga en cuenta que el tipo de datos Datos adjuntos no está disponible en los formatos de archivo MDB.
+Hasta unos 2 GB.
+Calculado
+Puede crear una expresión que use datos de uno o varios campos. Puede designar tipos de datos de resultados diferentes de la expresión. Tenga en cuenta que el tipo de datos Calculado no está disponible en los formatos de archivo MDB.
+Depende del tipo de datos de la propiedad Tipo de resultado. El resultado de tipo de datos de texto corto puede tener hasta 243 caracteres. Texto largo, número, Sí/No y la fecha y hora debe coincidir con sus respectivos tipos de datos.
+Asistente para búsquedas
+La entrada del Asistente para búsquedas en la columna de tipo de datos en la vista Diseño no es realmente un tipo de datos. Al elegir esta entrada, inicie el Asistente para ayudarle a definir un campo de búsqueda simple o complejo. Un campo de búsqueda simple usa el contenido de otra tabla o una lista de valores para validar el contenido de un único valor por fila. Un campo de búsqueda compleja permite almacenar varios valores del mismo tipo de datos en cada fila.
+Depende del tipo de datos del campo de búsqueda.

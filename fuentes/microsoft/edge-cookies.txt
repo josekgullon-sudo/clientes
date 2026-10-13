@@ -1,0 +1,76 @@
+Administrar cookies en Microsoft Edge
+https://support.microsoft.com/es-es/edge/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use
+Descargado: 2026-10-13
+
+Administrar cookies en Microsoft Edge: ver, permitir, bloquear, eliminar y usar
+Se aplica a Windows 10 Windows 11
+Obtener ayuda con Copilot
+¿Cómo bloqueo las cookies de un sitio específico?
+¿Cómo elimino manualmente las cookies de un sitio?
+¿Cómo bloqueo las cookies de terceros?
+Las cookies son pequeñas piezas de datos almacenadas en su dispositivo por parte de los sitios web que visita. Sirven para varios fines, como recordar las credenciales de inicio de sesión, las preferencias del sitio y realizar un seguimiento del comportamiento del usuario. Sin embargo, es posible que quieras eliminar las cookies por motivos de privacidad o resolver problemas de exploración.
+En este artículo:
+Ver todas las cookies
+Permitir todas las cookies
+Permitir cookies de un sitio web específico
+Bloquear cookies de terceros
+Bloquear todas las cookies
+Bloquear cookies de un sitio específico
+Eliminar todas las cookies
+Eliminar cookies de un sitio específico
+Eliminar cookies cada vez que se cierra el explorador
+Usar cookies para precargar la página y acelerar la exploración
+Ver todas las cookies
+Abre el explorador Edge, selecciona Configuración y más en la esquina superior derecha de la ventana del explorador.
+Selecciona Configuración > de privacidad, búsqueda y servicios .
+Selecciona Cookies y, a continuación, haz clic en Ver todas las cookies y datos del sitio para ver todas las cookies almacenadas y la información relacionada del sitio.
+Permitir todas las cookies
+Al permitir cookies, los sitios web podrán guardar y recuperar datos en su navegador, lo que puede mejorar su experiencia de navegación al recordar sus preferencias e información de inicio de sesión.
+Abre el explorador Edge, selecciona Configuración y más en la esquina superior derecha de la ventana del explorador.
+Selecciona Configuración > de privacidad, búsqueda y servicios .
+Selecciona Cookies y activa el botón de alternancia Permitir que los sitios guarden y lean los datos de las cookies (recomendado) para permitir todas las cookies.
+Permitir cookies de un sitio específico
+Al permitir cookies, los sitios web podrán guardar y recuperar datos en su navegador, lo que puede mejorar su experiencia de navegación al recordar sus preferencias e información de inicio de sesión.
+Abre el explorador Edge, selecciona Configuración y más en la esquina superior derecha de la ventana del explorador.
+Selecciona Configuración > de privacidad, búsqueda y servicios .
+Selecciona Cookies y ve a Permitido para guardar cookies.
+Seleccione Agregar sitio para permitir cookies por sitio escribiendo la dirección URL del sitio.
+Bloquear cookies de terceros
+Si no quieres que los sitios de terceros almacenen cookies en tu PC, puedes bloquearlas. Sin embargo, al hacer esto es posible que algunas páginas no se muestren correctamente o que aparezca un mensaje que te informe de que es necesario permitir las cookies para poder ver el sitio en cuestión.
+Abre el explorador Edge, selecciona Configuración y más en la esquina superior derecha de la ventana del explorador.
+Selecciona Configuración > de privacidad, búsqueda y servicios .
+Selecciona Cookies y activa el botón de alternancia Bloquear cookies de terceros.
+Bloquear todas las cookies
+Si no quieres que los sitios de terceros almacenen cookies en tu PC, puedes bloquearlas. Sin embargo, al hacer esto es posible que algunas páginas no se muestren correctamente o que aparezca un mensaje que te informe de que es necesario permitir las cookies para poder ver el sitio en cuestión.
+Abre el explorador Edge, selecciona Configuración y más en la esquina superior derecha de la ventana del explorador.
+Selecciona Configuración > de privacidad, búsqueda y servicios .
+Selecciona Cookies y deshabilita Permitir que los sitios guarden y lean los datos de cookies (recomendado) para bloquear todas las cookies.
+Bloquear cookies de un sitio específico
+Microsoft Edge le permite bloquear las cookies de un sitio específico; sin embargo, esto podría impedir que algunas páginas se muestren correctamente, o es posible que reciba un mensaje de un sitio que le informe de que necesita permitir las cookies para ver ese sitio. Para bloquear las cookies de un sitio específico:
+Abre el explorador Edge, selecciona Configuración y más en la esquina superior derecha de la ventana del explorador.
+Selecciona Configuración > de privacidad, búsqueda y servicios .
+Selecciona Cookies y ve a No permitido guardar y leer cookies .
+Seleccione Agregar sitio para bloquear las cookies por sitio escribiendo la dirección URL del sitio.
+Eliminar todas las cookies
+Abre el explorador Edge, selecciona Configuración y más en la esquina superior derecha de la ventana del explorador.
+Selecciona Configuración > Privacidad, búsqueda y servicios .
+Selecciona Borrar datos de exploración y, a continuación, selecciona Elegir lo que se debe borrar situado junto a Borrar datos de exploración ahora .
+En Intervalo de tiempo , elija un intervalo de tiempo de la lista.
+Selecciona Cookies y otros datos del sitio y luego Borrar ahora .
+Nota
+Como alternativa, puede eliminar las cookies presionando CTRL + MAYÚS + SUPRIMIR juntos y luego continuar con los pasos 4 y 5.
+Todas las cookies y otros datos del sitio se eliminarán ahora para el intervalo de tiempo seleccionado. Esto cierra la sesión de la mayoría de los sitios.
+Eliminar cookies de un sitio específico
+Abre el explorador Edge, selecciona Configuración y más > Configuración > Privacidad, búsqueda y servicios .
+Selecciona Cookies , haz clic en Ver todas las cookies y datos del sitio y busca el sitio cuyas cookies quieres eliminar.
+Seleccione la flecha hacia abajo a la derecha del sitio cuyas cookies desea eliminar y seleccione Delete .
+Ahora se eliminan las cookies del sitio que has seleccionado. Repita este paso para cualquier sitio cuyas cookies desea eliminar.
+Eliminar cookies cada vez que se cierra el explorador
+Abre el explorador Edge, selecciona Configuración y más > configuración > Privacidad, búsqueda y servicios .
+Selecciona Borrar datos de exploración y, a continuación, elige Elegir lo que se debe borrar cada vez que se cierra el explorador .
+Activa el botón de alternancia Cookies y otros datos del sitio .
+Una vez activada esta función, cada vez que cierras el explorador Edge se eliminan todas las cookies y otros datos del sitio. Esto cierra la sesión de la mayoría de los sitios.
+Usar cookies para precargar la página y acelerar la exploración
+Abre el explorador Edge, selecciona Configuración y más en la esquina superior derecha de la ventana del explorador.
+Selecciona > Privacidad, búsqueda y servicios .
+Selecciona Cookies y habilita el botón de alternancia Precargar páginas para una exploración y una búsqueda más rápidas .

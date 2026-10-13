@@ -1,0 +1,94 @@
+Explorador de archivos en Windows
+https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows
+Descargado: 2026-10-13
+
+Explorador de archivos en Windows
+Se aplica a Windows 11 Windows 10
+Obtener ayuda con Copilot
+¿Cómo encuentro los comandos del menú contextual de Windows 10?
+¿Cómo elimino un archivo en el Explorador de archivos?
+¿Cómo utilizo el menú contextual del Explorador de archivos?
+El Explorador de archivos de Windows te ayuda a encontrar, abrir, organizar y administrar archivos y carpetas en tu PC y en la nube.
+Windows 11
+Windows 10
+Para abrir el Explorador de archivos en Windows 11, selecciónelo en la barra de tareas o en el menú Inicio, o presione la tecla
++ del logotipo de Windows E del teclado.
+Cómo usar el Explorador de archivos:
+Para anclar una carpeta a Acceso rápido , haga clic con el botón derecho (o manténgalo presionado) en la carpeta y seleccione Anclar a acceso rápido .
+Para compartir un archivo, selecciónelo y, a continuación, seleccione Compartir en la cinta de opciones.
+Para mover la ubicación de un archivo o carpeta, selecciónelo y, a continuación, seleccione Cortar en la cinta de opciones. Ve a la nueva ubicación y selecciona Pegar .
+Nota
+Para los archivos y carpetas en Acceso rápido, tendrá que hacer clic con el botón derecho (o mantener presionado) y seleccionar Abrir para poder cortar y pegar.
+Para cambiar cómo aparecen los elementos en el Explorador de archivos, seleccione Ver en la cinta de opciones y elija entre mostrar iconos, listas, detalles y mucho más.
+Para reducir el espacio entre archivos, seleccione Vista > compacta .
+Para buscar archivos relevantes desde el PC y la nube, busque desde Inicio del Explorador de archivos.
+Nota
+Inicie sesión en sus cuentas en la nube desde Inicio > Configuración > Cuentas para habilitar la búsqueda en la nube.
+Acceso rápido
+A partir de Windows 11, versión 22H2, las carpetas conocidas de Windows ( escritorio , documentos , descargas , imágenes , música y vídeos ) están disponibles de forma predeterminada como carpetas ancladas en Acceso rápido tanto en el Inicio del Explorador de archivos como en el panel de navegación izquierdo. Estas carpetas predeterminadas ya no se muestran en Este equipo para mantener la vista centrada en las unidades y las ubicaciones de red del equipo.
+Puede configurar cualquier carpeta para que aparezca en Acceso rápido para que sea fácil de encontrar. Simplemente haga clic con el botón derecho (o mantenga presionado) y seleccione Anclar a acceso rápido. Desánclalo cuando ya no lo necesites haciendo clic con el botón derecho (o manteniéndolo presionado) y seleccionando Desanclar del acceso rápido .
+Restaurar carpetas conocidas si las ha desanclado
+Si desancla estas carpetas de Windows conocidas y decide restaurarlas más tarde, esta es una manera fácil de restaurarlas en Acceso rápido, en Inicio y en el panel de navegación:
+Selecciona Iniciar > :Explorador de archivos o el icono del Explorador de archivos en la barra de tareas.
+Seleccione Inicio en el panel de navegación izquierdo.
+Selecciona la flecha Arriba en los botones de navegación disponibles a la izquierda de la barra de direcciones. Esta vista muestra las 6 carpetas de Windows conocidas: Escritorio , Documentos , Descargas, Imágenes , Música y Vídeos .
+Seleccione y mantenga presionada (o haga clic con el botón derecho) en la carpeta que desea restaurar y seleccione Anclar a acceso rápido en el menú contextual.
+La carpeta estará ahora disponible en el panel de navegación y en Inicio del Explorador de archivos.
+Restaure el panel de navegación izquierdo si lo ha ocultado
+Si ha ocultado el panel de navegación izquierdo y desea que esté visible en la ventana del Explorador de archivos, puede volver a mostrarlo siguiendo estos pasos:
+Selecciona Iniciar > :Explorador de archivos o el icono del Explorador de archivos en la barra de tareas.
+Seleccione Ver en la barra de comandos.
+Seleccione Mostrar y, a continuación, seleccione Panel de navegación .
+El panel de navegación debería estar visible ahora en la ventana del Explorador de archivos.
+Menú contextual
+El Explorador de archivos tiene un menú contextual nuevo y simplificado, lo que facilita el acceso a los comandos más populares. Haga clic con el botón derecho en un archivo para acceder al nuevo menú contextual.
+Buscar acciones comunes
+Puede encontrar Cortar , Copiar , Pegar, Cambiar nombre , Compartir y Eliminar en la parte superior del menú contextual. Mantenga el puntero sobre cualquier icono para ver su nombre.
+Buscar comandos en el menú contextual anterior de Windows 10
+Haga clic con el botón derecho (o seleccione y mantenga presionado) en un archivo o carpeta para abrir el menú contextual.
+Seleccione Mostrar más opciones .
+Nota
+No todas las extensiones de Windows 10 estarán disponibles en el menú contextual de Windows 11 simplificado, pero siempre estarán disponibles al seleccionar Mostrar más opciones . Algunas aplicaciones se actualizarán con el tiempo para unirse al nuevo menú contextual. Consulta con el desarrollador de la aplicación sobre la disponibilidad y los intervalos de aplicaciones específicas.
+Opciones comunes del Explorador de archivos
+Configure el Explorador de archivos para abrirlo en Este equipo
+De forma predeterminada, el Explorador de archivos se abre en Acceso rápido, cuyo nombre se ha cambiado a Inicio del Explorador de archivos en Windows 11, versión 22H2. Le recomendamos que sea su página de aterrizaje en el Explorador de archivos, donde puede:
+Acceda rápidamente a sus archivos Office.com más recientes y favoritos.
+Busque y encuentre sus archivos relevantes desde su PC y la nube mucho más rápido que con este PC.
+Si prefiere tener abierto el Explorador de archivos en Este equipo, en la cinta de opciones, seleccione Ver más > opciones > Abra el Explorador de archivos y, a continuación, seleccione Aplicar este equipo >.
+Mostrar extensiones de nombre de archivo
+Abra el Explorador de archivos desde la barra de tareas. Seleccione Ver > presentación y, a continuación, seleccione Extensiones de nombre de archivo para ver las extensiones de nombre de archivo.
+Mostrar archivos ocultos
+Abra el Explorador de archivos desde la barra de tareas. Seleccione Ver > presentación y, a continuación, seleccione Elementos ocultos para ver los archivos y carpetas ocultos.
+Casillas Mostrar elemento
+Abra el Explorador de archivos desde la barra de tareas. Seleccione Ver > presentación y active las casillas de verificación de elementos para ver una casilla junto a los archivos y carpetas para seleccionarlos.
+Nota
+El soporte técnico para Windows 10 finalizó el 14 de octubre de 2025
+Después del 14 de octubre de 2025, Microsoft ya no proporcionará actualizaciones de software gratuitas desde Windows Update, asistencia técnica ni correcciones de seguridad para Windows 10. El PC seguirá funcionando, pero recomendamos que se cambie a Windows 11.
+Más información
+Al igual que muchas de las mejores cosas de la vida, el Explorador de archivos mejora con el paso del tiempo. Para probarlo en Windows 10, seleccione su icono en la barra de tareas o en el menú Inicio, o presione la tecla del logotipo de Windows + E en su teclado.
+Estos son algunos cambios destacados para Windows 10:
+OneDrive forma parte del Explorador de archivos. Para ver unas instrucciones básicas y rápidas sobre cómo funciona, consulta OneDrive en el equipo .
+Al abrir el Explorador de archivos, estarás en Acceso rápido. Las carpetas usadas con frecuencia y los archivos usados recientemente se muestran allí, para que no tengas que buscar a través de una serie de carpetas para encontrarlos. Ancla tus carpetas favoritas a Acceso rápido para tenerlas a mano.
+Ahora puedes usar aplicaciones para compartir archivos y fotos directamente desde el Explorador de archivos. Selecciona los archivos que quieras compartir, ve a la pestaña Compartir , selecciona el botón Compartir y elige una aplicación.
+Las bibliotecas no se muestran en el Explorador de archivos a menos que usted quiera. Para agregarlas al panel izquierdo, seleccione el panel > de navegación de la pestaña > Vista Mostrar bibliotecas .
+Acceso rápido
+De forma predeterminada, el Explorador de archivos se abre en Acceso rápido. Puede configurar una carpeta para que aparezca en Acceso rápido para que sea fácil de encontrar. Simplemente haga clic con el botón derecho (o mantenga presionado) y seleccione Anclar a acceso rápido. Desánclalo cuando ya no lo necesites haciendo clic con el botón derecho (o manteniéndolo presionado) y seleccionando Desanclar del acceso rápido .
+Si solo quieres ver las carpetas ancladas, puedes desactivar los archivos recientes o las carpetas frecuentes. Vaya a la pestaña Vista y seleccione Opciones . En la sección Privacidad , desactive las casillas y seleccione Aplicar . Ahora, el Acceso rápido solo mostrará las carpetas ancladas. (Si vuelve a activarlos, es posible que vuelvan a aparecer los archivos que quitó anteriormente del acceso rápido).
+También puede quitar archivos de Acceso rápido. Si aparece algo que no desea volver a ver, haga clic con el botón derecho (o mantenga presionado) y seleccione Quitar del acceso rápido . Ya no volverás a verlo, aunque lo uses a diario.
+Nota
+Las bibliotecas no se muestran en el Explorador de archivos a menos que usted quiera. Para agregarlas al panel izquierdo, seleccione el panel > de navegación de la pestaña > Vista Mostrar bibliotecas .
+Opciones comunes del Explorador de archivos
+Configure el Explorador de archivos para abrirlo en Este equipo
+De forma predeterminada, el Explorador de archivos se abre en Acceso rápido. Si prefiere que el Explorador de archivos esté abierto en Este equipo, vaya a la pestaña Vista y, después, seleccione Opciones . En la lista Abrir Explorador de archivos para: , seleccione Este equipo y , después, Aplicar .
+Mostrar extensiones de nombre de archivo
+Abre Explorador de archivos desde la barra de tareas.
+Seleccione Opciones > de vista >, Cambiar carpeta y opciones de búsqueda .
+Seleccione la pestaña Vista y, en Configuración avanzada , anule la selección de Ocultar extensiones para tipos de archivo conocidos y Aceptar .
+Mostrar archivos ocultos
+Abre Explorador de archivos desde la barra de tareas.
+Seleccione Opciones > de vista >, Cambiar carpeta y opciones de búsqueda .
+Selecciona la pestaña Ver y, en Configuración avanzada , selecciona Mostrar archivos, carpetas y unidades ocultos y Aceptar .
+Casillas Mostrar elemento
+Abre Explorador de archivos desde la barra de tareas.
+Seleccione Opciones > de vista >, Cambiar carpeta y opciones de búsqueda .
+Seleccione la pestaña Vista y, en Configuración avanzada , seleccione Usar casillas para seleccionar elementos y Aceptar .

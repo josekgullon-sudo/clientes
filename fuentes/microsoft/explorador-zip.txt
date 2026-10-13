@@ -1,0 +1,27 @@
+Comprimir y descomprimir archivos
+https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/zip-and-unzip-files
+Descargado: 2026-10-13
+
+Comprimir y descomprimir archivos
+Se aplica a Windows 11 Windows 10
+Resumen
+Los archivos comprimidos reducen el tamaño del archivo y agrupan varios archivos para facilitar el uso compartido. En Windows, los usuarios pueden crear archivos ZIP mediante el menú contextual o las herramientas de Explorador de archivos. El contenido se puede extraer con "Extraer todo" o arrastrando archivos fuera del archivo. Las carpetas comprimdas se comportan como carpetas normales, pero pueden afectar al cifrado y a los resultados de compresión.
+Los archivos comprimidos ocupan menos espacio de almacenamiento y se pueden transferir a otros equipos más rápidamente que los archivos sin comprimir. En Windows, se trabaja con las carpetas y archivos comprimidos de la misma manera que con los que están sin comprimir. Combina varios archivos en una sola carpeta comprimida para compartir más fácilmente un grupo de archivos.
+Para comprimir (comprimir)
+Busca el archivo o carpeta que deseas comprimir.
+Haz clic con el botón derecho en el archivo o carpeta (o mantenlo presionado), selecciona Mostrar más opciones > Enviar a > carpeta comprimida (en zip).
+Se crea una nueva carpeta comprimida con el mismo nombre en la misma ubicación. Para cambiarla de nombre, mantén presionada la carpeta (o haz clic en ella con el botón derecho), selecciona Cambiar nombre y, a continuación, escribe el nuevo nombre.
+Para descomprimir (extraer)
+Busca la carpeta comprimida de la que quieres descomprimir (o extraer) archivos o carpetas.
+Siga uno de estos procedimientos:
+Para descomprimir un solo archivo o carpeta, abre la carpeta comprimida y después arrastra el archivo o carpeta desde la carpeta comprimida a una nueva ubicación.
+Para descomprimir todo el contenido de la carpeta comprimida, haz clic con el botón derecho en la carpeta (o mantenla presionada), selecciona Extraer todo... y sigue las instrucciones.
+Nota
+Para agregar archivos o carpetas a una carpeta que creaste anteriormente, arrástralos a la carpeta comprimida.
+Si agregas archivos cifrados a una carpeta comprimida, estarán sin cifrar cuando se descompriman, lo que podría dar lugar a que se divulgara sin querer información personal o confidencial. Por ese motivo, te recomendamos que procures no comprimir archivos cifrados.
+Algunos tipos de archivos, como las imágenes JPEG, ya muy están comprimidos. Si comprimes varias imágenes JPEG en una carpeta, el tamaño total de la carpeta será aproximadamente el mismo que la colección original de imágenes.
+Preguntas frecuentes
+¿Qué formatos de archivo son compatibles?
+Windows 11, versión 24H2 admite ZIP, RAR. Formatos de archivo 7z y TAR.
+¿Son compatibles los archivos comprimidos cifrados?
+Windows 11, la versión 24H2 admite la compresión y la descompresión de varios formatos, incluidos los 7-Zip. Sin embargo, no admite operaciones en archivos de archivo cifrados. Para crear o descomprimir archivos cifrados, considere la posibilidad de usar aplicaciones que no sean de Microsoft, como 7-zip o WinRAR.

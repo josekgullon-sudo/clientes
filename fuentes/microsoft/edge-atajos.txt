@@ -1,0 +1,301 @@
+Métodos abreviados de teclado en Microsoft Edge
+https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge
+Descargado: 2026-10-13
+
+Métodos abreviados de teclado en Microsoft Edge
+Se aplica a Edge for Windows Edge for Mac
+Los métodos abreviados de teclado son combinaciones de teclas que proporcionan un modo alternativo para hacer algo que se suele realizar con un ratón. Esta es la lista de los nuevos Microsoft Edge y Microsoft Edge para Mac.
+Windows
+Mac
+Presiona esta tecla
+Para hacer esto
+Ctrl + Mayús + B
+Mostrar u ocultar la barra de favoritos
+Alt (en inglés)+ Mayús + B
+Establecer el foco en el primer elemento de la barra de favoritos
+Ctrl + D
+Guardar la pestaña actual como favorita
+Ctrl + Mayús + D
+Guardar todas las pestañas abiertas como favoritos en una carpeta nueva
+Ctrl + Mayús + E
+Abrir la búsqueda en la barra lateral
+Alt (en inglés)+ D
+Seleccionar la URL de la barra de direcciones para editarla
+Ctrl + E
+Abrir una consulta de búsqueda en la barra de direcciones
+Alt (en inglés)+ E
+Abrir el menú Configuración y más
+Ctrl + F
+Abrir búsqueda en la página
+Alt (en inglés)+ F
+Abrir el menú Configuración y más
+Ctrl + G
+Saltar al siguiente resultado para buscar en la página
+Ctrl + Mayús + G
+Saltar al resultado anterior para buscar en la página
+Ctrl + H
+Abrir historial
+Ctrl + Mayús + Yo
+Abrir Herramientas de desarrollo
+Alt (en inglés)+ Mayús + Yo
+Abrir el cuadro de diálogo Enviar comentarios
+Ctrl + J
+Abrir Descargas
+Ctrl + K
+Abrir una consulta de búsqueda en la barra de direcciones
+Ctrl + Mayús + K
+Duplicar la pestaña actual
+Ctrl + L
+Seleccionar la URL de la barra de direcciones para editarla
+Ctrl + Mayús + L
+Pegar y buscar o Pegar e ir (si se trata de una dirección URL)
+Ctrl + M
+Silenciar la pestaña actual (alternar)
+Ctrl + Mayús + M
+Iniciar sesión como usuario distinto o examinar como invitado
+Ctrl+ N
+Abrir una nueva ventana
+Ctrl + Mayús + N
+Abrir una nueva ventana de InPrivate
+Ctrl + O
+Abrir un archivo desde el equipo en Microsoft Edge
+Ctrl + Mayús + O
+Abrir Favoritos
+Ctrl + P
+Imprimir la página actual
+Ctrl + Mayús + P
+Imprimir mediante el cuadro de diálogo del sistema
+CTRL+D
+Volver a cargar la página actual
+Ctrl + Mayús + R
+Volver a cargar la página actual y omitir el contenido en caché
+Ctrl + S
+Guardar la página actual
+Ctrl + T
+Abrir una pestaña nueva y cambiar a ella
+Ctrl + Mayús + T
+Volver a abrir la última pestaña cerrada y cambiar a ella
+Alt (en inglés)+ Mayús + T
+Establecer el foco en el primer elemento de la barra de herramientas de la barra de aplicaciones
+Ctrl + U
+Ver origen
+Ctrl + Mayús + U
+Iniciar o detener la lectura en voz alta
+Ctrl + Mayús + V
+Pegar sin formato
+Ctrl + W
+Cerrar la pestaña actual
+Ctrl + Mayús + W
+Cerrar la ventana actual
+Ctrl + Mayús + Y
+Abrir Colecciones
+Ctrl + 0 (cero)
+Restablecer nivel de zoom de página
+Ctrl + 1 , 2 , ... 8
+Pasar a una pestaña específica
+Ctrl + 9
+Pasar a la última pestaña
+Ctrl + Entrar
+Agregar www. al principio y .com al final del texto escrito en la barra de direcciones
+Ctrl + Pestaña
+Cambiar a la pestaña siguiente
+Ctrl + Mayús + Pestaña
+Cambiar a la pestaña anterior
+Ctrl + Signo más (+)
+Acercar
+Ctrl + Signo menos ( - )
+Alejar
+Ctrl + \ (en un PDF)
+Alternar PDF entre ajustar a la página y ajustar al ancho
+Ctrl + [ (en un PDF)
+Girar PDF 90 grados en el sentido contrario a las agujas del reloj*
+Ctrl + ] (en un PDF)
+Girar PDF 90 grados en el sentido de las agujas del reloj*
+Ctrl + Mayús+ Suprimir
+Abrir las opciones de borrar los datos de exploración
+Alt
+Establecer el foco en el botón Configuración y más
+Alt (en inglés)+ Flecha izquierda
+Volver atrás
+Alt (en inglés)+ Flecha derecha
+Ir hacia delante
+Alt (en inglés)+ Inicio
+Abrir la página principal en la pestaña actual
+Alt (en inglés)+ F4
+Cerrar la ventana actual
+F1
+Abrir Ayuda
+F3
+Buscar en la pestaña actual
+F4
+Seleccionar la URL de la barra de direcciones
+Ctrl + F4
+Cerrar la pestaña actual
+F5
+Volver a cargar la pestaña actual
+Mayús + F5
+Volver a cargar la pestaña actual y omitir el contenido en caché
+F6
+Cambiar el foco al siguiente panel
+Mayús + F6
+Cambia el foco al panel anterior
+Ctrl + F6
+Mover el foco al panel de contenido web
+F7
+Activar o desactivar la exploración mediante el símbolo de intercalación
+F9
+Entrar al Lector inmersivo o salir del mismo
+F10
+Establecer el foco en el botón Configuración y más
+F10 + Entrar
+Abrir el menú Configuración y más
+Mayús + F10
+Abrir un menú contextual
+F11
+Ir a pantalla completa (alternar)
+F12
+Abrir Herramientas de desarrollo
+Esc
+Detener la carga de la página; cerrar el cuadro de diálogo o emergente
+Barra espaciadora
+Desplazarte hacia abajo por la página web, una pantalla cada vez
+Mayús + Barra espaciadora
+Desplazarte hacia arriba por la página web, una pantalla cada vez
+AvPág
+Desplazarte hacia abajo por la página web, una pantalla cada vez
+Ctrl + PgDn
+Cambiar a la pestaña siguiente
+RePág
+Desplazarte hacia arriba por la página web, una pantalla cada vez
+Ctrl + RePág
+Cambiar a la pestaña anterior
+Inicio
+Ir a la parte superior de la página, mover el foco del teclado al primer elemento del panel
+Fin
+Ir a la parte inferior de la página, mover el foco del teclado al último elemento del panel
+TAB
+Ir a la siguiente tabulación
+Mayús + Pestaña
+Ir a la tabulación anterior
+Presiona esta tecla
+Para hacer esto
+Comando + Mayús + B
+Mostrar u ocultar la barra de favoritos
+Comando + Mayús + C
+Abrir Herramientas de desarrollo
+Comando + D
+Guardar la pestaña actual como favorita
+Comando + Mayús + D
+Guardar todas las pestañas abiertas como favoritos en una carpeta nueva
+Comando + Mayús + E
+Abrir la búsqueda en la barra lateral
+Comando + F
+Abrir búsqueda en la página
+Comando + Ctrl + F
+Activar o desactivar el modo de pantalla completa
+Comando + Opción + F
+Buscar en la web
+Comando + G
+Saltar al siguiente resultado para buscar en la página
+Comando + Mayús + G
+Saltar al resultado anterior para buscar en la página
+Comando + Mayús + H
+Abrir la página principal en la pestaña actual
+Comando + Opción + J
+Abrir la Consola JavaScript
+Comando + L
+Seleccionar la URL de la barra de direcciones para editarla
+Comando + Opción + L
+Abrir Descargas
+Ctrl + M
+Activar y desactivar Silenciar pestaña
+Comando + M
+Minimizar ventana
+Comando + Opción + M
+Minimizar todas las ventanas de la aplicación frontal
+Comando + Mayús + M
+Iniciar sesión como usuario distinto o navegar como invitado
+Comando + N
+Abrir una nueva ventana
+Comando + Mayús + N
+Abrir una nueva ventana en modo InPrivate
+Comando + O
+Abrir un archivo desde el equipo en Microsoft Edge
+Comando + P
+Imprimir la pestaña actual
+Comando + P
+Salir
+Comando + R
+Volver a cargar la pestaña actual
+Comando + Mayús + R
+Volver a cargar la pestaña actual y omitir el contenido en caché
+Comando + S
+Guardar la pestaña actual
+Comando + T
+Abrir una pestaña nueva y cambiar a ella
+Comando + Mayús + T
+Volver a abrir la última pestaña cerrada y cambiar a ella
+Comando + Mayús + U
+Iniciar o detener la lectura en voz alta
+Comando + Mayús + V
+Pegar texto sin formato
+Comando + W
+Cerrar la pestaña actual
+Comando + Mayús + W
+Cerrar la ventana actual
+Comando + Y
+Abrir historial
+Comando + 0 (cero)
+Restablecer el nivel de zoom
+Comando + 1 , 2 , ... 8
+Pasar a una pestaña específica
+Comando + 9
+Pasar a la última pestaña
+Comando + Flecha izquierda
+Mover el cursor al principio de la primera palabra de la misma línea
+Comando + Flecha derecha
+Mover el cursor al final de la última palabra de la misma línea
+Comando + Eliminar
+Eliminar todo el campo de texto o toda la línea de texto
+Comando + Volver
+Buscar la consulta escrita en una pestaña nueva
+Comando + Mayús + Eliminar
+Abrir las opciones de borrar los datos de exploración
+Comando + Signo más (+)
+Acercar
+Comando + Signo menos ( - )
+Alejar
+Comando + \ (en un PDF)
+Alternar PDF entre ajustar a la página y ajustar al ancho
+Comando + [ (en un PDF)
+Girar PDF 90 grados en el sentido contrario a las agujas del reloj*
+Comando + ] (en un PDF)
+Girar PDF 90 grados en el sentido de las agujas del reloj*
+Comando + [
+Navegar hacia atrás
+Comando + ]
+Navegar hacia adelante
+Comando + Fn + Flecha abajo
+Cambiar a la pestaña siguiente
+Comando + Fn + Flecha arriba
+Cambiar a la pestaña anterior
+F9
+Entrar al Lector inmersivo o salir del mismo
+F12
+Abrir las herramientas para desarrolladores (alternar)
+ESC (en modo de pantalla completa)
+Salir del modo de pantalla completa
+ESC
+Detener la carga de la página; cerrar el cuadro de diálogo o emergente
+Espacio
+Desplazarte hacia abajo por la página web, una pantalla cada vez
+Mayús + Barra espaciadora
+Desplazarte hacia arriba por la página web, una pantalla cada vez
+TAB
+Pasar al siguiente control
+Mayús + Pestaña
+Pasar al control anterior
+Comando + Pestaña
+Ir a la ficha siguiente
+Mayús + Comando + Pestaña
+Ir a la ficha anterior

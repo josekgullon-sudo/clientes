@@ -1,0 +1,16 @@
+Guardar u olvidar contraseñas en Microsoft Edge
+https://support.microsoft.com/es-es/edge/save-or-forget-passwords-in-microsoft-edge
+Descargado: 2026-10-13
+
+Guardar u olvidar contraseñas en Microsoft Edge
+Se aplica a Microsoft Edge
+Obtener ayuda con Copilot
+¿Cómo guardo u olvido contraseñas en Microsoft Edge?
+¿Cómo activo o desactivo Bing SafeSearch?
+Cuando visite un sitio web que requiera que inicie sesión, Microsoft Edge le preguntará si desea que se recuerden su nombre de usuario y contraseña. Por lo tanto, la próxima vez que visite el sitio, Microsoft Edge rellenará la información de su cuenta. Las contraseñas se guardan de forma predeterminada, pero puedes desactivar esta opción. Para ello:
+En Microsoft Edge , seleccione Configuración y más > contraseñas .
+Desactive o Activado la opción Preguntar para guardar contraseñas y claves de paso .
+Esto no elimina las contraseñas guardadas anteriormente. Siga estos pasos:
+En Microsoft Edge , seleccione Configuración y más > Configuración > Privacidad, búsqueda y servicios .
+Selecciona Borrar datos de exploración y, a continuación, vaya a Borrar datos de exploración ahora y selecciona Elegir lo que se debe borrar .
+Active Contraseñas y, a continuación, seleccione Borrar ahora .

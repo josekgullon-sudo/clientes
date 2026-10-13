@@ -1,0 +1,63 @@
+Ver y eliminar el historial del explorador en Microsoft Edge
+https://support.microsoft.com/es-es/edge/view-and-delete-browser-history-in-microsoft-edge
+Descargado: 2026-10-13
+
+Ver y eliminar el historial de exploración en Microsoft Edge
+Se aplica a Microsoft Edge Windows 11 Windows 10
+Obtener ayuda con Copilot
+¿Qué datos de navegación puedo eliminar en Microsoft Edge?
+¿Cómo borro mi historial de navegación?
+¿Cómo borro los datos de navegación en mi dispositivo?
+Puedes ver y borrar el historial de navegación de Microsoft Edge almacenado en un solo dispositivo, en todos los dispositivos sincronizados y en la nube. Puedes elegir borrar el historial de exploración en cualquier momento.
+Borrar los datos de navegación almacenados en tu dispositivo
+Para borrar los datos de navegación de Microsoft Edge, primero decide si quieres eliminar los datos solo en el dispositivo que estás utilizando actualmente o en todos los dispositivos sincronizados. Para borrar los datos de navegación sólo en el dispositivo que estás utilizando, asegúrate de que la sincronización estè desactivada. Si quieres borrar los datos de navegación en todos los dispositivos sincronizados, asegúrate de haber iniciado sesión y de que la sincronización esté activada. Los elementos que se sincronizan se borrarán de todos los dispositivos sincronizados.
+Para desactivar la sincronización:
+Selecciona Configuración y más .
+Ve a Configuración >> Perfiles Sincronizar y selecciona Desactivar sincronización .
+Para borrar los datos de navegación en Microsoft Edge:
+Selecciona Configuración y más > Configuración > Privacidad, búsqueda y servicios .
+Selecciona Borrar datos de navegación y, a continuación, selecciona Elegir qué borrar junto a Borrar datos de exploración ahora .
+En Intervalo de tiempo , elige un intervalo de tiempo de la lista.
+Elige los tipos de datos de navegación que quieras borrar (consulta la tabla a continuación para ver las descripciones).
+Por ejemplo, puedes eliminar el historial de exploración y las cookies y mantener las contraseñas y los datos de relleno de formularios.
+Selecciona Borrar ahora .
+Borrar los datos de exploración almacenados en la nube (si has activado la sincronización o la personalización)
+Para administrar y eliminar los datos guardados en la nube de Microsoft, consulta el panel de privacidad . En el panel de privacidad, puedes ver o eliminar tus datos. Los datos que elimines del panel de privacidad no se eliminarán de tu dispositivo.
+Para obtener más información sobre cómo dejar de compartir datos con Microsoft, consulte Microsoft Edge, datos de exploración y privacidad .
+Datos de navegación que puedes eliminar en Microsoft Edge
+Tipos de información
+Qué se eliminará
+Dónde se almacena
+Historial de exploración
+Las direcciones URL de los sitios que hayas visitado, así como las fechas y horas de cada visita.
+En tu dispositivo (o, si la sincronización está activada, en todos tus dispositivos sincronizados)
+Historial de descargas
+Lista de los archivos que hayas descargado de la Web. Esto solo elimina la lista, no los archivos que hayas descargado.
+En el dispositivo
+Cookies y otros datos del sitio
+Información y datos que los sitios web almacenan en su dispositivo para recordar sus preferencias, como la información de inicio de sesión, su ubicación o las licencias de medios.
+En el dispositivo
+Archivos e imágenes en memoria caché
+Copias de páginas, imágenes y otro contenido multimedia almacenado en el dispositivo. El explorador usará estas copias para cargar el contenido con mayor rapidez la próxima vez que visites esos sitios.
+En el dispositivo
+Contraseñas
+Contraseñas de sitios guardadas.
+En tu dispositivo (o, si la sincronización está activada, en todos tus dispositivos sincronizados)
+Autorrellenar datos de formulario (incluye formularios y tarjetas)
+Información escrita en formularios, como tu dirección de correo electrónico, de tarjeta de crédito o de envío.
+En tu dispositivo (o, si la sincronización está activada, en todos tus dispositivos sincronizados)
+Permisos del sitio
+Vaya a Configuración y más > Configuración > Privacidad, búsqueda y servicios > Permisos del sitio para ver una lista de cada sitio web, incluida la ubicación, las cookies, los elementos emergentes y la reproducción automática de contenido multimedia.
+En el dispositivo
+Todos los datos de la versión anterior de Microsoft Edge
+Todos los datos, incluyendo el historial, los favoritos, las contraseñas y más de la versión anterior de Microsoft Edge.
+En tu dispositivo (o, si la sincronización está activada, en todos tus dispositivos sincronizados)
+Datos de Media Foundation
+Incluye licencias, certificados, claves y más. Los datos se borran después de reiniciar el explorador Microsoft Edge.
+En tu dispositivo (o, si la sincronización está activada, en todos tus dispositivos sincronizados)
+Temas relacionados
+Iniciar sesión para sincronizar Microsoft Edge entre dispositivos
+Bloquear elementos emergentes en Microsoft Edge
+Administrar notificaciones de sitios web en Microsoft Edge
+Microsoft Edge, datos de exploración y privacidad
+Ayuda con el formulario de recuperación de una cuenta de Microsoft

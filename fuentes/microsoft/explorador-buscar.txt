@@ -1,0 +1,55 @@
+Buscar tus archivos y aplicaciones en Windows
+https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/find-your-files-and-apps-in-windows
+Descargado: 2026-10-13
+
+Encuentra tus archivos y aplicaciones en Windows
+Se aplica a Windows 11 Windows 10
+Use Windows Search en la barra de tareas o el Explorador de archivos para encontrar rápidamente archivos, aplicaciones y configuraciones. La búsqueda integrada ayuda a devolver resultados relevantes rápidamente, reduciendo el tiempo dedicado a navegar por las carpetas.
+Windows 11
+Windows 10
+Encontrar tus archivos
+Buscar desde la barra de tareas:
+Seleccione Buscar en la barra de tareas y escriba el nombre de un documento (o una palabra clave del mismo) en el cuadro de búsqueda.
+Los resultados de documentos y archivos se muestran desde tu PC y OneDrive. Para filtrar la búsqueda, seleccione la pestaña Documentos y, a continuación, los resultados de la búsqueda solo mostrarán documentos.
+Buscar desde el Explorador de archivos:
+Abra el Explorador de archivos siguiendo uno de estos procedimientos:
+Selecciona Explorador de archivos en la barra de tareas.
+Seleccione y mantenga presionado Inicio o haga clic con el botón derecho y elija Explorador de archivos .
+Para encontrar rápidamente archivos relevantes desde tu PC y la nube, busca desde Inicio o elige una unidad o carpeta.
+Siga uno de estos procedimientos:
+Para buscar archivos almacenados dentro de una carpeta, busque en una carpeta como Descargas .
+Para realizar una búsqueda lenta pero exhaustiva, busque en Este equipo en lugar de en Inicio .
+También puede buscar archivos de Microsoft365.com de Explorador de archivos Inicio . Para cambiar esta opción de configuración:
+Seleccione Más y elija Opciones .
+En la pestaña General de Privacidad , elija la configuración de Incluir información basada en la cuenta, archivos recientes, favoritos y recomendados .
+Buscar una aplicación o un programa
+Hay varias maneras de encontrar lo que necesitas.
+Seleccione Inicio , todo y , a continuación, desplácese por la lista alfabética de la izquierda.
+Recomendación
+Para reducir el desplazamiento, puede seleccionar cualquier letra de la lista y, a continuación, en los vínculos del alfabeto que se muestran, seleccione una letra para saltar a esa sección. Por ejemplo, seleccione "T" si está buscando la aplicación Teams.
+Seleccione Buscar en la barra de tareas y escriba el nombre de la aplicación o programa.
+Presione la tecla Windows del teclado y empiece a escribir.
+Nota
+Los alumnos que usen Windows 11 SE no podrán descargar aplicaciones de Microsoft Store. Las aplicaciones son administradas por su Administración de TI. Más información
+¿Hay mejoras en la búsqueda?
+Para mejorar los resultados de búsqueda, los Copilot+ PC realizan la indexación semántica junto con la indexación tradicional. Los formatos de archivo compatibles son .txt, .pdf, .docx, .doc, .rtf, .pptx, .ppt, .xls, .xlsx para documentos y .jpg/.jpeg, .png, .gif, .bmp, .ico para imágenes. La indexación semántica hace que sus búsquedas sean más potentes, ya que los elementos cercanos y relacionados con sus términos de búsqueda también se incluirían en sus resultados de búsqueda. Por ejemplo, si busca pasta , también puede obtener resultados de lasaña , incluidas imágenes que contengan "pasta" o "lasaña".
+Todos los datos recopilados de la indexación semántica se almacenan localmente en el equipo (o localmente en el almacenamiento en la PC en la nube, cuando se ejecutan en dispositivos Windows 365 habilitados para IA ). Ninguno de ellos se envía a Microsoft ni se utiliza para entrenar modelos de inteligencia artificial. La indexación semántica está habilitada de forma predeterminada en Copilot+ PC. Si desea deshabilitar la indexación y buscar ubicaciones o tipos de archivo específicos, puede hacerlo seleccionando las opciones adecuadas en Configuración > Privacidad & Seguridad > Búsqueda Opciones de indexación avanzada de Windows >.
+Nota:
+Para Windows Search mejorado en Copilot+ PC, se recomienda que conecte su Copilot+ PC para que se complete la indexación de búsqueda inicial. Puede comprobar el estado de indexación de búsqueda en Configuración >, Privacidad & Seguridad > Buscar en Windows .
+Compromiso de Microsoft con la IA responsable
+Microsoft ha estado trabajando para avanzar en la inteligencia artificial de forma responsable desde 2017, cuando definimos por primera vez nuestros principios de inteligencia artificial y, posteriormente, pusimos en funcionamiento nuestro enfoque a través de nuestro Estándar de inteligencia artificial responsable. La privacidad y la seguridad son principios básicos a medida que desarrollamos e implementamos sistemas de inteligencia artificial. Trabajamos para ayudar a nuestros clientes a usar nuestros productos de inteligencia artificial de forma responsable, compartir nuestros aprendizajes y crear asociaciones basadas en la confianza. Para más información sobre nuestros esfuerzos de IA responsable, los principios que nos guían y las herramientas y capacidades que hemos creado para garantizar que desarrollamos la tecnología de IA de forma responsable, consulta IA responsable .
+Nota
+El soporte técnico para Windows 10 finalizó el 14 de octubre de 2025
+Después del 14 de octubre de 2025, Microsoft ya no proporcionará actualizaciones de software gratuitas desde Windows Update, asistencia técnica ni correcciones de seguridad para Windows 10. El PC seguirá funcionando, pero recomendamos que se cambie a Windows 11.
+Más información
+Encontrar tus archivos
+Buscar desde la barra de tareas: Escriba el nombre de un documento (o una palabra clave del mismo) en el cuadro de búsqueda de la barra de tareas. Aparecerán los resultados de los documentos que se encuentren en el PC y en OneDrive en Mejor coincidencia .
+Buscar desde el Explorador de archivos: abra el Explorador de archivos desde la barra de tareas o haga clic con el botón derecho en Inicio , elija Explorador de archivos y, después, seleccione una ubicación en el panel izquierdo para buscar o examinar. Por ejemplo, selecciona Este equipo para buscar en todos los dispositivos y unidades del equipo, o selecciona Documentos para buscar solo los archivos almacenados allí.
+Buscar una aplicación o un programa
+Hay varias maneras de encontrar lo que necesitas.
+Selecciona Inicio y, a continuación, desplázate por la lista alfabética de la izquierda (si la pantalla de Inicio está configurada para mostrarse como pantalla completa, pasa el cursor por encima del icono lateral y selecciona Todas las aplicaciones en la parte superior. Después, desplácese por la lista).
+Recomendación
+Para reducir el desplazamiento, seleccione cualquier letra de la lista y, a continuación, en los vínculos alfabéticos que se muestran, seleccione una letra para saltar a esa sección. Por ejemplo, seleccione "T" si está buscando la aplicación Teams.
+Seleccione el Buscar en la barra de tareas o presione la tecla Windows en el teclado y escriba el nombre de la aplicación o programa.
+Indizar los archivos
+Mejore la velocidad de búsqueda y la eficiencia indexando los archivos y sus propiedades, para que Windows pueda encontrar y devolver rápidamente la información que necesita. Para obtener más información, consulte Indización de búsquedas en Windows .
