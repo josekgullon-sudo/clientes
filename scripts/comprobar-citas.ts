@@ -23,12 +23,14 @@ for (const l of cargarLeyes()) {
   if (l.fuente) textos.set(l.slug, normal(readFileSync(join(RAIZ, "fuentes", l.fuente), "utf8")));
 }
 
-// Ofimática: páginas oficiales descargadas en /fuentes/microsoft, con su URL en la segunda línea.
-const DIR_WEB = join(RAIZ, "fuentes", "microsoft");
+// Páginas oficiales descargadas (ofimática en /fuentes/microsoft, otras webs en /fuentes/web),
+// con su URL en la segunda línea.
 const paginas = new Map<string, string>();
-if (existsSync(DIR_WEB)) {
-  for (const f of readdirSync(DIR_WEB).filter((f) => f.endsWith(".txt"))) {
-    const crudo = readFileSync(join(DIR_WEB, f), "utf8");
+for (const carpeta of ["microsoft", "web"]) {
+  const dir = join(RAIZ, "fuentes", carpeta);
+  if (!existsSync(dir)) continue;
+  for (const f of readdirSync(dir).filter((f) => f.endsWith(".txt"))) {
+    const crudo = readFileSync(join(dir, f), "utf8");
     paginas.set(crudo.split("\n")[1].trim(), normal(crudo));
   }
 }
@@ -51,7 +53,7 @@ for (const archivo of archivos) {
     if (!texto) {
       if (!p.ley && p.fuente) {
         fallos++;
-        console.log(`${archivo} › ${p.id}: la fuente no está descargada en fuentes/microsoft: ${p.fuente}`);
+        console.log(`${archivo} › ${p.id}: la fuente no está descargada en fuentes/microsoft ni fuentes/web: ${p.fuente}`);
       }
       continue;
     }

@@ -5,15 +5,19 @@
     "activa": true,
     "verificado": true,
     "formato_simulacro": {
-      "minutos": 25,
+      "minutos": 65,
       "penalizacion": 0.3333,
       "partes": [
         {
           "bloque": "I",
           "preguntas": 30
+        },
+        {
+          "bloque": "II",
+          "preguntas": 50
         }
       ],
-      "nota": "TEMPORAL mientras el bloque II no tenga preguntas: solo la parte del bloque I (30 preguntas, 25 minutos = 90 × 30/110). Formato completo para restaurar: partes [{bloque I, 30}, {bloque II, 50}] y 65 minutos (90 × 80/110). Verificado con la Resolución de 18 de diciembre de 2025, de la Secretaría de Estado de Función Pública (BOE núm. 306, de 22/12/2025, BOE-A-2025-26262), anexo I (ingreso libre, código 1146). Examen real: ejercicio único de 90 minutos con dos partes eliminatorias: 1.ª parte, 30 preguntas del bloque I + 30 psicotécnicas; 2.ª parte, 50 preguntas del bloque II (Windows 11 y Microsoft 365 de escritorio); cada error resta un tercio. La convocatoria numera el bloque II del 1 al 12; aquí van del 17 al 28."
+      "nota": "Verificado con la Resolución de 18 de diciembre de 2025, de la Secretaría de Estado de Función Pública (BOE núm. 306, de 22/12/2025, BOE-A-2025-26262), anexo I (ingreso libre, código 1146). Examen real: ejercicio único de 90 minutos con dos partes eliminatorias: 1.ª parte, 30 preguntas del bloque I + 30 psicotécnicas; 2.ª parte, 50 preguntas del bloque II (Windows 11 y Microsoft 365 de escritorio); cada error resta un tercio. El simulacro omite las 30 psicotécnicas, así que el tiempo es proporcional: 90 × 80/110 ≈ 65 minutos. La convocatoria numera el bloque II del 1 al 12; aquí van del 17 al 28."
     },
     "examen_estimado": {
       "fecha": "2027-05-15",

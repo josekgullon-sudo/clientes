@@ -1,0 +1,605 @@
+{
+  "descripcion": "Ley Orgánica 6/1985, del Poder Judicial: órdenes jurisdiccionales, organización territorial y órganos judiciales, y Consejo General del Poder Judicial. Lote generado el 2026-10-13; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-10-09).",
+  "preguntas": [
+    {
+      "id": "lopj-001",
+      "ley": "lo-6-1985",
+      "articulo": "9.2",
+      "enunciado": "Los Tribunales del orden civil conocerán, además de las materias que les son propias, de:",
+      "opciones": [
+        "Las que les encomiende expresamente el CGPJ",
+        "Todas aquellas que no estén atribuidas a otro orden jurisdiccional",
+        "Las reclamaciones en materia de Seguridad Social",
+        "Las cuestiones prejudiciales de los demás órdenes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 9.2 dice que conocerán «de todas aquellas que no estén atribuidas a otro orden jurisdiccional».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-002",
+      "ley": "lo-6-1985",
+      "articulo": "9.6",
+      "enunciado": "Según la Ley Orgánica del Poder Judicial, la jurisdicción es:",
+      "opciones": [
+        "Prorrogable por acuerdo de las partes",
+        "Renunciable por el demandante",
+        "Delegable en la Administración",
+        "Improrrogable"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 9.6 dice: «La jurisdicción es improrrogable».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-003",
+      "ley": "lo-6-1985",
+      "articulo": "9.5",
+      "enunciado": "¿Qué orden jurisdiccional conoce de las reclamaciones en materia de Seguridad Social?",
+      "opciones": [
+        "El orden social",
+        "El orden civil",
+        "El orden contencioso-administrativo",
+        "El orden penal"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 9.5 dice que los del orden jurisdiccional social conocerán de «las reclamaciones en materia de Seguridad Social».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-004",
+      "ley": "lo-6-1985",
+      "articulo": "9.4",
+      "enunciado": "Los recursos contra las Normas Forales fiscales de las Juntas Generales de Álava, Guipúzcoa y Vizcaya corresponden en exclusiva:",
+      "opciones": [
+        "A la Sala de lo Contencioso-Administrativo del Tribunal Supremo",
+        "Al Tribunal Superior de Justicia del País Vasco",
+        "Al Tribunal Constitucional",
+        "A la Sala de lo Contencioso-Administrativo de la Audiencia Nacional"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 9.4 excluye del orden contencioso estos recursos, «que corresponderán, en exclusiva, al Tribunal Constitucional».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-005",
+      "ley": "lo-6-1985",
+      "articulo": "26",
+      "enunciado": "¿Cuál de estos órganos NO figura en la relación de Tribunales del artículo 26 de la LOPJ?",
+      "opciones": [
+        "Tribunales de Instancia",
+        "Tribunal Central de Instancia",
+        "Audiencias Provinciales",
+        "Juzgados de Primera Instancia e Instrucción"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 26 enumera, entre otros, los «Tribunales de Instancia», las «Audiencias Provinciales» y el «Tribunal Central de Instancia»; no menciona los Juzgados de Primera Instancia e Instrucción.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-006",
+      "ley": "lo-6-1985",
+      "articulo": "29.1",
+      "enunciado": "La planta de los tribunales se revisará, previo informe del CGPJ, al menos cada:",
+      "opciones": [
+        "Tres años",
+        "Cinco años",
+        "Cuatro años",
+        "Diez años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 29.1 dice que la planta «Será revisada con base en la evolución de las cargas de trabajo, población y otros parámetros que se consideren relevantes, al menos, cada cinco años».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-007",
+      "ley": "lo-6-1985",
+      "articulo": "30",
+      "enunciado": "A efectos judiciales, el Estado se organiza territorialmente en:",
+      "opciones": [
+        "Municipios, Comarcas, Provincias y Comunidades Autónomas",
+        "Partidos, Provincias, Comunidades Autónomas y Estado",
+        "Municipios, Partidos, Provincias y Comunidades Autónomas",
+        "Municipios, Partidos, Provincias y Regiones"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 30 dice: «El Estado se organiza territorialmente, a efectos judiciales, en Municipios, Partidos, Provincias y Comunidades Autónomas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-008",
+      "ley": "lo-6-1985",
+      "articulo": "32.1",
+      "enunciado": "El partido judicial es la unidad territorial integrada por:",
+      "opciones": [
+        "Uno o más municipios limítrofes de una misma provincia",
+        "Dos o más municipios de una misma comarca",
+        "Uno o más municipios, aunque sean de distintas provincias",
+        "Varios municipios limítrofes de una misma Comunidad Autónoma"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 32.1 dice: «El partido es la unidad territorial integrada por uno o más municipios limítrofes, pertenecientes a una misma provincia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-009",
+      "ley": "lo-6-1985",
+      "articulo": "35.6",
+      "enunciado": "¿Quién determina la capitalidad de los partidos judiciales?",
+      "opciones": [
+        "Las Comunidades Autónomas, por ley, previo informe del CGPJ",
+        "El Gobierno, por real decreto, previo informe del CGPJ",
+        "El CGPJ, oídas las Comunidades Autónomas afectadas",
+        "Las Cortes Generales, mediante ley orgánica"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 35.6 dice: «Las Comunidades Autónomas, previo informe del Consejo General del Poder Judicial, determinarán, por ley, la capitalidad de los partidos judiciales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-010",
+      "ley": "lo-6-1985",
+      "articulo": "55",
+      "enunciado": "¿Qué número tiene la Sala de lo Social del Tribunal Supremo?",
+      "opciones": [
+        "Primera",
+        "Segunda",
+        "Cuarta",
+        "Quinta"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 55 enumera las Salas del Tribunal Supremo: «Cuarta: De lo Social».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-011",
+      "ley": "lo-6-1985",
+      "articulo": "57.1.2º",
+      "enunciado": "¿Qué órgano instruye y enjuicia las causas contra Diputados y Senadores?",
+      "opciones": [
+        "La Sala de lo Penal de la Audiencia Nacional",
+        "La Sala de lo Penal del Tribunal Supremo",
+        "La Sala de lo Civil y Penal del Tribunal Superior de Justicia",
+        "La Audiencia Provincial de Madrid"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 57.1 atribuye a la Sala de lo Penal del Tribunal Supremo el conocimiento «De la instrucción y enjuiciamiento de las causas contra el Presidente del Gobierno, […] Diputados y Senadores».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-012",
+      "ley": "lo-6-1985",
+      "articulo": "58",
+      "enunciado": "Los recursos contencioso-administrativos contra actos y disposiciones del Consejo de Ministros los conoce en única instancia:",
+      "opciones": [
+        "La Sala de lo Contencioso-Administrativo de la Audiencia Nacional",
+        "El Tribunal Superior de Justicia de Madrid",
+        "La Sección de lo Contencioso del Tribunal Central de Instancia",
+        "La Sala de lo Contencioso-Administrativo del Tribunal Supremo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 58 dice que la Sala de lo Contencioso-administrativo del Tribunal Supremo conocerá «En única instancia, de los recursos contencioso-administrativos contra actos y disposiciones del Consejo de Ministros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-013",
+      "ley": "lo-6-1985",
+      "articulo": "64.1",
+      "enunciado": "¿Cuál de las siguientes Salas NO forma parte de la Audiencia Nacional?",
+      "opciones": [
+        "De Apelación",
+        "De lo Penal",
+        "De lo Civil",
+        "De lo Social"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 64.1, la Audiencia Nacional está integrada por las Salas «De Apelación», «De lo Penal», «De lo Contencioso-Administrativo» y «De lo Social».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-014",
+      "ley": "lo-6-1985",
+      "articulo": "63.2",
+      "enunciado": "El Presidente de la Audiencia Nacional tiene la consideración de:",
+      "opciones": [
+        "Presidente de Sala del Tribunal Supremo",
+        "Magistrado del Tribunal Supremo",
+        "Vicepresidente del Tribunal Supremo",
+        "Vocal del Consejo General del Poder Judicial"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 63.2 dice: «El Presidente de la Audiencia Nacional, que tendrá la consideración de Presidente de Sala del Tribunal Supremo, es el Presidente nato de todas sus Salas».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-015",
+      "ley": "lo-6-1985",
+      "articulo": "600.4",
+      "enunciado": "Salvo en la sesión de elección del Presidente, para la válida constitución del Pleno del CGPJ se necesita como mínimo la presencia de:",
+      "opciones": [
+        "Doce de sus miembros",
+        "Quince Vocales y el Presidente",
+        "La mayoría absoluta de los Vocales",
+        "Diez Vocales y el Presidente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 600.4 dice: «En los demás casos, para la válida constitución del Pleno será siempre necesaria, como mínimo, la presencia de diez Vocales y el Presidente».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-016",
+      "ley": "lo-6-1985",
+      "articulo": "34",
+      "enunciado": "¿Cuál es el ámbito territorial de los Tribunales Superiores de Justicia?",
+      "opciones": [
+        "La provincia",
+        "La Comunidad Autónoma",
+        "El partido judicial",
+        "Todo el territorio nacional"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 34 dice: «La Comunidad Autónoma será el ámbito territorial de los Tribunales Superiores de Justicia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-017",
+      "ley": "lo-6-1985",
+      "articulo": "72.2",
+      "enunciado": "El Presidente del Tribunal Superior de Justicia lo es también de su Sala:",
+      "opciones": [
+        "De lo Contencioso-Administrativo",
+        "De lo Civil y Penal",
+        "De lo Social",
+        "De Apelación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 72.2 dice que el Tribunal Superior de Justicia «Se compondrá de un Presidente, que lo será también de su Sala de lo Civil y Penal».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-018",
+      "ley": "lo-6-1985",
+      "articulo": "81.1",
+      "enunciado": "Con carácter general, las Audiencias Provinciales se componen de un Presidente y:",
+      "opciones": [
+        "Cuatro o más magistrados",
+        "Al menos cinco magistrados",
+        "Un único magistrado",
+        "Dos o más magistrados"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 81.1 dice: «Las Audiencias Provinciales se compondrán de un Presidente y dos o más magistrados».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-019",
+      "ley": "lo-6-1985",
+      "articulo": "84.1",
+      "enunciado": "Según la LOPJ, habrá un Tribunal de Instancia en cada:",
+      "opciones": [
+        "Partido judicial",
+        "Municipio",
+        "Provincia",
+        "Comunidad Autónoma"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 84.1 dice: «Habrá un Tribunal de Instancia en cada partido judicial, con sede en su capital, de la que tomará su nombre».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-020",
+      "ley": "lo-6-1985",
+      "articulo": "84.3.b",
+      "enunciado": "Para que una Sección del Tribunal de Instancia tenga Presidencia de Sección, debe contar, entre otros requisitos, con:",
+      "opciones": [
+        "Cuatro o más plazas judiciales",
+        "Seis o más plazas judiciales",
+        "Ocho o más plazas judiciales",
+        "Doce o más plazas judiciales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 84.3 exige, entre otras circunstancias, «Que en la Sección de que se trate existan ocho o más plazas judiciales».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-021",
+      "ley": "lo-6-1985",
+      "articulo": "99",
+      "enunciado": "¿Dónde habrá un juez o una jueza de paz?",
+      "opciones": [
+        "En cada partido judicial",
+        "En cada municipio que no sea capital de provincia",
+        "En cada capital de partido judicial",
+        "En cada municipio donde no exista Tribunal de Instancia"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 99 dice: «En cada municipio donde no exista Tribunal de Instancia, y con jurisdicción en el término correspondiente, habrá un juez o una jueza de paz».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-022",
+      "ley": "lo-6-1985",
+      "articulo": "101.1",
+      "enunciado": "Los Jueces de Paz y sus sustitutos son nombrados por la Sala de Gobierno del TSJ para un periodo de:",
+      "opciones": [
+        "Tres años",
+        "Cuatro años",
+        "Cinco años",
+        "Seis años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 101.1 dice: «Los Jueces de Paz y sus sustitutos serán nombrados para un periodo de cuatro años por la Sala de Gobierno del Tribunal Superior de Justicia correspondiente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-023",
+      "ley": "lo-6-1985",
+      "articulo": "566",
+      "enunciado": "De los veinte Vocales del CGPJ, ¿cuántos son Jueces o Magistrados en servicio activo en la carrera judicial?",
+      "opciones": [
+        "Ocho",
+        "Diez",
+        "Doce",
+        "Quince"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 566 habla de «veinte Vocales, de los cuales doce serán Jueces o Magistrados en servicio activo en la carrera judicial y ocho juristas de reconocida competencia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-024",
+      "ley": "lo-6-1985",
+      "articulo": "568.1",
+      "enunciado": "El Consejo General del Poder Judicial se renovará en su totalidad cada:",
+      "opciones": [
+        "Cinco años",
+        "Tres años",
+        "Cuatro años",
+        "Seis años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 568.1 dice: «El Consejo General del Poder Judicial se renovará en su totalidad cada cinco años, contados desde la fecha de su constitución».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-025",
+      "ley": "lo-6-1985",
+      "articulo": "586.1",
+      "enunciado": "Un jurista de reconocida competencia puede ser elegido Presidente del TS y del CGPJ si tiene una antigüedad en su profesión de más de:",
+      "opciones": [
+        "Veinticinco años",
+        "Quince años",
+        "Veinte años",
+        "Treinta años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 586.1 permite elegir a quien sea «un jurista de reconocida competencia con más de veinticinco años de antigüedad en el ejercicio de su profesión».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-026",
+      "ley": "lo-6-1985",
+      "articulo": "587.2",
+      "enunciado": "El Presidente del Tribunal Supremo y del CGPJ puede ser reelegido:",
+      "opciones": [
+        "Hasta dos veces consecutivas",
+        "Sin límite de mandatos",
+        "Por una sola vez, para un nuevo mandato",
+        "No puede ser reelegido"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 587.2 dice que «podrá ser reelegido y nombrado, por una sola vez, para un nuevo mandato».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-027",
+      "ley": "lo-6-1985",
+      "articulo": "600.1",
+      "enunciado": "¿Con qué frecuencia se reúne en sesión ordinaria el Pleno del CGPJ?",
+      "opciones": [
+        "Una vez a la semana",
+        "Una vez al mes",
+        "Una vez al trimestre",
+        "Dos veces al año"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 600.1 dice: «El Pleno se reunirá en sesión ordinaria, a convocatoria del Presidente, una vez al mes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-028",
+      "ley": "lo-6-1985",
+      "articulo": "601.2",
+      "enunciado": "La Comisión Permanente del CGPJ está compuesta por:",
+      "opciones": [
+        "El Presidente y cinco Vocales",
+        "El Presidente y nueve Vocales",
+        "El Presidente y cuatro Vocales",
+        "El Presidente y siete Vocales"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 601.2 dice que estará compuesta por el Presidente, «que la presidirá, y otros siete Vocales: cuatro de los nombrados por el turno judicial y tres de los designados por el turno de juristas de reconocida competencia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-029",
+      "ley": "lo-6-1985",
+      "articulo": "602.2",
+      "enunciado": "Los acuerdos de la Comisión Permanente del CGPJ son recurribles:",
+      "opciones": [
+        "En alzada ante el Pleno",
+        "En reposición ante la propia Comisión",
+        "En alzada ante el Presidente del CGPJ",
+        "Solo ante la Sala Tercera del Tribunal Supremo"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 602.2 dice: «Los acuerdos de la Comisión Permanente son recurribles en alzada ante el Pleno».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "lopj-030",
+      "ley": "lo-6-1985",
+      "articulo": "561.2",
+      "enunciado": "Si no se indica urgencia, el CGPJ debe emitir su informe sobre anteproyectos de ley en el plazo de:",
+      "opciones": [
+        "Quince días",
+        "Diez días",
+        "Treinta días",
+        "Dos meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 561.2 dice: «El Consejo General del Poder Judicial emitirá su informe en el plazo improrrogable de treinta días. Si en la orden de remisión se hiciere constar la urgencia del informe, el plazo será de quince días».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 """
-Descarga una página de documentación oficial (Microsoft Support / Learn) como texto a
-/fuentes/microsoft/<slug>.txt, para usarla como fuente de las preguntas de ofimática.
+Descarga una página oficial como texto a /fuentes/microsoft/<slug>.txt (ofimática) o, con un
+cuarto argumento, a /fuentes/<carpeta>/<slug>.txt (p. ej. «web» para transparencia.gob.es o la ONU).
 
-  python3 scripts/descargar_web.py URL slug "Título"
+  python3 scripts/descargar_web.py URL slug "Título" [carpeta]
 
 La segunda línea guarda la URL: es la que va en el campo `fuente` de cada pregunta, y así
 `npm run preguntas:citas` sabe contra qué texto comprobar sus citas.
@@ -28,7 +28,9 @@ def main() -> None:
     lineas = [re.sub(r"[ \t ]+", " ", l).strip() for l in texto.split("\n")]
     lineas = [l for l in lineas if l]
     cabecera = [titulo, url, f"Descargado: {date.today().isoformat()}", ""]
-    destino = Path(__file__).resolve().parent.parent / "fuentes" / "microsoft" / f"{slug}.txt"
+    carpeta = sys.argv[4] if len(sys.argv) > 4 else "microsoft"
+    destino = Path(__file__).resolve().parent.parent / "fuentes" / carpeta / f"{slug}.txt"
+    destino.parent.mkdir(parents=True, exist_ok=True)
     destino.write_text("\n".join(cabecera + lineas) + "\n", encoding="utf-8")
     print(f"{destino.name}: {len(lineas)} líneas")
 
