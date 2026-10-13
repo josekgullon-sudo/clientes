@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Award, Check, Crown, LogOut } from "lucide-react";
+import { AlarmClock, Award, BookOpen, Check, Crosshair, Crown, Flag, Flame, LogOut } from "lucide-react";
 import { Boton, EnlaceBoton } from "@/components/boton";
 import { estadisticasUsuario, logrosUsuario } from "@/lib/datos/estudio";
 import { usuarioActual } from "@/lib/datos/usuario";
@@ -16,6 +16,16 @@ const estados: Record<string, string> = {
   canceled: "Cancelada",
   unpaid: "Sin pagar",
 };
+/** Icono y color de cada familia de logros. */
+const ESTILOS_LOGRO: Record<string, { Icono: typeof Award; color: string; sombra: string }> = {
+  meta: { Icono: Flag, color: "#16a34a", sombra: "#15803d" },
+  corona: { Icono: Crown, color: "#eab308", sombra: "#a16207" },
+  racha: { Icono: Flame, color: "#f97316", sombra: "#c2410c" },
+  punteria: { Icono: Crosshair, color: "#0ea5e9", sombra: "#0369a1" },
+  volumen: { Icono: BookOpen, color: "#8b5cf6", sombra: "#6d28d9" },
+  reloj: { Icono: AlarmClock, color: "#ec4899", sombra: "#be185d" },
+};
+
 const objetivos = [
   { n: 5, t: "Suave" },
   { n: 10, t: "Constante" },
@@ -32,11 +42,11 @@ export default async function Cuenta({ searchParams }: PageProps<"/app/cuenta">)
 
   return (
     <div className="flex flex-col gap-6">
-      <h1 className="font-serif text-[2rem] leading-tight font-semibold">Tu cuenta</h1>
+      <h1 className="font-display text-[2rem] leading-tight font-extrabold">Tu cuenta</h1>
 
       <section aria-label="Tu plan" className="tarjeta p-5">
         <div className="flex items-center gap-4">
-          <span className="grid size-14 shrink-0 place-items-center rounded-full bg-pino-suave font-serif text-2xl font-semibold text-pino" aria-hidden="true">
+          <span className="grid size-14 shrink-0 place-items-center rounded-full bg-pino-suave font-display text-2xl font-extrabold text-pino" aria-hidden="true">
             {inicial}
           </span>
           <div className="min-w-0">
@@ -145,20 +155,22 @@ export default async function Cuenta({ searchParams }: PageProps<"/app/cuenta">)
           <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3">
             {[...logros].sort((a, b) => Number(!!b.conseguido_en) - Number(!!a.conseguido_en)).map((l) => {
               const si = !!l.conseguido_en;
+              const estilo = ESTILOS_LOGRO[l.icono] ?? ESTILOS_LOGRO.meta;
               return (
                 <li
                   key={l.catalogo_id}
-                  className={`flex flex-col items-center rounded-2xl border p-3 text-center ${si ? "border-subrayador/60 bg-oro-suave" : "border-filete bg-superficie"}`}
+                  className={`flex flex-col items-center rounded-2xl border-2 p-3 text-center ${si ? "border-filete bg-superficie shadow-[0_3px_0_var(--filete)]" : "border-dashed border-filete"}`}
                 >
                   <span
-                    className={`grid size-10 place-items-center rounded-full ${si ? "bg-subrayador text-subrayador-texto" : "bg-papel-hundido text-pizarra/60"}`}
+                    className="grid size-14 place-items-center rounded-full"
+                    style={si ? { background: estilo.color, boxShadow: `0 4px 0 ${estilo.sombra}`, color: "#fff" } : { background: "var(--papel-hundido)", color: "var(--pizarra)" }}
                     aria-hidden="true"
                   >
-                    <Award size={20} />
+                    <estilo.Icono size={26} strokeWidth={2.4} />
                   </span>
-                  <p className={`mt-2 text-sm leading-tight font-bold ${si ? "" : "text-pizarra"}`}>{l.nombre}</p>
+                  <p className={`mt-3 text-sm leading-tight font-black ${si ? "" : "text-pizarra"}`}>{l.nombre}</p>
                   <p className="mt-1 text-xs leading-snug text-pizarra">{l.descripcion}</p>
-                  {si && <p className="mt-1.5 text-xs font-semibold text-oro-texto">{fecha.format(new Date(l.conseguido_en!))}</p>}
+                  {si && <p className="mt-1.5 text-xs font-bold text-pino">✓ {fecha.format(new Date(l.conseguido_en!))}</p>}
                 </li>
               );
             })}

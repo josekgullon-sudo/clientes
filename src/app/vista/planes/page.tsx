@@ -8,7 +8,7 @@ export default function VistaPlanes() {
     <>
       <Cabecera />
       <main className="mx-auto w-full max-w-3xl flex-1 px-4 pt-10 pb-16">
-        <h1 className="font-serif text-4xl font-semibold">Planes</h1>
+        <h1 className="font-display text-4xl font-extrabold">Planes</h1>
         <div className="mt-10 grid items-start gap-6 md:grid-cols-2">
           <FormularioPlan
             plan="anual"

@@ -24,7 +24,7 @@ export default async function NuevoTest({ searchParams }: PageProps<"/app/nuevo"
     <form action={crearTest} className="flex flex-col gap-6 pb-20">
       <input type="hidden" name="modo" value="mixto" />
       <header>
-        <h1 className="font-serif text-[2rem] leading-tight font-semibold">Test a medida</h1>
+        <h1 className="font-display text-[2rem] leading-tight font-extrabold">Test a medida</h1>
         <p className="mt-2 text-pizarra">Elige uno o varios temas. Si no eliges ninguno, mezclamos todo el temario.</p>
       </header>
 

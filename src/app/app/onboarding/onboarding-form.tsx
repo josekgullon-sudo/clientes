@@ -3,19 +3,20 @@
 import { ArrowLeft, CalendarDays, CircleHelp } from "lucide-react";
 import { useState } from "react";
 import { Boton } from "@/components/boton";
+import { ClaraDice } from "@/components/mascota/bocadillo";
 import { guardarAjustes } from "../ajustes";
 
 const opciones = [
-  { n: 5, titulo: "Suave", texto: "Unos 3 minutos al día" },
-  { n: 10, titulo: "Constante", texto: "Unos 5 minutos. Lo más elegido" },
-  { n: 20, titulo: "Intenso", texto: "Unos 10 minutos al día" },
+  { n: 5, titulo: "Suave", texto: "Unos 3 minutos al día", emoji: "🌱" },
+  { n: 10, titulo: "Constante", texto: "Unos 5 minutos. Lo más elegido", emoji: "🔥" },
+  { n: 20, titulo: "Intenso", texto: "Unos 10 minutos al día", emoji: "🚀" },
 ];
 
 function Pasos({ paso }: { paso: number }) {
   return (
     <div className="flex items-center gap-2" role="progressbar" aria-label={`Paso ${paso} de 3`} aria-valuemin={1} aria-valuemax={3} aria-valuenow={paso}>
       {[1, 2, 3].map((n) => (
-        <span key={n} className={`h-2 flex-1 rounded-full transition ${n <= paso ? "bg-pino" : "bg-papel-hundido"}`} />
+        <span key={n} className={`h-4 flex-1 rounded-full transition ${n <= paso ? "bg-pino-vivo" : "bg-papel-hundido"}`} />
       ))}
     </div>
   );
@@ -59,12 +60,13 @@ export function OnboardingForm({
             setPaso(2);
           }}
         >
-          <div>
-            <h1 className="font-serif text-[2rem] leading-tight font-semibold">¿Cuándo es tu examen?</h1>
-            <p className="mt-2 text-pizarra">Con la fecha calculamos tu ritmo. Puedes cambiarla cuando quieras.</p>
-          </div>
+          <ClaraDice pose="hola" tamano="size-28">
+            <span className="block font-display text-lg font-black">¡Hola! Soy Clara.</span>
+            <span className="font-semibold">Te acompaño hasta el examen. Para empezar: ¿cuándo es?</span>
+          </ClaraDice>
+          <h1 className="sr-only">¿Cuándo es tu examen?</h1>
           <label
-            className={`tarjeta flex cursor-pointer items-center gap-4 border-2 p-4 transition ${!sinFecha ? "border-pino" : ""}`}
+            className={`tarjeta flex cursor-pointer items-center gap-4 p-4 transition ${!sinFecha && fecha ? "!border-cielo !bg-cielo-suave !shadow-[0_3px_0_var(--cielo)]" : ""}`}
           >
             <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-pino-suave text-pino">
               <CalendarDays aria-hidden size={22} />
@@ -88,7 +90,7 @@ export function OnboardingForm({
             type="button"
             aria-pressed={sinFecha}
             onClick={() => setSinFecha(true)}
-            className={`tarjeta flex items-center gap-4 border-2 p-4 text-left transition ${sinFecha ? "border-pino" : ""}`}
+            className={`tarjeta flex items-center gap-4 p-4 text-left transition ${sinFecha ? "!border-cielo !bg-cielo-suave !shadow-[0_3px_0_var(--cielo)]" : ""}`}
           >
             <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-papel-hundido text-pizarra">
               <CircleHelp aria-hidden size={22} />
@@ -112,10 +114,11 @@ export function OnboardingForm({
             setPaso(3);
           }}
         >
-          <div>
-            <h1 className="font-serif text-[2rem] leading-tight font-semibold">¿Cuánto quieres estudiar al día?</h1>
-            <p className="mt-2 text-pizarra">El día cuenta para tu racha al llegar a este número.</p>
-          </div>
+          <ClaraDice pose="piensa" tamano="size-28">
+            <span className="block font-display text-lg font-black">¿Cuánto quieres estudiar al día?</span>
+            <span className="font-semibold">Al llegar a ese número, el día suma a tu racha.</span>
+          </ClaraDice>
+          <h1 className="sr-only">¿Cuánto quieres estudiar al día?</h1>
           <div className="flex flex-col gap-3" role="radiogroup" aria-label="Preguntas al día">
             {opciones.map((o) => (
               <button
@@ -124,13 +127,13 @@ export function OnboardingForm({
                 role="radio"
                 aria-checked={objetivo === o.n}
                 onClick={() => setObjetivo(o.n)}
-                className={`tarjeta flex items-center gap-4 border-2 p-4 text-left transition ${objetivo === o.n ? "border-pino bg-pino-suave" : ""}`}
+                className={`tarjeta flex items-center gap-4 p-4 text-left transition ${objetivo === o.n ? "!border-cielo !bg-cielo-suave !shadow-[0_3px_0_var(--cielo)]" : ""}`}
               >
-                <span className="cifras grid size-12 shrink-0 place-items-center rounded-xl bg-superficie text-xl font-extrabold shadow-tarjeta">
-                  {o.n}
+                <span className="grid size-12 shrink-0 place-items-center rounded-xl bg-papel-hundido text-2xl" aria-hidden="true">
+                  {o.emoji}
                 </span>
                 <span>
-                  <span className="block font-bold">{o.titulo}</span>
+                  <span className="block font-extrabold">{o.titulo}</span>
                   <span className="text-sm text-pizarra">
                     {o.n} preguntas · {o.texto}
                   </span>
@@ -144,19 +147,20 @@ export function OnboardingForm({
 
       {paso === 3 && (
         <form action={guardarAjustes} className="aparecer flex flex-col gap-5">
-          <div>
-            <h1 className="font-serif text-[2rem] leading-tight font-semibold">Empieza con un test corto</h1>
-            <p className="mt-2 text-pizarra">
+          <ClaraDice pose="celebra" tamano="size-28">
+            <span className="block font-display text-lg font-black">¡Todo listo!</span>
+            <span className="font-semibold">
               {tema
-                ? "Diez preguntas para situarte. Así el camino y la predicción tienen por dónde empezar."
-                : "Cuando haya preguntas en tu primer tema, el test aparecerá aquí."}
-            </p>
-          </div>
+                ? `Tu objetivo: ${objetivo} preguntas al día. ¿Hacemos las primeras 10 para situarte?`
+                : "Cuando haya preguntas en tu primer tema, tu primer test aparecerá aquí."}
+            </span>
+          </ClaraDice>
+          <h1 className="sr-only">Empieza con un test corto</h1>
           {tema && (
             <div className="tarjeta overflow-hidden">
               <div className="bg-pino-boton px-5 py-4 text-sobre-pino">
                 <p className="text-[0.8125rem] font-bold tracking-wide uppercase opacity-85">Tema {tema.numero}</p>
-                <p className="mt-1 font-serif text-xl leading-snug font-semibold">{tema.titulo}</p>
+                <p className="mt-1 font-display text-xl leading-snug font-extrabold">{tema.titulo}</p>
               </div>
               <p className="px-5 py-3 text-sm text-pizarra">10 preguntas · unos 5 minutos · con la explicación de cada una</p>
             </div>

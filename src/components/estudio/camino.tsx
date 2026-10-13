@@ -20,10 +20,10 @@ function estadoDe(t: NodoCamino, actualId: string | undefined, premium: boolean)
   return "pendiente";
 }
 
-export function Niveles({ nodo }: { nodo: NodoCamino }) {
+export function Niveles({ nodo, claro = false }: { nodo: NodoCamino; claro?: boolean }) {
   const nivel = nivelVisible(nodo);
   return (
-    <span className="niveles" role="img" aria-label={nodo.corona ? "Tema completado" : `Nivel ${nivel} de 5`}>
+    <span className={`niveles ${claro ? "niveles-claro" : ""}`} role="img" aria-label={nodo.corona ? "Tema completado" : `Nivel ${nivel} de 5`}>
       {[1, 2, 3, 4, 5].map((n) => (
         <span key={n} data-hecho={!!nodo.corona || n < nivel} data-actual={!nodo.corona && n === nivel} />
       ))}
@@ -31,18 +31,22 @@ export function Niveles({ nodo }: { nodo: NodoCamino }) {
   );
 }
 
-/** Botones para empezar la lección de un tema. */
-export function AccionesLeccion({ nodo, premium }: { nodo: NodoCamino; premium: boolean }) {
+/** Botones para empezar la lección de un tema. `claro` para ponerlos sobre un fondo verde. */
+export function AccionesLeccion({ nodo, premium, claro = false }: { nodo: NodoCamino; premium: boolean; claro?: boolean }) {
   const nivel = nivelVisible(nodo);
   const preguntas = preguntasDeLeccion(nodo);
+  const principal = claro
+    ? "!bg-white !text-[#15803d] !shadow-[0_4px_0_rgb(0_0_0/0.18)]"
+    : "";
+  const secundario = claro ? "!border-white/60 !bg-transparent !text-white !shadow-none hover:!bg-white/10" : "";
   return (
-    <div className="flex flex-col gap-2 sm:flex-row">
+    <div className={`flex flex-col gap-2 ${claro ? "" : "sm:flex-row"}`}>
       <form action={crearTest} className="sm:flex-1">
         <input type="hidden" name="modo" value="leccion" />
         <input type="hidden" name="tema" value={nodo.tema_id} />
         <input type="hidden" name="num" value={String(preguntas)} />
-        <Boton ancho>
-          {nivel >= 5 ? "Hacer el examen del tema" : "Empezar lección"}
+        <Boton ancho className={principal}>
+          {nivel >= 5 ? "Examen del tema" : `Empezar · ${preguntas} preguntas`}
         </Boton>
       </form>
       {nivel < 5 && (
@@ -50,7 +54,7 @@ export function AccionesLeccion({ nodo, premium }: { nodo: NodoCamino; premium: 
           <input type="hidden" name="modo" value="leccion" />
           <input type="hidden" name="tema" value={nodo.tema_id} />
           <input type="hidden" name="num" value="5" />
-          <Boton variante="secundario" ancho>
+          <Boton variante="secundario" ancho tamano="md" className={secundario}>
             Solo 5 · {minutosDeLeccion(5)} min
           </Boton>
         </form>
@@ -59,7 +63,7 @@ export function AccionesLeccion({ nodo, premium }: { nodo: NodoCamino; premium: 
         <form action={crearTest}>
           <input type="hidden" name="modo" value="salto" />
           <input type="hidden" name="tema" value={nodo.tema_id} />
-          <Boton variante="texto" ancho>
+          <Boton variante="texto" ancho className={claro ? "!text-white !decoration-white/50" : ""}>
             Saltar al nivel 3
           </Boton>
         </form>

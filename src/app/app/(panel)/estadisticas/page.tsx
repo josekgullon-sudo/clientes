@@ -3,6 +3,7 @@ import Link from "next/link";
 import { CalendarDays, Crown, Gauge, Lock, Target, TrendingUp, TriangleAlert } from "lucide-react";
 import type { ReactNode } from "react";
 import { EnlaceBoton } from "@/components/boton";
+import { Clara } from "@/components/mascota/clara";
 import { Tablero } from "@/components/estudio/tablero";
 import { estadisticasUsuario } from "@/lib/datos/estudio";
 import { examenEstimado } from "@/lib/examen";
@@ -66,7 +67,7 @@ export default async function Estadisticas() {
 
   return (
     <div className="flex flex-col gap-6">
-      <h1 className="font-serif text-[2rem] leading-tight font-semibold">Progreso</h1>
+      <h1 className="font-display text-[2rem] leading-tight font-extrabold">Progreso</h1>
 
       <Tablero
         racha={est.racha_actual}
@@ -90,7 +91,7 @@ export default async function Estadisticas() {
           <p>Aún no hay fecha. Ponla en tu cuenta y calculamos tu ritmo.</p>
         ) : (
           <>
-            <p className="cifras font-serif text-5xl leading-none font-semibold">
+            <p className="cifras font-display text-5xl leading-none font-extrabold">
               {Math.max(0, dias)} <span className="font-sans text-lg font-semibold text-pizarra">días</span>
             </p>
             <p className="mt-2 text-sm text-pizarra">
@@ -110,7 +111,7 @@ export default async function Estadisticas() {
 
       <div className="grid gap-4 sm:grid-cols-2">
         <Seccion titulo="Acierto" icono={<Target aria-hidden size={18} className="text-pino" />}>
-          <p className="cifras font-serif text-5xl leading-none font-semibold">{pct(est.acierto_global)}</p>
+          <p className="cifras font-display text-5xl leading-none font-extrabold">{pct(est.acierto_global)}</p>
           <p className="mt-2 text-sm text-pizarra">{num(est.respuestas_total)} respuestas en total</p>
           <dl className="cifras mt-4 grid grid-cols-2 gap-2 text-center">
             {[
@@ -161,7 +162,7 @@ export default async function Estadisticas() {
                     <div key={String(etiqueta)} className="rounded-xl bg-papel-hundido p-4">
                       <dt className="text-sm font-semibold text-pizarra">{etiqueta as string}</dt>
                       <dd>
-                        <span className="cifras block font-serif text-4xl font-semibold">
+                        <span className="cifras block font-display text-4xl font-extrabold">
                           {parte && typeof parte === "object" ? parte.nota.toLocaleString("es-ES") : "—"}
                           <span className="font-sans text-base font-semibold text-pizarra"> /50</span>
                         </span>
@@ -203,7 +204,7 @@ export default async function Estadisticas() {
             </Seccion>
 
             <Seccion titulo="Ritmo" icono={<Gauge aria-hidden size={18} className="text-pino" />}>
-              <p className="cifras font-serif text-4xl font-semibold">
+              <p className="cifras font-display text-4xl font-extrabold">
                 {est.velocidad_media_s ? `${Math.round(Number(est.velocidad_media_s))} s` : "—"}
               </p>
               <p className="mt-1 text-sm text-pizarra">por pregunta. En el examen tienes unos 49 s (90 min para 110 preguntas).</p>
@@ -230,12 +231,15 @@ export default async function Estadisticas() {
           </Seccion>
         </>
       ) : (
-        <section className="tarjeta overflow-hidden border-subrayador/50">
-          <div className="bg-oro-suave px-5 py-4">
-            <p className="flex items-center gap-2 font-serif text-xl font-semibold">
-              <Crown aria-hidden size={20} className="text-oro-texto" /> Con Premium ves más
-            </p>
-            <p className="mt-1 text-sm">El acierto global sigue siendo gratis. Esto es lo que añade Premium:</p>
+        <section className="tarjeta overflow-hidden !border-[#a78bfa]">
+          <div className="flex items-center gap-4 bg-morado-suave px-5 py-4">
+            <Clara pose="premium" animada={false} className="size-20 shrink-0" />
+            <div>
+              <p className="flex items-center gap-2 font-display text-xl font-black text-morado-texto">
+                <Crown aria-hidden size={20} /> Con Premium ves más
+              </p>
+              <p className="mt-1 text-sm font-semibold">El acierto global sigue siendo gratis. Esto añade Premium:</p>
+            </div>
           </div>
           <ul className="divide-y divide-filete">
             {[
@@ -254,7 +258,7 @@ export default async function Estadisticas() {
             ))}
           </ul>
           <div className="p-5 pt-2">
-            <EnlaceBoton href="/suscripcion?motivo=prediccion" ancho>
+            <EnlaceBoton href="/suscripcion?motivo=prediccion" variante="premium" ancho>
               Ver Premium
             </EnlaceBoton>
           </div>

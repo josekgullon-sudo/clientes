@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { CircleSlash, Clock, ListChecks, MinusCircle } from "lucide-react";
 import { Boton } from "@/components/boton";
+import { Clara } from "@/components/mascota/clara";
 import { oposicionActual, usuarioActual } from "@/lib/datos/usuario";
 import { crearTest } from "../../acciones";
 
@@ -22,10 +23,13 @@ export default async function Simulacro() {
 
   return (
     <div className="flex flex-col gap-6">
-      <header>
-        <p className="antetitulo">Modo examen</p>
-        <h1 className="mt-1 font-serif text-[2rem] leading-tight font-semibold">Simulacro</h1>
-        <p className="mt-2 text-pizarra">Con tiempo y sin ver la corrección hasta el final. La mejor forma de medirte.</p>
+      <header className="flex items-center gap-4">
+        <Clara pose="piensa" className="size-24 shrink-0" />
+        <div>
+          <p className="antetitulo">Modo examen</p>
+          <h1 className="mt-1 font-display text-[2rem] leading-tight font-black">Simulacro</h1>
+          <p className="mt-1 font-semibold text-pizarra">Con tiempo y sin ver la corrección hasta el final.</p>
+        </div>
       </header>
 
       <dl className="grid grid-cols-2 gap-3">
