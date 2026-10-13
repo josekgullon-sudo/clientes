@@ -1,7 +1,12 @@
-<h2>Confirma tu cuenta</h2>
-<p>Hola,</p>
-<p>El código de 6 dígitos es:</p>
-<p style="font-size: 28px; letter-spacing: 0.3em; font-weight: 700;">{{ .Token }}</p>
-<p>O abre este enlace en el mismo dispositivo:</p>
-<p><a href="{{ .ConfirmationURL }}">Confirmar y entrar</a></p>
-<p>Si no has creado una cuenta, puedes ignorar este correo.</p>
+<div style="background:#f7f9f6;padding:24px 12px;font-family:Arial,Helvetica,sans-serif;color:#1a2620">
+  <div style="max-width:440px;margin:0 auto;background:#ffffff;border:2px solid #dfe6e1;border-radius:20px;padding:28px 24px;text-align:center">
+    <img src="{{ .SiteURL }}/apple-icon.png" width="64" height="64" alt="" style="display:block;margin:0 auto;border-radius:16px">
+    <p style="margin:8px 0 0;font-size:15px;font-weight:700;color:#15803d">Oposiciones Claras</p>
+    <h1 style="margin:16px 0 8px;font-size:24px;line-height:1.2;font-weight:900">¡Te damos la bienvenida!</h1>
+    <p style="margin:0 0 20px;font-size:16px;line-height:1.5;color:#4b5a52">Este es tu código para crear tu cuenta. Escríbelo en la web y empieza tu racha.</p>
+    <p style="margin:0 auto 20px;display:inline-block;background:#fef9c3;border:2px solid #facc15;border-radius:16px;padding:14px 22px;font-size:32px;font-weight:900;letter-spacing:0.25em;color:#1a2620">{{ .Token }}</p>
+    <p style="margin:0 0 12px;font-size:14px;color:#4b5a52">O entra directamente desde este dispositivo:</p>
+    <p style="margin:0 0 24px"><a href="{{ .ConfirmationURL }}" style="display:inline-block;background:#15803d;color:#ffffff;text-decoration:none;font-weight:800;font-size:15px;letter-spacing:0.04em;text-transform:uppercase;border-radius:14px;padding:14px 24px;border-bottom:4px solid #0f5f2d">Entrar</a></p>
+    <p style="margin:0;font-size:13px;line-height:1.5;color:#4b5a52">El código caduca en una hora. Si no lo has pedido tú, ignora este correo.</p>
+  </div>
+</div>
