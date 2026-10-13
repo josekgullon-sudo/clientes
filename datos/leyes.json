@@ -15,5 +15,6 @@
   { "slug": "ley-7-1985", "nombre": "Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local", "nombre_corto": "Ley 7/1985", "fecha_version_boe": "2026-10-05", "fuente": "ley-7-1985.txt" },
   { "slug": "lo-6-1985", "nombre": "Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial", "nombre_corto": "LO 6/1985", "fecha_version_boe": "2026-10-09", "fuente": "lo-6-1985.txt" },
   { "slug": "tue", "nombre": "Tratado de la Unión Europea (versión consolidada, DOUE C 202 de 7.6.2016)", "nombre_corto": "TUE", "fecha_version_boe": "2016-06-07", "fuente": "tue.txt" },
-  { "slug": "tfue", "nombre": "Tratado de Funcionamiento de la Unión Europea (versión consolidada, DOUE C 202 de 7.6.2016)", "nombre_corto": "TFUE", "fecha_version_boe": "2016-06-07", "fuente": "tfue.txt" }
+  { "slug": "tfue", "nombre": "Tratado de Funcionamiento de la Unión Europea (versión consolidada, DOUE C 202 de 7.6.2016)", "nombre_corto": "TFUE", "fecha_version_boe": "2016-06-07", "fuente": "tfue.txt" },
+  { "slug": "ley-50-1981", "nombre": "Ley 50/1981, de 30 de diciembre, por la que se regula el Estatuto Orgánico del Ministerio Fiscal", "nombre_corto": "Ley 50/1981 (EOMF)", "fecha_version_boe": "2026-07-09", "fuente": "ley-50-1981.txt" }
 ]
