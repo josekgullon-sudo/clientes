@@ -1,0 +1,530 @@
+{
+  "descripcion": "Explorador de archivos de Windows 11 (tema 23): gestión de carpetas y archivos, búsqueda, vistas y ordenación, extensiones, archivos ocultos, Papelera y compresión. Lote generado el 2026-10-13 a partir de páginas de support.microsoft.com/es-es; en borrador.",
+  "preguntas": [
+    {
+      "id": "exp-001",
+      "ley": null,
+      "articulo": "Explorar el Explorador de archivos",
+      "fuente": "https://support.microsoft.com/es-es/accessibility/windows/use-a-screen-reader-to-explore-and-navigate-file-explorer-in-windows",
+      "enunciado": "¿Qué combinación de teclas abre el Explorador de archivos en Windows 11?",
+      "opciones": [
+        "Tecla Windows + D",
+        "Tecla Windows + E",
+        "Tecla Windows + R",
+        "Tecla Windows + I"
+      ],
+      "correcta": 1,
+      "explicacion": "La página indica: «Para abrir el Explorador de archivos, presione la tecla del logotipo de Windows + E».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-002",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado del Explorador de archivos",
+      "fuente": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "enunciado": "En el Explorador de archivos, ¿qué tecla permite cambiar el nombre del elemento seleccionado?",
+      "opciones": [
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "correcta": 0,
+      "explicacion": "F2 sirve para «Cambiar el nombre del elemento seleccionado.» F3 sirve para «Buscar un archivo o carpeta.» y F5 para actualizar la ventana.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-003",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado del Explorador de archivos",
+      "fuente": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "enunciado": "En el Explorador de archivos, ¿qué combinación crea una carpeta nueva?",
+      "opciones": [
+        "Ctrl+U",
+        "Ctrl+T",
+        "Ctrl+Mayús+N",
+        "Ctrl+Mayús+E"
+      ],
+      "correcta": 2,
+      "explicacion": "Ctrl+Mayús+N: «Cree una carpeta nueva.» Ctrl+U sirve para «Abrir una nueva ventana.» y Ctrl+T para «Abrir una pestaña nueva y cambiar a ella.»",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-004",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado del Explorador de archivos",
+      "fuente": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "enunciado": "En el Explorador de archivos, ¿qué hace la combinación Alt+Flecha arriba?",
+      "opciones": [
+        "Vuelve a la carpeta anterior",
+        "Muestra la carpeta siguiente",
+        "Selecciona la barra de direcciones",
+        "Sube un nivel en la ruta de la carpeta"
+      ],
+      "correcta": 3,
+      "explicacion": "Alt+Flecha arriba permite «Subir un nivel en la ruta de acceso de la carpeta.» Volver a la carpeta anterior corresponde a Alt+Flecha izquierda y seleccionar la barra de direcciones, a Alt+D.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-005",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado del Explorador de archivos",
+      "fuente": "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "enunciado": "¿Qué combinación elimina el elemento seleccionado sin moverlo a la Papelera de reciclaje?",
+      "opciones": [
+        "Suprimir",
+        "Ctrl+D",
+        "Mayús+Supr",
+        "Ctrl+W"
+      ],
+      "correcta": 2,
+      "explicacion": "Mayús+Supr sirve para «Eliminar permanentemente el elemento seleccionado sin moverlo a la papelera de reciclaje.» En cambio, Ctrl+D o Suprimir lo mueven a la papelera.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-006",
+      "ley": null,
+      "articulo": "Cómo usar el Explorador de archivos",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+      "enunciado": "¿Cómo se ancla una carpeta a Acceso rápido en el Explorador de archivos?",
+      "opciones": [
+        "Clic derecho en la carpeta y Anclar a acceso rápido",
+        "Seleccionar la carpeta y Compartir en la cinta",
+        "Ver > Mostrar > Panel de navegación",
+        "Clic derecho y Mostrar más opciones > Enviar a"
+      ],
+      "correcta": 0,
+      "explicacion": "La página indica: «Para anclar una carpeta a Acceso rápido , haga clic con el botón derecho (o manténgalo presionado) en la carpeta y seleccione Anclar a acceso rápido».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-007",
+      "ley": null,
+      "articulo": "Cómo usar el Explorador de archivos",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+      "enunciado": "Para mover un archivo a otra ubicación usando la cinta de opciones, ¿qué comandos se usan?",
+      "opciones": [
+        "Copiar y, en la nueva ubicación, Pegar",
+        "Cortar y, en la nueva ubicación, Pegar",
+        "Compartir y, en la nueva ubicación, Pegar",
+        "Cambiar nombre y escribir la nueva ruta"
+      ],
+      "correcta": 1,
+      "explicacion": "Para mover un archivo o carpeta, «selecciónelo y, a continuación, seleccione Cortar en la cinta de opciones. Ve a la nueva ubicación y selecciona Pegar».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-008",
+      "ley": null,
+      "articulo": "Cómo usar el Explorador de archivos",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+      "enunciado": "¿Qué opción del menú Vista reduce el espacio entre los archivos en el Explorador?",
+      "opciones": [
+        "Casillas de elementos",
+        "Panel de detalles",
+        "Elementos ocultos",
+        "Vista compacta"
+      ],
+      "correcta": 3,
+      "explicacion": "La página indica: «Para reducir el espacio entre archivos, seleccione Vista > compacta».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-009",
+      "ley": null,
+      "articulo": "Acceso rápido",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+      "enunciado": "A partir de Windows 11, versión 22H2, ¿dónde dejan de mostrarse las carpetas conocidas como Escritorio o Documentos?",
+      "opciones": [
+        "En Acceso rápido",
+        "En el panel de navegación",
+        "En Este equipo",
+        "En Inicio del Explorador"
+      ],
+      "correcta": 2,
+      "explicacion": "Esas carpetas se anclan en Acceso rápido y en el panel de navegación, y «Estas carpetas predeterminadas ya no se muestran en Este equipo para mantener la vista centrada en las unidades y las ubicaciones de red del equipo».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-010",
+      "ley": null,
+      "articulo": "Configure el Explorador de archivos para abrirlo en Este equipo",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+      "enunciado": "En Windows 11, versión 22H2, ¿qué nombre recibe Acceso rápido como página en la que se abre el Explorador?",
+      "opciones": [
+        "Inicio",
+        "Este equipo",
+        "Galería",
+        "Bibliotecas"
+      ],
+      "correcta": 0,
+      "explicacion": "La página indica que el Explorador «se abre en Acceso rápido, cuyo nombre se ha cambiado a Inicio del Explorador de archivos en Windows 11, versión 22H2».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-011",
+      "ley": null,
+      "articulo": "Menú contextual",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+      "enunciado": "En el menú contextual simplificado de Windows 11, ¿dónde aparecen Cortar, Copiar, Pegar, Cambiar nombre, Compartir y Eliminar?",
+      "opciones": [
+        "Solo dentro de Mostrar más opciones",
+        "En la barra de estado de la ventana",
+        "En el panel de detalles del archivo",
+        "En la parte superior del menú contextual"
+      ],
+      "correcta": 3,
+      "explicacion": "La página indica: «Puede encontrar Cortar , Copiar , Pegar, Cambiar nombre , Compartir y Eliminar en la parte superior del menú contextual».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-012",
+      "ley": null,
+      "articulo": "Buscar comandos en el menú contextual anterior de Windows 10",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+      "enunciado": "En Windows 11, ¿qué opción del menú contextual muestra los comandos del menú anterior de Windows 10?",
+      "opciones": [
+        "Propiedades",
+        "Mostrar más opciones",
+        "Abrir con",
+        "Anclar a acceso rápido"
+      ],
+      "correcta": 1,
+      "explicacion": "Tras hacer clic con el botón derecho en el archivo o carpeta: «Seleccione Mostrar más opciones». Las extensiones de Windows 10 «siempre estarán disponibles al seleccionar Mostrar más opciones».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-013",
+      "ley": null,
+      "articulo": "Extensiones de nombre de archivo comunes en Windows",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+      "enunciado": "¿Cómo se muestran las extensiones de nombre de archivo en el Explorador de Windows 11?",
+      "opciones": [
+        "Ver > Mostrar > Elementos ocultos",
+        "Ver > Mostrar > Casillas de elementos",
+        "Ver > Mostrar > Extensiones de nombre de archivo",
+        "Ver > Mostrar > Panel de detalles"
+      ],
+      "correcta": 2,
+      "explicacion": "La página indica: «En el Explorador de archivos, seleccione Ver > mostrar > extensiones de nombre de archivo».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-014",
+      "ley": null,
+      "articulo": "Mostrar archivos ocultos",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+      "enunciado": "En el menú Ver > Mostrar del Explorador, ¿qué opción permite ver los archivos y carpetas ocultos?",
+      "opciones": [
+        "Elementos ocultos",
+        "Casillas de elementos",
+        "Panel de navegación",
+        "Extensiones de nombre de archivo"
+      ],
+      "correcta": 0,
+      "explicacion": "Hay que seleccionar «Elementos ocultos para ver los archivos y carpetas ocultos».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-015",
+      "ley": null,
+      "articulo": "Encontrar tus archivos",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/find-your-files-and-apps-in-windows",
+      "enunciado": "Para hacer una búsqueda lenta pero exhaustiva desde el Explorador de archivos, ¿dónde conviene buscar?",
+      "opciones": [
+        "En Inicio",
+        "En Este equipo",
+        "En la carpeta Descargas",
+        "En Acceso rápido"
+      ],
+      "correcta": 1,
+      "explicacion": "La página indica: «Para realizar una búsqueda lenta pero exhaustiva, busque en Este equipo en lugar de en Inicio».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-016",
+      "ley": null,
+      "articulo": "Encontrar tus archivos",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/find-your-files-and-apps-in-windows",
+      "enunciado": "Al buscar un documento desde Buscar en la barra de tareas, ¿de dónde salen los resultados de archivos?",
+      "opciones": [
+        "Solo de la carpeta Documentos",
+        "Solo de Acceso rápido",
+        "Solo de las unidades locales",
+        "Del PC y de OneDrive"
+      ],
+      "correcta": 3,
+      "explicacion": "La página indica: «Los resultados de documentos y archivos se muestran desde tu PC y OneDrive».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-017",
+      "ley": null,
+      "articulo": "Para comprimir (comprimir)",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/zip-and-unzip-files",
+      "enunciado": "En Windows 11, ¿qué ruta del menú contextual crea una carpeta comprimida (zip)?",
+      "opciones": [
+        "Mostrar más opciones > Enviar a > Carpeta comprimida",
+        "Mostrar más opciones > Extraer todo...",
+        "Propiedades > General > Comprimir",
+        "Abrir con > Elegir otra aplicación"
+      ],
+      "correcta": 0,
+      "explicacion": "Hay que hacer clic con el botón derecho en el archivo o carpeta y seleccionar «Mostrar más opciones > Enviar a > carpeta comprimida (en zip)».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-018",
+      "ley": null,
+      "articulo": "Para descomprimir (extraer)",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/zip-and-unzip-files",
+      "enunciado": "Para descomprimir todo el contenido de una carpeta comprimida, ¿qué opción se elige en su menú contextual?",
+      "opciones": [
+        "Enviar a",
+        "Cambiar nombre",
+        "Extraer todo...",
+        "Abrir con"
+      ],
+      "correcta": 2,
+      "explicacion": "Para descomprimir todo el contenido, «haz clic con el botón derecho en la carpeta (o mantenla presionada), selecciona Extraer todo... y sigue las instrucciones».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-019",
+      "ley": null,
+      "articulo": "Para descomprimir (extraer)",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/zip-and-unzip-files",
+      "enunciado": "¿Qué ocurre si agregas archivos cifrados a una carpeta comprimida?",
+      "opciones": [
+        "Seguirán cifrados al descomprimirlos",
+        "Estarán sin cifrar al descomprimirlos",
+        "Windows impide agregarlos a la carpeta",
+        "Se comprimen más que los no cifrados"
+      ],
+      "correcta": 1,
+      "explicacion": "La página advierte: «Si agregas archivos cifrados a una carpeta comprimida, estarán sin cifrar cuando se descompriman». Por eso recomienda no comprimir archivos cifrados.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-020",
+      "ley": null,
+      "articulo": "Para descomprimir (extraer)",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/zip-and-unzip-files",
+      "enunciado": "Si comprimes varias imágenes JPEG en una carpeta, ¿qué tamaño tendrá la carpeta comprimida?",
+      "opciones": [
+        "Aproximadamente la mitad que las originales",
+        "Una décima parte de las imágenes originales",
+        "Mayor que la suma de las imágenes originales",
+        "Más o menos el mismo que las imágenes originales"
+      ],
+      "correcta": 3,
+      "explicacion": "Las JPEG ya están comprimidas: «el tamaño total de la carpeta será aproximadamente el mismo que la colección original de imágenes».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-021",
+      "ley": null,
+      "articulo": "Preguntas frecuentes",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/zip-and-unzip-files",
+      "enunciado": "¿Qué formatos de archivo comprimido admite Windows 11, versión 24H2?",
+      "opciones": [
+        "ZIP, RAR, 7z y TAR",
+        "Solo ZIP",
+        "ZIP y CAB, nada más",
+        "ZIP, RAR, 7z y TAR también cifrados"
+      ],
+      "correcta": 0,
+      "explicacion": "La página indica: «Windows 11, versión 24H2 admite ZIP, RAR. Formatos de archivo 7z y TAR.» Pero «no admite operaciones en archivos de archivo cifrados».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-022",
+      "ley": null,
+      "articulo": "Extensiones de nombre de archivo comunes en Windows",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+      "enunciado": "¿Qué ocurre si cambias la extensión del nombre de un archivo, por ejemplo de .docx a .pdf?",
+      "opciones": [
+        "El archivo se convierte al nuevo formato",
+        "El archivo pasa a la Papelera de reciclaje",
+        "Solo cambia el nombre, no el formato",
+        "Windows comprime el archivo en un zip"
+      ],
+      "correcta": 2,
+      "explicacion": "La página indica: «Puedes cambiar una extensión de nombre de archivo, pero eso no convertirá el archivo a otro formato ni cambiará nada más, excepto el nombre de archivo».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-023",
+      "ley": null,
+      "articulo": "El escritorio muestra iconos, pero falta la Papelera de reciclaje",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/find-the-recycle-bin-in-windows",
+      "enunciado": "Si el escritorio muestra iconos pero falta la Papelera de reciclaje, ¿dónde se vuelve a activar?",
+      "opciones": [
+        "Clic derecho en el escritorio > Ver > Mostrar iconos",
+        "Explorador > Ver > Mostrar > Elementos ocultos",
+        "Explorador > Ver > Mostrar > Panel de navegación",
+        "Personalización > Temas > Configuración del icono de escritorio"
+      ],
+      "correcta": 3,
+      "explicacion": "En Configuración hay que ir a Personalización > Temas, elegir «la configuración del icono de escritorio» y comprobar que «la casilla de la papelera de reciclaje está activada».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-024",
+      "ley": null,
+      "articulo": "Explorar el Explorador de archivos",
+      "fuente": "https://support.microsoft.com/es-es/accessibility/windows/use-a-screen-reader-to-explore-and-navigate-file-explorer-in-windows",
+      "enunciado": "¿En qué vista del panel de contenido aparecen botones para ordenar por Nombre o por Fecha de modificación?",
+      "opciones": [
+        "Iconos grandes",
+        "Detalles",
+        "Contenido",
+        "Iconos pequeños"
+      ],
+      "correcta": 1,
+      "explicacion": "La página indica: «Si el panel Contenido está en el modo de vista Detalles , los botones de ordenación permiten ordenar por criterios como Nombre o Fecha de modificación».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    },
+    {
+      "id": "exp-025",
+      "ley": null,
+      "articulo": "Explorar el Explorador de archivos",
+      "fuente": "https://support.microsoft.com/es-es/accessibility/windows/use-a-screen-reader-to-explore-and-navigate-file-explorer-in-windows",
+      "enunciado": "¿Qué zona del Explorador de archivos, abajo a la derecha, tiene botones para cambiar la vista y el diseño?",
+      "opciones": [
+        "La barra de estado",
+        "El panel de detalles",
+        "El panel de navegación",
+        "La barra de direcciones"
+      ],
+      "correcta": 0,
+      "explicacion": "La página indica: «Barra de estado : esta área se encuentra en la parte inferior derecha de la ventana y contiene botones para cambiar la vista y el diseño del Explorador de archivos».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 23
+      }
+    }
+  ]
+}

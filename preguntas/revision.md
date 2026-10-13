@@ -77,6 +77,7 @@ Ninguna por ahora.
 - **reglamento-electronico-rd203-2021** (30, temas 19 y 20) y **excel-365** (30, tema 25): revisados y `validada`. En Excel solo hay atajos iguales en cualquier idioma (F2, F4, F9, F11, Mayús+F3, Mayús+F11, Alt+=).
 - **windows-11** (30, tema 22): revisado y `validada`. Solo atajos con la tecla Windows o universales; descartados los que la página de Microsoft da con dos significados (Windows+A, +C, +S, +Q).
 - **outlook-365** (29, tema 27): revisado y `validada`. Sin atajos (la página da Ctrl+N, de la versión inglesa). Se retira out-029 por rebuscada.
+- **internet-edge** (25, tema 28), **access-365** (30, tema 26) y **explorador-archivos** (25, tema 23): revisados y `validada`. En Edge no se pregunta por Ctrl+D ni Ctrl+R (la página de atajos tiene un error).
 - Fuentes nuevas, descargadas con `python3 scripts/descargar_boe.py`: Ley 19/2013, Ley 47/2003,
   RD 208/1996, RD 203/2021, RD 951/2005, Ley 7/1985 (Bases de Régimen Local) y LO 6/1985 (Poder
   Judicial). Sirven para los temas 4, 6, 7, 9, 15, 17, 18, 19 y 20.

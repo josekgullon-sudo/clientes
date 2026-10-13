@@ -1,0 +1,530 @@
+{
+  "descripcion": "Internet y Microsoft Edge (tema 28): InPrivate, historial y datos de exploración, cookies, SmartScreen, contraseñas, métodos abreviados y DNS. Lote generado el 2026-10-13 a partir de páginas de support.microsoft.com/es-es y learn.microsoft.com/es-es; en borrador.",
+  "preguntas": [
+    {
+      "id": "net-001",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado (Windows)",
+      "fuente": "https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge",
+      "enunciado": "En Microsoft Edge para Windows, ¿qué combinación de teclas abre una nueva ventana InPrivate?",
+      "opciones": [
+        "Ctrl + Mayús + N",
+        "Ctrl + N",
+        "Ctrl + Mayús + T",
+        "Ctrl + Mayús + O"
+      ],
+      "correcta": 0,
+      "explicacion": "La tabla de Windows asigna a Ctrl + Mayús + N la acción «Abrir una nueva ventana de InPrivate». Ctrl + N abre una ventana normal y Ctrl + Mayús + O abre Favoritos.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-002",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado (Windows)",
+      "fuente": "https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge",
+      "enunciado": "En Microsoft Edge, ¿qué hace la combinación Ctrl + H?",
+      "opciones": [
+        "Abrir Descargas",
+        "Abrir historial",
+        "Abrir Favoritos",
+        "Abrir Colecciones"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la tabla de Windows, Ctrl + H sirve para «Abrir historial». Descargas se abre con Ctrl + J y Favoritos con Ctrl + Mayús + O.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-003",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado (Windows)",
+      "fuente": "https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge",
+      "enunciado": "En Microsoft Edge, ¿qué combinación de teclas abre Descargas?",
+      "opciones": [
+        "Ctrl + H",
+        "Ctrl + K",
+        "Ctrl + J",
+        "Ctrl + U"
+      ],
+      "correcta": 2,
+      "explicacion": "La tabla indica que Ctrl + J sirve para «Abrir Descargas». Ctrl + H abre el historial y Ctrl + U muestra el origen («Ver origen»).",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-004",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado (Windows)",
+      "fuente": "https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge",
+      "enunciado": "En Microsoft Edge para Windows, ¿qué hace la combinación Ctrl + W?",
+      "opciones": [
+        "Cerrar la ventana actual",
+        "Duplicar la pestaña actual",
+        "Silenciar la pestaña actual",
+        "Cerrar la pestaña actual"
+      ],
+      "correcta": 3,
+      "explicacion": "Ctrl + W sirve para «Cerrar la pestaña actual». Para cerrar la ventana actual se usa Ctrl + Mayús + W; Ctrl + Mayús + K duplica la pestaña.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-005",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado (Windows)",
+      "fuente": "https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge",
+      "enunciado": "En Microsoft Edge, ¿qué combinación vuelve a abrir la última pestaña cerrada?",
+      "opciones": [
+        "Ctrl + T",
+        "Ctrl + Mayús + T",
+        "Ctrl + Mayús + K",
+        "Ctrl + Mayús + W"
+      ],
+      "correcta": 1,
+      "explicacion": "Ctrl + Mayús + T permite «Volver a abrir la última pestaña cerrada y cambiar a ella». Ctrl + T sirve para «Abrir una pestaña nueva y cambiar a ella».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-006",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado (Windows)",
+      "fuente": "https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge",
+      "enunciado": "En Microsoft Edge, ¿qué tecla o combinación vuelve a cargar la pestaña actual omitiendo el contenido en caché?",
+      "opciones": [
+        "F5",
+        "Mayús + F6",
+        "Mayús + F5",
+        "Ctrl + F6"
+      ],
+      "correcta": 2,
+      "explicacion": "Mayús + F5 sirve para «Volver a cargar la pestaña actual y omitir el contenido en caché». F5 solo vuelve a cargar la pestaña y Mayús + F6 «Cambia el foco al panel anterior».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-007",
+      "ley": null,
+      "articulo": "¿Cómo navego en modo InPrivate en Microsoft Edge?",
+      "fuente": "https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge",
+      "enunciado": "¿Cuándo elimina Microsoft Edge el historial, las cookies y los datos del sitio de una sesión InPrivate?",
+      "opciones": [
+        "Al cerrar todas las ventanas InPrivate",
+        "Al cerrar cada pestaña InPrivate",
+        "Al apagar o reiniciar el equipo",
+        "Al cerrar la sesión de Windows"
+      ],
+      "correcta": 0,
+      "explicacion": "Microsoft Edge eliminará el historial de exploración, las cookies y los datos del sitio, entre otros, «al cerrar todas las ventanas de InPrivate».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-008",
+      "ley": null,
+      "articulo": "¿Qué hace Microsoft Edge con tus datos mientras te encuentras en InPrivate?",
+      "fuente": "https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge",
+      "enunciado": "Durante la exploración InPrivate de Microsoft Edge, ¿qué se conserva para la próxima vez que uses el navegador?",
+      "opciones": [
+        "Las cookies y datos del sitio",
+        "Las contraseñas y formularios nuevos",
+        "Los favoritos y los archivos descargados",
+        "El historial de exploración"
+      ],
+      "correcta": 2,
+      "explicacion": "La exploración InPrivate «Guarda tus favoritos y los archivos descargados, para que puedas acceder a ellos la próxima vez que uses Microsoft Edge».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-009",
+      "ley": null,
+      "articulo": "¿Cómo navego en modo InPrivate en Microsoft Edge?",
+      "fuente": "https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge",
+      "enunciado": "Según Microsoft, mientras navegas InPrivate en Edge, ¿quién podría tener acceso a tu actividad de exploración?",
+      "opciones": [
+        "Otras personas que usen el mismo dispositivo",
+        "Los usuarios que consulten el historial de Edge",
+        "Cualquier otro perfil de Edge del equipo",
+        "Tu proveedor de servicios de Internet"
+      ],
+      "correcta": 3,
+      "explicacion": "«Otras personas que usen este dispositivo no verán tu actividad de exploración, pero es posible que el proveedor de servicios de Internet o tu centro de trabajo o escuela puedan tener acceso a estos datos».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-010",
+      "ley": null,
+      "articulo": "¿Qué hace Microsoft Edge con tus datos mientras te encuentras en InPrivate?",
+      "fuente": "https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge",
+      "enunciado": "Si desde una ventana InPrivate abres edge://settings o edge://history, ¿qué hace Microsoft Edge?",
+      "opciones": [
+        "Las abre en una ventana de exploración normal",
+        "Las bloquea y muestra un aviso",
+        "Las abre sin guardar los cambios",
+        "Cierra la ventana InPrivate actual"
+      ],
+      "correcta": 0,
+      "explicacion": "Estas páginas «no se pueden ver en una ventana InPrivate. Si abres estas páginas al explorar, InPrivate las abrirá en una ventana de exploración normal».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-011",
+      "ley": null,
+      "articulo": "¿Cuándo no está disponible la Exploración de InPrivate?",
+      "fuente": "https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge",
+      "enunciado": "¿Qué pueden usar las organizaciones, como centros educativos o lugares de trabajo, para impedir la exploración InPrivate?",
+      "opciones": [
+        "La prevención de seguimiento",
+        "La directiva de grupo",
+        "SmartScreen de Microsoft Defender",
+        "El bloqueo de cookies de terceros"
+      ],
+      "correcta": 1,
+      "explicacion": "«Las organizaciones, como centros educativos o lugares de trabajo, pueden usar la directiva de grupo para impedir que los usuarios exploren InPrivate».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-012",
+      "ley": null,
+      "articulo": "¿Cómo navego en modo InPrivate en Microsoft Edge?",
+      "fuente": "https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge",
+      "enunciado": "Dentro de Microsoft Edge, ¿desde qué menú se puede abrir una nueva ventana InPrivate?",
+      "opciones": [
+        "Barra de favoritos",
+        "Historial de exploración",
+        "Configuración y más",
+        "Panel de descargas"
+      ],
+      "correcta": 2,
+      "explicacion": "Una de las formas de abrir una ventana InPrivate es: «En Microsoft Edge, selecciona Configuración y más > Nueva ventana InPrivate».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-013",
+      "ley": null,
+      "articulo": "Datos de navegación que puedes eliminar en Microsoft Edge",
+      "fuente": "https://support.microsoft.com/es-es/edge/view-and-delete-browser-history-in-microsoft-edge",
+      "enunciado": "En Microsoft Edge, ¿qué ocurre al borrar el historial de descargas?",
+      "opciones": [
+        "Se borran la lista y los archivos descargados",
+        "Se vacía la carpeta Descargas del equipo",
+        "Se eliminan las copias guardadas en caché",
+        "Solo se elimina la lista de archivos descargados"
+      ],
+      "correcta": 3,
+      "explicacion": "El historial de descargas es la «Lista de los archivos que hayas descargado de la Web. Esto solo elimina la lista, no los archivos que hayas descargado».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-014",
+      "ley": null,
+      "articulo": "Datos de navegación que puedes eliminar en Microsoft Edge",
+      "fuente": "https://support.microsoft.com/es-es/edge/view-and-delete-browser-history-in-microsoft-edge",
+      "enunciado": "En Microsoft Edge, ¿qué son los «archivos e imágenes en memoria caché»?",
+      "opciones": [
+        "Copias de páginas e imágenes para cargarlas más rápido",
+        "Datos que guardan los sitios para recordar preferencias",
+        "Las direcciones de los sitios visitados con fecha y hora",
+        "Información escrita en formularios, como la dirección"
+      ],
+      "correcta": 0,
+      "explicacion": "Son «Copias de páginas, imágenes y otro contenido multimedia almacenado en el dispositivo». El explorador las usa «para cargar el contenido con mayor rapidez la próxima vez que visites esos sitios».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-015",
+      "ley": null,
+      "articulo": "Borrar los datos de navegación almacenados en tu dispositivo",
+      "fuente": "https://support.microsoft.com/es-es/edge/view-and-delete-browser-history-in-microsoft-edge",
+      "enunciado": "En la configuración de Microsoft Edge, ¿en qué apartado está la opción Borrar datos de navegación?",
+      "opciones": [
+        "Perfiles",
+        "Privacidad, búsqueda y servicios",
+        "Apariencia",
+        "Sistema y rendimiento"
+      ],
+      "correcta": 1,
+      "explicacion": "Para borrar los datos de navegación: «Selecciona Configuración y más > Configuración > Privacidad, búsqueda y servicios». Después se selecciona Borrar datos de navegación.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-016",
+      "ley": null,
+      "articulo": "Borrar los datos de navegación almacenados en tu dispositivo",
+      "fuente": "https://support.microsoft.com/es-es/edge/view-and-delete-browser-history-in-microsoft-edge",
+      "enunciado": "Si la sincronización está activada y borras los datos de navegación en Microsoft Edge, ¿qué ocurre con los elementos sincronizados?",
+      "opciones": [
+        "Solo se borran en el dispositivo actual",
+        "Solo se borran de la nube de Microsoft",
+        "Se borran de todos los dispositivos sincronizados",
+        "Se desactiva la sincronización del perfil"
+      ],
+      "correcta": 2,
+      "explicacion": "La página advierte: «Los elementos que se sincronizan se borrarán de todos los dispositivos sincronizados». Para borrar solo en el dispositivo actual hay que desactivar la sincronización.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-017",
+      "ley": null,
+      "articulo": "Borrar los datos de exploración almacenados en la nube (si has activado la sincronización o la personalización)",
+      "fuente": "https://support.microsoft.com/es-es/edge/view-and-delete-browser-history-in-microsoft-edge",
+      "enunciado": "¿Desde dónde se administran y eliminan los datos de exploración de Edge guardados en la nube de Microsoft?",
+      "opciones": [
+        "Desde el panel de privacidad",
+        "Desde Permisos del sitio",
+        "Desde Perfiles > Sincronizar",
+        "Desde la página de historial"
+      ],
+      "correcta": 0,
+      "explicacion": "Para los datos de la nube hay que consultar «el panel de privacidad». Además, «Los datos que elimines del panel de privacidad no se eliminarán de tu dispositivo».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-018",
+      "ley": null,
+      "articulo": "Administrar cookies en Microsoft Edge: ver, permitir, bloquear, eliminar y usar",
+      "fuente": "https://support.microsoft.com/es-es/edge/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use",
+      "enunciado": "¿Cómo se llaman las pequeñas piezas de datos que los sitios web almacenan en tu dispositivo, por ejemplo, para recordar el inicio de sesión?",
+      "opciones": [
+        "Archivos en memoria caché",
+        "Permisos del sitio",
+        "Datos de autorrelleno",
+        "Cookies"
+      ],
+      "correcta": 3,
+      "explicacion": "«Las cookies son pequeñas piezas de datos almacenadas en su dispositivo por parte de los sitios web que visita». Sirven, entre otros fines, para «recordar las credenciales de inicio de sesión».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-019",
+      "ley": null,
+      "articulo": "Bloquear cookies de terceros",
+      "fuente": "https://support.microsoft.com/es-es/edge/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use",
+      "enunciado": "Según Microsoft, ¿qué puede ocurrir si bloqueas las cookies de terceros en Edge?",
+      "opciones": [
+        "Que se cierre la sesión en todos los sitios",
+        "Que algunas páginas no se muestren bien",
+        "Que se borre el historial de exploración",
+        "Que SmartScreen deje de funcionar"
+      ],
+      "correcta": 1,
+      "explicacion": "Al bloquearlas, «es posible que algunas páginas no se muestren correctamente o que aparezca un mensaje que te informe de que es necesario permitir las cookies».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-020",
+      "ley": null,
+      "articulo": "Eliminar cookies cada vez que se cierra el explorador",
+      "fuente": "https://support.microsoft.com/es-es/edge/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use",
+      "enunciado": "En Microsoft Edge, ¿qué opción permite eliminar las cookies automáticamente cada vez que se cierra el navegador?",
+      "opciones": [
+        "Bloquear cookies de terceros",
+        "Ver todas las cookies y datos del sitio",
+        "Elegir lo que se debe borrar cada vez que se cierra el explorador",
+        "Precargar páginas para una exploración más rápida"
+      ],
+      "correcta": 2,
+      "explicacion": "Hay que seleccionar Borrar datos de exploración y elegir «Elegir lo que se debe borrar cada vez que se cierra el explorador». Luego se activa «Cookies y otros datos del sitio».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-021",
+      "ley": null,
+      "articulo": "¿De qué manera puede ser útil SmartScreen para protegerme en Microsoft Edge?",
+      "fuente": "https://support.microsoft.com/es-es/edge/how-can-smartscreen-help-protect-me-in-microsoft-edge",
+      "enunciado": "En Microsoft Edge, ¿para qué sirve SmartScreen de Microsoft Defender?",
+      "opciones": [
+        "Protege frente a sitios de suplantación de identidad y malware",
+        "Bloquea la mayor parte de los elementos emergentes",
+        "Elimina las cookies al cerrar el navegador",
+        "Impide que se guarde el historial de exploración"
+      ],
+      "correcta": 0,
+      "explicacion": "SmartScreen de Microsoft Defender «ayuda a proteger su seguridad frente a sitios y software de suplantación de identidad y malware». El bloqueador de elementos emergentes es una función distinta.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-022",
+      "ley": null,
+      "articulo": "¿Puedo activar o desactivar SmartScreen?",
+      "fuente": "https://support.microsoft.com/es-es/edge/how-can-smartscreen-help-protect-me-in-microsoft-edge",
+      "enunciado": "En Configuración > Privacidad, búsqueda y servicios de Microsoft Edge, ¿en qué sección se activa o desactiva SmartScreen?",
+      "opciones": [
+        "Cookies",
+        "Permisos del sitio",
+        "Borrar datos de exploración",
+        "Seguridad"
+      ],
+      "correcta": 3,
+      "explicacion": "Tras abrir Privacidad, búsqueda y servicios: «Selecciona Seguridad y, a continuación, activa o desactiva el botón de alternancia SmartScreen de Microsoft Defender».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-023",
+      "ley": null,
+      "articulo": "¿Cómo guardo u olvido contraseñas en Microsoft Edge?",
+      "fuente": "https://support.microsoft.com/es-es/edge/save-or-forget-passwords-in-microsoft-edge",
+      "enunciado": "Si desactivas en Microsoft Edge la opción «Preguntar para guardar contraseñas y claves de paso», ¿qué pasa con las contraseñas ya guardadas?",
+      "opciones": [
+        "Se eliminan todas automáticamente",
+        "Se mantienen: no se eliminan",
+        "Se trasladan a la nube de Microsoft",
+        "Se eliminan al cerrar el navegador"
+      ],
+      "correcta": 1,
+      "explicacion": "La página aclara: «Esto no elimina las contraseñas guardadas anteriormente». Para borrarlas hay que ir a Borrar datos de exploración, activar Contraseñas y seleccionar Borrar ahora.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-024",
+      "ley": null,
+      "articulo": "¿Qué es el sistema de nombres de dominio (DNS)?",
+      "fuente": "https://learn.microsoft.com/es-es/windows-server/networking/dns/dns-overview",
+      "enunciado": "¿Qué función cumple el protocolo DNS?",
+      "opciones": [
+        "Asigna nombres de dominio a direcciones IP",
+        "Cifra la comunicación entre navegador y servidor",
+        "Asigna direcciones IP a los equipos de la red",
+        "Transfiere páginas web al navegador"
+      ],
+      "correcta": 0,
+      "explicacion": "«DNS es un protocolo estándar del sector que asigna nombres de dominio a direcciones IP, lo que permite la resolución de nombres para computadoras y usuarios».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    },
+    {
+      "id": "net-025",
+      "ley": null,
+      "articulo": "Uso de DNS en Windows y Windows Server",
+      "fuente": "https://learn.microsoft.com/es-es/windows-server/networking/dns/dns-overview",
+      "enunciado": "¿En qué capa del modelo de referencia TCP/IP se sitúa el protocolo DNS?",
+      "opciones": [
+        "Capa de transporte",
+        "Capa de Internet",
+        "Capa de acceso a la red",
+        "Capa de aplicación"
+      ],
+      "correcta": 3,
+      "explicacion": "La página indica que «DNS forma parte de la capa de aplicación del modelo de referencia TCP/IP».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 28
+      }
+    }
+  ]
+}

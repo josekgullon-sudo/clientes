@@ -1,0 +1,635 @@
+{
+  "descripcion": "Access 365 (tema 26): objetos de la base de datos, tipos de datos, relaciones e integridad referencial, consultas, formularios, importación y vinculación. Lote generado el 2026-10-13 a partir de páginas de support.microsoft.com/es-es; en borrador.",
+  "preguntas": [
+    {
+      "id": "acc-001",
+      "ley": null,
+      "articulo": "¿Qué es una base de datos?",
+      "fuente": "https://support.microsoft.com/es-es/access/database-basics",
+      "enunciado": "¿Qué extensión de archivo tienen las bases de datos creadas con Access para Microsoft 365?",
+      "opciones": [
+        ".accdb",
+        ".mdb",
+        ".dbf",
+        ".xlsx"
+      ],
+      "correcta": 0,
+      "explicacion": "Las bases de datos con formato de Access 2007-2016, que también usa Access para Microsoft 365, «tienen la extensión de archivo .accdb»; las de formatos anteriores usan «.mdb».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-002",
+      "ley": null,
+      "articulo": "Tablas",
+      "fuente": "https://support.microsoft.com/es-es/access/database-basics",
+      "enunciado": "En una tabla de Access, ¿cómo se denomina cada fila?",
+      "opciones": [
+        "Campo",
+        "Registro",
+        "Índice",
+        "Clave"
+      ],
+      "correcta": 1,
+      "explicacion": "La página indica: «Cada fila de una tabla se denomina registro». Además, «Los campos equivalen a las columnas de la tabla».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-003",
+      "ley": null,
+      "articulo": "Tablas",
+      "fuente": "https://support.microsoft.com/es-es/access/database-basics",
+      "enunciado": "¿Cómo se denomina el proceso de organizar los datos en tablas para que no haya redundancias?",
+      "opciones": [
+        "Indexación",
+        "Validación",
+        "Normalización",
+        "Vinculación"
+      ],
+      "correcta": 2,
+      "explicacion": "Los datos deben organizarse en tablas sin redundancias, de modo que cada empleado se especifique una sola vez: «Este proceso se denomina normalización».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-004",
+      "ley": null,
+      "articulo": "Formularios",
+      "fuente": "https://support.microsoft.com/es-es/access/database-basics",
+      "enunciado": "¿Qué objeto de Access permite crear una interfaz de usuario para escribir y editar los datos?",
+      "opciones": [
+        "El informe",
+        "La consulta",
+        "El módulo",
+        "El formulario"
+      ],
+      "correcta": 3,
+      "explicacion": "Según la página, «Los formularios permiten crear una interfaz de usuario en la que puede escribir y editar los datos».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-005",
+      "ley": null,
+      "articulo": "Informes",
+      "fuente": "https://support.microsoft.com/es-es/access/database-basics",
+      "enunciado": "¿Qué objeto de Access se usa para dar formato, resumir y presentar los datos?",
+      "opciones": [
+        "El informe",
+        "El formulario",
+        "La tabla",
+        "La macro"
+      ],
+      "correcta": 0,
+      "explicacion": "La página dice: «Los informes son lo que se usa para dar formato, resumir y presentar datos».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-006",
+      "ley": null,
+      "articulo": "Consultas",
+      "fuente": "https://support.microsoft.com/es-es/access/database-basics",
+      "enunciado": "¿Cuáles son las dos variedades básicas de consultas en Access?",
+      "opciones": [
+        "De parámetros y de totales",
+        "De selección y de acción",
+        "De anexión y de eliminación",
+        "De totales y de referencias cruzadas"
+      ],
+      "correcta": 1,
+      "explicacion": "La página indica: «Hay dos variedades básicas de consultas: consultas de selección y consultas de acciones».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-007",
+      "ley": null,
+      "articulo": "Consultas",
+      "fuente": "https://support.microsoft.com/es-es/access/database-basics",
+      "enunciado": "Si modifica datos en la hoja de datos de una consulta actualizable, ¿dónde se guardan los cambios?",
+      "opciones": [
+        "Solo en la hoja de datos de la consulta",
+        "En una copia temporal de la tabla",
+        "En las tablas subyacentes",
+        "En el informe basado en la consulta"
+      ],
+      "correcta": 2,
+      "explicacion": "En una consulta actualizable, «recuerde que los cambios se realizan en realidad en las tablas, no solo en la hoja de datos de la consulta».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-008",
+      "ley": null,
+      "articulo": "Tipos de datos",
+      "fuente": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+      "enunciado": "¿Cuántos caracteres admite como máximo un campo de tipo Texto corto?",
+      "opciones": [
+        "Hasta 64",
+        "Hasta 2048",
+        "Hasta 64 000",
+        "Hasta 255"
+      ],
+      "correcta": 3,
+      "explicacion": "Para el tipo Texto breve, usado para «Datos alfanuméricos (nombres, títulos, etc.)», el tamaño es «Hasta 255 caracteres».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-009",
+      "ley": null,
+      "articulo": "Tipos de datos",
+      "fuente": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+      "enunciado": "En un campo Sí/No, ¿qué valor numérico almacena Access para Verdadero?",
+      "opciones": [
+        "-1",
+        "1",
+        "0",
+        "255"
+      ],
+      "correcta": 0,
+      "explicacion": "El tipo Sí/No guarda datos booleanos: «Access almacena el valor numérico cero (0) para Falso y -1 para Verdadero».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-010",
+      "ley": null,
+      "articulo": "Tipos de datos",
+      "fuente": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+      "enunciado": "¿Con cuántas posiciones decimales de precisión almacena Access los datos del tipo Moneda?",
+      "opciones": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correcta": 1,
+      "explicacion": "El tipo Moneda guarda «Datos monetarios, almacenados con 4 posiciones decimales de precisión».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-011",
+      "ley": null,
+      "articulo": "Tipos de datos",
+      "fuente": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+      "enunciado": "¿Qué tipo de datos contiene un valor único generado por Access para cada registro nuevo?",
+      "opciones": [
+        "Número grande",
+        "Calculado",
+        "Autonumeración",
+        "Asistente para búsquedas"
+      ],
+      "correcta": 2,
+      "explicacion": "La página describe Autonumeración como «Valor único generado por Access para cada registro nuevo».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-012",
+      "ley": null,
+      "articulo": "Tipos de datos",
+      "fuente": "https://support.microsoft.com/es-es/access/data-types-for-access-desktop-databases",
+      "enunciado": "En la columna de tipo de datos de la vista Diseño, ¿qué entrada no es realmente un tipo de datos?",
+      "opciones": [
+        "Fecha y hora extendida",
+        "Número grande",
+        "Datos adjuntos",
+        "Asistente para búsquedas"
+      ],
+      "correcta": 3,
+      "explicacion": "La página aclara: «La entrada del Asistente para búsquedas en la columna de tipo de datos en la vista Diseño no es realmente un tipo de datos». Inicia un asistente para definir un campo de búsqueda.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-013",
+      "ley": null,
+      "articulo": "Tipos de relaciones de tablas",
+      "fuente": "https://support.microsoft.com/es-es/access/guide-to-table-relationships",
+      "enunciado": "Un cliente puede hacer cualquier número de pedidos. ¿Qué relación hay entre las tablas Clientes y Pedidos?",
+      "opciones": [
+        "Uno a varios",
+        "Uno a uno",
+        "Varios a varios",
+        "No hay relación entre ellas"
+      ],
+      "correcta": 0,
+      "explicacion": "La página lo explica con ese ejemplo: «la relación entre la tabla Clientes y la tabla Pedidos es una relación de uno a varios».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-014",
+      "ley": null,
+      "articulo": "Tipos de relaciones de tablas",
+      "fuente": "https://support.microsoft.com/es-es/access/guide-to-table-relationships",
+      "enunciado": "¿Cómo se representa en Access una relación varios a varios?",
+      "opciones": [
+        "Con la clave principal de cada tabla en la otra",
+        "Con una tercera tabla, la tabla de unión",
+        "Uniendo las dos tablas en una sola",
+        "Exigiendo la integridad referencial en ambas"
+      ],
+      "correcta": 1,
+      "explicacion": "Para representarla «debe crear una tercera tabla, a menudo denominada tabla de unión, que divide la relación de varios a varios en dos relaciones uno a varios».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-015",
+      "ley": null,
+      "articulo": "Descripción de la integridad referencial",
+      "fuente": "https://support.microsoft.com/es-es/access/guide-to-table-relationships",
+      "enunciado": "¿Cuál es el propósito de la integridad referencial?",
+      "opciones": [
+        "Impedir valores repetidos en un campo",
+        "Acelerar la ejecución de las consultas",
+        "Evitar los registros huérfanos",
+        "Ocultar tablas en la ventana Relaciones"
+      ],
+      "correcta": 2,
+      "explicacion": "La página indica: «El propósito de la integridad referencial es evitar los registros huérfanos y mantener las referencias sincronizadas».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-016",
+      "ley": null,
+      "articulo": "Descripción de la integridad referencial",
+      "fuente": "https://support.microsoft.com/es-es/access/guide-to-table-relationships",
+      "enunciado": "Con la integridad referencial exigida, ¿qué opción hace que, al eliminar un registro del lado de la clave principal, se eliminen sus registros relacionados?",
+      "opciones": [
+        "Actualizar en cascada los campos relacionados",
+        "Borrar diseño",
+        "Ocultar tabla",
+        "Eliminar en cascada los registros relacionados"
+      ],
+      "correcta": 3,
+      "explicacion": "Con la opción Eliminar en cascada los registros relacionados, al eliminar un registro en el lado de la clave principal, «Access elimina automáticamente todos los registros que hacen referencia a la clave principal».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-017",
+      "ley": null,
+      "articulo": "Ver relaciones de tablas",
+      "fuente": "https://support.microsoft.com/es-es/access/guide-to-table-relationships",
+      "enunciado": "¿En qué pestaña de la cinta está el comando Relaciones, que abre la ventana Relaciones?",
+      "opciones": [
+        "Herramientas de base de datos",
+        "Datos externos",
+        "Diseño de presentación de formulario",
+        "Crear"
+      ],
+      "correcta": 0,
+      "explicacion": "La página indica: «Para ver las relaciones de tablas, haga clic en Relaciones en la pestaña Herramientas de base de datos».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-018",
+      "ley": null,
+      "articulo": "Ver relaciones de tablas",
+      "fuente": "https://support.microsoft.com/es-es/access/guide-to-table-relationships",
+      "enunciado": "En la ventana Relaciones, ¿qué hace el comando Borrar diseño?",
+      "opciones": [
+        "Elimina todas las relaciones de la base de datos",
+        "Oculta las tablas y relaciones, sin eliminarlas",
+        "Elimina las tablas que no tienen relaciones",
+        "Quita la integridad referencial de las relaciones"
+      ],
+      "correcta": 1,
+      "explicacion": "Borrar diseño «Quita todas las tablas y relaciones para que no se muestren en la ventana Relaciones». La página precisa que «este comando solo oculta las relaciones y tablas, no las elimina».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-019",
+      "ley": null,
+      "articulo": "Crear una consulta de parámetros",
+      "fuente": "https://support.microsoft.com/es-es/access/introduction-to-queries",
+      "enunciado": "En una consulta de parámetros, ¿qué se escribe en la fila Criterios para que la consulta pida la ciudad al ejecutarse?",
+      "opciones": [
+        "(¿Qué ciudad?)",
+        "{¿Qué ciudad?}",
+        "[¿Qué ciudad?]",
+        "<¿Qué ciudad?>"
+      ],
+      "correcta": 2,
+      "explicacion": "La cadena entre corchetes es la petición de parámetros: «Los corchetes indican que quiere que la consulta pida información».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-020",
+      "ley": null,
+      "articulo": "Crear una consulta de totales",
+      "fuente": "https://support.microsoft.com/es-es/access/introduction-to-queries",
+      "enunciado": "En la pestaña Diseño de consulta, ¿en qué grupo está el botón Totales, que muestra la fila Totales en la cuadrícula de diseño?",
+      "opciones": [
+        "Resultados",
+        "Tipo de consulta",
+        "Configuración de consulta",
+        "Mostrar u ocultar"
+      ],
+      "correcta": 3,
+      "explicacion": "Se hace clic en Totales del grupo Mostrar u ocultar y «Aparece la fila Totales en la cuadrícula de diseño de la consulta».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-021",
+      "ley": null,
+      "articulo": "Crear una consulta de tabla de referencias cruzadas",
+      "fuente": "https://support.microsoft.com/es-es/access/introduction-to-queries",
+      "enunciado": "¿Qué tipo de consulta permite ver los subtotales de cada producto en filas y los de cada mes en columnas?",
+      "opciones": [
+        "Tabla de referencias cruzadas",
+        "Consulta de totales",
+        "Consulta de creación de tabla",
+        "Consulta de datos anexados"
+      ],
+      "correcta": 0,
+      "explicacion": "La página indica: «Para mostrar los subtotales de un producto y los subtotales de productos de un mes, usa una consulta de tabla de referencias cruzadas».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-022",
+      "ley": null,
+      "articulo": "Crear una consulta de actualización",
+      "fuente": "https://support.microsoft.com/es-es/access/introduction-to-queries",
+      "enunciado": "¿Qué advierte Microsoft sobre las consultas de acciones, como las de actualización?",
+      "opciones": [
+        "Que no admiten criterios",
+        "Que no se pueden deshacer",
+        "Que solo afectan a una fila",
+        "Que no modifican las tablas"
+      ],
+      "correcta": 1,
+      "explicacion": "La página advierte: «Las consultas de acciones no se pueden deshacer». Recomienda hacer una copia de seguridad de las tablas que se van a actualizar.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-023",
+      "ley": null,
+      "articulo": "Crear una consulta de creación de tabla",
+      "fuente": "https://support.microsoft.com/es-es/access/introduction-to-queries",
+      "enunciado": "Al ejecutar una consulta de creación de tabla, ¿qué ocurre si ya existe una tabla con el mismo nombre?",
+      "opciones": [
+        "Access añade un 1 al nombre de la nueva tabla",
+        "Access anexa los registros a esa tabla",
+        "Access la elimina antes de ejecutar la consulta",
+        "Access cancela la consulta con un error"
+      ],
+      "correcta": 2,
+      "explicacion": "La nota de la página dice: «Si ya hay una tabla con el mismo nombre, Access la elimina antes de que se inicie la consulta».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-024",
+      "ley": null,
+      "articulo": "Crear un formulario dividido en Access",
+      "fuente": "https://support.microsoft.com/es-es/access/create-a-form-in-access",
+      "enunciado": "¿Qué tipo de formulario muestra a la vez una vista Formulario y una vista Hoja de datos?",
+      "opciones": [
+        "Formulario de navegación",
+        "Formulario en blanco",
+        "Formulario de varios elementos",
+        "Formulario dividido"
+      ],
+      "correcta": 3,
+      "explicacion": "La página indica: «Un formulario dividido proporciona dos vistas de los datos al mismo tiempo: una vista Formulario y una vista Hoja de datos».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-025",
+      "ley": null,
+      "articulo": "Crear un formulario a partir de una tabla o consulta existente en Access",
+      "fuente": "https://support.microsoft.com/es-es/access/create-a-form-in-access",
+      "enunciado": "Si selecciona una tabla en el panel de navegación y hace clic en Crear > Formulario, ¿en qué vista abre Access el formulario?",
+      "opciones": [
+        "Vista Presentación",
+        "Vista Diseño",
+        "Vista Hoja de datos",
+        "Vista Formulario"
+      ],
+      "correcta": 0,
+      "explicacion": "Tras hacer clic en Formulario en la pestaña Crear, «Access crea un formulario y lo abre en la vista Presentación».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-026",
+      "ley": null,
+      "articulo": "Crear un formulario que muestre varios registros en Access",
+      "fuente": "https://support.microsoft.com/es-es/access/create-a-form-in-access",
+      "enunciado": "¿Con qué otro nombre se conoce el formulario de varios elementos?",
+      "opciones": [
+        "Formulario dividido",
+        "Formulario continuo",
+        "Subformulario",
+        "Formulario de navegación"
+      ],
+      "correcta": 1,
+      "explicacion": "La página indica: «Un formulario de varios elementos, también conocido como formulario continuo, resulta útil cuando se necesita disponer de un formulario que muestre varios registros».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-027",
+      "ley": null,
+      "articulo": "Comprender la importación y vinculación a datos desde otra base de datos de Access",
+      "fuente": "https://support.microsoft.com/es-es/access/import-or-link-to-data-in-another-access-database",
+      "enunciado": "Al importar datos desde otra base de datos de Access, ¿qué hace Access?",
+      "opciones": [
+        "Mueve los datos y los borra del origen",
+        "Crea un vínculo que refleja los cambios del origen",
+        "Crea una copia de los datos sin cambiar el origen",
+        "Sustituye las tablas de destino con el mismo nombre"
+      ],
+      "correcta": 2,
+      "explicacion": "La página indica: «Al realizar una importación desde otra base de datos, Access crea una copia de los datos en la base de datos de destino sin cambiar el origen».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-028",
+      "ley": null,
+      "articulo": "Vincular a datos en otra base de datos de Access",
+      "fuente": "https://support.microsoft.com/es-es/access/import-or-link-to-data-in-another-access-database",
+      "enunciado": "¿Qué no se puede hacer con una tabla vinculada en la base de datos de destino?",
+      "opciones": [
+        "Ver sus registros",
+        "Modificar sus datos",
+        "Usarla en una consulta",
+        "Cambiar su estructura"
+      ],
+      "correcta": 3,
+      "explicacion": "Los cambios en los datos se reflejan en ambas bases de datos, pero «no se puede cambiar la estructura de una tabla vinculada en la base de datos de destino».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-029",
+      "ley": null,
+      "articulo": "Vincular a datos en otra base de datos de Access",
+      "fuente": "https://support.microsoft.com/es-es/access/import-or-link-to-data-in-another-access-database",
+      "enunciado": "¿Qué objetos de otra base de datos de Access se pueden vincular?",
+      "opciones": [
+        "Solo las tablas",
+        "Tablas y consultas",
+        "Tablas, consultas y formularios",
+        "Todos sus objetos, incluidos los módulos"
+      ],
+      "correcta": 0,
+      "explicacion": "La página indica: «Solo puede crear vínculos a tablas de otra base de datos de Access. No puede crear vínculos a consultas, formularios, informes, macros o módulos».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    },
+    {
+      "id": "acc-030",
+      "ley": null,
+      "articulo": "Comprender la importación y vinculación a datos desde otra base de datos de Access",
+      "fuente": "https://support.microsoft.com/es-es/access/import-or-link-to-data-in-another-access-database",
+      "enunciado": "Quiere añadir los registros de otra base de datos a una tabla que ya existe. ¿Qué indica Microsoft?",
+      "opciones": [
+        "Importarlos eligiendo la opción Sólo definición",
+        "Importarlos a una tabla nueva y usar una consulta de datos anexados",
+        "Vincular la tabla de origen sobre la tabla existente",
+        "Importarlos con la casilla Relaciones activada"
+      ],
+      "correcta": 1,
+      "explicacion": "Se pueden importar los registros a una tabla nueva «y, después, crear una consulta de datos anexados». La página aclara: «No puede anexar registros a una tabla existente durante una operación de importación».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 26
+      }
+    }
+  ]
+}
