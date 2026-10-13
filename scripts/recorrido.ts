@@ -134,12 +134,24 @@ async function main() {
     await foto(p, "leccion-resultado");
   }
 
+  await p.goto(`${BASE}/app`, { waitUntil: "networkidle" });
+  await foto(p, "panel-despues");
+  const cofre = p.getByRole("button", { name: /^Abrir$/ });
+  if (await cofre.isVisible()) {
+    await cofre.click();
+    await p.getByRole("dialog").waitFor();
+    await p.waitForTimeout(700);
+    await foto(p, "cofre", false);
+    await p.getByRole("button", { name: /Genial/ }).click();
+  }
+
   for (const [ruta, nombre] of [
-    ["/app", "panel-despues"],
     ["/app/camino", "camino"],
+    ["/app/liga", "liga"],
+    ["/app/racha", "racha"],
     ["/app/estadisticas", "progreso"],
     ["/app/simulacro", "simulacro"],
-    ["/app/cuenta", "cuenta"],
+    ["/app/cuenta", "perfil"],
     ["/suscripcion", "planes"],
   ]) {
     await p.goto(BASE + ruta, { waitUntil: "networkidle" });

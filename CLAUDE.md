@@ -12,7 +12,11 @@
 - Mascota: Clara, un rotulador fluorescente (`components/mascota/clara.tsx`), con poses `hola`,
   `feliz`, `celebra`, `animo`, `piensa`, `duerme`, `premium`, `senala`. `ClaraDice` la pone con
   bocadillo. Todas las poses en `/vista/clara`. Úsala para guiar, celebrar y animar; nunca para reñir.
-- Área privada: barra superior con racha, XP y Premium; navegación inferior en móvil. El camino es
+- Logo: la cara de Clara (`MarcaLogo` en `components/logo.tsx`, también `app/icon.svg`).
+- Área privada: barra superior con racha (→ `/app/racha`), XP (→ `/app/liga`) y Premium; navegación
+  inferior en móvil con Hoy, Camino, Liga, Progreso y Perfil. Misiones diarias con cofre de XP
+  (`components/estudio/cofre.tsx`, RPC `abrir_cofre`). Liga semanal por XP (`liga_semanal`) con alias
+  y avatar de animal (`lib/estudio/perfil.ts`); nunca se muestra el correo. El camino es
   un zigzag de nodos (`components/estudio/camino-juego.tsx`). Durante un test no hay navegación;
   al corregir, Clara reacciona en el pie, suena un tono (se puede silenciar) y la explicación se ve abierta.
 - Textos de la interfaz en español, frases cortas, segunda persona, sin mensajes de castigo.

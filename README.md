@@ -44,10 +44,13 @@ Para verla en el móvil, conecta el móvil a la misma wifi y abre `http://IP-DE-
 
 ## Producción
 
-1. **Supabase**: crea el proyecto, `npx supabase link` y `npx supabase db push`.
+1. **Supabase**: crea el proyecto (región UE, p. ej. Frankfurt), `npx supabase link` y
+   `npx supabase db push` (aplica todas las migraciones de `supabase/migrations`).
    En Authentication → URL Configuration, pon la URL de la web como *Site URL* y añade
-   `https://TU-DOMINIO/auth/callback` a las *Redirect URLs*. Para Google, activa el proveedor
-   con un cliente OAuth de Google Cloud. Personaliza en español la plantilla del correo *Magic Link*.
+   `https://TU-DOMINIO/auth/callback` a las *Redirect URLs*. En Email Templates pega
+   `supabase/templates/magic_link.html` y `confirmation.html` (el correo lleva el código de 6 cifras).
+   Configura un SMTP propio (p. ej. Resend): el de Supabase solo envía unos pocos correos por hora.
+   Para Google, activa el proveedor con un cliente OAuth de Google Cloud.
 2. **Stripe**: crea un producto con dos precios recurrentes (mensual y anual, IVA incluido),
    activa Stripe Tax, configura el portal de cliente y la URL de las condiciones
    (`/legal/condiciones`), que Checkout pide aceptar. Crea un webhook a

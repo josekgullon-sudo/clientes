@@ -153,6 +153,8 @@ export function SesionTest({
         if (c === 3 || c === 5 || c === 10) setAviso3(c);
       } else {
         sonidos.fallo();
+        // Un toque corto en el móvil, solo si el sonido está activado.
+        if (sonidoActivo()) navigator.vibrate?.(90);
       }
       // La explicación aparece bajo las opciones: la acercamos sin perder el enunciado de vista.
       const suave = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -354,7 +356,11 @@ export function SesionTest({
                   {acierto
                     ? combo >= 3
                       ? `${combo} seguidas. ¡Estás en racha!`
-                      : "Lee el porqué y sigue."
+                      : esUltima
+                        ? "¡Última hecha! Vamos a ver tu resultado."
+                        : preguntas.length >= 6 && indice + 1 === Math.ceil(preguntas.length / 2)
+                          ? "¡Ya vas por la mitad!"
+                          : "Lee el porqué y sigue."
                     : `La correcta es la ${LETRAS[pregunta.correcta]}. Mira el porqué arriba.`}
                 </p>
               </div>
