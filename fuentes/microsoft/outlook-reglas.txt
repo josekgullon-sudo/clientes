@@ -1,0 +1,192 @@
+Administrar mensajes de correo electrónico mediante reglas en Outlook
+https://support.microsoft.com/es-es/outlook/mail/manage-email-messages-by-using-rules-in-outlook
+Descargado: 2026-10-13
+
+Administrar mensajes de correo electrónico mediante reglas en Outlook
+Se aplica a Outlook para Microsoft 365 Outlook 2024 Outlook 2021 Outlook 2019 Outlook 2016 Outlook.com Nuevo Outlook para Windows Outlook Web App
+Obtener ayuda con Copilot
+¿Cómo creo una regla de bandeja de entrada en Outlook.com?
+¿Cómo edito una regla existente en Outlook?
+Obtén ayuda de Copilot para gestionar mensajes de correo electrónico con reglas.
+Use reglas para realizar automáticamente acciones específicas en el correo electrónico que llega a su bandeja de entrada. Por ejemplo, puede crear reglas que cambien el nivel de importancia de los mensajes entrantes, que los muevan automáticamente a otras carpetas o que los eliminen en función de determinados criterios.
+Seleccione una de las siguientes opciones de pestaña para la versión de Outlook que está usando.
+¿Qué versión de Outlook tengo?
+Nuevo Outlook
+Outlook clásico
+Outlook en la web
+Outlook.com
+Nota
+Si los pasos descritos en esta nueva ficha de Outlook no funcionan, es posible que aún no esté usando el nuevo Outlook para Windows. En su lugar, seleccione la pestaña de Outlook clásico y siga esos pasos.
+Actualmente, el nuevo Outlook no admite reglas para administrar cuentas de terceros como Gmail, Yahoo e iCloud. Para establecer reglas para estas cuentas, configúrelas a través de los respectivos proveedores de servicios de correo electrónico.
+En el nuevo Outlook, tiene la opción de:
+Crear una regla | Editar una regla | Eliminar una regla | Establecer el orden | de las reglas Ejecutar reglas | Deshabilitar reglas
+Crear una regla de bandeja de entrada para el nuevo Outlook para Windows
+Las reglas se aplican a los mensajes entrantes y pueden crearse desde cualquier carpeta.
+Para crear rápidamente una regla que mueva todos los correos electrónicos de un remitente específico o de un conjunto de remitentes a una carpeta, haga clic con el botón derecho en un mensaje de la lista de mensajes para el que quiera crear una regla, mantenga el puntero sobre Reglas y seleccione Crear regla .
+Elija la carpeta a la que quiera que se muevan todos los mensajes de ese remitente o conjunto de remitentes y, después, seleccione Aceptar .
+Después de seleccionar Aceptar , la regla se aplicará a todos los mensajes entrantes.
+Si quiere hacer algo más que simplemente mover el mensaje de un remitente específico o de un conjunto de remitentes a una carpeta, seleccione Más opciones . Se abrirá el menú de configuración de reglas.
+Cada regla necesita al menos tres elementos: Un nombre, una condición y una acción. Las reglas también pueden contener excepciones de las condiciones. Puede agregar varias condiciones, acciones y excepciones en cada paso eligiendo Agregar una condición , Agregar una acción y Agregar una excepción .
+Recomendación
+Con una cuenta profesional o educativa, también puede habilitar las notificaciones para cuando un correo electrónico se mueve a una carpeta diferente mediante reglas.
+Si no quiere que se ejecute ninguna regla después de esta, seleccione la casilla Detener el procesamiento de más reglas . Para obtener más información, vea Dejar de procesar más reglas en Outlook .
+Presione Guardar para crear la regla o Descartar para cancelar la creación de la regla.
+Editar una regla de bandeja de entrada en el nuevo Outlook para Windows
+En la parte superior de la página, selecciona Configuración .
+Seleccione Reglas de correo >.
+En la regla que quiera editar, seleccione .
+Presione Guardar para guardar la regla editada.
+Nota
+Algunas reglas creadas en Outlook clásico no se pueden procesar en el nuevo Outlook porque son reglas del lado cliente. Para corregir una regla que se migró de Outlook clásico, cree una nueva regla para reemplazarla.
+Eliminar una regla de bandeja de entrada en el nuevo Outlook para Windows
+En la parte superior de la página, selecciona Configuración .
+Seleccione Reglas de correo >.
+En la regla que desea eliminar, seleccione
+Recomendación
+Si desea desactivar la regla durante un tiempo, seleccione el botón de alternancia junto a ella.
+Establecer el orden en que se aplican las reglas de bandeja de entrada a los mensajes entrantes en el nuevo Outlook para Windows
+Las reglas de la bandeja de entrada se aplican a los mensajes entrantes en función del orden que ocupen en la lista de reglas de la bandeja de entrada. Puede determinar el orden de aplicación de las reglas que haya creado a los mensajes recibidos.
+En la parte superior de la página, selecciona Configuración .
+Seleccione Reglas de correo >.
+Seleccione una regla y, luego, use la flecha arriba o la flecha abajo para cambiar el orden en el que se aplicará a los mensajes entrantes.
+Ejecutar reglas de bandeja de entrada en mensajes existentes en el nuevo Outlook para Windows
+De forma predeterminada, una regla de bandeja de entrada se ejecuta en mensajes entrantes después de que haya creado la regla. Para ejecutar una regla en mensajes existentes:
+En la parte superior de la página, selecciona Configuración .
+Seleccione Reglas de correo >.
+Seleccione junto a la regla que desea ejecutar.
+Deshabilitar y habilitar reglas en el nuevo Outlook para Windows
+Si quiere pausar o suspender temporalmente el funcionamiento de una regla y no quiere eliminarla, considere la posibilidad de deshabilitarla. Para deshabilitar o habilitar una regla:
+En la parte superior de la página, selecciona Configuración .
+Seleccione Reglas de correo >.
+Use el botón de alternancia situado junto al nombre de la regla para deshabilitar o habilitar la regla.
+En la versión clásica de Outlook, tienes la opción de:
+Crear una regla | Crear una regla a partir de una plantilla | Editar una regla | Eliminar una regla | Ejecutar reglas | Reglas personalizadas
+Crear una regla en un mensaje en Outlook clásico para Windows
+Haga clic con el botón derecho en un mensaje existente y seleccione > Crear reglas .
+Seleccione una condición y lo que quiera que se haga con el mensaje en función de la condición.
+Por ejemplo, para mover mensajes con un determinado título a una carpeta específica, seleccione la condición El asunto contiene , seleccione Mover el elemento a una carpeta , seleccione o cree una carpeta y, después, seleccione Aceptar .
+Cuando haya terminado de crear la regla, seleccione Aceptar .
+Para usar la regla de inmediato, active la casilla Ejecutar esta nueva regla ahora en los mensajes que ya están en la carpeta actual y, después, seleccione Aceptar .
+El mensaje aparecerá ahora en esa carpeta.
+Crear una regla a partir de una plantilla en Outlook clásico para Windows
+Seleccione Archivo > Administrar reglas & Alertas >, nueva regla .
+Seleccione una plantilla.
+Por ejemplo, para marcar un mensaje:
+Seleccione Marcar los mensajes de alguien para realizarles un seguimiento .
+Edite la descripción de la regla.
+Seleccione un valor subrayado, elija las opciones que quiera y, después, seleccione Aceptar .
+Seleccione Siguiente .
+Seleccione las condiciones, agregue la información pertinente y, después, seleccione Aceptar .
+Seleccione Siguiente .
+Finalice la configuración de la regla.
+Asigne un nombre a la regla, configure las opciones y revise la descripción de esta. Haga clic en un valor subrayado para editarlo.
+Seleccione Finalizar .
+Algunas reglas solo se ejecutarán cuando Outlook esté activado. Si le aparece esta advertencia, seleccione Aceptar .
+Seleccione Aceptar .
+Editar una regla en Outlook clásico para Windows
+Si ha establecido reglas para organizar el correo entrante , pero no todas funcionan como espera, estos pasos pueden ayudarle a encontrar y solucionar el problema.
+Para corregir una regla errónea:
+Haga clic en Administrar reglas & alertas de archivos> .
+Si ve un mensaje que indica que tiene una regla errónea que necesita modificarse, haga clic en Aceptar.
+Active la casilla situada junto a la regla en rojo.
+Haga clic en los vínculos de Descripción de la regla y edite la regla según sea necesario y, después, haga clic en Aceptar .
+Para cambiar la configuración, el nombre, la ubicación o el comportamiento de una regla:
+Haga clic en Administrar reglas & alertas de archivos> .
+Active la casilla junto a la regla que desea modificar.
+Haga clic en Cambiar regla, seleccione el tipo de cambio que desea realizar y, a continuación, complete los pasos.
+Nota
+Para eliminar una regla, en el cuadro de diálogo Reglas y alertas , active la casilla situada junto a la regla y, a continuación, haga clic en Eliminar .
+Eliminar una regla en Outlook clásico para Windows
+Puede eliminar una regla cuando ya no la necesite.
+En la pestaña Archivo , elija Administrar reglas y alertas .
+En el cuadro de diálogo Reglas y alertas de la pestaña Reglas de correo electrónico , elija la regla que quiera eliminar.
+Elija el > Eliminar Eliminar Aceptar .
+Recomendación
+Para suspender temporalmente una regla, desactiva la casilla de verificación junto a la regla. Esto le permite mantener la regla y activarla más tarde.
+Ejecutar reglas manualmente en Outlook clásico para Windows
+Puede ejecutar manualmente una o más reglas.
+En la pestaña Archivo , elija Administrar reglas y alertas y, en la pestaña Reglas de correo electrónico , elija Ejecutar reglas ahora .
+En el cuadro Ejecutar reglas ahora , en Seleccione las reglas que quiere ejecutar , marque las casillas de las reglas que quiera ejecutar.
+En el cuadro Ejecutar en la carpeta , si quiere seleccionar otra carpeta, elija Examinar , luego la carpeta y, por último, Aceptar .
+Active la casilla Incluir subcarpetas para incluir todas las carpetas contenidas en la carpeta que seleccionó en el paso 3.
+En la lista Aplicar reglas a , acepte la configuración predeterminada de todos los mensajes o cámbiela a mensajes leídos o no leídos.
+Elija Ejecutar ahora .
+Crear reglas de acciones personalizadas en Outlook clásico
+Hay desarrolladores de terceros que escriben complementos de reglas de acción personalizadas en forma de biblioteca de vínculos dinámicos (archivos .dll) que debe instalar en el equipo que ejecuta Outlook clásico para poder usarlos. Microsoft no proporciona complementos de acción personalizada.
+Aprenda a usar complementos en Outlook .
+Nota
+Una regla con una acción personalizada solo se ejecuta en el equipo en el que está instalada y solo cuando se está trabajando con Outlook.
+En Outlook en la Web, tiene la opción de:
+Crear una regla | Editar una regla | Eliminar una regla | Cambiar el orden de | las reglas Deshabilitar reglas
+Crear una regla de bandeja de entrada en Outlook en la Web
+Selecciona el .
+Seleccione Correo . Luego, en Correo , seleccione Reglas .
+Seleccione Agregar nueva regla .
+Escriba un nombre para la regla de la bandeja de entrada en el cuadro Asignar un nombre a la regla y, a continuación, seleccione una condición y una acción en sus respectivas listas desplegables. Puede agregar condiciones o acciones adicionales seleccionando Agregar una condición o Agregar una acción .
+Agregue excepciones a la regla de la bandeja de entrada seleccionando Agregar excepción y eligiendo una en el menú Agregar excepción .
+De forma predeterminada, se activa la opción Detener el procesamiento de más reglas . Con esta opción activada, cuando llega un mensaje a la bandeja de entrada que cumple los criterios de más de una regla, solo se le aplica la primera. Con la opción desactivada, se aplicarán todas las reglas de la bandeja de entrada cuyos criterios cumpla el mensaje.
+Editar una regla de bandeja de entrada en Outlook en la Web
+Para editar cualquier regla de la bandeja de entrada, selecciónela y elija Editar regla para abrir la regla y poder cambiar las condiciones o acciones de la regla.
+Eliminar una regla de bandeja de entrada en Outlook en la Web
+Si tiene una regla de bandeja de entrada que ya no desea, puede seleccionarla y, a continuación, seleccionar el icono de para quitarla. Si simplemente desea desactivar la regla durante un tiempo, desactive la casilla situada junto a ella.
+Establecer el orden en que se aplican las reglas de la bandeja de entrada a los mensajes entrantes en Outlook en la Web
+Las reglas de la bandeja de entrada se aplican a los mensajes entrantes en función del orden que ocupen en la lista Reglas de la bandeja de entrada . Puede determinar el orden de aplicación de las reglas que haya creado a los mensajes recibidos:
+Selecciona el .
+Seleccione Correo . Luego, en Correo , seleccione Reglas .
+Seleccione la regla que desea mover y, a continuación, seleccione la flecha arriba o la flecha abajo para colocar la regla donde quiera colocarla dentro de la lista de reglas.
+Nota
+Si usa una cuenta profesional o educativa para iniciar sesión en Microsoft 365, está usando Outlook en la Web. Si usa una cuenta de Outlook.com, Hotmail, Live o MSN, vaya a la pestaña Outlook.com .
+Deshabilitar y habilitar reglas en Outlook en la Web
+Si quiere pausar o suspender temporalmente el funcionamiento de una regla y no quiere eliminarla, considere la posibilidad de deshabilitarla. Para deshabilitar o habilitar una regla:
+En la parte superior de la página, selecciona Configuración .
+Seleccione Reglas de correo >.
+Use el botón de alternancia situado junto al nombre de la regla para deshabilitar o habilitar la regla.
+En Outlook.com, tienes la opción de:
+Crear una regla | Editar una regla | Eliminar una regla | Cambiar el orden de | las reglas Ejecutar reglas | Deshabilitar reglas
+Crear una regla de bandeja de entrada en Outlook.com
+Las reglas se aplican a los mensajes entrantes y pueden crearse desde cualquier carpeta.
+Para crear rápidamente una regla que mueva todos los correos electrónicos de un remitente específico o de un conjunto de remitentes a una carpeta, haga clic con el botón derecho en un mensaje de la lista de mensajes para el que desea crear una regla, seleccione Regla y, a continuación, Crear regla .
+Elija la carpeta a la que quiera que se muevan todos los mensajes de ese remitente o conjunto de remitentes y, después, seleccione Aceptar .
+Si quiere hacer algo más que simplemente mover el mensaje de un remitente específico o de un conjunto de remitentes a una carpeta, seleccione Más opciones .
+Para crear una regla completamente nueva, en la parte superior de la página, seleccione Configuración > Correo > reglas .
+Seleccione Agregar nueva regla .
+Recomendación
+Cada regla necesita al menos tres elementos: Un nombre, una condición y una acción. Las reglas también pueden contener excepciones de las condiciones. Puede agregar varias condiciones, acciones y excepciones en cada paso eligiendo Agregar una condición , Agregar una acción y Agregar una excepción .
+Presione Guardar para crear la regla o Descartar para cancelar la creación de la regla.
+Si no quiere que se ejecute ninguna regla después de esta, seleccione la casilla Detener el procesamiento de más reglas . Para obtener más información, vea Detener el procesamiento de más reglas en Outlook.com .
+Editar una regla de bandeja de entrada en Outlook.com
+En la parte superior de la página, selecciona Configuración .
+Seleccione Reglas de correo >.
+En la regla que desea editar, seleccione Editar Editar .
+Seleccione Guardar para guardar la regla editada.
+Nota
+Outlook.com no puede procesar algunas reglas creadas en otras versiones de Outlook. No podrá ejecutar ni editar la regla en Outlook.com.
+Eliminar una regla de bandeja de entrada en Outlook.com
+En la parte superior de la página, selecciona Configuración .
+Seleccione Reglas de correo >.
+En la regla que desea eliminar, seleccione Eliminar .
+Recomendación
+Si desea desactivar la regla durante un tiempo, seleccione el botón de alternancia junto a ella.
+Establezca el orden en que se aplican las reglas de bandeja de entrada a los mensajes entrantes en Outlook.com
+Las reglas de la bandeja de entrada se aplican a los mensajes entrantes en función del orden que ocupen en la lista de reglas de la bandeja de entrada. Puede determinar el orden de aplicación de las reglas que haya creado a los mensajes recibidos.
+En la parte superior de la página, selecciona Configuración .
+Seleccione Reglas de correo >.
+Seleccione una regla y, luego, use la flecha arriba o la flecha abajo para cambiar el orden en el que se aplicará a los mensajes entrantes.
+Ejecutar reglas de bandeja de entrada en mensajes existentes en Outlook.com
+Actualmente, no puede ejecutar reglas de bandeja de entrada en los mensajes existentes en la versión beta de Outlook.com. Una nueva regla se aplica solo a los mensajes que reciba después de crearla.
+Sin embargo, puede usar Archivo, Ir a y Limpiar para mover o eliminar mensajes de la bandeja de entrada automáticamente. Para obtener más información, consulte Organizar la Bandeja de entrada con Archivo, Limpiar y otras herramientas de Outlook.com .
+Deshabilitar y habilitar reglas en Outlook.com
+Si quiere pausar o suspender temporalmente el funcionamiento de una regla y no quiere eliminarla, considere la posibilidad de deshabilitarla. Para deshabilitar o habilitar una regla:
+En la parte superior de la página, selecciona Configuración .
+Seleccione Reglas de correo >.
+Use el botón de alternancia situado junto al nombre de la regla para deshabilitar o habilitar la regla.
+¿Qué más necesito saber sobre Outlook.com
+Puede que haya creado una regla para reenviar o redirgir los mensajes que reciba a otra dirección de correo electrónico. Si es así, es importante conocer la diferencia entre reenviar y redirigir.
+Un mensaje reenviado aparece como un mensaje recibido y, a continuación, reenviado a otro destinatario. Cuando el destinatario responde, la respuesta irá a la dirección de correo desde la que se reenvió el mensaje.
+Un mensaje redirigido mantiene el remitente original en el campo De. Cuando un destinatario al que se redirigió un mensaje responde, la respuesta irá al remitente original.
+Vea también
+Usar reglas para reenviar mensajes automáticamente en Outlook
+Editar o corregir una regla errónea en Outlook
+Detener el procesamiento de más reglas en Outlook
+Importar o exportar un conjunto de reglas en Outlook clásico
+Crear una regla en Outlook para Mac

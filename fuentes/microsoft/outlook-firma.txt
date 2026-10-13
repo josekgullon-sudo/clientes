@@ -1,0 +1,106 @@
+Agregar y cambiar una firma de correo electrónico en Outlook
+https://support.microsoft.com/es-es/outlook/mail/how-to-add-and-change-an-email-signature-in-outlook
+Descargado: 2026-10-13
+
+Cómo agregar y cambiar una firma de correo electrónico en Outlook
+Se aplica a Outlook para Microsoft 365 Outlook 2024 Outlook 2021 Office 365 Pequeña Empresa Outlook.com Nuevo Outlook para Windows Outlook en la web para Exchange Server 2016 Outlook en la web para Exchange Server 2019
+Obtener ayuda con Copilot
+Agrega o cambia una firma de correo electrónico
+Ayúdame a agregar una firma a los mensajes
+Escribe mi firma profesional de Outlook
+Resumen
+Las firmas de email crean coherencia profesional en todas las comunicaciones de tu empresa y garantizan que los destinatarios tengan tu información de contacto en cada mensaje. En Outlook, puede configurar varias firmas para diferentes propósitos (internas frente a externas, personales frente a empresas) y elegir si desea incluirlas automáticamente en nuevos correos electrónicos, respuestas o reenvíos. Su firma puede incluir texto, vínculos, imágenes y fotos (como su firma manuscrita o un logotipo).
+Este artículo trata sobre la creación de firmas para el nuevo Outlook para Windows, Outlook clásico para Windows, Outlook en la Web y Outlook.com. Para Outlook para Mac, vaya a Crear, insertar o cambiar una firma en Outlook para Mac .
+Iniciar soporte guiado
+O bien, la opción seleccionar una pestaña a continuación para la versión de Outlook que esté usando.
+¿Qué versión de Outlook tengo?
+Nuevo Outlook
+Outlook clásico
+Web
+Nota
+Si los pasos descritos en esta nueva ficha de Outlook no funcionan, es posible que aún no esté usando el nuevo Outlook para Windows. Seleccione Outlook clásico y siga esos pasos en su lugar.
+Crear y agregar una firma de correo electrónico en el nuevo Outlook
+Puede configurar varias firmas en el nuevo Outlook y, a continuación, seleccionar la firma que desea usar para redactar un mensaje. Ver el vídeo .
+Seleccione Configuración .
+Seleccione Firmas de cuentas >.
+Si tiene más de una cuenta agregada al nuevo Outlook, seleccione la cuenta a la que desea aplicar su firma de correo electrónico.
+Seleccione Agregue la firma y asígnele un nombre distinto.
+En el cuadro de edición debajo del nuevo nombre, escriba la firma y dele formato con la fuente, el color y los estilos para obtener la apariencia que desee.
+Use las casillas de la parte inferior para elegir si desea aplicar la firma a los mensajes nuevos y a las respuestas y reenvíos. O déjelas en blanco y agregue la firma que quiera al redactar un mensaje.
+Selecciona Guardar cuando hayas terminado.
+Agregar una firma al redactar un mensaje en el nuevo Outlook
+En Correo, seleccione Correo nuevo .
+En el grupo Insertar de la pestaña Mensaje , seleccione Firma .
+Elija una de las firmas guardadas para agregarla al mensaje.
+Si desea crear una nueva firma, seleccione Firmas... en la lista desplegable. Siga los pasos de la sección Crear y agregar una firma de correo electrónico para crear y guardar una nueva firma.
+Cambiar la firma de correo electrónico en el nuevo Outlook
+Si quieres realizar cambios en tu firma de correo electrónico, sigue estos pasos.
+Seleccione Configuración .
+Seleccione Firmas de cuentas >.
+Seleccione el botón Editar firma junto a la firma que desee cambiar.
+Después de realizar los cambios, seleccione Guardar .
+Nota
+Si tiene una cuenta de Microsoft y usa Outlook y Outlook en la Web o Outlook en la Web para empresas, debe crear una firma en ambos productos.
+Crear su firma y elegir cuándo Outlook agrega una firma a sus mensajes en Outlook clásico para Windows
+Si quieres ver cómo se hace, puedes ir directamente al video a continuación .
+Abra un mensaje de correo nuevo.
+En el menú Mensaje , seleccione Firmas de firma >.
+En el cuadro desplegable Cuenta de correo electrónico , elija una cuenta de correo electrónico para asociarla a la firma. Puede tener distintas firmas para cada cuenta de correo electrónico.
+Nota
+Las firmas en este dispositivo se almacenan localmente en el dispositivo donde se crearon y es posible que no estén disponibles al usar Outlook en otro dispositivo. Para usar la misma firma en todas las experiencias compatibles de Outlook, cree y administre su firma a través de su cuenta de Microsoft cuando esté disponible.
+En Seleccionar firma para editar , elija Nueva y, en el cuadro de diálogo Nueva firma , escriba un nombre para la firma.
+En Editar firma , redacte su firma. Puede cambiar las fuentes, los colores y tamaños de fuente, así como la alineación del texto. Si quiere crear una firma más sólida con viñetas, tablas o bordes, use Word para crear y dar formato al texto de la firma y, a continuación, cópielo y péguelo en el cuadro Editar firma . También puede usar una plantilla prediseñada para crear la firma. Descargue las plantillas en Word, personalícelas con su información personal y, a continuación, copie y pegue en el cuadro Editar firma .
+Nota
+Puede agregar vínculos e imágenes a su firma de correo electrónico, cambiar fuentes y colores, y justificar el texto utilizando la minibarra de formato en Editar firma .
+También puedes agregar vínculos e iconos de redes sociales en tu firma o personalizar una de nuestras plantillas prediseñadas. Para obtener más información, consulte Crear una firma a partir de una plantilla .
+Para agregar imágenes a la firma, consulte Agregar un logotipo o una imagen a la firma .
+En Elegir firma predeterminada , establezca las siguientes opciones.
+Puede tener una firma que se agregará automáticamente a todos los mensajes nuevos. Vaya a en el cuadro desplegable Nuevos mensajes y seleccione una de las firmas.
+Si no quiere agregar automáticamente una firma a los mensajes nuevos, elija (ninguna). Esta opción no agrega una firma a los mensajes a los que responda o reenvíe.
+Puede seleccionar que su firma aparezca automáticamente en los mensajes de respuesta y reenvío. En la lista desplegable Respuestas/reenvíos , seleccione una de sus firmas. En caso contrario, acepte la opción predeterminada (ninguna).
+Elija Aceptar para guardar la nueva firma y volver al mensaje. Outlook clásico no agrega la nueva firma al mensaje que abrió en el paso 1, incluso si elige aplicar la firma a todos los mensajes nuevos. Tendrá que agregar la firma manualmente a este mensaje. Todos los mensajes futuros tendrán la firma agregada automáticamente. Para agregar la firma manualmente, seleccione Firma en el menú Mensaje y, a continuación, elija la firma que acaba de crear.
+Cambiar la firma de correo electrónico en Outlook clásico para Windows
+Si quieres realizar cambios en tu firma de correo electrónico, sigue estos pasos.
+Seleccione Firmas de correo > de opciones > de archivo >.
+Seleccione la firma que desea editar y realice los cambios en el cuadro Editar firma .
+Cuando hayas terminado, selecciona Guardar y luego Aceptar .
+Agregar un logotipo o una imagen a la firma en la versión clásica de Outlook para Windows
+Si tiene un logotipo o una imagen de empresa para agregar a su firma, siga estos pasos.
+Abra un mensaje nuevo y seleccione Firmas de firma >.
+En el cuadro Seleccionar firma para editar , elija la firma a la que desea agregar un logotipo o una imagen.
+Seleccione el botón Imagen , busque el archivo de imagen y seleccione Insertar .
+Para cambiar el tamaño de la imagen, haga clic con el botón derecho en la imagen y, a continuación, elija Imagen . Selecciona la pestaña Tamaño y usa las opciones para cambiar el tamaño de la imagen. Para mantener las proporciones de la imagen, asegúrate de mantener marcada la casilla Bloquear relación de aspecto .
+Cuando haya terminado, seleccione Aceptar y , a continuación, vuelva a seleccionar Aceptar para guardar los cambios en la firma.
+Nota
+El uso de etiquetas de Lenguaje de marcado de vectores (VML) en la firma puede hacer que algunos elementos aparezcan como datos adjuntos en lugar de imágenes en línea. Para obtener los mejores resultados al insertar imágenes, se recomienda seguir los pasos anteriores.
+Insertar una firma manualmente en Outlook clásico
+Si decide no insertar ninguna firma para los mensajes nuevos o respuestas y reenvíos, aún puede insertar manualmente una firma.
+En el mensaje de correo, en la pestaña Mensaje , seleccione Firma .
+Elija su firma en el menú emergente que aparece. Si tiene más de una firma, puede seleccionar cualquiera de las firmas que ha creado.
+Ver cómo hacerlo
+Principio de página
+Crear y agregar una firma a un mensaje en Outlook en la Web o Outlook.com
+Puede crear una firma de correo electrónico en Outlook en la Web o Outlook.com que luego puede agregar a todos los mensajes salientes o agregar manualmente a algunos específicos.
+Seleccione Configuración en la parte superior de la página.
+Seleccione Firmas de cuentas >.
+Seleccione Agregue la firma y asígnele un nombre distinto.
+En el cuadro de edición debajo del nuevo nombre, escriba la firma y dele formato con la fuente, el color y los estilos para obtener la apariencia que desee.
+Use las casillas de la parte inferior para elegir si desea aplicar la firma a los mensajes nuevos y a las respuestas y reenvíos. O déjelas en blanco y agregue la firma que quiera al redactar un mensaje.
+Selecciona Guardar cuando hayas terminado.
+Agregar manualmente la firma a un mensaje nuevo en Outlook en la Web o Outlook.com
+Si ha creado una firma en Outlook en la Web, pero no ha elegido agregarla automáticamente a todos los mensajes salientes, puede agregarla más adelante al escribir un mensaje de correo electrónico.
+En un mensaje o respuesta nueva, escriba el mensaje.
+En la pestaña Mensaje , seleccione firma .
+Si ha creado varias firmas, elija la firma que desea usar para el nuevo mensaje o respuesta.
+Cuando el mensaje de correo electrónico esté listo, haga clic en Enviar .
+Cambiar la firma de correo electrónico en Outlook en la Web o Outlook.com
+Si quieres realizar cambios en tu firma de correo electrónico, sigue estos pasos.
+Seleccione Configuración .
+Seleccione Firmas de cuentas >.
+Seleccione el botón Editar firma junto a la firma que desee cambiar.
+Después de realizar los cambios, seleccione Guardar .
+Recomendación
+Los pasos para crear una nueva firma son los mismos para la nueva versión de Outlook y para las versiones web de Outlook.
+Artículos relacionados
+Crear y agregar una firma de correo electrónico en Outlook para Mac
+Crear una firma de correo electrónico a partir de una plantilla

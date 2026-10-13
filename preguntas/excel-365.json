@@ -1,0 +1,635 @@
+{
+  "descripcion": "Excel 365 (tema 25 aux-age): atajos, referencias, funciones SI, BUSCARX y CONTAR.SI, inmovilizar paneles, gráficos, ordenar, filtrar y formato condicional. Lote generado el 2026-10-13 a partir de páginas oficiales de support.microsoft.com (es-es).",
+  "preguntas": [
+    {
+      "id": "xls-001",
+      "ley": null,
+      "articulo": "Teclas de función",
+      "fuente": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+      "enunciado": "En Excel, ¿qué tecla permite editar la celda activa y coloca el punto de inserción al final de su contenido?",
+      "opciones": [
+        "F2",
+        "F3",
+        "F5",
+        "F7"
+      ],
+      "correcta": 0,
+      "explicacion": "La página indica: «Solo F2: úselo para editar la celda activa y colocar el punto de inserción al final de su contenido». F3 «muestra el cuadro de diálogo Pegar nombre» y F5 «muestra el cuadro de diálogo Ir a».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-002",
+      "ley": null,
+      "articulo": "Cambiar entre referencias relativas, absolutas y mixtas",
+      "fuente": "https://support.microsoft.com/es-es/office/cambiar-entre-referencias-relativas-absolutas-y-mixtas-dfec08cd-ae65-4f56-839e-5f0d8d0baca9",
+      "enunciado": "Con una referencia seleccionada en la barra de fórmulas, ¿qué tecla cambia entre los tipos de referencia (relativa, absoluta y mixta)?",
+      "opciones": [
+        "F2",
+        "F9",
+        "F4",
+        "F11"
+      ],
+      "correcta": 2,
+      "explicacion": "Para cambiar el tipo de referencia, se selecciona la referencia en la barra de fórmulas y se indica: «Presione F4 para cambiar entre los tipos de referencia».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-003",
+      "ley": null,
+      "articulo": "Teclas de función",
+      "fuente": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+      "enunciado": "¿Qué hace la tecla F11 si se pulsa sola con datos en la hoja?",
+      "opciones": [
+        "Crea un gráfico incrustado en la hoja activa",
+        "Crea un gráfico en una hoja de gráfico distinta",
+        "Inserta una hoja de cálculo nueva en el libro",
+        "Abre el editor de Visual Basic para Aplicaciones"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la página: «Solo F11: crea un gráfico a partir de los datos del rango actual en una hoja de gráfico distinta». El gráfico incrustado se crea con Alt+F1, que «crea un gráfico incrustado a partir de los datos del rango actual».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-004",
+      "ley": null,
+      "articulo": "Teclas de función",
+      "fuente": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+      "enunciado": "¿Qué combinación de teclas inserta una hoja de cálculo nueva en Excel?",
+      "opciones": [
+        "F11",
+        "Alt+F11",
+        "Ctrl+F4",
+        "Mayús+F11"
+      ],
+      "correcta": 3,
+      "explicacion": "La página indica: «Mayús+F11: inserta una hoja de cálculo nueva». Alt+F11 abre el Editor de Visual Basic y «Ctrl+F4: cierra la ventana del libro seleccionado».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-005",
+      "ley": null,
+      "articulo": "Teclas de función",
+      "fuente": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+      "enunciado": "¿Qué combinación muestra el cuadro de diálogo Insertar función?",
+      "opciones": [
+        "F3",
+        "Mayús+F3",
+        "Mayús+F2",
+        "Alt+F8"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la página: «Mayús+F3: muestra el cuadro de diálogo Insertar función». En cambio, «Solo F3: muestra el cuadro de diálogo Pegar nombre».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-006",
+      "ley": null,
+      "articulo": "Teclas de función",
+      "fuente": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+      "enunciado": "En Excel, al pulsar solo la tecla F9:",
+      "opciones": [
+        "Se calculan todas las hojas de todos los libros abiertos",
+        "Se calcula únicamente la hoja de cálculo activa",
+        "Se repite el último comando o acción realizada",
+        "Se muestra el cuadro de diálogo Ir a"
+      ],
+      "correcta": 0,
+      "explicacion": "La página indica: «Solo F9: calcula todas las hojas de cálculo de todos los libros abiertos». Para la hoja activa se usa «Mayús+F9: calcula la hoja de cálculo activa».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-007",
+      "ley": null,
+      "articulo": "Métodos abreviados de teclado para trabajar con datos, funciones y la barra de fórmulas",
+      "fuente": "https://support.microsoft.com/es-es/office/m%C3%A9todos-abreviados-de-teclado-de-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+      "enunciado": "¿Qué combinación de teclas inserta la fórmula Suma en la celda activa?",
+      "opciones": [
+        "Ctrl+Mayús+E",
+        "Alt+F1",
+        "Alt+signo igual (=)",
+        "Mayús+F3"
+      ],
+      "correcta": 2,
+      "explicacion": "En la tabla de métodos abreviados para trabajar con datos y funciones figura «Insertar la fórmula Suma» con la combinación «Alt+signo igual (=)».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-008",
+      "ley": null,
+      "articulo": "Cambiar entre referencias relativas, absolutas y mixtas",
+      "fuente": "https://support.microsoft.com/es-es/office/cambiar-entre-referencias-relativas-absolutas-y-mixtas-dfec08cd-ae65-4f56-839e-5f0d8d0baca9",
+      "enunciado": "De forma predeterminada, una referencia de celda en Excel es:",
+      "opciones": [
+        "Una referencia absoluta",
+        "Una referencia mixta",
+        "Una referencia relativa",
+        "Una referencia externa"
+      ],
+      "correcta": 2,
+      "explicacion": "La página señala: «De forma predeterminada, una referencia de celda es una referencia relativa, lo que significa que la referencia es relativa a la ubicación de la celda».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-009",
+      "ley": null,
+      "articulo": "Para una fórmula que se está copiando",
+      "fuente": "https://support.microsoft.com/es-es/office/cambiar-entre-referencias-relativas-absolutas-y-mixtas-dfec08cd-ae65-4f56-839e-5f0d8d0baca9",
+      "enunciado": "Una fórmula con la referencia A$1 se copia dos celdas hacia abajo y dos hacia la derecha. ¿En qué se convierte la referencia?",
+      "opciones": [
+        "A$1",
+        "C$1",
+        "C$3",
+        "A$3"
+      ],
+      "correcta": 1,
+      "explicacion": "La tabla de la página indica que «A$1 (columna relativa y fila absoluta)» cambia a «C$1 (la referencia es mixta)»: se fija la fila y la columna se ajusta.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-010",
+      "ley": null,
+      "articulo": "Cambiar entre referencias relativas, absolutas y mixtas",
+      "fuente": "https://support.microsoft.com/es-es/office/cambiar-entre-referencias-relativas-absolutas-y-mixtas-dfec08cd-ae65-4f56-839e-5f0d8d0baca9",
+      "enunciado": "¿Cuál de las siguientes es una referencia de celda mixta?",
+      "opciones": [
+        "$B$4",
+        "B4",
+        "B4:C4",
+        "$B4"
+      ],
+      "correcta": 3,
+      "explicacion": "Una referencia mixta se obtiene al «mezclar referencias de celda absolutas y relativas precediendo el valor de la columna o la fila con un signo de dólar ($)». $B$4 es absoluta y B4 es relativa.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-011",
+      "ley": null,
+      "articulo": "Sintaxis",
+      "fuente": "https://support.microsoft.com/es-es/office/funci%C3%B3n-si-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2",
+      "enunciado": "En la función SI, ¿qué argumento es opcional?",
+      "opciones": [
+        "prueba_lógica",
+        "valor_si_verdadero",
+        "valor_si_falso",
+        "criterios"
+      ],
+      "correcta": 2,
+      "explicacion": "La sintaxis es «SI(prueba_lógica; valor_si_verdadero; [valor_si_falso])» y la tabla de argumentos indica «valor_si_falso (opcional)».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-012",
+      "ley": null,
+      "articulo": "Ejemplos sencillos de SI",
+      "fuente": "https://support.microsoft.com/es-es/office/funci%C3%B3n-si-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2",
+      "enunciado": "Si se usa texto dentro de una fórmula con la función SI, ese texto debe escribirse:",
+      "opciones": [
+        "Entre comillas",
+        "Entre paréntesis",
+        "Precedido de un apóstrofo",
+        "Entre corchetes"
+      ],
+      "correcta": 0,
+      "explicacion": "La nota de la página dice: «Si va a usar texto en fórmulas, tendrá que escribir el texto entre comillas». La única excepción son VERDADERO o FALSO.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-013",
+      "ley": null,
+      "articulo": "Sintaxis",
+      "fuente": "https://support.microsoft.com/es-es/office/funci%C3%B3n-buscarx-b7fd680e-6d10-43e6-84f9-88eae8bf5929",
+      "enunciado": "En BUSCARX, si no hay coincidencia válida y no se ha indicado el argumento si_no_se_encuentra, la función devuelve:",
+      "opciones": [
+        "#¡VALOR!",
+        "#¿NOMBRE?",
+        "#¡REF!",
+        "#N/A"
+      ],
+      "correcta": 3,
+      "explicacion": "La página indica: «Si no se encuentra una coincidencia válida y no hay [if_not_found], se devuelve #N/A».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-014",
+      "ley": null,
+      "articulo": "Sintaxis",
+      "fuente": "https://support.microsoft.com/es-es/office/funci%C3%B3n-buscarx-b7fd680e-6d10-43e6-84f9-88eae8bf5929",
+      "enunciado": "En BUSCARX, ¿qué hace el valor -1 en el argumento modo_de_búsqueda?",
+      "opciones": [
+        "Busca empezando por el primer elemento",
+        "Busca de forma inversa empezando por el último elemento",
+        "Hace una búsqueda binaria en orden descendente",
+        "Devuelve el siguiente elemento más pequeño"
+      ],
+      "correcta": 1,
+      "explicacion": "Para modo_de_búsqueda la página indica: «-1: realizar una búsqueda inversa empezando por el último elemento». El valor 1, predeterminado, empieza por el primer elemento.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-015",
+      "ley": null,
+      "articulo": "Ejemplos",
+      "fuente": "https://support.microsoft.com/es-es/office/funci%C3%B3n-buscarx-b7fd680e-6d10-43e6-84f9-88eae8bf5929",
+      "enunciado": "Según Microsoft, ¿qué diferencia hay entre BUSCARV y BUSCARX?",
+      "opciones": [
+        "BUSCARV solo puede buscar de izquierda a derecha",
+        "BUSCARV no permite la coincidencia exacta",
+        "BUSCARX usa una tabla única y un índice de columna",
+        "BUSCARX solo está disponible en Excel 2016"
+      ],
+      "correcta": 0,
+      "explicacion": "La página señala que «BUSCARV solo puede buscar de izquierda a derecha» y que «BUSCARV usa una matriz de tabla única seguida de un número de índice de columna».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-016",
+      "ley": null,
+      "articulo": "Sintaxis",
+      "fuente": "https://support.microsoft.com/es-es/office/funci%C3%B3n-contar-si-e0de10c6-f885-4e71-abb4-1f464816df34",
+      "enunciado": "Para contar celdas que cumplen varios criterios a la vez, Microsoft indica que se use:",
+      "opciones": [
+        "SUMAR.SI.CONJUNTO",
+        "PROMEDIO.SI.CONJUNTO",
+        "CONTAR.SI.CONJUNTO",
+        "SI.CONJUNTO"
+      ],
+      "correcta": 2,
+      "explicacion": "Sobre el argumento criterios, la página dice: «CONTAR.SI usa solo un criterio. Use CONTAR.SI.CONJUNTO si desea usar varios criterios».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-017",
+      "ley": null,
+      "articulo": "Procedimientos recomendados para usar CONTAR.SI en Excel",
+      "fuente": "https://support.microsoft.com/es-es/office/funci%C3%B3n-contar-si-e0de10c6-f885-4e71-abb4-1f464816df34",
+      "enunciado": "¿La fórmula =CONTAR.SI(A2:A5;\"manzanas\") cuenta también las celdas que contienen MANZANAS?",
+      "opciones": [
+        "No, porque los criterios distinguen mayúsculas",
+        "Solo si se activa Distinguir mayúsculas",
+        "Solo si el criterio se escribe sin comillas",
+        "Sí, porque los criterios no distinguen mayúsculas"
+      ],
+      "correcta": 3,
+      "explicacion": "La página indica: «Los criterios no distinguen mayúsculas de minúsculas. En otras palabras, la cadena \"manzanas\" y la cadena \"MANZANAS\" coinciden con las mismas celdas».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-018",
+      "ley": null,
+      "articulo": "Procedimientos recomendados para usar CONTAR.SI en Excel",
+      "fuente": "https://support.microsoft.com/es-es/office/funci%C3%B3n-contar-si-e0de10c6-f885-4e71-abb4-1f464816df34",
+      "enunciado": "En los criterios de CONTAR.SI, ¿qué hace el signo de interrogación (?)?",
+      "opciones": [
+        "Reemplaza cualquier carácter individual",
+        "Reemplaza cualquier secuencia de caracteres",
+        "Indica que el carácter siguiente es literal",
+        "Cuenta solo las celdas que están en blanco"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la página: «El signo de interrogación reemplaza cualquier carácter individual. El asterisco reemplaza cualquier secuencia de caracteres».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-019",
+      "ley": null,
+      "articulo": "Inmovilizar paneles para bloquear filas y columnas",
+      "fuente": "https://support.microsoft.com/es-es/office/inmovilizar-paneles-para-bloquear-filas-y-columnas-dab2ffc9-020d-4026-8121-67dd25f2508f",
+      "enunciado": "¿En qué pestaña de la cinta se encuentra Inmovilizar paneles?",
+      "opciones": [
+        "Diseño de página",
+        "Vista",
+        "Datos",
+        "Inicio"
+      ],
+      "correcta": 1,
+      "explicacion": "Para mantener visible un área de la hoja, la página indica: «vaya a la pestaña Vista», donde puede inmovilizar paneles o dividir paneles.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-020",
+      "ley": null,
+      "articulo": "Inmovilizar filas o columnas",
+      "fuente": "https://support.microsoft.com/es-es/office/inmovilizar-paneles-para-bloquear-filas-y-columnas-dab2ffc9-020d-4026-8121-67dd25f2508f",
+      "enunciado": "Para inmovilizar las dos primeras columnas, antes de elegir Inmovilizar paneles hay que seleccionar:",
+      "opciones": [
+        "La segunda columna",
+        "La primera columna",
+        "La celda A1",
+        "La tercera columna"
+      ],
+      "correcta": 3,
+      "explicacion": "La página explica que «Inmovilizar paneles inmoviliza las filas superiores y las columnas a la izquierda de la celda seleccionada». Para las dos primeras columnas: «Seleccione la tercera columna».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-021",
+      "ley": null,
+      "articulo": "Crear un gráfico",
+      "fuente": "https://support.microsoft.com/es-es/office/crear-un-gr%C3%A1fico-de-principio-a-fin-0baf399e-dd61-4e18-8a73-b3fd5d5680c2",
+      "enunciado": "Tras seleccionar los datos, ¿qué ruta permite elegir entre los gráficos que Excel recomienda?",
+      "opciones": [
+        "Datos > Gráficos recomendados",
+        "Inicio > Gráficos recomendados",
+        "Insertar > Gráficos recomendados",
+        "Vista > Gráficos recomendados"
+      ],
+      "correcta": 2,
+      "explicacion": "Los pasos de la página son: «Seleccione datos para el gráfico» y «Seleccione Insertar > gráficos recomendados».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-022",
+      "ley": null,
+      "articulo": "Gráficos circulares",
+      "fuente": "https://support.microsoft.com/es-es/office/crear-un-gr%C3%A1fico-de-principio-a-fin-0baf399e-dd61-4e18-8a73-b3fd5d5680c2",
+      "enunciado": "Según Microsoft, conviene usar un gráfico circular cuando:",
+      "opciones": [
+        "Solo haya una serie de datos",
+        "Haya varias series de datos",
+        "Las etiquetas de eje sean largas",
+        "Los valores mostrados sean duraciones"
+      ],
+      "correcta": 0,
+      "explicacion": "La página recomienda el gráfico circular cuando «Solo haya una serie de datos». Las etiquetas largas y las duraciones son casos para el gráfico de barras: «Las etiquetas de eje son largas».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-023",
+      "ley": null,
+      "articulo": "Gráficos de anillos",
+      "fuente": "https://support.microsoft.com/es-es/office/crear-un-gr%C3%A1fico-de-principio-a-fin-0baf399e-dd61-4e18-8a73-b3fd5d5680c2",
+      "enunciado": "¿Qué tipo de gráfico muestra la relación de las partes con un todo y puede contener más de una serie de datos?",
+      "opciones": [
+        "Gráfico circular",
+        "Gráfico de dispersión",
+        "Gráfico de cotizaciones",
+        "Gráfico de anillos"
+      ],
+      "correcta": 3,
+      "explicacion": "La página indica: «Al igual que un gráfico circular, un gráfico de anillos muestra la relación de las partes con un todo, pero puede contener más de una serie de datos».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-024",
+      "ley": null,
+      "articulo": "Ordenar texto",
+      "fuente": "https://support.microsoft.com/es-es/office/ordenar-datos-en-un-rango-o-tabla-62d0b95d-2a90-4610-a6ae-2e545c4a4654",
+      "enunciado": "¿Dónde están los botones Ordenar de la A a la Z y Ordenar de la Z a la A?",
+      "opciones": [
+        "Ficha Inicio, grupo Estilos",
+        "Ficha Datos, grupo Ordenar y filtrar",
+        "Ficha Insertar, grupo Tablas",
+        "Ficha Vista, grupo Ventana"
+      ],
+      "correcta": 1,
+      "explicacion": "Para ordenar texto, la página indica: «En la ficha Datos», «en el grupo Ordenar y filtrar», seleccione Ordenar de la A a la Z o de la Z a la A.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-025",
+      "ley": null,
+      "articulo": "Ordenar por una lista personalizada",
+      "fuente": "https://support.microsoft.com/es-es/office/ordenar-datos-en-un-rango-o-tabla-62d0b95d-2a90-4610-a6ae-2e545c4a4654",
+      "enunciado": "Una lista personalizada para ordenar NO puede crearse a partir de:",
+      "opciones": [
+        "Valores de texto",
+        "Valores numéricos",
+        "Un formato, como el color de celda",
+        "Valores de fecha u hora"
+      ],
+      "correcta": 2,
+      "explicacion": "La página indica: «Una lista personalizada solo puede crearse basada en un valor (texto, número y fecha u hora). No puede crear una lista personalizada basada en un formato (color de celda, color de fuente o icono)».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-026",
+      "ley": null,
+      "articulo": "Ordenar de izquierda a derecha",
+      "fuente": "https://support.microsoft.com/es-es/office/ordenar-datos-en-un-rango-o-tabla-62d0b95d-2a90-4610-a6ae-2e545c4a4654",
+      "enunciado": "Para ordenar de izquierda a derecha los datos de una tabla de Excel, primero hay que:",
+      "opciones": [
+        "Convertir la tabla en un rango",
+        "Quitar los encabezados de columna",
+        "Activar Distinguir mayúsculas",
+        "Crear una lista personalizada"
+      ],
+      "correcta": 0,
+      "explicacion": "La página advierte: «Las tablas no admiten la ordenación de izquierda a derecha. Para ello, primero debe convertir la tabla en un rango».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-027",
+      "ley": null,
+      "articulo": "Más información sobre el filtrado",
+      "fuente": "https://support.microsoft.com/es-es/office/filtrar-datos-en-un-rango-o-tabla-01832226-31b5-4568-8806-38c37dcc180e",
+      "enunciado": "Si se filtran datos por más de una columna, los filtros:",
+      "opciones": [
+        "Se sustituyen y solo queda el último",
+        "Solo afectan a la primera columna",
+        "Obligan a convertir el rango en tabla",
+        "Son aditivos y reducen aún más los datos"
+      ],
+      "correcta": 3,
+      "explicacion": "Según la página: «Los filtros son aditivos, lo que significa que cada filtro adicional se basa en el filtro actual y reduce aún más el subconjunto de datos».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-028",
+      "ley": null,
+      "articulo": "Formato avanzado",
+      "fuente": "https://support.microsoft.com/es-es/office/usar-formato-condicional-para-resaltar-informaci%C3%B3n-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f",
+      "enunciado": "¿Dónde se encuentra el comando Formato condicional?",
+      "opciones": [
+        "Pestaña Datos, grupo Ordenar y filtrar",
+        "Pestaña Inicio, grupo Estilos",
+        "Pestaña Insertar, grupo Gráficos",
+        "Pestaña Vista, grupo Ventana"
+      ],
+      "correcta": 1,
+      "explicacion": "La página indica: «En la pestaña Inicio», «en el grupo Estilos», «haga clic en la flecha situada junto a Formato condicional».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-029",
+      "ley": null,
+      "articulo": "Editar el orden en el que se evalúan las reglas de formato condicional",
+      "fuente": "https://support.microsoft.com/es-es/office/usar-formato-condicional-para-resaltar-informaci%C3%B3n-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f",
+      "enunciado": "Si dos reglas de formato condicional entran en conflicto, ¿cuál se aplica?",
+      "opciones": [
+        "La que está en la parte inferior de la lista",
+        "La que se creó más recientemente",
+        "La que afecta a más celdas del rango",
+        "La que está en la parte superior de la lista"
+      ],
+      "correcta": 3,
+      "explicacion": "La página explica que, cuando hay conflictos entre dos reglas, «la regla que está en la parte superior de la lista se aplica y la regla que está por debajo de la lista no».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    },
+    {
+      "id": "xls-030",
+      "ley": null,
+      "articulo": "Aplicar formato a las celdas usando barras de datos",
+      "fuente": "https://support.microsoft.com/es-es/office/usar-formato-condicional-para-resaltar-informaci%C3%B3n-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f",
+      "enunciado": "En el formato condicional con barras de datos, una barra más larga representa:",
+      "opciones": [
+        "Un valor más alto",
+        "Un valor más bajo",
+        "Un valor duplicado",
+        "Un valor con error"
+      ],
+      "correcta": 0,
+      "explicacion": "La página indica: «La longitud de la barra de datos representa el valor de la celda. Una barra más larga representa un valor más alto».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 25
+      }
+    }
+  ]
+}

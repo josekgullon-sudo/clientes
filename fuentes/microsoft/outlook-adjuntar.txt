@@ -1,0 +1,205 @@
+Agregar imágenes o adjuntar archivos a correos en Outlook
+https://support.microsoft.com/es-es/outlook/mail/add-pictures-or-attach-files-to-emails-in-outlook
+Descargado: 2026-10-13
+
+Agregar imágenes o adjuntar archivos a correos electrónicos en Outlook
+Se aplica a Outlook para Microsoft 365 Outlook 2024 Outlook 2021 Office 365 Pequeña Empresa Outlook.com Nuevo Outlook para Windows
+Es fácil adjuntar imágenes, archivos y otros elementos a los mensajes de Outlook. Outlook realiza un seguimiento de los documentos con los que ha trabajado recientemente, independientemente de que estén almacenados en el equipo o se guarden en OneDrive (solo en la nube). E independientemente de dónde se almacenen, Outlook le permite elegir rápidamente si quiere enviar el documento como un archivo adjunto tradicional o cargarlo en OneDrive y compartir un vínculo al archivo. También puede establecer permisos en cualquier archivo enviado desde OneDrive que permiten a los destinatarios del mensaje verlos y editarlos o compartirlos con otros usuarios.
+Seleccione una de las siguientes opciones de pestaña para la versión de Outlook que está usando.
+¿Qué versión de Outlook tengo?
+Nuevo Outlook
+Outlook clásico
+Web
+Nota
+Si los pasos descritos en esta nueva ficha de Outlook no funcionan, es posible que aún no esté usando el nuevo Outlook. Seleccione Outlook clásico y siga esos pasos en su lugar.
+En el nuevo Outlook, tiene la opción de:
+Adjuntar un archivo | Cargar un archivo guardado localmente en OneDrive | Mostrar una imagen en el cuerpo de un mensaje | Adjuntar un correo electrónico
+Adjuntar un archivo a un mensaje de correo electrónico en el nuevo Outlook
+El nuevo Outlook realiza un seguimiento de los archivos en los que ha trabajado recientemente y los sugiere siempre que decida que quiere adjuntar un archivo a un mensaje de correo. Algunos tipos de archivos están bloqueados para el envío o la recepción. Vea Datos adjuntos bloqueados en Outlook para obtener la lista completa.
+En un mensaje nuevo, una respuesta o un mensaje de reenvío, seleccione Adjuntar archivo en el grupo Insertar de la pestaña Mensaje .
+Recomendación
+Solo verá Insertar grupo en la cinta de opciones cuando seleccione Nuevo correo , o después de seleccionar Responder , Responder a todos o Reenviar en un mensaje recibido.
+Seleccione el archivo de una de las siguientes ubicaciones:
+Archivos sugeridos
+Aquí se muestran los tres archivos en la nube más recientes en los que haya trabajado. Estos archivos pueden estar en OneDrive, SharePoint u otra biblioteca de documentos online. Seleccione un archivo para adjuntarlo al correo electrónico.
+OneDrive
+Las ubicaciones incluyen OneDrive , sitios de SharePoint o proveedores de almacenamiento en la nube de terceros conectados. Seleccione una de las ubicaciones para abrir una nueva ventana y, después, seleccione los datos adjuntos.
+Navegación
+Este equipo abre una ventana del explorador de archivos donde puede elegir un archivo del equipo.
+Si selecciona un archivo en el equipo local o la biblioteca de documentos del grupo, se adjunta una copia del archivo al correo electrónico. Pero seleccionar un archivo de OneDrive o SharePoint le proporciona información y opciones adicionales de permisos.
+Enviar un vínculo o enviar una copia : Enviar un vínculo al archivo de OneDrive o SharePoint hace que el tamaño del mensaje de correo sea reducido. Si opta por enviar una copia del archivo, todo el archivo se adjunta al correo electrónico, igual que si hubiera seleccionado un archivo en el equipo. Si decide enviar un vínculo al archivo, también puede establecer los permisos en el archivo.
+De forma predeterminada, si está en un entorno de empresa, todos los usuarios de la organización pueden editar el archivo vinculado. Para cambiar los permisos, seleccione la flecha situada a la derecha del nombre del archivo adjunto para mostrar un menú desplegable con una variedad de opciones de permisos.
+La organización puede editar : si desea que todos los usuarios de la organización puedan modificar el archivo. También podrán compartir el elemento con otros usuarios.
+La organización puede ver : si quiere que todos los usuarios de la organización puedan leer el archivo, pero no modificarlo. No se les permitirá compartir el elemento con otros usuarios.
+Los destinatarios pueden editar : si desea que solo los destinatarios de su correo electrónico puedan modificar el archivo. También podrán compartir el elemento con otros usuarios.
+Los destinatarios pueden ver : si desea que solo los destinatarios del correo electrónico puedan leer el archivo, pero no modificarlo. No podrán editar ni compartir el archivo con otras personas.
+Para obtener más información, visite Compartir archivos, carpetas y elementos de lista .
+Si el nuevo Outlook detecta que los destinatarios no podrán ver el archivo, por ejemplo, si está almacenado en un sitio de SharePoint que solo es accesible para usted, verá el vínculo resaltado en rojo con un icono de advertencia junto a él. Seleccione Administrar acceso para resolver el mensaje de advertencia. También puede administrar los permisos seleccionando la flecha.
+Nota
+Si adjunta un archivo como una copia, cualquier cambio que realice el destinatario no se sincronizará con la versión del archivo en OneDrive o en SharePoint.
+Advertencia sobre datos adjuntos olvidados
+Si menciona datos adjuntos en el mensaje de correo electrónico, pero no los incluye antes de enviar el mensaje, el nuevo Outlook mostrará una advertencia sobre los datos adjuntos olvidados. Después, puede decidir agregar datos adjuntos o enviar el mensaje sin uno.
+Esta característica solo está disponible para texto de correo electrónico con formato en inglés (EE. UU.) y es independiente del idioma usado para el nuevo Outlook. Por ejemplo, si usa una versión en español del nuevo Outlook y las herramientas de corrección para inglés (EE. UU.), puede crear un mensaje de correo electrónico con texto con formato en inglés (EE. UU.). Si menciona datos adjuntos en este mensaje, pero no adjunta uno, el nuevo Outlook mostrará una advertencia sobre los datos adjuntos olvidados.
+Volver arriba
+Cargar un archivo guardado localmente en OneDrive desde el nuevo Outlook
+Si adjunta un documento que está guardado en el equipo y no en una ubicación online, también puede elegir cargar el documento en OneDrive antes de enviar el correo electrónico. Cargar el archivo adjunto facilita la colaboración. Puede estar seguro de que todas las personas están colaborando en la misma versión del archivo (y la más actualizada). También puede cargarlo en OneDrive si el archivo es demasiado grande para compartirlo como datos adjuntos tradicionales.
+En la cinta de opciones, seleccione Adjuntar archivo , después Examinar este equipo y elija el archivo que quiere adjuntar.
+En el mensaje de correo, seleccione la flecha abajo del archivo adjunto.
+Elija Cargar en OneDrive y, después, seleccione la ubicación que quiere para el archivo.
+Nota
+Es posible que vea opciones como la ubicación de OneDrive de su cuenta profesional, la ubicación de OneDrive de su cuenta personal y bibliotecas de documentos para los distintos grupos a los que pertenece.
+El archivo aparecerá entonces como un vínculo descriptivo. Haga clic con el botón derecho en el vínculo descriptivo si desea adjuntarlo como copia, editar permisos o cambiar a la dirección URL completa.
+Para cambiar los permisos, seleccione el vínculo de datos adjuntos para mostrar un menú desplegable con una variedad de opciones de permisos.
+Para obtener más información, visite Compartir archivos, carpetas y elementos de lista .
+Volver arriba
+Mostrar una imagen en el cuerpo de un mensaje de correo electrónico en el nuevo Outlook
+Al enviar imágenes, puede adjuntar la imagen al mensaje de correo ( siga las instrucciones para adjuntar un archivo a un mensaje de correo ) o insertarla en el cuerpo del mensaje. Para mostrar imágenes dentro del mensaje, siga estos pasos:
+Coloque el cursor donde quiere que aparezca la imagen en el mensaje.
+En la cinta de opciones, seleccione Insertar y, después, Imágenes .
+Busque en el equipo o las ubicaciones de archivos online la imagen que quiere insertar. Seleccione la imagen y, a continuación, seleccione Abrir .
+Para cambiar el tamaño de la imagen, arrastre los controladores de una de las cuatro esquinas hacia el centro de la imagen o fuera del centro.
+Volver arriba
+Adjuntar un correo electrónico a otro evento de calendario o correo electrónico en el nuevo Outlook
+Responda, reenvíe o cree un mensaje de correo electrónico o un evento de calendario nuevos.
+Busque el mensaje de correo electrónico que desea adjuntar y arrástrelo y colóquelo directamente en el mensaje que está redactando.
+A medida que lo arrastres sobre el nuevo mensaje, aparecerá una sugerencia de Soltar mensajes aquí :
+Adjuntar información de calendario a un correo electrónico no es compatible con el nuevo Outlook. Puede compartir o publicar su calendario , o puede crear un sondeo de programación para facilitar la programación de reuniones.
+Nota
+Para compartir contactos, tendrá que exportarlos a .csv archivos y adjuntarlos como un archivo.
+Volver arriba
+En Outlook, tiene la opción de:
+Adjuntar un archivo | Cargar un archivo guardado localmente en OneDrive | Mostrar una imagen en el cuerpo de un mensaje | Adjuntar un elemento de correo electrónico
+Adjuntar un archivo a un mensaje de correo electrónico en Outlook clásico
+Outlook realiza un seguimiento de los archivos en los que ha trabajado recientemente y los sugiere siempre que decida que quiere adjuntar un archivo a un mensaje de correo. Algunos tipos de archivos están bloqueados para el envío o la recepción. Vea Datos adjuntos bloqueados en Outlook para obtener la lista completa.
+En el borrador del mensaje, vaya a la pestaña Mensaje y seleccione Adjuntar archivo en el grupo Incluir .
+Recomendación
+Solo verá Incluir en la cinta de opciones cuando seleccione Nuevo correo , o después de seleccionar Responder , Responder a todos o Reenviar en un mensaje recibido.
+Seleccione el archivo de una de las siguientes ubicaciones:
+Elementos recientes
+Aquí se muestran los 12 archivos más recientes en los que haya trabajado. Estos archivos pueden estar en el equipo, en OneDrive, SharePoint u otra biblioteca de documentos online. Seleccione un archivo para adjuntarlo al correo electrónico.
+Adjuntar elemento
+Le da la opción de incluir una tarjeta de presentación o un elemento de Outlook.
+Explorar ubicaciones web
+Las ubicaciones incluyen OneDrive , sitios de SharePoint u otras ubicaciones, como una biblioteca de documentos de grupos, a las que haya obtenido acceso anteriormente. Seleccione una de las ubicaciones para abrir una nueva ventana y, después, seleccione los datos adjuntos.
+Enviar un vínculo al archivo de OneDrive o SharePoint hace que el tamaño del mensaje de correo sea reducido. Si opta por enviar una copia del archivo, todo el archivo se adjunta al correo electrónico, igual que si hubiera seleccionado un archivo en el equipo. Si decide enviar un vínculo al archivo, también puede establecer los permisos en el archivo.
+Examinar este equipo
+Se abre una ventana del Explorador de archivos donde puede elegir un archivo del equipo.
+Si ha seleccionado un archivo en el equipo o la biblioteca de documentos del grupo, se adjunta una copia del archivo al correo electrónico. Pero seleccionar un archivo de OneDrive o SharePoint le proporciona información y opciones adicionales de permisos.
+Si está en un entorno de empresa, todos los usuarios de la organización pueden editar el archivo vinculado de forma predeterminada. Puede cambiar estos permisos una vez que haya insertado los datos adjuntos en el correo electrónico. Seleccione la flecha situada a la derecha del nombre del archivo adjunto para mostrar un menú desplegable con una variedad de opciones de permisos:
+La organización puede editar , si quiere que todos los usuarios de la organización puedan modificar el archivo.
+La organización puede ver , si quiere que todos los usuarios de la organización puedan leer el archivo, pero no modificarlo.
+Los destinatarios pueden editar , si quiere que solo los destinatarios del correo electrónico puedan modificar el archivo.
+Los destinatarios pueden ver , si quiere que solo los destinatarios del correo electrónico puedan leer el archivo, pero no modificarlo.
+Si Outlook detecta que los destinatarios no podrán ver el archivo, por ejemplo, si está almacenado en un sitio de SharePoint que solo es accesible para usted, verá un mensaje de advertencia directamente bajo el icono de archivo y el nombre. Seleccione Adjuntar como copia para cambiar los datos adjuntos de un archivo vinculado a una copia del archivo.
+Nota
+Si adjunta un archivo como una copia, cualquier cambio que realice el destinatario no se sincronizará con la versión del archivo en OneDrive o en SharePoint.
+Advertencia sobre datos adjuntos olvidados
+Si menciona datos adjuntos en el mensaje de correo electrónico, pero no los incluye antes de enviar el mensaje, Outlook mostrará una advertencia sobre los datos adjuntos olvidados. Después, puede decidir agregar datos adjuntos o enviar el mensaje sin uno.
+Esta característica solo está disponible para texto de correo electrónico con formato en inglés (EE. UU.) y es independiente del idioma usado para Outlook. Por ejemplo, si usa una versión en español de Outlook y las herramientas de corrección para inglés (EE. UU.), puede crear un mensaje de correo electrónico con texto con formato en inglés (EE. UU.). Si menciona datos adjuntos en este mensaje, pero no adjunta uno, Outlook mostrará una advertencia sobre los datos adjuntos olvidados.
+Volver arriba
+Cargar un archivo guardado localmente en OneDrive desde la versión clásica de Outlook
+Si adjunta un documento que está guardado en el equipo y no en una ubicación online, también puede elegir cargar el documento en OneDrive antes de enviar el correo electrónico. Cargar el archivo adjunto facilita la colaboración. Puede estar seguro de que todas las personas están colaborando en la misma versión del archivo (y la más actualizada). También puede cargarlo en OneDrive si el archivo es demasiado grande para compartirlo como datos adjuntos tradicionales.
+En la cinta de opciones, seleccione Adjuntar archivo > Examinar este equipo y elija el archivo que quiere adjuntar.
+En el mensaje de correo, seleccione la flecha abajo del archivo adjunto.
+Elija Cargar > OneDrive y, a continuación, elija la ubicación deseada para el archivo.
+Nota
+Es posible que vea opciones como la ubicación de OneDrive de su cuenta profesional, la ubicación de OneDrive de su cuenta personal y bibliotecas de documentos para los distintos grupos a los que pertenece.
+En el mensaje de correo, seleccione el vínculo del archivo adjunto y, a continuación, seleccione Administrar acceso .
+Elija para quién funciona el vínculo:
+People de su organización : permite que cualquier persona de su organización vea el archivo.
+Destinatarios de este mensaje : Si desea que solo los destinatarios de su correo electrónico puedan modificar el archivo.
+Solo las personas con acceso previo : vuelva a compartir con las personas que ya tienen acceso.
+Elija quién puede editar el archivo en Más configuraciones :
+Puede editar : los destinatarios realizan los cambios.
+Puede revisar : solo puede sugerir cambios.
+Puede ver : no se pueden realizar cambios.
+No se puede descargar : se puede ver, pero no descargar.
+También puede establecer una fecha de expiración para restringir el acceso a la vista y a la edición después de la fecha que elija.
+Volver arriba
+Mostrar una imagen en el cuerpo de un mensaje de correo electrónico en Outlook clásico
+Al enviar imágenes, puede adjuntar la imagen al mensaje de correo ( siga las instrucciones para adjuntar un archivo a un mensaje de correo ) o insertarla en el cuerpo del mensaje. Para mostrar imágenes dentro del mensaje, siga estos pasos:
+Coloque el cursor donde quiere que aparezca la imagen en el mensaje.
+En la cinta de opciones, seleccione Insertar > imágenes .
+Busque en el equipo o las ubicaciones de archivos online la imagen que quiere insertar. Seleccione la imagen y luego haga clic en Insertar .
+Para cambiar el tamaño de la imagen, arrastre los controladores de una de las cuatro esquinas hacia el centro de la imagen o fuera del centro.
+Nota
+Para obtener más información sobre cómo cambiar el tamaño de las imágenes en Outlook, vea Enviar archivos grandes en Outlook
+Volver arriba
+Adjuntar una tarjeta de presentación, un calendario o un correo electrónico a un mensaje de correo electrónico en Outlook clásico
+En un mensaje nuevo, seleccione Adjuntar archivo > Adjuntar elemento .
+Elija una de las opciones siguientes:
+Tarjeta de presentación
+Elija una tarjeta de presentación electrónica de su lista de contactos.
+Calendario
+Elija Intervalo de fechas , Detalles y otras opciones según corresponda.
+Adjuntar elemento (por ejemplo, un correo electrónico)
+Elija uno o varios de los mensajes de correo de cualquiera de las carpetas de correo electrónico.
+Seleccione el elemento que quiere adjuntar y después haga clic en Insertar .
+Volver arriba
+En Outlook en la Web y Outlook.com, tiene la opción de:
+Adjuntar un archivo | Adjuntar un vínculo desde OneDrive | Insertar una imagen en el cuerpo de un mensaje | Adjuntar un elemento | de correo electrónico Compartir una carpeta
+Puede adjuntar fotos y documentos desde su equipo o OneDrive a mensajes de correo electrónico y eventos de calendario. Los datos adjuntos siempre aparecen en la parte superior del correo electrónico.
+También puede insertar imágenes en cualquier lugar de los mensajes, para que los destinatarios vean la imagen donde quiera, tan pronto como abran el correo electrónico. No es necesario abrirlos para verlos.
+Los datos adjuntos tienen el siguiente aspecto:
+Las imágenes insertadas tienen el siguiente aspecto:
+Volver arriba
+Adjunte un archivo o una imagen desde su equipo en Outlook en la Web o Outlook.com
+Responda, reenvíe o cree un mensaje de correo electrónico o un evento de calendario nuevos.
+Seleccione , Adjuntar y, después, Examinar este equipo .
+Elija el archivo que quiere adjuntar y seleccione Abrir . Para adjuntar más de un archivo, mantenga presionada la tecla CTRL (o Comando en Mac) mientras selecciona varios archivos.
+Nota
+Al adjuntar un archivo desde el equipo, adjuntará una copia del archivo. Cada destinatario recibirá su propia copia del archivo.
+También puede arrastrar y colocar archivos desde su equipo en su mensaje. A medida que los arrastres sobre un mensaje nuevo, aparecerá la sugerencia Eliminar archivos aquí :
+Volver arriba
+Adjuntar un vínculo a una imagen, archivo o carpeta desde OneDrive para Outlook en la Web o Outlook.com
+Responda, reenvíe o cree un mensaje de correo electrónico o un evento de calendario nuevos.
+Seleccione , Adjuntar archivo y, después , OneDrive .
+Elija el archivo de su OneDrive u otro almacenamiento en la nube que quiera vincular y seleccione Siguiente . Para adjuntar más de un archivo, mantenga presionada la tecla CTRL (o Comando en Mac) mientras selecciona varios archivos.
+También puede usar Copiar vínculo de datos adjuntos de OneDrive y pegarlo en otro lugar.
+Nota
+Al adjuntar un vínculo de OneDrive, todos los destinatarios pueden ver o editar el mismo archivo .
+Si quiere restringir la edición, seleccione Más acciones en los datos adjuntos y, después, Administrar acceso .
+Para agregar una ubicación en la nube, como Box, Dropbox o Google Drive, abre la configuración de tu cuenta de almacenamiento .
+Todos los archivos que edite en el explorador estarán en la carpeta de datos adjuntos de OneDrive .
+Volver arriba
+Insertar una imagen en el cuerpo de un mensaje en Outlook en la Web o Outlook.com
+Los datos adjuntos siempre aparecen encima del cuerpo del mensaje, pero puede insertar imágenes alineadas en cualquier lugar del mensaje. No es necesario descargar las imágenes insertadas para que el destinatario las vea.
+Responda, reenvíe o cree un mensaje de correo electrónico o un evento de calendario y coloque el cursor donde quiera agregar las imágenes
+Seleccione Insertar > imágenes , elija el archivo que desea insertar y, a continuación, seleccione Abrir . Para insertar más de un archivo, mantenga presionada la tecla CTRL (o Comando en Mac) mientras selecciona varios archivos.
+Arrastre los controladores de esquina para cambiar el tamaño de la imagen o haga clic con el botón derecho en la imagen para ver las opciones de formato.
+Volver arriba
+Adjuntar un correo electrónico a otro correo electrónico en Outlook en la Web o Outlook.com
+Responda, reenvíe o cree un mensaje de correo electrónico o un evento de calendario nuevos.
+Muévelo a una nueva ventana seleccionando Abrir en nueva ventana .
+Organice las ventanas para que pueda ver la lista de mensajes y el nuevo mensaje en paralelo.
+Recomendación
+Usar la tecla Windows con < o > para organizar las ventanas.
+Seleccione los correos electrónicos que desea adjuntar al nuevo mensaje.
+Arrastre los mensajes seleccionados de la lista de mensajes al cuerpo del mensaje nuevo. A medida que los arrastres sobre el nuevo mensaje, aparecerá la sugerencia Soltar mensajes aquí :
+Volver arriba
+Compartir una carpeta en Outlook en la Web o Outlook.com
+No puede adjuntar una copia de una carpeta en versiones basadas en web de Outlook. Sin embargo, puede compartir una carpeta en OneDrive.
+Selecciona el icono de OneDrive en la barra de tareas y selecciona Ver en línea . Se abrirá OneDrive en un explorador web.
+En el equipo, abra Explorador de archivos y vaya a la carpeta que desee adjuntar.
+Arrastre la carpeta a OneDrive en el explorador web.
+Vaya a Outlook en la Web y cree un mensaje nuevo o abra un mensaje desde la lista de mensajes.
+Seleccione > Examinar ubicaciones en la nube , elija la carpeta de OneDrive que quiere adjuntar y seleccione Siguiente .
+Seleccione Compartir como un vínculo de OneDrive .
+IMPORTANTE: De forma predeterminada, los destinatarios podrán editar los archivos de la carpeta. Para cambiar los permisos para que los destinatarios pueden ver solo los archivos, realice lo siguiente:
+Seleccione > Más acciones Administrar el acceso > que los destinatarios pueden ver .
+Volver arriba
+Sugerencias para enviar y recibir archivos adjuntos
+Si responde a un mensaje que tiene datos adjuntos, los datos adjuntos no se incluirán en la respuesta.
+No abra ningún dato adjunto enviado en un mensaje de correo electrónico a menos que confíe en el contenido y en la persona que lo envió. Los datos adjuntos son un método común para propagar virus informáticos.
+Los nombres de archivo largos de datos adjuntos se pueden acortar en Outlook en la Web. Esto no afectará al contenido del archivo.
+Solo puede adjuntar archivos a eventos del calendario que haya creado usted o un delegado.
+Además de restringir el tamaño de los mensajes, algunos sistemas de correo electrónico ponen un límite en el tamaño total del buzón. Dado que todos los mensajes que envíe se almacenan en la carpeta Elementos enviados, reducir el tamaño de los datos adjuntos puede ayudar a reducir el tamaño del buzón.
+Vea también
+Enviar archivos grandes con Outlook
+Abrir, guardar, obtener una vista previa y editar datos adjuntos en Outlook
+Solucionar problemas con datos adjuntos en Outlook para Windows
+Imprimir datos adjuntos recibidos en Outlook
+Quitar datos adjuntos en Outlook
+Buscar todos los mensajes con datos adjuntos en Outlook
+Datos adjuntos bloqueados en Outlook
+Adjuntar un archivo o carpeta a un mensaje en Outlook para Mac

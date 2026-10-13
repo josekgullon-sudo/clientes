@@ -1,0 +1,300 @@
+Personalizar la barra de tareas en Windows
+https://support.microsoft.com/es-es/windows/experience/personalization/customize-the-taskbar-in-windows
+Descargado: 2026-10-13
+
+Personalizar la barra de tareas en Windows
+Obtener ayuda con Copilot
+¿Cómo configuro los comportamientos de la barra de tareas?
+¿Cómo cambio las unidades de temperatura en la barra de tareas?
+¿Cómo configuro el diseño de la barra de tareas?
+La barra de tareas de Windows es una parte central del sistema operativo Windows que te ayuda a iniciar aplicaciones, cambiar entre ventanas abiertas y acceder a características del sistema como notificaciones, búsqueda y el menú Inicio. En Windows 11 y Windows 10, la barra de tareas se puede personalizar para que se adapte mejor a su forma de trabajar, ya sea centrando los iconos de la barra de tareas, anclando las aplicaciones más usadas o controlando qué iconos de la bandeja del sistema son visibles.
+La personalización de la barra de tareas te permite simplificar la multitarea y tener las herramientas esenciales al alcance de la mano. Puedes cambiar la alineación de los iconos, agregar o quitar aplicaciones, y mostrar u ocultar los iconos del sistema para reducir el desorden y mejorar la concentración.
+Este artículo te guía paso a paso para personalizar la barra de tareas de Windows. Aprenderás a ajustar la alineación de la barra de tareas, administrar aplicaciones ancladas y controlar la visibilidad de la bandeja del sistema para que puedas personalizar la barra de tareas y adaptarla a tu flujo de trabajo y preferencias
+Windows 11
+Windows 10
+Configurar el diseño de la barra de tareas
+La barra de tareas de Windows consta de varios componentes, cada uno de los cuales tiene un propósito único:
+1. Widgets
+2. Inicio
+3. Buscar
+4. Vista de tareas
+5. Aplicaciones
+6. Bandeja del sistema
+Aunque algunos componentes se pueden personalizar o quitar para adaptarlos a sus preferencias, otros son esenciales para el correcto funcionamiento de Windows y no se pueden quitar. Expande cada sección para obtener más información sobre cada componente o área de la barra de tareas y descubre cómo puedes personalizar la barra de tareas para que se adapte mejor a tus necesidades.
+Nota
+De manera predeterminada, la barra de tareas está centrada en Windows 11. Si quiere que se alinee a la izquierda, consulte Cambiar la alineación de la barra de tareas .
+Widgets
+Los widgets son elementos interactivos que muestran contenido dinámico y proporcionan acceso rápido a diversas aplicaciones y características. Están diseñados para ayudarle a mantenerse informado y organizado presentando información personalizada de un vistazo.
+Para abrir el panel de widgets, puede:
+Mantenga el mouse sobre el botón Widgets de la barra de tareas o selecciónelo
+Presionar la tecla
++ Windows W
+Deslice el dedo rápidamente desde el lateral de la pantalla si la barra de tareas se alinea en el centro
+Para mostrar u ocultar widgets en la barra de tareas:
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+En los elementos de la barra de tareas , cambie el interruptor de los widgets a activado o desactivado
+Para obtener más información sobre los widgets, consulte Mantenerse al día con los widgets en Windows .
+Inicio
+El menú Inicio es un concentrador central que proporciona acceso rápido a las aplicaciones, la configuración y los archivos. El menú Inicio está dividido en varias secciones, incluidas las aplicaciones ancladas , todas y recomendadas , lo que le permite encontrar e iniciar fácilmente sus aplicaciones más usadas y archivos recientes. Está diseñado para ser intuitivo y personalizable, ayudándote a navegar eficazmente por tu sistema y personalizar tu experiencia de Windows.
+Además, el menú Inicio incluye opciones de cuenta de usuario, que le permiten iniciar y cerrar sesión, bloquear el dispositivo o cambiar de cuenta de usuario.
+Para abrir el menú Inicio, puedes:
+Selecciona el botón Inicio en la barra de tareas
+Presionar la tecla Windows del teclado
+Deslice el dedo rápidamente desde la parte inferior de la pantalla
+Aunque no puedes quitar el menú Inicio de la barra de tareas, puedes cambiar su posición para que esté alineado a un lado en lugar de centrado. Para obtener más información, consulta Cambiar la alineación de la barra de tareas .
+Para obtener más información sobre el menú Inicio, consulta Personalizar el menú Inicio de Windows .
+Buscar
+Windows Search es una potente característica que le permite encontrar archivos, aplicaciones, configuraciones e incluso resultados web directamente desde el escritorio. El cuadro de búsqueda, situado cómodamente en la barra de tareas, proporciona una forma sencilla de acceder a esta funcionalidad. Además, Windows Search integra funcionalidades de búsqueda web de Microsoft Bing, lo que le permite obtener resultados de búsqueda sin abrir un explorador.
+Para abrir la búsqueda, puede:
+Para iniciar una búsqueda con Windows Search, puede:
+Use el cuadro de búsqueda de la barra de tareas : seleccione el cuadro de búsqueda situado en la barra de tareas y empiece a escribir la consulta. Se mostrará una lista de resultados relevantes, incluidos archivos, aplicaciones, configuración y resultados web con tecnología de Microsoft Bing
+Presione la tecla
++ S de Windows para abrir el cuadro de búsqueda
+Búsqueda en el menú Inicio : también puedes iniciar una búsqueda abriendo el menú Inicio y escribiendo la consulta directamente
+Para configurar la búsqueda en la barra de tareas:
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+En los elementos de la barra de tareas , usa el menú desplegable para configurar el área de búsqueda. Elige una de las siguientes opciones:
+Cuadro de búsqueda : muestra un cuadro de texto completo para escribir la búsqueda
+Icono y etiqueta de búsqueda : muestra un icono de búsqueda junto con la etiqueta " Buscar "
+Solo el icono de búsqueda : muestra solo el icono de búsqueda
+Ocultar : quita la característica de búsqueda de la barra de tareas
+Para obtener más información, consulta Buscar cualquier cosa, en cualquier lugar .
+Vista de tareas
+El botón de vista de tareas de la barra de tareas está diseñado para mejorar tu experiencia multitarea en Windows. Le permite acceder rápidamente y administrar todas las ventanas abiertas y varios escritorios. Al abrir la vista de tareas, se muestra una vista en miniatura de todas las aplicaciones activas, lo que facilita el cambio entre tareas o el cierre de ventanas innecesarias. Además, la vista de tareas le permite crear y administrar varios escritorios, lo que proporciona un área de trabajo ordenada y adaptada a diferentes proyectos o actividades. Esta característica es especialmente útil cuando necesita organizar su flujo de trabajo de forma eficaz y centrarse en tareas específicas.
+Para abrir la Vista de tareas, puede:
+Seleccione el botón vista de tareas en la barra de tareas
+Presionar la tecla
++ Windows Tab
+Para mostrar u ocultar el botón de vista de tareas de la barra de tareas:
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+En los elementos de la barra de tareas , active o desactive el conmutador de la vista de tareas
+Para obtener más información, consulta Cómo realizar varias tareas en Windows y configurar varios escritorios en Windows .
+Aplicaciones
+El área de la barra de tareas que se usa para las aplicaciones en Windows está diseñada para proporcionar acceso rápido y administración de las aplicaciones. Puedes anclar tus aplicaciones favoritas a la barra de tareas o desanclar las aplicaciones que no se usan. Además, puede reorganizar los iconos seleccionándolos y arrastrándolos en el orden que prefiera.
+Las aplicaciones en ejecución se muestran en la barra de tareas con una línea debajo del icono para indicar que están abiertas. La aplicación activa actualmente se resalta con el color de énfasis de Windows, lo que facilita la identificación de qué aplicación está en uso. Esta configuración permite realizar varias tareas de forma eficaz y navegar rápidamente entre las aplicaciones.
+Anclar una aplicación a la barra de tareas
+Hay diferentes maneras de anclar aplicaciones a la barra de tareas. Por ejemplo:
+En el cuadro de búsqueda de la barra de tareas, escribe el nombre de la aplicación que deseas anclar a la barra de tareas. Haga clic con el botón derecho en la aplicación y, a continuación, seleccione Anclar a la barra de tareas
+Si la aplicación ya está abierta, haz clic con el botón derecho en el icono de la barra de tareas y, a continuación, selecciona Anclar a la barra de tareas
+Desanclar una aplicación de la barra de tareas
+Para desanclar una aplicación, haz clic con el botón derecho en el icono anclado en la barra de tareas y, a continuación, selecciona Desanclar de la barra de tareas .
+Reorganizar las aplicaciones en la barra de tareas
+Siempre que quieras cambiar el orden de los botones de la aplicación en la barra de tareas, arrastra el icono de la aplicación desde su posición actual a otra.
+Recomendación
+Cada aplicación de la barra de tareas ofrece una lista de accesos directos, que le permite realizar rápidamente determinadas tareas, como abrir un archivo reciente o acceder a características usadas con frecuencia. Para acceder a la lista de accesos directos, simplemente haga clic con el botón derecho en el icono de la aplicación. Si desea controlar la visualización de las listas de accesos directos, vaya a Configuración > Personalización > Inicio y active la opción Mostrar elementos abiertos recientemente en Listas de accesos directos en Inicio o en la barra de tareas .
+Bandeja del sistema
+El área de la bandeja del sistema en la barra de tareas incluye varios botones y elementos que proporcionan acceso rápido a las funciones y notificaciones del sistema. Puedes personalizar cada parte de la bandeja del sistema para adaptarla a tus preferencias.
+Aplicaciones en segundo plano y herramientas del sistema
+La bandeja del sistema de la barra de tareas muestra iconos para las aplicaciones en segundo plano, lo que facilita su supervisión e interacción con ellas. Puedes personalizar qué aplicaciones y herramientas del sistema, como el menú del lápiz, el teclado táctil y el panel táctil virtual, son visibles para mantener la barra de tareas organizada y centrada en lo que es importante. Además, la bandeja del sistema cuenta con indicadores de privacidad dinámicos que muestran información en tiempo real sobre la ubicación, el micrófono y el acceso a la cámara, lo que le ofrece transparencia y control sobre la configuración de privacidad.
+Para personalizar el área de la bandeja del sistema:
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+En Iconos de la bandeja del sistema , elija los iconos que desea que aparezcan en la bandeja del sistema. Las opciones son Menú lápiz , Teclado táctil y Panel táctil virtual
+En Otros iconos de la bandeja del sistema , seleccione si desea habilitar el menú de iconos ocultos (también denominado área de desbordamiento ) y qué iconos pueden aparecer en la bandeja del sistema
+Para reorganizar los iconos en el área de la bandeja del sistema, puede arrastrarlos y colocarlos. Puede mover los iconos que son visibles actualmente en la bandeja del sistema, así como los del área de desbordamiento. Para que un icono sea visible, arrástrelo desde el área de contenido adicional a la bandeja del sistema. Por el contrario, para ocultar un icono, arrástrelo desde la bandeja del sistema hasta el área de contenido adicional.
+Configuración rápida
+La configuración rápida proporciona una manera cómoda de acceder a la configuración usada con frecuencia y modificarla sin tener que navegar por los menús. Por ejemplo, puedes ajustar rápidamente el volumen, cambiar el brillo de la pantalla, cambiar Wi-Fi redes o activar las herramientas de accesibilidad.
+El área Configuración rápida consta de:
+Icono de red : este icono representa la conexión Wi-Fi o Ethernet
+Icono de volumen : este icono representa la configuración de sonido
+Icono de batería : este icono representa el estado de la batería en portátiles y tabletas
+Para abrir la Configuración rápida, puede:
+Seleccionar el área Configuración rápida en la barra de tareas
+Presione la tecla
++ A de Windows
+Deslice el dedo desde la parte inferior del área Configuración rápida
+Aunque no puedes quitar la configuración rápida de la barra de tareas, puedes personalizarla moviendo y organizando los elementos para adaptarlos a tus preferencias.
+Recomendación
+Si hace clic con el botón derecho en uno de los iconos del área de Configuración rápida, puede acceder rápidamente a las opciones de configuración o diagnóstico.
+Calendar y área de notificación
+El área de calendario y notificación proporciona una forma cómoda de acceder al calendario, donde puedes iniciar una sesión de enfoque, y al centro de notificaciones . El centro de notificaciones muestra alertas y notificaciones sobre correos electrónicos entrantes, actualizaciones y otras actividades del sistema.
+Para abrir el control flotante del calendario y del centro de notificaciones, puede:
+Seleccione el icono del reloj o de la campana de notificación en la barra de tareas
+Presione la tecla
++ de Windows N
+Deslice el dedo desde el lateral de la pantalla
+Para mostrar u ocultar la hora y la fecha en la barra de tareas:
+Haga clic con el botón derecho en el reloj de la barra de tareas y seleccione Ajustar fecha y hora , o use el siguiente acceso directo:
+Fecha & hora
+Cambie la hora y la fecha en la bandeja del sistema a activado o desactivado
+Si está activado, puedes mostrar los segundos junto a las horas y los minutos en el reloj de la bandeja del sistema activando la opción Mostrar segundos en el reloj de la bandeja del sistema (usa más energía)
+Para obtener más información, consulta Cómo usar Foco en Windows y Notificaciones y No molestar en Windows .
+Cambiar el color de la barra de tareas
+Puede modificar el color de la barra de tareas cambiando el modo de color de Windows o configurando colores de énfasis.
+Para obtener más información, consulte Personalizar los colores en Windows .
+Configurar los comportamientos de la barra de tareas
+Además de personalizar el diseño de la barra de tareas, puede cambiar varios comportamientos para mejorar la experiencia del usuario. Estos comportamientos incluyen cómo responde la barra de tareas a diferentes acciones, como ocultarse automáticamente cuando no está en uso, mostrar distintivos en los botones de la barra de tareas y administrar las notificaciones del sistema. Ajustando esta configuración, puedes crear un flujo de trabajo más eficaz y personalizado que se adapte a tus necesidades específicas. Expande cada sección para obtener más información.
+Cambiar la alineación de la barra de tareas
+Normalmente, los iconos de la barra de tareas están centrados, pero también puedes alinearlos al lado de la barra de tareas.
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+Expanda los comportamientos de la barra de tareas y seleccione la opción que desee para alinear la barra de tareas
+Nota
+La configuración de la barra de tareas te permite alinear los iconos de la barra de tareas en el centro o a la izquierda. No hay ninguna configuración para mover una barra de tareas a la parte superior o lateral de la pantalla. La barra de tareas se coloca en la parte inferior de la pantalla.
+Mostrar distintivos en las aplicaciones de la barra de tareas
+Un distintivo en un botón de la barra de tareas es una alerta para informarte de que se está realizando alguna actividad o es necesario que se realice con esa aplicación.
+Por ejemplo, una insignia de campana en la aplicación Reloj le avisa sobre una alarma activa que le notificará a la hora que establezca.
+Para modificar el comportamiento de la barra de tareas:
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+Expanda los comportamientos de la barra de tareas y active o desactive la opción Mostrar insignias en las aplicaciones de la barra de tareas
+Mostrar parpadeo en las aplicaciones de la barra de tareas
+Esta opción controla si los iconos de las aplicaciones de la barra de tareas parpadean para llamar tu atención cuando la necesitan. Esto suele ocurrir cuando una aplicación se abre minimizada o detrás de otra ventana y requiere su interacción. De forma predeterminada, el icono de una aplicación parpadea varias veces y permanece resaltado hasta que lo selecciona o abre la aplicación.
+Para modificar el comportamiento de la barra de tareas:
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+Expanda los comportamientos de la barra de tareas y active o desactive la opción Mostrar parpadeo en las aplicaciones de la barra de tareas
+Compartir cualquier ventana
+Esta opción está diseñada para mejorar la productividad y mejorar el proceso de uso compartido de información durante las reuniones en línea, especialmente cuando se usa Microsoft Teams. Cuando se encuentra en una llamada de reunión a través de Microsoft Teams, puede mantener el puntero sobre las aplicaciones que se ejecutan en la barra de tareas y se le pedirá un botón que le permite compartir la ventana con los asistentes a la reunión. Esto elimina la necesidad de cambiar entre aplicaciones, lo que garantiza una experiencia de reunión fluida e ininterrumpida. Para dejar de compartir, puede volver a pasar el ratón por encima de la ventana y seleccionar Dejar de compartir o elegir otra ventana para compartir.
+Para modificar el comportamiento de la barra de tareas:
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+Expanda los comportamientos de la barra de tareas y active o desactive la opción Compartir cualquier ventana de mi barra de tareas
+Mostrar la barra de tareas en todas las pantallas
+Esta opción permite mostrar la barra de tareas en varios monitores. Cuando la opción está habilitada, la barra de tareas aparece en todas las pantallas conectadas, lo que proporciona fácil acceso a las aplicaciones ancladas, el menú Inicio y la bandeja del sistema en cada pantalla. Esto puede ser útil si quieres una experiencia de barra de tareas coherente en todas las pantallas.
+Para modificar el comportamiento de la barra de tareas:
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+Expanda los comportamientos de la barra de tareas y active o desactive la opción Mostrar mi barra de tareas en todas las pantallas
+Ocultar la barra de tareas automáticamente
+Puede ocultar la barra de tareas tanto en el modo de escritorio como en el modo tableta. Mantenga presionado (o haga clic con el botón derecho) cualquier espacio vacío en la barra de tareas, seleccione la configuración de la barra de tareas, seleccione los comportamientos de la barra de tareas y seleccione Ocultar automáticamente la barra de tareas .
+Para ver la barra de tareas después de que esté oculta, pase el mouse sobre el borde inferior de la pantalla o toque.
+Para modificar el comportamiento de la barra de tareas:
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+Expanda los comportamientos de la barra de tareas y active o desactive la opción Ocultar automáticamente la barra de tareas
+Usar la barra de tareas optimizada para tableta en dispositivos 2 en 1
+Nota
+Esta opción solo está disponible en dispositivos 2 en 1 con funcionalidad de tableta.
+Cuando desconectes o dobles el teclado en tu dispositivo 2 en 1, ahora verás la barra de tareas optimizada para tabletas. Esta barra de tareas tiene dos estados: contraído y expandido. En el estado contraído, la barra de tareas se minimiza para que pueda centrarse en la tarea, pero aún puede ver iconos de estado crítico como la hora o el nivel de batería. Cuando necesites usar la barra de tareas, desliza el dedo hacia arriba desde la parte inferior para ver el estado expandido que tiene un diseño táctil con iconos más grandes. Al iniciar una aplicación, la barra de tareas se contrae automáticamente de nuevo.
+Para activar o desactivar la barra de tareas optimizada para tabletas:
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+Para desactivar la barra de tareas optimizada para tabletas, desactiva la casilla situada junto a Optimizar la barra de tareas para interacciones táctiles cuando este dispositivo se use como tableta . Para volver a activarla, vuelva a comprobar la casilla
+Mostrar el escritorio
+Esta pequeña área situada en el lateral de la barra de tareas es útil para acceder rápidamente al escritorio minimizando todas las ventanas abiertas. Solo tienes que seleccionar esta área para acceder al escritorio. Selecciónala de nuevo para restaurar las ventanas abiertas a su estado anterior.
+Para configurar esta área:
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+Expanda la sección Comportamientos de la barra de tareas y, a continuación, habilite o deshabilite la opción Seleccione la esquina más alejada de la barra de tareas para mostrar el escritorio
+Nota
+El soporte técnico para Windows 10 finalizó el 14 de octubre de 2025
+Después del 14 de octubre de 2025, Microsoft ya no proporcionará actualizaciones de software gratuitas desde Windows Update, asistencia técnica ni correcciones de seguridad para Windows 10. El PC seguirá funcionando, pero recomendamos que se cambie a Windows 11.
+Más información
+Configurar el diseño de la barra de tareas
+La barra de tareas de Windows consta de varios componentes, cada uno de los cuales tiene un propósito único:
+1. Inicio
+2. Buscar
+3. Vista de tareas
+4. Aplicaciones
+5. Noticias e interés
+6. Área de notificación
+Aunque algunos componentes se pueden personalizar o quitar para adaptarlos a sus preferencias, otros son esenciales para el correcto funcionamiento de Windows y no se pueden quitar. Expande cada sección para obtener más información sobre la barra de tareas y descubre cómo puedes personalizarla para que se adapte mejor a tus necesidades.
+Inicio
+El menú Inicio es un concentrador central que proporciona acceso rápido a las aplicaciones, la configuración y los archivos. El diseño del menú Inicio se puede personalizar, lo que le permite encontrar e iniciar fácilmente sus aplicaciones y sitios web más usados.
+Además, el menú Inicio incluye opciones de cuenta de usuario, que le permiten iniciar y cerrar sesión, bloquear el dispositivo o cambiar de cuenta de usuario.
+Para obtener más información sobre el menú Inicio, consulta Personalizar el menú Inicio de Windows .
+Buscar
+Windows Search es una potente característica que le permite encontrar archivos, aplicaciones, configuraciones e incluso resultados web directamente desde el escritorio. El cuadro de búsqueda, situado cómodamente en la barra de tareas, proporciona una forma sencilla de acceder a esta funcionalidad. Además, Windows Search integra funcionalidades de búsqueda web de Microsoft Bing, lo que le permite obtener resultados de búsqueda sin abrir un explorador.
+Para configurar la búsqueda en la barra de tareas:
+Haga clic con el botón derecho en la barra de tareas y seleccione Buscar
+Elige una de las siguientes opciones:
+Oculto : quita la característica de búsqueda de la barra de tareas
+Mostrar solo el icono de búsqueda : muestra solo el icono de búsqueda
+Mostrar cuadro de búsqueda : muestra un cuadro de texto completo para escribir la búsqueda
+Mostrar lo más destacado de la búsqueda: muestra momentos interesantes de todo el mundo directamente en su cuadro de búsqueda
+Abrir al mantener el puntero : úselo para habilitar o deshabilitar la búsqueda mientras mantiene el puntero sobre Buscar
+Para obtener más información, consulta Buscar cualquier cosa, en cualquier lugar .
+Vista de tareas
+El botón de vista de tareas de la barra de tareas está diseñado para mejorar tu experiencia multitarea en Windows. Le permite acceder rápidamente y administrar todas las ventanas abiertas y varios escritorios. Al abrir la vista de tareas, se muestra una vista en miniatura de todas las aplicaciones activas, lo que facilita el cambio entre tareas o el cierre de ventanas innecesarias. Además, la vista de tareas le permite crear y administrar varios escritorios, lo que proporciona un área de trabajo ordenada y adaptada a diferentes proyectos o actividades. Esta característica es especialmente útil cuando necesita organizar su flujo de trabajo de forma eficaz y centrarse en tareas específicas.
+Para ocultar el botón Vista de tareas de la barra de tareas, haga clic con el botón derecho en la barra de tareas y quite la marca de la opción Mostrar botón Vista de tareas.
+Para obtener más información, consulta Haz más cosas con la multitarea en Windows y Configurar varios escritorios en Windows .
+Aplicaciones
+Ancla aplicaciones directamente a la barra de tareas para acceder a ellas rápidamente cuando estés en el escritorio. (O desánclalo, si quieres). Puede hacerlo desde Inicio o desde la Lista de accesos directos, que es una lista de accesos directos a archivos, carpetas y sitios web abiertos recientemente.
+Anclar o desanclar una aplicación desde Inicio
+En el cuadro de búsqueda de la barra de tareas, escribe el nombre de la aplicación que deseas anclar a la barra de tareas. Mantén presionada la aplicación (o haz clic con el botón derecho) en ella y, a continuación, selecciona Anclar a la barra de tareas.
+Para desanclar una aplicación, sigue los mismos pasos y selecciona Desanclar de la barra de tareas.
+Anclar o desanclar una aplicación de la lista de aplicaciones
+Si la aplicación ya está abierta, haz clic con el botón derecho o mantén presionado el icono de la aplicación en la barra de tareas y, a continuación, selecciona Anclar a la barra de tareas . O bien, selecciona Desanclar de la barra de tareas si vas a desanclar la aplicación.
+Noticias e intereses
+Noticias e intereses muestra el tiempo, noticias y otra información de un vistazo en la barra de tareas. Puede mostrar u ocultar Noticias e intereses en la barra de tareas.
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+En Noticias e intereses , cambie el botón Mostrar noticias e intereses en la barra de tareas a Activado o Desactivado
+Para obtener más información sobre noticias e intereses, consulte Mantenerse al día con noticias e intereses .
+Área de notificación
+El área de notificación de la barra de tareas incluye varios iconos y elementos que proporcionan acceso rápido a las funciones y notificaciones del sistema. Puedes personalizar cada parte de la bandeja del sistema para adaptarla a tus preferencias.
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+En el área de notificación , elige los iconos que quieres que aparezcan en la bandeja del sistema
+En Seleccionar qué iconos aparecen en la barra de tareas , cambie los iconos de interés a Activado
+En Activar o desactivar los iconos del sistema , activa las herramientas del sistema que sean de tu interés
+Para reorganizar los iconos en el área de notificación, puede arrastrarlos y colocarlos. Puede mover los iconos que son visibles actualmente en la bandeja del sistema, así como los del área oculta. Para que un icono sea visible, arrástrelo desde el área oculta al área de notificación. Por el contrario, para ocultar un icono, arrástrelo desde el área de notificación a la zona oculta.
+Centro de actividades
+Para editar las acciones rápidas en el centro de actividades:
+En la aplicación Configuración de su dispositivo Windows
+seleccione Notificaciones & Acciones o use el siguiente acceso directo:
+Notificaciones & acciones
+Seleccione Editar las acciones rápidas
+El Centro de actividades se abrirá con acciones rápidas en modo de edición. Seleccione el botón Agregar para agregar una acción rápida o desanclar la acción rápida que desea quitar
+Nota
+Para reorganizar los iconos, puede mantener presionada (o seleccionar) cualquier acción rápida y arrastrarla
+Cuando haya terminado de editar las acciones rápidas, seleccione Listo
+Para obtener más información, consulta Notificaciones y No molestar en Windows y Cómo usar Foco en Windows .
+Usar botones de la barra de tareas más pequeños o más grandes
+Si quieres ver más aplicaciones en la barra de tareas, puedes usar versiones más pequeñas de los botones.
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+Alternar el conmutador Use pequeños botones de la barra de tareas para activarlos o desactivarlos según sus preferencias
+Nota
+No se muestran los distintivos con los botones de la barra de tareas de tamaño pequeño.
+Cambiar la altura de la barra de tareas
+Al igual que muchos otros cambios en la barra de tareas, primero tendrás que desbloquearla . A continuación, mueve el puntero sobre el borde de la barra de tareas hasta que el puntero se convierta en una flecha doble. Arrastra el borde al tamaño que desees y suéltalo.
+Cambiar la ubicación de la barra de tareas
+Normalmente, la barra de tareas se encuentra en la parte inferior de la pantalla, pero también puedes moverla a cualquier lado o a la parte superior de la pantalla. Cuando la barra de tareas esté desbloqueada , puedes cambiar su ubicación.
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+En Ubicación de la barra de tareas en pantalla , selecciona Izquierda, Arriba, Derecha o Abajo
+Cambiar el color de la barra de tareas
+Puede modificar el color de la barra de tareas cambiando el modo de color de Windows o configurando colores de énfasis.
+Para obtener más información, consulte Personalizar los colores en Windows .
+Configurar los comportamientos de la barra de tareas
+Además de personalizar el diseño de la barra de tareas, puede cambiar varios comportamientos para mejorar la experiencia del usuario. Estos comportamientos incluyen cómo responde la barra de tareas a diferentes acciones, como bloquear y desbloquear su ubicación, y ocultarla automáticamente cuando no está en uso. Ajustando esta configuración, puedes crear un flujo de trabajo más eficaz y personalizado que se adapte a tus necesidades específicas. Expande cada sección para obtener más información.
+Bloquear y desbloquear la barra de tareas
+El bloqueo de la barra de tareas es útil para asegurarte de que se mantenga tal como la hayas configurado. Desbloquea la barra de tareas más adelante cuando quieras realizar cambios o modificar su ubicación en el escritorio.
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+Activar o desactivar el interruptor Bloquear la barra de tareas para adaptarla a sus preferencias
+Nota
+Si tiene varios monitores que muestran la barra de tareas, también tiene la opción de bloquear todas las barras de tareas .
+Cambiar cómo se agrupan los botones de la barra de tareas
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+En Combinar botones de la barra de tareas, selecciona una de las opciones:
+Ocultar etiquetas siempre . Esta es la opción predeterminada. Cada aplicación aparece como un solo botón sin etiqueta, incluso cuando hay varias ventanas abiertas para esa aplicación
+Cuando la barra de tareas está llena . Esta configuración muestra cada ventana como un botón individual con etiqueta. Cuando se llena la barra de tareas, las aplicaciones que tienen varias ventanas abiertas se contraen en un solo botón de aplicación. Seleccione el botón para ver una lista de las ventanas que están abiertas
+Nunca . Esta configuración muestra cada ventana como un botón individual con etiqueta y nunca los combina, sin importar cuántas ventanas estén abiertas. A medida que se abren más aplicaciones y ventanas, los botones se hacen más pequeños y, finalmente, los botones se desplazarán
+Si usas varias pantallas, puedes elegir otra opción para las pantallas adicionales.
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+En Varias pantallas , seleccione desde la opción Combinar botones de la barra de tareas en otras opciones de lista de barras de tareas
+Mostrar insignias en los botones de la barra de tareas
+Los distintivos de los botones de la barra de tareas son alertas para informarte de que ocurre o tiene que ocurrir alguna actividad con esa aplicación. Por ejemplo, un distintivo de una campana en la aplicación Alarmas y reloj te alerta de una alarma activa que te notificará a la hora que definas. Esta característica está activada de forma predeterminada, pero puede asegurarse de que está activada (o desactivada).
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+Active o desactive el conmutador Mostrar insignias en los botones de la barra de tareas para adaptarlos a sus preferencias
+Ocultar la barra de tareas automáticamente
+Puede ocultar la barra de tareas en función de si está en modo de escritorio o en modo tableta.
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+Active Ocultar automáticamente la barra de tareas en modo de escritorio u ocultar automáticamente la barra de tareas en modo tableta (o ambos)
+Mostrar el escritorio
+Use la característica Echar un vistazo para echar un vistazo rápido a lo que hay en el escritorio detrás de todas las ventanas abiertas.
+Haga clic con el botón derecho en la barra de tareas y seleccione Configuración de la barra de tareas o use el siguiente acceso directo:
+Barra de tareas
+Active la opción Usar un vistazo para obtener una vista previa del escritorio al mover el mouse al botón Mostrar escritorio al final de la barra de tareas .
+Mueva el puntero del mouse sobre (o mantenga presionado) el borde más alejado de la bandeja del sistema para mostrar el escritorio
+Para restaurar la vista de todas las ventanas abiertas, aleje el puntero o mantenga presionado el borde una vez más

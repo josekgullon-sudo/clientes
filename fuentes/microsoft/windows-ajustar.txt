@@ -1,0 +1,116 @@
+Ajustar las ventanas
+https://support.microsoft.com/es-es/windows/experience/snap-your-windows
+Descargado: 2026-10-13
+
+Acople sus ventanas
+Se aplica a Windows 11 Windows 10
+Windows 11
+Windows 10
+Resumen
+El artículo explica la función Windows Snap, que permite a los usuarios organizar y cambiar rápidamente el tamaño de las ventanas de la aplicación para realizar múltiples tareas de manera eficiente. Abarca métodos que usan el mouse, el teclado y diseños como Asistente para el ajuste, diseños de ajuste, control flotante de ajuste y barra de ajuste. También destaca los grupos de acoplamiento para restaurar la organización de ventanas y proporciona pasos para configurar los ajustes de ajuste en Windows.
+La función Acoplar le permite cambiar rápidamente el tamaño y la posición de las ventanas en la pantalla arrastrándolas a los bordes o esquinas. Esto le ayuda a trabajar de forma más eficaz organizando varias ventanas para maximizar el espacio de la pantalla. Además de arrastrar, también puede usar diseños predefinidos para organizar las ventanas sin problemas. Esta flexibilidad garantiza que pueda administrar fácilmente el área de trabajo, tanto si trabaja con dos ventanas en paralelo como si organiza varias ventanas en una cuadrícula.
+Con Acoplar, puede organizar todas las ventanas abiertas en la pantalla con el mouse, la función táctil o el teclado. Expande las secciones siguientes para obtener más información:
+Cómo usar Acoplar
+Ajustar a un lado : arrastre una ventana al borde izquierdo o derecho de la pantalla para acoplarla a ese lado.
+Ajustar a la esquina : Arrastra una ventana a una esquina para acoplarla a ese cuarto de la pantalla.
+Maximizar verticalmente : arrastra una ventana a la parte superior de la pantalla para expandirla verticalmente, ocupando todo el alto y manteniendo su ancho actual.
+Acoplar con un mouse
+Usa el ratón para acoplar Windows:
+Selecciona y arrastra la ventana o aplicación que deseas acoplar al costado o al borde de la pantalla. El cuadro Diseño de ajuste se mostrará automáticamente.
+Coloque la aplicación en el diseño que quiera usar.
+Usa Asistente para el espacio restante para rellenar el diseño con otras ventanas o aplicaciones que quieras unir.
+Acoplar con un teclado
+Mantén presionada la flecha de la tecla
++ del logotipo de Windows para acoplar la aplicación en la que te encuentras. Puede seguir cambiando las posiciones del acoplamiento mediante las flechas del teclado.
+Use la flecha izquierda para colocar la aplicación en el lado izquierdo de la pantalla.
+Use la flecha derecha para colocar la aplicación en el lado derecho de la pantalla.
+Use la flecha arriba para colocar la aplicación en la parte superior de la pantalla.
+Use la flecha abajo para colocar la aplicación en la parte inferior de la pantalla.
+Cuando encuentre la ubicación deseada, suelte la tecla del logotipo de Windows para colocar la ventana.
+Usa Asistente para el espacio restante para rellenar el diseño con otras ventanas o aplicaciones que quieras acoplar juntas en la misma pantalla.
+Cambiar el tamaño de las ventanas acopladas
+Puede cambiar fácilmente el tamaño de las ventanas acopladas seleccionando y arrastrando las líneas divisorias. Cambia el tamaño de una ventana en un lado y las ventanas contiguas se cambiarán de tamaño para que quepan al lado para que no tengas espacio de pantalla desperdiciado.
+Pase el cursor sobre el divisor o tóquelo : cuando selecciona el borde que separa las dos ventanas acopladas, aparece una barra. Si usa un mouse, el cursor del mouse cambia a una flecha doble.
+Arrastrar para cambiar tamaño: seleccione y mantenga presionada la barra separadora y, a continuación, arrástrela para ajustar el tamaño de las ventanas acopladas.
+Asistente para ajustar
+Asistente para ajustar es una mejora de la función Ajustar que facilita aún más la organización de las ventanas. Al acoplar una ventana a un lado de la pantalla, el Asistente para el acoplamiento mostrará miniaturas de las otras ventanas abiertas, lo que le permitirá elegir rápidamente qué ventana acoplar al otro lado. Esta característica le ayuda a crear un área de trabajo más organizada y eficaz al proporcionar indicaciones visuales y opciones para organizar las ventanas.
+Cómo usar Snap Assist:
+Ajustar la primera ventana : selecciona y arrastra una ventana al borde de la pantalla hasta que aparezca una superposición translúcida. Suelte la ventana para encajarla en su lugar
+Acoplar la segunda ventana : selecciona otra ventana abierta de las miniaturas que muestra Asistente para acoplar para acoplarla a la otra mitad de la pantalla
+Diseños de ajuste
+La característica Acoplar de Windows ofrece diseños predeterminados entre los que puedes elegir para organizar todas las ventanas abiertas. Después de seleccionar un diseño, se invoca Asistente de acoplamiento para ayudarte a rellenar el resto del diseño con otras ventanas.
+Nota
+Según el tamaño de la pantalla, es posible que veas diferentes diseños predeterminados.
+Menú flotante Acoplar
+El control flotante Acoplar aparece al mantener el puntero sobre el botón Maximizar en una ventana. Siga este procedimiento para usarlo:
+Mantenga el puntero sobre el botón restaurar o maximizar de una ventana, o presione la tecla
++ Z de Windows.
+Seleccione el diseño deseado. A continuación, se activa el Asistente de ajuste, lo que le permite completar el resto del diseño con las ventanas de su elección.
+Barra de seguridad
+La barra de acoplamiento aparece cuando arrastra una ventana a la parte superior de la pantalla. Siga este procedimiento para usarlo:
+Arrastre una ventana hacia la parte superior de la pantalla.
+Seleccione el diseño deseado. A continuación, se activa el Asistente de ajuste, lo que le permite completar el resto del diseño con las ventanas de su elección.
+Grupos de acoplamiento
+Los grupos de acoplamiento son colecciones de ventanas que se han acoplado, ahorrando tiempo al permitirle volver rápidamente a una disposición específica de ventanas. Se crean automáticamente al acoplar varias ventanas, lo que garantiza que el espacio de trabajo esté organizado sin ningún esfuerzo adicional por su parte.
+Si te interrumpen y abres una nueva aplicación, puedes volver fácilmente a tu grupo de Snap. Simplemente mantenga el puntero sobre cualquier icono de aplicación en la barra de tareas que forme parte de un grupo de Acoplar y tendrá la opción de restaurar todo el grupo o solo esa aplicación.
+Además, los grupos Snap se muestran en la vista de tareas y en la vista de pestañas Alt + , lo que facilita aún más la multitarea.
+Configurar los ajustes de acoplamiento
+Aquí tienes una lista de opciones disponibles para la función Acoplar y cómo configurarlas:
+En la aplicación Configuración de su dispositivo Windows
+seleccione Multitarea del sistema > o use el vínculo siguiente:
+Abrir configuración Multitareas
+Use el botón de alternancia Ajustar ventanas para activar o desactivar Acoplar .
+Para personalizar Snap, expande la sección Snap windows y selecciona las opciones que prefieras usando las casillas de verificación:
+Cuando acoplo una ventana, mostrar lo que puedo ajustar junto a ella : Habilita o deshabilita el Asistente para el ajuste.
+Mostrar diseños de ajuste al mantener el puntero sobre el botón de maximización de una ventana : Habilita o deshabilita el control flotante Acoplar.
+Mostrar diseños de ajuste al arrastrar una ventana a la parte superior de la pantalla: habilita o deshabilita la barra de ajuste.
+Mostrar mis ventanas acopladas cuando mantengo el puntero sobre las aplicaciones de la barra de tareas, en la vista de tareas y cuando presiono Alt + TAB : Habilita o deshabilita los grupos de Snap.
+Cuando arrastro una ventana, permítanme acoplarla sin arrastrarla hasta el borde de la pantalla : Permite ajustar ventanas sin tener que arrastrarlas hasta el borde de la pantalla.
+Nota
+El soporte técnico para Windows 10 finalizó el 14 de octubre de 2025
+Después del 14 de octubre de 2025, Microsoft ya no proporcionará actualizaciones de software gratuitas desde Windows Update, asistencia técnica ni correcciones de seguridad para Windows 10. El PC seguirá funcionando, pero recomendamos que se cambie a Windows 11.
+Más información
+Resumen
+El artículo explica la función Windows Snap, que permite a los usuarios organizar y cambiar rápidamente el tamaño de las ventanas de la aplicación para realizar múltiples tareas de manera eficiente. Abarca métodos que usan el mouse, el teclado y diseños como Asistente para el ajuste, diseños de ajuste, control flotante de ajuste y barra de ajuste. También destaca los grupos Snap para restaurar la organización de las ventanas y proporciona los pasos para configurar los ajustes de Snap en Windows.
+La función Acoplar le permite cambiar rápidamente el tamaño y la posición de las ventanas en la pantalla arrastrándolas a los bordes o esquinas. Esto le ayuda a trabajar de forma más eficaz organizando varias ventanas para maximizar el espacio de la pantalla. Además de arrastrar, también puede usar diseños predefinidos para organizar las ventanas sin problemas. Esta flexibilidad garantiza que pueda administrar fácilmente el área de trabajo, tanto si trabaja con dos ventanas en paralelo como si organiza varias ventanas en una cuadrícula.
+Con Acoplar, puede organizar todas las ventanas abiertas en la pantalla con el mouse, la función táctil o el teclado. Expande las secciones siguientes para obtener más información:
+Cómo usar Acoplar
+Ajustar a un lado : arrastre una ventana al borde izquierdo o derecho de la pantalla para acoplarla a ese lado.
+Ajustar a la esquina : Arrastra una ventana a una esquina para acoplarla a ese cuarto de la pantalla.
+Maximizar verticalmente : arrastra una ventana a la parte superior de la pantalla para expandirla verticalmente, ocupando todo el alto y manteniendo su ancho actual.
+Acoplar con un mouse
+Usa el ratón para acoplar Windows:
+Selecciona y arrastra la ventana o aplicación que deseas acoplar al costado o al borde de la pantalla. El cuadro Diseño de ajuste se mostrará automáticamente.
+Coloque la aplicación en el diseño que quiera usar.
+Usa Asistente para el espacio restante para rellenar el diseño con otras ventanas o aplicaciones que quieras unir.
+Acoplar con un teclado
+Mantén presionada la flecha de la tecla
++ del logotipo de Windows para acoplar la aplicación en la que te encuentras. Puede seguir cambiando las posiciones del acoplamiento mediante las flechas del teclado
+Use la flecha izquierda para colocar la aplicación en el lado izquierdo de la pantalla.
+Use la flecha derecha para colocar la aplicación en el lado derecho de la pantalla.
+Use la flecha arriba para colocar la aplicación en la parte superior de la pantalla.
+Use la flecha abajo para colocar la aplicación en la parte inferior de la pantalla.
+Cuando encuentre la ubicación deseada, suelte la tecla del logotipo de Windows para colocar la ventana.
+Usa Asistente para el espacio restante para rellenar el diseño con otras ventanas o aplicaciones que quieras acoplar juntas en la misma pantalla.
+Cambiar el tamaño de las ventanas acopladas
+Puede cambiar fácilmente el tamaño de las ventanas acopladas seleccionando y arrastrando las líneas divisorias. Cambia el tamaño de una ventana en un lado y las ventanas contiguas se cambiarán de tamaño para que quepan al lado para que no tengas espacio de pantalla desperdiciado.
+Pase el cursor sobre el divisor o tóquelo : cuando selecciona el borde que separa las dos ventanas acopladas, aparece una barra. Si usa un mouse, el cursor del mouse cambia a una flecha doble.
+Arrastrar para cambiar tamaño: seleccione y mantenga presionada la barra separadora y, a continuación, arrástrela para ajustar el tamaño de las ventanas acopladas.
+Asistente para ajustar
+Asistente para ajustar es una mejora de la función Ajustar que facilita aún más la organización de las ventanas. Al acoplar una ventana a un lado de la pantalla, el Asistente para el acoplamiento mostrará miniaturas de las otras ventanas abiertas, lo que le permitirá elegir rápidamente qué ventana acoplar al otro lado. Esta característica le ayuda a crear un área de trabajo más organizada y eficaz al proporcionar indicaciones visuales y opciones para organizar las ventanas.
+Cómo usar Snap Assist:
+Ajustar la primera ventana : selecciona y arrastra una ventana al borde de la pantalla hasta que aparezca una superposición translúcida. Suelte la ventana para acoplarla en su lugar.
+Acoplar la segunda ventana : Seleccione otra ventana abierta de las miniaturas que muestra Asistente para acoplar la ventana a la otra mitad de la pantalla.
+Configurar los ajustes de acoplamiento
+Aquí tienes una lista de opciones disponibles para la función Acoplar y cómo configurarlas:
+En la aplicación Configuración de su dispositivo Windows
+seleccione Multitarea del sistema > o use el vínculo siguiente:
+Abrir configuración Multitareas
+Use el botón de alternancia Ajustar ventanas para activar o desactivar Acoplar .
+Para personalizar Snap, selecciona las opciones que prefieras usando las casillas de verificación:
+Cuando marco una ventana, le cambio el tamaño automáticamente para llenar el espacio disponible .
+Cuando marco una ventana, muestro lo que puedo ajustar junto a ella .
+Al cambiar el tamaño de una ventana ajustada, al mismo tiempo que cambie el tamaño de cualquier ventana adyacente.
+Temas relacionados
+Cómo realizar varias tareas en Windows
+Cómo usar varios monitores en Windows

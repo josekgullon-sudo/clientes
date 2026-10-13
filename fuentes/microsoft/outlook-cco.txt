@@ -1,0 +1,53 @@
+Mostrar, ocultar y ver el campo CCO en Outlook para Windows
+https://support.microsoft.com/es-es/outlook/mail/show-hide-and-view-the-bcc-blind-carbon-copy-field-in-outlook-for-windows
+Descargado: 2026-10-13
+
+Mostrar, ocultar y ver el campo CCO (copia carbón oculta) en Outlook para Windows
+Se aplica a Outlook para Microsoft 365 Outlook 2024 Outlook 2021 Outlook 2019 Outlook 2016 Nuevo Outlook para Windows
+Cuando escribe el nombre de un destinatario en el campo CCO (copia carbón oculta) de un correo electrónico, ese destinatario recibe una copia del correo electrónico sin que el nombre sea visible para los demás destinatarios.
+Seleccione una de las siguientes opciones de pestaña para la versión de Outlook que está usando.
+¿Qué versión de Outlook tengo?
+Nuevo Outlook
+Outlook clásico
+Nota
+Si los pasos descritos en esta pestaña Nuevo Outlook no funcionan, es posible que todavía no esté usando el nuevo Outlook para Windows. Seleccione Outlook clásico y siga esos pasos en su lugar.
+En el nuevo Outlook, abra un nuevo mensaje o responda a un mensaje.
+En Opciones > Mostrar campos , seleccione Mostrar CCO .
+Agregue los nombres de las personas que desee en la línea CCO.
+Nota
+Al agregar la dirección de correo electrónico de alguien al cuadro CCO (copia carbón oculta), se envía una copia del mensaje a esa persona. Otras personas que reciben el mensaje no ven la dirección en la línea CCO.
+Después de activar el cuadro CCO , aparecerá cada vez que cree un mensaje hasta que se desactive. La opción para activar el campo CCO puede encontrarse en dos ubicaciones, en función de si está redactando un mensaje nuevo o respondiendo o reenviando un mensaje.
+En la versión clásica de Outlook, cree un nuevo mensaje de correo electrónico o responda o reenvíe un mensaje existente.
+Si el mensaje que está redactando se abre en una ventana nueva, seleccione Opciones > CCO .
+Si el mensaje que está redactando se abre en el panel de lectura, seleccione CCO en la cinta.
+En el cuadro CCO , agregue destinatarios, redacte el mensaje y elija Enviar cuando haya terminado.
+Desactivar CCO
+Puede desactivar el cuadro CCO para futuros mensajes en cualquier momento en la versión clásica de Outlook para Windows.
+Cree un mensaje de correo electrónico o responda o reenvíe uno existente.
+Si el mensaje que está redactando se abre en una ventana nueva en la versión clásica de Outlook, seleccione Opciones > CCO .
+Si el mensaje que está redactando se abre en el panel de lectura, seleccione CCO en la cinta.
+Nota
+El color de fondo distingue entre el botón CCO que se está activando o desactivando. Un fondo oscuro significa que está activado y un fondo claro significa que está desactivado.
+Ver destinatarios del cuadro CCO
+Si es el destinatario de un mensaje, no podrá ver si el remitente agregó destinatarios CCO. Solo el remitente de un mensaje puede ver los nombres de los destinatarios CCO abriendo un mensaje en la carpeta Elementos enviados , donde todos los mensajes enviados se almacenan de forma predeterminada en la versión clásica de Outlook para Windows.
+En la carpeta Elementos enviados de la versión clásica de Outlook, abra el mensaje que envió.
+En el panel de lectura, consulte la sección de encabezado del mensaje.
+Recomendación
+Un símbolo + indica que hay más destinatarios. En la captura de pantalla, por ejemplo, +11 indica que hay 11 destinatarios más en el cuadro CCO .
+Elija Para expandir (abrir) la sección de encabezado del mensaje. Y elija Para contraer (cerrar) la sección de encabezado.
+Procedimientos recomendados para usar el cuadro CCO
+Allanar el camino Antes de agregar el nombre de un destinatario al cuadro CCO de un mensaje, asegúrese de que el destinatario espera el mensaje. Es posible que ese usuario deba realizar algunos pasos para establecer que su usuario es un remitente seguro (o un destinatario seguro si su nombre está en el cuadro Para del mensaje).
+¿Por qué es necesario realizar esta acción? Usar el cuadro CCO es la técnica favorita de los remitentes de spam. Por lo tanto, muchos de los filtros de correo no deseado marcan los mensajes que usan el cuadro CCO como correo no deseado. Por lo tanto, si el destinatario deseado no ha agregado su nombre a la lista de remitentes seguros en Microsoft Outlook, es posible que el mensaje vaya directamente a la carpeta correo no deseado o a su equivalente.
+Para obtener más información sobre cómo configurar el filtro de correo no deseado en Outlook, vea Agregar nombres a las listas del filtro de correo electrónico no deseado .
+Piense antes de incluir una lista de distribución en el cuadro CCO People quién usa reglas para ordenar su correo electrónico en carpetas puede resultarle inconveniente si enumera el nombre de la lista de distribución en el cuadro CCO . Dado que sus reglas dependen de que el nombre de la lista de distribución se encuentre en los cuadros Para o CC , el mensaje no se ordenará según sus reglas.
+Conocer los límites Muchos proveedores de servicios de correo electrónico establecen límites para el número de nombres que se pueden incluir en los cuadros Para , CC y CCO de un mensaje. Por ejemplo, su proveedor de servicios de correo electrónico puede limitar cada mensaje a un máximo de 100 direcciones de correo electrónico. Si estas direcciones se distribuyen entre los cuadros Para , CC y CCO , recuerde que los nombres del cuadro CCO contarán para el límite total. Pida información sobre las directivas de su cuenta a su proveedor de servicios de correo electrónico.
+Ideas para usar el cuadro CCO
+Mantener la lista de destinatarios privada El cuadro CCO puede ayudarle a respetar la privacidad de los demás manteniéndolos en el bucle sin revelar sus identidades. Por ejemplo, si envía una oferta de trabajo a varias personas, es posible que quiera usar el cuadro CCO para mantener la privacidad de las identidades de los posibles candidatos.
+Recomendación
+Considere la posibilidad de usar la combinación de correspondencia en Microsoft Office Word 2007 como alternativa al cuadro CCO. Con la combinación de correspondencia, puede enviar rápidamente el mismo mensaje de correo electrónico a destinatarios individuales. La combinación de correspondencia le permite realizar un envío de correo masivo con tan solo un nombre en el cuadro Para del mensaje.
+Conseguir dominar una conversación de la que se ha perdido el control : a continuación, se detalla una situación en la que el uso del cuadro CCO para una lista de distribución o un gran número de nombres puede resultar útil.
+Supongamos que envía un mensaje con un gran número de destinatarios en el cuadro Para . La discusión se anima y todos quieren dar su opinión. El número de mensajes aumenta drásticamente porque muchos destinatarios responden con la opinión "deje de responder a todo este mensaje". El problema es que, al hacer esto, hacen clic en Responder a todos . Una forma de controlar el uso de la opción Responder a todos es responder y escribir el nombre de la lista de distribución en el cuadro CCO . Por ejemplo, puede hacer clic en Responder , incluir únicamente su nombre en el cuadro Para , mover la lista de distribución al cuadro CCO y escribir un mensaje parecido al siguiente:
+"Agradecería cualquier opinión sobre este tema. Si tiene más comentarios, respóndame a mí directamente (he incluido esta lista de distribución en el cuadro CCO para reducir los mensajes de respuesta a todos)".
+Reducir el correo no deseado Aunque a los usuarios que envían correo no deseado o correo no deseado les puede gustar usar el cuadro CCO, no les gustará si lo usa. Si oculta los nombres de los destinatarios incluyéndolos en el cuadro CCO , nadie podrá copiar las direcciones de correo electrónico de los mensajes.
+Artículos relacionados
+Administrar los destinatarios sugeridos en las líneas Para, CC y CCO con Autocompletar

@@ -1,0 +1,924 @@
+Métodos abreviados de teclado en Windows
+https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows
+Descargado: 2026-10-13
+
+Métodos abreviados de teclado de Windows
+Se aplica a Windows 11 Windows 10
+Windows 11
+Windows 10
+Los métodos abreviados de teclado son combinaciones de teclas que proporcionan un modo alternativo para hacer algo que se suele realizar con un ratón.
+Si estás intentando tomar una captura de pantalla o captura de pantalla, consulta Usar la herramienta Recortes para capturar capturas de pantalla .
+Nota
+El comportamiento de algunos métodos abreviados de teclado puede variar en diferentes aplicaciones. Por ejemplo, es posible que Ctrl + Mayús V + para pegar como texto sin formato no funcione en todas las aplicaciones.
+Algunas aplicaciones pueden cambiar el comportamiento de algunos métodos abreviados de teclado. En este artículo se enumeran los métodos abreviados de teclado predeterminados de Windows.
+Métodos abreviados de tecla de Copilot
+Accesos directos de edición de texto
+Escritorio y otros métodos abreviados generales
+Métodos abreviados de tecla de Windows
+Accesos directos del símbolo del sistema
+Métodos abreviados de cuadro de diálogo
+Accesos directos del Explorador de archivos
+Varios accesos directos de escritorio
+Accesos directos de la barra de tareas
+Accesos directos de aplicaciones de configuración
+Métodos abreviados de teclado de Windows Copilot
+Use los siguientes métodos abreviados con la tecla Copilot.
+Presione esta tecla:
+Para realizar esta acción:
+Clave de Copilot
+Clave de Copilot
+(cuando Copilot no está disponible o está deshabilitado)
+Abre Microsoft Copilot o Microsoft 365 Copilot.
+Abrir o cerrar Windows Search.
+Si Copilot no está disponible, se abrirá Configuración para que pueda elegir qué hace la clave.
+Recomendación
+Para personalizar lo que ocurre al presionar la tecla Copilot , ve a Configuración > Personalización Entrada > de > texto Tecla Personalizar Copilot en el teclado .
+Métodos abreviados de teclado para la edición de texto
+Usa la siguiente lista de métodos abreviados para editar texto de forma más rápida y eficaz.
+Presione esta tecla:
+Para realizar esta acción:
+Retroceso
+Eliminar caracteres a la izquierda del cursor.
+Ctrl+E
+Seleccionar todo el texto.
+Ctrl+N
+Aplicar el formato de negrita al texto seleccionado.
+Ctrl+Retroceso
+Eliminar palabras a la izquierda del cursor.
+Ctrl+C
+Ctrl+Insertar
+Copiar el texto seleccionado.
+Ctrl+Supr
+Eliminar palabras a la derecha del cursor.
+Ctrl+Flecha abajo
+Mover el cursor hacia delante hasta el principio del párrafo siguiente.
+Ctrl+Fin
+Mover el cursor hacia delante hasta el final del documento.
+Ctrl+B
+Buscar texto
+Ctrl+H
+Buscar y reemplazar texto.
+Ctrl+Inicio
+Mover el cursor hacia atrás hasta el principio del documento.
+Ctrl+I
+Aplicar el formato en cursiva al texto seleccionado.
+Ctrl+Flecha izquierda
+Mover el cursor hacia atrás hasta el principio de la palabra anterior.
+Ctrl+Flecha derecha
+Mover el cursor hacia delante hasta el principio de la palabra siguiente.
+Ctrl+Mayús+V
+Pegar como texto sin formato.
+Ctrl+S
+Aplicar el formato de subrayado al texto seleccionado.
+Ctrl+Flecha arriba
+Mover el cursor hacia atrás hasta el principio del párrafo anterior.
+Ctrl+V
+Mayús+Insertar
+Pegar el último elemento del portapapeles.
+Ctrl+X
+Cortar el texto seleccionado.
+Ctrl+Y
+Rehacer la escritura que se deshizo con Ctrl+Z.
+Ctrl+Z
+Deshacer la última escritura.
+Suprimir o Suprimir
+Eliminar caracteres a la derecha del cursor.
+Flecha abajo
+Mover el cursor hacia delante hasta la línea siguiente.
+Fin
+Mover el cursor hacia delante hasta el final de la línea
+Inicio
+Mover el cursor hacia atrás hasta el principio de la línea
+Flecha izquierda
+Mover el cursor hacia atrás hasta el carácter anterior.
+Av pág o Av pág
+Mover el cursor una página hacia delante.
+Re pág o RePág
+Mover el cursor una página hacia atrás.
+Flecha derecha
+Mover el cursor hacia delante hasta el carácter siguiente.
+Mayús+Ctrl+Flecha abajo
+Seleccionar párrafos hacia delante desde la posición actual del cursor.
+Mayús+Ctrl+Fin
+Seleccione texto entre la posición actual del cursor y el final del documento.
+Mayús+Ctrl+Inicio
+Seleccionar texto entre la posición actual del cursor y el principio del documento.
+Mayús+Ctrl+Izquierda
+Seleccionar palabras hacia atrás desde la posición actual del cursor.
+Mayús+Ctrl+Derecha
+Seleccionar palabras hacia delante desde la posición actual del cursor.
+Mayús+Ctrl+Arriba
+Seleccionar párrafos hacia atrás en la posición actual del cursor.
+Mayús+Flecha abajo
+Seleccionar líneas hacia delante desde la posición actual del cursor.
+Mayús+Fin
+Seleccionar texto desde la posición actual del cursor hasta el final de la línea actual.
+Mayús+Inicio
+Seleccionar texto desde la posición actual del cursor hasta el principio de la línea actual.
+Mayús+Flecha izquierda
+Seleccionar caracteres hacia atrás desde la posición actual del cursor.
+Mayús+Av Pág
+Seleccionar una página de texto hacia delante desde la posición actual del cursor.
+Mayús+Re Pág
+Seleccionar una página de texto hacia atrás desde la posición actual del cursor.
+Mayús+Flecha derecha
+Seleccionar caracteres hacia delante desde la posición actual del cursor.
+Mayús+Flecha arriba
+Seleccionar líneas hacia atrás desde la posición actual del cursor.
+TAB
+Aplica sangría al cursor una tabulación.
+Flecha arriba
+Mover el cursor hacia atrás hasta la línea anterior.
+Métodos abreviados de teclado de Windows en general y para escritorio
+Use los siguientes métodos abreviados de teclado para abrir, cerrar, navegar y realizar otras tareas de forma eficaz en el entorno de escritorio de Windows.
+Para ver los métodos abreviados de teclado relacionados con la barra de tareas de Windows, consulta Métodos abreviados de la barra de tareas . Para ver los métodos abreviados de teclado específicos del Explorador de archivos, consulte métodos abreviados del Explorador de archivos .
+Presione esta tecla:
+Para realizar esta acción:
+Alt+A
+Establezca el foco en el primer icono del menú Acciones sugeridas.
+Alt+Esc
+Desplazarse por las ventanas en el orden en que se abrieron.
+Alt+F4
+Cerrar la ventana activa. Si no hay ventanas abiertas, solicite el cierre.
+Alt+F8
+Mostrar la contraseña en la pantalla de inicio de sesión.
+Alt+Flecha izquierda
+Volver.
+Alt+Flecha abajo
+Mover una pantalla hacia abajo
+Alt+Re Pág
+Retroceder una pantalla
+Alt+Impr Pant
+Capture una captura de pantalla de la ventana activa y cópiela en el Portapapeles.
+Alt+Flecha derecha
+Ir hacia delante.
+Alt+Mayús+teclas de dirección
+Cuando un grupo o un icono tiene el foco en el menú Inicio, moverlo en la dirección especificada.
+Alt+Ctrl+Insertar
+Vuelva a colocar el foco en el equipo host desde el Espacio aislado de Windows.
+Alt+Barra espaciadora
+Abrir el menú contextual de la ventana activa.
+Alt+Tab
+Cambiar entre ventanas abiertas. Para desplazarse por varias ventanas, mantenga presionada la tecla Alt y presione el tabulador varias veces.
+Alt+letra subrayada
+Para las acciones en los menús contextuales o de comandos, algunas ventanas y aplicaciones especifican métodos abreviados de teclado subrayando un carácter en el nombre de la acción. Presione Alt y luego la letra para realizar esa acción.
+Ctrl+E
+Seleccionar todos los elementos de una ventana.
+Ctrl+Alt+Supr
+Cambie a la pantalla de seguridad, donde puede bloquear el escritorio, cambiar de usuario, cerrar sesión, cambiar una contraseña o abrir el Administrador de tareas.
+Ctrl+Alt+Tab
+Ver una miniatura de todas las aplicaciones abiertas. Usar las teclas de dirección para cambiar entre aplicaciones abiertas.
+CTRL+Esc
+Abre el menú Inicio.
+Ctrl+F4
+En las aplicaciones que están abiertas a pantalla completa y le permiten tener abiertos varios documentos al mismo tiempo, cierre el documento activo, pero no toda la aplicación.
+Ctrl+F5
+CTRL+D
+Actualizar la ventana actual.
+Ctrl+Mayús
+Cuando hay varias distribuciones del teclado disponibles, cambie la distribución del teclado.
+Ctrl+Mayús+teclas de dirección
+Cuando una ventana tenga el foco en el menú Inicio, muévelo a otra ventana para crear una carpeta.
+Ctrl+Mayús+Esc
+Abra el administrador de tareas
+Ctrl+barra espaciadora
+Habilite o deshabilite el Editor de métodos de entrada (IME) para chino. Para obtener más información, consulte el IME de Microsoft en chino simplificado y el IME en chino tradicional de Microsoft .
+Ctrl+Y
+Rehacer una acción que antes se deshacía con Ctrl+Z.
+Ctrl+Z
+Deshacer la acción anterior.
+Esc o Escape
+Detener o salir de la tarea actual, o descartar un cuadro de diálogo.
+F5
+Actualizar la ventana activa.
+F6
+Desplazarse por los elementos de una ventana o del escritorio.
+F10
+Activar la barra de menús en la ventana activa.
+Impr Scn o Impr Pant
+Seleccione una zona de la pantalla para hacer una captura de pantalla en el portapapeles. A continuación, puedes abrir la herramienta Recortes para compartir o aumentar la imagen.
+Nota: Puede desactivar este comportamiento predeterminado. Selecciona Inicio >, configuración >, Accesibilidad >, Teclado y establece Usar el botón Imprimir pantalla para abrir el recorte de pantalla en Desactivado .
+Abrir la aplicación Configuración
+Métodos abreviados de teclado con las teclas de Windows
+Al combinar la tecla Windows con otras teclas, puede realizar rápidamente tareas comunes. En la lista siguiente se incluyen muchos métodos abreviados de teclado comunes en los que se usa la tecla Windows.
+Presione esta tecla:
+Para realizar esta acción:
+Tecla Windows
+Abrir o cerrar el menú Inicio.
+Tecla Windows + A
+Abra el Centro de actividades de Windows 11.
+Tecla de Windows +Mayús+A
+Resaltar una sugerencia de Windows cuando esté disponible.
+Cuando aparezca una sugerencia de Windows, concéntrese en la sugerencia. Vuelva a presionar las teclas para enfocar el elemento de la pantalla en el que está anclado la sugerencia de Windows.
+Tecla Windows + Alt + B
+Activar o desactivar el alto rango dinámico (HDR). Para obtener más información, consulta ¿Qué es HDR en Windows? .
+Tecla Windows + C
+Abre Microsoft Copilot o Microsoft 365 Copilot.
+Propina: Para personalizar lo que sucede cuando presiona la tecla Windows + acceso directo C, vaya a Configuración > Personalización Entrada > de > texto Personalizar tecla Copilot en el teclado .
+Tecla Windows + C
+(cuando Copilot no está disponible o está deshabilitado)
+Abrir o cerrar Windows Search.
+Tecla Windows + Alt + D
+Mostrar y ocultar la fecha y hora en el escritorio.
+Tecla Windows + Alt + Flecha abajo
+Acoplar la ventana activa a la mitad inferior de la pantalla.
+Tecla Windows + Alt + H
+Cuando la escritura por voz esté abierta, establezca el foco en el teclado.
+Tecla Windows + Alt + K
+Silencie o reactive el audio del micrófono en las aplicaciones compatibles.
+Tecla Windows + Alt + Flecha arriba
+Acoplar la ventana activa a la mitad superior de la pantalla.
+Tecla Windows + coma (,)
+Ojear temporalmente el escritorio.
+Tecla Windows + Ctrl + C
+Si está activado en configuración, habilite o deshabilite los filtros de color .
+Abrir la aplicación Configuración
+Tecla Windows + Ctrl + Entrar
+Abra el Narrador .
+Tecla Windows + Ctrl + F
+Buscar dispositivos en una red.
+Tecla Windows + Ctrl + Q
+Abrir Asistencia rápida .
+Tecla Windows + Ctrl + Mayús + B
+Reactivar el dispositivo cuando la pantalla esté en blanco o en negro.
+Tecla Windows + Ctrl + barra espaciadora
+Cambiar a una opción de entrada seleccionada anteriormente.
+Tecla Windows + Ctrl + V
+Abra la página de salida de sonido de la configuración rápida, que incluye la configuración del dispositivo de salida, el sonido espacial y el mezclador de volumen.
+Tecla Windows + D
+Mostrar y ocultar el escritorio.
+Tecla Windows + Flecha abajo
+Minimizar la ventana activa
+Tecla Windows + E
+Abre el Explorador de archivos.
+Tecla Windows + Esc
+Cerrar la Lupa .
+Tecla Windows + F
+Abrir el Centro de opiniones .
+Tecla Windows +barra diagonal (/)
+Iniciar la reconversión del Editor de métodos de entrada (IME).
+Tecla Windows + G
+Abre la Game Bar. Para obtener más información, consulta Métodos abreviados de teclado para Game Bar .
+Tecla Windows + H
+Abra el dictado por voz.
+Tecla Windows + Inicio
+Minimizar o restaurar todas las ventanas excepto la activa.
+Tecla Windows + I
+Abrir configuración.
+Tecla Windows + J
+Abre Recuerdos.
+(Disponible en dispositivos que cumplan los requisitos mínimos del sistema )
+Tecla Windows + K
+Abrir Transmitir desde Configuración rápida para conectarse a una pantalla. Para obtener más información, consulte Crear reflejo y proyectar pantalla en el PC o proyección inalámbrica .
+Tecla Windows + L
+Bloquee el equipo.
+Tecla Windows + Flecha izquierda
+Acoplar la ventana al lado izquierdo de la pantalla.
+Tecla Windows + M
+Minimizar todas las ventanas.
+Tecla Windows+Signo menos (-)
+Alejar con la Lupa.
+Tecla Windows + N
+Abrir el centro de notificaciones y el calendario.
+Tecla Windows + O
+Bloquear la orientación del dispositivo.
+Tecla Windows + P
+Abra la configuración del proyecto para elegir un modo de presentación.
+Tecla Windows + Pausa
+Abre la aplicación Configuración en la > página Sistema Acerca de .
+Tecla Windows +Punto (.)
+Tecla Windows +punto y coma (;)
+Abrir el panel de emojis.
+Tecla Windows + Más (+)
+Acércate con la Lupa.
+Tecla Windows + PrtScn
+Capture una captura de pantalla completa y guárdela en un archivo en la subcarpeta Capturas de pantalla de la carpeta Imágenes.
+Tecla Windows + Q
+Abrir la búsqueda.
+Tecla Windows + R
+Abrir el cuadro de diálogo Ejecutar.
+Tecla Windows + Flecha derecha
+Acoplar la ventana al lado derecho de la pantalla.
+Tecla Windows + S
+Abrir la búsqueda.
+Tecla Windows + Mayús + Flecha abajo
+Si una ventana está ajustada o maximizada, restáurela.
+Tecla Windows + Mayús + Entrar
+Si la ventana activa es una aplicación de la Plataforma universal de Windows (UWP), que sea de pantalla completa.
+Tecla Windows +Mayús+Flecha izquierda
+Mueva la ventana activa al monitor de la izquierda.
+Tecla Windows +Mayús+M
+Restaurar las ventanas minimizadas.
+Tecla Windows +Mayús+R
+Seleccione una zona de la pantalla para grabar un vídeo. A continuación, se abre la grabación de pantalla en la herramienta Recortes . De forma predeterminada, esta grabación de pantalla se guarda automáticamente como archivo MP4 en la subcarpeta Grabaciones de pantalla de la carpeta Vídeos.
+Tecla Windows + Mayús + Flecha derecha
+Mueva la ventana activa al monitor de la derecha.
+Tecla Windows +Mayús+S
+Seleccione una zona de la pantalla para hacer una captura de pantalla en el portapapeles. A continuación, puedes abrir la herramienta Recortes para compartir o aumentar la imagen.
+Tecla Windows + Mayús + barra espaciadora
+Cambiar hacia atrás entre los idiomas de entrada y las distribuciones del teclado.
+Tecla Windows + Mayús + Flecha arriba
+Expandir la ventana del escritorio a la parte superior e inferior de la pantalla.
+Tecla Windows + Mayús + V
+Desplazarse por las notificaciones.
+Tecla Windows + barra espaciadora
+Avanzar entre los idiomas de entrada y las distribuciones del teclado.
+Tecla Windows + Tab
+Abrir la Vista de tareas .
+Tecla Windows + U
+Abra la aplicación Configuración en la sección Accesibilidad.
+Tecla Windows + Flecha arriba
+Maximizar la ventana activa.
+Tecla Windows + V
+Abra el historial del Portapapeles.
+Nota: El historial del Portapapeles no está activado de forma predeterminada. Para activarlo, usa este método abreviado de teclado y, a continuación, selecciona el mensaje para activar el historial. También puedes activarlo en la aplicación > Configuración : Portapapeles del sistema > y establecer el historial del Portapapeles en Activado .
+Abrir la aplicación Configuración
+Tecla Windows + W
+Abrir widgets .
+Tecla Windows + X
+Abrir el menú Vínculo rápido. Este acceso directo es la misma acción que hacer clic con el botón derecho en el menú Inicio.
+Tecla Windows + Y
+Cambiar entrada entre Windows Mixed Reality y el escritorio.
+Tecla Windows + Z
+Abrir los diseños de ajuste.
+Métodos abreviados de teclado del símbolo del sistema
+Use los siguientes accesos directos con el símbolo del sistema de Windows.
+Presione esta tecla:
+Para realizar esta acción:
+Ctrl+C
+Ctrl+Insertar
+Copiar el texto seleccionado.
+Ctrl+V
+Mayús+Insertar
+Pegar el texto seleccionado.
+Ctrl+M
+Acceder al modo de marca.
+Alt+tecla de selección
+Iniciar la selección en modo de bloque.
+Teclas de dirección
+Mover el cursor en la dirección especificada.
+Re Pág
+Subir el cursor una página.
+Av Pág
+Bajar el cursor una página.
+Ctrl+Inicio (modo de marca)
+Mover el cursor al principio del búfer.
+Ctrl+Fin (modo de marca)
+Mover el cursor al final del búfer.
+Ctrl+Flecha arriba
+Subir una línea en el historial de salida.
+Ctrl+Flecha abajo
+Bajar una línea en el historial de salida.
+Ctrl+Inicio (navegación por el historial)
+Si la línea de comandos está vacía, mueve la ventanilla a la parte superior del búfer. De lo contrario, elimina todos los caracteres a la izquierda del cursor en la línea de comandos.
+Ctrl+Fin (navegación por el historial)
+Si la línea de comandos está vacía, mueve la ventanilla a la línea de comandos. De lo contrario, elimina todos los caracteres que se encuentran a la derecha del cursor en la línea de comandos.
+Métodos abreviados de teclado de los cuadros de diálogo
+Use los siguientes métodos abreviados de teclado con ventanas de diálogo, como alertas del sistema o mensajes de error.
+Presione esta tecla:
+Para realizar esta acción:
+F4
+Mostrar los elementos de la lista activa.
+Ctrl+Tab
+Avanzar a través de las pestañas.
+Ctrl+Mayús+Tab
+Retroceder a través de las pestañas.
+Ctrl+1, 2, 3,...
+Desplazarse a ese número de tabulación.
+TAB
+Avanzar por las opciones.
+Mayús+Tab
+Retroceder por las opciones.
+Alt+letra subrayada
+Ejecutar el comando (o seleccionar la opción) que se usa con la letra.
+Barra espaciadora
+Si la opción activa es una casilla, activarla o desactivarla.
+Retroceso
+Abrir una carpeta de un nivel superior si hay una carpeta seleccionada en el cuadro de diálogo Guardar como o Abrir.
+Teclas de dirección
+Si la opción activa es un grupo de botones de opción, seleccionar un botón.
+Métodos abreviados de teclado del Explorador de archivos
+En la siguiente lista se incluyen métodos abreviados de teclado al usar el Explorador de archivos .
+Presione esta tecla:
+Para realizar esta acción:
+Alt+D
+Seleccionar la barra de direcciones.
+Alt+Entrar
+Ver las propiedades del elemento seleccionado.
+Alt+Flecha izquierda
+Retroceso
+Vaya a la carpeta anterior.
+Alt+ratón arrastrar un archivo
+Cuando suelte el archivo, cree un acceso directo al archivo original en esa ubicación.
+Alt+P
+Mostrar u ocultar el panel de vista previa.
+Alt+Flecha derecha
+Ver la carpeta siguiente.
+Alt+Mayús+P
+Mostrar u ocultar el panel de detalles.
+Alt+Flecha arriba
+Subir un nivel en la ruta de acceso de la carpeta.
+Ctrl+tecla de dirección (para desplazarse a un elemento)+Barra espaciadora
+Seleccionar varios elementos individuales.
+Ctrl+D
+Suprimir
+Eliminar el elemento seleccionado y moverlo a la papelera de reciclaje.
+Ctrl+E
+Ctrl+B
+Seleccionar el cuadro de búsqueda.
+Ctrl+I
+Centrarse en la barra de direcciones.
+Ctrl+mouse arrastrar un archivo
+Cuando suelte el archivo, cree una copia en esa ubicación.
+Ctrl + rueda del ratón
+Cambiar el tamaño y la apariencia de los iconos de archivos y carpetas.
+Ctrl+U
+Abrir una nueva ventana.
+Ctrl+Número (1-9)
+Desplazarse a ese número de tabulación.
+Ctrl+Signo más (+)
+Cambiar el tamaño de todas las columnas para ajustarse al texto.
+Nota: Este método abreviado requiere el uso de un teclado numérico.
+Ctrl+Mayús+E
+Expande todas las carpetas del árbol en el panel de navegación.
+Ctrl+Mayús+N
+Cree una carpeta nueva.
+Ctrl+Mayús+Número (1-9)
+Cambiar el estilo de vista. Por ejemplo, 2 son iconos grandes y 6 son detalles .
+Ctrl+Mayús+Tab
+Desplazarse a la pestaña anterior.
+Ctrl+T
+Abrir una pestaña nueva y cambiar a ella.
+Ctrl+W
+Cierra la pestaña activa. Cierra la ventana si solo hay una pestaña abierta.
+Ctrl+Tab
+Desplazarse a la pestaña siguiente.
+Fin
+Desplazarse hasta la parte inferior de la ventana activa.
+F2
+Cambiar el nombre del elemento seleccionado.
+F3
+Buscar un archivo o carpeta.
+F4
+Seleccione la barra de direcciones para cambiar la ruta de acceso actual.
+F5
+Actualice la ventana.
+F6
+Desplazarse por los elementos de la ventana.
+F11
+Maximizar o minimizar la ventana activa.
+Inicio
+Desplazarse hasta la parte superior de la ventana activa.
+Flecha izquierda
+Contraer la selección actual si está expandida o seleccionar la carpeta que contenía la carpeta.
+Flecha derecha
+Mostrar la selección actual si está contraída o seleccionar la primera subcarpeta.
+Mayús+Teclas de dirección
+Seleccionar varios elementos.
+Mayús+Supr
+Eliminar permanentemente el elemento seleccionado sin moverlo a la papelera de reciclaje.
+Mayús+F10
+Mostrar el menú contextual del elemento seleccionado.
+Mayús+arrastrar un archivo con el mouse
+Cuando suelte el archivo, muévalo a esa ubicación.
+Mayús+clic con el botón derecho del mouse
+Mostrar el menú contextual Mostrar más opciones para el elemento seleccionado.
+Tecla Windows + E
+Abre el Explorador de archivos.
+Varios métodos abreviados de teclado de escritorios
+Use los siguientes métodos abreviados de teclado para crear y trabajar con varios entornos de escritorio. Para obtener más información, consulta Escritorios múltiples en Windows .
+Presione esta tecla:
+Para realizar esta acción:
+Tecla Windows + Tab
+Abrir la Vista de tareas.
+Tecla Windows + Ctrl + D
+Crear otro escritorio.
+Tecla Windows + Ctrl + Flecha derecha
+Alternar entre otros escritorios que has creado a la derecha.
+Tecla Windows +Ctrl+Flecha izquierda
+Alternar entre otros escritorios que has creado a la izquierda.
+Tecla Windows +Ctrl+F4
+Cerrar el escritorio que estás usando.
+Métodos abreviados de teclado de la barra de tareas
+En la lista siguiente se incluyen métodos abreviados de teclado para trabajar con la barra de tareas de Windows, las aplicaciones ancladas y el área de notificación.
+Presione esta tecla:
+Para realizar esta acción:
+Alt+Mayús+Flecha
+Cuando un icono de aplicación está en el foco, mueve su posición en la dirección de la flecha.
+Ctrl+seleccionar un icono de aplicación agrupada en la barra de tareas
+Cuando se agrupan varias ventanas de la misma aplicación en la barra de tareas, presione Ctrl mientras selecciona el icono de la barra de tareas para cambiar el foco a través de las ventanas del grupo de aplicaciones.
+Ctrl+Mayús+seleccionar un icono de aplicación en la barra de tareas
+Abra la aplicación como un administrador.
+Mayús+clic con el botón derecho en un icono de aplicación en la barra de tareas
+Mostrar el menú de la ventana de la aplicación.
+Mayús+clic con el botón derecho en un botón de la barra de tareas agrupadas
+Mostrar el menú de la ventana del grupo.
+Mayús+seleccionar un icono de aplicación en la barra de tareas
+Abrir otra instancia de la aplicación.
+Tecla Windows + Alt + Entrar (en el foco del elemento de la barra de tareas)
+Abra la configuración de la barra de tareas.
+Tecla de Windows +Alt+número (0-9)
+Abrir la lista de accesos directos de la aplicación anclada a la barra de tareas en la posición indicada por el número.
+Tecla Windows + B
+Establezca el foco en el primer icono del área de notificación de la barra de tareas.
+Tecla Windows+Ctrl+número (0-9)
+Cambiar a la última ventana activa de la aplicación anclada a la barra de tareas en la posición indicada por el número.
+Tecla Windows +Ctrl+Mayús+número (0-9)
+Abrir como administrador una nueva instancia de la aplicación ubicada en la posición determinada en la barra de tareas.
+Tecla Windows + número (0-9)
+Abrir la aplicación anclada a la barra de tareas en la posición indicada por el número. Si la aplicación ya se está ejecutando, cambiar a esa aplicación.
+Tecla Windows +Mayús+Número (0-9)
+Iniciar una nueva instancia de la aplicación anclada a la barra de tareas en la posición indicada por el número.
+Tecla Windows + T
+Desplazarse por las aplicaciones de la barra de tareas. Cuando se conecta a varios monitores, el uso continuado pasará por las aplicaciones en todas las pantallas disponibles.
+Tecla Windows + Mayús + T
+Ir a la aplicación anterior en la barra de tareas. Cuando se conecta a varios monitores, el uso continuado pasará por las aplicaciones en todas las pantallas disponibles.
+Métodos abreviados de teclado de la configuración
+Use los siguientes métodos abreviados de teclado con la aplicación Configuración.
+Presione esta tecla:
+Para realizar esta acción:
+Teclas de dirección
+Mover el foco por la región seleccionada actualmente.
+Desplácese por la página.
+Retroceso
+Navegar hacia atrás.
+Entrar
+Barra espaciadora
+Seleccionar el elemento actual en el foco.
+Mayús+Tab
+Retroceder por las regiones.
+TAB
+Avanzar a través de las regiones.
+Tecla Windows + I
+Abre la aplicación Configuración.
+Métodos abreviados de teclado adicionales
+Métodos abreviados de teclado en aplicaciones
+Métodos abreviados de teclado de Windows para accesibilidad
+Métodos abreviados de teclado para Game Bar
+Métodos abreviados de teclado en Microsoft 365
+Usar la clave de Office
+Teclas de método abreviado de Servicios de Escritorio remoto
+Los métodos abreviados de teclado son combinaciones de teclas que proporcionan un modo alternativo para hacer algo que se suele realizar con un ratón. Haz clic en una de las siguientes opciones y se abrirá para mostrar una tabla de métodos abreviados relacionados:
+Copiar, pegar y otros métodos abreviados de teclado generales
+Presiona esta tecla
+Para realizar esta acción
+Ctrl+X
+Cortar el elemento seleccionado.
+Ctrl+C (o Ctrl+Insert)
+Copiar el elemento seleccionado.
+Ctrl+V (o Mayús+Insertar)
+Pegar el elemento seleccionado.
+Ctrl+Z
+Deshacer una acción.
+Alt+Tab
+Cambiar entre aplicaciones abiertas.
+Alt+F4
+Cerrar el elemento activo o salir de la aplicación activa.
+Tecla Windows + L
+Bloquear el equipo.
+Tecla Windows + D
+Mostrar y ocultar el escritorio.
+F2
+Cambiar el nombre del elemento seleccionado.
+F3
+Buscar un archivo o una carpeta en el Explorador de archivos.
+F4
+Mostrar la lista de la barra de direcciones en el Explorador de archivos.
+F5
+Actualizar la ventana activa.
+F6
+Desplazarse por los elementos de la pantalla en una ventana o en el escritorio.
+F10
+Activar la barra de menús en la aplicación activa.
+Alt+F8
+Mostrar la contraseña en la pantalla de inicio de sesión.
+Alt+Esc
+Desplazarse por los elementos en el orden en que se abrieron.
+Alt+letra subrayada
+Ejecutar el comando correspondiente a esa letra.
+Alt+Entrar
+Ver las propiedades del elemento seleccionado.
+Alt+Barra espaciadora
+Abrir el menú contextual de la ventana activa.
+Alt+Flecha izquierda
+Volver.
+Alt+Flecha derecha
+Ir hacia delante.
+Alt+Re Pág
+Retroceder una pantalla
+Alt+Flecha abajo
+Mover una pantalla hacia abajo
+Ctrl+F4
+Cerrar el documento activo (en las aplicaciones que están abiertas a pantalla completa y que te permiten tener abiertos varios documentos simultáneamente).
+Ctrl+E
+Seleccionar todos los elementos en un documento o ventana.
+Ctrl+D (o Supr)
+Eliminar el elemento seleccionado y moverlo a la papelera de reciclaje.
+Ctrl+R (o F5)
+Actualizar la ventana activa.
+Ctrl+Y
+Rehacer una acción
+Ctrl+Flecha derecha
+Mover el cursor al principio de la palabra siguiente.
+Ctrl+Flecha izquierda
+Mover el cursor al principio de la palabra anterior.
+Ctrl+Flecha abajo
+Mover el cursor al principio del párrafo siguiente.
+Ctrl+Flecha arriba
+Mover el cursor al principio del párrafo anterior.
+Ctrl+Alt+Tab
+Usar las teclas de dirección para cambiar entre todas las aplicaciones abiertas.
+Alt+Mayús+teclas de dirección
+Cuando un grupo o un icono tiene el foco en el menú Inicio, moverlo en la dirección especificada.
+Ctrl+Mayús+teclas de dirección
+Cuando una ventana tenga el foco en el menú Inicio, muévelo a otra ventana para crear una carpeta.
+Ctrl+teclas de dirección
+Cambiar el tamaño del menú Inicio cuando se abre.
+Ctrl+tecla de dirección (para desplazarse a un elemento)+Barra espaciadora
+Seleccionar varios elementos individuales en una ventana o en el escritorio.
+Ctrl+Mayús con una tecla de dirección
+Seleccionar un bloque de texto.
+CTRL+Esc
+Abrir Inicio.
+Ctrl+Mayús+Esc
+Abra el administrador de tareas
+Ctrl+Mayús
+Cambiar la distribución del teclado cuando hay varias distribuciones del teclado disponibles.
+Ctrl+barra espaciadora
+Activar o desactivar el Editor de métodos de entrada (IME) para chino.
+Mayús+F10
+Mostrar el menú contextual del elemento seleccionado.
+Mayús con cualquier tecla de dirección
+Seleccionar varios elementos en una ventana o en el escritorio, o bien seleccionar texto en un documento.
+Mayús+Supr
+Eliminar el elemento seleccionado sin moverlo a la papelera de reciclaje.
+Flecha derecha
+Abrir el siguiente menú de la derecha o abrir un submenú.
+Flecha izquierda
+Abrir el siguiente menú de la izquierda o cerrar un submenú.
+Esc
+Detener la tarea actual o salir de ella.
+PrtScn
+Tomar una captura de pantalla de la pantalla completa y copiarla en el Portapapeles.
+Nota: Puedes cambiar este acceso directo para que también se abra el recorte de pantalla, que te permite editar tu captura de pantalla. Seleccione Inicio ** > Configuración > Accesibilidad Teclado y active el botón de > alternancia en Acceso directo a Imprimir pantalla .
+Utilizar la tecla Impr Pant para abrir el recorte de pantalla
+Métodos abreviados de teclado con las teclas de Windows
+Presiona esta tecla
+Para realizar esta acción
+Tecla Windows
+Abrir o cerrar Inicio.
+Tecla Windows + A
+Abrir el Centro de actividades.
+Tecla Windows + B
+Llevar el foco al área de notificación.
+Tecla Windows + C
+Abrir Cortana en modo de escucha.
+Notas:
+Este método abreviado está desactivado de forma predeterminada. Para activarla, selecciona Configuración > de Inicio > en Cortana y activa el botón de alternancia en Permitir que Cortana escuche mis comandos al presionar la tecla Windows + C .
+Cortana está disponible solo en algunos países o regiones y es posible que algunas de sus funciones no estén disponibles en todos ellos. Si Cortana no está disponible o está desactivada, puedes seguir usando Buscar .
+Tecla Windows +Mayús+C
+Abrir el menú de botones de acceso.
+Tecla Windows + D
+Mostrar y ocultar el escritorio.
+Tecla Windows + E
+Abre el Explorador de archivos.
+Tecla Windows + F
+Abrir el Centro de opiniones y hacer una captura de pantalla.
+Tecla Windows + G
+Abrir la barra de juegos con un juego abierto.
+Tecla Windows + Alt + B
+Activar o desactivar HDR.
+Nota: Se aplica a la versión 5.721.7292.0 o posterior de la aplicación Game Bar. Para actualizar Game Bar, ve a la Microsoft Store y busca actualizaciones.
+Tecla Windows + H
+Iniciar dictado.
+Tecla Windows + I
+Abrir configuración.
+Tecla de Windows +Mayús+A
+Resaltar una sugerencia de Windows cuando esté disponible.
+Cuando aparece una sugerencia de Windows, esta se resalta. Al presionar los métodos abreviados de teclado de nuevo para enfocar el elemento de la pantalla en el que está anclado la sugerencia de Windows.
+Tecla Windows + K
+Abrir la acción rápida Conectar.
+Tecla Windows + L
+Bloquear el equipo o cambiar de cuenta.
+Tecla Windows + M
+Minimizar todas las ventanas.
+Tecla Windows + O
+Bloquear la orientación del dispositivo.
+Tecla Windows + P
+Elegir un modo de presentación.
+Tecla Windows + Ctrl + Q
+Abrir Asistencia rápida.
+Tecla Windows + R
+Abrir el cuadro de diálogo Ejecutar.
+Tecla Windows + S
+Abrir la búsqueda.
+Tecla Windows +Mayús+S
+Realizar una captura de pantalla de parte de la pantalla.
+Tecla Windows + T
+Desplazarse por las aplicaciones de la barra de tareas.
+Tecla Windows + U
+Abrir el Centro de accesibilidad.
+Tecla Windows + V
+Abrir el Portapapeles.
+Nota
+Para activar este acceso directo, seleccione Configuración de > Inicio >, Portapapeles del sistema > y active el botón de alternancia en Historial del portapapeles .
+Tecla Windows + Mayús + V
+Desplazarse por las notificaciones.
+Tecla Windows + X
+Abrir el menú Vínculo rápido.
+Tecla Windows + Y
+Cambiar entrada entre Windows Mixed Reality y el escritorio.
+Tecla Windows + Z
+Mostrar los comandos disponibles en una aplicación en modo de pantalla completa.
+Tecla de Windows +punto (.) o punto y coma (;)
+Abrir el panel de emojis.
+Tecla Windows + coma (,)
+Ojear temporalmente el escritorio.
+Tecla Windows + Pausa
+Mostrar el cuadro de diálogo Propiedades del sistema
+Tecla Windows + Ctrl + F
+Buscar equipos (en una red).
+Tecla Windows +Mayús+M
+Restaurar las ventanas minimizadas en el escritorio.
+Tecla + número de Windows
+Abrir el escritorio e iniciar la aplicación anclada a la barra de tareas en la posición indicada por el número. Si la aplicación ya se está ejecutando, cambiar a esa aplicación.
+Tecla Windows + Mayús + número
+Abrir el escritorio e iniciar una nueva instancia de la aplicación anclada a la barra de tareas en la posición indicada por el número.
+Tecla Windows + Ctrl + número
+Abrir el escritorio y cambiar a la última ventana activa de la aplicación anclada a la barra de tareas en la posición indicada por el número.
+Tecla Windows + Alt + número
+Abrir el escritorio y abrir la lista de accesos directos de la aplicación anclada a la barra de tareas en la posición indicada por el número.
+Tecla de Windows +Ctrl+Mayús+número
+Abrir el escritorio y abrir una nueva instancia de la aplicación ubicada en la posición determinada en la barra de tareas como administrador.
+Tecla Windows + Tab
+Abrir la Vista de tareas.
+Tecla Windows + Flecha arriba
+Maximizar la ventana.
+Tecla Windows + Flecha abajo
+Quitar la aplicación actual de la pantalla o minimizar la ventana del escritorio.
+Tecla Windows + Flecha izquierda
+Maximizar la ventana de la aplicación o del escritorio en el lado izquierdo de la pantalla.
+Tecla Windows + Flecha derecha
+Maximizar la ventana de la aplicación o del escritorio en el lado derecho de la pantalla.
+Tecla Windows + Inicio
+Minimizar todo excepto la ventana del escritorio activa (repetir la acción para restaurar todas las ventanas).
+Tecla Windows + Mayús + Flecha arriba
+Expandir la ventana del escritorio a la parte superior e inferior de la pantalla.
+Tecla Windows + Mayús + Flecha abajo
+Restaurar o minimizar las ventanas del escritorio activas verticalmente conservando el ancho.
+Tecla Windows + Mayús + flecha izquierda o flecha derecha
+Mover una aplicación o ventana del escritorio de un monitor a otro.
+Tecla Windows + barra espaciadora
+Cambiar entre el idioma de entrada y la distribución del teclado.
+Tecla Windows + Ctrl + barra espaciadora
+Cambiar a una entrada seleccionada anteriormente.
+Tecla Windows + Ctrl + Entrar
+Activar Narrador.
+Tecla Windows + Más (+)
+Abrir la Lupa.
+Tecla Windows +barra diagonal (/)
+Comenzar la reconversión de IME.
+Tecla Windows + Ctrl + V
+Abrir notificaciones animadas.
+Tecla Windows + Ctrl + Mayús + B
+Reactivar PC desde una pantalla en blanco o negra.
+Tecla Windows + Alt + Entrar (en el foco del elemento de la barra de tareas)
+Abra la configuración de la barra de tareas.
+Métodos abreviados de teclado del símbolo del sistema
+Presiona esta tecla
+Para realizar esta acción
+Ctrl+C (o Ctrl+Insert)
+Copiar el texto seleccionado.
+Ctrl+V (o Mayús+Insertar)
+Pegar el texto seleccionado.
+Ctrl+M
+Acceder al modo de marca.
+Alt+tecla de selección
+Iniciar la selección en modo de bloque.
+Teclas de dirección
+Mover el cursor en la dirección especificada.
+Re Pág
+Subir el cursor una página.
+Av Pág
+Bajar el cursor una página.
+Ctrl+Inicio (modo de marca)
+Mover el cursor al principio del búfer.
+Ctrl+Fin (modo de marca)
+Mover el cursor al final del búfer.
+Ctrl+Flecha arriba
+Subir una línea en el historial de salida.
+Ctrl+Flecha abajo
+Bajar una línea en el historial de salida.
+Ctrl+Inicio (navegación por el historial)
+Si la línea de comandos está vacía, mueve la ventanilla a la parte superior del búfer. De lo contrario, elimina todos los caracteres a la izquierda del cursor en la línea de comandos.
+Ctrl+Fin (navegación por el historial)
+Si la línea de comandos está vacía, mueve la ventanilla a la línea de comandos. De lo contrario, elimina todos los caracteres que se encuentran a la derecha del cursor en la línea de comandos.
+Métodos abreviados de teclado de los cuadros de diálogo
+Presiona esta tecla
+Para hacer esto
+F4
+Mostrar los elementos de la lista activa.
+Ctrl+Tab
+Avanzar a través de las pestañas.
+Ctrl+Mayús+Tab
+Retroceder a través de las pestañas.
+Ctrl+número (número 1–9)
+Desplazarse a la enésima pestaña.
+Tabulador
+Avanzar por las opciones.
+Mayús+Tab
+Retroceder por las opciones.
+Alt+letra subrayada
+Ejecutar el comando (o seleccionar la opción) que se usa con la letra.
+Barra espaciadora
+Si la opción activa es una casilla, activarla o desactivarla.
+Retroceso
+Abrir una carpeta de un nivel superior si hay una carpeta seleccionada en el cuadro de diálogo Guardar como o Abrir.
+Teclas de dirección
+Si la opción activa es un grupo de botones de opción, seleccionar un botón.
+Métodos abreviados de teclado del Explorador de archivos
+Presiona esta tecla
+Para realizar esta acción
+Alt+D
+Seleccionar la barra de direcciones.
+Ctrl+E
+Seleccionar el cuadro de búsqueda.
+Ctrl+B
+Seleccionar el cuadro de búsqueda.
+Ctrl+U
+Abrir una nueva ventana.
+Ctrl+W
+Cerrar la ventana activa.
+Ctrl + rueda del ratón
+Cambiar el tamaño y la apariencia de los iconos de archivos y carpetas.
+Ctrl+Mayús+E
+Mostrar todas las carpetas situadas sobre la carpeta seleccionada.
+Ctrl+Mayús+N
+Cree una carpeta nueva.
+Bloq Num+asterisco (*)
+Mostrar todas las subcarpetas de la carpeta seleccionada.
+Bloq Num+signo más (+)
+Mostrar el contenido de la carpeta seleccionada.
+Bloq Num+signo menos (-)
+Contraer la carpeta seleccionada
+Alt+P
+Mostrar el panel de vista previa.
+Alt+Entrar
+Abrir el cuadro de diálogo Propiedades del elemento seleccionado.
+Alt+Flecha derecha
+Ver la carpeta siguiente.
+Alt+Flecha arriba
+Ver la carpeta que contenía la carpeta.
+Alt+Flecha izquierda
+Ver la carpeta anterior.
+Retroceso
+Ver la carpeta anterior.
+Flecha derecha
+Mostrar la selección actual si está contraída o seleccionar la primera subcarpeta.
+Flecha izquierda
+Contraer la selección actual si está expandida o seleccionar la carpeta que contenía la carpeta.
+Fin
+Mostrar la parte inferior de la ventana activa.
+Inicio
+Mostrar la parte superior de la ventana activa.
+F11
+Maximizar o minimizar la ventana activa.
+Métodos abreviados de teclado de escritorios virtuales
+Presiona esta tecla
+Para realizar esta acción
+Tecla Windows + Tab
+Abrir la Vista de tareas.
+Tecla Windows + Ctrl + D
+Agregar un escritorio virtual.
+Tecla Windows + Ctrl + Flecha derecha
+Alternar entre los escritorios virtuales que has creado a la derecha.
+Tecla Windows +Ctrl+Flecha izquierda
+Alternar entre los escritorios virtuales que has creado a la izquierda.
+Tecla Windows +Ctrl+F4
+Cerrar el escritorio virtual que estás usando.
+Métodos abreviados de teclado de la barra de tareas
+Presiona esta tecla
+Para realizar esta acción
+Mayús+clic en un botón de la barra de tareas
+Abrir una aplicación o abrir rápidamente otra instancia de una aplicación.
+Ctrl+Mayús+clic en un botón de la barra de tareas
+Abrir una aplicación como un administrador.
+Mayús+clic con el botón derecho en un botón de la barra de tareas
+Mostrar el menú de la ventana de la aplicación.
+Mayús+clic con el botón derecho en un botón de la barra de tareas agrupadas
+Mostrar el menú de la ventana del grupo.
+Ctrl+clic en un botón de la barra de tareas agrupadas
+Desplazarse a través de las ventanas del grupo.
+Métodos abreviados de teclado de la configuración
+Presiona esta tecla
+Para realizar esta acción
+Tecla Windows + I
+Abre la configuración.
+Retroceso
+Volver a la página principal de Configuración.
+Escribir en cualquier página con el cuadro de búsqueda
+Buscar en Configuración.
+Métodos abreviados de teclado adicionales
+Métodos abreviados de teclado en aplicaciones
+Métodos abreviados de teclado de Windows para accesibilidad
+Métodos abreviados de teclado de Continuum para teléfonos

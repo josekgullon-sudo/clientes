@@ -1,0 +1,64 @@
+Crear un mensaje de correo electrónico en Outlook
+https://support.microsoft.com/es-es/outlook/mail/create-an-email-message-in-outlook
+Descargado: 2026-10-13
+
+Crear un mensaje de correo electrónico en Outlook
+Se aplica a Outlook para Microsoft 365 Outlook 2024 Outlook 2021 Outlook 2019 Outlook 2016 Office 365 Pequeña Empresa Outlook.com Nuevo Outlook para Windows
+Obtener ayuda con Copilot
+¿Cómo creo un correo electrónico en Outlook clásico?
+¿Cómo muestro u oculto el campo CCO?
+Simplifica la creación de un correo electrónico en Outlook con Copilot.
+Puede redactar fácilmente un nuevo mensaje de correo electrónico en Outlook y enviarlo a uno o más destinatarios.
+Seleccione una de las siguientes opciones de pestaña para la versión de Outlook que está usando.
+¿Qué versión de Outlook tengo?
+Nuevo Outlook
+Outlook clásico
+Web
+Nota
+Si los pasos descritos en esta pestaña Nuevo Outlook no funcionan, es posible que todavía no esté usando el nuevo Outlook para Windows. Seleccione Outlook clásico y siga esos pasos en su lugar.
+Crear un mensaje de correo electrónico en el nuevo Outlook
+Desde el nuevo Outlook, fuera de la cinta de opciones, seleccione Nuevo > correo o presione Ctrl + N .
+Si hay varias cuentas de correo configuradas en el nuevo Outlook, From:<accountname> aparece en la parte superior del mensaje nuevo. Para cambiar la cuenta desde la que quiere enviar el mensaje, seleccione la lista desplegable y elija otra cuenta.
+En los cuadros Para , CC o CCO , escriba los nombres o la dirección de correo electrónico de los destinatarios.
+Cuando empiece a escribir el nombre de un destinatario, Outlook le sugerirá los nombres de personas a las que haya enviado un correo electrónico antes. Los contactos que haya enviado por correo electrónico más recientemente se mostrarán como Contactos sugeridos . Puede elegir un nombre de la lista, escribir un nombre completo o una dirección de correo electrónico, o seleccionar el botón Para , CC o CCO para ver más opciones.
+Al seleccionar el botón Para , CC o CCO , se abrirá la ventana Agregar destinatarios . En la lista de destinatarios, seleccione + junto al nombre que desea incluir en el mensaje. Cuando termine de agregar nombres, seleccione Guardar .
+Recomendación
+Si CCO no aparece como botón en el mensaje, seleccione CCO a la derecha del botón Para . Para obtener más información sobre cómo mostrar siempre CCO, consulta Mostrar, ocultar y ver el campo CCO (copia carbón oculta).
+En el campo Agregar un asunto , escriba el asunto del mensaje.
+Adjuntar un archivo
+Para adjuntar un archivo antes de enviar el mensaje, haga lo siguiente.
+Seleccione Insertar > archivo adjunto para agregar datos adjuntos.
+Recomendación
+Si no le gusta la fuente o el estilo del correo, puede cambiar su aspecto . También es una buena idea revisar la ortografía del mensaje antes de enviarlo.
+Después de finalizar la redacción del mensaje, seleccione Enviar .
+Recomendación
+Para obtener más ayuda para adjuntar archivos, vea Agregar imágenes o adjuntar archivos a correos electrónicos en Outlook .
+Crear un mensaje de correo electrónico en la versión clásica de Outlook
+Si desea ver cómo se hace, puede ir directamente al siguiente vídeo .
+Desde la versión clásica de Outlook, fuera de la cinta de opciones, seleccione Nuevo Email o presione Ctrl + N .
+Si hay varias cuentas de correo configuradas en Outlook, aparece el botón De y se muestra la cuenta que enviará el mensaje. Para cambiar la cuenta, haga clic en De y elija la cuenta que desea usar.
+En el cuadro Asunto , escriba el asunto del mensaje.
+Escriba los nombres o las direcciones de correo de los destinatarios en los cuadros Para , CC o CCO . Separe con punto y coma cuando escriba más de un destinatario.
+Recomendación
+Cuando empiece a escribir el nombre de un destinatario, Outlook le sugerirá los nombres de personas a las que haya enviado un correo electrónico antes. Aquellos a los que haya escrito más recientemente se mostrarán como Contactos recientes , mientras que aquellos a los que escribe con menos frecuencia aparecerán como Otras sugerencias . Puede elegir un nombre de la lista, escribir un nombre completo o la dirección de correo electrónico o hacer clic en Para , CC o CCO para seleccionar uno o más nombres de la libreta de direcciones.
+Para seleccionar los nombres de los destinatarios de una lista de la Libreta de direcciones, haga clic en Para , CC o CCO y, a continuación, seleccione los nombres que desee.
+Si no se muestra CCO y desea mostrar CCO para este y todos los mensajes futuros, seleccione Opciones > Mostrar campos > CCO .
+En la pestaña Insertar , seleccione Adjuntar archivo para agregar datos adjuntos. O bien, seleccione Elemento de Outlook para adjuntar archivos en Outlook , como mensajes de correo electrónico, tareas, contactos o elementos del calendario.
+Recomendación
+Si no le gusta la fuente o el estilo del correo, puede cambiar su aspecto . También es una buena idea revisar la ortografía del mensaje antes de enviarlo.
+Después de finalizar la redacción del mensaje, seleccione Enviar .
+Nota
+Si no puede encontrar el botón Enviar , es posible que deba configurar una cuenta de correo electrónico.
+Ver cómo se hace
+Crear un mensaje de correo electrónico en Outlook en la Web o Outlook.com
+En Outlook en la Web o Outlook.com, fuera de la cinta de opciones, seleccione Nuevo > correo .
+En la línea Para , CC o CCO , escriba los nombres o la dirección de correo electrónico de los destinatarios.
+Cuando empiece a escribir el nombre de un destinatario, Outlook le sugerirá los nombres de personas a las que haya enviado un correo electrónico antes. Los contactos que haya enviado por correo electrónico más recientemente se mostrarán como Contactos sugeridos . Puede elegir un nombre de la lista, escribir un nombre completo o una dirección de correo electrónico, o seleccionar el botón Para , CC o CCO para ver más opciones.
+Al seleccionar el botón Para , CC o CCO , se abrirá la ventana Agregar destinatarios . En la lista de destinatarios, seleccione + junto al nombre que desea incluir en el mensaje. Cuando termine de agregar nombres, seleccione Guardar .
+Recomendación
+Si CCO no aparece como botón en el mensaje, seleccione CCO a la derecha del botón Para . Para obtener más información sobre cómo mostrar siempre CCO, consulta Mostrar, ocultar y ver el campo CCO (copia carbón oculta).
+En el campo Agregar un asunto , escriba el asunto del mensaje.
+Seleccione Insertar > archivo adjunto para agregar datos adjuntos.
+Recomendación
+Si no le gusta la fuente o el estilo del correo, puede cambiar su aspecto . También es una buena idea revisar la ortografía del mensaje antes de enviarlo.
+Después de finalizar la redacción del mensaje, seleccione Enviar .

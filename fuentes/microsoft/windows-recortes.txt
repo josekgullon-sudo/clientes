@@ -1,0 +1,177 @@
+Usar Recortes para capturar capturas de pantalla
+https://support.microsoft.com/es-es/windows/apps/use-snipping-tool-to-capture-screenshots
+Descargado: 2026-10-13
+
+Usar Recortes para realizar capturas de pantalla
+Se aplica a Windows 11 Windows 10
+Obtener ayuda con Copilot
+¿Cómo capturo capturas de pantalla con la herramienta Recortes?
+¿Cómo uso la tecla de imprimir pantalla?
+Ayúdame a configurar un flujo de trabajo de captura de pantalla para documentación.
+Windows 11
+Windows 10
+Crea una instantánea para copiar palabras o imágenes de toda la pantalla del equipo o de parte de ella. Usa la Herramienta Recortes para realizar cambios o tomar notas y, a continuación, guarda y comparte.
+Captura cualquiera de los siguientes tipos de recortes:
+Forma libre
+Dibujar una forma libre alrededor de un objeto.
+Rectángulo
+Arrastra el cursor alrededor de un objeto para formar un rectángulo.
+Ventana
+Selecciona una ventana, como un cuadro de diálogo, que quieras capturar.
+Pantalla completa
+Captura toda la pantalla.
+Recorte de vídeo
+Captura un clip de vídeo de una selección rectangular de cualquier parte de la pantalla que desees.
+Cuando se captura un recorte, se copia automáticamente en la ventana de la Herramienta Recortes donde realizas cambios, guardas y compartes.
+Usar las características de Copilot+ PC en la herramienta Recortes
+En un Copilot+ PC , también puede usar estas características con tecnología de IA:
+Captura de pantalla perfecta
+Perfect screenshot ajusta automáticamente el área de captura para encuadrar el contenido en pantalla, lo que reduce la necesidad de recortar después de la captura.
+Selector de color
+Captura valores de color exactos desde cualquier lugar de la pantalla.
+Abrir la herramienta Recortes
+Selecciona el botón Inicio , introduce la herramienta Recortes y, a continuación, selecciona Herramienta Recortes en los resultados. Puedes usar estos métodos abreviados para hacer las cosas con la herramienta Recortes más rápido:
+Presiona la tecla
++ del logotipo de Windows Mayús + S para abrir la superposición de la herramienta de recorte y captura una instantánea de imagen.
+Presiona la tecla
++ del logotipo de Windows Mayús + R para abrir la superposición de la herramienta de recorte y captura un clip de vídeo.
+Presione Imprimir pantalla ( PrtSc ) para obtener una instantánea de imagen estática de toda la pantalla y colóquela en el portapapeles.
+Trabajar con las capturas de pantalla
+Con la herramienta Recortes abierta, selecciona una de las opciones siguientes para crear y trabajar con tus capturas de pantalla.
+Capturar un recorte
+En la herramienta Recortes, selecciona Recorte automático . y elige el tipo de recorte que quieras y selecciona Nuevo .
+Rectángulo: Permite seleccionar un área rectangular para capturar.
+Ventana: Le permite seleccionar una ventana que desea capturar.
+Pantalla completa: captura inmediatamente una instantánea de toda la pantalla.
+Forma libre: permite dibujar una forma libre para seleccionar el área que se desea capturar.
+Según la opción que selecciones, verás que toda la pantalla cambia ligeramente a gris, lo que indica que estás listo para capturar un recorte.
+Captura una captura de pantalla perfecta
+Nota
+La captura de pantalla perfecta solo está disponible en un PC + IA de Windows 11.
+Una captura de pantalla perfecta solo está disponible en un PC con Copilot+ PC.
+En la herramienta Recortes, selecciona Captura de pantalla perfecta y, a continuación, selecciona un área rectangular en la pantalla.
+Perfect Screenshot ajusta automáticamente el área de captura para encuadrar el contenido en pantalla, lo que reduce la necesidad de recortar después de la captura. Cuando se activa, la herramienta usa una selección rectangular que analiza la pantalla visible y ajusta el contenido más destacado a la vista. Proporciona mangos de recorte para el ajuste fino opcional y está diseñado para hacer que las capturas sean más limpias y eficientes con un mínimo esfuerzo.
+Usar el selector de colores
+Nota
+El Selector de colores solo está disponible en un PC + IA de Windows 11.
+El Selector de colores solo está disponible en un Copilot+ PC.
+En la herramienta Recortes, selecciona el selector de color , luego selecciona un color de la pantalla y cópialo en el portapapeles.
+Anotar un recorte
+Después de capturar un recorte de imagen, puede:
+Escriba o dibuje sobre él o alrededor de él seleccionando los botones Lápiz o Resaltador .
+Agregar formas o emojis al recorte seleccionando el botón Formas .
+Seleccione Borrador para quitar las líneas o formas que agregó.
+Recorte la imagen seleccionando el botón Recorte de imagen .
+Selecciona el botón Acciones de texto para extraer y copiar el texto deseado del recorte.
+Seleccione Deshacer o Rehacer para deshacer o rehacer las anotaciones.
+Captura un recorte de vídeo
+Para capturar un recorte de vídeo, abre Recortes, selecciona el botón Grabar y, a continuación, selecciona Nuevo o presiona la tecla + del logotipo de Windows Mayús + R . Seleccione el área de la pantalla que desea grabar y, a continuación, seleccione Iniciar . Cuando termine, seleccione Detener . En este punto, puede guardar la grabación tal cual o seleccionar Editar en Clipchamp para trabajar con ella en el editor de vídeo de Clipchamp.
+Agregar subtítulos o audio a un recorte de vídeo
+Cuando termines de grabar un recorte de vídeo, selecciona el botón Editar en Clipchamp para añadir subtítulos o audio .
+Generar y agregar subtítulos
+Ve a la pestaña Subtítulos y selecciona el botón Transcribir elementos multimedia .
+Elige tu idioma y las opciones de filtro en la ventana emergente.
+Navegue y seleccione Transcribir medios para generar subtítulos.
+Agregar y separar audio del recorte de vídeo
+Seleccione la pestaña Audio en la barra lateral.
+Ajuste el volumen en un intervalo de 0 a 200 %.
+Para descargar el audio por separado, selecciona el botón Separar audio .
+Para acceder al archivo de audio descargado, presione la tecla del logotipo de Windows + R y escriba "descargas" en el cuadro de diálogo.
+Para obtener más información, consulte Agregar subtítulos y descripción de audio a un vídeo de recorte.
+Nota
+Para agregar un subtítulo automático al fragmento de vídeo, consulte Cómo usar subtítulos automáticos en Clipchamp .
+Para usar la característica de texto a voz, consulte Cómo usar la característica de texto a voz .
+Guardar un recorte
+Después de capturar un recorte, se guarda automáticamente en la carpeta Capturas de pantalla. Para cambiar el comportamiento de guardado automático o la carpeta Capturas de pantalla predeterminada, selecciona Ver más y, luego , Configuración .
+También puedes guardar una copia adicional del recorte capturado seleccionando el botón Guardar como , a continuación, selecciona la ubicación y el nombre de archivo y guarda el archivo.
+Compartir un recorte
+Después de capturar un recorte, seleccione el menú Ver más en la parte superior derecha y, a continuación, seleccione Compartir .
+Copiar o redactar texto
+Una vez que hayas capturado un recorte, selecciona el botón Acciones de texto para activar la característica de reconocimiento óptico de caracteres (OCR). Esto le permite extraer texto directamente de la imagen. Desde aquí, tiene la opción de seleccionar y copiar texto específico o usar las herramientas para copiar todo el texto o redactar rápidamente cualquier dirección de correo electrónico o número de teléfono en el recorte. Todos los procesos de reconocimiento de texto se realizan de forma local en el dispositivo.
+Métodos abreviados de teclado que se pueden usar en Recortes
+Presione estas teclas
+Para realizar esta acción
+Alt (en inglés) + M
+Elegir un modo de recorte.
+Alt (en inglés) + N
+Crear un nuevo recorte del mismo modo que el último.
+Mayús + teclas de dirección
+Mover el cursor para seleccionar entre diferentes tipos de recortes.
+Alt (en inglés) + D
+Retrasar la captura de 1 a 5 segundos
+Ctrl + C
+Copiar el recorte en el Portapapeles
+Ctrl + S
+Guardar el recorte
+Ampliar, girar o recortar el recorte de imagen
+Con la captura abierta en la herramienta Recortes, selecciona Editar > Editar con Paint para usar características de tamaño, color, texto y muchas otras mejoras.
+Imprimir un recorte de imagen
+En la carpeta donde hayas guardado el recorte, haz clic con el botón derecho en el recorte. Selecciona Imprimir en las opciones y elige cómo quieres imprimir la imagen.
+Colocar la herramienta Recortes en la barra de tareas
+En el cuadro de búsqueda de la barra de tareas, escribe herramienta recortes . Aparecerá la aplicación Herramienta Recortes y una lista de acciones que puedes realizar. Selecciona Anclar a la barra de tareas .
+Retrasar la captura de pantalla
+En primer lugar, identifique el menú u otros componentes que desee capturar. En la Herramienta Recortes, selecciona Retraso y, a continuación, elige, por ejemplo, 5 segundos. Selecciona el modo Recortes deseado y, a continuación, selecciona Nuevo para iniciar la cuenta atrás de 5 segundos. Dispones de 5 segundos para abrir un menú o componer la imagen de cualquier forma. Cuando vea que la pantalla se vuelve gris, use el ratón para dibujar alrededor del área que desee.
+Crea una instantánea para copiar palabras o imágenes de toda la pantalla del equipo o de parte de ella. Usa la Herramienta Recortes para realizar cambios o tomar notas y, a continuación, guarda y comparte.
+Captura cualquiera de los siguientes tipos de recortes:
+Recorte de forma libre
+Dibuja una forma de forma libre alrededor de un objeto.
+Recorte rectangular
+Arrastra el cursor alrededor de un objeto para formar un rectángulo.
+Recorte de ventana
+Selecciona una ventana, como un cuadro de diálogo, que quieras capturar.
+Recorte de pantalla completa
+Captura toda la pantalla.
+Cuando se captura un recorte, se copia automáticamente en la ventana de la Herramienta Recortes donde realizas cambios, guardas y compartes.
+Abrir la herramienta Recortes
+Hay tres formas de abrir la herramienta Recortes:
+Selecciona el botón Inicio , introduce la herramienta Recortes y, a continuación, selecciona Herramienta Recortes en los resultados.
+Presione la tecla
++ del logotipo de Windows Shift + S.
+Presione Imprimir pantalla ( PrtSc ).
+Trabajar con las capturas de pantalla
+Con la herramienta Recortes abierta, selecciona una de las opciones siguientes para crear y trabajar con tus capturas de pantalla.
+Capturar un recorte
+En la herramienta Recortes, selecciona Modo . y elija el tipo de recorte que desee.
+Rectángulo: Permite seleccionar un área rectangular para capturar después de seleccionar Nuevo .
+Ventana: Le permite seleccionar una ventana que desea capturar después de seleccionar Nuevo .
+Pantalla completa: captura inmediatamente una instantánea de toda la pantalla.
+Forma libre: permite dibujar una forma libre para seleccionar el área que desea capturar después de seleccionar Nuevo .
+Según el modo que selecciones, verás que toda la pantalla cambia ligeramente a gris, lo que indica que estás listo para capturar un recorte.
+Capturar un recorte de un menú
+Después de abrir la Herramienta Recortes, abre el menú que quieras capturar.
+Presione las teclas Ctrl + PrtSc . Toda la pantalla adquirirá un color gris, incluido el menú abierto.
+Seleccione Modo o, en versiones anteriores de Windows, seleccione la flecha situada junto al botón Nuevo . Seleccione el tipo de recorte que quiera y, a continuación, seleccione el área de la captura de pantalla que desea capturar.
+Anotar un recorte
+Después de capturar un recorte, puedes escribir o dibujar sobre él o alrededor de él seleccionando los botones Lápiz o Marcador de resaltado . Selecciona Borrador para quitar las líneas que has dibujado.
+Guardar un recorte
+Después de capturar un recorte, selecciona el botón Guardar recorte.
+En el cuadro de diálogo Guardar como , escribe un nombre de archivo, una ubicación y un tipo de archivo, y después selecciona Guardar .
+Quitar la dirección URL
+Cuando se captura un recorte de una ventana del navegador y se guarda como un archivo HTML, la dirección URL aparece debajo del recorte. Para evitar que aparezca la dirección URL:
+En la herramienta Recortes, selecciona el botón Opciones .
+En el cuadro de diálogo Opciones de Herramienta Recortes, desmarca la casilla Incluir dirección URL debajo de los recortes (solo HTML) y luego selecciona Aceptar .
+Compartir un recorte
+Después de capturar un recorte, selecciona la flecha situada junto al botón Enviar recorte y, a continuación, selecciona una opción de la lista.
+Métodos abreviados de teclado que se pueden usar en Recortes
+Presione estas teclas
+Para realizar esta acción
+Alt (en inglés) + M
+Elegir un modo de recorte.
+Alt (en inglés) + N
+Crear un nuevo recorte del mismo modo que el último.
+Mayús + teclas de dirección
+Mover el cursor para seleccionar entre diferentes tipos de recortes.
+Alt (en inglés) + D
+Retrasar la captura de 1 a 5 segundos
+Ctrl + C
+Copiar el recorte en el Portapapeles
+Ctrl + S
+Guardar el recorte
+Ampliar, girar o recortar el recorte
+Con la captura abierta en la herramienta Recortes, selecciona Editar > Editar con Paint 3D para usar características de tamaño, color, texto y muchas otras mejoras.
+Imprimir un recorte
+Con la captura abierta en la herramienta Recortes, selecciona Impresión de archivo > y elige cómo quieres imprimir la imagen.
+Colocar la herramienta en la barra de tareas
+En el cuadro de búsqueda de la barra de tareas, escribe herramienta recortes . Aparecerá la aplicación Herramienta Recortes y una lista de acciones que puedes realizar. Selecciona Anclar a la barra de tareas .
+Retrasar la captura de pantalla
+En primer lugar, identifique el menú u otros componentes que desee capturar. En la Herramienta Recortes, selecciona Retraso y, a continuación, elige, por ejemplo, 5 segundos. Selecciona Modo para comenzar la cuenta atrás de 5 segundos. Dispones de 5 segundos para abrir un menú o componer la imagen de cualquier forma. Cuando vea que la pantalla se vuelve gris, use el ratón para dibujar alrededor del área que desee.

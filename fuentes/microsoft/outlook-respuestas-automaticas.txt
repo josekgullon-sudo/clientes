@@ -1,0 +1,62 @@
+Configurar respuestas automáticas (fuera de la oficina) en Outlook
+https://support.microsoft.com/es-es/outlook/mail/how-to-set-up-out-of-office-automatic-replies-in-outlook
+Descargado: 2026-10-13
+
+Cómo configurar respuestas automáticas fuera de la oficina en Outlook
+Se aplica a Outlook para Microsoft 365 Outlook 2024 Outlook 2021 Outlook 2019 Outlook 2016 Office 365 Pequeña Empresa Outlook.com Nuevo Outlook para Windows Outlook en la web para Exchange Server 2016 Outlook en la web para Exchange Server 2019
+Obtener ayuda con Copilot
+Ayúdame a configurar respuestas automáticas fuera de la oficina
+¿Cómo puedo configurar una respuesta automática?
+Escribe mi respuesta de fuera de la oficina
+Resumen
+Las respuestas automáticas de fuera de la oficina en Outlook le permiten notificar a los remitentes que no está disponible y no responderá inmediatamente a sus mensajes. Esta función envía automáticamente un mensaje personalizado una vez a cada persona que le envíe un correo electrónico durante su ausencia. Puede programar respuestas para fechas específicas, crear mensajes diferentes para compañeros internos frente a contactos externos y administrar la característica en todas las plataformas de Outlook. Los métodos de configuración varían en función del tipo de cuenta de correo electrónico (Exchange/Microsoft 365 frente a POP/IMAP) y de la versión de Outlook que use (escritorio de Windows, Mac, web o móvil).
+Iniciar soporte guiado
+O bien, la opción seleccionar una pestaña a continuación para la versión de Outlook que esté usando.
+¿Qué versión de Outlook tengo?
+Nuevo Outlook
+Outlook clásico
+Web
+Nota
+Si los pasos descritos en esta nueva ficha de Outlook no funcionan, es posible que aún no esté usando el nuevo Outlook para Windows. En su lugar, seleccione la pestaña de Outlook clásico y siga esos pasos.
+En la pestaña Ver , seleccione Ver configuración en el nuevo Outlook.
+Seleccione Respuestas automáticas de cuentas >.
+Active el botón de alternancia Respuestas automáticas .
+Seleccione Enviar respuestas solo durante un período de tiempo y, a continuación, escriba las horas de inicio y finalización.
+Seleccione Enviar respuestas sólo a los contactos si quiere que los mensajes de respuesta automática sólo se envíen a los remitentes externos que estén en su lista de contactos.
+Nota
+Si usa una cuenta profesional o educativa, también tendrá la opción de enviar respuestas fuera de su organización . Al enviar respuestas fuera de su organización, se enviará su respuesta automática a todos los correos electrónicos que reciba, incluidos boletines, anuncios y, posiblemente, correo no deseado. Si quiere enviar respuestas automáticas a personas de fuera de su organización, le recomendamos que elija Enviar respuestas solo a los contactos .
+Cuando hayas terminado, selecciona Guardar .
+Nota
+Las respuestas automáticas no son compatibles con Gmail, Yahoo u otras cuentas POP o IMAP.
+Determinar el tipo de cuenta de correo electrónico
+Hay dos formas de enviar respuestas automáticas de fuera de la oficina en Outlook clásico. La forma de hacerlo depende del tipo de cuenta de correo electrónico que tenga.
+Seleccione Archivo en el extremo izquierdo de la cinta de opciones:
+Si tiene el botón Respuestas automáticas , siga los pasos siguientes.
+Si no tiene el botón Respuestas automáticas , vaya a Usar reglas para enviar un mensaje de fuera de la oficina y siga los pasos.
+Cómo configurar una respuesta automática
+Seleccione Respuestas automáticas de archivos >.
+En el cuadro Respuestas automáticas , seleccione Enviar respuestas automáticas .
+Si lo desea, puede establecer un intervalo de fechas para las respuestas automáticas. De esta manera, se dejarán de enviar respuestas automáticas en la fecha y hora de finalización que haya indicado. En caso contrario, tendrá que desactivar las respuestas automáticas de forma manual.
+Nota
+Si no tiene respuestas automáticas , vaya a Usar reglas para enviar un mensaje de fuera de la oficina y siga los pasos.
+En la pestaña Respuestas automáticas, escriba la respuesta que quiera enviar.
+Nota
+Si tiene una cuenta profesional o educativa, puede escribir la respuesta que desea enviar en la pestaña Dentro de mi organización o fuera de mi organización . Si envía respuestas automáticas a cualquier persona que no pertenezca a mi organización , se enviará la respuesta automática a todos los correos electrónicos, incluidos boletines, anuncios y, posiblemente, al correo no deseado. Si quiere enviar respuestas automáticas a personas de fuera de su organización, le recomendamos que elija Solo a mis contactos .
+Seleccione Aceptar para guardar la configuración.
+Desactivar las respuestas automáticas de fuera de la oficina
+Cuando Outlook clásico está configurado para enviar respuestas automáticas, tendrá un mensaje en la cinta de opciones con esta información. Seleccione Desactivar para deshabilitar las respuestas automáticas de fuera de la oficina. Si quiere modificar las fechas de la respuesta automática o el mensaje enviado, siga los pasos anteriores para modificar la configuración.
+Solución de problemas: No tengo respuestas automáticas
+Si no tiene Respuestas automáticas después de seleccionar Archivo , es posible que esté usando una cuenta de Gmail, Yahoo u otra cuenta de POP o IMAP que no admite la característica Respuestas automáticas de Outlook. Puede configurar una regla para responder a los mensajes entrantes si deja Outlook ejecutándose mientras está ausente. Para obtener más información, vaya a Usar reglas para enviar un mensaje de fuera de la oficina .
+En la parte superior de la página, selecciona Configuración > Cuenta > Respuestas automáticas en Outlook en la Web o Outlook.com.
+Active el botón de alternancia Respuestas automáticas .
+Elija la opción Enviar respuestas solo durante este período y escriba una fecha de inicio y otra de finalización.
+Si no establece un período de tiempo, la respuesta automática permanece activada hasta que la desactive mediante la opción Respuestas automáticas activadas .
+En el cuadro situado en la parte inferior de la ventana, escriba el mensaje que se enviará mientras esté ausente.
+Si lo desea, puede usar las opciones de formato de la parte superior del cuadro para cambiar la fuente y el color del texto o personalizar el mensaje de otras maneras.
+Seleccione Enviar respuestas sólo a los contactos si quiere que los mensajes de respuesta automática sólo se envíen a los remitentes externos que estén en su lista de contactos.
+Cuando hayas terminado, selecciona Guardar .
+Si no estableció un período de tiempo para las respuestas automáticas (paso 3 anteriormente), tendrá que desactivarlas manualmente. Para desactivar las respuestas automáticas, inicie sesión en Outlook en la Web, elija Configuración > Cuenta > Respuestas automáticas y, a continuación, seleccione el botón de alternancia Respuestas automáticas para desactivarlo.
+Artículos relacionados
+Enviar respuestas automáticas "Fuera de la oficina" desde Outlook para Mac
+Habilitar las respuestas automáticas en caso de estar fuera de la oficina desde Outlook para Android o Outlook para iOS
+Usar reglas para enviar un mensaje de fuera de la oficina

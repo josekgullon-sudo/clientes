@@ -1,0 +1,605 @@
+{
+  "descripcion": "RD 203/2021, Reglamento de actuación y funcionamiento del sector público por medios electrónicos. Lote generado el 2026-10-13 a partir del texto consolidado del BOE (versión 2026-10-13).",
+  "preguntas": [
+    {
+      "id": "rme-001",
+      "ley": "rd-203-2021",
+      "articulo": "3.2",
+      "enunciado": "Una persona física no obligada comunica que quiere relacionarse electrónicamente. ¿Desde cuándo produce efectos esa comunicación?",
+      "opciones": [
+        "A partir del quinto día hábil siguiente a que el órgano tenga constancia",
+        "Desde el mismo día en que el órgano tenga constancia",
+        "A partir del décimo día hábil siguiente a que el órgano tenga constancia",
+        "Desde el día siguiente a la publicación en la sede electrónica"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 3.2 dispone que «los efectos de la comunicación se producirán a partir del quinto día hábil siguiente a aquel en que el órgano competente para tramitar el procedimiento haya tenido constancia de la misma».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "rme-002",
+      "ley": "rd-203-2021",
+      "articulo": "4.c",
+      "enunciado": "¿Cuál de estos canales cita expresamente el Reglamento para prestar asistencia en el acceso a los servicios electrónicos?",
+      "opciones": [
+        "El correo postal certificado",
+        "La videollamada concertada",
+        "Las redes sociales",
+        "El servicio de fax"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 4 enumera como canales de asistencia el presencial, los portales y sedes, «c) Redes sociales», el telefónico y el correo electrónico.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "rme-003",
+      "ley": "rd-203-2021",
+      "articulo": "6.2",
+      "enunciado": "En el ámbito estatal, la dirección electrónica de un nuevo portal de internet debe incluir el nombre de dominio de segundo nivel:",
+      "opciones": [
+        ".es",
+        ".gob.es",
+        ".gov.es",
+        ".age.es"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 6.2 exige la identificación de su dirección electrónica, «que deberá incluir el nombre de dominio de segundo nivel [...] .gob.es».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "rme-004",
+      "ley": "rd-203-2021",
+      "articulo": "7.4",
+      "enunciado": "La Dirección Electrónica Habilitada única está alojada en:",
+      "opciones": [
+        "La Carpeta Ciudadana de cada interesado",
+        "La sede electrónica asociada de cada ministerio",
+        "El Registro Electrónico General del Estado",
+        "La sede electrónica del PAGe de la Administración General del Estado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 7.4 señala que en la sede electrónica del PAGe de la Administración General del Estado «está alojada la Dirección Electrónica Habilitada única».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "rme-005",
+      "ley": "rd-203-2021",
+      "articulo": "8.1.b",
+      "enunciado": "Además del interesado y sus representantes legales, puede acceder a su Carpeta Ciudadana quien ostente:",
+      "opciones": [
+        "Un poder para un trámite concreto otorgado ante notario",
+        "Un poder especial inscrito en el registro particular de un organismo",
+        "Un poder general otorgado por el interesado e inscrito en el Registro Electrónico de Apoderamientos",
+        "Una autorización verbal dada en una oficina de registro"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 8.1.b), puede acceder «quien ostente un poder general previsto en el artículo 6.4.a) de la Ley 39/2015, de 1 de octubre, otorgado por el interesado e inscrito en el Registro Electrónico de Apoderamientos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "rme-006",
+      "ley": "rd-203-2021",
+      "articulo": "10.2",
+      "enunciado": "El acto de creación de la sede electrónica de una entidad local se publica en:",
+      "opciones": [
+        "El boletín oficial de la provincia a la que pertenezca la entidad",
+        "El Boletín Oficial del Estado",
+        "El boletín oficial de la comunidad autónoma",
+        "El tablón de edictos de la propia entidad"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 10.2 indica que «en el caso de las entidades locales, el boletín oficial será el de la provincia al que pertenezca la entidad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "rme-007",
+      "ley": "rd-203-2021",
+      "articulo": "11.2.i",
+      "enunciado": "Entre los servicios mínimos de toda sede electrónica figura un directorio geográfico de:",
+      "opciones": [
+        "Funcionarios habilitados para expedir copias",
+        "Puntos de expedición del DNI electrónico",
+        "Prestadores cualificados de servicios de confianza",
+        "Oficinas de asistencia en materia de registros"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 11.2.i) incluye «un servicio de consulta del directorio geográfico de oficinas de asistencia en materia de registros, que permita al interesado identificar la más próxima a su dirección de consulta».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "rme-008",
+      "ley": "rd-203-2021",
+      "articulo": "12.2",
+      "enunciado": "Si una sede electrónica contiene un enlace a otra sede, ¿quién responde de la información que figura en esta última?",
+      "opciones": [
+        "El titular de la sede que contiene el enlace",
+        "El titular de la sede enlazada",
+        "Ambos titulares, de forma solidaria",
+        "El gestor del Punto de Acceso General"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 12.2 dispone que en ese caso «será el titular de esta última el responsable de la integridad, veracidad y actualización de la información o procedimientos que figuren en la misma».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "rme-009",
+      "ley": "rd-203-2021",
+      "articulo": "13.2",
+      "enunciado": "En el ámbito estatal, la determinación de una actuación administrativa como automatizada se autoriza mediante:",
+      "opciones": [
+        "Real decreto acordado en Consejo de Ministros",
+        "Resolución del titular del órgano competente por razón de la materia",
+        "Orden conjunta de los ministerios afectados",
+        "Acuerdo de la Comisión Ministerial de Administración Digital"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 13.2 establece que «se autorizará por resolución del titular del órgano administrativo competente por razón de la materia» y se publicará en la sede electrónica.",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "rme-010",
+      "ley": "rd-203-2021",
+      "articulo": "14.1",
+      "enunciado": "Si un obligado a relacionarse electrónicamente presenta en papel una solicitud de iniciación y luego subsana, se considera fecha de presentación:",
+      "opciones": [
+        "La fecha de la presentación en papel",
+        "La fecha del requerimiento de subsanación",
+        "La fecha de recepción en el órgano competente",
+        "La fecha de la subsanación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 14.1 señala que, en una solicitud de iniciación, «la fecha de la subsanación se considerará a estos efectos como fecha de presentación de la solicitud».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "rme-011",
+      "ley": "rd-203-2021",
+      "articulo": "26.2",
+      "enunciado": "Las Administraciones deben garantizar que, en todo procedimiento, sea posible identificarse mediante:",
+      "opciones": [
+        "Sistemas basados en certificados cualificados de firma o de sello electrónico",
+        "Sistemas de clave concertada con registro previo como usuario",
+        "Personal funcionario público habilitado para ello",
+        "Cualquier sistema que la Administración considere válido"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 26.2 dispone que las Administraciones «deberán garantizar que la utilización de uno de los sistemas previstos en las letras a) y b) sea posible para todo procedimiento», que son los basados en certificados cualificados de firma y de sello.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "rme-012",
+      "ley": "rd-203-2021",
+      "articulo": "27.3",
+      "enunciado": "Los certificados cualificados de sello electrónico para identificar a una persona jurídica deben contener, como mínimo:",
+      "opciones": [
+        "Su denominación, NIF y domicilio social",
+        "Su NIF y el nombre de su administrador",
+        "Su denominación y su Número de Identificación Fiscal",
+        "Su denominación y su número de inscripción registral"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 27.3 exige que estos certificados contengan, «como mínimo, su denominación y su Número de Identificación Fiscal».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "rme-013",
+      "ley": "rd-203-2021",
+      "articulo": "30.1",
+      "enunciado": "El formulario de consentimiento expreso para la firma por funcionario habilitado está disponible en:",
+      "opciones": [
+        "La oficina de asistencia en materia de registros más próxima",
+        "La Carpeta Ciudadana del propio interesado",
+        "La sede electrónica del órgano que tramita",
+        "El Punto de Acceso General Electrónico de la respectiva Administración"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 30.1 indica que el funcionario entregará copia del documento de consentimiento expreso, «cuyo formulario estará disponible en el Punto de Acceso General Electrónico de la respectiva Administración».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "rme-014",
+      "ley": "rd-203-2021",
+      "articulo": "32.4",
+      "enunciado": "Si se actúa en nombre de una persona jurídica con certificado cualificado de representante, el poder de representación abarca:",
+      "opciones": [
+        "Solo las actuaciones ante la Administración General del Estado",
+        "Cualquier actuación ante cualquier Administración Pública",
+        "Solo los trámites especificados en el propio certificado",
+        "Solo las actuaciones ante la Administración que lo autorizó"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 32.4 dispone que se entiende «que el poder de representación abarca cualquier actuación ante cualquier Administración Pública».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "rme-015",
+      "ley": "rd-203-2021",
+      "articulo": "43.1",
+      "enunciado": "La falta de práctica del aviso de puesta a disposición de una notificación:",
+      "opciones": [
+        "Determina la nulidad de pleno derecho de la notificación",
+        "Hace anulable la notificación a instancia del interesado",
+        "No impide que la notificación se considere plenamente válida",
+        "Obliga a repetir la notificación en papel"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 43.1 señala que «la falta de práctica de este aviso, de carácter meramente informativo, no impedirá que la notificación sea considerada plenamente válida».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "rme-016",
+      "ley": "rd-203-2021",
+      "articulo": "43.2",
+      "enunciado": "Obligado electrónico, procedimiento de oficio y sin datos de contacto para el aviso: ¿cómo se hace la primera notificación?",
+      "opciones": [
+        "En papel, advirtiendo que las siguientes serán electrónicas",
+        "Por comparecencia en la sede electrónica del emisor",
+        "A través de la Dirección Electrónica Habilitada única",
+        "Mediante anuncio en el Boletín Oficial del Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 43.2 establece que «la primera notificación que efectúe la Administración, organismo o entidad se realizará en papel» advirtiendo al interesado de que las sucesivas se practicarán en forma electrónica.",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "rme-017",
+      "ley": "rd-203-2021",
+      "articulo": "37.3.b",
+      "enunciado": "Además de los documentos normalizados, los registros electrónicos admitirán cualquier solicitud, escrito o comunicación dirigido a:",
+      "opciones": [
+        "Cualquier Administración Pública",
+        "La Administración titular del registro",
+        "La Administración General del Estado",
+        "Los órganos del mismo departamento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 37.3.b) dispone que los registros admitirán «cualquier solicitud, escrito o comunicación distinta de los mencionados en el párrafo anterior dirigido a cualquier Administración Pública».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "rme-018",
+      "ley": "rd-203-2021",
+      "articulo": "38.2",
+      "enunciado": "Las anotaciones en el Registro General de la Administración General del Estado tienen plena eficacia y validez:",
+      "opciones": [
+        "Solo para la Administración General del Estado",
+        "Solo para el sector público estatal",
+        "Para todas las Administraciones Públicas",
+        "Solo para el órgano destinatario"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 38.2 dice: «Las anotaciones en el Registro General de la Administración General del Estado tendrán plena eficacia y validez para todas las Administraciones Públicas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "rme-019",
+      "ley": "rd-203-2021",
+      "articulo": "39.2",
+      "enunciado": "Si se detecta código malicioso que puede afectar a la seguridad del sistema en documentos ya registrados:",
+      "opciones": [
+        "Se tienen por no presentados sin más trámite",
+        "Se destruyen y se archiva la solicitud",
+        "Se remiten al órgano destinatario tal como llegaron",
+        "Se requiere su subsanación al interesado que los aportó"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 39.2 prevé que en ese caso «se requerirá su subsanación al interesado que los haya aportado de acuerdo con lo previsto en el artículo 14.3 de este Reglamento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "rme-020",
+      "ley": "rd-203-2021",
+      "articulo": "39.4",
+      "enunciado": "Si el tamaño de los documentos registrados excede la capacidad del SIR, su remisión podrá sustituirse por:",
+      "opciones": [
+        "Su envío en papel por correo certificado al órgano destinatario",
+        "Su puesta a disposición, depositados antes en un repositorio de intercambio de ficheros",
+        "Su entrega presencial por el interesado en el órgano destinatario",
+        "Su remisión fraccionada por correo electrónico al órgano destinatario"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 39.4 dispone que su remisión «podrá sustituirse por la puesta a disposición de los documentos, previamente depositados en un repositorio de intercambio de ficheros».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "rme-021",
+      "ley": "rd-203-2021",
+      "articulo": "40.1",
+      "enunciado": "Las oficinas de asistencia en materia de registros tienen naturaleza de:",
+      "opciones": [
+        "Unidad administrativa",
+        "Organismo autónomo",
+        "Órgano administrativo",
+        "Servicio común"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 40.1 afirma que estas oficinas «tienen naturaleza de órgano administrativo de acuerdo con lo dispuesto en el artículo 5 de la Ley 40/2015».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "rme-022",
+      "ley": "rd-203-2021",
+      "articulo": "40.3.i",
+      "enunciado": "¿Cuál de estas es una función de las oficinas de asistencia en materia de registros?",
+      "opciones": [
+        "Iniciar la tramitación del apoderamiento presencial apud acta",
+        "Realizar el bastanteo de los poderes notariales",
+        "Resolver las reclamaciones sobre el registro",
+        "Autorizar los sistemas de clave concertada"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 40.3.i) atribuye a estas oficinas «la iniciación de la tramitación del apoderamiento presencial apud acta en los términos previstos en el artículo 6 de la Ley 39/2015».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "rme-023",
+      "ley": "rd-203-2021",
+      "articulo": "46.2",
+      "enunciado": "Si el órgano debe facilitar al interesado un ejemplar de un documento administrativo electrónico, puede sustituirlo por:",
+      "opciones": [
+        "Una copia en papel compulsada por el funcionario",
+        "La entrega de los datos necesarios para su acceso por medios electrónicos",
+        "Un extracto publicado en la sede electrónica",
+        "Una certificación del secretario del órgano"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 46.2 permite que dicho documento se sustituya «por la entrega de los datos necesarios para su acceso por medios electrónicos adecuados».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "rme-024",
+      "ley": "rd-203-2021",
+      "articulo": "48.2",
+      "enunciado": "En el ámbito estatal, la expedición de copias auténticas puede hacerse mediante actuación automatizada o por:",
+      "opciones": [
+        "Cualquier empleado público del órgano que custodia el original",
+        "El secretario del órgano colegiado competente",
+        "Un notario designado por la Administración",
+        "Personal funcionario habilitado inscrito en el Registro de Funcionarios Habilitados"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 48.2 dispone que podrá llevarse a cabo «mediante actuación administrativa automatizada o por personal funcionario habilitado inscrito en el Registro de Funcionarios Habilitados de la Administración General del Estado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "rme-025",
+      "ley": "rd-203-2021",
+      "articulo": "49",
+      "enunciado": "Cuando el interesado presenta en papel una copia de un documento, su digitalización genera una copia electrónica que tiene:",
+      "opciones": [
+        "El valor de copia auténtica del original",
+        "El valor de documento original electrónico",
+        "Un valor meramente informativo",
+        "El mismo valor que la copia presentada en papel"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 49 dice que la digitalización «generará una copia electrónica que tendrá el mismo valor que la copia presentada en papel».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "rme-026",
+      "ley": "rd-203-2021",
+      "articulo": "50.1.b",
+      "enunciado": "Los sellos electrónicos de tiempo no cualificados son asimilables a todos los efectos a:",
+      "opciones": [
+        "Los sellos cualificados de tiempo",
+        "Las marcas de tiempo",
+        "Los códigos seguros de verificación",
+        "Las firmas electrónicas avanzadas"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 50.1.b) establece que «los sellos electrónicos de tiempo no cualificados serán asimilables a todos los efectos a las marcas de tiempo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "rme-027",
+      "ley": "rd-203-2021",
+      "articulo": "51.1",
+      "enunciado": "El foliado de los expedientes administrativos electrónicos se lleva a cabo mediante:",
+      "opciones": [
+        "Un índice electrónico autenticado",
+        "Una numeración correlativa de páginas",
+        "Un sello cualificado de tiempo por documento",
+        "Un código seguro de verificación único"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 51.1 dispone que el foliado «se llevará a cabo mediante un índice electrónico autenticado que garantizará la integridad del expediente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "rme-028",
+      "ley": "rd-203-2021",
+      "articulo": "52",
+      "enunciado": "El derecho del interesado electrónico a acceder al expediente y obtener copia se entiende satisfecho mediante:",
+      "opciones": [
+        "El envío de una copia en papel a su domicilio",
+        "La entrega de un soporte físico en la oficina de registro",
+        "Su puesta a disposición en el PAGe o en la sede que corresponda",
+        "Su remisión íntegra a su correo electrónico"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 52 indica que se entenderá satisfecho «mediante la puesta a disposición de dicho expediente en el Punto de Acceso General electrónico de la Administración competente o en la sede electrónica o sede electrónica asociada que corresponda».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "rme-029",
+      "ley": "rd-203-2021",
+      "articulo": "53.1",
+      "enunciado": "Los documentos en papel que no pueden devolverse al interesado al presentarlos se conservan a su disposición, una vez digitalizados, durante:",
+      "opciones": [
+        "Tres meses, salvo que se establezca un plazo mayor",
+        "Seis meses, salvo que se establezca un plazo mayor",
+        "Un año, salvo que se establezca un plazo mayor",
+        "Un mes, salvo que se establezca un plazo mayor"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 53.1 dispone que, una vez digitalizados, «serán conservados a su disposición durante seis meses para que pueda recogerlos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    },
+    {
+      "id": "rme-030",
+      "ley": "rd-203-2021",
+      "articulo": "55.2",
+      "enunciado": "Los plazos en que los expedientes del sector público estatal son accesibles en su archivo electrónico único los determina:",
+      "opciones": [
+        "El órgano que tramitó el procedimiento",
+        "La Comisión Ministerial de Administración Digital",
+        "El Consejo de Ministros mediante acuerdo",
+        "La Comisión Superior Calificadora de Documentos Administrativos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 55.2 dice que serán accesibles una vez finalizados los procedimientos y «en los plazos determinados por la Comisión Superior Calificadora de Documentos Administrativos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-13",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 19
+      }
+    }
+  ]
+}

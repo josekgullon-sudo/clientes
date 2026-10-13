@@ -1,0 +1,43 @@
+Configurar varios escritorios en Windows
+https://support.microsoft.com/es-es/windows/experience/configure-multiple-desktops-in-windows
+Descargado: 2026-10-13
+
+Configurar varios escritorios en Windows
+Se aplica a Windows 11 Windows 10
+Obtener ayuda con Copilot
+Ayúdeme a configurar fondos para cada escritorio.
+Muéstrame cómo agregar accesos directos al escritorio.
+Explica cómo crear un nuevo escritorio.
+Resumen
+Varios escritorios en Windows permiten a los usuarios crear varias áreas de trabajo para organizar aplicaciones y tareas de forma eficaz. Puede crear, cambiar y personalizar escritorios con la Vista de tareas o métodos abreviados de teclado. Esta característica también proporciona cambios de nombre en el escritorio, fondos personalizados y navegación mejorada. Esto ayuda a reducir el desorden y mejorar la productividad multitarea.
+Un escritorio en Windows es un área de trabajo que contiene diferentes grupos de aplicaciones o contenido abierto y disponible para diversas tareas o aspectos de su vida. Puede configurar varios escritorios para crear áreas de trabajo independientes para diferentes actividades, lo que le ayuda a mantenerse organizado y a mejorar su productividad.
+Por qué son útiles varios escritorios
+Varios escritorios le permiten compartimentar sus tareas, reduciendo el desorden y minimizando las distracciones. Estos son algunos casos de uso comunes:
+Separación personal y profesional : mantenga sus aplicaciones y documentos de trabajo en un escritorio y aplicaciones personales en otro, lo que garantiza un límite claro entre el trabajo y la vida personal.
+Administración de proyectos : administre varios proyectos simultáneamente dedicando un escritorio a cada proyecto, lo que facilita concentrarse y mantenerse organizado.
+Preparación de reuniones : cambie rápidamente a un escritorio con todas las aplicaciones y documentos necesarios abiertos antes de una reunión, lo que garantiza una presentación fluida y profesional.
+Crear un nuevo escritorio
+Estos son los pasos para crear un nuevo escritorio:
+Mantenga el puntero sobre el icono de vista de tareas en la barra de tareas o presione la pestaña de teclas
++ de Windows.
+Seleccione Nuevo escritorio .
+Una vez creado, puede seleccionar el nombre del escritorio y cambiarle el nombre a su gusto.
+Configure fondos para cada escritorio
+Personalizar el fondo de cada escritorio puede ayudarle a distinguir visualmente entre diferentes áreas de trabajo. Estas son las instrucciones:
+Mantenga el puntero sobre el icono de vista de tareas en la barra de tareas o presione la pestaña de teclas
++ de Windows.
+Haga clic con el botón derecho en el escritorio que desea personalizar y seleccione Elegir fondo .
+En la sección Personalizar el fondo , seleccione Imagen en el menú desplegable y elija la imagen que desea establecer como fondo.
+Nota
+Cuando se usan varios escritorios, solo es posible configurar un fondo personalizado para cada escritorio cuando se usa una imagen. No puede usar una presentación de diapositivas ni tener un color sólido diferente para cada escritorio.
+Personalizar la experiencia de múltiples escritorios
+En la aplicación Configuración de su dispositivo Windows
+seleccione Multitarea del sistema > o use el vínculo siguiente:
+Abrir la configuración de multitarea
+Expanda Escritorios .
+En En En la barra de tareas, mostrar todas las ventanas abiertas , puedes configurar cómo se muestran las ventanas abiertas en la barra de tareas en varios escritorios. Estas son las opciones disponibles:
+Solo en el escritorio que estoy usando : Esta configuración mostrará solo las ventanas abiertas del escritorio actual en la barra de tareas. Esto ayuda a mantener la barra de tareas menos abarrotada y centrada en las tareas en cuestión en el escritorio activo.
+En todos los escritorios : esta configuración mostrará todas las ventanas abiertas de todos los escritorios de la barra de tareas, independientemente del escritorio que esté usando actualmente. Esto puede ser útil si desea obtener acceso rápido a todas las aplicaciones abiertas sin cambiar de escritorio.
+En Mostrar todas las ventanas abiertas al presionar Alt+TAB , puede elegir si desea mostrar las ventanas abiertas desde todos los escritorios o solo desde el escritorio que está usando actualmente.
+Realizar varias tareas con varios escritorios
+¿Quieres obtener más información sobre la multitarea en Windows y cómo usar varios escritorios de forma eficaz? Consulta el artículo Cómo realizar múltiples tareas en Windows .

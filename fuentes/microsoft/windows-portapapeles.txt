@@ -1,0 +1,88 @@
+Portapapeles en Windows
+https://support.microsoft.com/es-es/windows/apps/using-the-clipboard
+Descargado: 2026-10-13
+
+Usar el Portapapeles
+Se aplica a Windows 11 Windows 10
+Obtener ayuda con Copilot
+¿Cómo borro el historial del portapapeles?
+¿Cómo se almacena mi historial de búsqueda en la nube?
+¿Cómo soluciono problemas del portapapeles?
+Windows 11
+Windows 10
+Resumen
+Al copiar contenido en el equipo, se copia automáticamente en el Portapapeles para que lo pegue. Puede pegar varios elementos del historial del portapapeles y también puede anclar los elementos que tiende a usar todo el tiempo y sincronizar el historial del portapapeles a la nube.
+Estas son algunas respuestas a preguntas que te pueden surgir sobre el Portapapeles.
+Abrir la configuración del Portapapeles
+¿Cómo activo mi historial del Portapapeles por primera vez?
+Para activar el Portapapeles por primera vez, selecciona la tecla del logotipo de Windows + V y luego Activar .
+¿Cómo puedo sincronizar mis elementos del Portapapeles con mi PC?
+Para sincronizar elementos del Portapapeles con su PC, deberá asegurarse de que la característica de sincronización esté activada.
+Seleccione Inicio > Configuración > Portapapeles del sistema > .
+Establezca el botón de alternancia Historial del Portapapeles en Todos los dispositivos .
+Nota
+La función de sincronización está vinculada a su cuenta de Microsoft o a su cuenta profesional, por lo que recuerda usar la misma información de inicio de sesión en todos sus dispositivos.
+¿Cómo puedo borrar el historial de mi portapapeles?
+Puede borrar rápidamente todo (excepto los elementos anclados) en el dispositivo y en la nube.
+Seleccione Inicio > Configuración > Portapapeles del sistema > .
+En el área Borrar datos del portapapeles , seleccione Borrar .
+También puedes borrar el historial del portapapeles del dispositivo seleccionando la tecla del logotipo de Windows + V y, a continuación, la opción Borrar todo en la parte superior.
+¿Cómo puedo borrar un elemento individual que ya no quiero ver en el historial del portapapeles?
+Puede borrar cualquier elemento específico del portapapeles.
+Selecciona la tecla del logotipo de Windows + V .
+Junto al elemento en cuestión, seleccione Ver más (...) y, a continuación, seleccione Eliminar .
+Solución de problemas del Portapapeles
+No consigo ver mi historial del Portapapeles
+Asegúrese de que ha activado el historial del portapapeles. Para activar el Portapapeles por primera vez, selecciona la tecla del logotipo de Windows + V y selecciona Activar .
+El historial del Portapapeles se borra cada vez que reinicias el PC, excepto los elementos que hayas anclado.
+Mi Portapapeles no se sincroniza con mis dispositivos
+Puedes elegir que los elementos copiados se sincronicen automáticamente con tus otros dispositivos.
+Nota
+La función de sincronización está vinculada a su cuenta de Microsoft o a su cuenta profesional, por lo que recuerda usar la misma información de inicio de sesión en todos sus dispositivos.
+Seleccione Inicio > Configuración > Portapapeles del sistema > .
+En la sección Historial del Portapapeles entre tus dispositivos , establece el botón de alternancia en Activado .
+Seleccione Sincronizar automáticamente el texto que copio .
+Nota
+La opción Sincronizar manualmente el texto que copio significaría que tendrías que abrir el historial del portapapeles ( tecla del logotipo de Windows + V ) y seleccionar manualmente el botón de sincronización en el elemento del portapapeles. A continuación, el texto se cargaba en la nube y se sincronizaba con otros dispositivos.
+No consigo copiar elementos en el historial de mi Portapapeles
+Las limitaciones de tamaño son 4 MB por elemento. Se admiten los formatos de archivo de texto, HTML y mapa de bits.
+Mis elementos del Portapapeles desaparecen del historial de mi Portapapeles
+El historial del Portapapeles tiene un límite de 25 entradas copiadas. Los elementos antiguos, a menos que estén anclados, se quitan automáticamente para dejar espacio para nuevos elementos del Portapapeles.
+Resumen
+Nota
+El soporte técnico para Windows 10 finalizó el 14 de octubre de 2025
+Después del 14 de octubre de 2025, Microsoft ya no proporcionará actualizaciones de software gratuitas desde Windows Update, asistencia técnica ni correcciones de seguridad para Windows 10. El PC seguirá funcionando, pero recomendamos que se cambie a Windows 11.
+Más información
+Al copiar contenido en el equipo, se copia automáticamente en el Portapapeles para que lo pegue. No solo puede pegar varios elementos del historial del Portapapeles, sino que también puede anclar los elementos que tiende a usar todo el tiempo y sincronizar el historial del Portapapeles a la nube.
+Estas son algunas respuestas a preguntas que te pueden surgir sobre el Portapapeles.
+Abrir la configuración del Portapapeles
+¿Cómo activo mi historial del Portapapeles por primera vez?
+Para activar el Portapapeles por primera vez, selecciona la tecla del logotipo de Windows + V y luego Activar .
+¿Cómo puedo sincronizar mis elementos del Portapapeles con mi PC?
+Para sincronizar elementos del Portapapeles con su PC, deberá asegurarse de que la característica de sincronización esté activada.
+Seleccione Inicio > Configuración > Portapapeles del sistema > .
+En Sincronizar entre dispositivos , establezca el botón de alternancia en Activado .
+¿Cómo puedo borrar el historial de mi portapapeles?
+Puede borrar rápidamente todo (excepto los elementos anclados) en el dispositivo y en la nube.
+Seleccione Inicio > Configuración > Portapapeles del sistema > .
+En el área Borrar datos del portapapeles , seleccione Borrar .
+También puedes borrar el historial del portapapeles de tu dispositivo seleccionando la tecla del logotipo de Windows + V , seleccionando el icono ... y luego seleccionando Borrar todo .
+¿Cómo puedo borrar un elemento individual que ya no quiero ver en el historial del portapapeles?
+Puede borrar cualquier elemento específico del portapapeles.
+Selecciona la tecla del logotipo de Windows + V .
+Junto al elemento en cuestión, seleccione el icono ... y, a continuación, seleccione Eliminar .
+Solución de problemas del Portapapeles
+No consigo ver mi historial del Portapapeles
+Asegúrese de que ha activado el historial del portapapeles. Para activar el Portapapeles por primera vez, selecciona la tecla del logotipo de Windows + V y selecciona Activar .
+El historial del Portapapeles se borra cada vez que reinicias el PC, salvo los elementos anclados.
+Mi Portapapeles no se sincroniza con mis dispositivos
+La sincronización de los elementos del Portapapeles en todos tus dispositivos con Windows 10 requiere estar ejecutando la última actualización de Windows 10. Para obtener más información sobre cómo actualizar, consulta Windows Update: preguntas frecuentes .
+Puedes elegir que los elementos copiados se sincronicen automáticamente con tus otros dispositivos.
+Nota
+La función de sincronización está vinculada a su cuenta de Microsoft o a su cuenta profesional, por lo que recuerda usar la misma información de inicio de sesión en todos sus dispositivos.
+Seleccione Inicio > Configuración > Portapapeles del sistema > .
+En la sección Sincronizar entre dispositivos , establece el botón de alternancia en Activado .
+No consigo copiar elementos en el historial de mi Portapapeles
+Las limitaciones de tamaño son 4 MB por elemento. Se admiten los formatos de archivo de texto, HTML y mapa de bits.
+Mis elementos del Portapapeles desaparecen del historial de mi Portapapeles
+El historial del Portapapeles tiene un límite de 25 entradas copiadas. Los elementos antiguos, a menos que estén anclados, se quitan automáticamente para dejar espacio para nuevos elementos del Portapapeles.
