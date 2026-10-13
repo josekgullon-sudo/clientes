@@ -1,0 +1,505 @@
+{
+  "descripcion": "Constitución Española, Título VI (Poder Judicial), artículos 117 a 127. Lote generado el 2026-10-13; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-05-20).",
+  "preguntas": [
+    {
+      "id": "pj-001",
+      "ley": "constitucion",
+      "articulo": "117.1",
+      "enunciado": "Según la Constitución, la justicia emana del pueblo y se administra en nombre:",
+      "opciones": [
+        "Del pueblo español",
+        "Del Rey",
+        "Del Estado",
+        "De las Cortes Generales"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 117.1 dice: «La justicia emana del pueblo y se administra en nombre del Rey por Jueces y Magistrados integrantes del poder judicial».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-002",
+      "ley": "constitucion",
+      "articulo": "117.1",
+      "enunciado": "Los Jueces y Magistrados integrantes del poder judicial están sometidos únicamente:",
+      "opciones": [
+        "Al imperio de la ley",
+        "A la Constitución y al CGPJ",
+        "A la doctrina del Tribunal Supremo",
+        "A la ley y a la jurisprudencia"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 117.1 los define como «independientes, inamovibles, responsables y sometidos únicamente al imperio de la ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-003",
+      "ley": "constitucion",
+      "articulo": "117.2",
+      "enunciado": "Los Jueces y Magistrados solo pueden ser separados, suspendidos, trasladados o jubilados:",
+      "opciones": [
+        "Por acuerdo del CGPJ adoptado por tres quintos",
+        "Por decisión motivada del Presidente del Tribunal Supremo",
+        "Por las causas y con las garantías previstas en la ley",
+        "Por sentencia firme dictada por el Tribunal Supremo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 117.2 establece que no podrán ser separados, suspendidos, trasladados ni jubilados «sino por alguna de las causas y con las garantías previstas en la ley».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-004",
+      "ley": "constitucion",
+      "articulo": "117.3",
+      "enunciado": "La potestad jurisdiccional, juzgando y haciendo ejecutar lo juzgado, corresponde exclusivamente:",
+      "opciones": [
+        "Al Consejo General del Poder Judicial",
+        "A los Jueces, Magistrados y Fiscales",
+        "Al Tribunal Supremo y al Tribunal Constitucional",
+        "A los Juzgados y Tribunales determinados por las leyes"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 117.3 dice que el ejercicio de la potestad jurisdiccional «corresponde exclusivamente a los Juzgados y Tribunales determinados por las leyes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-005",
+      "ley": "constitucion",
+      "articulo": "117.4",
+      "enunciado": "Además de la potestad jurisdiccional, los Juzgados y Tribunales ejercerán las funciones que la ley les atribuya expresamente:",
+      "opciones": [
+        "En defensa del interés público",
+        "En garantía del orden constitucional",
+        "En materia de gobierno judicial",
+        "En garantía de cualquier derecho"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 117.4 dice que no ejercerán más funciones que las jurisdiccionales «y las que expresamente les sean atribuidas por ley en garantía de cualquier derecho».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-006",
+      "ley": "constitucion",
+      "articulo": "117.5",
+      "enunciado": "¿Qué principio es la base de la organización y funcionamiento de los Tribunales?",
+      "opciones": [
+        "El principio de jerarquía judicial",
+        "El principio de unidad jurisdiccional",
+        "El principio de independencia judicial",
+        "El principio de exclusividad jurisdiccional"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 117.5 dice: «El principio de unidad jurisdiccional es la base de la organización y funcionamiento de los Tribunales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-007",
+      "ley": "constitucion",
+      "articulo": "117.5",
+      "enunciado": "La ley regulará la jurisdicción militar en el ámbito estrictamente castrense y en los supuestos de:",
+      "opciones": [
+        "Estado de sitio",
+        "Estado de excepción",
+        "Estado de alarma",
+        "Estado de guerra"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 117.5 dice que la ley regulará la jurisdicción militar «en el ámbito estrictamente castrense y en los supuestos de estado de sitio».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-008",
+      "ley": "constitucion",
+      "articulo": "117.6",
+      "enunciado": "¿Qué tribunales prohíbe expresamente la Constitución?",
+      "opciones": [
+        "Los Tribunales consuetudinarios",
+        "Los Tribunales militares",
+        "Los Tribunales de excepción",
+        "Los Tribunales de jurado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 117.6 dice: «Se prohíben los Tribunales de excepción».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-009",
+      "ley": "constitucion",
+      "articulo": "118",
+      "enunciado": "Según el artículo 118, es obligado cumplir las sentencias y demás resoluciones de los Jueces y Tribunales que sean:",
+      "opciones": [
+        "Definitivas del Tribunal Supremo",
+        "Dictadas en audiencia pública",
+        "Firmes",
+        "Motivadas por escrito"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 118 dice: «Es obligado cumplir las sentencias y demás resoluciones firmes de los Jueces y Tribunales».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-010",
+      "ley": "constitucion",
+      "articulo": "119",
+      "enunciado": "La justicia será gratuita cuando lo disponga la ley y, en todo caso, respecto de:",
+      "opciones": [
+        "Quienes sean parte en un proceso penal",
+        "Los menores de edad y los incapacitados",
+        "Quienes ejerzan la acción popular",
+        "Quienes acrediten insuficiencia de recursos para litigar"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 119 dice que la justicia será gratuita cuando así lo disponga la ley «y, en todo caso, respecto de quienes acrediten insuficiencia de recursos para litigar».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-011",
+      "ley": "constitucion",
+      "articulo": "120.2",
+      "enunciado": "El procedimiento judicial será predominantemente oral, sobre todo en materia:",
+      "opciones": [
+        "Laboral",
+        "Criminal",
+        "Civil",
+        "Contencioso-administrativa"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 120.2 dice: «El procedimiento será predominantemente oral, sobre todo en materia criminal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-012",
+      "ley": "constitucion",
+      "articulo": "120.3",
+      "enunciado": "Según el artículo 120.3, las sentencias:",
+      "opciones": [
+        "Serán siempre motivadas y se pronunciarán en audiencia pública",
+        "Serán motivadas cuando lo exijan las leyes de procedimiento",
+        "Se pronunciarán en audiencia pública, salvo en materia criminal",
+        "Serán motivadas y se notificarán por escrito a las partes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 120.3 dice: «Las sentencias serán siempre motivadas y se pronunciarán en audiencia pública».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-013",
+      "ley": "constitucion",
+      "articulo": "121",
+      "enunciado": "Los daños causados por error judicial darán derecho a una indemnización a cargo:",
+      "opciones": [
+        "Del Estado",
+        "Del Juez o Magistrado responsable",
+        "Del Consejo General del Poder Judicial",
+        "De la comunidad autónoma"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 121 dice que esos daños «darán derecho a una indemnización a cargo del Estado, conforme a la ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-014",
+      "ley": "constitucion",
+      "articulo": "122.1",
+      "enunciado": "Según el artículo 122.1, los Jueces y Magistrados de carrera formarán:",
+      "opciones": [
+        "Un Cuerpo por cada orden jurisdiccional",
+        "Dos Cuerpos, uno de Jueces y otro de Magistrados",
+        "Un Cuerpo único",
+        "Cuerpos separados por categorías judiciales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 122.1 se refiere al estatuto jurídico «de los Jueces y Magistrados de carrera, que formarán un Cuerpo único».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-015",
+      "ley": "constitucion",
+      "articulo": "122.2",
+      "enunciado": "¿Qué órgano es, según la Constitución, el órgano de gobierno del poder judicial?",
+      "opciones": [
+        "El Tribunal Supremo",
+        "El Presidente del Tribunal Supremo",
+        "El Tribunal Constitucional",
+        "El Consejo General del Poder Judicial"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 122.2 dice: «El Consejo General del Poder Judicial es el órgano de gobierno del mismo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-016",
+      "ley": "constitucion",
+      "articulo": "122.2",
+      "enunciado": "La ley orgánica establecerá las funciones del CGPJ, en particular en materia de:",
+      "opciones": [
+        "Nombramientos, retribuciones, inspección y formación",
+        "Nombramientos, ascensos, inspección y régimen disciplinario",
+        "Ascensos, presupuesto, inspección y régimen disciplinario",
+        "Nombramientos, ascensos, incompatibilidades y formación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 122.2 se refiere a sus funciones, «en particular en materia de nombramientos, ascensos, inspección y régimen disciplinario».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-017",
+      "ley": "constitucion",
+      "articulo": "122.3",
+      "enunciado": "Los vocales del CGPJ propuestos por el Congreso y por el Senado se eligen por mayoría de:",
+      "opciones": [
+        "Dos tercios de sus miembros",
+        "Tres quintos de sus miembros",
+        "Mayoría absoluta de sus miembros",
+        "Cuatro quintos de sus miembros"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 122.3 dice que se eligen a propuesta de cada Cámara «por mayoría de tres quintos de sus miembros, entre abogados y otros juristas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-018",
+      "ley": "constitucion",
+      "articulo": "122.3",
+      "enunciado": "Los abogados y juristas propuestos por las Cámaras como vocales del CGPJ deben tener más de:",
+      "opciones": [
+        "Quince años de ejercicio en su profesión",
+        "Diez años de ejercicio en su profesión",
+        "Veinte años de ejercicio en su profesión",
+        "Doce años de ejercicio en su profesión"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 122.3 exige que sean «de reconocida competencia y con más de quince años de ejercicio en su profesión».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-019",
+      "ley": "constitucion",
+      "articulo": "123.1",
+      "enunciado": "El Tribunal Supremo es el órgano jurisdiccional superior en todos los órdenes, salvo lo dispuesto en materia de:",
+      "opciones": [
+        "Jurisdicción militar",
+        "Derecho civil foral",
+        "Conflictos de competencia",
+        "Garantías constitucionales"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 123.1 dice que el Tribunal Supremo «es el órgano jurisdiccional superior en todos los órdenes, salvo lo dispuesto en materia de garantías constitucionales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-020",
+      "ley": "constitucion",
+      "articulo": "123.2",
+      "enunciado": "El Presidente del Tribunal Supremo es nombrado por el Rey a propuesta:",
+      "opciones": [
+        "Del Gobierno",
+        "Del Congreso de los Diputados",
+        "Del Consejo General del Poder Judicial",
+        "Del Gobierno, oído el CGPJ"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 123.2 dice: «El Presidente del Tribunal Supremo será nombrado por el Rey, a propuesta del Consejo General del Poder Judicial».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-021",
+      "ley": "constitucion",
+      "articulo": "124.4",
+      "enunciado": "El Fiscal General del Estado es nombrado por el Rey:",
+      "opciones": [
+        "A propuesta del CGPJ, oído el Gobierno",
+        "A propuesta del Congreso, oído el Gobierno",
+        "A propuesta del Gobierno, oído el Congreso",
+        "A propuesta del Gobierno, oído el CGPJ"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 124.4 dice: «El Fiscal General del Estado será nombrado por el Rey, a propuesta del Gobierno, oído el Consejo General del Poder Judicial».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-022",
+      "ley": "constitucion",
+      "articulo": "124.2",
+      "enunciado": "El Ministerio Fiscal actúa por unidad de actuación y dependencia jerárquica, con sujeción en todo caso a los principios de:",
+      "opciones": [
+        "Independencia e inamovilidad",
+        "Legalidad y oportunidad",
+        "Legalidad e imparcialidad",
+        "Imparcialidad y publicidad"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 124.2 dice que actúa conforme a esos principios «y con sujeción, en todo caso, a los de legalidad e imparcialidad».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-023",
+      "ley": "constitucion",
+      "articulo": "125",
+      "enunciado": "Los ciudadanos pueden participar en la Administración de Justicia mediante el Jurado en los procesos:",
+      "opciones": [
+        "Penales que la ley determine",
+        "Civiles que la ley determine",
+        "Laborales que la ley determine",
+        "Contencioso-administrativos que la ley determine"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 125 prevé la institución del Jurado «en la forma y con respecto a aquellos procesos penales que la ley determine».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-024",
+      "ley": "constitucion",
+      "articulo": "126",
+      "enunciado": "En sus funciones de averiguación del delito y descubrimiento del delincuente, la policía judicial depende:",
+      "opciones": [
+        "Del Gobierno y de sus Delegados",
+        "De los Jueces, de los Tribunales y del Ministerio Fiscal",
+        "Del Consejo General del Poder Judicial",
+        "Exclusivamente del Ministerio Fiscal"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 126 dice: «La policía judicial depende de los Jueces, de los Tribunales y del Ministerio Fiscal en sus funciones de averiguación del delito y descubrimiento y aseguramiento del delincuente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "pj-025",
+      "ley": "constitucion",
+      "articulo": "127.1",
+      "enunciado": "Mientras se hallen en activo, los Jueces, Magistrados y Fiscales no podrán:",
+      "opciones": [
+        "Pertenecer a asociaciones profesionales",
+        "Ejercer el derecho de sufragio",
+        "Pertenecer a partidos políticos o sindicatos",
+        "Ejercer la acción popular"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 127.1 dice que, mientras se hallen en activo, no podrán «desempeñar otros cargos públicos, ni pertenecer a partidos políticos o sindicatos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    }
+  ]
+}

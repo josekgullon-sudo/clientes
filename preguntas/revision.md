@@ -48,3 +48,13 @@ Ninguna por ahora.
 - Las 3 preguntas del art. 69.3 (ce-031 a ce-033) pasan de `constitucion-arranque-art1-167.json`
   a `constitucion-cortes-art66-96.json`, y el lote de arranque vuelve a tener 30. Partirlo en dos
   dejaba dos lotes por debajo del mínimo de 20.
+
+## Revisión del 2026-10-13
+
+- Nuevo script `npm run preguntas:citas`: cada cita «…» de las explicaciones debe aparecer literal
+  en `/fuentes`. Todo el banco anterior lo pasa.
+- **poder-judicial-ce117-127** (25, tema 4), **economia-hacienda-ce128-136** (20, tema 15) y
+  **atencion-ciudadano-ley39** (25, tema 17): redactados a partir de `/fuentes`, citas comprobadas
+  por script y revisados pregunta a pregunta contra el artículo. Pasan a `validada`.
+- El tema 15 solo tiene por ahora la Constitución (arts. 128-136). Falta la Ley 47/2003, General
+  Presupuestaria, que no se pudo descargar (el entorno no llega a boe.es).

@@ -1,0 +1,405 @@
+{
+  "descripcion": "Constitución, Título VII (Economía y Hacienda), artículos 133 a 136. Lote generado el 2026-10-13 a partir del texto consolidado del BOE (versión 2026-05-20).",
+  "preguntas": [
+    {
+      "id": "hac-001",
+      "ley": "constitucion",
+      "articulo": "134.1",
+      "enunciado": "Según la Constitución, ¿a quién corresponde la elaboración de los Presupuestos Generales del Estado?",
+      "opciones": [
+        "Al Gobierno",
+        "Al Congreso de los Diputados",
+        "A las Cortes Generales",
+        "Al Tribunal de Cuentas"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 134.1 dice: «Corresponde al Gobierno la elaboración de los Presupuestos Generales del Estado y a las Cortes Generales, su examen, enmienda y aprobación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-002",
+      "ley": "constitucion",
+      "articulo": "134.1",
+      "enunciado": "Respecto de los Presupuestos Generales del Estado, a las Cortes Generales les corresponde:",
+      "opciones": [
+        "Su elaboración y aprobación",
+        "Su examen, enmienda y aprobación",
+        "Su elaboración, examen y enmienda",
+        "Su fiscalización y ejecución"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 134.1, corresponde al Gobierno la elaboración de los Presupuestos «y a las Cortes Generales, su examen, enmienda y aprobación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-003",
+      "ley": "constitucion",
+      "articulo": "134.2",
+      "enunciado": "Los Presupuestos Generales del Estado tendrán carácter:",
+      "opciones": [
+        "Bienal",
+        "Plurianual, por legislatura",
+        "Anual",
+        "Semestral"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 134.2 establece que «Los Presupuestos Generales del Estado tendrán carácter anual».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-004",
+      "ley": "constitucion",
+      "articulo": "134.2",
+      "enunciado": "Además de la totalidad de los gastos e ingresos del sector público estatal, en los Presupuestos Generales del Estado se consignará:",
+      "opciones": [
+        "El volumen máximo de deuda pública de las Comunidades Autónomas",
+        "El informe anual del Tribunal de Cuentas sobre el ejercicio anterior",
+        "El déficit estructural máximo de las Entidades Locales",
+        "El importe de los beneficios fiscales que afecten a los tributos del Estado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 134.2 dice que los Presupuestos incluirán la totalidad de los gastos e ingresos del sector público estatal «y en ellos se consignará el importe de los beneficios fiscales que afecten a los tributos del Estado».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-005",
+      "ley": "constitucion",
+      "articulo": "134.3",
+      "enunciado": "El Gobierno debe presentar los Presupuestos Generales del Estado antes de la expiración de los del año anterior con una antelación mínima de:",
+      "opciones": [
+        "Dos meses",
+        "Tres meses",
+        "Seis meses",
+        "Un mes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 134.3 obliga a presentarlos «al menos tres meses antes de la expiración de los del año anterior».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-006",
+      "ley": "constitucion",
+      "articulo": "134.3",
+      "enunciado": "¿Ante qué órgano debe presentar el Gobierno los Presupuestos Generales del Estado?",
+      "opciones": [
+        "Ante el Senado",
+        "Ante las Cortes Generales en sesión conjunta",
+        "Ante el Tribunal de Cuentas",
+        "Ante el Congreso de los Diputados"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 134.3 dice: «El Gobierno deberá presentar ante el Congreso de los Diputados los Presupuestos Generales del Estado […]».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-007",
+      "ley": "constitucion",
+      "articulo": "134.4",
+      "enunciado": "Si la Ley de Presupuestos no se aprueba antes del primer día del ejercicio económico correspondiente:",
+      "opciones": [
+        "Se prorrogan automáticamente los del ejercicio anterior hasta aprobar los nuevos",
+        "El Gobierno aprueba unos presupuestos provisionales por decreto-ley",
+        "Se prorrogan los del ejercicio anterior durante un máximo de tres meses",
+        "Se disuelven las Cortes y se convocan elecciones generales"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 134.4 dispone que, en ese caso, «se considerarán automáticamente prorrogados los Presupuestos del ejercicio anterior hasta la aprobación de los nuevos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-008",
+      "ley": "constitucion",
+      "articulo": "134.5",
+      "enunciado": "Aprobados los Presupuestos Generales del Estado, los proyectos de ley que impliquen aumento del gasto público del mismo ejercicio:",
+      "opciones": [
+        "Solo pueden presentarse en el ejercicio siguiente",
+        "Requieren autorización previa del Congreso por mayoría absoluta",
+        "Puede presentarlos el Gobierno",
+        "Requieren informe previo del Tribunal de Cuentas"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 134.5 dice: «Aprobados los Presupuestos Generales del Estado, el Gobierno podrá presentar proyectos de ley que impliquen aumento del gasto público o disminución de los ingresos correspondientes al mismo ejercicio presupuestario».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-009",
+      "ley": "constitucion",
+      "articulo": "134.6",
+      "enunciado": "Toda proposición o enmienda que suponga aumento de los créditos o disminución de los ingresos presupuestarios requiere para su tramitación:",
+      "opciones": [
+        "La mayoría absoluta del Congreso",
+        "El informe del Tribunal de Cuentas",
+        "La conformidad del Senado",
+        "La conformidad del Gobierno"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 134.6 establece que toda proposición o enmienda de ese tipo «requerirá la conformidad del Gobierno para su tramitación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-010",
+      "ley": "constitucion",
+      "articulo": "134.7",
+      "enunciado": "Respecto de los tributos, la Ley de Presupuestos:",
+      "opciones": [
+        "No puede crearlos, pero sí modificarlos si una ley tributaria sustantiva lo prevé",
+        "Puede crearlos y modificarlos libremente cada ejercicio",
+        "Puede crearlos solo si así lo prevé una ley orgánica",
+        "No puede crearlos ni modificarlos en ningún caso"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 134.7 dice: «La Ley de Presupuestos no puede crear tributos. Podrá modificarlos cuando una ley tributaria sustantiva así lo prevea».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-011",
+      "ley": "constitucion",
+      "articulo": "133.1",
+      "enunciado": "La potestad originaria para establecer los tributos corresponde exclusivamente:",
+      "opciones": [
+        "Al Gobierno, mediante real decreto",
+        "A las Comunidades Autónomas, mediante ley",
+        "Al Estado, mediante ley",
+        "A las Cortes Generales, mediante resolución"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 133.1 dice: «La potestad originaria para establecer los tributos corresponde exclusivamente al Estado, mediante ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-012",
+      "ley": "constitucion",
+      "articulo": "133.3",
+      "enunciado": "Todo beneficio fiscal que afecte a los tributos del Estado deberá establecerse:",
+      "opciones": [
+        "Mediante real decreto del Gobierno",
+        "En virtud de ley",
+        "Por orden del Ministro competente en Hacienda",
+        "En virtud de ley orgánica"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 133.3 dispone: «Todo beneficio fiscal que afecte a los tributos del Estado deberá establecerse en virtud de ley».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-013",
+      "ley": "constitucion",
+      "articulo": "135.1",
+      "enunciado": "Todas las Administraciones Públicas adecuarán sus actuaciones al principio de:",
+      "opciones": [
+        "Equilibrio territorial",
+        "Unidad de caja",
+        "Estabilidad presupuestaria",
+        "Coordinación tributaria"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 135.1 dice: «Todas las Administraciones Públicas adecuarán sus actuaciones al principio de estabilidad presupuestaria».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-014",
+      "ley": "constitucion",
+      "articulo": "135.2",
+      "enunciado": "Según el artículo 135.2 de la Constitución, las Entidades Locales deberán presentar:",
+      "opciones": [
+        "Equilibrio presupuestario",
+        "Un déficit estructural fijado por ley orgánica",
+        "Un déficit inferior al del Estado",
+        "Superávit en todos los ejercicios"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 135.2 establece: «Las Entidades Locales deberán presentar equilibrio presupuestario».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-015",
+      "ley": "constitucion",
+      "articulo": "135.3",
+      "enunciado": "El pago de los intereses y el capital de la deuda pública de las Administraciones:",
+      "opciones": [
+        "Se atiende tras los gastos de personal",
+        "Requiere autorización anual del Congreso",
+        "Puede ser objeto de enmienda presupuestaria",
+        "Goza de prioridad absoluta"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 135.3 dice que esos créditos se entenderán siempre incluidos en el estado de gastos «y su pago gozará de prioridad absoluta».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-016",
+      "ley": "constitucion",
+      "articulo": "135.4",
+      "enunciado": "Los límites de déficit estructural y de deuda pública pueden superarse en los casos previstos, apreciados por:",
+      "opciones": [
+        "La mayoría simple del Congreso de los Diputados",
+        "La mayoría absoluta de los miembros del Congreso",
+        "La mayoría absoluta del Senado",
+        "El Consejo de Ministros, a propuesta del Ministro competente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 135.4 exige que esas situaciones sean «apreciadas por la mayoría absoluta de los miembros del Congreso de los Diputados».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-017",
+      "ley": "constitucion",
+      "articulo": "135.3",
+      "enunciado": "El volumen de deuda pública del conjunto de las Administraciones Públicas no podrá superar el valor de referencia establecido en:",
+      "opciones": [
+        "El Tratado de Funcionamiento de la Unión Europea",
+        "La Ley de Presupuestos Generales del Estado",
+        "Una ley orgánica aprobada por las Cortes",
+        "Los Estatutos de Autonomía"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 135.3, ese volumen «no podrá superar el valor de referencia establecido en el Tratado de Funcionamiento de la Unión Europea».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-018",
+      "ley": "constitucion",
+      "articulo": "136.1",
+      "enunciado": "El Tribunal de Cuentas depende directamente:",
+      "opciones": [
+        "Del Gobierno",
+        "Del Consejo General del Poder Judicial",
+        "Del Congreso de los Diputados",
+        "De las Cortes Generales"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 136.1 dice que el Tribunal de Cuentas «Dependerá directamente de las Cortes Generales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-019",
+      "ley": "constitucion",
+      "articulo": "136.3",
+      "enunciado": "Los miembros del Tribunal de Cuentas gozan de la misma independencia e inamovilidad y tienen las mismas incompatibilidades que:",
+      "opciones": [
+        "Los Diputados y Senadores",
+        "Los Jueces",
+        "Los miembros del Gobierno",
+        "Los funcionarios de carrera"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 136.3 dice que «gozarán de la misma independencia e inamovilidad y estarán sometidos a las mismas incompatibilidades que los Jueces».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "hac-020",
+      "ley": "constitucion",
+      "articulo": "136.2",
+      "enunciado": "El Tribunal de Cuentas remitirá a las Cortes Generales un informe:",
+      "opciones": [
+        "Semestral",
+        "Trimestral",
+        "Anual",
+        "Al final de cada legislatura"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 136.2 establece que el Tribunal de Cuentas «remitirá a las Cortes Generales un informe anual».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    }
+  ]
+}

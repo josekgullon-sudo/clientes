@@ -13,6 +13,7 @@ export default async function Simulacro() {
   const f = opo.formato_simulacro;
   const total = f.partes.reduce((s, p) => s + p.preguntas, 0);
   const tercio = f.penalizacion > 0.33 && f.penalizacion < 0.34;
+  const soloBloqueI = f.partes.length === 1 && f.partes[0].bloque === "I";
 
   const datos = [
     { icono: ListChecks, valor: String(total), texto: "preguntas", detalle: f.partes.map((p) => `${p.preguntas} del bloque ${p.bloque}`).join(" y ") },
@@ -27,7 +28,9 @@ export default async function Simulacro() {
         <Clara pose="piensa" className="size-24 shrink-0" />
         <div>
           <p className="antetitulo">Modo examen</p>
-          <h1 className="mt-1 font-display text-[2rem] leading-tight font-black">Simulacro</h1>
+          <h1 className="mt-1 font-display text-[2rem] leading-tight font-black">
+            {soloBloqueI ? "Simulacro del bloque I" : "Simulacro"}
+          </h1>
           <p className="mt-1 font-semibold text-pizarra">Con tiempo y sin ver la corrección hasta el final.</p>
         </div>
       </header>
@@ -46,8 +49,9 @@ export default async function Simulacro() {
       </dl>
 
       <p className="rounded-2xl bg-papel-hundido p-4 text-sm text-pizarra">
-        No incluye la parte psicotécnica; el tiempo es proporcional a las preguntas. El bloque II aún tiene pocas preguntas,
-        así que el simulacro usa las que hay.
+        {soloBloqueI
+          ? "De momento es el simulacro del bloque I, con el tiempo proporcional al examen real (90 minutos para 110 preguntas). Cuando esté listo el bloque II, será el examen completo."
+          : "No incluye la parte psicotécnica; el tiempo es proporcional a las preguntas del examen real."}
       </p>
 
       {!suscrito && (

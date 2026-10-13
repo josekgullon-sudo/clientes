@@ -12,6 +12,7 @@
     "preguntas:estadisticas": "tsx scripts/estadisticas.ts",
     "preguntas:importar": "tsx scripts/importar.ts",
     "preguntas:sql": "tsx scripts/exportar-sql.ts",
+    "preguntas:citas": "tsx scripts/comprobar-citas.ts",
     "typecheck": "tsc --noEmit",
     "capturas": "tsx scripts/capturas.ts",
     "test": "vitest run",

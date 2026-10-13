@@ -1,0 +1,505 @@
+{
+  "descripcion": "Ley 39/2015 para el tema 17 (atención al ciudadano): capacidad de obrar, interesados, representación, asistencia electrónica, derechos (arts. 13 y 53), solicitudes y declaración responsable. Lote generado el 2026-10-13; pendiente de revisión.",
+  "preguntas": [
+    {
+      "id": "at-001",
+      "ley": "ley-39-2015",
+      "articulo": "3.b",
+      "enunciado": "Los menores de edad tienen capacidad de obrar ante las Administraciones Públicas:",
+      "opciones": [
+        "Para los derechos que el ordenamiento les permita ejercer sin asistencia de sus representantes legales",
+        "Solo a partir de los dieciséis años y para cualquier derecho o interés",
+        "En ningún caso, porque carecen de capacidad plena según las normas civiles",
+        "Solo cuando actúen asistidos por quien ejerza la patria potestad o tutela"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 3.b) la reconoce a los menores para los derechos e intereses «cuya actuación esté permitida por el ordenamiento jurídico sin la asistencia de la persona que ejerza la patria potestad, tutela o curatela».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-002",
+      "ley": "ley-39-2015",
+      "articulo": "3.c",
+      "enunciado": "Los grupos de afectados y las uniones sin personalidad jurídica tienen capacidad de obrar ante las Administraciones:",
+      "opciones": [
+        "Siempre que lo acuerden la mayoría de sus miembros",
+        "Cuando la Ley así lo declare expresamente",
+        "Cuando estén inscritos en un registro público",
+        "En ningún caso, al carecer de personalidad"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 3.c), tienen capacidad de obrar «Cuando la Ley así lo declare expresamente, los grupos de afectados, las uniones y entidades sin personalidad jurídica y los patrimonios independientes o autónomos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-003",
+      "ley": "ley-39-2015",
+      "articulo": "4.1.c",
+      "enunciado": "Quienes tengan intereses legítimos que puedan resultar afectados por la resolución son interesados si:",
+      "opciones": [
+        "Lo comunican antes del trámite de audiencia",
+        "Se personan antes de la propuesta de resolución",
+        "Se personan mientras no haya recaído resolución definitiva",
+        "Lo solicitan en los diez días siguientes al inicio"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 4.1.c) considera interesados a aquellos cuyos intereses legítimos puedan resultar afectados por la resolución «y se personen en el procedimiento en tanto no haya recaído resolución definitiva».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-004",
+      "ley": "ley-39-2015",
+      "articulo": "4.3",
+      "enunciado": "Si la condición de interesado deriva de una relación jurídica transmisible, el derecho-habiente le sucede:",
+      "opciones": [
+        "Solo si aún no se ha iniciado la instrucción",
+        "Solo hasta que se abra el trámite de audiencia",
+        "Solo si lo autoriza el órgano instructor",
+        "Cualquiera que sea el estado del procedimiento"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 4.3 dice que «el derecho-habiente sucederá en tal condición cualquiera que sea el estado del procedimiento».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-005",
+      "ley": "ley-39-2015",
+      "articulo": "5.1",
+      "enunciado": "Si el interesado actúa por medio de representante, las actuaciones administrativas se entienden:",
+      "opciones": [
+        "Con el representante, salvo manifestación expresa en contra del interesado",
+        "Siempre con el interesado, con copia al representante",
+        "Con ambos a la vez, de forma conjunta y simultánea",
+        "Con el representante, solo si lo autoriza el órgano competente"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 5.1, los interesados podrán actuar por medio de representante, «entendiéndose con éste las actuaciones administrativas, salvo manifestación expresa en contra del interesado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-006",
+      "ley": "ley-39-2015",
+      "articulo": "5.2",
+      "enunciado": "Las personas jurídicas pueden actuar en representación de otras ante las Administraciones:",
+      "opciones": [
+        "Cuando estén inscritas en el registro de apoderamientos",
+        "Nunca: solo pueden representar las personas físicas",
+        "Siempre que ello esté previsto en sus Estatutos",
+        "Solo ante la Administración de su domicilio social"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 5.2 permite actuar en representación de otras a «las personas jurídicas, siempre que ello esté previsto en sus Estatutos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-007",
+      "ley": "ley-39-2015",
+      "articulo": "5.3",
+      "enunciado": "Para los actos y gestiones de mero trámite en nombre de otra persona, la representación:",
+      "opciones": [
+        "Debe acreditarse siempre por escrito",
+        "Debe acreditarse con poder notarial",
+        "Solo vale si consta en el registro",
+        "Se presume, sin tener que acreditarla"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 5.3 establece: «Para los actos y gestiones de mero trámite se presumirá aquella representación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-008",
+      "ley": "ley-39-2015",
+      "articulo": "5.6",
+      "enunciado": "Si falta o es insuficiente la acreditación de la representación, el órgano concede para aportarla un plazo de:",
+      "opciones": [
+        "Cinco días, sin posibilidad de ampliarlo",
+        "Diez días, o más si las circunstancias lo requieren",
+        "Quince días, con carácter improrrogable",
+        "Un mes desde la presentación del escrito"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 5.6, debe aportarse o subsanarse «dentro del plazo de diez días que deberá conceder al efecto el órgano administrativo, o de un plazo superior cuando las circunstancias del caso así lo requieran».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-009",
+      "ley": "ley-39-2015",
+      "articulo": "6.6",
+      "enunciado": "Los poderes inscritos en el registro electrónico de apoderamientos tienen una validez máxima de:",
+      "opciones": [
+        "Dos años desde la fecha de inscripción",
+        "Tres años desde la fecha de inscripción",
+        "Cinco años desde la fecha de inscripción",
+        "Diez años desde la fecha de inscripción"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 6.6 dice: «Los poderes inscritos en el registro tendrán una validez determinada máxima de cinco años a contar desde la fecha de inscripción».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-010",
+      "ley": "ley-39-2015",
+      "articulo": "7",
+      "enunciado": "Si en una solicitud figuran varios interesados y no han señalado a ninguno, las actuaciones se efectúan:",
+      "opciones": [
+        "Con todos ellos, por separado",
+        "Con el interesado de mayor edad",
+        "Con el que figure en primer término",
+        "Con el que primero se persone"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 7 dice que las actuaciones se efectuarán con el representante o el interesado que expresamente hayan señalado, «y, en su defecto, con el que figure en primer término».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-011",
+      "ley": "ley-39-2015",
+      "articulo": "8",
+      "enunciado": "En un procedimiento sin publicidad, si se advierten titulares de derechos que pueden resultar afectados, se:",
+      "opciones": [
+        "Suspende el procedimiento hasta que se personen",
+        "Les comunica la tramitación del procedimiento",
+        "Publica un anuncio en el boletín oficial",
+        "Archiva el procedimiento y se inicia otro nuevo"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 8, en ese caso «se comunicará a dichas personas la tramitación del procedimiento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-012",
+      "ley": "ley-39-2015",
+      "articulo": "12.2",
+      "enunciado": "Para que un funcionario firme electrónicamente por un interesado que carece de medios electrónicos, este debe:",
+      "opciones": [
+        "Presentar una declaración responsable de que carece de medios",
+        "Otorgar un poder inscrito en el registro de apoderamientos",
+        "Acreditar una discapacidad que le impida usar esos medios",
+        "Identificarse ante el funcionario y prestar consentimiento expreso"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 12.2 exige «que el interesado que carezca de los medios electrónicos necesarios se identifique ante el funcionario y preste su consentimiento expreso para esta actuación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-013",
+      "ley": "ley-39-2015",
+      "articulo": "12.2",
+      "enunciado": "Las Administraciones asisten en el uso de medios electrónicos a:",
+      "opciones": [
+        "Los interesados no obligados a relacionarse electrónicamente que lo soliciten",
+        "Solo las personas jurídicas que lo soliciten por escrito",
+        "Todos los interesados, aunque no lo hayan solicitado",
+        "Solo los interesados obligados a relacionarse electrónicamente"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 12.2 dice: «Las Administraciones Públicas asistirán en el uso de medios electrónicos a los interesados no incluidos en los apartados 2 y 3 del artículo 14 que así lo soliciten».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-014",
+      "ley": "ley-39-2015",
+      "articulo": "13.a",
+      "enunciado": "¿Cuál de estos derechos reconoce el artículo 13 a las personas en sus relaciones con las Administraciones?",
+      "opciones": [
+        "Elegir al empleado público que tramitará su asunto",
+        "Comunicarse a través de un Punto de Acceso General electrónico",
+        "Obtener respuesta favorable si la Administración no resuelve",
+        "Quedar exentas de tasas en los trámites electrónicos"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 13.a) reconoce el derecho «A comunicarse con las Administraciones Públicas a través de un Punto de Acceso General electrónico de la Administración».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-015",
+      "ley": "ley-39-2015",
+      "articulo": "13",
+      "enunciado": "Son titulares de los derechos del artículo 13 en las relaciones con las Administraciones Públicas:",
+      "opciones": [
+        "Solo los ciudadanos españoles mayores de edad",
+        "Solo quienes tengan la condición de interesado",
+        "Solo las personas físicas residentes en España",
+        "Quienes tienen capacidad de obrar ante ellas"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 13 empieza: «Quienes de conformidad con el artículo 3, tienen capacidad de obrar ante las Administraciones Públicas, son titulares, en sus relaciones con ellas, de los siguientes derechos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-016",
+      "ley": "ley-39-2015",
+      "articulo": "53.1.c",
+      "enunciado": "Si excepcionalmente un interesado debe presentar un documento original, tiene derecho a:",
+      "opciones": [
+        "Que se le devuelva en el plazo de diez días",
+        "Obtener una copia autenticada de este",
+        "Presentarlo en una fase posterior",
+        "Que se le compulse una copia gratis"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 53.1.c) dice: «En caso de que, excepcionalmente, deban presentar un documento original, tendrán derecho a obtener una copia autenticada de éste».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-017",
+      "ley": "ley-39-2015",
+      "articulo": "53.1.e",
+      "enunciado": "Los interesados pueden formular alegaciones y aportar documentos:",
+      "opciones": [
+        "Solo en los diez primeros días del procedimiento",
+        "Únicamente durante el trámite de audiencia",
+        "Hasta el momento en que se dicte la resolución",
+        "En cualquier fase anterior al trámite de audiencia"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 53.1.e) reconoce el derecho a formular alegaciones y «a aportar documentos en cualquier fase del procedimiento anterior al trámite de audiencia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-018",
+      "ley": "ley-39-2015",
+      "articulo": "53.2.b",
+      "enunciado": "En un procedimiento sancionador, el presunto responsable tiene derecho:",
+      "opciones": [
+        "A elegir al instructor del procedimiento",
+        "A que la sanción la confirme antes un juez",
+        "A la presunción de no existencia de responsabilidad",
+        "A que se archive si no se resuelve en un mes"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 53.2.b) reconoce el derecho «A la presunción de no existencia de responsabilidad administrativa mientras no se demuestre lo contrario».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-019",
+      "ley": "ley-39-2015",
+      "articulo": "53.1.d",
+      "enunciado": "Los interesados tienen derecho a no presentar los documentos:",
+      "opciones": [
+        "Que ya estén en poder de las Administraciones o los hayan elaborado ellas",
+        "Cuyo coste de obtención supere el importe de la tasa del procedimiento",
+        "Que tengan una antigüedad superior a cinco años desde su expedición",
+        "Que no estén redactados en castellano ni en otra lengua cooficial"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 53.1.d) reconoce el derecho a no presentar datos y documentos «que ya se encuentren en poder de las Administraciones Públicas o que hayan sido elaborados por éstas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-020",
+      "ley": "ley-39-2015",
+      "articulo": "66.1",
+      "enunciado": "¿Cuál de estos datos NO es obligatorio en una solicitud de iniciación?",
+      "opciones": [
+        "Lugar y fecha",
+        "Firma del solicitante o acreditación de su voluntad",
+        "Correo electrónico para recibir avisos de notificación",
+        "Órgano al que se dirige y su código de identificación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 66.1 exige, entre otros, «Lugar y fecha» y la firma, pero el correo es voluntario: «los interesados podrán aportar su dirección de correo electrónico y/o dispositivo electrónico con el fin de que las Administraciones Públicas les avisen».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-021",
+      "ley": "ley-39-2015",
+      "articulo": "66.3",
+      "enunciado": "De las solicitudes que presenten, los interesados pueden exigir un recibo que acredite:",
+      "opciones": [
+        "La fecha y hora de presentación",
+        "El órgano que va a resolver",
+        "El plazo máximo para resolver",
+        "El número de expediente asignado"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 66.3 permite exigir «el correspondiente recibo que acredite la fecha y hora de presentación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-022",
+      "ley": "ley-39-2015",
+      "articulo": "68.2",
+      "enunciado": "El plazo para subsanar la solicitud puede ampliarse prudencialmente hasta cinco días, salvo en los procedimientos:",
+      "opciones": [
+        "Sancionadores o de reintegro",
+        "Selectivos o de concurrencia competitiva",
+        "De responsabilidad patrimonial",
+        "Iniciados de oficio por la Administración"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 68.2 dice: «Siempre que no se trate de procedimientos selectivos o de concurrencia competitiva, este plazo podrá ser ampliado prudencialmente, hasta cinco días».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-023",
+      "ley": "ley-39-2015",
+      "articulo": "68.4",
+      "enunciado": "Si un obligado a relacionarse electrónicamente presenta su solicitud en papel y luego la subsana, se toma como fecha de presentación:",
+      "opciones": [
+        "La de la presentación presencial",
+        "La del requerimiento de subsanación",
+        "La de la subsanación electrónica",
+        "La de su llegada al órgano competente"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 68.4 dice: «se considerará como fecha de presentación de la solicitud aquella en la que haya sido realizada la subsanación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-024",
+      "ley": "ley-39-2015",
+      "articulo": "69.3",
+      "enunciado": "Una declaración responsable permite el ejercicio de un derecho o el inicio de una actividad:",
+      "opciones": [
+        "Desde el día de su presentación",
+        "A los diez días de su presentación",
+        "Desde que la Administración la comprueba",
+        "Desde que se notifica su admisión"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 69.3 establece que permitirán el inicio de una actividad «desde el día de su presentación, sin perjuicio de las facultades de comprobación, control e inspección».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "at-025",
+      "ley": "ley-39-2015",
+      "articulo": "69.6",
+      "enunciado": "Para iniciar una misma actividad, la Administración puede exigir:",
+      "opciones": [
+        "Una declaración responsable y una comunicación, siempre",
+        "Una comunicación y, si lo pide el órgano, también una declaración",
+        "Ambas, si la actividad afecta a varias Administraciones",
+        "Una declaración responsable o una comunicación, pero no ambas"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 69.6 dice: «Únicamente será exigible, bien una declaración responsable, bien una comunicación […] sin que sea posible la exigencia de ambas acumulativamente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    }
+  ]
+}
