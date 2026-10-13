@@ -11,6 +11,7 @@
     "preguntas:duplicados": "tsx scripts/duplicados.ts",
     "preguntas:estadisticas": "tsx scripts/estadisticas.ts",
     "preguntas:importar": "tsx scripts/importar.ts",
+    "preguntas:sql": "tsx scripts/exportar-sql.ts",
     "typecheck": "tsc --noEmit",
     "capturas": "tsx scripts/capturas.ts",
     "test": "vitest run",

@@ -6,7 +6,7 @@ alter table perfil_estudio
   add column if not exists avatar text,
   add column if not exists en_liga boolean not null default true;
 
-create table cofres_diarios (
+create table if not exists cofres_diarios (
   usuario_id uuid references auth.users (id) on delete cascade,
   dia date not null,
   xp int not null,
@@ -15,6 +15,7 @@ create table cofres_diarios (
 );
 
 alter table cofres_diarios enable row level security;
+drop policy if exists "ver los míos" on cofres_diarios;
 create policy "ver los míos" on cofres_diarios for select using (usuario_id = auth.uid());
 revoke all on cofres_diarios from anon, authenticated;
 grant select on cofres_diarios to authenticated;

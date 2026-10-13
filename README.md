@@ -46,6 +46,8 @@ Para verla en el móvil, conecta el móvil a la misma wifi y abre `http://IP-DE-
 
 1. **Supabase**: crea el proyecto (región UE, p. ej. Frankfurt), `npx supabase link` y
    `npx supabase db push` (aplica todas las migraciones de `supabase/migrations`).
+   Sin claves: pega en el SQL Editor los archivos de `supabase/produccion` en orden
+   (`02-preguntas.sql` se regenera con `npm run preguntas:sql`; ambos se pueden repetir).
    En Authentication → URL Configuration, pon la URL de la web como *Site URL* y añade
    `https://TU-DOMINIO/auth/callback` a las *Redirect URLs*. En Email Templates pega
    `supabase/templates/magic_link.html` y `confirmation.html` (el correo lleva el código de 6 cifras).
