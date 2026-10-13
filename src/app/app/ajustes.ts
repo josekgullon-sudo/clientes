@@ -1,5 +1,6 @@
 "use server";
 
+import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { OPOSICION } from "@/lib/sitio";
 import { supabaseServidor } from "@/lib/supabase/servidor";
@@ -40,4 +41,26 @@ export async function guardarAjustes(datos: FormData) {
   }
   if (datos.get("confirmar") === "1") redirect(`${destino}${destino.includes("?") ? "&" : "?"}guardado=1`);
   redirect(destino);
+}
+
+export async function guardarPerfilPublico(datos: FormData) {
+  const supabase = await supabaseServidor();
+  const alias = String(datos.get("alias") ?? "").trim();
+  const { error } = await supabase.rpc("guardar_perfil_publico", {
+    p_alias: alias || null,
+    p_avatar: String(datos.get("avatar") ?? "") || null,
+    p_en_liga: datos.get("en_liga") === "1",
+  });
+  redirect(error ? "/app/cuenta?error=perfil#perfil" : "/app/cuenta?guardado=perfil#perfil");
+}
+
+export type ResultadoCofre = { xp: number; ya_abierto: boolean; logros: string[] } | { error: true };
+
+/** Abre el cofre del día. Lo llama el botón del cofre en el panel. */
+export async function abrirCofre(): Promise<ResultadoCofre> {
+  const supabase = await supabaseServidor();
+  const { data, error } = await supabase.rpc("abrir_cofre");
+  if (error || !data) return { error: true };
+  revalidatePath("/app", "layout");
+  return data as ResultadoCofre;
 }

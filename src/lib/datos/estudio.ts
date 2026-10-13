@@ -1,6 +1,7 @@
 import "server-only";
 import { cache } from "react";
 import type { NodoCamino } from "@/lib/estudio/camino";
+import { hoyMadrid } from "@/lib/seo/seleccion";
 import { usuarioActual } from "./usuario";
 
 export type ParteNota = { nota: number; bajo: number; alto: number };
@@ -86,4 +87,45 @@ export const logrosUsuario = cache(async (): Promise<LogroUsuario[] | null> => {
     icono: l.icono as string,
     conseguido_en: mapa.get(l.catalogo_id as string) ?? null,
   }));
+});
+
+export type PerfilPublico = { alias: string; avatar: string; en_liga: boolean; personalizado: boolean };
+
+export const perfilPublico = cache(async (): Promise<PerfilPublico | null> => {
+  const { supabase } = await usuarioActual();
+  const { data, error } = await supabase.rpc("mi_perfil_publico");
+  if (error || !data) return null;
+  return data as PerfilPublico;
+});
+
+export type FilaLiga = { pos: number; alias: string; avatar: string; xp: number; racha: number; yo: boolean };
+export type Liga = { inicio: string; fin: string; participantes: number; filas: FilaLiga[]; mi_posicion: number | null };
+
+export const ligaSemanal = cache(async (): Promise<Liga | null> => {
+  const { supabase } = await usuarioActual();
+  const { data, error } = await supabase.rpc("liga_semanal");
+  if (error || !data) return null;
+  return data as Liga;
+});
+
+/** XP del cofre de hoy, o null si aún no se ha abierto. */
+export const cofreHoy = cache(async (): Promise<number | null> => {
+  const { supabase } = await usuarioActual();
+  const hoy = hoyMadrid();
+  const { data } = await supabase.from("cofres_diarios").select("xp").eq("dia", hoy).maybeSingle();
+  return (data?.xp as number | undefined) ?? null;
+});
+
+export type DiaActividad = { dia: string; preguntas: number; objetivo_cumplido: boolean; protector_usado: boolean };
+
+/** Actividad de los últimos días, para el calendario de la racha. */
+export const actividadReciente = cache(async (dias = 42): Promise<DiaActividad[]> => {
+  const { supabase } = await usuarioActual();
+  const desde = new Date(Date.now() - dias * 86400000);
+  const { data } = await supabase
+    .from("actividad_diaria")
+    .select("dia, preguntas, objetivo_cumplido, protector_usado")
+    .gte("dia", hoyMadrid(desde))
+    .order("dia");
+  return (data ?? []) as DiaActividad[];
 });

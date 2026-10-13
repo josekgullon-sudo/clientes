@@ -17,4 +17,7 @@ export const NOMBRES_LOGRO: Record<string, string> = {
   "coronas-todas": "Temario con corona",
   madrugador: "Madrugador",
   nocturno: "Nocturno",
+  "primer-cofre": "Primer cofre",
+  "cofres-7": "Coleccionista",
+  "liga-podio": "Podio",
 };
