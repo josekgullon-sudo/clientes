@@ -1,0 +1,29 @@
+Firewall y protección de red en la aplicación Seguridad de Windows
+https://support.microsoft.com/es-es/windows/security/windows-security/firewall-and-network-protection-in-the-windows-security-app
+Descargado: 2026-10-13
+
+Firewall y protección de red en la aplicación Seguridad de Windows
+Se aplica a Windows 11 Windows 10
+Firewall de Windows ayuda a proteger el dispositivo filtrando el tráfico de red y bloqueando el acceso no autorizado. Reduce el riesgo de amenazas de seguridad de red permitiendo o restringiendo conexiones en función de criterios específicos, como direcciones IP, puertos de red y rutas de acceso del programa de aplicación.
+Puede usar la aplicación Seguridad de Windows para ver y administrar el estado de Firewall de Windows. Puede activar o desactivar el firewall y acceder a la configuración avanzada para diferentes tipos de red, incluidas las redes de dominio (área de trabajo), privadas (de confianza) y públicas (no de confianza).
+Redes privadas y públicas
+Puede especificar que una red determinada a la que se conecte el dispositivo sea privada o pública . La diferencia clave es si otros dispositivos de la misma red pueden ver el dispositivo y, tal vez, conectarse a él.
+Tu red doméstica podría ser un ejemplo de una red privada; en teoría, los únicos dispositivos en esa red son tus dispositivos y los dispositivos que pertenecen a tu familia. No te parece bien que esos otros dispositivos puedan ver el tuyo, porque confías en esos dispositivos.
+Sin embargo, el Wi-Fi en su cafetería local es una red pública. La mayoría de los otros dispositivos conectados a él pertenecen a extraños y probablemente preferiría que no pudieran ver su dispositivo ni conectarse a él.
+Como norma general, tendrá controles de seguridad más estrictos en una red pública que en una privada, simplemente por el nivel de confianza que pueda tener en las demás personas y dispositivos de esa red.
+Configurar Firewall de Windows con Seguridad de Windows
+En la aplicación Seguridad de Windows de tu PC, selecciona Firewall & protección de red o usa el siguiente acceso directo:
+Protección de firewall & red
+Seguridad de Windows muestra a qué tipo de red está conectado actualmente. Por lo general, el dispositivo solo se conectará a una red a la vez. Selecciona un perfil de red: Red de dominio , Red privada , o Red pública .
+En Firewall de Microsoft Defender , cambie la configuración a Activado para habilitar el Firewall de Windows. Para desactivarlo, cambia el valor a Desactivado . Si desactiva Firewall de Windows, su dispositivo podría ser más vulnerable a un acceso no autorizado. Si hay una aplicación que necesites usar pero está bloqueada, puedes permitirle pasar por el firewall, en lugar de desactivarlo.
+En la sección Conexiones entrantes , hay una casilla para Bloquea todas las conexiones entrantes, incluidas las de la lista de aplicaciones permitidas . Al activar esta casilla, se indica al Firewall de Windows que ignore la lista de aplicaciones permitidas y bloquee todo. Activar esta opción aumenta la seguridad, pero puede que algunas aplicaciones dejen de funcionar.
+Nota
+Si el dispositivo está administrado por una organización, es posible que la configuración de directivas le impida modificar la configuración del Firewall de Windows. Póngase en contacto con su administrador para obtener más información.
+Otras configuraciones
+Aquí tiene una lista de opciones de configuración adicionales disponibles en la página de firewall y protección de red:
+Permitir una aplicación a través del firewall: Si el firewall está bloqueando una aplicación que necesita, puede agregar una excepción para esa aplicación o abrir un puerto específico. Obtenga más información sobre ese proceso (y por qué es posible que no quiera hacerlo) en Riesgos de permitir aplicaciones a través del Firewall de Windows .
+Solucionador de problemas de red e Internet: Si tiene problemas generales de conectividad de red, puede usar este solucionador de problemas para intentar diagnosticarlos y corregirlos automáticamente.
+Configuración de notificaciones de firewall: ¿Quieres recibir más notificaciones cuando tu firewall bloquee algo? ¿Menos?
+Aprende a configurar las notificaciones .
+Configuración avanzada: Se abrirá el clásico firewall de Windows Defender, herramienta que te permite crear reglas de entrada o salida, reglas de seguridad de conexión y ver registros de supervisión del firewall. La mayoría de la gente no querrá profundizar tanto; Agregar, cambiar o eliminar reglas incorrectamente puede hacer que su sistema sea más vulnerable o puede hacer que algunas aplicaciones no funcionen.
+Restaurar los firewalls a los valores predeterminados : si alguien, o algo, ha realizado cambios en la configuración de Firewall de Windows que está causando que las cosas no funcionen correctamente, está a solo dos clics de restablecer la configuración a la forma en que estaba cuando obtuvo la computadora por primera vez. Si su organización ha aplicado alguna directiva para configurar el firewall, se volverá a aplicar.
