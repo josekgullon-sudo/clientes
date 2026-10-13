@@ -56,5 +56,6 @@ Ninguna por ahora.
 - **poder-judicial-ce117-127** (25, tema 4), **economia-hacienda-ce128-136** (20, tema 15) y
   **atencion-ciudadano-ley39** (25, tema 17): redactados a partir de `/fuentes`, citas comprobadas
   por script y revisados pregunta a pregunta contra el artículo. Pasan a `validada`.
+- **organizacion-territorial-ce137-158** (30, tema 9): revisado y `validada`.
 - El tema 15 solo tiene por ahora la Constitución (arts. 128-136). Falta la Ley 47/2003, General
   Presupuestaria, que no se pudo descargar (el entorno no llega a boe.es).

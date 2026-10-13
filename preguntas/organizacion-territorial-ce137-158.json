@@ -1,0 +1,605 @@
+{
+  "descripcion": "Constitución, Título VIII (arts. 137 a 158): organización territorial del Estado. Lote generado el 2026-10-13; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-05-20).",
+  "preguntas": [
+    {
+      "id": "terr-001",
+      "ley": "constitucion",
+      "articulo": "137",
+      "enunciado": "Según el artículo 137 de la Constitución, el Estado se organiza territorialmente en:",
+      "opciones": [
+        "Municipios, provincias y las Comunidades Autónomas que se constituyan",
+        "Municipios, comarcas y las Comunidades Autónomas que se constituyan",
+        "Provincias, regiones y las Comunidades Autónomas que se constituyan",
+        "Municipios, provincias, comarcas y Comunidades Autónomas"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 137 dice: «El Estado se organiza territorialmente en municipios, en provincias y en las Comunidades Autónomas que se constituyan».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-002",
+      "ley": "constitucion",
+      "articulo": "138.2",
+      "enunciado": "Las diferencias entre los Estatutos de las distintas Comunidades Autónomas no podrán implicar, en ningún caso:",
+      "opciones": [
+        "Diferencias en las competencias asumidas",
+        "Desigualdades en la organización institucional",
+        "Privilegios económicos o sociales",
+        "Distintos regímenes de financiación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 138.2 establece que esas diferencias «no podrán implicar, en ningún caso, privilegios económicos o sociales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-003",
+      "ley": "constitucion",
+      "articulo": "140",
+      "enunciado": "Según la Constitución, los Alcaldes serán elegidos:",
+      "opciones": [
+        "Solo por los vecinos, por sufragio universal",
+        "Por los Concejales o por los vecinos",
+        "Por el Pleno de la Diputación provincial",
+        "Solo por los Concejales, por mayoría absoluta"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 140 dispone: «Los Alcaldes serán elegidos por los Concejales o por los vecinos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-004",
+      "ley": "constitucion",
+      "articulo": "141.1",
+      "enunciado": "Cualquier alteración de los límites provinciales habrá de ser aprobada por:",
+      "opciones": [
+        "Las Comunidades Autónomas afectadas mediante ley",
+        "El Gobierno mediante real decreto",
+        "Las Diputaciones afectadas, con ratificación del Senado",
+        "Las Cortes Generales mediante ley orgánica"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 141.1 dice: «Cualquier alteración de los límites provinciales habrá de ser aprobada por las Cortes Generales mediante ley orgánica».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-005",
+      "ley": "constitucion",
+      "articulo": "141.4",
+      "enunciado": "En los archipiélagos, las islas tendrán además su administración propia en forma de:",
+      "opciones": [
+        "Diputaciones insulares",
+        "Mancomunidades insulares",
+        "Cabildos o Consejos",
+        "Comarcas o Juntas"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 141.4 establece: «En los archipiélagos, las islas tendrán además su administración propia en forma de Cabildos o Consejos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-006",
+      "ley": "constitucion",
+      "articulo": "142",
+      "enunciado": "Las Haciendas locales se nutrirán fundamentalmente de:",
+      "opciones": [
+        "Tributos propios y participación en los del Estado y de las Comunidades Autónomas",
+        "Transferencias del Fondo de Compensación interterritorial",
+        "Operaciones de crédito y rendimientos de su patrimonio",
+        "Recargos sobre impuestos estatales y asignaciones presupuestarias"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 142, las Haciendas locales «se nutrirán fundamentalmente de tributos propios y de participación en los del Estado y de las Comunidades Autónomas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-007",
+      "ley": "constitucion",
+      "articulo": "143.2",
+      "enunciado": "Los requisitos de la iniciativa del proceso autonómico del artículo 143.2 deben cumplirse en el plazo de:",
+      "opciones": [
+        "Tres meses desde el primer acuerdo de alguna Corporación local interesada",
+        "Un año desde el primer acuerdo de alguna Corporación local interesada",
+        "Dos meses desde el primer acuerdo de alguna Corporación local interesada",
+        "Seis meses desde el primer acuerdo de alguna Corporación local interesada"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 143.2 dice: «Estos requisitos deberán ser cumplidos en el plazo de seis meses desde el primer acuerdo adoptado al respecto por alguna de las Corporaciones locales interesadas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-008",
+      "ley": "constitucion",
+      "articulo": "143.3",
+      "enunciado": "Si la iniciativa del proceso autonómico no prospera, solamente podrá reiterarse pasados:",
+      "opciones": [
+        "Tres años",
+        "Cinco años",
+        "Dos años",
+        "Cuatro años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 143.3 establece: «La iniciativa, en caso de no prosperar, solamente podrá reiterarse pasados cinco años».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-009",
+      "ley": "constitucion",
+      "articulo": "143.2",
+      "enunciado": "Junto a las Diputaciones interesadas, la iniciativa autonómica del artículo 143.2 corresponde a:",
+      "opciones": [
+        "Las tres cuartas partes de los municipios con, al menos, la mayoría del censo de cada provincia",
+        "Las dos terceras partes de los municipios con, al menos, la mayoría del censo de cada provincia",
+        "La mitad de los municipios con, al menos, dos tercios del censo de cada provincia",
+        "La mayoría absoluta de los municipios de cada provincia o isla"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 143.2, la iniciativa corresponde a las Diputaciones u órgano interinsular «y a las dos terceras partes de los municipios cuya población represente, al menos, la mayoría del censo electoral de cada provincia o isla».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-010",
+      "ley": "constitucion",
+      "articulo": "144",
+      "enunciado": "Las Cortes Generales pueden, mediante ley orgánica, autorizar las actuaciones del artículo 144 por motivos de:",
+      "opciones": [
+        "Interés general",
+        "Solidaridad interterritorial",
+        "Urgente necesidad",
+        "Interés nacional"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 144 dice: «Las Cortes Generales, mediante ley orgánica, podrán, por motivos de interés nacional: […]».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-011",
+      "ley": "constitucion",
+      "articulo": "145.1",
+      "enunciado": "Según el artículo 145 de la Constitución, en ningún caso se admitirá:",
+      "opciones": [
+        "La federación de Comunidades Autónomas",
+        "La celebración de convenios entre Comunidades Autónomas",
+        "La cooperación entre Comunidades Autónomas",
+        "La agrupación de municipios limítrofes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 145.1 establece: «En ningún caso se admitirá la federación de Comunidades Autónomas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-012",
+      "ley": "constitucion",
+      "articulo": "145.2",
+      "enunciado": "Fuera de los convenios previstos en los Estatutos, los acuerdos de cooperación entre Comunidades Autónomas necesitan:",
+      "opciones": [
+        "La autorización del Gobierno",
+        "La simple comunicación a las Cortes Generales",
+        "La autorización de las Cortes Generales",
+        "El dictamen previo del Consejo de Estado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 145.2 dice: «En los demás supuestos, los acuerdos de cooperación entre las Comunidades Autónomas necesitarán la autorización de las Cortes Generales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-013",
+      "ley": "constitucion",
+      "articulo": "146",
+      "enunciado": "Según el artículo 146, el proyecto de Estatuto será elaborado por una asamblea compuesta por:",
+      "opciones": [
+        "Los Alcaldes de los municipios afectados y los Diputados elegidos en esas provincias",
+        "Solo los Diputados y Senadores elegidos en las provincias afectadas",
+        "Miembros de las Diputaciones y representantes designados por el Gobierno",
+        "Miembros de la Diputación u órgano interinsular y los Diputados y Senadores elegidos en esas provincias"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 146 dispone que el proyecto de Estatuto «será elaborado por una asamblea compuesta por los miembros de la Diputación u órgano interinsular de las provincias afectadas y por los Diputados y Senadores elegidos en ellas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-014",
+      "ley": "constitucion",
+      "articulo": "147.1",
+      "enunciado": "Dentro de los términos de la Constitución, los Estatutos son:",
+      "opciones": [
+        "La ley suprema de cada Comunidad Autónoma",
+        "La norma institucional básica de cada Comunidad Autónoma",
+        "Una norma reglamentaria del Estado",
+        "Un tratado entre el Estado y cada Comunidad"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 147.1 dice que «los Estatutos serán la norma institucional básica de cada Comunidad Autónoma».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-015",
+      "ley": "constitucion",
+      "articulo": "147.3",
+      "enunciado": "La reforma de los Estatutos de autonomía requerirá, en todo caso:",
+      "opciones": [
+        "La aprobación por las Cortes Generales, mediante ley orgánica",
+        "La aprobación por el Congreso, por mayoría simple",
+        "La ratificación por referéndum en todo el Estado",
+        "La aprobación por el Senado, por mayoría absoluta"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 147.3 establece que la reforma de los Estatutos «requerirá, en todo caso, la aprobación por las Cortes Generales, mediante ley orgánica».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-016",
+      "ley": "constitucion",
+      "articulo": "154",
+      "enunciado": "¿Quién dirige la Administración del Estado en el territorio de la Comunidad Autónoma?",
+      "opciones": [
+        "El Presidente de la Comunidad Autónoma",
+        "Un Subdelegado nombrado por el Rey",
+        "Un Delegado nombrado por el Gobierno",
+        "El Consejo de Gobierno de la Comunidad"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 154 dice: «Un Delegado nombrado por el Gobierno dirigirá la Administración del Estado en el territorio de la Comunidad Autónoma».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-017",
+      "ley": "constitucion",
+      "articulo": "148.1.12",
+      "enunciado": "¿Cuál de estas materias pueden asumir las Comunidades Autónomas según el artículo 148.1?",
+      "opciones": [
+        "Comercio exterior",
+        "Régimen aduanero y arancelario",
+        "Ferias interiores",
+        "Sistema monetario"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 148.1 incluye entre las materias que pueden asumir las Comunidades Autónomas las «Ferias interiores» (12.ª).",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-018",
+      "ley": "constitucion",
+      "articulo": "149.1.32",
+      "enunciado": "Es competencia exclusiva del Estado según el artículo 149.1:",
+      "opciones": [
+        "La autorización para la convocatoria de consultas populares por vía de referéndum",
+        "La promoción del deporte y de la adecuada utilización del ocio",
+        "La promoción y ordenación del turismo en su ámbito territorial",
+        "La artesanía"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 149.1.32.ª atribuye al Estado la «Autorización para la convocatoria de consultas populares por vía de referéndum».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-019",
+      "ley": "constitucion",
+      "articulo": "149.3",
+      "enunciado": "Según el artículo 149.3, el derecho estatal será, en todo caso, respecto del derecho de las Comunidades Autónomas:",
+      "opciones": [
+        "Preferente",
+        "Complementario",
+        "Subordinado",
+        "Supletorio"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 149.3 establece: «El derecho estatal será, en todo caso, supletorio del derecho de las Comunidades Autónomas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-020",
+      "ley": "constitucion",
+      "articulo": "149.3",
+      "enunciado": "La competencia sobre las materias que no se hayan asumido por los Estatutos de Autonomía corresponderá:",
+      "opciones": [
+        "A las Comunidades Autónomas",
+        "Al Estado",
+        "A las Cortes Generales mediante ley marco",
+        "A las Corporaciones locales"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 149.3 dice: «La competencia sobre las materias que no se hayan asumido por los Estatutos de Autonomía corresponderá al Estado».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-021",
+      "ley": "constitucion",
+      "articulo": "150.3",
+      "enunciado": "La necesidad de dictar leyes de armonización la aprecian las Cortes Generales por:",
+      "opciones": [
+        "Mayoría simple de cada Cámara",
+        "Mayoría absoluta de cada Cámara",
+        "Mayoría de tres quintos de cada Cámara",
+        "Mayoría absoluta del Congreso"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 150.3 dice: «Corresponde a las Cortes Generales, por mayoría absoluta de cada Cámara, la apreciación de esta necesidad».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-022",
+      "ley": "constitucion",
+      "articulo": "150.2",
+      "enunciado": "El Estado podrá transferir o delegar en las Comunidades Autónomas facultades de titularidad estatal mediante:",
+      "opciones": [
+        "Ley marco",
+        "Ley de armonización",
+        "Real decreto legislativo",
+        "Ley orgánica"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 150.2 dispone: «El Estado podrá transferir o delegar en las Comunidades Autónomas, mediante ley orgánica, facultades correspondientes a materia de titularidad estatal […]».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-023",
+      "ley": "constitucion",
+      "articulo": "151.1",
+      "enunciado": "En la vía del artículo 151.1, además de las Diputaciones, la iniciativa debe acordarse por los municipios de cada provincia en proporción de:",
+      "opciones": [
+        "Tres cuartas partes",
+        "Dos terceras partes",
+        "Tres quintas partes",
+        "La mayoría absoluta"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 151.1 exige que la iniciativa se acuerde, además de por las Diputaciones, «por las tres cuartas partes de los municipios de cada una de las provincias afectadas».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-024",
+      "ley": "constitucion",
+      "articulo": "151.2",
+      "enunciado": "En el procedimiento del artículo 151.2, la Comisión Constitucional del Congreso examina el proyecto de Estatuto en el plazo de:",
+      "opciones": [
+        "Un mes",
+        "Tres meses",
+        "Dos meses",
+        "Seis meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 151.2.2.º dice que el proyecto se remitirá a la Comisión Constitucional del Congreso, «la cual, dentro del plazo de dos meses, lo examinará».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-025",
+      "ley": "constitucion",
+      "articulo": "152.1",
+      "enunciado": "En las Comunidades del artículo 152.1, el Presidente es elegido por la Asamblea, de entre sus miembros, y nombrado por:",
+      "opciones": [
+        "El Rey",
+        "El Presidente del Gobierno",
+        "El Presidente del Congreso",
+        "El Consejo de Gobierno"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 152.1 prevé «un Presidente, elegido por la Asamblea, de entre sus miembros, y nombrado por el Rey».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-026",
+      "ley": "constitucion",
+      "articulo": "152.1",
+      "enunciado": "¿Qué órgano culmina la organización judicial en el ámbito territorial de la Comunidad Autónoma?",
+      "opciones": [
+        "La Audiencia Nacional",
+        "Un Tribunal Superior de Justicia",
+        "Una Audiencia Provincial",
+        "El Consejo de Justicia autonómico"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 152.1 dice: «Un Tribunal Superior de Justicia, sin perjuicio de la jurisdicción que corresponde al Tribunal Supremo, culminará la organización judicial en el ámbito territorial de la Comunidad Autónoma».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-027",
+      "ley": "constitucion",
+      "articulo": "153.b",
+      "enunciado": "El control del ejercicio de funciones delegadas a las Comunidades Autónomas según el artículo 150.2 lo ejerce:",
+      "opciones": [
+        "El Tribunal Constitucional",
+        "La jurisdicción contencioso-administrativa",
+        "El Senado, previo informe del Gobierno",
+        "El Gobierno, previo dictamen del Consejo de Estado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 153.b) atribuye ese control «Por el Gobierno, previo dictamen del Consejo de Estado, el del ejercicio de funciones delegadas a que se refiere el apartado 2 del artículo 150».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-028",
+      "ley": "constitucion",
+      "articulo": "153.d",
+      "enunciado": "El control económico y presupuestario de la actividad de los órganos de las Comunidades Autónomas corresponde:",
+      "opciones": [
+        "Al Tribunal Constitucional",
+        "A la jurisdicción contencioso-administrativa",
+        "Al Tribunal de Cuentas",
+        "Al Gobierno, previo dictamen del Consejo de Estado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 153.d) dice que ese control se ejercerá «Por el Tribunal de Cuentas, el económico y presupuestario».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-029",
+      "ley": "constitucion",
+      "articulo": "155.1",
+      "enunciado": "Para adoptar las medidas del artículo 155, si el requerimiento no es atendido, el Gobierno necesita la aprobación:",
+      "opciones": [
+        "Por mayoría absoluta del Congreso",
+        "Por mayoría simple de ambas Cámaras",
+        "Por mayoría de tres quintos del Senado",
+        "Por mayoría absoluta del Senado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 155.1 exige, en el caso de no ser atendido el requerimiento, «la aprobación por mayoría absoluta del Senado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    },
+    {
+      "id": "terr-030",
+      "ley": "constitucion",
+      "articulo": "158.2",
+      "enunciado": "El Fondo de Compensación previsto en el artículo 158.2 tiene como destino:",
+      "opciones": [
+        "Gastos de inversión",
+        "Gastos corrientes",
+        "Servicios públicos fundamentales",
+        "Gastos de personal"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 158.2 dispone que «se constituirá un Fondo de Compensación con destino a gastos de inversión».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 9
+      }
+    }
+  ]
+}
