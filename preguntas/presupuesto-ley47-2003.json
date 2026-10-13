@@ -1,0 +1,605 @@
+{
+  "descripcion": "Ley 47/2003, General Presupuestaria: programación, contenido, elaboración y estructura de los PGE, modificaciones de crédito y fases del gasto (arts. 26-74). Lote generado el 2026-10-13; citas contra el texto consolidado del BOE (versión 2026-09-30).",
+  "preguntas": [
+    {
+      "id": "lgp-001",
+      "ley": "ley-47-2003",
+      "articulo": "26.1",
+      "enunciado": "¿Cuál de los siguientes es un principio de la programación presupuestaria según la Ley General Presupuestaria?",
+      "opciones": [
+        "Plurianualidad",
+        "Unidad de caja",
+        "Centralización",
+        "Jerarquía normativa"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 26.1 dispone que la programación presupuestaria se regirá por los principios de «estabilidad presupuestaria, sostenibilidad financiera, plurianualidad, transparencia, eficiencia en la asignación y utilización de los recursos públicos, responsabilidad y lealtad institucional».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-002",
+      "ley": "ley-47-2003",
+      "articulo": "28.1",
+      "enunciado": "Los escenarios presupuestarios plurianuales determinan los límites que debe respetar la acción de gobierno, referidos a:",
+      "opciones": [
+        "Los dos ejercicios siguientes",
+        "Los cuatro ejercicios siguientes",
+        "Los tres ejercicios siguientes",
+        "Los cinco ejercicios siguientes"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 28.1 establece que los escenarios presupuestarios plurianuales «determinarán los límites, referidos a los tres ejercicios siguientes, que la acción de gobierno debe respetar».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-003",
+      "ley": "ley-47-2003",
+      "articulo": "32",
+      "enunciado": "Los Presupuestos Generales del Estado constituyen la expresión cifrada, conjunta y sistemática de:",
+      "opciones": [
+        "Los ingresos y gastos previstos para los tres ejercicios siguientes",
+        "Los derechos y obligaciones a liquidar durante el ejercicio",
+        "Los objetivos de estabilidad de todas las Administraciones públicas",
+        "Las operaciones financieras de las entidades del sector empresarial"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 32, los Presupuestos Generales del Estado constituyen «la expresión cifrada, conjunta y sistemática de los derechos y obligaciones a liquidar durante el ejercicio».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-004",
+      "ley": "ley-47-2003",
+      "articulo": "34.1.b",
+      "enunciado": "Al ejercicio presupuestario se imputan las obligaciones económicas reconocidas, por gastos realizados dentro del ejercicio, hasta:",
+      "opciones": [
+        "El fin del mes de noviembre",
+        "El 31 de enero del año siguiente",
+        "El 31 de marzo del año siguiente",
+        "El fin del mes de diciembre"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 34.1.b) imputa al ejercicio «las obligaciones económicas reconocidas hasta el fin del mes de diciembre, siempre que correspondan a adquisiciones, obras, servicios, prestaciones o, en general, gastos realizados dentro del ejercicio».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-005",
+      "ley": "ley-47-2003",
+      "articulo": "36.2",
+      "enunciado": "Para determinar las directrices de distribución del gasto en la elaboración de los Presupuestos se constituirá:",
+      "opciones": [
+        "El Consejo de Política Fiscal y Financiera",
+        "La Comisión General de Secretarios de Estado y Subsecretarios",
+        "La Comisión de Políticas de Gasto",
+        "La Comisión de Presupuestos del Congreso"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 36.2, norma primera, tras regular las directrices para la distribución del gasto, añade: «Con este fin, se constituirá la Comisión de Políticas de Gasto».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-006",
+      "ley": "ley-47-2003",
+      "articulo": "36.2",
+      "enunciado": "En la elaboración de los Presupuestos, las propuestas de presupuesto de gastos se acompañarán, para cada programa, de:",
+      "opciones": [
+        "Su memoria de objetivos anuales fijados",
+        "Un informe del Consejo de Estado",
+        "El estado consolidado de ingresos",
+        "Un informe de impacto de género"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 36.2, norma tercera, dispone que «Las propuestas de presupuesto de gastos se acompañarán, para cada programa, de su correspondiente memoria de objetivos anuales fijados».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-007",
+      "ley": "ley-47-2003",
+      "articulo": "37.1",
+      "enunciado": "El proyecto de Ley de Presupuestos Generales del Estado será remitido a las Cortes Generales antes del:",
+      "opciones": [
+        "1 de septiembre del año anterior al que se refiera",
+        "15 de octubre del año anterior al que se refiera",
+        "1 de noviembre del año anterior al que se refiera",
+        "1 de octubre del año anterior al que se refiera"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 37.1 establece que el proyecto «será remitido a las Cortes Generales antes del día 1 de octubre del año anterior al que se refiera».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-008",
+      "ley": "ley-47-2003",
+      "articulo": "37.2.g",
+      "enunciado": "Junto a la liquidación de los presupuestos del año anterior, al proyecto de Ley de Presupuestos se acompaña:",
+      "opciones": [
+        "La Cuenta General del Estado del ejercicio corriente",
+        "Un avance de la liquidación del ejercicio corriente",
+        "El escenario de ingresos de los tres ejercicios siguientes",
+        "Un avance de la liquidación de los dos ejercicios anteriores"
+      ],
+      "correcta": 1,
+      "explicacion": "Entre la documentación complementaria, el artículo 37.2.g) incluye «La liquidación de los presupuestos del año anterior y un avance de la liquidación del ejercicio corriente».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-009",
+      "ley": "ley-47-2003",
+      "articulo": "38.2",
+      "enunciado": "La prórroga de los Presupuestos Generales del Estado no afectará a los créditos para gastos correspondientes a:",
+      "opciones": [
+        "Gastos de personal de la Administración General del Estado",
+        "Programas o actuaciones que terminen en el ejercicio cuyos presupuestos se prorrogan",
+        "Intereses y amortización de la Deuda Pública",
+        "Pensiones de Clases Pasivas del Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 38.2 dispone que «La prórroga no afectará a los créditos para gastos correspondientes a programas o actuaciones que terminen en el ejercicio cuyos presupuestos se prorrogan o para obligaciones que se extingan en el mismo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-010",
+      "ley": "ley-47-2003",
+      "articulo": "38.3",
+      "enunciado": "En caso de prórroga, la estructura orgánica del presupuesto prorrogado:",
+      "opciones": [
+        "Se mantendrá sin cambios hasta la publicación de los nuevos presupuestos",
+        "Se adaptará a la nueva organización, con el aumento de cuantía que sea preciso",
+        "Se adaptará, sin alteración de la cuantía total, a la organización administrativa en vigor",
+        "Solo podrá adaptarse mediante ley aprobada por las Cortes Generales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 38.3 establece que «La estructura orgánica del presupuesto prorrogado se adaptará, sin alteración de la cuantía total, a la organización administrativa en vigor en el ejercicio en que el presupuesto deba ejecutarse».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-011",
+      "ley": "ley-47-2003",
+      "articulo": "40.1.a",
+      "enunciado": "En los estados de gastos, la clasificación orgánica agrupa los créditos por:",
+      "opciones": [
+        "Secciones y servicios",
+        "Capítulos, artículos y conceptos",
+        "Programas y subprogramas",
+        "Políticas de gasto y grupos de programas"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 40.1.a) define «La clasificación orgánica que agrupará por secciones y servicios los créditos asignados a los distintos centros gestores de gasto».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-012",
+      "ley": "ley-47-2003",
+      "articulo": "40.1.c",
+      "enunciado": "En la clasificación económica de los gastos, los capítulos se desglosan en:",
+      "opciones": [
+        "Secciones, y estas en servicios divisibles en programas",
+        "Programas, y estos en subprogramas divisibles en proyectos",
+        "Partidas, y estas en subpartidas divisibles en conceptos",
+        "Artículos, y estos en conceptos divisibles en subconceptos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 40.1.c) dispone: «Los capítulos se desglosarán en artículos y estos, a su vez, en conceptos que podrán dividirse en subconceptos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-013",
+      "ley": "ley-47-2003",
+      "articulo": "40.1.c",
+      "enunciado": "En la clasificación económica de los gastos, dentro de los créditos para operaciones de capital se distinguen:",
+      "opciones": [
+        "Los gastos de personal y las inversiones reales",
+        "Los activos financieros y los pasivos financieros",
+        "Los gastos financieros y las transferencias de capital",
+        "Las inversiones reales y las transferencias de capital"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 40.1.c) señala: «En los créditos para operaciones de capital se distinguirán las inversiones reales y las transferencias de capital».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-014",
+      "ley": "ley-47-2003",
+      "articulo": "40.2",
+      "enunciado": "Para disponer de una clasificación funcional del gasto, los créditos se identificarán de acuerdo con:",
+      "opciones": [
+        "El centro gestor que tenga atribuida su ejecución",
+        "Su finalidad, deducida del programa en que aparezcan",
+        "Su naturaleza económica, deducida del capítulo",
+        "La fuente de financiación de la que procedan"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 40.2 dispone que «los créditos se identificarán funcionalmente de acuerdo con su finalidad, deducida del programa en que aparezcan o, excepcionalmente, de su propia naturaleza».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-015",
+      "ley": "ley-47-2003",
+      "articulo": "41",
+      "enunciado": "Los estados de ingresos de los Presupuestos Generales del Estado se estructuran siguiendo las clasificaciones:",
+      "opciones": [
+        "Orgánica, por programas y económica",
+        "Por programas y económica",
+        "Orgánica y económica",
+        "Funcional y económica"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 41 establece que los estados de ingresos «se estructurarán siguiendo las clasificaciones orgánica y económica».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-016",
+      "ley": "ley-47-2003",
+      "articulo": "51",
+      "enunciado": "¿Cuál de las siguientes NO figura entre las modificaciones de crédito previstas en la Ley General Presupuestaria?",
+      "opciones": [
+        "Los anticipos de caja fija",
+        "Las generaciones",
+        "Las incorporaciones",
+        "Las ampliaciones"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 51 permite modificar los créditos «mediante: a) Transferencias. b) Generaciones. c) Ampliaciones. d) Créditos extraordinarios y suplementos de crédito. e) Incorporaciones.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-017",
+      "ley": "ley-47-2003",
+      "articulo": "52.1.a",
+      "enunciado": "Las transferencias de crédito NO podrán realizarse:",
+      "opciones": [
+        "Desde créditos para operaciones corrientes a créditos para operaciones de capital",
+        "Entre créditos de una misma sección presupuestaria",
+        "Desde créditos para operaciones de capital a créditos para operaciones corrientes",
+        "Con la creación de créditos nuevos"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 52.1 permite las transferencias «incluso con la creación de créditos nuevos», pero «No podrán realizarse desde créditos para operaciones financieras al resto de los créditos, ni desde créditos para operaciones de capital a créditos para operaciones corrientes».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-018",
+      "ley": "ley-47-2003",
+      "articulo": "52.1.c",
+      "enunciado": "Con carácter general, las transferencias de crédito no podrán minorar:",
+      "opciones": [
+        "Créditos destinados a gastos de personal",
+        "Créditos para operaciones corrientes en bienes y servicios",
+        "Créditos incluidos en el programa de imprevistos",
+        "Créditos extraordinarios o que se hayan suplementado o ampliado en el ejercicio"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 52.1.c) establece que las transferencias «No minorarán créditos extraordinarios o créditos que se hayan suplementado o ampliado en el ejercicio».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-019",
+      "ley": "ley-47-2003",
+      "articulo": "53.1",
+      "enunciado": "Las generaciones de crédito son modificaciones que incrementan los créditos como consecuencia de:",
+      "opciones": [
+        "Ingresos no previstos o superiores a los contemplados en el presupuesto inicial",
+        "La incorporación de remanentes de crédito del ejercicio anterior",
+        "El traspaso de dotaciones entre créditos de distintos programas",
+        "Obligaciones derivadas de normas con rango de ley"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 53.1, «Las generaciones son modificaciones que incrementan los créditos como consecuencia de la realización de determinados ingresos no previstos o superiores a los contemplados en el presupuesto inicial».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-020",
+      "ley": "ley-47-2003",
+      "articulo": "53.5",
+      "enunciado": "Con carácter excepcional, pueden generar crédito en el presupuesto del ejercicio los ingresos realizados en:",
+      "opciones": [
+        "El último mes del ejercicio anterior",
+        "El último trimestre del ejercicio anterior",
+        "El último semestre del ejercicio anterior",
+        "El primer trimestre del ejercicio siguiente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 53.5 dispone: «Con carácter excepcional podrán generar crédito en el Presupuesto del ejercicio los ingresos realizados en el último trimestre del ejercicio anterior».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-021",
+      "ley": "ley-47-2003",
+      "articulo": "54.1",
+      "enunciado": "Excepcionalmente tienen la condición de ampliables, entre otros, los créditos destinados al pago de:",
+      "opciones": [
+        "Subvenciones nominativas",
+        "Pensiones de Clases Pasivas del Estado",
+        "Inversiones reales de los ministerios",
+        "Gastos corrientes en bienes y servicios"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 54.1 dispone que «Excepcionalmente tendrán la condición de ampliables los créditos destinados al pago de pensiones de Clases Pasivas del Estado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-022",
+      "ley": "ley-47-2003",
+      "articulo": "55.1",
+      "enunciado": "Procede tramitar un crédito extraordinario o suplementario cuando el gasto no puede demorarse al ejercicio siguiente y el crédito:",
+      "opciones": [
+        "Existe y es suficiente, pero está en otra sección",
+        "Es insuficiente, pero tiene carácter ampliable",
+        "Es suficiente, aunque el gasto sea urgente",
+        "No existe o es insuficiente y no ampliable"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 55.1 exige que el gasto no pueda demorarse y que «no exista crédito adecuado o sea insuficiente y no ampliable el consignado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-023",
+      "ley": "ley-47-2003",
+      "articulo": "55.3",
+      "enunciado": "El Consejo de Ministros autoriza los créditos extraordinarios y suplementos para obligaciones del ejercicio corriente cuando se financien con cargo:",
+      "opciones": [
+        "A la baja en otros créditos",
+        "A la emisión de Deuda Pública",
+        "Al Fondo de Contingencia",
+        "Al remanente de tesorería del Estado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 55.3 atribuye al Consejo de Ministros autorizar estos créditos para obligaciones del ejercicio corriente «cuando se financien con cargo al Fondo de Contingencia»; si se financian con baja en otros créditos, el artículo 55.2.b) exige proyecto de ley.",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-024",
+      "ley": "ley-47-2003",
+      "articulo": "58.d",
+      "enunciado": "Pueden incorporarse los remanentes de créditos extraordinarios y suplementos concedidos mediante norma con rango de ley en:",
+      "opciones": [
+        "El último mes del ejercicio presupuestario anterior",
+        "El último trimestre del ejercicio presupuestario anterior",
+        "El último semestre del ejercicio presupuestario anterior",
+        "Los dos últimos meses del ejercicio presupuestario anterior"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 58.d) permite incorporar los remanentes que «resulten de créditos extraordinarios y suplementos de crédito que hayan sido concedidos mediante norma con rango de ley en el último mes del ejercicio presupuestario anterior».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-025",
+      "ley": "ley-47-2003",
+      "articulo": "60.1",
+      "enunciado": "Los anticipos de Tesorería tienen como límite máximo en cada ejercicio:",
+      "opciones": [
+        "El dos por ciento de los créditos autorizados al Estado",
+        "El cinco por ciento de los créditos autorizados al Estado",
+        "El medio por ciento de los créditos autorizados al Estado",
+        "El uno por ciento de los créditos autorizados al Estado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 60.1 permite conceder anticipos de Tesorería «con el límite máximo en cada ejercicio del uno por ciento de los créditos autorizados al Estado por la Ley de Presupuestos Generales del Estado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-026",
+      "ley": "ley-47-2003",
+      "articulo": "73.1",
+      "enunciado": "En la gestión del presupuesto de gastos, la fase que sigue inmediatamente al compromiso de gasto es:",
+      "opciones": [
+        "El reconocimiento de la obligación",
+        "La aprobación del gasto",
+        "La ordenación del pago",
+        "El pago material"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 73.1 enumera las fases en este orden: «a) Aprobación del gasto. b) Compromiso de gasto. c) Reconocimiento de la obligación. d) Ordenación del pago. e) Pago material.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-027",
+      "ley": "ley-47-2003",
+      "articulo": "73.2",
+      "enunciado": "¿Qué fase inicia el procedimiento de ejecución del gasto sin implicar relaciones con terceros ajenos a la Hacienda Pública?",
+      "opciones": [
+        "El compromiso de gasto",
+        "La aprobación del gasto",
+        "El reconocimiento de la obligación",
+        "La ordenación del pago"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 73.2 dispone: «La aprobación inicia el procedimiento de ejecución del gasto, sin que implique relaciones con terceros ajenos a la Hacienda Pública estatal o a la Seguridad Social».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-028",
+      "ley": "ley-47-2003",
+      "articulo": "73.4",
+      "enunciado": "El acto mediante el que se declara la existencia de un crédito exigible contra la Hacienda Pública estatal es:",
+      "opciones": [
+        "El compromiso de gasto",
+        "La aprobación del gasto",
+        "El reconocimiento de la obligación",
+        "El pago material"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 73.4, «El reconocimiento de la obligación es el acto mediante el que se declara la existencia de un crédito exigible contra la Hacienda Pública estatal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-029",
+      "ley": "ley-47-2003",
+      "articulo": "74.1",
+      "enunciado": "Salvo los casos reservados al Consejo de Ministros, aprobar y comprometer los gastos propios del presupuesto de un ministerio corresponde:",
+      "opciones": [
+        "Al Ministro",
+        "Al Ordenador general de pagos del Estado",
+        "Al Interventor Delegado del ministerio",
+        "Al Consejo de Ministros en todo caso"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 74.1 dispone que «Corresponde a los Ministros y a los titulares de los demás órganos del Estado con dotaciones diferenciadas […] aprobar y comprometer los gastos propios de sus presupuestos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    },
+    {
+      "id": "lgp-030",
+      "ley": "ley-47-2003",
+      "articulo": "74.5",
+      "enunciado": "Los órganos competentes para suscribir convenios necesitarán autorización del Consejo de Ministros cuando el gasto derivado sea superior a:",
+      "opciones": [
+        "Seis millones de euros",
+        "Diez millones de euros",
+        "Doce millones de euros",
+        "Quince millones de euros"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 74.5 exige autorización del Consejo de Ministros «cuando el importe del gasto que de aquellos se derive sea superior a doce millones de euros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 15
+      }
+    }
+  ]
+}

@@ -64,6 +64,7 @@ Ninguna por ahora.
 - **pd-019** y **pd-020**: corregida la referencia (12.2 → 12.1 y 12.4 → 12.7).
 - **trebep-conducta-acceso** (30, temas 13 y 14): revisado y `validada`.
 - **transparencia-ley19-2013** (30, tema 7) y **gobierno-ley50-1997-ampliacion** (25, tema 5): revisados y `validada`.
+- **presupuesto-ley47-2003** (30, tema 15) e **informacion-atencion-rd208-rd951** (30, temas 17 y 18): revisados y `validada`. Del RD 208/1996 solo se pregunta por artículos vigentes.
 - Fuentes nuevas, descargadas con `python3 scripts/descargar_boe.py`: Ley 19/2013, Ley 47/2003,
   RD 208/1996, RD 203/2021, RD 951/2005, Ley 7/1985 (Bases de Régimen Local) y LO 6/1985 (Poder
   Judicial). Sirven para los temas 4, 6, 7, 9, 15, 17, 18, 19 y 20.

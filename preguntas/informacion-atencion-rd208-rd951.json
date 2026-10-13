@@ -1,0 +1,605 @@
+{
+  "descripcion": "RD 208/1996 (información administrativa y atención al ciudadano) y RD 951/2005 (cartas de servicios, quejas y sugerencias, calidad). Lote generado el 2026-10-13 a partir del texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "inf-001",
+      "ley": "rd-208-1996",
+      "articulo": "2.2",
+      "enunciado": "Según el RD 208/1996, la información administrativa general se facilitará a los ciudadanos:",
+      "opciones": [
+        "Solo si acreditan la condición de interesados",
+        "Previa solicitud escrita y motivada",
+        "Obligatoriamente, sin exigir acreditación de legitimación alguna",
+        "Solo a través de sus representantes legales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 2.2 dispone: «La información general se facilitará obligatoriamente a los ciudadanos, sin exigir para ello la acreditación de legitimación alguna».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-14",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-002",
+      "ley": "rd-208-1996",
+      "articulo": "3.1",
+      "enunciado": "La información particular sobre el estado de los procedimientos en tramitación solo puede facilitarse a:",
+      "opciones": [
+        "Los interesados en cada procedimiento o sus representantes legales",
+        "Cualquier ciudadano que la solicite",
+        "Los grupos sociales o instituciones interesados",
+        "Los empleados públicos de la unidad tramitadora"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 3.1, «Esta información sólo podrá ser facilitada a las personas que tengan la condición de interesados en cada procedimiento o a sus representantes legales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-14",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-003",
+      "ley": "rd-208-1996",
+      "articulo": "2.1",
+      "enunciado": "¿Cuál de estas informaciones es información general según el RD 208/1996?",
+      "opciones": [
+        "La concerniente al estado de un procedimiento en tramitación",
+        "La relativa a la localización de organismos y unidades administrativas",
+        "La identificación del personal que tramita un procedimiento concreto",
+        "La referida a datos personales que afectan a la intimidad"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 2.1 define la información general como la «relativa a la identificación, fines, competencia, estructura, funcionamiento y localización de organismos y unidades administrativas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-14",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-004",
+      "ley": "rd-208-1996",
+      "articulo": "3.3",
+      "enunciado": "Según el RD 208/1996, ¿quién aporta la información particular?",
+      "opciones": [
+        "El Centro de Información Administrativa",
+        "Las oficinas de información y atención al ciudadano",
+        "Las unidades departamentales de información administrativa",
+        "Las unidades de gestión de la Administración General del Estado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 3.3 establece: «Esta información será aportada por las unidades de gestión de la Administración General del Estado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-14",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-005",
+      "ley": "rd-208-1996",
+      "articulo": "4.b",
+      "enunciado": "La función de orientación e información al ciudadano en ningún caso podrá entrañar:",
+      "opciones": [
+        "Una interpretación normativa",
+        "Una simple determinación de conceptos",
+        "Información de opciones legales",
+        "Colaboración en la cumplimentación de impresos"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 4.b) indica que «en ningún caso podrá entrañar una interpretación normativa […] ni consideración jurídica o económica, sino una simple determinación de conceptos, información de opciones legales o colaboración en la cumplimentación de impresos o solicitudes».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-14",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "inf-006",
+      "ley": "rd-208-1996",
+      "articulo": "4.a",
+      "enunciado": "¿Qué función facilita al ciudadano, al inicio de su visita, la localización de dependencias y funcionarios?",
+      "opciones": [
+        "La de orientación e información",
+        "La de gestión",
+        "La de asistencia en el derecho de petición",
+        "La de recepción y acogida"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 4.a) recoge la función «De recepción y acogida a los ciudadanos, al objeto de facilitarles la orientación y ayuda que precisen en el momento inicial de su visita, y, en particular, la relativa a la localización de dependencias y funcionarios».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-14",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 17
+      }
+    },
+    {
+      "id": "inf-007",
+      "ley": "rd-208-1996",
+      "articulo": "4.f",
+      "enunciado": "El RD 208/1996 incluye la asistencia en el ejercicio del derecho de petición, reconocido por los artículos de la Constitución:",
+      "opciones": [
+        "23 y 77",
+        "29 y 77",
+        "29 y 105",
+        "24 y 29"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 4.f) se refiere a la asistencia «en el ejercicio del derecho de petición, reconocido por los artículos 29 y 77 de la Constitución».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-14",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-008",
+      "ley": "rd-208-1996",
+      "articulo": "4.f",
+      "enunciado": "Si una unidad de información recibe una petición en la que no figura el destinatario, debe:",
+      "opciones": [
+        "Elevarla a los órganos competentes",
+        "Devolverla al peticionario para que la subsane",
+        "Archivarla sin más trámite",
+        "Remitirla al Defensor del Pueblo"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 4.f), «estas unidades deberán elevar a los órganos competentes las peticiones que reciban, en las que no figure el destinatario o conste erróneamente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-14",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-009",
+      "ley": "rd-208-1996",
+      "articulo": "4.c",
+      "enunciado": "La función de gestión incluye la resolución de las cuestiones cuya:",
+      "opciones": [
+        "Cuantía no supere el límite fijado reglamentariamente",
+        "Urgencia y simplicidad demanden una respuesta inmediata",
+        "Complejidad aconseje una atención personalizada",
+        "Naturaleza no requiera un informe jurídico previo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 4.c) incluye «las actuaciones de trámite y resolución de las cuestiones cuya urgencia y simplicidad demanden una respuesta inmediata».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-14",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-010",
+      "ley": "rd-208-1996",
+      "articulo": "4.d",
+      "enunciado": "Según el RD 208/1996, las iniciativas o sugerencias para mejorar la calidad de los servicios pueden formularlas:",
+      "opciones": [
+        "Solo los ciudadanos",
+        "Los ciudadanos y los propios empleados públicos",
+        "Solo los interesados en un procedimiento",
+        "Solo los empleados públicos"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 4.d) habla de las «iniciativas o sugerencias formuladas por los ciudadanos, o por los propios empleados públicos para mejorar la calidad de los servicios».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-14",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-011",
+      "ley": "rd-208-1996",
+      "articulo": "5.1",
+      "enunciado": "¿Quién ostenta la jefatura de la unidad departamental de información administrativa de cada Ministerio?",
+      "opciones": [
+        "El Subsecretario del Departamento",
+        "El Secretario General Técnico",
+        "El Inspector General de Servicios",
+        "El titular de la Subdirección General competente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 5.1 dispone que «el titular de la Subdirección General que tenga encomendada la competencia sobre la información administrativa ostentará la jefatura de la unidad departamental de información administrativa».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-14",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-012",
+      "ley": "rd-208-1996",
+      "articulo": "8.a",
+      "enunciado": "Las oficinas centrales de información y atención al ciudadano radicarán, salvo circunstancias singulares:",
+      "opciones": [
+        "En las Delegaciones del Gobierno",
+        "En cada capital de provincia",
+        "En la sede de cada Departamento ministerial",
+        "En el Centro de Información Administrativa"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 8.a) señala que las oficinas centrales «radicarán en la sede de cada Departamento ministerial, salvo que circunstancias singulares aconsejen otro emplazamiento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-14",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-013",
+      "ley": "rd-208-1996",
+      "articulo": "10",
+      "enunciado": "¿Mediante qué instrumento pueden varias Administraciones crear oficinas integradas de información?",
+      "opciones": [
+        "Real decreto",
+        "Orden ministerial",
+        "Acuerdo del Consejo de Ministros",
+        "Convenio de colaboración"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 10 prevé que «Mediante convenio de colaboración, suscrito por distintas Administraciones públicas» pueda acordarse «la creación de oficinas integradas de información con participación de varias Administraciones públicas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-14",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-014",
+      "ley": "rd-208-1996",
+      "articulo": "6.2.b",
+      "enunciado": "El sistema de información al ciudadano que sostiene el Centro de Información Administrativa es eminentemente:",
+      "opciones": [
+        "Presencial",
+        "Telefónico",
+        "Postal",
+        "Telemático"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 6.2.b) le encarga «Sostener un sistema de información administrativa al ciudadano, eminentemente telefónico».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-14",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-015",
+      "ley": "rd-208-1996",
+      "articulo": "1",
+      "enunciado": "Según el RD 208/1996, la información encomendada a las unidades y oficinas de información podrá ser:",
+      "opciones": [
+        "Ordinaria o extraordinaria",
+        "Presencial o a distancia",
+        "Pública o reservada",
+        "General o particular"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 1 establece que esa información «podrá ser general o particular».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-14",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-016",
+      "ley": "rd-951-2005",
+      "articulo": "3.1",
+      "enunciado": "¿Cuál de los siguientes es uno de los programas del marco general para la mejora de la calidad?",
+      "opciones": [
+        "Programa de simplificación administrativa",
+        "Programa de atención presencial",
+        "Programa de transparencia activa",
+        "Programa de reconocimiento"
+      ],
+      "correcta": 3,
+      "explicacion": "Entre los programas que enumera el artículo 3.1 figura el «e) Programa de reconocimiento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-017",
+      "ley": "rd-951-2005",
+      "articulo": "4",
+      "enunciado": "Además de a la AGE y sus organismos autónomos, el RD 951/2005 se aplica a:",
+      "opciones": [
+        "Las Administraciones de las comunidades autónomas",
+        "Las entidades que integran la Administración local",
+        "Las Entidades Gestoras y Servicios Comunes de la Seguridad Social",
+        "Las universidades públicas"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 4 dispone que se aplica «a la Administración General del Estado, a sus organismos autónomos y a las Entidades Gestoras y Servicios Comunes de la Seguridad Social».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-018",
+      "ley": "rd-951-2005",
+      "articulo": "8.1",
+      "enunciado": "Las cartas de servicios informan a los ciudadanos sobre los servicios encomendados, sus derechos y:",
+      "opciones": [
+        "Los compromisos de calidad en su prestación",
+        "El régimen sancionador aplicable",
+        "Los recursos administrativos procedentes",
+        "Las tasas exigibles por cada servicio"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 8.1 dice que informan «sobre los servicios que tienen encomendados, sobre los derechos que les asisten en relación con aquellos y sobre los compromisos de calidad en su prestación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-019",
+      "ley": "rd-951-2005",
+      "articulo": "10.4",
+      "enunciado": "Las cartas de servicios se actualizarán, en cualquier caso, al menos cada:",
+      "opciones": [
+        "Año",
+        "Dos años",
+        "Tres años",
+        "Cinco años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 10.4 establece: «Las cartas se actualizarán periódicamente en función de las circunstancias y, en cualquier caso, al menos cada tres años».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-020",
+      "ley": "rd-951-2005",
+      "articulo": "11.1",
+      "enunciado": "Las cartas de servicios y sus actualizaciones se aprueban mediante resolución:",
+      "opciones": [
+        "Del Ministro del departamento",
+        "Del titular del órgano que la elabora",
+        "De la Inspección General de Servicios",
+        "Del Subsecretario del departamento"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 11.1, «serán aprobadas mediante resolución del Subsecretario del departamento al que pertenezca el órgano o esté vinculado o adscrito el organismo proponente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-021",
+      "ley": "rd-951-2005",
+      "articulo": "11.2",
+      "enunciado": "La resolución que aprueba una carta de servicios:",
+      "opciones": [
+        "Se notifica solo a las unidades afectadas",
+        "Se publica únicamente en la sede electrónica",
+        "Se publica en el «Boletín Oficial del Estado»",
+        "No requiere publicación"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 11.2, la resolución se publicará en el Boletín Oficial del Estado, «lo que dará cuenta de la aprobación de la carta y de su disponibilidad para el público».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-022",
+      "ley": "rd-951-2005",
+      "articulo": "9.c",
+      "enunciado": "Las reclamaciones por incumplimiento de los compromisos de una carta de servicios:",
+      "opciones": [
+        "Dan lugar siempre a una compensación económica",
+        "En ningún caso dan lugar a responsabilidad patrimonial",
+        "Tienen la consideración de recurso de alzada",
+        "Las reconoce la Inspección General de Servicios"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 9.c) dice que su reconocimiento «corresponderá al titular del órgano u organismo al que se refiera la carta, y que en ningún caso darán lugar a responsabilidad patrimonial por parte de la Administración».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-023",
+      "ley": "rd-951-2005",
+      "articulo": "12.2",
+      "enunciado": "El informe sobre el grado de cumplimiento de los compromisos de las cartas de servicios se remite:",
+      "opciones": [
+        "En el primer trimestre de cada año",
+        "Dentro del primer semestre de cada año",
+        "En el mes de enero de cada año",
+        "En el último trimestre de cada año"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 12.2 dispone que los órganos y organismos remitirán, «en el primer trimestre de cada año, un informe sobre el grado de cumplimiento de los compromisos en el año anterior».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-024",
+      "ley": "rd-951-2005",
+      "articulo": "15.2",
+      "enunciado": "Las quejas y sugerencias presentadas por correo electrónico o a través de Internet:",
+      "opciones": [
+        "Deben ratificarse después de forma presencial",
+        "No se admiten en ningún caso",
+        "Deben estar suscritas con la firma electrónica del interesado",
+        "Pueden presentarse de forma anónima"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 15.2 establece: «Las quejas y sugerencias presentadas por correo electrónico o a través de Internet deberán estar suscritas con la firma electrónica del interesado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-025",
+      "ley": "rd-951-2005",
+      "articulo": "16.1",
+      "enunciado": "Recibida una queja o sugerencia, la unidad responsable informará al interesado de las actuaciones realizadas en el plazo de:",
+      "opciones": [
+        "20 días hábiles",
+        "10 días hábiles",
+        "15 días hábiles",
+        "Un mes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 16.1 fija que la unidad «informará al interesado de las actuaciones realizadas en el plazo de 20 días hábiles».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-026",
+      "ley": "rd-951-2005",
+      "articulo": "16.2",
+      "enunciado": "Si hay que pedir aclaraciones al autor de una queja, ¿de qué plazo dispone para formularlas?",
+      "opciones": [
+        "10 días hábiles",
+        "5 días hábiles",
+        "15 días hábiles",
+        "20 días hábiles"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 16.2, el plazo se podrá suspender si debe requerirse al interesado para que, «en un plazo de 10 días hábiles, formule las aclaraciones necesarias».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-027",
+      "ley": "rd-951-2005",
+      "articulo": "16.3",
+      "enunciado": "Si el ciudadano no recibe respuesta a su queja en el plazo establecido, podrá dirigirse a:",
+      "opciones": [
+        "El Defensor del Pueblo, como trámite previo obligatorio",
+        "El Subsecretario, mediante recurso de alzada",
+        "La Inspección General de Servicios del departamento",
+        "El órgano que dictó el acto, mediante recurso de reposición"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 16.3 dispone que «el ciudadano podrá dirigirse a la Inspección General de Servicios del departamento correspondiente para conocer los motivos de la falta de contestación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-028",
+      "ley": "rd-951-2005",
+      "articulo": "19",
+      "enunciado": "Las quejas formuladas conforme al RD 951/2005:",
+      "opciones": [
+        "Interrumpen los plazos de los recursos",
+        "No tienen la calificación de recurso administrativo",
+        "Tienen la consideración de recurso de alzada",
+        "Suspenden la ejecución del acto"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 19 establece que las quejas «no tendrán, en ningún caso, la calificación de recurso administrativo ni su presentación interrumpirá los plazos establecidos en la normativa vigente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-029",
+      "ley": "rd-951-2005",
+      "articulo": "17.3",
+      "enunciado": "¿Cuándo remite la unidad de quejas y sugerencias su informe global anual a la Inspección General de Servicios?",
+      "opciones": [
+        "En el mes de enero de cada año",
+        "En el primer trimestre de cada año",
+        "Dentro del primer semestre de cada año",
+        "En el mes de diciembre de cada año"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 17.3 indica que la unidad remitirá a la Inspección General de Servicios, «en el mes de enero de cada año, un informe global de las quejas y sugerencias recibidas en el año anterior».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    },
+    {
+      "id": "inf-030",
+      "ley": "rd-951-2005",
+      "articulo": "20.1",
+      "enunciado": "La evaluación de la calidad de las organizaciones se articula en dos niveles:",
+      "opciones": [
+        "Evaluación interna y auditoría",
+        "Autoevaluación y evaluación externa",
+        "Evaluación previa y evaluación final",
+        "Evaluación departamental e interministerial"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 20.1 dispone: «La evaluación se articulará en dos niveles: autoevaluación y evaluación externa».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 18
+      }
+    }
+  ]
+}
