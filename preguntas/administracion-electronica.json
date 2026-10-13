@@ -1,0 +1,605 @@
+{
+  "descripcion": "Administración electrónica: Ley 39/2015 (arts. 9-14 y 41-46) y Ley 40/2015 (arts. 38-46). Lote generado el 2026-10-13; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "ae-001",
+      "ley": "ley-39-2015",
+      "articulo": "9.2.c",
+      "enunciado": "Desde la comunicación de un sistema de identificación de la letra c) del artículo 9.2, ¿cuánto debe transcurrir antes de su eficacia jurídica?",
+      "opciones": [
+        "Un mes",
+        "Dos meses",
+        "Tres meses",
+        "Seis meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 9.2.c) dispone: «De forma previa a la eficacia jurídica del sistema, habrán de transcurrir dos meses desde dicha comunicación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-002",
+      "ley": "ley-39-2015",
+      "articulo": "9.3",
+      "enunciado": "Los recursos técnicos de los sistemas de identificación de la letra c) del artículo 9.2 deben estar situados, con carácter general, en:",
+      "opciones": [
+        "Territorio español en todo caso",
+        "Territorio del Consejo de Europa",
+        "Territorio de la Unión Europea",
+        "Cualquier país con decisión de adecuación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 9.3 exige que esos recursos técnicos «se encuentren situados en territorio de la Unión Europea», y en territorio español solo si se trata de categorías especiales de datos.",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-003",
+      "ley": "ley-39-2015",
+      "articulo": "9.4",
+      "enunciado": "La aceptación de un sistema de identificación por la Administración General del Estado acredita la identificación electrónica:",
+      "opciones": [
+        "Frente a todas las Administraciones, salvo prueba en contrario",
+        "Solo ante la Administración General del Estado",
+        "Ante las Administraciones adheridas por convenio",
+        "Frente a todas las Administraciones, sin prueba en contrario"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 9.4 señala que esa aceptación «servirá para acreditar frente a todas las Administraciones Públicas, salvo prueba en contrario, la identificación electrónica de los interesados».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-004",
+      "ley": "ley-39-2015",
+      "articulo": "9.1",
+      "enunciado": "Las Administraciones verifican la identidad de los interesados comprobando el nombre y apellidos que constan en:",
+      "opciones": [
+        "El Padrón Municipal de habitantes",
+        "La inscripción en el Registro Civil",
+        "El certificado electrónico de firma",
+        "El DNI o documento identificativo equivalente"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 9.1, se comprueba el nombre y apellidos o razón social «que consten en el Documento Nacional de Identidad o documento identificativo equivalente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-005",
+      "ley": "ley-39-2015",
+      "articulo": "10.5",
+      "enunciado": "Cuando un interesado utiliza un sistema de firma admitido por la Ley 39/2015, su identidad:",
+      "opciones": [
+        "Debe acreditarse además con el DNI",
+        "Debe comprobarla un funcionario habilitado",
+        "Se entiende acreditada por el propio acto de la firma",
+        "Se acredita después mediante clave concertada"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 10.5 dispone que, cuando los interesados utilicen un sistema de firma, «su identidad se entenderá ya acreditada mediante el propio acto de la firma».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-006",
+      "ley": "ley-39-2015",
+      "articulo": "11.2.c",
+      "enunciado": "¿Para cuál de estas actuaciones exigen las Administraciones el uso obligatorio de firma?",
+      "opciones": [
+        "Interponer recursos",
+        "Consultar el estado del expediente",
+        "Acceder a una notificación",
+        "Pedir información general"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 11.2 limita la firma obligatoria a unos supuestos, entre ellos: «c) Interponer recursos.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-007",
+      "ley": "ley-39-2015",
+      "articulo": "11.1",
+      "enunciado": "Con carácter general, para realizar cualquier actuación del procedimiento basta con que el interesado:",
+      "opciones": [
+        "Firme con un certificado electrónico cualificado",
+        "Comparezca en una oficina de asistencia en registros",
+        "Aporte poder notarial de representación",
+        "Acredite antes su identidad con un medio de identificación de la ley"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 11.1 dice que «será suficiente con que los interesados acrediten previamente su identidad a través de cualquiera de los medios de identificación previstos en esta Ley».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-008",
+      "ley": "ley-39-2015",
+      "articulo": "12.3",
+      "enunciado": "En el registro de funcionarios habilitados para identificar o firmar por el interesado deben constar, al menos, los que presten servicios en:",
+      "opciones": [
+        "Los servicios de inspección de cada departamento",
+        "Las oficinas de asistencia en materia de registros",
+        "Las unidades de tecnologías de la información",
+        "Las secretarías generales técnicas"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 12.3 indica: «En este registro o sistema equivalente, al menos, constarán los funcionarios que presten servicios en las oficinas de asistencia en materia de registros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-009",
+      "ley": "ley-39-2015",
+      "articulo": "14.2.c",
+      "enunciado": "Dentro de los profesionales con colegiación obligatoria, el artículo 14.2.c) menciona expresamente como incluidos a:",
+      "opciones": [
+        "Los notarios y registradores de la propiedad y mercantiles",
+        "Los abogados y procuradores de los tribunales",
+        "Los gestores administrativos y graduados sociales",
+        "Los arquitectos e ingenieros colegiados"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 14.2.c) añade: «En todo caso, dentro de este colectivo se entenderán incluidos los notarios y registradores de la propiedad y mercantiles».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-010",
+      "ley": "ley-39-2015",
+      "articulo": "41.1.a",
+      "enunciado": "Cabe practicar una notificación por medios no electrónicos cuando el interesado:",
+      "opciones": [
+        "La solicita por teléfono al órgano que tramita",
+        "Es una persona jurídica sin certificado electrónico",
+        "Comparece espontáneamente en una oficina de registro y la pide en ese momento",
+        "No accede a la sede electrónica en cinco días"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 41.1.a) lo permite «cuando la notificación se realice con ocasión de la comparecencia espontánea del interesado o su representante en las oficinas de asistencia en materia de registro y solicite la comunicación o notificación personal en ese momento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-011",
+      "ley": "ley-39-2015",
+      "articulo": "41.2.b",
+      "enunciado": "En ningún caso se efectuarán por medios electrónicos las notificaciones que:",
+      "opciones": [
+        "Impongan una sanción al interesado",
+        "Se dirijan a personas mayores de edad",
+        "Pongan fin a la vía administrativa",
+        "Contengan medios de pago a favor de los obligados"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 41.2.b) excluye de la vía electrónica «Las que contengan medios de pago a favor de los obligados, tales como cheques».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-012",
+      "ley": "ley-39-2015",
+      "articulo": "41.7",
+      "enunciado": "Si el interesado ha sido notificado por distintos cauces, se toma como fecha de notificación:",
+      "opciones": [
+        "La de la que se produjo en último lugar",
+        "La de la que se produjo en primer lugar",
+        "La de la notificación electrónica en todo caso",
+        "La que elija el propio interesado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 41.7 dispone que «se tomará como fecha de notificación la de aquélla que se hubiera producido en primer lugar».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-013",
+      "ley": "ley-39-2015",
+      "articulo": "42.2",
+      "enunciado": "En una notificación en papel en el domicilio, si el interesado no está, puede hacerse cargo de ella cualquier persona mayor de:",
+      "opciones": [
+        "Doce años",
+        "Dieciséis años",
+        "Catorce años",
+        "Dieciocho años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 42.2 permite que se haga cargo «cualquier persona mayor de catorce años que se encuentre en el domicilio y haga constar su identidad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-014",
+      "ley": "ley-39-2015",
+      "articulo": "42.2",
+      "enunciado": "Si el primer intento de notificación en papel se hizo antes de las quince horas, el segundo intento debe hacerse:",
+      "opciones": [
+        "Después de las quince horas, con un margen mínimo de dos horas",
+        "Después de las quince horas, con un margen mínimo de tres horas",
+        "Antes de las quince horas, con un margen mínimo de tres horas",
+        "A cualquier hora, dentro de los cinco días siguientes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 42.2 establece que, si el primer intento fue antes de las quince horas, «el segundo intento deberá realizarse después de las quince horas y viceversa, dejando en todo caso al menos un margen de diferencia de tres horas entre ambos intentos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-015",
+      "ley": "ley-39-2015",
+      "articulo": "43.1",
+      "enunciado": "A efectos de las notificaciones electrónicas, se entiende por comparecencia en la sede electrónica:",
+      "opciones": [
+        "El acceso del interesado identificado al contenido de la notificación",
+        "La puesta a disposición de la notificación en la sede",
+        "El envío del aviso al correo electrónico del interesado",
+        "La visita presencial a una oficina de asistencia"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 43.1 dice: «se entiende por comparecencia en la sede electrónica, el acceso por el interesado o su representante debidamente identificado al contenido de la notificación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-016",
+      "ley": "ley-39-2015",
+      "articulo": "44",
+      "enunciado": "Cuando se ignora el lugar de la notificación, esta se hace por medio de un anuncio publicado en:",
+      "opciones": [
+        "El boletín oficial de la provincia",
+        "El tablón de edictos del Ayuntamiento",
+        "El diario oficial de la Comunidad Autónoma",
+        "El Boletín Oficial del Estado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 44 dispone que, en esos casos, «la notificación se hará por medio de un anuncio publicado en el» Boletín Oficial del Estado; los demás anuncios son facultativos.",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-017",
+      "ley": "ley-39-2015",
+      "articulo": "45.1.b",
+      "enunciado": "En un procedimiento selectivo, las publicaciones hechas en un medio distinto del indicado en la convocatoria:",
+      "opciones": [
+        "Son válidas si el interesado las conoce",
+        "Carecen de validez",
+        "Son anulables a instancia de parte",
+        "Son válidas pero no abren plazos"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 45.1.b) exige que la convocatoria indique el medio de las sucesivas publicaciones, «careciendo de validez las que se lleven a cabo en lugares distintos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-018",
+      "ley": "ley-39-2015",
+      "articulo": "46",
+      "enunciado": "Si la publicación íntegra de un acto lesiona derechos o intereses legítimos, en el Diario oficial se publica:",
+      "opciones": [
+        "El acto completo con los datos personales ocultos",
+        "Solo la parte dispositiva del acto",
+        "Solo el número de expediente y el órgano",
+        "Una somera indicación del contenido y del lugar para comparecer"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 46 indica que el órgano «se limitará a publicar en el Diario oficial que corresponda una somera indicación del contenido del acto y del lugar donde los interesados podrán comparecer».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-019",
+      "ley": "ley-40-2015",
+      "articulo": "38.1",
+      "enunciado": "Según la Ley 40/2015, la titularidad de una sede electrónica corresponde a:",
+      "opciones": [
+        "Una Administración, o organismos o entidades de Derecho Público",
+        "El prestador de servicios de certificación que la acredita",
+        "La empresa privada que aloja sus servidores",
+        "El Punto de Acceso General de la Administración"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 38.1 define la sede como la dirección electrónica «cuya titularidad corresponde a una Administración Pública, o bien a una o varios organismos públicos o entidades de Derecho Público».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-020",
+      "ley": "ley-40-2015",
+      "articulo": "38.2",
+      "enunciado": "El establecimiento de una sede electrónica conlleva la responsabilidad del titular respecto de:",
+      "opciones": [
+        "La gratuidad, rapidez y confidencialidad del servicio",
+        "La disponibilidad continua y el soporte técnico",
+        "La integridad, veracidad y actualización de la información",
+        "La neutralidad, publicidad y traducción de contenidos"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 38.2 habla de «la responsabilidad del titular respecto de la integridad, veracidad y actualización de la información y los servicios».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-021",
+      "ley": "ley-40-2015",
+      "articulo": "38.3",
+      "enunciado": "¿Cuál de estos NO figura entre los principios a los que se sujeta la creación de sedes electrónicas?",
+      "opciones": [
+        "Neutralidad",
+        "Interoperabilidad",
+        "Disponibilidad",
+        "Gratuidad"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 38.3 enumera los principios «de transparencia, publicidad, responsabilidad, calidad, seguridad, disponibilidad, accesibilidad, neutralidad e interoperabilidad»; la gratuidad no aparece.",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-022",
+      "ley": "ley-40-2015",
+      "articulo": "38.6",
+      "enunciado": "Para identificarse y garantizar una comunicación segura, las sedes electrónicas utilizan:",
+      "opciones": [
+        "Certificados cualificados de autenticación de sitio web",
+        "El sello electrónico del órgano titular",
+        "Un código seguro de verificación",
+        "El certificado de firma del titular del órgano"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 38.6 dispone que las sedes utilizarán «certificados reconocidos o cualificados de autenticación de sitio web o medio equivalente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-023",
+      "ley": "ley-40-2015",
+      "articulo": "40.2",
+      "enunciado": "Se entiende identificada la Administración Pública respecto de la información que:",
+      "opciones": [
+        "Envíe por correo electrónico ordinario",
+        "Publique como propia en su portal de internet",
+        "Enlace desde webs de otras Administraciones",
+        "Difunda en sus perfiles de redes sociales"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 40.2 dice: «Se entenderá identificada la Administración Pública respecto de la información que se publique como propia en su portal de internet».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-024",
+      "ley": "ley-40-2015",
+      "articulo": "41.1",
+      "enunciado": "Para que haya actuación administrativa automatizada, el acto debe realizarse íntegramente por medios electrónicos y:",
+      "opciones": [
+        "Con la firma manuscrita del titular del órgano",
+        "Fuera de un procedimiento administrativo",
+        "Sin intervención directa de un empleado público",
+        "Previa conformidad expresa del interesado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 41.1 la define como la actuación electrónica «en la que no haya intervenido de forma directa un empleado público».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-025",
+      "ley": "ley-40-2015",
+      "articulo": "41.2",
+      "enunciado": "En la actuación administrativa automatizada debe indicarse el órgano considerado responsable a efectos de:",
+      "opciones": [
+        "Impugnación",
+        "Notificación",
+        "Archivo",
+        "Publicación"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 41.2 añade: «Asimismo, se indicará el órgano que debe ser considerado responsable a efectos de impugnación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-026",
+      "ley": "ley-40-2015",
+      "articulo": "42.b",
+      "enunciado": "Además del sello electrónico, en la actuación administrativa automatizada puede usarse como sistema de firma:",
+      "opciones": [
+        "La firma manuscrita digitalizada",
+        "La clave concertada del interesado",
+        "El certificado de sitio web",
+        "El código seguro de verificación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 42 admite el sello electrónico y el «Código seguro de verificación vinculado a la Administración Pública, órgano, organismo público o entidad de Derecho Público».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-027",
+      "ley": "ley-40-2015",
+      "articulo": "43.2",
+      "enunciado": "Por razones de seguridad pública, los sistemas de firma del personal pueden referirse solo a:",
+      "opciones": [
+        "Su número de registro de personal",
+        "Su número de identificación profesional",
+        "La denominación del puesto que ocupa",
+        "El NIF de la Administración en que sirve"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 43.2 dispone: «Por razones de seguridad pública los sistemas de firma electrónica podrán referirse sólo el número de identificación profesional del empleado público».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-028",
+      "ley": "ley-40-2015",
+      "articulo": "44.3",
+      "enunciado": "En el intercambio de datos en entornos cerrados entre distintas Administraciones, las condiciones y garantías se fijan mediante:",
+      "opciones": [
+        "Real decreto del Gobierno",
+        "Acuerdo de la Conferencia Sectorial",
+        "Convenio suscrito entre ellas",
+        "Orden del departamento competente"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 44.3 indica que, si los participantes son de distintas Administraciones, las condiciones «se establecerán mediante convenio suscrito entre aquellas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-029",
+      "ley": "ley-40-2015",
+      "articulo": "46.1",
+      "enunciado": "Los documentos utilizados en las actuaciones administrativas se almacenarán:",
+      "opciones": [
+        "En papel, con copia electrónica auténtica",
+        "Por medios electrónicos solo si afectan a derechos",
+        "En el archivo central, en el soporte original",
+        "Por medios electrónicos, salvo cuando no sea posible"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 46.1 dispone: «Todos los documentos utilizados en las actuaciones administrativas se almacenarán por medios electrónicos, salvo cuando no sea posible».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    },
+    {
+      "id": "ae-030",
+      "ley": "ley-40-2015",
+      "articulo": "46.3",
+      "enunciado": "Las medidas de seguridad de los soportes de documentos electrónicos se ajustarán a lo previsto en:",
+      "opciones": [
+        "El Esquema Nacional de Seguridad",
+        "El Esquema Nacional de Interoperabilidad",
+        "La Ley de Patrimonio Histórico",
+        "El Reglamento de registros"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 46.3 exige medidas de seguridad «de acuerdo con lo previsto en el Esquema Nacional de Seguridad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 20
+      }
+    }
+  ]
+}
