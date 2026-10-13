@@ -13,5 +13,7 @@
   { "slug": "rd-203-2021", "nombre": "Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos", "nombre_corto": "RD 203/2021", "fecha_version_boe": "2026-10-13", "fuente": "rd-203-2021.txt" },
   { "slug": "rd-951-2005", "nombre": "Real Decreto 951/2005, de 29 de julio, por el que se establece el marco general para la mejora de la calidad en la Administración General del Estado", "nombre_corto": "RD 951/2005", "fecha_version_boe": "2025-12-18", "fuente": "rd-951-2005.txt" },
   { "slug": "ley-7-1985", "nombre": "Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local", "nombre_corto": "Ley 7/1985", "fecha_version_boe": "2026-10-05", "fuente": "ley-7-1985.txt" },
-  { "slug": "lo-6-1985", "nombre": "Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial", "nombre_corto": "LO 6/1985", "fecha_version_boe": "2026-10-09", "fuente": "lo-6-1985.txt" }
+  { "slug": "lo-6-1985", "nombre": "Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial", "nombre_corto": "LO 6/1985", "fecha_version_boe": "2026-10-09", "fuente": "lo-6-1985.txt" },
+  { "slug": "tue", "nombre": "Tratado de la Unión Europea (versión consolidada, DOUE C 202 de 7.6.2016)", "nombre_corto": "TUE", "fecha_version_boe": "2016-06-07", "fuente": "tue.txt" },
+  { "slug": "tfue", "nombre": "Tratado de Funcionamiento de la Unión Europea (versión consolidada, DOUE C 202 de 7.6.2016)", "nombre_corto": "TFUE", "fecha_version_boe": "2016-06-07", "fuente": "tfue.txt" }
 ]
