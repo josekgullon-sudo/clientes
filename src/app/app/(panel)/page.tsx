@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Check, ChevronRight, Crown, Flame, Lock, RotateCcw, SlidersHorizontal, Timer, Trophy, Zap } from "lucide-react";
+import { Check, ChevronRight, Crown, Flame, Lightbulb, Lock, RotateCcw, SlidersHorizontal, Timer, Trophy, Zap } from "lucide-react";
 import type { ReactNode } from "react";
 import { Boton, EnlaceBoton } from "@/components/boton";
 import { CaminoJuego } from "@/components/estudio/camino-juego";
 import { CofreDiario } from "@/components/estudio/cofre";
 import { Avatar } from "@/components/ui/avatar";
+import { InstalarApp } from "@/components/app/instalar-app";
 import { Evento } from "@/components/evento";
 import { ClaraDice } from "@/components/mascota/bocadillo";
 import { Clara } from "@/components/mascota/clara";
@@ -13,6 +14,7 @@ import { caminoTemas, cofreHoy, estadisticasUsuario, ligaSemanal } from "@/lib/d
 import { siguienteBloqueado, siguienteLeccion } from "@/lib/estudio/camino";
 import { diasEntre, hoyMadrid } from "@/lib/seo/seleccion";
 import { examenEstimado } from "@/lib/examen";
+import { curiosidadDelDia } from "@/lib/estudio/curiosidades";
 import { CUOTA_GRATIS } from "@/lib/sitio";
 import {
   cuotaRestante,
@@ -153,6 +155,7 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
   const nombre = (user.user_metadata?.name as string | undefined)?.split(" ")[0];
   const faltan = Math.max(0, objetivo - hechasHoy);
   const metaAciertos = Math.ceil(objetivo * 0.7);
+  const curiosidad = curiosidadDelDia(hoyMadrid());
 
   const mensaje = !puedeLeccion
     ? `Has hecho tus ${CUOTA_GRATIS} preguntas gratis de hoy. ¡Mañana seguimos!`
@@ -196,6 +199,8 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
         </span>
         <span className="font-semibold">{mensaje}</span>
       </ClaraDice>
+
+      <InstalarApp />
 
       <section aria-labelledby="misiones">
         <div className="mb-3 flex items-baseline justify-between">
@@ -334,6 +339,19 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
               bloqueado={!suscrito}
             />
           </Link>
+        </div>
+      </section>
+
+      <section aria-labelledby="sabias" className="tarjeta tarjeta-viva relative overflow-hidden p-5">
+        <div className="flex items-start gap-4">
+          <Clara pose="piensa" className="-mb-2 size-20 shrink-0" />
+          <div className="min-w-0">
+            <h2 id="sabias" className="flex items-center gap-1.5 font-display text-lg font-black text-oro-texto">
+              <Lightbulb aria-hidden size={20} className="fill-subrayador text-oro-texto" /> ¿Sabías que…?
+            </h2>
+            <p className="mt-1 font-semibold leading-snug">{curiosidad.texto}</p>
+            <p className="mt-2 inline-block rounded-full bg-oro-suave px-2.5 py-0.5 text-xs font-black text-oro-texto">{curiosidad.fuente}</p>
+          </div>
         </div>
       </section>
 

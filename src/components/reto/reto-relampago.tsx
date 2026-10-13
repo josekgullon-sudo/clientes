@@ -1,11 +1,12 @@
 "use client";
 
-import { Check, Share2, Timer, Trophy, X, Zap } from "lucide-react";
+import { Check, Timer, Trophy, X, Zap } from "lucide-react";
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Boton, EnlaceBoton } from "@/components/boton";
 import { ClaraDice } from "@/components/mascota/bocadillo";
 import { Clara, type PoseClara } from "@/components/mascota/clara";
+import { BotonCompartir } from "@/components/ui/boton-compartir";
 import { LETRAS, type PreguntaTest } from "@/lib/test/tipos";
 import { sonidoActivo, sonidos } from "@/lib/ui/sonido";
 
@@ -68,7 +69,6 @@ export function RetoRelampago({
   const [restante, setRestante] = useState(DURACION);
   const [records, setRecords] = useState<Records>({ mejor: 0, dia, mejorDia: 0 });
   const [nuevoRecord, setNuevoRecord] = useState(false);
-  const [compartido, setCompartido] = useState<string | null>(null);
   const fin = useRef(0);
   const ultimoTic = useRef(99);
 
@@ -176,24 +176,8 @@ export function RetoRelampago({
     setMarcada(null);
     setRestante(DURACION);
     setNuevoRecord(false);
-    setCompartido(null);
     setCuenta(3);
     setFase("cuenta");
-  }
-
-  async function compartir() {
-    const url = `${window.location.origin}/reto`;
-    const texto = `He acertado ${aciertos} preguntas en 60 segundos en el Reto relámpago de Oposiciones Claras. ¿Me superas?`;
-    try {
-      if (navigator.share) {
-        await navigator.share({ title: "Reto relámpago", text: texto, url });
-        return;
-      }
-      await navigator.clipboard.writeText(`${texto} ${url}`);
-      setCompartido("Copiado. Pégalo donde quieras.");
-    } catch {
-      setCompartido(null);
-    }
   }
 
   const salir = conSesion ? "/app" : "/";
@@ -347,14 +331,13 @@ export function RetoRelampago({
       </section>
 
       <div className="flex flex-col gap-3">
-        <Boton ancho onClick={compartir}>
-          <Share2 aria-hidden size={18} /> Retar a alguien
-        </Boton>
-        {compartido && (
-          <p role="status" className="text-center text-sm font-bold text-pino">
-            {compartido}
-          </p>
-        )}
+        <BotonCompartir
+          tipo="reto"
+          n={aciertos}
+          ruta="/reto"
+          etiqueta="Retar a alguien"
+          texto={`He acertado ${aciertos} preguntas en 60 segundos en el Reto relámpago de Oposiciones Claras. ¿Me superas?`}
+        />
         <Boton ancho variante="secundario" onClick={empezar}>
           Jugar otra vez
         </Boton>

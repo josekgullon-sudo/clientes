@@ -34,6 +34,8 @@ export const metadata: Metadata = {
     template: `%s · ${SITIO.nombre}`,
   },
   description: SITIO.descripcion,
+  applicationName: SITIO.nombre,
+  appleWebApp: { capable: true, title: "Op. Claras", statusBarStyle: "default" },
 };
 
 export const viewport: Viewport = {

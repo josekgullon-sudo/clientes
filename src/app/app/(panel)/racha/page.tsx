@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Flame, Snowflake, Trophy } from "lucide-react";
 import { EnlaceBoton } from "@/components/boton";
 import { ClaraDice } from "@/components/mascota/bocadillo";
+import { BotonCompartir } from "@/components/ui/boton-compartir";
 import { actividadReciente, estadisticasUsuario } from "@/lib/datos/estudio";
 import { hoyMadrid } from "@/lib/seo/seleccion";
 
@@ -148,6 +149,16 @@ export default async function Racha() {
         <EnlaceBoton href="/app" ancho>
           Practicar ahora
         </EnlaceBoton>
+      )}
+      {racha > 0 && (
+        <BotonCompartir
+          tipo="racha"
+          n={racha}
+          ruta="/"
+          variante={hechoHoy ? "principal" : "secundario"}
+          etiqueta="Presumir de racha"
+          texto={`Llevo ${racha} ${racha === 1 ? "día" : "días"} de racha preparando la oposición con Oposiciones Claras.`}
+        />
       )}
     </div>
   );
