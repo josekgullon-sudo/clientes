@@ -1,0 +1,505 @@
+{
+  "descripcion": "El Gobierno: Ley 50/1997 (Comisiones Delegadas, Secretarios de Estado, Comisión General, Gabinetes, Gobierno en funciones, potestad normativa y control) y Constitución arts. 115-116.",
+  "preguntas": [
+    {
+      "id": "gb-001",
+      "ley": "ley-50-1997",
+      "articulo": "7.1",
+      "enunciado": "Según la Ley del Gobierno, los Secretarios de Estado son:",
+      "opciones": [
+        "Miembros del Gobierno sin cartera",
+        "Órganos superiores de la Administración General del Estado",
+        "Órganos directivos de los Departamentos ministeriales",
+        "Órganos de apoyo político y técnico de los Ministros"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 7.1 dice que «Los Secretarios de Estado son órganos superiores de la Administración General del Estado, directamente responsables de la ejecución de la acción del Gobierno en un sector de actividad específica».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-002",
+      "ley": "ley-50-1997",
+      "articulo": "7.2",
+      "enunciado": "Los Secretarios de Estado adscritos a la Presidencia del Gobierno actúan bajo la dirección:",
+      "opciones": [
+        "Del Vicepresidente primero del Gobierno",
+        "Del Consejo de Ministros",
+        "De la Comisión General de Secretarios de Estado y Subsecretarios",
+        "Del Presidente del Gobierno"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 7.2, «Cuando estén adscritos a la Presidencia del Gobierno, actúan bajo la dirección del Presidente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-003",
+      "ley": "ley-50-1997",
+      "articulo": "15.1",
+      "enunciado": "Los Secretarios de Estado son nombrados y separados:",
+      "opciones": [
+        "Por Real Decreto del Consejo de Ministros",
+        "Por Real Decreto del Presidente del Gobierno",
+        "Por Orden del Ministro del Departamento",
+        "Por el Rey, a propuesta del Congreso"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 15.1 establece que «Los Secretarios de Estado son nombrados y separados por Real Decreto del Consejo de Ministros, aprobado a propuesta del Presidente del Gobierno o del miembro del Gobierno a cuyo Departamento pertenezcan».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-004",
+      "ley": "ley-50-1997",
+      "articulo": "6.4.c",
+      "enunciado": "Corresponde a las Comisiones Delegadas resolver los asuntos que, afectando a más de un Ministerio:",
+      "opciones": [
+        "Hayan sido avocados por el Presidente del Gobierno",
+        "Requieran una propuesta conjunta previa",
+        "No requieran ser elevados al Consejo de Ministros",
+        "Hayan sido examinados por el Secretariado del Gobierno"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 6.4.c) atribuye a las Comisiones Delegadas «Resolver los asuntos que, afectando a más de un Ministerio, no requieran ser elevados al Consejo de Ministros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-005",
+      "ley": "ley-50-1997",
+      "articulo": "8.4",
+      "enunciado": "Según la Ley del Gobierno, las deliberaciones de la Comisión General de Secretarios de Estado y Subsecretarios son:",
+      "opciones": [
+        "Secretas",
+        "Públicas",
+        "Reservadas",
+        "Confidenciales salvo acuerdo en contrario"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 8.4 dispone que «Las deliberaciones de la Comisión General de Secretarios de Estado y Subsecretarios serán reservadas». Son las del Consejo de Ministros y las Comisiones Delegadas las que la ley califica de secretas.",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-006",
+      "ley": "ley-50-1997",
+      "articulo": "8.4",
+      "enunciado": "¿Puede la Comisión General de Secretarios de Estado y Subsecretarios adoptar acuerdos por delegación del Gobierno?",
+      "opciones": [
+        "No, en ningún caso",
+        "Sí, en asuntos que afecten a varios Ministerios",
+        "Sí, si lo propone el Presidente del Gobierno",
+        "Solo en casos de urgencia acreditada"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 8.4 es tajante: «En ningún caso la Comisión podrá adoptar decisiones o acuerdos por delegación del Gobierno».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-007",
+      "ley": "ley-50-1997",
+      "articulo": "8.3",
+      "enunciado": "En caso de ausencia, vacante o enfermedad del Secretario de la Comisión General de Secretarios de Estado y Subsecretarios, actúa como Secretario:",
+      "opciones": [
+        "El Subsecretario de mayor antigüedad",
+        "El Abogado General del Estado",
+        "El Secretario de Estado que designe el Presidente",
+        "El Director del Secretariado del Gobierno"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 8.3 indica que «En caso de ausencia, vacante o enfermedad, actuará como Secretario el Director del Secretariado del Gobierno».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-008",
+      "ley": "ley-50-1997",
+      "articulo": "8.5.a",
+      "enunciado": "¿Cuál de estos asuntos queda excluido del examen de la Comisión General de Secretarios de Estado y Subsecretarios?",
+      "opciones": [
+        "Los proyectos de ley que vayan al Consejo de Ministros",
+        "Los nombramientos y ceses",
+        "Los proyectos de reales decretos reglamentarios",
+        "Los asuntos ordinarios del Consejo de Ministros"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 8.5.a), le corresponde «El examen de todos los asuntos que vayan a someterse a aprobación del Consejo de Ministros, excepto los nombramientos, ceses, ascensos a cualquiera de los empleos de la categoría de oficiales generales […]».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-009",
+      "ley": "ley-50-1997",
+      "articulo": "8.6",
+      "enunciado": "La Comisión General de Secretarios de Estado y Subsecretarios puede celebrar sesiones a distancia por medios electrónicos siempre que sus miembros:",
+      "opciones": [
+        "Se encuentren en territorio español",
+        "Lo autorice previamente el Consejo de Ministros",
+        "No traten asuntos de carácter reservado",
+        "Estén todos presentes en la sede ministerial"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 8.6 lo permite «siempre que los miembros participantes se encuentren en territorio español y quede acreditada su identidad».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-010",
+      "ley": "ley-50-1997",
+      "articulo": "9.1.f",
+      "enunciado": "Velar por la correcta y fiel publicación en el «Boletín Oficial del Estado» de las disposiciones del Gobierno corresponde:",
+      "opciones": [
+        "A la Comisión General de Secretarios de Estado y Subsecretarios",
+        "A las Comisiones Delegadas del Gobierno",
+        "Al Secretariado del Gobierno",
+        "Al Gabinete de la Presidencia del Gobierno"
+      ],
+      "correcta": 2,
+      "explicacion": "Entre las funciones del Secretariado del Gobierno, el artículo 9.1.f) incluye «Velar por la correcta y fiel publicación de las disposiciones y normas emanadas del Gobierno que deban insertarse en el \"Boletín Oficial del Estado\"».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-011",
+      "ley": "ley-50-1997",
+      "articulo": "10.1",
+      "enunciado": "Según la Ley del Gobierno, los miembros de los Gabinetes:",
+      "opciones": [
+        "Pueden dictar resoluciones por delegación del Ministro",
+        "Son órganos superiores de la Administración",
+        "Sustituyen al Ministro en caso de ausencia",
+        "Realizan tareas de confianza y asesoramiento especial"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 10.1 dice que «Los miembros de los Gabinetes realizan tareas de confianza y asesoramiento especial sin que en ningún caso puedan adoptar actos o resoluciones que correspondan legalmente a los órganos de la Administración General del Estado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-012",
+      "ley": "ley-50-1997",
+      "articulo": "16.2",
+      "enunciado": "Los Directores de Gabinete de los Secretarios de Estado son nombrados:",
+      "opciones": [
+        "Por Real Decreto aprobado en Consejo de Ministros",
+        "Por Orden Ministerial, previo conocimiento del Consejo de Ministros",
+        "Por Real Decreto del Presidente del Gobierno",
+        "Por resolución del propio Secretario de Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 16.2 establece que «Los Directores de Gabinete de los Secretarios de Estado serán nombrados por Orden Ministerial, previo conocimiento del Consejo de Ministros».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-013",
+      "ley": "ley-50-1997",
+      "articulo": "16.3",
+      "enunciado": "Cuando cesa el titular del cargo del que dependen, los Directores de los Gabinetes:",
+      "opciones": [
+        "Continúan tres meses en funciones",
+        "Cesan automáticamente",
+        "Pasan a depender del Subsecretario",
+        "Siguen en el cargo hasta que el sucesor los cese"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 16.3, «Los Directores de los Gabinetes cesarán automáticamente cuando cese el titular del cargo del que dependen». Si el Gobierno está en funciones, siguen hasta que se forma el nuevo.",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-014",
+      "ley": "ley-50-1997",
+      "articulo": "12.2 bis",
+      "enunciado": "En el nombramiento de Vicepresidencias y Ministerios, cada sexo debe suponer en su conjunto como mínimo:",
+      "opciones": [
+        "El cuarenta por ciento",
+        "El cincuenta por ciento",
+        "El treinta por ciento",
+        "El treinta y tres por ciento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 12.2 bis exige la presencia equilibrada «de forma que cada uno de los sexos suponga como mínimo el cuarenta por ciento en su conjunto».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-015",
+      "ley": "ley-50-1997",
+      "articulo": "12.2",
+      "enunciado": "Según la Ley del Gobierno, la separación de los Ministros sin cartera:",
+      "opciones": [
+        "Obliga a nombrar otro Ministro sin cartera",
+        "Requiere acuerdo del Consejo de Ministros",
+        "Lleva aparejada la extinción de dichos órganos",
+        "Debe comunicarse al Congreso de los Diputados"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 12.2 dispone que «La separación de los Ministros sin cartera llevará aparejada la extinción de dichos órganos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-016",
+      "ley": "ley-50-1997",
+      "articulo": "13.2",
+      "enunciado": "La suplencia de los Ministros para el despacho ordinario de los asuntos de su competencia se determina:",
+      "opciones": [
+        "Por acuerdo del Consejo de Ministros",
+        "Por Orden del propio Ministro",
+        "Por Real Decreto acordado en Consejo de Ministros",
+        "Por Real Decreto del Presidente del Gobierno"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 13.2 dice que esta suplencia «será determinada por Real Decreto del Presidente del Gobierno, debiendo recaer, en todo caso, en otro miembro del Gobierno».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-017",
+      "ley": "ley-50-1997",
+      "articulo": "18.4",
+      "enunciado": "¿Qué de lo siguiente NO figura en el acta de las sesiones del Consejo de Ministros?",
+      "opciones": [
+        "Las opiniones expresadas por cada Ministro",
+        "La relación de asistentes",
+        "Los informes presentados",
+        "El tiempo y lugar de su celebración"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 18.4, en el acta figurarán «exclusivamente, las circunstancias relativas al tiempo y lugar de su celebración, la relación de asistentes, los acuerdos adoptados y los informes presentados».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-018",
+      "ley": "ley-50-1997",
+      "articulo": "20.3.a",
+      "enunciado": "Según la Ley del Gobierno, ¿cuál de estas competencias NO es delegable en ningún caso?",
+      "opciones": [
+        "Las funciones administrativas del Consejo de Ministros en las Comisiones Delegadas",
+        "Las competencias propias de un Ministro en favor de sus Secretarios de Estado",
+        "Las atribuidas directamente por la Constitución",
+        "Las competencias propias del Presidente en favor de los Vicepresidentes"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 20.3 dice que «No son en ningún caso delegables» las competencias, entre otras, «atribuidas directamente por la Constitución». Las demás opciones son delegaciones previstas en los apartados 1 y 2.",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-019",
+      "ley": "ley-50-1997",
+      "articulo": "21.5",
+      "enunciado": "¿Cuál de estas facultades NO puede ejercer el Gobierno en funciones?",
+      "opciones": [
+        "El despacho ordinario de los asuntos públicos",
+        "Presentar proyectos de ley al Congreso de los Diputados",
+        "Facilitar el traspaso de poderes al nuevo Gobierno",
+        "Adoptar medidas en casos de urgencia debidamente acreditados"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 21.5 dispone que «El Gobierno en funciones no podrá ejercer las siguientes facultades» y cita, junto al proyecto de Presupuestos, «Presentar proyectos de ley al Congreso de los Diputados o, en su caso, al Senado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-020",
+      "ley": "ley-50-1997",
+      "articulo": "21.6",
+      "enunciado": "¿Qué ocurre con las delegaciones legislativas otorgadas por las Cortes cuando el Gobierno está en funciones tras unas elecciones generales?",
+      "opciones": [
+        "Se extinguen de forma automática",
+        "Las ejerce el Gobierno solo en casos urgentes",
+        "Se prorrogan hasta la investidura",
+        "Quedan en suspenso durante todo ese tiempo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 21.6 señala que «Las delegaciones legislativas otorgadas por las Cortes Generales quedarán en suspenso durante todo el tiempo que el Gobierno esté en funciones como consecuencia de la celebración de elecciones generales».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-021",
+      "ley": "ley-50-1997",
+      "articulo": "23",
+      "enunciado": "Los reglamentos del Gobierno que impongan nuevas obligaciones a quienes ejercen una actividad económica o profesional entran en vigor:",
+      "opciones": [
+        "El 2 de enero o el 1 de julio siguientes a su aprobación",
+        "A los veinte días de su publicación en el BOE",
+        "El 1 de enero o el 1 de julio siguientes a su publicación",
+        "Al día siguiente de su publicación en el BOE"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 23 indica que esas disposiciones «preverán el comienzo de su vigencia el 2 de enero o el 1 de julio siguientes a su aprobación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-022",
+      "ley": "ley-50-1997",
+      "articulo": "29.2",
+      "enunciado": "Según la Ley del Gobierno, todos los actos y omisiones del Gobierno están sometidos al control político:",
+      "opciones": [
+        "Del Congreso de los Diputados",
+        "Del Tribunal Constitucional",
+        "De las Cortes Generales",
+        "Del Consejo de Estado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 29.2 dice que «Todos los actos y omisiones del Gobierno están sometidos al control político de las Cortes Generales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-023",
+      "ley": "constitucion",
+      "articulo": "116.4",
+      "enunciado": "El estado de sitio se declara:",
+      "opciones": [
+        "Por el Gobierno, previa autorización del Congreso",
+        "Por la mayoría absoluta del Congreso, a propuesta exclusiva del Gobierno",
+        "Por el Gobierno, dando cuenta al Congreso",
+        "Por las Cortes Generales, a propuesta del Rey"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 116.4 establece que «El estado de sitio será declarado por la mayoría absoluta del Congreso de los Diputados, a propuesta exclusiva del Gobierno».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-024",
+      "ley": "constitucion",
+      "articulo": "116.5",
+      "enunciado": "Mientras esté declarado el estado de alarma, de excepción o de sitio:",
+      "opciones": [
+        "El Congreso puede disolverse con autorización del Senado",
+        "Se suspenden los periodos de sesiones de las Cámaras",
+        "El Gobierno queda exento de responsabilidad",
+        "No puede procederse a la disolución del Congreso"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 116.5, «No podrá procederse a la disolución del Congreso mientras estén declarados algunos de los estados comprendidos en el presente artículo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    },
+    {
+      "id": "gb-025",
+      "ley": "constitucion",
+      "articulo": "115.2",
+      "enunciado": "La propuesta de disolución de las Cámaras no puede presentarse cuando:",
+      "opciones": [
+        "Esté en trámite una moción de censura",
+        "Esté en trámite una cuestión de confianza",
+        "El Gobierno lleve menos de un año",
+        "Esté en trámite la Ley de Presupuestos"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 115.2 dispone que «La propuesta de disolución no podrá presentarse cuando esté en trámite una moción de censura».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 5
+      }
+    }
+  ]
+}

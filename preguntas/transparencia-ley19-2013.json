@@ -1,0 +1,605 @@
+{
+  "descripcion": "Ley 19/2013, de transparencia (ámbito, publicidad activa, derecho de acceso, buen gobierno y Consejo de Transparencia). Lote generado el 2026-10-13; borrador pendiente de revisión.",
+  "preguntas": [
+    {
+      "id": "tra-001",
+      "ley": "ley-19-2013",
+      "articulo": "3.b",
+      "enunciado": "Están sujetas a publicidad activa las entidades privadas que perciban en un año ayudas o subvenciones públicas por una cuantía superior a:",
+      "opciones": [
+        "50.000 euros",
+        "100.000 euros",
+        "150.000 euros",
+        "60.000 euros"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 3.b) incluye a «las entidades privadas que perciban durante el período de un año ayudas o subvenciones públicas en una cuantía superior a 100.000 euros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-002",
+      "ley": "ley-19-2013",
+      "articulo": "3.b",
+      "enunciado": "Una entidad privada queda sujeta a publicidad activa si las ayudas públicas suponen, al menos, este porcentaje de sus ingresos anuales (mínimo 5.000 euros):",
+      "opciones": [
+        "El 25 %",
+        "El 50 %",
+        "El 30 %",
+        "El 40 %"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 3.b), también cuando «al menos el 40 % del total de sus ingresos anuales tengan carácter de ayuda o subvención pública, siempre que alcancen como mínimo la cantidad de 5.000 euros».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-003",
+      "ley": "ley-19-2013",
+      "articulo": "2.1.g",
+      "enunciado": "El título I se aplica a las sociedades mercantiles en cuyo capital la participación de las entidades del artículo 2 sea:",
+      "opciones": [
+        "Superior al 50 por 100",
+        "Igual o superior al 25 por 100",
+        "Superior al 40 por 100",
+        "Igual o superior al 75 por 100"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 2.1.g) se refiere a las sociedades mercantiles en cuyo capital social la participación, directa o indirecta, de las entidades previstas «sea superior al 50 por 100».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-004",
+      "ley": "ley-19-2013",
+      "articulo": "2.2",
+      "enunciado": "A efectos del título I de la Ley 19/2013, se entiende por Administraciones Públicas los organismos y entidades incluidos en:",
+      "opciones": [
+        "Las letras a) a c) del artículo 2.1",
+        "Las letras a) a f) del artículo 2.1",
+        "Las letras a) a d) del artículo 2.1",
+        "Todas las letras del artículo 2.1"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 2.2 dispone que «se entiende por Administraciones Públicas los organismos y entidades incluidos en las letras a) a d) del apartado anterior».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-005",
+      "ley": "ley-19-2013",
+      "articulo": "36.2.f",
+      "enunciado": "¿Cuál de los siguientes forma parte de la Comisión de Transparencia y Buen Gobierno?",
+      "opciones": [
+        "Un representante del Consejo de Estado",
+        "Un representante del Consejo General del Poder Judicial",
+        "Un representante de la Agencia Española de Protección de Datos",
+        "Un representante del Tribunal Constitucional"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 36.2, la Comisión está compuesta, entre otros, por «f) Un representante de la Agencia Española de Protección de Datos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-006",
+      "ley": "ley-19-2013",
+      "articulo": "8.1.a",
+      "enunciado": "Según la Ley 19/2013, la publicación de la información relativa a los contratos menores podrá realizarse:",
+      "opciones": [
+        "Trimestralmente",
+        "Semestralmente",
+        "Mensualmente",
+        "Anualmente"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 8.1.a) establece que «la publicación de la información relativa a los contratos menores podrá realizarse trimestralmente».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-007",
+      "ley": "ley-19-2013",
+      "articulo": "9.3",
+      "enunciado": "El incumplimiento reiterado de las obligaciones de publicidad activa tendrá, a efectos disciplinarios, la consideración de:",
+      "opciones": [
+        "Infracción leve",
+        "Infracción muy grave",
+        "Falta de diligencia sin sanción",
+        "Infracción grave"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 9.3 dispone que ese incumplimiento reiterado «tendrá la consideración de infracción grave» a efectos del régimen disciplinario.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-008",
+      "ley": "ley-19-2013",
+      "articulo": "9.1",
+      "enunciado": "¿Quién controla el cumplimiento de las obligaciones de publicidad activa por la Administración General del Estado?",
+      "opciones": [
+        "El Defensor del Pueblo",
+        "El Consejo de Transparencia y Buen Gobierno",
+        "El Tribunal de Cuentas",
+        "La Agencia Española de Protección de Datos"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 9.1 señala que ese cumplimiento «será objeto de control por parte del Consejo de Transparencia y Buen Gobierno».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-009",
+      "ley": "ley-19-2013",
+      "articulo": "12",
+      "enunciado": "¿Quién tiene derecho a acceder a la información pública según la Ley 19/2013?",
+      "opciones": [
+        "Todas las personas",
+        "Solo los ciudadanos españoles",
+        "Solo quienes acrediten interés legítimo",
+        "Solo los ciudadanos de la Unión Europea"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 12 dispone: «Todas las personas tienen derecho a acceder a la información pública».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-010",
+      "ley": "ley-19-2013",
+      "articulo": "13",
+      "enunciado": "Para ser información pública, los contenidos o documentos en poder de los sujetos obligados deben haber sido:",
+      "opciones": [
+        "Elaborados por ellos y publicados en un diario oficial",
+        "Aprobados de forma definitiva por el órgano competente",
+        "Elaborados o adquiridos en el ejercicio de sus funciones",
+        "Registrados en soporte electrónico"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 13 define la información pública como los contenidos o documentos, «cualquiera que sea su formato o soporte», que obren en poder de los sujetos «y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-011",
+      "ley": "ley-19-2013",
+      "articulo": "14.1.l",
+      "enunciado": "¿Cuál de los siguientes es un límite al derecho de acceso previsto en el artículo 14 de la Ley 19/2013?",
+      "opciones": [
+        "La imagen institucional del órgano",
+        "La protección del medio ambiente",
+        "La carga de trabajo de la unidad",
+        "La organización interna del servicio"
+      ],
+      "correcta": 1,
+      "explicacion": "Entre los límites del artículo 14.1, el acceso podrá limitarse cuando suponga un perjuicio para «l) La protección del medio ambiente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-012",
+      "ley": "ley-19-2013",
+      "articulo": "15.1",
+      "enunciado": "Si la información contiene datos que revelen la ideología o la religión del afectado, el acceso solo podrá autorizarse, en general, con:",
+      "opciones": [
+        "Su consentimiento tácito",
+        "Informe favorable del Consejo de Transparencia",
+        "Una ponderación razonada del interés público",
+        "Su consentimiento expreso y por escrito"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 15.1 exige en esos casos que «se contase con el consentimiento expreso y por escrito del afectado», salvo que los hubiese hecho manifiestamente públicos antes.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-013",
+      "ley": "ley-19-2013",
+      "articulo": "16",
+      "enunciado": "Cuando se concede acceso parcial por aplicar un límite, ¿qué debe hacerse?",
+      "opciones": [
+        "Pedir autorización previa al Consejo de Transparencia",
+        "Suspender el plazo para resolver hasta un mes más",
+        "Comunicarlo al Defensor del Pueblo",
+        "Indicar al solicitante que parte de la información ha sido omitida"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 16, se concederá el acceso parcial y en ese caso «deberá indicarse al solicitante que parte de la información ha sido omitida».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-014",
+      "ley": "ley-19-2013",
+      "articulo": "17.3",
+      "enunciado": "Sobre la motivación de la solicitud de acceso a la información pública:",
+      "opciones": [
+        "Es obligatoria si se piden datos personales",
+        "El solicitante no está obligado a motivarla",
+        "Su ausencia es causa de inadmisión",
+        "Debe acreditar un interés directo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 17.3 dispone que «el solicitante no está obligado a motivar su solicitud de acceso a la información» y que su ausencia «no será por si sola causa de rechazo de la solicitud».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-015",
+      "ley": "ley-19-2013",
+      "articulo": "17.2.c",
+      "enunciado": "La solicitud de acceso debe presentarse por un medio que permita tener constancia, entre otros datos, de:",
+      "opciones": [
+        "Los motivos de la solicitud",
+        "La firma electrónica cualificada del solicitante",
+        "Una dirección de contacto, preferentemente electrónica",
+        "El interés legítimo del solicitante"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 17.2 exige constancia, entre otros datos, de «c) Una dirección de contacto, preferentemente electrónica, a efectos de comunicaciones».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-016",
+      "ley": "ley-19-2013",
+      "articulo": "18.1.b",
+      "enunciado": "Se inadmitirán las solicitudes referidas a información de carácter auxiliar o de apoyo, como la contenida en:",
+      "opciones": [
+        "Notas, borradores u opiniones",
+        "Contratos menores adjudicados",
+        "Resoluciones firmes",
+        "Presupuestos aprobados"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 18.1.b) inadmite las solicitudes referidas a información auxiliar o de apoyo «como la contenida en notas, borradores, opiniones, resúmenes, comunicaciones e informes internos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-017",
+      "ley": "ley-19-2013",
+      "articulo": "18.2",
+      "enunciado": "Si se inadmite una solicitud por dirigirse a un órgano que no tiene la información y se desconoce el competente, la resolución debe:",
+      "opciones": [
+        "Archivar sin más la solicitud",
+        "Remitirla al Consejo de Transparencia",
+        "Indicar el órgano que, a su juicio, es competente",
+        "Requerir al solicitante que la subsane en diez días"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 18.2 dispone que el órgano que acuerde la inadmisión «deberá indicar en la resolución el órgano que, a su juicio, es competente para conocer de la solicitud».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-018",
+      "ley": "ley-19-2013",
+      "articulo": "19.2",
+      "enunciado": "Si la solicitud no identifica de forma suficiente la información, se pedirá al solicitante que la concrete en un plazo de:",
+      "opciones": [
+        "Diez días",
+        "Cinco días",
+        "Quince días",
+        "Un mes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 19.2 establece que se pedirá al solicitante «que la concrete en un plazo de diez días», con indicación de que, si no lo hace, se le tendrá por desistido.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-019",
+      "ley": "ley-19-2013",
+      "articulo": "19.3",
+      "enunciado": "Si la información solicitada puede afectar a derechos de terceros identificados, se les concede para alegaciones un plazo de:",
+      "opciones": [
+        "Diez días",
+        "Quince días",
+        "Cinco días",
+        "Un mes"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 19.3, a esos terceros «se les concederá un plazo de quince días para que puedan realizar las alegaciones que estimen oportunas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-020",
+      "ley": "ley-19-2013",
+      "articulo": "20.1",
+      "enunciado": "¿Cuál es el plazo máximo para notificar la resolución sobre una solicitud de acceso a la información pública?",
+      "opciones": [
+        "Tres meses desde la presentación",
+        "Quince días desde la recepción",
+        "Dos meses desde la presentación",
+        "Un mes desde la recepción por el órgano competente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 20.1 fija «el plazo máximo de un mes desde la recepción de la solicitud por el órgano competente para resolver».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-021",
+      "ley": "ley-19-2013",
+      "articulo": "20.1",
+      "enunciado": "Si el volumen o la complejidad de la información lo hacen necesario, el plazo para resolver la solicitud de acceso:",
+      "opciones": [
+        "Podrá ampliarse por otro mes",
+        "Podrá ampliarse por quince días",
+        "Podrá ampliarse por dos meses",
+        "No podrá ampliarse"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 20.1 permite que el plazo se amplíe «por otro mes en el caso de que el volumen o la complejidad de la información que se solicita así lo hagan necesario y previa notificación al solicitante».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-022",
+      "ley": "ley-19-2013",
+      "articulo": "20.4",
+      "enunciado": "Si vence el plazo máximo sin resolución expresa notificada, la solicitud de acceso se entiende:",
+      "opciones": [
+        "Estimada",
+        "Estimada parcialmente",
+        "Caducada",
+        "Desestimada"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 20.4 dispone que, transcurrido el plazo máximo sin resolución expresa, «se entenderá que la solicitud ha sido desestimada».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-023",
+      "ley": "ley-19-2013",
+      "articulo": "22.1",
+      "enunciado": "Cuando no pueda darse el acceso en el momento de notificar la resolución, deberá otorgarse en un plazo no superior a:",
+      "opciones": [
+        "Cinco días",
+        "Quince días",
+        "Diez días",
+        "Un mes"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 22.1 dispone que en ese caso el acceso «deberá otorgarse, en cualquier caso, en un plazo no superior a diez días».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-024",
+      "ley": "ley-19-2013",
+      "articulo": "22.4",
+      "enunciado": "Sobre el coste del acceso a la información pública, la Ley 19/2013 establece que:",
+      "opciones": [
+        "Siempre exige el pago de una tasa",
+        "Es gratuito, aunque la expedición de copias puede generar exacciones",
+        "Es gratuito en todo caso, incluidas las copias",
+        "Solo es gratuito por vía electrónica"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 22.4 señala que «el acceso a la información será gratuito», aunque «la expedición de copias o la trasposición de la información a un formato diferente al original podrá dar lugar a la exigencia de exacciones».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-025",
+      "ley": "ley-19-2013",
+      "articulo": "24.2",
+      "enunciado": "¿En qué plazo se interpone la reclamación ante el Consejo de Transparencia y Buen Gobierno?",
+      "opciones": [
+        "Diez días",
+        "Un mes",
+        "Dos meses",
+        "Tres meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 24.2 dispone que la reclamación «se interpondrá en el plazo de un mes a contar desde el día siguiente al de la notificación del acto impugnado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-026",
+      "ley": "ley-19-2013",
+      "articulo": "24.4",
+      "enunciado": "Si el Consejo de Transparencia no resuelve una reclamación en plazo, ¿qué ocurre?",
+      "opciones": [
+        "Se entiende estimada a los tres meses",
+        "Se entiende desestimada al mes",
+        "Se entiende desestimada a los tres meses",
+        "Se entiende estimada a los dos meses"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 24.4, «el plazo máximo para resolver y notificar la resolución será de tres meses, transcurrido el cual, la reclamación se entenderá desestimada».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-027",
+      "ley": "ley-19-2013",
+      "articulo": "23.2",
+      "enunciado": "Contra las resoluciones de acceso dictadas por el Congreso de los Diputados o el Tribunal de Cuentas, ¿qué cabe?",
+      "opciones": [
+        "Solo recurso contencioso-administrativo",
+        "Reclamación ante el Consejo de Transparencia",
+        "Recurso de alzada ante su Presidente",
+        "Recurso potestativo de reposición"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 23.2 dispone que «contra las resoluciones dictadas por los órganos previstos en el artículo 2.1.f) sólo cabrá la interposición de recurso contencioso-administrativo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-028",
+      "ley": "ley-19-2013",
+      "articulo": "30.4",
+      "enunciado": "Los sancionados por una infracción muy grave del título II no podrán ser nombrados alto cargo durante un periodo de entre:",
+      "opciones": [
+        "Tres y cinco años",
+        "Dos y cinco años",
+        "Diez y quince años",
+        "Cinco y diez años"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 30.4 dispone que no podrán ser nombrados alto cargo o asimilado «durante un periodo de entre cinco y diez años».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-029",
+      "ley": "ley-19-2013",
+      "articulo": "32.1",
+      "enunciado": "En el título de buen gobierno, ¿en qué plazo prescriben las infracciones graves?",
+      "opciones": [
+        "Un año",
+        "Dos años",
+        "Tres años",
+        "Cinco años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 32.1 fija la prescripción en «cinco años para las infracciones muy graves, tres años para las graves y un año para las leves».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    },
+    {
+      "id": "tra-030",
+      "ley": "ley-19-2013",
+      "articulo": "37.1",
+      "enunciado": "El Presidente del Consejo de Transparencia y Buen Gobierno es nombrado por un período de:",
+      "opciones": [
+        "Cinco años, no renovable",
+        "Cuatro años, renovable una vez",
+        "Seis años, no renovable",
+        "Cinco años, renovable una vez"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 37.1, el Presidente «será nombrado por un período no renovable de cinco años mediante Real Decreto».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 7
+      }
+    }
+  ]
+}
