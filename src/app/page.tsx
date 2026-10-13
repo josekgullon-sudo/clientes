@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Check, Crown, Flame, Gauge, RotateCcw } from "lucide-react";
+import { ArrowRight, Check, Crown, Flame, Gauge, RotateCcw, Timer, Zap } from "lucide-react";
 import { EnlaceBoton } from "@/components/boton";
 import { Cabecera } from "@/components/cabecera";
 import { CtaFija } from "@/components/cta-fija";
@@ -8,6 +8,7 @@ import { PreguntaPortada } from "@/components/inicio/pregunta-portada";
 import { Clara } from "@/components/mascota/clara";
 import { Pie } from "@/components/pie";
 import { Comparativa } from "@/components/planes/comparativa";
+import { CuentaAnimada } from "@/components/ui/cuenta-animada";
 import { diasHastaExamenEstimado, examenEstimado } from "@/lib/examen";
 import { paginaPublica, resumenBanco, rutasPublicas } from "@/lib/seo/banco";
 import { CUOTA_GRATIS } from "@/lib/sitio";
@@ -64,9 +65,9 @@ export default function Inicio() {
   };
 
   const cifras = [
-    { n: banco.preguntas.toLocaleString("es-ES"), l: "preguntas revisadas" },
-    { n: String(banco.temasConPreguntas), l: "temas con test" },
-    { n: dias !== null && dias > 0 ? String(dias) : "—", l: "días al examen*" },
+    { n: banco.preguntas, l: "preguntas revisadas" },
+    { n: banco.temasConPreguntas, l: "temas con test" },
+    { n: dias !== null && dias > 0 ? dias : null, l: "días al examen*" },
   ];
 
   return (
@@ -95,7 +96,7 @@ export default function Inicio() {
                 dominas.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
-                <EnlaceBoton href="/demo" className="sm:px-8">
+                <EnlaceBoton href="/demo" className="brillo-boton sm:px-8">
                   Empezar gratis <ArrowRight aria-hidden size={20} />
                 </EnlaceBoton>
                 <EnlaceBoton href="#planes" variante="texto" className="sm:px-4">
@@ -110,7 +111,17 @@ export default function Inicio() {
                 ))}
               </ul>
             </div>
-            <div className="aparecer [animation-delay:120ms]">
+            <div className="aparecer relative [animation-delay:120ms]">
+              {/* Insignias que flotan alrededor de la pregunta, como en la app. */}
+              <span aria-hidden="true" className="flotar absolute -top-2 -left-1 z-20 inline-flex items-center gap-1 rounded-2xl border-2 border-filete bg-superficie px-2.5 py-1 font-display text-sm font-black text-oro-texto shadow-[0_3px_0_var(--filete)] md:-left-8">
+                <Zap size={15} className="fill-subrayador text-subrayador" /> +10 XP
+              </span>
+              <span aria-hidden="true" className="flotar absolute -bottom-4 -left-1 z-20 inline-flex items-center gap-1 rounded-2xl border-2 border-filete bg-superficie px-2.5 py-1 font-display text-sm font-black text-naranja-texto shadow-[0_3px_0_var(--filete)] [animation-delay:-1s] md:-left-10">
+                <Flame size={15} className="fill-naranja text-naranja" /> 12 días
+              </span>
+              <span aria-hidden="true" className="flotar absolute right-2 -bottom-5 z-20 inline-flex items-center gap-1 rounded-2xl border-2 border-filete bg-superficie px-2.5 py-1 font-display text-sm font-black text-morado-texto shadow-[0_3px_0_var(--filete)] [animation-delay:-2s] md:-right-8">
+                <Crown size={15} className="fill-[#a78bfa] text-[#7c3aed]" /> ¡Corona!
+              </span>
               {paraPortada.length > 0 ? (
                 <PreguntaPortada preguntas={paraPortada} />
               ) : null}
@@ -122,7 +133,9 @@ export default function Inicio() {
           <ul className="mx-auto grid max-w-6xl grid-cols-3 divide-x divide-filete px-2 py-7">
             {cifras.map((c) => (
               <li key={c.l} className="px-2 text-center">
-                <p className="cifras font-display text-3xl font-extrabold md:text-5xl">{c.n}</p>
+                <p className="cifras font-display text-3xl font-extrabold md:text-5xl">
+                  {c.n === null ? "—" : <CuentaAnimada valor={c.n} alVer duracion={1200} />}
+                </p>
                 <p className="mt-1 text-xs font-semibold text-pizarra md:text-sm">{c.l}</p>
               </li>
             ))}
@@ -132,6 +145,27 @@ export default function Inicio() {
               *Estimación: {examen.etiqueta}. La fecha oficial la publica el BOE.
             </p>
           )}
+        </section>
+
+        <section aria-labelledby="reto" className="px-4 pt-12">
+          <div className="revelar relative mx-auto flex max-w-6xl flex-col items-start gap-5 overflow-hidden rounded-[2rem] border-2 border-subrayador bg-oro-suave px-6 py-8 md:flex-row md:items-center md:px-12">
+            <span aria-hidden="true" className="rayo-fondo !inset-auto -top-16 -right-16 size-64" />
+            <span className="latido relative grid size-16 shrink-0 place-items-center rounded-2xl bg-subrayador text-[#422006] shadow-[0_4px_0_#ca8a04]" aria-hidden="true">
+              <Zap size={34} className="fill-current" />
+            </span>
+            <div className="relative md:flex-1">
+              <p className="inline-flex items-center gap-1.5 text-sm font-black tracking-wide text-oro-texto uppercase">
+                <Timer aria-hidden size={16} /> Reto del día
+              </p>
+              <h2 id="reto" className="mt-1 font-display text-[1.75rem] leading-tight font-black md:text-[2.25rem]">
+                ¿Cuántas aciertas en 60 segundos?
+              </h2>
+              <p className="mt-1 font-semibold text-pizarra">Un reto nuevo cada día. Sin registro. Reta a tus amigos.</p>
+            </div>
+            <EnlaceBoton href="/reto" className="relative shrink-0">
+              Aceptar el reto <ArrowRight aria-hidden size={20} />
+            </EnlaceBoton>
+          </div>
         </section>
 
         {/* Lo que nos diferencia, enseñado con piezas reales de la app. */}
@@ -145,8 +179,8 @@ export default function Inicio() {
               Cada respuesta trae el porqué y el artículo. Y la app decide qué toca hoy, para que no pierdas tiempo.
             </p>
             <div className="mt-10 grid gap-4 md:grid-cols-3">
-              <article className="tarjeta p-6">
-                <Clara pose="senala" animada={false} className="size-20" />
+              <article className="tarjeta tarjeta-viva revelar p-6">
+                <Clara pose="senala" className="size-20" />
                 <h3 className="mt-4 text-xl font-bold">Un camino por temas</h3>
                 <p className="mt-1 text-pizarra">Cinco niveles por tema y un examen final. Siempre sabes qué toca hoy.</p>
                 <ol className="camino mt-5" aria-hidden="true">
@@ -170,8 +204,8 @@ export default function Inicio() {
                 </ol>
               </article>
 
-              <article className="tarjeta p-6">
-                <Clara pose="animo" animada={false} className="size-20" />
+              <article className="tarjeta tarjeta-viva revelar p-6">
+                <Clara pose="animo" className="size-20" />
                 <h3 className="mt-4 text-xl font-bold">Tus fallos vuelven</h3>
                 <p className="mt-1 text-pizarra">Repaso espaciado: lo que fallas aparece otra vez justo antes de olvidarlo.</p>
                 <div className="mt-5 flex items-center gap-3 rounded-2xl bg-papel p-4" aria-hidden="true">
@@ -186,8 +220,8 @@ export default function Inicio() {
                 </div>
               </article>
 
-              <article className="tarjeta p-6">
-                <Clara pose="celebra" animada={false} className="size-20" />
+              <article className="tarjeta tarjeta-viva revelar p-6">
+                <Clara pose="celebra" className="size-20" />
                 <h3 className="mt-4 text-xl font-bold">Sabes cómo vas</h3>
                 <p className="mt-1 text-pizarra">Racha diaria, acierto por tema y predicción de nota con la penalización real.</p>
                 <div className="mt-5 grid grid-cols-3 gap-2 text-center" aria-hidden="true">
@@ -277,14 +311,14 @@ export default function Inicio() {
 
         <section className="px-4 pb-16">
           <div className="mx-auto flex max-w-6xl flex-col items-start gap-6 overflow-hidden rounded-[2rem] bg-pino-boton px-6 py-10 text-sobre-pino shadow-[0_6px_0_var(--pino-sombra)] md:flex-row md:items-center md:justify-between md:px-12">
-            <Clara pose="celebra" className="size-28 shrink-0 md:order-last" />
+            <Clara pose="hola" saludoInfinito className="size-28 shrink-0 md:order-last" />
             <div className="md:flex-1">
               <h2 className="font-display text-[2rem] leading-tight font-extrabold">Tu primer test, en cinco minutos.</h2>
               <p className="mt-2 opacity-90">Sin registro y sin tarjeta. Si te gusta, guardas tus fallos al crear la cuenta.</p>
             </div>
             <Link
               href="/demo"
-              className="inline-flex min-h-14 shrink-0 items-center gap-2 rounded-2xl bg-white px-7 text-[0.9375rem] font-extrabold tracking-wide text-[#15803d] uppercase shadow-[0_4px_0_rgb(0_0_0/0.2)] transition hover:brightness-95 active:translate-y-[3px] active:shadow-none"
+              className="brillo-boton inline-flex min-h-14 [--destello:rgb(21_128_61/0.2)] shrink-0 items-center gap-2 rounded-2xl bg-white px-7 text-[0.9375rem] font-extrabold tracking-wide text-[#15803d] uppercase shadow-[0_4px_0_rgb(0_0_0/0.2)] transition hover:brightness-95 active:translate-y-[3px] active:shadow-none"
             >
               Hacer el test <ArrowRight aria-hidden size={20} />
             </Link>

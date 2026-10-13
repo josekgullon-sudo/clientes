@@ -60,7 +60,7 @@ export function OnboardingForm({
             setPaso(2);
           }}
         >
-          <ClaraDice pose="hola" tamano="size-28">
+          <ClaraDice pose="hola" saludoInfinito tamano="size-28">
             <span className="block font-display text-lg font-black">¡Hola! Soy Clara.</span>
             <span className="font-semibold">Te acompaño hasta el examen. Para empezar: ¿cuándo es?</span>
           </ClaraDice>

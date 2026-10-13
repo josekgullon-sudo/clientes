@@ -31,7 +31,7 @@ export default async function Entrar({ searchParams }: PageProps<"/entrar">) {
     <>
       <Cabecera derecha={null} />
       <main className="mx-auto w-full max-w-md flex-1 px-4 pt-8 pb-16">
-        <Clara pose="hola" className="mx-auto size-28" />
+        <Clara pose="hola" saludoInfinito className="mx-auto size-28" />
         <h1 className="mt-4 text-center font-display text-[2.25rem] leading-tight font-extrabold">
           {registro ? "Crea tu cuenta gratis" : "Hola de nuevo"}
         </h1>

@@ -189,7 +189,7 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
         </section>
       )}
 
-      <ClaraDice pose={!puedeLeccion ? "duerme" : faltan === 0 ? "celebra" : "hola"}>
+      <ClaraDice pose={!puedeLeccion ? "duerme" : faltan === 0 ? "celebra" : "hola"} saludoInfinito>
         <span className="block font-display text-lg font-black">
           {saludo()}
           {nombre ? `, ${nombre}` : ""}!
@@ -296,6 +296,16 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
         <h2 id="practicar" className="mb-3 font-display text-xl font-black">
           Más formas de practicar
         </h2>
+        <Link href="/reto" className="group mb-4 block rounded-2xl">
+          <Modo
+            icono={<Zap aria-hidden size={22} className="fill-current" />}
+            titulo="Reto relámpago"
+            texto="60 segundos, todas las que puedas."
+            color="#854d0e"
+            sombra="#5b3409"
+            insignia="Nuevo"
+          />
+        </Link>
         <div className="grid gap-4 sm:grid-cols-3">
           <form action={crearTest}>
             <input type="hidden" name="modo" value="repaso" />

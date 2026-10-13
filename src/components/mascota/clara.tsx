@@ -71,7 +71,7 @@ function Ojos({ pose }: { pose: PoseClara }) {
   }
   const mira = pose === "piensa" ? [-1.5, -3] : pose === "senala" ? [2.5, 0] : [0.5, 0.5];
   return (
-    <g>
+    <g className="clara-ojos">
       {[48, 72].map((x) => (
         <g key={x}>
           <ellipse cx={x} cy="72" rx="8.5" ry="10" fill="#fff" />
@@ -115,12 +115,15 @@ export function Clara({
   pose = "hola",
   className = "size-28",
   animada = true,
+  saludoInfinito = false,
   titulo,
 }: {
   pose?: PoseClara;
   className?: string;
-  /** Pequeño rebote al aparecer y saludo con la mano. Respeta prefers-reduced-motion. */
+  /** Rebote al aparecer, respiración, parpadeo y saludo. Respeta prefers-reduced-motion. */
   animada?: boolean;
+  /** La mano no deja de saludar (portada, pantallas de bienvenida). */
+  saludoInfinito?: boolean;
   /** Texto alternativo. Sin él la ilustración es decorativa. */
   titulo?: string;
 }) {
@@ -128,7 +131,7 @@ export function Clara({
   return (
     <svg
       viewBox="0 0 120 150"
-      className={`${className} ${animada ? "clara-anima" : ""} overflow-visible`}
+      className={`${className} ${animada ? "clara-anima" : ""} ${saludoInfinito ? "clara-saludo-infinito" : ""} overflow-visible`}
       role={titulo ? "img" : undefined}
       aria-label={titulo}
       aria-hidden={titulo ? undefined : true}
@@ -136,6 +139,7 @@ export function Clara({
       {/* Sombra en el suelo */}
       <ellipse cx="60" cy="140" rx="30" ry="5" fill={C.tinta} opacity="0.12" />
 
+      <g className="clara-respira">
       {/* Pies */}
       <ellipse cx="47" cy="133" rx="9" ry="5.5" fill={C.capuchon} />
       <ellipse cx="73" cy="133" rx="9" ry="5.5" fill={C.capuchon} />
@@ -166,6 +170,8 @@ export function Clara({
 
       {/* Trazo de subrayador en la barriga */}
       <rect x="44" y="106" width="32" height="7" rx="3.5" fill={C.capuchon} opacity="0.85" />
+
+      </g>
 
       {pose === "duerme" && (
         <g fill={C.tinta} fontFamily="sans-serif" fontWeight="800" className="clara-zeta">

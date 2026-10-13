@@ -34,6 +34,7 @@ export function PreguntaPortada({ preguntas }: { preguntas: PreguntaTest[] }) {
       <Clara
         key={`${p.id}-${elegida}`}
         pose={!respondida ? "hola" : acierto ? "celebra" : "animo"}
+        saludoInfinito={!respondida}
         className="absolute -top-[4.75rem] right-3 z-10 size-24"
       />
     <div className="tarjeta overflow-hidden shadow-alta">

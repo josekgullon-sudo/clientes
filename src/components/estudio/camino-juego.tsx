@@ -60,7 +60,7 @@ function Nodo({
       onClick={onPulsar}
       aria-expanded={abierto}
       aria-label={`Tema ${tema.numero}: ${tema.titulo}`}
-      className="relative grid place-items-center rounded-full transition active:translate-y-[4px]"
+      className={`relative grid place-items-center rounded-full transition active:translate-y-[4px] ${estado === "actual" ? "nodo-pulso" : ""}`}
       style={{
         width: tam,
         height: tam,
