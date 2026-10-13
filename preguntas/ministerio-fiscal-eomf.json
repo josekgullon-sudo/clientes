@@ -1,0 +1,405 @@
+{
+  "descripcion": "Ley 50/1981, Estatuto Orgánico del Ministerio Fiscal: naturaleza, principios, órganos, Consejo Fiscal, Fiscal General del Estado e inspección. Lote generado el 2026-10-13; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-07-09).",
+  "preguntas": [
+    {
+      "id": "mf-001",
+      "ley": "ley-50-1981",
+      "articulo": "2.1",
+      "enunciado": "Según el Estatuto Orgánico del Ministerio Fiscal, este está integrado con autonomía funcional en:",
+      "opciones": [
+        "El Poder Judicial",
+        "El Gobierno de la Nación",
+        "Las Cortes Generales",
+        "El Consejo General del Poder Judicial"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 2.1 dice que el Ministerio Fiscal es «un órgano de relevancia constitucional con personalidad jurídica propia, integrado con autonomía funcional en el Poder Judicial».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-002",
+      "ley": "ley-50-1981",
+      "articulo": "1",
+      "enunciado": "Además de promover la acción de la justicia, el artículo 1 del EOMF encomienda al Ministerio Fiscal:",
+      "opciones": [
+        "Unificar la doctrina de los Tribunales",
+        "Velar por la independencia de los Tribunales",
+        "Gobernar los órganos judiciales",
+        "Inspeccionar los Juzgados y Tribunales"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 1, el Ministerio Fiscal tiene por misión promover la acción de la justicia […] «así como velar por la independencia de los Tribunales, y procurar ante éstos la satisfacción del interés social».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-003",
+      "ley": "ley-50-1981",
+      "articulo": "7",
+      "enunciado": "Por el principio de imparcialidad, el Ministerio Fiscal actuará:",
+      "opciones": [
+        "Con sujeción a las instrucciones del Gobierno",
+        "Bajo la dependencia de sus superiores",
+        "Con plena objetividad e independencia",
+        "Conforme a criterios de oportunidad"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 7 dice: «Por el principio de imparcialidad el Ministerio Fiscal actuará con plena objetividad e independencia en defensa de los intereses que le estén encomendados».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-004",
+      "ley": "ley-50-1981",
+      "articulo": "6",
+      "enunciado": "Por el principio de legalidad, el Ministerio Fiscal actuará con sujeción a:",
+      "opciones": [
+        "Las órdenes del Ministro de Justicia",
+        "Los criterios de la Junta de Fiscales de Sala",
+        "La doctrina del Tribunal Supremo",
+        "La Constitución, las leyes y demás normas del ordenamiento"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 6 dice: «Por el principio de legalidad el Ministerio Fiscal actuará con sujeción a la Constitución, a las leyes y demás normas que integran el ordenamiento jurídico vigente […]».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-005",
+      "ley": "ley-50-1981",
+      "articulo": "12",
+      "enunciado": "¿Cuál de los siguientes NO figura entre los órganos del Ministerio Fiscal del artículo 12 del EOMF?",
+      "opciones": [
+        "La Fiscalía del Consejo de Estado",
+        "La Fiscalía Jurídico Militar",
+        "La Fiscalía del Tribunal de Cuentas",
+        "Las Fiscalías de Área"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 12 enumera, entre otros, «i) La Fiscalía del Tribunal de Cuentas», «j) La Fiscalía Jurídico Militar» y «m) Las Fiscalías de Área». No incluye ninguna Fiscalía del Consejo de Estado.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-006",
+      "ley": "ley-50-1981",
+      "articulo": "14.1",
+      "enunciado": "Los miembros electivos del Consejo Fiscal se eligen por un período de:",
+      "opciones": [
+        "Tres años",
+        "Cuatro años",
+        "Cinco años",
+        "Seis años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 14.1 dice que los miembros electivos del Consejo Fiscal «se elegirán, por un período de cuatro años».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-007",
+      "ley": "ley-50-1981",
+      "articulo": "14.1",
+      "enunciado": "Además de sus miembros natos, ¿cuántos Fiscales pertenecientes a cualquiera de las categorías forman parte del Consejo Fiscal?",
+      "opciones": [
+        "Siete",
+        "Doce",
+        "Nueve",
+        "Ocho"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 14.1 dice que el Consejo Fiscal se constituirá con la persona titular de la Fiscalía General del Estado, el Teniente Fiscal del Tribunal Supremo, el Fiscal Jefe Inspector «y nueve Fiscales pertenecientes a cualquiera de las categorías».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-008",
+      "ley": "ley-50-1981",
+      "articulo": "14.1",
+      "enunciado": "En la elección de los Vocales del Consejo Fiscal, cada uno de los sexos debe suponer como mínimo:",
+      "opciones": [
+        "El cincuenta por ciento de los Vocales electos",
+        "El treinta por ciento de los Vocales electos",
+        "El treinta y tres por ciento de los Vocales electos",
+        "El cuarenta por ciento de los Vocales electos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 14.1 exige atender al principio de presencia equilibrada, «de forma que cada uno de los sexos suponga como mínimo el cuarenta por ciento de los Vocales electos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-009",
+      "ley": "ley-50-1981",
+      "articulo": "14.3",
+      "enunciado": "En caso de empate en las votaciones del Consejo Fiscal:",
+      "opciones": [
+        "Es dirimente el voto de su Presidente",
+        "Se repite la votación en la sesión siguiente",
+        "Decide la Junta de Fiscales de Sala",
+        "Se entiende rechazada la propuesta"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 14.3 dice que los acuerdos del Consejo Fiscal se adoptarán «por mayoría simple, siendo dirimente, en caso de empate, el voto de su Presidente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-010",
+      "ley": "ley-50-1981",
+      "articulo": "14.4.j",
+      "enunciado": "Si la orden de remisión no indica urgencia, ¿en qué plazo informa el Consejo Fiscal los proyectos de ley que afecten a la organización del Ministerio Fiscal?",
+      "opciones": [
+        "Quince días hábiles",
+        "Treinta días hábiles",
+        "Un mes",
+        "Veinte días hábiles"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 14.4.j), el Consejo Fiscal «deberá emitir el informe correspondiente en el plazo de treinta días hábiles. Cuando en la orden de remisión se haga constar la urgencia del informe, el plazo será de quince días hábiles».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-011",
+      "ley": "ley-50-1981",
+      "articulo": "14.2",
+      "enunciado": "No pueden ser elegidos vocales del Consejo Fiscal los Fiscales que prestan servicios en:",
+      "opciones": [
+        "La Fiscalía de la Audiencia Nacional",
+        "La Fiscalía del Tribunal Supremo",
+        "La Secretaría Técnica de la Fiscalía General",
+        "Las Fiscalías Provinciales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 14.2 dice: «No podrán ser elegidos vocales del Consejo Fiscal los Fiscales que presten sus servicios en la Inspección Fiscal, la Unidad de Apoyo y la Secretaría Técnica de la Fiscalía General del Estado».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-012",
+      "ley": "ley-50-1981",
+      "articulo": "29.1",
+      "enunciado": "El Fiscal General del Estado se elige entre juristas españoles de reconocido prestigio con:",
+      "opciones": [
+        "Más de diez años de ejercicio efectivo de su profesión",
+        "Más de veinte años de ejercicio efectivo de su profesión",
+        "Más de doce años de ejercicio efectivo de su profesión",
+        "Más de quince años de ejercicio efectivo de su profesión"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 29.1 dice que se elige «entre juristas españoles de reconocido prestigio con más de quince años de ejercicio efectivo de su profesión».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-013",
+      "ley": "ley-50-1981",
+      "articulo": "29.1",
+      "enunciado": "No puede ser propuesto Fiscal General del Estado quien haya sido titular de un Ministerio:",
+      "opciones": [
+        "En los cinco años anteriores",
+        "En los dos años anteriores",
+        "En los tres años anteriores",
+        "En los cuatro años anteriores"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 29.1 dice: «No podrá ser propuesto para el cargo quien en los cinco años anteriores haya sido nombrado titular de un Ministerio […]».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-014",
+      "ley": "ley-50-1981",
+      "articulo": "29.3",
+      "enunciado": "Una vez nombrado, el Fiscal General del Estado toma posesión del cargo ante:",
+      "opciones": [
+        "El Consejo de Ministros",
+        "El Pleno del Tribunal Supremo",
+        "El Pleno del Consejo General del Poder Judicial",
+        "La Comisión de Justicia del Congreso"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 29.3 dice que el Fiscal General del Estado prestará ante el Rey el juramento o promesa «y tomará posesión del cargo ante el Pleno del Tribunal Supremo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-015",
+      "ley": "ley-50-1981",
+      "articulo": "29.2",
+      "enunciado": "Recibido el informe del Consejo General del Poder Judicial, el Gobierno comunica su propuesta de Fiscal General del Estado a:",
+      "opciones": [
+        "El Senado",
+        "Las Cortes Generales en sesión conjunta",
+        "El Congreso de los Diputados",
+        "El Tribunal Supremo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 29.2 dice que «el Gobierno comunicará su propuesta al Congreso de los Diputados, a fin de que pueda disponer la comparecencia de la persona elegida ante la Comisión correspondiente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-016",
+      "ley": "ley-50-1981",
+      "articulo": "31.1",
+      "enunciado": "El mandato del Fiscal General del Estado tiene una duración de:",
+      "opciones": [
+        "Cinco años",
+        "Tres años",
+        "Seis años",
+        "Cuatro años"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 31.1 dice: «El mandato del Fiscal General del Estado tendrá una duración de cuatro años».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-017",
+      "ley": "ley-50-1981",
+      "articulo": "31.2",
+      "enunciado": "El mandato del Fiscal General del Estado puede renovarse solo si el titular ha ostentado el cargo durante un periodo inferior a:",
+      "opciones": [
+        "Dos años",
+        "Un año",
+        "Tres años",
+        "Seis meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 31.2 dice que el mandato «no podrá ser renovado, excepto en los supuestos en que el titular hubiera ostentado el cargo durante un periodo inferior a dos años».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-018",
+      "ley": "ley-50-1981",
+      "articulo": "31.3",
+      "enunciado": "¿Quién aprecia que concurre una causa de cese del Fiscal General del Estado, como la incapacidad o el incumplimiento grave de funciones?",
+      "opciones": [
+        "El Consejo General del Poder Judicial",
+        "El Consejo de Ministros",
+        "El Consejo Fiscal",
+        "El Pleno del Tribunal Supremo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 31.3 dice: «La existencia de las causas de cese mencionadas en los apartados a), b), c) y d) del número anterior será apreciada por el Consejo de Ministros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-019",
+      "ley": "ley-50-1981",
+      "articulo": "30",
+      "enunciado": "En los actos oficiales, el Fiscal General del Estado ocupa el lugar inmediato siguiente al de:",
+      "opciones": [
+        "El Ministro de Justicia",
+        "El Presidente del Consejo de Estado",
+        "El Presidente del Tribunal Supremo",
+        "El Presidente del Tribunal Constitucional"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 30 dice: «En los actos oficiales ocupará el lugar inmediato siguiente al del Presidente del Tribunal Supremo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    },
+    {
+      "id": "mf-020",
+      "ley": "ley-50-1981",
+      "articulo": "13.2",
+      "enunciado": "¿A quién corresponde ejercer la inspección ordinaria de las Fiscalías del ámbito territorial de una Comunidad Autónoma?",
+      "opciones": [
+        "Al Fiscal Jefe Inspector",
+        "Al Consejo Fiscal",
+        "A la Junta de Fiscales de Sala",
+        "Al Fiscal Superior de la Comunidad Autónoma"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 13.2 dice: «En todo caso, corresponde al Fiscal Superior de la Comunidad Autónoma ejercer la inspección ordinaria de las Fiscalías de su ámbito territorial».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 4
+      }
+    }
+  ]
+}

@@ -80,7 +80,7 @@ Ninguna por ahora.
 - **internet-edge** (25, tema 28), **access-365** (30, tema 26) y **explorador-archivos** (25, tema 23): revisados y `validada`. En Edge no se pregunta por Ctrl+D ni Ctrl+R (la página de atajos tiene un error).
 - **poder-judicial-lopj** (30, tema 4): revisado y `validada`. Usa el texto vigente tras la
   LO 1/2025 (Tribunales de Instancia). El Ministerio Fiscal queda pendiente: su Estatuto Orgánico
-  (Ley 50/1981) no está en `/fuentes`.
+  (Ley 50/1981) se descarga después y **ministerio-fiscal-eomf** (20, tema 4) queda revisado y `validada`.
 - **Simulacro completo restaurado**: el bloque II ya tiene más de 300 preguntas, así que vuelve el
   formato real (30 + 50 preguntas, 65 minutos).
 - Fuentes nuevas, descargadas con `python3 scripts/descargar_boe.py`: Ley 19/2013, Ley 47/2003,
