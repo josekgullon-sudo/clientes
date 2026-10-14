@@ -1,0 +1,530 @@
+{
+  "descripcion": "Informática básica (tema 21): requisitos de hardware de Windows 11 (procesador, RAM, almacenamiento, UEFI, TPM), Sensor de almacenamiento, Copias de seguridad de Windows y OneDrive, Seguridad de Windows y Antivirus de Microsoft Defender, Firewall de Windows y phishing. Lote generado el 2026-10-13 a partir de páginas de support.microsoft.com/es-es; en borrador.",
+  "preguntas": [
+    {
+      "id": "inb-001",
+      "ley": null,
+      "articulo": "Requisitos mínimos del sistema para ejecutar Windows 11",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/compatibility/windows-11-system-requirements",
+      "enunciado": "¿Cuánta memoria RAM exige como mínimo Windows 11?",
+      "opciones": [
+        "2 GB",
+        "4 GB",
+        "8 GB",
+        "16 GB"
+      ],
+      "correcta": 1,
+      "explicacion": "Entre los requisitos mínimos, el de RAM es «4 GB». La página añade que «si el equipo tiene menos de 4 GB de memoria, a veces hay opciones para actualizar».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-002",
+      "ley": null,
+      "articulo": "Requisitos mínimos del sistema para ejecutar Windows 11",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/compatibility/windows-11-system-requirements",
+      "enunciado": "¿Qué capacidad mínima de almacenamiento necesita un equipo para ejecutar Windows 11?",
+      "opciones": [
+        "16 GB",
+        "32 GB",
+        "64 GB",
+        "128 GB"
+      ],
+      "correcta": 2,
+      "explicacion": "El requisito de almacenamiento es «64 GB o dispositivo de almacenamiento más grande».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-003",
+      "ley": null,
+      "articulo": "Requisitos mínimos del sistema para ejecutar Windows 11",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/compatibility/windows-11-system-requirements",
+      "enunciado": "¿Qué procesador (CPU) pide como mínimo Windows 11?",
+      "opciones": [
+        "1 GHz o más rápido, con 2 o más núcleos",
+        "2 GHz o más rápido, con 4 o más núcleos",
+        "1 GHz o más rápido, con un solo núcleo",
+        "3 GHz o más rápido, con 2 o más núcleos"
+      ],
+      "correcta": 0,
+      "explicacion": "El procesador debe ser de «1 GHz o más rápido con 2 o más núcleos y que aparece en nuestra lista de CPU aprobadas».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-004",
+      "ley": null,
+      "articulo": "Requisitos mínimos del sistema para ejecutar Windows 11",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/compatibility/windows-11-system-requirements",
+      "enunciado": "En los requisitos de firmware de Windows 11, ¿qué es UEFI?",
+      "opciones": [
+        "Un módulo que cifra la memoria RAM",
+        "Un controlador de la tarjeta gráfica",
+        "Un tipo de unidad de almacenamiento",
+        "Una versión moderna del BIOS del equipo"
+      ],
+      "correcta": 3,
+      "explicacion": "El firmware del sistema debe ser «UEFI (para Unified Extensible Firmware Interface, una versión moderna del BIOS del equipo) y compatible con el arranque seguro».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-005",
+      "ley": null,
+      "articulo": "Requisitos mínimos del sistema para ejecutar Windows 11",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/compatibility/windows-11-system-requirements",
+      "enunciado": "¿Qué versión del Módulo de plataforma segura (TPM) exige Windows 11?",
+      "opciones": [
+        "Versión 1.2",
+        "Versión 2.0",
+        "Versión 1.0",
+        "Versión 3.0"
+      ],
+      "correcta": 1,
+      "explicacion": "El requisito de TPM es el «Módulo de plataforma segura (TPM) versión 2.0».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-006",
+      "ley": null,
+      "articulo": "Requisitos mínimos del sistema para ejecutar Windows 11",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/compatibility/windows-11-system-requirements",
+      "enunciado": "¿Qué pantalla figura como requisito mínimo de Windows 11?",
+      "opciones": [
+        "Alta definición (1080p), de más de 13\" en diagonal",
+        "Alta definición (720p), de más de 7\" en diagonal",
+        "Alta definición (720p), de más de 9\" en diagonal",
+        "Alta definición (1080p), de más de 9\" en diagonal"
+      ],
+      "correcta": 2,
+      "explicacion": "Se pide una «pantalla de alta definición (720p) superior a 9\" diagonalmente, 8 bits por canal de color».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-007",
+      "ley": null,
+      "articulo": "Resumen",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense",
+      "enunciado": "¿Para qué sirve el Sensor de almacenamiento de Windows?",
+      "opciones": [
+        "Para comprimir las unidades y ganar capacidad",
+        "Para copiar las carpetas del usuario en OneDrive",
+        "Para cifrar el contenido de la unidad del sistema",
+        "Para liberar espacio quitando lo que no necesitas"
+      ],
+      "correcta": 3,
+      "explicacion": "El Sensor de almacenamiento «puede liberar automáticamente espacio en el disco al deshacerse de los elementos que no necesitas, como archivos temporales y elementos en la Papelera de reciclaje».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-008",
+      "ley": null,
+      "articulo": "Resumen",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense",
+      "enunciado": "¿En qué unidades funciona el Sensor de almacenamiento?",
+      "opciones": [
+        "Solo en la unidad del sistema, normalmente C:",
+        "En todas las unidades internas del equipo",
+        "Solo en las unidades externas USB",
+        "Solo en las carpetas sincronizadas con OneDrive"
+      ],
+      "correcta": 0,
+      "explicacion": "El Sensor de almacenamiento «solo funciona en la unidad del sistema, que contiene el sistema operativo Windows, y generalmente se conoce como C:».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-009",
+      "ley": null,
+      "articulo": "Preguntas más frecuentes (P+F)",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense",
+      "enunciado": "¿Cómo viene configurado de forma predeterminada el Sensor de almacenamiento?",
+      "opciones": [
+        "Activado en todos los equipos",
+        "Activado solo en los portátiles",
+        "Activado tras la primera actualización",
+        "Desactivado de forma predeterminada"
+      ],
+      "correcta": 3,
+      "explicacion": "La página responde que «el Sensor de almacenamiento está desactivado de forma predeterminada», aunque Windows puede activarlo si el PC se queda sin espacio en disco.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-010",
+      "ley": null,
+      "articulo": "Administrar el contenido en la nube disponible localmente",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense",
+      "enunciado": "Desde Windows 11, versión 22H2, ¿cuándo pasa por defecto el Sensor de almacenamiento un archivo de OneDrive a solo en línea?",
+      "opciones": [
+        "Si no se abre durante más de 7 días",
+        "Si no se abre durante más de 30 días",
+        "Si no se abre durante más de 14 días",
+        "Si no se abre durante más de 60 días"
+      ],
+      "correcta": 1,
+      "explicacion": "A partir de esa versión, «el valor predeterminado para los archivos en la nube de OneDrive es crear archivos solo en línea si no se abren durante más de 30 días». Esta configuración «no eliminará permanentemente los archivos».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-011",
+      "ley": null,
+      "articulo": "Preguntas más frecuentes (P+F)",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/manage-drive-space-with-storage-sense",
+      "enunciado": "¿Puede ejecutarse el Sensor de almacenamiento si no has iniciado sesión?",
+      "opciones": [
+        "Sí, en cualquier momento, aunque nadie haya iniciado sesión",
+        "Sí, pero solo con el equipo conectado a la corriente",
+        "No: necesita sesión iniciada y estar en línea más de 10 minutos",
+        "No: solo se ejecuta justo después de reiniciar el equipo"
+      ],
+      "correcta": 2,
+      "explicacion": "La respuesta de la página es: «No. El Sensor de almacenamiento no se puede ejecutar a menos que haya iniciado sesión y esté en línea durante más de 10 minutos».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-012",
+      "ley": null,
+      "articulo": "Paso 2: Hacer una copia de seguridad de las carpetas",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup",
+      "enunciado": "¿Cuánto almacenamiento en la nube de OneDrive incluye una cuenta Microsoft gratuita?",
+      "opciones": [
+        "5 GB",
+        "1 GB",
+        "15 GB",
+        "50 GB"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la página, «su cuenta Microsoft gratuita incluye 5 GB de almacenamiento en la nube de OneDrive», y se puede comprar más si se necesita.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-013",
+      "ley": null,
+      "articulo": "Paso 2: Hacer una copia de seguridad de las carpetas",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup",
+      "enunciado": "¿Cuál de estas carpetas de usuario NO figura entre las que Copias de seguridad de Windows copia en OneDrive?",
+      "opciones": [
+        "Documentos",
+        "Imágenes",
+        "Música",
+        "Descargas"
+      ],
+      "correcta": 3,
+      "explicacion": "La página indica: «Puede hacer una copia de seguridad de las carpetas Escritorio , Documentos , Imágenes , Vídeos y Música activando el conmutador de cada carpeta». Descargas no aparece en la lista.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-014",
+      "ley": null,
+      "articulo": "Modificar la configuración de la copia de seguridad",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup",
+      "enunciado": "¿En qué apartado de Configuración se cambia la copia de seguridad de Windows?",
+      "opciones": [
+        "Sistema > Almacenamiento",
+        "Cuentas > Copias de seguridad de Windows",
+        "Privacidad y seguridad > Seguridad de Windows",
+        "Windows Update > Opciones avanzadas"
+      ],
+      "correcta": 1,
+      "explicacion": "Para cambiar la configuración de la copia de seguridad, se abre «Configuración > cuentas > de Copias de seguridad de Windows».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-015",
+      "ley": null,
+      "articulo": "Paso 1: iniciar sesión con una cuenta de Microsoft",
+      "fuente": "https://support.microsoft.com/es-es/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup",
+      "enunciado": "¿Con qué tipo de cuenta funciona actualmente la aplicación Copias de seguridad de Windows?",
+      "opciones": [
+        "Con una cuenta profesional o educativa de Microsoft",
+        "Con una cuenta local sin conexión a Internet",
+        "Con una cuenta personal de Microsoft",
+        "Con la cuenta de administrador del equipo"
+      ],
+      "correcta": 2,
+      "explicacion": "La aplicación «se centra en dispositivos de consumidor», que usan una «cuenta personal de Microsoft (MSA)». La página advierte: «Las cuentas profesionales o educativas de Microsoft no funcionarán».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-016",
+      "ley": null,
+      "articulo": "Resumen",
+      "fuente": "https://support.microsoft.com/es-es/windows/security/windows-security/stay-protected-with-the-windows-security-app",
+      "enunciado": "¿Cuál de estas características incluye la aplicación Seguridad de Windows?",
+      "opciones": [
+        "Antivirus de Microsoft Defender",
+        "Sensor de almacenamiento",
+        "Copias de seguridad de Windows",
+        "Asistente de Windows Update"
+      ],
+      "correcta": 0,
+      "explicacion": "La aplicación Seguridad de Windows «incluye características como Antivirus de Microsoft Defender, Firewall de Windows y Control Inteligente de Aplicaciones».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-017",
+      "ley": null,
+      "articulo": "Realice un examen rápido",
+      "fuente": "https://support.microsoft.com/es-es/windows/security/windows-security/stay-protected-with-the-windows-security-app",
+      "enunciado": "Si sospechas que hay un virus, ¿en qué sección de Seguridad de Windows se lanza un examen rápido?",
+      "opciones": [
+        "Firewall y protección de red",
+        "Control de aplicaciones y navegador",
+        "Rendimiento y estado del dispositivo",
+        "Protección contra virus y amenazas"
+      ],
+      "correcta": 3,
+      "explicacion": "Si sospechas que hay malware, «debes ejecutar inmediatamente un análisis rápido»: en Seguridad de Windows, se selecciona «Protección contra virus & amenazas > Examen rápido».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-018",
+      "ley": null,
+      "articulo": "Activar o desactivar la protección en tiempo real del Antivirus de Defender",
+      "fuente": "https://support.microsoft.com/es-es/windows/security/windows-security/stay-protected-with-the-windows-security-app",
+      "enunciado": "¿Qué ocurre si desactivas la protección en tiempo real del Antivirus de Microsoft Defender?",
+      "opciones": [
+        "Se desinstala el antivirus hasta que lo reinstales",
+        "Al poco tiempo se vuelve a activar sola",
+        "Se desactiva también el Firewall de Windows",
+        "Queda desactivada hasta el siguiente mes"
+      ],
+      "correcta": 1,
+      "explicacion": "Mientras está desactivada, «no se analizarán en busca de amenazas los archivos que abras ni los que descargues». Pero «la protección en tiempo real pronto se activará automáticamente para proteger el dispositivo».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-019",
+      "ley": null,
+      "articulo": "Configurar Firewall de Windows con Seguridad de Windows",
+      "fuente": "https://support.microsoft.com/es-es/windows/security/windows-security/firewall-and-network-protection-in-the-windows-security-app",
+      "enunciado": "¿Cuál de estos NO es un perfil de red del Firewall de Windows en Seguridad de Windows?",
+      "opciones": [
+        "Red de dominio",
+        "Red privada",
+        "Red de invitados",
+        "Red pública"
+      ],
+      "correcta": 2,
+      "explicacion": "Seguridad de Windows pide: «Selecciona un perfil de red: Red de dominio , Red privada , o Red pública». No existe un perfil de red de invitados.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-020",
+      "ley": null,
+      "articulo": "Redes privadas y públicas",
+      "fuente": "https://support.microsoft.com/es-es/windows/security/windows-security/firewall-and-network-protection-in-the-windows-security-app",
+      "enunciado": "Según Microsoft, ¿qué tipo de red es el Wi-Fi de una cafetería?",
+      "opciones": [
+        "Una red pública",
+        "Una red privada",
+        "Una red de dominio",
+        "Una red de confianza"
+      ],
+      "correcta": 0,
+      "explicacion": "La página dice que «el Wi-Fi en su cafetería local es una red pública», mientras que la red doméstica sería un ejemplo de red privada.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-021",
+      "ley": null,
+      "articulo": "Configurar Firewall de Windows con Seguridad de Windows",
+      "fuente": "https://support.microsoft.com/es-es/windows/security/windows-security/firewall-and-network-protection-in-the-windows-security-app",
+      "enunciado": "¿Qué hace la casilla «Bloquea todas las conexiones entrantes, incluidas las de la lista de aplicaciones permitidas»?",
+      "opciones": [
+        "Desactiva el Firewall de Windows en las redes públicas",
+        "Bloquea solo las aplicaciones que no son de Microsoft Store",
+        "Restaura el firewall a los valores predeterminados",
+        "Hace que el firewall ignore la lista de permitidas y bloquee todo"
+      ],
+      "correcta": 3,
+      "explicacion": "Esa casilla indica «al Firewall de Windows que ignore la lista de aplicaciones permitidas y bloquee todo». «Activar esta opción aumenta la seguridad, pero puede que algunas aplicaciones dejen de funcionar».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-022",
+      "ley": null,
+      "articulo": "Protéjase del fraude en línea",
+      "fuente": "https://support.microsoft.com/es-es/security/protect-yourself-from-phishing",
+      "enunciado": "¿Qué es el phishing o suplantación de identidad?",
+      "opciones": [
+        "Un malware que cifra tus archivos y pide un rescate",
+        "Un ataque que busca que reveles datos personales en sitios falsos",
+        "Un programa que muestra anuncios no deseados en el navegador",
+        "Un fallo del firewall que deja pasar conexiones entrantes"
+      ],
+      "correcta": 1,
+      "explicacion": "«El phishing es un ataque que intenta robar su dinero o su identidad, haciendo que divulgue información personal [...] en sitios web que fingen ser sitios legítimos».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-023",
+      "ley": null,
+      "articulo": "Obtenga información sobre cómo detectar un mensaje de phishing",
+      "fuente": "https://support.microsoft.com/es-es/security/protect-yourself-from-phishing",
+      "enunciado": "¿Cuál de estas es una señal de un correo electrónico de phishing?",
+      "opciones": [
+        "Que te llame por tu nombre y apellidos",
+        "Que venga del dominio oficial de la empresa",
+        "Que empiece con «Estimado señor o señora»",
+        "Que no incluya vínculos ni datos adjuntos"
+      ],
+      "correcta": 2,
+      "explicacion": "Sobre los saludos genéricos, la página explica: «Si el correo electrónico empieza con un mensaje genérico, como \"Estimado señor o señora\", es un signo de que puede que no sea realmente su banco o sitio de compras».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-024",
+      "ley": null,
+      "articulo": "Obtenga información sobre cómo detectar un mensaje de phishing",
+      "fuente": "https://support.microsoft.com/es-es/security/protect-yourself-from-phishing",
+      "enunciado": "Ante un vínculo sospechoso en un correo, ¿qué aconseja Microsoft para ver su dirección real?",
+      "opciones": [
+        "Pasar el ratón por encima, sin hacer clic",
+        "Hacer clic y revisar la página que se abre",
+        "Reenviar el correo a un compañero",
+        "Copiar el vínculo y abrirlo en InPrivate"
+      ],
+      "correcta": 0,
+      "explicacion": "La página aconseja: «no abra los vínculos o datos adjuntos que vea. En su lugar, pase el ratón por encima, pero no haga clic en el vínculo».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    },
+    {
+      "id": "inb-025",
+      "ley": null,
+      "articulo": "Qué hacer si cree que ya ha sufrido un ataque de phishing",
+      "fuente": "https://support.microsoft.com/es-es/security/protect-yourself-from-phishing",
+      "enunciado": "Si crees que has sufrido un ataque de phishing, ¿qué debes hacer con tus contraseñas?",
+      "opciones": [
+        "Poner la misma contraseña nueva en todas las cuentas",
+        "Esperar a que el banco confirme el fraude",
+        "Responder al mensaje para anular la contraseña",
+        "Cambiarla de inmediato en las cuentas afectadas"
+      ],
+      "correcta": 3,
+      "explicacion": "«Cambie inmediatamente la contraseña en todas las cuentas afectadas». Además, se debe «crear una contraseña distinta para cada cuenta».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 21
+      }
+    }
+  ]
+}

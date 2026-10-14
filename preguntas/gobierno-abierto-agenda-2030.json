@@ -1,0 +1,529 @@
+{
+  "descripcion": "Gobierno Abierto y Agenda 2030 (tema 6). Lote generado el 2026-10-13 a partir de transparencia.gob.es, la Resolución 70/1 de la Asamblea General de la ONU y el preámbulo de la Ley 19/2013; en borrador.",
+  "preguntas": [
+    {
+      "id": "gab-001",
+      "ley": null,
+      "articulo": "Preámbulo",
+      "fuente": "https://documents.un.org/doc/undoc/gen/n15/291/93/pdf/n1529193.pdf",
+      "enunciado": "¿Cuántos Objetivos de Desarrollo Sostenible y metas recoge la Agenda 2030?",
+      "opciones": [
+        "17 Objetivos y 169 metas",
+        "17 Objetivos y 196 metas",
+        "15 Objetivos y 169 metas",
+        "19 Objetivos y 159 metas"
+      ],
+      "correcta": 0,
+      "explicacion": "El preámbulo de la Resolución 70/1 dice: «Los 17 Objetivos de Desarrollo Sostenible y las 169 metas que anunciamos hoy demuestran la magnitud de esta ambiciosa nueva Agenda universal».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-002",
+      "ley": null,
+      "articulo": "Declaración, párr. 1",
+      "fuente": "https://documents.un.org/doc/undoc/gen/n15/291/93/pdf/n1529193.pdf",
+      "enunciado": "Los Jefes de Estado y de Gobierno acordaron los Objetivos de Desarrollo Sostenible reunidos en:",
+      "opciones": [
+        "Ginebra, del 25 al 27 de septiembre de 2015",
+        "Nueva York, del 25 al 27 de septiembre de 2015",
+        "Nueva York, del 1 al 3 de diciembre de 2015",
+        "París, del 25 al 27 de noviembre de 2015"
+      ],
+      "correcta": 1,
+      "explicacion": "El párrafo 1 de la Declaración indica que se reunieron «en la Sede de las Naciones Unidas en Nueva York del 25 al 27 de septiembre de 2015».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-003",
+      "ley": null,
+      "articulo": "Declaración, párr. 4",
+      "fuente": "https://documents.un.org/doc/undoc/gen/n15/291/93/pdf/n1529193.pdf",
+      "enunciado": "¿Qué promesa recoge la Agenda 2030 al emprender «este gran viaje»?",
+      "opciones": [
+        "Que ningún país pagará deuda",
+        "Que todos crecerán por igual",
+        "Que nadie se quedará atrás",
+        "Que nadie perderá su empleo"
+      ],
+      "correcta": 2,
+      "explicacion": "El párrafo 4 de la Declaración dice: «Al emprender juntos este gran viaje, prometemos que nadie se quedará atrás».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-004",
+      "ley": null,
+      "articulo": "Preámbulo",
+      "fuente": "https://documents.un.org/doc/undoc/gen/n15/291/93/pdf/n1529193.pdf",
+      "enunciado": "¿Cuál de estas NO es una de las esferas de importancia crítica que señala el preámbulo de la Agenda 2030?",
+      "opciones": [
+        "Las personas",
+        "La prosperidad",
+        "Las alianzas",
+        "La productividad"
+      ],
+      "correcta": 3,
+      "explicacion": "El preámbulo presenta la Agenda como «un plan de acción en favor de las personas, el planeta y la prosperidad», que busca «fortalecer la paz universal», y dedica un apartado a «Las alianzas». La productividad no figura entre esas esferas.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-005",
+      "ley": null,
+      "articulo": "Preámbulo",
+      "fuente": "https://documents.un.org/doc/undoc/gen/n15/291/93/pdf/n1529193.pdf",
+      "enunciado": "Según la Agenda 2030, ¿cuáles son las tres dimensiones del desarrollo sostenible?",
+      "opciones": [
+        "Económica, social y ambiental",
+        "Económica, política y social",
+        "Social, cultural y ambiental",
+        "Política, económica y territorial"
+      ],
+      "correcta": 0,
+      "explicacion": "El preámbulo dice que los Objetivos y las metas «conjugan las tres dimensiones del desarrollo sostenible: económica, social y ambiental».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-006",
+      "ley": null,
+      "articulo": "Declaración, párr. 21",
+      "fuente": "https://documents.un.org/doc/undoc/gen/n15/291/93/pdf/n1529193.pdf",
+      "enunciado": "¿Cuándo entraron en vigor los nuevos Objetivos y metas de la Agenda 2030?",
+      "opciones": [
+        "El 25 de septiembre de 2015",
+        "El 1 de enero de 2016",
+        "El 1 de enero de 2015",
+        "El 21 de octubre de 2015"
+      ],
+      "correcta": 1,
+      "explicacion": "El párrafo 21 dice: «Los nuevos Objetivos y metas entrarán en vigor el 1 de enero de 2016 y guiarán las decisiones que adoptemos durante los próximos 15 años».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-007",
+      "ley": null,
+      "articulo": "Preámbulo",
+      "fuente": "https://documents.un.org/doc/undoc/gen/n15/291/93/pdf/n1529193.pdf",
+      "enunciado": "Según la Agenda 2030, ¿cuál es el mayor desafío a que se enfrenta el mundo?",
+      "opciones": [
+        "La lucha contra el cambio climático",
+        "La igualdad entre los géneros",
+        "La erradicación de la pobreza en todas sus formas",
+        "La paz universal y la seguridad"
+      ],
+      "correcta": 2,
+      "explicacion": "El preámbulo afirma: «Reconocemos que la erradicación de la pobreza en todas sus formas y dimensiones, incluida la pobreza extrema, es el mayor desafío a que se enfrenta el mundo».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-008",
+      "ley": null,
+      "articulo": "Objetivo 16",
+      "fuente": "https://documents.un.org/doc/undoc/gen/n15/291/93/pdf/n1529193.pdf",
+      "enunciado": "¿Qué Objetivo de Desarrollo Sostenible incluye construir a todos los niveles instituciones eficaces e inclusivas que rindan cuentas?",
+      "opciones": [
+        "El Objetivo 10",
+        "El Objetivo 17",
+        "El Objetivo 11",
+        "El Objetivo 16"
+      ],
+      "correcta": 3,
+      "explicacion": "El Objetivo 16 es «Promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y construir a todos los niveles instituciones eficaces e inclusivas que rindan cuentas».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-009",
+      "ley": null,
+      "articulo": "Objetivo 17",
+      "fuente": "https://documents.un.org/doc/undoc/gen/n15/291/93/pdf/n1529193.pdf",
+      "enunciado": "¿Qué ODS consiste en fortalecer los medios de implementación y revitalizar la Alianza Mundial para el Desarrollo Sostenible?",
+      "opciones": [
+        "El Objetivo 17",
+        "El Objetivo 1",
+        "El Objetivo 16",
+        "El Objetivo 12"
+      ],
+      "correcta": 0,
+      "explicacion": "El último de la lista es el «Objetivo 17. Fortalecer los medios de implementación y revitalizar la Alianza Mundial para el Desarrollo Sostenible».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-010",
+      "ley": null,
+      "articulo": "Objetivo 5",
+      "fuente": "https://documents.un.org/doc/undoc/gen/n15/291/93/pdf/n1529193.pdf",
+      "enunciado": "¿Qué persigue el Objetivo de Desarrollo Sostenible 5?",
+      "opciones": [
+        "Una educación inclusiva y de calidad para todos",
+        "La igualdad de género y empoderar a mujeres y niñas",
+        "Reducir la desigualdad entre los países",
+        "Una vida sana y el bienestar de todos"
+      ],
+      "correcta": 1,
+      "explicacion": "El Objetivo 5 es «Lograr la igualdad de género y empoderar a todas las mujeres y las niñas».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-011",
+      "ley": null,
+      "articulo": "Meta 16.10",
+      "fuente": "https://documents.un.org/doc/undoc/gen/n15/291/93/pdf/n1529193.pdf",
+      "enunciado": "¿Qué meta del ODS 16 busca garantizar el acceso público a la información y proteger las libertades fundamentales?",
+      "opciones": [
+        "La meta 16.10",
+        "La meta 16.5",
+        "La meta 16.6",
+        "La meta 16.7"
+      ],
+      "correcta": 0,
+      "explicacion": "La meta 16.10 dice: «Garantizar el acceso público a la información y proteger las libertades fundamentales, de conformidad con las leyes nacionales y los acuerdos internacionales».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-012",
+      "ley": "ley-19-2013",
+      "articulo": "Preámbulo I",
+      "enunciado": "Según el preámbulo de la Ley 19/2013, ¿qué deben ser los ejes fundamentales de toda acción política?",
+      "opciones": [
+        "La eficacia, la eficiencia y la economía del gasto",
+        "La participación, la colaboración y la integridad",
+        "La transparencia, el acceso a la información y el buen gobierno",
+        "La legalidad, la publicidad y la responsabilidad"
+      ],
+      "correcta": 2,
+      "explicacion": "El preámbulo empieza así: «La transparencia, el acceso a la información pública y las normas de buen gobierno deben ser los ejes fundamentales de toda acción política».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-01-02",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-013",
+      "ley": null,
+      "articulo": "Declaración, párr. 87",
+      "fuente": "https://documents.un.org/doc/undoc/gen/n15/291/93/pdf/n1529193.pdf",
+      "enunciado": "El foro político de alto nivel bajo los auspicios de la Asamblea General se reunirá:",
+      "opciones": [
+        "Cada año",
+        "Cada dos años",
+        "Cada cinco años",
+        "Cada cuatro años"
+      ],
+      "correcta": 3,
+      "explicacion": "El párrafo 87 dice: «El foro político de alto nivel, que se reunirá cada cuatro años bajo los auspicios de la Asamblea General, proporcionará orientación política de alto nivel sobre la Agenda».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-014",
+      "ley": null,
+      "articulo": "Declaración, párr. 84",
+      "fuente": "https://documents.un.org/doc/undoc/gen/n15/291/93/pdf/n1529193.pdf",
+      "enunciado": "Los exámenes periódicos que realiza el foro político de alto nivel bajo los auspicios del Consejo Económico y Social serán:",
+      "opciones": [
+        "Voluntarios, aunque se alentará presentar informes",
+        "Obligatorios para todos los Estados Miembros",
+        "Obligatorios solo para países desarrollados",
+        "Voluntarios y sin presentación de informes"
+      ],
+      "correcta": 0,
+      "explicacion": "El párrafo 84 dice: «Los exámenes serán voluntarios, aunque se alentará la presentación de informes, e incluirán a los países desarrollados y en desarrollo».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-015",
+      "ley": null,
+      "articulo": "Declaración, párr. 83",
+      "fuente": "https://documents.un.org/doc/undoc/gen/n15/291/93/pdf/n1529193.pdf",
+      "enunciado": "¿Quién prepara el informe anual sobre los progresos de los ODS en que se basa el foro político de alto nivel?",
+      "opciones": [
+        "La Comisión de Estadística",
+        "El Secretario General",
+        "El Consejo Económico y Social",
+        "El Presidente de la Asamblea General"
+      ],
+      "correcta": 1,
+      "explicacion": "El párrafo 83 se refiere a «un informe anual sobre los progresos de los Objetivos de Desarrollo Sostenible que preparará el Secretario General en cooperación con el sistema de las Naciones Unidas».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-016",
+      "ley": null,
+      "articulo": "Preámbulo",
+      "fuente": "https://documents.un.org/doc/undoc/gen/n15/291/93/pdf/n1529193.pdf",
+      "enunciado": "Según su preámbulo, con los ODS se pretende retomar y conseguir lo que no lograron:",
+      "opciones": [
+        "La Agenda de Acción de Addis Abeba",
+        "Los acuerdos de la Cumbre de Río",
+        "Los Objetivos de Desarrollo del Milenio",
+        "La Convención Marco sobre el Cambio Climático"
+      ],
+      "correcta": 2,
+      "explicacion": "El preámbulo dice: «Con ellos se pretende retomar los Objetivos de Desarrollo del Milenio y conseguir lo que estos no lograron».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-017",
+      "ley": null,
+      "articulo": "¿Qué es el Gobierno Abierto?",
+      "fuente": "https://transparencia.gob.es/gobierno-abierto/que-es_organizacion",
+      "enunciado": "La definición de Gobierno Abierto que recoge el Portal de la Transparencia procede de una Recomendación del Consejo de:",
+      "opciones": [
+        "La Unión Europea, de 14 de diciembre de 2017",
+        "Europa, de 25 de septiembre de 2015",
+        "La OCDE, de 9 de diciembre de 2013",
+        "La OCDE, de 14 de diciembre de 2017"
+      ],
+      "correcta": 3,
+      "explicacion": "La página remite a la «definición recogida en la Recomendación del Consejo de la OCDE sobre Gobierno Abierto de 14 de diciembre de 2017».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-018",
+      "ley": null,
+      "articulo": "¿Qué es el Gobierno Abierto?",
+      "fuente": "https://transparencia.gob.es/gobierno-abierto/que-es_organizacion",
+      "enunciado": "Según la definición de la OCDE, el Gobierno Abierto promueve los principios de:",
+      "opciones": [
+        "Transparencia, integridad, rendición de cuentas y participación",
+        "Transparencia, eficacia, legalidad y participación",
+        "Publicidad, integridad, eficiencia y colaboración",
+        "Transparencia, neutralidad, jerarquía y participación"
+      ],
+      "correcta": 0,
+      "explicacion": "El Gobierno Abierto es «una cultura de gobernanza que promueve los principios de transparencia, integridad, rendición de cuentas y participación de las partes interesadas en apoyo de la democracia y el crecimiento inclusivo».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-019",
+      "ley": null,
+      "articulo": "Alianza para el Gobierno Abierto (OGP)",
+      "fuente": "https://transparencia.gob.es/gobierno-abierto/que-es_organizacion",
+      "enunciado": "¿Desde qué año forma parte España de la Alianza para el Gobierno Abierto (OGP)?",
+      "opciones": [
+        "Desde 2013",
+        "Desde 2011",
+        "Desde 2015",
+        "Desde 2012"
+      ],
+      "correcta": 1,
+      "explicacion": "La OGP fue «fundada en septiembre de 2011» y «España se unió a la OGP en el mismo año de su fundación».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-020",
+      "ley": null,
+      "articulo": "Alianza para el Gobierno Abierto (OGP)",
+      "fuente": "https://transparencia.gob.es/gobierno-abierto/que-es_organizacion",
+      "enunciado": "¿Quién evalúa el cumplimiento de los compromisos de los planes de acción de la Alianza para el Gobierno Abierto?",
+      "opciones": [
+        "El Comité Directivo de la Alianza",
+        "El Foro de Gobierno Abierto",
+        "El Mecanismo de Revisión Independiente",
+        "El Comité de Gobernanza Pública"
+      ],
+      "correcta": 2,
+      "explicacion": "Según la página, «La evaluación del cumplimento de estos compromisos la realiza el Mecanismo de Revisión Independiente (MRI) de la Alianza».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-021",
+      "ley": null,
+      "articulo": "Organización de las Naciones Unidas (ONU) y los ODS",
+      "fuente": "https://transparencia.gob.es/gobierno-abierto/que-es_organizacion",
+      "enunciado": "En el Plan de Acción para la Agenda 2030, los Planes de Gobierno Abierto son política palanca por su contribución al:",
+      "opciones": [
+        "ODS 10 (reducción de las desigualdades)",
+        "ODS 17 (alianzas para lograr los objetivos)",
+        "ODS 4 (educación de calidad)",
+        "ODS 16 (paz, justicia e instituciones sólidas)"
+      ],
+      "correcta": 3,
+      "explicacion": "La página dice que los Planes de Gobierno Abierto se consideran política palanca «por su contribución al cumplimiento del ODS 16 (paz, justicia e instituciones sólidas)».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-022",
+      "ley": null,
+      "articulo": "El Gobierno Abierto en España",
+      "fuente": "https://transparencia.gob.es/gobierno-abierto/que-es_organizacion",
+      "enunciado": "En España, ¿cómo se distribuye la competencia en materia de Gobierno Abierto?",
+      "opciones": [
+        "Es exclusiva de cada Administración, salvo en transparencia",
+        "Es exclusiva del Estado en todos sus aspectos",
+        "Es compartida entre el Estado y las comunidades",
+        "Es exclusiva de cada Administración, salvo en participación"
+      ],
+      "correcta": 0,
+      "explicacion": "La página dice: «Cada Administración pública tiene competencia exclusiva en materia de Gobierno Abierto, excepto en lo relativo a la transparencia», donde la Ley 19/2013 fija obligaciones comunes.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-023",
+      "ley": null,
+      "articulo": "El Gobierno Abierto en España",
+      "fuente": "https://transparencia.gob.es/gobierno-abierto/que-es_organizacion",
+      "enunciado": "¿Qué órgano es el espacio de coordinación, colaboración y debate entre las Administraciones públicas estatal, autonómicas y locales en gobierno abierto?",
+      "opciones": [
+        "El Foro de Gobierno Abierto",
+        "La Comisión Sectorial de Gobierno Abierto",
+        "El grupo interministerial de Gobierno Abierto",
+        "El Consejo de Transparencia y Buen Gobierno"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la página, «La Comisión Sectorial de Gobierno Abierto es un espacio de coordinación, colaboración y debate entre las Administraciones públicas españolas (estatal, autonómicas y locales)». El Foro incluye además a la sociedad civil.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-024",
+      "ley": null,
+      "articulo": "¿Qué es?",
+      "fuente": "https://transparencia.gob.es/gobierno-abierto/foro-ga",
+      "enunciado": "¿Cómo se reparte la representación en el Foro de Gobierno Abierto?",
+      "opciones": [
+        "Con mayoría de las Administraciones públicas",
+        "Con mayoría de la sociedad civil",
+        "A partes iguales entre Administraciones y sociedad civil",
+        "Solo con la Administración General del Estado"
+      ],
+      "correcta": 2,
+      "explicacion": "En el Foro «participan, con igual número de representantes, las Administraciones públicas y la sociedad civil».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    },
+    {
+      "id": "gab-025",
+      "ley": null,
+      "articulo": "Aprobación del V Plan por el pleno del Foro de Gobierno Abierto",
+      "fuente": "https://transparencia.gob.es/gobierno-abierto/planes-accion/vplan",
+      "enunciado": "¿Qué período abarca el V Plan de Gobierno Abierto de España?",
+      "opciones": [
+        "2024-2028",
+        "2025-2028",
+        "2026-2030",
+        "2025-2029"
+      ],
+      "correcta": 3,
+      "explicacion": "Según la página, «El V Plan de Gobierno Abierto 2025-2029 fue aprobado en la reunión del pleno del Foro de 6 de octubre de 2025».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 6
+      }
+    }
+  ]
+}
