@@ -12,6 +12,23 @@ import { SELECT_PREGUNTA, ordenarPorIds, type FilaPregunta } from "./preguntas";
 export const clienteSesion = cache(supabaseServidor);
 
 /**
+ * Claims de la sesión, o null si no hay. La misma lectura que /app (getClaims): el proxy ya
+ * refrescó el access token y, con claves asimétricas, no hace falta ir al servidor de Auth.
+ */
+export const claimsActuales = cache(async () => {
+  try {
+    if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) return null;
+    const supabase = await clienteSesion();
+    const { data } = await supabase.auth.getClaims();
+    const claims = data?.claims;
+    if (!claims?.sub) return null;
+    return claims;
+  } catch {
+    return null;
+  }
+});
+
+/**
  * Usuario con sesión y si tiene la suscripción activa. Redirige a /entrar si no hay sesión.
  * getClaims valida el token sin ir al servidor de Auth cuando el proyecto firma con claves
  * asimétricas, y las consultas de la suscripción salen a la vez.

@@ -1,11 +1,24 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
-/** Refresca la sesión de Supabase y protege el área privada (/app). */
-export async function proxy(request: NextRequest) {
+/** Reenvía la petición con las cookies ya refrescadas para que el Server Component las vea. */
+function continuar(request: NextRequest) {
   const cabeceras = new Headers(request.headers);
   cabeceras.set("x-ruta", request.nextUrl.pathname);
-  let respuesta = NextResponse.next({ request: { headers: cabeceras } });
+  return NextResponse.next({ request: { headers: cabeceras } });
+}
+
+function esRutaAdmin(pathname: string) {
+  return pathname === "/admin" || pathname.startsWith("/admin/");
+}
+
+/** Refresca la sesión de Supabase y protege el área privada (/app). /admin también refresca, sin redirigir. */
+export async function proxy(request: NextRequest) {
+  let respuesta = continuar(request);
+
+  if (esRutaAdmin(request.nextUrl.pathname)) {
+    respuesta.headers.set("Cache-Control", "private, no-store, max-age=0");
+  }
 
   if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
     return respuesta;
@@ -17,26 +30,33 @@ export async function proxy(request: NextRequest) {
     {
       cookies: {
         getAll: () => request.cookies.getAll(),
-        setAll: (lista) => {
+        setAll: (lista, cabecerasExtra) => {
           for (const { name, value } of lista) request.cookies.set(name, value);
-          const siguientes = new Headers(request.headers);
-          siguientes.set("x-ruta", request.nextUrl.pathname);
-          respuesta = NextResponse.next({ request: { headers: siguientes } });
+          respuesta = continuar(request);
           for (const { name, value, options } of lista) respuesta.cookies.set(name, value, options);
+          if (cabecerasExtra) {
+            for (const [clave, valor] of Object.entries(cabecerasExtra)) respuesta.headers.set(clave, valor);
+          }
+          if (esRutaAdmin(request.nextUrl.pathname)) {
+            respuesta.headers.set("Cache-Control", "private, no-store, max-age=0");
+          }
         },
       },
     },
   );
 
-  // getClaims refresca la sesión si hace falta y valida el token; con claves asimétricas lo hace
-  // sin ir al servidor de Auth, que es lo que más tarda en cada navegación.
+  // getClaims refresca la sesión si el access token está caducado o a punto de caducar, y valida
+  // el JWT. Con claves asimétricas no va al servidor de Auth. /admin entra en el matcher para que
+  // ese refresco ocurra aquí: un Server Component no puede guardar las cookies nuevas.
   const { data } = await supabase.auth.getClaims();
 
   if (!data?.claims && request.nextUrl.pathname.startsWith("/app")) {
     const destino = request.nextUrl.clone();
     destino.pathname = "/entrar";
     destino.search = `?siguiente=${encodeURIComponent(request.nextUrl.pathname + request.nextUrl.search)}`;
-    return NextResponse.redirect(destino);
+    const redir = NextResponse.redirect(destino);
+    for (const cookie of respuesta.cookies.getAll()) redir.cookies.set(cookie);
+    return redir;
   }
 
   return respuesta;

@@ -7,6 +7,9 @@ const ahora = new Date("2026-10-14T10:00:00Z");
 describe("métricas del panel", () => {
   it("usa el correo por defecto y acepta una lista", () => {
     expect(parsearCorreos(undefined)).toEqual(["josekgullon@gmail.com"]);
+    expect(parsearCorreos("")).toEqual(["josekgullon@gmail.com"]);
+    expect(parsearCorreos("   ")).toEqual(["josekgullon@gmail.com"]);
+    expect(parsearCorreos(",")).toEqual(["josekgullon@gmail.com"]);
     expect(parsearCorreos("  A@B.dev, josekgullon@gmail.com ")).toEqual(["a@b.dev", "josekgullon@gmail.com"]);
   });
 

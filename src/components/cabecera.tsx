@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
-import { clasesBoton } from "./boton";
+import { AccesoPublico } from "./acceso-publico";
 import { InterruptorTema } from "./interruptor-tema";
 import { Logo } from "./logo";
 
@@ -17,20 +17,7 @@ export function Cabecera({ derecha, inicio = "/" }: { derecha?: ReactNode | null
         </Link>
         <div className="flex items-center gap-1">
           <InterruptorTema />
-          {derecha === undefined ? (
-            <>
-              <Link href="/entrar" className="inline-flex min-h-11 items-center px-3 font-semibold hover:text-pino">
-                Entrar
-              </Link>
-              <span className="ml-1 hidden sm:block">
-                <Link href="/demo" className={clasesBoton("principal", false, "md")}>
-                  Empezar gratis
-                </Link>
-              </span>
-            </>
-          ) : (
-            derecha
-          )}
+          {derecha === undefined ? <AccesoPublico /> : derecha}
         </div>
       </div>
     </header>
