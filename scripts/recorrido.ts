@@ -31,7 +31,7 @@ async function codigo(): Promise<string> {
     const r = await (await fetch(`${MAILPIT}/api/v1/search?query=to:${EMAIL}`)).json();
     if (r.messages?.length) {
       const m = await (await fetch(`${MAILPIT}/api/v1/message/${r.messages[0].ID}`)).json();
-      const c = String(m.Text).match(/\b(\d{6})\b/)?.[1];
+      const c = String(m.Text).match(/\b(\d{6,10})\b/)?.[1];
       if (c) return c;
     }
     await new Promise((r) => setTimeout(r, 500));

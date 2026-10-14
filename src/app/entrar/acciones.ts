@@ -46,8 +46,9 @@ export async function verificarCodigo(_: EstadoCodigo, datos: FormData): Promise
   const email = String(datos.get("email") ?? "").trim();
   const token = String(datos.get("codigo") ?? "").replace(/\s/g, "");
   const siguiente = rutaSegura(datos.get("siguiente"));
-  if (!/^\d{6}$/.test(token)) {
-    return { email, error: "El código tiene 6 dígitos." };
+  // Supabase envía 6 u 8 cifras según la configuración del proyecto.
+  if (!/^\d{6,10}$/.test(token)) {
+    return { email, error: "Escribe el código que te hemos enviado, solo los números." };
   }
   const supabase = await supabaseServidor();
   const { error } = await supabase.auth.verifyOtp({ email, token, type: "email" });

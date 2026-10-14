@@ -44,7 +44,7 @@ export function FormularioEntrar({ siguiente, registro }: { siguiente: string; r
             <p id="error-email" role="alert" className="text-teja">{estado.error}</p>
           ) : (
             <p id="ayuda-email" className="text-sm text-pizarra">
-              Te enviamos un código de 6 dígitos. Sin contraseñas.
+              Te enviamos un código por correo. Sin contraseñas.
             </p>
           )}
           <Boton
@@ -75,18 +75,18 @@ function Codigo({ siguiente, email }: { siguiente: string; email: string }) {
           Hemos enviado un código a <strong>{email}</strong>. También puedes abrir el enlace del correo en este dispositivo.
         </p>
       </div>
-      <label htmlFor="codigo" className="font-semibold">Código de 6 dígitos</label>
+      <label htmlFor="codigo" className="font-semibold">Código del correo</label>
       <input
         id="codigo"
         name="codigo"
         inputMode="numeric"
         autoComplete="one-time-code"
-        pattern="[0-9]{6}"
-        maxLength={6}
+        pattern="[0-9]{6,10}"
+        maxLength={10}
         required
         aria-invalid={!!estado.error}
-        className="cifras min-h-16 rounded-xl border border-filete bg-papel px-4 text-center text-3xl font-extrabold tracking-[0.5em] focus:border-pino"
-        placeholder="000000"
+        className="cifras min-h-16 rounded-xl border border-filete bg-papel px-4 text-center text-3xl font-extrabold tracking-[0.3em] focus:border-pino"
+        placeholder="Código"
       />
       {estado.error && (
         <p role="alert" className="text-teja">{estado.error}</p>
