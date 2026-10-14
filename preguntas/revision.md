@@ -83,6 +83,7 @@ Ninguna por ahora.
   (Ley 50/1981) se descarga después y **ministerio-fiscal-eomf** (20, tema 4) queda revisado y `validada`.
 - **Simulacro completo restaurado**: el bloque II ya tiene más de 300 preguntas, así que vuelve el
   formato real (30 + 50 preguntas, 65 minutos).
+- **gobierno-abierto-agenda-2030** (25, tema 6; Resolución 70/1 de la ONU, transparencia.gob.es y preámbulo de la Ley 19/2013, en `fuentes/web`) e **informatica-basica** (25, tema 21; páginas de Microsoft): revisados y `validada`. Con ellos, los 28 temas tienen preguntas.
 - Fuentes nuevas, descargadas con `python3 scripts/descargar_boe.py`: Ley 19/2013, Ley 47/2003,
   RD 208/1996, RD 203/2021, RD 951/2005, Ley 7/1985 (Bases de Régimen Local) y LO 6/1985 (Poder
   Judicial). Sirven para los temas 4, 6, 7, 9, 15, 17, 18, 19 y 20.
