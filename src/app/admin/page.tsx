@@ -1,0 +1,28 @@
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { PanelAdmin } from "@/components/admin/panel";
+import { esAdmin } from "@/lib/admin/acceso";
+import { cargarPanel } from "@/lib/admin/cargar";
+
+export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = {
+  title: "Panel",
+  robots: { index: false, follow: false },
+};
+
+export default async function PaginaAdmin() {
+  if (!(await esAdmin())) notFound();
+  try {
+    const datos = await cargarPanel();
+    return <PanelAdmin datos={datos} />;
+  } catch (error) {
+    console.error("panel admin", error instanceof Error ? error.message : "error");
+    return (
+      <main className="mx-auto w-full max-w-lg px-4 py-16">
+        <h1 className="font-display text-2xl font-extrabold">Panel</h1>
+        <p className="mt-3 text-pizarra">No se han podido leer los datos. Revisa la clave de servicio de Supabase.</p>
+      </main>
+    );
+  }
+}

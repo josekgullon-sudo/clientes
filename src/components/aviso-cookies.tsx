@@ -26,7 +26,13 @@ export function AvisoCookies() {
     setVisible(!visto);
   }, []);
 
-  const oculto = ruta === "/demo" || ruta === "/reto" || ruta.startsWith("/app") || ruta.startsWith("/test/") || ruta.startsWith("/vista");
+  const oculto =
+    ruta === "/demo" ||
+    ruta === "/reto" ||
+    ruta.startsWith("/app") ||
+    ruta.startsWith("/admin") ||
+    ruta.startsWith("/test/") ||
+    ruta.startsWith("/vista");
   if (!visible || oculto) return null;
 
   function cerrar() {

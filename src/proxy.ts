@@ -7,6 +7,10 @@ export async function proxy(request: NextRequest) {
   cabeceras.set("x-ruta", request.nextUrl.pathname);
   let respuesta = NextResponse.next({ request: { headers: cabeceras } });
 
+  if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
+    return respuesta;
+  }
+
   const supabase = createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
@@ -39,5 +43,5 @@ export async function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/app/:path*", "/entrar", "/auth/:path*", "/suscripcion/:path*"],
+  matcher: ["/app/:path*", "/entrar", "/auth/:path*", "/suscripcion/:path*", "/admin", "/admin/:path*"],
 };

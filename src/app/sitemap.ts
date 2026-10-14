@@ -4,6 +4,7 @@ import { SITIO } from "@/lib/sitio";
 
 export const revalidate = 3600;
 
+// /admin no se incluye: es privado y lleva noindex.
 export default function sitemap(): MetadataRoute.Sitemap {
   const paginas = rutasPublicas();
   return [
