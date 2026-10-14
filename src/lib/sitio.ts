@@ -29,14 +29,15 @@ export const OPOSICION = "aux-age";
 
 /**
  * PENDIENTE de completar antes de dar por cerrados los textos legales.
- * Razón social conocida: MONETIX LLC. Faltan la dirección y el EIN.
+ * Razón social: MONETIX LLC. Correo: hola@oposicionesclaras.com. Faltan la dirección, el EIN y
+ * el registro (estado de constitución).
  * No inventar esos datos.
  */
 export const TITULAR = {
   nombre: "MONETIX LLC",
   nif: "PENDIENTE: falta el EIN",
   domicilio: "PENDIENTE: falta la dirección",
-  email: "PENDIENTE: falta el correo de contacto",
+  email: "hola@oposicionesclaras.com",
   registro: "PENDIENTE: faltan los datos registrales",
 } as const;
 
