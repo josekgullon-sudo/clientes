@@ -11,10 +11,10 @@ export type TextoLegal = { titulo: string; descripcion: string; contenido: React
 const Titular = () => (
   <ul>
     <li>Titular: {TITULAR.nombre}</li>
-    <li>NIF: {TITULAR.nif}</li>
+    <li>Identificación fiscal: {TITULAR.nif}</li>
     <li>Domicilio: {TITULAR.domicilio}</li>
     <li>Correo: {TITULAR.email}</li>
-    <li>{TITULAR.registro}</li>
+    <li>Datos registrales: {TITULAR.registro}</li>
   </ul>
 );
 
@@ -64,6 +64,11 @@ export const TEXTOS: Record<string, TextoLegal> = {
       <>
         <h2>Responsable</h2>
         <Titular />
+        <p>
+          {TITULAR.nombre} está establecida en Estados Unidos. Como ofrecemos el servicio a personas que están en la
+          Unión Europea, tratamos tus datos conforme al Reglamento General de Protección de Datos (artículo 3.2 del
+          RGPD) y a la normativa española.
+        </p>
         <h2>Qué datos tratamos y para qué</h2>
         <ul>
           <li>
@@ -90,7 +95,8 @@ export const TEXTOS: Record<string, TextoLegal> = {
         <ul>
           <li>Supabase (base de datos y acceso).</li>
           <li>Stripe (pagos y facturación).</li>
-          <li>Vercel (alojamiento de la web).</li>
+          <li>Vercel (alojamiento de la web y estadísticas de visitas sin cookies).</li>
+          <li>El proveedor de envío de los correos con tu código de acceso.</li>
         </ul>
         <p>
           Algunos de estos proveedores pueden tratar datos fuera del Espacio Económico Europeo. Lo hacen con las garantías
@@ -116,8 +122,8 @@ export const TEXTOS: Record<string, TextoLegal> = {
         <p>
           {SITIO.nombre} no usa cookies de publicidad. Solo usamos cookies y almacenamiento local técnicos,
           imprescindibles para que la web funcione. Por eso no necesitan tu consentimiento (artículo 22.2 de la LSSI),
-          aunque te informamos de ellas. Si en el servidor está configurada analítica (Plausible, variable de entorno),
-          es sin cookies y no identifica a la persona. Si no está configurada, no se carga.
+          aunque te informamos de ellas. Para contar visitas usamos Vercel Web Analytics, que no usa cookies ni
+          identifica a la persona. Si en el servidor está configurada también Plausible, funciona igual, sin cookies.
         </p>
         <table>
           <thead>

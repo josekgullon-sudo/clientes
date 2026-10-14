@@ -28,17 +28,16 @@ export const CUOTA_GRATIS = 10;
 export const OPOSICION = "aux-age";
 
 /**
- * PENDIENTE de completar antes de dar por cerrados los textos legales.
- * Razón social: MONETIX LLC. Correo: hola@oposicionesclaras.com. Faltan la dirección, el EIN y
- * el registro (estado de constitución).
- * No inventar esos datos.
+ * Titular de la web (datos facilitados por el propietario el 14/10/2026).
+ * MONETIX LLC no tiene NIF español: se identifica con su EIN de EE. UU.
  */
 export const TITULAR = {
   nombre: "MONETIX LLC",
-  nif: "PENDIENTE: falta el EIN",
-  domicilio: "PENDIENTE: falta la dirección",
+  nif: "EIN (número fiscal de EE. UU.) 30-1506187",
+  domicilio: "412 W 7th St, Clovis, NM 88101, Estados Unidos (domicilio de su agente registrado)",
   email: "hola@oposicionesclaras.com",
-  registro: "PENDIENTE: faltan los datos registrales",
+  registro:
+    "Sociedad de responsabilidad limitada (LLC) constituida el 27 de julio de 2026 en el estado de Nuevo México (Estados Unidos). File number 3275319, Business ID 0008119276.",
 } as const;
 
-export const TITULAR_INCOMPLETO = true;
+export const TITULAR_INCOMPLETO = false;
