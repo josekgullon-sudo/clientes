@@ -1,0 +1,641 @@
+{
+  "descripcion": "Situaciones administrativas, adquisición y pérdida de la condición de funcionario (tema 26) y retribuciones e indemnizaciones (tema 35) de Administrativo del Estado: TREBEP, RD 365/1995, Ley 30/1984 y RD 462/2002. Lote generado el 2026-10-14; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "sre-001",
+      "ley": "trebep",
+      "articulo": "64.3",
+      "enunciado": "La renuncia a la condición de funcionario de carrera:",
+      "opciones": [
+        "Inhabilita para ingresar de nuevo en la Administración durante cinco años",
+        "No inhabilita para ingresar de nuevo a través del procedimiento de selección",
+        "Inhabilita definitivamente para ingresar en el mismo cuerpo o escala",
+        "Solo permite volver a ingresar mediante la rehabilitación del interesado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 64.3 dispone que «La renuncia a la condición de funcionario no inhabilita para ingresar de nuevo en la Administración Pública a través del procedimiento de selección establecido».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 26
+      }
+    },
+    {
+      "id": "sre-002",
+      "ley": "trebep",
+      "articulo": "65",
+      "enunciado": "La pérdida de la nacionalidad tenida en cuenta para el nombramiento no determina la pérdida de la condición de funcionario si:",
+      "opciones": [
+        "El funcionario lleva más de cinco años en servicio activo",
+        "Lo autoriza expresamente el órgano que efectuó el nombramiento",
+        "El funcionario se encuentra en situación de servicios especiales",
+        "Simultáneamente se adquiere la nacionalidad de alguno de los Estados previstos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 65 establece que la pérdida de la nacionalidad «determinará la pérdida de la condición de funcionario salvo que simultáneamente se adquiera la nacionalidad de alguno de dichos Estados».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 26
+      }
+    },
+    {
+      "id": "sre-003",
+      "ley": "trebep",
+      "articulo": "62.2",
+      "enunciado": "Quien supera el proceso selectivo pero no acredita que reúne los requisitos exigidos en la convocatoria:",
+      "opciones": [
+        "No podrá ser funcionario y quedarán sin efecto sus actuaciones",
+        "Será nombrado funcionario en prácticas hasta que los acredite",
+        "Dispondrá de un mes para subsanar la falta de acreditación",
+        "Será nombrado funcionario interino en el mismo cuerpo o escala"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 62.2, «no podrán ser funcionarios y quedarán sin efecto las actuaciones relativas a quienes no acrediten, una vez superado el proceso selectivo, que reúnen los requisitos y condiciones exigidos en la convocatoria».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 26
+      }
+    },
+    {
+      "id": "sre-004",
+      "ley": "trebep",
+      "articulo": "87.1.e",
+      "enunciado": "El funcionario Diputado que pierde esa condición por disolución de las Cortes Generales:",
+      "opciones": [
+        "Debe solicitar el reingreso al servicio activo en el plazo de un mes",
+        "Pasa de oficio a excedencia voluntaria por interés particular",
+        "Puede permanecer en servicios especiales hasta la nueva constitución",
+        "Queda en expectativa de destino durante un año como máximo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 87.1.e) dispone que quienes pierdan dicha condición «por disolución de las correspondientes cámaras o terminación del mandato de las mismas podrán permanecer en la situación de servicios especiales hasta su nueva constitución».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13,
+        "admin-age": 26
+      }
+    },
+    {
+      "id": "sre-005",
+      "ley": "trebep",
+      "articulo": "87.2",
+      "enunciado": "Los funcionarios en situación de servicios especiales perciben:",
+      "opciones": [
+        "Las retribuciones de funcionario de carrera, más las del cargo",
+        "Las retribuciones del puesto o cargo, sin perjuicio de sus trienios",
+        "Solo las retribuciones básicas como funcionarios de carrera",
+        "El 50 por 100 de sus retribuciones como funcionarios de carrera"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 87.2, «percibirán las retribuciones del puesto o cargo que desempeñen y no las que les correspondan como funcionarios de carrera, sin perjuicio del derecho a percibir los trienios que tengan reconocidos en cada momento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13,
+        "admin-age": 26
+      }
+    },
+    {
+      "id": "sre-006",
+      "ley": "trebep",
+      "articulo": "88.3",
+      "enunciado": "El tiempo de servicio en otra Administración a la que el funcionario llegó por un sistema de provisión de puestos:",
+      "opciones": [
+        "No se computa a ningún efecto en su Administración de origen",
+        "Se computa únicamente a efectos de reconocimiento de trienios",
+        "Se computa solo si reingresa en su Administración antes de dos años",
+        "Se le computa como de servicio activo en su cuerpo o escala de origen"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 88.3 dispone: «El tiempo de servicio en la Administración Pública en la que estén destinados se les computará como de servicio activo en su cuerpo o escala de origen».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13,
+        "admin-age": 26
+      }
+    },
+    {
+      "id": "sre-007",
+      "ley": "trebep",
+      "articulo": "89.3",
+      "enunciado": "Para conceder la excedencia voluntaria por agrupación familiar, el TREBEP:",
+      "opciones": [
+        "No exige haber prestado servicios efectivos durante un periodo previo",
+        "Exige cinco años de servicios efectivos inmediatamente anteriores",
+        "Exige tres años de servicios efectivos en cualquier Administración",
+        "Exige un año de servicios efectivos en el mismo cuerpo o escala"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 89.3, la excedencia por agrupación familiar puede concederse «sin el requisito de haber prestado servicios efectivos en cualquiera de las Administraciones Públicas durante el periodo establecido».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13,
+        "admin-age": 26
+      }
+    },
+    {
+      "id": "sre-008",
+      "ley": "trebep",
+      "articulo": "89.4",
+      "enunciado": "La excedencia para cuidar a un familiar a cargo que no pueda valerse por sí mismo alcanza a familiares hasta el:",
+      "opciones": [
+        "Primer grado de consanguinidad o afinidad",
+        "Tercer grado de consanguinidad y segundo de afinidad",
+        "Segundo grado inclusive de consanguinidad o afinidad",
+        "Cuarto grado de consanguinidad o afinidad"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 89.4 reconoce la excedencia «para atender al cuidado de un familiar que se encuentre a su cargo, hasta el segundo grado inclusive de consanguinidad o afinidad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13,
+        "admin-age": 26
+      }
+    },
+    {
+      "id": "sre-009",
+      "ley": "trebep",
+      "articulo": "89.5",
+      "enunciado": "En la excedencia por violencia de género o sexual, si las actuaciones judiciales lo exigen, la reserva de puesto puede prorrogarse hasta un máximo de:",
+      "opciones": [
+        "Doce meses",
+        "Seis meses",
+        "Veinticuatro meses",
+        "Dieciocho meses"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 89.5 reconoce la reserva del puesto durante los seis primeros meses y añade: «Cuando las actuaciones judiciales lo exigieran se podrá prorrogar este periodo por tres meses, con un máximo de dieciocho».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13,
+        "admin-age": 26
+      }
+    },
+    {
+      "id": "sre-010",
+      "ley": "trebep",
+      "articulo": "90.2",
+      "enunciado": "La suspensión firme de funciones impuesta por sanción disciplinaria no puede exceder de:",
+      "opciones": [
+        "Seis años",
+        "Seis meses",
+        "Tres años",
+        "Cuatro años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 90.2 establece: «La suspensión firme por sanción disciplinaria no podrá exceder de seis años».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 13,
+        "admin-age": 26
+      }
+    },
+    {
+      "id": "sre-012",
+      "ley": "rd-365-1995",
+      "articulo": "22.3",
+      "enunciado": "El funcionario que perdió su puesto de trabajo por una suspensión firme debe solicitar el reingreso al servicio activo:",
+      "opciones": [
+        "En el mes siguiente a la finalización de la suspensión",
+        "Con tres meses de antelación al fin de la suspensión",
+        "Con un mes de antelación a la finalización de la suspensión",
+        "En cualquier momento tras cumplir la mitad de la sanción"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 22.3, el funcionario «deberá solicitar el reingreso al servicio activo con un mes de antelación a la finalización del período de duración de la suspensión».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 26
+      }
+    },
+    {
+      "id": "sre-013",
+      "ley": "rd-365-1995",
+      "articulo": "12.2",
+      "enunciado": "Según el RD 365/1995, ¿cuál es el periodo máximo de permanencia en la situación de expectativa de destino?",
+      "opciones": [
+        "Seis meses",
+        "Dos años",
+        "Dieciocho meses",
+        "Un año"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 12.2 establece: «Los funcionarios permanecerán en esta situación un período máximo de un año, transcurrido el cual pasarán a la situación de excedencia forzosa».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 26
+      }
+    },
+    {
+      "id": "sre-014",
+      "ley": "rd-365-1995",
+      "articulo": "23.1",
+      "enunciado": "Según el RD 365/1995, los cambios de situaciones administrativas deben comunicarse siempre:",
+      "opciones": [
+        "Al Registro Central de Personal",
+        "A la Intervención General de la Administración del Estado",
+        "Al Tribunal de Cuentas",
+        "A la Comisión Superior de Personal"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 23.1 dispone que «Los cambios de situaciones administrativas deberán ser siempre comunicados al Registro Central de Personal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 26
+      }
+    },
+    {
+      "id": "sre-015",
+      "ley": "trebep",
+      "articulo": "22.4",
+      "enunciado": "Cada paga extraordinaria incluye la totalidad de las retribuciones complementarias, salvo las que retribuyen:",
+      "opciones": [
+        "La progresión en la carrera y las condiciones del puesto",
+        "El rendimiento y los servicios extraordinarios fuera de jornada",
+        "La especial dificultad técnica y la dedicación del puesto",
+        "La antigüedad y la progresión en la carrera administrativa"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 22.4 fija cada paga en «una mensualidad de retribuciones básicas y de la totalidad de las retribuciones complementarias, salvo aquéllas a las que se refieren los apartados c) y d) del artículo 24», que son el rendimiento o resultados obtenidos y los servicios extraordinarios prestados fuera de la jornada normal.",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 35
+      }
+    },
+    {
+      "id": "sre-016",
+      "ley": "trebep",
+      "articulo": "22.5",
+      "enunciado": "Según el TREBEP, la participación o premio en multas impuestas como contraprestación de un servicio:",
+      "opciones": [
+        "Se permite si está atribuida normativamente a los servicios",
+        "Se permite hasta el 10 por 100 del importe de la multa",
+        "No podrá percibirse, aunque esté atribuida normativamente",
+        "Solo se permite como parte del complemento de productividad"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 22.5 dispone que no podrá percibirse «participación o premio en multas impuestas, aun cuando estuviesen normativamente atribuidas a los servicios».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 35
+      }
+    },
+    {
+      "id": "sre-017",
+      "ley": "trebep",
+      "articulo": "24",
+      "enunciado": "Según el TREBEP, la cuantía y estructura de las retribuciones complementarias de los funcionarios se establecen por:",
+      "opciones": [
+        "Las mesas generales de negociación de cada Administración",
+        "Los convenios colectivos de cada Administración Pública",
+        "Real decreto aprobado por el Consejo de Ministros",
+        "Las correspondientes leyes de cada Administración Pública"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 24 dispone: «La cuantía y estructura de las retribuciones complementarias de los funcionarios se establecerán por las correspondientes leyes de cada Administración Pública».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 35
+      }
+    },
+    {
+      "id": "sre-018",
+      "ley": "trebep",
+      "articulo": "25.1",
+      "enunciado": "Los funcionarios interinos perciben las retribuciones complementarias correspondientes a:",
+      "opciones": [
+        "La categoría de entrada en el cuerpo o escala en que se les nombre",
+        "La categoría consolidada por el funcionario de carrera sustituido",
+        "El nivel máximo del intervalo asignado a su cuerpo o escala",
+        "El grado personal que tendría un funcionario con su antigüedad"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 25.1 dispone que percibirán las complementarias de los apartados b), c) y d) del artículo 24 «y las correspondientes a la categoría de entrada en el cuerpo o escala en el que se le nombre».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 35
+      }
+    },
+    {
+      "id": "sre-019",
+      "ley": "trebep",
+      "articulo": "26",
+      "enunciado": "Las retribuciones de los funcionarios en prácticas se corresponderán, como mínimo, con:",
+      "opciones": [
+        "Las retribuciones básicas y complementarias del puesto",
+        "El sueldo del Subgrupo o Grupo en que aspiren a ingresar",
+        "El 50 por 100 del sueldo del Subgrupo de ingreso",
+        "El salario mínimo interprofesional vigente"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 26, las retribuciones de los funcionarios en prácticas, «como mínimo, se corresponderán a las del sueldo del Subgrupo o Grupo, en el supuesto de que éste no tenga Subgrupo, en que aspiren a ingresar».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 35
+      }
+    },
+    {
+      "id": "sre-020",
+      "ley": "trebep",
+      "articulo": "29",
+      "enunciado": "Las cantidades destinadas a financiar aportaciones a planes de pensiones de empleo tienen la consideración de:",
+      "opciones": [
+        "Retribución complementaria",
+        "Indemnización por razón del servicio",
+        "Retribución diferida",
+        "Prestación de acción social"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 29 establece que las cantidades destinadas a financiar aportaciones a planes de pensiones o contratos de seguros «tendrán a todos los efectos la consideración de retribución diferida».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 35
+      }
+    },
+    {
+      "id": "sre-021",
+      "ley": "trebep",
+      "articulo": "30.1",
+      "enunciado": "La deducción proporcional de haberes por la parte de jornada no realizada:",
+      "opciones": [
+        "Tiene carácter de sanción disciplinaria leve",
+        "Sustituye a cualquier sanción disciplinaria",
+        "Requiere la previa instrucción de un expediente",
+        "No tiene carácter sancionador"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 30.1 dispone: «Sin perjuicio de la sanción disciplinaria que pueda corresponder, la parte de jornada no realizada dará lugar a la deducción proporcional de haberes, que no tendrá carácter sancionador».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 35
+      }
+    },
+    {
+      "id": "sre-022",
+      "ley": "trebep",
+      "articulo": "30.2",
+      "enunciado": "A quienes ejercen el derecho de huelga, la deducción de haberes por el tiempo de huelga:",
+      "opciones": [
+        "No es sanción ni afecta a sus prestaciones sociales",
+        "Es sanción, pero no afecta a sus prestaciones sociales",
+        "No es sanción, pero reduce sus prestaciones sociales",
+        "Solo procede si la huelga dura una jornada completa"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 30.2 establece que no devengarán ni percibirán esas retribuciones «sin que la deducción de haberes que se efectúe tenga carácter de sanción, ni afecte al régimen respectivo de sus prestaciones sociales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 35
+      }
+    },
+    {
+      "id": "sre-023",
+      "ley": "trebep",
+      "articulo": "22.2",
+      "enunciado": "Las retribuciones básicas retribuyen al funcionario según la adscripción de su cuerpo o escala a un Subgrupo o Grupo y:",
+      "opciones": [
+        "Por el nivel del puesto que desempeña",
+        "Por su antigüedad en el mismo",
+        "Por el rendimiento obtenido",
+        "Por la dificultad técnica del puesto"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 22.2, las retribuciones básicas retribuyen al funcionario según la adscripción de su cuerpo o escala a un Subgrupo o Grupo «y por su antigüedad en el mismo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 35
+      }
+    },
+    {
+      "id": "sre-024",
+      "ley": "ley-30-1984",
+      "articulo": "23.3.b",
+      "enunciado": "Según la Ley 30/1984, ¿cuántos complementos específicos pueden asignarse a cada puesto de trabajo?",
+      "opciones": [
+        "Uno como máximo",
+        "Dos como máximo",
+        "Tantos como factores concurran",
+        "Uno por cada factor de penosidad"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 23.3.b) dispone: «En ningún caso podrá asignarse más de un complemento específico a cada puesto de trabajo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-23",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 35
+      }
+    },
+    {
+      "id": "sre-025",
+      "ley": "ley-30-1984",
+      "articulo": "23.3.c",
+      "enunciado": "Según la Ley 30/1984, las cantidades que percibe cada funcionario por complemento de productividad:",
+      "opciones": [
+        "Son reservadas y solo las conoce el propio funcionario interesado",
+        "Solo se comunican a la Intervención Delegada del departamento",
+        "Son de conocimiento público de los funcionarios y representantes sindicales",
+        "Se publican cada trimestre en el Boletín Oficial del Estado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 23.3.c) dispone que «las cantidades que perciba cada funcionario por este concepto serán de conocimiento público de los demás funcionarios del Departamento u Organismo interesado así como de los representantes sindicales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-23",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 35
+      }
+    },
+    {
+      "id": "sre-026",
+      "ley": "ley-30-1984",
+      "articulo": "23.3.d",
+      "enunciado": "Según la Ley 30/1984, las gratificaciones por servicios extraordinarios fuera de la jornada normal:",
+      "opciones": [
+        "Son fijas en su cuantía y periódicas en su devengo",
+        "Se devengan mensualmente junto con el sueldo",
+        "Se integran en el complemento específico del puesto",
+        "Nunca pueden ser fijas en cuantía y periódicas en devengo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 23.3.d) se refiere a «Las gratificaciones por servicios extraordinarios, fuera de la jornada normal, que en ningún caso podrán ser fijas en su cuantía y periódicas en su devengo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-23",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 35
+      }
+    },
+    {
+      "id": "sre-027",
+      "ley": "ley-30-1984",
+      "articulo": "23.2.b",
+      "enunciado": "Según la Ley 30/1984, si un funcionario cambia de grupo antes de completar un trienio, la fracción de tiempo transcurrido:",
+      "opciones": [
+        "Se pierde a efectos de trienios",
+        "Se considera tiempo de servicios prestados en el nuevo grupo",
+        "Se computa en el grupo anterior solo si supera un año",
+        "Se abona como parte proporcional del trienio"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 23.2.b) dispone: «Cuando un funcionario cambie de adscripción a grupo antes de completar un trienio, la fracción de tiempo transcurrido se considerará como tiempo de servicios prestados en el nuevo grupo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-02-23",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 35
+      }
+    },
+    {
+      "id": "sre-028",
+      "ley": "rd-462-2002",
+      "articulo": "5.1",
+      "enunciado": "Salvo casos excepcionales, una comisión de servicio con derecho a indemnización en territorio nacional no durará más de:",
+      "opciones": [
+        "Quince días",
+        "Tres meses",
+        "Un mes",
+        "Seis meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 5.1 dispone: «Toda comisión con derecho a indemnización, salvo casos excepcionales, no durará más de un mes en territorio nacional y de tres en el extranjero».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 35
+      }
+    },
+    {
+      "id": "sre-029",
+      "ley": "rd-462-2002",
+      "articulo": "6.2",
+      "enunciado": "Según el RD 462/2002, la duración de la residencia eventual no podrá exceder, salvo prórroga, de:",
+      "opciones": [
+        "Un año",
+        "Seis meses",
+        "Tres meses",
+        "Dos años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 6.2 dispone: «La duración de la residencia eventual no podrá exceder de un año, salvo que se prorrogue por el tiempo estrictamente indispensable».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 35
+      }
+    },
+    {
+      "id": "sre-030",
+      "ley": "rd-462-2002",
+      "articulo": "12.1",
+      "enunciado": "En una comisión que no supera un día natural, se cobra el 50 % de la dieta de manutención si dura al menos cinco horas y:",
+      "opciones": [
+        "Empieza antes de las doce horas y acaba después de las catorce",
+        "Empieza antes de las catorce horas y acaba después de las dieciséis",
+        "Empieza antes de las catorce horas y acaba después de las veintidós",
+        "Empieza antes de las diez horas y acaba después de las dieciséis"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 12.1 lo permite cuando, «teniendo la comisión una duración mínima de cinco horas, ésta se inicie antes de las catorce horas y finalice después de las dieciséis horas, supuesto en que se percibirá el 50 por 100 del importe de la dieta por manutención».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 35
+      }
+    },
+    {
+      "id": "sre-031",
+      "ley": "rd-462-2002",
+      "articulo": "16.1",
+      "enunciado": "La indemnización por residencia eventual la fija la autoridad que confiere la comisión con un límite máximo, sin justificación documental, del:",
+      "opciones": [
+        "50 por 100 de las dietas enteras",
+        "60 por 100 de las dietas enteras",
+        "100 por 100 de las dietas enteras",
+        "80 por 100 de las dietas enteras"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 16.1 dispone que la cuantía se fijará «dentro del límite máximo, sin que se necesite justificación documental, del 80 por 100 del importe de las dietas enteras».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 35
+      }
+    },
+    {
+      "id": "sre-032",
+      "ley": "rd-462-2002",
+      "articulo": "32",
+      "enunciado": "Lo percibido al año por asistencias a tribunales y órganos de selección no puede superar, de las retribuciones anuales del puesto principal, el:",
+      "opciones": [
+        "40 por 100",
+        "50 por 100",
+        "20 por 100",
+        "25 por 100"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 32 impide percibir por estas asistencias «un importe total por año natural superior al 20 por 100 de las retribuciones anuales, excluidas las de carácter personal derivadas de la antigüedad, que correspondan por el puesto de trabajo principal».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 35
+      }
+    }
+  ]
+}

@@ -5,8 +5,9 @@ import { Boton, EnlaceBoton } from "@/components/boton";
 import { Avatar } from "@/components/ui/avatar";
 import { estadisticasUsuario, logrosUsuario, perfilPublico } from "@/lib/datos/estudio";
 import { AVATARES } from "@/lib/estudio/perfil";
+import { OPOSICIONES } from "@/lib/sitio";
 import { usuarioActual } from "@/lib/datos/usuario";
-import { guardarAjustes, guardarPerfilPublico } from "../../ajustes";
+import { guardarAjustes, guardarPerfilPublico, cambiarOposicion } from "../../ajustes";
 
 export const metadata: Metadata = { title: "Tu perfil" };
 
@@ -109,6 +110,38 @@ export default async function Cuenta({ searchParams }: PageProps<"/app/cuenta">)
 
         </div>
         <div className="flex min-w-0 flex-col gap-6">
+          {estudio && (
+            <form id="oposicion" action={cambiarOposicion} className="tarjeta flex scroll-mt-24 flex-col gap-4 p-5">
+              <h2 className="font-display text-lg font-black">Tu oposición</h2>
+              {q.error === "oposicion" && (
+                <p role="alert" className="rounded-xl border-2 border-teja bg-teja-suave p-3 font-semibold">
+                  No hemos podido cambiarla. Vuelve a intentarlo.
+                </p>
+              )}
+              <fieldset className="flex flex-col gap-2">
+                <legend className="sr-only">Oposición que preparas</legend>
+                {OPOSICIONES.map((o) => (
+                  <label
+                    key={o.slug}
+                    className="flex min-h-14 cursor-pointer items-center gap-3 rounded-2xl border-2 border-filete bg-papel px-4 py-3 transition has-checked:border-cielo has-checked:bg-cielo-suave has-focus-visible:outline-3 has-focus-visible:outline-tinta"
+                  >
+                    <input type="radio" name="oposicion" value={o.slug} defaultChecked={(estudio.oposicion ?? "aux-age") === o.slug} className="size-5 accent-[var(--cielo)]" />
+                    <span>
+                      <span className="block font-bold">{o.nombre}</span>
+                      <span className="text-sm text-pizarra">Grupo {o.grupo}</span>
+                    </span>
+                  </label>
+                ))}
+              </fieldset>
+              <p className="text-sm text-pizarra">
+                Lo que ya has respondido se mantiene: las preguntas comunes cuentan en las dos. El camino y los niveles son de cada oposición.
+              </p>
+              <Boton type="submit" variante="secundario">
+                Cambiar de oposición
+              </Boton>
+            </form>
+          )}
+
           {perfil && (
             <form id="perfil" action={guardarPerfilPublico} className="tarjeta flex scroll-mt-24 flex-col gap-5 p-5">
               <h2 className="font-display text-lg font-black">Tu perfil en la liga</h2>

@@ -7,6 +7,7 @@ import { Clara } from "@/components/mascota/clara";
 import { Tablero } from "@/components/estudio/tablero";
 import { estadisticasUsuario } from "@/lib/datos/estudio";
 import { examenEstimado } from "@/lib/examen";
+import { datosOposicion } from "@/lib/sitio";
 import { diasEntre, hoyMadrid, sumarDias } from "@/lib/seo/seleccion";
 
 export const metadata: Metadata = { title: "Progreso", robots: { index: false } };
@@ -49,7 +50,8 @@ export default async function Estadisticas() {
     );
   }
 
-  const estimada = examenEstimado();
+  const textos = datosOposicion(est.oposicion);
+  const estimada = examenEstimado(est.oposicion);
   const fecha = est.fecha_examen ?? estimada?.fecha ?? null;
   const dias = fecha ? diasEntre(hoyMadrid(), fecha) : null;
   const pendientes = est.temas.reduce((s, t) => s + Math.max(0, t.total - t.dominadas), 0);
@@ -158,9 +160,11 @@ export default async function Estadisticas() {
                   <>
                     <dl className="grid gap-3 sm:grid-cols-2">
                       {[
-                        ["Parte 1 · bloque I", est.prediccion.parte1],
-                        ["Parte 2 · bloque II", est.prediccion.parte2],
-                      ].map(([etiqueta, parte]) => (
+                        [textos.partes[0], est.prediccion.parte1],
+                        [textos.partes[1], est.prediccion.parte2],
+                      ]
+                        .filter(([, parte]) => parte)
+                        .map(([etiqueta, parte]) => (
                         <div key={String(etiqueta)} className="rounded-xl bg-papel-hundido p-4">
                           <dt className="text-sm font-semibold text-pizarra">{etiqueta as string}</dt>
                           <dd>
@@ -179,7 +183,7 @@ export default async function Estadisticas() {
                     </dl>
                     <p className="mt-3 text-sm text-pizarra">
                       Estimación con penalización de un tercio. No es la nota del examen.
-                      {est.prediccion.parte2 ? " El bloque II aún tiene pocas preguntas: esa parte sale conservadora." : ""}
+                      {textos.notaPrediccion}
                     </p>
                   </>
                 )}
@@ -209,7 +213,7 @@ export default async function Estadisticas() {
                   <p className="cifras font-display text-4xl font-extrabold">
                     {est.velocidad_media_s ? `${Math.round(Number(est.velocidad_media_s))} s` : "—"}
                   </p>
-                  <p className="mt-1 text-sm text-pizarra">por pregunta. En el examen tienes unos 49 s (90 min para 110 preguntas).</p>
+                  <p className="mt-1 text-sm text-pizarra">por pregunta. {textos.ritmo}</p>
                 </Seccion>
               </div>
 

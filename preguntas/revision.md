@@ -87,3 +87,20 @@ Ninguna por ahora.
 - Fuentes nuevas, descargadas con `python3 scripts/descargar_boe.py`: Ley 19/2013, Ley 47/2003,
   RD 208/1996, RD 203/2021, RD 951/2005, Ley 7/1985 (Bases de Régimen Local) y LO 6/1985 (Poder
   Judicial). Sirven para los temas 4, 6, 7, 9, 15, 17, 18, 19 y 20.
+
+## Administrativo del Estado (C1) — 15/10/2026
+
+Temario: anexo III de BOE-A-2025-26262 (45 temas, bloques I a VI). Las 1030 preguntas existentes se asignan
+también a su tema de admin-age según ley y artículo. Lotes nuevos revisados a mano y validados (374 preguntas):
+ljca-, lcsp-, lcse-, lgs-, dag-, fps-, muf-, gfi-, sre-, lgss-, lab-, dlg-.
+
+- sre-011 retirada: el RD 365/1995 (art. 21.4) da el 75 % de sueldo, trienios y pagas al suspenso provisional,
+  pero el TREBEP (art. 98.3) le reconoce las retribuciones básicas.
+- muf-030: redacción del enunciado corregida.
+- lab-013 a lab-025 (IV Convenio único): el texto de /fuentes/web es el publicado en 2019. Se modificó en 2021
+  y 2022; solo se pregunta por ámbito, exclusiones y estructura de clasificación. Revisar si hay nueva versión.
+- lab-001 a lab-011 quedan solo en admin-age (el tema 13 de Auxiliar es de personal funcionario).
+- fps- (RD 33/1986): se omite lo que contradice al TREBEP (faltas muy graves, prescripción).
+- lgss-024: edad de jubilación según la redacción final del art. 205.1.a (sin el calendario transitorio).
+- dlg-: la Ley 39/2006 está reformada por la Ley 4/2026; se usa el texto vigente descargado.
+- Temas con menos de 10 preguntas en admin-age: 23, 25 y 36. Ampliar en la próxima tanda.

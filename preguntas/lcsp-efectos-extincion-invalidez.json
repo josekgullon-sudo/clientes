@@ -1,0 +1,645 @@
+{
+  "descripcion": "Ley 9/2017 (LCSP): invalidez, recurso especial, revisión de precios, garantías, efectos, cumplimiento, pago, modificación y extinción. Lote generado el 2026-10-14; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-10-06).",
+  "preguntas": [
+    {
+      "id": "lcse-001",
+      "ley": "ley-9-2017",
+      "articulo": "39.2.b",
+      "enunciado": "Según la LCSP, es causa de nulidad de pleno derecho de los contratos celebrados por poderes adjudicadores:",
+      "opciones": [
+        "La carencia o insuficiencia de crédito, salvo en los supuestos de emergencia",
+        "El incumplimiento de los requisitos exigidos para modificar el contrato",
+        "El encargo a un medio propio que no cumpla los requisitos de esa condición",
+        "La cláusula que otorgue ventajas a empresas que ya contrataron con la Administración"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 39.2.b) declara nulos de pleno derecho los contratos en que concurra «La carencia o insuficiencia de crédito, de conformidad con lo establecido en la Ley 47/2003 […] salvo los supuestos de emergencia». Las otras tres son causas de anulabilidad del artículo 40.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-002",
+      "ley": "ley-9-2017",
+      "articulo": "40.a",
+      "enunciado": "Según el artículo 40 de la LCSP, es causa de anulabilidad de derecho administrativo:",
+      "opciones": [
+        "La falta de publicación del anuncio de licitación cuando sea preceptivo",
+        "La falta de solvencia económica o técnica debidamente acreditada del adjudicatario",
+        "El incumplimiento de los requisitos exigidos para la modificación de los contratos",
+        "Que el adjudicatario esté incurso en una prohibición para contratar"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 40 incluye entre las causas de anulabilidad «El incumplimiento de las circunstancias y requisitos exigidos para la modificación de los contratos en los artículos 204 y 205». Las demás opciones son causas de nulidad del artículo 39.2.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-003",
+      "ley": "ley-9-2017",
+      "articulo": "42.1",
+      "enunciado": "La declaración de nulidad de los actos preparatorios del contrato, cuando sea firme:",
+      "opciones": [
+        "Solo afectará a esos actos y a sus consecuencias",
+        "Llevará consigo la del contrato, que entrará en fase de liquidación",
+        "Permitirá conservar el contrato si lo acuerda el órgano de contratación",
+        "Obligará a adjudicar el contrato al siguiente licitador clasificado"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 42.1, la declaración de nulidad de los actos preparatorios o de la adjudicación, «cuando sea firme, llevará en todo caso consigo la del mismo contrato, que entrará en fase de liquidación». Que solo afecte a los actos y sus consecuencias es lo previsto para los actos no preparatorios (art. 42.2).",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-004",
+      "ley": "ley-9-2017",
+      "articulo": "41.4",
+      "enunciado": "En caso de nulidad de un contrato, la facultad de acordar una indemnización por perjuicios:",
+      "opciones": [
+        "Se entiende delegada junto con la competencia para contratar",
+        "Corresponde siempre al Consejo de Estado",
+        "Corresponde al Tribunal Administrativo Central de Recursos Contractuales",
+        "No es susceptible de delegación y la resuelve el órgano delegante"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 41.4 dispone que «la facultad de acordar una indemnización por perjuicios en caso de nulidad no será susceptible de delegación, debiendo resolver sobre la misma, en todo caso, el órgano delegante».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-005",
+      "ley": "ley-9-2017",
+      "articulo": "44.1.a",
+      "enunciado": "Son susceptibles de recurso especial en materia de contratación los contratos de obras cuyo valor estimado sea superior a:",
+      "opciones": [
+        "Un millón de euros",
+        "Tres millones de euros",
+        "Cinco millones de euros",
+        "Cien mil euros"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 44.1.a) incluye los «Contratos de obras cuyo valor estimado sea superior a tres millones de euros, y de suministro y servicios, que tenga un valor estimado superior a cien mil euros».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-006",
+      "ley": "ley-9-2017",
+      "articulo": "44.4",
+      "enunciado": "No cabe el recurso especial en materia de contratación en los procedimientos de adjudicación que se sigan por el trámite:",
+      "opciones": [
+        "De urgencia",
+        "Negociado sin publicidad",
+        "De emergencia",
+        "Simplificado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 44.4 establece: «No se dará este recurso en relación con los procedimientos de adjudicación que se sigan por el trámite de emergencia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-007",
+      "ley": "ley-9-2017",
+      "articulo": "44.7",
+      "enunciado": "La interposición del recurso especial en materia de contratación:",
+      "opciones": [
+        "Es preceptiva antes del recurso contencioso-administrativo",
+        "Exige constituir una caución del 3 % del valor estimado",
+        "Es potestativa, pero exige el pago de una tasa",
+        "Es potestativa y gratuita para los recurrentes"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 44.7, «La interposición del recurso especial en materia de contratación tendrá carácter potestativo y será gratuito para los recurrentes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-008",
+      "ley": "ley-9-2017",
+      "articulo": "45.1",
+      "enunciado": "El Tribunal Administrativo Central de Recursos Contractuales está compuesto por un Presidente y:",
+      "opciones": [
+        "Un mínimo de cinco vocales",
+        "Un máximo de cinco vocales",
+        "Un mínimo de tres vocales",
+        "Un mínimo de siete vocales"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 45.1 dispone que el Tribunal «estará compuesto por un Presidente y un mínimo de cinco vocales», cuyo número podrá incrementarse mediante Real Decreto.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-009",
+      "ley": "ley-9-2017",
+      "articulo": "49.2",
+      "enunciado": "El órgano competente debe decidir sobre las medidas cautelares solicitadas antes del recurso especial dentro de:",
+      "opciones": [
+        "Los dos días hábiles siguientes a la solicitud",
+        "Los cinco días hábiles siguientes a la solicitud",
+        "Los diez días hábiles siguientes a la solicitud",
+        "Los quince días hábiles siguientes a la solicitud"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 49.2 obliga a adoptar decisión motivada sobre las medidas cautelares «dentro de los cinco días hábiles siguientes a la presentación del escrito en que se soliciten». Los dos días hábiles son el plazo de alegaciones del órgano de contratación.",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-010",
+      "ley": "ley-9-2017",
+      "articulo": "50.1",
+      "enunciado": "El escrito de interposición del recurso especial en materia de contratación debe presentarse, con carácter general, en el plazo de:",
+      "opciones": [
+        "Diez días hábiles",
+        "Un mes",
+        "Treinta días naturales",
+        "Quince días hábiles"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 50.1 establece que el procedimiento de recurso «se iniciará mediante escrito que deberá presentarse en el plazo de quince días hábiles».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-011",
+      "ley": "ley-9-2017",
+      "articulo": "103.5",
+      "enunciado": "Salvo en el suministro de energía, la revisión periódica de precios procede cuando el contrato se ha ejecutado, al menos, en:",
+      "opciones": [
+        "El 20 % de su importe y ha transcurrido un año desde su formalización",
+        "El 10 % de su importe y han transcurrido seis meses desde su formalización",
+        "El 20 % de su importe y han transcurrido dos años desde su adjudicación",
+        "El 50 % de su importe, sin exigencia de plazo mínimo"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 103.5, la revisión tendrá lugar «cuando el contrato se hubiese ejecutado, al menos, en el 20 por ciento de su importe y hubiese transcurrido un año desde su formalización».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-012",
+      "ley": "ley-9-2017",
+      "articulo": "104",
+      "enunciado": "Si la cláusula de revisión se aplica a periodos en que el contratista incurrió en mora, se toman los índices de precios:",
+      "opciones": [
+        "Del periodo real de ejecución, en todo caso",
+        "De la fecha de formalización del contrato",
+        "De las fechas fijadas en el contrato, salvo que los del periodo real den un coeficiente inferior",
+        "Que elija el contratista entre los del periodo real y los previstos"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 104 dispone que se tendrán en cuenta los índices que «hubiesen correspondido a las fechas establecidas en el contrato para la realización de la prestación en plazo, salvo que los correspondientes al período real de ejecución produzcan un coeficiente inferior, en cuyo caso se aplicarán estos últimos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-013",
+      "ley": "ley-9-2017",
+      "articulo": "190",
+      "enunciado": "Es una prerrogativa del órgano de contratación en los contratos administrativos:",
+      "opciones": [
+        "Inspeccionar con carácter general todas las oficinas del contratista",
+        "Revisar los precios de forma no periódica cuando lo estime oportuno",
+        "Ceder el contrato a un tercero sin consentimiento del contratista",
+        "Modificar el contrato por razones de interés público"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 190 atribuye al órgano de contratación, entre otras, la prerrogativa de «interpretar los contratos administrativos, resolver las dudas que ofrezca su cumplimiento, modificarlos por razones de interés público». Además excluye expresamente un derecho general a inspeccionar las instalaciones y oficinas del contratista.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-014",
+      "ley": "ley-9-2017",
+      "articulo": "191.3.c",
+      "enunciado": "Es preceptivo el dictamen del Consejo de Estado en las reclamaciones por responsabilidad contractual de la Administración cuando la indemnización reclamada sea igual o superior a:",
+      "opciones": [
+        "30.000 euros",
+        "50.000 euros",
+        "100.000 euros",
+        "6.000.000 de euros"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 191.3.c) exige el dictamen en las reclamaciones por responsabilidad contractual «en los casos en que las indemnizaciones reclamadas sean de cuantía igual o superior a 50.000 euros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-015",
+      "ley": "ley-9-2017",
+      "articulo": "193.2",
+      "enunciado": "La constitución en mora del contratista:",
+      "opciones": [
+        "Exige intimación previa por escrito de la Administración",
+        "Requiere audiencia previa del contratista durante diez días",
+        "No precisa intimación previa por parte de la Administración",
+        "Solo se produce tras el informe del responsable del contrato"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 193.2 dispone: «La constitución en mora del contratista no precisará intimación previa por parte de la Administración».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-016",
+      "ley": "ley-9-2017",
+      "articulo": "193.3",
+      "enunciado": "Salvo previsión distinta en el pliego, las penalidades diarias por demora en el plazo total son de:",
+      "opciones": [
+        "0,20 euros por cada 1.000 euros del precio, IVA excluido",
+        "0,60 euros por cada 1.000 euros del precio, IVA excluido",
+        "0,60 euros por cada 100 euros del precio, IVA incluido",
+        "1 euro por cada 1.000 euros del precio, IVA excluido"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 193.3, la Administración puede optar por la resolución o por «la imposición de las penalidades diarias en la proporción de 0,60 euros por cada 1.000 euros del precio del contrato, IVA excluido».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-017",
+      "ley": "ley-9-2017",
+      "articulo": "204.1",
+      "enunciado": "Las modificaciones previstas en el pliego de cláusulas administrativas particulares pueden alcanzar como máximo:",
+      "opciones": [
+        "El 10 % del precio inicial",
+        "El 15 % del precio inicial",
+        "El 20 % del precio inicial",
+        "El 50 % del precio inicial"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 204.1 permite modificar los contratos durante su vigencia «hasta un máximo del veinte por ciento del precio inicial» cuando los pliegos lo hayan advertido expresamente.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-018",
+      "ley": "ley-9-2017",
+      "articulo": "205.2.a",
+      "enunciado": "Una modificación no prevista para añadir obras, suministros o servicios adicionales no puede alterar la cuantía del contrato en más del:",
+      "opciones": [
+        "50 % de su precio inicial, IVA excluido",
+        "20 % de su precio inicial, IVA excluido",
+        "15 % de su precio inicial, IVA excluido",
+        "30 % de su precio inicial, IVA incluido"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 205.2.a).2.º exige que la modificación implique una alteración en su cuantía que no exceda, aislada o conjuntamente, «del 50 por ciento de su precio inicial, IVA excluido».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-019",
+      "ley": "ley-9-2017",
+      "articulo": "207.3",
+      "enunciado": "Tras aprobar cualquier modificación de un contrato, el órgano de contratación debe publicar un anuncio en el perfil de contratante en el plazo de:",
+      "opciones": [
+        "10 días",
+        "15 días",
+        "Un mes",
+        "5 días"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 207.3, debe publicarse «un anuncio de modificación en el perfil de contratante del órgano de contratación en el plazo de 5 días desde la aprobación de la misma».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-020",
+      "ley": "ley-9-2017",
+      "articulo": "209",
+      "enunciado": "Según la LCSP, los contratos se extinguirán:",
+      "opciones": [
+        "Por su cumplimiento o por resolución",
+        "Por su cumplimiento, resolución o rescisión",
+        "Solo por resolución del órgano de contratación",
+        "Por cumplimiento, caducidad o renuncia"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 209 dispone: «Los contratos se extinguirán por su cumplimiento o por resolución».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-021",
+      "ley": "ley-9-2017",
+      "articulo": "211.1.d",
+      "enunciado": "Es causa de resolución, en todo caso, el retraso injustificado sobre el plan de trabajos por un plazo superior a:",
+      "opciones": [
+        "La mitad del plazo de duración inicial del contrato",
+        "Un tercio del plazo de duración inicial, incluidas las prórrogas",
+        "Seis meses, cualquiera que sea la duración del contrato",
+        "Un cuarto del plazo de duración inicial, sin contar prórrogas"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 211.1.d) considera causa de resolución «en todo caso el retraso injustificado sobre el plan de trabajos […] por un plazo superior a un tercio del plazo de duración inicial del contrato, incluidas las posibles prórrogas».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-022",
+      "ley": "ley-9-2017",
+      "articulo": "213.4",
+      "enunciado": "Si el contrato se resuelve por imposibilidad de ejecutarlo en los términos pactados (art. 211.1.g), el contratista tiene derecho a una indemnización del:",
+      "opciones": [
+        "5 % del precio del contrato",
+        "3 % del precio de adjudicación",
+        "6 % de la prestación dejada de realizar",
+        "3 % del importe de la prestación dejada de realizar"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 213.4 reconoce al contratista «una indemnización del 3 por ciento del importe de la prestación dejada de realizar, salvo que la causa sea imputable al contratista o este rechace la modificación contractual propuesta».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcse-023",
+      "ley": "ley-9-2017",
+      "articulo": "106.2",
+      "enunciado": "Cuando se exija garantía provisional, su importe no podrá ser superior al:",
+      "opciones": [
+        "3 % del presupuesto base de licitación, IVA excluido",
+        "5 % del presupuesto base de licitación, IVA excluido",
+        "3 % del precio final ofertado, IVA incluido",
+        "2 % del valor estimado del contrato"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 106.2 fija el importe de la garantía provisional, «que no podrá ser superior a un 3 por 100 del presupuesto base de licitación del contrato, excluido el Impuesto sobre el Valor Añadido».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lcse-024",
+      "ley": "ley-9-2017",
+      "articulo": "106.4",
+      "enunciado": "La garantía provisional se extingue automáticamente y se devuelve a los licitadores:",
+      "opciones": [
+        "Inmediatamente después de la perfección del contrato",
+        "Al finalizar el plazo de presentación de ofertas",
+        "Al aprobarse la liquidación del contrato",
+        "Un mes después de la adjudicación"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 106.4, «La garantía provisional se extinguirá automáticamente y será devuelta a los licitadores inmediatamente después de la perfección del contrato».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lcse-025",
+      "ley": "ley-9-2017",
+      "articulo": "107.1",
+      "enunciado": "Con carácter general, la garantía definitiva en los contratos de las Administraciones Públicas es del:",
+      "opciones": [
+        "3 % del presupuesto base de licitación, IVA excluido",
+        "10 % del precio final ofertado, IVA incluido",
+        "5 % del precio final ofertado, IVA excluido",
+        "5 % del valor estimado del contrato"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 107.1 exige constituir «una garantía de un 5 por 100 del precio final ofertado por aquellos, excluido el Impuesto sobre el Valor Añadido».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lcse-026",
+      "ley": "ley-9-2017",
+      "articulo": "107.2",
+      "enunciado": "En casos especiales puede exigirse una garantía complementaria, de modo que la garantía total pueda alcanzar el:",
+      "opciones": [
+        "8 % del precio final ofertado",
+        "10 % del precio final ofertado",
+        "15 % del precio final ofertado",
+        "20 % del precio final ofertado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 107.2 permite una garantía complementaria «de hasta un 5 por 100 del precio final ofertado […] pudiendo alcanzar la garantía total un 10 por 100 del citado precio».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lcse-027",
+      "ley": "ley-9-2017",
+      "articulo": "107.1",
+      "enunciado": "El órgano de contratación no puede eximir al adjudicatario de constituir garantía definitiva en los contratos:",
+      "opciones": [
+        "De suministro de bienes consumibles",
+        "De servicios sociales",
+        "De obras y de concesión de obras",
+        "Privados de la Administración"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 107.1 admite la exención de garantía definitiva justificada en el pliego, pero añade: «Esta exención no será posible en el caso de contratos de obras, ni de concesión de obras».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lcse-028",
+      "ley": "ley-9-2017",
+      "articulo": "109.2",
+      "enunciado": "Si se hacen efectivas penalidades sobre la garantía definitiva, el contratista debe reponerla en el plazo de:",
+      "opciones": [
+        "Diez días desde la ejecución",
+        "Un mes desde la notificación",
+        "Dos meses desde la ejecución",
+        "Quince días desde la ejecución"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 109.2 obliga al contratista a reponer o ampliar la garantía «en el plazo de quince días desde la ejecución, incurriendo en caso contrario en causa de resolución».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lcse-029",
+      "ley": "ley-9-2017",
+      "articulo": "111.2",
+      "enunciado": "El acuerdo de devolución de la garantía definitiva debe adoptarse y notificarse en el plazo de:",
+      "opciones": [
+        "Un mes desde la recepción del contrato",
+        "Dos meses desde la finalización del plazo de garantía",
+        "Tres meses desde la aprobación de la liquidación",
+        "Seis meses desde la finalización del plazo de garantía"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 111.2, «El acuerdo de devolución deberá adoptarse y notificarse al interesado en el plazo de dos meses desde la finalización del plazo de garantía».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lcse-030",
+      "ley": "ley-9-2017",
+      "articulo": "112.1",
+      "enunciado": "Las personas o entidades distintas del contratista que presten garantías a su favor:",
+      "opciones": [
+        "No pueden utilizar el beneficio de excusión",
+        "Solo responden tras agotar el patrimonio del contratista",
+        "No son parte interesada en los procedimientos sobre la garantía",
+        "Pueden oponer a la Administración las excepciones del contratista"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 112.1 dispone que estos garantes «no podrán utilizar el beneficio de excusión a que se refieren los artículos 1.830 y concordantes del Código Civil». Además, el avalista o asegurador es parte interesada (art. 112.2).",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lcse-031",
+      "ley": "ley-9-2017",
+      "articulo": "198.4",
+      "enunciado": "La Administración debe abonar el precio dentro de los días siguientes a la aprobación de las certificaciones de obra o de la conformidad. ¿Cuántos?",
+      "opciones": [
+        "Quince días",
+        "Sesenta días",
+        "Treinta días",
+        "Noventa días"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 198.4 establece que «La Administración tendrá la obligación de abonar el precio dentro de los treinta días siguientes a la fecha de aprobación de las certificaciones de obra» o de los documentos que acrediten la conformidad.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lcse-032",
+      "ley": "ley-9-2017",
+      "articulo": "198.5",
+      "enunciado": "Si la demora en el pago fuese superior a cuatro meses, el contratista podrá:",
+      "opciones": [
+        "Resolver el contrato sin necesidad de preaviso",
+        "Exigir la devolución inmediata de la garantía definitiva",
+        "Ceder el contrato sin autorización del órgano de contratación",
+        "Suspender el cumplimiento del contrato, comunicándolo con un mes de antelación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 198.5 dispone que, si la demora fuese superior a cuatro meses, el contratista «podrá proceder, en su caso, a la suspensión del cumplimiento del contrato, debiendo comunicar a la Administración, con un mes de antelación, tal circunstancia». El derecho a resolver exige una demora superior a seis meses (art. 198.6).",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    }
+  ]
+}

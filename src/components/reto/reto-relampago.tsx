@@ -141,7 +141,12 @@ export function RetoRelampago({
       setMarcada(i);
       const lista = [...respuestas, { pregunta, elegida: i }];
       setRespuestas(lista);
-      if (i === pregunta.correcta) sonidos.acierto();
+      if (i === pregunta.correcta) {
+        // Aciertos seguidos al final de la lista, este incluido: el tono sube con la racha.
+        let seguidas = 0;
+        for (let k = lista.length - 1; k >= 0 && lista[k].elegida === lista[k].pregunta.correcta; k--) seguidas++;
+        sonidos.acierto(seguidas);
+      }
       else {
         sonidos.fallo();
         if (sonidoActivo()) navigator.vibrate?.(60);

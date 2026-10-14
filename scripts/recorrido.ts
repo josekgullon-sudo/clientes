@@ -14,6 +14,8 @@ import { chromium, type Page } from "playwright";
 const BASE = process.env.CAPTURAS_URL ?? "http://localhost:3000";
 const MAILPIT = "http://127.0.0.1:54324";
 const tema = process.argv.includes("dark") ? "dark" : "light";
+// Con «admin», el recorrido elige Administrativo del Estado en el onboarding.
+const OPOSICION_RECORRIDO = process.argv.includes("admin") ? /^Administrativo del Estado/ : /^Auxiliar Administrativo/;
 const DIR = `capturas/recorrido`;
 const EMAIL = `recorrido${Date.now()}@ejemplo.es`;
 let n = 0;
@@ -110,6 +112,9 @@ async function main() {
   await p.waitForLoadState("networkidle");
 
   if (p.url().includes("onboarding")) {
+    await foto(p, "onboarding-0");
+    await p.getByRole("radio", { name: OPOSICION_RECORRIDO }).click();
+    await p.getByRole("button", { name: /Seguir/ }).click();
     await foto(p, "onboarding-1");
     await p.getByRole("button", { name: /Aún no lo sé/ }).click();
     await p.getByRole("button", { name: /Seguir/ }).click();

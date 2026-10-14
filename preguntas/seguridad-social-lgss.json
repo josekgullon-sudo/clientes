@@ -1,0 +1,605 @@
+{
+  "descripcion": "Real Decreto Legislativo 8/2015 (LGSS). Lote generado el 2026-10-14; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-10-05).",
+  "preguntas": [
+    {
+      "id": "lgss-001",
+      "ley": "rdleg-8-2015",
+      "articulo": "2.1",
+      "enunciado": "El sistema de la Seguridad Social se fundamenta en los principios de:",
+      "opciones": [
+        "Universalidad, eficacia, solidaridad y suficiencia",
+        "Unidad, contributividad, equidad y suficiencia",
+        "Universalidad, unidad, solidaridad e igualdad",
+        "Generalidad, unidad, solidaridad y proporcionalidad"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 2.1 dice que el sistema de la Seguridad Social «se fundamenta en los principios de universalidad, unidad, solidaridad e igualdad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-002",
+      "ley": "rdleg-8-2015",
+      "articulo": "7.1.b",
+      "enunciado": "A efectos de las prestaciones contributivas, se incluyen en el sistema los trabajadores autónomos que sean:",
+      "opciones": [
+        "Mayores de dieciséis años",
+        "Mayores de dieciocho años",
+        "Mayores de veintiún años",
+        "Menores de sesenta y siete años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 7.1.b) comprende a los «Trabajadores por cuenta propia o autónomos, sean o no titulares de empresas individuales o familiares, mayores de dieciocho años».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-003",
+      "ley": "rdleg-8-2015",
+      "articulo": "7.2",
+      "enunciado": "A efectos de las prestaciones no contributivas, están comprendidos en el campo de aplicación del sistema:",
+      "opciones": [
+        "Todos los españoles residentes en territorio español",
+        "Los españoles con al menos quince años cotizados",
+        "Los españoles mayores de sesenta y cinco años",
+        "Los españoles que residan en cualquier Estado de la UE"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 7.2 incluye en el campo de aplicación del sistema, «a efectos de las prestaciones no contributivas, todos los españoles residentes en territorio español».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-004",
+      "ley": "rdleg-8-2015",
+      "articulo": "9.1",
+      "enunciado": "Según la LGSS, el sistema de la Seguridad Social está integrado por:",
+      "opciones": [
+        "Los niveles contributivo, asistencial y complementario",
+        "El Régimen General y el Régimen de Clases Pasivas",
+        "El Régimen General y los sistemas especiales agrarios",
+        "El Régimen General y los regímenes especiales"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 9.1 dispone: «El sistema de la Seguridad Social viene integrado por los siguientes regímenes: a) El Régimen General […] b) Los regímenes especiales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-005",
+      "ley": "rdleg-8-2015",
+      "articulo": "10.3",
+      "enunciado": "Se rigen por las leyes específicas que se dicten al efecto los regímenes especiales de:",
+      "opciones": [
+        "Trabajadores autónomos y estudiantes",
+        "Trabajadores del mar y funcionarios públicos, civiles y militares",
+        "Funcionarios públicos y trabajadores autónomos",
+        "Trabajadores del mar y estudiantes"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 10.3, los regímenes de las letras b) («Trabajadores del mar») y c) («Funcionarios públicos, civiles y militares») del apartado 2 «se regirán por las leyes específicas que se dicten al efecto».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-006",
+      "ley": "rdleg-8-2015",
+      "articulo": "15",
+      "enunciado": "La afiliación a la Seguridad Social es obligatoria y:",
+      "opciones": [
+        "Única para toda la vida y para todo el sistema",
+        "Distinta para cada régimen en que se trabaje",
+        "Renovable cada vez que se cambia de empresa",
+        "Única para cada empresa y para cada régimen"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 15 dice: «La afiliación a la Seguridad Social es obligatoria para las personas a que se refiere el artículo 7.1 y única para toda su vida y para todo el sistema».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-007",
+      "ley": "rdleg-8-2015",
+      "articulo": "16.5",
+      "enunciado": "Si una afiliación o un alta no es conforme con la ley, la Administración de la Seguridad Social puede revisarla de oficio:",
+      "opciones": [
+        "En el plazo de cuatro años",
+        "Solo en el año siguiente al alta",
+        "Solo antes de que el acto sea firme",
+        "En cualquier momento"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 16.5 establece que los organismos de la Administración de la Seguridad Social «podrán revisar de oficio, en cualquier momento, sus actos dictados en las citadas materias».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-008",
+      "ley": "rdleg-8-2015",
+      "articulo": "18.2",
+      "enunciado": "La obligación de cotizar a la Seguridad Social nace:",
+      "opciones": [
+        "Desde la afiliación del trabajador",
+        "Al mes siguiente del alta en el régimen",
+        "Desde el momento de iniciación de la actividad",
+        "Desde la firma del contrato de trabajo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 18.2 dice: «La obligación de cotizar nacerá desde el momento de iniciación de la actividad correspondiente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-009",
+      "ley": "rdleg-8-2015",
+      "articulo": "19.2",
+      "enunciado": "Salvo disposición expresa en contrario, el tope mínimo de las bases de cotización es el salario mínimo interprofesional vigente:",
+      "opciones": [
+        "Incrementado en un sexto",
+        "Incrementado en un quinto",
+        "Incrementado en un tercio",
+        "Sin incremento alguno"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 19.2 fija «como tope mínimo las cuantías del salario mínimo interprofesional vigente en cada momento, incrementadas en un sexto, salvo disposición expresa en contrario».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-010",
+      "ley": "rdleg-8-2015",
+      "articulo": "42.2",
+      "enunciado": "Como complemento de las prestaciones de la acción protectora del sistema, podrán otorgarse los beneficios de:",
+      "opciones": [
+        "La previsión social empresarial",
+        "Los planes de pensiones individuales",
+        "Los seguros privados de salud",
+        "La asistencia social"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 42.2 dice: «como complemento de las prestaciones comprendidas en el apartado anterior, podrán otorgarse los beneficios de la asistencia social».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-011",
+      "ley": "rdleg-8-2015",
+      "articulo": "136.2.k",
+      "enunciado": "El personal civil no funcionario de las administraciones públicas está incluido en el Régimen General:",
+      "opciones": [
+        "Solo si tiene un contrato de duración indefinida",
+        "Salvo que una ley especial lo incluya en otro régimen obligatorio",
+        "Solo a efectos de las prestaciones por desempleo",
+        "Únicamente si presta servicios a tiempo completo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 136.2.k) incluye a «El personal civil no funcionario de las administraciones públicas […] siempre que no estén incluidos en virtud de una ley especial en otro régimen obligatorio de previsión social».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-012",
+      "ley": "rdleg-8-2015",
+      "articulo": "137.a",
+      "enunciado": "No dan lugar a inclusión en el Régimen General los trabajos ejecutados ocasionalmente mediante servicios:",
+      "opciones": [
+        "Retribuidos en especie",
+        "Prestados en días festivos",
+        "Amistosos, benévolos o de buena vecindad",
+        "De duración inferior a una jornada"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 137.a) excluye «Los que se ejecuten ocasionalmente mediante los llamados servicios amistosos, benévolos o de buena vecindad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-013",
+      "ley": "rdleg-8-2015",
+      "articulo": "140.2",
+      "enunciado": "La afiliación y las altas solicitadas fuera de plazo por el empresario o el trabajador:",
+      "opciones": [
+        "No tienen efecto retroactivo alguno",
+        "Tienen efectos desde el inicio de la actividad",
+        "Tienen efectos desde el mes anterior a la solicitud",
+        "Son nulas y deben solicitarse de nuevo"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 140.2 dice: «La afiliación y altas sucesivas solicitadas fuera de plazo por el empresario o el trabajador no tendrán efecto retroactivo alguno».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-014",
+      "ley": "rdleg-8-2015",
+      "articulo": "156.3",
+      "enunciado": "Se presume, salvo prueba en contrario, que son accidente de trabajo las lesiones que el trabajador sufra:",
+      "opciones": [
+        "En las veinticuatro horas siguientes a la jornada",
+        "Durante las vacaciones anuales retribuidas",
+        "Durante el tiempo y en el lugar del trabajo",
+        "En cualquier lugar, si es trabajador fijo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 156.3 dice: «Se presumirá, salvo prueba en contrario, que son constitutivas de accidente de trabajo las lesiones que sufra el trabajador durante el tiempo y en el lugar del trabajo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-015",
+      "ley": "rdleg-8-2015",
+      "articulo": "156.4.b",
+      "enunciado": "No tiene la consideración de accidente de trabajo el debido a:",
+      "opciones": [
+        "La imprudencia profesional nacida de la confianza en el trabajo",
+        "Una insolación sufrida mientras se trabaja",
+        "La culpa civil de un compañero de trabajo",
+        "Dolo o imprudencia temeraria del trabajador accidentado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 156.4.b) excluye «Los que sean debidos a dolo o a imprudencia temeraria del trabajador accidentado». En cambio, «En ningún caso se considerará fuerza mayor extraña al trabajo la insolación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-016",
+      "ley": "rdleg-8-2015",
+      "articulo": "157",
+      "enunciado": "Es enfermedad profesional la contraída por el trabajo por cuenta ajena en las actividades que especifique:",
+      "opciones": [
+        "El convenio colectivo del sector correspondiente",
+        "El cuadro aprobado por las normas de desarrollo de la ley",
+        "La evaluación de riesgos laborales de la empresa",
+        "El parte médico de baja de la mutua colaboradora"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 157 la define como «la contraída a consecuencia del trabajo ejecutado por cuenta ajena en las actividades que se especifiquen en el cuadro que se apruebe por las disposiciones de aplicación y desarrollo de esta ley».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-017",
+      "ley": "rdleg-8-2015",
+      "articulo": "169.1.a",
+      "enunciado": "La incapacidad temporal por enfermedad o accidente tiene una duración máxima de:",
+      "opciones": [
+        "Ciento ochenta días, prorrogables por otros ciento ochenta",
+        "Trescientos sesenta y cinco días, sin prórroga posible",
+        "Quinientos cuarenta y cinco días, prorrogables por noventa",
+        "Trescientos sesenta y cinco días, prorrogables por otros ciento ochenta"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 169.1.a) fija «una duración máxima de trescientos sesenta y cinco días, prorrogables por otros ciento ochenta días cuando se presuma que durante ellos puede el trabajador ser dado de alta médica por curación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-018",
+      "ley": "rdleg-8-2015",
+      "articulo": "169.2",
+      "enunciado": "Hay recaída en un mismo proceso de IT si la nueva baja por la misma o similar patología se produce dentro de los:",
+      "opciones": [
+        "Ciento ochenta días naturales siguientes al alta anterior",
+        "Noventa días naturales siguientes al alta anterior",
+        "Trescientos sesenta y cinco días siguientes al alta anterior",
+        "Treinta días hábiles siguientes al alta anterior"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 169.2 dice que existe recaída «cuando se produzca una nueva baja médica por la misma o similar patología dentro de los ciento ochenta días naturales siguientes a la fecha de efectos de alta médica anterior».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-019",
+      "ley": "rdleg-8-2015",
+      "articulo": "172.a",
+      "enunciado": "Para el subsidio de incapacidad temporal por enfermedad común se exige haber cotizado:",
+      "opciones": [
+        "Noventa días en los dos años anteriores al hecho causante",
+        "Trescientos sesenta días en los seis años anteriores",
+        "Ciento ochenta días en los cinco años anteriores al hecho causante",
+        "Quinientos días en los siete años anteriores"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 172.a) exige, «En caso de enfermedad común, ciento ochenta días dentro de los cinco años inmediatamente anteriores al hecho causante».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-020",
+      "ley": "rdleg-8-2015",
+      "articulo": "173.1",
+      "enunciado": "En IT por enfermedad común, el subsidio desde el día cuarto al decimoquinto de baja, ambos inclusive, corre a cargo:",
+      "opciones": [
+        "De la entidad gestora",
+        "Del empresario",
+        "De la mutua colaboradora",
+        "Del Servicio Público de Salud"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 173.1 dice que el subsidio se abona «a partir del cuarto día de baja en el trabajo, si bien desde el día cuarto al decimoquinto de baja, ambos inclusive, el subsidio estará a cargo del empresario».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-021",
+      "ley": "rdleg-8-2015",
+      "articulo": "174.1",
+      "enunciado": "El subsidio por incapacidad temporal se extingue por el transcurso, desde la baja médica, de un plazo máximo de:",
+      "opciones": [
+        "Quinientos cuarenta y cinco días naturales",
+        "Trescientos sesenta y cinco días naturales",
+        "Setecientos treinta días naturales",
+        "Cuatrocientos cincuenta días naturales"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 174.1 dice: «El derecho al subsidio se extinguirá por el transcurso del plazo máximo de quinientos cuarenta y cinco días naturales desde la baja médica».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-022",
+      "ley": "rdleg-8-2015",
+      "articulo": "178.1.a",
+      "enunciado": "El subsidio por nacimiento y cuidado de menor no exige período mínimo de cotización si la persona trabajadora tiene:",
+      "opciones": [
+        "Menos de dieciocho años",
+        "Menos de veintiséis años",
+        "Menos de treinta años",
+        "Menos de veintiún años"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 178.1.a) dice: «Si la persona trabajadora tiene menos de veintiún años de edad en la fecha del nacimiento […] no se exigirá período mínimo de cotización».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-023",
+      "ley": "rdleg-8-2015",
+      "articulo": "194.1",
+      "enunciado": "¿Cuál de los siguientes NO es un grado de incapacidad permanente según la LGSS?",
+      "opciones": [
+        "Incapacidad permanente parcial",
+        "Gran incapacidad",
+        "Incapacidad permanente severa",
+        "Incapacidad permanente absoluta"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 194.1 enumera los grados: «a) Incapacidad permanente parcial. b) Incapacidad permanente total. c) Incapacidad permanente absoluta. d) Gran incapacidad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-024",
+      "ley": "rdleg-8-2015",
+      "articulo": "205.1.a",
+      "enunciado": "La pensión de jubilación exige haber cumplido sesenta y siete años, o sesenta y cinco si se acreditan:",
+      "opciones": [
+        "Treinta y cinco años de cotización",
+        "Treinta y ocho años y seis meses de cotización",
+        "Cuarenta años de cotización",
+        "Treinta y seis años y seis meses de cotización"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 205.1.a) exige «Haber cumplido sesenta y siete años de edad, o sesenta y cinco años cuando se acrediten treinta y ocho años y seis meses de cotización».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-025",
+      "ley": "rdleg-8-2015",
+      "articulo": "213.4",
+      "enunciado": "La pensión de jubilación es compatible con trabajos por cuenta propia cuyos ingresos anuales totales no superen:",
+      "opciones": [
+        "El salario mínimo interprofesional, en cómputo anual",
+        "El doble del IPREM en cómputo anual",
+        "La base mínima de cotización anual",
+        "El importe anual de la propia pensión"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 213.4 dice: «El percibo de la pensión de jubilación será compatible con la realización de trabajos por cuenta propia cuyos ingresos anuales totales no superen el salario mínimo interprofesional, en cómputo anual».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-026",
+      "ley": "rdleg-8-2015",
+      "articulo": "216.2",
+      "enunciado": "En caso de muerte causada por accidente de trabajo o enfermedad profesional se reconoce, además:",
+      "opciones": [
+        "Un subsidio temporal de viudedad",
+        "Una indemnización a tanto alzado",
+        "Una pensión vitalicia en favor de familiares",
+        "Un doble auxilio por defunción"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 216.2 dice: «En caso de muerte causada por accidente de trabajo o enfermedad profesional se reconocerá, además, una indemnización a tanto alzado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-027",
+      "ley": "rdleg-8-2015",
+      "articulo": "219.1",
+      "enunciado": "Si el causante estaba en alta al fallecer por enfermedad común, la pensión de viudedad exige que haya cotizado:",
+      "opciones": [
+        "Quince años a lo largo de su vida laboral",
+        "Ciento ochenta días en los cinco años anteriores",
+        "Trescientos sesenta días en los siete años anteriores",
+        "Quinientos días en los cinco años anteriores"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 219.1 exige, si el causante estaba en alta, que «hubiera completado un período de cotización de quinientos días, dentro de los cinco años inmediatamente anteriores a la fecha del hecho causante de la pensión». Los quince años se piden si no estaba en alta.",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-028",
+      "ley": "rdleg-8-2015",
+      "articulo": "263.1",
+      "enunciado": "La protección por desempleo se estructura en:",
+      "opciones": [
+        "Un nivel contributivo y un nivel complementario libre",
+        "Un nivel básico, uno asistencial y uno complementario",
+        "Un nivel contributivo y un nivel asistencial",
+        "Un único nivel contributivo y obligatorio"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 263.1 dice: «La protección por desempleo se estructura en un nivel contributivo y en un nivel asistencial, ambos de carácter público y obligatorio».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-029",
+      "ley": "rdleg-8-2015",
+      "articulo": "266.b",
+      "enunciado": "Para la prestación contributiva por desempleo, el período mínimo de cotización debe cubrirse dentro de los:",
+      "opciones": [
+        "Seis años anteriores a la situación legal de desempleo",
+        "Cuatro años anteriores a la situación legal de desempleo",
+        "Cinco años anteriores a la situación legal de desempleo",
+        "Diez años anteriores a la situación legal de desempleo"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 266.b) exige «Tener cubierto el período mínimo de cotización a que se refiere el artículo 269.1, dentro de los seis años anteriores a la situación legal de desempleo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    },
+    {
+      "id": "lgss-030",
+      "ley": "rdleg-8-2015",
+      "articulo": "262.3",
+      "enunciado": "El desempleo es parcial cuando la jornada diaria ordinaria se reduce temporalmente, con análoga reducción del salario, entre un:",
+      "opciones": [
+        "5 y un 50 por ciento",
+        "10 y un 50 por ciento",
+        "20 y un 70 por ciento",
+        "10 y un 70 por ciento"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 262.3 dice que el desempleo es parcial cuando la jornada diaria ordinaria se reduce temporalmente «entre un mínimo de un 10 y un máximo de un 70 por ciento, siempre que el salario sea objeto de análoga reducción».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 31
+      }
+    }
+  ]
+}

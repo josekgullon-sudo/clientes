@@ -1,0 +1,645 @@
+{
+  "descripcion": "Ley 9/2017 (LCSP): concepto y clases de contratos, preparación y adjudicación (arts. 2, 13-19, 25-29, 116-118, 131, 145-146, 156-169). Lote generado el 2026-10-14; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-10-06).",
+  "preguntas": [
+    {
+      "id": "lcsp-001",
+      "ley": "ley-9-2017",
+      "articulo": "2.1",
+      "enunciado": "Según el artículo 2 de la LCSP, son contratos del sector público los que celebren las entidades del artículo 3 y sean:",
+      "opciones": [
+        "Contratos onerosos, cualquiera que sea su naturaleza jurídica",
+        "Contratos onerosos de naturaleza exclusivamente administrativa",
+        "Contratos gratuitos u onerosos de naturaleza administrativa",
+        "Contratos sujetos a una regulación armonizada"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 2.1 dice que son contratos del sector público «los contratos onerosos, cualquiera que sea su naturaleza jurídica, que celebren las entidades enumeradas en el artículo 3».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-002",
+      "ley": "ley-9-2017",
+      "articulo": "2.1",
+      "enunciado": "A efectos de la LCSP, un contrato tiene carácter oneroso cuando:",
+      "opciones": [
+        "El contratista perciba siempre un precio cierto en dinero",
+        "La Administración abone un precio con cargo a sus presupuestos",
+        "El contratista obtenga algún tipo de beneficio económico, directo o indirecto",
+        "El contrato tenga un valor estimado superior a los umbrales comunitarios"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 2.1, «se entenderá que un contrato tiene carácter oneroso en los casos en que el contratista obtenga algún tipo de beneficio económico, ya sea de forma directa o indirecta».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-003",
+      "ley": "ley-9-2017",
+      "articulo": "13.3",
+      "enunciado": "Como regla general, los contratos de obras se referirán a:",
+      "opciones": [
+        "Una fase independiente de la obra",
+        "Una obra completa",
+        "Cada uno de los lotes de la obra",
+        "El proyecto y la dirección de la obra"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 13.3 dispone: «Los contratos de obras se referirán a una obra completa, entendiendo por esta la susceptible de ser entregada al uso general o al servicio correspondiente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-004",
+      "ley": "ley-9-2017",
+      "articulo": "14.4",
+      "enunciado": "En la concesión de obras, el derecho de explotación de las obras debe implicar la transferencia al concesionario de:",
+      "opciones": [
+        "La titularidad de la obra pública",
+        "El riesgo de construcción únicamente",
+        "La potestad de fijar las tarifas",
+        "Un riesgo operacional en la explotación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 14.4 establece que el derecho de explotación «deberá implicar la transferencia al concesionario de un riesgo operacional en la explotación de dichas obras abarcando el riesgo de demanda o el de suministro, o ambos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-005",
+      "ley": "ley-9-2017",
+      "articulo": "15.1",
+      "enunciado": "En el contrato de concesión de servicios, los poderes adjudicadores encomiendan a título oneroso:",
+      "opciones": [
+        "La ejecución de una obra con derecho a explotarla",
+        "La gestión de un servicio cuya prestación sea de su titularidad o competencia",
+        "La adquisición o el arrendamiento de bienes muebles",
+        "El ejercicio de la autoridad inherente a los poderes públicos"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 15.1 define este contrato como aquel en que poderes adjudicadores encomiendan «a título oneroso a una o varias personas, naturales o jurídicas, la gestión de un servicio cuya prestación sea de su titularidad o competencia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-006",
+      "ley": "ley-9-2017",
+      "articulo": "16.1",
+      "enunciado": "Son contratos de suministro los que tienen por objeto la adquisición, el arrendamiento financiero o el arrendamiento, con o sin opción de compra, de:",
+      "opciones": [
+        "Productos o bienes muebles",
+        "Bienes inmuebles",
+        "Valores negociables",
+        "Propiedades incorporales"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 16.1 dice: «Son contratos de suministro los que tienen por objeto la adquisición, el arrendamiento financiero, o el arrendamiento, con o sin opción de compra, de productos o bienes muebles».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-007",
+      "ley": "ley-9-2017",
+      "articulo": "16.3.b",
+      "enunciado": "Los contratos de adquisición de programas de ordenador desarrollados a medida se consideran contratos de:",
+      "opciones": [
+        "Suministro",
+        "Obras",
+        "Concesión de servicios",
+        "Servicios"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 16.3.b) exceptúa de los suministros «los contratos de adquisición de programas de ordenador desarrollados a medida, que se considerarán contratos de servicios».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-008",
+      "ley": "ley-9-2017",
+      "articulo": "17",
+      "enunciado": "Según el artículo 17 de la LCSP, no podrán ser objeto de los contratos de servicios:",
+      "opciones": [
+        "Las prestaciones que se ejecuten de forma sucesiva y por precio unitario",
+        "Las prestaciones de hacer dirigidas a obtener un resultado",
+        "Los servicios que impliquen ejercicio de la autoridad inherente a los poderes públicos",
+        "Los servicios de carácter intelectual, como los de arquitectura"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 17 dispone: «No podrán ser objeto de estos contratos los servicios que impliquen ejercicio de la autoridad inherente a los poderes públicos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-009",
+      "ley": "ley-9-2017",
+      "articulo": "18.1.a",
+      "enunciado": "Si un contrato mixto comprende prestaciones de dos o más contratos de obras, suministros o servicios, para su adjudicación se atenderá:",
+      "opciones": [
+        "A la prestación de mayor duración",
+        "A la prestación que elija el licitador",
+        "Al carácter de la prestación principal",
+        "Siempre a las normas del contrato de obras"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 18.1.a) señala que, en ese caso, «se atenderá al carácter de la prestación principal».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-010",
+      "ley": "ley-9-2017",
+      "articulo": "18.3",
+      "enunciado": "En un contrato mixto en el que un elemento sea una obra que supere los 50.000 euros:",
+      "opciones": [
+        "Deberá acompañarse de un estudio de viabilidad y de un anteproyecto",
+        "Deberá elaborarse un proyecto y tramitarse según los artículos 231 y siguientes",
+        "El contrato se calificará, en todo caso, como contrato de obras",
+        "Deberá adjudicarse necesariamente por procedimiento restringido"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 18.3 dispone que, cuando un elemento del contrato mixto sea una obra y esta supere los 50.000 euros, «deberá elaborarse un proyecto y tramitarse de conformidad con los artículos 231 y siguientes de la presente Ley».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-011",
+      "ley": "ley-9-2017",
+      "articulo": "19.2.c",
+      "enunciado": "La declaración de que un contrato afecta a intereses esenciales para la seguridad del Estado, a efectos de excluirlo de la regulación armonizada:",
+      "opciones": [
+        "No es delegable, salvo que una ley expresamente lo autorice",
+        "Puede delegarse libremente en el órgano de contratación",
+        "Corresponde siempre al Consejo de Ministros",
+        "Puede hacerse de forma genérica para varios contratos"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 19.2.c) exige hacerla «de forma expresa en cada caso» y añade: «La competencia para efectuar esta declaración no será susceptible de delegación, salvo que una ley expresamente lo autorice».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-012",
+      "ley": "ley-9-2017",
+      "articulo": "25.1.a.2",
+      "enunciado": "Aunque los celebre una Administración Pública, tienen carácter privado los contratos cuyo objeto sea:",
+      "opciones": [
+        "El suministro de material de oficina no inventariable",
+        "La limpieza y conservación de edificios administrativos",
+        "El arrendamiento financiero de vehículos oficiales",
+        "La suscripción a revistas, publicaciones periódicas y bases de datos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 25.1.a) atribuye carácter privado, entre otros, a aquellos «cuyo objeto sea la suscripción a revistas, publicaciones periódicas y bases de datos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-013",
+      "ley": "ley-9-2017",
+      "articulo": "26.1.b",
+      "enunciado": "Tienen la consideración de contratos privados los celebrados por entidades del sector público que:",
+      "opciones": [
+        "Tengan la condición de Administración Pública y contraten servicios",
+        "Sean Administración Pública y contraten obras de cuantía menor",
+        "Tengan carácter de organismo autónomo de la Administración",
+        "Siendo poder adjudicador, no reúnan la condición de Administración Pública"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 26.1.b) considera contratos privados «los celebrados por entidades del sector público que siendo poder adjudicador no reúnan la condición de Administraciones Públicas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-014",
+      "ley": "ley-9-2017",
+      "articulo": "27.1.b",
+      "enunciado": "Las cuestiones sobre la preparación y adjudicación de los contratos privados de las Administraciones Públicas corresponden al orden jurisdiccional:",
+      "opciones": [
+        "Contencioso-administrativo",
+        "Civil",
+        "Social",
+        "Civil o contencioso, según la cuantía"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 27.1.b) atribuye al orden contencioso-administrativo las cuestiones que «se susciten en relación con la preparación y adjudicación de los contratos privados de las Administraciones Públicas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-015",
+      "ley": "ley-9-2017",
+      "articulo": "28.1",
+      "enunciado": "Las entidades del sector público solo podrán celebrar los contratos que sean necesarios para:",
+      "opciones": [
+        "La ejecución íntegra de su presupuesto anual",
+        "El fomento de la pequeña y mediana empresa",
+        "El cumplimiento y realización de sus fines institucionales",
+        "La mejora de la eficiencia de sus servicios"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 28.1 dice: «Las entidades del sector público no podrán celebrar otros contratos que aquellos que sean necesarios para el cumplimiento y realización de sus fines institucionales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-016",
+      "ley": "ley-9-2017",
+      "articulo": "29.2",
+      "enunciado": "La prórroga acordada por el órgano de contratación es obligatoria para el empresario si el preaviso se produce, salvo que el pliego fije uno mayor, con una antelación mínima de:",
+      "opciones": [
+        "Un mes",
+        "Dos meses",
+        "Tres meses",
+        "Seis meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 29.2 dice que la prórroga será obligatoria para el empresario «siempre que su preaviso se produzca al menos con dos meses de antelación a la finalización del plazo de duración del contrato».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-017",
+      "ley": "ley-9-2017",
+      "articulo": "29.4",
+      "enunciado": "Los contratos de suministros y de servicios de prestación sucesiva tendrán, con carácter general, un plazo máximo de duración, incluidas las prórrogas, de:",
+      "opciones": [
+        "Cuatro años",
+        "Cinco años",
+        "Seis años",
+        "Diez años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 29.4 establece que estos contratos «tendrán un plazo máximo de duración de cinco años, incluyendo las posibles prórrogas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-018",
+      "ley": "ley-9-2017",
+      "articulo": "116.1",
+      "enunciado": "El expediente de contratación se iniciará:",
+      "opciones": [
+        "Por la mesa de contratación, a propuesta del servicio gestor",
+        "Por la intervención, tras certificar la existencia de crédito",
+        "Por el órgano proponente, sin necesidad de motivación",
+        "Por el órgano de contratación, motivando la necesidad del contrato"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 116.1 dispone que el expediente «se iniciará por el órgano de contratación motivando la necesidad del contrato en los términos previstos en el artículo 28 de esta Ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-019",
+      "ley": "ley-9-2017",
+      "articulo": "116.4.f",
+      "enunciado": "En los contratos de servicios, el expediente de contratación debe justificar adecuadamente:",
+      "opciones": [
+        "El informe de insuficiencia de medios",
+        "La declaración de urgencia",
+        "La autorización del Consejo de Ministros",
+        "El informe de la Junta Consultiva"
+      ],
+      "correcta": 0,
+      "explicacion": "Entre lo que el expediente debe justificar, el artículo 116.4.f) cita: «En los contratos de servicios, el informe de insuficiencia de medios».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-020",
+      "ley": "ley-9-2017",
+      "articulo": "118.1",
+      "enunciado": "Son contratos menores los de valor estimado inferior a:",
+      "opciones": [
+        "50.000 euros en obras y 18.000 euros en suministros o servicios",
+        "40.000 euros en obras y 18.000 euros en suministros o servicios",
+        "40.000 euros en obras y 15.000 euros en suministros o servicios",
+        "15.000 euros en obras y 40.000 euros en suministros o servicios"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 118.1 considera contratos menores los de valor estimado «inferior a 40.000 euros, cuando se trate de contratos de obras, o a 15.000 euros, cuando se trate de contratos de suministro o de servicios».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-021",
+      "ley": "ley-9-2017",
+      "articulo": "118.5",
+      "enunciado": "En los contratos menores pagados por anticipos de caja fija, no se exige el informe que justifica la necesidad del contrato si su valor estimado no excede de:",
+      "opciones": [
+        "5.000 euros",
+        "3.000 euros",
+        "6.000 euros",
+        "15.000 euros"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 118.5 exime del informe del apartado 2 a los contratos pagados por anticipos de caja fija u otro sistema similar, «siempre y cuando el valor estimado del contrato no exceda de 5.000 euros».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-022",
+      "ley": "ley-9-2017",
+      "articulo": "131.2",
+      "enunciado": "Ordinariamente, la adjudicación de los contratos de las Administraciones Públicas se realizará utilizando:",
+      "opciones": [
+        "El precio como único criterio, por procedimiento abierto o simplificado",
+        "Varios criterios de calidad, por procedimiento negociado con publicidad",
+        "Varios criterios basados en la mejor relación calidad-precio, por procedimiento abierto o restringido",
+        "El criterio de la oferta más baja, por procedimiento restringido"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 131.2 dice: «La adjudicación se realizará, ordinariamente utilizando una pluralidad de criterios de adjudicación basados en el principio de mejor relación calidad-precio, y utilizando el procedimiento abierto o el procedimiento restringido».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-023",
+      "ley": "ley-9-2017",
+      "articulo": "145.4",
+      "enunciado": "En los contratos de servicios del Anexo IV y en los de prestaciones de carácter intelectual, los criterios relacionados con la calidad deben representar, al menos:",
+      "opciones": [
+        "El 25 por ciento de la puntuación",
+        "El 45 por ciento de la puntuación",
+        "El 60 por ciento de la puntuación",
+        "El 51 por ciento de la puntuación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 145.4 dispone que en esos contratos «los criterios relacionados con la calidad deberán representar, al menos, el 51 por ciento de la puntuación asignable en la valoración de las ofertas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-024",
+      "ley": "ley-9-2017",
+      "articulo": "145.7",
+      "enunciado": "Cuando las mejoras se establezcan como criterio de adjudicación valorado mediante juicio de valor por un comité de expertos, su valoración no podrá superar:",
+      "opciones": [
+        "El 5 por ciento",
+        "El 2,5 por ciento",
+        "El 10 por ciento",
+        "El 25 por ciento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 145.7 dispone que, cuando su valoración se haga conforme al artículo 146.2.a), a las mejoras «no podrá asignársele una valoración superior al 2,5 por ciento».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-025",
+      "ley": "ley-9-2017",
+      "articulo": "146.2.a",
+      "enunciado": "En el procedimiento abierto o restringido, el comité de expertos que valora criterios dependientes de un juicio de valor debe contar con un mínimo de:",
+      "opciones": [
+        "Dos miembros",
+        "Cinco miembros",
+        "Siete miembros",
+        "Tres miembros"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 146.2.a) se refiere a «un comité formado por expertos con cualificación apropiada, que cuente con un mínimo de tres miembros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-026",
+      "ley": "ley-9-2017",
+      "articulo": "156.1",
+      "enunciado": "En el procedimiento abierto:",
+      "opciones": [
+        "Solo pueden presentar proposición los empresarios invitados",
+        "Todo empresario interesado puede presentar proposición, sin negociación",
+        "El órgano de contratación negocia las condiciones con los licitadores",
+        "Se invita al menos a cinco empresarios seleccionados por su solvencia"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 156.1 dice: «En el procedimiento abierto todo empresario interesado podrá presentar una proposición, quedando excluida toda negociación de los términos del contrato con los licitadores».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-027",
+      "ley": "ley-9-2017",
+      "articulo": "156.6",
+      "enunciado": "En el procedimiento abierto, en un contrato de obras no sujeto a regulación armonizada, el plazo de presentación de proposiciones será, como mínimo, de:",
+      "opciones": [
+        "Quince días",
+        "Treinta y cinco días",
+        "Veintiséis días",
+        "Veinte días"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 156.6 fija un plazo general no inferior a quince días y añade: «En los contratos de obras y de concesión de obras y concesión de servicios, el plazo será, como mínimo, de veintiséis días».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-028",
+      "ley": "ley-9-2017",
+      "articulo": "158.1",
+      "enunciado": "En el procedimiento abierto, cuando el único criterio de adjudicación sea el precio, la adjudicación debe recaer en el plazo máximo de:",
+      "opciones": [
+        "Quince días desde el siguiente a la apertura de las proposiciones",
+        "Dos meses desde la apertura de las proposiciones",
+        "Veinte días desde el fin del plazo de presentación",
+        "Un mes desde la apertura de las proposiciones"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 158.1 dispone que, si el único criterio es el precio, «la adjudicación deberá recaer en el plazo máximo de quince días a contar desde el siguiente al de apertura de las proposiciones».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-029",
+      "ley": "ley-9-2017",
+      "articulo": "159.1.b",
+      "enunciado": "Para usar el procedimiento abierto simplificado, los criterios evaluables mediante juicio de valor, si los hay y salvo prestaciones intelectuales, no pueden superar:",
+      "opciones": [
+        "El cuarenta y cinco por ciento del total",
+        "El cincuenta y uno por ciento del total",
+        "El veinticinco por ciento del total",
+        "El diez por ciento del total"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 159.1.b) exige que no haya criterios evaluables mediante juicio de valor «o, de haberlos, su ponderación no supere el veinticinco por ciento del total».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-030",
+      "ley": "ley-9-2017",
+      "articulo": "162.2",
+      "enunciado": "En el procedimiento restringido, el número mínimo de empresarios a los que se invitará a participar no podrá ser inferior a:",
+      "opciones": [
+        "Cinco",
+        "Tres",
+        "Dos",
+        "Seis"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 162.2 dice que el órgano de contratación señalará el número mínimo de empresarios a los que invitará, «que no podrá ser inferior a cinco».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-031",
+      "ley": "ley-9-2017",
+      "articulo": "168.a.1",
+      "enunciado": "Puede usarse el procedimiento negociado sin publicidad cuando, en un procedimiento abierto o restringido previo:",
+      "opciones": [
+        "Se hayan presentado menos de cinco ofertas",
+        "No se haya presentado ninguna oferta o ninguna oferta adecuada",
+        "La oferta más baja supere el valor estimado en un 10 %",
+        "Haya una sola oferta admitida a la licitación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 168.a).1.º lo permite cuando «no se haya presentado ninguna oferta; ninguna oferta adecuada; ninguna solicitud de participación; o ninguna solicitud de participación adecuada en respuesta a un procedimiento abierto o a un procedimiento restringido».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    },
+    {
+      "id": "lcsp-032",
+      "ley": "ley-9-2017",
+      "articulo": "169.2",
+      "enunciado": "En la licitación con negociación, si se limita el número de empresas a las que se invitará a negociar, el número mínimo de candidatos invitados será de:",
+      "opciones": [
+        "Cinco",
+        "Dos",
+        "Cuatro",
+        "Tres"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 169.2 dispone que, en ese caso, se deberá asegurar «que el número mínimo de candidatos invitados será de tres».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 19
+      }
+    }
+  ]
+}

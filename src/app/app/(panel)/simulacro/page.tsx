@@ -3,6 +3,7 @@ import { CircleSlash, Clock, ListChecks, MinusCircle } from "lucide-react";
 import { Boton } from "@/components/boton";
 import { Clara } from "@/components/mascota/clara";
 import { oposicionActual, usuarioActual } from "@/lib/datos/usuario";
+import { datosOposicion } from "@/lib/sitio";
 import { crearTest } from "../../acciones";
 
 export const metadata: Metadata = { title: "Simulacro" };
@@ -13,9 +14,14 @@ export default async function Simulacro() {
   const total = f.partes.reduce((s, p) => s + p.preguntas, 0);
   const tercio = f.penalizacion > 0.33 && f.penalizacion < 0.34;
   const soloBloqueI = f.partes.length === 1 && f.partes[0].bloque === "I";
+  const textos = datosOposicion(opo.slug);
+  const detalle =
+    f.partes.length > 2
+      ? `De los bloques ${f.partes[0].bloque} a ${f.partes[f.partes.length - 1].bloque}`
+      : f.partes.map((p) => `${p.preguntas} del bloque ${p.bloque}`).join(" y ");
 
   const datos = [
-    { icono: ListChecks, valor: String(total), texto: "preguntas", detalle: f.partes.map((p) => `${p.preguntas} del bloque ${p.bloque}`).join(" y ") },
+    { icono: ListChecks, valor: String(total), texto: "preguntas", detalle },
     { icono: Clock, valor: String(f.minutos), texto: "minutos", detalle: "El tiempo empieza al pulsar" },
     { icono: MinusCircle, valor: tercio ? "−⅓" : `−${f.penalizacion}`, texto: "por fallo", detalle: "Como en el examen real" },
     { icono: CircleSlash, valor: "0", texto: "en blanco", detalle: "No suman ni restan" },
@@ -50,7 +56,7 @@ export default async function Simulacro() {
       <p className="rounded-2xl bg-papel-hundido p-4 text-sm text-pizarra">
         {soloBloqueI
           ? "De momento es el simulacro del bloque I, con el tiempo proporcional al examen real (90 minutos para 110 preguntas). Cuando esté listo el bloque II, será el examen completo."
-          : "No incluye la parte psicotécnica; el tiempo es proporcional a las preguntas del examen real."}
+          : textos.simulacro}
       </p>
 
       {!suscrito && (

@@ -2,8 +2,9 @@
 
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
-import { OPOSICION } from "@/lib/sitio";
+import { slugOposicion } from "@/lib/datos/usuario";
 import { supabaseServidor } from "@/lib/supabase/servidor";
+import { esOposicion } from "@/lib/sitio";
 
 function objetivoValido(valor: FormDataEntryValue | null) {
   const n = Number(valor);
@@ -17,6 +18,8 @@ function fechaValida(valor: FormDataEntryValue | null) {
 
 export async function guardarAjustes(datos: FormData) {
   const supabase = await supabaseServidor();
+  const oposicion = datos.get("oposicion");
+  if (esOposicion(oposicion)) await supabase.rpc("elegir_oposicion", { p_slug: oposicion });
   const { error } = await supabase.rpc("guardar_perfil", {
     p_objetivo: objetivoValido(datos.get("objetivo")),
     p_fecha: fechaValida(datos.get("fecha")),
@@ -28,10 +31,12 @@ export async function guardarAjustes(datos: FormData) {
   if (error) redirect(`${destino}${destino.includes("?") ? "&" : "?"}error=ajustes`);
 
   if (datos.get("empezar") === "1") {
-    const tema = String(datos.get("tema") ?? "");
+    // Primer tema con preguntas de la oposición elegida (la acaba de guardar, si venía en el formulario).
+    const { data: temas } = await supabase.rpc("progreso_por_tema", { p_oposicion: null });
+    const tema = ((temas ?? []) as { tema_id: string; total: number }[]).find((t) => t.total > 0)?.tema_id ?? "";
     if (/^[0-9a-f-]{36}$/.test(tema)) {
       const { data, error: test } = await supabase.rpc("crear_intento", {
-        p_oposicion: OPOSICION,
+        p_oposicion: await slugOposicion(),
         p_modo: "tema",
         p_temas: [tema],
         p_num: 10,
@@ -52,6 +57,17 @@ export async function guardarPerfilPublico(datos: FormData) {
     p_en_liga: datos.get("en_liga") === "1",
   });
   redirect(error ? "/app/cuenta?error=perfil#perfil" : "/app/cuenta?guardado=perfil#perfil");
+}
+
+/** Cambia la oposición que se prepara. Las respuestas se conservan: cuentan en todas las que comparten la pregunta. */
+export async function cambiarOposicion(datos: FormData) {
+  const oposicion = datos.get("oposicion");
+  if (!esOposicion(oposicion)) redirect("/app/cuenta?error=oposicion#oposicion");
+  const supabase = await supabaseServidor();
+  const { error } = await supabase.rpc("elegir_oposicion", { p_slug: oposicion });
+  if (error) redirect("/app/cuenta?error=oposicion#oposicion");
+  revalidatePath("/app", "layout");
+  redirect("/app?oposicion=1");
 }
 
 export type ResultadoCofre = { xp: number; ya_abierto: boolean; logros: string[] } | { error: true };

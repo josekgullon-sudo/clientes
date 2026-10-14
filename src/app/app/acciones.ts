@@ -1,7 +1,7 @@
 "use server";
 
 import { redirect } from "next/navigation";
-import { OPOSICION } from "@/lib/sitio";
+import { slugOposicion } from "@/lib/datos/usuario";
 import { supabaseServidor } from "@/lib/supabase/servidor";
 import { esDemoGuardada } from "@/lib/test/demo-local";
 import type { Respuesta } from "@/lib/test/tipos";
@@ -25,7 +25,7 @@ export async function crearTest(datos: FormData) {
 
   const supabase = await supabaseServidor();
   const { data, error } = await supabase.rpc("crear_intento", {
-    p_oposicion: OPOSICION,
+    p_oposicion: await slugOposicion(),
     p_modo: modo,
     p_temas: temas,
     p_num: Number.isFinite(num) ? num : 10,

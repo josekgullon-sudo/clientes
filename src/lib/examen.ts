@@ -1,8 +1,8 @@
 import oposiciones from "../../datos/oposiciones.json";
 import { diasEntre, hoyMadrid } from "@/lib/seo/seleccion";
 
-export function examenEstimado() {
-  return oposiciones.find((o) => o.slug === "aux-age")?.examen_estimado ?? null;
+export function examenEstimado(slug = "aux-age") {
+  return oposiciones.find((o) => o.slug === slug)?.examen_estimado ?? null;
 }
 
 export function diasHastaExamenEstimado(fecha = new Date()) {

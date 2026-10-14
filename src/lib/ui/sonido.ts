@@ -45,8 +45,22 @@ function notas(frecuencias: number[], { paso = 0.09, duracion = 0.22, tipo = "si
   }
 }
 
+// Escala mayor desde mi5, en semitonos: cada acierto seguido sube un escalón.
+const ESCALA = [0, 2, 4, 5, 7, 9, 11, 12, 14, 16, 17, 19];
+const tono = (semitonos: number) => 659.25 * 2 ** (semitonos / 12);
+
+/** Notas del acierto número `racha` seguido: «turín» cada vez más agudo y con remate en 5 y 10. */
+export function notasAcierto(racha = 1): number[] {
+  const n = Math.max(1, Math.floor(racha));
+  const s = ESCALA[Math.min(n, ESCALA.length) - 1];
+  const turin = [tono(s), tono(s + 7)];
+  if (n === 5 || n === 10 || (n > 10 && n % 5 === 0)) return [...turin, tono(s + 12), tono(s + 19)];
+  return turin;
+}
+
 export const sonidos = {
-  acierto: () => notas([659.25, 987.77], { paso: 0.08, duracion: 0.25 }),
+  /** `racha`: aciertos seguidos contando este (1 si no se lleva la cuenta). */
+  acierto: (racha = 1) => notas(notasAcierto(racha), { paso: racha >= 5 ? 0.07 : 0.08, duracion: 0.25 }),
   fallo: () => notas([311.13, 233.08], { paso: 0.12, duracion: 0.28, tipo: "triangle", volumen: 0.09 }),
   fin: () => notas([523.25, 659.25, 783.99, 1046.5], { paso: 0.1, duracion: 0.35 }),
   tic: () => notas([1318.5], { duracion: 0.06, volumen: 0.05, tipo: "square" }),

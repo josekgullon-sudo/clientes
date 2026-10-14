@@ -1,0 +1,725 @@
+{
+  "descripcion": "Derecho administrativo general (temas 16, 17, 20 y 21 de Administrativo del Estado): fuentes, acto administrativo, potestad sancionadora y servicios públicos locales, responsabilidad patrimonial. Lote generado el 2026-10-14; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "dag-001",
+      "ley": "constitucion",
+      "articulo": "82.2",
+      "enunciado": "La delegación legislativa en el Gobierno para formar textos articulados debe otorgarse mediante:",
+      "opciones": [
+        "Una ley ordinaria",
+        "Una ley de bases",
+        "Una ley orgánica",
+        "Una resolución del Congreso"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 82.2 de la Constitución dispone que la delegación legislativa «deberá otorgarse mediante una ley de bases cuando su objeto sea la formación de textos articulados o por una ley ordinaria cuando se trate de refundir varios textos legales en uno solo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 16
+      }
+    },
+    {
+      "id": "dag-002",
+      "ley": "constitucion",
+      "articulo": "82.3",
+      "enunciado": "Según el artículo 82.3 de la Constitución, la delegación legislativa se agota:",
+      "opciones": [
+        "Al cumplirse un año desde la aprobación de la ley de delegación",
+        "Cuando el Congreso convalida el texto aprobado por el Gobierno",
+        "Por su uso por el Gobierno mediante la publicación de la norma",
+        "Con la aprobación del texto en el Consejo de Ministros"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 82.3 de la Constitución establece: «La delegación se agota por el uso que de ella haga el Gobierno mediante la publicación de la norma correspondiente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 16
+      }
+    },
+    {
+      "id": "dag-003",
+      "ley": "constitucion",
+      "articulo": "83.b",
+      "enunciado": "Según la Constitución, las leyes de bases no podrán en ningún caso:",
+      "opciones": [
+        "Fijar el plazo para el ejercicio de la delegación",
+        "Facultar para dictar normas con carácter retroactivo",
+        "Establecer fórmulas adicionales de control",
+        "Fijar los principios y criterios de la delegación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 83 dispone: «Las leyes de bases no podrán en ningún caso» […] «Facultar para dictar normas con carácter retroactivo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 16
+      }
+    },
+    {
+      "id": "dag-004",
+      "ley": "constitucion",
+      "articulo": "84",
+      "enunciado": "Si una proposición de ley es contraria a una delegación legislativa en vigor, el Gobierno:",
+      "opciones": [
+        "Debe derogar el decreto legislativo aprobado",
+        "Puede plantear un conflicto ante el Tribunal Constitucional",
+        "Está facultado para oponerse a su tramitación",
+        "Debe pedir el dictamen del Consejo de Estado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 84 de la Constitución dice: «Cuando una proposición de ley o una enmienda fuere contraria a una delegación legislativa en vigor, el Gobierno está facultado para oponerse a su tramitación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 16
+      }
+    },
+    {
+      "id": "dag-005",
+      "ley": "constitucion",
+      "articulo": "86.3",
+      "enunciado": "Durante el plazo de convalidación, las Cortes pueden tramitar los decretos-leyes como proyectos de ley por el procedimiento:",
+      "opciones": [
+        "Ordinario",
+        "De lectura única",
+        "Especial y sumario",
+        "De urgencia"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 86.3 de la Constitución establece que durante ese plazo «las Cortes podrán tramitarlos como proyectos de ley por el procedimiento de urgencia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 16
+      }
+    },
+    {
+      "id": "dag-006",
+      "ley": "ley-50-1997",
+      "articulo": "24.2",
+      "enunciado": "Según la Ley del Gobierno, en la jerarquía de los reglamentos las disposiciones aprobadas por Orden Ministerial están:",
+      "opciones": [
+        "Por debajo de las aprobadas por Real Decreto",
+        "Al mismo nivel que las aprobadas por Real Decreto",
+        "Por encima de las aprobadas por Real Decreto",
+        "Al mismo nivel que los Reales Decretos-leyes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 24.2 de la Ley 50/1997 dispone: «Los reglamentos se ordenarán según la siguiente jerarquía: 1.º Disposiciones aprobadas por Real Decreto del Presidente del Gobierno o acordado en el Consejo de Ministros. 2.º Disposiciones aprobadas por Orden Ministerial».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 16
+      }
+    },
+    {
+      "id": "dag-007",
+      "ley": "ley-50-1997",
+      "articulo": "26.2",
+      "enunciado": "En la consulta pública previa a la elaboración de una norma del Gobierno, el tiempo para opinar no será inferior a:",
+      "opciones": [
+        "Quince días hábiles",
+        "Quince días naturales",
+        "Diez días hábiles",
+        "Siete días hábiles"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 26.2 de la Ley 50/1997 exige que se proporcione «un tiempo suficiente, que en ningún caso será inferior a quince días naturales».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 16
+      }
+    },
+    {
+      "id": "dag-008",
+      "ley": "ley-39-2015",
+      "articulo": "128.2",
+      "enunciado": "Sin perjuicio de su función de desarrollo o colaboración con la ley, los reglamentos NO pueden:",
+      "opciones": [
+        "Desarrollar los preceptos de una ley que los habilite",
+        "Regular la organización de los órganos administrativos",
+        "Establecer tributos, exacciones parafiscales u otras cargas públicas",
+        "Introducir graduaciones en el cuadro legal de sanciones"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 128.2 de la Ley 39/2015 señala que los reglamentos «no podrán tipificar delitos, faltas o infracciones administrativas, establecer penas o sanciones, así como tributos, exacciones parafiscales u otras cargas o prestaciones personales o patrimoniales de carácter público».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 16
+      }
+    },
+    {
+      "id": "dag-009",
+      "ley": "ley-39-2015",
+      "articulo": "129.1",
+      "enunciado": "¿Cuál de los siguientes NO es un principio de buena regulación según la Ley 39/2015?",
+      "opciones": [
+        "Proporcionalidad",
+        "Seguridad jurídica",
+        "Eficiencia",
+        "Descentralización"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 129.1, las Administraciones Públicas «actuarán de acuerdo con los principios de necesidad, eficacia, proporcionalidad, seguridad jurídica, transparencia, y eficiencia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 16
+      }
+    },
+    {
+      "id": "dag-010",
+      "ley": "ley-39-2015",
+      "articulo": "131",
+      "enunciado": "Para que las normas con rango de ley y los reglamentos entren en vigor y produzcan efectos jurídicos, deben:",
+      "opciones": [
+        "Publicarse en la sede electrónica del órgano autor",
+        "Notificarse a los interesados conocidos",
+        "Comunicarse a las Cortes Generales",
+        "Publicarse en el diario oficial correspondiente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 131 de la Ley 39/2015 dispone que las normas con rango de ley, los reglamentos y disposiciones administrativas «habrán de publicarse en el diario oficial correspondiente para que entren en vigor y produzcan efectos jurídicos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 16
+      }
+    },
+    {
+      "id": "dag-011",
+      "ley": "ley-39-2015",
+      "articulo": "35.1.c",
+      "enunciado": "Deben motivarse, con sucinta referencia de hechos y fundamentos de derecho:",
+      "opciones": [
+        "Los actos que se separen del dictamen de órganos consultivos",
+        "Los actos que sigan el criterio de actuaciones precedentes",
+        "Los actos que acuerden la tramitación ordinaria",
+        "Los actos que admitan las pruebas propuestas"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 35.1.c) incluye entre los actos que serán motivados «Los actos que se separen del criterio seguido en actuaciones precedentes o del dictamen de órganos consultivos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 17
+      }
+    },
+    {
+      "id": "dag-012",
+      "ley": "ley-39-2015",
+      "articulo": "36.1",
+      "enunciado": "Salvo que su naturaleza exija otra forma, los actos administrativos se producirán:",
+      "opciones": [
+        "Por escrito en soporte papel",
+        "De forma verbal, con constancia escrita",
+        "Por escrito a través de medios electrónicos",
+        "En la forma que elija el interesado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 36.1 dispone: «Los actos administrativos se producirán por escrito a través de medios electrónicos, a menos que su naturaleza exija otra forma más adecuada de expresión y constancia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 17
+      }
+    },
+    {
+      "id": "dag-013",
+      "ley": "ley-39-2015",
+      "articulo": "37.1",
+      "enunciado": "Una resolución administrativa de carácter particular no puede vulnerar una disposición de carácter general:",
+      "opciones": [
+        "Salvo que proceda de un órgano de superior jerarquía",
+        "Salvo que la dicte el órgano que aprobó la disposición",
+        "Salvo que se motive en razones de interés público",
+        "Aunque proceda de un órgano de igual o superior jerarquía"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 37.1 establece que las resoluciones de carácter particular no podrán vulnerar lo establecido en una disposición de carácter general, «aunque aquéllas procedan de un órgano de igual o superior jerarquía al que dictó la disposición general».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 17
+      }
+    },
+    {
+      "id": "dag-014",
+      "ley": "ley-39-2015",
+      "articulo": "39.3",
+      "enunciado": "Excepcionalmente, puede otorgarse eficacia retroactiva a los actos administrativos cuando:",
+      "opciones": [
+        "Lo pida el interesado en su solicitud",
+        "Lo acuerde el superior jerárquico",
+        "Se dicten en procedimientos de oficio",
+        "Se dicten en sustitución de actos anulados"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 39.3 dispone: «Excepcionalmente, podrá otorgarse eficacia retroactiva a los actos cuando se dicten en sustitución de actos anulados, así como cuando produzcan efectos favorables al interesado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 17
+      }
+    },
+    {
+      "id": "dag-015",
+      "ley": "ley-39-2015",
+      "articulo": "39.5",
+      "enunciado": "Si una Administración requiere a otra para que anule un acto ilegal en el que debe basarse el suyo, el procedimiento para dictar resolución:",
+      "opciones": [
+        "Continúa su tramitación",
+        "Se archiva por caducidad",
+        "Queda suspendido",
+        "Se declara concluso"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 39.5 prevé que la Administración podrá requerir previamente a la otra para que anule o revise el acto y añade: «En estos casos, quedará suspendido el procedimiento para dictar resolución».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 17
+      }
+    },
+    {
+      "id": "dag-016",
+      "ley": "ley-39-2015",
+      "articulo": "40.3",
+      "enunciado": "Una notificación con el texto íntegro del acto, pero sin indicar los recursos procedentes, surte efecto:",
+      "opciones": [
+        "Desde que el interesado actúe mostrando conocer el acto o recurra",
+        "Desde la fecha en que se practicó la notificación",
+        "A los diez días desde que se practicó",
+        "En ningún caso, porque es nula de pleno derecho"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 40.3 dispone que esas notificaciones «surtirán efecto a partir de la fecha en que el interesado realice actuaciones que supongan el conocimiento del contenido y alcance de la resolución o acto objeto de la notificación, o interponga cualquier recurso que proceda».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 17
+      }
+    },
+    {
+      "id": "dag-017",
+      "ley": "ley-39-2015",
+      "articulo": "47.1.b",
+      "enunciado": "Es nulo de pleno derecho el acto dictado por un órgano manifiestamente incompetente por razón de:",
+      "opciones": [
+        "La jerarquía o la cuantía",
+        "La materia o la jerarquía",
+        "La materia o el territorio",
+        "El territorio o el tiempo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 47.1.b) declara nulos de pleno derecho «Los dictados por órgano manifiestamente incompetente por razón de la materia o del territorio».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 17
+      }
+    },
+    {
+      "id": "dag-018",
+      "ley": "ley-39-2015",
+      "articulo": "48.2",
+      "enunciado": "El defecto de forma solo determina la anulabilidad del acto cuando:",
+      "opciones": [
+        "Le falten requisitos formales indispensables o cause indefensión",
+        "Afecte a cualquier requisito formal exigido por una norma",
+        "Lo alegue el interesado en el plazo de un mes",
+        "El acto proceda de un órgano colegiado"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 48.2 dispone que «el defecto de forma sólo determinará la anulabilidad cuando el acto carezca de los requisitos formales indispensables para alcanzar su fin o dé lugar a la indefensión de los interesados».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 17
+      }
+    },
+    {
+      "id": "dag-019",
+      "ley": "ley-39-2015",
+      "articulo": "50",
+      "enunciado": "Los actos nulos o anulables que contengan los elementos constitutivos de otro distinto:",
+      "opciones": [
+        "Deberán revisarse de oficio",
+        "Producirán los efectos de este",
+        "Carecerán de todo efecto",
+        "Solo surtirán efecto si se convalidan"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 50 establece: «Los actos nulos o anulables que, sin embargo, contengan los elementos constitutivos de otro distinto producirán los efectos de éste».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 17
+      }
+    },
+    {
+      "id": "dag-020",
+      "ley": "ley-39-2015",
+      "articulo": "52.3",
+      "enunciado": "Si el vicio de un acto es una incompetencia no determinante de nulidad, puede convalidarlo:",
+      "opciones": [
+        "El mismo órgano que dictó el acto viciado",
+        "El órgano competente, si es superior jerárquico del autor",
+        "Cualquier órgano de la misma Administración",
+        "El órgano consultivo, mediante dictamen"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 52.3 dispone que en ese caso «la convalidación podrá realizarse por el órgano competente cuando sea superior jerárquico del que dictó el acto viciado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 17
+      }
+    },
+    {
+      "id": "dag-021",
+      "ley": "ley-40-2015",
+      "articulo": "25.1",
+      "enunciado": "La potestad sancionadora de las Administraciones se ejerce cuando ha sido expresamente reconocida por:",
+      "opciones": [
+        "Una norma con rango de Ley",
+        "Un reglamento del Gobierno",
+        "Una orden ministerial",
+        "Una ley o un reglamento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 25.1 de la Ley 40/2015 dispone que la potestad sancionadora «se ejercerá cuando haya sido expresamente reconocida por una norma con rango de Ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 20
+      }
+    },
+    {
+      "id": "dag-022",
+      "ley": "ley-40-2015",
+      "articulo": "25.4",
+      "enunciado": "Las normas de la Ley 40/2015 sobre potestad sancionadora NO se aplican a quienes se vinculan a la Administración por relaciones reguladas por:",
+      "opciones": [
+        "El régimen jurídico de los funcionarios",
+        "La legislación laboral de su personal",
+        "Las ordenanzas municipales",
+        "La legislación de contratos del sector público"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 25.4 excluye la potestad sancionadora «respecto de quienes estén vinculados a ellas por relaciones reguladas por la legislación de contratos del sector público o por la legislación patrimonial de las Administraciones Públicas».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 20
+      }
+    },
+    {
+      "id": "dag-023",
+      "ley": "ley-40-2015",
+      "articulo": "26.2",
+      "enunciado": "Las disposiciones sancionadoras producen efecto retroactivo:",
+      "opciones": [
+        "En cuanto favorezcan al infractor, incluso en sanciones pendientes",
+        "Nunca: se aplica siempre la norma vigente en los hechos",
+        "Solo en la tipificación, no en la sanción ni la prescripción",
+        "Solo cuando la nueva norma lo prevé expresamente"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 26.2 dispone que las disposiciones sancionadoras «producirán efecto retroactivo en cuanto favorezcan al presunto infractor o al infractor» […] «incluso respecto de las sanciones pendientes de cumplimiento al entrar en vigor la nueva disposición».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 20
+      }
+    },
+    {
+      "id": "dag-024",
+      "ley": "ley-40-2015",
+      "articulo": "27.4",
+      "enunciado": "Según la Ley 40/2015, las normas definidoras de infracciones y sanciones:",
+      "opciones": [
+        "Admiten la analogía si favorece al interesado",
+        "Pueden crearse por norma reglamentaria",
+        "Admiten la analogía en el ámbito local",
+        "No son susceptibles de aplicación analógica"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 27.4 establece: «Las normas definidoras de infracciones y sanciones no serán susceptibles de aplicación analógica».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 20
+      }
+    },
+    {
+      "id": "dag-025",
+      "ley": "ley-40-2015",
+      "articulo": "30.2",
+      "enunciado": "La prescripción de la infracción se reinicia si el expediente sancionador está paralizado, por causa no imputable al presunto responsable, más de:",
+      "opciones": [
+        "Un mes",
+        "Dos meses",
+        "Tres meses",
+        "Seis meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 30.2 dispone que se reinicia el plazo de prescripción «si el expediente sancionador estuviera paralizado durante más de un mes por causa no imputable al presunto responsable».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 20
+      }
+    },
+    {
+      "id": "dag-026",
+      "ley": "ley-40-2015",
+      "articulo": "31.1",
+      "enunciado": "No pueden sancionarse los hechos ya sancionados penal o administrativamente cuando se aprecie identidad de:",
+      "opciones": [
+        "Sujeto, órgano y procedimiento",
+        "Sujeto, hecho y fundamento",
+        "Hecho, sanción y fundamento",
+        "Sujeto, hecho y sanción"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 31.1 dispone: «No podrán sancionarse los hechos que lo hayan sido penal o administrativamente, en los casos en que se aprecie identidad del sujeto, hecho y fundamento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 20
+      }
+    },
+    {
+      "id": "dag-027",
+      "ley": "ley-7-1985",
+      "articulo": "85.2.A.d",
+      "enunciado": "Según la Ley 7/1985, es una forma de gestión directa de los servicios públicos locales:",
+      "opciones": [
+        "La concesión del servicio a una empresa privada",
+        "La sociedad mercantil local de capital íntegramente público",
+        "La sociedad mercantil de capital mayoritario privado",
+        "El contrato de servicios con una entidad privada"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 85.2.A) incluye entre las formas de gestión directa la «Sociedad mercantil local, cuyo capital social sea de titularidad pública».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 20
+      }
+    },
+    {
+      "id": "dag-028",
+      "ley": "ley-7-1985",
+      "articulo": "85.2",
+      "enunciado": "Un servicio local solo puede gestionarse por entidad pública empresarial local o sociedad mercantil local si se acredita, mediante memoria justificativa, que:",
+      "opciones": [
+        "Son más sostenibles y eficientes que la propia entidad u organismo autónomo",
+        "Son más económicas que cualquier forma de gestión indirecta",
+        "El servicio tiene carácter económico y no hay interés privado",
+        "Lo aprueba el Pleno por mayoría absoluta de sus miembros"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 85.2 dispone: «Solo podrá hacerse uso de las formas previstas en las letras c) y d) cuando quede acreditado mediante memoria justificativa elaborada al efecto que resultan más sostenibles y eficientes que las formas dispuestas en las letras a) y b)».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 20
+      }
+    },
+    {
+      "id": "dag-029",
+      "ley": "ley-40-2015",
+      "articulo": "32.1",
+      "enunciado": "Según la Ley 40/2015, la anulación de un acto administrativo en vía administrativa o contencioso-administrativa:",
+      "opciones": [
+        "Genera siempre derecho a indemnización",
+        "Da derecho a indemnización si el acto era nulo",
+        "No presupone, por sí misma, derecho a indemnización",
+        "Da derecho a indemnización si se pide en un año"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 32.1 de la Ley 40/2015 establece: «La anulación en vía administrativa o por el orden jurisdiccional contencioso administrativo de los actos o disposiciones administrativas no presupone, por sí misma, derecho a la indemnización».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 21
+      }
+    },
+    {
+      "id": "dag-030",
+      "ley": "ley-40-2015",
+      "articulo": "33.1",
+      "enunciado": "Si la responsabilidad deriva de fórmulas conjuntas de actuación entre varias Administraciones, estas responden frente al particular:",
+      "opciones": [
+        "De forma solidaria",
+        "De forma mancomunada",
+        "En proporción a su financiación",
+        "Solo la que gestione el servicio"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 33.1 dispone que las Administraciones intervinientes «responderán frente al particular, en todo caso, de forma solidaria».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 21
+      }
+    },
+    {
+      "id": "dag-031",
+      "ley": "ley-40-2015",
+      "articulo": "34.1",
+      "enunciado": "No son indemnizables los daños de hechos que no se hubiesen podido prever o evitar según:",
+      "opciones": [
+        "La diligencia exigible al empleado público",
+        "El estado de los conocimientos de la ciencia o de la técnica",
+        "Las previsiones presupuestarias del servicio",
+        "El criterio del órgano consultivo competente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 34.1 dispone: «No serán indemnizables los daños que se deriven de hechos o circunstancias que no se hubiesen podido prever o evitar según el estado de los conocimientos de la ciencia o de la técnica existentes en el momento de producción de aquéllos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 21
+      }
+    },
+    {
+      "id": "dag-032",
+      "ley": "ley-40-2015",
+      "articulo": "34.3",
+      "enunciado": "La cuantía de la indemnización por responsabilidad patrimonial se calcula con referencia al día en que:",
+      "opciones": [
+        "Se presentó la reclamación",
+        "Se dictó la resolución final",
+        "La lesión efectivamente se produjo",
+        "Se emitió el dictamen consultivo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 34.3 dispone: «La cuantía de la indemnización se calculará con referencia al día en que la lesión efectivamente se produjo», sin perjuicio de su actualización.",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 21
+      }
+    },
+    {
+      "id": "dag-033",
+      "ley": "ley-40-2015",
+      "articulo": "36.2",
+      "enunciado": "Tras indemnizar a los lesionados, la Administración exigirá de oficio a su personal la responsabilidad en que haya incurrido por:",
+      "opciones": [
+        "Cualquier grado de culpa o negligencia",
+        "Dolo, únicamente",
+        "Culpa o negligencia leves reiteradas",
+        "Dolo, o culpa o negligencia graves"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 36.2 dispone que la Administración «exigirá de oficio en vía administrativa de sus autoridades y demás personal a su servicio la responsabilidad en que hubieran incurrido por dolo, o culpa o negligencia graves».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 21
+      }
+    },
+    {
+      "id": "dag-034",
+      "ley": "ley-39-2015",
+      "articulo": "67.1",
+      "enunciado": "Con carácter general, el derecho a reclamar responsabilidad patrimonial prescribe:",
+      "opciones": [
+        "A los seis meses del hecho que la motive",
+        "A los dos años del hecho que la motive",
+        "A los cuatro años del hecho que la motive",
+        "Al año del hecho o acto que motive la indemnización"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 67.1 de la Ley 39/2015 establece: «El derecho a reclamar prescribirá al año de producido el hecho o el acto que motive la indemnización o se manifieste su efecto lesivo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 21
+      }
+    },
+    {
+      "id": "dag-035",
+      "ley": "ley-39-2015",
+      "articulo": "81.2",
+      "enunciado": "En la AGE, es preceptivo el dictamen del Consejo de Estado cuando la indemnización reclamada es igual o superior a:",
+      "opciones": [
+        "30.000 euros",
+        "60.000 euros",
+        "50.000 euros",
+        "100.000 euros"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 81.2 dispone: «Cuando las indemnizaciones reclamadas sean de cuantía igual o superior a 50.000 euros» […] «será preceptivo solicitar dictamen del Consejo de Estado o, en su caso, del órgano consultivo de la Comunidad Autónoma».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 21
+      }
+    },
+    {
+      "id": "dag-036",
+      "ley": "ley-39-2015",
+      "articulo": "91.3",
+      "enunciado": "Sin resolución expresa ni acuerdo, puede entenderse que la resolución es contraria a la indemnización cuando transcurren desde el inicio:",
+      "opciones": [
+        "Tres meses",
+        "Seis meses",
+        "Un año",
+        "Dos meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 91.3 dispone: «Transcurridos seis meses desde que se inició el procedimiento sin que haya recaído y se notifique resolución expresa o, en su caso, se haya formalizado el acuerdo, podrá entenderse que la resolución es contraria a la indemnización del particular».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 21
+      }
+    }
+  ]
+}

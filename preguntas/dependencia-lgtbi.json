@@ -1,0 +1,635 @@
+{
+  "descripcion": "Ley 39/2006 (dependencia) y Ley 4/2023 (personas trans y LGTBI). Lote generado el 2026-10-14; citas comprobadas por script contra el texto consolidado del BOE (versiones 2026-10-06 y 2025-12-20).",
+  "preguntas": [
+    {
+      "id": "dlg-001",
+      "ley": "ley-39-2006",
+      "articulo": "1.1",
+      "enunciado": "Según la Ley 39/2006, la promoción de la autonomía personal y la atención a las personas en situación de dependencia es un derecho:",
+      "opciones": [
+        "Graciable y de carácter asistencial",
+        "Derivado de la cotización a la Seguridad Social",
+        "Subjetivo de ciudadanía",
+        "De configuración exclusivamente autonómica"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 1.1 se refiere a la igualdad «en el ejercicio del derecho subjetivo de ciudadanía a la promoción de la autonomía personal y atención a las personas en situación de dependencia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-002",
+      "ley": "ley-39-2006",
+      "articulo": "2.1",
+      "enunciado": "La capacidad de controlar, afrontar y tomar, por propia iniciativa, decisiones personales acerca de cómo vivir es, según la Ley 39/2006:",
+      "opciones": [
+        "La autonomía",
+        "La vida independiente",
+        "El proyecto de vida",
+        "La asistencia personal"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 2.1 define la autonomía como «la capacidad de controlar, afrontar y tomar, por propia iniciativa, decisiones personales acerca de cómo vivir de acuerdo con las normas y preferencias propias».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-003",
+      "ley": "ley-39-2006",
+      "articulo": "2.2",
+      "enunciado": "La Ley 39/2006 define la situación de dependencia como un estado de carácter:",
+      "opciones": [
+        "Temporal",
+        "Transitorio y revisable",
+        "Ocasional",
+        "Permanente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 2.2 define la situación de dependencia como «el estado de carácter permanente en el que las personas, debido a dificultades que afectan a su autonomía, precisan de cuidados y apoyos de otra u otras personas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-004",
+      "ley": "ley-39-2006",
+      "articulo": "2.5",
+      "enunciado": "La atención prestada en su domicilio a una persona en situación de dependencia por familiares no vinculados a un servicio profesionalizado se denomina:",
+      "opciones": [
+        "Asistencia personal",
+        "Cuidados no profesionales",
+        "Cuidados profesionales",
+        "Prestaciones de base comunitaria"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 2.5 define los cuidados no profesionales como «la atención prestada a personas en situación de dependencia en su domicilio, por personas de la familia o de su entorno, no vinculadas a un servicio de atención profesionalizada».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-005",
+      "ley": "ley-39-2006",
+      "articulo": "3.r",
+      "enunciado": "Entre los principios de la Ley 39/2006, ¿qué personas serán atendidas de manera preferente?",
+      "opciones": [
+        "Las menores de seis años",
+        "Las que están en situación de gran dependencia",
+        "Las que viven solas en su domicilio",
+        "Las que carecen de cuidados no profesionales"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 3.r) establece que «Las personas en situación de gran dependencia serán atendidas de manera preferente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-006",
+      "ley": "ley-39-2006",
+      "articulo": "5.1.c",
+      "enunciado": "Para ser titular de los derechos de la Ley 39/2006 hay que haber residido en territorio español durante:",
+      "opciones": [
+        "Dos años, inmediatamente anteriores a la solicitud",
+        "Cinco años, uno de ellos inmediatamente anterior a la solicitud",
+        "Diez años, dos de ellos inmediatamente anteriores a la solicitud",
+        "Cinco años, dos de ellos inmediatamente anteriores a la solicitud"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 5.1.c) exige «Residir en territorio español y haberlo hecho durante cinco años, de los cuales dos deberán ser inmediatamente anteriores a la fecha de presentación de la solicitud».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-007",
+      "ley": "ley-39-2006",
+      "articulo": "6.2",
+      "enunciado": "El Sistema para la Autonomía y Atención a la Dependencia se configura como:",
+      "opciones": [
+        "Una red de utilización pública que integra centros y servicios públicos y privados",
+        "Un organismo autónomo adscrito a la Administración General del Estado",
+        "Una red formada solo por centros públicos de las comunidades autónomas",
+        "Una entidad gestora de la Seguridad Social"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 6.2 dice: «El Sistema se configura como una red de utilización pública que integra, de forma coordinada, centros y servicios, públicos y privados».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-008",
+      "ley": "ley-39-2006",
+      "articulo": "7",
+      "enunciado": "¿Quién establece el nivel de protección mínimo del Sistema para la Autonomía y Atención a la Dependencia?",
+      "opciones": [
+        "Cada comunidad autónoma",
+        "El Consejo Territorial, por mayoría",
+        "La Administración General del Estado",
+        "Las entidades locales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 7 recoge como primer nivel «El nivel de protección mínimo establecido por la Administración General del Estado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-009",
+      "ley": "ley-39-2006",
+      "articulo": "8.1",
+      "enunciado": "En la composición del Consejo Territorial de Servicios Sociales y del Sistema para la Autonomía y Atención a la Dependencia tienen mayoría:",
+      "opciones": [
+        "Los representantes de la Administración General del Estado",
+        "Los representantes de las entidades locales",
+        "Las organizaciones sindicales y empresariales",
+        "Los representantes de las comunidades autónomas"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 8.1 dispone: «En la composición del Consejo Territorial tendrán mayoría los representantes de las comunidades autónomas».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-010",
+      "ley": "ley-39-2006",
+      "articulo": "14.4",
+      "enunciado": "Según la Ley 39/2006, a igual grado de dependencia, la prioridad en el acceso a los servicios se determina por:",
+      "opciones": [
+        "La capacidad económica de la persona solicitante",
+        "El tiempo de espera transcurrido desde la solicitud",
+        "La edad de la persona solicitante",
+        "La falta de cuidados en el entorno familiar"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 14.4 dice que la prioridad «vendrá determinada por el grado de dependencia y, a igual grado, por el tiempo de espera transcurrido, desde la fecha de solicitud». La capacidad económica solo opera «a igual grado y tiempo de espera».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-011",
+      "ley": "ley-39-2006",
+      "articulo": "15.1.c",
+      "enunciado": "¿Cuál de estos servicios forma parte del Catálogo de servicios de la Ley 39/2006?",
+      "opciones": [
+        "El servicio de teleasistencia",
+        "El servicio de transporte adaptado",
+        "El servicio de orientación jurídica gratuita",
+        "El servicio de comedor social"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 15.1 incluye en el Catálogo, entre otros, el «Servicio de teleasistencia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-012",
+      "ley": "ley-39-2006",
+      "articulo": "20",
+      "enunciado": "La cuantía de las prestaciones económicas de la Ley 39/2006 se acuerda por el Consejo Territorial y se aprueba después:",
+      "opciones": [
+        "Por cada comunidad autónoma mediante ley",
+        "Por las Cortes Generales en la Ley de Presupuestos",
+        "Por el Gobierno mediante real decreto",
+        "Por orden de la persona titular del Ministerio competente"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 20 dispone que la cuantía «se acordará por el Consejo Territorial del Sistema para la Autonomía y Atención a la Dependencia, para su aprobación posterior por el Gobierno mediante Real Decreto».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-013",
+      "ley": "ley-39-2006",
+      "articulo": "26.1.b",
+      "enunciado": "Si una persona necesita ayuda para varias actividades de la vida diaria dos o tres veces al día, sin requerir el apoyo permanente de una persona cuidadora, tiene:",
+      "opciones": [
+        "Grado I. Dependencia moderada",
+        "Grado III. Gran dependencia",
+        "Grado II. Dependencia severa",
+        "Grado II. Dependencia moderada"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 26.1.b) define el «Grado II. Dependencia severa: cuando la persona necesita ayuda para realizar varias actividades de la vida diaria dos o tres veces al día, pero no requiere el apoyo permanente de una persona cuidadora».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-014",
+      "ley": "ley-39-2006",
+      "articulo": "28.1",
+      "enunciado": "¿Cuál es el plazo máximo para resolver el procedimiento de reconocimiento de la situación de dependencia?",
+      "opciones": [
+        "Tres meses",
+        "Seis meses",
+        "Un mes",
+        "Dos meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 28.1 establece que el procedimiento se inicia a instancia de la persona interesada o de su representante, «estableciéndose un plazo máximo de 3 meses para su resolución».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-015",
+      "ley": "ley-39-2006",
+      "articulo": "29.1",
+      "enunciado": "Según la Ley 39/2006, el Programa Individual de Atención lo establecen:",
+      "opciones": [
+        "Los órganos de valoración, en el mismo dictamen que fija el grado",
+        "Los servicios sociales del sistema público, de acuerdo con la persona y a propuesta de esta",
+        "El Consejo Territorial, a propuesta de la comunidad autónoma",
+        "La persona cuidadora principal, con el visto bueno de los servicios sociales"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 29.1 dice que «los servicios sociales competentes del sistema público de acuerdo con la persona en situación de dependencia y, a propuesta de esta, establecerán un Programa Individual de Atención».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-06",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-016",
+      "ley": "ley-4-2023",
+      "articulo": "1.1",
+      "enunciado": "La Ley 4/2023 tiene por finalidad garantizar y promover el derecho a la igualdad real y efectiva de las personas LGTBI y:",
+      "opciones": [
+        "De las asociaciones que las representan",
+        "De las personas con discapacidad",
+        "De las personas menores de edad tuteladas",
+        "De sus familias"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 1.1 fija como finalidad «garantizar y promover el derecho a la igualdad real y efectiva de las personas lesbianas, gais, trans, bisexuales e intersexuales (en adelante, LGTBI), así como de sus familias».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-017",
+      "ley": "ley-4-2023",
+      "articulo": "2",
+      "enunciado": "La Ley 4/2023 se aplica a toda persona física o jurídica, pública o privada, que:",
+      "opciones": [
+        "Tenga nacionalidad española",
+        "Resida, se encuentre o actúe en territorio español",
+        "Resida legalmente en España desde hace al menos un año",
+        "Esté inscrita en el Registro Civil español"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 2 dispone que la ley se aplica a toda persona física o jurídica «que resida, se encuentre o actúe en territorio español, cualquiera que fuera su nacionalidad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-018",
+      "ley": "ley-4-2023",
+      "articulo": "3.i",
+      "enunciado": "La vivencia interna e individual del sexo tal y como cada persona la siente y autodefine es, según la Ley 4/2023:",
+      "opciones": [
+        "La expresión de género",
+        "La orientación sexual",
+        "La intersexualidad",
+        "La identidad sexual"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 3.i) define la identidad sexual como la «Vivencia interna e individual del sexo tal y como cada persona la siente y autodefine, pudiendo o no corresponder con el sexo asignado al nacer».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-019",
+      "ley": "ley-4-2023",
+      "articulo": "3.e",
+      "enunciado": "La discriminación que se funda en una apreciación incorrecta sobre las características de la persona discriminada es la discriminación:",
+      "opciones": [
+        "Por error",
+        "Por asociación",
+        "Indirecta",
+        "Interseccional"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 3.e) dice: «La discriminación por error es aquella que se funda en una apreciación incorrecta acerca de las características de la persona o personas discriminadas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-020",
+      "ley": "ley-4-2023",
+      "articulo": "3.c",
+      "enunciado": "Cuando concurren o interactúan diversas causas de discriminación generando una forma específica de discriminación, la Ley 4/2023 habla de discriminación:",
+      "opciones": [
+        "Múltiple",
+        "Por asociación",
+        "Interseccional",
+        "Directa"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 3.c) dispone: «Se produce discriminación interseccional cuando concurren o interactúan diversas causas comprendidas en el apartado anterior, generando una forma específica de discriminación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-021",
+      "ley": "ley-4-2023",
+      "articulo": "5.2",
+      "enunciado": "Según el artículo 5 de la Ley 4/2023, los poderes públicos fomentarán:",
+      "opciones": [
+        "El reconocimiento institucional y la participación en los actos conmemorativos",
+        "La creación de un registro estatal de personas LGTBI",
+        "La reserva de plazas para personas LGTBI en el empleo público",
+        "La exención de tasas en los procedimientos registrales"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 5.2 dice: «Los poderes públicos fomentarán el reconocimiento institucional y la participación en los actos conmemorativos de la lucha por la igualdad real y efectiva de las personas LGTBI».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-022",
+      "ley": "ley-4-2023",
+      "articulo": "11",
+      "enunciado": "Las medidas de igualdad de las personas LGTBI en el acceso al empleo público y la carrera profesional se implantan:",
+      "opciones": [
+        "Previo informe del Consejo de Participación de las Personas LGTBI",
+        "Previo dictamen del Consejo de Estado",
+        "Previa negociación con las organizaciones sindicales",
+        "Mediante acuerdo del Consejo de Ministros"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 11 dice que las Administraciones públicas «implantarán medidas para la promoción y defensa de la igualdad de trato y no discriminación de las personas LGTBI en el acceso al empleo público y carrera profesional, previa negociación con las organizaciones sindicales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-023",
+      "ley": "ley-4-2023",
+      "articulo": "12.2",
+      "enunciado": "Según la Ley 4/2023, en los programas de las pruebas selectivas de acceso al empleo público se incluirán:",
+      "opciones": [
+        "Una entrevista personal sobre diversidad familiar",
+        "Conocimientos sobre igualdad de trato y no discriminación de las personas LGTBI",
+        "Un cupo de plazas reservado a personas trans",
+        "Una prueba práctica de atención a víctimas de discriminación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 12.2 dispone que las Administraciones públicas «incluirán en los programas de las pruebas selectivas de acceso al empleo público formación y conocimientos sobre igualdad de trato y no discriminación de las personas LGTBI».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-024",
+      "ley": "ley-4-2023",
+      "articulo": "43.1",
+      "enunciado": "¿Desde qué edad puede una persona de nacionalidad española solicitar por sí misma la rectificación de la mención registral relativa al sexo?",
+      "opciones": [
+        "Desde que es mayor de dieciocho años",
+        "Desde que es mayor de catorce años",
+        "Desde que es mayor de doce años",
+        "Desde que es mayor de dieciséis años"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 43.1 dice: «Toda persona de nacionalidad española mayor de dieciséis años podrá solicitar por sí misma ante el Registro Civil la rectificación de la mención registral relativa al sexo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-025",
+      "ley": "ley-4-2023",
+      "articulo": "43.2",
+      "enunciado": "Las personas menores de dieciséis años y mayores de catorce pueden solicitar la rectificación registral de la mención relativa al sexo:",
+      "opciones": [
+        "Solo a través de sus representantes legales",
+        "Solo con autorización judicial previa",
+        "Por sí mismas, sin necesidad de asistencia",
+        "Por sí mismas, asistidas por sus representantes legales"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 43.2 dispone que estas personas «podrán presentar la solicitud por sí mismas, asistidas en el procedimiento por sus representantes legales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-026",
+      "ley": "ley-4-2023",
+      "articulo": "43.4",
+      "enunciado": "Para modificar la mención registral del sexo, las personas menores de catorce años y mayores de doce pueden:",
+      "opciones": [
+        "Presentar la solicitud por sí mismas ante el Registro Civil",
+        "Solicitar la autorización judicial",
+        "Presentarla asistidas por sus representantes legales",
+        "Pedirla a través del Ministerio Fiscal"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 43.4 dice que estas personas «podrán solicitar la autorización judicial para la modificación de la mención registral del sexo en los términos del capítulo I bis del título II de la Ley 15/2015».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-027",
+      "ley": "ley-4-2023",
+      "articulo": "44.3",
+      "enunciado": "Según la Ley 4/2023, el derecho a la rectificación registral de la mención relativa al sexo:",
+      "opciones": [
+        "Exige un informe médico que acredite la disconformidad con el sexo registrado",
+        "Exige acreditar un tratamiento médico previo de al menos dos años",
+        "No puede condicionarse a la previa exhibición de un informe médico o psicológico",
+        "Requiere un informe psicológico emitido por un servicio público de salud"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 44.3 establece que este derecho «en ningún caso podrá estar condicionado a la previa exhibición de informe médico o psicológico relativo a la disconformidad con el sexo mencionado en la inscripción de nacimiento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-028",
+      "ley": "ley-4-2023",
+      "articulo": "44.8",
+      "enunciado": "Tras la comparecencia inicial, ¿en qué plazo máximo debe citarse a la persona solicitante para que ratifique su solicitud de rectificación registral?",
+      "opciones": [
+        "Tres meses",
+        "Un mes",
+        "Seis meses",
+        "Quince días"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 44.8 dice: «En el plazo máximo de tres meses desde la comparecencia inicial reiterando la solicitud de rectificación inicial, la persona encargada del Registro Civil deberá citar a la persona legitimada para que comparezca de nuevo y ratifique su solicitud».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-029",
+      "ley": "ley-4-2023",
+      "articulo": "46.1",
+      "enunciado": "La resolución que acuerda la rectificación de la mención registral del sexo tiene efectos:",
+      "opciones": [
+        "Declarativos desde la fecha de la solicitud",
+        "Constitutivos a partir de su inscripción en el Registro Civil",
+        "Retroactivos desde la fecha de nacimiento",
+        "Constitutivos desde la segunda comparecencia"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 46.1 dispone que la resolución «tendrá efectos constitutivos a partir de su inscripción en el Registro Civil».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    },
+    {
+      "id": "dlg-030",
+      "ley": "ley-4-2023",
+      "articulo": "79.4.d",
+      "enunciado": "Según la Ley 4/2023, la promoción o la práctica de terapias de conversión de la orientación sexual o la identidad sexual es una infracción:",
+      "opciones": [
+        "Muy grave",
+        "Grave",
+        "Leve",
+        "Grave o leve, según haya consentimiento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 79.4 califica como infracción muy grave «La promoción o la práctica de métodos, programas o terapias de aversión, conversión o contracondicionamiento […] con independencia del consentimiento que pudieran haber prestado las mismas o sus representantes legales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-20",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 16,
+        "admin-age": 22
+      }
+    }
+  ]
+}

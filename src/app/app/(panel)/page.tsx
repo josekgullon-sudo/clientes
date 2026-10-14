@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Check, ChevronRight, Crown, Flame, Lightbulb, Lock, RotateCcw, SlidersHorizontal, Timer, Trophy, Zap } from "lucide-react";
+import { Check, ChevronRight, Crown, Flame, Lightbulb, Lock, RotateCcw, SlidersHorizontal, Timer, Trophy, Zap, Landmark } from "lucide-react";
 import type { ReactNode } from "react";
 import { Boton, EnlaceBoton } from "@/components/boton";
 import { CaminoJuego } from "@/components/estudio/camino-juego";
@@ -15,7 +15,7 @@ import { siguienteBloqueado, siguienteLeccion } from "@/lib/estudio/camino";
 import { diasEntre, hoyMadrid } from "@/lib/seo/seleccion";
 import { examenEstimado } from "@/lib/examen";
 import { curiosidadDelDia } from "@/lib/estudio/curiosidades";
-import { CUOTA_GRATIS } from "@/lib/sitio";
+import { CUOTA_GRATIS, datosOposicion } from "@/lib/sitio";
 import {
   cuotaRestante,
   falladasPendientes,
@@ -145,7 +145,7 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
   const objetivo = estudio?.objetivo_diario ?? 10;
   const hechasHoy = estudio?.preguntas_hoy ?? 0;
   const aciertosHoy = estudio?.aciertos_hoy ?? 0;
-  const fechaExamen = estudio?.fecha_examen ?? examenEstimado()?.fecha ?? null;
+  const fechaExamen = estudio?.fecha_examen ?? examenEstimado(estudio?.oposicion)?.fecha ?? null;
   const diasExamen = fechaExamen ? diasEntre(hoyMadrid(), fechaExamen) : null;
   const leccion = camino ? siguienteLeccion(camino, suscrito) : null;
   const bloqueada = camino ? siguienteBloqueado(camino, suscrito) : null;
@@ -156,6 +156,7 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
   const faltan = Math.max(0, objetivo - hechasHoy);
   const metaAciertos = Math.ceil(objetivo * 0.7);
   const curiosidad = curiosidadDelDia(hoyMadrid());
+  const opo = datosOposicion(estudio?.oposicion);
 
   const mensaje = !puedeLeccion
     ? `Has hecho tus ${CUOTA_GRATIS} preguntas gratis de hoy. ¡Mañana seguimos!`
@@ -199,6 +200,15 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
         </span>
         <span className="font-semibold">{mensaje}</span>
       </ClaraDice>
+
+      <Link
+        href="/app/cuenta#oposicion"
+        className="-mt-4 inline-flex min-h-11 items-center gap-2 self-start rounded-full bg-pino-suave px-4 text-sm font-extrabold text-pino hover:brightness-95"
+      >
+        <Landmark aria-hidden size={16} />
+        {opo.nombre}
+        <span className="font-semibold text-pizarra">· {q.oposicion ? "¡Lista!" : "Cambiar"}</span>
+      </Link>
 
       <InstalarApp />
 

@@ -7,6 +7,8 @@ import { clienteSesion } from "./usuario";
 export type ParteNota = { nota: number; bajo: number; alto: number };
 
 export type Estadisticas = {
+  /** Oposición que prepara (slug). */
+  oposicion?: string;
   objetivo_diario: number;
   fecha_examen: string | null;
   preguntas_hoy: number;

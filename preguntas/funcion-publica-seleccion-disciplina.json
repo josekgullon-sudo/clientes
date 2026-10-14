@@ -1,0 +1,685 @@
+{
+  "descripcion": "Función pública: selección (RD 364/1995, TREBEP art. 70), interinos, provisión y promoción, incompatibilidades (Ley 53/1984) y régimen disciplinario (RD 33/1986, TREBEP). Lote generado el 2026-10-14; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "fps-001",
+      "ley": "trebep",
+      "articulo": "70.1",
+      "enunciado": "La Oferta de empleo público comporta la obligación de convocar los procesos selectivos para las plazas comprometidas y hasta:",
+      "opciones": [
+        "Un cinco por cien adicional",
+        "Un diez por cien adicional",
+        "Un quince por cien adicional",
+        "Un veinte por cien adicional"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 70.1 del TREBEP establece «la obligación de convocar los correspondientes procesos selectivos para las plazas comprometidas y hasta un diez por cien adicional».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 24
+      }
+    },
+    {
+      "id": "fps-002",
+      "ley": "trebep",
+      "articulo": "70.1",
+      "enunciado": "La ejecución de la Oferta de empleo público deberá desarrollarse dentro del plazo improrrogable de:",
+      "opciones": [
+        "Dos años",
+        "Un año",
+        "Cuatro años",
+        "Tres años"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 70.1 del TREBEP dispone que «la ejecución de la oferta de empleo público o instrumento similar deberá desarrollarse dentro del plazo improrrogable de tres años».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 24
+      }
+    },
+    {
+      "id": "fps-003",
+      "ley": "rd-364-1995",
+      "articulo": "4.1",
+      "enunciado": "Según el Reglamento General de Ingreso, el sistema ordinario de ingreso del personal funcionario es:",
+      "opciones": [
+        "La oposición",
+        "El concurso-oposición",
+        "El concurso",
+        "La libre designación"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 4.1 dice: «La oposición será el sistema ordinario de ingreso, salvo cuando, por la naturaleza de las funciones a desempeñar, sea más adecuada la utilización del concurso-oposición y, excepcionalmente, del concurso».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 24
+      }
+    },
+    {
+      "id": "fps-004",
+      "ley": "rd-364-1995",
+      "articulo": "11",
+      "enunciado": "Los Tribunales de selección están constituidos por un número impar de miembros, funcionarios de carrera:",
+      "opciones": [
+        "No inferior a tres",
+        "No inferior a nueve",
+        "No inferior a cinco",
+        "No inferior a siete"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 11 establece que los Tribunales «estarán constituidos por un número impar de miembros, funcionarios de carrera, no inferior a cinco».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 24
+      }
+    },
+    {
+      "id": "fps-005",
+      "ley": "rd-364-1995",
+      "articulo": "13.2",
+      "enunciado": "No pueden formar parte de los órganos de selección los funcionarios que hayan preparado aspirantes a pruebas selectivas en los:",
+      "opciones": [
+        "Dos años anteriores a la publicación de la convocatoria",
+        "Tres años anteriores a la publicación de la convocatoria",
+        "Cinco años anteriores a la publicación de la convocatoria",
+        "Cuatro años anteriores a la publicación de la convocatoria"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 13.2 excluye a quienes «hubiesen realizado tareas de preparación de aspirantes a pruebas selectivas en los cinco años anteriores a la publicación de la correspondiente convocatoria».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 24
+      }
+    },
+    {
+      "id": "fps-006",
+      "ley": "rd-364-1995",
+      "articulo": "16.j",
+      "enunciado": "Desde la total conclusión de un ejercicio hasta el comienzo del siguiente debe transcurrir un plazo:",
+      "opciones": [
+        "Mínimo de setenta y dos horas y máximo de cuarenta y cinco días naturales",
+        "Mínimo de cuarenta y ocho horas y máximo de treinta días naturales",
+        "Mínimo de veinticuatro horas y máximo de cuarenta y cinco días hábiles",
+        "Mínimo de setenta y dos horas y máximo de dos meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 16.j) dispone: «Desde la total conclusión de un ejercicio o prueba hasta el comienzo del siguiente deberá transcurrir un plazo mínimo de setenta y dos horas y máximo de cuarenta y cinco días naturales».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 24
+      }
+    },
+    {
+      "id": "fps-007",
+      "ley": "rd-364-1995",
+      "articulo": "18.1",
+      "enunciado": "La solicitud para participar en los procedimientos de ingreso se presenta, desde el día siguiente al de publicación de la convocatoria en el BOE, en el plazo de:",
+      "opciones": [
+        "Quince días hábiles",
+        "Diez días hábiles",
+        "Treinta días naturales",
+        "Veinte días naturales"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 18.1, la solicitud «deberá presentarse en el plazo de veinte días naturales a partir del siguiente al de publicación de la convocatoria respectiva».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 24
+      }
+    },
+    {
+      "id": "fps-008",
+      "ley": "rd-364-1995",
+      "articulo": "22.3",
+      "enunciado": "El número de aprobados en las pruebas selectivas puede ser superior al de plazas convocadas cuando el proceso incluya:",
+      "opciones": [
+        "Un período de prácticas",
+        "Un curso selectivo",
+        "Una fase de concurso",
+        "Una entrevista personal"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 22.3 dice: «El proceso selectivo podrá comprender, además de las pruebas selectivas, un curso selectivo o un período de prácticas. Sólo en el primer caso el número de aprobados en las pruebas selectivas podrá ser superior al de plazas convocadas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 24
+      }
+    },
+    {
+      "id": "fps-009",
+      "ley": "trebep",
+      "articulo": "10.1.b",
+      "enunciado": "Si se nombra a un funcionario interino para la sustitución transitoria de los titulares, el nombramiento dura:",
+      "opciones": [
+        "El tiempo estrictamente necesario",
+        "Un máximo de tres años",
+        "Un máximo de nueve meses",
+        "Un máximo de dieciocho meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 10.1.b) del TREBEP prevé «La sustitución transitoria de los titulares, durante el tiempo estrictamente necesario».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 25
+      }
+    },
+    {
+      "id": "fps-010",
+      "ley": "trebep",
+      "articulo": "10.2",
+      "enunciado": "Además de igualdad, mérito, capacidad y publicidad, la selección del personal funcionario interino se rige por el principio de:",
+      "opciones": [
+        "Especialidad",
+        "Libre concurrencia",
+        "Celeridad",
+        "Discrecionalidad técnica"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 10.2 del TREBEP dice que estos procedimientos serán públicos, «rigiéndose en todo caso por los principios de igualdad, mérito, capacidad, publicidad y celeridad».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 25
+      }
+    },
+    {
+      "id": "fps-011",
+      "ley": "trebep",
+      "articulo": "10.3",
+      "enunciado": "El fin de la interinidad por la cobertura reglada del puesto por personal funcionario de carrera se formaliza:",
+      "opciones": [
+        "A instancia del interesado, con indemnización",
+        "De oficio, sin derecho a compensación alguna",
+        "De oficio, con una compensación económica",
+        "Previa audiencia, con indemnización"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 10.3 del TREBEP establece que «la Administración formalizará de oficio la finalización de la relación de interinidad por cualquiera de las siguientes causas, además de por las previstas en el artículo 63, sin derecho a compensación alguna».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 25
+      }
+    },
+    {
+      "id": "fps-012",
+      "ley": "trebep",
+      "articulo": "10.4",
+      "enunciado": "Si la convocatoria de su plaza se publicó dentro de los tres años desde su nombramiento, el funcionario interino puede permanecer en ella:",
+      "opciones": [
+        "Un año más como máximo",
+        "Hasta que se apruebe la siguiente oferta",
+        "Hasta que se publique la lista de admitidos",
+        "Hasta la resolución de la convocatoria"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 10.4 del TREBEP señala que, publicada la convocatoria en plazo, «podrá permanecer hasta la resolución de la convocatoria, sin que su cese dé lugar a compensación económica».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 25
+      }
+    },
+    {
+      "id": "fps-013",
+      "ley": "rd-364-1995",
+      "articulo": "41.2",
+      "enunciado": "Como regla general, para participar en los concursos de provisión hay que permanecer en cada puesto de destino definitivo un mínimo de:",
+      "opciones": [
+        "Un año",
+        "Tres años",
+        "Seis meses",
+        "Dos años"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 41.2 dice: «Los funcionarios deberán permanecer en cada puesto de trabajo de destino definitivo un mínimo de dos años para poder participar en los concursos de provisión».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 27
+      }
+    },
+    {
+      "id": "fps-014",
+      "ley": "rd-364-1995",
+      "articulo": "42.2",
+      "enunciado": "El plazo de presentación de instancias en los concursos de provisión de puestos de trabajo es de:",
+      "opciones": [
+        "Veinte días naturales",
+        "Quince días hábiles",
+        "Diez días hábiles",
+        "Un mes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 42.2 dispone: «El plazo de presentación de instancias será de quince días hábiles, contados a partir del siguiente al de la publicación de la convocatoria».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 27
+      }
+    },
+    {
+      "id": "fps-015",
+      "ley": "rd-364-1995",
+      "articulo": "48.1",
+      "enunciado": "Si el destino obtenido por concurso comporta cambio de residencia, el plazo para tomar posesión es de:",
+      "opciones": [
+        "Tres días hábiles",
+        "Quince días hábiles",
+        "Un mes",
+        "Ocho días naturales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 48.1 dice: «El plazo para tomar posesión será de tres días hábiles si no implica cambio de residencia del funcionario, o de un mes si comporta cambio de residencia o el reingreso al servicio activo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 27
+      }
+    },
+    {
+      "id": "fps-016",
+      "ley": "rd-364-1995",
+      "articulo": "64.3",
+      "enunciado": "Según el Reglamento General de Ingreso, las comisiones de servicios tienen una duración máxima de:",
+      "opciones": [
+        "Un año, prorrogable por otro",
+        "Seis meses, prorrogables por otros seis",
+        "Dos años, sin prórroga posible",
+        "Un año, sin prórroga posible"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 64.3 establece que las comisiones de servicios «tendrán una duración máxima de un año prorrogable por otro en caso de no haberse cubierto el puesto con carácter definitivo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 27
+      }
+    },
+    {
+      "id": "fps-017",
+      "ley": "rd-364-1995",
+      "articulo": "63",
+      "enunciado": "¿En cuál de estos supuestos NO procede la adscripción provisional según el Reglamento General de Ingreso?",
+      "opciones": [
+        "Cese en un puesto de libre designación",
+        "Vacante de urgente e inaplazable necesidad",
+        "Supresión del puesto de trabajo",
+        "Reingreso al servicio activo sin reserva de puesto"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 63 admite la adscripción provisional «únicamente» en la remoción o cese en puestos de concurso o libre designación, la «Supresión del puesto de trabajo» y el «Reingreso al servicio activo de los funcionarios sin reserva de puesto de trabajo». La urgente necesidad se cubre «en comisión de servicios» (artículo 64.1).",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 27
+      }
+    },
+    {
+      "id": "fps-018",
+      "ley": "rd-364-1995",
+      "articulo": "58.2",
+      "enunciado": "El funcionario cesado en un puesto de libre designación queda adscrito provisionalmente a un puesto de su Cuerpo o Escala:",
+      "opciones": [
+        "No inferior en más de dos niveles al de su grado personal",
+        "No inferior en más de un nivel al de su grado personal",
+        "De igual nivel que el puesto del que ha sido cesado",
+        "No inferior en más de tres niveles al de su grado personal"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 58.2 dice que serán adscritos a un puesto de su Cuerpo o Escala «no inferior en más de dos niveles al de su grado personal en el mismo municipio».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 27
+      }
+    },
+    {
+      "id": "fps-019",
+      "ley": "rd-364-1995",
+      "articulo": "74.2",
+      "enunciado": "En la promoción interna por concurso-oposición, la puntuación obtenida en la fase de concurso:",
+      "opciones": [
+        "Se suma a la de cada ejercicio para superarlo",
+        "Puede compensar un ejercicio no superado",
+        "Determina por sí sola el orden de prelación",
+        "No puede aplicarse para superar los ejercicios de la oposición"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 74.2 dispone: «En ningún caso la puntuación obtenida en la fase de concurso podrá aplicarse para superar los ejercicios de la fase de oposición».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 27
+      }
+    },
+    {
+      "id": "fps-020",
+      "ley": "trebep",
+      "articulo": "16.3.d",
+      "enunciado": "Según el TREBEP, el acceso a cuerpos o escalas del mismo Subgrupo profesional se denomina:",
+      "opciones": [
+        "Promoción interna vertical",
+        "Carrera horizontal",
+        "Promoción interna horizontal",
+        "Carrera vertical"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 16.3.d) del TREBEP define la «Promoción interna horizontal, que consiste en el acceso a cuerpos o escalas del mismo Subgrupo profesional».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 27
+      }
+    },
+    {
+      "id": "fps-021",
+      "ley": "ley-53-1984",
+      "articulo": "12.1.d",
+      "enunciado": "El personal incluido en la Ley 53/1984 no puede tener en el capital de empresas contratistas del sector público una participación superior al:",
+      "opciones": [
+        "5 por 100",
+        "25 por 100",
+        "10 por 100",
+        "50 por 100"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 12.1.d) prohíbe «La participación superior al 10 por 100 en el capital de las Empresas o Sociedades a que se refiere el párrafo anterior» (concesionarias, contratistas, etc.).",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 28
+      }
+    },
+    {
+      "id": "fps-022",
+      "ley": "ley-53-1984",
+      "articulo": "12.1.a",
+      "enunciado": "No pueden ejercerse actividades privadas en los asuntos en que el empleado público esté interviniendo o haya intervenido en:",
+      "opciones": [
+        "El último año",
+        "Los cinco últimos años",
+        "Los tres últimos años",
+        "Los dos últimos años"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 12.1.a) prohíbe esas actividades «en los asuntos en que esté interviniendo, haya intervenido en los dos últimos años o tenga que intervenir por razón del puesto público».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 28
+      }
+    },
+    {
+      "id": "fps-023",
+      "ley": "ley-53-1984",
+      "articulo": "19.b",
+      "enunciado": "Queda fuera del régimen de incompatibilidades dar cursos en centros oficiales de formación de funcionarios si no es habitual ni supone más de:",
+      "opciones": [
+        "Setenta y cinco horas al año",
+        "Cincuenta horas al año",
+        "Cien horas al año",
+        "Setenta y cinco horas al semestre"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 19.b) exceptúa esas actividades «cuando no tenga carácter permanente o habitual ni supongan más de setenta y cinco horas al año».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 28
+      }
+    },
+    {
+      "id": "fps-024",
+      "ley": "ley-53-1984",
+      "articulo": "14",
+      "enunciado": "La resolución que reconoce la compatibilidad para actividades privadas, o declara la incompatibilidad, se dicta en el plazo de:",
+      "opciones": [
+        "Un mes",
+        "Dos meses",
+        "Tres meses",
+        "Seis meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 14 se refiere a «La resolución motivada reconociendo la compatibilidad o declarando la incompatibilidad, que se dictará en el plazo de dos meses».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 28
+      }
+    },
+    {
+      "id": "fps-025",
+      "ley": "ley-53-1984",
+      "articulo": "10",
+      "enunciado": "Si quien accede a un nuevo puesto público incompatible no opta en el plazo de toma de posesión, se entiende que:",
+      "opciones": [
+        "Opta por el nuevo puesto y pasa a excedencia voluntaria en el anterior",
+        "Opta por el puesto que venía desempeñando hasta entonces",
+        "Renuncia a ambos puestos y queda sin destino",
+        "Opta por el nuevo puesto y queda en servicios especiales en el anterior"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 10 dice: «A falta de opción en el plazo señalado se entenderá que optan por el nuevo puesto, pasando a la situación de excedencia voluntaria en los que vinieran desempeñando».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 28
+      }
+    },
+    {
+      "id": "fps-026",
+      "ley": "ley-53-1984",
+      "articulo": "16.4",
+      "enunciado": "Cabe reconocer compatibilidad para actividades privadas a quien cobra complemento específico si este no supera, sobre su retribución básica sin antigüedad, el:",
+      "opciones": [
+        "10 por 100",
+        "30 por 100",
+        "25 por 100",
+        "50 por 100"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 16.4 lo permite cuando el complemento específico tenga una cuantía que «no supere el 30 por 100 de su retribución básica, excluidos los conceptos que tengan su origen en la antigüedad».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 28
+      }
+    },
+    {
+      "id": "fps-027",
+      "ley": "ley-53-1984",
+      "articulo": "5.1.b",
+      "enunciado": "Se puede compatibilizar el puesto público con el de miembro de una Corporación local, salvo que:",
+      "opciones": [
+        "Se perciban dietas o asistencias por acudir a sus sesiones",
+        "Se forme parte de un grupo municipal de la oposición",
+        "Se desempeñe en ella un cargo retribuido en dedicación exclusiva",
+        "Se desempeñe en ella un cargo en dedicación parcial"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 5.1.b) admite la compatibilidad como «Miembros de las Corporaciones locales, salvo que desempeñen en las mismas cargos retribuidos en régimen de dedicación exclusiva».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 28
+      }
+    },
+    {
+      "id": "fps-028",
+      "ley": "rd-33-1986",
+      "articulo": "7.1.l",
+      "enunciado": "El incumplimiento injustificado de la jornada de trabajo es falta grave cuando, acumulado, supone un mínimo de:",
+      "opciones": [
+        "Cinco horas al mes",
+        "Quince horas al mes",
+        "Diez horas al trimestre",
+        "Diez horas al mes"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 7.1.l) tipifica como falta grave «El incumplimiento injustificado de la jornada de trabajo que acumulado suponga un mínimo de diez horas al mes».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 28
+      }
+    },
+    {
+      "id": "fps-029",
+      "ley": "rd-33-1986",
+      "articulo": "8.b",
+      "enunciado": "Según el Reglamento de Régimen Disciplinario, la falta de asistencia injustificada de un día es una falta:",
+      "opciones": [
+        "Grave",
+        "Muy grave",
+        "Grave si es la segunda en un mes",
+        "Leve"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 8 dice: «Son faltas leves: […] b) La falta de asistencia injustificada de un día».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 28
+      }
+    },
+    {
+      "id": "fps-030",
+      "ley": "rd-33-1986",
+      "articulo": "16",
+      "enunciado": "Quien es sancionado por falta grave con traslado con cambio de residencia no puede obtener destino en la localidad de la que fue trasladado durante:",
+      "opciones": [
+        "Tres años",
+        "Seis meses",
+        "Un año",
+        "Dos años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 16 fija esa prohibición «durante tres años, cuando hubiere sido impuesta por falta muy grave, y durante uno cuando hubiere correspondido a la comisión de una falta grave».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 28
+      }
+    },
+    {
+      "id": "fps-031",
+      "ley": "rd-33-1986",
+      "articulo": "30",
+      "enunciado": "El Instructor del expediente disciplinario debe ser un funcionario público perteneciente a un cuerpo o escala:",
+      "opciones": [
+        "Del mismo cuerpo o escala que el inculpado",
+        "De igual o superior grupo al del inculpado",
+        "De grupo necesariamente superior al del inculpado",
+        "De cualquier grupo, si es funcionario de carrera"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 30 exige que el Instructor sea «un funcionario público perteneciente a un cuerpo o escala de igual o superior grupo al del inculpado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 28
+      }
+    },
+    {
+      "id": "fps-032",
+      "ley": "rd-33-1986",
+      "articulo": "35.1",
+      "enunciado": "Desde la incoación del procedimiento disciplinario, el Instructor debe formular el pliego de cargos en un plazo no superior a:",
+      "opciones": [
+        "Un mes",
+        "Diez días",
+        "Quince días",
+        "Dos meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 35.1 dispone que, «en un plazo no superior a un mes, contados a partir de la incoación del procedimiento, el Instructor formulará el correspondiente pliego de cargos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 28
+      }
+    },
+    {
+      "id": "fps-033",
+      "ley": "rd-33-1986",
+      "articulo": "47.1",
+      "enunciado": "Según el Reglamento de Régimen Disciplinario, el órgano competente para imponer la sanción de separación del servicio es:",
+      "opciones": [
+        "El Subsecretario del Departamento",
+        "El Ministro del Departamento",
+        "El Consejo de Ministros",
+        "El Director general del funcionario"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 47.1 atribuye esa competencia a «El Consejo de Ministros, a propuesta del Ministro de la Presidencia, quien con carácter previo oirá a la Comisión Superior de Personal, para imponer la separación del servicio».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 28
+      }
+    },
+    {
+      "id": "fps-034",
+      "ley": "trebep",
+      "articulo": "98.3",
+      "enunciado": "Durante la suspensión provisional, el funcionario tiene derecho a percibir:",
+      "opciones": [
+        "Todas sus retribuciones básicas y complementarias",
+        "Las retribuciones básicas y, en su caso, las prestaciones por hijo a cargo",
+        "El setenta y cinco por ciento de sus retribuciones",
+        "Las retribuciones complementarias, pero no las básicas"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 98.3 del TREBEP dice: «El funcionario suspenso provisional tendrá derecho a percibir durante la suspensión las retribuciones básicas y, en su caso, las prestaciones familiares por hijo a cargo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 28
+      }
+    }
+  ]
+}

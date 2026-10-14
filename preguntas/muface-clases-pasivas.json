@@ -1,0 +1,629 @@
+{
+  "descripcion": "Seguridad Social de los funcionarios: RDLeg 4/2000 (MUFACE) y RDLeg 670/1987 (Clases Pasivas). Lote generado el 2026-10-14; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "muf-001",
+      "ley": "rdleg-4-2000",
+      "articulo": "2.1",
+      "enunciado": "El Régimen especial de Seguridad Social de los Funcionarios Civiles del Estado queda integrado por los mecanismos de cobertura de:",
+      "opciones": [
+        "El Régimen General de la Seguridad Social y MUFACE",
+        "El Régimen de Clases Pasivas y el Mutualismo Administrativo",
+        "El Régimen de Clases Pasivas y el Régimen General",
+        "El Mutualismo Administrativo y la asistencia social"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 2.1 lo integra por «a) El Régimen de Clases Pasivas del Estado, de acuerdo con sus normas específicas. b) El Régimen del Mutualismo Administrativo que se regula en la presente Ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-002",
+      "ley": "rdleg-4-2000",
+      "articulo": "2.2",
+      "enunciado": "Los funcionarios de carrera de la Administración Civil del Estado ingresados a partir del 1 de enero de 2011 quedan integrados en el Régimen General de la Seguridad Social:",
+      "opciones": [
+        "A todos los efectos, incluida la asistencia sanitaria",
+        "Solo a efectos de incapacidad temporal",
+        "A efectos de asistencia sanitaria y pensiones",
+        "A los exclusivos efectos de pensiones"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 2.2, los que «hayan ingresado a partir del 1 de enero de 2011, quedarán integrados en el Régimen General de la Seguridad Social a los exclusivos efectos de pensiones».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-003",
+      "ley": "rdleg-4-2000",
+      "articulo": "3.2.a",
+      "enunciado": "Queda excluido del Régimen especial de Seguridad Social de los Funcionarios Civiles del Estado:",
+      "opciones": [
+        "El funcionario de la Administración Local",
+        "El funcionario de carrera de la Administración Civil del Estado",
+        "El funcionario en prácticas que aspira a un Cuerpo civil del Estado",
+        "El funcionario interino del Decreto-ley 10/1965"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 3.2 dispone: «Quedan excluidos de este Régimen especial y se regirán por sus normas específicas: a) Los funcionarios de la Administración Local».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-004",
+      "ley": "rdleg-4-2000",
+      "articulo": "5.1",
+      "enunciado": "MUFACE se rige por las previsiones de la Ley de Organización y Funcionamiento de la Administración General del Estado relativas a:",
+      "opciones": [
+        "Las entidades públicas empresariales",
+        "Las agencias estatales",
+        "Los organismos autónomos",
+        "Las sociedades mercantiles estatales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 5.1 dice que MUFACE «se regirá por las previsiones de la Ley 6/1997, de 14 de abril, de Organización y Funcionamiento de la Administración General del Estado, relativas a los organismos autónomos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-005",
+      "ley": "rdleg-4-2000",
+      "articulo": "7.1",
+      "enunciado": "Los funcionarios de carrera de la Administración Civil del Estado se incorporan obligatoriamente como mutualistas a MUFACE:",
+      "opciones": [
+        "En el momento de la toma de posesión de su cargo",
+        "En la fecha de su nombramiento como funcionarios",
+        "Al superar el proceso selectivo",
+        "Al publicarse su nombramiento en el BOE"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 7.1, se incorporan obligatoriamente como mutualistas a MUFACE «en el momento de la toma de posesión de su cargo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-006",
+      "ley": "rdleg-4-2000",
+      "articulo": "7.1.d",
+      "enunciado": "Conserva la condición de mutualista, con los mismos derechos y obligaciones que en servicio activo, el funcionario que pasa a:",
+      "opciones": [
+        "Excedencia voluntaria por interés particular",
+        "Excedencia forzosa",
+        "Excedencia voluntaria por agrupación familiar",
+        "Excedencia voluntaria incentivada"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 7.1 mantiene la condición de mutualista en, entre otras, la situación de «d) Excedencia forzosa». El artículo 8.1.a) da de baja a los que pasen a «excedencia voluntaria, en cualquiera de sus modalidades».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-007",
+      "ley": "rdleg-4-2000",
+      "articulo": "7.3",
+      "enunciado": "El funcionario que, por promoción interna, queda incluido en el Régimen General y desea seguir siendo mutualista debe optar en el plazo de:",
+      "opciones": [
+        "Un mes desde la toma de posesión",
+        "Diez días desde el nombramiento",
+        "Tres meses desde el nombramiento",
+        "Quince días desde la toma de posesión"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 7.3 indica que «deberán ejercitar esta opción, por una sola vez, en el plazo de quince días desde la toma de posesión en el nuevo Cuerpo o Escala».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-008",
+      "ley": "rdleg-4-2000",
+      "articulo": "8.2",
+      "enunciado": "Quienes mantienen facultativamente el alta en MUFACE como mutualistas voluntarios deben abonar:",
+      "opciones": [
+        "Solo la cuota del funcionario",
+        "La cuota del funcionario y la mitad de la del Estado",
+        "A su cargo las cuotas del funcionario y del Estado",
+        "Ninguna cuota mientras dure la excedencia"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 8.2, pueden mantener el alta «siempre que abonen exclusivamente a su cargo las cuotas correspondientes al funcionario y al Estado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-009",
+      "ley": "rdleg-4-2000",
+      "articulo": "10.1",
+      "enunciado": "No están obligados a cotizar a MUFACE:",
+      "opciones": [
+        "Los mutualistas en expectativa de destino",
+        "Los mutualistas en suspensión provisional de funciones",
+        "Los mutualistas en excedencia forzosa",
+        "Los mutualistas jubilados"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 10.1 establece que la cotización es obligatoria para todos los mutualistas, «con excepción de los mutualistas jubilados y de quienes se encuentren en la situación de excedencia voluntaria para atender al cuidado de hijos o familiares».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-010",
+      "ley": "rdleg-4-2000",
+      "articulo": "15.3",
+      "enunciado": "MUFACE presta asistencia sanitaria al recién nacido de madre mutualista, aunque no tenga reconocida la condición de beneficiario, durante:",
+      "opciones": [
+        "El primer mes desde el parto",
+        "Los primeros quince días desde el parto",
+        "Los primeros diez días desde el parto",
+        "Los tres primeros meses desde el parto"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 15.3 lo admite «en el caso del recién nacido cuando la madre sea mutualista o beneficiaria […] durante los primeros quince días desde el momento del parto».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-011",
+      "ley": "rdleg-4-2000",
+      "articulo": "17.1",
+      "enunciado": "Los conciertos de MUFACE para facilitar la asistencia sanitaria se establecerán preferentemente con:",
+      "opciones": [
+        "Instituciones de la Seguridad Social",
+        "Entidades de seguro privadas",
+        "Hospitales de la Administración militar",
+        "Colegios oficiales de médicos"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 17.1 dice que la asistencia se facilita directamente o por concierto y que «Estos conciertos se establecerán preferentemente con instituciones de la Seguridad Social».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-012",
+      "ley": "rdleg-4-2000",
+      "articulo": "21.1.b",
+      "enunciado": "En incapacidad temporal, el mutualista empieza a percibir el subsidio a cargo de MUFACE:",
+      "opciones": [
+        "Desde el primer día de licencia",
+        "Desde el segundo mes",
+        "Desde el cuarto mes",
+        "Desde el séptimo mes"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 21.1.b) dice: «Desde el cuarto mes percibirá las retribuciones básicas, la prestación por hijo a cargo, en su caso, y un subsidio por incapacidad temporal a cargo de la Mutualidad». Los tres primeros meses cobra la totalidad de sus retribuciones.",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-013",
+      "ley": "rdleg-4-2000",
+      "articulo": "21.1.b",
+      "enunciado": "El subsidio de MUFACE por incapacidad temporal es la mayor de dos cantidades: el 80 % de las retribuciones básicas del tercer mes de licencia y:",
+      "opciones": [
+        "El 75 % de las retribuciones complementarias del tercer mes de licencia",
+        "El 80 % de las retribuciones complementarias del tercer mes de licencia",
+        "El 100 % de las retribuciones complementarias del tercer mes de licencia",
+        "El 75 % de las retribuciones complementarias del primer mes de licencia"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 21.1.b) fija como segunda cantidad «2.ª El 75 por ciento de las retribuciones complementarias devengadas en el tercer mes de licencia».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-014",
+      "ley": "rdleg-4-2000",
+      "articulo": "22.1",
+      "enunciado": "Las situaciones de riesgo durante el embarazo o la lactancia natural tienen la misma consideración que la incapacidad temporal derivada de:",
+      "opciones": [
+        "Enfermedad común",
+        "Accidente no laboral",
+        "Accidente en acto de servicio",
+        "Enfermedad profesional"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 22.1 dice que estas situaciones «tendrán la misma consideración que la situación de incapacidad temporal derivada de enfermedad profesional, por lo que no requerirán de periodo de carencia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-015",
+      "ley": "rdleg-4-2000",
+      "articulo": "23.2.d",
+      "enunciado": "El funcionario con incapacidad permanente absoluta que necesita la asistencia de otra persona para los actos más elementales de la vida está en situación de:",
+      "opciones": [
+        "Incapacidad permanente total",
+        "Gran invalidez",
+        "Incapacidad permanente parcial",
+        "Incapacidad temporal prorrogada"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 23.2.d) define la «Gran invalidez: es la situación del funcionario afecto de incapacidad permanente absoluta que, como consecuencia de pérdidas anatómicas o funcionales, necesita de la asistencia de otra persona».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-016",
+      "ley": "rdleg-4-2000",
+      "articulo": "26",
+      "enunciado": "La gran invalidez da derecho a una cantidad mensual, para remunerar a la persona que asiste al funcionario, equivalente al:",
+      "opciones": [
+        "25 % de su pensión de jubilación de Clases Pasivas",
+        "50 % de su haber regulador",
+        "50 % de su pensión de jubilación de Clases Pasivas",
+        "100 % de su pensión de jubilación de Clases Pasivas"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 26 reconoce «una cantidad mensual equivalente al 50 por 100 de la pensión de jubilación que le corresponda con arreglo al Régimen de Clases Pasivas, destinada a remunerar a la persona encargada de su asistencia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-017",
+      "ley": "rdleg-4-2000",
+      "articulo": "35.2",
+      "enunciado": "La cuantía de las aportaciones del Estado a MUFACE se fija:",
+      "opciones": [
+        "Anualmente en la Ley de Presupuestos Generales del Estado",
+        "Por acuerdo del Consejo de Ministros cada tres años",
+        "Por acuerdo del Consejo General de MUFACE",
+        "Por real decreto con vigencia indefinida"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 35.2 dice: «La cuantía de las aportaciones estatales se fijará anualmente en la Ley de Presupuestos Generales del Estado, mediante el establecimiento de un porcentaje aplicable sobre los haberes reguladores».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-018",
+      "ley": "rdleg-4-2000",
+      "articulo": "37.1",
+      "enunciado": "Con carácter general, los actos y resoluciones del Director general de MUFACE:",
+      "opciones": [
+        "Ponen fin a la vía administrativa y cabe reposición potestativa",
+        "Solo pueden recurrirse ante la jurisdicción social",
+        "Se recurren en alzada ante el Consejo General de MUFACE",
+        "No ponen fin a la vía administrativa y cabe recurso de alzada"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 37.1 dice que esos actos «no ponen fin a la vía administrativa, pudiéndose recurrir en alzada ante el Ministro».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-019",
+      "ley": "rdleg-670-1987",
+      "articulo": "1.1",
+      "enunciado": "A través del Régimen de Clases Pasivas, el Estado protege a su personal frente a los riesgos de:",
+      "opciones": [
+        "Enfermedad, maternidad y desempleo",
+        "Vejez, desempleo e incapacidad temporal",
+        "Vejez, incapacidad y muerte y supervivencia",
+        "Asistencia sanitaria, incapacidad y cargas familiares"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 1.1 dice que el Estado garantiza a ese personal «la protección frente a los riesgos de vejez, incapacidad y muerte y supervivencia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-26",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-020",
+      "ley": "rdleg-670-1987",
+      "articulo": "2.2",
+      "enunciado": "El ámbito personal de cobertura del Régimen de Clases Pasivas solo podrá ampliarse o restringirse:",
+      "opciones": [
+        "Por real decreto",
+        "Por ley",
+        "Por acuerdo del Consejo de Ministros",
+        "Por orden ministerial"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 2.2 dice: «Este ámbito personal de cobertura del Régimen de Clases sólo podrá ser ampliado o restringido por Ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-26",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-021",
+      "ley": "rdleg-670-1987",
+      "articulo": "18.2",
+      "enunciado": "Las prestaciones de Clases Pasivas se concretan en pensiones de jubilación o retiro, de viudedad, de orfandad y:",
+      "opciones": [
+        "En favor de los hermanos",
+        "En favor de los nietos",
+        "Por incapacidad temporal",
+        "En favor de los padres"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 18.2 dice que se concretan «en las pensiones de jubilación o retiro, de viudedad, de orfandad y en favor de los padres que se regulan en este texto».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-26",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-022",
+      "ley": "rdleg-670-1987",
+      "articulo": "19.1",
+      "enunciado": "Una pensión de Clases Pasivas es extraordinaria cuando su hecho causante se produce:",
+      "opciones": [
+        "Por lesión, muerte o desaparición en acto de servicio o como consecuencia de él",
+        "En virtud de una ley a favor de una persona determinada",
+        "Antes de completar el período de carencia exigido",
+        "Tras una jubilación voluntaria anticipada por ley"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 19.1 las califica de extraordinarias cuando el hecho causante se produce «por razón de lesión, muerte o desaparición producida en acto de servicio o como consecuencia del mismo». Las reconocidas por ley a persona determinada son excepcionales (art. 19.2).",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-26",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-023",
+      "ley": "rdleg-670-1987",
+      "articulo": "28.2.b",
+      "enunciado": "La jubilación voluntaria se declara a instancia de parte siempre que el interesado tenga cumplidos:",
+      "opciones": [
+        "60 años de edad y 30 años de servicios efectivos al Estado",
+        "65 años de edad y 15 años de servicios efectivos al Estado",
+        "60 años de edad y 15 años de servicios efectivos al Estado",
+        "61 años de edad y 35 años de servicios efectivos al Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 28.2.b) exige que el interesado «tenga cumplidos los sesenta años de edad y reconocidos treinta años de servicios efectivos al Estado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-26",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-024",
+      "ley": "rdleg-670-1987",
+      "articulo": "29",
+      "enunciado": "Para causar derecho a pensión ordinaria de jubilación, el funcionario debe haber completado un período de servicios efectivos al Estado de:",
+      "opciones": [
+        "Diez años",
+        "Quince años",
+        "Veinte años",
+        "Treinta y cinco años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 29 exige «haber completado quince años de servicios efectivos al Estado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-26",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-025",
+      "ley": "rdleg-670-1987",
+      "articulo": "28.2.a",
+      "enunciado": "Al cumplir la edad de jubilación forzosa, puede pedir prórroga en el servicio activo el funcionario que tenga reconocidos:",
+      "opciones": [
+        "Diez años de servicios y no haya completado quince",
+        "Quince años de servicios y no haya completado treinta",
+        "Doce años de servicios y no haya completado quince",
+        "Doce años de servicios y no haya completado veinte"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 28.2.a), si al cumplir la edad «tuviera reconocidos doce años de servicios efectivos al Estado y no hubiera completado los quince […] podrá solicitar prorroga en el servicio activo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-26",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-026",
+      "ley": "rdleg-670-1987",
+      "articulo": "28.2.c",
+      "enunciado": "La jubilación por incapacidad permanente para el servicio se declara:",
+      "opciones": [
+        "Solo a instancia del interesado",
+        "Solo de oficio, a propuesta de MUFACE",
+        "De forma automática al cumplir la edad legal",
+        "De oficio o a instancia de parte"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 28.2.c) dice que la jubilación por incapacidad permanente para el servicio o inutilidad «se declarará de oficio o a instancia de parte».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-26",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-027",
+      "ley": "rdleg-670-1987",
+      "articulo": "30.1",
+      "enunciado": "Los haberes reguladores para calcular las pensiones de jubilación de Clases Pasivas se establecen:",
+      "opciones": [
+        "En el propio texto refundido, con carácter permanente",
+        "Por real decreto cada cinco años",
+        "En la Ley de Presupuestos Generales del Estado de cada ejercicio",
+        "Por resolución anual de MUFACE"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 30.1 dice que los haberes reguladores «se establecerán en la Ley de Presupuestos Generales del Estado para cada ejercicio económico».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-26",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-028",
+      "ley": "rdleg-670-1987",
+      "articulo": "38.1",
+      "enunciado": "Si la muerte deriva de enfermedad común no sobrevenida tras el matrimonio, la viudedad exige, en general, que este se celebrara con una antelación mínima de:",
+      "opciones": [
+        "Un año",
+        "Seis meses",
+        "Dos años",
+        "Cinco años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 38.1 requiere «que el matrimonio se hubiera celebrado con un año de antelación como mínimo a la fecha del fallecimiento», salvo hijos comunes o convivencia previa que sume más de dos años.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-26",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-029",
+      "ley": "rdleg-670-1987",
+      "articulo": "41.1",
+      "enunciado": "Con carácter general, tienen derecho a pensión de orfandad los hijos del causante menores de:",
+      "opciones": [
+        "Dieciocho años",
+        "Dieciséis años",
+        "Veinte años",
+        "Veintiún años"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 41.1 reconoce la pensión a «los hijos del causante de los derechos pasivos que fueran menores de veintiún años», y a los incapacitados para todo trabajo antes de esa edad.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-26",
+      "estado": "validada",
+      "temas": {
+        "aux-age": 14,
+        "admin-age": 29
+      }
+    },
+    {
+      "id": "muf-030",
+      "ley": "rdleg-670-1987",
+      "articulo": "25.1",
+      "enunciado": "Es incompatible percibir a la vez más de ___ pensiones ordinarias de Clases Pasivas causadas por diferente persona:",
+      "opciones": [
+        "Dos",
+        "Tres",
+        "Cuatro",
+        "Cinco"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 25.1 dice: «Es incompatible la percepción simultánea de más de tres pensiones ordinarias de Clases Pasivas de jubilación, viudedad, orfandad o en favor de los padres causadas por diferente persona».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-26",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 29
+      }
+    }
+  ]
+}

@@ -33,12 +33,19 @@ export const usuarioActual = cache(async () => {
   return { supabase, user, suscrito: !!suscrito, suscripcion };
 });
 
-export const oposicionActual = cache(async () => {
+/** Oposición que prepara la persona (perfil_estudio.oposicion). */
+export const slugOposicion = cache(async (): Promise<string> => {
   const supabase = await clienteSesion();
+  const { data } = await supabase.from("perfil_estudio").select("oposicion").maybeSingle();
+  return data?.oposicion ?? OPOSICION;
+});
+
+export const oposicionActual = cache(async () => {
+  const [supabase, slug] = await Promise.all([clienteSesion(), slugOposicion()]);
   const { data, error } = await supabase
     .from("oposiciones")
     .select("id, slug, nombre, formato_simulacro, temas(id, numero, titulo, bloque)")
-    .eq("slug", OPOSICION)
+    .eq("slug", slug)
     .order("numero", { referencedTable: "temas" })
     .single();
   if (error) throw new Error(`No se pudo cargar la oposición: ${error.message}`);
@@ -46,14 +53,19 @@ export const oposicionActual = cache(async () => {
     id: string;
     slug: string;
     nombre: string;
-    formato_simulacro: { minutos: number; penalizacion: number; partes: { bloque: string; preguntas: number }[]; nota?: string };
+    formato_simulacro: {
+      minutos: number;
+      penalizacion: number;
+      partes: { bloque: string; preguntas: number; parte?: number }[];
+      nota?: string;
+    };
     temas: { id: string; numero: number; titulo: string; bloque: string }[];
   };
 });
 
 export async function progresoPorTema() {
   const supabase = await clienteSesion();
-  const { data, error } = await supabase.rpc("progreso_por_tema", { p_oposicion: OPOSICION });
+  const { data, error } = await supabase.rpc("progreso_por_tema", { p_oposicion: null });
   if (error) throw new Error(error.message);
   return data as {
     tema_id: string;

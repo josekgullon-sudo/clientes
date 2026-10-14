@@ -41,8 +41,12 @@ export default function Inicio() {
       a: "Las escribimos a partir del texto consolidado del BOE y cada una cita su artículo. Si una reforma cambia la ley, actualizamos la pregunta.",
     },
     {
+      q: "¿Qué oposiciones puedo preparar?",
+      a: "Auxiliar Administrativo del Estado (C2) y Administrativo del Estado (C1), con el temario de la última convocatoria. Eliges una al empezar y puedes cambiarla cuando quieras. La suscripción sirve para las dos.",
+    },
+    {
       q: "¿Está todo el temario?",
-      a: "Todavía no. Hay preguntas en la mayoría de temas jurídicos del bloque I. El bloque II (ofimática y actividad administrativa) está en preparación.",
+      a: "Sí. Todos los temas de las dos oposiciones tienen preguntas, también la ofimática con Windows 11 y Microsoft 365. Seguimos añadiendo más cada semana.",
     },
     {
       q: "¿La fecha del examen es oficial?",
@@ -86,7 +90,7 @@ export default function Inicio() {
             <div className="aparecer">
               <p className="inline-flex items-center gap-2 rounded-full border border-filete bg-superficie px-3 py-1 text-sm font-semibold text-pizarra shadow-tarjeta">
                 <span className="size-2 rounded-full bg-pino" aria-hidden="true" />
-                Auxiliar Administrativo del Estado
+                Auxiliar y Administrativo del Estado
               </p>
               <h1 className="mt-5 font-display text-[2.375rem] leading-[1.08] font-extrabold tracking-tight md:text-[3.75rem]">
                 Test que te explican <span className="subrayado subrayado-titular">cada respuesta</span>.

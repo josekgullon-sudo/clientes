@@ -1,0 +1,605 @@
+{
+  "descripcion": "Ley 38/2003, General de Subvenciones. Lote generado el 2026-10-14; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-10-14).",
+  "preguntas": [
+    {
+      "id": "lgs-001",
+      "ley": "ley-38-2003",
+      "articulo": "2.1.a",
+      "enunciado": "Para que una disposición dineraria sea subvención, la entrega debe realizarse:",
+      "opciones": [
+        "Sin contraprestación directa de los beneficiarios",
+        "Con una contraprestación equivalente del beneficiario",
+        "Siempre en régimen de concurrencia competitiva",
+        "Solo a favor de personas jurídicas privadas"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 2.1.a) exige «Que la entrega se realice sin contraprestación directa de los beneficiarios».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 20
+      }
+    },
+    {
+      "id": "lgs-002",
+      "ley": "ley-38-2003",
+      "articulo": "2.4.g",
+      "enunciado": "Según el artículo 2.4 de la Ley General de Subvenciones, no tienen carácter de subvención:",
+      "opciones": [
+        "Las subvenciones nominativas de los Presupuestos Generales del Estado",
+        "Las ayudas otorgadas en régimen de concurrencia competitiva",
+        "Los beneficios fiscales y en la cotización a la Seguridad Social",
+        "Las entregas sin contraprestación para fomentar el interés social"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 2.4 dice que «No tienen carácter de subvenciones los siguientes supuestos» e incluye en la letra g) «Los beneficios fiscales y beneficios en la cotización a la Seguridad Social».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 20
+      }
+    },
+    {
+      "id": "lgs-003",
+      "ley": "ley-38-2003",
+      "articulo": "3.2",
+      "enunciado": "Los organismos de derecho público vinculados a una Administración ajustan sus subvenciones a la Ley 38/2003:",
+      "opciones": [
+        "Solo cuando se financien con fondos de la Unión Europea",
+        "En la medida en que sean consecuencia del ejercicio de potestades administrativas",
+        "Únicamente si su cuantía supera los 12 millones de euros",
+        "Solo cuando se concedan de forma directa"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 3.2 dispone que se ajustarán a esta ley «en la medida en que las subvenciones que otorguen sean consecuencia del ejercicio de potestades administrativas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-004",
+      "ley": "ley-38-2003",
+      "articulo": "8.1",
+      "enunciado": "Antes de establecer subvenciones, los órganos que las propongan deben concretar sus objetivos y efectos en:",
+      "opciones": [
+        "El plan anual normativo",
+        "Una memoria de impacto económico",
+        "Un informe de la Intervención General",
+        "Un plan estratégico de subvenciones"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 8.1 obliga a que, «con carácter previo, deberán concretar en un plan estratégico de subvenciones los objetivos y efectos que se pretenden con su aplicación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 20
+      }
+    },
+    {
+      "id": "lgs-005",
+      "ley": "ley-38-2003",
+      "articulo": "8.3.c",
+      "enunciado": "Entre los principios de gestión de las subvenciones, la eficiencia se refiere a:",
+      "opciones": [
+        "La asignación y utilización de los recursos públicos",
+        "El cumplimiento de los objetivos fijados por la Administración otorgante",
+        "La comparación de las solicitudes presentadas",
+        "La corrección de fallos del mercado claramente identificados"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 8.3 recoge en la letra c) la «Eficiencia en la asignación y utilización de los recursos públicos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 20
+      }
+    },
+    {
+      "id": "lgs-006",
+      "ley": "ley-38-2003",
+      "articulo": "9.4",
+      "enunciado": "¿Cuál de los siguientes NO figura entre los requisitos para el otorgamiento de una subvención del artículo 9.4?",
+      "opciones": [
+        "La competencia del órgano administrativo concedente",
+        "La fiscalización previa de los actos de contenido económico",
+        "La aprobación del gasto por el órgano competente",
+        "La autorización previa del Consejo de Ministros en todo caso"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 9.4 exige «La competencia del órgano administrativo concedente», «La fiscalización previa de los actos administrativos de contenido económico» y «La aprobación del gasto por el órgano competente para ello». No menciona la autorización del Consejo de Ministros.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-007",
+      "ley": "ley-38-2003",
+      "articulo": "10.1",
+      "enunciado": "En la Administración General del Estado, son órganos competentes para conceder subvenciones:",
+      "opciones": [
+        "Solo el Consejo de Ministros",
+        "Los Ministros y los Secretarios de Estado",
+        "Los Subsecretarios y los Directores generales",
+        "Los Delegados del Gobierno"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 10.1 establece que «Los Ministros y los Secretarios de Estado en la Administración General del Estado» son «los órganos competentes para conceder subvenciones».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-008",
+      "ley": "ley-38-2003",
+      "articulo": "10.2",
+      "enunciado": "Requiere la previa autorización del Consejo de Ministros la concesión de subvenciones de cuantía superior a:",
+      "opciones": [
+        "6 millones de euros",
+        "30 millones de euros",
+        "12 millones de euros",
+        "3 millones de euros"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 10.2 dice que «la concesión de subvenciones de cuantía superior a 12 millones de euros requerirá la previa autorización del Consejo de Ministros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-009",
+      "ley": "ley-38-2003",
+      "articulo": "11.3",
+      "enunciado": "Una agrupación sin personalidad jurídica que sea beneficiaria de una subvención no podrá disolverse hasta que:",
+      "opciones": [
+        "Se haya aprobado la justificación de la subvención",
+        "Se haya realizado el pago total de la subvención",
+        "Haya transcurrido el plazo de prescripción de los artículos 39 y 65",
+        "Haya transcurrido un año desde la concesión"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 11.3 dispone: «No podrá disolverse la agrupación hasta que haya transcurrido el plazo de prescripción previsto en los artículos 39 y 65 de esta ley».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-010",
+      "ley": "ley-38-2003",
+      "articulo": "12.1",
+      "enunciado": "Los fondos públicos que recibe una entidad colaboradora para entregarlos a los beneficiarios:",
+      "opciones": [
+        "En ningún caso se consideran integrantes de su patrimonio",
+        "Se integran en su patrimonio hasta que los entregue",
+        "Se integran en su patrimonio si lo prevén las bases",
+        "Se consideran ingresos propios de la entidad"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 12.1, sobre los fondos que entrega y distribuye la entidad colaboradora, dice: «Estos fondos, en ningún caso, se considerarán integrantes de su patrimonio».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-011",
+      "ley": "ley-38-2003",
+      "articulo": "13.2.f",
+      "enunciado": "Impide obtener la condición de beneficiario de una subvención:",
+      "opciones": [
+        "Haber obtenido otra subvención el año anterior",
+        "Ser una persona jurídica sin ánimo de lucro",
+        "Aportar fondos propios a la actividad",
+        "Tener la residencia fiscal en un paraíso fiscal"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 13.2.f), no puede ser beneficiario quien incurra en «Tener la residencia fiscal en un país o territorio calificado reglamentariamente como paraíso fiscal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-012",
+      "ley": "ley-38-2003",
+      "articulo": "14.1.d",
+      "enunciado": "El beneficiario debe comunicar la obtención de otras subvenciones que financien la actividad subvencionada:",
+      "opciones": [
+        "En el plazo de un mes desde que las obtenga",
+        "Tan pronto como lo conozca y, en todo caso, antes de justificar los fondos",
+        "Junto con la solicitud de pago de la subvención",
+        "Solo si superan el coste de la actividad subvencionada"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 14.1.d) dice que «Esta comunicación deberá efectuarse tan pronto como se conozca y, en todo caso, con anterioridad a la justificación de la aplicación dada a los fondos percibidos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-013",
+      "ley": "ley-38-2003",
+      "articulo": "17.1",
+      "enunciado": "En la Administración General del Estado, las bases reguladoras de la concesión de subvenciones se aprueban por:",
+      "opciones": [
+        "Real decreto",
+        "Resolución del órgano concedente",
+        "Orden ministerial",
+        "Acuerdo del Consejo de Ministros"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 17.1 dispone: «Las citadas bases se aprobarán por orden ministerial».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-014",
+      "ley": "ley-38-2003",
+      "articulo": "17.2",
+      "enunciado": "Las bases reguladoras de las subvenciones de las corporaciones locales se aprueban en el marco de las bases de ejecución del presupuesto mediante:",
+      "opciones": [
+        "Una ordenanza general de subvenciones o una ordenanza específica",
+        "Un decreto de la Alcaldía para cada convocatoria",
+        "Un reglamento orgánico aprobado por el Pleno",
+        "Un convenio con la comunidad autónoma"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 17.2 prevé su aprobación «a través de una ordenanza general de subvenciones o mediante una ordenanza específica para las distintas modalidades de subvenciones».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-015",
+      "ley": "ley-38-2003",
+      "articulo": "19.3",
+      "enunciado": "El importe de una subvención, aisladamente o en concurrencia con otras ayudas, en ningún caso podrá:",
+      "opciones": [
+        "Superar el 50 % del coste de la actividad",
+        "Superar el coste de la actividad subvencionada",
+        "Superar el 80 % del coste de la actividad",
+        "Ser inferior a la financiación propia aportada"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 19.3 dice que el importe de las subvenciones en ningún caso podrá ser de tal cuantía que, «aisladamente o en concurrencia con otras subvenciones, ayudas, ingresos o recursos, supere el coste de la actividad subvencionada».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-016",
+      "ley": "ley-38-2003",
+      "articulo": "20.3",
+      "enunciado": "El órgano responsable de la administración y custodia de la Base de Datos Nacional de Subvenciones es:",
+      "opciones": [
+        "El Tribunal de Cuentas",
+        "La Agencia Estatal de Administración Tributaria",
+        "La Comisión Nacional de los Mercados y la Competencia",
+        "La Intervención General de la Administración del Estado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 20.3 establece: «La Intervención General de la Administración del Estado es el órgano responsable de la administración y custodia de la BDNS».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-017",
+      "ley": "ley-38-2003",
+      "articulo": "22.1",
+      "enunciado": "El procedimiento ordinario de concesión de subvenciones se tramita:",
+      "opciones": [
+        "Mediante concesión directa",
+        "Por prorrateo entre todos los solicitantes",
+        "En régimen de concurrencia competitiva",
+        "Por orden de presentación de las solicitudes"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 22.1 dispone: «El procedimiento ordinario de concesión de subvenciones se tramitará en régimen de concurrencia competitiva».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-018",
+      "ley": "ley-38-2003",
+      "articulo": "22.2.a",
+      "enunciado": "Una subvención está prevista nominativamente en los Presupuestos Generales del Estado cuando en los estados de gasto aparecen determinados, al menos:",
+      "opciones": [
+        "Su dotación presupuestaria y su beneficiario",
+        "Su objeto y su plazo de justificación",
+        "Su beneficiario y sus bases reguladoras",
+        "Su dotación presupuestaria y su objeto"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 22.2.a) la define como «aquella en que al menos su dotación presupuestaria y beneficiario aparezcan determinados en los estados de gasto del Presupuesto».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-019",
+      "ley": "ley-38-2003",
+      "articulo": "28.1",
+      "enunciado": "El instrumento habitual para canalizar las subvenciones nominativas de los Presupuestos Generales del Estado es:",
+      "opciones": [
+        "La convocatoria pública",
+        "La orden de bases reguladoras",
+        "El contrato de servicios",
+        "El convenio"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 28.1 dice: «Los convenios serán el instrumento habitual para canalizar las subvenciones previstas nominativamente en los Presupuestos Generales del Estado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-020",
+      "ley": "ley-38-2003",
+      "articulo": "28.2",
+      "enunciado": "Las normas especiales reguladoras de las subvenciones directas por razones de interés público del artículo 22.2.c) las aprueba el Gobierno por:",
+      "opciones": [
+        "Orden ministerial",
+        "Real decreto",
+        "Ley ordinaria",
+        "Acuerdo de la Comisión Delegada para Asuntos Económicos"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 28.2 dispone: «El Gobierno aprobará por real decreto, a propuesta del ministro competente» las normas especiales reguladoras de las subvenciones del «párrafo c) del apartado 2 del artículo 22».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-021",
+      "ley": "ley-38-2003",
+      "articulo": "30.2",
+      "enunciado": "Si las bases no dicen nada, la cuenta justificativa se presenta como máximo en el plazo de … desde que finaliza el plazo para realizar la actividad:",
+      "opciones": [
+        "Un mes",
+        "Seis meses",
+        "Tres meses",
+        "Dos meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 30.2 indica que, a falta de previsión de las bases, la presentación se realizará «como máximo, en el plazo de tres meses desde la finalización del plazo para la realización de la actividad».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-022",
+      "ley": "ley-38-2003",
+      "articulo": "31.3",
+      "enunciado": "Si el gasto subvencionable supera la cuantía del contrato menor, el beneficiario debe solicitar, como mínimo:",
+      "opciones": [
+        "Tres ofertas de diferentes proveedores",
+        "Dos ofertas de diferentes proveedores",
+        "Cinco ofertas de diferentes proveedores",
+        "Una oferta y un informe de tasador"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 31.3 establece que «el beneficiario deberá solicitar como mínimo tres ofertas de diferentes proveedores, con carácter previo a la contracción del compromiso».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-023",
+      "ley": "ley-38-2003",
+      "articulo": "31.4.a",
+      "enunciado": "En bienes inscribibles en un registro público, el periodo de destino al fin de la subvención no puede ser inferior a:",
+      "opciones": [
+        "Dos años",
+        "Cinco años",
+        "Cuatro años",
+        "Diez años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 31.4.a) fija un período que «no podrá ser inferior a cinco años en caso de bienes inscribibles en un registro público, ni a dos años para el resto de bienes».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-024",
+      "ley": "ley-38-2003",
+      "articulo": "34.2",
+      "enunciado": "La resolución de concesión de la subvención conlleva:",
+      "opciones": [
+        "La aprobación del gasto",
+        "El reconocimiento de la obligación",
+        "La ordenación del pago",
+        "El compromiso del gasto correspondiente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 34.2 dice: «La resolución de concesión de la subvención conllevará el compromiso del gasto correspondiente». La aprobación del gasto es previa (artículo 34.1).",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-025",
+      "ley": "ley-38-2003",
+      "articulo": "36.1.b",
+      "enunciado": "Es causa de nulidad de la resolución de concesión de una subvención:",
+      "opciones": [
+        "La justificación insuficiente de la subvención",
+        "El incumplimiento de las medidas de difusión",
+        "La carencia o insuficiencia de crédito",
+        "La presentación de la cuenta justificativa fuera de plazo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 36.1 señala como causa de nulidad, en la letra b), «La carencia o insuficiencia de crédito».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-026",
+      "ley": "ley-38-2003",
+      "articulo": "37.1",
+      "enunciado": "Cuando procede el reintegro, el interés de demora se exige desde:",
+      "opciones": [
+        "El momento del pago de la subvención",
+        "La fecha de la resolución de concesión",
+        "El vencimiento del plazo de justificación",
+        "El inicio del procedimiento de reintegro"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 37.1 prevé el reintegro y «la exigencia del interés de demora correspondiente desde el momento del pago de la subvención hasta la fecha en que se acuerde la procedencia del reintegro».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-027",
+      "ley": "ley-38-2003",
+      "articulo": "39.1",
+      "enunciado": "El derecho de la Administración a reconocer o liquidar el reintegro de una subvención prescribe a los:",
+      "opciones": [
+        "Cinco años",
+        "Tres años",
+        "Diez años",
+        "Cuatro años"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 39.1 dispone: «Prescribirá a los cuatro años el derecho de la Administración a reconocer o liquidar el reintegro».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-028",
+      "ley": "ley-38-2003",
+      "articulo": "52",
+      "enunciado": "Las infracciones administrativas en materia de subvenciones son sancionables:",
+      "opciones": [
+        "Solo cuando exista dolo",
+        "Incluso a título de simple negligencia",
+        "Solo si hay reincidencia",
+        "Solo si causan un perjuicio económico acreditado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 52 dice que las infracciones en materia de subvenciones «serán sancionables incluso a título de simple negligencia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-029",
+      "ley": "ley-38-2003",
+      "articulo": "56.a",
+      "enunciado": "La presentación fuera de plazo de las cuentas justificativas constituye una infracción:",
+      "opciones": [
+        "Grave",
+        "Muy grave",
+        "Leve",
+        "Grave o muy grave, según la cuantía"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 56 considera infracción leve «La presentación fuera de plazo de las cuentas justificativas de la aplicación dada a los fondos percibidos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    },
+    {
+      "id": "lgs-030",
+      "ley": "ley-38-2003",
+      "articulo": "59.2",
+      "enunciado": "En materia de subvenciones, la multa fija está comprendida entre:",
+      "opciones": [
+        "150 y 6.000 euros",
+        "75 y 6.000 euros",
+        "75 y 3.000 euros",
+        "300 y 30.000 euros"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 59.2 establece: «La multa fija estará comprendida entre 75 y 6.000 euros».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-14",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 37
+      }
+    }
+  ]
+}

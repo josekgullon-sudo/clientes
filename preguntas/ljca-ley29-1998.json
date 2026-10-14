@@ -1,0 +1,605 @@
+{
+  "descripcion": "Ley 29/1998 (LJCA). Recurso contencioso-administrativo, actividad impugnable y partes (tema 18 admin-age). Lote generado el 2026-10-14; texto consolidado del BOE (versión 2026-03-05).",
+  "preguntas": [
+    {
+      "id": "ljca-001",
+      "ley": "ley-29-1998",
+      "articulo": "1.1",
+      "enunciado": "Los Juzgados y Tribunales contencioso-administrativos conocen de las pretensiones relativas a los Decretos legislativos:",
+      "opciones": [
+        "Cuando excedan los límites de la delegación",
+        "En todo caso, por tener rango de ley",
+        "Solo cuando lo solicite el Congreso de los Diputados",
+        "Cuando vulneren derechos fundamentales"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 1.1 incluye las pretensiones que se deduzcan «con los Decretos legislativos cuando excedan los límites de la delegación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-002",
+      "ley": "ley-29-1998",
+      "articulo": "1.2.d",
+      "enunciado": "A efectos de la LJCA, se entienden por Administraciones públicas, entre otras:",
+      "opciones": [
+        "Las sociedades mercantiles de capital público",
+        "Las fundaciones del sector público",
+        "Las Entidades de Derecho público vinculadas a las Comunidades Autónomas",
+        "Las asociaciones declaradas de utilidad pública"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 1.2.d) incluye «Las Entidades de Derecho público que sean dependientes o estén vinculadas al Estado, las Comunidades Autónomas o las Entidades locales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-003",
+      "ley": "ley-29-1998",
+      "articulo": "2.a",
+      "enunciado": "Respecto de los actos del Gobierno, cualquiera que sea su naturaleza, el orden contencioso-administrativo conoce:",
+      "opciones": [
+        "Solo de los elementos reglados y de la competencia del órgano que dictó el acto",
+        "Solo de las indemnizaciones que procedan por los daños derivados de su ejecución",
+        "De su oportunidad política, de sus elementos reglados y de las indemnizaciones",
+        "De la tutela de los derechos fundamentales, los elementos reglados y las indemnizaciones"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 2.a) atribuye «La protección jurisdiccional de los derechos fundamentales, los elementos reglados y la determinación de las indemnizaciones que fueran procedentes, todo ello en relación con los actos del Gobierno».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-004",
+      "ley": "ley-29-1998",
+      "articulo": "2.e",
+      "enunciado": "Por responsabilidad patrimonial, las Administraciones públicas no pueden ser demandadas ante los órdenes jurisdiccionales:",
+      "opciones": [
+        "Penal o social",
+        "Civil o social",
+        "Civil o militar",
+        "Penal o civil"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 2.e) dispone que las Administraciones no pueden «ser demandadas aquellas por este motivo ante los órdenes jurisdiccionales civil o social, aun cuando en la producción del daño concurran con particulares o cuenten con un seguro de responsabilidad».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-005",
+      "ley": "ley-29-1998",
+      "articulo": "3.b",
+      "enunciado": "No corresponde al orden jurisdiccional contencioso-administrativo:",
+      "opciones": [
+        "Los contratos administrativos",
+        "La responsabilidad patrimonial de las Administraciones públicas",
+        "El recurso contencioso-disciplinario militar",
+        "Los actos de las Corporaciones de Derecho público en ejercicio de funciones públicas"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 3, «No corresponden al orden jurisdiccional contencioso-administrativo» […] «El recurso contencioso-disciplinario militar».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-006",
+      "ley": "ley-29-1998",
+      "articulo": "21.4",
+      "enunciado": "Si el demandante funda sus pretensiones en la ilegalidad de una disposición general, se considera también parte demandada:",
+      "opciones": [
+        "A la Administración autora de la disposición, aunque no proceda de ella la actuación recurrida",
+        "Al Ministerio Fiscal, en defensa de la legalidad de la disposición",
+        "Solo a la Administración autora de la actuación recurrida",
+        "Al Consejo de Estado, si informó el proyecto de disposición"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 21.4 dice que, en ese caso, «se considerará también parte demandada a la Administración autora de la misma, aunque no proceda de ella la actuación recurrida».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-007",
+      "ley": "ley-29-1998",
+      "articulo": "11.1.a",
+      "enunciado": "Los recursos contra las disposiciones generales de los Ministros y Secretarios de Estado corresponden, en única instancia, a:",
+      "opciones": [
+        "La Sala de lo Contencioso-administrativo del Tribunal Supremo",
+        "Los Juzgados Centrales de lo Contencioso-administrativo",
+        "La Sala de lo Contencioso-administrativo del TSJ de Madrid",
+        "La Sala de lo Contencioso-administrativo de la Audiencia Nacional"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 11.1, «La Sala de lo Contencioso-administrativo de la Audiencia Nacional conocerá en única instancia» de los recursos «en relación con las disposiciones generales y los actos de los Ministros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-008",
+      "ley": "ley-29-1998",
+      "articulo": "13.c",
+      "enunciado": "Salvo disposición expresa en contrario, al aplicar las reglas de distribución de competencia entre órganos jurisdiccionales:",
+      "opciones": [
+        "Prevalece la atribución por razón del órgano autor del acto",
+        "Prevalece la atribución por razón de la materia",
+        "Prevalece el domicilio del demandante",
+        "Prevalece la cuantía del asunto"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 13.c) establece que «la atribución de competencia por razón de la materia prevalece sobre la efectuada en razón del órgano administrativo autor del acto».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-009",
+      "ley": "ley-29-1998",
+      "articulo": "18",
+      "enunciado": "Los menores de edad tienen capacidad procesal ante el orden contencioso-administrativo:",
+      "opciones": [
+        "Para defender los derechos cuya actuación les permita el ordenamiento sin asistencia de quien ejerza la patria potestad o tutela",
+        "En ningún caso, pues deben actuar siempre por medio de sus representantes legales",
+        "Solo a partir de los dieciséis años y con autorización de sus padres",
+        "Solo en los procesos sobre responsabilidad patrimonial"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 18 reconoce capacidad a «los menores de edad para la defensa de aquellos de sus derechos e intereses legítimos cuya actuación les esté permitida por el ordenamiento jurídico sin necesidad de asistencia de la persona que ejerza la patria potestad, tutela o curatela».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-010",
+      "ley": "ley-29-1998",
+      "articulo": "19.1.a",
+      "enunciado": "Están legitimados ante el orden contencioso-administrativo las personas físicas o jurídicas que ostenten:",
+      "opciones": [
+        "Un derecho subjetivo, exclusivamente",
+        "Un interés directo y personal",
+        "La condición de interesado en el procedimiento",
+        "Un derecho o interés legítimo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 19.1.a) legitima a «Las personas físicas o jurídicas que ostenten un derecho o interés legítimo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-011",
+      "ley": "ley-29-1998",
+      "articulo": "19.1.h",
+      "enunciado": "Cualquier ciudadano puede ejercer la acción popular ante el orden contencioso-administrativo:",
+      "opciones": [
+        "Siempre que acredite un interés legítimo",
+        "En cualquier materia, sin limitación",
+        "En los casos expresamente previstos por las Leyes",
+        "Solo cuando lo autorice el Ministerio Fiscal"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 19.1.h) legitima a «Cualquier ciudadano, en ejercicio de la acción popular, en los casos expresamente previstos por las Leyes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-012",
+      "ley": "ley-29-1998",
+      "articulo": "19.2",
+      "enunciado": "La Administración autora de un acto puede impugnarlo ante el orden contencioso-administrativo:",
+      "opciones": [
+        "En ningún caso",
+        "Previa su declaración de lesividad para el interés público",
+        "Previo dictamen favorable del Consejo de Estado",
+        "Solo si el acto es nulo de pleno derecho"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 19.2 dice: «La Administración autora de un acto está legitimada para impugnarlo ante este orden jurisdiccional, previa su declaración de lesividad para el interés público en los términos establecidos por la Ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-013",
+      "ley": "ley-29-1998",
+      "articulo": "19.1.k",
+      "enunciado": "Los sindicatos pueden actuar en defensa de los derechos individuales del personal funcionario y estatutario afiliado:",
+      "opciones": [
+        "Sin necesidad de autorización del afiliado",
+        "Solo en procesos sobre separación del servicio",
+        "Solo si el afiliado forma parte de un órgano de representación",
+        "Si el afiliado lo autoriza, recayendo sobre él los efectos de la actuación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 19.1.k) legitima a los sindicatos para actuar en interés «del personal funcionario y estatutario afiliado a ellos que así lo autorice, en defensa de sus derechos individuales, recayendo sobre dichos afiliados los efectos de aquella actuación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-014",
+      "ley": "ley-29-1998",
+      "articulo": "20.a",
+      "enunciado": "Los miembros de los órganos colegiados de una Administración pueden recurrir contra la actividad de esta:",
+      "opciones": [
+        "Solo si una Ley lo autoriza expresamente",
+        "En ningún caso",
+        "Siempre que ostenten un interés legítimo",
+        "Solo previa declaración de lesividad"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 20.a) excluye a «Los órganos de la misma y los miembros de sus órganos colegiados, salvo que una Ley lo autorice expresamente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-015",
+      "ley": "ley-29-1998",
+      "articulo": "23.1",
+      "enunciado": "En sus actuaciones ante órganos unipersonales, las partes:",
+      "opciones": [
+        "Deben conferir su representación a un Procurador y ser asistidas por Abogado",
+        "Pueden comparecer por sí mismas sin Abogado ni Procurador",
+        "Podrán conferir su representación a un Procurador y serán asistidas, en todo caso, por Abogado",
+        "Deben ser representadas por Procurador, y la asistencia de Abogado es potestativa"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 23.1 dice: «En sus actuaciones ante órganos unipersonales, las partes podrán conferir su representación a un Procurador y serán asistidas, en todo caso, por Abogado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-016",
+      "ley": "ley-29-1998",
+      "articulo": "23.2",
+      "enunciado": "Ante los órganos jurisdiccionales colegiados, las partes:",
+      "opciones": [
+        "Pueden elegir entre ser representadas por Procurador o por Abogado",
+        "Deben conferir su representación a un Procurador y ser asistidas por Abogado",
+        "Solo necesitan ser asistidas por Abogado, sin necesidad de Procurador",
+        "Pueden comparecer siempre por sí mismas, sin Procurador ni Abogado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 23.2 dice: «En sus actuaciones ante órganos colegiados, las partes deberán conferir su representación a un Procurador y ser asistidas por Abogado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-017",
+      "ley": "ley-29-1998",
+      "articulo": "23.3",
+      "enunciado": "Los funcionarios públicos pueden comparecer por sí mismos en defensa de sus derechos estatutarios cuando:",
+      "opciones": [
+        "Se trate de cuestiones de personal que no impliquen separación de empleados públicos inamovibles",
+        "El asunto se tramite ante un órgano jurisdiccional colegiado",
+        "La cuantía del asunto no supere 30.050 euros",
+        "Lo autorice el órgano del que dependen"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 23.3 permite comparecer por sí mismos a los funcionarios «cuando se refieran a cuestiones de personal que no impliquen separación de empleados públicos inamovibles».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-018",
+      "ley": "ley-29-1998",
+      "articulo": "25.1",
+      "enunciado": "Los actos de trámite son impugnables ante el orden contencioso-administrativo, entre otros casos, cuando:",
+      "opciones": [
+        "Han sido dictados por un órgano colegiado de la Administración",
+        "Ya han sido notificados formalmente a todos los interesados",
+        "Contienen un error material, de hecho o aritmético apreciable",
+        "Producen indefensión o perjuicio irreparable a derechos o intereses legítimos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 25.1 admite el recurso contra actos de trámite si «deciden directa o indirectamente el fondo del asunto, determinan la imposibilidad de continuar el procedimiento, producen indefensión o perjuicio irreparable a derechos o intereses legítimos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-019",
+      "ley": "ley-29-1998",
+      "articulo": "26.2",
+      "enunciado": "La falta de impugnación directa de una disposición general:",
+      "opciones": [
+        "Impide impugnar después sus actos de aplicación",
+        "Convierte en firmes los actos dictados en su aplicación",
+        "No impide impugnar sus actos de aplicación alegando que la disposición no es conforme a Derecho",
+        "Solo permite impugnar sus actos de aplicación por vicios propios"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 26.2 dice: «La falta de impugnación directa de una disposición general o la desestimación del recurso que frente a ella se hubiera interpuesto no impiden la impugnación de los actos de aplicación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-020",
+      "ley": "ley-29-1998",
+      "articulo": "28",
+      "enunciado": "No es admisible el recurso contencioso-administrativo respecto de:",
+      "opciones": [
+        "Los actos presuntos de la Administración que pongan fin a la vía administrativa",
+        "Los actos confirmatorios de actos consentidos por no haber sido recurridos en tiempo y forma",
+        "Los actos de trámite que producen indefensión a los interesados",
+        "La inactividad de la Administración obligada a una prestación concreta"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 28 excluye «los actos que sean reproducción de otros anteriores definitivos y firmes y los confirmatorios de actos consentidos por no haber sido recurridos en tiempo y forma».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-021",
+      "ley": "ley-29-1998",
+      "articulo": "29.1",
+      "enunciado": "Si la Administración no cumple la prestación concreta a que está obligada, cabe recurrir por inactividad si no la cumple, desde la reclamación, en:",
+      "opciones": [
+        "Un mes",
+        "Seis meses",
+        "Dos meses",
+        "Tres meses"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 29.1 dice: «Si en el plazo de tres meses desde la fecha de la reclamación, la Administración no hubiera dado cumplimiento a lo solicitado», los interesados pueden recurrir.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-022",
+      "ley": "ley-29-1998",
+      "articulo": "29.2",
+      "enunciado": "Si la Administración no ejecuta sus actos firmes, los afectados pueden recurrir si la ejecución no se produce, desde su petición, en el plazo de:",
+      "opciones": [
+        "Un mes",
+        "Tres meses",
+        "Diez días",
+        "Dos meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 29.2 permite recurrir a los afectados si la ejecución «no se produce en el plazo de un mes desde tal petición».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-023",
+      "ley": "ley-29-1998",
+      "articulo": "30",
+      "enunciado": "En caso de vía de hecho, puede recurrirse directamente si el requerimiento de cesación no es atendido dentro de:",
+      "opciones": [
+        "Los cinco días siguientes a su presentación",
+        "El mes siguiente a su presentación",
+        "Los diez días siguientes a su presentación",
+        "Los veinte días siguientes a su presentación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 30 permite recurrir si la intimación «no fuere atendida dentro de los diez días siguientes a la presentación del requerimiento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-024",
+      "ley": "ley-29-1998",
+      "articulo": "46.1",
+      "enunciado": "El plazo para interponer el recurso contencioso-administrativo contra un acto expreso que pone fin a la vía administrativa es de:",
+      "opciones": [
+        "Un mes",
+        "Dos meses",
+        "Tres meses",
+        "Seis meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 46.1 dice: «El plazo para interponer el recurso contencioso-administrativo será de dos meses contados desde el día siguiente al de la publicación de la disposición impugnada o al de la notificación o publicación del acto que ponga fin a la vía administrativa, si fuera expreso».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-025",
+      "ley": "ley-29-1998",
+      "articulo": "46.1",
+      "enunciado": "Si el acto que se recurre no es expreso, el plazo para interponer el recurso contencioso-administrativo es de:",
+      "opciones": [
+        "Dos meses",
+        "Tres meses",
+        "Un año",
+        "Seis meses"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 46.1 añade, para el acto no expreso: «Si no lo fuera, el plazo será de seis meses».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-026",
+      "ley": "ley-29-1998",
+      "articulo": "46.3",
+      "enunciado": "Si no hubo requerimiento previo, el plazo para recurrir una actuación en vía de hecho es de:",
+      "opciones": [
+        "Veinte días desde que se inició la actuación",
+        "Diez días desde que se inició la actuación",
+        "Dos meses desde que se inició la actuación",
+        "Un mes desde que cesó la actuación"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 46.3 dice: «Si no hubiere requerimiento, el plazo será de veinte días desde el día en que se inició la actuación administrativa en vía de hecho».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-027",
+      "ley": "ley-29-1998",
+      "articulo": "45.3",
+      "enunciado": "Si con el escrito de interposición no se acompañan los documentos exigidos, se requerirá su subsanación en un plazo de:",
+      "opciones": [
+        "Cinco días",
+        "Quince días",
+        "Diez días",
+        "Veinte días"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 45.3 indica que se «requerirá inmediatamente la subsanación de los mismos, señalando un plazo de diez días para que el recurrente pueda llevarla a efecto».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-028",
+      "ley": "ley-29-1998",
+      "articulo": "69.e",
+      "enunciado": "La sentencia declarará la inadmisibilidad del recurso cuando:",
+      "opciones": [
+        "El acto impugnado incurra en desviación de poder",
+        "El escrito inicial se haya presentado fuera del plazo establecido",
+        "El acto impugnado sea conforme a Derecho",
+        "La Administración no haya remitido el expediente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 69.e) prevé la inadmisibilidad «Que se hubiera presentado el escrito inicial del recurso fuera del plazo establecido».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-029",
+      "ley": "ley-29-1998",
+      "articulo": "70.2",
+      "enunciado": "Según la LJCA, se entiende por desviación de poder:",
+      "opciones": [
+        "El ejercicio de potestades por un órgano manifiestamente incompetente",
+        "La omisión total del procedimiento legalmente establecido",
+        "La falta de motivación de los actos discrecionales",
+        "El ejercicio de potestades administrativas para fines distintos de los fijados por el ordenamiento"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 70.2 dice: «Se entiende por desviación de poder el ejercicio de potestades administrativas para fines distintos de los fijados por el ordenamiento jurídico».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    },
+    {
+      "id": "ljca-030",
+      "ley": "ley-29-1998",
+      "articulo": "71.2",
+      "enunciado": "Cuando la sentencia estima el recurso, los órganos jurisdiccionales:",
+      "opciones": [
+        "No pueden determinar el contenido discrecional de los actos anulados",
+        "Pueden determinar el contenido discrecional de los actos anulados",
+        "Deben redactar los preceptos que sustituyan a los anulados",
+        "Deben devolver el expediente a la Administración sin anular el acto"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 71.2 dice que los órganos jurisdiccionales «no podrán determinar la forma en que han de quedar redactados los preceptos de una disposición general en sustitución de los que anularen ni podrán determinar el contenido discrecional de los actos anulados».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 18
+      }
+    }
+  ]
+}

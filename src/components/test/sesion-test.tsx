@@ -148,8 +148,8 @@ export function SesionTest({
       const nuevas = new Set(comprobadas).add(pregunta.id);
       setComprobadas(nuevas);
       if (elegida === pregunta.correcta) {
-        sonidos.acierto();
         const c = comboHasta(indice, nuevas);
+        sonidos.acierto(c);
         if (c === 3 || c === 5 || c === 10) setAviso3(c);
       } else {
         sonidos.fallo();

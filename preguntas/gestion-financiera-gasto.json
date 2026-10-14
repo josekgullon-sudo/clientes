@@ -1,0 +1,685 @@
+{
+  "descripcion": "Gestión financiera y gasto público (temas 32, 33, 34 y 36 de Administrativo del Estado): Ley 47/2003, LO 2/1982 y RD 725/1989. Lote generado el 2026-10-14; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "gfi-001",
+      "ley": "ley-47-2003",
+      "articulo": "27.1",
+      "enunciado": "La gestión del sector público estatal está sometida al régimen de presupuesto:",
+      "opciones": [
+        "Bienal aprobado por el Gobierno",
+        "Trienal aprobado por las Cortes Generales",
+        "Anual aprobado por las Cortes Generales",
+        "Anual aprobado por el Consejo de Ministros"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 27.1 dice que la gestión del sector público estatal «está sometida al régimen de presupuesto anual aprobado por las Cortes Generales y enmarcado en los límites de un escenario plurianual».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 32
+      }
+    },
+    {
+      "id": "gfi-002",
+      "ley": "ley-47-2003",
+      "articulo": "27.4",
+      "enunciado": "Los derechos liquidados y las obligaciones reconocidas se aplicarán a los presupuestos:",
+      "opciones": [
+        "Por su importe íntegro",
+        "Por su importe neto, ya compensados",
+        "Por la diferencia entre unos y otras",
+        "Por el importe que fije cada ministerio"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 27.4 establece: «Los derechos liquidados y las obligaciones reconocidas se aplicarán a los presupuestos por su importe íntegro, sin que puedan atenderse obligaciones mediante minoración de los derechos a liquidar o ya ingresados».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 32
+      }
+    },
+    {
+      "id": "gfi-003",
+      "ley": "ley-47-2003",
+      "articulo": "28.4",
+      "enunciado": "Los escenarios presupuestarios plurianuales estarán integrados por:",
+      "opciones": [
+        "Un escenario económico y un escenario social",
+        "Un escenario estatal y un escenario autonómico",
+        "Un escenario de inversiones y uno de personal",
+        "Un escenario de ingresos y un escenario de gastos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 28.4 dice: «Los escenarios presupuestarios plurianuales estarán integrados por un escenario de ingresos y un escenario de gastos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 32
+      }
+    },
+    {
+      "id": "gfi-004",
+      "ley": "ley-47-2003",
+      "articulo": "29.3",
+      "enunciado": "El programa plurianual de cada ministerio, con los programas de sus centros gestores, se aprobará por:",
+      "opciones": [
+        "El Consejo de Ministros",
+        "El Ministro",
+        "La Comisión de Políticas de Gasto",
+        "El Subsecretario del departamento"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 29.3, «El programa plurianual de cada ministerio contendrá los programas de todos los centros gestores que de él dependan y se aprobará por el Ministro».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 32
+      }
+    },
+    {
+      "id": "gfi-005",
+      "ley": "ley-47-2003",
+      "articulo": "31.2",
+      "enunciado": "Las asignaciones presupuestarias a los centros gestores de gasto se efectuarán tomando en cuenta, entre otras circunstancias:",
+      "opciones": [
+        "El número de efectivos de personal de cada centro",
+        "El crédito no comprometido en el ejercicio anterior",
+        "El nivel de cumplimiento de los objetivos anteriores",
+        "La propuesta de la Intervención Delegada"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 31.2 dice: «Las asignaciones presupuestarias a los centros gestores de gasto se efectuarán tomando en cuenta, entre otras circunstancias, el nivel de cumplimiento de los objetivos en ejercicios anteriores».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 32
+      }
+    },
+    {
+      "id": "gfi-006",
+      "ley": "ley-47-2003",
+      "articulo": "34.4",
+      "enunciado": "Imputar a presupuesto obligaciones de ejercicios anteriores no comprendidas en los supuestos legales previstos requiere:",
+      "opciones": [
+        "Una norma con rango de ley que lo autorice",
+        "Un acuerdo del Consejo de Ministros",
+        "Un informe favorable de la Intervención General",
+        "Una orden del ministro del departamento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 34.4 dispone que, para obligaciones de ejercicios anteriores no comprendidas en los apartados anteriores, «la imputación requerirá norma con rango de ley que la autorice».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 32
+      }
+    },
+    {
+      "id": "gfi-007",
+      "ley": "ley-47-2003",
+      "articulo": "43.1",
+      "enunciado": "En el presupuesto del Estado, los créditos destinados a inversiones reales se especifican a nivel de:",
+      "opciones": [
+        "Concepto",
+        "Subconcepto",
+        "Artículo",
+        "Capítulo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 43.1 dice que los créditos se especifican a nivel de concepto, salvo los de personal y gastos corrientes en bienes y servicios, «que se especificarán a nivel de artículo y las inversiones reales a nivel de capítulo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 33
+      }
+    },
+    {
+      "id": "gfi-008",
+      "ley": "ley-47-2003",
+      "articulo": "46",
+      "enunciado": "Los actos administrativos que adquieran compromisos de gasto por cuantía superior a los créditos autorizados son:",
+      "opciones": [
+        "Anulables",
+        "Nulos de pleno derecho",
+        "Válidos si se convalidan después",
+        "Irregulares no invalidantes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 46 dice: «Los créditos para gastos son limitativos. No podrán adquirirse compromisos de gasto ni adquirirse obligaciones por cuantía superior al importe de los créditos autorizados en los estados de gastos, siendo nulos de pleno derecho los actos administrativos […]».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 33
+      }
+    },
+    {
+      "id": "gfi-009",
+      "ley": "ley-47-2003",
+      "articulo": "47.2",
+      "enunciado": "Con carácter general, el número de ejercicios a que pueden aplicarse los gastos plurianuales no será superior a:",
+      "opciones": [
+        "Cuatro",
+        "Tres",
+        "Cinco",
+        "Seis"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 47.2 dice: «El número de ejercicios a que pueden aplicarse los gastos no será superior a cuatro».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 33
+      }
+    },
+    {
+      "id": "gfi-010",
+      "ley": "ley-47-2003",
+      "articulo": "47.2",
+      "enunciado": "En los compromisos de gasto plurianuales, el gasto imputado al ejercicio inmediato siguiente no podrá exceder del:",
+      "opciones": [
+        "50 % del crédito inicial",
+        "60 % del crédito inicial",
+        "70 % del crédito inicial",
+        "80 % del crédito inicial"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 47.2 fija estos porcentajes sobre el crédito inicial: «en el ejercicio inmediato siguiente, el 70 por ciento, en el segundo ejercicio, el 60 por ciento, y en los ejercicios tercero y cuarto, el 50 por ciento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 33
+      }
+    },
+    {
+      "id": "gfi-011",
+      "ley": "ley-47-2003",
+      "articulo": "47.2",
+      "enunciado": "En los contratos de obra plurianuales, salvo los de abono total del precio, al adjudicar se hace una retención adicional de crédito del:",
+      "opciones": [
+        "5 % del importe de adjudicación",
+        "10 % del importe de adjudicación",
+        "15 % del importe de adjudicación",
+        "20 % del importe de adjudicación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 47.2 dice que en estos contratos «se efectuará una retención adicional de crédito del 10 por ciento del importe de adjudicación, en el momento en que ésta se realice».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 33
+      }
+    },
+    {
+      "id": "gfi-012",
+      "ley": "ley-47-2003",
+      "articulo": "47.3",
+      "enunciado": "En casos especialmente justificados, ¿quién puede modificar los porcentajes de los gastos plurianuales o incrementar el número de anualidades?",
+      "opciones": [
+        "El Ministro del departamento afectado",
+        "La Dirección General de Presupuestos",
+        "La Intervención General del Estado",
+        "El Gobierno"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 47.3 dice: «El Gobierno, en casos especialmente justificados, podrá acordar la modificación de los porcentajes anteriores, incrementar el número de anualidades […]».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 33
+      }
+    },
+    {
+      "id": "gfi-013",
+      "ley": "ley-47-2003",
+      "articulo": "49.2",
+      "enunciado": "Los créditos para gastos que el último día del ejercicio no estén afectados al cumplimiento de obligaciones ya reconocidas:",
+      "opciones": [
+        "Quedarán anulados de pleno derecho",
+        "Se incorporan sin más al ejercicio siguiente",
+        "Pasan a dotar el Fondo de Contingencia",
+        "Se prorrogan durante el primer trimestre"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 49.2 dice que estos créditos «quedarán anulados de pleno derecho, sin perjuicio de lo establecido en el artículo 58 de esta ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 33
+      }
+    },
+    {
+      "id": "gfi-014",
+      "ley": "ley-47-2003",
+      "articulo": "63.1",
+      "enunciado": "Los titulares de los ministerios pueden autorizar las modificaciones presupuestarias de su competencia previo informe favorable de:",
+      "opciones": [
+        "La Dirección General de Presupuestos",
+        "El Consejo de Estado",
+        "La Intervención Delegada competente",
+        "El Tribunal de Cuentas"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 63.1 dice: «Los titulares de los distintos ministerios podrán autorizar, previo informe favorable de la Intervención Delegada competente en el ministerio […] las siguientes modificaciones presupuestarias».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 33
+      }
+    },
+    {
+      "id": "gfi-015",
+      "ley": "ley-47-2003",
+      "articulo": "73.3",
+      "enunciado": "¿Qué fase del gasto es un acto con relevancia jurídica para con terceros que vincula a la Hacienda Pública a realizar el gasto?",
+      "opciones": [
+        "La aprobación del gasto",
+        "La ordenación del pago",
+        "El pago material",
+        "El compromiso de gasto"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 73.3 dice: «El compromiso es un acto con relevancia jurídica para con terceros, vinculando a la Hacienda Pública estatal o a la Seguridad Social a la realización del gasto».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 34
+      }
+    },
+    {
+      "id": "gfi-016",
+      "ley": "ley-47-2003",
+      "articulo": "73.7",
+      "enunciado": "Cuando la naturaleza de la operación o gasto así lo determine, las fases de ejecución precisas:",
+      "opciones": [
+        "Se tramitarán por el procedimiento de urgencia",
+        "Se acumularán en un solo acto",
+        "Podrán omitirse con informe de la Intervención",
+        "Se sustituirán por un pago a justificar"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 73.7 dice: «Cuando la naturaleza de la operación o gasto así lo determinen, se acumularán en un solo acto las fases de ejecución precisas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 34
+      }
+    },
+    {
+      "id": "gfi-017",
+      "ley": "ley-47-2003",
+      "articulo": "74.1",
+      "enunciado": "Los Ministros pueden fijar los límites por debajo de los cuales sus competencias de gestión de gastos corresponderán a:",
+      "opciones": [
+        "Los Directores y Subdirectores Generales",
+        "Los Delegados del Gobierno",
+        "Los Secretarios de Estado y Subsecretario",
+        "Los Interventores Delegados"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 74.1 dice que corresponderá a los Ministros «fijar los límites por debajo de los cuales las citadas competencias corresponderán, en su ámbito respectivo, a los Secretarios de Estado y Subsecretario del departamento».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 34
+      }
+    },
+    {
+      "id": "gfi-018",
+      "ley": "ley-47-2003",
+      "articulo": "75.1",
+      "enunciado": "Las funciones de Ordenador General de pagos del Estado competen:",
+      "opciones": [
+        "Al Director General del Tesoro y Política Financiera",
+        "Al Interventor General de la Administración del Estado",
+        "Al Director General de Presupuestos",
+        "Al Subsecretario de cada departamento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 75.1 dice que «competen al Director General del Tesoro y Política Financiera las funciones de Ordenador General de pagos del Estado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 34
+      }
+    },
+    {
+      "id": "gfi-019",
+      "ley": "ley-47-2003",
+      "articulo": "140.2",
+      "enunciado": "El control interno de la gestión económica y financiera del sector público estatal lo ejerce:",
+      "opciones": [
+        "El Tribunal de Cuentas",
+        "La Dirección General de Presupuestos",
+        "La Oficina Presupuestaria de las Cortes",
+        "La Intervención General de la Administración del Estado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 140.2 dice: «La Intervención General de la Administración del Estado ejercerá en los términos previstos en esta ley el control interno de la gestión económica y financiera del sector público estatal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 34
+      }
+    },
+    {
+      "id": "gfi-020",
+      "ley": "ley-47-2003",
+      "articulo": "142.2",
+      "enunciado": "Según la Ley General Presupuestaria, el control interno se realiza mediante:",
+      "opciones": [
+        "La fiscalización previa, la censura de cuentas y la inspección",
+        "La función interventora, el control financiero permanente y la auditoría pública",
+        "El enjuiciamiento contable, la auditoría privada y la inspección",
+        "El control parlamentario, el control judicial y la auditoría"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 142.2 dice: «El control se realizará mediante el ejercicio de la función interventora, el control financiero permanente y la auditoría pública».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 34
+      }
+    },
+    {
+      "id": "gfi-021",
+      "ley": "ley-47-2003",
+      "articulo": "144.1",
+      "enunciado": "La Intervención General de la Administración del Estado ejerce sus funciones de control conforme a los principios de:",
+      "opciones": [
+        "Autonomía, ejercicio desconcentrado y jerarquía interna",
+        "Dependencia, centralización y coordinación",
+        "Eficacia, descentralización y jerarquía externa",
+        "Independencia, unidad de caja y especialidad"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 144.1 dice que la Intervención General «ejercerá sus funciones de control conforme a los principios de autonomía, ejercicio desconcentrado y jerarquía interna».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 34
+      }
+    },
+    {
+      "id": "gfi-022",
+      "ley": "lo-2-1982",
+      "articulo": "2.a",
+      "enunciado": "Según su Ley Orgánica, la fiscalización del Tribunal de Cuentas sobre la actividad económico-financiera del sector público es:",
+      "opciones": [
+        "Interna, previa y selectiva",
+        "Externa, ocasional y preventiva",
+        "Externa, permanente y consuntiva",
+        "Interna, permanente y concomitante"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo segundo, a), atribuye al Tribunal de Cuentas «La fiscalización externa, permanente y consuntiva de la actividad económico-financiera del sector público».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 34
+      }
+    },
+    {
+      "id": "gfi-023",
+      "ley": "lo-2-1982",
+      "articulo": "21.1",
+      "enunciado": "El Pleno del Tribunal de Cuentas está integrado por:",
+      "opciones": [
+        "Nueve Consejeros de Cuentas y el Fiscal",
+        "Doce Consejeros de Cuentas y el Secretario General",
+        "Quince Consejeros, uno de ellos el Presidente",
+        "Doce Consejeros, uno de ellos el Presidente, y el Fiscal"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo veintiuno, uno, dice: «El Tribunal en Pleno estará integrado por doce Consejeros de Cuentas, uno de los cuales será el Presidente, y el Fiscal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 34
+      }
+    },
+    {
+      "id": "gfi-024",
+      "ley": "lo-2-1982",
+      "articulo": "30.1",
+      "enunciado": "Los Consejeros de Cuentas son designados por las Cortes Generales por un período de:",
+      "opciones": [
+        "Seis años",
+        "Nueve años",
+        "Cinco años",
+        "Doce años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo treinta, uno, dice que los Consejeros son designados «mediante votación por mayoría de tres quintos de cada una de las Cámaras, por un período de nueve años».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 34
+      }
+    },
+    {
+      "id": "gfi-025",
+      "ley": "lo-2-1982",
+      "articulo": "29",
+      "enunciado": "El Presidente del Tribunal de Cuentas es nombrado por el Rey, a propuesta del Pleno, por un período de:",
+      "opciones": [
+        "Cinco años",
+        "Nueve años",
+        "Tres años",
+        "Cuatro años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo veintinueve dice: «El Presidente del Tribunal de Cuentas será nombrado de entre sus miembros por el Rey, a propuesta del mismo Tribunal en Pleno y por un período de tres años».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 34
+      }
+    },
+    {
+      "id": "gfi-026",
+      "ley": "lo-2-1982",
+      "articulo": "17.1",
+      "enunciado": "Según la Ley Orgánica del Tribunal de Cuentas, la jurisdicción contable es:",
+      "opciones": [
+        "Necesaria e improrrogable, exclusiva y plena",
+        "Voluntaria y prorrogable, exclusiva y plena",
+        "Necesaria e improrrogable, compartida y limitada",
+        "Voluntaria, compartida y subsidiaria de la penal"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo diecisiete, uno, dice: «La jurisdicción contable es necesaria e improrrogable, exclusiva y plena».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 34
+      }
+    },
+    {
+      "id": "gfi-027",
+      "ley": "ley-47-2003",
+      "articulo": "78.1",
+      "enunciado": "Los anticipos de caja fija son provisiones de fondos de carácter:",
+      "opciones": [
+        "Presupuestario y temporal",
+        "Extrapresupuestario y permanente",
+        "Presupuestario y permanente",
+        "Extrapresupuestario y ocasional"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 78.1 dice: «Se entienden por anticipos de caja fija las provisiones de fondos de carácter extrapresupuestario y permanente que se realicen a pagadurías, cajas y habilitaciones».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 36
+      }
+    },
+    {
+      "id": "gfi-028",
+      "ley": "ley-47-2003",
+      "articulo": "78.3",
+      "enunciado": "Con carácter general, la cuantía global de los anticipos de caja fija de cada ministerio u organismo autónomo no podrá superar:",
+      "opciones": [
+        "El 3 % de los créditos del capítulo de gastos de personal",
+        "El 10 % de los créditos del capítulo de inversiones reales",
+        "El 14 % de los créditos de gastos corrientes en bienes y servicios",
+        "El 7 % de los créditos de gastos corrientes en bienes y servicios"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 78.3 dice que la cuantía global «no podrá superar para cada ministerio u organismo autónomo el siete por ciento del total de créditos del capítulo destinado a gastos corrientes en bienes y servicios».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 36
+      }
+    },
+    {
+      "id": "gfi-029",
+      "ley": "rd-725-1989",
+      "articulo": "2.3",
+      "enunciado": "Con cargo al anticipo de caja fija no pueden hacerse pagos individualizados de más de 5.000 euros, salvo los destinados a:",
+      "opciones": [
+        "Teléfono, energía eléctrica, combustibles o indemnizaciones por razón del servicio",
+        "Material no inventariable, conservación y reparación de edificios",
+        "Material de oficina, atenciones protocolarias y reuniones",
+        "Arrendamientos de inmuebles, publicidad y propaganda"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 2.3 dice que no podrán realizarse con cargo al anticipo «pagos individualizados superiores a 5.000 euros […] excepto los destinados a gastos de teléfono, energía eléctrica, combustibles o indemnizaciones por razón del servicio».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-08",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 36
+      }
+    },
+    {
+      "id": "gfi-030",
+      "ley": "rd-725-1989",
+      "articulo": "7.1",
+      "enunciado": "Los Cajeros pagadores rinden cuentas de los gastos atendidos con anticipos de caja fija según sus necesidades de tesorería y, necesariamente:",
+      "opciones": [
+        "Al final de cada trimestre",
+        "En el mes de enero de cada año",
+        "En el mes de diciembre de cada año",
+        "Cuando se agote la mitad del anticipo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 7.1 dice que los Cajeros pagadores rendirán cuentas «a medida que sus necesidades de tesorería aconsejen la reposición de los fondos utilizados y, necesariamente, en el mes de diciembre de cada año».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-08",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 36
+      }
+    },
+    {
+      "id": "gfi-031",
+      "ley": "rd-725-1989",
+      "articulo": "6.1",
+      "enunciado": "Las disposiciones de fondos de las cuentas de anticipos de caja fija, por cheque o transferencia, se autorizan con:",
+      "opciones": [
+        "Firma única del Cajero pagador",
+        "Firma única del Interventor Delegado",
+        "Firmas mancomunadas del Cajero y del Interventor",
+        "Firmas mancomunadas del Cajero y de un funcionario designado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 6.1 exige que se autoricen «con las firmas mancomunadas del Cajero pagador y del funcionario que designe el Jefe de la Unidad Administrativa a la que esté adscrita la Caja pagadora».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-08",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 36
+      }
+    },
+    {
+      "id": "gfi-032",
+      "ley": "ley-47-2003",
+      "articulo": "79.1",
+      "enunciado": "Pueden librarse fondos con el carácter de \"a justificar\" cuando, excepcionalmente:",
+      "opciones": [
+        "Los gastos sean periódicos o repetitivos",
+        "No pueda aportarse a tiempo la documentación justificativa",
+        "El crédito sea insuficiente y no ampliable",
+        "El gasto no supere el importe de un contrato menor"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 79.1 dice: «Cuando, excepcionalmente, no pueda aportarse la documentación justificativa de las obligaciones en el momento previsto en el apartado 4 del artículo 73, podrán tramitarse propuestas de pagos presupuestarios y librarse fondos con el carácter de a justificar».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 36
+      }
+    },
+    {
+      "id": "gfi-033",
+      "ley": "ley-47-2003",
+      "articulo": "79.4",
+      "enunciado": "Salvo expropiaciones y pagos en el extranjero, el plazo para rendir la cuenta de los pagos a justificar es de:",
+      "opciones": [
+        "Tres meses",
+        "Seis meses",
+        "Un mes",
+        "Doce meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 79.4 dice: «El plazo de rendición de las cuentas será de tres meses, excepto las correspondientes a pagos de expropiaciones y pagos en el extranjero que podrán ser rendidas en el plazo de seis meses».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-30",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 36
+      }
+    },
+    {
+      "id": "gfi-034",
+      "ley": "rd-725-1989",
+      "articulo": "9.1",
+      "enunciado": "Los estados de situación de Tesorería de las Cajas pagadoras se formulan, como mínimo, en las primeras quincenas de:",
+      "opciones": [
+        "Cada mes del año",
+        "Enero y julio",
+        "Enero, abril, julio y octubre",
+        "Marzo, junio, septiembre y diciembre"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 9.1 dice que, como mínimo, «en las primeras quincenas de los meses de enero, abril, julio y octubre y referidos al último día del trimestre inmediato anterior se formularán estados de situación de Tesorería».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-08",
+      "estado": "validada",
+      "temas": {
+        "admin-age": 36
+      }
+    }
+  ]
+}
