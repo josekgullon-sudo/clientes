@@ -1,5 +1,5 @@
 /**
- * Recorrido completo por la web a 380 px (y la home también a 1280 px), con y sin sesión.
+ * Recorrido completo por la web a 380 px (y la home y el área privada también a 1280 px), con y sin sesión.
  * Necesita `npm run dev` y Supabase local con preguntas importadas.
  *
  *   npm run recorrido              # claro
@@ -154,6 +154,19 @@ async function main() {
     ["/app/simulacro", "simulacro"],
     ["/app/cuenta", "perfil"],
     ["/suscripcion", "planes"],
+  ]) {
+    await p.goto(BASE + ruta, { waitUntil: "networkidle" });
+    await foto(p, nombre);
+  }
+
+  // El área privada también en escritorio, con la misma sesión.
+  await p.setViewportSize({ width: 1280, height: 860 });
+  for (const [ruta, nombre] of [
+    ["/app", "panel-escritorio"],
+    ["/app/liga", "liga-escritorio"],
+    ["/app/racha", "racha-escritorio"],
+    ["/app/estadisticas", "progreso-escritorio"],
+    ["/app/cuenta", "perfil-escritorio"],
   ]) {
     await p.goto(BASE + ruta, { waitUntil: "networkidle" });
     await foto(p, nombre);

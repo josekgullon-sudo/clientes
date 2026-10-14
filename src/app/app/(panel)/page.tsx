@@ -129,8 +129,8 @@ function Modo({
 
 export default async function Panel({ searchParams }: PageProps<"/app">) {
   const q = await searchParams;
-  const { suscrito, user } = await usuarioActual();
-  const [progreso, racha, intentos, falladas, cuota, estudio, camino, cofre, liga] = await Promise.all([
+  const [{ suscrito, user }, progreso, racha, intentos, falladas, cuota, estudio, camino, cofre, liga] = await Promise.all([
+    usuarioActual(),
     progresoPorTema(),
     rachaActual(),
     ultimosIntentos(3),
@@ -202,203 +202,210 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
 
       <InstalarApp />
 
-      <section aria-labelledby="misiones">
-        <div className="mb-3 flex items-baseline justify-between">
-          <h2 id="misiones" className="font-display text-xl font-black">
-            Misiones de hoy
-          </h2>
-          {diasExamen !== null && (
-            <p className="cifras text-sm font-extrabold text-pizarra">{Math.max(0, diasExamen)} días al examen</p>
-          )}
-        </div>
-        <ul className="tarjeta divide-y-2 divide-filete">
-          <Mision
-            icono={<Zap aria-hidden size={22} />}
-            titulo={`Responde ${objetivo} preguntas`}
-            hecho={hechasHoy}
-            meta={objetivo}
-            color="#eab308"
-          />
-          <Mision
-            icono={<Flame aria-hidden size={22} />}
-            titulo={`Acierta ${metaAciertos} preguntas`}
-            hecho={aciertosHoy}
-            meta={metaAciertos}
-            color="#f97316"
-          />
-          <CofreDiario listo={hechasHoy >= objetivo && aciertosHoy >= metaAciertos} xpAbierto={cofre} />
-        </ul>
-      </section>
-
-      {camino ? (
-        <section aria-labelledby="tu-camino">
-          <div className="mb-4 flex items-baseline justify-between">
-            <h2 id="tu-camino" className="font-display text-xl font-black">
-              Tu camino
-            </h2>
-            <Link href="/app/camino" className="enlace text-sm">
-              Ver todo
-            </Link>
-          </div>
-          {!puedeLeccion && !suscrito && (
-            <div className="mb-6 flex items-center gap-3 rounded-2xl border-2 border-[#a78bfa] bg-morado-suave p-4">
-              <Crown aria-hidden className="shrink-0 text-morado-texto" />
-              <p className="flex-1 text-sm font-bold">¿Quieres seguir hoy? Con Premium no hay límite.</p>
-              <EnlaceBoton href="/suscripcion?motivo=cuota" variante="premium" tamano="md">
-                Ver
-              </EnlaceBoton>
+      <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-start xl:grid-cols-[minmax(0,1fr)_24rem] xl:gap-10">
+        <div className="flex min-w-0 flex-col gap-8">
+          <section aria-labelledby="misiones">
+            <div className="mb-3 flex items-baseline justify-between">
+              <h2 id="misiones" className="font-display text-xl font-black">
+                Misiones de hoy
+              </h2>
+              {diasExamen !== null && (
+                <p className="cifras text-sm font-extrabold text-pizarra">{Math.max(0, diasExamen)} días al examen</p>
+              )}
             </div>
-          )}
-          {bloqueada && !leccion && (
-            <div className="mb-6 flex items-center gap-3 rounded-2xl border-2 border-[#a78bfa] bg-morado-suave p-4">
-              <Crown aria-hidden className="shrink-0 text-morado-texto" />
-              <p className="flex-1 text-sm font-bold">Has completado los niveles gratis. Del 3 al 5 son de Premium.</p>
-              <EnlaceBoton href="/suscripcion?motivo=nivel" variante="premium" tamano="md">
-                Ver
-              </EnlaceBoton>
-            </div>
-          )}
-          <CaminoJuego temas={camino} premium={suscrito} puedeLeccion={puedeLeccion} soloAlrededor />
-        </section>
-      ) : temaRespaldo && puedeLeccion ? (
-        <section className="tarjeta p-5">
-          <p className="antetitulo">Sigue por aquí</p>
-          <h2 className="mt-1 font-display text-xl font-black">
-            Tema {temaRespaldo.numero}. {temaRespaldo.titulo}
-          </h2>
-          <form action={crearTest} className="mt-4">
-            <input type="hidden" name="modo" value="tema" />
-            <input type="hidden" name="tema" value={temaRespaldo.tema_id} />
-            <input type="hidden" name="num" value="10" />
-            <Boton ancho>Hacer 10 preguntas</Boton>
-          </form>
-        </section>
-      ) : null}
-
-      {liga && (
-        <Link href="/app/liga" className="tarjeta flex items-center gap-4 p-4 transition hover:bg-papel-hundido/60">
-          <span className="grid size-14 shrink-0 place-items-center rounded-2xl bg-naranja-suave text-naranja-texto" aria-hidden="true">
-            <Trophy size={30} strokeWidth={2.4} />
-          </span>
-          <span className="min-w-0 flex-1">
-            <span className="block font-display text-lg leading-tight font-black">Liga de la semana</span>
-            <span className="text-sm font-semibold text-pizarra">
-              {liga.mi_posicion && (liga.filas.find((f) => f.yo)?.xp ?? 0) > 0
-                ? `Vas ${liga.mi_posicion}.º de ${liga.participantes}. ¡A por más XP!`
-                : "Gana XP esta semana para entrar en la clasificación."}
-            </span>
-          </span>
-          <span className="hidden -space-x-3 sm:flex" aria-hidden="true">
-            {liga.filas.slice(0, 3).map((f) => (
-              <Avatar key={f.pos} clave={f.avatar} className="size-9 text-lg ring-2 ring-superficie" />
-            ))}
-          </span>
-          <ChevronRight aria-hidden size={20} className="shrink-0 text-pizarra" />
-        </Link>
-      )}
-
-      <section aria-labelledby="practicar">
-        <h2 id="practicar" className="mb-3 font-display text-xl font-black">
-          Más formas de practicar
-        </h2>
-        <Link href="/reto" className="group mb-4 block rounded-2xl">
-          <Modo
-            icono={<Zap aria-hidden size={22} className="fill-current" />}
-            titulo="Reto relámpago"
-            texto="60 segundos, todas las que puedas."
-            color="#854d0e"
-            sombra="#5b3409"
-            insignia="Nuevo"
-          />
-        </Link>
-        <div className="grid gap-4 sm:grid-cols-3">
-          <form action={crearTest}>
-            <input type="hidden" name="modo" value="repaso" />
-            <input type="hidden" name="num" value="10" />
-            <button type="submit" disabled={sinRepaso} className="group block h-full w-full rounded-2xl disabled:cursor-not-allowed">
-              <Modo
-                icono={<RotateCcw aria-hidden size={22} />}
-                titulo="Repaso"
-                texto={falladas ? "Tus fallos, hasta que los aciertes." : "Aquí irán tus fallos."}
-                color="#c2410c"
-                sombra="#9a3412"
-                insignia={falladas ? String(falladas) : undefined}
+            <ul className="tarjeta divide-y-2 divide-filete">
+              <Mision
+                icono={<Zap aria-hidden size={22} />}
+                titulo={`Responde ${objetivo} preguntas`}
+                hecho={hechasHoy}
+                meta={objetivo}
+                color="#eab308"
               />
-            </button>
-          </form>
-          <Link href="/app/simulacro" className="group block rounded-2xl">
-            <Modo icono={<Timer aria-hidden size={22} />} titulo="Simulacro" texto="Con tiempo, como el examen." color="#0369a1" sombra="#075985" />
-          </Link>
-          <Link href={suscrito ? "/app/nuevo" : "/suscripcion?motivo=personalizado"} className="group block rounded-2xl">
-            <Modo
-              icono={<SlidersHorizontal aria-hidden size={22} />}
-              titulo="A medida"
-              texto="Tú eliges temas y preguntas."
-              color="#7c3aed"
-              sombra="#5b21b6"
-              bloqueado={!suscrito}
-            />
-          </Link>
-        </div>
-      </section>
+              <Mision
+                icono={<Flame aria-hidden size={22} />}
+                titulo={`Acierta ${metaAciertos} preguntas`}
+                hecho={aciertosHoy}
+                meta={metaAciertos}
+                color="#f97316"
+              />
+              <CofreDiario listo={hechasHoy >= objetivo && aciertosHoy >= metaAciertos} xpAbierto={cofre} />
+            </ul>
+          </section>
 
-      <section aria-labelledby="sabias" className="tarjeta tarjeta-viva relative overflow-hidden p-5">
-        <div className="flex items-start gap-4">
-          <Clara pose="piensa" className="-mb-2 size-20 shrink-0" />
-          <div className="min-w-0">
-            <h2 id="sabias" className="flex items-center gap-1.5 font-display text-lg font-black text-oro-texto">
-              <Lightbulb aria-hidden size={20} className="fill-subrayador text-oro-texto" /> ¿Sabías que…?
+          {camino ? (
+            <section aria-labelledby="tu-camino">
+              <div className="mb-4 flex items-baseline justify-between">
+                <h2 id="tu-camino" className="font-display text-xl font-black">
+                  Tu camino
+                </h2>
+                <Link href="/app/camino" className="enlace text-sm">
+                  Ver todo
+                </Link>
+              </div>
+              {!puedeLeccion && !suscrito && (
+                <div className="mb-6 flex items-center gap-3 rounded-2xl border-2 border-[#a78bfa] bg-morado-suave p-4">
+                  <Crown aria-hidden className="shrink-0 text-morado-texto" />
+                  <p className="flex-1 text-sm font-bold">¿Quieres seguir hoy? Con Premium no hay límite.</p>
+                  <EnlaceBoton href="/suscripcion?motivo=cuota" variante="premium" tamano="md">
+                    Ver
+                  </EnlaceBoton>
+                </div>
+              )}
+              {bloqueada && !leccion && (
+                <div className="mb-6 flex items-center gap-3 rounded-2xl border-2 border-[#a78bfa] bg-morado-suave p-4">
+                  <Crown aria-hidden className="shrink-0 text-morado-texto" />
+                  <p className="flex-1 text-sm font-bold">Has completado los niveles gratis. Del 3 al 5 son de Premium.</p>
+                  <EnlaceBoton href="/suscripcion?motivo=nivel" variante="premium" tamano="md">
+                    Ver
+                  </EnlaceBoton>
+                </div>
+              )}
+              <CaminoJuego temas={camino} premium={suscrito} puedeLeccion={puedeLeccion} soloAlrededor />
+            </section>
+          ) : temaRespaldo && puedeLeccion ? (
+            <section className="tarjeta p-5">
+              <p className="antetitulo">Sigue por aquí</p>
+              <h2 className="mt-1 font-display text-xl font-black">
+                Tema {temaRespaldo.numero}. {temaRespaldo.titulo}
+              </h2>
+              <form action={crearTest} className="mt-4">
+                <input type="hidden" name="modo" value="tema" />
+                <input type="hidden" name="tema" value={temaRespaldo.tema_id} />
+                <input type="hidden" name="num" value="10" />
+                <Boton ancho>Hacer 10 preguntas</Boton>
+              </form>
+            </section>
+          ) : null}
+
+          <section aria-labelledby="practicar">
+            <h2 id="practicar" className="mb-3 font-display text-xl font-black">
+              Más formas de practicar
             </h2>
-            <p className="mt-1 font-semibold leading-snug">{curiosidad.texto}</p>
-            <p className="mt-2 inline-block rounded-full bg-oro-suave px-2.5 py-0.5 text-xs font-black text-oro-texto">{curiosidad.fuente}</p>
-          </div>
+            <Link href="/reto" className="group mb-4 block rounded-2xl">
+              <Modo
+                icono={<Zap aria-hidden size={22} className="fill-current" />}
+                titulo="Reto relámpago"
+                texto="60 segundos, todas las que puedas."
+                color="#854d0e"
+                sombra="#5b3409"
+                insignia="Nuevo"
+              />
+            </Link>
+            <div className="grid gap-4 sm:grid-cols-3">
+              <form action={crearTest}>
+                <input type="hidden" name="modo" value="repaso" />
+                <input type="hidden" name="num" value="10" />
+                <button type="submit" disabled={sinRepaso} className="group block h-full w-full rounded-2xl disabled:cursor-not-allowed">
+                  <Modo
+                    icono={<RotateCcw aria-hidden size={22} />}
+                    titulo="Repaso"
+                    texto={falladas ? "Tus fallos, hasta que los aciertes." : "Aquí irán tus fallos."}
+                    color="#c2410c"
+                    sombra="#9a3412"
+                    insignia={falladas ? String(falladas) : undefined}
+                  />
+                </button>
+              </form>
+              <Link href="/app/simulacro" className="group block rounded-2xl">
+                <Modo icono={<Timer aria-hidden size={22} />} titulo="Simulacro" texto="Con tiempo, como el examen." color="#0369a1" sombra="#075985" />
+              </Link>
+              <Link href={suscrito ? "/app/nuevo" : "/suscripcion?motivo=personalizado"} className="group block rounded-2xl">
+                <Modo
+                  icono={<SlidersHorizontal aria-hidden size={22} />}
+                  titulo="A medida"
+                  texto="Tú eliges temas y preguntas."
+                  color="#7c3aed"
+                  sombra="#5b21b6"
+                  bloqueado={!suscrito}
+                />
+              </Link>
+            </div>
+          </section>
+
         </div>
-      </section>
 
-      {!suscrito && cuota && puedeLeccion && (
-        <section aria-label="Tu plan" className="flex items-center gap-4 rounded-[1.25rem] border-2 border-[#a78bfa] bg-morado-suave p-4">
-          <Clara pose="premium" animada={false} className="size-16 shrink-0" />
-          <div className="min-w-0 flex-1">
-            <p className="font-display font-black text-morado-texto">Plan gratis</p>
-            <p className="cifras text-sm font-semibold">
-              Te quedan {cuota.tema} de {CUOTA_GRATIS} preguntas hoy
-            </p>
-          </div>
-          <EnlaceBoton href="/suscripcion" variante="premium" tamano="md" className="shrink-0">
-            Premium
-          </EnlaceBoton>
-        </section>
-      )}
+        <aside aria-label="Tu semana" className="flex min-w-0 flex-col gap-6 lg:sticky lg:top-24">
+          {liga && (
+            <Link href="/app/liga" className="tarjeta flex items-center gap-4 p-4 transition hover:bg-papel-hundido/60">
+              <span className="grid size-14 shrink-0 place-items-center rounded-2xl bg-naranja-suave text-naranja-texto" aria-hidden="true">
+                <Trophy size={30} strokeWidth={2.4} />
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block font-display text-lg leading-tight font-black">Liga de la semana</span>
+                <span className="text-sm font-semibold text-pizarra">
+                  {liga.mi_posicion && (liga.filas.find((f) => f.yo)?.xp ?? 0) > 0
+                    ? `Vas ${liga.mi_posicion}.º de ${liga.participantes}. ¡A por más XP!`
+                    : "Gana XP esta semana para entrar en la clasificación."}
+                </span>
+              </span>
+              <span className="hidden -space-x-3 sm:flex" aria-hidden="true">
+                {liga.filas.slice(0, 3).map((f) => (
+                  <Avatar key={f.pos} clave={f.avatar} className="size-9 text-lg ring-2 ring-superficie" />
+                ))}
+              </span>
+              <ChevronRight aria-hidden size={20} className="shrink-0 text-pizarra" />
+            </Link>
+          )}
 
-      {intentos.length > 0 && (
-        <section aria-labelledby="ultimos">
-          <h2 id="ultimos" className="mb-3 font-display text-xl font-black">
-            Tus últimos test
-          </h2>
-          <ul className="tarjeta divide-y-2 divide-filete">
-            {intentos.map((i) => {
-              const total = i.preguntas.length;
-              const ratio = total ? (i.aciertos ?? 0) / total : 0;
-              return (
-                <li key={i.id}>
-                  <Link href={`/app/test/${i.id}`} className="flex min-h-14 items-center gap-3 px-4 py-3 hover:bg-papel-hundido/60">
-                    <span className="min-w-0 flex-1">
-                      <span className="block font-extrabold">{nombresModo[i.modo] ?? "Test"}</span>
-                      <span className="text-sm text-pizarra">{fechaCorta.format(new Date(i.creado_en))}</span>
-                    </span>
-                    <span
-                      className={`cifras rounded-full px-2.5 py-1 text-sm font-black ${ratio >= 0.6 ? "bg-pino-suave text-pino" : "bg-teja-suave text-teja"}`}
-                    >
-                      {i.aciertos}/{total}
-                    </span>
-                    <ChevronRight aria-hidden size={18} className="text-pizarra" />
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
-        </section>
-      )}
+          {!suscrito && cuota && puedeLeccion && (
+            <section aria-label="Tu plan" className="flex items-center gap-4 rounded-[1.25rem] border-2 border-[#a78bfa] bg-morado-suave p-4">
+              <Clara pose="premium" animada={false} className="size-16 shrink-0" />
+              <div className="min-w-0 flex-1">
+                <p className="font-display font-black text-morado-texto">Plan gratis</p>
+                <p className="cifras text-sm font-semibold">
+                  Te quedan {cuota.tema} de {CUOTA_GRATIS} preguntas hoy
+                </p>
+              </div>
+              <EnlaceBoton href="/suscripcion" variante="premium" tamano="md" className="shrink-0">
+                Premium
+              </EnlaceBoton>
+            </section>
+          )}
+
+          <section aria-labelledby="sabias" className="tarjeta tarjeta-viva relative overflow-hidden p-5">
+            <div className="flex items-start gap-4">
+              <Clara pose="piensa" className="-mb-2 size-20 shrink-0" />
+              <div className="min-w-0">
+                <h2 id="sabias" className="flex items-center gap-1.5 font-display text-lg font-black text-oro-texto">
+                  <Lightbulb aria-hidden size={20} className="fill-subrayador text-oro-texto" /> ¿Sabías que…?
+                </h2>
+                <p className="mt-1 font-semibold leading-snug">{curiosidad.texto}</p>
+                <p className="mt-2 inline-block rounded-full bg-oro-suave px-2.5 py-0.5 text-xs font-black text-oro-texto">{curiosidad.fuente}</p>
+              </div>
+            </div>
+          </section>
+
+          {intentos.length > 0 && (
+            <section aria-labelledby="ultimos">
+              <h2 id="ultimos" className="mb-3 font-display text-xl font-black">
+                Tus últimos test
+              </h2>
+              <ul className="tarjeta divide-y-2 divide-filete">
+                {intentos.map((i) => {
+                  const total = i.preguntas.length;
+                  const ratio = total ? (i.aciertos ?? 0) / total : 0;
+                  return (
+                    <li key={i.id}>
+                      <Link href={`/app/test/${i.id}`} className="flex min-h-14 items-center gap-3 px-4 py-3 hover:bg-papel-hundido/60">
+                        <span className="min-w-0 flex-1">
+                          <span className="block font-extrabold">{nombresModo[i.modo] ?? "Test"}</span>
+                          <span className="text-sm text-pizarra">{fechaCorta.format(new Date(i.creado_en))}</span>
+                        </span>
+                        <span
+                          className={`cifras rounded-full px-2.5 py-1 text-sm font-black ${ratio >= 0.6 ? "bg-pino-suave text-pino" : "bg-teja-suave text-teja"}`}
+                        >
+                          {i.aciertos}/{total}
+                        </span>
+                        <ChevronRight aria-hidden size={18} className="text-pizarra" />
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+          )}
+        </aside>
+      </div>
     </div>
   );
 }

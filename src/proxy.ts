@@ -28,11 +28,11 @@ export async function proxy(request: NextRequest) {
     },
   );
 
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  // getClaims refresca la sesión si hace falta y valida el token; con claves asimétricas lo hace
+  // sin ir al servidor de Auth, que es lo que más tarda en cada navegación.
+  const { data } = await supabase.auth.getClaims();
 
-  if (!user && request.nextUrl.pathname.startsWith("/app")) {
+  if (!data?.claims && request.nextUrl.pathname.startsWith("/app")) {
     const destino = request.nextUrl.clone();
     destino.pathname = "/entrar";
     destino.search = `?siguiente=${encodeURIComponent(request.nextUrl.pathname + request.nextUrl.search)}`;

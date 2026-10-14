@@ -7,14 +7,13 @@ import { cuotaRestante, usuarioActual } from "@/lib/datos/usuario";
 export const metadata: Metadata = { title: "Camino" };
 
 export default async function PaginaCamino() {
-  const { suscrito } = await usuarioActual();
-  const [camino, cuota] = await Promise.all([caminoTemas(), cuotaRestante()]);
+  const [{ suscrito }, camino, cuota] = await Promise.all([usuarioActual(), caminoTemas(), cuotaRestante()]);
   const puedeLeccion = suscrito || !cuota || cuota.tema > 0;
   const conPreguntas = camino?.filter((t) => t.total > 0) ?? [];
   const coronas = conPreguntas.filter((t) => t.corona).length;
 
   return (
-    <div className="flex flex-col gap-8">
+    <div className="mx-auto flex w-full max-w-3xl flex-col gap-8">
       <ClaraDice pose="senala">
         <span className="block font-display text-lg font-black">Tu camino al aprobado</span>
         <span className="font-semibold">

@@ -8,7 +8,7 @@ import { NavApp } from "./nav-app";
 export function BarraApp({ racha, xp, premium }: { racha: number; xp: number; premium: boolean }) {
   return (
     <header className="sticky top-0 z-30 border-b-2 border-filete bg-papel/90 backdrop-blur-md">
-      <div className="mx-auto flex h-16 max-w-5xl items-center justify-between gap-2 px-4">
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-2 px-4">
         <Link href="/app" className="flex items-center gap-2 rounded-xl" aria-label="Inicio">
           <MarcaLogo className="size-9" />
         </Link>

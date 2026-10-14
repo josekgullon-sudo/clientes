@@ -21,7 +21,7 @@ export default async function NuevoTest({ searchParams }: PageProps<"/app/nuevo"
   const error = typeof q.error === "string" ? errores[q.error] : undefined;
 
   return (
-    <form action={crearTest} className="flex flex-col gap-6 pb-20">
+    <form action={crearTest} className="mx-auto flex w-full max-w-3xl flex-col gap-6 pb-20">
       <input type="hidden" name="modo" value="mixto" />
       <header>
         <h1 className="font-display text-[2rem] leading-tight font-extrabold">Test a medida</h1>

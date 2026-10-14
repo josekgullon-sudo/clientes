@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 
 export default async function PaginaAdmin() {
   if (!(await esAdmin())) notFound();
-  try {
-    const datos = await cargarPanel();
-    return <PanelAdmin datos={datos} />;
-  } catch (error) {
+  const datos = await cargarPanel().catch((error: unknown) => {
     console.error("panel admin", error instanceof Error ? error.message : "error");
+    return null;
+  });
+  if (!datos) {
     return (
       <main className="mx-auto w-full max-w-lg px-4 py-16">
         <h1 className="font-display text-2xl font-extrabold">Panel</h1>
@@ -25,4 +25,5 @@ export default async function PaginaAdmin() {
       </main>
     );
   }
+  return <PanelAdmin datos={datos} />;
 }

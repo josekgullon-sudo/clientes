@@ -2,7 +2,7 @@ import "server-only";
 import { cache } from "react";
 import type { NodoCamino } from "@/lib/estudio/camino";
 import { hoyMadrid } from "@/lib/seo/seleccion";
-import { usuarioActual } from "./usuario";
+import { clienteSesion } from "./usuario";
 
 export type ParteNota = { nota: number; bajo: number; alto: number };
 
@@ -48,16 +48,15 @@ export type Estadisticas = {
 };
 
 export const estadisticasUsuario = cache(async (): Promise<Estadisticas | null> => {
-  const { supabase } = await usuarioActual();
-  const { error: alta } = await supabase.rpc("asegurar_perfil");
-  if (alta) return null;
+  const supabase = await clienteSesion();
+  // estadisticas_usuario ya crea el perfil si falta (asegurar_perfil).
   const { data, error } = await supabase.rpc("estadisticas_usuario");
   if (error || !data) return null;
   return data as Estadisticas;
 });
 
 export const caminoTemas = cache(async (): Promise<NodoCamino[] | null> => {
-  const { supabase } = await usuarioActual();
+  const supabase = await clienteSesion();
   const { data, error } = await supabase.rpc("camino_temas");
   if (error || !data) return null;
   return data as NodoCamino[];
@@ -72,7 +71,7 @@ export type LogroUsuario = {
 };
 
 export const logrosUsuario = cache(async (): Promise<LogroUsuario[] | null> => {
-  const { supabase } = await usuarioActual();
+  const supabase = await clienteSesion();
   const { data: catalogo, error } = await supabase
     .from("logros")
     .select("catalogo_id, nombre, descripcion, icono, orden")
@@ -92,7 +91,7 @@ export const logrosUsuario = cache(async (): Promise<LogroUsuario[] | null> => {
 export type PerfilPublico = { alias: string; avatar: string; en_liga: boolean; personalizado: boolean };
 
 export const perfilPublico = cache(async (): Promise<PerfilPublico | null> => {
-  const { supabase } = await usuarioActual();
+  const supabase = await clienteSesion();
   const { data, error } = await supabase.rpc("mi_perfil_publico");
   if (error || !data) return null;
   return data as PerfilPublico;
@@ -102,7 +101,7 @@ export type FilaLiga = { pos: number; alias: string; avatar: string; xp: number;
 export type Liga = { inicio: string; fin: string; participantes: number; filas: FilaLiga[]; mi_posicion: number | null };
 
 export const ligaSemanal = cache(async (): Promise<Liga | null> => {
-  const { supabase } = await usuarioActual();
+  const supabase = await clienteSesion();
   const { data, error } = await supabase.rpc("liga_semanal");
   if (error || !data) return null;
   return data as Liga;
@@ -110,7 +109,7 @@ export const ligaSemanal = cache(async (): Promise<Liga | null> => {
 
 /** XP del cofre de hoy, o null si aún no se ha abierto. */
 export const cofreHoy = cache(async (): Promise<number | null> => {
-  const { supabase } = await usuarioActual();
+  const supabase = await clienteSesion();
   const hoy = hoyMadrid();
   const { data } = await supabase.from("cofres_diarios").select("xp").eq("dia", hoy).maybeSingle();
   return (data?.xp as number | undefined) ?? null;
@@ -120,7 +119,7 @@ export type DiaActividad = { dia: string; preguntas: number; objetivo_cumplido: 
 
 /** Actividad de los últimos días, para el calendario de la racha. */
 export const actividadReciente = cache(async (dias = 42): Promise<DiaActividad[]> => {
-  const { supabase } = await usuarioActual();
+  const supabase = await clienteSesion();
   const desde = new Date(Date.now() - dias * 86400000);
   const { data } = await supabase
     .from("actividad_diaria")

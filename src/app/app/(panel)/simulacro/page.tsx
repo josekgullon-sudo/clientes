@@ -8,8 +8,7 @@ import { crearTest } from "../../acciones";
 export const metadata: Metadata = { title: "Simulacro" };
 
 export default async function Simulacro() {
-  const { suscrito } = await usuarioActual();
-  const opo = await oposicionActual();
+  const [{ suscrito }, opo] = await Promise.all([usuarioActual(), oposicionActual()]);
   const f = opo.formato_simulacro;
   const total = f.partes.reduce((s, p) => s + p.preguntas, 0);
   const tercio = f.penalizacion > 0.33 && f.penalizacion < 0.34;
@@ -23,7 +22,7 @@ export default async function Simulacro() {
   ];
 
   return (
-    <div className="flex flex-col gap-6">
+    <div className="mx-auto flex w-full max-w-3xl flex-col gap-6">
       <header className="flex items-center gap-4">
         <Clara pose="piensa" className="size-24 shrink-0" />
         <div>
