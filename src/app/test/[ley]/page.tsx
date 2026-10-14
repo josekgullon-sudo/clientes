@@ -5,9 +5,10 @@ import { Faq } from "@/components/faq";
 import { notFound } from "next/navigation";
 import { Cabecera } from "@/components/cabecera";
 import { Pie } from "@/components/pie";
+import { PaginaLey } from "@/components/seo/pagina-ley";
 import { TestConIntro } from "@/components/test/test-con-intro";
 import { paginaPublica, rutasPublicas } from "@/lib/seo/banco";
-import { parrafosLey, parrafosTema } from "@/lib/seo/textos";
+import { parrafosTema } from "@/lib/seo/textos";
 import { SITIO } from "@/lib/sitio";
 
 export const revalidate = 3600;
@@ -20,9 +21,9 @@ export async function generateMetadata({ params }: PageProps<"/test/[ley]">): Pr
   const pagina = paginaPublica((await params).ley);
   if (!pagina) return {};
   return {
-    title: `${pagina.titulo} · Preguntas con solución`,
+    title: pagina.tipo === "ley" ? pagina.h1 : `${pagina.titulo} · Preguntas con solución`,
     description: pagina.descripcion,
-    alternates: { canonical: `/test/${pagina.slug}` },
+    alternates: { canonical: `${SITIO.url}/test/${pagina.slug}` },
     robots: pagina.enPreparacion ? { index: true, follow: true } : undefined,
   };
 }
@@ -31,28 +32,26 @@ export default async function TestLey({ params }: PageProps<"/test/[ley]">) {
   const pagina = paginaPublica((await params).ley);
   if (!pagina || pagina.tipo === "demo") notFound();
 
-  const parrafos =
-    pagina.tipo === "ley" && pagina.ley
-      ? parrafosLey({
-          nombre: pagina.ley.nombre,
-          nombreCorto: pagina.ley.nombreCorto,
-          fecha: pagina.ley.fecha,
-          total: pagina.totalBanco,
-          enPagina: pagina.preguntas.length,
-          articulos: pagina.articulos,
-          temas: pagina.temasRelacionados,
-        })
-      : pagina.tema
-        ? parrafosTema({
-            numero: pagina.tema.numero,
-            titulo: pagina.tema.titulo,
-            bloque: pagina.tema.bloque,
-            total: pagina.totalBanco,
-            enPagina: pagina.preguntas.length,
-            leyes: pagina.leyesRelacionadas,
-            articulos: pagina.articulos,
-          })
-        : [];
+  if (pagina.tipo === "ley") {
+    const otras = rutasPublicas()
+      .filter((r) => r.tipo === "ley" && r.slug !== pagina.slug)
+      .map((r) => paginaPublica(r.slug))
+      .filter((p) => p && p.totalBanco > 0 && p.ley)
+      .map((p) => ({ slug: p!.slug, nombre: p!.ley!.nombreCorto, total: p!.totalBanco }));
+    return <PaginaLey pagina={pagina} otras={otras} />;
+  }
+
+  const parrafos = pagina.tema
+    ? parrafosTema({
+        numero: pagina.tema.numero,
+        titulo: pagina.tema.titulo,
+        bloque: pagina.tema.bloque,
+        total: pagina.totalBanco,
+        enPagina: pagina.preguntas.length,
+        leyes: pagina.leyesRelacionadas,
+        articulos: pagina.articulos,
+      })
+    : [];
 
   const faq = [
     {
@@ -100,7 +99,7 @@ export default async function TestLey({ params }: PageProps<"/test/[ley]">) {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Inicio", item: SITIO.url },
-        { "@type": "ListItem", position: 2, name: "Test", item: `${SITIO.url}/test/constitucion` },
+        { "@type": "ListItem", position: 2, name: "Test", item: `${SITIO.url}/test` },
         { "@type": "ListItem", position: 3, name: pagina.titulo, item: `${SITIO.url}/test/${pagina.slug}` },
       ],
     },
@@ -132,7 +131,9 @@ export default async function TestLey({ params }: PageProps<"/test/[ley]">) {
             Inicio
           </Link>
           <ChevronRight aria-hidden size={14} />
-          <span>{pagina.tipo === "ley" ? "Test por ley" : `Bloque ${pagina.tema?.bloque}`}</span>
+          <Link href="/test" className="hover:text-pino hover:underline">
+            Test
+          </Link>
         </nav>
         <p className="antetitulo mt-6">Auxiliar Administrativo del Estado</p>
         <h1 className="mt-2 font-display text-[2.25rem] leading-[1.1] font-extrabold md:text-[2.75rem]">{pagina.h1}</h1>
@@ -177,7 +178,7 @@ export default async function TestLey({ params }: PageProps<"/test/[ley]">) {
         {resto.length > 0 && (
           <section aria-labelledby="sobre" className="mt-12">
             <h2 id="sobre" className="font-display text-2xl font-extrabold">
-              {pagina.tipo === "ley" ? "Sobre esta ley en el examen" : "Sobre este tema"}
+              Sobre este tema
             </h2>
             {resto.map((p) => (
               <p key={p.slice(0, 24)} className="mt-4 font-serif text-[1.0625rem] leading-relaxed">

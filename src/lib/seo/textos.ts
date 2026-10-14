@@ -1,34 +1,60 @@
 /** Texto indexable de las páginas por ley y por tema. Sale de los datos del banco, sin citas inventadas. */
 
-export function parrafosLey(input: {
+/** «de la Ley 39/2015», «del TREBEP», «del Real Decreto…». */
+export function deNorma(nombre: string): string {
+  return /^(Real Decreto|Tratado|TREBEP|TUE|TFUE|RD)\b/.test(nombre) ? `del ${nombre}` : `de la ${nombre}`;
+}
+
+export function h1Ley(nombreCorto: string): string {
+  return `Test ${nombreCorto} gratis (Auxiliar Administrativo)`;
+}
+
+function fechaLarga(iso: string): string {
+  const [y, m, d] = iso.split("-").map(Number);
+  return new Intl.DateTimeFormat("es-ES", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC",
+  }).format(new Date(Date.UTC(y, m - 1, d)));
+}
+
+/**
+ * Introducción corta de una página por ley. El objetivo es 150–250 palabras:
+ * aire, frases breves y datos que salen del banco.
+ */
+export function introLey(input: {
   nombre: string;
   nombreCorto: string;
   fecha: string | null;
   total: number;
   enPagina: number;
-  articulos: { articulo: string; veces: number }[];
+  articulos: { articulo: string }[];
   temas: { numero: number; titulo: string; bloque: string }[];
 }): string[] {
-  const temas =
-    input.temas.length > 0
-      ? input.temas.map((t) => `el tema ${t.numero} del bloque ${t.bloque} (${t.titulo})`).join("; ")
-      : "el temario del Auxiliar Administrativo del Estado";
-  const arts =
-    input.articulos.length > 0
-      ? input.articulos.map((a) => `el artículo ${a.articulo} (${a.veces} ${a.veces === 1 ? "pregunta" : "preguntas"})`).join(", ")
-      : "los artículos que el banco cita en cada explicación";
+  const cuantas = input.enPagina === 10 ? "diez" : String(input.enPagina);
+  const temas = input.temas.slice(0, 2);
+  const temasTxt =
+    temas.length > 0
+      ? temas.map((t) => `el tema ${t.numero} del bloque ${t.bloque}`).join(" y ")
+      : "el temario de Auxiliar Administrativo";
+  const arts = input.articulos.slice(0, 3).map((a) => `el artículo ${a.articulo}`);
+  const artsTxt =
+    arts.length === 0
+      ? "el artículo que cita cada explicación"
+      : arts.length === 1
+        ? arts[0]
+        : `${arts.slice(0, -1).join(", ")} y ${arts.at(-1)}`;
   const fecha = input.fecha
-    ? `Las preguntas contrastadas llevan la fecha de la versión consolidada del BOE (${input.fecha}).`
-    : "Cuando el texto consolidado no está fechado en el banco, la explicación remite al artículo y conviene contrastarlo en el BOE.";
+    ? `La versión consolidada del BOE que usamos es la del ${fechaLarga(input.fecha)}.`
+    : "Si el banco no fecha el consolidado, contrasta el artículo en el BOE.";
 
   return [
-    `Este test reúne preguntas de la ${input.nombre} para preparar el Auxiliar Administrativo del Estado. La ley entra en el temario oficial de la convocatoria publicada en el BOE (BOE-A-2025-26262) y aquí se trabaja con el mismo criterio que en el examen: cuatro opciones, una sola correcta y la penalización de un tercio por cada fallo. No es un texto oficial ni sustituye al BOE. Sirve para comprobar si reconoces el artículo cuando la pregunta cambia el orden de las palabras.`,
-    input.total > 0
-      ? `En el banco hay ${input.total} preguntas validadas de la ${input.nombreCorto}. Esta página muestra ${input.enPagina}, elegidas de forma estable durante una semana y distintas a la semana siguiente, para que repetir la visita no sea siempre el mismo examen. Al responder ves la opción correcta, la explicación y el artículo exacto. Si fallas, el artículo te dice qué párrafo volver a leer, que es más útil que memorizar la letra.`
-      : `Todavía no hay preguntas validadas de la ${input.nombreCorto} en el banco. La página existe para que el temario esté enlazado y para avisar de que este bloque está en preparación. Cuando haya preguntas, el test de esta misma dirección tendrá diez, con su corrección.`,
-    `Los artículos que más aparecen en las preguntas de esta ley son ${arts}. No significa que el examen pregunte solo esos preceptos: significa que, con el material que hay hoy, conviene tenerlos localizados antes de pasar a otro tema. ${fecha} Si una reforma cambia el texto, manda el consolidado del BOE y no esta página.`,
-    `En el temario de Auxiliar Administrativo, esta norma se estudia sobre todo en ${temas}. Puedes saltar desde aquí al test del tema o a otra ley. El examen real mezcla el bloque I (30 preguntas de materias jurídicas, más una parte psicotécnica que aquí no entra) y el bloque II (50 preguntas, en buena parte de ofimática). Cada error resta un tercio de acierto y las respuestas en blanco no puntúan. Por eso una pregunta dudosa no se contesta igual que una que tienes clara.`,
-    `La forma de usar este test es corta: lee el enunciado, contesta, mira el artículo y anota el fallo. Diez preguntas bien corregidas enseñan más que cincuenta sin mirar la ley. Si creas una cuenta gratuita puedes guardar estos fallos y repasarlos al día siguiente, con una sesión de diez preguntas en el camino de temas. El plan de pago quita ese límite, abre los niveles avanzados, los simulacros y la predicción de nota. Cancelas desde tu cuenta, sin permanencia.`,
+    `Estas ${cuantas} preguntas son ${deNorma(input.nombre)}. Las haces gratis y sin cuenta, para preparar el Auxiliar Administrativo del Estado. No son el examen: lo pone la Administración. Cada respuesta se apoya en el texto consolidado del BOE, no en un resumen.`,
+    `En el banco hay ${input.total} preguntas validadas ${deNorma(input.nombreCorto)}. Aquí ves ${input.enPagina}, las mismas durante una semana. Hay cuatro opciones y una sola correcta. Un fallo resta un tercio, como en la convocatoria del BOE (BOE-A-2025-26262). Si la dejas en blanco, no resta.`,
+    `${fecha} Los artículos que más aparecen ahora son ${artsTxt}. No son los únicos que pueden caer. Sirven para abrir la ley por el precepto justo, en vez de releerla entera.`,
+    `Esta norma se estudia sobre todo en ${temasTxt}. Si fallas, mira el artículo antes de seguir. Desde aquí saltas a otra norma o al índice de test.`,
+    `Si creas una cuenta gratuita, guardamos los fallos y sigues con el resto del banco: diez preguntas al día. El plan de pago quita ese límite y abre los simulacros. Cancelas desde tu cuenta, sin permanencia.`,
   ];
 }
 
