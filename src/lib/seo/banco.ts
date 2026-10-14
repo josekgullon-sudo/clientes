@@ -4,6 +4,7 @@ import { join } from "node:path";
 import { esquemaArchivo, esquemaLey, esquemaOposicion, type Pregunta } from "@/lib/preguntas/esquema";
 import type { PreguntaTest } from "@/lib/test/tipos";
 import { elegirSemana, slugTema, type RutaPublica } from "./seleccion";
+import { deNorma, h1Ley } from "./textos";
 
 export type PreguntaPublica = PreguntaTest & { dificultad: 1 | 2 | 3 };
 
@@ -169,9 +170,9 @@ export function paginaPublica(slug: string, fecha = new Date()): PaginaPublica |
     return {
       slug,
       tipo: "ley",
-      titulo: ley.nombreCorto === "Constitución" ? "Test de la Constitución Española" : `Test de la ${ley.nombreCorto}`,
-      h1: ley.nombreCorto === "Constitución" ? "Test de la Constitución Española" : `Test de la ${ley.nombreCorto}`,
-      descripcion: `Preguntas gratis de la ${ley.nombre} para el Auxiliar Administrativo del Estado, con la respuesta explicada y el artículo del BOE.`,
+      titulo: `Test ${ley.nombreCorto} gratis`,
+      h1: h1Ley(ley.nombreCorto),
+      descripcion: `${preguntas.length} preguntas gratis ${deNorma(ley.nombreCorto)} para el Auxiliar Administrativo del Estado, con explicación y artículo del BOE.`,
       ley,
       tema: null,
       preguntas,
@@ -179,7 +180,7 @@ export function paginaPublica(slug: string, fecha = new Date()): PaginaPublica |
       articulos: articulosDe(filas),
       temasRelacionados,
       leyesRelacionadas: [],
-      siguiente: sig && sig.slug !== ley.slug ? { href: `/test/${sig.slug}`, texto: `Test de la ${sig.nombreCorto}` } : null,
+      siguiente: sig && sig.slug !== ley.slug ? { href: `/test/${sig.slug}`, texto: `Test ${sig.nombreCorto} gratis` } : null,
       enPreparacion: filas.length === 0,
     };
   }

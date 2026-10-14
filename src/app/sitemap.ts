@@ -8,6 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const paginas = rutasPublicas();
   return [
     { url: SITIO.url, changeFrequency: "weekly", priority: 1 },
+    { url: `${SITIO.url}/test`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITIO.url}/reto`, changeFrequency: "daily", priority: 0.8 },
     ...paginas.map((p) => ({
       url: `${SITIO.url}/test/${p.slug}`,

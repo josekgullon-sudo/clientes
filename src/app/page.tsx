@@ -264,6 +264,11 @@ export default function Inicio() {
             <h2 id="practica" className="mt-2 font-display text-[2rem] leading-tight font-extrabold md:text-[2.5rem]">
               Practica por ley o por tema
             </h2>
+            <p className="mt-3">
+              <Link href="/test" className="enlace">
+                Ver el índice de test por ley
+              </Link>
+            </p>
             <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {leyes.map((l) => (
                 <li key={l!.slug}>
