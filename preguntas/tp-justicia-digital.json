@@ -1,0 +1,505 @@
+{
+  "descripcion": "RDL 6/2023, libro primero (servicio público de justicia digital). Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-09-16).",
+  "preguntas": [
+    {
+      "id": "tpt-001",
+      "ley": "rdl-6-2023",
+      "articulo": "8.2",
+      "enunciado": "¿Cómo se crean las sedes judiciales electrónicas?",
+      "opciones": [
+        "Por acuerdo de la Sala de Gobierno del Tribunal Superior de Justicia",
+        "Mediante disposición publicada en el BOE o en el boletín oficial de la Comunidad Autónoma",
+        "Por resolución del Consejo General del Poder Judicial publicada en su portal",
+        "Por orden del Comité técnico estatal de la Administración judicial electrónica"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 8.2, «Las sedes judiciales electrónicas se crearán mediante disposición publicada en el» Boletín Oficial del Estado o en el Boletín o Diario Oficial de la Comunidad Autónoma correspondiente.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-002",
+      "ley": "rdl-6-2023",
+      "articulo": "12.1",
+      "enunciado": "El Punto de Acceso General de la Administración de Justicia, como mínimo, contendrá:",
+      "opciones": [
+        "El Tablón Edictal Judicial Único y el Registro de Apoderamientos Judiciales",
+        "El Punto Común de Actos de Comunicación y el Portal de datos de la Administración de Justicia",
+        "El Registro judicial electrónico y el Sistema Común de Intercambio de expedientes",
+        "La Carpeta Justicia y el directorio de las sedes judiciales electrónicas"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 12.1 dispone que el Punto de Acceso General «como mínimo, contendrá la Carpeta Justicia y el directorio de las sedes judiciales electrónicas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-003",
+      "ley": "rdl-6-2023",
+      "articulo": "13.1",
+      "enunciado": "La Carpeta Justicia facilita el acceso a los servicios e informaciones de la Administración de Justicia que afecten a un ciudadano cuando este:",
+      "opciones": [
+        "Sea parte o justifique un interés legítimo y directo en el procedimiento o actuación",
+        "Haya sido citado como testigo o perito en algún procedimiento",
+        "Sea mayor de edad y disponga de certificado electrónico cualificado",
+        "Esté representado por abogado y procurador en el procedimiento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 13.1 la define como un servicio que facilita el acceso a lo que afecte al ciudadano «cuando sea parte o justifique un interés legítimo y directo en un procedimiento o actuación judicial».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-004",
+      "ley": "rdl-6-2023",
+      "articulo": "17.4",
+      "enunciado": "Si un procedimiento judicial no está en soporte electrónico, se habilitarán servicios electrónicos de información que comprendan, cuando menos:",
+      "opciones": [
+        "El contenido íntegro de los escritos presentados por las partes",
+        "Las resoluciones dictadas y su fecha de notificación",
+        "El estado de la tramitación y el órgano judicial competente",
+        "El nombre de las partes y de sus representantes procesales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 17.4 ordena que «se habilitarán igualmente servicios electrónicos de información que comprendan cuando menos el estado de la tramitación y el órgano judicial competente».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-005",
+      "ley": "rdl-6-2023",
+      "articulo": "20.3",
+      "enunciado": "Cuando se utiliza un sistema de firma admitido para relacionarse con la Administración de Justicia, la identidad del firmante:",
+      "opciones": [
+        "Debe acreditarse además con un sistema de identificación distinto",
+        "Se entiende ya acreditada mediante el propio acto de la firma",
+        "Debe ser confirmada después por el letrado de la Administración de Justicia",
+        "Se presume salvo que la parte contraria la impugne en el acto"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 20.3, «la identidad se entenderá ya acreditada mediante el propio acto de la firma».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-006",
+      "ley": "rdl-6-2023",
+      "articulo": "21",
+      "enunciado": "Las personas jurídicas y entidades sin personalidad jurídica podrán utilizar ante la Administración de Justicia sistemas de firma electrónica:",
+      "opciones": [
+        "Con atributo de representante, si es conforme con las leyes procesales",
+        "Únicamente de persona física, a través de su administrador",
+        "Solo mediante sello electrónico de la propia entidad",
+        "Exclusivamente mediante clave concertada del representante"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 21 permite que utilicen «sistemas de firma electrónica con atributo de representante para todos los procedimientos y actuaciones ante la Administración de Justicia, siempre que ello sea conforme con las leyes procesales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-007",
+      "ley": "rdl-6-2023",
+      "articulo": "22.2",
+      "enunciado": "Fuera de los casos en que las leyes procesales exigen firma, para realizar actuaciones o acceder a servicios ante la Administración de Justicia basta:",
+      "opciones": [
+        "Firmar con certificado electrónico cualificado en cada actuación",
+        "Disponer de un apoderamiento inscrito en el registro electrónico",
+        "Contar con una autorización expresa del letrado de la Administración de Justicia",
+        "Acreditar previamente la identidad con cualquiera de los medios de identificación previstos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 22.2 establece que en los demás casos «será suficiente acreditar previamente la identidad a través de cualquiera de los medios de identificación previstos en este real decreto-ley».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-008",
+      "ley": "rdl-6-2023",
+      "articulo": "23.1",
+      "enunciado": "En las videoconferencias judiciales, el sistema de identificación seguro puede consistir en un sistema de información para la identificación y firma:",
+      "opciones": [
+        "Biométrica obligatoria",
+        "Criptográfica de clave asimétrica",
+        "No criptográfica",
+        "Manuscrita digitalizada"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 23.1 prevé «un sistema de información para la identificación y firma no criptográfica, en los términos y condiciones de uso establecidos en la regulación sobre identificación digital».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-009",
+      "ley": "rdl-6-2023",
+      "articulo": "41.1",
+      "enunciado": "Las partes o intervinientes deben presentar los documentos para su incorporación al expediente judicial electrónico:",
+      "opciones": [
+        "En papel, con copia digitalizada adjunta",
+        "En formato electrónico, salvo los casos previstos en las leyes",
+        "En el formato que elija cada interviniente",
+        "En formato electrónico, sin excepción alguna"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 41.1 obliga a presentar «todo tipo de documentos y actuaciones para su incorporación al expediente judicial electrónico en formato electrónico», con las excepciones previstas en las leyes.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-010",
+      "ley": "rdl-6-2023",
+      "articulo": "42.1",
+      "enunciado": "¿Cuál de estos datos debe constar necesariamente en un escrito presentado por medios electrónicos?",
+      "opciones": [
+        "El tipo y número de procedimiento al que se debe incorporar",
+        "La cuantía económica del procedimiento",
+        "El domicilio profesional del presentante",
+        "El nombre del letrado de la Administración de Justicia"
+      ],
+      "correcta": 0,
+      "explicacion": "Entre los datos del artículo 42.1 figura el apartado c): «El tipo y número de procedimiento al que se debe incorporar», junto con la identidad del presentante, el órgano destinatario y la fecha.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-011",
+      "ley": "rdl-6-2023",
+      "articulo": "42.3",
+      "enunciado": "Si hay dudas sobre la integridad de un documento presentado electrónicamente, la oficina judicial puede:",
+      "opciones": [
+        "Inadmitir el documento sin más trámite",
+        "Solicitar al Comité técnico estatal un dictamen sobre el documento",
+        "Dar traslado al Ministerio Fiscal para que investigue",
+        "Requerir al presentante para que exhiba el documento o la información original"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 42.3, «la oficina judicial podrá requerir al presentante para que exhiba el documento o la información original, con el fin de proceder a su examen».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-012",
+      "ley": "rdl-6-2023",
+      "articulo": "43.1",
+      "enunciado": "Los documentos en papel aportados por una parte no obligada a relacionarse electrónicamente con la Administración de Justicia:",
+      "opciones": [
+        "Se conservan en papel y se unen a una pieza separada",
+        "Deben ser digitalizados por la parte antes de presentarlos",
+        "Se digitalizan por la oficina judicial y se incorporan al expediente judicial electrónico",
+        "Se devuelven a la parte para que los presente en formato electrónico"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 43.1 dice que tales documentos «se deberán digitalizar por la oficina judicial e incorporar al expediente judicial electrónico».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-013",
+      "ley": "rdl-6-2023",
+      "articulo": "43.4",
+      "enunciado": "Si un documento no pudo adjuntarse al envío electrónico, el original debe presentarse ante el órgano judicial:",
+      "opciones": [
+        "El mismo día del envío electrónico",
+        "El día hábil siguiente al del envío electrónico, o se tendrá por no presentado",
+        "En los tres días siguientes al envío electrónico",
+        "En el plazo que fije el letrado de la Administración de Justicia"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 43.4, el original se presentará «en el día hábil siguiente a aquel en que se hubiera efectuado el envío electrónico del escrito»; si no, «el documento se tendrá por no presentado a todos los efectos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-014",
+      "ley": "rdl-6-2023",
+      "articulo": "43.5",
+      "enunciado": "¿Quién deja constancia en el expediente judicial electrónico de la existencia de documentos en formato no electrónico?",
+      "opciones": [
+        "El letrado de la Administración de Justicia, por diligencia",
+        "El juez o magistrado, por providencia",
+        "El funcionario del Cuerpo de Gestión Procesal, por nota",
+        "La parte que los aporta, mediante escrito"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 43.5 señala: «Se dejará constancia en el expediente judicial electrónico, por diligencia del letrado o letrada de la Administración de Justicia, de la existencia de documentos en formato no electrónico».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-015",
+      "ley": "rdl-6-2023",
+      "articulo": "44.1",
+      "enunciado": "El traslado de copias entre profesionales se realiza por vía telemática:",
+      "opciones": [
+        "Dentro de los dos días siguientes a la presentación del escrito",
+        "Previa autorización del letrado de la Administración de Justicia",
+        "A través de la oficina judicial, que las remite a cada parte",
+        "De forma simultánea a la presentación telemática de los escritos originales ante el tribunal"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 44.1 establece que «El traslado de copias entre profesionales se realizará por vía telemática de forma simultánea a la presentación telemática de escritos y documentos originales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-016",
+      "ley": "rdl-6-2023",
+      "articulo": "47.2",
+      "enunciado": "El número de identificación general que se asigna a cada expediente judicial electrónico es:",
+      "opciones": [
+        "Único en cada instancia y nuevo en cada recurso",
+        "Asignado por cada órgano y modificable al itinerar el expediente",
+        "Único e inalterable a lo largo de todo el proceso",
+        "Común para todos los expedientes de una misma parte"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 47.2, se asignará un número de identificación general a cada expediente «que será único e inalterable a lo largo de todo el proceso».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-017",
+      "ley": "rdl-6-2023",
+      "articulo": "47.3",
+      "enunciado": "El índice electrónico de todo expediente judicial electrónico garantiza:",
+      "opciones": [
+        "La confidencialidad de los datos personales de las partes",
+        "La integridad del expediente y permite su recuperación siempre que sea preciso",
+        "La autenticidad de la firma de cada resolución incorporada",
+        "La conservación del expediente en el archivo judicial"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 47.3 indica que «Este índice garantizará la integridad del expediente judicial electrónico y permitirá su recuperación siempre que sea preciso».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-018",
+      "ley": "rdl-6-2023",
+      "articulo": "50.1",
+      "enunciado": "En los actos de comunicación por medios electrónicos, ¿qué se entiende por comparecencia en la Carpeta Justicia o en la sede judicial electrónica?",
+      "opciones": [
+        "El acceso de la persona interesada o su representante, debidamente identificado, al contenido del acto",
+        "La mera recepción del aviso de puesta a disposición del acto",
+        "La firma por el interesado del justificante de recepción",
+        "La presentación personal del interesado en la oficina judicial"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 50.1 define la comparecencia como «el acceso por la persona interesada o su representante debidamente identificado al contenido del acto de comunicación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-019",
+      "ley": "rdl-6-2023",
+      "articulo": "51.1",
+      "enunciado": "El Punto Común de Actos de Comunicación permite a los profesionales:",
+      "opciones": [
+        "Presentar escritos ante cualquier órgano judicial del territorio",
+        "Consultar únicamente las comunicaciones de los órganos de su partido judicial",
+        "Publicar edictos en el Tablón Edictal Judicial Único",
+        "Acceder a todos los actos de comunicación de los que sean destinatarios, sea cual sea el órgano que los emitió"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 51.1 prevé un punto «en el que los y las profesionales puedan acceder a todos los actos de comunicación de los que sean destinatarios, cualquiera que sea órgano judicial, oficina judicial u oficina fiscal que los haya emitido».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-020",
+      "ley": "rdl-6-2023",
+      "articulo": "72.2",
+      "enunciado": "Los registros electrónicos judiciales permiten la presentación de escritos, documentos y comunicaciones:",
+      "opciones": [
+        "Solo en días hábiles, durante las veinticuatro horas",
+        "Todos los días del año, en horario de oficina",
+        "Todos los días del año durante las veinticuatro horas",
+        "Solo en días hábiles y en horario de audiencia"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 72.2 dispone: «Los registros electrónicos permitirán la presentación de escritos, documentos y comunicaciones todos los días del año durante las veinticuatro horas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-021",
+      "ley": "rdl-6-2023",
+      "articulo": "72.3",
+      "enunciado": "Un escrito presentado por medios electrónicos en un día inhábil procesal, salvo que una norma permita expresamente su recepción, se entiende presentado:",
+      "opciones": [
+        "A las 00:00 horas del día inhábil",
+        "En la primera hora hábil del primer día hábil siguiente",
+        "En la última hora hábil del día hábil anterior",
+        "En el momento de su presentación, a efectos de plazos de las partes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 72.3 establece que la presentación en día inhábil «se entenderá realizada en la primera hora hábil del primer día hábil siguiente».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-022",
+      "ley": "rdl-6-2023",
+      "articulo": "85.1",
+      "enunciado": "El Comité técnico estatal de la Administración judicial electrónica es:",
+      "opciones": [
+        "El órgano de cooperación en materia de Administración judicial electrónica",
+        "El órgano de gobierno de los sistemas informáticos de los tribunales",
+        "Un órgano consultivo adscrito a la Fiscalía General del Estado",
+        "El órgano que resuelve los recursos sobre actuaciones electrónicas"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 85.1, «es el órgano de cooperación en materia de Administración judicial electrónica».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-023",
+      "ley": "rdl-6-2023",
+      "articulo": "88.1",
+      "enunciado": "El Esquema Judicial de Interoperabilidad y Seguridad está constituido por el conjunto de instrucciones técnicas aprobadas por:",
+      "opciones": [
+        "El Consejo General del Poder Judicial",
+        "La Conferencia Sectorial de Justicia",
+        "El Consejo Consultivo para la Transformación Digital",
+        "El Comité técnico estatal de la Administración judicial electrónica"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 88.1 lo define como «conjunto de instrucciones técnicas de interoperabilidad y seguridad aprobadas por el Comité técnico estatal de la Administración judicial electrónica».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-024",
+      "ley": "rdl-6-2023",
+      "articulo": "60.1",
+      "enunciado": "En una videoconferencia judicial, las personas intervinientes deben identificarse:",
+      "opciones": [
+        "Antes de la convocatoria, mediante certificado",
+        "Al finalizar el acto, junto con la firma",
+        "Al inicio del acto",
+        "Solo cuando lo solicite el letrado de la Administración de Justicia"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 60.1 señala que «las personas intervinientes en una videoconferencia deberán identificarse al inicio del acto».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpt-025",
+      "ley": "rdl-6-2023",
+      "articulo": "61.1",
+      "enunciado": "El incumplimiento de las normas de identificación y firma en una videoconferencia judicial:",
+      "opciones": [
+        "Determina la nulidad de la actuación realizada",
+        "No priva por sí solo de efectos a la actuación ni supone su nulidad",
+        "Obliga a repetir la actuación de forma presencial",
+        "Priva de efectos a la actuación si lo pide una parte"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 61.1, ese incumplimiento «no priva por sí solo de efectos procesales y jurídicos a la actuación llevada a cabo por videoconferencia, ni supone la ineficacia o nulidad de la misma».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    }
+  ]
+}
