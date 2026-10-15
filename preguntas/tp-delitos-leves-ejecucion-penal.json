@@ -1,0 +1,605 @@
+{
+  "descripcion": "LECrim: juicio sobre delitos leves, enjuiciamiento rápido, ejecución y responsabilidad civil (tema 21 de Tramitación Procesal). Citas comprobadas por script contra el texto consolidado del BOE (versión 2026-04-09).",
+  "preguntas": [
+    {
+      "id": "tpl-001",
+      "ley": "lecrim",
+      "articulo": "962.1",
+      "enunciado": "Al citar la Policía Judicial por un delito leve de hurto flagrante, apercibe a los citados de que el juicio:",
+      "opciones": [
+        "No podrá celebrarse si no comparece el denunciado",
+        "Se suspenderá hasta nueva citación si falta algún testigo",
+        "Podrá celebrarse de forma inmediata en el Juzgado de guardia, aunque no comparezcan",
+        "Solo se celebrará si comparece el Ministerio Fiscal"
+      ],
+      "correcta": 2,
+      "explicacion": "Se les apercibirá «de que podrá celebrarse el juicio de forma inmediata en el Juzgado de guardia, incluso aunque no comparezcan».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-002",
+      "ley": "lecrim",
+      "articulo": "963.1",
+      "enunciado": "En los delitos leves patrimoniales no hay interés público relevante en su persecución cuando:",
+      "opciones": [
+        "Se ha reparado el daño y no existe denuncia del perjudicado",
+        "El valor de lo sustraído es inferior al mínimo del delito de hurto",
+        "El denunciado carece de antecedentes penales",
+        "El perjudicado renuncia a la acción civil"
+      ],
+      "correcta": 0,
+      "explicacion": "En los delitos leves patrimoniales «se entenderá que no existe interés público relevante en su persecución cuando se hubiere procedido a la reparación del daño y no exista denuncia del perjudicado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-003",
+      "ley": "lecrim",
+      "articulo": "963.2",
+      "enunciado": "Para acordar la celebración inmediata del juicio por delito leve en el Juzgado de guardia, es necesario que el asunto:",
+      "opciones": [
+        "Haya sido denunciado directamente por el ofendido ante el Juzgado",
+        "Cuente con informe previo favorable del Ministerio Fiscal",
+        "Se refiera a un delito leve de lesiones o de amenazas",
+        "Corresponda al Juzgado de guardia según las normas de competencia y de reparto"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 963.2 dispone que «será necesario que el asunto le corresponda al Juzgado de guardia en virtud de las normas de competencia y de reparto».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-004",
+      "ley": "lecrim",
+      "articulo": "964.3",
+      "enunciado": "En las citaciones para el juicio por delito leve del artículo 964, no se cita al Ministerio Fiscal cuando el delito leve:",
+      "opciones": [
+        "Sea de lesiones o maltrato de obra",
+        "Sea perseguible sólo a instancia de parte",
+        "Se enjuicie en el Juzgado de Violencia sobre la Mujer",
+        "Lleve aparejada pena de multa"
+      ],
+      "correcta": 1,
+      "explicacion": "Las citaciones se harán al Ministerio Fiscal, «salvo que el delito leve fuere perseguible sólo a instancia de parte».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-005",
+      "ley": "lecrim",
+      "articulo": "965.1",
+      "enunciado": "Si el juicio por delito leve no puede celebrarse durante la guardia y es competente el propio Juzgado, el señalamiento se hará en un plazo no superior a:",
+      "opciones": [
+        "Tres días",
+        "Diez días",
+        "Quince días",
+        "Siete días"
+      ],
+      "correcta": 3,
+      "explicacion": "El señalamiento se hará para el día hábil más próximo posible «y en cualquier caso en un plazo no superior a siete días».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-006",
+      "ley": "lecrim",
+      "articulo": "967.1",
+      "enunciado": "Se aplican las reglas generales de defensa y representación a los delitos leves con pena de multa cuyo límite máximo sea de al menos:",
+      "opciones": [
+        "Seis meses",
+        "Tres meses",
+        "Un año",
+        "Dos meses"
+      ],
+      "correcta": 0,
+      "explicacion": "Para el enjuiciamiento de «delitos leves que lleven aparejada pena de multa cuyo límite máximo sea de al menos seis meses, se aplicarán las reglas generales de defensa y representación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-007",
+      "ley": "lecrim",
+      "articulo": "968",
+      "enunciado": "Si por motivo justo no puede celebrarse el juicio por delito leve el día señalado, se señalará nuevo día, en todo caso, dentro de los:",
+      "opciones": [
+        "Tres días siguientes",
+        "Quince días siguientes",
+        "Siete días siguientes",
+        "Diez días siguientes"
+      ],
+      "correcta": 2,
+      "explicacion": "Se señalará «el día más inmediato posible y, en todo caso, dentro de los siete siguientes, haciéndolo saber a los interesados».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-008",
+      "ley": "lecrim",
+      "articulo": "969.2",
+      "enunciado": "En el juicio por delito leve que exige denuncia del ofendido, si el Fiscal no asiste, la declaración del denunciante afirmando los hechos tiene:",
+      "opciones": [
+        "Valor de mero testimonio, sin efecto acusatorio",
+        "Valor de acusación, aunque no los califique ni señale pena",
+        "Valor de acusación solo si califica los hechos y señala pena",
+        "Valor de acusación solo si la ratifica un abogado"
+      ],
+      "correcta": 1,
+      "explicacion": "La declaración del denunciante en el juicio afirmando los hechos denunciados «tendrá valor de acusación, aunque no los califique ni señale pena».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-009",
+      "ley": "lecrim",
+      "articulo": "971",
+      "enunciado": "La ausencia injustificada del acusado, citado con las formalidades legales, en el juicio por delito leve:",
+      "opciones": [
+        "Suspende siempre el juicio hasta nueva citación",
+        "Obliga a declararlo en rebeldía",
+        "Equivale a conformidad con la denuncia",
+        "No suspende el juicio, salvo que el Juez estime necesaria su declaración"
+      ],
+      "correcta": 3,
+      "explicacion": "La ausencia injustificada del acusado «no suspenderá la celebración ni la resolución del juicio», salvo que el Juez «crea necesaria la declaración de aquél».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-010",
+      "ley": "lecrim",
+      "articulo": "973.1",
+      "enunciado": "El Juez dicta sentencia en el juicio por delito leve en el acto de finalizar el juicio o, si no es posible, dentro de:",
+      "opciones": [
+        "Los tres días siguientes",
+        "Los cinco días siguientes",
+        "Los diez días siguientes",
+        "Las cuarenta y ocho horas siguientes"
+      ],
+      "correcta": 0,
+      "explicacion": "El Juez, «en el acto de finalizar el juicio, y a no ser posible dentro de los tres días siguientes, dictará sentencia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-011",
+      "ley": "lecrim",
+      "articulo": "976.1",
+      "enunciado": "La sentencia dictada en el juicio por delito leve es apelable en el plazo de:",
+      "opciones": [
+        "Tres días siguientes al de su notificación",
+        "Cinco días siguientes al de su notificación",
+        "Diez días siguientes al de su notificación",
+        "Quince días siguientes al de su notificación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 976.1 establece: «La sentencia es apelable en el plazo de los cinco días siguientes al de su notificación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-012",
+      "ley": "lecrim",
+      "articulo": "795.1",
+      "enunciado": "El procedimiento para el enjuiciamiento rápido se aplica a delitos con pena privativa de libertad que no exceda de:",
+      "opciones": [
+        "Tres años",
+        "Seis años",
+        "Cinco años",
+        "Nueve años"
+      ],
+      "correcta": 2,
+      "explicacion": "Se aplica a «delitos castigados con pena privativa de libertad que no exceda de cinco años», entre otras penas.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-013",
+      "ley": "lecrim",
+      "articulo": "796.1",
+      "enunciado": "En el enjuiciamiento rápido, si no se ha detenido al denunciado en el atestado, la Policía Judicial:",
+      "opciones": [
+        "Remitirá el atestado al Juzgado de guardia sin citarlo",
+        "Lo citará para comparecer ante el Fiscal en el plazo de setenta y dos horas",
+        "Esperará a que el Juez de guardia acuerde su citación",
+        "Lo citará para comparecer en el Juzgado de guardia en el día y hora que se le señale"
+      ],
+      "correcta": 3,
+      "explicacion": "La Policía Judicial «citará a la persona que resulte denunciada en el atestado policial para comparecer en el Juzgado de guardia en el día y hora que se le señale, cuando no se haya procedido a su detención».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-014",
+      "ley": "lecrim",
+      "articulo": "797.1",
+      "enunciado": "El auto por el que el Juzgado de guardia incoa diligencias urgentes en el enjuiciamiento rápido:",
+      "opciones": [
+        "No es recurrible",
+        "Es apelable en cinco días",
+        "Es recurrible en reforma en tres días",
+        "Es recurrible en queja ante la Audiencia"
+      ],
+      "correcta": 0,
+      "explicacion": "El Juzgado de guardia «incoará, si procede, diligencias urgentes. Contra este auto no cabrá recurso alguno».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-015",
+      "ley": "lecrim",
+      "articulo": "799.2",
+      "enunciado": "Si el servicio de guardia no es permanente y dura más de veinticuatro horas, el plazo para las diligencias urgentes puede prorrogarse un período adicional de:",
+      "opciones": [
+        "Cuarenta y ocho horas",
+        "Setenta y dos horas",
+        "Veinticuatro horas",
+        "Cinco días"
+      ],
+      "correcta": 1,
+      "explicacion": "El plazo «podrá prorrogarse por el Juez por un período adicional de setenta y dos horas» si el atestado se recibió en las cuarenta y ocho anteriores al fin de la guardia.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-016",
+      "ley": "lecrim",
+      "articulo": "800.3",
+      "enunciado": "El Letrado de la Administración de Justicia del Juzgado de guardia señala el juicio oral del enjuiciamiento rápido en la fecha más próxima posible y, en todo caso, dentro de:",
+      "opciones": [
+        "Los cinco días siguientes",
+        "Los diez días siguientes",
+        "Los quince días siguientes",
+        "Los treinta días siguientes"
+      ],
+      "correcta": 2,
+      "explicacion": "Se hará el señalamiento «en la fecha más próxima posible y, en cualquier caso, dentro de los quince días siguientes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-017",
+      "ley": "lecrim",
+      "articulo": "800.5",
+      "enunciado": "Si el superior jerárquico del Fiscal tampoco presenta en plazo el escrito de acusación requerido en el enjuiciamiento rápido, se entiende que:",
+      "opciones": [
+        "Pide la apertura del juicio oral en los términos del atestado",
+        "Solicita el sobreseimiento provisional de la causa",
+        "Dispone de un nuevo plazo improrrogable de cinco días",
+        "No pide la apertura de juicio oral y considera procedente el sobreseimiento libre"
+      ],
+      "correcta": 3,
+      "explicacion": "Si no lo presenta, «se entenderá que no pide la apertura de juicio oral y que considera procedente el sobreseimiento libre».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-018",
+      "ley": "lecrim",
+      "articulo": "801.1",
+      "enunciado": "Para la conformidad ante el Juzgado de guardia, la pena privativa de libertad solicitada, reducida en un tercio, no puede superar:",
+      "opciones": [
+        "Dos años de prisión",
+        "Un año de prisión",
+        "Tres años de prisión",
+        "Cinco años de prisión"
+      ],
+      "correcta": 0,
+      "explicacion": "Se exige que la pena solicitada o la suma de las penas «no supere, reducida en un tercio, los dos años de prisión».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-019",
+      "ley": "lecrim",
+      "articulo": "984",
+      "enunciado": "En la ejecución de la sentencia de un juicio por faltas, la reparación del daño y la indemnización de perjuicios se rigen por la LEC, y su ejecución será promovida:",
+      "opciones": [
+        "A instancia del Ministerio Fiscal",
+        "De oficio por el Juez que dictó la sentencia",
+        "Solo a instancia del perjudicado en el plazo de cinco días",
+        "Por el Letrado de la Administración de Justicia a petición de parte"
+      ],
+      "correcta": 1,
+      "explicacion": "Se aplicarán las disposiciones de la Ley de Enjuiciamiento Civil, «si bien será en todo caso promovida de oficio por el Juez que la dictó».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-020",
+      "ley": "lecrim",
+      "articulo": "986",
+      "enunciado": "La sentencia dictada a continuación de la de casación por la Sala segunda del Tribunal Supremo se ejecuta por:",
+      "opciones": [
+        "La propia Sala segunda del Tribunal Supremo",
+        "El Juzgado de lo Penal del lugar de residencia del condenado",
+        "El Tribunal que hubiese pronunciado la sentencia casada",
+        "El Tribunal del lugar donde el condenado cumpla la pena"
+      ],
+      "correcta": 2,
+      "explicacion": "Esa sentencia «se ejecutará por el Tribunal que hubiese pronunciado la sentencia casada, en vista de la certificación que al efecto le remitirá la referida Sala».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-021",
+      "ley": "lecrim",
+      "articulo": "988.3",
+      "enunciado": "Si una persona es condenada en distintos procesos por hechos que pudieron enjuiciarse en uno solo, el límite de cumplimiento de las penas lo fija:",
+      "opciones": [
+        "El Juez o Tribunal que dictó la primera sentencia",
+        "La Sala Segunda del Tribunal Supremo",
+        "El Juez de Vigilancia Penitenciaria",
+        "El Juez o Tribunal que dictó la última sentencia"
+      ],
+      "correcta": 3,
+      "explicacion": "«El Juez o Tribunal que hubiera dictado la última sentencia, de oficio, a instancia del Ministerio Fiscal o del condenado, procederá a fijar el límite del cumplimiento de las penas».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-022",
+      "ley": "lecrim",
+      "articulo": "988 bis.1",
+      "enunciado": "Incoada la ejecutoria, se da traslado a la representación de cada condenado para que se pronuncie sobre la suspensión y otras cuestiones en el plazo de:",
+      "opciones": [
+        "Diez días",
+        "Tres días",
+        "Cinco días",
+        "Quince días"
+      ],
+      "correcta": 0,
+      "explicacion": "Se dará traslado del auto de incoación «a la representación de cada uno de los condenados para que, en el plazo de diez días, se pronuncien en un mismo escrito».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-023",
+      "ley": "lecrim",
+      "articulo": "988 bis.4",
+      "enunciado": "Si las partes no impugnan en plazo la liquidación de condena, la aprueba:",
+      "opciones": [
+        "El Juez o Tribunal, mediante auto",
+        "El Juez o Tribunal, mediante providencia",
+        "El Letrado de la Administración de Justicia, mediante decreto",
+        "El Letrado de la Administración de Justicia, mediante diligencia de ordenación"
+      ],
+      "correcta": 2,
+      "explicacion": "«Transcurrido el plazo sin impugnación, el letrado o la letrada de la Administración de Justicia la aprobará mediante decreto».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-024",
+      "ley": "lecrim",
+      "articulo": "988 bis.4",
+      "enunciado": "En la liquidación de condena el cómputo se hace por años, meses y días: los meses completos serán de ... y los años completos de ...",
+      "opciones": [
+        "Treinta días y trescientos sesenta días",
+        "Treinta días y trescientos sesenta y cinco días",
+        "Treinta y un días y trescientos sesenta y cinco días",
+        "Veintiocho días y trescientos sesenta días"
+      ],
+      "correcta": 1,
+      "explicacion": "Los cómputos se harán por años, meses y días: «los meses completos serán de treinta días y los años completos serán de trescientos sesenta y cinco días».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-025",
+      "ley": "lecrim",
+      "articulo": "112.1",
+      "enunciado": "Ejercitada sólo la acción penal, se entiende utilizada también la civil, a no ser que el dañado o perjudicado:",
+      "opciones": [
+        "La haya ejercitado antes en un proceso civil",
+        "Lo solicite el Ministerio Fiscal",
+        "Se persone como acusación particular",
+        "La renuncie o la reserve expresamente para ejercitarla tras el juicio criminal"
+      ],
+      "correcta": 3,
+      "explicacion": "Se entiende utilizada también la civil, «a no ser que el dañado o perjudicado la renunciase o la reservase expresamente para ejercitarla después de terminado el juicio criminal».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-026",
+      "ley": "lecrim",
+      "articulo": "112.2",
+      "enunciado": "Aunque se haya renunciado a la acción civil, la renuncia puede revocarse por resolución judicial si se solicita antes de:",
+      "opciones": [
+        "El trámite de calificación del delito",
+        "La apertura del juicio oral",
+        "La sentencia de primera instancia",
+        "La conclusión del sumario"
+      ],
+      "correcta": 0,
+      "explicacion": "La renuncia puede revocarse a solicitud del perjudicado «siempre y cuando se formule antes del trámite de calificación del delito».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-027",
+      "ley": "lecrim",
+      "articulo": "115",
+      "enunciado": "Muerto el culpable, la acción penal se extingue y la civil:",
+      "opciones": [
+        "También se extingue",
+        "Subsiste contra sus herederos, ante el mismo órgano penal",
+        "Subsiste contra sus herederos y causahabientes, solo ante la jurisdicción civil",
+        "Subsiste solo si ya estaba ejercitada en la causa"
+      ],
+      "correcta": 2,
+      "explicacion": "En este caso «subsiste la civil contra sus herederos y causahabientes, que sólo podrá ejercitarse ante la jurisdicción y por la vía de lo civil».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-028",
+      "ley": "lecrim",
+      "articulo": "116.1",
+      "enunciado": "La extinción de la acción penal lleva consigo la de la civil cuando:",
+      "opciones": [
+        "Fallece el culpable antes de dictarse la sentencia",
+        "Se declara por sentencia firme que no existió el hecho del que la civil pudo nacer",
+        "Prescribe el delito por el transcurso del plazo legal",
+        "Se acuerda el sobreseimiento libre de la causa"
+      ],
+      "correcta": 1,
+      "explicacion": "La extinción de la acción penal no lleva consigo la de la civil, «a no ser que la extinción proceda de haberse declarado por sentencia firme que no existió el hecho de que la civil hubiese podido nacer».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-029",
+      "ley": "lecrim",
+      "articulo": "615",
+      "enunciado": "Si en el sumario aparece la responsabilidad civil de un tercero, el Juez, a instancia del actor civil, exigirá a esa persona:",
+      "opciones": [
+        "Un aval bancario inmediato",
+        "Su declaración como investigado",
+        "El depósito de la mitad de la indemnización",
+        "Fianza, y si no la presta, el embargo de bienes"
+      ],
+      "correcta": 3,
+      "explicacion": "El Juez, a instancia del actor civil, «exigirá fianza a la persona contra quien resulte la responsabilidad. Si no se prestase, el Secretario judicial embargará» los bienes necesarios.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    },
+    {
+      "id": "tpl-030",
+      "ley": "lecrim",
+      "articulo": "619",
+      "enunciado": "La responsabilidad civil de un tercero en el sumario se tramita en pieza separada, sin que por ningún motivo:",
+      "opciones": [
+        "Se paralice la ejecución de la sentencia",
+        "Se pueda recurrir lo resuelto",
+        "Se entorpezca ni suspenda el curso de la instrucción",
+        "Intervenga el Ministerio Fiscal"
+      ],
+      "correcta": 2,
+      "explicacion": "Se formará pieza separada, «pero sin que por ningún motivo se entorpezca ni suspenda el curso de la instrucción».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 21
+      }
+    }
+  ]
+}

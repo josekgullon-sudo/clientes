@@ -1,0 +1,805 @@
+{
+  "descripcion": "Ley 1/2000 (LEC), libro III: ejecución forzosa y medidas cautelares (tema 17 de Tramitación Procesal). Citas comprobadas por script contra el texto consolidado del BOE (versión 2026-10-07).",
+  "preguntas": [
+    {
+      "id": "tpi-001",
+      "ley": "ley-1-2000",
+      "articulo": "518",
+      "enunciado": "La acción ejecutiva fundada en sentencia firme caduca si no se interpone la demanda ejecutiva dentro de:",
+      "opciones": [
+        "Tres años siguientes a la firmeza de la sentencia",
+        "Un año siguiente a la firmeza de la sentencia",
+        "Cinco años siguientes a la firmeza de la sentencia",
+        "Diez años siguientes a la firmeza de la sentencia"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 518 dispone que la acción «caducará si no se interpone la correspondiente demanda ejecutiva dentro de los cinco años siguientes a la firmeza de la sentencia o resolución».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-002",
+      "ley": "ley-1-2000",
+      "articulo": "548",
+      "enunciado": "Plazo de espera legal antes de despachar ejecución de una resolución procesal de condena, contado desde que es firme:",
+      "opciones": [
+        "Diez días",
+        "Cinco días",
+        "Treinta días",
+        "Veinte días"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 548, «No se despachará ejecución de resoluciones procesales o arbitrales o de acuerdos de mediación, dentro de los veinte días posteriores a aquel en que la resolución de condena sea firme».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-003",
+      "ley": "ley-1-2000",
+      "articulo": "545.1",
+      "enunciado": "En la ejecución de una sentencia firme, ¿qué tribunal es competente para dictar el auto con la orden general de ejecución?",
+      "opciones": [
+        "El tribunal que dictó la sentencia firme en última instancia",
+        "El Juzgado de Primera Instancia del domicilio del ejecutado",
+        "El tribunal del lugar donde se encuentren los bienes embargables",
+        "El tribunal que conoció del asunto en primera instancia"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 545.1 establece que será competente para dictar el auto «el Tribunal que conoció del asunto en primera instancia o en el que se homologó o aprobó la transacción o acuerdo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-004",
+      "ley": "ley-1-2000",
+      "articulo": "545.2",
+      "enunciado": "Si el título ejecutivo es un laudo arbitral, ¿quién es competente para autorizar la ejecución y su despacho?",
+      "opciones": [
+        "El Juzgado de Primera Instancia del lugar en que se haya dictado el laudo",
+        "El Juzgado de Primera Instancia del domicilio del ejecutado",
+        "La Audiencia Provincial del lugar del arbitraje",
+        "El Juzgado de Primera Instancia del lugar donde se encuentren los bienes del ejecutado"
+      ],
+      "correcta": 0,
+      "explicacion": "Conforme al artículo 545.2, cuando el título sea un laudo arbitral «será competente para denegar o autorizar la ejecución y el correspondiente despacho el Juzgado de Primera Instancia del lugar en que se haya dictado el laudo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-005",
+      "ley": "ley-1-2000",
+      "articulo": "545.5",
+      "enunciado": "En el proceso de ejecución, adopta la forma de auto la resolución del Tribunal que:",
+      "opciones": [
+        "Determine los bienes del ejecutado a los que se extiende el despacho",
+        "Acuerde la mejora del embargo a instancia del ejecutante",
+        "Resuelva las tercerías de dominio",
+        "Fije la remuneración del depositario de los bienes"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 545.5 señala que «adoptarán la forma de auto las resoluciones del Tribunal que» «Resuelvan las tercerías de dominio». Determinar los bienes corresponde al Letrado de la Administración de Justicia por decreto.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-006",
+      "ley": "ley-1-2000",
+      "articulo": "545.6",
+      "enunciado": "¿Qué forma adopta la resolución del Letrado de la Administración de Justicia que determina los bienes del ejecutado a los que se extiende el despacho de la ejecución?",
+      "opciones": [
+        "Auto",
+        "Decreto",
+        "Providencia",
+        "Diligencia de ordenación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 545.6 establece que «Adoptarán la forma de decreto las resoluciones del Letrado de la Administración de Justicia que determinen los bienes del ejecutado a los que ha de extenderse el despacho de la ejecución».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-007",
+      "ley": "ley-1-2000",
+      "articulo": "547",
+      "enunciado": "El ejecutado puede proponer declinatoria en la ejecución forzosa dentro de los siguientes días a aquel en que reciba la primera notificación del proceso de ejecución:",
+      "opciones": [
+        "Tres días",
+        "Diez días",
+        "Cinco días",
+        "Veinte días"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 547 dispone que el ejecutado podrá proponer declinatoria «dentro de los cinco días siguientes a aquel en que reciba la primera notificación del proceso de ejecución».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-008",
+      "ley": "ley-1-2000",
+      "articulo": "551.3",
+      "enunciado": "Dictado el auto que despacha ejecución, el Letrado de la Administración de Justicia dicta el decreto con las medidas ejecutivas concretas:",
+      "opciones": [
+        "En el plazo de tres días hábiles",
+        "En el plazo de cinco días",
+        "En el mismo día o en el siguiente día hábil",
+        "Una vez transcurrido el plazo de diez días de oposición"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 551.3, el Letrado de la Administración de Justicia, «en el mismo día o en el siguiente día hábil a aquél en que hubiera sido dictado el auto despachando ejecución, dictará decreto» con las medidas ejecutivas concretas.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-009",
+      "ley": "ley-1-2000",
+      "articulo": "551.4",
+      "enunciado": "Contra el auto que autoriza y despacha la ejecución:",
+      "opciones": [
+        "No se da recurso alguno, sin perjuicio de la oposición del ejecutado",
+        "Cabe recurso de reposición en el plazo de cinco días",
+        "Cabe recurso de apelación sin efecto suspensivo",
+        "Cabe recurso directo de revisión ante el tribunal"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 551.4 establece: «Contra el auto autorizando y despachando la ejecución no se dará recurso alguno, sin perjuicio de la oposición que pueda formular el ejecutado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-010",
+      "ley": "ley-1-2000",
+      "articulo": "551.5",
+      "enunciado": "El decreto del Letrado de la Administración de Justicia que fija las medidas ejecutivas concretas tras el despacho de la ejecución es recurrible mediante:",
+      "opciones": [
+        "Recurso de reposición ante el propio Letrado de la Administración de Justicia, con efecto suspensivo",
+        "Recurso de apelación ante la Audiencia Provincial, sin efecto suspensivo",
+        "Recurso directo de revisión, sin efecto suspensivo, ante el tribunal que dictó la orden general de ejecución",
+        "Ningún recurso, solo cabe la oposición a la ejecución"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 551.5 dispone que contra el decreto «cabrá interponer recurso directo de revisión, sin efecto suspensivo, ante el tribunal que hubiere dictado la orden general de ejecución».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-011",
+      "ley": "ley-1-2000",
+      "articulo": "552.2",
+      "enunciado": "Contra el auto que deniega el despacho de la ejecución cabe apelación directa, que se sustancia:",
+      "opciones": [
+        "Con el acreedor y el deudor",
+        "Solo con el acreedor",
+        "Con el Ministerio Fiscal y el acreedor",
+        "Con todos los que sean parte en el título ejecutivo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 552.2 prevé que el auto denegatorio «será directamente apelable, sustanciándose la apelación sólo con el acreedor».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-012",
+      "ley": "ley-1-2000",
+      "articulo": "556.1",
+      "enunciado": "El ejecutado de una sentencia de condena puede oponerse por escrito alegando pago o cumplimiento dentro de los siguientes días a la notificación del auto de despacho:",
+      "opciones": [
+        "Cinco días",
+        "Quince días",
+        "Veinte días",
+        "Diez días"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 556.1 señala que el ejecutado, «dentro de los diez días siguientes a la notificación del auto en que se despache ejecución, podrá oponerse a ella por escrito alegando el pago o cumplimiento de lo ordenado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-013",
+      "ley": "ley-1-2000",
+      "articulo": "557.2",
+      "enunciado": "Formulada oposición a una ejecución despachada por un título no judicial ni arbitral de los previstos en el artículo 557.1, el curso de la ejecución:",
+      "opciones": [
+        "Continúa, porque la oposición no suspende su curso",
+        "Se suspende por diligencia de ordenación del Letrado de la Administración de Justicia",
+        "Se suspende por decreto del Letrado de la Administración de Justicia",
+        "Se suspende por auto del tribunal, previa audiencia del ejecutante"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 557.2 dispone que, formulada la oposición, «el Letrado de la Administración de Justicia mediante diligencia de ordenación suspenderá el curso de la ejecución». En la ejecución de resoluciones judiciales la oposición no suspende (art. 556.2).",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-014",
+      "ley": "ley-1-2000",
+      "articulo": "559.2",
+      "enunciado": "Si el tribunal entiende subsanable el defecto procesal alegado en la oposición a la ejecución, concede al ejecutante, mediante providencia, un plazo para subsanarlo de:",
+      "opciones": [
+        "Diez días",
+        "Cinco días",
+        "Quince días",
+        "Veinte días"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 559.2 establece: «Si el tribunal entendiere que el defecto es subsanable, concederá mediante providencia al ejecutante un plazo de diez días para subsanarlo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-015",
+      "ley": "ley-1-2000",
+      "articulo": "561.4",
+      "enunciado": "Contra el auto que resuelve la oposición a la ejecución por motivos de fondo cabe:",
+      "opciones": [
+        "Recurso de reposición, que siempre suspende el curso de la ejecución",
+        "Recurso de apelación, que no suspende la ejecución si desestima la oposición",
+        "Recurso directo de revisión, sin efecto suspensivo",
+        "Ningún recurso, al ser resolución firme"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 561.4, contra el auto «podrá interponerse recurso de apelación, que no suspenderá el curso de la ejecución si la resolución recurrida fuera desestimatoria de la oposición».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-016",
+      "ley": "ley-1-2000",
+      "articulo": "565.1",
+      "enunciado": "¿En cuál de estos casos se suspende la ejecución?",
+      "opciones": [
+        "Cuando así lo acuerden todas las partes personadas en la ejecución",
+        "Cuando el ejecutado interponga cualquier recurso ordinario",
+        "Cuando se presente denuncia por hechos de apariencia delictiva relacionados con el título",
+        "Cuando el ejecutado alegue que la deuda reclamada es inferior"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 565.1 establece que «Sólo se suspenderá la ejecución en los casos en que la Ley lo ordene de modo expreso, o así lo acuerden todas las partes personadas en la ejecución».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-017",
+      "ley": "ley-1-2000",
+      "articulo": "580",
+      "enunciado": "Se despacha ejecución de una sentencia firme que condena al pago de cantidad de dinero. Para embargar los bienes del ejecutado:",
+      "opciones": [
+        "Hay que requerirle de pago con plazo de veinte días",
+        "Hay que requerirle de pago solo si el ejecutante lo solicita",
+        "Hay que requerirle de pago salvo que esté en paradero desconocido",
+        "No es necesario requerirle previamente de pago"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 580 dispone que, tratándose de resoluciones judiciales que obliguen a entregar cantidades de dinero, «no será necesario requerir de pago al ejecutado para proceder al embargo de sus bienes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-018",
+      "ley": "ley-1-2000",
+      "articulo": "581.2",
+      "enunciado": "No se practica el requerimiento de pago si a la demanda ejecutiva se acompaña acta notarial que acredite haberse requerido de pago al ejecutado con una antelación de al menos:",
+      "opciones": [
+        "Diez días",
+        "Cinco días",
+        "Quince días",
+        "Veinte días"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 581.2 establece que no se practicará el requerimiento «cuando a la demanda ejecutiva se haya acompañado acta notarial que acredite haberse requerido de pago al ejecutado con al menos diez días de antelación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-019",
+      "ley": "ley-1-2000",
+      "articulo": "575.1",
+      "enunciado": "En la ejecución dineraria, la cantidad que se fija provisionalmente para intereses y costas de la ejecución no puede superar, salvo excepción justificada, este porcentaje de lo reclamado:",
+      "opciones": [
+        "10 por 100",
+        "20 por 100",
+        "30 por 100",
+        "50 por 100"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 575.1 señala que esa cantidad, «que se fijará provisionalmente, no podrá superar el 30 por 100 de la que se reclame en la demanda ejecutiva, sin perjuicio de la posterior liquidación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-020",
+      "ley": "ley-1-2000",
+      "articulo": "588.2",
+      "enunciado": "Para embargar los saldos favorables de cuentas abiertas en entidades de crédito, el Letrado de la Administración de Justicia debe determinar:",
+      "opciones": [
+        "La totalidad del saldo, que quedará retenida hasta la liquidación",
+        "Una cantidad como límite máximo, en razón del título ejecutivo",
+        "El importe de un mes del salario o pensión del ejecutado",
+        "El número de titulares de la cuenta, sin límite de cantidad"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 588.2 permite embargar los saldos «siempre que, en razón del título ejecutivo, se determine por el Letrado de la Administración de Justicia una cantidad como límite máximo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-021",
+      "ley": "ley-1-2000",
+      "articulo": "589.1",
+      "enunciado": "El requerimiento al ejecutado para que manifieste relacionadamente bienes y derechos suficientes para cubrir la cuantía de la ejecución se hace mediante:",
+      "opciones": [
+        "Decreto del Letrado de la Administración de Justicia",
+        "Auto dictado por el tribunal de la ejecución",
+        "Providencia dictada por el tribunal de la ejecución",
+        "Diligencia de ordenación del Letrado de la Administración de Justicia"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 589.1 dispone que el Letrado de la Administración de Justicia «requerirá, mediante diligencia de ordenación, de oficio al ejecutado para que manifieste relacionadamente bienes y derechos suficientes para cubrir la cuantía de la ejecución».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-022",
+      "ley": "ley-1-2000",
+      "articulo": "592.2",
+      "enunciado": "Si es imposible o muy difícil aplicar los criterios generales de embargo, el primer bien que se embarga según el orden legal es:",
+      "opciones": [
+        "Joyas y objetos de arte",
+        "Dinero o cuentas corrientes de cualquier clase",
+        "Bienes inmuebles",
+        "Sueldos, salarios y pensiones"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 592.2 establece que «los bienes se embargarán por el siguiente orden»: «Dinero o cuentas corrientes de cualquier clase».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-023",
+      "ley": "ley-1-2000",
+      "articulo": "593.2",
+      "enunciado": "Si el Letrado de la Administración de Justicia entiende que los bienes que va a embargar pueden ser de un tercero, le avisa de la traba inminente. Si en este plazo el tercero no comparece ni da razones, se manda trabar los bienes:",
+      "opciones": [
+        "Tres días",
+        "Diez días",
+        "Cinco días",
+        "Veinte días"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 593.2 señala: «Si, en el plazo de cinco días, el tercero no compareciere o no diere razones, el Letrado de la Administración de Justicia dictará decreto mandando trabar los bienes».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-024",
+      "ley": "ley-1-2000",
+      "articulo": "599",
+      "enunciado": "La tercería de dominio se interpone ante el Letrado de la Administración de Justicia responsable de la ejecución y se resuelve por:",
+      "opciones": [
+        "El tribunal que dictó la orden general de ejecución, por los trámites del juicio verbal",
+        "El tribunal que dictó la orden general de ejecución, por los trámites del juicio ordinario",
+        "El Letrado de la Administración de Justicia, mediante decreto, tras una vista",
+        "El Juzgado de Primera Instancia del domicilio del tercerista, por el juicio verbal"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 599 dispone que la tercería «se resolverá por el tribunal que dictó la orden general y despacho de la misma y se sustanciará por los trámites previstos para el juicio verbal».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-025",
+      "ley": "ley-1-2000",
+      "articulo": "605",
+      "enunciado": "¿Cuál de estos bienes es absolutamente inembargable?",
+      "opciones": [
+        "Las joyas y objetos de arte del ejecutado",
+        "Los animales de compañía, sin perjuicio de las rentas que generen",
+        "Los saldos favorables de cuentas corrientes",
+        "Los intereses, rentas y frutos de toda especie"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 605 establece: «No serán en absoluto embargables: 1.º Los animales de compañía, sin perjuicio de la embargabilidad de las rentas que los mismos puedan generar».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-026",
+      "ley": "ley-1-2000",
+      "articulo": "607.1",
+      "enunciado": "Según la LEC, es inembargable el salario, sueldo o pensión que no exceda de:",
+      "opciones": [
+        "El doble del salario mínimo interprofesional",
+        "La mitad del salario mínimo interprofesional",
+        "La cuantía del salario mínimo interprofesional",
+        "El triple del salario mínimo interprofesional"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 607.1 dispone: «Es inembargable el salario, sueldo, pensión, retribución o su equivalente, que no exceda de la cuantía señalada para el salario mínimo interprofesional».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-027",
+      "ley": "ley-1-2000",
+      "articulo": "607.4",
+      "enunciado": "Atendiendo a las cargas familiares del ejecutado, el Letrado de la Administración de Justicia puede rebajar los porcentajes de embargo de sueldos en:",
+      "opciones": [
+        "Entre un 5 y un 10 por ciento",
+        "Entre un 15 y un 20 por ciento",
+        "Hasta un 50 por ciento",
+        "Entre un 10 y un 15 por ciento"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 607.4 prevé que el Letrado de la Administración de Justicia «podrá aplicar una rebaja de entre un 10 a un 15 por ciento en los porcentajes establecidos en los números 1.º, 2.º, 3.º y 4.º del apartado 2».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-028",
+      "ley": "ley-1-2000",
+      "articulo": "640.2",
+      "enunciado": "El convenio de realización de bienes alcanzado entre ejecutante y ejecutado, que no cause perjuicio a tercero, lo aprueba:",
+      "opciones": [
+        "El tribunal mediante auto, sin suspender la ejecución",
+        "El Letrado de la Administración de Justicia mediante decreto, con suspensión de la ejecución sobre el bien",
+        "El Letrado de la Administración de Justicia mediante diligencia de ordenación",
+        "El tribunal mediante providencia, con suspensión de la ejecución sobre el bien"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 640.2, «lo aprobará el letrado de la Administración de Justicia mediante decreto y suspenderá la ejecución respecto del bien o bienes objeto del acuerdo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-029",
+      "ley": "ley-1-2000",
+      "articulo": "649.1",
+      "enunciado": "La subasta electrónica admite posturas, de carácter secreto, durante un plazo improrrogable de:",
+      "opciones": [
+        "Diez días naturales desde su apertura",
+        "Veinte días naturales desde su apertura",
+        "Veinte días hábiles desde su apertura",
+        "Treinta días naturales desde su apertura"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 649.1 dispone: «La subasta admitirá posturas que tendrán carácter secreto, durante el plazo improrrogable de veinte días naturales desde su apertura».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-030",
+      "ley": "ley-1-2000",
+      "articulo": "650.1",
+      "enunciado": "En la subasta de bienes muebles, si la mejor postura es igual o superior al 50 por ciento del valor de subasta, el mejor postor debe consignar el resto del precio en el plazo de:",
+      "opciones": [
+        "Cinco días desde el cierre de la subasta",
+        "Veinte días desde el cierre de la subasta",
+        "Treinta días desde el cierre de la subasta",
+        "Diez días desde el cierre de la subasta"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 650.1 establece que «El mejor postor habrá de consignar el importe de dicha postura, menos el del depósito, en el plazo de diez días a contar desde el cierre de la subasta».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-031",
+      "ley": "ley-1-2000",
+      "articulo": "670.1",
+      "enunciado": "En la subasta de inmuebles, el Letrado de la Administración de Justicia aprueba el remate por decreto el día siguiente al cierre si la mejor postura alcanza este porcentaje del valor de subasta:",
+      "opciones": [
+        "70 por ciento o más",
+        "50 por ciento o más",
+        "60 por ciento o más",
+        "80 por ciento o más"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 670.1 dispone: «Si la mejor postura fuera igual o superior al 70 por ciento del valor por el que el bien hubiere salido a subasta», el Letrado de la Administración de Justicia «mediante decreto, el día siguiente al del cierre de la subasta, aprobará el remate».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-032",
+      "ley": "ley-1-2000",
+      "articulo": "654.3",
+      "enunciado": "Si la ejecución resulta insuficiente para saldar la deuda, las cantidades obtenidas se imputan por este orden:",
+      "opciones": [
+        "Costas, intereses moratorios, intereses remuneratorios y principal",
+        "Principal, intereses remuneratorios, intereses moratorios y costas",
+        "Intereses remuneratorios, principal, intereses moratorios y costas",
+        "Costas, principal, intereses remuneratorios e intereses moratorios"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 654.3 señala que la cantidad «se imputará por el siguiente orden: intereses remuneratorios, principal, intereses moratorios y costas».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-033",
+      "ley": "ley-1-2000",
+      "articulo": "701.1",
+      "enunciado": "Si el ejecutado no entrega la cosa mueble determinada debida y hay que entrar en lugares cerrados, el Letrado de la Administración de Justicia recaba la autorización de:",
+      "opciones": [
+        "El Ministerio Fiscal",
+        "El Juzgado de Instrucción del lugar",
+        "El tribunal que hubiera ordenado la ejecución",
+        "El Juzgado Decano del partido judicial"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 701.1 dispone: «Si fuera necesario proceder a la entrada en lugares cerrados recabará la autorización del Tribunal que hubiera ordenado la ejecución, pudiéndose auxiliar de la fuerza pública, si fuere preciso».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-034",
+      "ley": "ley-1-2000",
+      "articulo": "704.1",
+      "enunciado": "Si el inmueble que debe entregarse es la vivienda habitual del ejecutado, el plazo de un mes para desalojarlo puede prorrogarse, de existir motivo fundado, en:",
+      "opciones": [
+        "Quince días más",
+        "Dos meses más",
+        "Tres meses más",
+        "Un mes más"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 704.1 establece que el Letrado de la Administración de Justicia «les dará un plazo de un mes para desalojarlo. De existir motivo fundado, podrá prorrogarse dicho plazo un mes más».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-035",
+      "ley": "ley-1-2000",
+      "articulo": "706.1",
+      "enunciado": "Si el hacer al que obliga el título no es personalísimo y el ejecutado no lo lleva a cabo en el plazo señalado, el ejecutante puede pedir:",
+      "opciones": [
+        "Que se le faculte para encargarlo a un tercero a costa del ejecutado, o reclamar daños y perjuicios",
+        "Solo el resarcimiento de daños y perjuicios, sin poder encargarlo a un tercero",
+        "Que se apremie al ejecutado con multa por cada mes que transcurra",
+        "Que el tribunal tenga por emitida la declaración de voluntad"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 706.1, el ejecutante «podrá pedir que se le faculte para encargarlo a un tercero, a costa del ejecutado, o reclamar el resarcimiento de daños y perjuicios».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-036",
+      "ley": "ley-1-2000",
+      "articulo": "711.1",
+      "enunciado": "Las multas coercitivas en la ejecución de un hacer personalísimo pueden ascender, como máximo, a este porcentaje del precio o valor:",
+      "opciones": [
+        "Las mensuales, al 20 por ciento; la multa única, al 50 por ciento",
+        "Las mensuales, al 10 por ciento; la multa única, al 30 por ciento",
+        "Las mensuales, al 50 por ciento; la multa única, al 20 por ciento",
+        "Las mensuales, al 30 por ciento; la multa única, al 60 por ciento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 711.1 establece: «Las multas mensuales podrán ascender a un 20 por ciento del precio o valor y la multa única al 50 por ciento de dicho precio o valor».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-037",
+      "ley": "ley-1-2000",
+      "articulo": "723.1",
+      "enunciado": "Si el proceso principal todavía no se ha iniciado, es competente para conocer de las solicitudes de medidas cautelares:",
+      "opciones": [
+        "El Juzgado de guardia del lugar de la solicitud",
+        "El Juzgado de Primera Instancia del domicilio del solicitante",
+        "El tribunal del lugar donde se hallen los bienes del demandado",
+        "El tribunal competente para conocer de la demanda principal"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 723.1 dispone que será competente «el que esté conociendo del asunto en primera instancia o, si el proceso no se hubiese iniciado, el que sea competente para conocer de la demanda principal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-038",
+      "ley": "ley-1-2000",
+      "articulo": "730.2",
+      "enunciado": "Las medidas cautelares acordadas antes de la demanda quedan sin efecto si esta no se presenta ante el mismo tribunal en los siguientes días a su adopción:",
+      "opciones": [
+        "Cinco días",
+        "Veinte días",
+        "Diez días",
+        "Treinta días"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 730.2 establece que las medidas «quedarán sin efecto si la demanda no se presentare ante el mismo tribunal que conoció de la solicitud de aquéllas en los veinte días siguientes a su adopción».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-039",
+      "ley": "ley-1-2000",
+      "articulo": "733.2",
+      "enunciado": "Si concurren razones de urgencia, el tribunal puede acordar la medida cautelar sin oír al demandado, mediante auto, en el plazo de:",
+      "opciones": [
+        "Dos días",
+        "Tres días",
+        "Diez días",
+        "Cinco días"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 733.2 prevé que el tribunal «podrá acordarla sin más trámites mediante auto, en el plazo de cinco días», razonando por separado las razones que aconsejaron no oír al demandado.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    },
+    {
+      "id": "tpi-040",
+      "ley": "ley-1-2000",
+      "articulo": "739",
+      "enunciado": "El demandado frente al que se acordó una medida cautelar sin audiencia puede formular oposición en el plazo de:",
+      "opciones": [
+        "Veinte días desde la notificación del auto",
+        "Cinco días desde la notificación del auto",
+        "Diez días desde la notificación del auto",
+        "Quince días desde la notificación del auto"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 739 establece que el demandado «podrá éste formular oposición en el plazo de veinte días, contados desde la notificación del auto que acuerda las medidas cautelares».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 17
+      }
+    }
+  ]
+}
