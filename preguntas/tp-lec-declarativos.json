@@ -567,10 +567,10 @@
       "articulo": "405.2",
       "enunciado": "Si el demandado guarda silencio o da respuestas evasivas sobre los hechos de la demanda, el tribunal puede considerarlo:",
       "opciones": [
-        "Admisión tácita de los hechos que le sean perjudiciales",
-        "Allanamiento total a la demanda",
-        "Desistimiento de la contestación",
-        "Reconocimiento de su rebeldía"
+        "Admisión tácita de los hechos perjudiciales",
+        "Allanamiento total a las pretensiones del actor",
+        "Desistimiento voluntario de su contestación",
+        "Declaración inmediata de su rebeldía procesal"
       ],
       "correcta": 0,
       "explicacion": "El artículo 405.2 señala que «El tribunal podrá considerar el silencio o las respuestas evasivas del demandado como admisión tácita de los hechos que le sean perjudiciales».",
