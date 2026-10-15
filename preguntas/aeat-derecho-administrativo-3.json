@@ -1,0 +1,605 @@
+{
+  "descripcion": "Recursos administrativos (Ley 39/2015, arts. 112-126) y jurisdicción contencioso-administrativa (Ley 29/1998). Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE (Ley 39/2015 versión 2024-11-07; Ley 29/1998 versión 2026-03-05).",
+  "preguntas": [
+    {
+      "id": "dar-001",
+      "ley": "ley-39-2015",
+      "articulo": "112.3",
+      "enunciado": "Contra las disposiciones administrativas de carácter general, ¿qué recurso cabe en vía administrativa?",
+      "opciones": [
+        "Solo el recurso de alzada",
+        "Solo el recurso potestativo de reposición",
+        "Ninguno: no cabe recurso en vía administrativa",
+        "Alzada o reposición, a elección del interesado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 112.3 dispone: «Contra las disposiciones administrativas de carácter general no cabrá recurso en vía administrativa».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-002",
+      "ley": "ley-39-2015",
+      "articulo": "112.1",
+      "enunciado": "Un acto de trámite es recurrible en vía administrativa, entre otros casos, cuando:",
+      "opciones": [
+        "Se dicta fuera del plazo previsto para el trámite",
+        "Produce indefensión o perjuicio irreparable a derechos e intereses legítimos",
+        "Ordena la apertura de un periodo de información pública",
+        "Requiere al interesado para que subsane su solicitud"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 112.1 permite recurrir los actos de trámite si «producen indefensión o perjuicio irreparable a derechos e intereses legítimos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-003",
+      "ley": "ley-39-2015",
+      "articulo": "114.2.c",
+      "enunciado": "En el ámbito estatal, ponen fin a la vía administrativa los actos de los órganos directivos con nivel de Director general o superior en materia de:",
+      "opciones": [
+        "Contratación",
+        "Personal",
+        "Subvenciones",
+        "Potestad sancionadora"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 114.2.c) incluye «Los emanados de los órganos directivos con nivel de Director general o superior, en relación con las competencias que tengan atribuidas en materia de personal».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-004",
+      "ley": "ley-39-2015",
+      "articulo": "115.2",
+      "enunciado": "Si el recurrente no califica su recurso o lo califica erróneamente, la Administración:",
+      "opciones": [
+        "Lo inadmite por un defecto de forma insubsanable",
+        "Lo tramita, siempre que se deduzca su verdadero carácter",
+        "Lo archiva tras requerir al interesado que lo califique",
+        "Lo remite al órgano judicial que sea competente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 115.2 establece: «El error o la ausencia de la calificación del recurso por parte del recurrente no será obstáculo para su tramitación, siempre que se deduzca su verdadero carácter».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-005",
+      "ley": "ley-39-2015",
+      "articulo": "116.e",
+      "enunciado": "Es causa de inadmisión de un recurso administrativo:",
+      "opciones": [
+        "Ser incompetente el órgano, cuando el competente pertenezca a la misma Administración",
+        "No haber solicitado la suspensión del acto recurrido",
+        "Carecer el recurso manifiestamente de fundamento",
+        "Haber sido interpuesto por varios interesados a la vez"
+      ],
+      "correcta": 2,
+      "explicacion": "Entre las causas de inadmisión del artículo 116 figura la letra e): «Carecer el recurso manifiestamente de fundamento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-006",
+      "ley": "ley-39-2015",
+      "articulo": "117.1",
+      "enunciado": "Como regla general, la interposición de un recurso administrativo:",
+      "opciones": [
+        "Suspende automáticamente la ejecución del acto",
+        "No suspende la ejecución del acto impugnado",
+        "Suspende la ejecución durante un mes",
+        "Suspende la ejecución solo si el recurrente presta garantía"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 117.1 dice: «La interposición de cualquier recurso, excepto en los casos en que una disposición establezca lo contrario, no suspenderá la ejecución del acto impugnado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-007",
+      "ley": "ley-39-2015",
+      "articulo": "117.3",
+      "enunciado": "Solicitada la suspensión del acto recurrido, se entiende suspendida su ejecución si el órgano no dicta y notifica resolución expresa transcurrido el plazo de:",
+      "opciones": [
+        "Quince días desde la entrada de la solicitud",
+        "Dos meses desde la entrada de la solicitud",
+        "Tres meses desde la entrada de la solicitud",
+        "Un mes desde la entrada de la solicitud"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 117.3 señala: «La ejecución del acto impugnado se entenderá suspendida si transcurrido un mes desde que la solicitud de suspensión haya tenido entrada en el registro electrónico de la Administración u Organismo competente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-008",
+      "ley": "ley-39-2015",
+      "articulo": "117.4",
+      "enunciado": "Si de la suspensión de un acto recurrido pueden derivarse perjuicios de cualquier naturaleza, la suspensión solo producirá efectos previa:",
+      "opciones": [
+        "Prestación de caución o garantía suficiente",
+        "Audiencia de los interesados afectados",
+        "Publicación en el periódico oficial",
+        "Autorización del órgano superior jerárquico"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 117.4, cuando de la suspensión puedan derivarse perjuicios, «aquélla sólo producirá efectos previa prestación de caución o garantía suficiente para responder de ellos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-009",
+      "ley": "ley-39-2015",
+      "articulo": "118.1",
+      "enunciado": "Para alegar sobre nuevos hechos o documentos no recogidos en el expediente originario, el recurso otorga a los interesados un plazo:",
+      "opciones": [
+        "No inferior a cinco días ni superior a diez",
+        "No inferior a quince días ni superior a veinte",
+        "No inferior a diez días ni superior a quince",
+        "No inferior a un mes ni superior a dos"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 118.1 prevé que se pongan de manifiesto a los interesados «en un plazo no inferior a diez días ni superior a quince» para formular alegaciones.",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-010",
+      "ley": "ley-39-2015",
+      "articulo": "119.2",
+      "enunciado": "Si en un recurso existe vicio de forma y no se estima procedente resolver sobre el fondo, el órgano ordenará:",
+      "opciones": [
+        "La retroacción del procedimiento al momento en que el vicio fue cometido",
+        "La inadmisión del recurso por defecto de forma insubsanable",
+        "La declaración de nulidad de todo el procedimiento",
+        "El archivo de las actuaciones y la devolución del expediente"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 119.2 dice que «se ordenará la retroacción del procedimiento al momento en el que el vicio fue cometido».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-011",
+      "ley": "ley-39-2015",
+      "articulo": "121.2",
+      "enunciado": "Si el recurso de alzada se interpone ante el órgano que dictó el acto, este debe remitirlo al competente para resolver, con su informe y copia del expediente, en el plazo de:",
+      "opciones": [
+        "Cinco días",
+        "Diez días",
+        "Quince días",
+        "Un mes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 121.2 establece que «éste deberá remitirlo al competente en el plazo de diez días, con su informe y con una copia completa y ordenada del expediente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-012",
+      "ley": "ley-39-2015",
+      "articulo": "123.2",
+      "enunciado": "Interpuesto un recurso de reposición, el recurso contencioso-administrativo no puede interponerse hasta que:",
+      "opciones": [
+        "Se obtenga la autorización del órgano que dictó el acto",
+        "Se resuelva expresamente o se produzca su desestimación presunta",
+        "Se interponga previamente recurso de alzada",
+        "Se notifique resolución expresa, sin que valga el silencio"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 123.2 dispone: «No se podrá interponer recurso contencioso-administrativo hasta que sea resuelto expresamente o se haya producido la desestimación presunta del recurso de reposición interpuesto».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-013",
+      "ley": "ley-39-2015",
+      "articulo": "125.1.b",
+      "enunciado": "¿Cuál de estas circunstancias permite interponer el recurso extraordinario de revisión contra un acto firme en vía administrativa?",
+      "opciones": [
+        "Que aparezcan documentos de valor esencial que evidencien el error de la resolución",
+        "Que el acto se haya dictado fuera del plazo máximo para resolver",
+        "Que el interesado discrepe de la valoración jurídica de los hechos",
+        "Que se haya omitido el trámite de audiencia en el procedimiento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 125.1.b) recoge: «Que aparezcan documentos de valor esencial para la resolución del asunto que, aunque sean posteriores, evidencien el error de la resolución recurrida».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-014",
+      "ley": "ley-39-2015",
+      "articulo": "125.1",
+      "enunciado": "El recurso extraordinario de revisión se interpone ante el órgano que dictó el acto firme, que además será competente para:",
+      "opciones": [
+        "Resolverlo",
+        "Remitirlo al superior jerárquico para su resolución",
+        "Remitirlo al Consejo de Estado para su resolución",
+        "Remitirlo al órgano judicial para su resolución"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 125.1 permite interponerlo «ante el órgano administrativo que los dictó, que también será el competente para su resolución».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-015",
+      "ley": "ley-39-2015",
+      "articulo": "126.3",
+      "enunciado": "Interpuesto el recurso extraordinario de revisión, se entiende desestimado si no se ha dictado y notificado la resolución transcurrido el plazo de:",
+      "opciones": [
+        "Tres meses",
+        "Un mes",
+        "Dos meses",
+        "Seis meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 126.3 establece: «Transcurrido el plazo de tres meses desde la interposición del recurso extraordinario de revisión sin haberse dictado y notificado la resolución, se entenderá desestimado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-016",
+      "ley": "ley-29-1998",
+      "articulo": "8.6",
+      "enunciado": "¿Qué órgano autoriza la entrada en un domicilio acordada por la Administración Tributaria cuando su titular se opone a ella?",
+      "opciones": [
+        "La Sala de lo Contencioso-administrativo de la Audiencia Nacional",
+        "Un Juzgado de Instrucción",
+        "La Sala de lo Contencioso-administrativo del Tribunal Superior de Justicia",
+        "Un Juzgado de lo Contencioso-administrativo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 8.6 señala que los Juzgados de lo Contencioso-administrativo «conocerán también de las autorizaciones para la entrada en domicilios y otros lugares constitucionalmente protegidos, que haya sido acordada por la Administración Tributaria».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-017",
+      "ley": "ley-29-1998",
+      "articulo": "9.1.d",
+      "enunciado": "Los Juzgados Centrales conocen de las resoluciones de Ministros y Secretarios de Estado en materia de responsabilidad patrimonial cuando lo reclamado no exceda de:",
+      "opciones": [
+        "30.050 euros",
+        "6.000 euros",
+        "18.000 euros",
+        "60.000 euros"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 9.1.d) atribuye a los Juzgados Centrales «los recursos contra las resoluciones dictadas por los Ministros y Secretarios de Estado en materia de responsabilidad patrimonial cuando lo reclamado no exceda de 30.050 euros».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-018",
+      "ley": "ley-29-1998",
+      "articulo": "12.1.a",
+      "enunciado": "La Sala de lo Contencioso-administrativo del Tribunal Supremo conoce en única instancia de los actos y disposiciones:",
+      "opciones": [
+        "De los Ministros y de los Secretarios de Estado",
+        "De los Delegados del Gobierno en las Comunidades Autónomas",
+        "Del Consejo de Ministros y de las Comisiones Delegadas del Gobierno",
+        "De los Tribunales Económico-Administrativos Regionales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 12.1.a) atribuye al Tribunal Supremo, en única instancia, «Los actos y disposiciones del Consejo de Ministros y de las Comisiones Delegadas del Gobierno».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-019",
+      "ley": "ley-29-1998",
+      "articulo": "14.1",
+      "enunciado": "En los recursos sobre sanciones de la Administración del Estado, el demandante puede elegir entre el órgano judicial de su domicilio y el de:",
+      "opciones": [
+        "La sede del órgano encargado de ejecutar el acto",
+        "La sede del órgano autor del acto originario impugnado",
+        "El lugar donde se produjeron los hechos sancionados",
+        "La capital de la provincia más próxima a su domicilio"
+      ],
+      "correcta": 1,
+      "explicacion": "La regla segunda del artículo 14.1 dice que será competente, «a elección del demandante, el juzgado o el tribunal en cuya circunscripción tenga aquél su domicilio o se halle la sede del órgano autor del acto originario impugnado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-020",
+      "ley": "ley-29-1998",
+      "articulo": "27.1",
+      "enunciado": "Si un Juez contencioso-administrativo dicta sentencia firme estimatoria por considerar ilegal la disposición general aplicada, debe:",
+      "opciones": [
+        "Plantear la cuestión de inconstitucionalidad ante el Tribunal Constitucional",
+        "Anular por sí mismo la disposición general con efectos generales",
+        "Comunicarlo a la Administración autora para que la derogue",
+        "Plantear la cuestión de ilegalidad ante el Tribunal competente para el recurso directo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 27.1 dispone que «deberá plantear la cuestión de ilegalidad ante el Tribunal competente para conocer del recurso directo contra la disposición».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-021",
+      "ley": "ley-29-1998",
+      "articulo": "44.3",
+      "enunciado": "En el requerimiento previo entre Administraciones públicas, este se entiende rechazado si el requerido no lo contesta dentro de:",
+      "opciones": [
+        "El mes siguiente a su recepción",
+        "Los diez días siguientes a su recepción",
+        "Los quince días siguientes a su recepción",
+        "Los dos meses siguientes a su recepción"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 44.3 establece: «El requerimiento se entenderá rechazado si, dentro del mes siguiente a su recepción, el requerido no lo contestara».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-022",
+      "ley": "ley-29-1998",
+      "articulo": "46.2",
+      "enunciado": "En la inactividad de la Administración del artículo 29, los dos meses para recurrir se cuentan desde el día siguiente a:",
+      "opciones": [
+        "El vencimiento de los plazos señalados en dicho artículo",
+        "La notificación del acto presunto",
+        "La fecha de la reclamación del interesado",
+        "La publicación de la disposición impugnada"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 46.2 señala que «los dos meses se contarán a partir del día siguiente al vencimiento de los plazos señalados en dicho artículo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-023",
+      "ley": "ley-29-1998",
+      "articulo": "46.4",
+      "enunciado": "Tras un recurso potestativo de reposición, el plazo para recurrir en vía contenciosa se cuenta desde el día siguiente a la notificación de la resolución expresa o a aquel en que:",
+      "opciones": [
+        "Se interpuso el recurso de reposición",
+        "Se dictó el acto recurrido en reposición",
+        "Deba entenderse presuntamente desestimado",
+        "Se publicó el acto en el periódico oficial"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 46.4 dice que el plazo se contará «desde el día siguiente a aquel en que se notifique la resolución expresa del recurso potestativo de reposición o en que éste deba entenderse presuntamente desestimado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-024",
+      "ley": "ley-29-1998",
+      "articulo": "46.5",
+      "enunciado": "El plazo de dos meses para interponer el recurso de lesividad se cuenta desde:",
+      "opciones": [
+        "El día siguiente a la notificación del acto lesivo al interesado",
+        "La fecha en que se dictó el acto declarado lesivo",
+        "El día siguiente a la fecha de la declaración de lesividad",
+        "El día siguiente a la publicación de la declaración en el BOE"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 46.5 establece: «El plazo para interponer recurso de lesividad será de dos meses a contar desde el día siguiente a la fecha de la declaración de lesividad».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-025",
+      "ley": "ley-29-1998",
+      "articulo": "48.3",
+      "enunciado": "La Administración debe remitir al órgano judicial el expediente administrativo en el plazo improrrogable de:",
+      "opciones": [
+        "Diez días",
+        "Quince días",
+        "Treinta días",
+        "Veinte días"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 48.3 dice: «El expediente deberá ser remitido en el plazo improrrogable de veinte días, a contar desde que la comunicación judicial tenga entrada en el registro general del órgano requerido».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-026",
+      "ley": "ley-29-1998",
+      "articulo": "50.2",
+      "enunciado": "Las Administraciones públicas demandadas se entienden personadas en el recurso contencioso-administrativo:",
+      "opciones": [
+        "Por la contestación a la demanda",
+        "Por el nombramiento de su representante procesal",
+        "Por la recepción del emplazamiento judicial",
+        "Por el envío del expediente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 50.2 establece: «Las Administraciones públicas se entenderán personadas por el envío del expediente».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-027",
+      "ley": "ley-29-1998",
+      "articulo": "56.1",
+      "enunciado": "En los escritos de demanda y de contestación pueden alegarse cuantos motivos procedan:",
+      "opciones": [
+        "Solo si se plantearon antes en vía administrativa",
+        "Solo si constan en el escrito de interposición",
+        "Solo si los aprecia de oficio el Tribunal",
+        "Hayan sido o no planteados ante la Administración"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 56.1 permite «alegarse cuantos motivos procedan, hayan sido o no planteados ante la Administración».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-028",
+      "ley": "ley-29-1998",
+      "articulo": "58.1",
+      "enunciado": "Las partes demandadas pueden alegar incompetencia o inadmisibilidad del recurso dentro de los primeros días del plazo para contestar la demanda, que son:",
+      "opciones": [
+        "Tres",
+        "Diez",
+        "Cinco",
+        "Quince"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 58.1 dice: «Las partes demandadas podrán alegar, dentro de los primeros cinco días del plazo para contestar la demanda, los motivos que pudieren determinar la incompetencia del órgano jurisdiccional o la inadmisibilidad del recurso».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-029",
+      "ley": "ley-29-1998",
+      "articulo": "67.1",
+      "enunciado": "Declarado concluso el pleito, la sentencia se dicta en el plazo de:",
+      "opciones": [
+        "Cinco días",
+        "Quince días",
+        "Veinte días",
+        "Diez días"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 67.1 establece: «La sentencia se dictará en el plazo de diez días desde que el pleito haya sido declarado concluso».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    },
+    {
+      "id": "dar-030",
+      "ley": "ley-29-1998",
+      "articulo": "72.2",
+      "enunciado": "Una sentencia firme anula una disposición general. Sus efectos generales se producen desde:",
+      "opciones": [
+        "La fecha en que la sentencia adquiere firmeza",
+        "La publicación de su fallo en el mismo periódico oficial que la disposición anulada",
+        "La notificación de la sentencia a las partes",
+        "La fecha de entrada en vigor de la disposición anulada"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 72.2 dice que las sentencias firmes que anulen una disposición general «tendrán efectos generales desde el día en que sea publicado su fallo y preceptos anulados en el mismo periódico oficial en que lo hubiera sido la disposición anulada».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 12
+      }
+    }
+  ]
+}
