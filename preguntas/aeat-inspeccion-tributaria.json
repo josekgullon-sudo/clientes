@@ -1,0 +1,605 @@
+{
+  "descripcion": "Agente AEAT, tema 20: inspección tributaria (LGT arts. 141-159 y RD 1065/2007). Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-10-09).",
+  "preguntas": [
+    {
+      "id": "ins-001",
+      "ley": "ley-58-2003",
+      "articulo": "142.4",
+      "enunciado": "Según la LGT, los funcionarios que desempeñen funciones de inspección serán considerados:",
+      "opciones": [
+        "Agentes de la autoridad",
+        "Autoridad judicial delegada",
+        "Agentes de la policía judicial",
+        "Representantes de la Administración tributaria"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 142.4 establece que «serán considerados agentes de la autoridad y deberán acreditar su condición, si son requeridos para ello, fuera de las oficinas públicas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-002",
+      "ley": "ley-58-2003",
+      "articulo": "143.1",
+      "enunciado": "Las actuaciones de la inspección de los tributos se documentan en:",
+      "opciones": [
+        "Comunicaciones, providencias, informes y actas",
+        "Diligencias, requerimientos, actas y resoluciones",
+        "Comunicaciones, diligencias, informes y actas",
+        "Actas, informes, notificaciones y acuerdos"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 143.1, las actuaciones de la inspección «se documentarán en comunicaciones, diligencias, informes y actas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-003",
+      "ley": "ley-58-2003",
+      "articulo": "144.1",
+      "enunciado": "Las actas extendidas por la inspección de los tributos hacen prueba de los hechos que motiven su formalización:",
+      "opciones": [
+        "Sin que se admita prueba en contrario",
+        "Salvo que se acredite lo contrario",
+        "Solo si el obligado las ha firmado",
+        "Salvo prueba pericial en contrario"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 144.1 dispone que las actas «hacen prueba de los hechos que motiven su formalización, salvo que se acredite lo contrario».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-004",
+      "ley": "ley-58-2003",
+      "articulo": "144.2",
+      "enunciado": "Los hechos aceptados por el obligado tributario en las actas de inspección solo podrán rectificarse mediante prueba de haber incurrido en:",
+      "opciones": [
+        "Error de derecho",
+        "Vicio en el consentimiento",
+        "Error material o aritmético",
+        "Error de hecho"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 144.2 señala que los hechos aceptados «se presumen ciertos y sólo podrán rectificarse mediante prueba de haber incurrido en error de hecho».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-005",
+      "ley": "ley-58-2003",
+      "articulo": "146.3",
+      "enunciado": "Las medidas cautelares adoptadas en el procedimiento de inspección deben ser ratificadas por el órgano competente para liquidar en el plazo de:",
+      "opciones": [
+        "10 días desde su adopción",
+        "Un mes desde su adopción",
+        "15 días desde su adopción",
+        "5 días desde su notificación"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 146.3, las medidas «deberán ser ratificadas por el órgano competente para liquidar en el plazo de 15 días desde su adopción y se levantarán si desaparecen las circunstancias que las motivaron».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-006",
+      "ley": "ley-58-2003",
+      "articulo": "146.1",
+      "enunciado": "Las medidas cautelares en el procedimiento de inspección pueden consistir en:",
+      "opciones": [
+        "El precinto, depósito o incautación de libros, registros, documentos o mercancías",
+        "El embargo preventivo de bienes y derechos del obligado tributario",
+        "El bloqueo de las cuentas bancarias del obligado tributario",
+        "El cierre del establecimiento hasta la terminación del procedimiento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 146.1 dice que las medidas «podrán consistir, en su caso, en el precinto, depósito o incautación de las mercancías o productos sometidos a gravamen, así como de libros, registros, documentos, archivos, locales o equipos electrónicos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-007",
+      "ley": "ley-58-2003",
+      "articulo": "148.2",
+      "enunciado": "Las actuaciones del procedimiento de inspección tendrán carácter parcial cuando:",
+      "opciones": [
+        "Se limiten a uno solo de los períodos impositivos del tributo",
+        "Se desarrollen únicamente en las oficinas de la Administración",
+        "Afecten solo al cumplimiento de obligaciones formales",
+        "No afecten a la totalidad de los elementos de la obligación tributaria en el período comprobado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 148.2 establece que serán parciales «cuando no afecten a la totalidad de los elementos de la obligación tributaria en el período objeto de la comprobación y en todos aquellos supuestos que se señalen reglamentariamente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-008",
+      "ley": "ley-58-2003",
+      "articulo": "149.2",
+      "enunciado": "El obligado tributario sometido a una inspección de carácter parcial puede solicitar que sea de carácter general en el plazo de:",
+      "opciones": [
+        "Un mes desde la notificación del inicio de las actuaciones",
+        "15 días desde la notificación del inicio de las actuaciones",
+        "10 días desde la notificación del inicio de las actuaciones",
+        "15 días desde la formalización del acta"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 149.2, el obligado «deberá formular la solicitud en el plazo de 15 días desde la notificación del inicio de las actuaciones inspectoras de carácter parcial».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-009",
+      "ley": "ley-58-2003",
+      "articulo": "149.3",
+      "enunciado": "Si la Administración no amplía el alcance ni inicia la inspección general en seis meses desde la solicitud del obligado, las actuaciones parciales:",
+      "opciones": [
+        "Caducan y deben archivarse sin más trámite",
+        "No interrumpen la prescripción para comprobar el mismo tributo y período con carácter general",
+        "Se consideran convertidas en actuaciones de carácter general",
+        "Quedan anuladas y han de reiniciarse"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 149.3 prevé que el incumplimiento del plazo «determinará que las actuaciones inspectoras de carácter parcial no interrumpan el plazo de prescripción para comprobar e investigar el mismo tributo y período con carácter general».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-010",
+      "ley": "ley-58-2003",
+      "articulo": "150.1.a",
+      "enunciado": "Con carácter general, las actuaciones del procedimiento de inspección deben concluir en el plazo de:",
+      "opciones": [
+        "12 meses",
+        "24 meses",
+        "27 meses",
+        "18 meses"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 150.1.a) fija el plazo de «18 meses, con carácter general».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-011",
+      "ley": "ley-58-2003",
+      "articulo": "150.1.b",
+      "enunciado": "El plazo de las actuaciones inspectoras es de 27 meses cuando:",
+      "opciones": [
+        "La cifra anual de negocios del obligado sea igual o superior al requerido para auditar sus cuentas",
+        "El obligado tributario sea una persona física con actividad económica",
+        "El obligado tributario haya solicitado una inspección de carácter general",
+        "El obligado tributario sea una entidad no residente"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 150.1.b).1.º prevé los 27 meses cuando concurra «que la Cifra Anual de Negocios del obligado tributario sea igual o superior al requerido para auditar sus cuentas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-012",
+      "ley": "ley-58-2003",
+      "articulo": "150.2",
+      "enunciado": "El plazo del procedimiento inspector se cuenta desde la fecha de notificación al obligado tributario de su inicio hasta:",
+      "opciones": [
+        "La firma del acta por el obligado tributario o su representante",
+        "La apertura del trámite de audiencia previo a las actas",
+        "Que se notifique o se entienda notificado el acto administrativo resultante",
+        "La fecha en que el órgano competente dicte la liquidación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 150.2 dice que el plazo se cuenta «desde la fecha de notificación al obligado tributario de su inicio hasta que se notifique o se entienda notificado el acto administrativo resultante del mismo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-013",
+      "ley": "ley-58-2003",
+      "articulo": "150.2",
+      "enunciado": "Para computar el plazo máximo del procedimiento inspector, respecto de las interrupciones justificadas y las dilaciones por causa no imputable a la Administración:",
+      "opciones": [
+        "Se descuentan solo las dilaciones imputables al obligado",
+        "Se descuentan siempre del plazo máximo",
+        "Se descuentan solo si constan en diligencia",
+        "No se aplica lo dispuesto en el artículo 104.2 de la LGT"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 150.2 señala que «no será de aplicación lo dispuesto en el apartado 2 del artículo 104 de esta Ley respecto de los periodos de interrupción justificada ni de las dilaciones en el procedimiento por causa no imputable a la Administración».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-014",
+      "ley": "ley-58-2003",
+      "articulo": "150.3.a",
+      "enunciado": "Suspende el cómputo del plazo del procedimiento inspector:",
+      "opciones": [
+        "La presentación de alegaciones por el obligado en el trámite de audiencia",
+        "La remisión del expediente al Ministerio Fiscal sin practicar la liquidación",
+        "La solicitud de aplazamiento de la deuda por el obligado",
+        "El cambio del actuario que dirige las actuaciones"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 150.3.a) prevé la suspensión por «la remisión del expediente al Ministerio Fiscal o a la jurisdicción competente sin practicar la liquidación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-015",
+      "ley": "ley-58-2003",
+      "articulo": "150.4",
+      "enunciado": "Los periodos que el obligado puede solicitar para que la inspección no efectúe actuaciones con él no podrán exceder en su conjunto de:",
+      "opciones": [
+        "60 días naturales para todo el procedimiento",
+        "30 días naturales para todo el procedimiento",
+        "60 días hábiles para todo el procedimiento",
+        "90 días naturales para todo el procedimiento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 150.4 indica que «dichos periodos no podrán exceder en su conjunto de 60 días naturales para todo el procedimiento y supondrán una extensión del plazo máximo de duración del mismo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-016",
+      "ley": "ley-58-2003",
+      "articulo": "150.6.c",
+      "enunciado": "Si se supera el plazo de duración del procedimiento inspector, respecto de los intereses de demora:",
+      "opciones": [
+        "Se exigen hasta la notificación de la liquidación",
+        "Se exigen con una reducción del 50 por ciento",
+        "No se exigen desde el incumplimiento hasta la finalización del procedimiento",
+        "Se exigen solo hasta la formalización del acta"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 150.6.c) establece que «no se exigirán intereses de demora desde que se produzca dicho incumplimiento hasta la finalización del procedimiento».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-017",
+      "ley": "ley-58-2003",
+      "articulo": "151.2",
+      "enunciado": "Cuando la inspección se persona sin previa comunicación en los locales de una empresa, las actuaciones se entienden con:",
+      "opciones": [
+        "Solo el obligado tributario o su representante legal",
+        "Cualquier trabajador que se encuentre en el local",
+        "El obligado tributario o el encargado o responsable de los locales",
+        "El obligado tributario, previa autorización judicial"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 151.2, la inspección «podrá personarse sin previa comunicación en las empresas, oficinas, dependencias, instalaciones o almacenes del obligado tributario, entendiéndose las actuaciones con éste o con el encargado o responsable de los locales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-018",
+      "ley": "ley-58-2003",
+      "articulo": "154.2",
+      "enunciado": "Si el obligado tributario o su representante se niega a recibir o suscribir el acta, esta se tramitará como acta:",
+      "opciones": [
+        "De disconformidad",
+        "De conformidad",
+        "Con acuerdo",
+        "De prueba preconstituida"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 154.2 dispone que, en ese caso, «ésta se tramitará como de disconformidad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-019",
+      "ley": "ley-58-2003",
+      "articulo": "155.3",
+      "enunciado": "Para suscribir un acta con acuerdo es necesario, entre otros requisitos:",
+      "opciones": [
+        "Obtener el informe favorable de la Abogacía del Estado antes de la firma",
+        "Renunciar expresamente al recurso contencioso-administrativo posterior",
+        "Haber presentado alegaciones en el trámite de audiencia previo",
+        "Constituir un depósito, aval solidario de entidad de crédito o certificado de seguro de caución"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 155.3.b) exige «la constitución de un depósito, aval de carácter solidario de entidad de crédito o sociedad de garantía recíproca o certificado de seguro de caución, de cuantía suficiente para garantizar el cobro de las cantidades que puedan derivarse del acta».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-020",
+      "ley": "ley-58-2003",
+      "articulo": "155.5",
+      "enunciado": "En las actas con acuerdo, se entiende producida y notificada la liquidación en los términos propuestos si, transcurridos ciertos días desde el siguiente a la fecha del acta, no se notifica acuerdo rectificando errores materiales. ¿Cuántos?",
+      "opciones": [
+        "Cinco días",
+        "Diez días",
+        "Quince días",
+        "Un mes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 155.5 establece que se entenderá producida la liquidación «si transcurridos diez días, contados desde el siguiente a la fecha del acta, no se hubiera notificado al interesado acuerdo del órgano competente para liquidar rectificando los errores materiales».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-021",
+      "ley": "ley-58-2003",
+      "articulo": "155.6",
+      "enunciado": "La liquidación derivada de un acta con acuerdo solo podrá ser impugnada en vía administrativa mediante:",
+      "opciones": [
+        "El recurso de reposición",
+        "El procedimiento de declaración de nulidad de pleno derecho",
+        "La reclamación económico-administrativa",
+        "El recurso extraordinario de revisión"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 155.6, la liquidación y la sanción «sólo podrán ser objeto de impugnación o revisión en vía administrativa por el procedimiento de declaración de nulidad de pleno derecho previsto en el artículo 217 de esta ley».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-022",
+      "ley": "ley-58-2003",
+      "articulo": "156.3",
+      "enunciado": "En un acta de conformidad se entiende producida y notificada la liquidación según la propuesta del acta si, en el plazo de un mes desde el día siguiente a la fecha del acta, no se notifica acuerdo del órgano competente para liquidar con alguno de estos contenidos. ¿Cuál es uno de ellos?",
+      "opciones": [
+        "Declarar la caducidad del procedimiento",
+        "Devolver el acta para su nueva formalización",
+        "Imponer directamente la sanción correspondiente",
+        "Confirmar la liquidación propuesta en el acta"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 156.3 incluye, entre los contenidos del acuerdo, «c) Confirmando la liquidación propuesta en el acta».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-023",
+      "ley": "ley-58-2003",
+      "articulo": "157.3",
+      "enunciado": "Tras un acta de disconformidad, el obligado puede formular alegaciones ante el órgano competente para liquidar en el plazo de:",
+      "opciones": [
+        "10 días desde que se extendió el acta o desde su notificación",
+        "Un mes desde la firma del acta",
+        "15 días desde que se extendió el acta o desde su notificación",
+        "30 días hábiles desde la notificación de la liquidación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 157.3 establece que «en el plazo de 15 días desde la fecha en que se haya extendido el acta o desde la notificación de la misma, el obligado tributario podrá formular alegaciones ante el órgano competente para liquidar».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-024",
+      "ley": "rd-1065-2007",
+      "articulo": "170.7",
+      "enunciado": "Los planes de inspección y los sistemas de selección de los obligados tributarios que serán inspeccionados tienen carácter:",
+      "opciones": [
+        "Reservado",
+        "Público",
+        "Público una vez aprobados anualmente",
+        "Comunicable a los obligados seleccionados"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 170.7 dispone que «tendrán carácter reservado, no serán objeto de publicidad o de comunicación ni se pondrán de manifiesto a los obligados tributarios ni a órganos ajenos a la aplicación de los tributos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-025",
+      "ley": "rd-1065-2007",
+      "articulo": "171.3",
+      "enunciado": "Si el personal inspector solicita datos que no deban hallarse a disposición inmediata de la Administración, se concede con carácter general un plazo de:",
+      "opciones": [
+        "10 días hábiles desde el siguiente a la notificación del requerimiento",
+        "15 días hábiles desde el siguiente a la notificación del requerimiento",
+        "10 días naturales desde el siguiente a la notificación del requerimiento",
+        "5 días hábiles desde el siguiente a la notificación del requerimiento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 171.3 dice que «se concederá con carácter general un plazo de 10 días hábiles, contados a partir del siguiente al de la notificación del requerimiento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-026",
+      "ley": "rd-1065-2007",
+      "articulo": "172.2",
+      "enunciado": "En la AEAT, si el obligado se opone a la entrada de los funcionarios de inspección en un local de negocio, se precisa un acuerdo de entrada de:",
+      "opciones": [
+        "El Director General de la Agencia Estatal de Administración Tributaria",
+        "El juez de lo contencioso-administrativo",
+        "El delegado o el director de departamento del que dependa el órgano actuante",
+        "El jefe del equipo o unidad que lleve a cabo las actuaciones"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 172.2 exige «un acuerdo de entrada del delegado o del director de departamento del que dependa el órgano actuante, sin perjuicio de la adopción de las medidas cautelares que procedan».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-027",
+      "ley": "rd-1065-2007",
+      "articulo": "172.3",
+      "enunciado": "Cuando la entrada afecte al domicilio constitucionalmente protegido de un obligado tributario, se precisa:",
+      "opciones": [
+        "Solo el acuerdo de entrada del delegado de la AEAT",
+        "El acuerdo de entrada del director de departamento, sin más requisitos",
+        "Comunicación previa de 48 horas al obligado",
+        "El consentimiento del interesado o autorización judicial"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 172.3 establece que «se precisará el consentimiento del interesado o autorización judicial».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-028",
+      "ley": "rd-1065-2007",
+      "articulo": "180.3",
+      "enunciado": "Los requerimientos de comparecencia en las oficinas de la Administración no realizados en presencia del obligado deben habilitar un plazo mínimo de:",
+      "opciones": [
+        "5 días, contados a partir del día siguiente al de la notificación",
+        "10 días, contados a partir del día siguiente al de la notificación",
+        "15 días, contados a partir del día siguiente al de la notificación",
+        "7 días naturales desde la notificación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 180.3 señala que dichos requerimientos «deberán habilitar para ello un plazo mínimo de 10 días, contados a partir del día siguiente al de la notificación del requerimiento».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-029",
+      "ley": "rd-1065-2007",
+      "articulo": "181.5",
+      "enunciado": "Adoptada una medida cautelar en inspección, el obligado puede formular alegaciones ante el órgano competente para liquidar en el plazo improrrogable de:",
+      "opciones": [
+        "Diez días desde el día siguiente a la notificación de la medida",
+        "Quince días desde la adopción de la medida",
+        "Tres días desde la adopción de la medida",
+        "Cinco días desde el día siguiente a la notificación de la medida"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 181.5 prevé que «en el plazo improrrogable de cinco días, contados a partir del día siguiente al de la notificación de la medida cautelar, el obligado tributario podrá formular alegaciones ante el órgano competente para liquidar».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    },
+    {
+      "id": "ins-030",
+      "ley": "rd-1065-2007",
+      "articulo": "184.1",
+      "enunciado": "Cada uno de los periodos que el obligado puede solicitar para que la inspección no actúe con él debe ser de un mínimo de:",
+      "opciones": [
+        "7 días naturales",
+        "3 días naturales",
+        "10 días hábiles",
+        "15 días naturales"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 184.1 dice que se podrán solicitar «uno o varios periodos a los que se refiere el apartado 4 del artículo 150 de la Ley 58/2003 […] de un mínimo de 7 días naturales cada uno».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 20
+      }
+    }
+  ]
+}

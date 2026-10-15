@@ -1,0 +1,605 @@
+{
+  "descripcion": "Tema 21 AEAT: extinción de la deuda tributaria (I): pago, plazos, imputación, consignación, aplazamiento y fraccionamiento (LGT arts. 59-65 y Reglamento General de Recaudación). Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "pgo-001",
+      "ley": "ley-58-2003",
+      "articulo": "59.1",
+      "enunciado": "¿Cuál de los siguientes es un medio de extinción de la deuda tributaria previsto en la LGT?",
+      "opciones": [
+        "La novación",
+        "La compensación",
+        "La caducidad",
+        "La confusión de derechos"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 59.1 dispone que las deudas tributarias «podrán extinguirse por pago, prescripción, compensación o condonación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-002",
+      "ley": "ley-58-2003",
+      "articulo": "59.2",
+      "enunciado": "Según la LGT, el pago, la compensación, la deducción sobre transferencias o la condonación tienen efectos liberatorios:",
+      "opciones": [
+        "Sobre la totalidad de la deuda, aunque el importe sea solo parcial",
+        "Exclusivamente por el importe pagado, compensado, deducido o condonado",
+        "Sobre la deuda y los recargos, con independencia del importe satisfecho",
+        "Solo si cubren al menos la cuota íntegra de la deuda tributaria"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 59.2 establece que tienen efectos liberatorios «exclusivamente por el importe pagado, compensado, deducido o condonado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-003",
+      "ley": "ley-58-2003",
+      "articulo": "60.2",
+      "enunciado": "El pago en especie de la deuda tributaria podrá admitirse en período voluntario o ejecutivo cuando:",
+      "opciones": [
+        "Lo solicite el obligado y el órgano de recaudación lo acepte",
+        "La deuda supere la cuantía que fije la Administración",
+        "Lo autorice el titular del órgano de recaudación de forma discrecional",
+        "Una Ley lo disponga expresamente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 60.2 permite el pago en especie «cuando una Ley lo disponga expresamente y en los términos y condiciones que se prevean reglamentariamente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-004",
+      "ley": "ley-58-2003",
+      "articulo": "60.2",
+      "enunciado": "Un obligado solicita pagar en especie una deuda que, según el artículo 65.2 LGT, es inaplazable. ¿Qué ocurrirá con la solicitud?",
+      "opciones": [
+        "Se tramitará, pero exigiendo garantía suficiente",
+        "Será objeto de inadmisión",
+        "Se resolverá de forma motivada en el plazo de seis meses",
+        "Se tramitará como una solicitud de aplazamiento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 60.2 dispone que «Las solicitudes de pago en especie a que se refiere este apartado serán objeto de inadmisión» cuando las deudas tengan la condición de inaplazables.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-005",
+      "ley": "ley-58-2003",
+      "articulo": "61.1",
+      "enunciado": "Se entiende pagada en efectivo una deuda tributaria cuando:",
+      "opciones": [
+        "Se presenta la autoliquidación correspondiente ante la Administración tributaria",
+        "El obligado da la orden de pago a su entidad de crédito para el ingreso",
+        "La Administración notifica al obligado la liquidación de la deuda tributaria",
+        "Se ingresa su importe en las cajas de los órganos competentes o entidades autorizadas"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 61.1 señala que se entiende pagada «cuando se haya realizado el ingreso de su importe en las cajas de los órganos competentes, oficinas recaudadoras o entidades autorizadas para su admisión».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-006",
+      "ley": "ley-58-2003",
+      "articulo": "62.2.a",
+      "enunciado": "Una liquidación practicada por la Administración se notifica el día 10 de marzo. El pago en período voluntario podrá hacerse, si los días fueran hábiles, hasta el:",
+      "opciones": [
+        "20 de abril",
+        "20 de marzo",
+        "5 de abril",
+        "5 de mayo"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 62.2.a) fija el plazo, si la notificación se hace entre los días uno y 15 de cada mes, «hasta el día 20 del mes posterior o, si éste no fuera hábil, hasta el inmediato hábil siguiente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-007",
+      "ley": "ley-58-2003",
+      "articulo": "62.2.b",
+      "enunciado": "Una liquidación practicada por la Administración se notifica el día 25 de mayo. El pago en período voluntario podrá hacerse, si los días fueran hábiles, hasta el:",
+      "opciones": [
+        "20 de junio",
+        "5 de julio",
+        "5 de junio",
+        "20 de julio"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 62.2.b) dispone que, si la notificación se realiza entre los días 16 y último de cada mes, el plazo llega «hasta el día cinco del segundo mes posterior o, si éste no fuera hábil, hasta el inmediato hábil siguiente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-008",
+      "ley": "ley-58-2003",
+      "articulo": "62.3",
+      "enunciado": "Si sus normas reguladoras no establecen otro plazo, el pago en período voluntario de las deudas de notificación colectiva y periódica se hará entre el día uno de septiembre y el:",
+      "opciones": [
+        "20 de noviembre",
+        "5 de noviembre",
+        "20 de diciembre",
+        "5 de diciembre"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 62.3 indica que deberá efectuarse «en el período comprendido entre el día uno de septiembre y el 20 de noviembre o, si éste no fuera hábil, hasta el inmediato hábil siguiente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-009",
+      "ley": "ley-58-2003",
+      "articulo": "62.3",
+      "enunciado": "La Administración tributaria competente puede modificar el plazo de pago de las deudas de notificación colectiva y periódica siempre que el nuevo plazo no sea inferior a:",
+      "opciones": [
+        "Un mes",
+        "Dos meses",
+        "Tres meses",
+        "Cuarenta y cinco días naturales"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 62.3 permite modificar el plazo «siempre que dicho plazo no sea inferior a dos meses».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-010",
+      "ley": "ley-58-2003",
+      "articulo": "63.1",
+      "enunciado": "Quien debe pagar varias deudas tributarias a la Administración, ¿a qué deuda puede imputar cada pago?",
+      "opciones": [
+        "A la que libremente determine",
+        "A la más antigua, siempre",
+        "A la de mayor importe",
+        "A la que designe la Administración"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 63.1 establece que «El obligado al pago de varias deudas podrá imputar cada pago a la deuda que libremente determine».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-011",
+      "ley": "ley-58-2003",
+      "articulo": "63.3",
+      "enunciado": "En una ejecución forzosa con varias deudas acumuladas de un mismo obligado que no pueden extinguirse totalmente, la Administración aplicará el pago:",
+      "opciones": [
+        "A la deuda de mayor importe de todas las acumuladas",
+        "A la deuda que el obligado determine libremente",
+        "A la deuda más reciente, para evitar la prescripción de las demás",
+        "A la más antigua, según la fecha en que fue exigible"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 63.3 dice que la Administración «aplicará el pago a la deuda más antigua. Su antigüedad se determinará de acuerdo con la fecha en que cada una fue exigible».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-012",
+      "ley": "ley-58-2003",
+      "articulo": "64",
+      "enunciado": "Los obligados tributarios pueden consignar el importe de la deuda tributaria y, en su caso, de las costas reglamentariamente devengadas en:",
+      "opciones": [
+        "Cualquier entidad colaboradora en la recaudación de la Administración competente",
+        "El Banco de España, que actúa como único depositario de las consignaciones",
+        "La Caja General de Depósitos u órgano equivalente de otras Administraciones",
+        "El órgano de recaudación que tramite la deuda, mediante ingreso en su caja"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 64 permite consignar el importe «en la Caja General de Depósitos u órgano equivalente de las restantes Administraciones públicas, o en alguna de sus sucursales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-013",
+      "ley": "ley-58-2003",
+      "articulo": "65.2.b",
+      "enunciado": "¿Cuál de las siguientes deudas tributarias no puede ser objeto de aplazamiento o fraccionamiento?",
+      "opciones": [
+        "Las resultantes de liquidaciones practicadas por la Administración tributaria",
+        "Las que se encuentren ya en período ejecutivo de recaudación",
+        "Las que deba cumplir el retenedor o el obligado a realizar ingresos a cuenta",
+        "Las derivadas de la declaración anual del IRPF presentada en plazo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 65.2.b) excluye «Las correspondientes a obligaciones tributarias que deban cumplir el retenedor o el obligado a realizar ingresos a cuenta».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-014",
+      "ley": "ley-58-2003",
+      "articulo": "65.2.g",
+      "enunciado": "¿Cuál de las siguientes deudas tributarias es inaplazable e infraccionable?",
+      "opciones": [
+        "Las del obligado a realizar pagos fraccionados del IRPF por actividades económicas",
+        "La cuota diferencial del Impuesto sobre Sociedades resultante de la autoliquidación",
+        "Las del obligado a realizar pagos fraccionados del Impuesto sobre Sociedades",
+        "Las resultantes de actas de inspección firmadas en disconformidad"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 65.2.g) excluye «Las correspondientes a obligaciones tributarias que deba cumplir el obligado a realizar pagos fraccionados del Impuesto sobre Sociedades».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-015",
+      "ley": "ley-58-2003",
+      "articulo": "65.4",
+      "enunciado": "Cuando la totalidad de la deuda aplazada se garantice con aval solidario de entidad de crédito, el interés de demora exigible será:",
+      "opciones": [
+        "El interés de demora incrementado en un 25 por ciento",
+        "El interés de demora vigente en cada momento del aplazamiento",
+        "No se exigirá interés alguno mientras dure el aplazamiento",
+        "El interés legal que corresponda hasta su ingreso"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 65.4 establece que «el interés de demora exigible será el interés legal que corresponda hasta la fecha de su ingreso».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-016",
+      "ley": "ley-58-2003",
+      "articulo": "65.5",
+      "enunciado": "La presentación de una solicitud de aplazamiento o fraccionamiento en período voluntario:",
+      "opciones": [
+        "Impedirá el inicio del período ejecutivo, pero no el devengo del interés de demora",
+        "Impedirá el inicio del período ejecutivo y el devengo del interés de demora",
+        "Impedirá el devengo del interés de demora, pero no el inicio del período ejecutivo",
+        "No impedirá el inicio del período ejecutivo ni el devengo del interés de demora"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 65.5 dispone que la solicitud en período voluntario «impedirá el inicio del período ejecutivo, pero no el devengo del interés de demora».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-017",
+      "ley": "ley-58-2003",
+      "articulo": "65.5",
+      "enunciado": "Si se solicita un aplazamiento en período ejecutivo, mientras se tramita deberán suspenderse las actuaciones de:",
+      "opciones": [
+        "Embargo de bienes y derechos",
+        "Iniciación del procedimiento de apremio",
+        "Liquidación de intereses de demora",
+        "Enajenación de los bienes embargados"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 65.5 indica que «deberán suspenderse las actuaciones de enajenación de los bienes embargados hasta la notificación de la resolución denegatoria del aplazamiento o fraccionamiento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-018",
+      "ley": "rd-939-2005",
+      "articulo": "33.1",
+      "enunciado": "Respecto al pago de una deuda, el tercero que la paga:",
+      "opciones": [
+        "Queda subrogado en todos los derechos que corresponden al obligado al pago",
+        "Debe contar siempre con la aprobación expresa del obligado al pago",
+        "No está legitimado para ejercitar los derechos del obligado ante la Administración",
+        "Solo puede pagar si tiene interés en el cumplimiento de la obligación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 33.1 señala que «El tercero que pague la deuda no estará legitimado para ejercitar ante la Administración los derechos que corresponden al obligado al pago».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-019",
+      "ley": "rd-939-2005",
+      "articulo": "34.4",
+      "enunciado": "Si el pago se realiza a través de una entidad de crédito autorizada, la entrega al deudor del justificante de ingreso lo libera desde:",
+      "opciones": [
+        "La fecha que consta en el justificante, por el importe que figure en él",
+        "La fecha en que la entidad ingresa el importe en el Tesoro público",
+        "El día siguiente al de la entrega del justificante al deudor",
+        "La fecha en que se comunique el pago al órgano de recaudación"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 34.4 dice que la entrega del justificante «liberará a este desde la fecha que se consigne en el justificante y por el importe que figure en él».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-020",
+      "ley": "rd-939-2005",
+      "articulo": "34.5",
+      "enunciado": "Las órdenes de pago dadas por el deudor a las entidades de crédito autorizadas para recibir el pago:",
+      "opciones": [
+        "Liberan al deudor desde la fecha en que se dan a la entidad",
+        "No surten por sí solas efectos frente a la Hacienda pública",
+        "Liberan al deudor desde el momento en que la entidad las acepta",
+        "Interrumpen el cómputo del plazo de pago en período voluntario"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 34.5 establece que las órdenes de pago «no surtirán por sí solas efectos frente a la Hacienda pública».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-021",
+      "ley": "rd-939-2005",
+      "articulo": "38.3",
+      "enunciado": "Si el cargo en cuenta de una domiciliación no se realiza, o se realiza fuera de plazo, por causa no imputable al obligado, a este:",
+      "opciones": [
+        "Se le exigirá solo el recargo de apremio reducido del 10 por ciento",
+        "Se le exigirán intereses de demora, pero no sanciones ni recargos",
+        "No se le exigirán recargos, intereses ni sanciones",
+        "Se le exigirán recargos, pero no intereses de demora ni sanciones"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 38.3 dispone que «no se exigirán a este recargos, intereses de demora ni sanciones».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-022",
+      "ley": "rd-939-2005",
+      "articulo": "43.2",
+      "enunciado": "Si la caja del órgano competente no admite el pago debiendo hacerlo y el obligado consigna la deuda, la consignación tendrá efectos liberatorios desde la fecha en que se efectúe, siempre que:",
+      "opciones": [
+        "Se interponga recurso contra la negativa",
+        "Se garantice el pago de las costas",
+        "Se obtenga autorización previa del órgano de recaudación",
+        "Se comunique al órgano de recaudación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 43.2 dispone que en ese caso la consignación «tendrá los efectos liberatorios del pago desde la fecha en que haya sido efectuada y por el importe que haya sido objeto de consignación y siempre que se comunique al órgano de recaudación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-023",
+      "ley": "rd-939-2005",
+      "articulo": "46.1.a",
+      "enunciado": "Una deuda resulta de una autoliquidación presentada fuera de plazo. La solicitud de aplazamiento se entenderá presentada en período voluntario solo si:",
+      "opciones": [
+        "Se presenta antes de que se notifique la providencia de apremio",
+        "Se presenta dentro de los diez días siguientes a la autoliquidación",
+        "Se acompaña de garantía suficiente",
+        "Se presenta junto con la autoliquidación extemporánea"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 46.1.a) establece que «sólo se entenderá que la solicitud se presenta en periodo voluntario cuando la solicitud de aplazamiento o fraccionamiento se presente junto con la autoliquidación extemporánea».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-024",
+      "ley": "rd-939-2005",
+      "articulo": "48.2",
+      "enunciado": "En periodo voluntario, la garantía de un aplazamiento cubrirá el importe de la deuda, los intereses de demora que genere el aplazamiento y un porcentaje de la suma de ambas partidas igual al:",
+      "opciones": [
+        "5 por ciento",
+        "25 por ciento",
+        "10 por ciento",
+        "20 por ciento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 48.2 dispone que «La garantía cubrirá el importe de la deuda en periodo voluntario, de los intereses de demora que genere el aplazamiento y un 25 por ciento de la suma de ambas partidas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-025",
+      "ley": "rd-939-2005",
+      "articulo": "48.2",
+      "enunciado": "Cuando la deuda aplazada se encuentra en período ejecutivo, la garantía debe cubrir el importe aplazado con el recargo, los intereses de demora y, además, un porcentaje de la suma de ambas partidas igual al:",
+      "opciones": [
+        "25 por ciento",
+        "10 por ciento",
+        "5 por ciento",
+        "15 por ciento"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 48.2 señala que, en período ejecutivo, la garantía deberá cubrir «los intereses de demora que genere el aplazamiento, más un 5 por ciento de la suma de ambas partidas».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-026",
+      "ley": "rd-939-2005",
+      "articulo": "48.5",
+      "enunciado": "La vigencia de la garantía constituida mediante aval o certificado de seguro de caución deberá exceder al menos al vencimiento del plazo o plazos garantizados en:",
+      "opciones": [
+        "Tres meses",
+        "Seis meses",
+        "Un año",
+        "Dos meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 48.5 exige que «La vigencia de la garantía constituida mediante aval o certificado de seguro de caución deberá exceder al menos en seis meses al vencimiento del plazo o plazos garantizados».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-027",
+      "ley": "rd-939-2005",
+      "articulo": "48.6",
+      "enunciado": "La garantía de un aplazamiento concedido deberá formalizarse en el plazo de dos meses contados desde:",
+      "opciones": [
+        "El día siguiente al de la notificación del acuerdo de concesión",
+        "La fecha de presentación de la solicitud",
+        "El día siguiente al de vencimiento del plazo de ingreso en voluntario",
+        "La fecha de inicio del período ejecutivo"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 48.6 dispone que «La garantía deberá formalizarse en el plazo de dos meses contados a partir del día siguiente al de la notificación del acuerdo de concesión».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-028",
+      "ley": "rd-939-2005",
+      "articulo": "52.1",
+      "enunciado": "Los vencimientos de los plazos de un aplazamiento o fraccionamiento concedido deberán coincidir con los días:",
+      "opciones": [
+        "5 o 20 del mes",
+        "1 o 15 del mes",
+        "10 o 25 del mes",
+        "Último día del mes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 52.1 dispone que «el vencimiento de los plazos deberá coincidir con los días 5 ó 20 del mes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-029",
+      "ley": "rd-939-2005",
+      "articulo": "52.6",
+      "enunciado": "La resolución de una solicitud de aplazamiento o fraccionamiento deberá notificarse en el plazo de:",
+      "opciones": [
+        "Seis meses",
+        "Tres meses",
+        "Un mes",
+        "Doce meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 52.6 establece que «La resolución deberá notificarse en el plazo de seis meses».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    },
+    {
+      "id": "pgo-030",
+      "ley": "rd-939-2005",
+      "articulo": "54.1.a",
+      "enunciado": "En un aplazamiento solicitado en período voluntario, si llegado el vencimiento del plazo concedido no se efectúa el pago, el período ejecutivo se iniciará:",
+      "opciones": [
+        "El mismo día del vencimiento del plazo incumplido",
+        "Al día siguiente de notificarse el requerimiento de pago",
+        "Al día siguiente del vencimiento del plazo incumplido",
+        "Al día siguiente del vencimiento del plazo de ingreso en voluntario"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 54.1.a) dispone que «se iniciará el periodo ejecutivo al día siguiente del vencimiento del plazo incumplido, debiendo iniciarse el procedimiento de apremio».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 21
+      }
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "descripcion": "LGT (Ley 58/2003), temas del agente-aeat 16. Obligaciones formales, derechos y garantías, obligados tributarios, capacidad, representación, domicilio y prescripción. Lote generado el 2026-10-15 contra el texto consolidado (versión 2026-10-09).",
+  "preguntas": [
+    {
+      "id": "obg-001",
+      "ley": "ley-58-2003",
+      "articulo": "29.2.a",
+      "enunciado": "¿Quiénes están obligados a presentar declaraciones censales según el artículo 29 de la LGT?",
+      "opciones": [
+        "Todas las personas físicas residentes en España que sean mayores de edad",
+        "Quienes sean titulares de bienes inmuebles situados en el territorio español",
+        "Quienes ejerzan o vayan a ejercer en España actividades empresariales o profesionales, o satisfagan rentas sujetas a retención",
+        "Únicamente las sociedades mercantiles que ejerzan actividades empresariales en España"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 29.2.a) impone «La obligación de presentar declaraciones censales por las personas o entidades que desarrollen o vayan a desarrollar en territorio español actividades u operaciones empresariales y profesionales o satisfagan rendimientos sujetos a retención».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-002",
+      "ley": "ley-58-2003",
+      "articulo": "29.2.h",
+      "enunciado": "¿A quién debe entregarse el certificado de las retenciones o ingresos a cuenta practicados, como obligación tributaria formal?",
+      "opciones": [
+        "A los obligados perceptores de las rentas sujetas a retención o ingreso a cuenta",
+        "A la Administración tributaria que gestione el tributo de que se trate",
+        "A los obligados a soportar la repercusión de la cuota tributaria",
+        "A las entidades financieras que abonen las rentas correspondientes"
+      ],
+      "correcta": 0,
+      "explicacion": "Es obligación formal «La obligación de entregar un certificado de las retenciones o ingresos a cuenta practicados a los obligados tributarios perceptores de las rentas sujetas a retención o ingreso a cuenta».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-003",
+      "ley": "ley-58-2003",
+      "articulo": "29.2.d",
+      "enunciado": "Si los libros y registros se llevan con sistemas informáticos y los datos están encriptados, el obligado tributario deberá:",
+      "opciones": [
+        "Aportar solo una copia en papel de los libros de contabilidad",
+        "Solicitar autorización a la Administración para destruirlos",
+        "Conservarlos encriptados mientras nadie los haya requerido",
+        "Facilitar la conversión de los datos a formato legible"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 29.2.d) dice: «Se deberá facilitar la conversión de dichos datos a formato legible cuando la lectura o interpretación de los mismos no fuera posible por estar encriptados o codificados».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-004",
+      "ley": "ley-58-2003",
+      "articulo": "31.2",
+      "enunciado": "Si no se ordena el pago de una devolución tributaria por causa imputable a la Administración, ¿qué plazo máximo, en todo caso, fija la LGT antes de abonar interés de demora?",
+      "opciones": [
+        "Tres meses",
+        "Seis meses",
+        "Nueve meses",
+        "Un año"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 31.2: «Transcurrido el plazo fijado en las normas reguladoras de cada tributo y, en todo caso, el plazo de seis meses, sin que se hubiera ordenado el pago de la devolución por causa imputable a la Administración Tributaria, ésta abonará el interés de demora».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-005",
+      "ley": "ley-58-2003",
+      "articulo": "32.2",
+      "enunciado": "En la devolución de ingresos indebidos, ¿desde cuándo se devenga el interés de demora?",
+      "opciones": [
+        "Desde la fecha en que se presente la solicitud de devolución",
+        "Desde la fecha en que se hubiese realizado el ingreso indebido",
+        "Desde que se dicte la resolución que reconozca el derecho",
+        "Desde la finalización del plazo de seis meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 32.2 establece que «el interés de demora se devengará desde la fecha en que se hubiese realizado el ingreso indebido hasta la fecha en que se ordene el pago de la devolución».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-006",
+      "ley": "ley-58-2003",
+      "articulo": "33.2",
+      "enunciado": "Con el reembolso del coste de las garantías, la Administración tributaria abona, sin necesidad de solicitud:",
+      "opciones": [
+        "El interés de demora regulado en el artículo 26",
+        "El interés legal incrementado en un 25 por ciento",
+        "Ningún interés, solo el importe acreditado del coste",
+        "El interés legal vigente durante el período en que se devengue"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 33.2 señala que «la Administración tributaria abonará el interés legal vigente a lo largo del período en el que se devengue sin necesidad de que el obligado tributario lo solicite».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-007",
+      "ley": "ley-58-2003",
+      "articulo": "34.1.h",
+      "enunciado": "Un obligado tributario no quiere volver a aportar un documento que ya presentó. Para ejercer ese derecho debe:",
+      "opciones": [
+        "Indicar el día y el procedimiento en el que lo presentó",
+        "Aportar una copia sellada del documento presentado",
+        "Solicitar certificación de la declaración que lo incluía",
+        "Presentar una declaración responsable sobre su contenido"
+      ],
+      "correcta": 0,
+      "explicacion": "Constituye un derecho «No aportar aquellos documentos ya presentados por ellos mismos y que se encuentren en poder de la Administración actuante, siempre que el obligado tributario indique el día y procedimiento en el que los presentó».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-008",
+      "ley": "ley-58-2003",
+      "articulo": "34.1.g",
+      "enunciado": "Para obtener copia sellada de los documentos presentados ante la Administración tributaria, el obligado debe:",
+      "opciones": [
+        "Pagar la tasa correspondiente a la compulsa",
+        "Solicitarla mediante escrito motivado con registro previo",
+        "Aportar la copia junto a los originales para su cotejo",
+        "Presentar los originales en el plazo de diez días"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 34.1.g) reconoce el «derecho a obtener copia sellada de los documentos presentados ante la Administración, siempre que la aporten junto a los originales para su cotejo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-009",
+      "ley": "ley-58-2003",
+      "articulo": "34.1.s",
+      "enunciado": "El derecho a obtener copia, a su costa, de los documentos del expediente administrativo se ejerce en el trámite de:",
+      "opciones": [
+        "Inicio de las actuaciones de comprobación",
+        "Notificación del acuerdo de liquidación",
+        "Interposición del recurso de reposición",
+        "Puesta de manifiesto del expediente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 34.1.s) reconoce el «Derecho a obtener copia a su costa de los documentos que integren el expediente administrativo en el trámite de puesta de manifiesto del mismo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-010",
+      "ley": "ley-58-2003",
+      "articulo": "34.1.i",
+      "enunciado": "Los datos, informes o antecedentes obtenidos por la Administración tributaria solo podrán utilizarse, salvo supuestos legales, para:",
+      "opciones": [
+        "La aplicación de los tributos y la elaboración de estadísticas de acceso público",
+        "La aplicación de los tributos o recursos que gestione y la imposición de sanciones",
+        "Cualquier finalidad de interés público que determine la Administración",
+        "La aplicación de los tributos y su cesión a otras Administraciones públicas"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 34.1.i) dispone que los datos «sólo podrán ser utilizados para la aplicación de los tributos o recursos cuya gestión tenga encomendada y para la imposición de sanciones, sin que puedan ser cedidos o comunicados a terceros, salvo en los supuestos previstos en las leyes».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-011",
+      "ley": "ley-58-2003",
+      "articulo": "34.1.n",
+      "enunciado": "¿Sobre qué bienes tiene el obligado tributario derecho a ser informado de sus valores?",
+      "opciones": [
+        "Todos los bienes que integren su patrimonio",
+        "Los bienes muebles sujetos a matriculación",
+        "Los bienes inmuebles que vayan a ser objeto de adquisición o transmisión",
+        "Los inmuebles comprobados en los últimos cuatro años"
+      ],
+      "correcta": 2,
+      "explicacion": "Es un derecho del obligado el «Derecho a ser informado de los valores de los bienes inmuebles que vayan a ser objeto de adquisición o transmisión».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-012",
+      "ley": "ley-58-2003",
+      "articulo": "34.2",
+      "enunciado": "¿Qué función atribuye la LGT al Consejo para la Defensa del Contribuyente?",
+      "opciones": [
+        "Velar por la efectividad de los derechos de los obligados tributarios",
+        "Resolver las reclamaciones económico-administrativas",
+        "Aprobar los modelos normalizados de declaración",
+        "Inspeccionar el cumplimiento de las obligaciones formales"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 34.2 indica que el Consejo «velará por la efectividad de los derechos de los obligados tributarios, atenderá las quejas que se produzcan por la aplicación del sistema tributario».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-013",
+      "ley": "ley-58-2003",
+      "articulo": "35.7",
+      "enunciado": "Cuando varios obligados tributarios concurren en un mismo presupuesto de una obligación, salvo que la ley disponga otra cosa, quedan:",
+      "opciones": [
+        "Solidariamente obligados frente a la Administración al cumplimiento de todas las prestaciones",
+        "Obligados mancomunadamente en proporción a su participación",
+        "Obligados subsidiariamente unos respecto de otros",
+        "Obligados únicamente quien realice el hecho imponible"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 35.7 establece que la concurrencia «determinará que queden solidariamente obligados frente a la Administración tributaria al cumplimiento de todas las prestaciones, salvo que por ley se disponga expresamente otra cosa».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-014",
+      "ley": "ley-58-2003",
+      "articulo": "35.7",
+      "enunciado": "La Administración solo conoce un titular y le notifica la liquidación. Para que proceda dividirla, ese titular debe facilitar:",
+      "opciones": [
+        "Solo el domicilio de los restantes obligados y su identificación fiscal",
+        "Una declaración de los restantes obligados aceptando la división",
+        "Los datos personales y el domicilio de los restantes obligados y la proporción de cada uno",
+        "El título de adquisición y una valoración de cada cuota"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 35.7, es «indispensable que el solicitante facilite los datos personales y el domicilio de los restantes obligados al pago, así como la proporción en que cada uno de ellos participe en el dominio o derecho trasmitido».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-015",
+      "ley": "ley-58-2003",
+      "articulo": "36.3",
+      "enunciado": "Según la LGT, el sustituto del contribuyente es el sujeto pasivo que:",
+      "opciones": [
+        "Realiza el hecho imponible del tributo",
+        "Por imposición de la ley y en lugar del contribuyente, cumple la obligación tributaria principal",
+        "Responde solo cuando el deudor principal es declarado fallido",
+        "Ingresa cantidades a cuenta antes de que la obligación sea exigible"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 36.3 define: «Es sustituto el sujeto pasivo que, por imposición de la ley y en lugar del contribuyente, está obligado a cumplir la obligación tributaria principal, así como las obligaciones formales inherentes a la misma».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-016",
+      "ley": "ley-58-2003",
+      "articulo": "37.2",
+      "enunciado": "Una empresa detrae parte de las retribuciones que paga a sus empleados y la ingresa en la Administración a cuenta del tributo de estos. Es:",
+      "opciones": [
+        "Sustituto del contribuyente",
+        "Obligado a repercutir",
+        "Obligado a realizar pagos fraccionados",
+        "Retenedor"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 37.2 define: «Es retenedor la persona o entidad a quien la ley de cada tributo impone la obligación de detraer e ingresar en la Administración tributaria, con ocasión de los pagos que deba realizar a otros obligados tributarios, una parte de su importe a cuenta del tributo que corresponda a éstos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-017",
+      "ley": "ley-58-2003",
+      "articulo": "38.2",
+      "enunciado": "El obligado a soportar la repercusión de la cuota tributaria:",
+      "opciones": [
+        "Está obligado al pago frente a la Administración como sustituto",
+        "Responde solidariamente con el sujeto pasivo ante la Administración",
+        "No debe pagar a la Administración, pero sí satisfacer al sujeto pasivo la cuota repercutida",
+        "No debe satisfacer cantidad alguna al sujeto pasivo"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 38.2, «El repercutido no está obligado al pago frente a la Administración tributaria pero debe satisfacer al sujeto pasivo el importe de la cuota repercutida».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-018",
+      "ley": "ley-58-2003",
+      "articulo": "39.1",
+      "enunciado": "Fallecido un obligado tributario, ¿qué elemento no se transmite en ningún caso a sus herederos?",
+      "opciones": [
+        "Las obligaciones tributarias pendientes",
+        "Las obligaciones devengadas aunque no estuvieran liquidadas",
+        "Las obligaciones pendientes correspondientes a legatarios",
+        "Las sanciones"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 39.1 prevé: «En ningún caso se transmitirán las sanciones».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-019",
+      "ley": "ley-58-2003",
+      "articulo": "40.1",
+      "enunciado": "Disuelta y liquidada una sociedad que limita la responsabilidad de sus socios, estos responden de sus deudas pendientes hasta el valor de:",
+      "opciones": [
+        "La cuota de liquidación y demás percepciones recibidas en los dos años anteriores a la disolución",
+        "La cuota de liquidación y demás percepciones recibidas en los cuatro años anteriores",
+        "El valor nominal de sus participaciones en el capital social",
+        "La totalidad de la deuda pendiente, sin límite alguno"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 40.1 dice que quedan obligados solidariamente «hasta el límite del valor de la cuota de liquidación que les corresponda y demás percepciones patrimoniales recibidas por los mismos en los dos años anteriores a la fecha de disolución».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-020",
+      "ley": "ley-58-2003",
+      "articulo": "41.2",
+      "enunciado": "Salvo precepto legal expreso en contrario, la responsabilidad tributaria será:",
+      "opciones": [
+        "Siempre solidaria",
+        "Siempre subsidiaria",
+        "Solidaria hasta el límite de los bienes embargables",
+        "Mancomunada con el deudor principal"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 41.2 establece: «Salvo precepto legal expreso en contrario, la responsabilidad será siempre subsidiaria».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-021",
+      "ley": "ley-58-2003",
+      "articulo": "41.5",
+      "enunciado": "La derivación de la acción administrativa a los responsables subsidiarios requiere la previa declaración de fallido de:",
+      "opciones": [
+        "Solo el deudor principal",
+        "El deudor principal y los responsables solidarios",
+        "Solo los responsables solidarios",
+        "Los sucesores del deudor principal"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 41.5 señala: «La derivación de la acción administrativa a los responsables subsidiarios requerirá la previa declaración de fallido del deudor principal y de los responsables solidarios».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-022",
+      "ley": "ley-58-2003",
+      "articulo": "42.1.c",
+      "enunciado": "La responsabilidad solidaria de quien sucede en la titularidad de explotaciones económicas no es aplicable a:",
+      "opciones": [
+        "Los supuestos de sucesión por causa de muerte",
+        "Quienes sucedan por cualquier concepto en el ejercicio de la actividad",
+        "Los adquirentes de elementos aislados que permitan continuar la explotación",
+        "Los adquirentes de explotaciones de un deudor concursado fuera del procedimiento concursal"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 42.1.c) indica que esta responsabilidad «no será aplicable a los supuestos de sucesión por causa de muerte, que se regirán por lo establecido en el artículo 39 de esta ley».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-023",
+      "ley": "ley-58-2003",
+      "articulo": "43.1.f",
+      "enunciado": "El certificado de estar al corriente de obligaciones tributarias aportado por el contratista exime de responsabilidad al pagador si se emitió durante:",
+      "opciones": [
+        "Los 3 meses anteriores al pago de cada factura",
+        "Los 6 meses anteriores al pago de cada factura",
+        "Los 24 meses anteriores al pago de cada factura",
+        "Los 12 meses anteriores al pago de cada factura"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 43.1.f) exige un certificado «emitido a estos efectos por la Administración tributaria durante los 12 meses anteriores al pago de cada factura correspondiente a la contratación o subcontratación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-024",
+      "ley": "ley-58-2003",
+      "articulo": "44",
+      "enunciado": "En el orden tributario, los menores de edad tienen capacidad de obrar:",
+      "opciones": [
+        "En ninguna relación, pues siempre actúa su representante legal",
+        "En todas las relaciones tributarias desde los dieciséis años",
+        "En las derivadas de actividades que pueden ejercer sin asistencia de sus representantes",
+        "Solo en los tributos cuya cuantía sea inferior a la que fije cada ley"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 44 reconoce capacidad a «los menores de edad y los incapacitados en las relaciones tributarias derivadas de las actividades cuyo ejercicio les esté permitido por el ordenamiento jurídico sin asistencia de la persona que ejerza la patria potestad, tutela, curatela o defensa judicial».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-025",
+      "ley": "ley-58-2003",
+      "articulo": "46.7",
+      "enunciado": "Si falta o es insuficiente el poder de representación, el órgano competente debe conceder un plazo de subsanación de:",
+      "opciones": [
+        "5 días",
+        "15 días",
+        "30 días",
+        "10 días"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 46.7 dispone que la falta de poder no impedirá el acto «siempre que se acompañe aquél o se subsane el defecto dentro del plazo de 10 días».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-026",
+      "ley": "ley-58-2003",
+      "articulo": "48.3",
+      "enunciado": "¿Cuándo produce efectos frente a la Administración tributaria el cambio de domicilio fiscal?",
+      "opciones": [
+        "Desde que el obligado se traslada efectivamente al nuevo domicilio",
+        "Desde el día siguiente al empadronamiento en el nuevo municipio",
+        "Cuando el obligado cumple el deber de comunicarlo a la Administración",
+        "Desde el inicio del período impositivo siguiente"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 48.3 señala: «El cambio de domicilio fiscal no producirá efectos frente a la Administración tributaria hasta que se cumpla con dicho deber de comunicación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-027",
+      "ley": "ley-58-2003",
+      "articulo": "66",
+      "enunciado": "¿En cuántos años prescribe el derecho de la Administración para exigir el pago de las deudas tributarias liquidadas y autoliquidadas?",
+      "opciones": [
+        "Cuatro años",
+        "Tres años",
+        "Cinco años",
+        "Diez años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 66 dice: «Prescribirán a los cuatro años los siguientes derechos», entre ellos «El derecho de la Administración para exigir el pago de las deudas tributarias liquidadas y autoliquidadas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-028",
+      "ley": "ley-58-2003",
+      "articulo": "67.2",
+      "enunciado": "¿Desde cuándo se computa el plazo de prescripción para exigir el pago a los responsables subsidiarios?",
+      "opciones": [
+        "Desde el día siguiente a la finalización del plazo de pago voluntario del deudor principal",
+        "Desde la notificación de la última actuación recaudatoria practicada al deudor principal o a cualquiera de los responsables solidarios",
+        "Desde la notificación del acuerdo de derivación de responsabilidad",
+        "Desde la declaración de fallido del deudor principal"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 67.2 establece: «Tratándose de responsables subsidiarios, el plazo de prescripción comenzará a computarse desde la notificación de la última actuación recaudatoria practicada al deudor principal o a cualquiera de los responsables solidarios».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-029",
+      "ley": "ley-58-2003",
+      "articulo": "68.8",
+      "enunciado": "Interrumpida la prescripción para un obligado tributario, el efecto se extiende a los demás obligados, incluidos los responsables, salvo que:",
+      "opciones": [
+        "La obligación sea solidaria y se reclame la totalidad a uno de ellos",
+        "El otro obligado sea responsable subsidiario",
+        "La obligación sea mancomunada y solo se reclame a uno su parte",
+        "La interrupción derive de un recurso contencioso-administrativo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 68.8 matiza: «si la obligación es mancomunada y solo se reclama a uno de los obligados tributarios la parte que le corresponde, el plazo no se interrumpe para los demás».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    },
+    {
+      "id": "obg-030",
+      "ley": "ley-58-2003",
+      "articulo": "69.2",
+      "enunciado": "La prescripción tributaria se aplica:",
+      "opciones": [
+        "Solo si la invoca el obligado tributario",
+        "De oficio, salvo que la deuda ya se haya pagado",
+        "A instancia del obligado, aunque haya pagado la deuda",
+        "De oficio, incluso si la deuda tributaria se ha pagado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 69.2 establece: «La prescripción se aplicará de oficio, incluso en los casos en que se haya pagado la deuda tributaria, sin necesidad de que la invoque o excepcione el obligado tributario».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 16
+      }
+    }
+  ]
+}

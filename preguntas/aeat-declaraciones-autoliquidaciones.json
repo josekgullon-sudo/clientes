@@ -1,0 +1,485 @@
+{
+  "descripcion": "LGT (arts. 23, 37, 117-122) y Reglamento de gestión e inspección (arts. 118-128). Tema 18 de Agente de la Hacienda Pública. Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-10-09).",
+  "preguntas": [
+    {
+      "id": "dec-001",
+      "ley": "ley-58-2003",
+      "articulo": "23.1",
+      "enunciado": "La obligación tributaria de realizar pagos a cuenta, respecto de la obligación tributaria principal, tiene carácter:",
+      "opciones": [
+        "Accesorio",
+        "Autónomo",
+        "Subsidiario",
+        "Solidario"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 23.1 dispone que «esta obligación tributaria tiene carácter autónomo respecto de la obligación tributaria principal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-002",
+      "ley": "ley-58-2003",
+      "articulo": "23.2",
+      "enunciado": "¿Quién puede deducir de la obligación tributaria principal el importe de los pagos a cuenta soportados?",
+      "opciones": [
+        "El retenedor",
+        "El sustituto del contribuyente",
+        "El obligado a practicar ingresos a cuenta",
+        "El contribuyente"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 23.2, «el contribuyente podrá deducir de la obligación tributaria principal el importe de los pagos a cuenta soportados».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-003",
+      "ley": "ley-58-2003",
+      "articulo": "37.1",
+      "enunciado": "Es obligado a realizar pagos fraccionados el contribuyente a quien la ley impone ingresar cantidades a cuenta de la obligación principal:",
+      "opciones": [
+        "Con anterioridad a que ésta resulte exigible",
+        "Una vez presentada la autoliquidación",
+        "Con posterioridad a su vencimiento",
+        "Durante el procedimiento de liquidación"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 37.1 define al obligado a realizar pagos fraccionados como el contribuyente al que la ley impone ingresar cantidades a cuenta «con anterioridad a que ésta resulte exigible».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-004",
+      "ley": "ley-58-2003",
+      "articulo": "37.2",
+      "enunciado": "Según la LGT, es retenedor la persona o entidad a quien la ley de cada tributo impone la obligación de:",
+      "opciones": [
+        "Repercutir el tributo a quien soporte el hecho imponible",
+        "Ingresar cantidades a cuenta de su propia obligación principal",
+        "Detraer e ingresar una parte de los pagos que haga a otros obligados, a cuenta del tributo de estos",
+        "Satisfacer rentas en especie ingresando a cuenta de cualquier tributo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 37.2 señala que es retenedor quien debe «detraer e ingresar en la Administración tributaria, con ocasión de los pagos que deba realizar a otros obligados tributarios, una parte de su importe a cuenta del tributo que corresponda a éstos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-005",
+      "ley": "ley-58-2003",
+      "articulo": "37.3",
+      "enunciado": "Es obligado a practicar ingresos a cuenta la persona o entidad que:",
+      "opciones": [
+        "Satisface rentas en especie o dinerarias y a quien la ley impone esa obligación",
+        "Detrae una parte de los pagos a otros obligados tributarios",
+        "Ingresa cantidades a cuenta antes de que la obligación sea exigible",
+        "Presenta la autoliquidación por cuenta de otro obligado"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 37.3 define al obligado a practicar ingresos a cuenta como «la persona o entidad que satisface rentas en especie o dinerarias y a quien la ley impone la obligación de realizar ingresos a cuenta de cualquier tributo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-006",
+      "ley": "ley-58-2003",
+      "articulo": "118",
+      "enunciado": "No es una de las formas de iniciación de la gestión tributaria previstas en la LGT:",
+      "opciones": [
+        "Por una autoliquidación o comunicación de datos",
+        "Por una solicitud del obligado tributario",
+        "De oficio por la Administración tributaria",
+        "Por denuncia de un tercero"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 118 prevé que la gestión tributaria se iniciará «por una autoliquidación, por una comunicación de datos o por cualquier otra clase de declaración», por solicitud del obligado o «de oficio por la Administración tributaria».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-007",
+      "ley": "ley-58-2003",
+      "articulo": "119.1",
+      "enunciado": "Se considera declaración tributaria todo documento presentado ante la Administración tributaria donde se:",
+      "opciones": [
+        "Calcule e ingrese la deuda tributaria que corresponda al obligado",
+        "Solicite la devolución de ingresos tributarios indebidos",
+        "Reconozca o manifieste un hecho relevante para la aplicación de los tributos",
+        "Comunique el cambio de domicilio fiscal del propio obligado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 119.1 considera declaración «todo documento presentado ante la Administración tributaria donde se reconozca o manifieste la realización de cualquier hecho relevante para la aplicación de los tributos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-008",
+      "ley": "ley-58-2003",
+      "articulo": "119.1",
+      "enunciado": "La presentación de una declaración tributaria, para el obligado tributario:",
+      "opciones": [
+        "Implica el reconocimiento de la deuda declarada",
+        "No implica aceptación o reconocimiento de la procedencia de la obligación tributaria",
+        "Impide rectificar después su contenido",
+        "Supone la renuncia a recurrir la liquidación posterior"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 119.1 establece que «la presentación de una declaración no implica aceptación o reconocimiento por el obligado tributario de la procedencia de la obligación tributaria».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-009",
+      "ley": "ley-58-2003",
+      "articulo": "119.2",
+      "enunciado": "Los supuestos en que sea admisible la declaración verbal o realizada mediante otro acto de manifestación de conocimiento se pueden determinar:",
+      "opciones": [
+        "Por la ley propia de cada tributo únicamente",
+        "Por acuerdo entre el obligado y la Administración",
+        "Por resolución de cada órgano de gestión",
+        "Reglamentariamente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 119.2 dispone que «reglamentariamente podrán determinarse los supuestos en que sea admisible la declaración verbal o la realizada mediante cualquier otro acto de manifestación de conocimiento».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-010",
+      "ley": "ley-58-2003",
+      "articulo": "119.3",
+      "enunciado": "Las opciones que se deban ejercitar con la presentación de una declaración no podrán rectificarse después, salvo que la rectificación se presente:",
+      "opciones": [
+        "En el período reglamentario de declaración",
+        "Antes de que se dicte la liquidación provisional",
+        "Dentro de los diez días siguientes a la presentación",
+        "Mientras no haya prescrito el derecho a liquidar"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 119.3, no podrán rectificarse «salvo que la rectificación se presente en el período reglamentario de declaración».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-011",
+      "ley": "ley-58-2003",
+      "articulo": "120.1",
+      "enunciado": "Las autoliquidaciones son declaraciones en las que los obligados tributarios, además de comunicar datos, realizan por sí mismos:",
+      "opciones": [
+        "Únicamente el ingreso de la cuota que la Administración les haya notificado",
+        "Las operaciones de calificación y cuantificación necesarias para fijar la deuda o la devolución",
+        "La liquidación definitiva del tributo con efectos de cosa juzgada",
+        "La comprobación de los datos declarados por otros obligados"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 120.1 las define como declaraciones en las que los obligados «realizan por sí mismos las operaciones de calificación y cuantificación necesarias para determinar e ingresar el importe de la deuda tributaria o, en su caso, determinar la cantidad que resulte a devolver o a compensar».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-012",
+      "ley": "ley-58-2003",
+      "articulo": "120.2",
+      "enunciado": "Las autoliquidaciones presentadas por los obligados tributarios podrán ser objeto de:",
+      "opciones": [
+        "Rectificación de oficio por la Administración, sin audiencia al obligado",
+        "Revisión únicamente mediante el recurso de reposición potestativo",
+        "Verificación y comprobación por la Administración, que liquidará en su caso",
+        "Inspección exclusivamente, sin posible comprobación limitada previa"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 120.2 señala que «podrán ser objeto de verificación y comprobación por la Administración, que practicará, en su caso, la liquidación que proceda».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-013",
+      "ley": "ley-58-2003",
+      "articulo": "120.3",
+      "enunciado": "Si la rectificación de una autoliquidación origina una devolución y transcurren seis meses sin ordenarse el pago por causa imputable a la Administración, esta abonará:",
+      "opciones": [
+        "El interés de demora, sin que el obligado lo solicite",
+        "El interés legal del dinero, solo si el obligado lo solicita",
+        "Un recargo del 10 por ciento sobre la devolución",
+        "El interés de demora, solo previa reclamación del obligado"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 120.3 establece que, transcurridos seis meses sin ordenarse el pago por causa imputable a la Administración, «ésta abonará el interés de demora del artículo 26 de esta Ley sobre el importe de la devolución que proceda, sin necesidad de que el obligado lo solicite».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-014",
+      "ley": "ley-58-2003",
+      "articulo": "120.3",
+      "enunciado": "En la rectificación de autoliquidaciones con devolución, el plazo de seis meses para el interés de demora, si el de presentación de la autoliquidación ya hubiese concluido, se cuenta desde:",
+      "opciones": [
+        "La notificación de la propuesta de resolución al interesado",
+        "El día siguiente a la finalización del plazo de pago voluntario",
+        "La presentación de la solicitud de rectificación o de la autoliquidación rectificativa",
+        "La fecha en que se efectuó el ingreso indebido del obligado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 120.3 dice que el plazo «comenzará a contarse a partir de la finalización del plazo para la presentación de la autoliquidación o, si éste hubiese concluido, a partir de la presentación de la solicitud de rectificación o de la autoliquidación rectificativa».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-015",
+      "ley": "ley-58-2003",
+      "articulo": "120.4",
+      "enunciado": "Cuando lo establezca la normativa propia del tributo, el obligado tributario deberá presentar una autoliquidación rectificativa con la finalidad de:",
+      "opciones": [
+        "Solicitar la devolución de un ingreso de otro obligado",
+        "Sustituir una comunicación de datos ya presentada",
+        "Renunciar a una opción ejercitada en la declaración",
+        "Rectificar, completar o modificar otra autoliquidación presentada con anterioridad"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 120.4 prevé la autoliquidación rectificativa «con la finalidad de rectificar, completar o modificar otra autoliquidación presentada con anterioridad».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-016",
+      "ley": "ley-58-2003",
+      "articulo": "121",
+      "enunciado": "Se considera comunicación de datos la declaración presentada por el obligado tributario para que la Administración:",
+      "opciones": [
+        "Practique la liquidación de la cuota a ingresar",
+        "Determine la cantidad que, en su caso, resulte a devolver",
+        "Modifique los datos del censo tributario",
+        "Reconozca un beneficio fiscal de carácter rogado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 121 dispone que es comunicación de datos «la declaración presentada por el obligado tributario ante la Administración para que ésta determine la cantidad que, en su caso, resulte a devolver».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-017",
+      "ley": "ley-58-2003",
+      "articulo": "122.1",
+      "enunciado": "Las autoliquidaciones complementarias presentadas después de finalizado el plazo establecido, sin que haya prescrito el derecho de la Administración a determinar la deuda, tendrán carácter:",
+      "opciones": [
+        "Sancionador",
+        "Provisional",
+        "Extemporáneo",
+        "Rectificativo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 122.1 permite presentarlas con posterioridad al plazo «siempre que no haya prescrito el derecho de la Administración para determinar la deuda tributaria. En este último caso tendrán el carácter de extemporáneas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-018",
+      "ley": "ley-58-2003",
+      "articulo": "122.2",
+      "enunciado": "Según la LGT, se podrá presentar una autoliquidación complementaria cuando de ella resulte:",
+      "opciones": [
+        "Un importe a ingresar superior al de la autoliquidación anterior",
+        "Un importe a ingresar inferior al de la autoliquidación anterior",
+        "Una cantidad a devolver superior a la anteriormente autoliquidada",
+        "Una cantidad a compensar superior a la anteriormente autoliquidada"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 122.2 permite presentarlas «cuando de ellas resulte un importe a ingresar superior al de la autoliquidación anterior o una cantidad a devolver o a compensar inferior a la anteriormente autoliquidada».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-019",
+      "ley": "ley-58-2003",
+      "articulo": "122.2",
+      "enunciado": "Si se pierde el derecho a una exención, deducción o incentivo fiscal por incumplir sus requisitos, el obligado debe incluir la cuota indebidamente aplicada, con intereses de demora, en la autoliquidación del período:",
+      "opciones": [
+        "En que se aplicó la exención, deducción o incentivo",
+        "Siguiente a aquel en que se produjo el incumplimiento",
+        "Más antiguo no prescrito de los afectados",
+        "En que se hubiera producido el incumplimiento"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 122.2, el obligado «deberá incluir en la autoliquidación correspondiente al período impositivo en que se hubiera producido el incumplimiento la cuota o cantidad derivada de la exención, deducción o incentivo fiscal aplicado de forma indebida en los períodos impositivos anteriores junto con los intereses de demora».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-020",
+      "ley": "ley-58-2003",
+      "articulo": "122.3",
+      "enunciado": "Al presentar una declaración o comunicación de datos complementaria o sustitutiva, el obligado tributario debe:",
+      "opciones": [
+        "Aportar la liquidación de la declaración inicial",
+        "Hacer constar si se trata de una u otra modalidad",
+        "Esperar a que finalice el plazo de presentación",
+        "Solicitar autorización previa a la Administración"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 122.3 permite presentarlas «haciendo constar si se trata de una u otra modalidad, con la finalidad de completar o reemplazar las presentadas con anterioridad».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-021",
+      "ley": "rd-1065-2007",
+      "articulo": "118.1",
+      "enunciado": "Según el Reglamento de gestión e inspección, son declaraciones sustitutivas las que se refieran a la misma obligación tributaria y periodo que otras presentadas con anterioridad y que:",
+      "opciones": [
+        "Las reemplacen en su contenido",
+        "Incluyan nuevos datos no declarados",
+        "Modifiquen parcialmente su contenido, subsistiendo en la parte no afectada",
+        "Se presenten fuera del plazo reglamentario"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 118.1 establece que «tendrán la consideración de declaraciones sustitutivas las que se refieran a la misma obligación tributaria y periodo que otras presentadas con anterioridad y que las reemplacen en su contenido».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-022",
+      "ley": "rd-1065-2007",
+      "articulo": "119.3",
+      "enunciado": "Al presentar una autoliquidación complementaria, de la cuota tributaria resultante se deducirá:",
+      "opciones": [
+        "El importe de los pagos fraccionados del ejercicio siguiente",
+        "Únicamente los intereses de demora devengados",
+        "El importe de la sanción que pudiera corresponder",
+        "El importe de la autoliquidación inicial"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 119.3 indica que «de la cuota tributaria resultante de la autoliquidación complementaria se deducirá el importe de la autoliquidación inicial».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-023",
+      "ley": "rd-1065-2007",
+      "articulo": "126.2",
+      "enunciado": "El obligado tributario no podrá solicitar la rectificación de su autoliquidación cuando:",
+      "opciones": [
+        "No haya transcurrido un mes desde su presentación inicial",
+        "Se tramite un procedimiento de comprobación o investigación que incluya esa obligación",
+        "Haya presentado antes una autoliquidación complementaria",
+        "Se haya ingresado la deuda dentro del periodo voluntario"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 126.2, no podrá solicitarla «cuando se esté tramitando un procedimiento de comprobación o investigación cuyo objeto incluya la obligación tributaria a la que se refiera la autoliquidación presentada».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    },
+    {
+      "id": "dec-024",
+      "ley": "rd-1065-2007",
+      "articulo": "128.4",
+      "enunciado": "El plazo máximo para notificar la resolución del procedimiento de rectificación de autoliquidaciones es de:",
+      "opciones": [
+        "Tres meses",
+        "Nueve meses",
+        "Seis meses",
+        "Doce meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 128.4 fija que «el plazo máximo para notificar la resolución de este procedimiento será de seis meses».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 18
+      }
+    }
+  ]
+}

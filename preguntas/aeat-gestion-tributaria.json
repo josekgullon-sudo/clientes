@@ -1,0 +1,585 @@
+{
+  "descripcion": "AEAT, tema 19: procedimientos de gestión tributaria (LGT arts. 123-140 y RD 1065/2007). Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-10-09).",
+  "preguntas": [
+    {
+      "id": "ges-001",
+      "ley": "ley-58-2003",
+      "articulo": "123.1",
+      "enunciado": "Según la LGT, es un procedimiento de gestión tributaria:",
+      "opciones": [
+        "El procedimiento de inspección",
+        "El procedimiento de apremio",
+        "El procedimiento de comprobación limitada",
+        "El procedimiento sancionador"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 123.1 enumera, entre los procedimientos de gestión, «e) El procedimiento de comprobación limitada.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-002",
+      "ley": "ley-58-2003",
+      "articulo": "124",
+      "enunciado": "El procedimiento de devolución se inicia mediante una autoliquidación de la que resulte cantidad a devolver, una solicitud de devolución o:",
+      "opciones": [
+        "Una comunicación de datos",
+        "Un requerimiento de la Administración",
+        "Una propuesta de liquidación provisional",
+        "Una diligencia de la inspección"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 124, el procedimiento de devolución se iniciará mediante la presentación de una autoliquidación, de una solicitud de devolución «o mediante la presentación de una comunicación de datos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-003",
+      "ley": "ley-58-2003",
+      "articulo": "125.2",
+      "enunciado": "Si una autoliquidación con cantidad a devolver se presenta fuera de plazo, el plazo para devolver se cuenta desde:",
+      "opciones": [
+        "La finalización del plazo previsto para presentarla",
+        "El devengo del tributo",
+        "El día siguiente a la notificación de la Administración",
+        "La presentación de la autoliquidación extemporánea"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 125.2 dice que en la presentación fuera de plazo «el plazo al que se refiere el artículo 31 de esta ley para devolver se contará a partir de la presentación de la autoliquidación extemporánea».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-004",
+      "ley": "ley-58-2003",
+      "articulo": "127",
+      "enunciado": "El procedimiento de devolución termina, entre otras causas, por:",
+      "opciones": [
+        "El pago voluntario de la deuda por el obligado tributario en periodo voluntario",
+        "El inicio de un procedimiento de verificación de datos, de comprobación limitada o de inspección",
+        "La interposición de un recurso de reposición contra la liquidación provisional",
+        "La declaración de responsabilidad solidaria de un tercero responsable"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 127 señala que terminará «por el inicio de un procedimiento de verificación de datos, de comprobación limitada o de inspección».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-005",
+      "ley": "ley-58-2003",
+      "articulo": "128.1",
+      "enunciado": "En el procedimiento iniciado mediante declaración, la Administración cuantifica la obligación tributaria mediante:",
+      "opciones": [
+        "Una liquidación definitiva",
+        "Una liquidación provisional",
+        "Un acta de inspección",
+        "Una propuesta de sanción"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 128.1 indica que la declaración comunica los datos «para que la Administración cuantifique la obligación tributaria mediante la práctica de una liquidación provisional».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-006",
+      "ley": "ley-58-2003",
+      "articulo": "128.2",
+      "enunciado": "Si el procedimiento iniciado mediante declaración termina por caducidad, la Administración tributaria:",
+      "opciones": [
+        "No puede volver a liquidar ese tributo",
+        "Solo puede iniciarlo de nuevo en los seis meses siguientes",
+        "Necesita autorización del obligado para reiniciarlo",
+        "Puede iniciarlo de nuevo dentro del plazo de prescripción"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 128.2 dispone que la Administración «podrá iniciar de nuevo este procedimiento para la liquidación del tributo dentro del plazo de prescripción».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-007",
+      "ley": "ley-58-2003",
+      "articulo": "129.1",
+      "enunciado": "Con carácter general, la liquidación del procedimiento iniciado mediante declaración debe notificarse en el plazo de:",
+      "opciones": [
+        "Seis meses",
+        "Tres meses",
+        "Nueve meses",
+        "Doce meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 129.1 establece que la Administración «deberá notificar la liquidación en un plazo de seis meses desde el día siguiente a la finalización del plazo para presentar la declaración».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-008",
+      "ley": "ley-58-2003",
+      "articulo": "129.1",
+      "enunciado": "Si la declaración se presenta fuera de plazo, el plazo de seis meses para notificar la liquidación se cuenta desde:",
+      "opciones": [
+        "El día siguiente a la finalización del plazo de presentación",
+        "La fecha del devengo del tributo",
+        "El día siguiente a la presentación de la declaración",
+        "El día siguiente a la notificación del requerimiento"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 129.1, «el plazo de seis meses para notificar la liquidación comenzará a contarse desde el día siguiente a la presentación de la declaración».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-009",
+      "ley": "ley-58-2003",
+      "articulo": "130",
+      "enunciado": "El procedimiento iniciado mediante declaración termina, entre otras causas, por:",
+      "opciones": [
+        "Acta de conformidad firmada por el obligado",
+        "Resolución de un tribunal económico-administrativo",
+        "Pago voluntario de la deuda",
+        "Liquidación provisional practicada por la Administración tributaria"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 130.a) prevé la terminación «Por liquidación provisional practicada por la Administración tributaria».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-010",
+      "ley": "ley-58-2003",
+      "articulo": "131.a",
+      "enunciado": "Puede iniciarse el procedimiento de verificación de datos cuando la declaración o autoliquidación:",
+      "opciones": [
+        "Oculte rentas no declaradas de actividades económicas",
+        "Adolezca de defectos formales o incurra en errores aritméticos",
+        "No haya sido presentada en el plazo reglamentario",
+        "Haya sido presentada por un representante sin poder"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 131.a) permite la verificación «Cuando la declaración o autoliquidación del obligado tributario adolezca de defectos formales o incurra en errores aritméticos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-011",
+      "ley": "ley-58-2003",
+      "articulo": "131.c",
+      "enunciado": "Procede la verificación de datos por aplicación indebida de la normativa cuando esta resulte patente de:",
+      "opciones": [
+        "Los requerimientos efectuados a terceros",
+        "Los libros y registros contables del obligado",
+        "La propia declaración o autoliquidación o de los justificantes aportados",
+        "Los datos de otros obligados tributarios"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 131.c) exige que la aplicación indebida «resulte patente de la propia declaración o autoliquidación presentada o de los justificantes aportados con la misma».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-012",
+      "ley": "ley-58-2003",
+      "articulo": "132.1",
+      "enunciado": "El procedimiento de verificación de datos puede iniciarse directamente mediante la notificación de la propuesta de liquidación cuando la Administración:",
+      "opciones": [
+        "Cuente con datos suficientes para formularla",
+        "Haya practicado una comprobación de valores previa",
+        "Disponga de la conformidad expresa del obligado",
+        "Haya iniciado antes un procedimiento de inspección"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 132.1 prevé iniciarlo «mediante la notificación de la propuesta de liquidación cuando la Administración tributaria cuente con datos suficientes para formularla».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-013",
+      "ley": "ley-58-2003",
+      "articulo": "133.2",
+      "enunciado": "Terminada la verificación de datos, la Administración tributaria:",
+      "opciones": [
+        "Puede comprobar posteriormente el objeto de la misma",
+        "No puede volver a comprobar el mismo objeto",
+        "Solo puede comprobarlo si descubre nuevos hechos",
+        "Solo puede comprobarlo mediante inspección"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 133.2 afirma: «La verificación de datos no impedirá la posterior comprobación del objeto de la misma.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-014",
+      "ley": "ley-58-2003",
+      "articulo": "134.1",
+      "enunciado": "No procede la comprobación de valores si el obligado declaró utilizando:",
+      "opciones": [
+        "Los valores publicados por cualquier Administración tributaria, sea o no la actuante",
+        "El valor fijado en la escritura pública otorgada ante notario por las partes",
+        "Los valores publicados por la propia Administración actuante en aplicación de alguno de los medios del artículo 57",
+        "El valor de tasación de un perito designado libremente por el propio obligado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 134.1 admite la comprobación «salvo que el obligado tributario hubiera declarado utilizando los valores publicados por la propia Administración actuante en aplicación de alguno de los citados medios».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-015",
+      "ley": "ley-58-2003",
+      "articulo": "134.3",
+      "enunciado": "Contra la valoración efectuada en la comprobación de valores, los obligados tributarios:",
+      "opciones": [
+        "Pueden interponer reclamación económico-administrativa independiente",
+        "No pueden interponer recurso o reclamación independiente",
+        "Pueden interponer recurso de reposición independiente",
+        "Solo pueden recurrir si la diferencia supera 120.000 euros"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 134.3 establece: «Los obligados tributarios no podrán interponer recurso o reclamación independiente contra la valoración, pero podrán promover la tasación pericial contradictoria».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-016",
+      "ley": "ley-58-2003",
+      "articulo": "135.1",
+      "enunciado": "La tasación pericial contradictoria se promueve dentro del plazo:",
+      "opciones": [
+        "De diez días desde la notificación de la valoración",
+        "De un mes desde la propuesta de valoración",
+        "Del recurso de alzada ante el órgano superior",
+        "Del primer recurso o reclamación que proceda contra la liquidación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 135.1 señala que se promoverá «dentro del plazo del primer recurso o reclamación que proceda contra la liquidación efectuada de acuerdo con los valores comprobados administrativamente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-017",
+      "ley": "ley-58-2003",
+      "articulo": "135.1",
+      "enunciado": "La presentación de la solicitud de tasación pericial contradictoria determina:",
+      "opciones": [
+        "La ejecutividad inmediata de la liquidación",
+        "La suspensión del plazo de pago pero no del de recurso",
+        "La suspensión de la ejecución de la liquidación y del plazo para recurrirla",
+        "La anulación de la liquidación impugnada"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 135.1, la solicitud «determinará la suspensión de la ejecución de la liquidación y del plazo para interponer recurso o reclamación contra la misma».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-018",
+      "ley": "ley-58-2003",
+      "articulo": "135.2",
+      "enunciado": "La tasación del perito del obligado servirá de base para la liquidación si su diferencia con la del perito de la Administración es igual o inferior a:",
+      "opciones": [
+        "60.000 euros y al 10 por ciento de dicha tasación",
+        "120.000 euros y al 20 por ciento de dicha tasación",
+        "120.000 euros o al 5 por ciento de dicha tasación",
+        "120.000 euros y al 10 por ciento de dicha tasación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 135.2 dice que si la diferencia «es igual o inferior a 120.000 euros y al 10 por ciento de dicha tasación, esta última servirá de base para la liquidación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-019",
+      "ley": "ley-58-2003",
+      "articulo": "135.3",
+      "enunciado": "Los gastos del perito tercero corren a cargo del obligado si la diferencia entre su tasación y el valor declarado supera el:",
+      "opciones": [
+        "20 por ciento del valor declarado",
+        "10 por ciento del valor declarado",
+        "15 por ciento del valor declarado",
+        "30 por ciento del valor declarado"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 135.3 prevé que, cuando la diferencia «supere el 20 por ciento del valor declarado, los gastos del tercer perito serán abonados por el obligado tributario».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-020",
+      "ley": "ley-58-2003",
+      "articulo": "135.3",
+      "enunciado": "Si una de las partes no deposita la provisión de honorarios del perito tercero, se entiende que:",
+      "opciones": [
+        "Desiste de la tasación pericial contradictoria",
+        "Acepta la valoración realizada por el perito de la otra parte",
+        "Debe designarse un nuevo perito tercero",
+        "Se aplica la media de ambas valoraciones"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 135.3 establece: «La falta de depósito por cualquiera de las partes supondrá la aceptación de la valoración realizada por el perito de la otra, cualquiera que fuera la diferencia entre ambas valoraciones.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-021",
+      "ley": "ley-58-2003",
+      "articulo": "136.3",
+      "enunciado": "En la comprobación limitada, la Administración puede requerir a terceros información sobre movimientos financieros:",
+      "opciones": [
+        "Solo con autorización judicial",
+        "Cuando lo acuerde el órgano competente",
+        "Solo a las entidades de crédito",
+        "En ningún caso"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 136.3 dispone: «En ningún caso se podrá requerir a terceros información sobre movimientos financieros, pero podrá solicitarse al obligado tributario la justificación documental de operaciones financieras».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-022",
+      "ley": "ley-58-2003",
+      "articulo": "136.2.c",
+      "enunciado": "En la comprobación limitada, el examen de la contabilidad se limita a:",
+      "opciones": [
+        "Constatar la coincidencia entre la contabilidad y la información que obre en poder de la Administración",
+        "Comprobar la legalización y la correcta llevanza de los libros obligatorios",
+        "Verificar la valoración de las existencias y de los inmovilizados",
+        "Reconstruir la contabilidad del obligado si resulta defectuosa"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 136.2.c) establece que el examen de la contabilidad «se limitará a constatar la coincidencia entre lo que figure en la misma y la información que obre en poder de la Administración tributaria».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-023",
+      "ley": "ley-58-2003",
+      "articulo": "139.2.b",
+      "enunciado": "La resolución que pone fin a la comprobación limitada debe incluir, al menos:",
+      "opciones": [
+        "La propuesta de sanción que proceda",
+        "La calificación de posibles infracciones",
+        "La especificación de las actuaciones concretas realizadas",
+        "El informe del actuario"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 139.2 exige como contenido mínimo, entre otros, «b) Especificación de las actuaciones concretas realizadas.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-024",
+      "ley": "ley-58-2003",
+      "articulo": "140.1",
+      "enunciado": "Dictada resolución en comprobación limitada, la Administración no podrá efectuar una nueva regularización del objeto comprobado salvo que se descubran:",
+      "opciones": [
+        "Nuevos hechos que resulten de las mismas actuaciones ya realizadas y especificadas",
+        "Nuevos hechos o circunstancias que resulten de actuaciones distintas de las especificadas en la resolución",
+        "Errores en la valoración de los bienes y derechos comprobados",
+        "Discrepancias con las declaraciones presentadas por otros obligados"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 140.1 lo impide «salvo que […] se descubran nuevos hechos o circunstancias que resulten de actuaciones distintas de las realizadas y especificadas en dicha resolución».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-025",
+      "ley": "ley-58-2003",
+      "articulo": "140.2",
+      "enunciado": "Los hechos y elementos de la deuda respecto de los que el obligado ha prestado conformidad expresa en la comprobación limitada no podrán ser impugnados salvo que pruebe:",
+      "opciones": [
+        "Que incurrió en error de derecho",
+        "Que incurrió en error de hecho",
+        "Que fue coaccionado por la Administración",
+        "Que la liquidación es nula de pleno derecho"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 140.2 dispone que no podrán ser impugnados «salvo que pruebe que incurrió en error de hecho».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-027",
+      "ley": "rd-1065-2007",
+      "articulo": "127.4",
+      "enunciado": "En la rectificación de autoliquidaciones, notificada la propuesta de resolución, el interesado puede alegar en el plazo de:",
+      "opciones": [
+        "10 días",
+        "1 mes",
+        "5 días",
+        "15 días"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 127.4 establece que se notificará la propuesta de resolución «para que en el plazo de 15 días, contados a partir del día siguiente al de la notificación de la propuesta, alegue lo que convenga a su derecho».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-028",
+      "ley": "rd-1065-2007",
+      "articulo": "155.3",
+      "enunciado": "Antes de la liquidación provisional o resolución en la verificación de datos, el obligado tiene para alegar tras la propuesta:",
+      "opciones": [
+        "10 días",
+        "15 días",
+        "1 mes",
+        "5 días"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 155.3 exige notificar la propuesta «para que en un plazo de 10 días, contados a partir del día siguiente al de la notificación de la propuesta, alegue lo que convenga a su derecho».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-029",
+      "ley": "rd-1065-2007",
+      "articulo": "164.4",
+      "enunciado": "¿Qué plazo de alegaciones se concede al obligado, en la comprobación limitada, desde el día siguiente a la notificación de la propuesta?",
+      "opciones": [
+        "20 días",
+        "1 mes",
+        "10 días",
+        "15 días"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 164.4 exige notificar la propuesta «para que en un plazo de 10 días, contados a partir del día siguiente al de la notificación de la propuesta, alegue lo que convenga a su derecho».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    },
+    {
+      "id": "ges-030",
+      "ley": "rd-1065-2007",
+      "articulo": "158.4",
+      "enunciado": "Para comprobar el valor de un bien por el precio declarado en otras transmisiones del mismo bien, estas deben haberse realizado dentro del plazo de:",
+      "opciones": [
+        "Seis meses desde la fecha del devengo",
+        "Dos años desde la fecha del devengo",
+        "Tres meses desde la fecha de la escritura",
+        "Un año desde la fecha del devengo del impuesto"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 158.4 permite atender al valor declarado en otras transmisiones «realizadas dentro del plazo de un año desde la fecha del devengo del impuesto en el que surta efecto».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 19
+      }
+    }
+  ]
+}

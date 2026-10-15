@@ -1,0 +1,605 @@
+{
+  "descripcion": "LGT arts. 85-112 y RD 1065/2007 (información y asistencia, colaboración social, carácter reservado, actuaciones y procedimientos, liquidaciones, plazos, prueba y notificaciones). Tema 17 Agente AEAT. Versión BOE 2026-10-09.",
+  "preguntas": [
+    {
+      "id": "inf-031",
+      "ley": "ley-58-2003",
+      "articulo": "88.6",
+      "enunciado": "Según la LGT, la Administración debe contestar por escrito las consultas tributarias que reúnan los requisitos en el plazo de:",
+      "opciones": [
+        "Seis meses desde su presentación",
+        "Tres meses desde su presentación",
+        "Un año desde su presentación",
+        "Diez días desde su presentación"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 88.6 obliga a contestar «en el plazo de seis meses desde su presentación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-032",
+      "ley": "ley-58-2003",
+      "articulo": "88.2",
+      "enunciado": "Las consultas tributarias escritas deben formularse:",
+      "opciones": [
+        "Dentro de los seis meses siguientes a la finalización del plazo de declaración",
+        "En cualquier momento mientras no haya prescrito el derecho",
+        "Antes de que finalice el plazo para presentar la declaración o autoliquidación",
+        "Solo una vez notificada la liquidación correspondiente"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 88.2, «se formularán antes de la finalización del plazo establecido para el ejercicio de los derechos, la presentación de declaraciones o autoliquidaciones o el cumplimiento de otras obligaciones tributarias».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-033",
+      "ley": "ley-58-2003",
+      "articulo": "89.4",
+      "enunciado": "Contra la contestación a una consulta tributaria escrita, el obligado tributario:",
+      "opciones": [
+        "Puede interponer recurso de reposición en el plazo de un mes",
+        "Puede reclamar directamente ante el Tribunal Económico-Administrativo",
+        "Puede recurrir solo si la contestación es contraria a su criterio",
+        "No puede interponer recurso, pero sí contra los actos posteriores que la apliquen"
+      ],
+      "correcta": 3,
+      "explicacion": "La contestación «tendrá carácter informativo y el obligado tributario no podrá entablar recurso alguno contra dicha contestación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-034",
+      "ley": "ley-58-2003",
+      "articulo": "89.3",
+      "enunciado": "La presentación y contestación de una consulta tributaria escrita, respecto de los plazos para cumplir obligaciones tributarias:",
+      "opciones": [
+        "Los suspende hasta que se notifica la contestación",
+        "No interrumpe esos plazos",
+        "Los interrumpe durante un máximo de seis meses",
+        "Los amplía en un mes tras la contestación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 89.3 dispone que «no interrumpirá los plazos establecidos en las normas tributarias para el cumplimiento de las obligaciones tributarias».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-035",
+      "ley": "ley-58-2003",
+      "articulo": "89.2",
+      "enunciado": "No tiene efectos vinculantes para la Administración la contestación a una consulta presentada en plazo que plantee cuestiones relacionadas con:",
+      "opciones": [
+        "La calificación tributaria de un contrato de arrendamiento",
+        "La aplicación de un beneficio fiscal a una entidad sin ánimo de lucro",
+        "El objeto de un procedimiento, recurso o reclamación iniciado con anterioridad",
+        "La tributación de operaciones realizadas en otro Estado"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 89.2, no tendrán efectos vinculantes las contestaciones que «planteen cuestiones relacionadas con el objeto o tramitación de un procedimiento, recurso o reclamación iniciado con anterioridad».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-036",
+      "ley": "ley-58-2003",
+      "articulo": "88.3",
+      "enunciado": "Pueden formular consultas tributarias, cuando afecten a la generalidad de sus miembros o asociados, entre otros:",
+      "opciones": [
+        "Los sindicatos",
+        "Los partidos políticos",
+        "Las comunidades de propietarios",
+        "Los ayuntamientos"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 88.3 cita a «los colegios profesionales, cámaras oficiales, organizaciones patronales, sindicatos, asociaciones de consumidores».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-037",
+      "ley": "ley-58-2003",
+      "articulo": "88.4",
+      "enunciado": "Si una consulta tributaria no reúne los requisitos reglamentarios y no se subsana a requerimiento de la Administración, esta:",
+      "opciones": [
+        "La inadmitirá sin necesidad de notificarlo",
+        "La archivará, con notificación al interesado",
+        "La contestará con carácter meramente informativo",
+        "La remitirá al órgano de inspección competente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 88.4 establece que «archivará, con notificación al interesado, las consultas que no reúnan los requisitos» y no sean subsanadas.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-038",
+      "ley": "rd-1065-2007",
+      "articulo": "66.6",
+      "enunciado": "Si una consulta tributaria escrita no reúne los requisitos del reglamento, se requerirá su subsanación en el plazo de:",
+      "opciones": [
+        "5 días, contados desde el día siguiente a la notificación del requerimiento",
+        "15 días, contados desde el día siguiente a la notificación del requerimiento",
+        "Un mes, contado desde el día siguiente a la notificación del requerimiento",
+        "10 días, contados desde el día siguiente a la notificación del requerimiento"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 66.6 exige subsanar «en un plazo de 10 días, contados a partir del día siguiente al de la notificación del requerimiento», so pena de tener al obligado «por desistido de la consulta».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-039",
+      "ley": "ley-58-2003",
+      "articulo": "92.3.e",
+      "enunciado": "¿Cuál de estos aspectos de la colaboración social exige la previa autorización de los obligados tributarios?",
+      "opciones": [
+        "Las campañas de información y difusión",
+        "La simplificación del cumplimiento de las obligaciones tributarias",
+        "La presentación y remisión de autoliquidaciones y declaraciones a la Administración",
+        "La realización de estudios o informes sobre disposiciones generales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 92.3.e) incluye la «Presentación y remisión a la Administración tributaria de autoliquidaciones, declaraciones, comunicaciones o cualquier otro documento con trascendencia tributaria, previa autorización de los obligados tributarios».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-040",
+      "ley": "ley-58-2003",
+      "articulo": "93.3",
+      "enunciado": "Los requerimientos individualizados de información sobre movimientos de cuentas bancarias, en inspección o recaudación, requieren:",
+      "opciones": [
+        "Previa autorización del órgano que reglamentariamente se determine",
+        "Autorización judicial previa, otorgada en todo caso por el juez",
+        "Consentimiento expreso del titular de la cuenta investigada",
+        "Comunicación previa al titular con diez días de antelación"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 93.3, pueden efectuarse «en el ejercicio de las funciones de inspección o recaudación, previa autorización del órgano de la Administración tributaria que reglamentariamente se determine».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-041",
+      "ley": "ley-58-2003",
+      "articulo": "93.4.a",
+      "enunciado": "Los funcionarios públicos deben suministrar a la Administración tributaria la información de que dispongan, salvo que sea aplicable:",
+      "opciones": [
+        "El secreto bancario",
+        "El secreto del contenido de la correspondencia",
+        "El secreto de las deliberaciones del órgano",
+        "El secreto comercial"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 93.4 excluye, entre otros, «El secreto del contenido de la correspondencia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-042",
+      "ley": "rd-1065-2007",
+      "articulo": "114.2",
+      "enunciado": "En las notificaciones en apartados postales del operador del servicio postal universal, la notificación se entiende practicada por el transcurso de:",
+      "opciones": [
+        "5 días naturales desde el depósito del envío en la oficina",
+        "10 días hábiles desde el depósito del envío en la oficina",
+        "15 días naturales desde el depósito del envío en la oficina",
+        "10 días naturales desde el depósito del envío en la oficina"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 114.2 dispone que «La notificación se entenderá practicada por el transcurso de 10 días naturales desde el depósito del envío en la oficina».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-043",
+      "ley": "ley-58-2003",
+      "articulo": "95.1",
+      "enunciado": "Los datos obtenidos por la Administración tributaria tienen carácter reservado y solo podrán utilizarse para:",
+      "opciones": [
+        "La aplicación de los tributos o recursos gestionados y la imposición de sanciones",
+        "Cualquier función de control económico que encomiende la ley a la Agencia",
+        "La elaboración de estadísticas y su cesión libre a otras Administraciones",
+        "La aplicación de los tributos y su comunicación a terceros interesados"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 95.1, «sólo podrán ser utilizados para la efectiva aplicación de los tributos o recursos cuya gestión tenga encomendada y para la imposición de las sanciones que procedan».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-044",
+      "ley": "ley-58-2003",
+      "articulo": "95.1.h",
+      "enunciado": "Para ceder datos tributarios a jueces y tribunales en la ejecución de resoluciones judiciales firmes, la resolución judicial debe motivar la necesidad por haberse agotado:",
+      "opciones": [
+        "Los recursos contra la resolución judicial que se ejecuta",
+        "El procedimiento de apremio administrativo frente al deudor",
+        "Los demás medios de conocimiento de los bienes del deudor",
+        "Los plazos de requerimiento dirigidos al propio deudor"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 95.1.h) exige motivar la necesidad «por haberse agotado los demás medios o fuentes de conocimiento sobre la existencia de bienes y derechos del deudor».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-045",
+      "ley": "ley-58-2003",
+      "articulo": "99.8",
+      "enunciado": "El trámite de alegaciones posterior a la propuesta de resolución en un procedimiento tributario no puede durar:",
+      "opciones": [
+        "Menos de 5 días ni más de 10",
+        "Menos de 10 días ni más de 20",
+        "Menos de 15 días ni más de 30",
+        "Menos de 10 días ni más de 15"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 99.8 señala que «El trámite de alegaciones no podrá tener una duración inferior a 10 días ni superior a 15».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-046",
+      "ley": "ley-58-2003",
+      "articulo": "99.7",
+      "enunciado": "Las diligencias tributarias, que son documentos públicos que hacen constar hechos y manifestaciones del obligado, no podrán contener:",
+      "opciones": [
+        "Manifestaciones de la persona con quien se entienden las actuaciones",
+        "Propuestas de liquidaciones tributarias",
+        "Hechos relevantes para el procedimiento",
+        "Comunicaciones de la Administración tributaria"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 99.7 establece que «Las diligencias no podrán contener propuestas de liquidaciones tributarias».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-047",
+      "ley": "ley-58-2003",
+      "articulo": "101.3.a",
+      "enunciado": "Tienen carácter definitivo, en los términos del artículo 101, las liquidaciones practicadas:",
+      "opciones": [
+        "En el procedimiento inspector, previa comprobación e investigación de la totalidad de los elementos de la obligación",
+        "En el procedimiento de verificación de datos, previa comprobación de la declaración",
+        "En el procedimiento de comprobación limitada, tras requerir documentación al obligado",
+        "En cualquier procedimiento en el que se haya concedido trámite de audiencia"
+      ],
+      "correcta": 0,
+      "explicacion": "Son definitivas «Las practicadas en el procedimiento inspector previa comprobación e investigación de la totalidad de los elementos de la obligación tributaria», sin perjuicio de lo dispuesto en el apartado 4 (artículo 101.3.a).",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-048",
+      "ley": "ley-58-2003",
+      "articulo": "102.3",
+      "enunciado": "En los tributos de cobro periódico por recibo, una vez notificada la liquidación del alta en el padrón, las liquidaciones sucesivas podrán notificarse:",
+      "opciones": [
+        "Individualmente, por comparecencia ante la oficina gestora",
+        "Colectivamente, mediante edictos que así lo adviertan",
+        "Tácitamente, sin necesidad de advertencia previa",
+        "Mediante anuncio en la sede de cada Ayuntamiento afectado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 102.3 permite que «podrán notificarse colectivamente las sucesivas liquidaciones mediante edictos que así lo adviertan».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-049",
+      "ley": "ley-58-2003",
+      "articulo": "104.1",
+      "enunciado": "Si las normas reguladoras de un procedimiento tributario no fijan plazo máximo de resolución, este será de:",
+      "opciones": [
+        "Tres meses",
+        "Un año",
+        "Seis meses",
+        "Dieciocho meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 104.1 dice que «Cuando las normas reguladoras de los procedimientos no fijen plazo máximo, éste será de seis meses».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-050",
+      "ley": "ley-58-2003",
+      "articulo": "104.3",
+      "enunciado": "En un procedimiento iniciado a instancia de parte, sin regulación expresa de actos presuntos, vencido el plazo máximo sin resolución, los interesados podrán entender:",
+      "opciones": [
+        "Desestimadas sus solicitudes por silencio administrativo en todo caso",
+        "Caducado el procedimiento y archivadas las actuaciones",
+        "Estimadas sus solicitudes en todo caso, incluidas las de impugnación de actos",
+        "Estimadas sus solicitudes por silencio administrativo, salvo derecho de petición e impugnación de actos"
+      ],
+      "correcta": 3,
+      "explicacion": "Los interesados «podrán entender estimadas sus solicitudes por silencio administrativo, salvo las formuladas en los procedimientos de ejercicio del derecho de petición a que se refiere el artículo 29 de la Constitución y en los de impugnación de actos y disposiciones, en los que el silencio tendrá efecto desestimatorio» (art. 104.3).",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-051",
+      "ley": "ley-58-2003",
+      "articulo": "104.4.b",
+      "enunciado": "En un procedimiento iniciado de oficio, susceptible de producir efectos desfavorables o de gravamen, sin regulación expresa, el vencimiento del plazo máximo sin resolución produce:",
+      "opciones": [
+        "La caducidad del procedimiento",
+        "La prescripción del derecho a liquidar",
+        "La estimación por silencio administrativo",
+        "La desestimación por silencio administrativo"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 104.4.b) establece que «En los procedimientos susceptibles de producir efectos desfavorables o de gravamen se producirá la caducidad del procedimiento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-052",
+      "ley": "ley-58-2003",
+      "articulo": "104.5",
+      "enunciado": "Declarada la caducidad de un procedimiento tributario, las actuaciones realizadas en él:",
+      "opciones": [
+        "Interrumpen el plazo de prescripción y conservan su validez probatoria",
+        "No interrumpen la prescripción y pierden todo valor probatorio",
+        "No interrumpen el plazo de prescripción, pero conservan su validez a efectos probatorios",
+        "Interrumpen la prescripción durante seis meses adicionales"
+      ],
+      "correcta": 2,
+      "explicacion": "Las actuaciones de un procedimiento caducado «no interrumpirán el plazo de prescripción», pero «conservarán su validez y eficacia a efectos probatorios en otros procedimientos» (art. 104.5).",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-053",
+      "ley": "ley-58-2003",
+      "articulo": "105.1",
+      "enunciado": "En los procedimientos de aplicación de los tributos, la carga de la prueba corresponde a:",
+      "opciones": [
+        "La Administración tributaria en todo caso",
+        "Quien alegue hechos extintivos, con independencia de quién invoque el derecho",
+        "El obligado tributario, salvo en los procedimientos iniciados de oficio",
+        "Quien haga valer su derecho, que debe probar los hechos constitutivos del mismo"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 105.1, «quien haga valer su derecho deberá probar los hechos constitutivos del mismo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-054",
+      "ley": "ley-58-2003",
+      "articulo": "112.2",
+      "enunciado": "La comparecencia para ser notificado por anuncio publicado en el Boletín Oficial del Estado debe producirse en el plazo de:",
+      "opciones": [
+        "10 días naturales, contados desde el siguiente al de la publicación",
+        "15 días naturales, contados desde el siguiente al de la publicación",
+        "15 días hábiles, contados desde el siguiente al de la publicación",
+        "20 días naturales, contados desde el siguiente al de la publicación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 112.2 exige que «la comparecencia deberá producirse en el plazo de 15 días naturales, contados desde el siguiente al de la publicación del anuncio».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-055",
+      "ley": "ley-58-2003",
+      "articulo": "111.2",
+      "enunciado": "El rechazo de la notificación realizado por el interesado o su representante implica que:",
+      "opciones": [
+        "Se tiene por efectuada la notificación",
+        "Debe intentarse de nuevo en el plazo de diez días",
+        "Se practica la notificación por comparecencia",
+        "La notificación se considera no realizada"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 111.2 dice que «El rechazo de la notificación realizado por el interesado o su representante implicará que se tenga por efectuada la misma».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-056",
+      "ley": "ley-58-2003",
+      "articulo": "112.1",
+      "enunciado": "Para acudir a la notificación por comparecencia, cuando no sea posible notificar por causas no imputables a la Administración, se exige intentarla en el domicilio fiscal al menos:",
+      "opciones": [
+        "Una vez, bastando dos si el destinatario consta como ausente",
+        "Dos veces, bastando una si el destinatario consta como desconocido",
+        "Tres veces, bastando dos si el destinatario consta como desconocido",
+        "Dos veces, sin excepción alguna"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 112.1 exige que sea «intentada al menos dos veces en el domicilio fiscal» y añade que «Será suficiente un solo intento cuando el destinatario conste como desconocido en dicho domicilio o lugar».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-057",
+      "ley": "ley-58-2003",
+      "articulo": "106.4",
+      "enunciado": "Respecto de la factura como medio de prueba de gastos deducibles originados por operaciones de empresarios, una vez que la Administración cuestiona fundadamente su efectividad:",
+      "opciones": [
+        "La Administración debe probar que la operación no existió",
+        "La factura prueba por sí sola la existencia de la operación",
+        "Corresponde al obligado tributario aportar pruebas sobre la realidad de las operaciones",
+        "Debe acudirse a prueba pericial a cargo de la Administración"
+      ],
+      "correcta": 2,
+      "explicacion": "La factura «no constituye un medio de prueba privilegiado respecto de la existencia de las operaciones, por lo que una vez que la Administración cuestiona fundadamente su efectividad, corresponde al obligado tributario aportar pruebas sobre la realidad de las operaciones» (art. 106.4).",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-058",
+      "ley": "ley-58-2003",
+      "articulo": "110.1",
+      "enunciado": "En un procedimiento iniciado a solicitud del interesado, si este no ha señalado lugar a efectos de notificación, esta se practicará en:",
+      "opciones": [
+        "El centro de trabajo del obligado tributario",
+        "El lugar donde se desarrolle la actividad económica",
+        "La sede del órgano que tramita el procedimiento",
+        "El domicilio fiscal del obligado o de su representante"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 110.1, «la notificación se practicará en el lugar señalado a tal efecto por el obligado tributario o su representante o, en su defecto, en el domicilio fiscal de uno u otro».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-059",
+      "ley": "ley-58-2003",
+      "articulo": "104.2",
+      "enunciado": "A los solos efectos de entender cumplida la obligación de notificar dentro del plazo máximo de duración del procedimiento, es suficiente acreditar:",
+      "opciones": [
+        "Un intento de notificación que contenga el sentido de la resolución",
+        "Un intento de notificación que contenga el texto íntegro de la resolución",
+        "Dos intentos de notificación en el domicilio fiscal",
+        "La publicación del anuncio de comparecencia en el boletín oficial"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 104.2 señala que «será suficiente acreditar que se ha realizado un intento de notificación que contenga el texto íntegro de la resolución».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    },
+    {
+      "id": "inf-060",
+      "ley": "ley-58-2003",
+      "articulo": "102.3",
+      "enunciado": "El aumento de la base imponible sobre la resultante de las declaraciones debe notificarse expresando los hechos que lo motivan, excepto cuando la modificación provenga de:",
+      "opciones": [
+        "Revalorizaciones de carácter general autorizadas por las leyes",
+        "Una comprobación de valor de bienes inmuebles individualizada",
+        "Un acta de inspección con acuerdo del obligado tributario",
+        "Una liquidación provisional practicada de oficio"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 102.3 exige notificarlo «con expresión concreta de los hechos y elementos adicionales que lo motiven, excepto cuando la modificación provenga de revalorizaciones de carácter general autorizadas por las leyes».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 17
+      }
+    }
+  ]
+}

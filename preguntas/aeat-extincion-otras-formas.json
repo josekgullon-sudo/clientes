@@ -1,0 +1,485 @@
+{
+  "descripcion": "Agente de la Hacienda Pública, tema 22: otras formas de extinción de la deuda tributaria (compensación, deducciones sobre transferencias, condonación, baja por insolvencia, terminación del apremio). LGT y Reglamento General de Recaudación. Lote generado el 2026-10-15; citas comprobadas por script.",
+  "preguntas": [
+    {
+      "id": "oex-001",
+      "ley": "ley-58-2003",
+      "articulo": "71.2",
+      "enunciado": "La compensación de las deudas tributarias se acordará:",
+      "opciones": [
+        "Solo a instancia del obligado tributario",
+        "Solo de oficio, por la propia Administración",
+        "De oficio o a instancia del obligado tributario",
+        "Solo cuando la deuda esté en período ejecutivo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 71.2 establece: «La compensación se acordará de oficio o a instancia del obligado tributario».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-002",
+      "ley": "ley-58-2003",
+      "articulo": "72.1",
+      "enunciado": "La compensación a instancia del obligado tributario puede solicitarse respecto de deudas que se encuentren:",
+      "opciones": [
+        "En período voluntario de pago o en período ejecutivo",
+        "Solo en período voluntario de pago",
+        "Solo en período ejecutivo",
+        "Solo si están garantizadas con aval"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 72.1, «el obligado tributario podrá solicitar la compensación de las deudas tributarias que se encuentren tanto en período voluntario de pago como en período ejecutivo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-003",
+      "ley": "ley-58-2003",
+      "articulo": "72.2",
+      "enunciado": "Una solicitud de compensación presentada en período voluntario de pago:",
+      "opciones": [
+        "Impide el inicio del período ejecutivo y también el devengo de interés de demora",
+        "Suspende el interés de demora, pero no impide el inicio del período ejecutivo",
+        "No impide el inicio del período ejecutivo ni el devengo de interés de demora",
+        "Impide el inicio del período ejecutivo de la deuda concurrente, pero no el devengo de interés de demora"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 72.2 dice que la solicitud «impedirá el inicio del período ejecutivo de la deuda concurrente con el crédito ofrecido, pero no el devengo del interés de demora que pueda proceder, en su caso, hasta la fecha de reconocimiento del crédito».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-004",
+      "ley": "ley-58-2003",
+      "articulo": "72.3",
+      "enunciado": "En la compensación a instancia del obligado, la deuda se extingue al presentar la solicitud o, si es posterior, cuando:",
+      "opciones": [
+        "Se notifique el acuerdo de compensación al obligado",
+        "Se cumplan los requisitos exigidos para las deudas y los créditos",
+        "Finalice el período voluntario de pago de la deuda",
+        "Se publique el acuerdo de compensación en el boletín oficial"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 72.3 señala que la extinción se produce «en el momento de la presentación de la solicitud o cuando se cumplan los requisitos exigidos para las deudas y los créditos, si este momento fuera posterior a dicha presentación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-005",
+      "ley": "ley-58-2003",
+      "articulo": "73.1",
+      "enunciado": "La Administración Tributaria compensará de oficio las deudas tributarias que se encuentren:",
+      "opciones": [
+        "En período voluntario de pago",
+        "En período ejecutivo",
+        "Aplazadas o fraccionadas",
+        "Suspendidas por la interposición de un recurso"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 73.1 dispone: «La Administración Tributaria compensará de oficio las deudas tributarias que se encuentren en período ejecutivo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-006",
+      "ley": "ley-58-2003",
+      "articulo": "73.2",
+      "enunciado": "Las deudas tributarias vencidas, líquidas y exigibles de una comunidad autónoma con el Estado son compensables de oficio:",
+      "opciones": [
+        "Desde el momento del devengo de la deuda",
+        "Solo con la conformidad expresa de la comunidad autónoma",
+        "Únicamente tras notificar la providencia de apremio",
+        "Una vez transcurrido el plazo de ingreso en período voluntario"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 73.2 prevé que serán compensables de oficio, «una vez transcurrido el plazo de ingreso en período voluntario, las deudas tributarias vencidas, líquidas y exigibles que las comunidades autónomas, entidades locales y demás entidades de derecho público tengan con el Estado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-007",
+      "ley": "ley-58-2003",
+      "articulo": "74.1",
+      "enunciado": "Las deudas tributarias vencidas, líquidas y exigibles de las entidades locales con el Estado pueden extinguirse mediante:",
+      "opciones": [
+        "Deducciones sobre las cantidades que la Administración del Estado deba transferirles",
+        "Condonación acordada por el Consejo de Ministros",
+        "Prescripción declarada de oficio al vencer el período voluntario",
+        "Dación en pago de bienes patrimoniales de la entidad"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 74.1 señala que esas deudas «podrán extinguirse con las deducciones sobre las cantidades que la Administración del Estado deba transferir a las referidas entidades».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-008",
+      "ley": "ley-58-2003",
+      "articulo": "74.2",
+      "enunciado": "El inicio del procedimiento de deducción sobre transferencias a una entidad de derecho público determina:",
+      "opciones": [
+        "La extinción inmediata de dichas deudas",
+        "El inicio del período ejecutivo de las deudas",
+        "La suspensión del cobro de las deudas a las que se refiera",
+        "La condonación parcial de los intereses de demora"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 74.2, «el inicio del procedimiento determinará la suspensión del cobro de las deudas a las que el mismo se refiera».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-009",
+      "ley": "ley-58-2003",
+      "articulo": "75",
+      "enunciado": "Las deudas tributarias solo podrán condonarse:",
+      "opciones": [
+        "Por acuerdo del Consejo de Ministros, por razones de equidad",
+        "Por resolución motivada del órgano de recaudación competente",
+        "Por orden ministerial, previo informe del Consejo de Estado",
+        "En virtud de ley, en la cuantía y con los requisitos que en ella se determinen"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 75 establece que «las deudas tributarias sólo podrán condonarse en virtud de ley, en la cuantía y con los requisitos que en la misma se determinen».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-010",
+      "ley": "ley-58-2003",
+      "articulo": "76.1",
+      "enunciado": "Las deudas que no hayan podido hacerse efectivas por insolvencia probada de los obligados se dan de baja en cuentas mediante:",
+      "opciones": [
+        "La declaración de prescripción de la deuda",
+        "La declaración del crédito como incobrable, total o parcial",
+        "El acuerdo de condonación de la deuda",
+        "La resolución de aplazamiento sin garantía"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 76.1 indica que se darán de baja en cuentas «mediante la declaración del crédito como incobrable, total o parcial, en tanto no se rehabiliten dentro del plazo de prescripción».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-011",
+      "ley": "ley-58-2003",
+      "articulo": "76.2",
+      "enunciado": "Si, vencido el plazo de prescripción, un crédito dado de baja por insolvencia no se hubiera rehabilitado, la deuda tributaria:",
+      "opciones": [
+        "Se mantendrá en cuentas hasta que el deudor recupere su solvencia",
+        "Se rehabilitará de oficio por un nuevo plazo de prescripción",
+        "Se extinguirá",
+        "Pasará a ser exigible únicamente a los responsables subsidiarios"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 76.2 es claro: «La deuda tributaria se extinguirá si, vencido el plazo de prescripción, no se hubiera rehabilitado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-012",
+      "ley": "ley-58-2003",
+      "articulo": "173.2",
+      "enunciado": "Declarado incobrable un crédito, el procedimiento de apremio se reanudará, dentro del plazo de prescripción, cuando:",
+      "opciones": [
+        "Se tenga conocimiento de la solvencia de algún obligado al pago",
+        "Transcurra un año desde la declaración de incobrable",
+        "Lo solicite el propio obligado al pago",
+        "Lo acuerde el tribunal económico-administrativo competente"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 173.2 dispone que «el procedimiento de apremio se reanudará, dentro del plazo de prescripción, cuando se tenga conocimiento de la solvencia de algún obligado al pago».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-013",
+      "ley": "rd-939-2005",
+      "articulo": "56.3",
+      "enunciado": "Si una solicitud de compensación no reúne los requisitos, el órgano competente requerirá su subsanación en el plazo de:",
+      "opciones": [
+        "10 días, contados desde el día siguiente al de la notificación del requerimiento",
+        "5 días, contados desde el día siguiente al de la notificación",
+        "15 días, contados desde el día siguiente al de la notificación",
+        "20 días, contados desde el día siguiente al de la notificación"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 56.3 prevé requerir al solicitante «para que en el plazo de 10 días contados a partir del día siguiente al de la notificación del requerimiento subsane el defecto o aporte los documentos preceptivos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-014",
+      "ley": "rd-939-2005",
+      "articulo": "56.7",
+      "enunciado": "La resolución de una solicitud de compensación a instancia del obligado al pago debe notificarse en el plazo de:",
+      "opciones": [
+        "Tres meses",
+        "Cuatro meses",
+        "Seis meses",
+        "Un año"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 56.7, «la resolución deberá notificarse en el plazo de seis meses».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-015",
+      "ley": "rd-939-2005",
+      "articulo": "56.5.a",
+      "enunciado": "Denegada una compensación solicitada en período voluntario, con la notificación del acuerdo denegatorio:",
+      "opciones": [
+        "Comienza directamente el período ejecutivo, sin plazo adicional de ingreso",
+        "Se inicia el plazo de ingreso regulado en el artículo 62.2 de la Ley General Tributaria",
+        "Debe dictarse la providencia de apremio en ese mismo acto",
+        "Se archiva el expediente y se devuelve al solicitante el crédito ofrecido"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 56.5.a) establece que «con la notificación del acuerdo denegatorio se iniciará el plazo de ingreso regulado en el artículo 62.2 de la Ley 58/2003, de 17 de diciembre, General Tributaria».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-016",
+      "ley": "rd-939-2005",
+      "articulo": "58.1",
+      "enunciado": "Cuando un deudor a la Hacienda pública es a su vez acreedor por un crédito reconocido, una vez transcurrido el período voluntario se compensa de oficio:",
+      "opciones": [
+        "Solo el principal de la deuda, sin recargos",
+        "La deuda, los recargos y las costas del apremio",
+        "Solo los recargos del período ejecutivo",
+        "La deuda y los recargos del período ejecutivo que procedan"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 58.1 dispone que «se compensará de oficio la deuda y los recargos del periodo ejecutivo que procedan con el crédito».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-017",
+      "ley": "rd-939-2005",
+      "articulo": "59.2.a",
+      "enunciado": "Si el crédito compensado es inferior a la deuda, la parte de deuda que exceda del crédito:",
+      "opciones": [
+        "Queda extinguida por la compensación",
+        "Sigue el régimen ordinario, iniciándose el apremio si no se ingresa a su vencimiento",
+        "Se condona de forma automática",
+        "Se da de baja por insolvencia parcial"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 59.2.a), «la parte de deuda que exceda del crédito seguirá el régimen ordinario, iniciándose el procedimiento de apremio, si no es ingresada a su vencimiento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-018",
+      "ley": "rd-939-2005",
+      "articulo": "60.2.a",
+      "enunciado": "En el procedimiento de deducción sobre transferencias, a la entidad deudora se le concede para efectuar alegaciones un plazo de:",
+      "opciones": [
+        "15 días, contados desde el día siguiente al de la notificación",
+        "10 días, contados desde el día siguiente al de la notificación",
+        "20 días, contados desde el día siguiente al de la notificación",
+        "Un mes, contado desde el día siguiente al de la notificación"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 60.2.a) indica que «se concederá un plazo de 15 días contados a partir del día siguiente a aquel en que aquella se produzca para efectuar las alegaciones que estime convenientes».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-019",
+      "ley": "rd-939-2005",
+      "articulo": "61.1",
+      "enunciado": "Se consideran fallidos los obligados al pago respecto de los cuales:",
+      "opciones": [
+        "Se haya dictado providencia de apremio y no hayan pagado",
+        "Hayan incumplido un aplazamiento o fraccionamiento concedido",
+        "No haya podido notificarse la deuda en su domicilio fiscal",
+        "Se ignore la existencia de bienes o derechos embargables o realizables para el cobro del débito"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 61.1 considera fallidos «aquellos obligados al pago respecto de los cuales se ignore la existencia de bienes o derechos embargables o realizables para el cobro del débito».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-020",
+      "ley": "rd-939-2005",
+      "articulo": "61.2",
+      "enunciado": "Declarados fallidos el deudor principal y los responsables solidarios, la acción de cobro se dirigirá:",
+      "opciones": [
+        "Frente al sucesor del deudor, en todo caso",
+        "Frente a los avalistas, con carácter previo",
+        "Frente al responsable subsidiario",
+        "Contra los bienes de la Administración deudora"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 61.2, «una vez declarados fallidos los deudores principales y los responsables solidarios, la acción de cobro se dirigirá frente al responsable subsidiario».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-021",
+      "ley": "rd-939-2005",
+      "articulo": "62.2",
+      "enunciado": "La declaración de crédito incobrable no impide a la Hacienda pública ejercitar las acciones que procedan contra el deudor, en tanto no:",
+      "opciones": [
+        "Transcurran seis meses desde la declaración",
+        "Se haya notificado la baja en cuentas al deudor",
+        "Se haya producido la prescripción del derecho de la Administración para exigir el pago",
+        "Se haya inscrito la declaración en el Registro Mercantil"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 62.2 señala que la declaración no impide el ejercicio de las acciones legales «en tanto no se haya producido la prescripción del derecho de la Administración para exigir el pago».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-022",
+      "ley": "rd-939-2005",
+      "articulo": "62.4",
+      "enunciado": "Declarado fallido un obligado al pago, las deudas de vencimiento posterior a la declaración:",
+      "opciones": [
+        "Exigen una nueva providencia de apremio antes de darse de baja",
+        "Quedan suspendidas hasta que el obligado recobre su solvencia",
+        "Se extinguen automáticamente al cumplirse un año desde la declaración",
+        "Se consideran vencidas y pueden darse de baja por referencia a ella, si no hay otros obligados"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 62.4 establece que «las deudas de vencimiento posterior a la declaración se considerarán vencidas y podrán ser dadas de baja por referencia a dicha declaración, si no existen otros obligados al pago».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-023",
+      "ley": "rd-939-2005",
+      "articulo": "63.2",
+      "enunciado": "Sobrevenida la solvencia de un obligado declarado fallido, y sin haber mediado prescripción, procede:",
+      "opciones": [
+        "Rehabilitar los créditos incobrables y reanudar la recaudación",
+        "Declarar prescrita la deuda por el tiempo transcurrido",
+        "Dictar una nueva liquidación sobre la deuda pendiente",
+        "Iniciar un nuevo procedimiento con nueva providencia de apremio"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 63.2 dice que «procederá la rehabilitación de los créditos declarados incobrables, reanudándose el procedimiento de recaudación partiendo de la situación en que se encontraban en el momento de la declaración de crédito incobrable».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    },
+    {
+      "id": "oex-024",
+      "ley": "rd-939-2005",
+      "articulo": "116.2",
+      "enunciado": "Si el importe obtenido en el procedimiento de apremio es insuficiente, se aplicará en primer lugar a:",
+      "opciones": [
+        "Los intereses de demora devengados",
+        "Las costas del procedimiento",
+        "El recargo del período ejecutivo",
+        "La deuda de vencimiento más antiguo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 116.2 prevé que, si el importe obtenido es insuficiente, «se aplicará en primer lugar a las costas y seguidamente a as deudas cuyo cobro se persigue en el procedimiento».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 22
+      }
+    }
+  ]
+}

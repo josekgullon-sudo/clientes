@@ -1,0 +1,605 @@
+{
+  "descripcion": "Derecho tributario (LGT): fuentes, tributos, obligación tributaria, hecho imponible, devengo, base, cuota y deuda. Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-10-09).",
+  "preguntas": [
+    {
+      "id": "dtr-001",
+      "ley": "ley-58-2003",
+      "articulo": "2.2",
+      "enunciado": "Según la LGT, los tributos, cualquiera que sea su denominación, se clasifican en:",
+      "opciones": [
+        "Tasas, precios públicos e impuestos",
+        "Impuestos directos, impuestos indirectos y tasas",
+        "Tasas, contribuciones especiales e impuestos",
+        "Impuestos, tasas y cotizaciones sociales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 2.2 dispone que los tributos «se clasifican en tasas, contribuciones especiales e impuestos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-002",
+      "ley": "ley-58-2003",
+      "articulo": "2.2.c",
+      "enunciado": "Los tributos exigidos sin contraprestación, cuyo hecho imponible pone de manifiesto la capacidad económica del contribuyente, son:",
+      "opciones": [
+        "Los impuestos",
+        "Las tasas",
+        "Las contribuciones especiales",
+        "Los recargos"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 2.2.c) señala: «Impuestos son los tributos exigidos sin contraprestación cuyo hecho imponible está constituido por negocios, actos o hechos que ponen de manifiesto la capacidad económica del contribuyente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-003",
+      "ley": "ley-58-2003",
+      "articulo": "3.1",
+      "enunciado": "Entre los principios en que se basa la ordenación del sistema tributario, el art. 3.1 LGT NO menciona el de:",
+      "opciones": [
+        "Generalidad",
+        "Progresividad",
+        "No confiscatoriedad",
+        "Proporcionalidad"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 3.1 cita «justicia, generalidad, igualdad, progresividad, equitativa distribución de la carga tributaria y no confiscatoriedad»; la proporcionalidad aparece en el apartado 2, para la aplicación del sistema.",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-004",
+      "ley": "ley-58-2003",
+      "articulo": "4.3",
+      "enunciado": "Las entidades de derecho público distintas del Estado, las comunidades autónomas y las entidades locales pueden exigir tributos:",
+      "opciones": [
+        "Cuando lo apruebe su órgano de gobierno",
+        "Cuando una ley así lo determine",
+        "Cuando lo autorice el Gobierno mediante real decreto",
+        "En ningún caso"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 4.3 establece: «Las demás entidades de derecho público podrán exigir tributos cuando una ley así lo determine».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-005",
+      "ley": "ley-58-2003",
+      "articulo": "5.2",
+      "enunciado": "Según el art. 5.2 LGT, las competencias de la AEAT en aplicación de los tributos NO alcanzan a:",
+      "opciones": [
+        "La función revisora en vía administrativa mediante recurso de reposición",
+        "La declaración de nulidad de pleno derecho del art. 217 y las reclamaciones económico-administrativas",
+        "El ejercicio de la potestad sancionadora",
+        "La recaudación de las deudas en período ejecutivo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 5.2 atribuye a la AEAT esas competencias «salvo la declaración de nulidad de pleno derecho regulada en el artículo 217 y las reclamaciones económico-administrativas reguladas en el capítulo IV del título V».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-006",
+      "ley": "ley-58-2003",
+      "articulo": "8.f",
+      "enunciado": "Entre las materias que se regulan en todo caso por ley, el art. 8 LGT incluye:",
+      "opciones": [
+        "La regulación del procedimiento de notificación de las liquidaciones",
+        "La forma y los plazos de presentación de los modelos de declaración",
+        "La determinación del lugar de pago de las deudas",
+        "El establecimiento y modificación de los plazos de prescripción y caducidad"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 8.f) reserva a la ley «El establecimiento y modificación de los plazos de prescripción y caducidad, así como de las causas de interrupción del cómputo de los plazos de prescripción».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-007",
+      "ley": "ley-58-2003",
+      "articulo": "12.2",
+      "enunciado": "En tanto no los defina la normativa tributaria, los términos empleados en sus normas se entenderán conforme a su sentido:",
+      "opciones": [
+        "Jurídico, técnico o usual, según proceda",
+        "Estrictamente jurídico, en todo caso",
+        "Usual, salvo remisión expresa al derecho civil",
+        "Técnico o económico, según proceda"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 12.2 dice: «En tanto no se definan por la normativa tributaria, los términos empleados en sus normas se entenderán conforme a su sentido jurídico, técnico o usual, según proceda».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-008",
+      "ley": "ley-58-2003",
+      "articulo": "13",
+      "enunciado": "Las obligaciones tributarias se exigen según la naturaleza jurídica del hecho, acto o negocio realizado, prescindiendo de:",
+      "opciones": [
+        "La voluntad de los interesados y del lugar de realización",
+        "La capacidad económica de los obligados tributarios",
+        "La forma o denominación dada por los interesados y de los defectos que afecten a su validez",
+        "Los efectos económicos que se deriven del negocio"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 13 exige las obligaciones tributarias con arreglo a la naturaleza jurídica del hecho, «cualquiera que sea la forma o denominación que los interesados le hubieran dado, y prescindiendo de los defectos que pudieran afectar a su validez».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-009",
+      "ley": "ley-58-2003",
+      "articulo": "14",
+      "enunciado": "Según el art. 14 LGT, no se admite la analogía para extender más allá de sus términos estrictos el ámbito de:",
+      "opciones": [
+        "Las obligaciones formales y los deberes de colaboración",
+        "Los plazos de prescripción y caducidad",
+        "Las normas de procedimiento de aplicación de los tributos",
+        "El hecho imponible, las exenciones y demás beneficios o incentivos fiscales"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 14 establece: «No se admitirá la analogía para extender más allá de sus términos estrictos el ámbito del hecho imponible, de las exenciones y demás beneficios o incentivos fiscales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-010",
+      "ley": "ley-58-2003",
+      "articulo": "15.1.a",
+      "enunciado": "Para que exista conflicto en la aplicación de la norma tributaria, los actos o negocios, individualmente o en su conjunto, deben ser:",
+      "opciones": [
+        "Simulados, con ocultación de su verdadera naturaleza",
+        "Notoriamente artificiosos o impropios para la consecución del resultado obtenido",
+        "Realizados con ánimo de defraudar a la Hacienda pública",
+        "Contrarios al ordenamiento jurídico vigente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 15.1.a) exige que «individualmente considerados o en su conjunto, sean notoriamente artificiosos o impropios para la consecución del resultado obtenido».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-011",
+      "ley": "ley-58-2003",
+      "articulo": "15.2",
+      "enunciado": "Para que la Administración tributaria pueda declarar el conflicto en la aplicación de la norma tributaria es necesario el previo informe favorable de:",
+      "opciones": [
+        "El Tribunal Económico-Administrativo Central",
+        "La Abogacía del Estado",
+        "La Comisión consultiva a que se refiere el artículo 159",
+        "El Consejo de Estado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 15.2 dispone que «será necesario el previo informe favorable de la Comisión consultiva a que se refiere el artículo 159 de esta ley».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-012",
+      "ley": "ley-58-2003",
+      "articulo": "15.3",
+      "enunciado": "En las liquidaciones resultantes de declarar un conflicto en la aplicación de la norma tributaria se exigirá el tributo y se liquidarán:",
+      "opciones": [
+        "Intereses de demora",
+        "Intereses de demora y la sanción pertinente",
+        "Recargos por declaración extemporánea",
+        "Recargos del período ejecutivo"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 15.3 señala que en esas liquidaciones se exigirá el tributo aplicando la norma que hubiera correspondido a los actos o negocios usuales o propios «o eliminando las ventajas fiscales obtenidas, y se liquidarán intereses de demora».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-013",
+      "ley": "ley-58-2003",
+      "articulo": "17.3",
+      "enunciado": "¿Cuál de las siguientes NO es una obligación tributaria material según el art. 17.3 LGT?",
+      "opciones": [
+        "Las obligaciones tributarias formales",
+        "Las obligaciones tributarias de carácter principal",
+        "Las obligaciones tributarias de realizar pagos a cuenta",
+        "Las obligaciones tributarias accesorias"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 17.3 indica: «Son obligaciones tributarias materiales las de carácter principal, las de realizar pagos a cuenta, las establecidas entre particulares resultantes del tributo y las accesorias». Las formales son las del artículo 29.1.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-014",
+      "ley": "ley-58-2003",
+      "articulo": "17.5",
+      "enunciado": "Los actos o convenios de los particulares que alteren los elementos de la obligación tributaria:",
+      "opciones": [
+        "Producen efectos ante la Administración si se comunican dentro de plazo",
+        "Solo producen efectos si los autoriza la Administración tributaria",
+        "No producen efectos ante la Administración, sin perjuicio de sus consecuencias jurídico-privadas",
+        "Son nulos de pleno derecho a todos los efectos"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 17.5 dispone que los elementos de la obligación tributaria «no podrán ser alterados por actos o convenios de los particulares, que no producirán efectos ante la Administración, sin perjuicio de sus consecuencias jurídico-privadas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-015",
+      "ley": "ley-58-2003",
+      "articulo": "20.1",
+      "enunciado": "El presupuesto fijado por la ley para configurar cada tributo, cuya realización origina el nacimiento de la obligación tributaria principal, es:",
+      "opciones": [
+        "El devengo",
+        "El hecho imponible",
+        "La base imponible",
+        "La exigibilidad"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 20.1 define: «El hecho imponible es el presupuesto fijado por la ley para configurar cada tributo y cuya realización origina el nacimiento de la obligación tributaria principal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-016",
+      "ley": "ley-58-2003",
+      "articulo": "21.1",
+      "enunciado": "Salvo que la ley de cada tributo disponga otra cosa, la fecha del devengo determina:",
+      "opciones": [
+        "El plazo de prescripción de la obligación tributaria",
+        "El interés de demora aplicable a la deuda",
+        "El lugar de presentación de la autoliquidación",
+        "Las circunstancias relevantes para la configuración de la obligación tributaria"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 21.1 establece: «La fecha del devengo determina las circunstancias relevantes para la configuración de la obligación tributaria, salvo que la ley de cada tributo disponga otra cosa».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-017",
+      "ley": "ley-58-2003",
+      "articulo": "22",
+      "enunciado": "En los supuestos de exención, la ley exime del cumplimiento de la obligación tributaria principal:",
+      "opciones": [
+        "Porque no llega a realizarse el hecho imponible",
+        "A pesar de realizarse el hecho imponible",
+        "Porque no se ha producido el devengo",
+        "Porque la base imponible resulta nula"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 22 define: «Son supuestos de exención aquellos en que, a pesar de realizarse el hecho imponible, la ley exime del cumplimiento de la obligación tributaria principal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-018",
+      "ley": "ley-58-2003",
+      "articulo": "23.1",
+      "enunciado": "La obligación tributaria de realizar pagos a cuenta tiene, respecto de la obligación tributaria principal, carácter:",
+      "opciones": [
+        "Accesorio",
+        "Subsidiario",
+        "Formal",
+        "Autónomo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 23.1 señala: «Esta obligación tributaria tiene carácter autónomo respecto de la obligación tributaria principal».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-019",
+      "ley": "ley-58-2003",
+      "articulo": "25.2",
+      "enunciado": "Respecto de las obligaciones tributarias accesorias, las sanciones tributarias:",
+      "opciones": [
+        "No tienen la consideración de obligaciones accesorias",
+        "Tienen siempre la consideración de obligaciones accesorias",
+        "Son accesorias solo cuando se imponen por infracciones graves",
+        "Son accesorias cuando se imponen en el período ejecutivo"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 25.2 dispone: «Las sanciones tributarias no tienen la consideración de obligaciones accesorias».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-020",
+      "ley": "ley-58-2003",
+      "articulo": "26.1",
+      "enunciado": "La exigencia del interés de demora tributario:",
+      "opciones": [
+        "Requiere la previa intimación de la Administración tributaria",
+        "Requiere que el retraso del obligado sea culpable",
+        "No requiere la previa intimación de la Administración ni un retraso culpable del obligado",
+        "Requiere resolución expresa que declare el incumplimiento"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 26.1 señala: «La exigencia del interés de demora tributario no requiere la previa intimación de la Administración ni la concurrencia de un retraso culpable en el obligado».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-021",
+      "ley": "ley-58-2003",
+      "articulo": "26.6",
+      "enunciado": "Salvo que la Ley de Presupuestos Generales del Estado establezca otro diferente, el interés de demora es el interés legal del dinero incrementado en:",
+      "opciones": [
+        "Un 10 por ciento",
+        "Un 20 por ciento",
+        "Un 25 por ciento",
+        "Un 50 por ciento"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 26.6 dispone que el interés de demora será el interés legal del dinero vigente «incrementado en un 25 por ciento, salvo que la Ley de Presupuestos Generales del Estado establezca otro diferente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-022",
+      "ley": "ley-58-2003",
+      "articulo": "27.2",
+      "enunciado": "El recargo por declaración extemporánea sin requerimiento previo es del 1 por ciento más otro 1 por ciento adicional por cada:",
+      "opciones": [
+        "Mes completo de retraso",
+        "Día natural de retraso",
+        "Semana completa de retraso",
+        "Trimestre completo de retraso"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 27.2 fija: «El recargo será un porcentaje igual al 1 por ciento más otro 1 por ciento adicional por cada mes completo de retraso».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-023",
+      "ley": "ley-58-2003",
+      "articulo": "28.2",
+      "enunciado": "Si se satisface la totalidad de la deuda no ingresada en período voluntario antes de notificarse la providencia de apremio, el recargo ejecutivo será del:",
+      "opciones": [
+        "Diez por ciento",
+        "Quince por ciento",
+        "Veinte por ciento",
+        "Cinco por ciento"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 28.2 establece: «El recargo ejecutivo será del cinco por ciento y se aplicará cuando se satisfaga la totalidad de la deuda no ingresada en periodo voluntario antes de la notificación de la providencia de apremio».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-024",
+      "ley": "ley-58-2003",
+      "articulo": "50.3",
+      "enunciado": "Respecto al método de estimación objetiva para determinar la base imponible, la LGT establece que:",
+      "opciones": [
+        "Es el método general de determinación de las bases imponibles",
+        "Se aplica en los supuestos que fije la ley y es voluntario para los obligados tributarios",
+        "Tiene carácter subsidiario respecto de los demás métodos",
+        "Se aplica de oficio cuando falta la contabilidad"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 50.3 dice que la ley «podrá establecer los supuestos en que sea de aplicación el método de estimación objetiva, que tendrá, en todo caso, carácter voluntario para los obligados tributarios».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-025",
+      "ley": "ley-58-2003",
+      "articulo": "53.1",
+      "enunciado": "¿Cuál de las siguientes NO es una circunstancia que habilita para aplicar el método de estimación indirecta?",
+      "opciones": [
+        "La resistencia, obstrucción, excusa o negativa a la actuación inspectora",
+        "El incumplimiento sustancial de las obligaciones contables o registrales",
+        "La desaparición de los libros y registros contables, aun por causa de fuerza mayor",
+        "La falta de pago en período voluntario de la deuda liquidada"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 53.1 enumera, entre otras, la «Resistencia, obstrucción, excusa o negativa a la actuación inspectora», el «Incumplimiento sustancial de las obligaciones contables o registrales» y la «Desaparición o destrucción, aun por causa de fuerza mayor, de los libros y registros contables».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-026",
+      "ley": "ley-58-2003",
+      "articulo": "54",
+      "enunciado": "La magnitud resultante de practicar en la base imponible las reducciones establecidas en la ley es:",
+      "opciones": [
+        "La cuota íntegra",
+        "La base liquidable",
+        "La cuota líquida",
+        "La cuota diferencial"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 54 define: «La base liquidable es la magnitud resultante de practicar, en su caso, en la base imponible las reducciones establecidas en la ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-027",
+      "ley": "ley-58-2003",
+      "articulo": "55.1",
+      "enunciado": "La cifra, coeficiente o porcentaje que se aplica a la base liquidable para obtener la cuota íntegra se denomina:",
+      "opciones": [
+        "Tipo de gravamen",
+        "Tarifa",
+        "Deducción",
+        "Bonificación"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 55.1 establece: «El tipo de gravamen es la cifra, coeficiente o porcentaje que se aplica a la base liquidable para obtener como resultado la cuota íntegra».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-028",
+      "ley": "ley-58-2003",
+      "articulo": "56.5",
+      "enunciado": "La cuota líquida es el resultado de aplicar sobre la cuota íntegra:",
+      "opciones": [
+        "Los pagos fraccionados, retenciones e ingresos a cuenta",
+        "Las reducciones o límites que establezca la ley de cada tributo",
+        "Las deducciones, bonificaciones, adiciones o coeficientes previstos en la ley de cada tributo",
+        "Los recargos e intereses de demora exigibles"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 56.5 dispone: «La cuota líquida será el resultado de aplicar sobre la cuota íntegra las deducciones, bonificaciones, adiciones o coeficientes previstos, en su caso, en la ley de cada tributo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-029",
+      "ley": "ley-58-2003",
+      "articulo": "56.6",
+      "enunciado": "La cuota diferencial es el resultado de minorar la cuota líquida en el importe de:",
+      "opciones": [
+        "Las deducciones, pagos fraccionados, retenciones, ingresos a cuenta y cuotas",
+        "Las reducciones y límites aplicados sobre la base imponible del tributo",
+        "Las bonificaciones, adiciones y coeficientes previstos en cada ley",
+        "Los intereses de demora y recargos ya satisfechos por el obligado"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 56.6 señala: «La cuota diferencial será el resultado de minorar la cuota líquida en el importe de las deducciones, pagos fraccionados, retenciones, ingresos a cuenta y cuotas, conforme a la normativa de cada tributo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    },
+    {
+      "id": "dtr-030",
+      "ley": "ley-58-2003",
+      "articulo": "58.2",
+      "enunciado": "¿Cuál de los siguientes conceptos integra, en su caso, la deuda tributaria además de la cuota?",
+      "opciones": [
+        "Las sanciones tributarias",
+        "Los recargos del período ejecutivo",
+        "Las multas coercitivas",
+        "Los gastos de constitución de avales"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 58.2 dice que la deuda tributaria estará integrada, en su caso, por el interés de demora, «Los recargos por declaración extemporánea», «Los recargos del período ejecutivo» y los recargos exigibles legalmente sobre las bases o las cuotas.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 15
+      }
+    }
+  ]
+}
