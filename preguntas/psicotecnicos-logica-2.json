@@ -1,0 +1,485 @@
+{
+  "descripcion": "Psicotécnicos de razonamiento lógico: series de letras, orden, calendario, reloj, silogismos y problemas. Generados con scripts/generar-psicotecnicos.ts.",
+  "preguntas": [
+    {
+      "id": "psl-025",
+      "ley": "psicotecnico",
+      "articulo": "Problemas de lógica",
+      "enunciado": "Un ordenador y una impresora cuestan juntos 700 €, y el ordenador cuesta 450 € más que la impresora. ¿Cuánto cuesta la impresora?",
+      "opciones": [
+        "225 €",
+        "250 €",
+        "125 €",
+        "350 €"
+      ],
+      "correcta": 2,
+      "explicacion": "Si a 700 € se le quitan los 450 € de diferencia, quedan 250 €, que son dos impresoras. Una impresora cuesta 125 € y el ordenador 575 €.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-026",
+      "ley": "psicotecnico",
+      "articulo": "Series de letras",
+      "enunciado": "Alfabeto español de 27 letras (de la A a la Z, con la Ñ): ¿qué letra continúa la serie F, G, I, J, L, M, Ñ, …?",
+      "opciones": [
+        "O",
+        "P",
+        "Q",
+        "Ñ"
+      ],
+      "correcta": 0,
+      "explicacion": "Se alternan saltos de 1 y 2 lugares. La letra que sigue es la O.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-027",
+      "ley": "psicotecnico",
+      "articulo": "Series de letras",
+      "enunciado": "Alfabeto español de 27 letras (de la A a la Z, con la Ñ): ¿qué letra continúa la serie V, R, Ñ, K, G, …?",
+      "opciones": [
+        "B",
+        "D",
+        "G",
+        "C"
+      ],
+      "correcta": 3,
+      "explicacion": "Cada letra está 4 lugares antes de la anterior. La letra que sigue es la C.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-028",
+      "ley": "psicotecnico",
+      "articulo": "Silogismos",
+      "enunciado": "Ningún D es E. Carlos es D. ¿Qué conclusión se deduce con seguridad?",
+      "opciones": [
+        "Todos los E son D",
+        "Carlos es E",
+        "Carlos no es E",
+        "Algunos E son D"
+      ],
+      "correcta": 2,
+      "explicacion": "Como ningún D es E y Carlos es D, Carlos no puede ser E.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-029",
+      "ley": "psicotecnico",
+      "articulo": "Series de letras",
+      "enunciado": "Alfabeto español de 27 letras (de la A a la Z, con la Ñ): ¿qué letra continúa la serie T, P, V, S, X, V, Z, …?",
+      "opciones": [
+        "W",
+        "Z",
+        "X",
+        "Y"
+      ],
+      "correcta": 3,
+      "explicacion": "Son dos series alternas: T, V, X, Z (cada letra 2 lugares después) y P, S, V, Y (cada letra 3 lugares después). La letra que sigue es la Y.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-030",
+      "ley": "psicotecnico",
+      "articulo": "Silogismos",
+      "enunciado": "Todos los R son S. Algunos T son R. ¿Qué conclusión se deduce con seguridad?",
+      "opciones": [
+        "Algunos T son S",
+        "Todos los T son S",
+        "Ningún T es S",
+        "Todos los S son T"
+      ],
+      "correcta": 0,
+      "explicacion": "Los T que son R son también S, así que algunos T son S. No se deduce que todos lo sean.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-031",
+      "ley": "psicotecnico",
+      "articulo": "Calendario",
+      "enunciado": "Si hoy es domingo, ¿qué día de la semana será dentro de 22 días?",
+      "opciones": [
+        "miércoles",
+        "domingo",
+        "martes",
+        "lunes"
+      ],
+      "correcta": 3,
+      "explicacion": "22 días son 3 semanas completas y 1 día. Las semanas no cambian el día; avanzando 1 desde el domingo se llega al lunes.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-032",
+      "ley": "psicotecnico",
+      "articulo": "Series de letras",
+      "enunciado": "Alfabeto español de 27 letras (de la A a la Z, con la Ñ): ¿qué letra continúa la serie W, T, Q, Ñ, L, …?",
+      "opciones": [
+        "L",
+        "F",
+        "I",
+        "J"
+      ],
+      "correcta": 2,
+      "explicacion": "Cada letra está 3 lugares antes de la anterior. La letra que sigue es la I.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-033",
+      "ley": "psicotecnico",
+      "articulo": "Codificación",
+      "enunciado": "Si cada letra vale su posición en el alfabeto español de 27 letras (A = 1, B = 2, … N = 14, Ñ = 15, O = 16…), ¿cuánto suman las letras de «ARCHIVO»?",
+      "opciones": [
+        "79",
+        "76",
+        "77",
+        "80"
+      ],
+      "correcta": 0,
+      "explicacion": "A = 1, R = 19, C = 3, H = 8, I = 9, V = 23, O = 16. La suma es 79.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-034",
+      "ley": "psicotecnico",
+      "articulo": "Orden y posiciones",
+      "enunciado": "Cuatro personas llegan a horas distintas. Luis llegó después de Diego. Luis llegó antes que Nuria. Elena llegó antes que Diego. ¿Quién llegó en último lugar?",
+      "opciones": [
+        "Luis",
+        "Nuria",
+        "Diego",
+        "Elena"
+      ],
+      "correcta": 1,
+      "explicacion": "Ordenadas, Elena, Diego, Luis y Nuria llegan en ese orden. El último es Nuria.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-035",
+      "ley": "psicotecnico",
+      "articulo": "Calendario",
+      "enunciado": "Si hoy es miércoles, ¿qué día de la semana será dentro de 33 días?",
+      "opciones": [
+        "miércoles",
+        "martes",
+        "lunes",
+        "domingo"
+      ],
+      "correcta": 2,
+      "explicacion": "33 días son 4 semanas completas y 5 días. Las semanas no cambian el día; avanzando 5 desde el miércoles se llega al lunes.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-036",
+      "ley": "psicotecnico",
+      "articulo": "Silogismos",
+      "enunciado": "Todos los A son B. Ningún C es B. ¿Qué conclusión se deduce con seguridad?",
+      "opciones": [
+        "Algunos C son A",
+        "Ningún C es A",
+        "Todos los A son C",
+        "Todos los C son A"
+      ],
+      "correcta": 1,
+      "explicacion": "Todo A es B y ningún C es B; luego ningún C puede ser A.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-037",
+      "ley": "psicotecnico",
+      "articulo": "Series de letras",
+      "enunciado": "Alfabeto español de 27 letras (de la A a la Z, con la Ñ): ¿qué letra continúa la serie I, J, L, Ñ, R, …?",
+      "opciones": [
+        "Y",
+        "X",
+        "W",
+        "V"
+      ],
+      "correcta": 2,
+      "explicacion": "Los saltos van aumentando: 1, 2, 3, 4… lugares, y ahora toca un salto de 5. La letra que sigue es la W.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-038",
+      "ley": "psicotecnico",
+      "articulo": "Problemas de lógica",
+      "enunciado": "Si a la mitad de un número se le suman 8, se obtiene 40. ¿Cuál es el número?",
+      "opciones": [
+        "64",
+        "48",
+        "80",
+        "32"
+      ],
+      "correcta": 0,
+      "explicacion": "La mitad del número es 40 − 8 = 32, así que el número es el doble: 64.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-039",
+      "ley": "psicotecnico",
+      "articulo": "Codificación",
+      "enunciado": "Si cada letra vale su posición en el alfabeto español de 27 letras (A = 1, B = 2, … N = 14, Ñ = 15, O = 16…), ¿cuánto suman las letras de «SELLO»?",
+      "opciones": [
+        "66",
+        "65",
+        "63",
+        "64"
+      ],
+      "correcta": 1,
+      "explicacion": "S = 20, E = 5, L = 12, L = 12, O = 16. La suma es 65.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-040",
+      "ley": "psicotecnico",
+      "articulo": "Orden y posiciones",
+      "enunciado": "Cuatro personas llegan a horas distintas. Laura llegó después de Diego. Pedro llegó después de Laura. Pedro llegó antes que Ana. ¿Quién llegó en primer lugar?",
+      "opciones": [
+        "Pedro",
+        "Laura",
+        "Diego",
+        "Ana"
+      ],
+      "correcta": 2,
+      "explicacion": "Ordenadas, Diego, Laura, Pedro y Ana llegan en ese orden. El primero es Diego.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-041",
+      "ley": "psicotecnico",
+      "articulo": "Silogismos",
+      "enunciado": "Algunos M son N. Todos los N son P. ¿Qué conclusión se deduce con seguridad?",
+      "opciones": [
+        "Algunos M son P",
+        "Todos los P son N",
+        "Ningún M es P",
+        "Todos los M son P"
+      ],
+      "correcta": 0,
+      "explicacion": "Los M que son N son también P, así que algunos M son P. No se puede afirmar que todos lo sean.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-042",
+      "ley": "psicotecnico",
+      "articulo": "Silogismos",
+      "enunciado": "Todos los X son Y. Pablo es X. ¿Qué conclusión se deduce con seguridad?",
+      "opciones": [
+        "Pablo no es Y",
+        "Todos los Y son X",
+        "Pablo es X pero no Y",
+        "Pablo es Y"
+      ],
+      "correcta": 3,
+      "explicacion": "Pablo pertenece a X, y todo X es Y; por tanto Pablo es Y. Que todos los Y sean X no se deduce.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-043",
+      "ley": "psicotecnico",
+      "articulo": "Problemas de lógica",
+      "enunciado": "Elena tiene el triple de edad que Pablo, y entre los dos suman 36 años. ¿Cuántos años tiene Pablo?",
+      "opciones": [
+        "10",
+        "27",
+        "18",
+        "9"
+      ],
+      "correcta": 3,
+      "explicacion": "Si Pablo tiene una parte, Elena tiene 3 y juntos 4 partes. Cada parte vale 36 ÷ 4 = 9, así que Pablo tiene 9 años.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-044",
+      "ley": "psicotecnico",
+      "articulo": "Series de letras",
+      "enunciado": "Alfabeto español de 27 letras (de la A a la Z, con la Ñ): ¿qué letra continúa la serie C, F, I, L, Ñ, …?",
+      "opciones": [
+        "T",
+        "Q",
+        "R",
+        "Ñ"
+      ],
+      "correcta": 1,
+      "explicacion": "Cada letra está 3 lugares después de la anterior. La letra que sigue es la Q.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-045",
+      "ley": "psicotecnico",
+      "articulo": "Orden y posiciones",
+      "enunciado": "Cuatro personas terminan a horas distintas. Marta terminó después de Álvaro. Álvaro terminó después de Irene. Elena terminó antes que Irene. ¿Quién terminó en segundo lugar?",
+      "opciones": [
+        "Elena",
+        "Irene",
+        "Álvaro",
+        "Marta"
+      ],
+      "correcta": 1,
+      "explicacion": "Ordenadas, Elena, Irene, Álvaro y Marta terminan en ese orden. El segundo es Irene.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-046",
+      "ley": "psicotecnico",
+      "articulo": "Problemas de lógica",
+      "enunciado": "Un autobús recorre 120 km en 2 horas. A la misma velocidad, ¿cuántos kilómetros recorrerá en 3 horas?",
+      "opciones": [
+        "360 km",
+        "180 km",
+        "240 km",
+        "150 km"
+      ],
+      "correcta": 1,
+      "explicacion": "La velocidad es 120 km ÷ 2 h = 60 km/h. En 3 horas recorre 60 × 3 = 180 km.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-047",
+      "ley": "psicotecnico",
+      "articulo": "Reloj",
+      "enunciado": "¿Qué ángulo forman las agujas de un reloj a las 2:00?",
+      "opciones": [
+        "45°",
+        "90°",
+        "75°",
+        "60°"
+      ],
+      "correcta": 3,
+      "explicacion": "A las 2:00 la aguja de las horas está a 60° (2 × 30° más 0 × 0,5°) y la de los minutos a 0° (0 × 6°). La diferencia es 60°.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-048",
+      "ley": "psicotecnico",
+      "articulo": "Calendario",
+      "enunciado": "Si pasado mañana es jueves, ¿qué día de la semana fue ayer?",
+      "opciones": [
+        "lunes",
+        "miércoles",
+        "martes",
+        "domingo"
+      ],
+      "correcta": 0,
+      "explicacion": "Si pasado mañana es jueves, hoy es martes. Desde ahí, ayer fue lunes.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    }
+  ]
+}

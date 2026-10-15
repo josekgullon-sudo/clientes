@@ -1,0 +1,405 @@
+{
+  "descripcion": "Psicotécnicos de aptitud administrativa: ordenar, comparar y comprobar datos, plazos y horarios. Generados con scripts/generar-psicotecnicos.ts.",
+  "preguntas": [
+    {
+      "id": "psa-001",
+      "ley": "psicotecnico",
+      "articulo": "Comprobación de datos",
+      "enunciado": "La letra del DNI se obtiene dividiendo el número entre 23 y buscando el resto en esta tabla: 0 T, 1 R, 2 W, 3 A, 4 G, 5 M, 6 Y, 7 F, 8 P, 9 D, 10 X, 11 B, 12 N, 13 J, 14 Z, 15 S, 16 Q, 17 V, 18 H, 19 L, 20 C, 21 K, 22 E. ¿Qué letra corresponde al DNI 57969919?",
+      "opciones": [
+        "Y",
+        "F",
+        "M",
+        "P"
+      ],
+      "correcta": 0,
+      "explicacion": "Al dividir 57969919 entre 23 el resto es 6. En la tabla, el resto 6 corresponde a la letra Y.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-002",
+      "ley": "psicotecnico",
+      "articulo": "Ordenación alfabética",
+      "enunciado": "Se ordenan alfabéticamente los apellidos Pascual, Pastor, Prieto y Peña. ¿Cuál queda en tercer lugar?",
+      "opciones": [
+        "Prieto",
+        "Peña",
+        "Pascual",
+        "Pastor"
+      ],
+      "correcta": 1,
+      "explicacion": "Se compara letra a letra, sin tener en cuenta las tildes. Ordenados quedan: Pascual, Pastor, Peña, Prieto. El tercero es Peña.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-003",
+      "ley": "psicotecnico",
+      "articulo": "Ordenación alfabética",
+      "enunciado": "Se ordenan alfabéticamente los apellidos Campos, Castro, Cabrera y Crespo. ¿Cuál queda en segundo lugar?",
+      "opciones": [
+        "Campos",
+        "Crespo",
+        "Castro",
+        "Cabrera"
+      ],
+      "correcta": 0,
+      "explicacion": "Se compara letra a letra, sin tener en cuenta las tildes. Ordenados quedan: Cabrera, Campos, Castro, Crespo. El segundo es Campos.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-004",
+      "ley": "psicotecnico",
+      "articulo": "Plazos administrativos",
+      "enunciado": "Una resolución se notifica el jueves 12 de marzo de 2026. Para recurrir hay 10 días hábiles. Si no hay festivos en ese periodo, ¿cuándo termina el plazo?",
+      "opciones": [
+        "miércoles 25 de marzo",
+        "domingo 22 de marzo",
+        "jueves 26 de marzo",
+        "viernes 27 de marzo"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 30 de la Ley 39/2015, los plazos en días hábiles se cuentan desde el día siguiente a la notificación y excluyen sábados, domingos y festivos. Contando 10 días hábiles desde el jueves 12 de marzo, el plazo termina el jueves 26 de marzo.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-005",
+      "ley": "psicotecnico",
+      "articulo": "Ordenación alfabética",
+      "enunciado": "Se ordenan alfabéticamente los apellidos Sanz, Sánchez, Soler y Suárez. ¿Cuál queda en segundo lugar?",
+      "opciones": [
+        "Suárez",
+        "Sánchez",
+        "Soler",
+        "Sanz"
+      ],
+      "correcta": 3,
+      "explicacion": "Se compara letra a letra, sin tener en cuenta las tildes. Ordenados quedan: Sánchez, Sanz, Soler, Suárez. El segundo es Sanz.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-006",
+      "ley": "psicotecnico",
+      "articulo": "Plazos administrativos",
+      "enunciado": "Un acto se notifica el lunes 28 de septiembre de 2026 y el plazo para recurrirlo es de dos meses. Si no hay festivos, ¿cuándo termina el plazo?",
+      "opciones": [
+        "viernes 27 de noviembre",
+        "martes 1 de diciembre",
+        "lunes 30 de noviembre",
+        "domingo 29 de noviembre"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 30 de la Ley 39/2015, los plazos en meses se cuentan de fecha a fecha: terminan el mismo día del mes de vencimiento (sábado 28 de noviembre). Como ese día es sábado o domingo, el plazo se prorroga al primer día hábil siguiente. Termina el lunes 30 de noviembre.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-007",
+      "ley": "psicotecnico",
+      "articulo": "Plazos administrativos",
+      "enunciado": "Una resolución se notifica el jueves 3 de septiembre de 2026. Para recurrir hay 12 días hábiles. Si no hay festivos en ese periodo, ¿cuándo termina el plazo?",
+      "opciones": [
+        "lunes 21 de septiembre",
+        "viernes 18 de septiembre",
+        "martes 15 de septiembre",
+        "martes 22 de septiembre"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 30 de la Ley 39/2015, los plazos en días hábiles se cuentan desde el día siguiente a la notificación y excluyen sábados, domingos y festivos. Contando 12 días hábiles desde el jueves 3 de septiembre, el plazo termina el lunes 21 de septiembre.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-008",
+      "ley": "psicotecnico",
+      "articulo": "Comparación de códigos",
+      "enunciado": "¿En cuál de las siguientes parejas los dos códigos son exactamente iguales?",
+      "opciones": [
+        "TH-829905 / TH-829985",
+        "ZC-2665955 / ZC-266595",
+        "SY-309424 / SY-390424",
+        "AC-547487 / AC-547487"
+      ],
+      "correcta": 3,
+      "explicacion": "En AC-547487 / AC-547487 los dos códigos coinciden carácter a carácter. En las otras parejas hay una diferencia: dos cifras cambiadas de sitio, una cifra distinta, una letra distinta o una cifra de más.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-009",
+      "ley": "psicotecnico",
+      "articulo": "Ordenación alfabética",
+      "enunciado": "Se ordenan alfabéticamente los apellidos Román, Rodríguez, Romero y Rojas. ¿Cuál queda en segundo lugar?",
+      "opciones": [
+        "Rojas",
+        "Román",
+        "Rodríguez",
+        "Romero"
+      ],
+      "correcta": 0,
+      "explicacion": "Se compara letra a letra, sin tener en cuenta las tildes. Ordenados quedan: Rodríguez, Rojas, Román, Romero. El segundo es Rojas.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-010",
+      "ley": "psicotecnico",
+      "articulo": "Ordenación alfabética",
+      "enunciado": "Se ordenan alfabéticamente los apellidos Mora, Márquez, Méndez y Marín. ¿Cuál queda en primer lugar?",
+      "opciones": [
+        "Mora",
+        "Méndez",
+        "Marín",
+        "Márquez"
+      ],
+      "correcta": 2,
+      "explicacion": "Se compara letra a letra, sin tener en cuenta las tildes. Ordenados quedan: Marín, Márquez, Méndez, Mora. El primero es Marín.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-011",
+      "ley": "psicotecnico",
+      "articulo": "Horarios y jornadas",
+      "enunciado": "Si la jornada semanal es de 37,5 horas, repartidas en 5 días iguales, ¿cuánto dura cada jornada diaria?",
+      "opciones": [
+        "8 h",
+        "7 h",
+        "7 h 45 min",
+        "7 h 30 min"
+      ],
+      "correcta": 3,
+      "explicacion": "37,5 horas ÷ 5 días = 7,5 horas al día, es decir, 7 h 30 min.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-012",
+      "ley": "psicotecnico",
+      "articulo": "Plazos administrativos",
+      "enunciado": "Una resolución se notifica el lunes 13 de julio de 2026. Para recurrir hay 10 días hábiles. Si no hay festivos en ese periodo, ¿cuándo termina el plazo?",
+      "opciones": [
+        "viernes 24 de julio",
+        "martes 28 de julio",
+        "lunes 27 de julio",
+        "jueves 23 de julio"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 30 de la Ley 39/2015, los plazos en días hábiles se cuentan desde el día siguiente a la notificación y excluyen sábados, domingos y festivos. Contando 10 días hábiles desde el lunes 13 de julio, el plazo termina el lunes 27 de julio.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-013",
+      "ley": "psicotecnico",
+      "articulo": "Comparación de códigos",
+      "enunciado": "¿En cuál de las siguientes parejas los dos códigos son exactamente iguales?",
+      "opciones": [
+        "JS-67755 / JS-76755",
+        "KG-39478 / KG-39478",
+        "VJ-583299 / VJ-58329",
+        "BF-22962 / BX-22962"
+      ],
+      "correcta": 1,
+      "explicacion": "En KG-39478 / KG-39478 los dos códigos coinciden carácter a carácter. En las otras parejas hay una diferencia: dos cifras cambiadas de sitio, una cifra distinta, una letra distinta o una cifra de más.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-014",
+      "ley": "psicotecnico",
+      "articulo": "Ordenación alfabética",
+      "enunciado": "Se ordenan alfabéticamente los apellidos Cruz, Cortés, Carrasco y Castillo. ¿Cuál queda en último lugar?",
+      "opciones": [
+        "Carrasco",
+        "Cortés",
+        "Castillo",
+        "Cruz"
+      ],
+      "correcta": 3,
+      "explicacion": "Se compara letra a letra, sin tener en cuenta las tildes. Ordenados quedan: Carrasco, Castillo, Cortés, Cruz. El último es Cruz.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-015",
+      "ley": "psicotecnico",
+      "articulo": "Comprobación de datos",
+      "enunciado": "La letra del DNI se obtiene dividiendo el número entre 23 y buscando el resto en esta tabla: 0 T, 1 R, 2 W, 3 A, 4 G, 5 M, 6 Y, 7 F, 8 P, 9 D, 10 X, 11 B, 12 N, 13 J, 14 Z, 15 S, 16 Q, 17 V, 18 H, 19 L, 20 C, 21 K, 22 E. ¿Qué letra corresponde al DNI 95062485?",
+      "opciones": [
+        "J",
+        "N",
+        "Z",
+        "B"
+      ],
+      "correcta": 1,
+      "explicacion": "Al dividir 95062485 entre 23 el resto es 12. En la tabla, el resto 12 corresponde a la letra N.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-016",
+      "ley": "psicotecnico",
+      "articulo": "Comparación de códigos",
+      "enunciado": "¿En cuál de las siguientes parejas los dos códigos son exactamente iguales?",
+      "opciones": [
+        "EY-61213 / EW-61213",
+        "KF-24937 / KF-24937",
+        "PU-87167 / PU-82167",
+        "CB-570244 / CB-57024"
+      ],
+      "correcta": 1,
+      "explicacion": "En KF-24937 / KF-24937 los dos códigos coinciden carácter a carácter. En las otras parejas hay una diferencia: dos cifras cambiadas de sitio, una cifra distinta, una letra distinta o una cifra de más.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-017",
+      "ley": "psicotecnico",
+      "articulo": "Ordenación alfabética",
+      "enunciado": "Se ordenan alfabéticamente los apellidos Ramos, Romero, Román y Reyes. ¿Cuál queda en primer lugar?",
+      "opciones": [
+        "Román",
+        "Romero",
+        "Ramos",
+        "Reyes"
+      ],
+      "correcta": 2,
+      "explicacion": "Se compara letra a letra, sin tener en cuenta las tildes. Ordenados quedan: Ramos, Reyes, Román, Romero. El primero es Ramos.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-018",
+      "ley": "psicotecnico",
+      "articulo": "Ordenación numérica",
+      "enunciado": "Se ordenan de menor a mayor estos números de registro: 20251521, 20240458, 20251332 y 20250288. ¿Cuál queda en primer lugar?",
+      "opciones": [
+        "20240458",
+        "20251521",
+        "20251332",
+        "20250288"
+      ],
+      "correcta": 0,
+      "explicacion": "Ordenados de menor a mayor: 20240458, 20250288, 20251332, 20251521. El primero es 20240458.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-019",
+      "ley": "psicotecnico",
+      "articulo": "Ordenación alfabética",
+      "enunciado": "Se ordenan alfabéticamente los apellidos Rivera, Rubio, Ruiz y Rojas. ¿Cuál queda en tercer lugar?",
+      "opciones": [
+        "Ruiz",
+        "Rubio",
+        "Rojas",
+        "Rivera"
+      ],
+      "correcta": 1,
+      "explicacion": "Se compara letra a letra, sin tener en cuenta las tildes. Ordenados quedan: Rivera, Rojas, Rubio, Ruiz. El tercero es Rubio.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-020",
+      "ley": "psicotecnico",
+      "articulo": "Plazos administrativos",
+      "enunciado": "Una resolución se notifica el sábado 27 de junio de 2026. Para recurrir hay 10 días hábiles. Si no hay festivos en ese periodo, ¿cuándo termina el plazo?",
+      "opciones": [
+        "lunes 13 de julio",
+        "martes 7 de julio",
+        "jueves 9 de julio",
+        "viernes 10 de julio"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 30 de la Ley 39/2015, los plazos en días hábiles se cuentan desde el día siguiente a la notificación y excluyen sábados, domingos y festivos. Contando 10 días hábiles desde el sábado 27 de junio, el plazo termina el viernes 10 de julio.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    }
+  ]
+}

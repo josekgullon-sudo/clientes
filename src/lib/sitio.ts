@@ -34,10 +34,15 @@ export const OPOSICIONES = [
     nombre: "Auxiliar Administrativo del Estado",
     corto: "Auxiliar AGE",
     grupo: "C2",
-    simulacro: "No incluye la parte psicotécnica; el tiempo es proporcional a las preguntas del examen real.",
+    simulacro: "Es el examen completo: las dos partes, con los psicotécnicos y el tiempo del examen real.",
     ritmo: "En el examen tienes unos 49 s (90 min para 110 preguntas).",
-    partes: ["Parte 1 · bloque I", "Parte 2 · bloque II"],
+    partes: ["Parte 1 · bloque I y psicotécnicos", "Parte 2 · bloque II"],
     notaPrediccion: "",
+    bloques: {
+      I: { nombre: "Organización pública" },
+      II: { nombre: "Actividad administrativa y ofimática" },
+      III: { nombre: "Aptitudes administrativas, numéricas y verbales", titulo: "Psicotécnicos" },
+    },
   },
   {
     slug: "admin-age",
@@ -49,11 +54,22 @@ export const OPOSICIONES = [
     ritmo: "En el examen tienes unos 67 s (100 min para 90 preguntas).",
     partes: ["Primera parte · cuestionario", "Segunda parte"],
     notaPrediccion: " El supuesto práctico no entra en la predicción.",
+    bloques: {
+      I: { nombre: "Organización del Estado y de la Administración pública" },
+      II: { nombre: "Organización de oficinas públicas" },
+      III: { nombre: "Derecho administrativo general" },
+      IV: { nombre: "Gestión de personal" },
+      V: { nombre: "Gestión financiera" },
+      VI: { nombre: "Informática básica y ofimática" },
+    },
   },
 ] as const;
 
+type InfoBloque = { nombre: string; titulo?: string };
+export type DatosOposicion = (typeof OPOSICIONES)[number] & { bloques: Record<string, InfoBloque> };
+
 export const datosOposicion = (slug: string | null | undefined) =>
-  OPOSICIONES.find((o) => o.slug === slug) ?? OPOSICIONES[0];
+  (OPOSICIONES.find((o) => o.slug === slug) ?? OPOSICIONES[0]) as DatosOposicion;
 
 export type SlugOposicion = (typeof OPOSICIONES)[number]["slug"];
 

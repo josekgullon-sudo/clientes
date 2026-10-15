@@ -1,0 +1,605 @@
+{
+  "descripcion": "Psicotécnicos de aptitud verbal: ortografía, uso de palabras, gramática, sinónimos, antónimos y analogías. Escritos a mano.",
+  "preguntas": [
+    {
+      "id": "psv-001",
+      "ley": "psicotecnico",
+      "articulo": "Antónimos",
+      "enunciado": "Elige el antónimo de «lícito».",
+      "opciones": [
+        "permitido",
+        "justo",
+        "legal",
+        "ilícito"
+      ],
+      "correcta": 3,
+      "explicacion": "«Lícito» es lo permitido por la ley; su contrario es «ilícito».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-002",
+      "ley": "psicotecnico",
+      "articulo": "Uso de palabras",
+      "enunciado": "Elige la forma correcta: «Ha cancelado la cita ___ está enfermo.»",
+      "opciones": [
+        "por que",
+        "porque",
+        "por qué",
+        "porqué"
+      ],
+      "correcta": 1,
+      "explicacion": "Para dar la causa se usa la conjunción «porque», en una palabra y sin tilde.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-003",
+      "ley": "psicotecnico",
+      "articulo": "Sinónimos",
+      "enunciado": "Elige el sinónimo de «preceptivo».",
+      "opciones": [
+        "voluntario",
+        "posible",
+        "inútil",
+        "obligatorio"
+      ],
+      "correcta": 3,
+      "explicacion": "«Preceptivo» es lo que está ordenado por un precepto: «obligatorio».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-004",
+      "ley": "psicotecnico",
+      "articulo": "Ortografía",
+      "enunciado": "¿Qué palabra está escrita correctamente?",
+      "opciones": [
+        "imprescindible",
+        "inprescindible",
+        "imprecindible",
+        "imprescidible"
+      ],
+      "correcta": 0,
+      "explicacion": "«Imprescindible» lleva im- delante de p y -sc- en el centro, como «prescindir».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-005",
+      "ley": "psicotecnico",
+      "articulo": "Uso de palabras",
+      "enunciado": "Elige la forma correcta: «Deje los documentos ___, sobre la mesa.»",
+      "opciones": [
+        "hay",
+        "ahi",
+        "ahí",
+        "ay"
+      ],
+      "correcta": 2,
+      "explicacion": "«Ahí» es un adverbio de lugar y lleva tilde. «Hay» es del verbo haber.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-006",
+      "ley": "psicotecnico",
+      "articulo": "Ortografía",
+      "enunciado": "¿Qué palabra está escrita correctamente?",
+      "opciones": [
+        "obstaculo",
+        "obtáculo",
+        "ostáculo",
+        "obstáculo"
+      ],
+      "correcta": 3,
+      "explicacion": "«Obstáculo» es esdrújula: lleva tilde y conserva la s de «obstar».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-007",
+      "ley": "psicotecnico",
+      "articulo": "Analogías",
+      "enunciado": "Frío es a calor como alto es a…",
+      "opciones": [
+        "grande",
+        "bajo",
+        "ancho",
+        "caliente"
+      ],
+      "correcta": 1,
+      "explicacion": "Frío y calor son opuestos, igual que alto y bajo.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-008",
+      "ley": "psicotecnico",
+      "articulo": "Sinónimos",
+      "enunciado": "Elige el sinónimo de «escueto».",
+      "opciones": [
+        "confuso",
+        "extenso",
+        "cortés",
+        "breve"
+      ],
+      "correcta": 3,
+      "explicacion": "«Escueto» es lo que se dice con pocas palabras, sin adornos: «breve».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-009",
+      "ley": "psicotecnico",
+      "articulo": "Antónimos",
+      "enunciado": "Elige el antónimo de «diligente».",
+      "opciones": [
+        "eficiente",
+        "esforzado",
+        "negligente",
+        "cuidadoso"
+      ],
+      "correcta": 2,
+      "explicacion": "«Diligente» es quien cumple con cuidado y rapidez; su contrario es «negligente».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-010",
+      "ley": "psicotecnico",
+      "articulo": "Sinónimos",
+      "enunciado": "Elige el sinónimo de «austero».",
+      "opciones": [
+        "sobrio",
+        "alegre",
+        "generoso",
+        "lujoso"
+      ],
+      "correcta": 0,
+      "explicacion": "«Austero» es lo que no tiene lujos ni adornos: «sobrio».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-011",
+      "ley": "psicotecnico",
+      "articulo": "Ortografía",
+      "enunciado": "¿Qué palabra está escrita correctamente?",
+      "opciones": [
+        "prójibir",
+        "prohibir",
+        "proibir",
+        "prohivir"
+      ],
+      "correcta": 1,
+      "explicacion": "«Prohibir» se escribe con h intercalada y con b.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-012",
+      "ley": "psicotecnico",
+      "articulo": "Término excluido",
+      "enunciado": "¿Qué palabra no pertenece al grupo? Ley, decreto, reglamento, expediente.",
+      "opciones": [
+        "expediente",
+        "ley",
+        "reglamento",
+        "decreto"
+      ],
+      "correcta": 0,
+      "explicacion": "Ley, decreto y reglamento son normas; el expediente es el conjunto de documentos de un asunto.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-013",
+      "ley": "psicotecnico",
+      "articulo": "Sinónimos",
+      "enunciado": "Elige el sinónimo de «locuaz».",
+      "opciones": [
+        "hablador",
+        "callado",
+        "tímido",
+        "prudente"
+      ],
+      "correcta": 0,
+      "explicacion": "«Locuaz» es quien habla mucho: «hablador».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-014",
+      "ley": "psicotecnico",
+      "articulo": "Ortografía",
+      "enunciado": "¿Qué palabra está escrita correctamente?",
+      "opciones": [
+        "reibindicar",
+        "reyvindicar",
+        "reivindicar",
+        "reinvindicar"
+      ],
+      "correcta": 2,
+      "explicacion": "«Reivindicar» se escribe con v y sin n intermedia: viene de «re-» y «vindicar».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-015",
+      "ley": "psicotecnico",
+      "articulo": "Uso de palabras",
+      "enunciado": "Elige la forma correcta: «Espero que ___ llegado a tiempo.»",
+      "opciones": [
+        "halla",
+        "aya",
+        "haya",
+        "allá"
+      ],
+      "correcta": 2,
+      "explicacion": "Aquí se necesita el verbo auxiliar «haber» en subjuntivo: «haya llegado».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-016",
+      "ley": "psicotecnico",
+      "articulo": "Antónimos",
+      "enunciado": "Elige el antónimo de «veraz».",
+      "opciones": [
+        "honrado",
+        "sincero",
+        "mentiroso",
+        "fiel"
+      ],
+      "correcta": 2,
+      "explicacion": "«Veraz» es quien dice la verdad; su contrario es «mentiroso».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-017",
+      "ley": "psicotecnico",
+      "articulo": "Ortografía",
+      "enunciado": "¿Qué palabra está escrita correctamente?",
+      "opciones": [
+        "enbergadura",
+        "envergadura",
+        "enverjadura",
+        "embergadura"
+      ],
+      "correcta": 1,
+      "explicacion": "«Envergadura» se escribe con nv (antes de v va n) y con g.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-018",
+      "ley": "psicotecnico",
+      "articulo": "Ortografía",
+      "enunciado": "¿Qué palabra está escrita correctamente?",
+      "opciones": [
+        "exuberante",
+        "exhuberante",
+        "exuverante",
+        "exhuverante"
+      ],
+      "correcta": 0,
+      "explicacion": "«Exuberante» se escribe sin h y con b.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-019",
+      "ley": "psicotecnico",
+      "articulo": "Sinónimos",
+      "enunciado": "Elige el sinónimo de «subsanar».",
+      "opciones": [
+        "ignorar",
+        "aplazar",
+        "firmar",
+        "corregir"
+      ],
+      "correcta": 3,
+      "explicacion": "«Subsanar» es reparar o remediar un defecto: «corregir».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-020",
+      "ley": "psicotecnico",
+      "articulo": "Término excluido",
+      "enunciado": "¿Qué palabra no pertenece al grupo? Madrid, Sevilla, Lisboa, Valencia.",
+      "opciones": [
+        "Sevilla",
+        "Lisboa",
+        "Madrid",
+        "Valencia"
+      ],
+      "correcta": 1,
+      "explicacion": "Madrid, Sevilla y Valencia son ciudades españolas; Lisboa es la capital de Portugal.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-021",
+      "ley": "psicotecnico",
+      "articulo": "Gramática",
+      "enunciado": "¿Cuál de las siguientes oraciones es correcta?",
+      "opciones": [
+        "Entre ti y yo no hay secretos.",
+        "Entre tú y yo no hay secretos.",
+        "Entre tú y mí no hay secretos.",
+        "Entre ti y mí no hay secretos."
+      ],
+      "correcta": 1,
+      "explicacion": "Tras «entre» se usan los pronombres «tú» y «yo», no «ti» ni «mí».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-022",
+      "ley": "psicotecnico",
+      "articulo": "Ortografía",
+      "enunciado": "¿Qué palabra está escrita correctamente?",
+      "opciones": [
+        "rehén",
+        "reén",
+        "rején",
+        "rehen"
+      ],
+      "correcta": 0,
+      "explicacion": "«Rehén» es una palabra aguda acabada en -n: lleva tilde en la última sílaba.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-023",
+      "ley": "psicotecnico",
+      "articulo": "Sinónimos",
+      "enunciado": "Elige el sinónimo de «efímero».",
+      "opciones": [
+        "resistente",
+        "antiguo",
+        "pasajero",
+        "duradero"
+      ],
+      "correcta": 2,
+      "explicacion": "«Efímero» es lo que dura poco tiempo, como «pasajero».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-024",
+      "ley": "psicotecnico",
+      "articulo": "Antónimos",
+      "enunciado": "Elige el antónimo de «anverso».",
+      "opciones": [
+        "reverso",
+        "portada",
+        "cara",
+        "frente"
+      ],
+      "correcta": 0,
+      "explicacion": "El «anverso» es la cara principal de una moneda o una hoja; la contraria es el «reverso».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-025",
+      "ley": "psicotecnico",
+      "articulo": "Ortografía",
+      "enunciado": "¿Qué palabra está escrita correctamente?",
+      "opciones": [
+        "vehiculo",
+        "bejículo",
+        "vehículo",
+        "vehícolo"
+      ],
+      "correcta": 2,
+      "explicacion": "«Vehículo» es esdrújula y lleva tilde: ve-hí-cu-lo.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-026",
+      "ley": "psicotecnico",
+      "articulo": "Analogías",
+      "enunciado": "Pie es a pierna como mano es a…",
+      "opciones": [
+        "guante",
+        "uña",
+        "dedo",
+        "brazo"
+      ],
+      "correcta": 3,
+      "explicacion": "El pie está en el extremo de la pierna y la mano, en el del brazo.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-027",
+      "ley": "psicotecnico",
+      "articulo": "Ortografía",
+      "enunciado": "¿Qué palabra está escrita correctamente?",
+      "opciones": [
+        "subrallar",
+        "subrayar",
+        "subraiar",
+        "sobrayar"
+      ],
+      "correcta": 1,
+      "explicacion": "«Subrayar» se escribe con y, porque deriva de «raya» y del prefijo «sub-».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-028",
+      "ley": "psicotecnico",
+      "articulo": "Sinónimos",
+      "enunciado": "Elige el sinónimo de «perentorio».",
+      "opciones": [
+        "urgente",
+        "injusto",
+        "lento",
+        "opcional"
+      ],
+      "correcta": 0,
+      "explicacion": "«Perentorio» se dice de un plazo o de un asunto que apremia: «urgente».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-029",
+      "ley": "psicotecnico",
+      "articulo": "Antónimos",
+      "enunciado": "Elige el antónimo de «pródigo».",
+      "opciones": [
+        "espléndido",
+        "generoso",
+        "rico",
+        "tacaño"
+      ],
+      "correcta": 3,
+      "explicacion": "«Pródigo» es quien gasta o da en abundancia; su contrario es «tacaño».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-030",
+      "ley": "psicotecnico",
+      "articulo": "Analogías",
+      "enunciado": "Semana es a día como año es a…",
+      "opciones": [
+        "minuto",
+        "mes",
+        "siglo",
+        "década"
+      ],
+      "correcta": 1,
+      "explicacion": "Una semana se compone de días y un año, de meses: se relaciona una unidad con las que la forman.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    }
+  ]
+}

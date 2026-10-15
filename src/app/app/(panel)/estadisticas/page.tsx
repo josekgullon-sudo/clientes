@@ -135,7 +135,7 @@ export default async function Estadisticas() {
                 {est.bloques.map((b) => (
                   <li key={b.bloque}>
                     <div className="cifras mb-1.5 flex justify-between gap-3 text-sm">
-                      <span className="font-bold">Bloque {b.bloque}</span>
+                      <span className="font-bold">{textos.bloques[b.bloque]?.titulo ?? `Bloque ${b.bloque}`}</span>
                       <span className="text-pizarra">{b.total ? `${num(b.dominadas)} de ${num(b.total)} dominadas` : "En preparación"}</span>
                     </div>
                     <Barra valor={b.dominadas} total={b.total} />

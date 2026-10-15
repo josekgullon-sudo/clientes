@@ -42,7 +42,10 @@ const huellas = preguntas.map((p) => trigramas(normalizar(`${p.enunciado} ${p.op
 const pares: [number, string, string][] = [];
 for (let a = 0; a < preguntas.length; a++) {
   for (let b = a + 1; b < preguntas.length; b++) {
-    const s = jaccard(huellas[a], huellas[b]);
+    // Los psicotécnicos comparten plantilla y solo cambian las cifras: basta con que no se repita la misma pregunta con la misma respuesta.
+    const psi = preguntas[a].ley === "psicotecnico" && preguntas[b].ley === "psicotecnico";
+    const clavePsi = (i: number) => `${preguntas[i].enunciado}|${preguntas[i].opciones[preguntas[i].correcta]}`;
+    const s = psi ? (clavePsi(a) === clavePsi(b) ? 1 : 0) : jaccard(huellas[a], huellas[b]);
     if (s >= UMBRAL) pares.push([s, preguntas[a].id, preguntas[b].id]);
   }
 }

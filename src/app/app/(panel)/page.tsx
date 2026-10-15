@@ -270,7 +270,7 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
                   </EnlaceBoton>
                 </div>
               )}
-              <CaminoJuego temas={camino} premium={suscrito} puedeLeccion={puedeLeccion} soloAlrededor />
+              <CaminoJuego temas={camino} premium={suscrito} puedeLeccion={puedeLeccion} soloAlrededor oposicion={estudio?.oposicion} />
             </section>
           ) : temaRespaldo && puedeLeccion ? (
             <section className="tarjeta p-5">

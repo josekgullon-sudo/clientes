@@ -1,0 +1,605 @@
+{
+  "descripcion": "Psicotécnicos de aptitud numérica: series de números y cálculo. Generados con scripts/generar-psicotecnicos.ts; la respuesta correcta sale de la cuenta.",
+  "preguntas": [
+    {
+      "id": "psn-001",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 1, 2, 6, 24, 120, …?",
+      "opciones": [
+        "480",
+        "720",
+        "216",
+        "820"
+      ],
+      "correcta": 1,
+      "explicacion": "Cada término es el anterior multiplicado por 2, 3, 4… (son factoriales): el siguiente es ×6, es decir, 720. El siguiente término es 720.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-002",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 1, 3, 9, 27, 81, …?",
+      "opciones": [
+        "244",
+        "243",
+        "135",
+        "324"
+      ],
+      "correcta": 1,
+      "explicacion": "Cada término es el anterior multiplicado por 3. El siguiente término es 243.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-003",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 4, 6, 18, 20, 60, 62, …?",
+      "opciones": [
+        "64",
+        "65",
+        "186",
+        "187"
+      ],
+      "correcta": 2,
+      "explicacion": "Se alternan dos operaciones: sumar 2 y multiplicar por 3. 4 +2 = 6, ×3 = 18, +2 = 20…. El siguiente término es 186.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-004",
+      "ley": "psicotecnico",
+      "articulo": "Porcentajes",
+      "enunciado": "¿Cuál es el 75 % de 168?",
+      "opciones": [
+        "1260",
+        "126",
+        "42",
+        "127"
+      ],
+      "correcta": 1,
+      "explicacion": "El 75 % de 168 es 168 × 75 ÷ 100 = 126.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-005",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 5, 10, 20, 40, 80, …?",
+      "opciones": [
+        "120",
+        "165",
+        "160",
+        "240"
+      ],
+      "correcta": 2,
+      "explicacion": "Cada término es el anterior multiplicado por 2. El siguiente término es 160.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-006",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 36, 49, 64, 81, 100, …?",
+      "opciones": [
+        "121",
+        "123",
+        "122",
+        "119"
+      ],
+      "correcta": 0,
+      "explicacion": "Son los cuadrados de 6, 7, 8…: 36, 49, 64…, y sigue 11² = 121. El siguiente término es 121.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-007",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 13, 45, 16, 47, 19, 49, 22, …?",
+      "opciones": [
+        "54",
+        "25",
+        "51",
+        "24"
+      ],
+      "correcta": 2,
+      "explicacion": "Son dos series alternas: los lugares impares suman 3 cada vez (13, 16, 19, 22) y los pares restan o suman 2: 45, 47, 49, 51 (cada uno es el anterior más 2). El siguiente término es 51.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-008",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 5, 7, 11, 17, 25, 35, …?",
+      "opciones": [
+        "46",
+        "45",
+        "47",
+        "49"
+      ],
+      "correcta": 2,
+      "explicacion": "Las diferencias entre términos van aumentando de 2 en 2: 2, 4, 6, 8, 10…, así que sigue +12. El siguiente término es 47.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-009",
+      "ley": "psicotecnico",
+      "articulo": "Porcentajes",
+      "enunciado": "Una silla de oficina cuesta 162 € y su precio sube un 50 %. ¿Cuál es el precio final?",
+      "opciones": [
+        "244 €",
+        "81 €",
+        "212 €",
+        "243 €"
+      ],
+      "correcta": 3,
+      "explicacion": "El 50 % de 162 € son 81 €. El precio final es 162 € + 81 € = 243 €.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-010",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 729, 243, 81, 27, 9, …?",
+      "opciones": [
+        "6",
+        "3",
+        "4",
+        "8"
+      ],
+      "correcta": 1,
+      "explicacion": "Cada término es el anterior dividido entre 3. El siguiente término es 3.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-011",
+      "ley": "psicotecnico",
+      "articulo": "Porcentajes",
+      "enunciado": "¿Cuál es el 20 % de 335?",
+      "opciones": [
+        "67",
+        "670",
+        "268",
+        "68"
+      ],
+      "correcta": 0,
+      "explicacion": "El 20 % de 335 es 335 × 20 ÷ 100 = 67.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-012",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 39, 46, 53, 60, 67, …?",
+      "opciones": [
+        "67",
+        "75",
+        "81",
+        "74"
+      ],
+      "correcta": 3,
+      "explicacion": "Cada término es el anterior más 7. El siguiente término es 74.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-013",
+      "ley": "psicotecnico",
+      "articulo": "Regla de tres",
+      "enunciado": "Si 8 sobres cuestan 2 €, ¿cuánto cuestan 12?",
+      "opciones": [
+        "3,25 €",
+        "2,75 €",
+        "3,50 €",
+        "3 €"
+      ],
+      "correcta": 3,
+      "explicacion": "Un sobre cuesta 2 € ÷ 8 = 0,25 €. Entonces 12 cuestan 12 × 0,25 € = 3 €.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-014",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 3, 6, 12, 24, 48, …?",
+      "opciones": [
+        "96",
+        "99",
+        "72",
+        "144"
+      ],
+      "correcta": 0,
+      "explicacion": "Cada término es el anterior multiplicado por 2. El siguiente término es 96.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-015",
+      "ley": "psicotecnico",
+      "articulo": "Porcentajes",
+      "enunciado": "Un curso de formación cuesta 260 € y su precio baja un 5 %. ¿Cuál es el precio final?",
+      "opciones": [
+        "273 €",
+        "247 €",
+        "265 €",
+        "13 €"
+      ],
+      "correcta": 1,
+      "explicacion": "El 5 % de 260 € son 13 €. El precio final es 260 € − 13 € = 247 €.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-016",
+      "ley": "psicotecnico",
+      "articulo": "Operaciones combinadas",
+      "enunciado": "¿Cuál es el resultado de 5 + 9 × 2 − 12?",
+      "opciones": [
+        "11",
+        "12",
+        "23",
+        "16"
+      ],
+      "correcta": 0,
+      "explicacion": "Primero los paréntesis y las multiplicaciones, y después las sumas y restas. El resultado es 11.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-017",
+      "ley": "psicotecnico",
+      "articulo": "Reparto proporcional",
+      "enunciado": "Se reparten 279 € entre 3 personas en partes proporcionales a 2, 3 y 4. ¿Cuánto recibe la que menos recibe?",
+      "opciones": [
+        "63 €",
+        "124 €",
+        "93 €",
+        "62 €"
+      ],
+      "correcta": 3,
+      "explicacion": "En total hay 2 + 3 + 4 = 9 partes, y cada una vale 279 € ÷ 9 = 31 €. La que menos recibe tiene 2 partes: 62 €.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-018",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 16, 58, 21, 60, 26, 62, 31, …?",
+      "opciones": [
+        "69",
+        "33",
+        "36",
+        "64"
+      ],
+      "correcta": 3,
+      "explicacion": "Son dos series alternas: los lugares impares suman 5 cada vez (16, 21, 26, 31) y los pares restan o suman 2: 58, 60, 62, 64 (cada uno es el anterior más 2). El siguiente término es 64.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-019",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 3, 13, 23, 33, 43, …?",
+      "opciones": [
+        "54",
+        "63",
+        "43",
+        "53"
+      ],
+      "correcta": 3,
+      "explicacion": "Cada término es el anterior más 10. El siguiente término es 53.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-020",
+      "ley": "psicotecnico",
+      "articulo": "Operaciones combinadas",
+      "enunciado": "¿Cuál es el resultado de 5 + 8 × 5 − 11?",
+      "opciones": [
+        "45",
+        "34",
+        "23",
+        "54"
+      ],
+      "correcta": 1,
+      "explicacion": "Primero los paréntesis y las multiplicaciones, y después las sumas y restas. El resultado es 34.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-021",
+      "ley": "psicotecnico",
+      "articulo": "Regla de tres",
+      "enunciado": "Si 9 bolígrafos cuestan 11,25 €, ¿cuánto cuestan 15?",
+      "opciones": [
+        "17,50 €",
+        "18,75 €",
+        "20 €",
+        "21,25 €"
+      ],
+      "correcta": 1,
+      "explicacion": "Un bolígrafo cuesta 11,25 € ÷ 9 = 1,25 €. Entonces 15 cuestan 15 × 1,25 € = 18,75 €.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-022",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 1, 5, 10, 14, 28, 32, …?",
+      "opciones": [
+        "64",
+        "36",
+        "65",
+        "37"
+      ],
+      "correcta": 0,
+      "explicacion": "Se alternan dos operaciones: sumar 4 y multiplicar por 2. 1 +4 = 5, ×2 = 10, +4 = 14…. El siguiente término es 64.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-023",
+      "ley": "psicotecnico",
+      "articulo": "Porcentajes",
+      "enunciado": "¿Cuál es el 30 % de 60?",
+      "opciones": [
+        "21",
+        "18",
+        "42",
+        "180"
+      ],
+      "correcta": 1,
+      "explicacion": "El 30 % de 60 es 60 × 30 ÷ 100 = 18.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-024",
+      "ley": "psicotecnico",
+      "articulo": "Medias",
+      "enunciado": "¿Cuál es la media de 19, 21, 15 y 17?",
+      "opciones": [
+        "21",
+        "17",
+        "18",
+        "19"
+      ],
+      "correcta": 2,
+      "explicacion": "La suma es 19 + 21 + 15 + 17 = 72, y 72 ÷ 4 = 18.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-025",
+      "ley": "psicotecnico",
+      "articulo": "Porcentajes",
+      "enunciado": "Un artículo de papelería cuesta 160 € y su precio baja un 40 %. ¿Cuál es el precio final?",
+      "opciones": [
+        "96 €",
+        "64 €",
+        "224 €",
+        "200 €"
+      ],
+      "correcta": 0,
+      "explicacion": "El 40 % de 160 € son 64 €. El precio final es 160 € − 64 € = 96 €.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-026",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 27, 64, 125, 216, …?",
+      "opciones": [
+        "307",
+        "333",
+        "353",
+        "343"
+      ],
+      "correcta": 3,
+      "explicacion": "Son los cubos de 3, 4, 5…: 27, 64, 125…, y sigue 7³ = 343. El siguiente término es 343.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-027",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 8, 27, 64, 125, …?",
+      "opciones": [
+        "216",
+        "226",
+        "206",
+        "186"
+      ],
+      "correcta": 0,
+      "explicacion": "Son los cubos de 2, 3, 4…: 8, 27, 64…, y sigue 6³ = 216. El siguiente término es 216.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-028",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 18, 27, 38, 51, 66, …?",
+      "opciones": [
+        "83",
+        "85",
+        "81",
+        "84"
+      ],
+      "correcta": 0,
+      "explicacion": "Cada término es un cuadrado más 2: 4² + 2 = 18, 5² + 2 = 27… y sigue 9² + 2 = 83. El siguiente término es 83.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-029",
+      "ley": "psicotecnico",
+      "articulo": "Porcentajes",
+      "enunciado": "Un artículo de papelería cuesta 272 € y su precio baja un 50 %. ¿Cuál es el precio final?",
+      "opciones": [
+        "137 €",
+        "322 €",
+        "136 €",
+        "408 €"
+      ],
+      "correcta": 2,
+      "explicacion": "El 50 % de 272 € son 136 €. El precio final es 272 € − 136 € = 136 €.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-030",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 3, 6, 9, 15, 24, 39, 63, …?",
+      "opciones": [
+        "87",
+        "126",
+        "102",
+        "103"
+      ],
+      "correcta": 2,
+      "explicacion": "Cada término es la suma de los dos anteriores: 3 + 6 = 9, 6 + 9 = 15…. El siguiente término es 102.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    }
+  ]
+}

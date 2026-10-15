@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { Boton } from "@/components/boton";
 import { oposicionActual, progresoPorTema, usuarioActual } from "@/lib/datos/usuario";
+import { datosOposicion } from "@/lib/sitio";
 import { crearTest } from "../../acciones";
 
 export const metadata: Metadata = { title: "Test a medida" };
@@ -18,6 +19,7 @@ export default async function NuevoTest({ searchParams }: PageProps<"/app/nuevo"
   const [opo, progreso] = await Promise.all([oposicionActual(), progresoPorTema()]);
   const totales = new Map(progreso.map((t) => [t.tema_id, t.total]));
   const bloques = [...new Set(opo.temas.map((t) => t.bloque))];
+  const nombreBloque = (b: string) => datosOposicion(opo.slug).bloques[b]?.titulo ?? `Bloque ${b}`;
   const error = typeof q.error === "string" ? errores[q.error] : undefined;
 
   return (
@@ -54,9 +56,9 @@ export default async function NuevoTest({ searchParams }: PageProps<"/app/nuevo"
 
       {bloques.map((b) => (
         <fieldset key={b} className="tarjeta overflow-hidden">
-          <legend className="sr-only">Bloque {b}</legend>
+          <legend className="sr-only">{nombreBloque(b)}</legend>
           <p className="antetitulo px-5 pt-4" aria-hidden="true">
-            Bloque {b}
+            {nombreBloque(b)}
           </p>
           <div className="mt-2 flex flex-col divide-y divide-filete">
             {opo.temas

@@ -25,3 +25,8 @@
 - Preguntas en `/preguntas/*.json`, esquema en `src/lib/preguntas/esquema.ts`. Nuevas siempre en
   `estado: "borrador"`. Solo se importan las `validada`.
 - Fuentes legales en `/fuentes` (un archivo por ley).
+- Dos oposiciones (`datos/oposiciones.json`): `aux-age` (28 temas legales y de ofimática + bloque III de psicotécnicos, temas 29 a 32) y
+  `admin-age` (45 temas del anexo III de BOE-A-2025-26262). Cada persona elige la suya (`perfil_estudio.oposicion`); una pregunta puede
+  llevar tema en las dos (`temas: { "aux-age": 13, "admin-age": 26 }`). Los psicotécnicos (`ley: "psicotecnico"`, sin artículo ni BOE) se
+  generan con `npx tsx scripts/generar-psicotecnicos.ts` (series, cálculo, plazos, DNI… calculados por programa) y la parte verbal está
+  escrita a mano en `scripts/lib/psicotecnicos-verbal.ts`. Las páginas públicas por ley y tema son solo del Auxiliar y de materias con texto legal.

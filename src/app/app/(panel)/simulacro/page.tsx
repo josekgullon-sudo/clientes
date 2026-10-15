@@ -15,10 +15,16 @@ export default async function Simulacro() {
   const tercio = f.penalizacion > 0.33 && f.penalizacion < 0.34;
   const soloBloqueI = f.partes.length === 1 && f.partes[0].bloque === "I";
   const textos = datosOposicion(opo.slug);
+  const trozos = f.partes.map((p) => {
+    const titulo = textos.bloques[p.bloque]?.titulo;
+    return titulo ? `${p.preguntas} de ${titulo.toLowerCase()}` : `${p.preguntas} del bloque ${p.bloque}`;
+  });
   const detalle =
-    f.partes.length > 2
+    f.partes.length > 3
       ? `De los bloques ${f.partes[0].bloque} a ${f.partes[f.partes.length - 1].bloque}`
-      : f.partes.map((p) => `${p.preguntas} del bloque ${p.bloque}`).join(" y ");
+      : trozos.length > 1
+        ? `${trozos.slice(0, -1).join(", ")} y ${trozos[trozos.length - 1]}`
+        : trozos[0];
 
   const datos = [
     { icono: ListChecks, valor: String(total), texto: "preguntas", detalle },

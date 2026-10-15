@@ -1,0 +1,485 @@
+{
+  "descripcion": "Psicotécnicos de razonamiento lógico: series de letras, orden, calendario, reloj, silogismos y problemas. Generados con scripts/generar-psicotecnicos.ts.",
+  "preguntas": [
+    {
+      "id": "psl-001",
+      "ley": "psicotecnico",
+      "articulo": "Orden y posiciones",
+      "enunciado": "Cuatro personas terminan a horas distintas. Raúl terminó después de Luis. Sara terminó antes que Jorge. Jorge terminó antes que Luis. ¿Quién terminó en tercer lugar?",
+      "opciones": [
+        "Sara",
+        "Jorge",
+        "Luis",
+        "Raúl"
+      ],
+      "correcta": 2,
+      "explicacion": "Ordenadas, Sara, Jorge, Luis y Raúl terminan en ese orden. El tercero es Luis.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-002",
+      "ley": "psicotecnico",
+      "articulo": "Orden y posiciones",
+      "enunciado": "Cuatro personas llegan a horas distintas. Jorge llegó antes que Elena. Álvaro llegó después de Diego. Jorge llegó después de Álvaro. ¿Quién llegó en segundo lugar?",
+      "opciones": [
+        "Diego",
+        "Jorge",
+        "Elena",
+        "Álvaro"
+      ],
+      "correcta": 3,
+      "explicacion": "Ordenadas, Diego, Álvaro, Jorge y Elena llegan en ese orden. El segundo es Álvaro.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-003",
+      "ley": "psicotecnico",
+      "articulo": "Series de letras",
+      "enunciado": "Alfabeto español de 27 letras (de la A a la Z, con la Ñ): ¿qué letra continúa la serie O, Q, S, U, W, …?",
+      "opciones": [
+        "Y",
+        "X",
+        "W",
+        "Z"
+      ],
+      "correcta": 0,
+      "explicacion": "Cada letra está 2 lugares después de la anterior. La letra que sigue es la Y.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-004",
+      "ley": "psicotecnico",
+      "articulo": "Codificación",
+      "enunciado": "¿Qué letra ocupa el lugar 6 en el alfabeto español de 27 letras (A, B, C… con la Ñ entre la N y la O)?",
+      "opciones": [
+        "F",
+        "H",
+        "G",
+        "E"
+      ],
+      "correcta": 0,
+      "explicacion": "Contando desde la A, que es la 1.ª, el lugar 6 corresponde a la F. (Con la Ñ en el lugar 15, la O es la 16.ª y la Z, la 27.ª.)",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-005",
+      "ley": "psicotecnico",
+      "articulo": "Series de letras",
+      "enunciado": "Alfabeto español de 27 letras (de la A a la Z, con la Ñ): ¿qué letra continúa la serie D, F, H, J, L, …?",
+      "opciones": [
+        "L",
+        "O",
+        "N",
+        "Ñ"
+      ],
+      "correcta": 2,
+      "explicacion": "Cada letra está 2 lugares después de la anterior. La letra que sigue es la N.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-006",
+      "ley": "psicotecnico",
+      "articulo": "Series de letras",
+      "enunciado": "Alfabeto español de 27 letras (de la A a la Z, con la Ñ): ¿qué letra continúa la serie Ñ, O, Q, R, T, U, W, …?",
+      "opciones": [
+        "Y",
+        "X",
+        "Z",
+        "W"
+      ],
+      "correcta": 1,
+      "explicacion": "Se alternan saltos de 1 y 2 lugares. La letra que sigue es la X.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-007",
+      "ley": "psicotecnico",
+      "articulo": "Codificación",
+      "enunciado": "En un código cada letra se sustituye por la siguiente del alfabeto español de 27 letras (A → B, B → C, … N → Ñ, Ñ → O…). ¿Cómo se escribe «LEY»?",
+      "opciones": [
+        "ZFM",
+        "KDX",
+        "MFZ",
+        "NGA"
+      ],
+      "correcta": 2,
+      "explicacion": "Cada letra se cambia por la siguiente: L → M, E → F, Y → Z. Se escribe MFZ.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-008",
+      "ley": "psicotecnico",
+      "articulo": "Reloj",
+      "enunciado": "¿Qué ángulo forman las agujas de un reloj a las 9:00?",
+      "opciones": [
+        "75°",
+        "105°",
+        "120°",
+        "90°"
+      ],
+      "correcta": 3,
+      "explicacion": "A las 9:00 la aguja de las horas está a 270° (9 × 30° más 0 × 0,5°) y la de los minutos a 0° (0 × 6°). La diferencia es 90°.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-009",
+      "ley": "psicotecnico",
+      "articulo": "Series de letras",
+      "enunciado": "Alfabeto español de 27 letras (de la A a la Z, con la Ñ): ¿qué letra continúa la serie A, C, E, G, I, …?",
+      "opciones": [
+        "M",
+        "K",
+        "I",
+        "L"
+      ],
+      "correcta": 1,
+      "explicacion": "Cada letra está 2 lugares después de la anterior. La letra que sigue es la K.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-010",
+      "ley": "psicotecnico",
+      "articulo": "Reloj",
+      "enunciado": "¿Qué ángulo forman las agujas de un reloj a las 6:30?",
+      "opciones": [
+        "30°",
+        "45°",
+        "15°",
+        "0°"
+      ],
+      "correcta": 2,
+      "explicacion": "A las 6:30 la aguja de las horas está a 195° (6 × 30° más 30 × 0,5°) y la de los minutos a 180° (30 × 6°). La diferencia es 15°.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-011",
+      "ley": "psicotecnico",
+      "articulo": "Calendario",
+      "enunciado": "En 2026, el 17 de julio cae en viernes. ¿En qué día de la semana cae el 11 de agosto?",
+      "opciones": [
+        "martes",
+        "miércoles",
+        "lunes",
+        "jueves"
+      ],
+      "correcta": 0,
+      "explicacion": "Del 17 de julio al 11 de agosto hay 25 días: 3 semanas completas y 4 días más. Desde el viernes se avanza hasta el martes.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-012",
+      "ley": "psicotecnico",
+      "articulo": "Silogismos",
+      "enunciado": "Todos los M son N. Todos los N son P. ¿Qué conclusión se deduce con seguridad?",
+      "opciones": [
+        "Algunos P no son N",
+        "Ningún M es P",
+        "Todos los P son M",
+        "Todos los M son P"
+      ],
+      "correcta": 3,
+      "explicacion": "Si todos los M son N y todos los N son P, entonces todos los M son P. Lo contrario (todos los P son M) no se deduce.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-013",
+      "ley": "psicotecnico",
+      "articulo": "Orden y posiciones",
+      "enunciado": "Cuatro personas terminan a horas distintas. Diego terminó después de Carlos. Álvaro terminó después de Pedro. Diego terminó antes que Pedro. ¿Quién terminó en primer lugar?",
+      "opciones": [
+        "Carlos",
+        "Diego",
+        "Pedro",
+        "Álvaro"
+      ],
+      "correcta": 0,
+      "explicacion": "Ordenadas, Carlos, Diego, Pedro y Álvaro terminan en ese orden. El primero es Carlos.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-014",
+      "ley": "psicotecnico",
+      "articulo": "Orden y posiciones",
+      "enunciado": "Cuatro personas terminan a horas distintas. Ana terminó después de Nuria. Nuria terminó después de Irene. Ana terminó antes que Álvaro. ¿Quién terminó en tercer lugar?",
+      "opciones": [
+        "Ana",
+        "Nuria",
+        "Irene",
+        "Álvaro"
+      ],
+      "correcta": 0,
+      "explicacion": "Ordenadas, Irene, Nuria, Ana y Álvaro terminan en ese orden. El tercero es Ana.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-015",
+      "ley": "psicotecnico",
+      "articulo": "Codificación",
+      "enunciado": "En un código cada letra se sustituye por la siguiente del alfabeto español de 27 letras (A → B, B → C, … N → Ñ, Ñ → O…). ¿Cómo se escribe «EXPEDIENTE»?",
+      "opciones": [
+        "GZRGFKGOVG",
+        "FYQFEJFÑUF",
+        "DWODCHDMSD",
+        "FUÑFJEFQYF"
+      ],
+      "correcta": 1,
+      "explicacion": "Cada letra se cambia por la siguiente: E → F, X → Y, P → Q, E → F, D → E, I → J, E → F, N → Ñ, T → U, E → F. Se escribe FYQFEJFÑUF.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-016",
+      "ley": "psicotecnico",
+      "articulo": "Problemas de lógica",
+      "enunciado": "Un número aumentado en 8 da lo mismo que su doble disminuido en 7. ¿Cuál es el número?",
+      "opciones": [
+        "10",
+        "15",
+        "16",
+        "20"
+      ],
+      "correcta": 1,
+      "explicacion": "Con 15: 15 + 8 = 23 y 2 × 15 − 7 = 23. Los dos resultados coinciden.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-017",
+      "ley": "psicotecnico",
+      "articulo": "Codificación",
+      "enunciado": "¿Qué letra ocupa el lugar 19 en el alfabeto español de 27 letras (A, B, C… con la Ñ entre la N y la O)?",
+      "opciones": [
+        "Q",
+        "T",
+        "S",
+        "R"
+      ],
+      "correcta": 3,
+      "explicacion": "Contando desde la A, que es la 1.ª, el lugar 19 corresponde a la R. (Con la Ñ en el lugar 15, la O es la 16.ª y la Z, la 27.ª.)",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-018",
+      "ley": "psicotecnico",
+      "articulo": "Series de letras",
+      "enunciado": "Alfabeto español de 27 letras (de la A a la Z, con la Ñ): ¿qué letra continúa la serie P, Q, R, S, T, …?",
+      "opciones": [
+        "W",
+        "T",
+        "U",
+        "V"
+      ],
+      "correcta": 2,
+      "explicacion": "Cada letra está un lugar después de la anterior. La letra que sigue es la U.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-019",
+      "ley": "psicotecnico",
+      "articulo": "Reloj",
+      "enunciado": "¿Qué ángulo forman las agujas de un reloj a las 2:30?",
+      "opciones": [
+        "120°",
+        "90°",
+        "135°",
+        "105°"
+      ],
+      "correcta": 3,
+      "explicacion": "A las 2:30 la aguja de las horas está a 75° (2 × 30° más 30 × 0,5°) y la de los minutos a 180° (30 × 6°). La diferencia es 105°.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-020",
+      "ley": "psicotecnico",
+      "articulo": "Calendario",
+      "enunciado": "Si hoy es martes, ¿qué día de la semana fue hace 89 días?",
+      "opciones": [
+        "sábado",
+        "jueves",
+        "miércoles",
+        "viernes"
+      ],
+      "correcta": 1,
+      "explicacion": "89 días son 12 semanas completas y 5 días. Las semanas no cambian el día; retrocediendo 5 desde el martes se llega al jueves.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-021",
+      "ley": "psicotecnico",
+      "articulo": "Problemas de lógica",
+      "enunciado": "En un servicio trabajan 15 personas y los hombres son el doble que las mujeres. ¿Cuántas mujeres hay?",
+      "opciones": [
+        "6",
+        "10",
+        "5",
+        "13"
+      ],
+      "correcta": 2,
+      "explicacion": "Las mujeres son una parte y los hombres dos, así que hay 3 partes en total. Cada parte vale 15 ÷ 3 = 5: hay 5 mujeres.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-022",
+      "ley": "psicotecnico",
+      "articulo": "Calendario",
+      "enunciado": "Si hoy es martes, ¿qué día de la semana será dentro de 69 días?",
+      "opciones": [
+        "miércoles",
+        "lunes",
+        "martes",
+        "domingo"
+      ],
+      "correcta": 1,
+      "explicacion": "69 días son 9 semanas completas y 6 días. Las semanas no cambian el día; avanzando 6 desde el martes se llega al lunes.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-023",
+      "ley": "psicotecnico",
+      "articulo": "Series de letras",
+      "enunciado": "Alfabeto español de 27 letras (de la A a la Z, con la Ñ): ¿qué letra continúa la serie Q, U, S, V, U, W, W, …?",
+      "opciones": [
+        "X",
+        "Z",
+        "W",
+        "Y"
+      ],
+      "correcta": 0,
+      "explicacion": "Son dos series alternas: Q, S, U, W (cada letra 2 lugares después) y U, V, W, X (cada letra un lugar después). La letra que sigue es la X.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    },
+    {
+      "id": "psl-024",
+      "ley": "psicotecnico",
+      "articulo": "Orden y posiciones",
+      "enunciado": "Cuatro personas llegan a horas distintas. Raúl llegó después de Pablo. Marta llegó antes que Pablo. Diego llegó antes que Marta. ¿Quién llegó en último lugar?",
+      "opciones": [
+        "Diego",
+        "Marta",
+        "Pablo",
+        "Raúl"
+      ],
+      "correcta": 3,
+      "explicacion": "Ordenadas, Diego, Marta, Pablo y Raúl llegan en ese orden. El último es Raúl.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 32
+      }
+    }
+  ]
+}

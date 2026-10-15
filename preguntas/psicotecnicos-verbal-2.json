@@ -1,0 +1,605 @@
+{
+  "descripcion": "Psicotécnicos de aptitud verbal: ortografía, uso de palabras, gramática, sinónimos, antónimos y analogías. Escritos a mano.",
+  "preguntas": [
+    {
+      "id": "psv-031",
+      "ley": "psicotecnico",
+      "articulo": "Sinónimos",
+      "enunciado": "Elige el sinónimo de «acatar».",
+      "opciones": [
+        "discutir",
+        "ignorar",
+        "proponer",
+        "obedecer"
+      ],
+      "correcta": 3,
+      "explicacion": "«Acatar» es aceptar y cumplir una orden o una norma: «obedecer».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-032",
+      "ley": "psicotecnico",
+      "articulo": "Sinónimos",
+      "enunciado": "Elige el sinónimo de «perspicaz».",
+      "opciones": [
+        "agudo",
+        "silencioso",
+        "torpe",
+        "tardío"
+      ],
+      "correcta": 0,
+      "explicacion": "«Perspicaz» es quien percibe con agudeza, es decir, «agudo».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-033",
+      "ley": "psicotecnico",
+      "articulo": "Ortografía",
+      "enunciado": "¿Qué palabra está escrita correctamente?",
+      "opciones": [
+        "excepsión",
+        "excepción",
+        "execpción",
+        "exepción"
+      ],
+      "correcta": 1,
+      "explicacion": "Se escribe «excepción», con xc, como «excepto», y termina en -ción.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-034",
+      "ley": "psicotecnico",
+      "articulo": "Ortografía",
+      "enunciado": "¿Qué palabra está escrita correctamente?",
+      "opciones": [
+        "adoleszente",
+        "adolecente",
+        "adolesente",
+        "adolescente"
+      ],
+      "correcta": 3,
+      "explicacion": "Se escribe «adolescente», con sc, como «adolescencia».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-035",
+      "ley": "psicotecnico",
+      "articulo": "Término excluido",
+      "enunciado": "¿Qué palabra no pertenece al grupo? Martillo, destornillador, alicates, folio.",
+      "opciones": [
+        "alicates",
+        "martillo",
+        "destornillador",
+        "folio"
+      ],
+      "correcta": 3,
+      "explicacion": "Martillo, destornillador y alicates son herramientas; el folio es papel.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-036",
+      "ley": "psicotecnico",
+      "articulo": "Ortografía",
+      "enunciado": "¿Qué palabra está escrita correctamente?",
+      "opciones": [
+        "ahinco",
+        "aínco",
+        "ahínco",
+        "ainco"
+      ],
+      "correcta": 2,
+      "explicacion": "«Ahínco» lleva tilde en la í, porque forma hiato con la a que la precede.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-037",
+      "ley": "psicotecnico",
+      "articulo": "Sinónimos",
+      "enunciado": "Elige el sinónimo de «sufragar».",
+      "opciones": [
+        "costear",
+        "ahorrar",
+        "cobrar",
+        "prestar"
+      ],
+      "correcta": 0,
+      "explicacion": "«Sufragar» significa pagar un gasto: «costear».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-038",
+      "ley": "psicotecnico",
+      "articulo": "Uso de palabras",
+      "enunciado": "Elige la forma correcta: «___ llegas antes de las nueve, perderás el turno.»",
+      "opciones": [
+        "Si nó",
+        "Si no",
+        "Sinó",
+        "Sino"
+      ],
+      "correcta": 1,
+      "explicacion": "Aquí es la condición «si» seguida del adverbio «no»: «Si no llegas…». Se escribe separado.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-039",
+      "ley": "psicotecnico",
+      "articulo": "Uso de palabras",
+      "enunciado": "Elige la forma correcta: «¿___ no has presentado la solicitud?»",
+      "opciones": [
+        "Por qué",
+        "Porque",
+        "Porqué",
+        "Por que"
+      ],
+      "correcta": 0,
+      "explicacion": "En las preguntas directas se escribe «por qué», en dos palabras y con tilde en «qué».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-040",
+      "ley": "psicotecnico",
+      "articulo": "Uso de palabras",
+      "enunciado": "Elige la forma correcta: «El expediente se ___ en el archivo central.»",
+      "opciones": [
+        "halla",
+        "allá",
+        "haya",
+        "aya"
+      ],
+      "correcta": 0,
+      "explicacion": "«Hallarse» significa «encontrarse»: «el expediente se halla en el archivo».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-041",
+      "ley": "psicotecnico",
+      "articulo": "Gramática",
+      "enunciado": "¿Cuál de las siguientes oraciones es correcta?",
+      "opciones": [
+        "Me aseguró de que vendría mañana.",
+        "Me comentó de que vendría mañana.",
+        "Me dijo de que vendría mañana.",
+        "Me dijo que vendría mañana."
+      ],
+      "correcta": 3,
+      "explicacion": "Los verbos «decir», «comentar» y «asegurar» no llevan la preposición «de»: añadirla es dequeísmo.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-042",
+      "ley": "psicotecnico",
+      "articulo": "Uso de palabras",
+      "enunciado": "Elige la forma correcta: «Desconozco el ___ de su decisión.»",
+      "opciones": [
+        "por qué",
+        "porqué",
+        "porque",
+        "por que"
+      ],
+      "correcta": 1,
+      "explicacion": "«Porqué» es un sustantivo que significa «motivo»: va tras un artículo y lleva tilde.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-043",
+      "ley": "psicotecnico",
+      "articulo": "Uso de palabras",
+      "enunciado": "Elige la forma correcta: «___ si llega el informe a tiempo.»",
+      "opciones": [
+        "A haber",
+        "Ha ver",
+        "Haber",
+        "A ver"
+      ],
+      "correcta": 3,
+      "explicacion": "«A ver» (preposición + verbo ver) sirve para comprobar algo: «A ver si llega». «Haber» es el verbo auxiliar.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-044",
+      "ley": "psicotecnico",
+      "articulo": "Ortografía",
+      "enunciado": "¿Qué palabra está escrita correctamente?",
+      "opciones": [
+        "exausto",
+        "exháusto",
+        "hexausto",
+        "exhausto"
+      ],
+      "correcta": 3,
+      "explicacion": "Se escribe «exhausto», con x y con h, como «exhaustivo».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-045",
+      "ley": "psicotecnico",
+      "articulo": "Ortografía",
+      "enunciado": "¿Qué palabra está escrita correctamente?",
+      "opciones": [
+        "bienvenido",
+        "bien venido",
+        "vienvenido",
+        "bienbenido"
+      ],
+      "correcta": 0,
+      "explicacion": "«Bienvenido» es una sola palabra y se escribe con v.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-046",
+      "ley": "psicotecnico",
+      "articulo": "Gramática",
+      "enunciado": "¿Cuál de las siguientes oraciones es correcta?",
+      "opciones": [
+        "Me alegro de qué hayas aprobado.",
+        "Me alegro de que hayas aprobado.",
+        "Pienso de que has aprobado.",
+        "Me alegro que hayas aprobado."
+      ],
+      "correcta": 1,
+      "explicacion": "El verbo «alegrarse» lleva la preposición «de»: «me alegro de que». Omitirla es queísmo.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-047",
+      "ley": "psicotecnico",
+      "articulo": "Término excluido",
+      "enunciado": "¿Qué palabra no pertenece al grupo? Lunes, jueves, enero, sábado.",
+      "opciones": [
+        "sábado",
+        "enero",
+        "lunes",
+        "jueves"
+      ],
+      "correcta": 1,
+      "explicacion": "Lunes, jueves y sábado son días de la semana; enero es un mes.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-048",
+      "ley": "psicotecnico",
+      "articulo": "Uso de palabras",
+      "enunciado": "Elige la forma correcta: «¿___ bolígrafo has firmado?»",
+      "opciones": [
+        "Con que",
+        "Conque",
+        "Con qué",
+        "Comque"
+      ],
+      "correcta": 2,
+      "explicacion": "En una pregunta, «qué» es interrogativo: se escribe «con qué», en dos palabras y con tilde.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-049",
+      "ley": "psicotecnico",
+      "articulo": "Antónimos",
+      "enunciado": "Elige el antónimo de «cóncavo».",
+      "opciones": [
+        "profundo",
+        "hueco",
+        "convexo",
+        "curvo"
+      ],
+      "correcta": 2,
+      "explicacion": "Una superficie «cóncava» se hunde hacia dentro; la «convexa» sobresale.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-050",
+      "ley": "psicotecnico",
+      "articulo": "Uso de palabras",
+      "enunciado": "Elige la forma correcta: «No quiero café, ___ té.»",
+      "opciones": [
+        "si no",
+        "si nó",
+        "sinó",
+        "sino"
+      ],
+      "correcta": 3,
+      "explicacion": "«Sino» es la conjunción que contrapone: «no café, sino té».",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-051",
+      "ley": "psicotecnico",
+      "articulo": "Uso de palabras",
+      "enunciado": "Elige la forma correcta: «El informe ___ datos muy importantes.»",
+      "opciones": [
+        "rebéla",
+        "revéla",
+        "revela",
+        "rebela"
+      ],
+      "correcta": 2,
+      "explicacion": "«Revelar» es descubrir o dar a conocer. «Rebelarse» es sublevarse.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-052",
+      "ley": "psicotecnico",
+      "articulo": "Analogías",
+      "enunciado": "Pluma es a escribir como tijera es a…",
+      "opciones": [
+        "cortar",
+        "coser",
+        "dibujar",
+        "pegar"
+      ],
+      "correcta": 0,
+      "explicacion": "La pluma sirve para escribir y la tijera, para cortar: se relaciona un objeto con su función.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-053",
+      "ley": "psicotecnico",
+      "articulo": "Antónimos",
+      "enunciado": "Elige el antónimo de «absolver».",
+      "opciones": [
+        "perdonar",
+        "indultar",
+        "condenar",
+        "liberar"
+      ],
+      "correcta": 2,
+      "explicacion": "«Absolver» es declarar libre de culpa; su contrario es «condenar».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-054",
+      "ley": "psicotecnico",
+      "articulo": "Gramática",
+      "enunciado": "¿Cuál de las siguientes oraciones es correcta?",
+      "opciones": [
+        "Han habido muchas solicitudes este año.",
+        "Habían muchas solicitudes este año.",
+        "Hubo muchas solicitudes este año.",
+        "Hubieron muchas solicitudes este año."
+      ],
+      "correcta": 2,
+      "explicacion": "Cuando «haber» significa «existir» es impersonal y va siempre en singular: «hubo», «había», «ha habido».",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-055",
+      "ley": "psicotecnico",
+      "articulo": "Antónimos",
+      "enunciado": "Elige el antónimo de «prolijo».",
+      "opciones": [
+        "detallado",
+        "conciso",
+        "extenso",
+        "minucioso"
+      ],
+      "correcta": 1,
+      "explicacion": "«Prolijo» es lo largo y con exceso de detalles; su contrario es «conciso».",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-056",
+      "ley": "psicotecnico",
+      "articulo": "Ortografía",
+      "enunciado": "¿Qué palabra está escrita correctamente?",
+      "opciones": [
+        "desahusio",
+        "desaucio",
+        "desahucio",
+        "deshaucio"
+      ],
+      "correcta": 2,
+      "explicacion": "«Desahucio» lleva una h intercalada: des-ahu-cio.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-057",
+      "ley": "psicotecnico",
+      "articulo": "Analogías",
+      "enunciado": "Libro es a capítulo como ley es a…",
+      "opciones": [
+        "artículo",
+        "sentencia",
+        "tribunal",
+        "reglamento"
+      ],
+      "correcta": 0,
+      "explicacion": "Un libro se divide en capítulos y una ley, en artículos: se relaciona el todo con su parte.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-058",
+      "ley": "psicotecnico",
+      "articulo": "Sinónimos",
+      "enunciado": "Elige el sinónimo de «inicuo».",
+      "opciones": [
+        "piadoso",
+        "injusto",
+        "secreto",
+        "tranquilo"
+      ],
+      "correcta": 1,
+      "explicacion": "«Inicuo» significa «injusto» o contrario a la equidad.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-059",
+      "ley": "psicotecnico",
+      "articulo": "Analogías",
+      "enunciado": "Juez es a sentencia como legislador es a…",
+      "opciones": [
+        "ley",
+        "tribunal",
+        "multa",
+        "recurso"
+      ],
+      "correcta": 0,
+      "explicacion": "El juez dicta sentencias y el legislador hace leyes: se relaciona quien actúa con lo que produce.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    },
+    {
+      "id": "psv-060",
+      "ley": "psicotecnico",
+      "articulo": "Uso de palabras",
+      "enunciado": "Elige la forma correcta: «Hay una ___ alrededor del edificio.»",
+      "opciones": [
+        "vaya",
+        "valla",
+        "baya",
+        "balla"
+      ],
+      "correcta": 1,
+      "explicacion": "«Valla» es una cerca. «Vaya» es del verbo ir y «baya» es un tipo de fruto.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 30
+      }
+    }
+  ]
+}

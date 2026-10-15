@@ -57,10 +57,12 @@ for (const archivo of archivosPreguntas()) {
     if (p.opciones.some((o) => PROHIBIDAS.test(o))) {
       avisos.push(`${donde}: usa «todas/ninguna son correctas»; resérvalo para casos puntuales`);
     }
-    if (p.ley !== null && !/[«"“]/.test(p.explicacion)) {
+    // Los psicotécnicos son de elaboración propia: no hay texto legal que citar ni versión del BOE.
+    const propia = p.ley === "psicotecnico";
+    if (p.ley !== null && !propia && !/[«"“]/.test(p.explicacion)) {
       avisos.push(`${donde}: la explicación no cita el texto de la ley entre comillas`);
     }
-    if (p.ley !== null && p.fecha_version_boe === null) sinFecha++;
+    if (p.ley !== null && !propia && p.fecha_version_boe === null) sinFecha++;
     const largos = p.opciones.map((o) => o.length);
     if (largos[p.correcta] > 1.6 * Math.max(...largos.filter((_, i) => i !== p.correcta))) {
       avisos.push(`${donde}: la correcta es mucho más larga que el resto; se adivina`);

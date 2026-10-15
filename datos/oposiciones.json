@@ -5,19 +5,26 @@
     "activa": true,
     "verificado": true,
     "formato_simulacro": {
-      "minutos": 65,
+      "minutos": 90,
       "penalizacion": 0.3333,
       "partes": [
         {
           "bloque": "I",
-          "preguntas": 30
+          "preguntas": 30,
+          "parte": 1
+        },
+        {
+          "bloque": "III",
+          "preguntas": 30,
+          "parte": 1
         },
         {
           "bloque": "II",
-          "preguntas": 50
+          "preguntas": 50,
+          "parte": 2
         }
       ],
-      "nota": "Verificado con la Resolución de 18 de diciembre de 2025, de la Secretaría de Estado de Función Pública (BOE núm. 306, de 22/12/2025, BOE-A-2025-26262), anexo I (ingreso libre, código 1146). Examen real: ejercicio único de 90 minutos con dos partes eliminatorias: 1.ª parte, 30 preguntas del bloque I + 30 psicotécnicas; 2.ª parte, 50 preguntas del bloque II (Windows 11 y Microsoft 365 de escritorio); cada error resta un tercio. El simulacro omite las 30 psicotécnicas, así que el tiempo es proporcional: 90 × 80/110 ≈ 65 minutos. La convocatoria numera el bloque II del 1 al 12; aquí van del 17 al 28."
+      "nota": "Verificado con la Resolución de 18 de diciembre de 2025, de la Secretaría de Estado de Función Pública (BOE núm. 306, de 22/12/2025, BOE-A-2025-26262), anexo I (ingreso libre, código 1146). Examen real: ejercicio único de 90 minutos con dos partes eliminatorias: 1.ª parte, 30 preguntas del bloque I + 30 psicotécnicas (aptitudes administrativas, numéricas o verbales); 2.ª parte, 50 preguntas del bloque II (Windows 11 y Microsoft 365 de escritorio); cada error resta un tercio. El simulacro es el examen completo, con las 110 preguntas. La convocatoria numera el bloque II del 1 al 12; aquí van del 17 al 28, y los psicotécnicos, que no tienen temario oficial, forman el bloque III (temas 29 a 32)."
     },
     "examen_estimado": {
       "fecha": "2027-05-15",
@@ -165,6 +172,26 @@
         "numero": 28,
         "bloque": "II",
         "titulo": "La Red Internet: origen, evolución y estado actual. Conceptos elementales sobre protocolos y servicios en Internet. Funcionalidades básicas de los navegadores web"
+      },
+      {
+        "numero": 29,
+        "bloque": "III",
+        "titulo": "Aptitud numérica: series de números, porcentajes, reglas de tres, fracciones y cálculo mental"
+      },
+      {
+        "numero": 30,
+        "bloque": "III",
+        "titulo": "Aptitud verbal: ortografía, sinónimos y antónimos, analogías y significado de las palabras"
+      },
+      {
+        "numero": 31,
+        "bloque": "III",
+        "titulo": "Aptitud administrativa: ordenación alfabética, comprobación de códigos y datos, plazos y horarios"
+      },
+      {
+        "numero": 32,
+        "bloque": "III",
+        "titulo": "Razonamiento lógico: series de letras, orden y posiciones, calendarios, relojes y problemas de lógica"
       }
     ]
   },

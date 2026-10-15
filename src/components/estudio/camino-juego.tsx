@@ -4,20 +4,21 @@ import { BookOpen, Crown, Lock, Star } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { EnlaceBoton } from "@/components/boton";
 import { Clara } from "@/components/mascota/clara";
+import { datosOposicion } from "@/lib/sitio";
 import { nivelVisible, siguienteLeccion, type NodoCamino } from "@/lib/estudio/camino";
 import { AccionesLeccion, Niveles } from "./camino";
 
 type Estado = "actual" | "empezado" | "corona" | "cerrado" | "vacio" | "pendiente";
 
-const NOMBRES_BLOQUE: Record<string, string> = {
-  I: "Organización pública",
-  II: "Actividad administrativa y ofimática",
-};
-
-const COLORES_BLOQUE: Record<string, { fondo: string; sombra: string }> = {
-  I: { fondo: "#15803d", sombra: "#0f5f2d" },
-  II: { fondo: "#0369a1", sombra: "#075985" },
-};
+// Un color por bloque, en el orden en que aparecen.
+const COLORES_BLOQUE = [
+  { fondo: "#15803d", sombra: "#0f5f2d" },
+  { fondo: "#0369a1", sombra: "#075985" },
+  { fondo: "#7c3aed", sombra: "#5b21b6" },
+  { fondo: "#c2410c", sombra: "#9a3412" },
+  { fondo: "#0f766e", sombra: "#115e59" },
+  { fondo: "#be185d", sombra: "#9d174d" },
+];
 
 // Desplazamiento horizontal de cada nodo: un zigzag suave como el de las apps de idiomas.
 const ZIGZAG = [0, 44, 70, 44, 0, -44, -70, -44];
@@ -105,12 +106,15 @@ export function CaminoJuego({
   premium,
   puedeLeccion,
   soloAlrededor = false,
+  oposicion,
 }: {
   temas: NodoCamino[];
   premium: boolean;
   puedeLeccion: boolean;
   /** En el panel solo se muestran los temas cercanos a la lección actual. */
   soloAlrededor?: boolean;
+  /** Slug de la oposición: da nombre y color a cada bloque. */
+  oposicion?: string;
 }) {
   const actual = siguienteLeccion(temas, premium);
   const [abierto, setAbierto] = useState<string | null>(actual?.tema_id ?? null);
@@ -135,6 +139,8 @@ export function CaminoJuego({
     visibles = orden.slice(0, 6);
   }
   const bloques = [...new Set(visibles.map((t) => t.bloque))];
+  const datos = datosOposicion(oposicion);
+  const ordenBloques = [...new Set(orden.map((t) => t.bloque))];
 
   return (
     <div ref={raiz} className="flex flex-col gap-10 overflow-x-clip">
@@ -142,7 +148,8 @@ export function CaminoJuego({
         const delBloque = visibles.filter((t) => t.bloque === bloque);
         const todos = temas.filter((t) => t.bloque === bloque && t.total > 0);
         const coronas = todos.filter((t) => t.corona).length;
-        const color = COLORES_BLOQUE[bloque] ?? COLORES_BLOQUE.I;
+        const color = COLORES_BLOQUE[ordenBloques.indexOf(bloque) % COLORES_BLOQUE.length];
+        const info = datos.bloques[bloque];
         return (
           <section key={bloque} aria-labelledby={`bloque-${bloque}`}>
             <div
@@ -151,9 +158,9 @@ export function CaminoJuego({
             >
               <div>
                 <h2 id={`bloque-${bloque}`} className="font-display text-xl font-black">
-                  Bloque {bloque}
+                  {info?.titulo ?? `Bloque ${bloque}`}
                 </h2>
-                <p className="text-sm font-bold opacity-90">{NOMBRES_BLOQUE[bloque] ?? ""}</p>
+                <p className="text-sm font-bold opacity-90">{info?.nombre ?? ""}</p>
               </div>
               <p className="cifras shrink-0 rounded-xl bg-white/20 px-3 py-1.5 text-sm font-black">
                 {todos.length ? `${coronas}/${todos.length}` : "Pronto"}

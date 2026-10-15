@@ -1,0 +1,405 @@
+{
+  "descripcion": "Psicotécnicos de aptitud administrativa: ordenar, comparar y comprobar datos, plazos y horarios. Generados con scripts/generar-psicotecnicos.ts.",
+  "preguntas": [
+    {
+      "id": "psa-021",
+      "ley": "psicotecnico",
+      "articulo": "Plazos administrativos",
+      "enunciado": "Un acto se notifica el martes 5 de mayo de 2026 y el plazo para recurrirlo es de dos meses. Si no hay festivos, ¿cuándo termina el plazo?",
+      "opciones": [
+        "lunes 6 de julio",
+        "martes 7 de julio",
+        "sábado 4 de julio",
+        "domingo 5 de julio"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 30 de la Ley 39/2015, los plazos en meses se cuentan de fecha a fecha: terminan el mismo día del mes de vencimiento (domingo 5 de julio). Como ese día es sábado o domingo, el plazo se prorroga al primer día hábil siguiente. Termina el lunes 6 de julio.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-022",
+      "ley": "psicotecnico",
+      "articulo": "Horarios y jornadas",
+      "enunciado": "Las citas duran 30 minutos y se dan seguidas, sin pausas, desde las 9:00 hasta las 18:00. ¿Cuántas citas se pueden dar?",
+      "opciones": [
+        "19",
+        "18",
+        "17",
+        "20"
+      ],
+      "correcta": 1,
+      "explicacion": "De 9:00 a 18:00 hay 9 h, es decir, 540 minutos. 540 ÷ 30 = 18 citas.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-023",
+      "ley": "psicotecnico",
+      "articulo": "Plazos administrativos",
+      "enunciado": "Una resolución se notifica el jueves 18 de junio de 2026. Para recurrir hay 15 días hábiles. Si no hay festivos en ese periodo, ¿cuándo termina el plazo?",
+      "opciones": [
+        "jueves 9 de julio",
+        "miércoles 8 de julio",
+        "viernes 3 de julio",
+        "viernes 10 de julio"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 30 de la Ley 39/2015, los plazos en días hábiles se cuentan desde el día siguiente a la notificación y excluyen sábados, domingos y festivos. Contando 15 días hábiles desde el jueves 18 de junio, el plazo termina el jueves 9 de julio.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-024",
+      "ley": "psicotecnico",
+      "articulo": "Comprobación de datos",
+      "enunciado": "La letra del DNI se obtiene dividiendo el número entre 23 y buscando el resto en esta tabla: 0 T, 1 R, 2 W, 3 A, 4 G, 5 M, 6 Y, 7 F, 8 P, 9 D, 10 X, 11 B, 12 N, 13 J, 14 Z, 15 S, 16 Q, 17 V, 18 H, 19 L, 20 C, 21 K, 22 E. ¿Qué letra corresponde al DNI 11893315?",
+      "opciones": [
+        "V",
+        "Q",
+        "Z",
+        "S"
+      ],
+      "correcta": 3,
+      "explicacion": "Al dividir 11893315 entre 23 el resto es 15. En la tabla, el resto 15 corresponde a la letra S.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-025",
+      "ley": "psicotecnico",
+      "articulo": "Plazos administrativos",
+      "enunciado": "Un acto se notifica el viernes 3 de julio de 2026 y el plazo para recurrirlo es de tres meses. Si no hay festivos, ¿cuándo termina el plazo?",
+      "opciones": [
+        "viernes 2 de octubre",
+        "jueves 1 de octubre",
+        "lunes 5 de octubre",
+        "domingo 4 de octubre"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 30 de la Ley 39/2015, los plazos en meses se cuentan de fecha a fecha: terminan el mismo día del mes de vencimiento (sábado 3 de octubre). Como ese día es sábado o domingo, el plazo se prorroga al primer día hábil siguiente. Termina el lunes 5 de octubre.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-026",
+      "ley": "psicotecnico",
+      "articulo": "Comprobación de datos",
+      "enunciado": "La letra del DNI se obtiene dividiendo el número entre 23 y buscando el resto en esta tabla: 0 T, 1 R, 2 W, 3 A, 4 G, 5 M, 6 Y, 7 F, 8 P, 9 D, 10 X, 11 B, 12 N, 13 J, 14 Z, 15 S, 16 Q, 17 V, 18 H, 19 L, 20 C, 21 K, 22 E. ¿Qué letra corresponde al DNI 15797367?",
+      "opciones": [
+        "W",
+        "R",
+        "A",
+        "T"
+      ],
+      "correcta": 1,
+      "explicacion": "Al dividir 15797367 entre 23 el resto es 1. En la tabla, el resto 1 corresponde a la letra R.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-027",
+      "ley": "psicotecnico",
+      "articulo": "Ordenación numérica",
+      "enunciado": "Se ordenan de menor a mayor estos números de registro: 20250331, 20241532, 20241444 y 20231395. ¿Cuál queda en último lugar?",
+      "opciones": [
+        "20241532",
+        "20241444",
+        "20231395",
+        "20250331"
+      ],
+      "correcta": 3,
+      "explicacion": "Ordenados de menor a mayor: 20231395, 20241444, 20241532, 20250331. El último es 20250331.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-028",
+      "ley": "psicotecnico",
+      "articulo": "Ordenación alfabética",
+      "enunciado": "Se ordenan alfabéticamente los apellidos Cortés, Cruz, Crespo y Carrasco. ¿Cuál queda en último lugar?",
+      "opciones": [
+        "Cruz",
+        "Carrasco",
+        "Crespo",
+        "Cortés"
+      ],
+      "correcta": 0,
+      "explicacion": "Se compara letra a letra, sin tener en cuenta las tildes. Ordenados quedan: Carrasco, Cortés, Crespo, Cruz. El último es Cruz.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-029",
+      "ley": "psicotecnico",
+      "articulo": "Ordenación alfabética",
+      "enunciado": "Se ordenan alfabéticamente los apellidos Crespo, Castro, Cortés y Carrasco. ¿Cuál queda en último lugar?",
+      "opciones": [
+        "Crespo",
+        "Carrasco",
+        "Castro",
+        "Cortés"
+      ],
+      "correcta": 0,
+      "explicacion": "Se compara letra a letra, sin tener en cuenta las tildes. Ordenados quedan: Carrasco, Castro, Cortés, Crespo. El último es Crespo.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-030",
+      "ley": "psicotecnico",
+      "articulo": "Comparación de códigos",
+      "enunciado": "¿En cuál de las siguientes parejas los dos códigos son exactamente iguales?",
+      "opciones": [
+        "UP-132709 / UV-132709",
+        "FP-908253 / FP-901253",
+        "MJ-457086 / MJ-4570866",
+        "UE-135126 / UE-135126"
+      ],
+      "correcta": 3,
+      "explicacion": "En UE-135126 / UE-135126 los dos códigos coinciden carácter a carácter. En las otras parejas hay una diferencia: dos cifras cambiadas de sitio, una cifra distinta, una letra distinta o una cifra de más.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-031",
+      "ley": "psicotecnico",
+      "articulo": "Comparación de códigos",
+      "enunciado": "¿En cuál de las siguientes parejas los dos códigos son exactamente iguales?",
+      "opciones": [
+        "DH-822142 / DP-822142",
+        "WF-630742 / WF-630742",
+        "HJ-709912 / HJ-705912",
+        "MN-8432677 / MN-843267"
+      ],
+      "correcta": 1,
+      "explicacion": "En WF-630742 / WF-630742 los dos códigos coinciden carácter a carácter. En las otras parejas hay una diferencia: dos cifras cambiadas de sitio, una cifra distinta, una letra distinta o una cifra de más.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-032",
+      "ley": "psicotecnico",
+      "articulo": "Ordenación numérica",
+      "enunciado": "Se ordenan de menor a mayor estos números de registro: 20250581, 20250363, 20240498 y 20241402. ¿Cuál queda en tercer lugar?",
+      "opciones": [
+        "20240498",
+        "20241402",
+        "20250581",
+        "20250363"
+      ],
+      "correcta": 3,
+      "explicacion": "Ordenados de menor a mayor: 20240498, 20241402, 20250363, 20250581. El tercero es 20250363.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-033",
+      "ley": "psicotecnico",
+      "articulo": "Horarios y jornadas",
+      "enunciado": "Clasificar 48 expedientes lleva 4 horas. A ese ritmo, ¿cuánto se tardará en clasificar 72?",
+      "opciones": [
+        "5 h 30 min",
+        "6 h 30 min",
+        "6 h",
+        "7 h"
+      ],
+      "correcta": 2,
+      "explicacion": "El ritmo es 48 ÷ 4 = 12 expedientes por hora. Para 72 hacen falta 72 ÷ 12 = 6 horas, es decir, 6 h.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-034",
+      "ley": "psicotecnico",
+      "articulo": "Comparación de códigos",
+      "enunciado": "¿En cuál de las siguientes parejas los dos códigos son exactamente iguales?",
+      "opciones": [
+        "NG-889342 / NG-898342",
+        "AC-881723 / AC-881723",
+        "PY-675293 / PG-675293",
+        "FX-839660 / FX-8396600"
+      ],
+      "correcta": 1,
+      "explicacion": "En AC-881723 / AC-881723 los dos códigos coinciden carácter a carácter. En las otras parejas hay una diferencia: dos cifras cambiadas de sitio, una cifra distinta, una letra distinta o una cifra de más.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-035",
+      "ley": "psicotecnico",
+      "articulo": "Ordenación alfabética",
+      "enunciado": "Se ordenan alfabéticamente los apellidos Reyes, Román, Ramos y Ramírez. ¿Cuál queda en primer lugar?",
+      "opciones": [
+        "Ramírez",
+        "Ramos",
+        "Román",
+        "Reyes"
+      ],
+      "correcta": 0,
+      "explicacion": "Se compara letra a letra, sin tener en cuenta las tildes. Ordenados quedan: Ramírez, Ramos, Reyes, Román. El primero es Ramírez.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-036",
+      "ley": "psicotecnico",
+      "articulo": "Horarios y jornadas",
+      "enunciado": "Una persona entra a las 9:00 y sale a las 15:15. Si tiene 45 minutos de descanso que no cuentan como trabajo, ¿cuánto tiempo trabaja?",
+      "opciones": [
+        "5 h 15 min",
+        "5 h 30 min",
+        "6 h 15 min",
+        "5 h 45 min"
+      ],
+      "correcta": 1,
+      "explicacion": "De 9:00 a 15:15 pasan 6 h 15 min. Restando 45 minutos de descanso quedan 5 h 30 min de trabajo.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-037",
+      "ley": "psicotecnico",
+      "articulo": "Ordenación numérica",
+      "enunciado": "Se ordenan de menor a mayor estos números de registro: 20231430, 20230682, 20230582 y 20230891. ¿Cuál queda en segundo lugar?",
+      "opciones": [
+        "20231430",
+        "20230582",
+        "20230891",
+        "20230682"
+      ],
+      "correcta": 3,
+      "explicacion": "Ordenados de menor a mayor: 20230582, 20230682, 20230891, 20231430. El segundo es 20230682.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-038",
+      "ley": "psicotecnico",
+      "articulo": "Horarios y jornadas",
+      "enunciado": "Una persona entra a las 8:15 y sale a las 14:30. Si tiene 30 minutos de descanso que no cuentan como trabajo, ¿cuánto tiempo trabaja?",
+      "opciones": [
+        "6 h",
+        "6 h 15 min",
+        "5 h 45 min",
+        "5 h 30 min"
+      ],
+      "correcta": 2,
+      "explicacion": "De 8:15 a 14:30 pasan 6 h 15 min. Restando 30 minutos de descanso quedan 5 h 45 min de trabajo.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-039",
+      "ley": "psicotecnico",
+      "articulo": "Comparación de códigos",
+      "enunciado": "¿En cuál de las siguientes parejas los dos códigos son exactamente iguales?",
+      "opciones": [
+        "MX-47098 / MC-47098",
+        "VF-35347 / VF-35437",
+        "XA-97590 / XA-97590",
+        "NT-13552 / NT-135522"
+      ],
+      "correcta": 2,
+      "explicacion": "En XA-97590 / XA-97590 los dos códigos coinciden carácter a carácter. En las otras parejas hay una diferencia: dos cifras cambiadas de sitio, una cifra distinta, una letra distinta o una cifra de más.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    },
+    {
+      "id": "psa-040",
+      "ley": "psicotecnico",
+      "articulo": "Horarios y jornadas",
+      "enunciado": "Una ventanilla atiende a 12 personas por hora. ¿Cuántas atenderá en una mañana de 5 horas y 30 minutos?",
+      "opciones": [
+        "72",
+        "67",
+        "66",
+        "60"
+      ],
+      "correcta": 2,
+      "explicacion": "5 h 30 min son 5,5 horas, y 12 personas por hora × 5,5 horas = 66 personas.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 31
+      }
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "descripcion": "Psicotécnicos de aptitud numérica: series de números y cálculo. Generados con scripts/generar-psicotecnicos.ts; la respuesta correcta sale de la cuenta.",
+  "preguntas": [
+    {
+      "id": "psn-031",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 3, 9, 27, 81, 243, …?",
+      "opciones": [
+        "405",
+        "729",
+        "972",
+        "732"
+      ],
+      "correcta": 1,
+      "explicacion": "Cada término es el anterior multiplicado por 3. El siguiente término es 729.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-032",
+      "ley": "psicotecnico",
+      "articulo": "Fracciones",
+      "enunciado": "¿Qué fracción de 220 es 55? Da la fracción simplificada.",
+      "opciones": [
+        "2/5",
+        "1/5",
+        "1/4",
+        "3/4"
+      ],
+      "correcta": 2,
+      "explicacion": "55/220 se simplifica dividiendo numerador y denominador entre 55: da 1/4.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-033",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 1, 4, 9, 16, 25, …?",
+      "opciones": [
+        "38",
+        "34",
+        "36",
+        "37"
+      ],
+      "correcta": 2,
+      "explicacion": "Son los cuadrados de 1, 2, 3…: 1, 4, 9…, y sigue 6² = 36. El siguiente término es 36.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-034",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 4, 7, 12, 19, 28, …?",
+      "opciones": [
+        "39",
+        "42",
+        "37",
+        "36"
+      ],
+      "correcta": 0,
+      "explicacion": "Cada término es un cuadrado más 3: 1² + 3 = 4, 2² + 3 = 7… y sigue 6² + 3 = 39. El siguiente término es 39.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-035",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 16, 36, 19, 34, 22, 32, 25, …?",
+      "opciones": [
+        "33",
+        "30",
+        "23",
+        "28"
+      ],
+      "correcta": 1,
+      "explicacion": "Son dos series alternas: los lugares impares suman 3 cada vez (16, 19, 22, 25) y los pares restan o suman 2: 36, 34, 32, 30 (cada uno es el anterior menos 2). El siguiente término es 30.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-036",
+      "ley": "psicotecnico",
+      "articulo": "Medias",
+      "enunciado": "¿Cuál es la media de 26, 15, 19, 22 y 23?",
+      "opciones": [
+        "22",
+        "26",
+        "20",
+        "21"
+      ],
+      "correcta": 3,
+      "explicacion": "La suma es 26 + 15 + 19 + 22 + 23 = 105, y 105 ÷ 5 = 21.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-037",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 8, 11, 16, 23, 32, 43, …?",
+      "opciones": [
+        "58",
+        "55",
+        "56",
+        "54"
+      ],
+      "correcta": 2,
+      "explicacion": "Las diferencias entre términos van aumentando de 2 en 2: 3, 5, 7, 9, 11…, así que sigue +13. El siguiente término es 56.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-038",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 1, 3, 4, 7, 11, 18, 29, …?",
+      "opciones": [
+        "40",
+        "47",
+        "58",
+        "48"
+      ],
+      "correcta": 1,
+      "explicacion": "Cada término es la suma de los dos anteriores: 1 + 3 = 4, 3 + 4 = 7…. El siguiente término es 47.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-039",
+      "ley": "psicotecnico",
+      "articulo": "Porcentajes",
+      "enunciado": "¿Cuál es el 30 % de 150?",
+      "opciones": [
+        "45",
+        "46",
+        "105",
+        "450"
+      ],
+      "correcta": 0,
+      "explicacion": "El 30 % de 150 es 150 × 30 ÷ 100 = 45.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-040",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 486, 162, 54, 18, 6, …?",
+      "opciones": [
+        "3",
+        "2",
+        "5",
+        "1"
+      ],
+      "correcta": 1,
+      "explicacion": "Cada término es el anterior dividido entre 3. El siguiente término es 2.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-041",
+      "ley": "psicotecnico",
+      "articulo": "Fracciones",
+      "enunciado": "Un archivo tiene 80 expedientes y ya se han revisado 3/8. ¿Cuántos faltan por revisar?",
+      "opciones": [
+        "10",
+        "60",
+        "50",
+        "30"
+      ],
+      "correcta": 2,
+      "explicacion": "3/8 de 80 son 30 expedientes revisados. Faltan 80 − 30 = 50.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-042",
+      "ley": "psicotecnico",
+      "articulo": "Regla de tres",
+      "enunciado": "Si 8 empleados, trabajando al mismo ritmo, tardan 18 días en clasificar unos expedientes, ¿cuántos días tardarán 3 empleados?",
+      "opciones": [
+        "48",
+        "13",
+        "23",
+        "49"
+      ],
+      "correcta": 0,
+      "explicacion": "Es proporcionalidad inversa: más empleados, menos días. El trabajo total es 8 × 18 = 144 jornadas, y repartido entre 3 empleados salen 144 ÷ 3 = 48 días.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-043",
+      "ley": "psicotecnico",
+      "articulo": "Porcentajes",
+      "enunciado": "¿Cuál es el 30 % de 320?",
+      "opciones": [
+        "960",
+        "224",
+        "112",
+        "96"
+      ],
+      "correcta": 3,
+      "explicacion": "El 30 % de 320 es 320 × 30 ÷ 100 = 96.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-044",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 37, 42, 47, 52, 57, …?",
+      "opciones": [
+        "63",
+        "57",
+        "67",
+        "62"
+      ],
+      "correcta": 3,
+      "explicacion": "Cada término es el anterior más 5. El siguiente término es 62.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-045",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número falta en la serie 122, 116, 110, ?, 98?",
+      "opciones": [
+        "103",
+        "106",
+        "105",
+        "104"
+      ],
+      "correcta": 3,
+      "explicacion": "Cada término es el anterior menos 6. El término que falta es 104.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-046",
+      "ley": "psicotecnico",
+      "articulo": "Reparto proporcional",
+      "enunciado": "Se reparten 550 € entre 3 personas en partes proporcionales a 2, 3 y 5. ¿Cuánto recibe la que menos recibe?",
+      "opciones": [
+        "275 €",
+        "110 €",
+        "111 €",
+        "165 €"
+      ],
+      "correcta": 1,
+      "explicacion": "En total hay 2 + 3 + 5 = 10 partes, y cada una vale 550 € ÷ 10 = 55 €. La que menos recibe tiene 2 partes: 110 €.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-047",
+      "ley": "psicotecnico",
+      "articulo": "Fracciones",
+      "enunciado": "¿Qué fracción de 39 es 13? Da la fracción simplificada.",
+      "opciones": [
+        "2/3",
+        "1/4",
+        "2/4",
+        "1/3"
+      ],
+      "correcta": 3,
+      "explicacion": "13/39 se simplifica dividiendo numerador y denominador entre 13: da 1/3.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-048",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 2, 31, 5, 26, 8, 21, 11, …?",
+      "opciones": [
+        "14",
+        "19",
+        "16",
+        "6"
+      ],
+      "correcta": 2,
+      "explicacion": "Son dos series alternas: los lugares impares suman 3 cada vez (2, 5, 8, 11) y los pares restan o suman 5: 31, 26, 21, 16 (cada uno es el anterior menos 5). El siguiente término es 16.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-049",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 89, 83, 77, 71, 65, …?",
+      "opciones": [
+        "53",
+        "65",
+        "60",
+        "59"
+      ],
+      "correcta": 3,
+      "explicacion": "Cada término es el anterior menos 6. El siguiente término es 59.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-050",
+      "ley": "psicotecnico",
+      "articulo": "Regla de tres",
+      "enunciado": "Si 8 sobres cuestan 4 €, ¿cuánto cuestan 21?",
+      "opciones": [
+        "11 €",
+        "10,50 €",
+        "11,50 €",
+        "10 €"
+      ],
+      "correcta": 1,
+      "explicacion": "Un sobre cuesta 4 € ÷ 8 = 0,50 €. Entonces 21 cuestan 21 × 0,50 € = 10,50 €.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-051",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 2, 3, 5, 8, 12, 17, …?",
+      "opciones": [
+        "25",
+        "24",
+        "22",
+        "23"
+      ],
+      "correcta": 3,
+      "explicacion": "Las diferencias entre términos van aumentando de 1 en 1: 1, 2, 3, 4, 5…, así que sigue +6. El siguiente término es 23.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-052",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 9, 41, 12, 43, 15, 45, 18, …?",
+      "opciones": [
+        "47",
+        "21",
+        "20",
+        "50"
+      ],
+      "correcta": 0,
+      "explicacion": "Son dos series alternas: los lugares impares suman 3 cada vez (9, 12, 15, 18) y los pares restan o suman 2: 41, 43, 45, 47 (cada uno es el anterior más 2). El siguiente término es 47.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-053",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 4, 5, 8, 13, 20, 29, …?",
+      "opciones": [
+        "42",
+        "39",
+        "40",
+        "38"
+      ],
+      "correcta": 2,
+      "explicacion": "Las diferencias entre términos van aumentando de 2 en 2: 1, 3, 5, 7, 9…, así que sigue +11. El siguiente término es 40.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-054",
+      "ley": "psicotecnico",
+      "articulo": "Fracciones",
+      "enunciado": "Un archivo tiene 160 expedientes y ya se han revisado 3/5. ¿Cuántos faltan por revisar?",
+      "opciones": [
+        "64",
+        "32",
+        "65",
+        "96"
+      ],
+      "correcta": 0,
+      "explicacion": "3/5 de 160 son 96 expedientes revisados. Faltan 160 − 96 = 64.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-055",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 4, 5, 9, 14, 23, 37, 60, …?",
+      "opciones": [
+        "98",
+        "97",
+        "120",
+        "83"
+      ],
+      "correcta": 1,
+      "explicacion": "Cada término es la suma de los dos anteriores: 4 + 5 = 9, 5 + 9 = 14…. El siguiente término es 97.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-056",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 5, 7, 11, 13, 17, 19, …?",
+      "opciones": [
+        "23",
+        "24",
+        "21",
+        "25"
+      ],
+      "correcta": 0,
+      "explicacion": "Son números primos consecutivos: 5, 7, 11, 13, 17, 19…; el siguiente primo es 23. El siguiente término es 23.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-057",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 3, 7, 14, 18, 36, 40, …?",
+      "opciones": [
+        "80",
+        "45",
+        "81",
+        "44"
+      ],
+      "correcta": 0,
+      "explicacion": "Se alternan dos operaciones: sumar 4 y multiplicar por 2. 3 +4 = 7, ×2 = 14, +4 = 18…. El siguiente término es 80.",
+      "dificultad": 3,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-058",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 6, 8, 11, 15, 20, 26, …?",
+      "opciones": [
+        "33",
+        "34",
+        "32",
+        "35"
+      ],
+      "correcta": 0,
+      "explicacion": "Las diferencias entre términos van aumentando de 1 en 1: 2, 3, 4, 5, 6…, así que sigue +7. El siguiente término es 33.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-059",
+      "ley": "psicotecnico",
+      "articulo": "Operaciones combinadas",
+      "enunciado": "¿Cuál es el resultado de (2 + 4) × 7 − 2?",
+      "opciones": [
+        "38",
+        "40",
+        "28",
+        "42"
+      ],
+      "correcta": 1,
+      "explicacion": "Primero los paréntesis y las multiplicaciones, y después las sumas y restas. El resultado es 40.",
+      "dificultad": 2,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    },
+    {
+      "id": "psn-060",
+      "ley": "psicotecnico",
+      "articulo": "Series numéricas",
+      "enunciado": "¿Qué número continúa la serie 4, 9, 16, 25, 36, …?",
+      "opciones": [
+        "50",
+        "51",
+        "49",
+        "47"
+      ],
+      "correcta": 2,
+      "explicacion": "Son los cuadrados de 2, 3, 4…: 4, 9, 16…, y sigue 7² = 49. El siguiente término es 49.",
+      "dificultad": 1,
+      "fecha_version_boe": null,
+      "estado": "validada",
+      "temas": {
+        "aux-age": 29
+      }
+    }
+  ]
+}

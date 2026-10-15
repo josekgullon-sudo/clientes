@@ -50,7 +50,9 @@ function cargar() {
     nombreCorto: l.nombre_corto,
     fecha: l.fecha_version_boe,
   }));
-  const temas: TemaInfo[] = opo.temas.map((t) => ({
+  // Las páginas públicas son las del Auxiliar y solo de sus materias con texto legal: los psicotécnicos
+  // (bloque III) no tienen ley ni BOE, y las normas del Administrativo no son del temario del Auxiliar.
+  const temas: TemaInfo[] = opo.temas.filter((t) => t.bloque !== "III").map((t) => ({
     numero: t.numero,
     bloque: t.bloque,
     titulo: t.titulo,
@@ -63,8 +65,9 @@ function cargar() {
     const parsed = esquemaArchivo.safeParse(JSON.parse(readFileSync(join(raiz, "preguntas", archivo), "utf8")));
     if (!parsed.success) continue;
     for (const p of parsed.data.preguntas) {
-      if (p.estado !== "validada") continue;
+      if (p.estado !== "validada" || p.ley === "psicotecnico") continue;
       const numero = p.temas["aux-age"] ?? null;
+      if (numero === null) continue;
       filas.push({
         ...p,
         leyInfo: p.ley ? (leyPorSlug.get(p.ley) ?? null) : null,
@@ -86,7 +89,8 @@ function cargar() {
       porTema.set(f.temaInfo.numero, lista);
     }
   }
-  cache = { leyes, temas, filas, porLey, porTema };
+  const leyesConBanco = leyes.filter((l) => porLey.has(l.slug));
+  cache = { leyes: leyesConBanco, temas, filas, porLey, porTema };
   return cache;
 }
 

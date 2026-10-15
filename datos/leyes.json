@@ -32,5 +32,6 @@
   { "slug": "rd-725-1989", "nombre": "Real Decreto 725/1989, de 16 de junio, sobre anticipos de Caja fija", "nombre_corto": "RD 725/1989 (anticipos de caja fija)", "fecha_version_boe": "2026-10-08", "fuente": "rd-725-1989.txt" },
   { "slug": "ley-30-1984", "nombre": "Ley 30/1984, de 2 de agosto, de medidas para la reforma de la Función Pública", "nombre_corto": "Ley 30/1984", "fecha_version_boe": "2026-02-23", "fuente": "ley-30-1984.txt" },
   { "slug": "ley-39-2006", "nombre": "Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia", "nombre_corto": "Ley 39/2006 (dependencia)", "fecha_version_boe": "2026-10-06", "fuente": "ley-39-2006.txt" },
-  { "slug": "ley-4-2023", "nombre": "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI", "nombre_corto": "Ley 4/2023 (trans y LGTBI)", "fecha_version_boe": "2025-12-20", "fuente": "ley-4-2023.txt" }
+  { "slug": "ley-4-2023", "nombre": "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI", "nombre_corto": "Ley 4/2023 (trans y LGTBI)", "fecha_version_boe": "2025-12-20", "fuente": "ley-4-2023.txt" },
+  { "slug": "psicotecnico", "nombre": "Pruebas psicotécnicas (elaboración propia)", "nombre_corto": "Psicotécnico", "fecha_version_boe": null, "fuente": null }
 ]
