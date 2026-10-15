@@ -1,0 +1,805 @@
+{
+  "descripcion": "Ley 35/2006 (LIRPF), tema 28 de Agente de la Hacienda Pública: ganancias y pérdidas patrimoniales, clases de renta, integración y compensación, base liquidable, mínimos, cuota, deducciones, tributación conjunta, gestión y pagos a cuenta. Lote de borradores sobre el texto consolidado del BOE (versión 2026-10-07).",
+  "preguntas": [
+    {
+      "id": "ir2-001",
+      "ley": "ley-35-2006",
+      "articulo": "33.2.c",
+      "enunciado": "Según la LIRPF, se estima que no existe alteración en la composición del patrimonio:",
+      "opciones": [
+        "En la permuta de bienes o derechos entre particulares",
+        "En la aportación no dineraria de bienes a una sociedad",
+        "En la disolución de comunidades de bienes o en los casos de separación de comuneros",
+        "En la transmisión onerosa de valores admitidos a negociación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 33.2.c) establece que no existe alteración patrimonial «En la disolución de comunidades de bienes o en los casos de separación de comuneros».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-002",
+      "ley": "ley-35-2006",
+      "articulo": "33.4.b",
+      "enunciado": "Está exenta la ganancia patrimonial puesta de manifiesto con la transmisión de la vivienda habitual realizada por:",
+      "opciones": [
+        "Mayores de 65 años o personas en situación de dependencia severa o de gran dependencia",
+        "Mayores de 60 años o personas con incapacidad permanente",
+        "Mayores de 65 años, solo si reinvierten el importe en otra vivienda",
+        "Cualquier persona con discapacidad igual o superior al 33 por ciento"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 33.4.b) están exentas las ganancias «Con ocasión de la transmisión de su vivienda habitual por mayores de 65 años o por personas en situación de dependencia severa o de gran dependencia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-003",
+      "ley": "ley-35-2006",
+      "articulo": "33.5.d",
+      "enunciado": "No se computan como pérdidas patrimoniales las debidas a pérdidas en el juego del período impositivo:",
+      "opciones": [
+        "En su totalidad, aunque se hayan obtenido ganancias en el juego",
+        "Cuando se hayan producido en juegos gestionados por el Estado",
+        "Cuando excedan del 10 por ciento de la base liquidable",
+        "En la parte que exceda de las ganancias obtenidas en el juego en el mismo período"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 33.5.d) excluye «Las debidas a pérdidas en el juego obtenidas en el período impositivo que excedan de las ganancias obtenidas en el juego en el mismo período».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-004",
+      "ley": "ley-35-2006",
+      "articulo": "33.5.e",
+      "enunciado": "No se computa la pérdida patrimonial derivada de transmitir un elemento patrimonial si el transmitente lo vuelve a adquirir dentro de:",
+      "opciones": [
+        "Los dos meses siguientes a la fecha de la transmisión",
+        "Los seis meses siguientes a la fecha de la transmisión",
+        "El año siguiente a la fecha de la transmisión",
+        "Los dos años siguientes a la fecha de la transmisión"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 33.5.e) no computa las pérdidas «cuando el transmitente vuelva a adquirirlos dentro del año siguiente a la fecha de dicha transmisión».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-005",
+      "ley": "ley-35-2006",
+      "articulo": "33.5.f",
+      "enunciado": "La pérdida por transmitir valores admitidos a negociación en mercados secundarios oficiales no se computa si se adquirieron valores homogéneos dentro de:",
+      "opciones": [
+        "Los dos meses anteriores o posteriores a la transmisión",
+        "El mes anterior o posterior a la transmisión",
+        "Los seis meses anteriores o posteriores a la transmisión",
+        "El año anterior o posterior a la transmisión"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 33.5.f) no computa la pérdida «cuando el contribuyente hubiera adquirido valores homogéneos dentro de los dos meses anteriores o posteriores a dichas transmisiones».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-006",
+      "ley": "ley-35-2006",
+      "articulo": "33.5.g",
+      "enunciado": "La pérdida por transmitir valores no admitidos a negociación en mercados secundarios oficiales no se computa si se adquirieron valores homogéneos en:",
+      "opciones": [
+        "Los dos meses anteriores o posteriores a la transmisión",
+        "El año anterior o posterior a la transmisión",
+        "Los seis meses anteriores o posteriores a la transmisión",
+        "Los dos años anteriores o posteriores a la transmisión"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 33.5.g) no computa la pérdida «cuando el contribuyente hubiera adquirido valores homogéneos en el año anterior o posterior a dichas transmisiones».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-007",
+      "ley": "ley-35-2006",
+      "articulo": "35.2",
+      "enunciado": "Si el importe efectivamente satisfecho en una enajenación es inferior al normal de mercado, como valor de transmisión prevalece:",
+      "opciones": [
+        "El efectivamente satisfecho",
+        "El valor catastral del bien",
+        "La media entre ambos valores",
+        "El valor normal de mercado"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 35.2 se tomará el efectivamente satisfecho «siempre que no resulte inferior al normal de mercado, en cuyo caso prevalecerá éste».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-008",
+      "ley": "ley-35-2006",
+      "articulo": "37.1.a",
+      "enunciado": "En la transmisión onerosa de valores admitidos a negociación en mercados regulados, el valor de transmisión es el de cotización en la fecha de la transmisión o, si es superior:",
+      "opciones": [
+        "El precio pactado",
+        "El valor liquidativo",
+        "El valor del patrimonio neto que corresponda a los valores",
+        "La cotización media del último trimestre"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 37.1.a) lo determina «por su cotización en dichos mercados en la fecha en que se produzca aquélla o por el precio pactado cuando sea superior a la cotización».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-009",
+      "ley": "ley-35-2006",
+      "articulo": "37.1.b",
+      "enunciado": "El valor de transmisión de valores no admitidos a negociación no podrá ser inferior, salvo prueba en contrario, al mayor entre el patrimonio neto que les corresponda y el que resulte de capitalizar:",
+      "opciones": [
+        "Al 10 por ciento el promedio de los resultados de los cinco ejercicios sociales cerrados",
+        "Al 20 por ciento el promedio de los resultados de los tres ejercicios sociales cerrados",
+        "Al 20 por ciento el resultado del último ejercicio social cerrado",
+        "Al 15 por ciento el promedio de los resultados de los dos ejercicios sociales cerrados"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 37.1.b) toma como segundo referente «El que resulte de capitalizar al tipo del 20 por ciento el promedio de los resultados de los tres ejercicios sociales cerrados con anterioridad a la fecha del devengo del Impuesto».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-010",
+      "ley": "ley-35-2006",
+      "articulo": "38.3",
+      "enunciado": "Un mayor de 65 años puede excluir de gravamen la ganancia por transmitir elementos patrimoniales si destina el importe total a constituir una renta vitalicia asegurada en el plazo de:",
+      "opciones": [
+        "Tres meses",
+        "Un año",
+        "Seis meses",
+        "Dos años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 38.3 exige que el importe obtenido «se destine en el plazo de seis meses a constituir una renta vitalicia asegurada a su favor».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-011",
+      "ley": "ley-35-2006",
+      "articulo": "39",
+      "enunciado": "Las ganancias patrimoniales no justificadas se integran en:",
+      "opciones": [
+        "La base liquidable del ahorro del período en que se adquirió el bien",
+        "La base liquidable general del período de adquisición del bien, aunque esté prescrito",
+        "La base liquidable del ahorro del período respecto del que se descubran",
+        "La base liquidable general del período impositivo respecto del que se descubran"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 39 dispone que «se integrarán en la base liquidable general del periodo impositivo respecto del que se descubran», salvo prueba de titularidad desde una fecha anterior al período de prescripción.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-012",
+      "ley": "ley-35-2006",
+      "articulo": "46.b",
+      "enunciado": "Forman parte de la renta del ahorro:",
+      "opciones": [
+        "Los rendimientos íntegros del trabajo por cuenta ajena",
+        "Las ganancias y pérdidas patrimoniales por transmisiones de elementos patrimoniales",
+        "Las imputaciones de renta de inmuebles urbanos del artículo 85",
+        "Los rendimientos íntegros de actividades económicas"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 46.b) incluye en la renta del ahorro «Las ganancias y pérdidas patrimoniales que se pongan de manifiesto con ocasión de transmisiones de elementos patrimoniales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-013",
+      "ley": "ley-35-2006",
+      "articulo": "45",
+      "enunciado": "Las imputaciones de renta de los artículos 85, 91, 92 y 95 de la LIRPF forman parte de:",
+      "opciones": [
+        "La renta general",
+        "La renta del ahorro",
+        "La renta del ahorro, salvo las del artículo 85",
+        "Ninguna de las dos clases de renta, pues tributan aparte"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 45 integra en la renta general «las imputaciones de renta a que se refieren los artículos 85, 91, 92 y 95 de esta Ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-014",
+      "ley": "ley-35-2006",
+      "articulo": "48",
+      "enunciado": "En la base imponible general, el saldo negativo de las ganancias y pérdidas patrimoniales se compensa con el saldo positivo de rendimientos e imputaciones de renta del mismo período con el límite de:",
+      "opciones": [
+        "El 10 por ciento de dicho saldo positivo",
+        "El 50 por ciento de dicho saldo positivo",
+        "El 25 por ciento de dicho saldo positivo",
+        "El 30 por ciento de dicho saldo positivo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 48 lo compensa con el saldo positivo de rendimientos e imputaciones «con el límite del 25 por ciento de dicho saldo positivo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-015",
+      "ley": "ley-35-2006",
+      "articulo": "50.3",
+      "enunciado": "Si la base liquidable general resulta negativa, su importe puede compensarse con las bases liquidables generales positivas que se obtengan en:",
+      "opciones": [
+        "El año siguiente",
+        "Los dos años siguientes",
+        "Los cinco años siguientes",
+        "Los cuatro años siguientes"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 50.3 permite compensarla «con los de las bases liquidables generales positivas que se obtengan en los cuatro años siguientes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-016",
+      "ley": "ley-35-2006",
+      "articulo": "50.2",
+      "enunciado": "La base liquidable del ahorro se obtiene disminuyendo la base imponible del ahorro en el remanente, si lo hubiera, de:",
+      "opciones": [
+        "La reducción por pensiones compensatorias y anualidades por alimentos",
+        "La reducción por aportaciones a planes de pensiones",
+        "La reducción por aportaciones a patrimonios protegidos de personas con discapacidad",
+        "La reducción por aportaciones a sistemas de previsión social de personas con discapacidad"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 50.2 la reduce en «el remanente, si lo hubiera, de la reducción prevista en el artículo 55», que se refiere a «Las pensiones compensatorias a favor del cónyuge y las anualidades por alimentos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-017",
+      "ley": "ley-35-2006",
+      "articulo": "52.2",
+      "enunciado": "Las aportaciones a sistemas de previsión social que no hayan podido reducirse por insuficiencia de base o por el límite porcentual pueden reducirse en:",
+      "opciones": [
+        "Los cuatro ejercicios siguientes",
+        "Los cinco ejercicios siguientes",
+        "Los tres ejercicios siguientes",
+        "El ejercicio siguiente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 52.2 permite a los partícipes «reducir en los cinco ejercicios siguientes las cantidades aportadas» que no hubieran podido ser objeto de reducción.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-018",
+      "ley": "ley-35-2006",
+      "articulo": "55",
+      "enunciado": "¿Cuál de los siguientes pagos puede ser objeto de reducción en la base imponible?",
+      "opciones": [
+        "Las anualidades por alimentos fijadas en favor de los hijos del contribuyente",
+        "Las pensiones compensatorias pactadas en convenio privado sin decisión judicial",
+        "Las pensiones compensatorias a favor del cónyuge satisfechas por decisión judicial",
+        "Las cantidades entregadas voluntariamente a familiares sin ingresos"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 55 «Las pensiones compensatorias a favor del cónyuge y las anualidades por alimentos, con excepción de las fijadas en favor de los hijos del contribuyente, satisfechas ambas por decisión judicial, podrán ser objeto de reducción en la base imponible».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-019",
+      "ley": "ley-35-2006",
+      "articulo": "56.3",
+      "enunciado": "El mínimo personal y familiar es el resultado de sumar el mínimo del contribuyente y los mínimos por:",
+      "opciones": [
+        "Cónyuge, descendientes y discapacidad",
+        "Descendientes, ascendientes y familia numerosa",
+        "Descendientes, ascendientes, discapacidad y vivienda habitual",
+        "Descendientes, ascendientes y discapacidad"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 56.3 señala que «El mínimo personal y familiar será el resultado de sumar el mínimo del contribuyente y los mínimos por descendientes, ascendientes y discapacidad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-020",
+      "ley": "ley-35-2006",
+      "articulo": "58.1",
+      "enunciado": "El mínimo por descendientes exige, entre otros requisitos, que el descendiente conviva con el contribuyente y no tenga rentas anuales, excluidas las exentas, superiores a:",
+      "opciones": [
+        "8.000 euros",
+        "1.800 euros",
+        "6.000 euros",
+        "12.000 euros"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 58.1 lo aplica por cada descendiente «siempre que conviva con el contribuyente y no tenga rentas anuales, excluidas las exentas, superiores a 8.000 euros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-021",
+      "ley": "ley-35-2006",
+      "articulo": "61.5",
+      "enunciado": "Para aplicar el mínimo por ascendientes, estos deben convivir con el contribuyente, al menos:",
+      "opciones": [
+        "Tres meses del período impositivo",
+        "La mitad del período impositivo",
+        "Todo el período impositivo",
+        "Un tercio del período impositivo"
+      ],
+      "correcta": 1,
+      "explicacion": "La regla 5.ª del artículo 61 exige «que éstos convivan con el contribuyente, al menos, la mitad del período impositivo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-022",
+      "ley": "ley-35-2006",
+      "articulo": "61.1",
+      "enunciado": "Si dos o más contribuyentes con el mismo grado de parentesco tienen derecho al mínimo por descendientes respecto de los mismos descendientes, su importe:",
+      "opciones": [
+        "Se aplica íntegramente al que tenga mayor renta",
+        "Se prorratea en proporción a sus bases liquidables",
+        "Se prorratea entre ellos por partes iguales",
+        "Se aplica íntegramente al contribuyente de mayor edad"
+      ],
+      "correcta": 2,
+      "explicacion": "La regla 1.ª del artículo 61 establece que «su importe se prorrateará entre ellos por partes iguales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-023",
+      "ley": "ley-35-2006",
+      "articulo": "60.3",
+      "enunciado": "Se considera acreditado un grado de discapacidad igual o superior al 65 por ciento cuando:",
+      "opciones": [
+        "El contribuyente sea pensionista con pensión de incapacidad permanente total",
+        "El contribuyente perciba una pensión de jubilación del Régimen General",
+        "La persona tenga reconocida una situación de dependencia moderada",
+        "La incapacidad de la persona sea declarada judicialmente, aunque no alcance dicho grado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 60.3 dice que se considerará acreditado ese grado «cuando se trate de personas cuya incapacidad sea declarada judicialmente, aunque no alcance dicho grado».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-024",
+      "ley": "ley-35-2006",
+      "articulo": "62",
+      "enunciado": "La cuota íntegra estatal es la suma de las cantidades resultantes de aplicar los tipos de gravamen:",
+      "opciones": [
+        "A las bases liquidables general y del ahorro, respectivamente",
+        "A las bases imponibles general y del ahorro, respectivamente",
+        "A la base imponible total, una vez aplicadas las deducciones",
+        "A la base liquidable general, con tipo fijo para el ahorro"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 62 define la cuota íntegra estatal como la suma de aplicar los tipos de gravamen «a las bases liquidables general y del ahorro, respectivamente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-025",
+      "ley": "ley-35-2006",
+      "articulo": "68.4",
+      "enunciado": "Los contribuyentes con residencia habitual y efectiva en Ceuta o Melilla se deducen, por las rentas obtenidas allí, el siguiente porcentaje de la parte de la suma de las cuotas íntegras estatal y autonómica:",
+      "opciones": [
+        "El 50 por ciento",
+        "El 60 por ciento",
+        "El 40 por ciento",
+        "El 75 por ciento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 68.4 dispone que «se deducirán el 60 por ciento de la parte de la suma de las cuotas íntegras estatal y autonómica que proporcionalmente corresponda a las rentas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-026",
+      "ley": "ley-35-2006",
+      "articulo": "69.1",
+      "enunciado": "La base de las deducciones por donativos y por actuaciones de protección del Patrimonio Histórico no puede exceder, para cada una de ellas, de:",
+      "opciones": [
+        "El 10 por ciento de la cuota íntegra",
+        "El 20 por ciento de la base liquidable del contribuyente",
+        "El 10 por ciento de la base liquidable del contribuyente",
+        "El 15 por ciento de la base imponible"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 69.1 establece que la base de esas deducciones «no podrá exceder para cada una de ellas del 10 por ciento de la base liquidable del contribuyente».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-027",
+      "ley": "ley-35-2006",
+      "articulo": "79",
+      "enunciado": "La cuota diferencial resulta de minorar la cuota líquida total en, entre otros importes:",
+      "opciones": [
+        "Las reducciones por aportaciones a planes de pensiones",
+        "El mínimo personal y familiar",
+        "Las pensiones compensatorias satisfechas por decisión judicial",
+        "Las retenciones, los ingresos a cuenta y los pagos fraccionados"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 79, la cuota líquida total se minora en «Las retenciones, los ingresos a cuenta y los pagos fraccionados previstos en esta Ley y en sus normas reglamentarias de desarrollo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-028",
+      "ley": "ley-35-2006",
+      "articulo": "80.1",
+      "enunciado": "La deducción por doble imposición internacional es la menor de dos cantidades: el impuesto efectivamente satisfecho en el extranjero y:",
+      "opciones": [
+        "El resultado de aplicar el tipo medio efectivo de gravamen a la parte de base liquidable gravada en el extranjero",
+        "El resultado de aplicar el tipo máximo de la escala a la renta obtenida en el extranjero",
+        "El 50 por ciento de la cuota líquida total",
+        "El 10 por ciento de la base liquidable"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 80.1.b) fija como límite «El resultado de aplicar el tipo medio efectivo de gravamen a la parte de base liquidable gravada en el extranjero».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-029",
+      "ley": "ley-35-2006",
+      "articulo": "81.1",
+      "enunciado": "La deducción por maternidad permite minorar la cuota diferencial hasta en 1.200 euros anuales por cada hijo menor de:",
+      "opciones": [
+        "Un año",
+        "Tres años",
+        "Cinco años",
+        "Seis años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 81.1 permite minorar la cuota diferencial «hasta en 1.200 euros anuales por cada hijo menor de tres años».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-030",
+      "ley": "ley-35-2006",
+      "articulo": "82.3",
+      "enunciado": "Los miembros de la unidad familiar a efectos de la tributación conjunta se determinan atendiendo a la situación existente a:",
+      "opciones": [
+        "1 de enero de cada año",
+        "30 de junio de cada año",
+        "31 de diciembre de cada año",
+        "La fecha de presentación de la declaración"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 82.3 señala que «La determinación de los miembros de la unidad familiar se realizará atendiendo a la situación existente a 31 de diciembre de cada año».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-031",
+      "ley": "ley-35-2006",
+      "articulo": "83.2",
+      "enunciado": "Si no se presenta declaración, los miembros de la unidad familiar tributan individualmente, salvo que manifiesten expresamente su opción por la conjunta en el plazo, a partir del requerimiento de la Administración, de:",
+      "opciones": [
+        "5 días",
+        "15 días",
+        "30 días",
+        "10 días"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 83.2 dice que «En caso de falta de declaración, los contribuyentes tributarán individualmente, salvo que manifiesten expresamente su opción en el plazo de 10 días a partir del requerimiento de la Administración tributaria».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-032",
+      "ley": "ley-35-2006",
+      "articulo": "84.2.4",
+      "enunciado": "En la modalidad de unidad familiar formada por el padre o la madre y los hijos, no se aplica la reducción de la base imponible cuando el contribuyente:",
+      "opciones": [
+        "Conviva con el padre o la madre de alguno de los hijos de su unidad familiar",
+        "Tenga algún hijo mayor de edad que conviva con él en el domicilio familiar",
+        "Tenga más de dos hijos menores de edad que dependan de él",
+        "No obtenga ningún rendimiento íntegro del trabajo en el período"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 84.2.4.º establece: «No se aplicará esta reducción cuando el contribuyente conviva con el padre o la madre de alguno de los hijos que forman parte de su unidad familiar».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-033",
+      "ley": "ley-35-2006",
+      "articulo": "96.4",
+      "enunciado": "Están obligados a declarar por el IRPF en todo caso los contribuyentes que:",
+      "opciones": [
+        "Obtengan solo rendimientos íntegros del trabajo dentro del límite legal de 22.000 euros",
+        "Tengan derecho a la deducción por doble imposición internacional",
+        "Obtengan solo ganancias patrimoniales sometidas a retención de hasta 1.600 euros",
+        "Obtengan solo rentas inmobiliarias imputadas de hasta 1.000 euros"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 96.4 dispone: «Estarán obligados a declarar en todo caso los contribuyentes que tengan derecho a deducción por doble imposición internacional».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-034",
+      "ley": "ley-35-2006",
+      "articulo": "98.2",
+      "enunciado": "No pueden suscribir ni confirmar el borrador de declaración, entre otros:",
+      "opciones": [
+        "Los contribuyentes que solo obtengan rendimientos del trabajo",
+        "Los contribuyentes que obtengan imputación de rentas inmobiliarias",
+        "Los contribuyentes que compensen partidas negativas de ejercicios anteriores",
+        "Los contribuyentes con ganancias patrimoniales sometidas a retención"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 98.2 impide suscribir o confirmar el borrador a «Los contribuyentes que compensen partidas negativas de ejercicios anteriores».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-035",
+      "ley": "ley-35-2006",
+      "articulo": "99.5",
+      "enunciado": "El perceptor de rentas sobre las que deba retenerse a cuenta del IRPF computará aquellas por:",
+      "opciones": [
+        "La contraprestación líquida efectivamente percibida",
+        "La contraprestación íntegra efectivamente cobrada",
+        "El valor normal de mercado de la renta",
+        "La contraprestación íntegra devengada"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 99.5 establece que «El perceptor de rentas sobre las que deba retenerse a cuenta de este impuesto computará aquéllas por la contraprestación íntegra devengada».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-036",
+      "ley": "ley-35-2006",
+      "articulo": "101.5.a",
+      "enunciado": "El porcentaje general de retención sobre los rendimientos de actividades profesionales establecidos en vía reglamentaria es del:",
+      "opciones": [
+        "15 por ciento",
+        "19 por ciento",
+        "7 por ciento",
+        "24 por ciento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 101.5.a) fija «El 15 por ciento, en el caso de los rendimientos de actividades profesionales establecidos en vía reglamentaria».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-037",
+      "ley": "ley-35-2006",
+      "articulo": "101.11.a",
+      "enunciado": "El porcentaje del pago fraccionado de los contribuyentes con actividades económicas en estimación directa, en cualquiera de sus modalidades, es del:",
+      "opciones": [
+        "15 por ciento",
+        "20 por ciento",
+        "4 por ciento",
+        "2 por ciento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 101.11.a) establece «El 20 por ciento, cuando se trate de actividades que determinen el rendimiento neto por el método de estimación directa, en cualquiera de sus modalidades».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-038",
+      "ley": "ley-35-2006",
+      "articulo": "103.1",
+      "enunciado": "Si las retenciones, ingresos a cuenta y pagos fraccionados superan la cuota autoliquidada, la Administración practicará, si procede, liquidación provisional dentro de:",
+      "opciones": [
+        "Los tres meses siguientes al término del plazo establecido para presentar la declaración",
+        "Los doce meses siguientes al término del plazo establecido para presentar la declaración",
+        "Los seis meses siguientes al término del plazo establecido para presentar la declaración",
+        "Los seis meses siguientes a la fecha de presentación, aunque se hubiera presentado en plazo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 103.1 prevé la liquidación provisional «dentro de los seis meses siguientes al término del plazo establecido para la presentación de la declaración».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-039",
+      "ley": "ley-35-2006",
+      "articulo": "85.1",
+      "enunciado": "¿Cuál de los siguientes inmuebles urbanos no genera imputación de renta inmobiliaria?",
+      "opciones": [
+        "Una segunda vivienda del contribuyente que permanece desocupada",
+        "Un local del contribuyente sin uso ni arrendamiento",
+        "Una plaza de garaje del contribuyente no arrendada ni afecta a actividad",
+        "La vivienda habitual del contribuyente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 85.1 aplica la imputación a los inmuebles urbanos «no afectos en ambos casos a actividades económicas, ni generadores de rendimientos del capital, excluida la vivienda habitual y el suelo no edificado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    },
+    {
+      "id": "ir2-040",
+      "ley": "ley-35-2006",
+      "articulo": "29.1",
+      "enunciado": "Se consideran elementos patrimoniales afectos a una actividad económica:",
+      "opciones": [
+        "Los bienes inmuebles en los que se desarrolla la actividad del contribuyente",
+        "Los bienes de esparcimiento y recreo del titular de la actividad",
+        "Los activos representativos de la participación en fondos propios de una entidad",
+        "Los bienes de uso particular del titular de la actividad"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 29.1.a) incluye «Los bienes inmuebles en los que se desarrolla la actividad del contribuyente»; en cambio, «No se consideran afectos los bienes de esparcimiento y recreo o, en general, de uso particular del titular de la actividad económica».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 28
+      }
+    }
+  ]
+}

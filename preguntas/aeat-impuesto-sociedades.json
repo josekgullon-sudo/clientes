@@ -16,7 +16,7 @@
       "explicacion": "El artículo 1 define el impuesto como «un tributo de carácter directo y naturaleza personal que grava la renta de las sociedades y demás entidades jurídicas».",
       "dificultad": 1,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -36,7 +36,7 @@
       "explicacion": "El artículo 4.1 dispone que «constituirá el hecho imponible la obtención de renta por el contribuyente, cualquiera que fuese su fuente u origen».",
       "dificultad": 1,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -56,7 +56,7 @@
       "explicacion": "El artículo 5.1 establece que existe actividad económica «únicamente cuando para su ordenación se utilice, al menos, una persona empleada con contrato laboral y jornada completa».",
       "dificultad": 2,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -76,7 +76,7 @@
       "explicacion": "Según el artículo 5.2, es entidad patrimonial «aquella en la que más de la mitad de su activo esté constituido por valores o no esté afecto, en los términos del apartado anterior, a una actividad económica».",
       "dificultad": 2,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -96,7 +96,7 @@
       "explicacion": "El artículo 7.1.a) incluye a «las personas jurídicas, excluidas las sociedades civiles que no tengan objeto mercantil», mientras que las letras b), d) y f) incluyen a las sociedades agrarias de transformación, las uniones temporales de empresas y los fondos de pensiones.",
       "dificultad": 2,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -116,7 +116,7 @@
       "explicacion": "El artículo 8.1 considera residentes las entidades en las que concurra, entre otros requisitos, «que se hubieran constituido conforme a las leyes españolas».",
       "dificultad": 1,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -136,7 +136,7 @@
       "explicacion": "El artículo 8.1 explica que se cumple este requisito «cuando en él radique la dirección y control del conjunto de sus actividades».",
       "dificultad": 2,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -156,7 +156,7 @@
       "explicacion": "El artículo 9.1.c) declara totalmente exentos al «Banco de España, el Fondo de Garantía de Depósitos de Entidades de Crédito y los Fondos de garantía de inversiones», mientras que el 9.3 solo declara «parcialmente exentos» a las demás entidades citadas.",
       "dificultad": 2,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -176,7 +176,7 @@
       "explicacion": "El artículo 10.3 dispone que «la base imponible se calculará, corrigiendo, mediante la aplicación de los preceptos establecidos en esta Ley, el resultado contable».",
       "dificultad": 1,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -196,7 +196,7 @@
       "explicacion": "El artículo 11.4 considera operaciones a plazos las que cumplan que «el período transcurrido entre el devengo y el vencimiento del último o único plazo sea superior al año».",
       "dificultad": 2,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -216,7 +216,7 @@
       "explicacion": "El artículo 12.1.b) señala que «el porcentaje constante no podrá ser inferior al 11 por ciento».",
       "dificultad": 2,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -230,13 +230,13 @@
         "Igual o superior a 8 años",
         "Inferior a 5 años",
         "Igual o superior a 5 años e inferior a 8 años",
-        "Igual o superior a 10 años y no superior a 20"
+        "Inferior a 8 años"
       ],
       "correcta": 0,
       "explicacion": "El artículo 12.1.b) fija el coeficiente «2,5, si el elemento tiene un período de amortización igual o superior a 8 años».",
       "dificultad": 2,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -256,7 +256,7 @@
       "explicacion": "El artículo 12.1.c) establece que «los edificios, mobiliario y enseres no podrán acogerse a la amortización mediante números dígitos».",
       "dificultad": 2,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -276,7 +276,7 @@
       "explicacion": "El artículo 12.3.e) permite amortizar libremente «los elementos del inmovilizado material nuevos, cuyo valor unitario no exceda de 300 euros, hasta el límite de 25.000 euros referido al período impositivo».",
       "dificultad": 3,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -296,7 +296,7 @@
       "explicacion": "El artículo 13.1.a) exige «que haya transcurrido el plazo de 6 meses desde el vencimiento de la obligación».",
       "dificultad": 1,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -316,7 +316,7 @@
       "explicacion": "Es deducible el deterioro cuando «el deudor esté declarado en situación de concurso» (art. 13.1.b), y no lo son «las correspondientes a estimaciones globales del riesgo de insolvencias de clientes y deudores».",
       "dificultad": 2,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -336,7 +336,7 @@
       "explicacion": "El artículo 15.c) excluye «las multas y sanciones penales y administrativas, los recargos del período ejecutivo y el recargo por declaración extemporánea sin requerimiento previo».",
       "dificultad": 1,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -356,7 +356,7 @@
       "explicacion": "El artículo 15.e) dispone que «los gastos por atenciones a clientes o proveedores serán deducibles con el límite del 1 por ciento del importe neto de la cifra de negocios del período impositivo».",
       "dificultad": 2,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -376,7 +376,7 @@
       "explicacion": "El artículo 15.i) no admite los gastos que «excedan, para cada perceptor, del mayor de los siguientes importes: 1.º 1 millón de euros»; el 2.º es el importe obligatorio según el Estatuto de los Trabajadores.",
       "dificultad": 3,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -396,7 +396,7 @@
       "explicacion": "El artículo 16.1 establece que «los gastos financieros netos serán deducibles con el límite del 30 por ciento del beneficio operativo del ejercicio».",
       "dificultad": 2,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -416,7 +416,7 @@
       "explicacion": "Según el artículo 16.2, la diferencia se adicionará al límite «en los períodos impositivos que concluyan en los cinco años inmediatos y sucesivos, hasta que se deduzca dicha diferencia».",
       "dificultad": 3,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -436,7 +436,7 @@
       "explicacion": "El artículo 18.1 dispone que «las operaciones efectuadas entre personas o entidades vinculadas se valorarán por su valor de mercado».",
       "dificultad": 1,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -456,7 +456,7 @@
       "explicacion": "El artículo 18.3 establece que la documentación «tendrá un contenido simplificado» para vinculadas cuyo importe neto de la cifra de negocios «sea inferior a 45 millones de euros».",
       "dificultad": 3,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -476,7 +476,7 @@
       "explicacion": "El artículo 25.1.a) exige «que el importe del incremento de los fondos propios de la entidad se mantenga durante un plazo de 3 años desde el cierre del período impositivo al que corresponda esta reducción».",
       "dificultad": 1,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -496,7 +496,7 @@
       "explicacion": "El artículo 25.1 fija el límite en «el 25 por ciento de la base imponible positiva del período impositivo previa a esta reducción» para los contribuyentes con importe neto de la cifra de negocios «inferior a 1 millón de euros».",
       "dificultad": 3,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -516,7 +516,7 @@
       "explicacion": "El artículo 26.1 permite compensar las bases imponibles negativas «con el límite del 70 por ciento de la base imponible previa a la aplicación de la reserva de capitalización».",
       "dificultad": 2,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -536,7 +536,7 @@
       "explicacion": "El artículo 26.3 dispone que el límite no resultará de aplicación a las entidades de nueva creación «en los 3 primeros períodos impositivos en que se genere una base imponible positiva previa a su compensación».",
       "dificultad": 3,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -556,7 +556,7 @@
       "explicacion": "El artículo 27.3 establece que «el período impositivo no excederá de 12 meses».",
       "dificultad": 1,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -576,7 +576,7 @@
       "explicacion": "El artículo 28 dispone que «el impuesto se devengará el último día del período impositivo».",
       "dificultad": 1,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -596,7 +596,7 @@
       "explicacion": "El artículo 29.1 establece que «el tipo general de gravamen para los contribuyentes de este Impuesto será el 25 por ciento».",
       "dificultad": 1,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -616,7 +616,7 @@
       "explicacion": "Según el artículo 29.1, estas entidades «tributarán, en el primer período impositivo en que la base imponible resulte positiva y en el siguiente, al tipo del 15 por ciento».",
       "dificultad": 2,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -636,7 +636,7 @@
       "explicacion": "El artículo 29.6 dispone que «tributarán al tipo del 30 por ciento las entidades de crédito».",
       "dificultad": 1,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -656,7 +656,7 @@
       "explicacion": "El artículo 29.2 señala que tributarán «a los tipos de gravamen resultantes de minorar en tres puntos porcentuales los tipos de gravamen previstos en el apartado anterior, siempre que el tipo resultante no supere el 20 por ciento».",
       "dificultad": 3,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -676,7 +676,7 @@
       "explicacion": "El artículo 33.1 establece «una bonificación del 60 por ciento, la parte de cuota íntegra que corresponda a las rentas obtenidas en Ceuta o Melilla».",
       "dificultad": 2,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -696,7 +696,7 @@
       "explicacion": "El artículo 39.1 dispone que «las cantidades correspondientes al período impositivo no deducidas podrán aplicarse en las liquidaciones de los periodos impositivos que concluyan en los 15 años inmediatos y sucesivos».",
       "dificultad": 3,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -716,7 +716,7 @@
       "explicacion": "El artículo 40.1 ordena que «en los primeros 20 días naturales de los meses de abril, octubre y diciembre, los contribuyentes deberán efectuar un pago fraccionado».",
       "dificultad": 1,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -736,7 +736,7 @@
       "explicacion": "El artículo 101.1 dispone que los incentivos se aplicarán «siempre que el importe neto de la cifra de negocios habida en el período impositivo inmediato anterior sea inferior a 10 millones de euros».",
       "dificultad": 1,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -756,7 +756,7 @@
       "explicacion": "El artículo 105.1 permite «minorar su base imponible positiva hasta el 10 por ciento de su importe» y añade que «la minoración no podrá superar el importe de 1 millón de euros».",
       "dificultad": 3,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -776,7 +776,7 @@
       "explicacion": "El artículo 124.1 señala que «la declaración se presentará en el plazo de los 25 días naturales siguientes a los 6 meses posteriores a la conclusión del período impositivo»; si este termina el 31 de diciembre, los 6 meses acaban el 30 de junio.",
       "dificultad": 2,
       "fecha_version_boe": "2026-09-03",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
@@ -796,7 +796,7 @@
       "explicacion": "El artículo 1.3 del Reglamento establece que «la solicitud se presentará con, al menos, 6 meses de antelación a la conclusión del primer período impositivo respecto del que se pretenda que tenga efectos».",
       "dificultad": 2,
       "fecha_version_boe": "2026-05-29",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 29
       }
