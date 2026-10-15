@@ -16,7 +16,7 @@
       "explicacion": "El artículo 4 dispone: «Existirán tres clases de archivos:» Archivos Judiciales de Gestión, Territoriales y Central.",
       "dificultad": 1,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -36,7 +36,7 @@
       "explicacion": "Según el artículo 5.2: «Transcurridos cinco años desde la incoación de los procedimientos o expedientes gubernativos, aquellos asuntos que no estuvieren pendientes de actuación procesal alguna, tanto en fase declarativa como de ejecución, podrán ser remitidos» al Archivo Judicial Territorial.",
       "dificultad": 1,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -56,7 +56,7 @@
       "explicacion": "El artículo 5.2 señala que los procedimientos con sentencia firme «podrán ser remitidos para su conservación y custodia al Archivo Judicial Territorial transcurrido un año desde la firmeza de la resolución».",
       "dificultad": 1,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -76,7 +76,7 @@
       "explicacion": "El artículo 5.3 establece: «La decisión de remitir los documentos anteriores corresponderá al responsable del Archivo Judicial de Gestión donde se hallasen los documentos judiciales».",
       "dificultad": 2,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -96,7 +96,7 @@
       "explicacion": "El artículo 5.1 prevé que «podrá encomendarse a un Servicio Común que atienda los Archivos Judiciales de Gestión de diferentes salas o secciones de uno o más tribunales, o de varios juzgados».",
       "dificultad": 2,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -116,7 +116,7 @@
       "explicacion": "El artículo 8.1 indica que el Archivo Judicial Territorial depende «del Presidente del Tribunal Superior de Justicia, quien podrá delegar la competencia en el Presidente de la Audiencia Provincial o Juez Decano del partido judicial donde radique».",
       "dificultad": 2,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -136,27 +136,7 @@
       "explicacion": "El artículo 10.1 establece: «Existirá un Archivo Judicial Central adscrito a la Sala de Gobierno del Tribunal Supremo».",
       "dificultad": 1,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
-      "temas": {
-        "tramitacion-procesal": 31
-      }
-    },
-    {
-      "id": "tps-008",
-      "ley": "rd-937-2003",
-      "articulo": "9.3",
-      "enunciado": "Fuera de las capitales con 10 o más juzgados, ¿quién es responsable del Archivo Judicial Territorial si no se ha delegado la competencia?",
-      "opciones": [
-        "El Secretario de Gobierno del Tribunal Superior de Justicia",
-        "El Juez Decano del partido judicial",
-        "El Presidente de la Audiencia Provincial",
-        "El Gerente Territorial del Ministerio de Justicia"
-      ],
-      "correcta": 0,
-      "explicacion": "El artículo 9.3 dispone que en los restantes supuestos «el responsable del Archivo Judicial Territorial será el Secretario de Gobierno del Tribunal Superior de Justicia o el secretario judicial del órgano en cuyo titular el Presidente del Tribunal Superior de Justicia hubiera delegado la competencia».",
-      "dificultad": 3,
-      "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -176,7 +156,7 @@
       "explicacion": "El artículo 9.2 se refiere a «aquellas capitales de provincia que cuenten conjuntamente con 10 o más juzgados de primera instancia y de instrucción» cuando las necesidades del servicio lo aconsejen.",
       "dificultad": 3,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -196,7 +176,7 @@
       "explicacion": "El artículo 13.1 señala que la remisión «se formalizará periódicamente, como mínimo con carácter anual, en función del volumen de gestión de cada archivo».",
       "dificultad": 1,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -216,7 +196,7 @@
       "explicacion": "El artículo 13.3 exige que la relación haga referencia como mínimo a «el orden jurisdiccional en que se hubiesen sustanciado, la naturaleza del proceso o actuación procesal, su número y año, las partes intervinientes».",
       "dificultad": 2,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -236,7 +216,7 @@
       "explicacion": "El artículo 14.2 dispone: «Se constituirá una Junta de Expurgo en cada comunidad autónoma que ejercerá sus competencias en todo el ámbito territorial de cada una de éstas».",
       "dificultad": 1,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -256,7 +236,7 @@
       "explicacion": "El artículo 14.3 señala que las Juntas «estarán presididas por un magistrado designado por el Presidente del Tribunal Superior de Justicia, con voto dirimente de los empates».",
       "dificultad": 2,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -276,7 +256,7 @@
       "explicacion": "El artículo 14.3.a) incluye entre los vocales a «Un Fiscal, designado por el Fiscal Jefe del Tribunal Superior de Justicia».",
       "dificultad": 3,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -296,7 +276,7 @@
       "explicacion": "El artículo 14.1 define a las Juntas como órganos que tienen por finalidad «determinar, por cuenta del órgano responsable del respectivo Archivo Judicial de Gestión, la exclusión o eliminación de los expedientes procesales o gubernativos del Patrimonio Documental».",
       "dificultad": 2,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -316,7 +296,7 @@
       "explicacion": "El artículo 15.2 prevé que el órgano judicial de procedencia «confirme en el plazo de un mes el transcurso de los anteriores plazos, con arreglo a la legislación aplicable».",
       "dificultad": 1,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -336,7 +316,7 @@
       "explicacion": "El artículo 16.1 prevé la publicación de las relaciones «al objeto de que, en el plazo de dos meses, puedan los interesados recuperar aquellos documentos en su día aportados al proceso».",
       "dificultad": 1,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -356,7 +336,7 @@
       "explicacion": "El artículo 16.1 establece: «En la publicación del anuncio se omitirá la reseña del objeto del proceso y la identificación de las partes».",
       "dificultad": 3,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -368,15 +348,15 @@
       "enunciado": "Entre la convocatoria de la Junta de Expurgo y su sesión, ¿quién elabora el informe vinculante sobre los documentos que deben preservarse por su valor histórico?",
       "opciones": [
         "El presidente de la Junta de Expurgo",
-        "El Archivo Judicial Territorial",
-        "El Consejo General del Poder Judicial",
-        "La Administración competente en materia de patrimonio histórico"
+        "El responsable del Archivo Judicial Territorial",
+        "El Consejo General del Poder Judicial, a través de su Comisión",
+        "La Administración competente en patrimonio histórico"
       ],
       "correcta": 3,
       "explicacion": "El artículo 17.3 dispone que «la Administración competente en materia de patrimonio histórico elaborará un informe de carácter vinculante que comprenderá aquellos expedientes o documentos judiciales que por su valor histórico-documental deberán ser preservados».",
       "dificultad": 2,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -396,7 +376,7 @@
       "explicacion": "El artículo 3.3 permite la conversión «siempre que se garantice la integridad, autenticidad y conservación del documento, con el fin de obtener una fácil y rápida identificación y la búsqueda de la documentación».",
       "dificultad": 2,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -416,7 +396,7 @@
       "explicacion": "El artículo 458.2 indica: «Se exceptúan de lo anterior aquéllos formados para la instrucción de causas penales seguidas por delito, así como los supuestos que reglamentariamente pudiesen ser contemplados».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
@@ -436,7 +416,7 @@
       "explicacion": "El artículo 458.3 establece: «Corresponde al Ministerio de Justicia la determinación de los libros de registro que han de existir en los juzgados y tribunales».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 31
       }
