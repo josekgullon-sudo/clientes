@@ -1,0 +1,705 @@
+{
+  "descripcion": "Revisión en vía administrativa (LGT arts. 213-248 y RD 520/2005). Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "rev-001",
+      "ley": "ley-58-2003",
+      "articulo": "213.2",
+      "enunciado": "Las resoluciones firmes de los órganos económico-administrativos solo pueden revisarse en vía administrativa mediante:",
+      "opciones": [
+        "Revocación, rectificación de errores y recurso de reposición",
+        "Nulidad de pleno derecho, rectificación de errores y recurso extraordinario de revisión",
+        "Declaración de lesividad, revocación y devolución de ingresos indebidos",
+        "Nulidad de pleno derecho, recurso de reposición y recurso de alzada ordinario"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 213.2 las excluye de revisión «salvo en los supuestos de nulidad de pleno derecho previstos en el artículo 217, rectificación de errores del artículo 220 y recurso extraordinario de revisión regulado en el artículo 244 de esta ley».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-002",
+      "ley": "ley-58-2003",
+      "articulo": "216",
+      "enunciado": "Es un procedimiento especial de revisión en materia tributaria:",
+      "opciones": [
+        "La declaración de lesividad de actos anulables",
+        "El recurso potestativo de reposición",
+        "La reclamación económico-administrativa en única instancia",
+        "El recurso de alzada ordinario ante el órgano superior"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 216 establece: «Son procedimientos especiales de revisión los de» […] «Declaración de lesividad de actos anulables».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-003",
+      "ley": "ley-58-2003",
+      "articulo": "217.6",
+      "enunciado": "El plazo máximo para notificar resolución expresa en el procedimiento de revisión de actos nulos de pleno derecho es de:",
+      "opciones": [
+        "Seis meses",
+        "Tres meses",
+        "Dos años",
+        "Un año"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 217.6: «El plazo máximo para notificar resolución expresa será de un año desde que se presente la solicitud por el interesado o desde que se le notifique el acuerdo de iniciación de oficio del procedimiento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-004",
+      "ley": "ley-58-2003",
+      "articulo": "217.6.b",
+      "enunciado": "Un contribuyente solicita la declaración de nulidad de pleno derecho de un acto. Vencido el plazo máximo sin resolución expresa, se produce:",
+      "opciones": [
+        "La caducidad del procedimiento y el archivo de las actuaciones",
+        "La estimación por silencio administrativo de la solicitud",
+        "La desestimación por silencio administrativo de la solicitud",
+        "La inadmisión a trámite de la solicitud sin más trámite"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 217.6.b) prevé «La desestimación por silencio administrativo de la solicitud, si el procedimiento se hubiera iniciado a instancia del interesado»; la caducidad solo opera si se inició de oficio.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-005",
+      "ley": "ley-58-2003",
+      "articulo": "217.4",
+      "enunciado": "La declaración de nulidad de pleno derecho de un acto tributario requiere:",
+      "opciones": [
+        "Informe favorable previo del Tribunal Económico-Administrativo Central",
+        "Dictamen favorable previo del Consejo de Estado u órgano equivalente de la comunidad autónoma",
+        "Informe previo del órgano con funciones de asesoramiento jurídico",
+        "Resolución previa del Tribunal Económico-Administrativo competente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 217.4 dispone: «La declaración de nulidad requerirá dictamen favorable previo del Consejo de Estado u órgano equivalente de la respectiva comunidad autónoma, si lo hubiere».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-006",
+      "ley": "ley-58-2003",
+      "articulo": "218.2",
+      "enunciado": "La declaración de lesividad de un acto favorable a los interesados no podrá adoptarse una vez transcurridos desde que se notificó el acto:",
+      "opciones": [
+        "Cuatro años",
+        "Dos años",
+        "Un año",
+        "Seis años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 218.2 señala: «La declaración de lesividad no podrá adoptarse una vez transcurridos cuatro años desde que se notificó el acto administrativo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-007",
+      "ley": "ley-58-2003",
+      "articulo": "218.3",
+      "enunciado": "El procedimiento de declaración de lesividad caduca si, desde su iniciación, transcurren sin declararse la lesividad:",
+      "opciones": [
+        "Un mes",
+        "Seis meses",
+        "Un año",
+        "Tres meses"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 218.3 establece: «Transcurrido el plazo de tres meses desde la iniciación del procedimiento sin que se hubiera declarado la lesividad se producirá la caducidad del mismo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-008",
+      "ley": "ley-58-2003",
+      "articulo": "219.3",
+      "enunciado": "El procedimiento de revocación de los actos de aplicación de los tributos se inicia:",
+      "opciones": [
+        "Siempre a instancia del interesado",
+        "De oficio o a instancia del interesado",
+        "Siempre de oficio",
+        "Por acuerdo del Tribunal Económico-Administrativo competente"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 219.3 señala que «El procedimiento de revocación se iniciará siempre de oficio, y será competente para declararla el órgano que se determine reglamentariamente, que deberá ser distinto del órgano que dictó el acto».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-009",
+      "ley": "ley-58-2003",
+      "articulo": "220.2",
+      "enunciado": "El plazo máximo para notificar resolución expresa en el procedimiento de rectificación de errores es de:",
+      "opciones": [
+        "Tres meses",
+        "Seis meses",
+        "Un año",
+        "Cuatro meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 220.2 dice: «El plazo máximo para notificar resolución expresa será de seis meses desde que se presente la solicitud por el interesado o desde que se le notifique el acuerdo de iniciación de oficio del procedimiento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-010",
+      "ley": "ley-58-2003",
+      "articulo": "221.3",
+      "enunciado": "Si el acto que originó un ingreso indebido ya es firme, la devolución solo puede solicitarse instando la revisión mediante:",
+      "opciones": [
+        "Nulidad de pleno derecho, revocación, rectificación de errores o recurso extraordinario de revisión",
+        "Recurso de reposición o reclamación económico-administrativa contra el acto",
+        "Declaración de lesividad, revocación o recurso de alzada ordinario",
+        "Recurso de anulación, recurso de alzada ordinario o reclamación ante el tribunal"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 221.3 dispone que «únicamente se podrá solicitar la devolución del mismo instando o promoviendo la revisión del acto mediante alguno de los procedimientos especiales de revisión establecidos en los párrafos a), c) y d) del artículo 216 y mediante el recurso extraordinario de revisión regulado en el artículo 244 de esta ley».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-011",
+      "ley": "ley-58-2003",
+      "articulo": "222",
+      "enunciado": "El recurso de reposición contra actos tributarios susceptibles de reclamación económico-administrativa es:",
+      "opciones": [
+        "Obligatorio y previo a la reclamación económico-administrativa",
+        "Potestativo, y puede interponerse tras resolverse la reclamación",
+        "Obligatorio solo para las deudas de vencimiento periódico",
+        "Potestativo, y si se interpone debe hacerse antes de la reclamación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 222 prevé el «recurso potestativo de reposición», que «deberá interponerse, en su caso, con carácter previo a la reclamación económico-administrativa».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-012",
+      "ley": "ley-58-2003",
+      "articulo": "222.2",
+      "enunciado": "Se interpone recurso de reposición y, dentro del mismo plazo, reclamación económico-administrativa contra el mismo acto. La reposición se presentó primero. Se:",
+      "opciones": [
+        "Tramita la reclamación y se archiva el recurso de reposición",
+        "Tramitan ambas de forma acumulada ante el mismo órgano",
+        "Tramita la reposición y se declara inadmisible la reclamación",
+        "Tramita la reclamación y la reposición queda en suspenso"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 222.2, en ese caso «se tramitará el presentado en primer lugar y se declarará inadmisible el segundo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-013",
+      "ley": "ley-58-2003",
+      "articulo": "223.1",
+      "enunciado": "En deudas de vencimiento periódico y notificación colectiva, el plazo para interponer recurso de reposición se computa desde el día siguiente al de:",
+      "opciones": [
+        "Publicación del anuncio de cobranza",
+        "Finalización del período voluntario de pago",
+        "Inicio del período voluntario de pago",
+        "Notificación individual de la liquidación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 223.1 establece que, en esas deudas, «el plazo para la interposición se computará a partir del día siguiente al de finalización del período voluntario de pago».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-014",
+      "ley": "rd-520-2005",
+      "articulo": "24",
+      "enunciado": "Quien necesite examinar el expediente para formular alegaciones en un recurso de reposición debe comparecer:",
+      "opciones": [
+        "Antes de que finalice el plazo de interposición del recurso",
+        "En los diez días siguientes a la presentación del recurso",
+        "En el trámite de audiencia posterior a la interposición",
+        "En cualquier momento anterior a la resolución"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 24 del Reglamento exige comparecer «antes de que finalice el plazo de interposición del recurso» y añade: «Una vez presentado el recurso no se podrá ejercer el derecho a examinar el expediente a efectos de formular alegaciones».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-015",
+      "ley": "ley-58-2003",
+      "articulo": "224.2.b",
+      "enunciado": "Para obtener la suspensión automática en reposición, es una garantía admitida:",
+      "opciones": [
+        "La hipoteca sobre un bien inmueble del recurrente",
+        "La prenda sin desplazamiento sobre bienes muebles",
+        "El embargo preventivo de bienes del recurrente",
+        "El aval solidario de una sociedad de garantía recíproca"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 224.2 admite «exclusivamente» el depósito de dinero o valores públicos, el «Aval o fianza de carácter solidario de entidad de crédito o sociedad de garantía recíproca o certificado de seguro de caución» y la fianza personal y solidaria de otros contribuyentes.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-016",
+      "ley": "ley-58-2003",
+      "articulo": "224.1",
+      "enunciado": "Si el recurso de reposición afecta a una sanción tributaria, su ejecución:",
+      "opciones": [
+        "Se suspende solo si se garantiza el importe y los intereses",
+        "No se suspende hasta que el recurso se resuelva",
+        "Queda suspendida automáticamente sin necesidad de aportar garantías",
+        "Se suspende solo con aval de entidad de crédito"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 224.1 indica: «Si la impugnación afectase a una sanción tributaria, su ejecución quedará suspendida automáticamente sin necesidad de aportar garantías».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-017",
+      "ley": "ley-58-2003",
+      "articulo": "225.1",
+      "enunciado": "Un acto tributario fue dictado por delegación. Salvo que en la delegación se diga otra cosa, el recurso de reposición lo resuelve:",
+      "opciones": [
+        "El órgano delegante",
+        "El órgano delegado",
+        "El superior jerárquico del delegante",
+        "El Tribunal Económico-Administrativo competente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 225.1 señala: «Tratándose de actos dictados por delegación y salvo que en ésta se diga otra cosa, el recurso de reposición se resolverá por el órgano delegado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-018",
+      "ley": "ley-58-2003",
+      "articulo": "225.4",
+      "enunciado": "El plazo máximo para notificar la resolución del recurso de reposición es de:",
+      "opciones": [
+        "Un mes desde el día siguiente al de presentación del recurso",
+        "Tres meses desde el día siguiente al de presentación",
+        "Seis meses desde la interposición del recurso",
+        "Dos meses desde el día siguiente a la notificación del acto"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 225.4 fija: «El plazo máximo para notificar la resolución será de un mes contado desde el día siguiente al de presentación del recurso».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-019",
+      "ley": "ley-58-2003",
+      "articulo": "227.5.a",
+      "enunciado": "No se admite reclamación económico-administrativa contra los actos:",
+      "opciones": [
+        "Dictados en el procedimiento de recaudación tributaria",
+        "Que impongan sanciones tributarias a los obligados",
+        "Que denieguen exenciones, beneficios o incentivos fiscales",
+        "Que den lugar a reclamación previa a la vía judicial civil o laboral"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 227.5.a) excluye «Los que den lugar a reclamación en vía administrativa previa a la judicial, civil o laboral o pongan fin a dicha vía»; en cambio, el 227.2 y 227.3 declaran reclamables los actos de recaudación, los de exenciones y las sanciones.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-020",
+      "ley": "ley-58-2003",
+      "articulo": "227.4.c",
+      "enunciado": "Entre las actuaciones de los particulares reclamables en vía económico-administrativa se encuentra:",
+      "opciones": [
+        "El incumplimiento de la obligación de presentar autoliquidaciones",
+        "El incumplimiento de la obligación de llevar libros registro",
+        "El incumplimiento de la obligación de expedir, entregar y rectificar facturas",
+        "El incumplimiento de la obligación de comunicar el cambio de domicilio fiscal"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 227.4 declara reclamables, entre otras, las «relativas a la obligación de expedir, entregar y rectificar facturas que incumbe a los empresarios y profesionales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-021",
+      "ley": "ley-58-2003",
+      "articulo": "229.5",
+      "enunciado": "Un empresario con domicilio fiscal fuera de España reclama por una repercusión de IVA. La competencia, cualquiera que sea la cuantía, corresponde:",
+      "opciones": [
+        "Al Tribunal Económico-Administrativo Regional de Madrid",
+        "Al Tribunal Económico-Administrativo Central",
+        "Al tribunal del domicilio fiscal del repercutido",
+        "A la Sala Especial para la Unificación de Doctrina"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 229.5 establece que, si el domicilio fiscal «se hallara fuera de España, la competencia corresponderá al Tribunal Económico-Administrativo Central, cualquiera que sea su cuantía».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-022",
+      "ley": "ley-58-2003",
+      "articulo": "233.14",
+      "enunciado": "La ejecución del acto o resolución impugnado mediante un recurso extraordinario de revisión:",
+      "opciones": [
+        "No podrá suspenderse en ningún caso",
+        "Se suspende automáticamente si se aporta garantía",
+        "Puede suspenderse con dispensa de garantías por perjuicios irreparables",
+        "Puede suspenderse si se aprecia error material"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 233.14 es tajante: «La ejecución del acto o resolución impugnado mediante un recurso extraordinario de revisión no podrá suspenderse en ningún caso».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-023",
+      "ley": "ley-58-2003",
+      "articulo": "233.9",
+      "enunciado": "La deuda está en periodo ejecutivo y se solicita suspensión con dispensa de garantías por perjuicios de difícil reparación. Mientras se decide, las actuaciones de la Administración:",
+      "opciones": [
+        "Quedan suspendidas cautelarmente desde la fecha de la solicitud",
+        "Quedan suspendidas únicamente si el interesado aporta un aval",
+        "Se paralizan hasta que el tribunal admita a trámite la solicitud",
+        "Pueden continuar, y se anulan las posteriores a la solicitud si se concede la suspensión"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 233.9 dice que la solicitud «no impedirá la continuación de las actuaciones de la Administración, sin perjuicio de que proceda la anulación de las efectuadas con posterioridad a la fecha de la solicitud si la suspensión fuese concedida finalmente».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-024",
+      "ley": "ley-58-2003",
+      "articulo": "234.5",
+      "enunciado": "El procedimiento económico-administrativo es gratuito, salvo que la reclamación se desestime o inadmita y el órgano aprecie:",
+      "opciones": [
+        "Falta de fundamento jurídico",
+        "Presentación fuera de plazo",
+        "Temeridad o mala fe",
+        "Ausencia de alegaciones"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 234.5 prevé: «si la reclamación o el recurso resulta desestimado o inadmitido y el órgano económico-administrativo aprecia temeridad o mala fe, podrá exigirse a la persona a la que resulte imputable dicha temeridad o mala fe que sufrague las costas del procedimiento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-025",
+      "ley": "ley-58-2003",
+      "articulo": "237.3",
+      "enunciado": "Antes de plantear una cuestión prejudicial ante el Tribunal de Justicia de la Unión Europea, el tribunal económico-administrativo concede a la Administración autora del acto un plazo de alegaciones de:",
+      "opciones": [
+        "Diez días",
+        "Quince días",
+        "Un mes",
+        "Cinco días"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 237.3 señala que «el Tribunal antes de plantear la cuestión prejudicial concederá un plazo de quince días a la Administración Tributaria autora del acto para que formule alegaciones».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-026",
+      "ley": "ley-58-2003",
+      "articulo": "239.4.c",
+      "enunciado": "Se declarará la inadmisibilidad de la reclamación económico-administrativa cuando:",
+      "opciones": [
+        "Falte la identificación del acto o actuación contra el que se reclama",
+        "El reclamante no solicite la puesta de manifiesto del expediente",
+        "El escrito de interposición no incluya alegaciones",
+        "El acto impugnado sea una liquidación provisional"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 239.4.c) contempla la inadmisibilidad «Cuando falte la identificación del acto o actuación contra el que se reclama»; el escrito de interposición, según el 235.2, «podrá limitarse a solicitar que se tenga por interpuesta».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-027",
+      "ley": "ley-58-2003",
+      "articulo": "240.1",
+      "enunciado": "La duración del procedimiento económico-administrativo en cualquiera de sus instancias es de:",
+      "opciones": [
+        "Seis meses desde la interposición de la reclamación",
+        "Dos años desde la interposición de la reclamación",
+        "Un año desde la puesta de manifiesto del expediente",
+        "Un año desde la interposición de la reclamación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 240.1 establece: «La duración del procedimiento en cualquiera de sus instancias será de un año contado desde la interposición de la reclamación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-028",
+      "ley": "ley-58-2003",
+      "articulo": "241 bis.1",
+      "enunciado": "El plazo para interponer el recurso de anulación contra las resoluciones de las reclamaciones económico-administrativas es de:",
+      "opciones": [
+        "Un mes",
+        "10 días",
+        "15 días",
+        "Tres meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 241 bis.1 señala que se podrá interponer recurso de anulación «en el plazo de 15 días ante el tribunal que hubiera dictado la resolución que se impugna».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-029",
+      "ley": "ley-58-2003",
+      "articulo": "244.4",
+      "enunciado": "Es competente para resolver el recurso extraordinario de revisión:",
+      "opciones": [
+        "El tribunal que dictó la resolución firme",
+        "El Tribunal Económico-Administrativo Central",
+        "La Sala Especial para la Unificación de Doctrina",
+        "El Tribunal Económico-Administrativo Regional del domicilio del recurrente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 244.4 dispone: «Será competente para resolver el recurso extraordinario de revisión el Tribunal Económico-Administrativo Central».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-030",
+      "ley": "ley-58-2003",
+      "articulo": "243.2",
+      "enunciado": "Es competente para resolver el recurso extraordinario para la unificación de doctrina:",
+      "opciones": [
+        "La Sala Especial para la Unificación de Doctrina",
+        "El Pleno del Tribunal Económico-Administrativo Central",
+        "Una Sala del Tribunal Económico-Administrativo Central",
+        "El Tribunal Económico-Administrativo Regional que dictó la resolución"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 243.2 establece: «Será competente para resolver este recurso la Sala Especial para la Unificación de Doctrina».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-031",
+      "ley": "rd-520-2005",
+      "articulo": "64",
+      "enunciado": "Las reclamaciones económico-administrativas se tramitan por el procedimiento abreviado cuando su cuantía es inferior a (salvo bases o valoraciones):",
+      "opciones": [
+        "3.000 euros",
+        "12.000 euros",
+        "15.000 euros",
+        "6.000 euros"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 64 del Reglamento dispone: «Las reclamaciones económico-administrativas se tramitarán por el procedimiento abreviado cuando sean de cuantía inferior a 6.000 euros o 72.000 euros si se trata de reclamaciones contra bases o valoraciones».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-032",
+      "ley": "ley-58-2003",
+      "articulo": "248",
+      "enunciado": "Contra las resoluciones dictadas en el procedimiento abreviado:",
+      "opciones": [
+        "Cabe recurso de alzada ordinario ante el Tribunal Económico-Administrativo Central",
+        "Solo cabe recurso contencioso-administrativo",
+        "No cabe alzada ordinaria, pero sí los demás recursos de la sección anterior",
+        "No cabe ningún recurso en vía administrativa"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 248 señala que «no podrá interponerse recurso de alzada ordinario, pero podrán proceder, en su caso, los demás recursos regulados en la sección anterior».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-033",
+      "ley": "rd-520-2005",
+      "articulo": "36",
+      "enunciado": "Contra una liquidación tributaria, procede el recurso de alzada ordinario cuando la cuantía de la reclamación supera:",
+      "opciones": [
+        "72.000 euros",
+        "150.000 euros",
+        "6.000 euros",
+        "1.800.000 euros"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 36 del Reglamento dice que podrá interponerse «cuando la cuantía de la reclamación, calculada conforme a lo dispuesto en el artículo anterior, supere 150.000 euros, o 1.800.000 euros si se trata de reclamaciones contra bases o valoraciones».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-034",
+      "ley": "rd-520-2005",
+      "articulo": "41.1",
+      "enunciado": "Si la garantía de la suspensión es un depósito de dinero y la reclamación sigue el procedimiento general, los intereses de demora a cubrir son los de:",
+      "opciones": [
+        "Un año",
+        "Seis meses",
+        "Dos años",
+        "Un mes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 41.1 del Reglamento fija los intereses «de un año si el procedimiento de la reclamación es el general»; seis meses en el abreviado y dos años si cabe alzada ordinaria.",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    },
+    {
+      "id": "rev-035",
+      "ley": "ley-58-2003",
+      "articulo": "241 ter.7",
+      "enunciado": "Contra los actos dictados en ejecución de una resolución económico-administrativa, el recurso contra la ejecución:",
+      "opciones": [
+        "Exige haber interpuesto antes recurso de reposición",
+        "Exige solicitar antes la rectificación de errores",
+        "Exige haber agotado antes el recurso de alzada ordinario",
+        "No admite recurso de reposición previo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 241 ter.7 dispone: «No cabrá la interposición de recurso de reposición con carácter previo al recurso contra la ejecución».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 26
+      }
+    }
+  ]
+}
