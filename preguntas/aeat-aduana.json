@@ -1,0 +1,705 @@
+{
+  "descripcion": "Código Aduanero de la Unión (Reglamento (UE) 952/2013, texto original de 2013), tema 32 de Agente de la Hacienda Pública: representación aduanera, deuda aduanera, garantía, extinción, depósito temporal y declaración en aduana. Citas comprobadas por script contra el texto de /fuentes.",
+  "preguntas": [
+    {
+      "id": "adu-001",
+      "ley": "reg-ue-952-2013",
+      "articulo": "18.1",
+      "enunciado": "En la representación aduanera directa, el representante aduanero actúa:",
+      "opciones": [
+        "En su propio nombre pero por cuenta de otra persona",
+        "En su propio nombre y por cuenta propia",
+        "En nombre y por cuenta de otra persona",
+        "En nombre de otra persona pero por cuenta propia"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 18.1, en la representación directa «el representante aduanero actuará en nombre y por cuenta de otra persona».",
+      "dificultad": 1,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-002",
+      "ley": "reg-ue-952-2013",
+      "articulo": "18.1",
+      "enunciado": "Un agente de aduanas actúa ante la aduana en su propio nombre pero por cuenta de su cliente. Se trata de una representación:",
+      "opciones": [
+        "Indirecta",
+        "Directa",
+        "Voluntaria sin poder",
+        "Subsidiaria"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 18.1 define la representación indirecta como aquella «en cuyo caso actuará en su propio nombre pero por cuenta de otra persona».",
+      "dificultad": 1,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-003",
+      "ley": "reg-ue-952-2013",
+      "articulo": "18.2",
+      "enunciado": "Los representantes aduaneros deberán estar establecidos en el territorio aduanero de la Unión, salvo que actúen por cuenta de personas que:",
+      "opciones": [
+        "Sean operadores económicos autorizados",
+        "Presenten una declaración de tránsito",
+        "Tengan su domicilio en un Estado miembro limítrofe",
+        "No tengan obligación de estar establecidas en dicho territorio"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 18.2 dispone que «Los representantes aduaneros deberán estar establecidos en el territorio aduanero de la Unión» y que estarán dispensados «cuando actúen por cuenta de personas que no tengan obligación de estar establecidas en el territorio aduanero de la Unión».",
+      "dificultad": 2,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-004",
+      "ley": "reg-ue-952-2013",
+      "articulo": "19.1",
+      "enunciado": "Quien declare ante la aduana actuar como representante aduanero sin poseer poder de representación para ello se considera que actúa:",
+      "opciones": [
+        "En nombre del supuesto representado",
+        "En su propio nombre y por cuenta propia",
+        "Como representante indirecto del supuesto representado",
+        "Como representante directo, con responsabilidad subsidiaria"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 19.1 establece que quien «declare estar actuando en tal condición sin poseer un poder de representación para ello, se considerará que actúa en su propio nombre y por cuenta propia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-005",
+      "ley": "reg-ue-952-2013",
+      "articulo": "19.2",
+      "enunciado": "Respecto del poder de representación, las autoridades aduaneras podrán exigir a quien declare actuar como representante aduanero:",
+      "opciones": [
+        "La inscripción previa en un registro de la aduana de entrada",
+        "La constitución de una garantía global en todo caso",
+        "La presentación de la prueba del poder de representación",
+        "Un informe del operador económico autorizado del representado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 19.2 señala que «Las autoridades aduaneras podrán exigir a cualquier persona que declare estar actuando como representante aduanero la presentación de la prueba del poder de representación que le haya otorgado la persona representada».",
+      "dificultad": 2,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-006",
+      "ley": "reg-ue-952-2013",
+      "articulo": "77.1",
+      "enunciado": "Nace una deuda aduanera de importación cuando las mercancías no UE sujetas a derechos se incluyen en el régimen de:",
+      "opciones": [
+        "Despacho a libre práctica o importación temporal con exención parcial",
+        "Tránsito externo o depósito aduanero",
+        "Perfeccionamiento activo o zona franca",
+        "Importación temporal con exención total o tránsito interno"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 77.1, la deuda nace al incluirse las mercancías en «el despacho a libre práctica» o en «la importación temporal con exención parcial de derechos de importación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-007",
+      "ley": "reg-ue-952-2013",
+      "articulo": "77.2",
+      "enunciado": "La deuda aduanera de importación por despacho a libre práctica se origina en el momento de:",
+      "opciones": [
+        "El levante de las mercancías",
+        "La presentación de las mercancías en aduana",
+        "El pago de los derechos de importación",
+        "La admisión de la declaración en aduana"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 77.2 dispone: «La deuda aduanera se originará en el momento de la admisión de la declaración en aduana».",
+      "dificultad": 1,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-008",
+      "ley": "reg-ue-952-2013",
+      "articulo": "77.3",
+      "enunciado": "Un representante indirecto presenta una declaración de despacho a libre práctica por cuenta de un cliente. En la deuda de importación es deudor:",
+      "opciones": [
+        "Solo el representante que presenta la declaración",
+        "El representante y también la persona por cuya cuenta se hace la declaración",
+        "Solo la persona por cuya cuenta se hace la declaración",
+        "El transportista y la persona por cuya cuenta se declara"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 77.3, «El declarante será el deudor. En caso de representación indirecta, será también deudora la persona por cuya cuenta se haga la declaración en aduana».",
+      "dificultad": 2,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-009",
+      "ley": "reg-ue-952-2013",
+      "articulo": "77.3",
+      "enunciado": "Una persona facilita datos falsos que llevan a no percibir parte de los derechos en un despacho a libre práctica, sabiendo que eran falsos. Respecto de la deuda de importación, esa persona:",
+      "opciones": [
+        "No es deudora, pues solo lo es el declarante",
+        "Es deudora únicamente si es representante aduanero",
+        "Es también deudora",
+        "Es deudora solo tras sentencia penal firme"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 77.3 añade que la persona «que suministró la información requerida para la realización de la declaración y que supiera o debiera razonablemente haber sabido que dicha información era falsa será también un deudor».",
+      "dificultad": 3,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-010",
+      "ley": "reg-ue-952-2013",
+      "articulo": "79.2.a",
+      "enunciado": "En la deuda de importación por incumplimiento de una obligación sobre la circulación de mercancías no UE, la deuda nace en el momento en que:",
+      "opciones": [
+        "No se cumpla o deje de cumplirse la obligación",
+        "Las autoridades aduaneras descubran el incumplimiento",
+        "Se notifique el incumplimiento al obligado",
+        "Las mercancías se presenten en la aduana de destino"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 79.2.a) fija como momento de nacimiento «el momento en que no se cumpla o deje de cumplirse la obligación cuyo incumplimiento dé origen a la deuda aduanera».",
+      "dificultad": 2,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-011",
+      "ley": "reg-ue-952-2013",
+      "articulo": "79.3.c",
+      "enunciado": "En la deuda de importación nacida por incumplimiento de obligaciones aduaneras, es deudor quien adquirió las mercancías:",
+      "opciones": [
+        "Sin poder razonablemente saber que no se había cumplido la obligación",
+        "Con la única condición de haber pagado un precio de mercado",
+        "Directamente del transportista, con independencia de lo que supiera",
+        "Sabiendo o debiendo razonablemente saber que no se había cumplido la obligación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 79.3.c) designa deudor a «toda persona que hubiera adquirido o poseído las mercancías en cuestión y que supiera o debiera razonablemente haber sabido en el momento de adquirir o recibir las mercancías que no se había cumplido una obligación establecida por la legislación aduanera».",
+      "dificultad": 3,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-012",
+      "ley": "reg-ue-952-2013",
+      "articulo": "81.1",
+      "enunciado": "La deuda aduanera de exportación nace al incluirse las mercancías sujetas a derechos de exportación en el régimen de exportación o en el de:",
+      "opciones": [
+        "Perfeccionamiento activo",
+        "Perfeccionamiento pasivo",
+        "Depósito aduanero",
+        "Tránsito interno"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 81.1, «Una deuda aduanera de exportación nacerá al incluirse las mercancías sujetas a derechos de exportación en el régimen de exportación o en el régimen de perfeccionamiento pasivo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-013",
+      "ley": "reg-ue-952-2013",
+      "articulo": "82.2.a",
+      "enunciado": "Unas mercancías sujetas a derechos de exportación salen del territorio aduanero de la Unión sin declaración en aduana. La deuda aduanera de exportación nace en el momento en que:",
+      "opciones": [
+        "La salida es detectada por las autoridades aduaneras",
+        "Las mercancías llegan al país de destino",
+        "Las mercancías salgan efectivamente de dicho territorio",
+        "Vence el plazo de tres años para notificar la deuda"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 82.2.a) establece como momento «el momento en que las mercancías salgan efectivamente del territorio aduanero de la Unión sin una declaración en aduana».",
+      "dificultad": 2,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-014",
+      "ley": "reg-ue-952-2013",
+      "articulo": "83.2.a",
+      "enunciado": "Entre estos supuestos, ¿en cuál NO nace deuda aduanera?",
+      "opciones": [
+        "Introducción ilegal en el territorio aduanero de la Unión de moneda falsa",
+        "Introducción de estupefacientes estrictamente supervisados para uso médico",
+        "Importación de mercancías sujetas a una prohibición de importación",
+        "Introducción de mercancías que infringen derechos de propiedad industrial"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 83.2.a) excluye la deuda «por la introducción ilegal en el territorio aduanero de la Unión de moneda falsa», mientras que el 83.1 dice que la deuda «nacerá incluso cuando se refiera a mercancías sujetas a medidas de prohibición o restricción de importación o de exportación de cualquier tipo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-015",
+      "ley": "reg-ue-952-2013",
+      "articulo": "84",
+      "enunciado": "Cuando varias personas son responsables del pago de los derechos correspondientes a una misma deuda aduanera, responden:",
+      "opciones": [
+        "Mancomunadamente, por partes iguales",
+        "Subsidiariamente, por orden de nacimiento de la obligación",
+        "Solo la primera de ellas, por orden de notificación",
+        "De manera conjunta y solidaria"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 84 dispone que, en tal caso, «ellas serán, de manera conjunta y solidaria, responsables del pago de dicho importe».",
+      "dificultad": 1,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-016",
+      "ley": "reg-ue-952-2013",
+      "articulo": "85.1",
+      "enunciado": "El importe de los derechos de importación o exportación se determina con las reglas de cálculo aplicables:",
+      "opciones": [
+        "En el momento del levante de las mercancías",
+        "En el momento en que nació la deuda aduanera",
+        "En el momento de la notificación de la deuda",
+        "En el momento del pago efectivo"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 85.1, el importe se determinará «con arreglo a las reglas de cálculo de los derechos que fueron aplicables a las mercancías de que se trate en el momento en que nació la deuda aduanera relativa a dichas mercancías».",
+      "dificultad": 2,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-017",
+      "ley": "reg-ue-952-2013",
+      "articulo": "87.1",
+      "enunciado": "Salvo regla especial, la deuda aduanera nacida por la admisión de una declaración en aduana de despacho a libre práctica nace en el lugar:",
+      "opciones": [
+        "De destino final de las mercancías",
+        "De establecimiento del importador",
+        "En que se haya presentado la declaración en aduana",
+        "De la aduana de primera entrada en la Unión"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 87.1 establece: «Una deuda aduanera nacerá en el lugar en que se haya presentado la declaración en aduana o la declaración de reexportación mencionadas en los artículos 77, 78, y 81».",
+      "dificultad": 1,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-018",
+      "ley": "reg-ue-952-2013",
+      "articulo": "103.1",
+      "enunciado": "Como regla general, no se podrá notificar una deuda aduanera una vez transcurrido, desde la fecha de su nacimiento, un plazo de:",
+      "opciones": [
+        "Tres años",
+        "Un año",
+        "Cinco años",
+        "Diez años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 103.1 dispone: «No se podrá notificar ninguna deuda aduanera una vez que haya transcurrido un plazo de tres años contados a partir de la fecha de nacimiento de la deuda aduanera».",
+      "dificultad": 1,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-019",
+      "ley": "reg-ue-952-2013",
+      "articulo": "103.2",
+      "enunciado": "Si la deuda nace de un acto susceptible de dar lugar a procedimientos judiciales penales, el plazo general para notificarla se amplía a un plazo:",
+      "opciones": [
+        "Mínimo de cuatro años y máximo de seis años",
+        "Mínimo de tres años y máximo de cinco años",
+        "Mínimo de diez años y máximo de quince años",
+        "Mínimo de cinco años y máximo de diez años"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 103.2, el plazo de tres años «será ampliado a un plazo mínimo de cinco años y máximo de diez años de conformidad con el Derecho nacional».",
+      "dificultad": 3,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-020",
+      "ley": "reg-ue-952-2013",
+      "articulo": "102.2",
+      "enunciado": "Cuando el importe de los derechos exigibles es igual al consignado en la declaración en aduana, el levante de las mercancías equivale:",
+      "opciones": [
+        "A la extinción de la deuda aduanera",
+        "A la notificación de la deuda aduanera al deudor",
+        "A la contracción de la deuda en la fecha de levante",
+        "A la concesión de un aplazamiento de pago"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 102.2 señala que, en ese caso, «el levante de las mercancías por las autoridades aduaneras será equivalente a la notificación al deudor de la deuda aduanera».",
+      "dificultad": 2,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-021",
+      "ley": "reg-ue-952-2013",
+      "articulo": "105.1",
+      "enunciado": "Cuando la deuda nace por la admisión de una declaración en aduana (salvo importación temporal con exención parcial), la contracción se hace dentro de los siguientes plazos al levante:",
+      "opciones": [
+        "5 días",
+        "10 días",
+        "14 días",
+        "30 días"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 105.1 ordena contraer el importe «dentro de los 14 días siguientes al levante de las mercancías».",
+      "dificultad": 2,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-022",
+      "ley": "reg-ue-952-2013",
+      "articulo": "108.1",
+      "enunciado": "Sin perjuicio de excepciones, el plazo de pago de la deuda aduanera fijado por las autoridades no sobrepasará, desde la notificación al deudor:",
+      "opciones": [
+        "Diez días",
+        "Cinco días",
+        "Catorce días",
+        "Treinta días"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 108.1, «dicho plazo no sobrepasará los diez días siguientes a la notificación al deudor de la deuda aduanera».",
+      "dificultad": 2,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-023",
+      "ley": "reg-ue-952-2013",
+      "articulo": "116.1",
+      "enunciado": "¿Cuál de estos NO es motivo para devolver o condonar derechos de importación o de exportación según el Código Aduanero de la Unión?",
+      "opciones": [
+        "Cobro excesivo de importes de derechos",
+        "Error de las autoridades competentes",
+        "Equidad",
+        "Retraso del deudor en el pago de la deuda"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 116.1 admite la devolución o condonación por «cobro excesivo de importes de derechos de importación o de exportación», «mercancías defectuosas o que incumplen los términos del contrato», «error de las autoridades competentes» y «equidad».",
+      "dificultad": 2,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-024",
+      "ley": "reg-ue-952-2013",
+      "articulo": "116.2",
+      "enunciado": "Las autoridades aduaneras devolverán o condonarán los derechos cuando su importe sea igual o superior a:",
+      "opciones": [
+        "5 euros",
+        "10 euros",
+        "25 euros",
+        "100 euros"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 116.2 dispone que devolverán o condonarán el importe «cuando sea igual o superior a 10 euros, excepto si el interesado solicita la devolución o condonación de un importe menor».",
+      "dificultad": 1,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-025",
+      "ley": "reg-ue-952-2013",
+      "articulo": "116.5",
+      "enunciado": "No se concede devolución ni condonación de derechos cuando la situación que llevó a notificar la deuda sea consecuencia de:",
+      "opciones": [
+        "Un error de las autoridades aduaneras",
+        "Un caso fortuito o de fuerza mayor",
+        "Un acto fraudulento del deudor",
+        "La devolución de mercancías defectuosas"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 116.5 establece: «No se concederá la devolución ni la condonación cuando la situación que llevó a la notificación de la deuda aduanera sea consecuencia de un acto fraudulento del deudor».",
+      "dificultad": 1,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-026",
+      "ley": "reg-ue-952-2013",
+      "articulo": "121.1.a",
+      "enunciado": "La solicitud de devolución por cobro excesivo de derechos de importación se presenta a las autoridades aduaneras en el plazo, desde la notificación de la deuda, de:",
+      "opciones": [
+        "Tres años",
+        "Seis meses",
+        "Un año",
+        "Cinco años"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 121.1.a), en caso de cobro excesivo, error de las autoridades competentes o equidad, la solicitud se presenta «en el plazo de tres años a partir de la fecha de notificación de la deuda aduanera».",
+      "dificultad": 2,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-027",
+      "ley": "reg-ue-952-2013",
+      "articulo": "121.1.b",
+      "enunciado": "La solicitud de devolución por mercancías defectuosas o que incumplen las condiciones del contrato debe presentarse en el plazo, desde la notificación de la deuda, de:",
+      "opciones": [
+        "Tres meses",
+        "Dos años",
+        "Tres años",
+        "Un año"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 121.1.b) dispone que, en caso de mercancías defectuosas o que incumplen las condiciones del contrato, la solicitud se presenta «en el plazo de un año a partir de la fecha de notificación de la deuda aduanera».",
+      "dificultad": 1,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-028",
+      "ley": "reg-ue-952-2013",
+      "articulo": "124.1.f",
+      "enunciado": "¿En cuál de estos casos se extingue la deuda aduanera de importación o de exportación?",
+      "opciones": [
+        "Cuando las mercancías sean destruidas por el deudor sin vigilancia aduanera",
+        "Cuando las mercancías sean destruidas bajo vigilancia aduanera",
+        "Cuando el deudor traslade su domicilio fuera de la Unión",
+        "Cuando transcurran seis meses desde el levante sin reclamación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 124.1.f) extingue la deuda «cuando unas mercancías sujetas a derechos de importación o de exportación sean destruidas bajo vigilancia aduanera o abandonadas en beneficio del Estado».",
+      "dificultad": 3,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-029",
+      "ley": "reg-ue-952-2013",
+      "articulo": "124.5",
+      "enunciado": "Si varias personas responden de una deuda aduanera y se condona a una de ellas, la deuda se extingue:",
+      "opciones": [
+        "Respecto de todos los deudores",
+        "Respecto de la mitad de los deudores",
+        "Solo respecto de la persona a la que se concede la condonación",
+        "Solo respecto del declarante, aunque la condonación se conceda a otro"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 124.5 dispone que, concedida la condonación, «la deuda aduanera solo se extinguirá respecto de la persona o personas a las que se conceda la condonación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-030",
+      "ley": "reg-ue-952-2013",
+      "articulo": "144",
+      "enunciado": "Las mercancías no pertenecientes a la Unión se mantienen en depósito temporal a partir del momento de:",
+      "opciones": [
+        "Su presentación en aduana",
+        "Su introducción en el territorio aduanero",
+        "La admisión de la declaración en aduana",
+        "El levante de las mercancías"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 144 dispone: «Las mercancías no pertenecientes a la Unión se mantendrán en depósito temporal a partir del momento de su presentación en aduana».",
+      "dificultad": 1,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-031",
+      "ley": "reg-ue-952-2013",
+      "articulo": "149",
+      "enunciado": "Las mercancías no UE en depósito temporal deben incluirse en un régimen aduanero o reexportarse antes de que transcurran:",
+      "opciones": [
+        "30 días",
+        "60 días",
+        "180 días",
+        "90 días"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 149 establece que las mercancías «se incluirán en un régimen aduanero o se reexportarán antes de que transcurran 90 días».",
+      "dificultad": 1,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-032",
+      "ley": "reg-ue-952-2013",
+      "articulo": "147.2",
+      "enunciado": "Las mercancías en depósito temporal no pueden ser objeto de más manipulaciones que las destinadas a:",
+      "opciones": [
+        "Facilitar su venta a terceros",
+        "Garantizar que se conserven inalteradas",
+        "Adaptar su presentación al mercado de destino",
+        "Modificar sus características técnicas para su despacho"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 147.2, las mercancías en depósito temporal «no podrán ser objeto de más manipulaciones que las destinadas a garantizar que se conserven inalteradas, sin modificar su presentación o sus características técnicas».",
+      "dificultad": 3,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-033",
+      "ley": "reg-ue-952-2013",
+      "articulo": "158.1",
+      "enunciado": "Todas las mercancías que se incluyan en un régimen aduanero requieren declaración en aduana, salvo en el régimen de:",
+      "opciones": [
+        "Tránsito externo",
+        "Depósito aduanero",
+        "Zona franca",
+        "Perfeccionamiento activo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 158.1 exige declaración en aduana para «Todas las mercancías que vayan a incluirse en un régimen aduanero, salvo el régimen de zona franca».",
+      "dificultad": 2,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-034",
+      "ley": "reg-ue-952-2013",
+      "articulo": "171",
+      "enunciado": "Se presenta una declaración en aduana antes de presentar las mercancías. Si estas no se presentan, la declaración se considera no presentada transcurrido un plazo de:",
+      "opciones": [
+        "30 días",
+        "10 días",
+        "15 días",
+        "45 días"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 171 prevé que «Si las mercancías no se presentan en un plazo de 30 días a partir de la presentación de la declaración en aduana, se considerará que dicha declaración no ha sido presentada».",
+      "dificultad": 2,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    },
+    {
+      "id": "adu-035",
+      "ley": "reg-ue-952-2013",
+      "articulo": "195.1",
+      "enunciado": "Cuando la inclusión de mercancías en un régimen aduanero implica el nacimiento de una deuda aduanera, el levante está supeditado:",
+      "opciones": [
+        "Al pago de los derechos, sin posibilidad de garantía",
+        "A la previa extinción de la deuda aduanera",
+        "Solo a la admisión de la declaración en aduana",
+        "Al pago de los derechos o a la constitución de una garantía que cubra la deuda"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 195.1 dispone que «el levante de las mercancías estará supeditado al pago del importe de los derechos de importación o de exportación correspondiente a la deuda aduanera o a la constitución de una garantía que cubra dicha deuda».",
+      "dificultad": 1,
+      "fecha_version_boe": "2013-10-10",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 32
+      }
+    }
+  ]
+}

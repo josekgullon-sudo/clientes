@@ -1,0 +1,885 @@
+{
+  "descripcion": "Derecho administrativo (temas 8 y 9 del Agente de la Hacienda Pública): fuentes del Derecho y actos administrativos. Lote generado el 2026-10-15 desde el texto consolidado de /fuentes; citas comprobadas por script.",
+  "preguntas": [
+    {
+      "id": "dad-001",
+      "ley": "constitucion",
+      "articulo": "9.1",
+      "enunciado": "Según el artículo 9.1 de la Constitución, están sujetos a ella y al resto del ordenamiento jurídico:",
+      "opciones": [
+        "Únicamente los poderes públicos",
+        "Únicamente los ciudadanos",
+        "Los poderes públicos y los tribunales",
+        "Los ciudadanos y los poderes públicos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 9.1 dispone que «Los ciudadanos y los poderes públicos están sujetos a la Constitución y al resto del ordenamiento jurídico».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-002",
+      "ley": "constitucion",
+      "articulo": "9.3",
+      "enunciado": "Entre los principios que garantiza el artículo 9.3 de la Constitución figura la irretroactividad de las disposiciones:",
+      "opciones": [
+        "Tributarias que graven la renta de las personas físicas",
+        "Reglamentarias dictadas por el Gobierno",
+        "Sancionadoras no favorables o restrictivas de derechos individuales",
+        "Civiles que regulen el estado de las personas"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 9.3 garantiza «la irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-003",
+      "ley": "constitucion",
+      "articulo": "81.1",
+      "enunciado": "Según el artículo 81.1 de la Constitución, son leyes orgánicas, entre otras, las que aprueben:",
+      "opciones": [
+        "Los Presupuestos Generales del Estado",
+        "Los Estatutos de Autonomía y el régimen electoral general",
+        "Los tributos estatales y su régimen de gestión",
+        "Los tratados internacionales con la Unión Europea"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 81.1 establece que son leyes orgánicas «las que aprueben los Estatutos de Autonomía y el régimen electoral general».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-004",
+      "ley": "constitucion",
+      "articulo": "82.1",
+      "enunciado": "Las Cortes Generales pueden delegar en el Gobierno la potestad de dictar normas con rango de ley sobre materias determinadas:",
+      "opciones": [
+        "Incluidas en el artículo 81 de la Constitución",
+        "No incluidas en el artículo 81 de la Constitución",
+        "Relativas a los derechos fundamentales",
+        "Relativas al régimen electoral general"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 82.1 dice que podrán delegar en el Gobierno la potestad de dictar normas con rango de ley «sobre materias determinadas no incluidas en el artículo anterior».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-005",
+      "ley": "constitucion",
+      "articulo": "82.2",
+      "enunciado": "Según el artículo 82.2 de la Constitución, la delegación para refundir varios textos legales en uno solo se otorga mediante:",
+      "opciones": [
+        "Una ley ordinaria",
+        "Una ley de bases",
+        "Una ley orgánica",
+        "Un decreto-ley"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 82.2 señala que la delegación se otorgará «por una ley ordinaria cuando se trate de refundir varios textos legales en uno solo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-006",
+      "ley": "constitucion",
+      "articulo": "82.3",
+      "enunciado": "La delegación legislativa en el Gobierno NO podrá permitir la subdelegación a autoridades distintas de:",
+      "opciones": [
+        "El Presidente del Gobierno",
+        "Los Ministros",
+        "El Consejo de Estado",
+        "El propio Gobierno"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 82.3, la delegación «Tampoco podrá permitir la subdelegación a autoridades distintas del propio Gobierno».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-007",
+      "ley": "constitucion",
+      "articulo": "86.2",
+      "enunciado": "Dentro del plazo de que dispone, el Congreso debe pronunciarse expresamente sobre un decreto-ley acerca de su:",
+      "opciones": [
+        "Sanción o promulgación",
+        "Tramitación como proyecto de ley únicamente",
+        "Convalidación o derogación",
+        "Remisión al Senado para su veto"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 86.2 establece que «El Congreso habrá de pronunciarse expresamente dentro de dicho plazo sobre su convalidación o derogación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-008",
+      "ley": "constitucion",
+      "articulo": "87.1",
+      "enunciado": "La iniciativa legislativa, de acuerdo con la Constitución y los Reglamentos de las Cámaras, corresponde:",
+      "opciones": [
+        "Solo al Gobierno y al Congreso",
+        "Al Gobierno, al Congreso y al Rey",
+        "Al Gobierno, al Congreso y al Senado",
+        "Solo a las Cortes Generales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 87.1 dispone que «La iniciativa legislativa corresponde al Gobierno, al Congreso y al Senado, de acuerdo con la Constitución y los Reglamentos de las Cámaras».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-009",
+      "ley": "constitucion",
+      "articulo": "87.3",
+      "enunciado": "No procede la iniciativa legislativa popular en materias:",
+      "opciones": [
+        "Educativas",
+        "Tributarias",
+        "Sanitarias",
+        "Medioambientales"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 87.3 señala que «No procederá dicha iniciativa en materias propias de ley orgánica, tributarias o de carácter internacional, ni en lo relativo a la prerrogativa de gracia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-010",
+      "ley": "constitucion",
+      "articulo": "88",
+      "enunciado": "Según la Constitución, los proyectos de ley son aprobados en:",
+      "opciones": [
+        "Consejo de Ministros, que los somete al Congreso",
+        "Consejo de Ministros, que los somete al Senado",
+        "Comisión Delegada, que los somete a las Cortes",
+        "Consejo de Estado, que los somete al Congreso"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 88 establece que «Los proyectos de ley serán aprobados en Consejo de Ministros, que los someterá al Congreso, acompañados de una exposición de motivos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-011",
+      "ley": "constitucion",
+      "articulo": "90.3",
+      "enunciado": "El plazo de dos meses del Senado para vetar o enmendar un proyecto se reduce a veinte días naturales cuando el proyecto sea declarado:",
+      "opciones": [
+        "Urgente solo por el Senado",
+        "De ley orgánica por el Congreso de los Diputados",
+        "Prioritario por la Mesa del Senado",
+        "Urgente por el Gobierno o por el Congreso de los Diputados"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 90.3 prevé que el plazo «se reducirá al de veinte días naturales en los proyectos declarados urgentes por el Gobierno o por el Congreso de los Diputados».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-012",
+      "ley": "constitucion",
+      "articulo": "96.1",
+      "enunciado": "Según el artículo 96.1 de la Constitución, los tratados internacionales válidamente celebrados forman parte del ordenamiento interno una vez:",
+      "opciones": [
+        "Ratificados por el Rey",
+        "Aprobados por el Senado",
+        "Firmados por el Gobierno",
+        "Publicados oficialmente en España"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 96.1 dispone que «Los tratados internacionales válidamente celebrados, una vez publicados oficialmente en España, formarán parte del ordenamiento interno».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-013",
+      "ley": "constitucion",
+      "articulo": "97",
+      "enunciado": "Según el artículo 97 de la Constitución, el Gobierno ejerce la función ejecutiva y la potestad reglamentaria:",
+      "opciones": [
+        "Con total independencia de las leyes",
+        "Solo en desarrollo de leyes orgánicas",
+        "De acuerdo con la Constitución y las leyes",
+        "Previa autorización de las Cortes Generales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 97 establece que el Gobierno «Ejerce la función ejecutiva y la potestad reglamentaria de acuerdo con la Constitución y las leyes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-014",
+      "ley": "constitucion",
+      "articulo": "106.1",
+      "enunciado": "Según el artículo 106.1 de la Constitución, los Tribunales controlan la potestad reglamentaria y:",
+      "opciones": [
+        "El presupuesto de las Administraciones Públicas",
+        "La legalidad de la actuación administrativa",
+        "La oportunidad de las decisiones políticas",
+        "El nombramiento de los altos cargos"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 106.1 dispone que «Los Tribunales controlan la potestad reglamentaria y la legalidad de la actuación administrativa, así como el sometimiento de ésta a los fines que la justifican».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-015",
+      "ley": "ley-50-1997",
+      "articulo": "24.1.b",
+      "enunciado": "Según la Ley del Gobierno, adoptan la forma de Real Decreto del Presidente del Gobierno:",
+      "opciones": [
+        "Las disposiciones y actos cuya adopción venga atribuida al Presidente",
+        "Las normas reglamentarias de la competencia del Consejo de Ministros",
+        "Las decisiones del Consejo de Ministros que no sean Real Decreto",
+        "Las disposiciones y resoluciones de los Ministros"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 24.1.b) dice que son Reales Decretos del Presidente del Gobierno «las disposiciones y actos cuya adopción venga atribuida al Presidente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-016",
+      "ley": "ley-50-1997",
+      "articulo": "24.1.d",
+      "enunciado": "Revisten la forma de Acuerdos del Consejo de Ministros:",
+      "opciones": [
+        "Las decisiones del Consejo que no deban adoptar la forma de Real Decreto",
+        "Las decisiones que aprueben normas reglamentarias de su competencia",
+        "Las disposiciones y resoluciones de las Comisiones Delegadas",
+        "Las disposiciones y resoluciones de los Ministros"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 24.1.d) señala que son Acuerdos del Consejo de Ministros «las decisiones de dicho órgano colegiado que no deban adoptar la forma de Real Decreto».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-04-03",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-017",
+      "ley": "ley-39-2015",
+      "articulo": "128.1",
+      "enunciado": "Según la Ley 39/2015, la potestad reglamentaria corresponde, entre otros, a los órganos de gobierno de las Comunidades Autónomas:",
+      "opciones": [
+        "Según lo que disponga cada Delegación del Gobierno",
+        "Previa autorización del Consejo de Ministros",
+        "De acuerdo con la legislación básica del Senado",
+        "De conformidad con lo establecido en sus respectivos Estatutos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 128.1 atribuye la potestad reglamentaria a «los órganos de Gobierno de las Comunidades Autónomas, de conformidad con lo establecido en sus respectivos Estatutos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-018",
+      "ley": "ley-39-2015",
+      "articulo": "128.3",
+      "enunciado": "Según el artículo 128.3 de la Ley 39/2015, ninguna disposición administrativa podrá:",
+      "opciones": [
+        "Regular materias de interés general",
+        "Ser publicada en el diario oficial",
+        "Vulnerar los preceptos de otra de rango superior",
+        "Desarrollar una ley orgánica"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 128.3 establece que «Ninguna disposición administrativa podrá vulnerar los preceptos de otra de rango superior».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-020",
+      "ley": "tfue",
+      "articulo": "297.1",
+      "enunciado": "Según el TFUE, los actos legislativos de la Unión entran en vigor, a falta de fecha propia, a los:",
+      "opciones": [
+        "Diez días de su publicación en el Diario Oficial",
+        "Veinte días de su publicación en el Diario Oficial",
+        "Treinta días de su publicación en el Diario Oficial",
+        "Tres meses de su publicación en el Diario Oficial"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 297.1 señala que los actos legislativos «Entrarán en vigor en la fecha que ellos mismos fijen o, a falta de ella, a los veinte días de su publicación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2016-06-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 8
+      }
+    },
+    {
+      "id": "dad-021",
+      "ley": "ley-39-2015",
+      "articulo": "34.2",
+      "enunciado": "Según el artículo 34.2 de la Ley 39/2015, el contenido de los actos administrativos será:",
+      "opciones": [
+        "Determinado y adecuado a los fines de aquéllos",
+        "Genérico y flexible según el órgano",
+        "Fijado libremente por el órgano competente",
+        "Aprobado por el órgano superior jerárquico"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 34.2 dispone que «El contenido de los actos se ajustará a lo dispuesto por el ordenamiento jurídico y será determinado y adecuado a los fines de aquéllos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-022",
+      "ley": "ley-39-2015",
+      "articulo": "35.1.a",
+      "enunciado": "Deben ser motivados, con sucinta referencia de hechos y fundamentos de derecho, los actos que:",
+      "opciones": [
+        "Concedan derechos sin carga alguna",
+        "Meramente comuniquen un trámite",
+        "Se dicten en ejercicio de potestades regladas",
+        "Limiten derechos subjetivos o intereses legítimos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 35.1.a) obliga a motivar «Los actos que limiten derechos subjetivos o intereses legítimos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-023",
+      "ley": "ley-39-2015",
+      "articulo": "35.1.f",
+      "enunciado": "Según el artículo 35 de la Ley 39/2015, deben motivarse los actos que:",
+      "opciones": [
+        "Admitan las pruebas propuestas por los interesados",
+        "Acuerden la apertura del trámite de audiencia",
+        "Rechacen pruebas propuestas por los interesados",
+        "Acusen recibo de la solicitud del interesado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 35.1.f) incluye entre los actos motivados «Los actos que rechacen pruebas propuestas por los interesados».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-024",
+      "ley": "ley-39-2015",
+      "articulo": "35.1.g",
+      "enunciado": "Debe motivarse el acto que acuerde el desistimiento por la Administración en procedimientos:",
+      "opciones": [
+        "Iniciados a solicitud del interesado",
+        "De carácter sancionador únicamente",
+        "Iniciados de oficio",
+        "De revisión de actos anulables"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 35.1.g) exige motivar «los que acuerden el desistimiento por la Administración en procedimientos iniciados de oficio».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-025",
+      "ley": "ley-39-2015",
+      "articulo": "35.2",
+      "enunciado": "La motivación de los actos que pongan fin a los procedimientos selectivos y de concurrencia competitiva se realizará conforme a:",
+      "opciones": [
+        "Lo que decida el tribunal calificador libremente",
+        "Lo que dispongan las normas que regulen sus convocatorias",
+        "La Ley de Contratos del Sector Público",
+        "El criterio de la Intervención General"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 35.2 dice que la motivación «se realizará de conformidad con lo que dispongan las normas que regulen sus convocatorias, debiendo, en todo caso, quedar acreditados en el procedimiento los fundamentos de la resolución».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-026",
+      "ley": "ley-39-2015",
+      "articulo": "36.2",
+      "enunciado": "Si un órgano ejerce su competencia de forma verbal, la constancia escrita del acto, cuando sea necesaria, se efectuará y firmará por:",
+      "opciones": [
+        "El titular del órgano inferior o funcionario que la reciba oralmente",
+        "El titular de la competencia que dictó el acto",
+        "El secretario del órgano superior jerárquico",
+        "El interesado al que se dirige el acto"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 36.2 dispone que la constancia escrita «se efectuará y firmará por el titular del órgano inferior o funcionario que la reciba oralmente».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-027",
+      "ley": "ley-39-2015",
+      "articulo": "36.3",
+      "enunciado": "Cuando deba dictarse una serie de actos de la misma naturaleza, como nombramientos, concesiones o licencias, podrán:",
+      "opciones": [
+        "Dictarse únicamente por el órgano superior",
+        "Notificarse solo mediante publicación",
+        "Tramitarse sin identificar a los interesados",
+        "Refundirse en un único acto acordado por el órgano competente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 36.3 señala que «podrán refundirse en un único acto, acordado por el órgano competente, que especificará las personas u otras circunstancias que individualicen los efectos del acto para cada interesado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-028",
+      "ley": "ley-39-2015",
+      "articulo": "37.2",
+      "enunciado": "Según el artículo 37.2 de la Ley 39/2015, las resoluciones administrativas que vulneren lo establecido en una disposición reglamentaria son:",
+      "opciones": [
+        "Anulables",
+        "Simplemente irregulares",
+        "Válidas hasta su impugnación",
+        "Nulas"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 37.2 establece que «Son nulas las resoluciones administrativas que vulneren lo establecido en una disposición reglamentaria».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-029",
+      "ley": "ley-39-2015",
+      "articulo": "39.1",
+      "enunciado": "Los actos de las Administraciones Públicas sujetos al Derecho Administrativo se presumen válidos y producen efectos:",
+      "opciones": [
+        "Desde su notificación al interesado en todo caso",
+        "Desde su publicación en el Boletín Oficial del Estado",
+        "Desde la fecha en que se dicten, salvo que se disponga otra cosa",
+        "Desde que adquieran firmeza en vía administrativa"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 39.1 dispone que los actos «se presumirán válidos y producirán efectos desde la fecha en que se dicten, salvo que en ellos se disponga otra cosa».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-030",
+      "ley": "ley-39-2015",
+      "articulo": "39.2",
+      "enunciado": "Según el artículo 39.2 de la Ley 39/2015, la eficacia de un acto quedará demorada cuando esté supeditada a:",
+      "opciones": [
+        "Su firma por el interesado",
+        "Su notificación, publicación o aprobación superior",
+        "El transcurso de un año desde su fecha",
+        "La resolución de un recurso de alzada"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 39.2 establece que «La eficacia quedará demorada cuando así lo exija el contenido del acto o esté supeditada a su notificación, publicación o aprobación superior».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-031",
+      "ley": "ley-39-2015",
+      "articulo": "39.4",
+      "enunciado": "Las normas y actos dictados por los órganos de las Administraciones Públicas en el ejercicio de su competencia deberán ser observados por el resto de los órganos administrativos:",
+      "opciones": [
+        "Aunque no dependan jerárquicamente entre sí o pertenezcan a otra Administración",
+        "Solo si dependen jerárquicamente del que los dictó",
+        "Solo si pertenecen a la misma Administración",
+        "Únicamente cuando lo ordene un órgano judicial"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 39.4 dispone que deberán ser observadas por el resto de los órganos «aunque no dependan jerárquicamente entre sí o pertenezcan a otra Administración».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-032",
+      "ley": "ley-39-2015",
+      "articulo": "40.2",
+      "enunciado": "Toda notificación deberá ser cursada dentro del plazo de:",
+      "opciones": [
+        "Diez días a partir de la fecha en que el acto haya sido dictado",
+        "Cinco días a partir de la fecha en que el acto haya sido dictado",
+        "Quince días a partir de la fecha en que el acto haya sido dictado",
+        "Un mes a partir de la fecha en que el acto haya sido dictado"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 40.2 establece que «Toda notificación deberá ser cursada dentro del plazo de diez días a partir de la fecha en que el acto haya sido dictado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-033",
+      "ley": "ley-39-2015",
+      "articulo": "40.4",
+      "enunciado": "A los solos efectos de entender cumplida la obligación de notificar dentro del plazo máximo del procedimiento, basta la notificación que contenga, al menos:",
+      "opciones": [
+        "El sentido de la resolución y la indicación de los recursos",
+        "La identificación del interesado y la fecha del acto",
+        "El texto íntegro de la resolución y la firma del interesado",
+        "El texto íntegro de la resolución y el intento de notificación debidamente acreditado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 40.4 dice que será suficiente «la notificación que contenga, cuando menos, el texto íntegro de la resolución, así como el intento de notificación debidamente acreditado».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-034",
+      "ley": "ley-39-2015",
+      "articulo": "41.1",
+      "enunciado": "Según la Ley 39/2015, las notificaciones se practicarán:",
+      "opciones": [
+        "Preferentemente en papel en el domicilio",
+        "Siempre por correo certificado",
+        "Preferentemente por medios electrónicos",
+        "Preferentemente mediante anuncio en el boletín oficial"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 41.1 dispone que «Las notificaciones se practicarán preferentemente por medios electrónicos y, en todo caso, cuando el interesado resulte obligado a recibirlas por esta vía».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-035",
+      "ley": "ley-39-2015",
+      "articulo": "43.2",
+      "enunciado": "La notificación electrónica obligatoria se entiende rechazada cuando hayan transcurrido sin acceder a su contenido:",
+      "opciones": [
+        "Diez días hábiles desde su puesta a disposición",
+        "Diez días naturales desde su puesta a disposición",
+        "Cinco días naturales desde su puesta a disposición",
+        "Quince días naturales desde su puesta a disposición"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 43.2 establece que se entenderá rechazada «cuando hayan transcurrido diez días naturales desde la puesta a disposición de la notificación sin que se acceda a su contenido».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-036",
+      "ley": "ley-39-2015",
+      "articulo": "45.1.a",
+      "enunciado": "Los actos administrativos se publican, surtiendo la publicación los efectos de la notificación, cuando el acto tenga por destinatario:",
+      "opciones": [
+        "A una sola persona identificada",
+        "A una pluralidad indeterminada de personas",
+        "A un órgano de la misma Administración",
+        "A un interesado en paradero conocido"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 45.1.a) prevé la publicación «Cuando el acto tenga por destinatario a una pluralidad indeterminada de personas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-037",
+      "ley": "ley-39-2015",
+      "articulo": "47.1.a",
+      "enunciado": "Son nulos de pleno derecho los actos de las Administraciones Públicas que:",
+      "opciones": [
+        "Lesionen los derechos y libertades susceptibles de amparo constitucional",
+        "Infrinjan cualquier norma del ordenamiento",
+        "Se dicten fuera del plazo establecido",
+        "Carezcan de algún requisito formal no esencial"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 47.1.a) declara nulos «Los que lesionen los derechos y libertades susceptibles de amparo constitucional».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-038",
+      "ley": "ley-39-2015",
+      "articulo": "47.1.e",
+      "enunciado": "Son nulos de pleno derecho los actos dictados prescindiendo:",
+      "opciones": [
+        "De un trámite no esencial del procedimiento",
+        "De la notificación a un interesado",
+        "Del informe facultativo de un órgano consultivo",
+        "Total y absolutamente del procedimiento legalmente establecido"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 47.1.e) declara nulos «Los dictados prescindiendo total y absolutamente del procedimiento legalmente establecido».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-039",
+      "ley": "ley-39-2015",
+      "articulo": "47.2",
+      "enunciado": "Son también nulas de pleno derecho las disposiciones administrativas que:",
+      "opciones": [
+        "Desarrollen una ley en sus aspectos técnicos",
+        "Sean publicadas en el diario oficial",
+        "Regulen materias reservadas a la Ley",
+        "Deroguen otra disposición del mismo rango"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 47.2 establece que serán nulas «las que regulen materias reservadas a la Ley, y las que establezcan la retroactividad de disposiciones sancionadoras no favorables».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-040",
+      "ley": "ley-39-2015",
+      "articulo": "48.3",
+      "enunciado": "La realización de actuaciones administrativas fuera del tiempo establecido sólo implica la anulabilidad del acto cuando:",
+      "opciones": [
+        "Se haya producido indefensión del interesado",
+        "Exceda en más de un mes del plazo fijado",
+        "Así lo imponga la naturaleza del término o plazo",
+        "Lo solicite el interesado afectado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 48.3 dispone que «sólo implicará la anulabilidad del acto cuando así lo imponga la naturaleza del término o plazo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-041",
+      "ley": "ley-39-2015",
+      "articulo": "49.2",
+      "enunciado": "La nulidad o anulabilidad en parte de un acto no implica la de las partes independientes, salvo que la parte viciada sea:",
+      "opciones": [
+        "Superior en extensión a la parte no viciada",
+        "De tal importancia que sin ella el acto no hubiera sido dictado",
+        "Objeto de recurso por algún interesado",
+        "Anterior en el tiempo a las partes independientes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 49.2 señala que no la implicará «salvo que la parte viciada sea de tal importancia que sin ella el acto administrativo no hubiera sido dictado».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-042",
+      "ley": "ley-39-2015",
+      "articulo": "52.2",
+      "enunciado": "El acto de convalidación de un acto anulable produce efecto:",
+      "opciones": [
+        "Desde su fecha, salvo lo dispuesto para la retroactividad en el artículo 39.3",
+        "Desde la fecha del acto convalidado en todo caso",
+        "Desde su notificación al interesado en todo caso",
+        "Desde la fecha de su publicación en el boletín oficial"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 52.2 establece que «El acto de convalidación producirá efecto desde su fecha, salvo lo dispuesto en el artículo 39.3 para la retroactividad de los actos administrativos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-043",
+      "ley": "ley-39-2015",
+      "articulo": "106.1",
+      "enunciado": "Para declarar de oficio la nulidad de un acto que ha puesto fin a la vía administrativa se exige el previo dictamen:",
+      "opciones": [
+        "Vinculante de la Abogacía del Estado en todo caso",
+        "Favorable del Tribunal de Cuentas del Estado",
+        "Del superior jerárquico del órgano autor",
+        "Favorable del Consejo de Estado u órgano consultivo autonómico"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 106.1 exige «previo dictamen favorable del Consejo de Estado u órgano consultivo equivalente de la Comunidad Autónoma, si lo hubiere».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-044",
+      "ley": "ley-39-2015",
+      "articulo": "106.5",
+      "enunciado": "Si el procedimiento de revisión de oficio se inició de oficio, su caducidad se produce por el transcurso sin resolución de:",
+      "opciones": [
+        "Tres meses desde su inicio",
+        "Un año desde su inicio",
+        "Dos meses desde su inicio",
+        "Seis meses desde su inicio"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 106.5 establece que «el transcurso del plazo de seis meses desde su inicio sin dictarse resolución producirá la caducidad del mismo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    },
+    {
+      "id": "dad-045",
+      "ley": "ley-39-2015",
+      "articulo": "109.1",
+      "enunciado": "Las Administraciones Públicas pueden revocar, mientras no haya transcurrido el plazo de prescripción, sus actos:",
+      "opciones": [
+        "Favorables para los interesados",
+        "Declarativos de derechos",
+        "De gravamen o desfavorables",
+        "Firmes en vía administrativa en todo caso"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 109.1 dispone que podrán revocar «sus actos de gravamen o desfavorables, siempre que tal revocación no constituya dispensa o exención no permitida por las leyes».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 9
+      }
+    }
+  ]
+}
