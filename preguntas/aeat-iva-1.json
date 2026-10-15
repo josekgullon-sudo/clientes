@@ -1,0 +1,805 @@
+{
+  "descripcion": "Ley 37/1992 del IVA (tema 30 de Agente de la Hacienda Pública): naturaleza, ámbito, hecho imponible, exenciones y lugar de realización. Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-10-07).",
+  "preguntas": [
+    {
+      "id": "iv1-001",
+      "ley": "ley-37-1992",
+      "articulo": "1",
+      "enunciado": "El Impuesto sobre el Valor Añadido es un tributo de naturaleza:",
+      "opciones": [
+        "Directa que recae sobre la renta de los empresarios",
+        "Indirecta que recae sobre el consumo",
+        "Indirecta que recae sobre el patrimonio",
+        "Directa que recae sobre el consumo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 1 dice que «El Impuesto sobre el Valor Añadido es un tributo de naturaleza indirecta que recae sobre el consumo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-002",
+      "ley": "ley-37-1992",
+      "articulo": "1",
+      "enunciado": "Además de las entregas de bienes y prestaciones de servicios de empresarios o profesionales, el IVA grava las adquisiciones intracomunitarias de bienes y:",
+      "opciones": [
+        "Las exportaciones de bienes",
+        "Las operaciones societarias",
+        "Las transmisiones patrimoniales onerosas",
+        "Las importaciones de bienes"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 1 enumera tres grupos de operaciones: las entregas y prestaciones de empresarios o profesionales, «Las adquisiciones intracomunitarias de bienes.» y «Las importaciones de bienes.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-003",
+      "ley": "ley-37-1992",
+      "articulo": "3.Uno",
+      "enunciado": "El ámbito espacial del IVA comprende el territorio español, incluyendo el mar territorial hasta el límite de:",
+      "opciones": [
+        "12 millas náuticas",
+        "6 millas náuticas",
+        "24 millas náuticas",
+        "200 millas náuticas"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 3.Uno, el ámbito espacial incluye «el mar territorial hasta el límite de 12 millas náuticas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-004",
+      "ley": "ley-37-1992",
+      "articulo": "3.Dos.1.º.a",
+      "enunciado": "Según la Ley del IVA, Ceuta y Melilla quedan excluidas del concepto de «interior del país» en cuanto territorios:",
+      "opciones": [
+        "Excluidos de la armonización de los impuestos sobre el volumen de negocios",
+        "Sometidos al régimen de Concierto o Convenio",
+        "Con régimen fiscal especial por razón de insularidad",
+        "No comprendidos en la Unión Aduanera"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 3.Dos.1.º.a) excluye «en el Reino de España, Ceuta y Melilla y en la República Italiana, Livigno, en cuanto territorios no comprendidos en la Unión Aduanera».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-005",
+      "ley": "ley-37-1992",
+      "articulo": "3.Tres",
+      "enunciado": "A efectos del IVA, las operaciones efectuadas con el Principado de Mónaco tienen la misma consideración que las efectuadas con:",
+      "opciones": [
+        "Italia",
+        "Chipre",
+        "El Reino Unido",
+        "Francia"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 3.Tres señala que las operaciones «con el Principado de Mónaco, con la Isla de Man y con las zonas de soberanía del Reino Unido en Akrotiri y Dhekelia tendrán la misma consideración que las efectuadas, respectivamente, con Francia, el Reino Unido y Chipre».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-006",
+      "ley": "ley-37-1992",
+      "articulo": "4.Tres",
+      "enunciado": "La sujeción al IVA de las operaciones realizadas en el desarrollo de una actividad empresarial o profesional se produce:",
+      "opciones": [
+        "Solo si se persigue un fin de lucro",
+        "Solo si la operación resulta beneficiosa para el empresario",
+        "Con independencia de los fines o resultados perseguidos",
+        "Solo si la actividad se ejerce con carácter habitual"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 4.Tres establece que «La sujeción al impuesto se produce con independencia de los fines o resultados perseguidos en la actividad empresarial o profesional o en cada operación en particular.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-007",
+      "ley": "ley-37-1992",
+      "articulo": "4.Dos.b",
+      "enunciado": "Un empresario cesa en su actividad y transmite a terceros bienes de su patrimonio empresarial. Según el artículo 4, esas transmisiones:",
+      "opciones": [
+        "Quedan siempre fuera del IVA por haber cesado la actividad",
+        "Solo se sujetan si superan el valor contable de los bienes",
+        "Se entienden realizadas en el desarrollo de su actividad empresarial",
+        "Solo se sujetan si el adquirente es otro empresario"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 4.Dos.b) entiende realizadas en el desarrollo de una actividad empresarial las transmisiones «a terceros de la totalidad o parte de cualesquiera de los bienes o derechos que integren el patrimonio empresarial o profesional de los sujetos pasivos, incluso las efectuadas con ocasión del cese en el ejercicio de las actividades económicas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-008",
+      "ley": "ley-37-1992",
+      "articulo": "5.Uno.a",
+      "enunciado": "No tienen la consideración de empresarios o profesionales a efectos del IVA, según el artículo 5.Uno.a):",
+      "opciones": [
+        "Quienes exploten un bien para obtener ingresos continuados en el tiempo",
+        "Quienes realicen exclusivamente entregas de bienes o prestaciones de servicios a título gratuito",
+        "Quienes promuevan edificaciones destinadas a su venta, aunque sea ocasionalmente",
+        "Las sociedades mercantiles, aunque no realicen operaciones"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 5.Uno.a) dice que «no tendrán la consideración de empresarios o profesionales quienes realicen exclusivamente entregas de bienes o prestaciones de servicios a título gratuito».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-009",
+      "ley": "ley-37-1992",
+      "articulo": "5.Uno.b",
+      "enunciado": "Las sociedades mercantiles se reputan empresarios o profesionales a efectos del IVA:",
+      "opciones": [
+        "Salvo prueba en contrario",
+        "En todo caso, sin admitir prueba en contrario",
+        "Solo si realizan operaciones con carácter habitual",
+        "Solo si están dadas de alta en el Impuesto sobre Actividades Económicas"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 5.Uno.b), se reputarán empresarios o profesionales «Las sociedades mercantiles, salvo prueba en contrario.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-010",
+      "ley": "ley-37-1992",
+      "articulo": "5.Uno.e",
+      "enunciado": "Un particular vende ocasionalmente un coche nuevo, exento por el artículo 25.Uno, a un comprador de otro Estado miembro. Respecto de sus demás operaciones, ese particular:",
+      "opciones": [
+        "Tiene la condición de empresario a efectos de todas sus operaciones",
+        "No tiene nunca la condición de empresario a efectos del IVA",
+        "Tiene la condición de empresario durante todo el año natural",
+        "Tiene la condición de empresario solo a efectos de las entregas de medios de transporte nuevos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 5.Uno.e) añade que «Los empresarios o profesionales a que se refiere esta letra sólo tendrán dicha condición a los efectos de las entregas de los medios de transporte que en ella se comprenden.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-011",
+      "ley": "ley-37-1992",
+      "articulo": "7.1.º",
+      "enunciado": "No se beneficia de la no sujeción prevista en el artículo 7.1.º para la transmisión de una unidad económica autónoma:",
+      "opciones": [
+        "La transmisión a un adquirente que desarrolle una actividad distinta",
+        "La transmisión de elementos corporales e incorporales conjuntamente",
+        "La transmisión con mantenimiento de la afectación a una actividad",
+        "La mera cesión de bienes o de derechos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 7.1.º excluye de la no sujeción, entre otras transmisiones, «La mera cesión de bienes o de derechos.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-012",
+      "ley": "ley-37-1992",
+      "articulo": "7.4.º",
+      "enunciado": "Las entregas sin contraprestación de objetos de carácter publicitario quedan sujetas al IVA cuando el coste total de los suministros a un mismo destinatario durante el año natural exceda de:",
+      "opciones": [
+        "200 euros",
+        "100 euros",
+        "300 euros",
+        "500 euros"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 7.4.º dispone que quedarán sujetas «las entregas de objetos publicitarios cuando el coste total de los suministros a un mismo destinatario durante el año natural exceda de 200 euros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-013",
+      "ley": "ley-37-1992",
+      "articulo": "7.8.º.B",
+      "enunciado": "A efectos de la no sujeción de las entregas y servicios de las Administraciones Públicas (artículo 7.8.º), NO tienen la consideración de Administración Pública:",
+      "opciones": [
+        "Las entidades públicas empresariales estatales",
+        "Los organismos autónomos",
+        "Las universidades públicas",
+        "Las agencias estatales"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 7.8.º.B) precisa que «No tendrán la consideración de Administraciones Públicas las entidades públicas empresariales estatales y los organismos asimilados dependientes de las Comunidades Autónomas y Entidades locales.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-014",
+      "ley": "ley-37-1992",
+      "articulo": "8.Dos.1.º",
+      "enunciado": "La ejecución de obra de construcción de una edificación es entrega de bienes cuando el empresario aporta parte de los materiales y su coste excede del siguiente porcentaje de la base imponible:",
+      "opciones": [
+        "20 por 100",
+        "30 por 100",
+        "40 por 100",
+        "50 por 100"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 8.Dos.1.º, es entrega de bienes la ejecución de obra cuando el empresario «aporte una parte de los materiales utilizados, siempre que el coste de los mismos exceda del 40 por 100 de la base imponible».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-015",
+      "ley": "ley-37-1992",
+      "articulo": "11.Dos.16.º",
+      "enunciado": "El suministro de productos informáticos tiene la consideración de prestación de servicios cuando se trata de productos:",
+      "opciones": [
+        "Normalizados, entregados en cualquier soporte material",
+        "Que no precisan modificación sustancial para su uso por cualquier usuario",
+        "Confeccionados previo encargo de su destinatario conforme a sus especificaciones",
+        "Que se entregan en un soporte físico de uso estándar"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 11.Dos.16.º señala que se considerará prestación de servicios «el suministro de productos informáticos que hayan sido confeccionados previo encargo de su destinatario conforme a las especificaciones de éste».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-016",
+      "ley": "ley-37-1992",
+      "articulo": "14.Dos",
+      "enunciado": "La no sujeción de determinadas adquisiciones intracomunitarias solo se aplica si el importe total de las adquisiciones procedentes de otros Estados miembros no alcanzó en el año natural precedente la cifra de:",
+      "opciones": [
+        "3.000 euros",
+        "12.000 euros",
+        "10.000 euros",
+        "35.000 euros"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 14.Dos exige que el importe total de las adquisiciones «no haya alcanzado en el año natural precedente 10.000 euros».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-017",
+      "ley": "ley-37-1992",
+      "articulo": "13.2.ª.b",
+      "enunciado": "Un vehículo terrestre accionado a motor se considera nuevo, entre otros supuestos, si no ha recorrido más de:",
+      "opciones": [
+        "3.000 kilómetros",
+        "10.000 kilómetros",
+        "6.000 kilómetros",
+        "12.000 kilómetros"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 13.2.ª establece como circunstancia de novedad «Que los vehículos terrestres no hayan recorrido más de 6.000 kilómetros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-018",
+      "ley": "ley-37-1992",
+      "articulo": "15.Uno.a",
+      "enunciado": "Constituye adquisición intracomunitaria la obtención del poder de disposición sobre bienes muebles corporales expedidos o transportados al territorio de aplicación del impuesto, con destino al adquirente, desde:",
+      "opciones": [
+        "Cualquier territorio tercero",
+        "Canarias, Ceuta o Melilla",
+        "Cualquier punto del propio territorio de aplicación del impuesto",
+        "Otro Estado miembro"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 15.Uno.a), es la obtención del poder de disposición sobre bienes «expedidos o transportados al territorio de aplicación del Impuesto, con destino al adquirente, desde otro Estado miembro».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-019",
+      "ley": "ley-37-1992",
+      "articulo": "17",
+      "enunciado": "Las importaciones de bienes están sujetas al IVA:",
+      "opciones": [
+        "Solo cuando el importador sea empresario o profesional",
+        "Solo cuando los bienes se destinen a la reventa",
+        "Solo cuando el importador tenga derecho a deducir",
+        "Cualquiera que sea el fin a que se destinen y la condición del importador"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 17 dispone que «Estarán sujetas al impuesto las importaciones de bienes, cualquiera que sea el fin a que se destinen y la condición del importador.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-020",
+      "ley": "ley-37-1992",
+      "articulo": "18.Dos",
+      "enunciado": "Un bien procedente de un territorio tercero se coloca, desde su entrada, en situación de depósito temporal. La importación se produce:",
+      "opciones": [
+        "Cuando cese la situación en el territorio de aplicación del impuesto",
+        "En el momento de su entrada en el interior del país",
+        "En el momento en que el bien se coloca en depósito",
+        "Cuando se presenta la declaración recapitulativa"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 18.Dos establece que «la importación de dicho bien se producirá cuando cesen las situaciones o se ultimen los regímenes indicados en el territorio de aplicación del impuesto».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-021",
+      "ley": "ley-37-1992",
+      "articulo": "20.Uno.2.º.a",
+      "enunciado": "La exención de las prestaciones de hospitalización o asistencia sanitaria no se extiende a:",
+      "opciones": [
+        "Los servicios de quirófano prestados por clínicas",
+        "La entrega de medicamentos para ser consumidos fuera de los establecimientos",
+        "El alojamiento prestado a los acompañantes de los pacientes",
+        "El suministro de material sanitario a los pacientes hospitalizados"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 20.Uno.2.º excluye de la exención «La entrega de medicamentos para ser consumidos fuera de los establecimientos mencionados en el primer párrafo de este número.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-022",
+      "ley": "ley-37-1992",
+      "articulo": "20.Uno.9.º.c",
+      "enunciado": "La exención de la enseñanza y la formación del artículo 20.Uno.9.º no comprende las operaciones efectuadas por:",
+      "opciones": [
+        "Escuelas de conductores relativas a los permisos de las clases A y B",
+        "Centros de enseñanza de idiomas autorizados",
+        "Entidades de formación y reciclaje profesional autorizadas",
+        "Universidades por la enseñanza de postgraduados"
+      ],
+      "correcta": 0,
+      "explicacion": "La exención no comprenderá «Las efectuadas por escuelas de conductores de vehículos relativas a los permisos de conducción de vehículos terrestres de las clases A y B» (artículo 20.Uno.9.º.c).",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-023",
+      "ley": "ley-37-1992",
+      "articulo": "20.Uno.16.º",
+      "enunciado": "Están exentas del IVA en operaciones interiores las operaciones de:",
+      "opciones": [
+        "Alquiler de cajas de seguridad",
+        "Gestión de cobro de créditos y recibos",
+        "Arrendamiento de maquinaria industrial",
+        "Seguro, reaseguro y capitalización"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 20.Uno.16.º declara exentas «Las operaciones de seguro, reaseguro y capitalización.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-024",
+      "ley": "ley-37-1992",
+      "articulo": "20.Uno.18.º.j",
+      "enunciado": "Las operaciones de compra, venta o cambio de divisas, billetes y monedas que sean medios legales de pago están exentas, a excepción de:",
+      "opciones": [
+        "Los billetes de banco emitidos por Estados no miembros",
+        "Las monedas de curso legal de otros Estados miembros",
+        "Las monedas y billetes de colección y las piezas de oro, plata y platino",
+        "Las divisas distintas del euro"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 20.Uno.18.º.j) exenta estas operaciones «a excepción de las monedas y billetes de colección y de las piezas de oro, plata y platino».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-025",
+      "ley": "ley-37-1992",
+      "articulo": "20.Uno.22.º.A",
+      "enunciado": "No tiene la consideración de primera entrega la realizada por el promotor después de la utilización ininterrumpida del inmueble por su propietario durante un plazo igual o superior a:",
+      "opciones": [
+        "Un año",
+        "Dos años",
+        "Tres años",
+        "Cinco años"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 20.Uno.22.º.A), no es primera entrega la realizada por el promotor «después de la utilización ininterrumpida del inmueble por un plazo igual o superior a dos años».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-026",
+      "ley": "ley-37-1992",
+      "articulo": "20.Uno.23.º",
+      "enunciado": "La exención de los arrendamientos del artículo 20.Uno.23.º NO comprende:",
+      "opciones": [
+        "Los arrendamientos de terrenos rústicos",
+        "Los arrendamientos de terrenos para estacionamientos de vehículos",
+        "Los arrendamientos de edificios destinados exclusivamente a viviendas",
+        "Los arrendamientos de garajes accesorios a las viviendas, arrendados conjuntamente con ellas"
+      ],
+      "correcta": 1,
+      "explicacion": "La exención no comprenderá «Los arrendamientos de terrenos para estacionamientos de vehículos.» (artículo 20.Uno.23.º, letra a´).",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-027",
+      "ley": "ley-37-1992",
+      "articulo": "20.Dos",
+      "enunciado": "Pueden ser objeto de renuncia por el sujeto pasivo las exenciones del artículo 20.Uno relativas a los números:",
+      "opciones": [
+        "16.º y 18.º",
+        "9.º y 10.º",
+        "20.º y 22.º",
+        "23.º y 24.º"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 20.Dos dispone que «Las exenciones relativas a los números 20.º y 22.º del apartado anterior podrán ser objeto de renuncia por el sujeto pasivo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-028",
+      "ley": "ley-37-1992",
+      "articulo": "21.1.º",
+      "enunciado": "Están exentas como exportaciones las entregas de bienes expedidos o transportados fuera de la Comunidad por:",
+      "opciones": [
+        "El adquirente establecido en el territorio de aplicación del impuesto",
+        "El transmitente o un tercero que actúe en su nombre y por su cuenta",
+        "Cualquier adquirente que no sea empresario o profesional",
+        "Un transportista que actúe en nombre del adquirente residente en España"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 21.1.º exime «Las entregas de bienes expedidos o transportados fuera de la Comunidad por el transmitente o por un tercero que actúe en nombre y por cuenta de éste.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-029",
+      "ley": "ley-37-1992",
+      "articulo": "21.2.º.A.b",
+      "enunciado": "Para que sea exenta la entrega de bienes a un viajero, este debe tener su residencia habitual:",
+      "opciones": [
+        "Fuera del territorio de aplicación del impuesto",
+        "Fuera del territorio de la Comunidad",
+        "En un Estado miembro distinto de España",
+        "En cualquier país con convenio con España"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 21.2.º.A) exige «Que los viajeros tengan su residencia habitual fuera del territorio de la Comunidad.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-030",
+      "ley": "ley-37-1992",
+      "articulo": "21.4.º",
+      "enunciado": "Cuando quien entrega bienes a organismos reconocidos que los exportan con fines humanitarios sea un ente público, puede solicitar la devolución del impuesto soportado no deducido en el plazo de:",
+      "opciones": [
+        "Tres meses desde que se realicen las entregas",
+        "Un mes desde que se realicen las entregas",
+        "Seis meses desde que se realicen las entregas",
+        "Un año desde que se realicen las entregas"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 21.4.º permite solicitar la devolución «previa justificación de su importe en el plazo de tres meses desde que dichas entregas se realicen».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-031",
+      "ley": "ley-37-1992",
+      "articulo": "22.Uno.1.º",
+      "enunciado": "La exención de los buques de navegación marítima internacional no se aplica en ningún caso a los buques destinados a:",
+      "opciones": [
+        "Circuitos turísticos con navegación internacional",
+        "Actividades deportivas, de recreo o, en general, de uso privado",
+        "Actividades industriales o de pesca",
+        "Transporte remunerado de mercancías"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 22.Uno.1.º aclara que «La exención no se aplicará en ningún caso a los buques destinados a actividades deportivas, de recreo o, en general, de uso privado.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-032",
+      "ley": "ley-37-1992",
+      "articulo": "22.Uno.Segundo",
+      "enunciado": "Un buque se considera afecto a la navegación marítima internacional cuando sus recorridos en singladuras de dicha navegación representen más de un determinado porcentaje del total recorrido. Dicho porcentaje es el:",
+      "opciones": [
+        "50 por ciento",
+        "25 por ciento",
+        "60 por ciento",
+        "75 por ciento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 22.Uno exige que los recorridos de navegación internacional «representen más del 50 por ciento del total recorrido efectuado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-033",
+      "ley": "ley-37-1992",
+      "articulo": "25.Uno",
+      "enunciado": "La exención de las entregas intracomunitarias de bienes queda condicionada a que el vendedor haya incluido las operaciones en:",
+      "opciones": [
+        "La declaración informativa de operaciones con terceras personas",
+        "El documento de exportación de las mercancías",
+        "La declaración censal de inicio de actividad",
+        "La declaración recapitulativa de operaciones intracomunitarias"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 25.Uno señala que la exención «quedará condicionada a que el vendedor haya incluido dichas operaciones en la declaración recapitulativa de operaciones intracomunitarias».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-034",
+      "ley": "ley-37-1992",
+      "articulo": "25.Dos",
+      "enunciado": "Un concesionario español vende un coche nuevo a un particular residente en otro Estado miembro, que lo transporta a su país. La entrega está:",
+      "opciones": [
+        "Sujeta y no exenta, por ser el adquirente consumidor final",
+        "No sujeta, por tratarse de un adquirente no empresario",
+        "Exenta, por ser entrega de un medio de transporte nuevo",
+        "Exenta solo si el particular comunica un número de IVA"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 25.Dos exime «Las entregas de medios de transportes nuevos, efectuadas en las condiciones indicadas en el apartado uno, cuando los adquirentes en destino sean […] cualquiera otra persona que no tenga la condición de empresario o profesional.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-035",
+      "ley": "ley-37-1992",
+      "articulo": "68.Dos.3.º",
+      "enunciado": "Las entregas de bienes inmuebles se entienden realizadas en el territorio de aplicación del impuesto cuando:",
+      "opciones": [
+        "El vendedor tenga en él su domicilio",
+        "El comprador sea residente en él",
+        "Los inmuebles radiquen en dicho territorio",
+        "La escritura se otorgue en él"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 68.Dos.3.º entiende realizadas en el territorio de aplicación del impuesto «Las entregas de bienes inmuebles que radiquen en dicho territorio.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-036",
+      "ley": "ley-37-1992",
+      "articulo": "69.Uno.1.º",
+      "enunciado": "Un abogado establecido en Francia presta servicios de asesoramiento a una empresa con sede de actividad económica en España. El servicio se entiende realizado:",
+      "opciones": [
+        "En el territorio de aplicación del impuesto, por radicar en él la sede del destinatario empresario",
+        "En Francia, por estar establecido el prestador",
+        "En el lugar donde se realicen materialmente las gestiones",
+        "En el lugar donde se firme el contrato de servicios"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 69.Uno.1.º entiende realizados en el territorio de aplicación del impuesto los servicios «Cuando el destinatario sea un empresario o profesional que actúe como tal y radique en el citado territorio la sede de su actividad económica», con independencia de dónde esté establecido el prestador.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-037",
+      "ley": "ley-37-1992",
+      "articulo": "69.Dos",
+      "enunciado": "Un empresario español presta servicios de publicidad a un particular establecido fuera de la Comunidad. No se entienden realizados en el territorio de aplicación del impuesto, salvo que el destinatario esté establecido en:",
+      "opciones": [
+        "Andorra o Gibraltar",
+        "Suiza o Noruega",
+        "Cualquier Estado miembro distinto de España",
+        "Las Islas Canarias, Ceuta o Melilla"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 69.Dos excluye estos servicios cuando el destinatario esté fuera de la Comunidad, «salvo en el caso de que dicho destinatario esté establecido o tenga su domicilio o residencia habitual en las Islas Canarias, Ceuta o Melilla».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-038",
+      "ley": "ley-37-1992",
+      "articulo": "70.Uno.5.º.A.b",
+      "enunciado": "Los servicios de restauración y catering no prestados a bordo de un medio de transporte se entienden prestados en el territorio de aplicación del impuesto cuando:",
+      "opciones": [
+        "El destinatario resida en dicho territorio",
+        "Se presten materialmente en dicho territorio",
+        "El prestador tenga en él su sede de actividad",
+        "Se facture desde dicho territorio"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 70.Uno.5.º.A).b), se entienden prestados en el territorio «Los restantes servicios de restauración y catering cuando se presten materialmente en el territorio de aplicación del Impuesto.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-039",
+      "ley": "ley-37-1992",
+      "articulo": "70.Uno.9.º.B",
+      "enunciado": "En el arrendamiento de medios de transporte, se entiende por corto plazo la tenencia ininterrumpida no superior a treinta días y, en el caso de los buques, no superior a:",
+      "opciones": [
+        "Sesenta días",
+        "Noventa días",
+        "Ciento veinte días",
+        "Ciento ochenta días"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 70.Uno.9.º.B) define corto plazo como un periodo ininterrumpido «no superior a treinta días y, en el caso de los buques, no superior a noventa días».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    },
+    {
+      "id": "iv1-040",
+      "ley": "ley-37-1992",
+      "articulo": "7.7.º",
+      "enunciado": "Los autoconsumos de bienes del artículo 9.1.º no están sujetos al IVA siempre que:",
+      "opciones": [
+        "No se hubiese atribuido al sujeto pasivo derecho a deducir el IVA soportado en la adquisición de los bienes",
+        "El valor de los bienes no supere el 10 por ciento de su coste",
+        "Los bienes se destinen al uso particular del sujeto pasivo",
+        "El sujeto pasivo esté en el régimen simplificado"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 7.7.º declara no sujetas las operaciones del artículo 9.1.º «siempre que no se hubiese atribuido al sujeto pasivo el derecho a efectuar la deducción total o parcial del Impuesto sobre el Valor Añadido efectivamente soportado».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 30
+      }
+    }
+  ]
+}
