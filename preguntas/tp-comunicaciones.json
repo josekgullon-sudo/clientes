@@ -16,7 +16,7 @@
       "explicacion": "La LEC define los «Oficios, para las comunicaciones con autoridades no judiciales y funcionarios distintos de los mencionados en el número anterior».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 27
       }
@@ -36,7 +36,7 @@
       "explicacion": "Según el artículo 167.1, «Los mandamientos y oficios se remitirán directamente por el Letrado de la Administración de Justicia que los expida a la autoridad o funcionario a que vayan dirigidos».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 27
       }
@@ -56,7 +56,7 @@
       "explicacion": "El artículo 167.2 dispone que «la parte a cuya instancia se libren los oficios y mandamientos a que se refiere este artículo habrá de satisfacer los gastos que requiera su cumplimiento».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 27
       }
@@ -76,7 +76,7 @@
       "explicacion": "El artículo 169.2 establece que «Se solicitará el auxilio judicial para las actuaciones que hayan de efectuarse fuera de la circunscripción del tribunal que conozca del asunto, incluidos los actos de reconocimiento judicial».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 27
       }
@@ -96,47 +96,7 @@
       "explicacion": "El artículo 169.3 señala que «También podrá pedirse el auxilio judicial para las actuaciones que hayan de practicarse fuera del término municipal en que tenga su sede el tribunal que las haya ordenado, pero dentro del partido judicial o circunscripción correspondiente».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
-      "temas": {
-        "tramitacion-procesal": 27
-      }
-    },
-    {
-      "id": "tpr-006",
-      "ley": "ley-1-2000",
-      "articulo": "170",
-      "enunciado": "¿A quién corresponde prestar el auxilio judicial civil en el lugar donde deba practicarse la actuación?",
-      "opciones": [
-        "A la Audiencia Provincial de esa circunscripción",
-        "Al decanato de los juzgados de la capital de provincia",
-        "Al Juzgado de Paz en todo caso",
-        "A la Oficina del Juzgado de Primera Instancia de ese lugar"
-      ],
-      "correcta": 3,
-      "explicacion": "El artículo 170 dice que «Corresponderá prestar el auxilio judicial a la Oficina del Juzgado de Primera Instancia del lugar en cuya circunscripción deba practicarse».",
-      "dificultad": 1,
-      "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
-      "temas": {
-        "tramitacion-procesal": 27
-      }
-    },
-    {
-      "id": "tpr-007",
-      "ley": "ley-1-2000",
-      "articulo": "170",
-      "enunciado": "En el lugar de práctica tiene su sede un Juzgado de Paz y el auxilio consiste en un acto de comunicación. ¿Quién lo practica?",
-      "opciones": [
-        "El Juzgado de Paz",
-        "La Oficina del Juzgado de Primera Instancia más próximo",
-        "El Servicio Común Procesal de la capital",
-        "El procurador de la parte exhortante"
-      ],
-      "correcta": 0,
-      "explicacion": "Según el artículo 170, «si en dicho lugar tuviera su sede un Juzgado de Paz, y el auxilio judicial consistiere en un acto de comunicación» o una videoconferencia del artículo 137 bis, «a éste le corresponderá practicar la actuación».",
-      "dificultad": 2,
-      "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 27
       }
@@ -156,7 +116,7 @@
       "explicacion": "El artículo 171.2 establece que «La expedición y autorización de los exhortos corresponderá al Letrado de la Administración de Justicia».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 27
       }
@@ -176,7 +136,7 @@
       "explicacion": "El artículo 177.1 prevé que «se cursarán conforme a lo establecido en las normas comunitarias que resulten de aplicación, en los Tratados internacionales en que España sea parte y, en su defecto, en la legislación interna que resulte aplicable».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 27
       }
@@ -196,7 +156,7 @@
       "explicacion": "El artículo 171.3 permite que «la solicitud podrá transmitirse y cumplirse, sin necesidad de exhorto, por los medios electrónicos que se habiliten al efecto».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 27
       }
@@ -216,7 +176,7 @@
       "explicacion": "El artículo 172.2 dispone que se le entregará el exhorto «bajo su responsabilidad, para que lo presente en el órgano exhortado dentro de los cinco días siguientes».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 27
       }
@@ -236,7 +196,7 @@
       "explicacion": "Según el artículo 172.4, el órgano que lo reciba «lo enviará directamente al que corresponda, si es que le consta cuál sea éste, dando cuenta de su remisión al exhortante».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 27
       }
@@ -256,7 +216,7 @@
       "explicacion": "El artículo 173 señala que «el órgano para el que se haya solicitado el auxilio pondrá los hechos en conocimiento de la Sala de Gobierno correspondiente al Tribunal exhortado».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 27
       }
@@ -276,7 +236,7 @@
       "explicacion": "El artículo 174.1 establece que «las resoluciones que se dicten para el cumplimiento del exhorto sólo se notificarán a las partes que hubiesen designado procurador para intervenir en su tramitación».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 27
       }
@@ -296,7 +256,7 @@
       "explicacion": "Según el artículo 175.2, las actuaciones se entregarán al litigante o procurador «que las presentará en el órgano exhortante dentro de los diez días siguientes».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 27
       }
@@ -316,7 +276,7 @@
       "explicacion": "El artículo 165 indica que «Estos actos de comunicación se cumplimentarán en un plazo no superior a veinte días, contados a partir de su recepción».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 27
       }
@@ -336,7 +296,7 @@
       "explicacion": "El artículo 274.2 dispone que la petición de cooperación «se efectuará siempre directamente, sin dar lugar a traslados ni reproducciones a través de órganos intermedios».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 27
       }
@@ -356,7 +316,7 @@
       "explicacion": "El artículo 278.1.3.º prevé la denegación «Cuando el contenido del acto a realizar no corresponda a las atribuciones propias de la autoridad judicial española requerida», y añade: «En tal caso, ésta remitirá la solicitud a la autoridad judicial competente, informando de ello a la autoridad judicial requirente».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 27
       }
@@ -376,7 +336,7 @@
       "explicacion": "El artículo 149 define los «Emplazamientos, para personarse y para actuar dentro de un plazo».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -396,7 +356,7 @@
       "explicacion": "El artículo 149 define los «Requerimientos para ordenar, conforme a la ley, una conducta o inactividad».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -407,16 +367,16 @@
       "articulo": "150.2",
       "enunciado": "Además de a las partes, por disposición del Tribunal se notifica la pendencia del proceso a:",
       "opciones": [
-        "Todas las personas domiciliadas en el partido judicial",
-        "Los testigos y peritos propuestos por las partes",
-        "Las personas que, según los autos, puedan verse afectadas por la resolución que ponga fin al procedimiento",
-        "Los colegios profesionales de los abogados intervinientes"
+        "Todas las personas que estén domiciliadas en el partido judicial del órgano",
+        "Los testigos y peritos que hayan sido propuestos por las partes del proceso",
+        "Las personas que según los autos puedan verse afectadas por la resolución final",
+        "Los colegios profesionales a los que pertenezcan los abogados de las partes"
       ],
       "correcta": 2,
       "explicacion": "El artículo 150.2 establece que «se notificará la pendencia del proceso a las personas que, según los mismos autos, puedan verse afectadas por la resolución que ponga fin al procedimiento».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -428,15 +388,15 @@
       "enunciado": "La notificación de una resolución fija fecha para el lanzamiento de quienes ocupan una vivienda. ¿A quién se da traslado además?",
       "opciones": [
         "A las Administraciones Públicas competentes en materia de vivienda y asistencia social",
-        "Al Registro de la Propiedad del lugar de la vivienda",
-        "Al Colegio de Procuradores del partido judicial",
-        "A las Fuerzas y Cuerpos de Seguridad del Estado"
+        "Al Registro de la Propiedad del lugar donde radique la vivienda",
+        "Al Colegio de Procuradores del partido judicial correspondiente",
+        "A las Fuerzas y Cuerpos de Seguridad del Estado competentes"
       ],
       "correcta": 0,
       "explicacion": "El artículo 150.4 dispone que «se dará traslado a las Administraciones Públicas competentes en materia de vivienda, asistencia social, evaluación e información de situaciones de necesidad social» y atención a personas en riesgo de exclusión.",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -456,7 +416,7 @@
       "explicacion": "El artículo 151.1 señala que se notificarán «en el plazo máximo de tres días desde su fecha o publicación».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -476,7 +436,7 @@
       "explicacion": "El artículo 151.2 establece que «Cuando el acto de comunicación fuera remitido con posterioridad a las 15:00 horas, se tendrá por recibido al día siguiente hábil».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -496,7 +456,7 @@
       "explicacion": "Según el artículo 152.1, tales actos se ejecutarán por «Los funcionarios del Cuerpo de Auxilio Judicial» y «El procurador de la parte que lo solicite».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -516,7 +476,7 @@
       "explicacion": "El artículo 152.5 dice que en notificaciones, citaciones y emplazamientos no se admite respuesta, «a no ser que así se hubiera mandado. En los requerimientos se admitirá la respuesta que dé el requerido, consignándola sucintamente en la diligencia».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -536,7 +496,7 @@
       "explicacion": "El artículo 152.6 establece que «tendrá eficacia a efectos procesales la primera fecha en que se hubiese verificado, con independencia del medio que se hubiere empleado».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -556,7 +516,7 @@
       "explicacion": "El artículo 156.2 dispone que «En ningún caso se considerará imposible la designación de domicilio a efectos de actos de comunicación si dicho domicilio constara en archivos o registros públicos, a los que pudiere tenerse acceso».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -576,7 +536,7 @@
       "explicacion": "El artículo 156.4 establece que «Si estas averiguaciones resultaren infructuosas, el Letrado de la Administración de Justicia ordenará que la comunicación se lleve a cabo mediante edictos».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -596,7 +556,7 @@
       "explicacion": "El artículo 157.1 ordena comunicar el nombre del demandado y los demás datos de identidad «al Registro Central de Rebeldes Civiles, que existirá con sede en el Ministerio de Justicia».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -616,7 +576,7 @@
       "explicacion": "Según el artículo 161.2, el funcionario o procurador «le hará saber que la copia de la resolución o la cédula queda a su disposición en la oficina judicial, produciéndose los efectos de la comunicación».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -636,7 +596,7 @@
       "explicacion": "El artículo 161.3 permite la entrega «a cualquier empleado, familiar o persona con la que conviva, mayor de catorce años, que se encuentre en ese lugar».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -656,7 +616,7 @@
       "explicacion": "El artículo 162.2 señala que si «transcurrieran tres días sin que el destinatario acceda a su contenido, se entenderá que la comunicación ha sido efectuada legalmente desplegando plenamente sus efectos».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -676,7 +636,7 @@
       "explicacion": "El artículo 162.2 establece que «los plazos para desarrollar actuaciones procesales comenzarán a computarse desde el día hábil siguiente al tercero».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -696,7 +656,7 @@
       "explicacion": "El artículo 162.2 dispone que «No se practicarán actos de comunicación a los y las profesionales por vía electrónica durante los días del mes de agosto ni durante los días que median entre el 24 de diciembre y el 6 de enero del año siguiente, ambos inclusive».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -716,7 +676,7 @@
       "explicacion": "El artículo 164 prevé que el Letrado de la Administración de Justicia «mandará que se haga la comunicación, a través del Tablón Edictal Judicial Único».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -736,7 +696,7 @@
       "explicacion": "El artículo 166.1 dispone que «Serán nulos los actos de comunicación que no se practicaren con arreglo a lo dispuesto en este capítulo y pudieren causar indefensión».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -756,7 +716,7 @@
       "explicacion": "El artículo 166.2 señala que si no denunciase la nulidad «en su primer acto de comparecencia ante el tribunal, surtirá ésta desde entonces todos sus efectos, como si se hubiere hecho con arreglo a las disposiciones de la ley».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -776,47 +736,7 @@
       "explicacion": "El artículo 166 dispone que se practicarán «leyendo íntegramente la resolución a la persona a quien se notifiquen, dándole en el acto copia de ella, aunque no la pidiere».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
-      "temas": {
-        "tramitacion-procesal": 28
-      }
-    },
-    {
-      "id": "tpr-040",
-      "ley": "lecrim",
-      "articulo": "172",
-      "enunciado": "En el proceso penal, el que ha de ser notificado no es hallado en su habitación a la primera diligencia. Si no hubiere nadie allí, la cédula se entrega:",
-      "opciones": [
-        "A un agente de la autoridad",
-        "Al conserje del juzgado",
-        "A uno de los vecinos más próximos",
-        "A dos testigos buscados al efecto"
-      ],
-      "correcta": 2,
-      "explicacion": "El artículo 172 establece que, si no hubiere nadie en la habitación, «se hará la entrega a uno de los vecinos más próximos».",
-      "dificultad": 2,
-      "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
-      "temas": {
-        "tramitacion-procesal": 28
-      }
-    },
-    {
-      "id": "tpr-041",
-      "ley": "lecrim",
-      "articulo": "175",
-      "enunciado": "La cédula de citación penal recuerda la obligación de concurrir al primer llamamiento bajo multa de:",
-      "opciones": [
-        "200 a 5.000 euros",
-        "100 a 1.000 euros",
-        "500 a 10.000 euros",
-        "50 a 500 euros"
-      ],
-      "correcta": 0,
-      "explicacion": "El artículo 175 exige en la cédula «La obligación, si la hubiere, de concurrir al primer llamamiento, bajo la multa de 200 a 5.000 euros».",
-      "dificultad": 3,
-      "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -836,7 +756,7 @@
       "explicacion": "El artículo 177 establece que «se expedirá suplicatorio, exhorto o mandamiento, según corresponda, insertando en ellos los requisitos que deba contener la cédula».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }
@@ -856,47 +776,7 @@
       "explicacion": "El artículo 178 señala que «el Juez instructor ordenará lo conveniente para la averiguación del mismo».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
-      "temas": {
-        "tramitacion-procesal": 28
-      }
-    },
-    {
-      "id": "tpr-044",
-      "ley": "lecrim",
-      "articulo": "182",
-      "enunciado": "Las notificaciones, citaciones y emplazamientos penales pueden hacerse a los Procuradores de las partes. ¿Qué citaciones se exceptúan?",
-      "opciones": [
-        "Las que se hagan por correo certificado",
-        "Las que tengan por objeto la comparecencia obligatoria de los interesados",
-        "Las que se practiquen fuera de los estrados",
-        "Las que se dirijan a testigos propuestos por las partes"
-      ],
-      "correcta": 1,
-      "explicacion": "El artículo 182 prevé que podrán hacerse a los Procuradores, y se exceptúan las «citaciones que tengan por objeto la comparecencia obligatoria de éstos».",
-      "dificultad": 3,
-      "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
-      "temas": {
-        "tramitacion-procesal": 28
-      }
-    },
-    {
-      "id": "tpr-045",
-      "ley": "lecrim",
-      "articulo": "553",
-      "enunciado": "Según la LECrim, los agentes de policía pueden proceder de propia autoridad a la inmediata detención de una persona cuando:",
-      "opciones": [
-        "Exista una denuncia sin ratificar contra ella",
-        "Haya mandamiento de prisión contra ella",
-        "La víctima del delito lo solicite verbalmente",
-        "No haya comparecido a una primera citación"
-      ],
-      "correcta": 1,
-      "explicacion": "El artículo 553 faculta a los agentes a la detención «cuando haya mandamiento de prisión contra ellas, cuando sean sorprendidas en flagrante delito».",
-      "dificultad": 2,
-      "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 28
       }

@@ -16,7 +16,7 @@
       "explicacion": "El artículo 129.2 dispone que se practicarán «mediante videoconferencia siempre que sea posible y, en otro caso, mediante auxilio judicial».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -36,7 +36,7 @@
       "explicacion": "Son inhábiles «los días que median entre el 24 de diciembre y el 6 de enero del año siguiente, ambos inclusive» y «también serán inhábiles los días del mes de agosto».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -56,7 +56,7 @@
       "explicacion": "El artículo 130.3 establece: «Se entiende por horas hábiles las que median desde las ocho de la mañana a las ocho de la tarde, salvo que la ley, para una actuación concreta, disponga otra cosa».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -76,7 +76,7 @@
       "explicacion": "Según el artículo 130.3, «para los actos de comunicación y ejecución también se considerarán horas hábiles las que transcurren desde las ocho hasta las diez de la noche».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -96,7 +96,7 @@
       "explicacion": "El artículo 131.1 señala que la habilitación «se realizará por los Letrados de la Administración de Justicia cuando tuviera por objeto la realización de actuaciones procesales que deban practicarse en materias de su exclusiva competencia».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -110,13 +110,13 @@
         "Sí: siempre debe habilitarse expresamente cada día de agosto",
         "Sí, pero la habilitación la acuerda el Colegio de Procuradores",
         "No: en agosto no pueden practicarse actuaciones urgentes",
-        "No: para las actuaciones urgentes los días de agosto son hábiles sin necesidad de expresa habilitación"
+        "No: para actuaciones urgentes los días de agosto son hábiles sin habilitación expresa"
       ],
       "correcta": 3,
       "explicacion": "El artículo 131.3 dice: «Para las actuaciones urgentes a que se refiere el apartado anterior serán hábiles los días del mes de agosto, sin necesidad de expresa habilitación».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -136,7 +136,7 @@
       "explicacion": "El artículo 131.4 establece: «Contra las resoluciones de habilitación de días y horas inhábiles no se admitirá recurso alguno».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -156,7 +156,7 @@
       "explicacion": "Según el artículo 133.1, «los plazos comenzarán a correr desde el día siguiente a aquel en que se hubiere efectuado el acto de comunicación del que la Ley haga depender el inicio del plazo».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -176,7 +176,7 @@
       "explicacion": "El artículo 133.2 dice que, en las actuaciones urgentes, «no se considerarán inhábiles los días del mes de agosto y sólo se excluirán del cómputo los sábados, domingos y festivos».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -187,16 +187,16 @@
       "articulo": "133.3",
       "enunciado": "Un plazo de un mes comienza a contar el 31 de enero de un año no bisiesto. ¿Cuándo expira, según la LEC?",
       "opciones": [
-        "El 1 de marzo",
+        "El 1 de marzo del mismo año",
         "El último día de febrero",
-        "El 3 de marzo",
-        "El 2 de marzo"
+        "El 3 de marzo del mismo año",
+        "El 2 de marzo del mismo año"
       ],
       "correcta": 1,
       "explicacion": "Los plazos por meses «se computarán de fecha a fecha» y «cuando en el mes del vencimiento no hubiera día equivalente al inicial del cómputo, se entenderá que el plazo expira el último del mes».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -216,7 +216,7 @@
       "explicacion": "El artículo 133.4 dispone: «Los plazos que concluyan en sábado, domingo u otro día inhábil se entenderán prorrogados hasta el siguiente hábil».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -236,7 +236,7 @@
       "explicacion": "Según el artículo 134.2, «la concurrencia de fuerza mayor habrá de ser apreciada por el Letrado de la Administración de Justicia mediante decreto, de oficio o a instancia de la parte que la sufrió».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -256,7 +256,7 @@
       "explicacion": "El artículo 134.3 prevé que podrán interrumpirse los plazos «durante un plazo de tres días hábiles cuando por los Colegios de Abogados o Procuradores o por las partes personadas se comuniquen causas objetivas de fuerza mayor».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -276,7 +276,7 @@
       "explicacion": "El artículo 135.5 establece que la presentación «podrá efectuarse hasta las quince horas del día hábil siguiente al del vencimiento del plazo».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -296,7 +296,7 @@
       "explicacion": "Las actuaciones en lengua oficial de la Comunidad tienen plena validez, «pero se procederá de oficio a su traducción cuando deban surtir efecto fuera de la jurisdicción de los órganos judiciales sitos en la Comunidad Autónoma».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -316,7 +316,7 @@
       "explicacion": "La celebración del acto «no requerirá la presencia en la sala del letrado o letrada de la Administración de Justicia salvo que lo hubieran solicitado las partes, al menos dos días antes de la celebración de la vista».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -329,14 +329,14 @@
       "opciones": [
         "Predominantemente escritas, sobre todo en materia civil",
         "Exclusivamente orales en todos los órdenes",
-        "Predominantemente orales, sobre todo en materia criminal, sin perjuicio de su documentación",
+        "Predominantemente orales, sobre todo en materia criminal",
         "Escritas, salvo en el orden penal, donde serán secretas"
       ],
       "correcta": 2,
       "explicacion": "El artículo 229.1 señala: «Las actuaciones judiciales serán predominantemente orales, sobre todo en materia criminal, sin perjuicio de su documentación».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -347,7 +347,7 @@
       "articulo": "225",
       "enunciado": "Conforme al artículo 225 LEC, ¿cuál de estos actos procesales es nulo de pleno derecho?",
       "opciones": [
-        "El que se realiza sin intervención de abogado en los casos en que la ley la establece como obligatoria",
+        "El que se realiza sin abogado cuando su intervención es obligatoria",
         "El que se realiza fuera del horario hábil, en todo caso",
         "El que se presenta con una errata en el nombre del procurador",
         "El que se notifica sin indicar la fecha en letra"
@@ -356,7 +356,7 @@
       "explicacion": "Son nulos de pleno derecho los actos «cuando se realicen sin intervención de abogado, en los casos en que la ley la establezca como obligatoria».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -376,7 +376,7 @@
       "explicacion": "Son nulos de pleno derecho los actos «cuando se resolvieran mediante diligencias de ordenación o decreto cuestiones que, conforme a la ley, hayan de ser resueltas por medio de providencia, auto o sentencia».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -396,7 +396,7 @@
       "explicacion": "El artículo 225.5.º declara nulos de pleno derecho los actos procesales «cuando se celebren vistas sin la preceptiva intervención del Letrado de la Administración de Justicia».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -407,8 +407,8 @@
       "articulo": "227.2",
       "enunciado": "Con ocasión de un recurso, ¿puede el tribunal decretar de oficio una nulidad de actuaciones que no se haya solicitado en el recurso?",
       "opciones": [
-        "Sí, siempre que aprecie cualquier infracción de normas esenciales",
-        "Solo si aprecia falta de jurisdicción o de competencia objetiva o funcional, o violencia o intimidación que afectó a ese tribunal",
+        "Sí, siempre que aprecie cualquier infracción de normas esenciales del procedimiento",
+        "Solo si aprecia falta de jurisdicción o competencia objetiva o funcional, o violencia o intimidación",
         "No, en ningún caso",
         "Solo si el Ministerio Fiscal lo solicita"
       ],
@@ -416,7 +416,7 @@
       "explicacion": "En ningún caso podrá el tribunal decretar de oficio una nulidad no solicitada, «salvo que apreciare falta de jurisdicción o de competencia objetiva o funcional o se hubiese producido violencia o intimidación que afectare a ese tribunal».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -436,7 +436,7 @@
       "explicacion": "Según el artículo 228.1, «el plazo para pedir la nulidad será de veinte días, desde la notificación de la resolución o, en todo caso, desde que se tuvo conocimiento del defecto causante de indefensión».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -456,7 +456,7 @@
       "explicacion": "El artículo 228.1 indica: «Será competente para conocer de este incidente el mismo Tribunal que dictó la resolución que hubiere adquirido firmeza».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -476,7 +476,7 @@
       "explicacion": "Se dará traslado del escrito a las demás partes, «que en el plazo común de cinco días podrán formular por escrito sus alegaciones».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -496,7 +496,7 @@
       "explicacion": "El artículo 228.2 concluye: «Contra la resolución que resuelva el incidente no cabrá recurso alguno».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -516,7 +516,7 @@
       "explicacion": "Según el artículo 229, «las actuaciones judiciales realizadas fuera del tiempo establecido sólo podrán anularse si lo impusiere la naturaleza del término o plazo».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -529,14 +529,14 @@
       "opciones": [
         "Sí, siempre arrastra a todos los posteriores",
         "Sí, pero solo a los dictados por el mismo órgano",
-        "No, si son independientes de aquél o su contenido hubiese permanecido invariado sin la infracción",
+        "No, si son independientes o su contenido hubiese quedado invariado",
         "No, nunca afecta a los actos posteriores"
       ],
       "correcta": 2,
       "explicacion": "El artículo 230 dispone que la nulidad «no implicará la de los sucesivos que fueren independientes de aquél ni la de aquéllos cuyo contenido hubiese permanecido invariado».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -556,7 +556,7 @@
       "explicacion": "El artículo 231 establece: «El Tribunal y el Letrado de la Administración de Justicia cuidarán de que puedan ser subsanados los defectos en que incurran los actos procesales de las partes».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -576,7 +576,7 @@
       "explicacion": "Los actos serán nulos «cuando se prescinda de normas esenciales del procedimiento, siempre que, por esa causa, haya podido producirse indefensión».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -596,7 +596,7 @@
       "explicacion": "El artículo 243.3 dispone que el juzgado «cuidará de que puedan ser subsanados los defectos en que incurran los actos procesales de las partes, siempre que en dichos actos se hubiese manifestado la voluntad de cumplir los requisitos exigidos por la ley».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 25
       }
@@ -616,7 +616,7 @@
       "explicacion": "Se dictarán autos «cuando se decidan recursos contra providencias o decretos, cuando se resuelva sobre admisión o inadmisión de demanda, reconvención, acumulación de acciones, admisión o inadmisión de la prueba, aprobación judicial de transacciones, acuerdos de mediación y convenios, medidas cautelares y nulidad o validez de las actuaciones».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -636,7 +636,7 @@
       "explicacion": "Según el artículo 206.1.3.ª, «se dictará sentencia para poner fin al proceso, en primera o segunda instancia, una vez que haya concluido su tramitación ordinaria prevista en la ley».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -648,15 +648,15 @@
       "enunciado": "¿Cuándo se dicta providencia en los procesos de declaración si la ley no expresa la clase de resolución?",
       "opciones": [
         "Cuando se decida sobre la nulidad o validez de las actuaciones",
-        "Cuando se ponga fin al proceso en primera instancia",
-        "Cuando se refiere a cuestiones procesales que requieran decisión judicial y la ley no exige expresamente forma de auto",
+        "Cuando se ponga fin al proceso en primera o segunda instancia",
+        "Cuando se refiere a cuestiones procesales que requieren decisión judicial sin exigir forma de auto",
         "Cuando se trate de dar a los autos el curso que la ley establezca"
       ],
       "correcta": 2,
       "explicacion": "Se dictará providencia «cuando la resolución se refiera a cuestiones procesales que requieran una decisión judicial por así establecerlo la ley, siempre que en tales casos no exigiera expresamente la forma de auto».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -676,7 +676,7 @@
       "explicacion": "El artículo 206.2 establece: «Las resoluciones de los Letrados de la Administración de Justicia se denominarán diligencias y decretos».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -690,13 +690,13 @@
         "Cuando se admite a trámite la demanda",
         "Cuando es preciso o conveniente razonar lo resuelto",
         "Cuando se pone fin al proceso en primera instancia",
-        "Cuando la resolución tiene por objeto dar a los autos el curso que la ley establezca"
+        "Cuando tiene por objeto dar a los autos el curso que la ley establezca"
       ],
       "correcta": 3,
       "explicacion": "Según el artículo 206.2.1.ª, «se dictará diligencia de ordenación cuando la resolución tenga por objeto dar a los autos el curso que la ley establezca».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -716,7 +716,7 @@
       "explicacion": "Se dictará decreto «en cualquier clase de procedimiento, cuando fuere preciso o conveniente razonar lo resuelto».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -736,7 +736,7 @@
       "explicacion": "Según el artículo 206.2.3.ª, «se dictarán diligencias de constancia, comunicación o ejecución a los efectos de reflejar en autos hechos o actos con trascendencia procesal».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -748,15 +748,15 @@
       "enunciado": "Son resoluciones firmes aquellas:",
       "opciones": [
         "Que ponen fin a la primera instancia",
-        "Contra las que solo cabe recurso extraordinario",
+        "Contra las que solo cabe recurso extraordinario o de revisión",
         "Dictadas por un tribunal colegiado",
-        "Contra las que no cabe recurso alguno, por no preverlo la ley o por haber transcurrido el plazo sin presentarlo"
+        "Contra las que no cabe recurso, por no preverlo la ley o por transcurrir el plazo"
       ],
       "correcta": 3,
       "explicacion": "Son firmes «aquéllas contra las que no cabe recurso alguno bien por no preverlo la ley, bien porque, estando previsto, ha transcurrido el plazo legalmente fijado sin que ninguna de las partes lo haya presentado».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -767,7 +767,7 @@
       "articulo": "208.1",
       "enunciado": "Las diligencias de ordenación y las providencias se limitarán a expresar lo que por ellas se mande. ¿Cuándo incluirán además una motivación?",
       "opciones": [
-        "Una sucinta motivación cuando así lo disponga la ley o quien haya de dictarlas lo estime conveniente",
+        "Una sucinta motivación si la ley lo dispone o quien las dicta lo estima conveniente",
         "Siempre, con antecedentes de hecho y fundamentos de derecho",
         "Nunca, en ningún caso",
         "Solo cuando lo pida alguna de las partes"
@@ -776,7 +776,7 @@
       "explicacion": "El artículo 208.1 señala que incluirán «una sucinta motivación cuando así lo disponga la ley o quien haya de dictarlas lo estime conveniente».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -787,16 +787,16 @@
       "articulo": "208.2",
       "enunciado": "¿Cómo deben ser los decretos y los autos en cuanto a su motivación?",
       "opciones": [
-        "Sucintamente motivados cuando el juez lo estime conveniente",
+        "Sucintamente motivados, solo cuando el juez lo estime conveniente",
         "Sin motivación, limitándose a la parte dispositiva",
-        "Siempre motivados, con antecedentes de hecho y fundamentos de derecho en párrafos separados y numerados",
+        "Siempre motivados, con antecedentes de hecho y fundamentos de derecho separados",
         "Motivados solo si son recurribles"
       ],
       "correcta": 2,
       "explicacion": "Según el artículo 208.2, «los decretos y los autos serán siempre motivados y contendrán en párrafos separados y numerados los antecedentes de hecho y los fundamentos de derecho».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -810,13 +810,13 @@
         "El número de votos favorables y contrarios de sus firmantes",
         "La identidad de la parte que ha de abonar las costas",
         "El importe del depósito en todo caso",
-        "Si es firme o si cabe algún recurso, con indicación del recurso, el órgano ante el que se interpone y el plazo"
+        "Si es firme o si cabe recurso, con indicación del recurso, órgano y plazo"
       ],
       "correcta": 3,
       "explicacion": "Toda resolución incluirá «si la misma es firme o si cabe algún recurso contra ella, con expresión, en este último caso, del recurso que proceda, del órgano ante el que debe interponerse y del plazo para recurrir».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -828,7 +828,7 @@
       "enunciado": "Pronunciada oralmente una resolución en una vista, ¿cuándo se declara la firmeza en el mismo acto?",
       "opciones": [
         "Si el juez lo considera oportuno, aunque falte alguna parte",
-        "Si todas las partes están presentes, por sí o representadas, y expresan su decisión de no recurrir",
+        "Si todas las partes están presentes y expresan su decisión de no recurrir",
         "Siempre, si la resolución es un auto",
         "Cuando transcurran tres días sin recurso"
       ],
@@ -836,7 +836,7 @@
       "explicacion": "Si todas las personas parte «estuvieren presentes en el acto, por sí o debidamente representadas, y expresaren su decisión de no recurrir, se declarará, en el mismo acto, la firmeza de la resolución».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -856,7 +856,7 @@
       "explicacion": "Según el artículo 210.4, «las partes tendrán un plazo de cinco días desde la celebración de la vista para presentar un escrito manifestando su interés en recurrirla».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -868,15 +868,15 @@
       "enunciado": "¿Qué consecuencia tiene la inobservancia del plazo para dictar una resolución, a no mediar justa causa?",
       "opciones": [
         "Corrección disciplinaria, que se hará constar en la resolución",
-        "La nulidad de la resolución",
-        "La caducidad de la instancia",
-        "La pérdida de competencia del tribunal"
+        "La nulidad de la resolución dictada fuera de plazo",
+        "La caducidad de la instancia por inactividad del tribunal",
+        "La pérdida de competencia del tribunal para resolver"
       ],
       "correcta": 0,
       "explicacion": "El artículo 211.2 dispone: «La inobservancia del plazo dará lugar a corrección disciplinaria, a no mediar justa causa, que se hará constar en la resolución».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -887,16 +887,16 @@
       "articulo": "214.1",
       "enunciado": "Una vez firmada una resolución, ¿qué pueden hacer los tribunales respecto a ella?",
       "opciones": [
-        "No variarla, pero sí aclarar algún concepto oscuro y rectificar cualquier error material",
-        "Modificarla de oficio en el plazo de cinco días",
-        "Variarla si lo pide el Ministerio Fiscal",
-        "Revocarla si aprecian error de derecho"
+        "No variarlas, pero sí aclarar conceptos oscuros y rectificar errores materiales",
+        "Modificarla de oficio dentro del plazo de cinco días",
+        "Variarla si así lo solicita el Ministerio Fiscal en plazo",
+        "Revocarla si aprecian un error de derecho en su contenido"
       ],
       "correcta": 0,
       "explicacion": "Los tribunales «no podrán variar las resoluciones que pronuncien después de firmadas, pero sí aclarar algún concepto oscuro y rectificar cualquier error material de que adolezcan».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -916,7 +916,7 @@
       "explicacion": "Las aclaraciones podrán hacerse «dentro de los dos días hábiles siguientes al de la publicación de la resolución, o a petición de parte o del Ministerio Fiscal formulada dentro del mismo plazo».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -936,7 +936,7 @@
       "explicacion": "El artículo 214.3 establece que los errores materiales manifiestos y los aritméticos «podrán ser rectificados en cualquier momento».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -956,7 +956,7 @@
       "explicacion": "El Tribunal, «a solicitud escrita de parte en el plazo de cinco días a contar desde la notificación de la resolución», dictará auto completando la resolución o declarando no haber lugar a completarla.",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -967,16 +967,16 @@
       "articulo": "204.2",
       "enunciado": "En un tribunal colegiado, un magistrado que votó se imposibilita después y no puede firmar. ¿Quién firma por él, si no es el Presidente?",
       "opciones": [
-        "El magistrado más moderno",
-        "El Letrado de la Administración de Justicia",
-        "El que hubiere presidido, expresando el nombre del magistrado y que votó pero no pudo firmar",
-        "Nadie: basta la firma de la mayoría"
+        "El magistrado más moderno de la Sala",
+        "El Letrado de la Administración de Justicia que la autoriza",
+        "El que hubiere presidido, haciendo constar que votó pero no pudo firmar",
+        "Nadie: basta la firma de la mayoría de los magistrados"
       ],
       "correcta": 2,
       "explicacion": "Si se imposibilitare algún Magistrado que hubiere votado, «el que hubiere presidido lo hará por él, expresando el nombre del Magistrado por quien firma y haciendo constar que el Magistrado imposibilitado votó pero no pudo firmar».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -996,7 +996,7 @@
       "explicacion": "El artículo 204.3 dispone: «Las resoluciones judiciales deberán ser autorizadas o publicadas mediante firma por el Letrado de la Administración de Justicia, bajo pena de nulidad».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -1007,16 +1007,16 @@
       "articulo": "205.1",
       "enunciado": "Quien en un tribunal colegiado discrepe de la mayoría al votar una sentencia, ¿qué puede hacer?",
       "opciones": [
-        "Negarse a firmar la sentencia",
-        "Abstenerse y no firmar lo acordado",
-        "Solicitar nueva vista de oficio",
-        "Firmar lo acordado y formular voto particular anunciándolo en la votación o en la firma"
+        "Negarse a firmar la sentencia hasta que se resuelva su discrepancia",
+        "Abstenerse de firmar lo acordado y formular su voto por separado",
+        "Solicitar de oficio la celebración de una nueva vista",
+        "Firmar lo acordado y formular voto particular, anunciándolo al votar o al firmar"
       ],
       "correcta": 3,
       "explicacion": "Todo el que tome parte en la votación «firmará lo acordado, aunque hubiere disentido de la mayoría; pero podrá, en este caso, anunciándolo en el momento de la votación o en el de la firma, formular voto particular».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -1036,7 +1036,7 @@
       "explicacion": "El artículo 201 señala: «En los tribunales colegiados, los autos y sentencias se dictarán por mayoría absoluta de votos, salvo que expresamente la ley señale una mayor proporción».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-07",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -1056,7 +1056,7 @@
       "explicacion": "El artículo 245.1.a) dice que se denominarán «providencias, cuando tengan por objeto la ordenación material del proceso».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -1076,7 +1076,7 @@
       "explicacion": "El artículo 245.4 establece: «Llámase ejecutoria el documento público y solemne en que se consigna una sentencia firme».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }
@@ -1096,7 +1096,7 @@
       "explicacion": "La fórmula de las providencias «se limitará a la determinación de lo mandado y del juez, jueza o Tribunal que las disponga, sin más fundamento ni adiciones que la fecha en que se acuerden».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 26
       }

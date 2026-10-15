@@ -16,7 +16,7 @@
       "explicacion": "El artículo 3.1 dispone: «El Registro Civil es único para toda España.»",
       "dificultad": 1,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -36,7 +36,7 @@
       "explicacion": "Según el artículo 5.2, «El registro individual se abrirá con la inscripción de nacimiento o con el primer asiento que se practique.»",
       "dificultad": 1,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -56,7 +56,7 @@
       "explicacion": "El artículo 6 establece que el código personal es una «secuencia alfanumérica generada por el Registro Civil, que será única e invariable en el tiempo».",
       "dificultad": 1,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -76,7 +76,7 @@
       "explicacion": "El artículo 4 enumera entre los inscribibles: «Las declaraciones de ausencia y fallecimiento.»",
       "dificultad": 1,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -96,7 +96,7 @@
       "explicacion": "El artículo 9 dice que constarán «los hechos y actos inscribibles que afectan a los españoles y los referidos a extranjeros, acaecidos en territorio español».",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -116,7 +116,7 @@
       "explicacion": "Según el artículo 10.1, si se producen en el extranjero «la inscripción se solicitará y, en su caso, se practicará en la Oficina Consular de la circunscripción correspondiente. En este último caso, la inscripción también se podrá solicitar y practicar en cualquiera de las Oficinas Generales.»",
       "dificultad": 3,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -136,7 +136,7 @@
       "explicacion": "El artículo 10.1 señala que «La solicitud de inscripción y la práctica de la misma se podrán efectuar en cualquiera de las Oficinas Generales del Registro Civil con independencia del lugar en el que se produzcan los hechos o actos inscribibles.»",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -156,7 +156,7 @@
       "explicacion": "El artículo 11.g) reconoce «El derecho a utilizar ante el Registro Civil cualquiera de las lenguas oficiales en el lugar donde radique la Oficina.»",
       "dificultad": 1,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -176,7 +176,7 @@
       "explicacion": "El artículo 13 (principio de legalidad) dice que los Encargados «comprobarán de oficio la realidad y legalidad de los hechos y actos cuya inscripción se pretende».",
       "dificultad": 1,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -196,7 +196,7 @@
       "explicacion": "Según el artículo 15.3, puede obtenerse información de persona distinta del solicitante «siempre que conste la identidad del solicitante y exista un interés legítimo».",
       "dificultad": 3,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -216,7 +216,7 @@
       "explicacion": "El artículo 15.4 dice: «Quedan exceptuados del régimen general de publicidad los datos especialmente protegidos, que estarán sometidos al sistema de acceso restringido».",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -236,7 +236,7 @@
       "explicacion": "El artículo 16.2 establece: «Se presume que los hechos inscritos existen y los actos son válidos y exactos mientras el asiento correspondiente no sea rectificado o cancelado en la forma prevista por la ley.»",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -254,9 +254,9 @@
       ],
       "correcta": 0,
       "explicacion": "El artículo 16.3 ordena que «Cuando se impugnen judicialmente los actos y hechos inscritos en el Registro Civil, deberá instarse la rectificación del asiento correspondiente.»",
-      "dificultad": 3,
+      "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -276,7 +276,7 @@
       "explicacion": "El artículo 17.1 dispone: «La inscripción en el Registro Civil constituye prueba plena de los hechos inscritos.»",
       "dificultad": 1,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -296,7 +296,7 @@
       "explicacion": "Según el artículo 17.2, «Sólo en los casos de falta de inscripción o en los que no fuera posible certificar del asiento, se admitirán otros medios de prueba.»",
       "dificultad": 3,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -316,7 +316,7 @@
       "explicacion": "El artículo 18 prevé que «La inscripción en el Registro Civil sólo tendrá eficacia constitutiva en los casos previstos por la Ley.»",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -336,7 +336,7 @@
       "explicacion": "El artículo 20.1 dice que el Registro Civil se organiza en «1.º Oficina Central. 2.º Oficinas Generales. 3.º Oficinas Consulares.»",
       "dificultad": 1,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -356,7 +356,7 @@
       "explicacion": "El artículo 20.2 señala que «Bajo su responsabilidad y en los términos y con los límites que reglamentariamente se determinen, el Encargado podrá delegar funciones en el personal al servicio de la Oficina del Registro Civil.»",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -376,7 +376,7 @@
       "explicacion": "El artículo 21.3 establece: «La Oficina Central es la autoridad encargada en materia de cooperación internacional sobre Registro Civil».",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -396,7 +396,7 @@
       "explicacion": "El artículo 22.1 dispone: «Existirá una Oficina General del Registro Civil en todas las poblaciones que sean sede de la capital de un partido judicial.»",
       "dificultad": 3,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -416,7 +416,7 @@
       "explicacion": "Según el artículo 22.2, el Encargado «ejercerá sus cometidos bajo la dependencia funcional de la Dirección General de Seguridad Jurídica y Fe Pública».",
       "dificultad": 1,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -436,7 +436,7 @@
       "explicacion": "El artículo 24 incluye: «Instruir el expediente previo de matrimonio, así como expedir los certificados de capacidad necesarios para su celebración en el extranjero.»",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -456,7 +456,7 @@
       "explicacion": "El artículo 33.1 dice que el Encargado «practicará los asientos correspondientes de oficio o dictará resolución denegándolos en el plazo de cinco días».",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -476,7 +476,7 @@
       "explicacion": "El artículo 23 establece que estarán «a cargo de los Cónsules de España o, en su caso, de los funcionarios diplomáticos encargados de las Secciones consulares de la Misión Diplomática».",
       "dificultad": 1,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -496,7 +496,7 @@
       "explicacion": "El artículo 21.2 atribuye a la Oficina Central «Practicar las inscripciones que se deriven de resoluciones dictadas por la Dirección General de los Registros y del Notariado, referidas a hechos o actos susceptibles de inscripción en el Registro Civil.»",
       "dificultad": 1,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 29
       }
@@ -516,47 +516,7 @@
       "explicacion": "Según el artículo 44.2, «La inscripción hace fe del hecho, fecha, hora y lugar del nacimiento, identidad, sexo y, en su caso, filiación del inscrito.»",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
-      "temas": {
-        "tramitacion-procesal": 30
-      }
-    },
-    {
-      "id": "tpq-027",
-      "ley": "ley-20-2011",
-      "articulo": "44.4",
-      "enunciado": "Si se constata que la madre tiene vínculo matrimonial con persona distinta de la que figura en la declaración, la inscripción de nacimiento se practica:",
-      "opciones": [
-        "Con la filiación paterna declarada, anotando la discrepancia",
-        "De forma inmediata solo con la filiación materna, abriendo expediente registral para determinar la paterna",
-        "Suspendiéndola hasta que el Ministerio Fiscal acredite la paternidad",
-        "Denegándola y remitiendo a los interesados a la vía judicial"
-      ],
-      "correcta": 1,
-      "explicacion": "El artículo 44.4 prevé que «se practicará la inscripción de nacimiento de forma inmediata solo con la filiación materna y se procederá a la apertura de un expediente registral para la determinación de la filiación paterna».",
-      "dificultad": 1,
-      "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
-      "temas": {
-        "tramitacion-procesal": 30
-      }
-    },
-    {
-      "id": "tpq-028",
-      "ley": "ley-20-2011",
-      "articulo": "44.6",
-      "enunciado": "El reconocimiento de la filiación no matrimonial con posterioridad a la inscripción de nacimiento podrá hacerse:",
-      "opciones": [
-        "En cualquier tiempo, con arreglo a las formas de la legislación civil aplicable",
-        "Solo dentro del año siguiente al nacimiento",
-        "Solo antes de que el hijo cumpla dieciocho años",
-        "Únicamente mediante resolución judicial"
-      ],
-      "correcta": 0,
-      "explicacion": "El artículo 44.6 señala que «podrá hacerse en cualquier tiempo con arreglo a las formas establecidas en la legislación civil aplicable».",
-      "dificultad": 3,
-      "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -576,7 +536,7 @@
       "explicacion": "El artículo 46 establece que la dirección del centro «comunicará en el plazo de setenta y dos horas a la Oficina del Registro Civil que corresponda cada uno de los nacimientos que hayan tenido lugar en el centro sanitario».",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -596,7 +556,7 @@
       "explicacion": "Según el artículo 47.1, «los obligados a promover la inscripción dispondrán de un plazo de diez días para declarar el nacimiento ante la Oficina del Registro Civil o las Oficinas Consulares de Registro Civil».",
       "dificultad": 1,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -616,7 +576,7 @@
       "explicacion": "El artículo 49.2 dice que el Encargado requerirá a los progenitores «para que en el plazo máximo de tres días comuniquen el orden de apellidos».",
       "dificultad": 1,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -636,7 +596,7 @@
       "explicacion": "Según el artículo 49.2, «Transcurrido dicho plazo sin comunicación expresa, el Encargado acordará el orden de los apellidos atendiendo al interés superior del menor.»",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -656,7 +616,7 @@
       "explicacion": "El artículo 51 dispone: «No podrán consignarse más de dos nombres simples o uno compuesto.»",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -676,7 +636,7 @@
       "explicacion": "El artículo 52 exige una «declaración del interesado, que deberá probar el uso habitual del nuevo nombre».",
       "dificultad": 1,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -696,7 +656,7 @@
       "explicacion": "El artículo 53 permite el cambio mediante declaración de voluntad en casos como «La inversión del orden de apellidos».",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -716,7 +676,7 @@
       "explicacion": "El artículo 53.5 indica que la conservación de apellidos «deberá instarse dentro de los dos meses siguientes a la inscripción de la nueva filiación o, en su caso, a la mayoría de edad».",
       "dificultad": 3,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -736,7 +696,7 @@
       "explicacion": "El artículo 54.5 prevé que «podrá autorizarse el cambio de apellidos sin necesidad de cumplir con los requisitos previstos en el apartado 2».",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -756,7 +716,7 @@
       "explicacion": "El artículo 57.3 dice que los cambios «podrán ser solicitados por el propio interesado si es mayor de dieciséis años».",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -776,7 +736,7 @@
       "explicacion": "El artículo 59.5 establece: «La inscripción hace fe del matrimonio y de la fecha y lugar en que se contrae».",
       "dificultad": 1,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -796,7 +756,7 @@
       "explicacion": "El artículo 61 ordena remitir «en el mismo día o al siguiente hábil y por medios electrónicos testimonio o copia electrónica de la misma a la Oficina General del Registro Civil».",
       "dificultad": 3,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -816,7 +776,7 @@
       "explicacion": "El artículo 33.1 dice: «La inscripción de la defunción, no existiendo obstáculo legal, se practicará en el mismo día de la presentación de la documentación.»",
       "dificultad": 1,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -836,7 +796,7 @@
       "explicacion": "El artículo 62.4 señala: «La inscripción de la defunción cerrará el registro individual. En ningún caso, el código personal podrá volver a ser asignado.»",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -856,7 +816,7 @@
       "explicacion": "El artículo 66 establece: «En ningún caso podrá efectuarse la inscripción de defunción sin que se haya presentado ante el Registro Civil el certificado médico de defunción.»",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -876,7 +836,7 @@
       "explicacion": "El artículo 67.2 dice que «la inscripción de la defunción no supondrá por sí misma la concesión de licencia de enterramiento o incineración. Dicha licencia se expedirá cuando se autorice por el órgano judicial competente.»",
       "dificultad": 3,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -896,7 +856,7 @@
       "explicacion": "El artículo 68.1 dispone que estas inscripciones «tendrán carácter constitutivo»; solo la pérdida de la nacionalidad tiene carácter «meramente declarativo».",
       "dificultad": 3,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -916,27 +876,7 @@
       "explicacion": "El artículo 82.1 dice: «Salvo solicitud expresa en sentido contrario, se expedirá certificación en extracto.»",
       "dificultad": 1,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
-      "temas": {
-        "tramitacion-procesal": 30
-      }
-    },
-    {
-      "id": "tpq-047",
-      "ley": "ley-20-2011",
-      "articulo": "85.1",
-      "enunciado": "Contra las decisiones de los Encargados de las Oficinas Central, Generales y Consulares los interesados solo podrán interponer recurso en el plazo de:",
-      "opciones": [
-        "Diez días",
-        "Quince días",
-        "Un mes",
-        "Tres meses"
-      ],
-      "correcta": 2,
-      "explicacion": "El artículo 85.1 establece que los interesados «sólo podrán interponer recurso ante la Dirección General de los Registros y del Notariado, en el plazo de un mes».",
-      "dificultad": 1,
-      "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -956,7 +896,7 @@
       "explicacion": "Según el artículo 86.2, transcurrido el plazo sin resolución expresa «se entenderá desestimada la pretensión, quedando expedita la vía jurisdiccional correspondiente».",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -976,7 +916,7 @@
       "explicacion": "El artículo 88.2 dispone: «El silencio administrativo en los procedimientos registrales será negativo.»",
       "dificultad": 2,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
@@ -996,7 +936,7 @@
       "explicacion": "El artículo 91.1 permite rectificar por procedimiento registral, entre otros, «Las divergencias que se aprecien entre la inscripción y los documentos en cuya virtud se haya practicado».",
       "dificultad": 3,
       "fecha_version_boe": "2026-02-24",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 30
       }
