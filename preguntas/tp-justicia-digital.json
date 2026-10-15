@@ -348,9 +348,9 @@
       "enunciado": "En los actos de comunicación por medios electrónicos, ¿qué se entiende por comparecencia en la Carpeta Justicia o en la sede judicial electrónica?",
       "opciones": [
         "El acceso de la persona interesada o su representante, debidamente identificado, al contenido del acto",
-        "La mera recepción del aviso de puesta a disposición del acto",
-        "La firma por el interesado del justificante de recepción",
-        "La presentación personal del interesado en la oficina judicial"
+        "La mera recepción del aviso de puesta a disposición del acto de comunicación",
+        "La firma por el interesado del justificante de recepción del acto de comunicación",
+        "La presentación personal del interesado en la oficina judicial para recoger el acto"
       ],
       "correcta": 0,
       "explicacion": "El artículo 50.1 define la comparecencia como «el acceso por la persona interesada o su representante debidamente identificado al contenido del acto de comunicación».",

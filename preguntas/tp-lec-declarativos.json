@@ -1,0 +1,805 @@
+{
+  "descripcion": "Tramitación Procesal, tema 16: medios adecuados de solución de controversias (LO 1/2025) y procedimientos declarativos de la LEC (juicio ordinario y verbal). Lote generado el 2026-10-15; citas a comprobar por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "tph-001",
+      "ley": "lo-1-2025",
+      "articulo": "3.2",
+      "enunciado": "¿Cuál de estas materias queda excluida del ámbito de los medios adecuados de solución de controversias de la LO 1/2025?",
+      "opciones": [
+        "La materia arrendaticia",
+        "La materia societaria",
+        "La materia laboral",
+        "La materia de familia"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 3.2 dispone que «Quedan excluidos, en todo caso, de lo dispuesto en este título las materias laboral, penal y concursal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-002",
+      "ley": "lo-1-2025",
+      "articulo": "5.1",
+      "enunciado": "Para entender cumplido el requisito de procedibilidad en el orden civil, debe existir identidad entre:",
+      "opciones": [
+        "El objeto de la negociación y el objeto del litigio",
+        "Las partes de la negociación y las del litigio",
+        "El tercero neutral y el juez del litigio",
+        "La cuantía negociada y la cuantía litigiosa"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 5.1 exige que «habrá de existir una identidad entre el objeto de la negociación y el objeto del litigio».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-003",
+      "ley": "lo-1-2025",
+      "articulo": "5.2.h",
+      "enunciado": "¿Respecto de cuál de estos procesos NO se exige actividad negociadora previa como requisito de procedibilidad?",
+      "opciones": [
+        "El juicio verbal de reclamación de cantidad",
+        "El juicio ordinario de incumplimiento contractual",
+        "El juicio ordinario de impugnación de acuerdos sociales",
+        "El juicio cambiario"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 5.2 exige la actividad negociadora previa «con excepción de los que tengan por objeto las siguientes materias» y la letra h) enumera «h) el juicio cambiario».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-004",
+      "ley": "lo-1-2025",
+      "articulo": "5.3",
+      "enunciado": "¿Para cuál de estos actos NO es preciso acudir previamente a un medio adecuado de solución de controversias?",
+      "opciones": [
+        "La demanda de un juicio ordinario de reclamación de cantidad",
+        "La solicitud de medidas cautelares previas a la demanda",
+        "La demanda de un juicio verbal de reclamación de cantidad",
+        "La demanda de un juicio ordinario de impugnación de acuerdos sociales"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 5.3, «No será preciso acudir a un medio adecuado de solución de controversias para la interposición de una demanda ejecutiva, la solicitud de medidas cautelares previas a la demanda, la solicitud de diligencias preliminares».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-005",
+      "ley": "lo-1-2025",
+      "articulo": "5.4",
+      "enunciado": "La iniciativa de acudir a un medio adecuado de solución de controversias puede proceder:",
+      "opciones": [
+        "Solo de ambas partes de común acuerdo",
+        "De una parte, de ambas de común acuerdo, o de una decisión judicial o del LAJ de derivación",
+        "Solo del juez, mediante auto motivado",
+        "Solo de la parte demandante antes de presentar la demanda"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 5.4 establece que la iniciativa «puede proceder de una de las partes, de ambas de común acuerdo o bien de una decisión judicial o del letrado o la letrada de la Administración de Justicia de derivación de las partes a este tipo de medios».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-006",
+      "ley": "lo-1-2025",
+      "articulo": "5.4",
+      "enunciado": "Si todas las partes quieren acudir a un medio adecuado pero no se ponen de acuerdo en cuál, se empleará:",
+      "opciones": [
+        "El que elija el letrado de la Administración de Justicia",
+        "La mediación en todo caso",
+        "El que proponga la parte demandada",
+        "El que se haya propuesto antes temporalmente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 5.4 dice que, si no existiera acuerdo sobre cuál utilizar, «se empleará aquel que se haya propuesto antes temporalmente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-007",
+      "ley": "lo-1-2025",
+      "articulo": "6.2",
+      "enunciado": "¿En qué medio adecuado de solución de controversias es preceptiva, con carácter general, la asistencia letrada?",
+      "opciones": [
+        "La formulación de una oferta vinculante",
+        "La mediación",
+        "La conciliación privada",
+        "La opinión de persona experta independiente"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 6.2 dispone: «Únicamente será preceptiva la asistencia letrada a las partes cuando se utilice como medio adecuado de solución de controversias la formulación de una oferta vinculante».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-008",
+      "ley": "lo-1-2025",
+      "articulo": "7.1",
+      "enunciado": "La solicitud de una parte a la otra para iniciar una negociación, definiendo su objeto, produce el efecto de:",
+      "opciones": [
+        "Suspender la prescripción e interrumpir la caducidad de acciones",
+        "Interrumpir tanto la prescripción como la caducidad",
+        "Interrumpir la prescripción o suspender la caducidad de acciones",
+        "Suspender el plazo para presentar la demanda durante seis meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 7.1 señala que la solicitud «interrumpirá la prescripción o suspenderá la caducidad de acciones desde la fecha en la que conste el intento de comunicación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-009",
+      "ley": "lo-1-2025",
+      "articulo": "7.1",
+      "enunciado": "Sin intervención de tercero neutral, se reinicia el cómputo de los plazos si no se obtiene respuesta por escrito a la solicitud de negociación en:",
+      "opciones": [
+        "Quince días naturales",
+        "Diez días hábiles",
+        "Tres meses",
+        "Treinta días naturales"
+      ],
+      "correcta": 3,
+      "explicacion": "El cómputo se reinicia o reanuda si «no se obtenga respuesta por escrito en el plazo de treinta días naturales a contar desde la fecha de recepción de la solicitud de negociación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-010",
+      "ley": "lo-1-2025",
+      "articulo": "7.2.b",
+      "enunciado": "Si interviene una persona conciliadora, el cómputo de los plazos se reinicia si esta no ha intentado la comunicación con la otra parte en el plazo de:",
+      "opciones": [
+        "Treinta días naturales desde la recepción de la solicitud",
+        "Quince días naturales desde la recepción de la solicitud",
+        "Diez días hábiles desde la recepción de la solicitud",
+        "Tres meses desde la recepción de la solicitud"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 7.2.b) prevé el reinicio cuando «en el plazo de quince días naturales desde la fecha de la recepción de la solicitud por la persona conciliadora no se hubiese intentado por esta la comunicación con la otra parte».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-011",
+      "ley": "lo-1-2025",
+      "articulo": "7.3",
+      "enunciado": "Si el proceso negociador finaliza sin acuerdo, para entender cumplido el requisito de procedibilidad las partes deben formular la demanda en el plazo de:",
+      "opciones": [
+        "Seis meses desde la terminación del proceso de negociación",
+        "Tres meses desde la terminación del proceso de negociación",
+        "Un año desde la terminación del proceso de negociación",
+        "Veinte días desde la terminación del proceso de negociación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 7.3 establece que «las partes deberán formular la demanda dentro del plazo de un año a contar» desde la terminación del proceso de negociación sin acuerdo.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-012",
+      "ley": "lo-1-2025",
+      "articulo": "8.2",
+      "enunciado": "La actividad negociadora sobre una reclamación de cantidad que no exceda de seiscientos euros se desarrollará:",
+      "opciones": [
+        "Preferentemente por medios telemáticos",
+        "Obligatoriamente de forma presencial",
+        "Siempre ante el letrado de la Administración de Justicia",
+        "Necesariamente con asistencia de abogado"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 8.2 dice: «Cuando el objeto de controversia sea una reclamación de cantidad que no exceda de seiscientos euros se desarrollará preferentemente por medios telemáticos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-013",
+      "ley": "lo-1-2025",
+      "articulo": "9.1",
+      "enunciado": "El proceso de negociación y su documentación son confidenciales, salvo la información relativa a:",
+      "opciones": [
+        "Si las partes acudieron o no al intento de negociación y al objeto de la controversia",
+        "Las propuestas concretas de acuerdo formuladas por las partes",
+        "La identidad de los abogados intervinientes y sus honorarios",
+        "El contenido de las reuniones celebradas con el tercero neutral"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 9.1, son confidenciales «salvo la información relativa a si las partes acudieron o no al intento de negociación previa y al objeto de la controversia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-014",
+      "ley": "lo-1-2025",
+      "articulo": "10.4.c",
+      "enunciado": "Se entiende terminado el proceso de negociación sin acuerdo si transcurren, desde la primera reunión sin acuerdo:",
+      "opciones": [
+        "Un mes",
+        "Dos meses",
+        "Tres meses",
+        "Seis meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 10.4.c) prevé la terminación «Si transcurrieran tres meses desde la fecha de celebración de la primera reunión sin que se hubiera alcanzado un acuerdo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-015",
+      "ley": "lo-1-2025",
+      "articulo": "13.2",
+      "enunciado": "Para que el acuerdo alcanzado en una negociación previa tenga valor de título ejecutivo, habrá de ser:",
+      "opciones": [
+        "Firmado por ambas partes y por sus abogados",
+        "Elevado a escritura pública o, cuando proceda, homologado judicialmente",
+        "Comunicado por escrito al tribunal competente",
+        "Inscrito en el Registro Civil"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 13.2 indica: «Para que tenga valor de título ejecutivo el acuerdo habrá de ser elevado a escritura pública, o ser homologado judicialmente cuando proceda».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-016",
+      "ley": "lo-1-2025",
+      "articulo": "17.4",
+      "enunciado": "Formulada una oferta vinculante confidencial, esta decae si no es aceptada expresamente por la otra parte en el plazo de:",
+      "opciones": [
+        "Quince días, salvo otro mayor fijado por el oferente",
+        "Diez días hábiles, sin posible ampliación",
+        "Tres meses, sin posible ampliación",
+        "Un mes, salvo otro mayor fijado por el oferente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 17.4 prevé el decaimiento si la oferta «no sea aceptada expresamente por la otra parte en el plazo de un mes o en cualquier otro plazo mayor establecido por la parte requirente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-017",
+      "ley": "lo-1-2025",
+      "articulo": "18.3",
+      "enunciado": "Emitida la opinión no vinculante de la persona experta independiente, las partes disponen para hacer recomendaciones u observaciones de:",
+      "opciones": [
+        "Cinco días naturales desde su comunicación",
+        "Quince días naturales desde su comunicación",
+        "Diez días hábiles desde su comunicación",
+        "Un mes desde su comunicación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 18.3 dispone que «las partes dispondrán de un plazo de diez días hábiles desde su comunicación para hacer recomendaciones, observaciones o propuestas de mejora».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-018",
+      "ley": "lo-1-2025",
+      "articulo": "19.1",
+      "enunciado": "En el proceso de Derecho colaborativo, cada parte acude acompañada y asesorada por:",
+      "opciones": [
+        "Una persona mediadora inscrita en el registro oficial",
+        "Un procurador de los tribunales",
+        "Un letrado de la Administración de Justicia",
+        "Un profesional de la abogacía ejerciente acreditado en Derecho colaborativo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 19.1 establece que las partes acuden «acompañadas y asesoradas cada una de ellas por una o un profesional de la abogacía ejerciente y con colegiación en un Colegio de la Abogacía, acreditado en Derecho colaborativo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-019",
+      "ley": "lo-1-2025",
+      "articulo": "16.j",
+      "enunciado": "Si no hay acuerdo en la conciliación, la persona conciliadora debe:",
+      "opciones": [
+        "Emitir una certificación de que se ha intentado sin efecto la conciliación",
+        "Dictar una resolución que ponga fin a la controversia",
+        "Remitir las actuaciones al juzgado competente",
+        "Archivar el expediente sin emitir documento alguno"
+      ],
+      "correcta": 0,
+      "explicacion": "Entre las funciones del artículo 16.j) figura «En caso de desacuerdo, emitir una certificación acreditativa de que se ha intentado sin efecto la conciliación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-07-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-020",
+      "ley": "ley-1-2000",
+      "articulo": "248.2",
+      "enunciado": "Según la LEC, pertenecen a la clase de los procesos declarativos:",
+      "opciones": [
+        "El juicio ordinario y el proceso monitorio",
+        "El juicio ordinario y el juicio verbal",
+        "El juicio verbal y el juicio cambiario",
+        "El juicio ordinario, el verbal y el monitorio"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 248.2 dice: «Pertenecen a la clase de los procesos declarativos» […] «El juicio ordinario» […] «El juicio verbal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-021",
+      "ley": "ley-1-2000",
+      "articulo": "249.2",
+      "enunciado": "Se decidirán en juicio ordinario las demandas cuya cuantía exceda de:",
+      "opciones": [
+        "Seis mil euros",
+        "Quince mil euros",
+        "Tres mil euros",
+        "Treinta mil euros"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 249.2 señala: «Se decidirán también en el juicio ordinario las demandas cuya cuantía exceda de quince mil euros».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-022",
+      "ley": "ley-1-2000",
+      "articulo": "249.1.2º",
+      "enunciado": "En el juicio ordinario sobre tutela del derecho al honor, a la intimidad y a la propia imagen, es siempre parte:",
+      "opciones": [
+        "El Ministerio Fiscal",
+        "El Abogado del Estado",
+        "El Defensor del Pueblo",
+        "El letrado de la Administración de Justicia"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 249.1.2.º establece sobre estos procesos: «En estos procesos, será siempre parte el Ministerio Fiscal y su tramitación tendrá carácter preferente».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-023",
+      "ley": "ley-1-2000",
+      "articulo": "250.1.8º",
+      "enunciado": "Una persona reclama alimentos debidos por disposición legal. ¿Por qué procedimiento se tramita su demanda?",
+      "opciones": [
+        "Juicio ordinario, cualquiera que sea su cuantía",
+        "Juicio verbal solo si no excede de quince mil euros",
+        "Juicio ordinario solo si excede de quince mil euros",
+        "Juicio verbal, cualquiera que sea su cuantía"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 250.1 dice: «Se decidirán en juicio verbal, cualquiera que sea su cuantía, las demandas siguientes» e incluye en el 8.º «Las que soliciten alimentos debidos por disposición legal o por otro título».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-024",
+      "ley": "ley-1-2000",
+      "articulo": "250.2",
+      "enunciado": "Una demanda de reclamación de 9.000 euros, que no se refiere a ninguna de las materias del artículo 249.1, se tramita por:",
+      "opciones": [
+        "Juicio ordinario",
+        "Procedimiento de jurisdicción voluntaria",
+        "Juicio verbal",
+        "Proceso de ejecución"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 250.2, «Se decidirán también en el juicio verbal las demandas cuya cuantía no exceda de quince mil euros y no se refieran a ninguna de las materias previstas en el apartado 1 del artículo anterior».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-025",
+      "ley": "ley-1-2000",
+      "articulo": "399.3",
+      "enunciado": "Además de los hechos y fundamentos, la demanda debe hacer constar, salvo en los supuestos exceptuados:",
+      "opciones": [
+        "El resultado de la mediación intentada, siempre con acuerdo",
+        "La renuncia expresa a la mediación por el actor",
+        "El domicilio profesional del tercero neutral",
+        "La descripción del proceso de negociación previo llevado a cabo o la imposibilidad del mismo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 399.3 ordena que «se hará constar en la demanda la descripción del proceso de negociación previo llevado a cabo o la imposibilidad del mismo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-026",
+      "ley": "ley-1-2000",
+      "articulo": "404.1",
+      "enunciado": "Examinada la demanda de juicio ordinario, el LAJ dicta la resolución que la admite y da traslado al demandado para contestar en veinte días. Esa resolución es:",
+      "opciones": [
+        "Un auto",
+        "Una providencia",
+        "Un decreto",
+        "Una diligencia de ordenación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 404.1 dice que el LAJ «dictará decreto admitiendo la misma y dará traslado de ella al demandado para que la conteste en el plazo de veinte días».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-027",
+      "ley": "ley-1-2000",
+      "articulo": "404.2",
+      "enunciado": "En el juicio ordinario, el LAJ da cuenta al Tribunal para que resuelva sobre la admisión de la demanda cuando:",
+      "opciones": [
+        "La cuantía de la demanda exceda de quince mil euros",
+        "Estime falta de jurisdicción o competencia del Tribunal",
+        "El demandado haya anunciado una reconvención",
+        "El actor haya acumulado varias acciones"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 404.2 dispone que el LAJ «dará cuenta al Tribunal para que resuelva sobre la admisión» […] «cuando estime falta de jurisdicción o competencia del Tribunal».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-028",
+      "ley": "ley-1-2000",
+      "articulo": "401.1",
+      "enunciado": "En el juicio ordinario, la acumulación de acciones no se permite:",
+      "opciones": [
+        "Después de contestada la demanda",
+        "Después de admitida la demanda",
+        "Después de celebrada la audiencia previa",
+        "Después de proponerse la prueba"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 401.1 es claro: «No se permitirá la acumulación de acciones después de contestada la demanda».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-029",
+      "ley": "ley-1-2000",
+      "articulo": "405.2",
+      "enunciado": "Si el demandado guarda silencio o da respuestas evasivas sobre los hechos de la demanda, el tribunal puede considerarlo:",
+      "opciones": [
+        "Admisión tácita de los hechos que le sean perjudiciales",
+        "Allanamiento total a la demanda",
+        "Desistimiento de la contestación",
+        "Reconocimiento de su rebeldía"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 405.2 señala que «El tribunal podrá considerar el silencio o las respuestas evasivas del demandado como admisión tácita de los hechos que le sean perjudiciales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-030",
+      "ley": "ley-1-2000",
+      "articulo": "414.1",
+      "enunciado": "Contestada la demanda en el juicio ordinario, la audiencia previa habrá de celebrarse en el plazo de:",
+      "opciones": [
+        "Diez días desde la convocatoria",
+        "Veinte días desde la convocatoria",
+        "Quince días desde la convocatoria",
+        "Un mes desde la convocatoria"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 414.1 prevé que el LAJ «convocará a las partes a una audiencia, que habrá de celebrarse en el plazo de veinte días desde la convocatoria».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-031",
+      "ley": "ley-1-2000",
+      "articulo": "414.3",
+      "enunciado": "Si a la audiencia previa no comparece ninguna de las partes, el tribunal, sin más trámites, dicta:",
+      "opciones": [
+        "Sentencia absolutoria",
+        "Providencia de nuevo señalamiento",
+        "Auto de sobreseimiento del proceso",
+        "Decreto de caducidad de la instancia"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 414.3 dice que, si no compareciere ninguna de las partes, «el tribunal, sin más trámites, dictará auto de sobreseimiento del proceso, ordenando el archivo de las actuaciones».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-032",
+      "ley": "ley-1-2000",
+      "articulo": "416.2",
+      "enunciado": "En la audiencia previa, el demandado NO podrá impugnar:",
+      "opciones": [
+        "La falta de capacidad de los litigantes",
+        "La litispendencia o la cosa juzgada",
+        "La inadecuación del procedimiento",
+        "La falta de jurisdicción o de competencia del tribunal"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 416.2 establece: «En la audiencia, el demandado no podrá impugnar la falta de jurisdicción o de competencia del tribunal, que hubo de proponer en forma de declinatoria».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-033",
+      "ley": "ley-1-2000",
+      "articulo": "418.1",
+      "enunciado": "Si en la audiencia previa no puede subsanarse en el acto un defecto de capacidad o representación, se concede un plazo no superior a:",
+      "opciones": [
+        "Cinco días",
+        "Quince días",
+        "Diez días",
+        "Veinte días"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 418.1 indica que «se concederá para ello un plazo, no superior a diez días, con suspensión, entre tanto, de la audiencia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-034",
+      "ley": "ley-1-2000",
+      "articulo": "429.2",
+      "enunciado": "Admitidas las pruebas en la audiencia previa, el juicio deberá celebrarse en el plazo de:",
+      "opciones": [
+        "Un mes desde la conclusión de la audiencia",
+        "Diez días desde la conclusión de la audiencia",
+        "Veinte días desde la conclusión de la audiencia",
+        "Dos meses desde la conclusión de la audiencia"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 429.2 dice que se señalará «la fecha del juicio, que deberá celebrarse en el plazo de un mes desde la conclusión de la audiencia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-035",
+      "ley": "ley-1-2000",
+      "articulo": "434.1",
+      "enunciado": "En el juicio ordinario, la sentencia se dictará dentro de los:",
+      "opciones": [
+        "Diez días siguientes a la terminación del juicio",
+        "Veinte días siguientes a la terminación del juicio",
+        "Quince días siguientes a la terminación del juicio",
+        "Treinta días siguientes a la terminación del juicio"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 434.1 establece: «La sentencia se dictará dentro de los veinte días siguientes a la terminación del juicio».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-036",
+      "ley": "ley-1-2000",
+      "articulo": "435.1",
+      "enunciado": "Las diligencias finales en el juicio ordinario, acordadas a instancia de parte, se acuerdan mediante:",
+      "opciones": [
+        "Providencia",
+        "Decreto",
+        "Diligencia de ordenación",
+        "Auto"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 435.1 señala: «Sólo a instancia de parte podrá el tribunal acordar, mediante auto, como diligencias finales, la práctica de actuaciones de prueba».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-037",
+      "ley": "ley-1-2000",
+      "articulo": "438.1",
+      "enunciado": "Admitida la demanda de juicio verbal, el demandado debe contestarla por escrito en el plazo de:",
+      "opciones": [
+        "Cinco días",
+        "Quince días",
+        "Veinte días",
+        "Diez días"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 438.1 dispone que se dará traslado «al demandado para que la conteste por escrito en el plazo de diez días conforme a lo dispuesto para el juicio ordinario».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-038",
+      "ley": "ley-1-2000",
+      "articulo": "440",
+      "enunciado": "Contestada la demanda en el juicio verbal, cuando haya de celebrarse vista, esta habrá de tener lugar dentro del plazo máximo de:",
+      "opciones": [
+        "Quince días",
+        "Un mes",
+        "Veinte días",
+        "Dos meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 440 señala que el LAJ citará a las partes «dentro de los cinco días siguientes. La vista habrá de tener lugar dentro del plazo máximo de un mes».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-039",
+      "ley": "ley-1-2000",
+      "articulo": "442.1",
+      "enunciado": "En un juicio verbal el demandante no asiste a la vista y el demandado no alega interés legítimo en que continúe el proceso. Se tendrá al demandante por:",
+      "opciones": [
+        "Desistido de la demanda, con imposición de costas",
+        "Renunciante a la acción, sin imposición de costas",
+        "Apartado del proceso, con suspensión de la vista",
+        "Rebelde, con celebración del juicio"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 442.1 dispone que «se tendrá en el acto por desistido a aquél de la demanda, se le impondrán las costas causadas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    },
+    {
+      "id": "tph-040",
+      "ley": "ley-1-2000",
+      "articulo": "447.1",
+      "enunciado": "Fuera del desahucio de finca urbana, en el juicio verbal el tribunal dictará sentencia, salvo que la pronuncie oralmente, dentro de los:",
+      "opciones": [
+        "Cinco días siguientes a la terminación de la vista",
+        "Veinte días siguientes a la terminación de la vista",
+        "Diez días siguientes a la terminación de la vista",
+        "Quince días siguientes a la terminación de la vista"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 447.1 prevé que el tribunal «dictará sentencia dentro de los diez días siguientes», y exceptúa el desahucio de finca urbana, donde será en cinco.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 16
+      }
+    }
+  ]
+}
