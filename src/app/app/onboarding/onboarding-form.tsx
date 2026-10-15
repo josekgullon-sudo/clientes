@@ -7,11 +7,6 @@ import { ClaraDice } from "@/components/mascota/bocadillo";
 import { OPOSICIONES } from "@/lib/sitio";
 import { guardarAjustes } from "../ajustes";
 
-const TITULACION: Record<string, string> = {
-  C2: "Grupo C2 · título de ESO",
-  C1: "Grupo C1 · título de Bachiller o Técnico",
-};
-
 const PASOS = 4;
 
 const opciones = [
@@ -92,7 +87,7 @@ export function OnboardingForm({
                 </span>
                 <span>
                   <span className="block font-extrabold">{o.nombre}</span>
-                  <span className="text-sm text-pizarra">{TITULACION[o.grupo]}</span>
+                  <span className="text-sm text-pizarra">{o.detalle}</span>
                 </span>
               </button>
             ))}

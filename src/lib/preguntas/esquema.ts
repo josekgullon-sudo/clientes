@@ -69,6 +69,8 @@ export const esquemaOposicion = z.object({
   formato_simulacro: z.object({
     minutos: z.number().int().positive(),
     penalizacion: z.number().min(0).max(1),
+    /** Nota máxima del ejercicio de test para la predicción (50 por defecto; 10 en Agente de Hacienda). */
+    escala: z.number().positive().optional(),
     /** Bloques del simulacro. `parte`: parte del examen a la que suma el bloque en la predicción (por defecto, una por bloque). */
     partes: z.array(
       z.object({ bloque: z.string(), preguntas: z.number().int().positive(), parte: z.number().int().positive().optional() }),

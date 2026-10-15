@@ -12,7 +12,7 @@ export default async function Simulacro() {
   const [{ suscrito }, opo] = await Promise.all([usuarioActual(), oposicionActual()]);
   const f = opo.formato_simulacro;
   const total = f.partes.reduce((s, p) => s + p.preguntas, 0);
-  const tercio = f.penalizacion > 0.33 && f.penalizacion < 0.34;
+  const fraccion = f.penalizacion > 0.33 && f.penalizacion < 0.34 ? "−⅓" : f.penalizacion === 0.25 ? "−¼" : `−${f.penalizacion.toLocaleString("es-ES")}`;
   const soloBloqueI = f.partes.length === 1 && f.partes[0].bloque === "I";
   const textos = datosOposicion(opo.slug);
   const trozos = f.partes.map((p) => {
@@ -29,7 +29,7 @@ export default async function Simulacro() {
   const datos = [
     { icono: ListChecks, valor: String(total), texto: "preguntas", detalle },
     { icono: Clock, valor: String(f.minutos), texto: "minutos", detalle: "El tiempo empieza al pulsar" },
-    { icono: MinusCircle, valor: tercio ? "−⅓" : `−${f.penalizacion}`, texto: "por fallo", detalle: "Como en el examen real" },
+    { icono: MinusCircle, valor: fraccion, texto: "por fallo", detalle: "Como en el examen real" },
     { icono: CircleSlash, valor: "0", texto: "en blanco", detalle: "No suman ni restan" },
   ];
 

@@ -470,5 +470,202 @@
         "titulo": "La Red Internet: origen, evolución y estado actual. Conceptos elementales sobre protocolos y servicios en Internet. Funcionalidades básicas de los navegadores web"
       }
     ]
+  },
+  {
+    "slug": "agente-aeat",
+    "nombre": "Agente de la Hacienda Pública",
+    "activa": true,
+    "verificado": true,
+    "formato_simulacro": {
+      "minutos": 90,
+      "penalizacion": 0.25,
+      "partes": [
+        {
+          "bloque": "I",
+          "preguntas": 18,
+          "parte": 1
+        },
+        {
+          "bloque": "II",
+          "preguntas": 12,
+          "parte": 1
+        },
+        {
+          "bloque": "III",
+          "preguntas": 50,
+          "parte": 1
+        }
+      ],
+      "nota": "Verificado con la Resolución de 22 de diciembre de 2025, de la Presidencia de la AEAT (BOE-A-2025-27056), bases 6.2 y anexo I (Cuerpo General Administrativo, especialidad de Agentes de la Hacienda Pública, acceso libre, código 1135H). Primer ejercicio: 80 preguntas sobre todo el programa, con cuatro opciones, 90 minutos, calificado de 0 a 10; cada error resta un cuarto. La convocatoria no dice cuántas preguntas salen de cada bloque: aquí se reparten según el número de temas (7 comunes, 5 de Derecho administrativo y 20 específicos). El segundo ejercicio, diez supuestos prácticos con respuesta razonada, no se puede practicar con test. Los temas van del 1 al 32: 1-7 materias comunes, 8-12 Derecho administrativo general y 13-32 materias específicas.",
+      "escala": 10
+    },
+    "examen_estimado": {
+      "fecha": "2027-04-17",
+      "etiqueta": "primavera de 2027",
+      "convocatoria": "BOE-A-2025-27056",
+      "nota": "Estimación a partir del calendario de la última convocatoria (convocada en diciembre de 2025). No es la fecha oficial del examen: esa se publica en la web de la AEAT."
+    },
+    "temas": [
+      {
+        "numero": 1,
+        "bloque": "I",
+        "titulo": "La Constitución Española de 1978: Estructura y contenido. Derechos y deberes fundamentales. Su garantía y suspensión. La Corona. El Tribunal Constitucional"
+      },
+      {
+        "numero": 2,
+        "bloque": "I",
+        "titulo": "Las Cortes Generales: Composición, atribuciones y funcionamiento. El Defensor del Pueblo. El Poder Judicial. El Consejo General del Poder Judicial. El Tribunal Supremo. La organización judicial española"
+      },
+      {
+        "numero": 3,
+        "bloque": "I",
+        "titulo": "El Gobierno: Nombramiento y cese. Las funciones del Gobierno. La Administración Pública: Principios constitucionales informadores. La Administración central y periférica del Estado. Tipos de Entes Públicos"
+      },
+      {
+        "numero": 4,
+        "bloque": "I",
+        "titulo": "La organización territorial del Estado. Comunidades y Ciudades Autónomas. Las Entidades Locales. Las Instituciones de la Unión Europea: El Consejo, el Parlamento Europeo, la Comisión, el Tribunal de Justicia"
+      },
+      {
+        "numero": 5,
+        "bloque": "I",
+        "titulo": "El funcionamiento electrónico del sector público. Derecho y obligación de relacionarse electrónicamente con las Administraciones Públicas, registros y archivo electrónico. El Gobierno abierto, la transparencia, el acceso a la información pública, la participación en la rendición de cuentas y el buen gobierno. Normativa reguladora de la protección de datos personales: principios, derechos de las personas y ejercicios de los derechos"
+      },
+      {
+        "numero": 6,
+        "bloque": "I",
+        "titulo": "Políticas de igualdad de género, no discriminación y contra la violencia de género. Discapacidad y dependencia: régimen jurídico"
+      },
+      {
+        "numero": 7,
+        "bloque": "I",
+        "titulo": "Régimen jurídico del personal al servicio de las Administraciones Públicas. El Estatuto Básico del Empleado Público. Derechos y deberes de los funcionarios. La provisión de puestos de trabajo y la carrera administrativa. Situaciones administrativas. Incompatibilidades y régimen disciplinario. El régimen de Seguridad Social de los funcionarios"
+      },
+      {
+        "numero": 8,
+        "bloque": "II",
+        "titulo": "Las fuentes del Derecho Administrativo. La jerarquía de las fuentes. La Constitución. La Ley. El Reglamento. El ordenamiento jurídico de la Unión Europea"
+      },
+      {
+        "numero": 9,
+        "bloque": "II",
+        "titulo": "Los actos administrativos. Concepto y clases. Motivación, forma y eficacia de los actos administrativos. Notificación y publicación. Nulidad y anulabilidad. La revisión de oficio"
+      },
+      {
+        "numero": 10,
+        "bloque": "II",
+        "titulo": "El procedimiento administrativo común. La capacidad de obrar y el concepto de interesado. Representación. Identificación y firma de los interesados. Derechos del interesado en el procedimiento administrativo. Obligación de resolver y silencio administrativo. Términos y plazos"
+      },
+      {
+        "numero": 11,
+        "bloque": "II",
+        "titulo": "Las fases del procedimiento administrativo: Iniciación, ordenación, instrucción y finalización. La ejecución de los actos y resoluciones administrativas"
+      },
+      {
+        "numero": 12,
+        "bloque": "II",
+        "titulo": "Los recursos administrativos: concepto y clases. Recurso de alzada. Recurso potestativo de reposición. Recurso extraordinario de revisión. La jurisdicción contencioso-administrativa: objeto y plazos de interposición del recurso contencioso-administrativo"
+      },
+      {
+        "numero": 13,
+        "bloque": "III",
+        "titulo": "El sistema fiscal español. Principios impositivos en la Constitución Española. Los impuestos de titularidad estatal y sus características. La Hacienda Pública Estatal, Autonómica y Local"
+      },
+      {
+        "numero": 14,
+        "bloque": "III",
+        "titulo": "La Agencia Estatal de Administración Tributaria: creación, naturaleza, objetivos, funciones y organización"
+      },
+      {
+        "numero": 15,
+        "bloque": "III",
+        "titulo": "Derecho Tributario: concepto y contenido. Fuentes. Los tributos: concepto y clasificación. La obligación tributaria. Hecho imponible. Devengo. Base imponible y liquidable. Cuota y deuda tributaria"
+      },
+      {
+        "numero": 16,
+        "bloque": "III",
+        "titulo": "Obligaciones tributarias formales. Derechos y garantías de los obligados tributarios. Los obligados tributarios. La capacidad de obrar en el orden tributario. Representación y domicilio fiscal. Plazos de prescripción"
+      },
+      {
+        "numero": 17,
+        "bloque": "III",
+        "titulo": "Información y Asistencia a los obligados tributarios. La colaboración social en la aplicación de los tributos. Carácter reservado de los datos con trascendencia tributaria. Normas comunes sobre actuaciones y procedimientos tributarios: fases. Las liquidaciones tributarias. Obligación de resolver y plazos de resolución. Carga de la prueba. Las notificaciones"
+      },
+      {
+        "numero": 18,
+        "bloque": "III",
+        "titulo": "Las declaraciones tributarias: concepto y clases. Las autoliquidaciones. Las comunicaciones de datos. Los pagos a cuenta"
+      },
+      {
+        "numero": 19,
+        "bloque": "III",
+        "titulo": "Actuaciones y procedimiento de gestión tributaria. Los procedimientos de gestión tributaria: iniciación, trámites y terminación. El procedimiento de verificación de datos. El procedimiento de comprobación de valores. El procedimiento de comprobación limitada. Rectificación de autoliquidaciones, declaraciones, comunicaciones de datos e iniciación del procedimiento de devolución"
+      },
+      {
+        "numero": 20,
+        "bloque": "III",
+        "titulo": "Actuaciones y procedimiento de inspección: funciones y facultades. Documentación de las actuaciones de inspección. La personación de la inspección en el domicilio o locales del contribuyente. El procedimiento de inspección: iniciación, desarrollo y terminación. Las medidas cautelares en el procedimiento inspector"
+      },
+      {
+        "numero": 21,
+        "bloque": "III",
+        "titulo": "La extinción de la deuda tributaria (I). Medios de extinción de la deuda. El pago o cumplimiento: forma, momento, plazos, imputación, consignación y medios de pago. Aplazamiento y fraccionamiento del pago"
+      },
+      {
+        "numero": 22,
+        "bloque": "III",
+        "titulo": "La extinción de la deuda tributaria (II). Otras formas de extinción de las deudas: la compensación, la extinción de deudas de las entidades de derecho público mediante deducciones sobre transferencias. La condonación. Baja provisional por insolvencia. Terminación del procedimiento de apremio"
+      },
+      {
+        "numero": 23,
+        "bloque": "III",
+        "titulo": "Las actuaciones y el procedimiento de recaudación tributaria: la recaudación en período ejecutivo. Iniciación. Efectos. Recargos del período ejecutivo. Procedimiento de apremio: características, concurrencia y suspensión del procedimiento. Providencia de apremio: concepto y plazos para el pago. Las garantías de la deuda tributaria: tipos y ejecución de garantías"
+      },
+      {
+        "numero": 24,
+        "bloque": "III",
+        "titulo": "El embargo. Facultades de la recaudación. Las diligencias de embargo: concepto y motivos de oposición. Práctica del embargo de bienes y derechos. Depósito y enajenación de los bienes embargados. El procedimiento frente a responsables. Procedimiento de recaudación frente a los sucesores"
+      },
+      {
+        "numero": 25,
+        "bloque": "III",
+        "titulo": "La potestad sancionadora en materia tributaria. Principios. Sujetos responsables. Concepto y clases de infracciones y sanciones tributarias. Cuantificación de las sanciones tributarias pecuniarias. Extinción de la responsabilidad derivada de las infracciones tributarias y extinción de las sanciones tributarias. Procedimiento sancionador en materia tributaria: iniciación, instrucción y terminación"
+      },
+      {
+        "numero": 26,
+        "bloque": "III",
+        "titulo": "Revisión en vía administrativa. El recurso de reposición. Las reclamaciones económico-administrativas. Los Tribunales Económico-Administrativos"
+      },
+      {
+        "numero": 27,
+        "bloque": "III",
+        "titulo": "El Impuesto sobre la Renta de las Personas Físicas (I). Naturaleza, objeto y ámbito de aplicación. Sujeción al impuesto: aspectos materiales, personales y temporales. Rendimientos del trabajo, rendimientos del capital mobiliario, rendimientos del capital inmobiliario, rendimientos de actividades económicas. Imputación de rentas inmobiliarias. Ganancias y pérdidas patrimoniales"
+      },
+      {
+        "numero": 28,
+        "bloque": "III",
+        "titulo": "El Impuesto sobre la Renta de las Personas Físicas (II): clases de Renta. Integración y compensación de rentas. Base liquidable general y del ahorro. Adecuación del impuesto a las circunstancias personales y familiares del contribuyente. Cálculo del impuesto estatal. Cuota diferencial. Tributación familiar. Gestión del Impuesto"
+      },
+      {
+        "numero": 29,
+        "bloque": "III",
+        "titulo": "El Impuesto sobre Sociedades: naturaleza y ámbito de aplicación. Hecho imponible. Contribuyentes. Concepto y determinación de la base imponible. Reglas de imputación temporal. Reducciones en la base imponible. Período impositivo y devengo del impuesto. Tipo de gravamen y cuota íntegra. Deducciones para evitar la doble imposición internacional. Bonificaciones. Declaración, autoliquidación y liquidación provisional. Devolución"
+      },
+      {
+        "numero": 30,
+        "bloque": "III",
+        "titulo": "El Impuesto sobre el Valor Añadido (I). Naturaleza y ámbito de aplicación. Entregas de bienes y prestaciones de servicios: hecho imponible. Exenciones. Lugar de realización del hecho imponible"
+      },
+      {
+        "numero": 31,
+        "bloque": "III",
+        "titulo": "El Impuesto sobre el Valor Añadido (II). Sujetos pasivos. Repercusión del impuesto. Devengo del impuesto. Base imponible. Deducciones: requisitos subjetivos de la deducción y limitaciones del derecho a deducir. Régimen de deducciones en sectores diferenciados de la actividad empresarial o profesional. Regla de prorrata. Regularización de deducciones por bienes de inversión. Devoluciones"
+      },
+      {
+        "numero": 32,
+        "bloque": "III",
+        "titulo": "La Aduana: representación aduanera. Deuda aduanera de importación y deuda aduanera de exportación. Inclusión de mercancías en un régimen aduanero: disposiciones generales"
+      }
+    ]
   }
 ]

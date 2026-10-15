@@ -42,6 +42,8 @@ export type Estadisticas = {
   heatmap: { dia: string; preguntas: number }[];
   prediccion: {
     suficiente: boolean;
+    /** Nota máxima del examen (50 o 10). */
+    escala?: number;
     respuestas: number;
     parte1?: ParteNota | null;
     parte2?: ParteNota | null;

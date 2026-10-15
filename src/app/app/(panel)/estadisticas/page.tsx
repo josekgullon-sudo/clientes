@@ -170,7 +170,7 @@ export default async function Estadisticas() {
                           <dd>
                             <span className="cifras block font-display text-4xl font-extrabold">
                               {parte && typeof parte === "object" ? parte.nota.toLocaleString("es-ES") : "—"}
-                              <span className="font-sans text-base font-semibold text-pizarra"> /50</span>
+                              <span className="font-sans text-base font-semibold text-pizarra"> /{textos.escala}</span>
                             </span>
                             {parte && typeof parte === "object" && (
                               <span className="cifras block text-sm text-pizarra">
@@ -182,7 +182,7 @@ export default async function Estadisticas() {
                       ))}
                     </dl>
                     <p className="mt-3 text-sm text-pizarra">
-                      Estimación con penalización de un tercio. No es la nota del examen.
+                      Estimación con penalización {textos.penalizacion}. No es la nota del examen.
                       {textos.notaPrediccion}
                     </p>
                   </>
@@ -249,7 +249,7 @@ export default async function Estadisticas() {
               </div>
               <ul className="divide-y divide-filete">
                 {[
-                  ["Predicción de nota", "Parte 1 y 2 sobre 50, con penalización, como el examen."],
+                  ["Predicción de nota", textos.escala === 50 ? "Parte 1 y 2 sobre 50, con penalización, como el examen." : `Sobre ${textos.escala}, con penalización, como el examen.`],
                   ["Temas a reforzar", "Ordenados por lo que más pesa en tu nota."],
                   ["Tu ritmo", "Segundos por pregunta frente al tiempo del examen."],
                   ["Calendario", "Lo que has estudiado cada día de las últimas 12 semanas."],

@@ -4,7 +4,7 @@ export const SITIO = {
   lema: "Test de oposiciones con cada respuesta explicada",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   descripcion:
-    "Test para preparar el Auxiliar y el Administrativo del Estado con la explicación de cada respuesta y el artículo exacto de la ley. 10 preguntas al día gratis.",
+    "Test para preparar el Auxiliar, el Administrativo y Agente de Hacienda con la explicación de cada respuesta y el artículo exacto de la ley. 10 preguntas al día gratis.",
   avisoNoOficial:
     "No somos una plataforma oficial ni estamos vinculados al INAP ni a ningún organismo público.",
 } as const;
@@ -34,6 +34,9 @@ export const OPOSICIONES = [
     nombre: "Auxiliar Administrativo del Estado",
     corto: "Auxiliar AGE",
     grupo: "C2",
+    detalle: "Grupo C2 · título de ESO",
+    escala: 50,
+    penalizacion: "de un tercio",
     simulacro: "Es el examen completo: las dos partes, con los psicotécnicos y el tiempo del examen real.",
     ritmo: "En el examen tienes unos 49 s (90 min para 110 preguntas).",
     partes: ["Parte 1 · bloque I y psicotécnicos", "Parte 2 · bloque II"],
@@ -49,6 +52,9 @@ export const OPOSICIONES = [
     nombre: "Administrativo del Estado",
     corto: "Administrativo AGE",
     grupo: "C1",
+    detalle: "Grupo C1 · título de Bachiller o Técnico",
+    escala: 50,
+    penalizacion: "de un tercio",
     simulacro:
       "Es la primera parte del examen: 70 preguntas de todos los bloques. El supuesto práctico no entra; el tiempo es proporcional al examen real.",
     ritmo: "En el examen tienes unos 67 s (100 min para 90 preguntas).",
@@ -61,6 +67,25 @@ export const OPOSICIONES = [
       IV: { nombre: "Gestión de personal" },
       V: { nombre: "Gestión financiera" },
       VI: { nombre: "Informática básica y ofimática" },
+    },
+  },
+  {
+    slug: "agente-aeat",
+    nombre: "Agente de la Hacienda Pública",
+    corto: "Agente de Hacienda",
+    grupo: "C1",
+    detalle: "Grupo C1 · Agencia Tributaria",
+    escala: 10,
+    penalizacion: "de un cuarto",
+    simulacro:
+      "Es el primer ejercicio: 80 preguntas de todo el programa, con 90 minutos y un cuarto de penalización. Los supuestos prácticos del segundo ejercicio no entran.",
+    ritmo: "En el examen tienes unos 68 s (90 min para 80 preguntas).",
+    partes: ["Primer ejercicio · cuestionario", "Segundo ejercicio"],
+    notaPrediccion: " Los supuestos prácticos del segundo ejercicio no entran en la predicción.",
+    bloques: {
+      I: { nombre: "Organización del Estado y funcionamiento de la Administración", titulo: "Materias comunes" },
+      II: { nombre: "Derecho administrativo general" },
+      III: { nombre: "Organización de la Hacienda Pública y Derecho tributario", titulo: "Materias específicas" },
     },
   },
 ] as const;
