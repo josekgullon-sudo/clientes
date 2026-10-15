@@ -28,9 +28,9 @@
       "enunciado": "Según la LO 11/1985, quedan exceptuados del ejercicio del derecho de sindicación:",
       "opciones": [
         "Los miembros de las Fuerzas Armadas y de los Institutos Armados de carácter militar",
-        "Los trabajadores en paro y los jubilados por incapacidad",
-        "Los funcionarios interinos de las Administraciones públicas",
-        "Los miembros de los Cuerpos y Fuerzas de Seguridad no militares"
+        "Los trabajadores en paro y los que cesaron por incapacidad o jubilación",
+        "Los funcionarios interinos y el personal estatutario de las Administraciones",
+        "Los miembros de los Cuerpos y Fuerzas de Seguridad que no tengan carácter militar"
       ],
       "correcta": 0,
       "explicacion": "El artículo 1.3 establece: «Quedan exceptuados del ejercicio de este derecho los miembros de las Fuerzas Armadas y de los Institutos Armados de carácter militar».",
@@ -187,10 +187,10 @@
       "articulo": "13",
       "enunciado": "Un trabajador que considere lesionada su libertad sindical puede recabar la tutela del derecho a través de:",
       "opciones": [
-        "Un recurso de alzada ante la Inspección de Trabajo",
+        "Un recurso de alzada ante la Inspección de Trabajo y Seguridad Social",
         "El proceso de protección jurisdiccional de los derechos fundamentales de la persona",
         "Un recurso de amparo presentado directamente ante el Tribunal Constitucional",
-        "El procedimiento de conflicto colectivo ante la Mesa de Negociación"
+        "El procedimiento de conflicto colectivo ante la Mesa General de Negociación"
       ],
       "correcta": 1,
       "explicacion": "El artículo 13 permite a cualquier trabajador o sindicato «recabar la tutela del derecho ante la jurisdicción competente a través del proceso de protección jurisdiccional de los derechos fundamentales de la persona».",
@@ -367,10 +367,10 @@
       "articulo": "41.1.c",
       "enunciado": "Los miembros de las Juntas de Personal tienen derecho a audiencia en los expedientes disciplinarios durante su mandato y:",
       "opciones": [
-        "Durante los seis meses posteriores",
+        "Durante los seis meses posteriores a su cese",
         "Durante el año inmediatamente posterior",
-        "Durante los dos años posteriores",
-        "Solo mientras dure el mandato"
+        "Durante los dos años posteriores a su cese",
+        "Solo mientras dure su mandato representativo"
       ],
       "correcta": 1,
       "explicacion": "El artículo 41.1.c) del TREBEP garantiza «La audiencia en los expedientes disciplinarios a que pudieran ser sometidos sus miembros durante el tiempo de su mandato y durante el año inmediatamente posterior».",
@@ -647,10 +647,10 @@
       "articulo": "51.d",
       "enunciado": "Según la LO 3/2007, las Administraciones públicas deben promover la presencia equilibrada de mujeres y hombres en:",
       "opciones": [
-        "Los órganos de representación sindical",
+        "Los órganos de representación sindical del personal",
         "Los órganos de selección y valoración",
-        "Los órganos de contratación",
-        "Las mesas electorales"
+        "Los órganos de contratación de las Administraciones",
+        "Las mesas electorales de las elecciones sindicales"
       ],
       "correcta": 1,
       "explicacion": "El artículo 51.d) obliga a las Administraciones públicas a «Promover la presencia equilibrada de mujeres y hombres en los órganos de selección y valoración».",
@@ -668,9 +668,9 @@
       "enunciado": "Es criterio general de actuación de los Poderes Públicos según la LO 3/2007:",
       "opciones": [
         "La paridad estricta en todas las candidaturas electorales",
-        "La supresión de las medidas de acción positiva",
+        "La supresión de las medidas de acción positiva en el empleo",
         "La implantación de un lenguaje no sexista en el ámbito administrativo",
-        "La obligación de planes de igualdad en toda empresa"
+        "La obligación de planes de igualdad en toda empresa privada"
       ],
       "correcta": 2,
       "explicacion": "El artículo 14.11 incluye entre los criterios generales «La implantación de un lenguaje no sexista en el ámbito administrativo y su fomento en la totalidad de las relaciones sociales, culturales y artísticas».",

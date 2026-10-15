@@ -1,0 +1,705 @@
+{
+  "descripcion": "Tramitación Procesal, tema 13: Cuerpos Generales de la Administración de Justicia (I). LOPJ libro VI y RD 1451/2005. Lote generado el 2026-10-15; citas a comprobar por script contra el texto consolidado.",
+  "preguntas": [
+    {
+      "id": "tpe-001",
+      "ley": "lo-6-1985",
+      "articulo": "476.1.c",
+      "enunciado": "Los funcionarios de Gestión Procesal que documentan embargos y lanzamientos ostentan en esos actos la consideración de:",
+      "opciones": [
+        "Delegado del Letrado de la Administración de Justicia",
+        "Policía Judicial",
+        "Fedatario público con fe pública plena",
+        "Agente de la autoridad"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 476.1.c) les encomienda documentar los embargos y lanzamientos «ostentando en dichos actos la consideración de agente de la autoridad».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-002",
+      "ley": "lo-6-1985",
+      "articulo": "476.2",
+      "enunciado": "¿Funcionarios de qué Cuerpo pueden ser nombrados Letrados de la Administración de Justicia sustitutos?",
+      "opciones": [
+        "Tramitación Procesal y Administrativa",
+        "Gestión Procesal y Administrativa",
+        "Auxilio Judicial",
+        "Médicos Forenses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 476.2 establece: «Los funcionarios del Cuerpo de Gestión Procesal y Administrativa podrán ser nombrados Letrados de la Administración de Justicia sustitutos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-003",
+      "ley": "lo-6-1985",
+      "articulo": "476.1.a",
+      "enunciado": "Cuando un aspecto de la tramitación exige interpretar la ley o las normas procesales, el Cuerpo de Gestión da cuenta de ello al:",
+      "opciones": [
+        "Letrado de la Administración de Justicia",
+        "Secretario de Gobierno",
+        "Secretario Coordinador provincial",
+        "Juez decano"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 476.1.a), le corresponde «Gestionar la tramitación de los procedimientos, de la que dará cuenta al Letrado de la Administración de Justicia, en particular cuando determinados aspectos exijan una interpretación de ley o de normas procesales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-004",
+      "ley": "lo-6-1985",
+      "articulo": "477",
+      "enunciado": "Con carácter general, el Cuerpo de Tramitación Procesal y Administrativa realiza actividades que tienen carácter de:",
+      "opciones": [
+        "Colaboración en la actividad procesal de nivel superior",
+        "Auxilio a la actividad de los órganos judiciales",
+        "Apoyo a la gestión procesal",
+        "Dirección de la Oficina judicial"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 477 le atribuye «cuantas actividades tengan carácter de apoyo a la gestión procesal, según el nivel de especialización del puesto desempeñado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-005",
+      "ley": "lo-6-1985",
+      "articulo": "477.b",
+      "enunciado": "Una funcionaria registra y clasifica la correspondencia de un órgano judicial. Esta función corresponde al Cuerpo de:",
+      "opciones": [
+        "Auxilio Judicial",
+        "Tramitación Procesal y Administrativa",
+        "Médicos Forenses",
+        "Técnicos Especialistas del INTCF"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 477.b) incluye entre las funciones del Cuerpo de Tramitación «El registro y la clasificación de la correspondencia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-006",
+      "ley": "lo-6-1985",
+      "articulo": "478.c",
+      "enunciado": "¿Qué Cuerpo actúa como Policía Judicial con el carácter de agente de la autoridad?",
+      "opciones": [
+        "Gestión Procesal y Administrativa",
+        "Tramitación Procesal y Administrativa",
+        "Auxilio Judicial",
+        "Letrados de la Administración de Justicia"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 478.c) atribuye al Cuerpo de Auxilio Judicial la función de «Actuar como Policía Judicial con el carácter de agente de la autoridad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-007",
+      "ley": "lo-6-1985",
+      "articulo": "478.f",
+      "enunciado": "Si un funcionario de Auxilio Judicial detecta anomalías en los medios técnicos que impiden un acto procesal, lo comunica al:",
+      "opciones": [
+        "Juez o Magistrado que presida el acto",
+        "Secretario de Gobierno",
+        "Secretario Coordinador",
+        "Letrado de la Administración de Justicia"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 478.f) le encomienda «poniendo en conocimiento del letrado de la Administración de Justicia las anomalías detectadas que pudieran impedir la celebración de actos procesales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-008",
+      "ley": "lo-6-1985",
+      "articulo": "484",
+      "enunciado": "El acceso a los cuerpos generales y especiales de la Administración de Justicia se efectúa por los sistemas establecidos en:",
+      "opciones": [
+        "El texto refundido del Estatuto Básico del Empleado Público",
+        "La Ley 39/2015, del Procedimiento Administrativo Común",
+        "La Ley de Presupuestos Generales del Estado",
+        "La Ley 50/1997, del Gobierno"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 484 dispone que el acceso se efectuará «a través de los sistemas y en los términos establecidos en el texto refundido del Estatuto Básico del Empleado Público».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-009",
+      "ley": "lo-6-1985",
+      "articulo": "483.2",
+      "enunciado": "Las pruebas para acreditar la lengua y el derecho propios de las comunidades autónomas con competencias asumidas tienen carácter:",
+      "opciones": [
+        "Obligatorio y eliminatorio en esa comunidad",
+        "Optativo y en ningún caso eliminatorio",
+        "Obligatorio, aunque no eliminatorio",
+        "Optativo, pero eliminatorio si se realizan"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 483.2 dice que esas pruebas «tendrán carácter optativo y, en ningún caso, serán eliminatorias».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-010",
+      "ley": "lo-6-1985",
+      "articulo": "483.4",
+      "enunciado": "¿Quién elabora las bases de la convocatoria de las pruebas selectivas de ingreso en los Cuerpos de Justicia?",
+      "opciones": [
+        "La Comisión de Selección de Personal",
+        "El Tribunal Calificador Único",
+        "El Consejo General del Poder Judicial",
+        "La Conferencia Sectorial de Administración de Justicia"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 483.4 establece: «Las bases de la convocatoria serán elaboradas por la Comisión de Selección de Personal y aprobadas por el Ministerio de Justicia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-011",
+      "ley": "lo-6-1985",
+      "articulo": "487.1",
+      "enunciado": "El desarrollo y la calificación de las pruebas selectivas de ingreso corresponden a:",
+      "opciones": [
+        "La Comisión de Selección de Personal",
+        "La Comisión de Recursos Humanos de la Administración de Justicia",
+        "El Consejo General del Poder Judicial",
+        "Los tribunales calificadores"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 487.1 señala: «El desarrollo y calificación de las pruebas selectivas corresponde a los tribunales calificadores que, a tal efecto, se constituyan».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-012",
+      "ley": "lo-6-1985",
+      "articulo": "487.2",
+      "enunciado": "En los tribunales de las comunidades autónomas con competencias asumidas, ¿cuántos de cada cinco vocales propone la comunidad?",
+      "opciones": [
+        "Uno",
+        "Tres",
+        "Dos",
+        "Cuatro"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 487.2 prevé que en esos tribunales «dos de cada cinco vocales serán propuestos por el órgano competente de dicha comunidad».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-013",
+      "ley": "rd-1451-2005",
+      "articulo": "29.1",
+      "enunciado": "El funcionario de nuevo ingreso debe tomar posesión de su primer destino en el plazo de:",
+      "opciones": [
+        "Veinte días hábiles desde el día siguiente a la publicación de su nombramiento en el BOE",
+        "Un mes desde la fecha de su nombramiento como funcionario en prácticas",
+        "Diez días naturales desde el día siguiente a la publicación de la lista de aprobados",
+        "Veinte días naturales desde el día siguiente a la publicación de su nombramiento en el BOE"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 29.1 dispone: «La condición de funcionario de carrera se adquirirá con la toma de posesión del primer destino, que tendrá lugar en el plazo de veinte días naturales contados desde el día siguiente al de la publicación de su nombramiento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-014",
+      "ley": "lo-6-1985",
+      "articulo": "490.1",
+      "enunciado": "Por promoción interna, un funcionario del Cuerpo de Auxilio Judicial asciende al Cuerpo de:",
+      "opciones": [
+        "Gestión Procesal y Administrativa",
+        "Letrados de la Administración de Justicia",
+        "Tramitación Procesal y Administrativa",
+        "Técnicos Especialistas del INTCF"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 490.1 define la promoción interna como el «ascenso desde un cuerpo para cuyo ingreso se ha exigido determinada titulación a otro cuerpo para cuyo acceso se exige la titulación inmediata superior».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-015",
+      "ley": "lo-6-1985",
+      "articulo": "490.2",
+      "enunciado": "¿Qué porcentaje de las plazas de la Oferta de Empleo Público de cada cuerpo se convoca anualmente por promoción interna?",
+      "opciones": [
+        "El cincuenta por ciento",
+        "El veinticinco por ciento",
+        "El treinta por ciento",
+        "El quince por ciento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 490.2 prevé convocar anualmente «un número de plazas equivalente al cincuenta por ciento de las que, para cada cuerpo, sean objeto de la Oferta de Empleo Público».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-016",
+      "ley": "rd-1451-2005",
+      "articulo": "32.2",
+      "enunciado": "En la promoción interna, la puntuación obtenida en la fase de concurso:",
+      "opciones": [
+        "Puede compensar la nota de un ejercicio de oposición no superado",
+        "En ningún caso puede aplicarse para superar los ejercicios de la oposición",
+        "Se suma a cada ejercicio de oposición antes de calificarlo",
+        "Solo se aplica para desempatar entre los aspirantes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 32.2 establece: «En ningún caso la puntuación obtenida en la fase de concurso, podrá aplicarse para superar los ejercicios de la fase de oposición».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-017",
+      "ley": "lo-6-1985",
+      "articulo": "443.2.f",
+      "enunciado": "La condición de funcionario de carrera se pierde, entre otros casos, por condena a pena privativa de libertad superior a:",
+      "opciones": [
+        "Seis meses, por razón de delito doloso",
+        "Un año, por cualquier delito",
+        "Tres años, por razón de delito doloso",
+        "Cinco años, por delito grave"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 491.2 remite a los supuestos de pérdida de los Letrados, entre ellos el del artículo 443.2.f): «Por condena a pena de privativa de libertad superior a tres años por razón de delito doloso».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-018",
+      "ley": "lo-6-1985",
+      "articulo": "492.3",
+      "enunciado": "Los funcionarios pueden prolongar voluntariamente su permanencia en el servicio activo, como máximo, hasta que cumplan:",
+      "opciones": [
+        "Setenta años de edad",
+        "Sesenta y siete años de edad",
+        "Sesenta y ocho años de edad",
+        "Setenta y dos años de edad"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 492.3 señala que «los funcionarios podrán prolongar voluntariamente su permanencia en el servicio activo, como máximo hasta que cumplan 70 años de edad».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-019",
+      "ley": "lo-6-1985",
+      "articulo": "493",
+      "enunciado": "Entre quienes pueden ser rehabilitados en la condición de funcionario figuran:",
+      "opciones": [
+        "Los que renunciaron voluntariamente por escrito",
+        "Los separados del servicio como consecuencia de sanción disciplinaria",
+        "Los jubilados forzosamente por edad",
+        "Los jubilados voluntariamente a su solicitud"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 493 añade: «Asimismo podrán ser rehabilitados, los funcionarios que hayan sido separados del servicio como consecuencia de sanción disciplinaria».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-020",
+      "ley": "rd-1451-2005",
+      "articulo": "78.1",
+      "enunciado": "El procedimiento de rehabilitación de un funcionario se inicia:",
+      "opciones": [
+        "De oficio, por acuerdo del Ministro de Justicia",
+        "A propuesta del Consejo General del Poder Judicial",
+        "Por comunicación del órgano que impuso la sanción",
+        "Mediante solicitud del interesado dirigida al Ministro de Justicia"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 78.1 dice: «El procedimiento se iniciará mediante solicitud del interesado dirigida al Ministro de Justicia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-021",
+      "ley": "lo-6-1985",
+      "articulo": "494.2",
+      "enunciado": "La rehabilitación procedente de jubilación por incapacidad permanente la acuerda, en todo caso:",
+      "opciones": [
+        "El órgano competente de la comunidad autónoma de destino",
+        "El Consejo General del Poder Judicial",
+        "El Ministerio de Justicia",
+        "El Secretario de Gobierno del Tribunal Superior"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 494.2 dispone que «la rehabilitación procedente de jubilación por incapacidad permanente para el personal al servicio de la Administración de Justicia será acordada, en todo caso, por el Ministerio de Justicia».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-022",
+      "ley": "rd-1451-2005",
+      "articulo": "78.5",
+      "enunciado": "Un funcionario separado por sanción disciplinaria no puede solicitar su rehabilitación antes de que transcurra, desde la firmeza de la separación:",
+      "opciones": [
+        "Seis meses",
+        "Un año",
+        "Tres años",
+        "Dos años"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 78.5 señala que no podrán solicitar la apertura del expediente «antes de haber transcurrido dos años a partir de la firmeza del acuerdo de separación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-023",
+      "ley": "rd-1451-2005",
+      "articulo": "81.2",
+      "enunciado": "Si en seis meses no se notifica resolución expresa en el expediente de rehabilitación, el interesado:",
+      "opciones": [
+        "Está legitimado para entender estimada su solicitud",
+        "Debe entender desestimada su solicitud",
+        "Debe iniciar de nuevo el procedimiento",
+        "Puede entender caducado el procedimiento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 81.2 fija el plazo máximo en seis meses y añade: «Si transcurrido dicho plazo no se hubiera notificado resolución expresa, el interesado estará legitimado para entender estimada su solicitud».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-024",
+      "ley": "lo-6-1985",
+      "articulo": "495.2",
+      "enunciado": "Los funcionarios interinos quedan integrados, a efectos de seguridad social, en:",
+      "opciones": [
+        "El Régimen de Clases Pasivas del Estado",
+        "El Régimen General de la Seguridad Social",
+        "El Mutualismo Judicial, en todo caso",
+        "El Régimen Especial de Funcionarios Civiles del Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 495.2 dice que los interinos quedan «integrados, a efectos de seguridad social, en el Régimen General de la Seguridad Social».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-025",
+      "ley": "lo-6-1985",
+      "articulo": "497.g",
+      "enunciado": "Una funcionaria recibe una orden que, a su juicio, constituye delito. Según los deberes de los funcionarios, debe:",
+      "opciones": [
+        "Cumplirla y reclamar después ante su superior",
+        "Dar cuenta de ella a las autoridades competentes",
+        "Cumplirla si la firma el Letrado de la Administración de Justicia",
+        "Abstenerse de cumplirla sin comunicarlo a nadie"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 497.g) obliga a «Dar cuenta a las autoridades competentes de aquellas órdenes que, a su juicio, fuesen contrarias a la legalidad o constitutivas de delito».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-026",
+      "ley": "lo-6-1985",
+      "articulo": "498.3.b",
+      "enunciado": "Según el artículo 498.3.b), la función de los Cuerpos Generales es incompatible con:",
+      "opciones": [
+        "La función de médico de empresa",
+        "La emisión de certificados médicos de defunción",
+        "La condición de socio de una cooperativa de consumo",
+        "El desempeño de servicios de gestoría administrativa"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 498.3.b).5.º declara incompatible «El desempeño de servicios de gestoría administrativa, ya sea como titular o como empleado de tales oficinas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-027",
+      "ley": "lo-6-1985",
+      "articulo": "498.2",
+      "enunciado": "El ejercicio de una actividad que requiera declaración de compatibilidad exige la previa autorización de:",
+      "opciones": [
+        "El Consejo General del Poder Judicial",
+        "El Secretario de Gobierno del Tribunal Superior",
+        "El Ministerio de Justicia o la comunidad autónoma con competencias asumidas",
+        "El Letrado de la Administración de Justicia del destino"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 498.2 establece que dicha actividad «exigirá la previa autorización del Ministerio de Justicia o de la Comunidad Autónoma con competencias asumidas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-028",
+      "ley": "lo-6-1985",
+      "articulo": "500.2",
+      "enunciado": "La duración de la jornada general semanal de los funcionarios de Justicia es igual a la establecida para:",
+      "opciones": [
+        "La Administración General del Estado",
+        "Jueces y Magistrados",
+        "Los Letrados de la Administración de Justicia",
+        "La Administración de cada comunidad autónoma"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 500.2 señala: «La duración de la jornada general semanal será igual a la establecida para la Administración General del Estado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-029",
+      "ley": "lo-6-1985",
+      "articulo": "500.3",
+      "enunciado": "La incorporación de los funcionarios a la jornada de mañana y tarde es:",
+      "opciones": [
+        "Obligatoria en las unidades de atención al público",
+        "Obligatoria en los servicios comunes procesales",
+        "Voluntaria, sin compensación alguna",
+        "Voluntaria, con medidas incentivadoras"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 500.3 dispone: «La incorporación de los funcionarios a la jornada de mañana y tarde será voluntaria y deberá ir acompañada de medidas incentivadoras».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-030",
+      "ley": "lo-6-1985",
+      "articulo": "500.4",
+      "enunciado": "El calendario laboral anual de los funcionarios de Justicia se aprueba previo informe del:",
+      "opciones": [
+        "Consejo General del Poder Judicial",
+        "Consejo de Estado",
+        "Consejo Fiscal",
+        "Consejo de Política Fiscal y Financiera"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 500.4 exige «previo informe del Consejo General del Poder Judicial y negociación con las organizaciones sindicales».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-031",
+      "ley": "lo-6-1985",
+      "articulo": "502.1",
+      "enunciado": "Los funcionarios de Justicia tienen derecho a vacaciones anuales retribuidas en las mismas condiciones que:",
+      "opciones": [
+        "Los Jueces y Magistrados",
+        "Los Letrados de la Administración de Justicia",
+        "Los funcionarios de la Administración General del Estado",
+        "El personal laboral de las comunidades autónomas"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 502.1 reconoce «unas vacaciones retribuidas en las mismas condiciones que las previstas a los funcionarios de la Administración General del Estado en su normativa».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-032",
+      "ley": "lo-6-1985",
+      "articulo": "503.1",
+      "enunciado": "El permiso por asuntos particulares de los funcionarios de Justicia tiene una duración de:",
+      "opciones": [
+        "Seis días",
+        "Nueve días",
+        "Doce días",
+        "Quince días"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 503.1 exceptúa de la regla general «el permiso por asuntos particulares que tendrá una duración de nueve días».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-033",
+      "ley": "lo-6-1985",
+      "articulo": "504.1",
+      "enunciado": "Por razón de matrimonio, los funcionarios tienen derecho a una licencia de:",
+      "opciones": [
+        "Diez días",
+        "Quince días",
+        "Veinte días",
+        "Un mes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 504.1 dice: «Por razón de matrimonio, los funcionarios tendrán derecho a una licencia de quince días de duración».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-034",
+      "ley": "lo-6-1985",
+      "articulo": "504.3",
+      "enunciado": "La duración acumulada de las licencias por asuntos propios sin retribución no puede exceder de:",
+      "opciones": [
+        "Dos meses cada año de servicios efectivos",
+        "Seis meses cada tres años de servicios efectivos",
+        "Tres meses cada dos años de servicios efectivos",
+        "Tres meses cada año de servicios efectivos"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 504.3 limita su «duración acumulada» a «tres meses cada dos años de servicios efectivos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    },
+    {
+      "id": "tpe-035",
+      "ley": "lo-6-1985",
+      "articulo": "504.5",
+      "enunciado": "La licencia por enfermedad debe solicitarse a la autoridad competente:",
+      "opciones": [
+        "El cuarto día consecutivo de ausencia del puesto de trabajo",
+        "Desde el primer día de ausencia del puesto de trabajo",
+        "El segundo día consecutivo de ausencia del puesto",
+        "El séptimo día consecutivo de ausencia del puesto"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 504.5 establece que los funcionarios «deberán solicitar de la autoridad competente licencia por enfermedad en el cuarto día consecutivo a aquel en que se produjo la ausencia del puesto de trabajo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 13
+      }
+    }
+  ]
+}
