@@ -27,10 +27,10 @@
       "articulo": "28.3",
       "enunciado": "Para que se aplique el recargo de apremio reducido del 10 por ciento, el obligado debe ingresar la deuda no pagada y el propio recargo:",
       "opciones": [
-        "Antes de que finalice el plazo del artículo 62.5 LGT para deudas apremiadas",
-        "Antes de que se notifique la providencia de apremio al obligado",
+        "Antes de que finalice el plazo del artículo 62.5 LGT para las deudas apremiadas",
+        "Antes de que se notifique la providencia de apremio",
         "Dentro del mes siguiente al inicio del período ejecutivo",
-        "Antes de que se dicte la primera diligencia de embargo de bienes"
+        "Antes de que se dicte la primera diligencia de embargo"
       ],
       "correcta": 0,
       "explicacion": "El artículo 28.3 dispone: «El recargo de apremio reducido será del 10 por ciento y se aplicará cuando se satisfaga la totalidad de la deuda no ingresada en periodo voluntario y el propio recargo antes de la finalización del plazo previsto en el apartado 5 del artículo 62 de esta ley».",
@@ -87,10 +87,10 @@
       "articulo": "28.6",
       "enunciado": "Los recargos del período ejecutivo no se devengan, salvo que la normativa de asistencia mutua disponga otra cosa, en las deudas:",
       "opciones": [
-        "De titularidad de otros Estados, recaudadas por asistencia mutua",
-        "De las comunidades autónomas con el Estado, sin excepción",
-        "De las entidades locales con el Estado, por compensación",
-        "Derivadas de sanciones tributarias que hayan sido firmes"
+        "De titularidad de otros Estados recaudadas en el marco de la asistencia mutua",
+        "De las comunidades autónomas con el Estado",
+        "De las entidades locales con el Estado",
+        "Derivadas de sanciones tributarias firmes"
       ],
       "correcta": 0,
       "explicacion": "El artículo 28.6 dispone: «No se devengarán los recargos del periodo ejecutivo en el caso de deudas de titularidad de otros Estados o de entidades internacionales o supranacionales cuya actuación recaudatoria se realice en el marco de la asistencia mutua, salvo que la normativa sobre dicha asistencia establezca otra cosa».",
@@ -227,10 +227,10 @@
       "articulo": "161.4",
       "enunciado": "El inicio del período ejecutivo determina la exigencia de:",
       "opciones": [
-        "No suspende el plazo voluntario de pago de esas deudas",
-        "Suspende el plazo voluntario de pago hasta el fin del concurso",
-        "Inicia de inmediato el período ejecutivo de todas las deudas",
-        "Exige el aplazamiento previo de las deudas concursales"
+        "Solo los recargos del período ejecutivo y, en su caso, costas",
+        "Intereses de demora y sanciones tributarias accesorias",
+        "Solo los intereses de demora, sin recargos ni costas",
+        "Intereses de demora, recargos del período ejecutivo y, en su caso, costas del apremio"
       ],
       "correcta": 3,
       "explicacion": "El artículo 161.4 señala que el inicio del período ejecutivo «determinará la exigencia de los intereses de demora y de los recargos del período ejecutivo en los términos de los artículos 26 y 28 de esta ley y, en su caso, de las costas del procedimiento de apremio».",
@@ -247,10 +247,10 @@
       "articulo": "163.2",
       "enunciado": "Respecto de los procesos judiciales de ejecución, el procedimiento administrativo de apremio:",
       "opciones": [
-        "No es acumulable a ellos ni se suspende por su inicio, salvo previsión legal",
-        "Se acumula a ellos cuando la deuda supera una cuantía determinada",
-        "Se suspende siempre hasta que el órgano judicial resuelva",
-        "Se acumula siempre al proceso judicial de ejecución más antiguo"
+        "No es acumulable a ellos ni se suspende por su iniciación, salvo que proceda legalmente",
+        "Se acumula a ellos cuando la deuda supera cierta cuantía",
+        "Se suspende siempre hasta que el juez resuelva",
+        "Se acumula al proceso judicial más antiguo"
       ],
       "correcta": 0,
       "explicacion": "El artículo 163.2 dispone: «El procedimiento administrativo de apremio no será acumulable a los judiciales ni a otros procedimientos de ejecución. Su iniciación o tramitación no se suspenderá por la iniciación de aquéllos, salvo cuando proceda».",
@@ -327,10 +327,10 @@
       "articulo": "165.4",
       "enunciado": "Interpuesta una tercería de dominio, el procedimiento de apremio:",
       "opciones": [
-        "La deuda ha sido compensada o ha prescrito el derecho a exigir su pago",
-        "La deuda es excesiva respecto de su capacidad económica real",
-        "No existen bienes embargables que sean conocidos por la Administración",
-        "Ha presentado alegaciones contra la providencia de apremio notificada"
+        "Continúa en todo caso hasta la realización de los bienes",
+        "Se suspende por completo respecto del obligado al pago",
+        "Se suspende respecto de los bienes controvertidos, tras adoptarse las medidas de aseguramiento",
+        "Se suspende solo si el tercero aporta aval solidario"
       ],
       "correcta": 2,
       "explicacion": "El artículo 165.4 dispone: «Si se interpone tercería de dominio se suspenderá el procedimiento de apremio en lo que se refiere a los bienes y derechos controvertidos, una vez que se hayan adoptado las medidas de aseguramiento que procedan».",
@@ -347,10 +347,10 @@
       "articulo": "165.5",
       "enunciado": "Si se interpone una tercería de mejor derecho, el procedimiento de apremio:",
       "opciones": [
-        "Se suspende respecto de los bienes controvertidos, previo aseguramiento",
-        "Continúa en todo caso hasta la realización de los bienes embargados",
-        "Se suspende por completo respecto del obligado al pago de la deuda",
-        "Se suspende solo si el tercero aporta aval solidario de entidad de crédito"
+        "Prosigue hasta la realización de los bienes y el producto se consigna en depósito",
+        "Se suspende respecto de los bienes controvertidos",
+        "Se suspende hasta que el tercero preste garantía",
+        "Prosigue y el producto se aplica de inmediato a la deuda"
       ],
       "correcta": 0,
       "explicacion": "El artículo 165.5 establece: «Si la tercería fuera de mejor derecho proseguirá el procedimiento hasta la realización de los bienes y el producto obtenido se consignará en depósito a resultas de la resolución de la tercería».",
@@ -407,10 +407,10 @@
       "articulo": "168",
       "enunciado": "Con deuda garantizada, la Administración puede embargar otros bienes antes de ejecutar la garantía cuando:",
       "opciones": [
-        "No sea proporcionada a la deuda o el obligado lo pida señalando bienes",
-        "La garantía sea una hipoteca constituida sobre bienes inmuebles",
-        "La deuda garantizada exceda de la cuantía que fije la ley vigente",
-        "Haya transcurrido un mes desde la notificación de la providencia"
+        "Esta no sea proporcionada a la deuda o el obligado lo solicite señalando bienes suficientes",
+        "La garantía sea una hipoteca sobre bienes inmuebles",
+        "La deuda garantizada exceda de la cuantía que fije la ley",
+        "Haya transcurrido un mes desde la providencia de apremio"
       ],
       "correcta": 0,
       "explicacion": "El artículo 168 prevé ejecutar primero la garantía, pero la Administración «podrá optar por el embargo y enajenación de otros bienes o derechos con anterioridad a la ejecución de la garantía cuando ésta no sea proporcionada a la deuda garantizada o cuando el obligado lo solicite, señalando bienes suficientes al efecto».",
@@ -427,10 +427,10 @@
       "articulo": "77.1",
       "enunciado": "La Hacienda Pública tiene prelación para cobrar sus créditos vencidos, salvo frente a acreedores de dominio, prenda, hipoteca u otro derecho real:",
       "opciones": [
-        "Debidamente inscrito antes de constar el derecho de la Hacienda",
         "Inscrito en cualquier momento anterior a la providencia de apremio",
         "Inscrito con posterioridad al derecho de la Hacienda Pública",
-        "Constituido en documento público, aunque no conste inscrito"
+        "Debidamente inscrito antes de que conste en el registro el derecho de la Hacienda",
+        "Constituido en documento público, aunque no esté inscrito"
       ],
       "correcta": 2,
       "explicacion": "El artículo 77.1 exceptúa a los acreedores de «dominio, prenda, hipoteca u otro derecho real debidamente inscrito en el registro correspondiente con anterioridad a la fecha en que se haga constar en el mismo el derecho de la Hacienda Pública».",
@@ -467,10 +467,10 @@
       "articulo": "80",
       "enunciado": "La Administración tributaria tiene derecho de retención frente a todos sobre:",
       "opciones": [
-        "Del inmediato anterior",
-        "De los dos años anteriores a aquel",
-        "De los tres años anteriores a aquel",
-        "De los cuatro años anteriores a aquel"
+        "Los bienes afectos por ley al pago de la deuda tributaria",
+        "Los bienes muebles embargados en el procedimiento de apremio",
+        "Las mercancías depositadas en almacenes de un tercero",
+        "Las mercancías declaradas en aduanas, si no se garantiza el pago de la deuda aduanera y fiscal"
       ],
       "correcta": 3,
       "explicacion": "El artículo 80 dice: «La Administración tributaria tendrá derecho de retención frente a todos sobre las mercancías declaradas en las aduanas para el pago de la pertinente deuda aduanera y fiscal […] de no garantizarse de forma suficiente el pago de la misma».",
@@ -487,10 +487,10 @@
       "articulo": "81.1",
       "enunciado": "La Administración puede adoptar medidas cautelares de carácter provisional para asegurar el cobro de una deuda cuando existan:",
       "opciones": [
-        "Las mercancías declaradas en aduanas, si no se garantiza el pago",
-        "Los bienes afectos por ley al pago de la deuda tributaria",
-        "Los bienes muebles embargados en el procedimiento de apremio",
-        "Las mercancías depositadas en almacenes de un tercero ajeno"
+        "Pruebas plenas de ocultación de bienes por el obligado",
+        "Deudas vencidas por importe superior al fijado por orden",
+        "Indicios racionales de que el cobro se vería frustrado o gravemente dificultado",
+        "Una denuncia o querella por delito contra la Hacienda Pública"
       ],
       "correcta": 2,
       "explicacion": "El artículo 81.1 permite adoptarlas «cuando existan indicios racionales de que, en otro caso, dicho cobro se vería frustrado o gravemente dificultado».",
@@ -547,10 +547,10 @@
       "articulo": "70.2.f",
       "enunciado": "La providencia de apremio advierte que, si no se ingresa la deuda con el recargo reducido en plazo, se procederá al embargo con inclusión del recargo de apremio de:",
       "opciones": [
-        "Continúa el procedimiento por el resto impagado",
-        "Se suspende el procedimiento hasta que pague el resto de la deuda",
-        "Se archiva el procedimiento si se ha cubierto la cuota",
-        "Se abre un nuevo período voluntario por el resto de la deuda"
+        "Diez por ciento, sin intereses de demora adicionales",
+        "Veinte por ciento y de los intereses de demora hasta la cancelación de la deuda",
+        "Veinte por ciento, sin intereses de demora",
+        "Quince por ciento y de los intereses de demora devengados"
       ],
       "correcta": 1,
       "explicacion": "El artículo 70.2.f) exige la advertencia de que se procederá al embargo «con inclusión del recargo de apremio del 20 por ciento y de los intereses de demora que se devenguen hasta la fecha de cancelación de la deuda».",
