@@ -16,7 +16,7 @@
       "explicacion": "Se les apercibirá «de que podrá celebrarse el juicio de forma inmediata en el Juzgado de guardia, incluso aunque no comparezcan».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -36,7 +36,7 @@
       "explicacion": "En los delitos leves patrimoniales «se entenderá que no existe interés público relevante en su persecución cuando se hubiere procedido a la reparación del daño y no exista denuncia del perjudicado».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -56,7 +56,7 @@
       "explicacion": "El artículo 963.2 dispone que «será necesario que el asunto le corresponda al Juzgado de guardia en virtud de las normas de competencia y de reparto».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -76,7 +76,7 @@
       "explicacion": "Las citaciones se harán al Ministerio Fiscal, «salvo que el delito leve fuere perseguible sólo a instancia de parte».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -96,7 +96,7 @@
       "explicacion": "El señalamiento se hará para el día hábil más próximo posible «y en cualquier caso en un plazo no superior a siete días».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -116,7 +116,7 @@
       "explicacion": "Para el enjuiciamiento de «delitos leves que lleven aparejada pena de multa cuyo límite máximo sea de al menos seis meses, se aplicarán las reglas generales de defensa y representación».",
       "dificultad": 3,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -136,7 +136,7 @@
       "explicacion": "Se señalará «el día más inmediato posible y, en todo caso, dentro de los siete siguientes, haciéndolo saber a los interesados».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -156,7 +156,7 @@
       "explicacion": "La declaración del denunciante en el juicio afirmando los hechos denunciados «tendrá valor de acusación, aunque no los califique ni señale pena».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -176,7 +176,7 @@
       "explicacion": "La ausencia injustificada del acusado «no suspenderá la celebración ni la resolución del juicio», salvo que el Juez «crea necesaria la declaración de aquél».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -196,7 +196,7 @@
       "explicacion": "El Juez, «en el acto de finalizar el juicio, y a no ser posible dentro de los tres días siguientes, dictará sentencia».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -216,7 +216,7 @@
       "explicacion": "El artículo 976.1 establece: «La sentencia es apelable en el plazo de los cinco días siguientes al de su notificación».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -236,7 +236,7 @@
       "explicacion": "Se aplica a «delitos castigados con pena privativa de libertad que no exceda de cinco años», entre otras penas.",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -256,7 +256,7 @@
       "explicacion": "La Policía Judicial «citará a la persona que resulte denunciada en el atestado policial para comparecer en el Juzgado de guardia en el día y hora que se le señale, cuando no se haya procedido a su detención».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -276,7 +276,7 @@
       "explicacion": "El Juzgado de guardia «incoará, si procede, diligencias urgentes. Contra este auto no cabrá recurso alguno».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -296,7 +296,7 @@
       "explicacion": "El plazo «podrá prorrogarse por el Juez por un período adicional de setenta y dos horas» si el atestado se recibió en las cuarenta y ocho anteriores al fin de la guardia.",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -316,7 +316,7 @@
       "explicacion": "Se hará el señalamiento «en la fecha más próxima posible y, en cualquier caso, dentro de los quince días siguientes».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -336,7 +336,7 @@
       "explicacion": "Si no lo presenta, «se entenderá que no pide la apertura de juicio oral y que considera procedente el sobreseimiento libre».",
       "dificultad": 3,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -356,27 +356,7 @@
       "explicacion": "Se exige que la pena solicitada o la suma de las penas «no supere, reducida en un tercio, los dos años de prisión».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
-      "temas": {
-        "tramitacion-procesal": 21
-      }
-    },
-    {
-      "id": "tpl-019",
-      "ley": "lecrim",
-      "articulo": "984",
-      "enunciado": "En la ejecución de la sentencia de un juicio por faltas, la reparación del daño y la indemnización de perjuicios se rigen por la LEC, y su ejecución será promovida:",
-      "opciones": [
-        "A instancia del Ministerio Fiscal",
-        "De oficio por el Juez que dictó la sentencia",
-        "Solo a instancia del perjudicado en el plazo de cinco días",
-        "Por el Letrado de la Administración de Justicia a petición de parte"
-      ],
-      "correcta": 1,
-      "explicacion": "Se aplicarán las disposiciones de la Ley de Enjuiciamiento Civil, «si bien será en todo caso promovida de oficio por el Juez que la dictó».",
-      "dificultad": 2,
-      "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -396,7 +376,7 @@
       "explicacion": "Esa sentencia «se ejecutará por el Tribunal que hubiese pronunciado la sentencia casada, en vista de la certificación que al efecto le remitirá la referida Sala».",
       "dificultad": 3,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -416,7 +396,7 @@
       "explicacion": "«El Juez o Tribunal que hubiera dictado la última sentencia, de oficio, a instancia del Ministerio Fiscal o del condenado, procederá a fijar el límite del cumplimiento de las penas».",
       "dificultad": 3,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -436,7 +416,7 @@
       "explicacion": "Se dará traslado del auto de incoación «a la representación de cada uno de los condenados para que, en el plazo de diez días, se pronuncien en un mismo escrito».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -456,7 +436,7 @@
       "explicacion": "«Transcurrido el plazo sin impugnación, el letrado o la letrada de la Administración de Justicia la aprobará mediante decreto».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -476,7 +456,7 @@
       "explicacion": "Los cómputos se harán por años, meses y días: «los meses completos serán de treinta días y los años completos serán de trescientos sesenta y cinco días».",
       "dificultad": 3,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -496,7 +476,7 @@
       "explicacion": "Se entiende utilizada también la civil, «a no ser que el dañado o perjudicado la renunciase o la reservase expresamente para ejercitarla después de terminado el juicio criminal».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -516,7 +496,7 @@
       "explicacion": "La renuncia puede revocarse a solicitud del perjudicado «siempre y cuando se formule antes del trámite de calificación del delito».",
       "dificultad": 3,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -536,7 +516,7 @@
       "explicacion": "En este caso «subsiste la civil contra sus herederos y causahabientes, que sólo podrá ejercitarse ante la jurisdicción y por la vía de lo civil».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -556,27 +536,7 @@
       "explicacion": "La extinción de la acción penal no lleva consigo la de la civil, «a no ser que la extinción proceda de haberse declarado por sentencia firme que no existió el hecho de que la civil hubiese podido nacer».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
-      "temas": {
-        "tramitacion-procesal": 21
-      }
-    },
-    {
-      "id": "tpl-029",
-      "ley": "lecrim",
-      "articulo": "615",
-      "enunciado": "Si en el sumario aparece la responsabilidad civil de un tercero, el Juez, a instancia del actor civil, exigirá a esa persona:",
-      "opciones": [
-        "Un aval bancario inmediato",
-        "Su declaración como investigado",
-        "El depósito de la mitad de la indemnización",
-        "Fianza, y si no la presta, el embargo de bienes"
-      ],
-      "correcta": 3,
-      "explicacion": "El Juez, a instancia del actor civil, «exigirá fianza a la persona contra quien resulte la responsabilidad. Si no se prestase, el Secretario judicial embargará» los bienes necesarios.",
-      "dificultad": 2,
-      "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }
@@ -596,7 +556,7 @@
       "explicacion": "Se formará pieza separada, «pero sin que por ningún motivo se entorpezca ni suspenda el curso de la instrucción».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 21
       }

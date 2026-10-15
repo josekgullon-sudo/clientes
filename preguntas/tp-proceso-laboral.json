@@ -1,0 +1,705 @@
+{
+  "descripcion": "Ley 36/2011 (jurisdicción social): competencia, partes, conciliación y vía previa, proceso ordinario, despido y Seguridad Social. Tema 23 de Tramitación Procesal. Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-08-27).",
+  "preguntas": [
+    {
+      "id": "tpm-001",
+      "ley": "ley-36-2011",
+      "articulo": "6.1",
+      "enunciado": "Los Juzgados de lo Social conocen, con carácter general, de los procesos atribuidos al orden social en:",
+      "opciones": [
+        "Primera instancia",
+        "Segunda instancia",
+        "Única instancia",
+        "Instancia y apelación"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 6.1, los Juzgados de lo Social «conocerán en única instancia de todos los procesos atribuidos al orden jurisdiccional social», salvo los asignados a otros órganos.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-002",
+      "ley": "ley-36-2011",
+      "articulo": "9.c",
+      "enunciado": "¿Qué órgano conoce de la revisión de sentencias firmes dictadas por los órganos jurisdiccionales del orden social?",
+      "opciones": [
+        "La Sala de lo Social del Tribunal Supremo",
+        "La Sala de lo Social de la Audiencia Nacional",
+        "La Sala de lo Social del Tribunal Superior de Justicia",
+        "El Juzgado de lo Social que dictó la sentencia"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 9 atribuye a la Sala de lo Social del Tribunal Supremo el conocimiento «De la revisión de sentencias firmes dictadas por los órganos jurisdiccionales del orden social».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-003",
+      "ley": "ley-36-2011",
+      "articulo": "7.c",
+      "enunciado": "Los recursos de suplicación contra las resoluciones de los Juzgados de lo Social de su circunscripción los resuelve:",
+      "opciones": [
+        "La Sala de lo Social de la Audiencia Nacional",
+        "La Sala de lo Social del Tribunal Supremo",
+        "La Audiencia Provincial",
+        "La Sala de lo Social del Tribunal Superior de Justicia"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 7.c) dispone que las Salas de lo Social de los Tribunales Superiores de Justicia conocerán «De los recursos de suplicación establecidos en esta Ley contra las resoluciones dictadas por los Juzgados de lo Social de su circunscripción».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-004",
+      "ley": "ley-36-2011",
+      "articulo": "8.1",
+      "enunciado": "Una empresa con centros en Andalucía y Galicia realiza un despido colectivo impugnado por los representantes. ¿Quién conoce en única instancia?",
+      "opciones": [
+        "La Sala de lo Social del Tribunal Superior de Justicia de Andalucía",
+        "La Sala de lo Social de la Audiencia Nacional",
+        "El Juzgado de lo Social del domicilio de la empresa",
+        "La Sala de lo Social del Tribunal Supremo"
+      ],
+      "correcta": 1,
+      "explicacion": "La Sala de lo Social de la Audiencia Nacional conocerá en única instancia del despido colectivo impugnado por los representantes «cuando extiendan sus efectos a un ámbito territorial superior al de una Comunidad Autónoma» (art. 8.1).",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-005",
+      "ley": "ley-36-2011",
+      "articulo": "10.1",
+      "enunciado": "¿Quién elige, con carácter general, entre el Juzgado del lugar de prestación de los servicios y el del domicilio del demandado?",
+      "opciones": [
+        "El demandado",
+        "El demandante",
+        "El letrado de la Administración de Justicia",
+        "Ambas partes de común acuerdo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 10.1 establece que «será juzgado competente el del lugar de prestación de los servicios o el del domicilio del demandado, a elección del demandante».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-006",
+      "ley": "ley-36-2011",
+      "articulo": "10.1",
+      "enunciado": "En las demandas contra Administraciones públicas empleadoras, el trabajador puede elegir entre el Juzgado del lugar de prestación de servicios y el:",
+      "opciones": [
+        "Del domicilio de la Administración demandada",
+        "De la sede del órgano que dictó el acto",
+        "De la capital de la provincia",
+        "Del domicilio del demandante"
+      ],
+      "correcta": 3,
+      "explicacion": "Para estas demandas «será juzgado competente el del lugar de prestación de los servicios o el del domicilio del demandante, a elección de éste» (art. 10.1, último párrafo).",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-007",
+      "ley": "ley-36-2011",
+      "articulo": "16.2",
+      "enunciado": "Un trabajador de 17 años no necesita autorización de sus padres para contratar. Para demandar por su contrato de trabajo, ¿tiene capacidad procesal?",
+      "opciones": [
+        "Sí, respecto de los derechos derivados de su contrato y de la Seguridad Social",
+        "No, debe comparecer siempre por medio de sus representantes legales",
+        "Sí, pero solo si cuenta con autorización del juez",
+        "No, hasta cumplir dieciocho años, salvo en materia sindical"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 16.2, «Tendrán capacidad procesal los trabajadores mayores de dieciséis años y menores de dieciocho respecto de los derechos e intereses legítimos derivados de sus contratos de trabajo y de la relación de Seguridad Social, cuando legalmente no precisen para la celebración de dichos contratos autorización de sus padres».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-008",
+      "ley": "ley-36-2011",
+      "articulo": "18.1",
+      "enunciado": "El poder de representación procesal puede otorgarse por comparecencia ante el letrado de la Administración de Justicia, por escritura pública o:",
+      "opciones": [
+        "Mediante carta firmada ante dos testigos",
+        "Por comparecencia ante el Ministerio Fiscal",
+        "A través del registro electrónico de apoderamientos apud acta",
+        "Mediante escrito dirigido al sindicato más representativo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 18.1 dice que la representación «podrá conferirse mediante poder otorgado por comparecencia ante el letrado o letrada de la Administración de Justicia, a través del registro electrónico de apoderamientos apud acta o por escritura pública».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-009",
+      "ley": "ley-36-2011",
+      "articulo": "21.1",
+      "enunciado": "En el recurso de casación y en las actuaciones procesales ante el Tribunal Supremo, la defensa por abogado es:",
+      "opciones": [
+        "Facultativa",
+        "Facultativa si interviene un graduado social",
+        "Preceptiva solo si la cuantía es elevada",
+        "Preceptiva"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 21.1 señala: «En el recurso de casación y en las actuaciones procesales ante el Tribunal Supremo será preceptiva la defensa de abogado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-010",
+      "ley": "ley-36-2011",
+      "articulo": "22.2",
+      "enunciado": "La representación y defensa de las Entidades Gestoras de la Seguridad Social corresponde, en principio, a:",
+      "opciones": [
+        "Los abogados del Estado",
+        "Los letrados de la Administración de la Seguridad Social",
+        "Los letrados de las Cortes Generales",
+        "Los fiscales de lo Social"
+      ],
+      "correcta": 1,
+      "explicacion": "Conforme al artículo 22.2, la representación y defensa de las Entidades Gestoras y de los Servicios Comunes de la Seguridad Social «corresponderá a los letrados de la Administración de la Seguridad Social».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-011",
+      "ley": "ley-36-2011",
+      "articulo": "43.4",
+      "enunciado": "¿En cuál de estas modalidades procesales el mes de agosto es hábil?",
+      "opciones": [
+        "Reclamación de cantidad",
+        "Clasificación profesional",
+        "Despido",
+        "Reclamación de prestaciones de Seguridad Social"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 43.4 declara inhábil agosto «salvo en las modalidades procesales de despido», entre otras; la reclamación de cantidad, la clasificación profesional o las prestaciones no figuran en la excepción.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-012",
+      "ley": "ley-36-2011",
+      "articulo": "45.1",
+      "enunciado": "Cuando la presentación de un escrito está sujeta a plazo, ¿hasta qué momento puede efectuarse una vez vencido?",
+      "opciones": [
+        "Hasta las quince horas del día hábil siguiente",
+        "Hasta las nueve horas del día hábil siguiente",
+        "Hasta las veinte horas del propio día de vencimiento",
+        "Hasta las catorce horas del segundo día hábil siguiente"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 45.1 admite la presentación «hasta las quince horas del día hábil siguiente al del vencimiento del plazo» en el servicio común procesal o en la sede del órgano judicial.",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-013",
+      "ley": "ley-36-2011",
+      "articulo": "49.2",
+      "enunciado": "Los letrados de la Administración de Justicia resuelven en el orden social por medio de:",
+      "opciones": [
+        "Diligencias y decretos",
+        "Providencias y autos",
+        "Autos y sentencias",
+        "Providencias y decretos"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 49 distingue: «Los secretarios judiciales resolverán por medio de diligencias y decretos», mientras que los jueces y tribunales lo hacen por providencias, autos y sentencias.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-014",
+      "ley": "ley-36-2011",
+      "articulo": "64.1",
+      "enunciado": "¿Cuál de los siguientes procesos está exceptuado del intento previo de conciliación o mediación?",
+      "opciones": [
+        "El despido disciplinario",
+        "La reclamación de cantidad al empresario",
+        "El de disfrute de vacaciones",
+        "La impugnación de sanciones"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 64.1 exceptúa, entre otros, los procesos relativos al «disfrute de vacaciones y a materia electoral»; el despido, la reclamación de cantidad y las sanciones no están exceptuados.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-015",
+      "ley": "ley-36-2011",
+      "articulo": "65.1",
+      "enunciado": "Presentada la solicitud de conciliación, el cómputo del plazo de caducidad se reanuda al día siguiente de intentada la conciliación o transcurridos, sin celebrarse:",
+      "opciones": [
+        "Diez días hábiles desde su presentación",
+        "Quince días hábiles desde su presentación",
+        "Treinta días hábiles desde su presentación",
+        "Veinte días naturales desde su presentación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 65.1 prevé que el cómputo se reanuda «transcurridos quince días hábiles desde su presentación sin que se haya celebrado». Los treinta días hábiles del apartado 2 dan por cumplido el trámite.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-016",
+      "ley": "ley-36-2011",
+      "articulo": "69.2",
+      "enunciado": "Agotada la vía administrativa, el interesado puede formalizar la demanda ante el Juzgado o la Sala competente en el plazo de:",
+      "opciones": [
+        "Un mes",
+        "Treinta días hábiles",
+        "Veinte días naturales",
+        "Dos meses"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 69.2 establece que desde que se deba entender agotada la vía administrativa «el interesado podrá formalizar la demanda en el plazo de dos meses ante el juzgado o la Sala competente».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-017",
+      "ley": "ley-36-2011",
+      "articulo": "71.5",
+      "enunciado": "Si transcurre el plazo de cuarenta y cinco días sin contestación expresa a la reclamación previa en materia de prestaciones de Seguridad Social, esta se entiende:",
+      "opciones": [
+        "Estimada por silencio positivo",
+        "Archivada de oficio",
+        "Denegada por silencio administrativo",
+        "Pendiente hasta que el juez requiera a la Entidad"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 71.5 obliga a la Entidad a contestar en cuarenta y cinco días: «En caso contrario se entenderá denegada la reclamación por silencio administrativo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-018",
+      "ley": "ley-36-2011",
+      "articulo": "71.2",
+      "enunciado": "En la impugnación de altas médicas no exentas de reclamación previa, esta se interpone en el plazo de:",
+      "opciones": [
+        "Treinta días desde la notificación de la resolución",
+        "Cinco días desde la notificación de la resolución",
+        "Veinte días desde la notificación de la resolución",
+        "Once días desde la notificación de la resolución"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 71.2 fija para estos casos un plazo especial: «la reclamación previa se interpondrá en el plazo de once días desde la notificación de la resolución».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-019",
+      "ley": "ley-36-2011",
+      "articulo": "81.1",
+      "enunciado": "Si la demanda tiene defectos u omisiones, el letrado de la Administración de Justicia advierte a la parte para que los subsane en el plazo de:",
+      "opciones": [
+        "Cuatro días",
+        "Dos días",
+        "Tres días",
+        "Cinco días"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 81.1 prevé advertir de los defectos «a fin de que los subsane dentro del plazo de cuatro días».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-020",
+      "ley": "ley-36-2011",
+      "articulo": "81.3",
+      "enunciado": "Si la demanda no acompaña la certificación de la conciliación previa, el letrado de la Administración de Justicia advierte al demandante de que debe acreditar su intento en el plazo de:",
+      "opciones": [
+        "Cuatro días",
+        "Quince días",
+        "Diez días",
+        "Treinta días"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 81.3, el demandante «ha de acreditar la celebración o el intento del expresado acto en el plazo de quince días», con apercibimiento de archivo de las actuaciones.",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-021",
+      "ley": "ley-36-2011",
+      "articulo": "82.1",
+      "enunciado": "Admitida la demanda, entre la citación y la celebración de los actos de conciliación y juicio debe mediar, como mínimo:",
+      "opciones": [
+        "Cinco días",
+        "Diez días",
+        "Quince días",
+        "Veinte días"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 82.1 exige «un mínimo de diez días entre la citación y la efectiva celebración de dichos actos», salvo que la ley disponga otro plazo.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-022",
+      "ley": "ley-36-2011",
+      "articulo": "84.1",
+      "enunciado": "Si las partes alcanzan avenencia en el acto de conciliación ante el letrado de la Administración de Justicia, este:",
+      "opciones": [
+        "Dicta decreto aprobándola y acordando el archivo de las actuaciones",
+        "Dicta sentencia homologando el acuerdo",
+        "Remite el acuerdo al juez para su aprobación en el juicio",
+        "Dicta providencia dando por intentada la conciliación sin efecto"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 84.1, «Si las partes alcanzan la avenencia, dictará decreto aprobándola y acordando, además, el archivo de las actuaciones».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-023",
+      "ley": "ley-36-2011",
+      "articulo": "83.2",
+      "enunciado": "Si el actor, citado en forma, no comparece al acto de juicio ni alega justa causa, le tiene por desistido de su demanda:",
+      "opciones": [
+        "El letrado de la Administración de Justicia",
+        "El Ministerio Fiscal",
+        "La Sala de lo Social del Tribunal Superior de Justicia",
+        "El juez o tribunal"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 83.2 dispone que «el secretario judicial en el primer caso y el juez o tribunal en el segundo, le tendrán por desistido de su demanda»; el segundo caso es el acto de juicio.",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-024",
+      "ley": "ley-36-2011",
+      "articulo": "97.1",
+      "enunciado": "En el proceso ordinario, el juez o tribunal dictará sentencia en el plazo de:",
+      "opciones": [
+        "Tres días",
+        "Diez días",
+        "Cinco días",
+        "Quince días"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 97.1 señala que «El juez o tribunal dictará sentencia en el plazo de cinco días, publicándose inmediatamente y notificándose a las partes o a sus representantes dentro de los dos días siguientes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-025",
+      "ley": "ley-36-2011",
+      "articulo": "103.1",
+      "enunciado": "El plazo para reclamar contra el despido es de:",
+      "opciones": [
+        "Veinte días naturales",
+        "Treinta días hábiles",
+        "Dos meses",
+        "Veinte días hábiles"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 103.1 permite reclamar «dentro de los veinte días hábiles siguientes a aquél en que se hubiera producido». «Dicho plazo será de caducidad a todos los efectos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-026",
+      "ley": "ley-36-2011",
+      "articulo": "105.1",
+      "enunciado": "En el proceso por despido, corresponde probar la veracidad de los hechos imputados en la carta de despido:",
+      "opciones": [
+        "Al demandado",
+        "Al trabajador demandante",
+        "A ambas partes por mitad",
+        "Al letrado de la Administración de Justicia, de oficio"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 105.1 dice que al demandado «le corresponderá la carga de probar la veracidad de los hechos imputados en la carta de despido como justificativos del mismo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-027",
+      "ley": "ley-36-2011",
+      "articulo": "105.2",
+      "enunciado": "En el juicio por despido, para justificarlo, al demandado no se le admiten otros motivos de oposición que los:",
+      "opciones": [
+        "Anunciados en la conciliación previa",
+        "Contenidos en la comunicación escrita del despido",
+        "Alegados en la contestación a la reclamación previa",
+        "Que el juez admita libremente en el acto de juicio"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 105.2, «al demandado no se le admitirán en el juicio otros motivos de oposición a la demanda que los contenidos en la comunicación escrita de dicho despido».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-028",
+      "ley": "ley-36-2011",
+      "articulo": "110.3",
+      "enunciado": "Declarado improcedente un despido, la opción entre readmisión e indemnización debe ejercitarse en el plazo de:",
+      "opciones": [
+        "Tres días desde la firmeza de la sentencia",
+        "Diez días desde la notificación de la sentencia",
+        "Cinco días desde la notificación de la sentencia",
+        "Veinte días desde la firmeza de la sentencia"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 110.3 dispone que la opción se ejercitará «dentro del plazo de cinco días desde la notificación de la sentencia que declare el despido improcedente, sin esperar a la firmeza de la misma».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-029",
+      "ley": "ley-36-2011",
+      "articulo": "110.2",
+      "enunciado": "Si se declara improcedente el despido de un representante legal de los trabajadores, la opción entre readmisión e indemnización corresponde:",
+      "opciones": [
+        "Al empresario",
+        "Al juez en la sentencia",
+        "Al trabajador",
+        "Al comité de empresa"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 110.2 establece: «En caso de que se declarase improcedente el despido de un representante legal o sindical de los trabajadores, la opción prevista en el número anterior corresponderá al trabajador».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-030",
+      "ley": "ley-36-2011",
+      "articulo": "109",
+      "enunciado": "Si el despido se declara procedente, el trabajador:",
+      "opciones": [
+        "Debe ser readmitido con abono de salarios de tramitación",
+        "No tiene derecho a indemnización ni a salarios de tramitación",
+        "Tiene derecho a indemnización, pero no a salarios de tramitación",
+        "Puede optar entre readmisión e indemnización"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 109 señala que se declarará «convalidada la extinción del contrato que aquél produjo, sin derecho a indemnización ni a salarios de tramitación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-031",
+      "ley": "ley-36-2011",
+      "articulo": "121.1",
+      "enunciado": "El plazo para ejercitar la acción de impugnación de la extinción del contrato por causas objetivas es de:",
+      "opciones": [
+        "Veinte días",
+        "Diez días",
+        "Treinta días",
+        "Dos meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 121.1 establece que «El plazo para ejercitar la acción de impugnación de la decisión extintiva será de veinte días», contados desde el día siguiente a la fecha de extinción.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-032",
+      "ley": "ley-36-2011",
+      "articulo": "126",
+      "enunciado": "En el procedimiento de fijación de vacaciones, la sentencia, que no tiene recurso, debe dictarse en el plazo de:",
+      "opciones": [
+        "Dos días",
+        "Cinco días",
+        "Diez días",
+        "Tres días"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 126 dispone: «La sentencia, que no tendrá recurso, deberá ser dictada en el plazo de tres días»; la vista se señala dentro de los cinco días siguientes a la admisión.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-033",
+      "ley": "ley-36-2011",
+      "articulo": "125.a",
+      "enunciado": "Si la fecha de vacaciones está fijada en convenio o unilateralmente por el empresario, el trabajador dispone para presentar la demanda de un plazo de veinte días desde que:",
+      "opciones": [
+        "Finalizó el periodo de vacaciones",
+        "Tuvo conocimiento de dicha fecha",
+        "Se celebró el acto de conciliación previa",
+        "Se le notificó la sentencia de instancia"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 125.a) concede al trabajador «un plazo de veinte días, a partir de aquel en que tuviera conocimiento de dicha fecha, para presentar la demanda en el Juzgado de lo Social».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-034",
+      "ley": "ley-36-2011",
+      "articulo": "140.3.a",
+      "enunciado": "En el proceso de impugnación de alta médica, la demanda se dirige exclusivamente contra:",
+      "opciones": [
+        "La empresa y el servicio público de salud",
+        "El servicio público de salud únicamente",
+        "La Entidad gestora y, en su caso, la colaboradora en la gestión",
+        "La empresa y la Entidad gestora conjuntamente"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 140.3.a) establece que «La demanda se dirigirá exclusivamente contra la Entidad gestora y, en su caso, contra la colaboradora en la gestión».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    },
+    {
+      "id": "tpm-035",
+      "ley": "ley-36-2011",
+      "articulo": "160.1",
+      "enunciado": "En el proceso de conflicto colectivo, admitida la demanda, el juicio debe tener lugar en única convocatoria dentro de los:",
+      "opciones": [
+        "Cinco días siguientes a la admisión a trámite",
+        "Tres días siguientes a la admisión a trámite",
+        "Diez días siguientes a la admisión a trámite",
+        "Quince días siguientes a la admisión a trámite"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 160.1, el acto del juicio «deberá tener lugar, en única convocatoria, dentro de los cinco días siguientes a la admisión a trámite de la demanda».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 23
+      }
+    }
+  ]
+}
