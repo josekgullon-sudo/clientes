@@ -14,8 +14,12 @@ import { chromium, type Page } from "playwright";
 const BASE = process.env.CAPTURAS_URL ?? "http://localhost:3000";
 const MAILPIT = "http://127.0.0.1:54324";
 const tema = process.argv.includes("dark") ? "dark" : "light";
-// Con «admin», el recorrido elige Administrativo del Estado en el onboarding.
-const OPOSICION_RECORRIDO = process.argv.includes("admin") ? /^Administrativo del Estado/ : /^Auxiliar Administrativo/;
+// Con «admin» o «agente», el recorrido elige esa oposición en el onboarding.
+const OPOSICION_RECORRIDO = process.argv.includes("agente")
+  ? /^Agente de la Hacienda/
+  : process.argv.includes("admin")
+    ? /^Administrativo del Estado/
+    : /^Auxiliar Administrativo/;
 const DIR = `capturas/recorrido`;
 const EMAIL = `recorrido${Date.now()}@ejemplo.es`;
 let n = 0;
