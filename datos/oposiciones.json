@@ -667,5 +667,232 @@
         "titulo": "La Aduana: representación aduanera. Deuda aduanera de importación y deuda aduanera de exportación. Inclusión de mercancías en un régimen aduanero: disposiciones generales"
       }
     ]
+  },
+  {
+    "slug": "tramitacion-procesal",
+    "nombre": "Tramitación Procesal y Administrativa",
+    "activa": true,
+    "verificado": true,
+    "formato_simulacro": {
+      "minutos": 140,
+      "penalizacion": 0.25,
+      "partes": [
+        {
+          "bloque": "I",
+          "preguntas": 16,
+          "parte": 1
+        },
+        {
+          "bloque": "II",
+          "preguntas": 32,
+          "parte": 1
+        },
+        {
+          "bloque": "III",
+          "preguntas": 52,
+          "parte": 1
+        },
+        {
+          "bloque": "IV",
+          "preguntas": 20,
+          "parte": 2
+        }
+      ],
+      "nota": "Verificado con la Orden PJC/1549/2025, de 22 de diciembre (BOE-A-2025-27053), anexo IV y anexo VI.b (Cuerpo de Tramitación Procesal y Administrativa, acceso libre). Primer ejercicio: 100 preguntas test sobre los temas 1 a 31, cuatro opciones, 100 minutos; el acierto suma 0,60 y el error resta 0,15 (un cuarto). Tercer ejercicio: 20 preguntas de Windows y Microsoft 365 (temas 32 a 37), 40 minutos, error resta un cuarto. El simulacro reúne ambos: 120 preguntas y 140 minutos. El segundo ejercicio, un caso práctico de 10 preguntas test, no entra. Los temas van del 1 al 37: 1-5 organización del Estado, 6-15 Administración de Justicia y su personal, 16-31 Derecho procesal y Registro Civil, 32-37 informática y ofimática.",
+      "escala": 10
+    },
+    "examen_estimado": {
+      "fecha": "2027-10-02",
+      "etiqueta": "otoño de 2027",
+      "convocatoria": "BOE-A-2025-27053",
+      "nota": "Estimación a partir del calendario de la última convocatoria (convocada en diciembre de 2025, con ejercicio en octubre de 2026). La OEP de 2026 todavía no tiene convocatoria publicada. No es la fecha oficial: esa se publica en la web del Ministerio de Justicia."
+    },
+    "temas": [
+      {
+        "numero": 1,
+        "bloque": "I",
+        "titulo": "La Constitución española de 1978: Estructura y contenido. Las atribuciones de la Corona. Las Cortes Generales: Composición, atribuciones y funcionamiento. La elaboración de las leyes. El Tribunal Constitucional. Composición y funciones."
+      },
+      {
+        "numero": 2,
+        "bloque": "I",
+        "titulo": "Derecho de igualdad y no discriminación por razón de género: especial referencia a la Ley Orgánica 3/2007, para la Igualdad Efectiva de Mujeres y Hombres. La Ley Orgánica 1/2004, de Medidas de Protección Integral contra la Violencia de Género. Antecedentes. Objeto y principios rectores. Medidas de sensibilización, prevención y detección. Derechos de las mujeres víctimas de la violencia de género. Tutela institucional. Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación. La Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI."
+      },
+      {
+        "numero": 3,
+        "bloque": "I",
+        "titulo": "El Gobierno y la Administración. El Presidente del Gobierno. El Consejo de Ministros. Organización administrativa española: Ministros, Secretarios de Estado, Subsecretarios y Directores Generales. La Administración periférica del Estado. Los Delegados de Gobierno en la Comunidad Autónoma y los Subdelegados de Gobierno. La Secretaria de Estado de Justicia: Principales competencias."
+      },
+      {
+        "numero": 4,
+        "bloque": "I",
+        "titulo": "Organización territorial del Estado en la Constitución. El Estado de las Autonomías. Las Comunidades Autónomas: Su constitución y competencias. Los Estatutos de Autonomía. La Administración Local. La provincia y el municipio."
+      },
+      {
+        "numero": 5,
+        "bloque": "I",
+        "titulo": "La Unión Europea. Competencias de la UE. Instituciones y órganos de la Unión Europea: el Parlamento Europeo, el Consejo Europeo, el Consejo de la Unión Europea, la Comisión Europea, el Tribunal de Justicia de la Unión Europea, el Tribunal de Cuentas."
+      },
+      {
+        "numero": 6,
+        "bloque": "II",
+        "titulo": "El Poder Judicial. El Consejo General del Poder Judicial: composición y funciones. La jurisdicción: Jueces y Magistrados: Funciones y competencias. La independencia judicial. El Ministerio Fiscal: Organización y funciones. Sistemas de acceso a las carreras judicial y fiscal."
+      },
+      {
+        "numero": 7,
+        "bloque": "II",
+        "titulo": "Examen de la organización y competencia del Tribunal Supremo, de la Audiencia Nacional, de los Tribunales Superiores y de las Audiencias Provinciales."
+      },
+      {
+        "numero": 8,
+        "bloque": "II",
+        "titulo": "De los Tribunales de Instancia y del Tribunal Central de Instancia. Examen de la organización y competencia de los Tribunales de Instancia: Sección Única, Secciones Civil, De Instrucción, De Familia, Infancia y Capacidad, De lo Mercantil, De Violencia sobre la Mujer, De Violencia contra la Infancia y la Adolescencia, De lo Penal, De Menores, De Vigilancia Penitenciaria, De lo Contencioso-Administrativo y De lo Social. La Sección de lo Mercantil del Tribunal de Instancia de Alicante: Tribunal de Marca de la Unión Europea. Los jueces o juezas de Paz, Oficina de Justicia en el Municipio, las Agrupaciones de Oficinas de Justicia: Organización y competencias, elección del Juez o Jueza de Paz, la Secretaría de las Oficinas de Justicia."
+      },
+      {
+        "numero": 9,
+        "bloque": "II",
+        "titulo": "La carta de Derechos de los Ciudadanos ante la Justicia. Derechos de información, de atención y gestión, de identificación de actuaciones y funcionarios, derechos lingüísticos. Derechos frente a los profesionales que asisten y representan al ciudadano: Abogados, Procuradores, Graduados Sociales. El Derecho a la Justicia Gratuita en la Carta de Derechos. El plan de Transparencia Judicial."
+      },
+      {
+        "numero": 10,
+        "bloque": "II",
+        "titulo": "La modernización de la oficina judicial. Nuevo modelo de organización judicial: La eficiencia organizativa del Servicio Público de Justicia para la implantación de los Tribunales de Instancia y las Oficinas de Justicia en los municipios: su regulación en la Ley Orgánica del Poder Judicial. La administración de justicia y las nuevas tecnologías. Código de Conducta para usuarios de equipos y sistemas informáticos al servicio de la Administración de Justicia. El expediente digital y la presentación telemática de escritos y documentos. La firma digital, el correo electrónico. Incidencia de la legislación de protección de datos en el uso de las aplicaciones informáticas."
+      },
+      {
+        "numero": 11,
+        "bloque": "II",
+        "titulo": "El Letrado de la Administración de Justicia en la Ley Orgánica del Poder Judicial: funciones y competencias. Ordenación del cuerpo superior jurídico de Letrados de la Administración de Justicia: Secretario de Gobierno y Secretarios Coordinadores."
+      },
+      {
+        "numero": 12,
+        "bloque": "II",
+        "titulo": "Cuerpos de Funcionarios al servicio de la Administración de Justicia. Cuerpos Generales y Cuerpos Especiales: Definición y Cuerpos que los integran. Cuerpos Especiales: El Cuerpo de Médicos Forenses: Funciones."
+      },
+      {
+        "numero": 13,
+        "bloque": "II",
+        "titulo": "Los Cuerpos Generales (I): Funciones. Formas de acceso. Promoción interna. Adquisición y pérdida de la condición de funcionarios. La rehabilitación. Derechos, deberes e incompatibilidades. Jornada y horarios. Vacaciones, permisos y licencias."
+      },
+      {
+        "numero": 14,
+        "bloque": "II",
+        "titulo": "Los Cuerpos Generales (II): Situaciones administrativas. Ordenación de la actividad profesional. Provisión de puestos de trabajo. Régimen disciplinario."
+      },
+      {
+        "numero": 15,
+        "bloque": "II",
+        "titulo": "Libertad sindical: El Sindicato en la Constitución Española. Elecciones sindicales según la Ley de órganos de representación y el Estatuto Básico del Empleado Público. El derecho de huelga. Salud y prevención de riesgos laborales."
+      },
+      {
+        "numero": 16,
+        "bloque": "III",
+        "titulo": "Medios adecuados de solución de controversias en vía no jurisdiccional. Los procedimientos declarativos en la Ley de Enjuiciamiento Civil: juicio ordinario y verbal."
+      },
+      {
+        "numero": 17,
+        "bloque": "III",
+        "titulo": "Los procedimientos de ejecución en la Ley de Enjuiciamiento Civil. Clases de ejecución: disposiciones generales de cada una de ellas. Especial referencia a la libranza de mandamientos, efectividad de los embargos acordados en el decreto acordando medidas ejecutivas concretas para llevar a cabo lo dispuesto por la orden general de ejecución y en los decretos de mejora, averiguación patrimonial, preparación procesal de la vía de apremio de muebles e inmuebles, actas de celebración de subastas y trámite de depósito judicial. Las medidas cautelares."
+      },
+      {
+        "numero": 18,
+        "bloque": "III",
+        "titulo": "Procesos especiales en la Ley de Enjuiciamiento Civil. Especial consideración a los procesos matrimoniales y al proceso monitorio. El requerimiento de pago en el procedimiento monitorio. El juicio cambiario."
+      },
+      {
+        "numero": 19,
+        "bloque": "III",
+        "titulo": "La jurisdicción voluntaria: Naturaleza y clases de procedimientos. Especial referencia a los actos de conciliación."
+      },
+      {
+        "numero": 20,
+        "bloque": "III",
+        "titulo": "Los procedimientos penales en la Ley de Enjuiciamiento Criminal; ordinario, abreviado y de jurado. Breve referencia al procedimiento restaurativo."
+      },
+      {
+        "numero": 21,
+        "bloque": "III",
+        "titulo": "Procedimiento de juicio sobre delitos leves. Juicios Rápidos. La ejecución en el proceso penal, con especial referencia a la ejecución de los delitos leves. La pieza de responsabilidad civil en el proceso penal."
+      },
+      {
+        "numero": 22,
+        "bloque": "III",
+        "titulo": "Recurso contencioso-administrativo. Procedimientos ordinarios, abreviados y especiales."
+      },
+      {
+        "numero": 23,
+        "bloque": "III",
+        "titulo": "El proceso laboral. Procedimiento ordinario. Procedimiento por despido. Procesos de seguridad social."
+      },
+      {
+        "numero": 24,
+        "bloque": "III",
+        "titulo": "Recursos. Cuestiones generales sobre el derecho al recurso. El depósito para recurrir. Los recursos en el ámbito civil: Reposición, revisión contra resoluciones del Letrado de la Administración de Justicia, queja, apelación y casación. Los recursos en el procedimiento penal: reforma, apelación, queja, recurso de casación y el recurso de revisión de sentencias firmes. Los recursos contra las resoluciones del Letrado de la Administración de Justicia."
+      },
+      {
+        "numero": 25,
+        "bloque": "III",
+        "titulo": "Los actos procesales. Requisitos de los actos procesales: a) lugar; b) tiempo: Términos y plazos: Cómputo de los plazos; c) forma (consideración de la lengua oficial). Defectos de los actos: Nulidad, anulabilidad, irregularidad; subsanación de defectos."
+      },
+      {
+        "numero": 26,
+        "bloque": "III",
+        "titulo": "Las resoluciones de los órganos judiciales. Clases de resoluciones judiciales: Contenido y características. Las resoluciones de los órganos judiciales colegiados. Las resoluciones del Letrado de la Administración de Justicia."
+      },
+      {
+        "numero": 27,
+        "bloque": "III",
+        "titulo": "Los actos de comunicación con otros Tribunales y Autoridades: oficios y mandamientos. El auxilio judicial: los exhortos y los mandamientos en el proceso penal. Cooperación jurídica internacional: las comisiones rogatorias."
+      },
+      {
+        "numero": 28,
+        "bloque": "III",
+        "titulo": "Actos de comunicación a las partes y otros intervinientes en el proceso: notificaciones, requerimientos, citaciones y emplazamientos. Notificaciones, citaciones y mandamientos en el proceso penal. Formas de notificación y nuevas tecnologías."
+      },
+      {
+        "numero": 29,
+        "bloque": "III",
+        "titulo": "El Registro Civil. Estructura del Registro Civil. las Oficinas del Registro Civil: Oficina Central, Oficinas Generales y Oficinas Consulares y sus funciones. Hechos y actos inscribibles en el Registro Civil."
+      },
+      {
+        "numero": 30,
+        "bloque": "III",
+        "titulo": "Las inscripciones: Inscripción de nacimiento y filiación; inscripciones relativas al matrimonio; inscripción del fallecimiento. Otras inscripciones. Certificaciones. Expedientes del Registro Civil."
+      },
+      {
+        "numero": 31,
+        "bloque": "III",
+        "titulo": "Conceptos de archivo judicial y de documentación judicial en relación con la legislación vigente en materia de archivos judiciales. Formas de remisión de documentación judicial y relaciones documentales. Nuevas tecnologías en los archivos judiciales de gestión. Las juntas de expurgo de la documentación judicial."
+      },
+      {
+        "numero": 32,
+        "bloque": "IV",
+        "titulo": "Informática básica: conceptos fundamentales sobre el hardware y el software. Sistemas de almacenamiento de datos. Sistemas operativos. Nociones básicas de seguridad informática."
+      },
+      {
+        "numero": 33,
+        "bloque": "IV",
+        "titulo": "Introducción al sistema operativo: el entorno Windows. Fundamentos. Trabajo en el entorno gráfico de Windows: ventanas, iconos, menús contextuales, cuadros de diálogo. El escritorio y sus elementos. El menú inicio."
+      },
+      {
+        "numero": 34,
+        "bloque": "IV",
+        "titulo": "El explorador de Windows. Gestión de carpetas y archivos. Operaciones de búsqueda. Herramientas «Este equipo» y «Acceso rápido». Accesorios. Herramientas del sistema."
+      },
+      {
+        "numero": 35,
+        "bloque": "IV",
+        "titulo": "Procesadores de texto: Word 365. Principales funciones y utilidades. Creación y estructuración del documento. Gestión, grabación, recuperación e impresión de ficheros. Personalización del entorno de trabajo."
+      },
+      {
+        "numero": 36,
+        "bloque": "IV",
+        "titulo": "Correo electrónico: Outlook 365. Conceptos elementales y funcionamiento. El entorno de trabajo. Enviar, recibir, responder y reenviar mensajes. Creación de mensajes. Reglas de mensaje. Libreta de direcciones."
+      },
+      {
+        "numero": 37,
+        "bloque": "IV",
+        "titulo": "La Red Internet: origen, evolución y estado actual. Conceptos elementales sobre protocolos y servicios en Internet. Funcionalidades básicas de los navegadores web."
+      }
+    ]
   }
 ]

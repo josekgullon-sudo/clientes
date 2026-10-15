@@ -4,7 +4,7 @@ export const SITIO = {
   lema: "Test de oposiciones con cada respuesta explicada",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   descripcion:
-    "Test para preparar el Auxiliar, el Administrativo y Agente de Hacienda con la explicación de cada respuesta y el artículo exacto de la ley. 10 preguntas al día gratis.",
+    "Test para preparar el Auxiliar, el Administrativo, Agente de Hacienda y Tramitación Procesal con la explicación de cada respuesta y el artículo exacto de la ley. 10 preguntas al día gratis.",
   avisoNoOficial:
     "No somos una plataforma oficial ni estamos vinculados al INAP ni a ningún organismo público.",
 } as const;
@@ -86,6 +86,26 @@ export const OPOSICIONES = [
       I: { nombre: "Organización del Estado y funcionamiento de la Administración", titulo: "Materias comunes" },
       II: { nombre: "Derecho administrativo general" },
       III: { nombre: "Organización de la Hacienda Pública y Derecho tributario", titulo: "Materias específicas" },
+    },
+  },
+  {
+    slug: "tramitacion-procesal",
+    nombre: "Tramitación Procesal y Administrativa",
+    corto: "Tramitación Procesal",
+    grupo: "C1",
+    detalle: "Grupo C1 · Administración de Justicia",
+    escala: 10,
+    penalizacion: "de un cuarto",
+    simulacro:
+      "Reúne el primer ejercicio (100 preguntas de los temas 1 a 31) y el de Windows y Microsoft 365 (20 preguntas), con un cuarto de penalización. El caso práctico no entra.",
+    ritmo: "En el examen tienes unos 70 s (100 min para 100 preguntas) y 2 min por pregunta de ofimática.",
+    partes: ["Primer ejercicio · temas 1 a 31", "Tercer ejercicio · ofimática"],
+    notaPrediccion: " El caso práctico del segundo ejercicio no entra en la predicción.",
+    bloques: {
+      I: { nombre: "Constitución, Gobierno y organización del Estado", titulo: "Organización del Estado" },
+      II: { nombre: "Administración de Justicia y su personal", titulo: "Administración de Justicia" },
+      III: { nombre: "Derecho procesal y Registro Civil", titulo: "Derecho procesal" },
+      IV: { nombre: "Informática, Windows y Microsoft 365", titulo: "Ofimática" },
     },
   },
 ] as const;
