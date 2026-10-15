@@ -1,0 +1,1005 @@
+{
+  "descripcion": "Ley 20/2011 del Registro Civil (Tramitación Procesal, temas 29 y 30). Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-02-24).",
+  "preguntas": [
+    {
+      "id": "tpq-001",
+      "ley": "ley-20-2011",
+      "articulo": "3.1",
+      "enunciado": "Según la Ley 20/2011, el Registro Civil es:",
+      "opciones": [
+        "Provincial, con un registro por cada provincia",
+        "Autonómico, con un registro por cada Comunidad Autónoma",
+        "Único para toda España",
+        "Municipal, con un registro por cada partido judicial"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 3.1 dispone: «El Registro Civil es único para toda España.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-002",
+      "ley": "ley-20-2011",
+      "articulo": "5.2",
+      "enunciado": "El registro individual de una persona se abre:",
+      "opciones": [
+        "Con la inscripción de nacimiento o con el primer asiento que se practique",
+        "Únicamente con la inscripción de nacimiento",
+        "Con la primera anotación que se extienda sobre la persona",
+        "Con la asignación del Documento Nacional de Identidad"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 5.2, «El registro individual se abrirá con la inscripción de nacimiento o con el primer asiento que se practique.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-003",
+      "ley": "ley-20-2011",
+      "articulo": "6",
+      "enunciado": "El código personal asignado a cada registro individual es una secuencia alfanumérica:",
+      "opciones": [
+        "Que se renueva cada vez que cambia el estado civil",
+        "Que se reasigna a otra persona tras la defunción del titular",
+        "Que se sustituye por el DNI al alcanzar la mayoría de edad",
+        "Única e invariable en el tiempo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 6 establece que el código personal es una «secuencia alfanumérica generada por el Registro Civil, que será única e invariable en el tiempo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-004",
+      "ley": "ley-20-2011",
+      "articulo": "4",
+      "enunciado": "Es un hecho o acto inscribible en el Registro Civil:",
+      "opciones": [
+        "La profesión de la persona",
+        "La declaración de ausencia",
+        "La afiliación sindical",
+        "El domicilio fiscal"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 4 enumera entre los inscribibles: «Las declaraciones de ausencia y fallecimiento.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-005",
+      "ley": "ley-20-2011",
+      "articulo": "9",
+      "enunciado": "Además de los que afectan a los españoles, en el Registro Civil constan los hechos y actos inscribibles referidos a extranjeros:",
+      "opciones": [
+        "Que tengan residencia legal en España, con independencia del lugar del hecho",
+        "Acaecidos en territorio español",
+        "Que hayan solicitado la nacionalidad española",
+        "Acaecidos en cualquier lugar, si el extranjero lo solicita"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 9 dice que constarán «los hechos y actos inscribibles que afectan a los españoles y los referidos a extranjeros, acaecidos en territorio español».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-006",
+      "ley": "ley-20-2011",
+      "articulo": "10.1",
+      "enunciado": "Un hecho inscribible se produce en el extranjero. La inscripción puede solicitarse y, en su caso, practicarse:",
+      "opciones": [
+        "Solo en la Oficina Consular de la circunscripción correspondiente",
+        "Solo en la Oficina Central del Registro Civil",
+        "En la Oficina Central o en la Oficina General de la capital de provincia",
+        "En la Oficina Consular de la circunscripción o en cualquiera de las Oficinas Generales"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 10.1, si se producen en el extranjero «la inscripción se solicitará y, en su caso, se practicará en la Oficina Consular de la circunscripción correspondiente. En este último caso, la inscripción también se podrá solicitar y practicar en cualquiera de las Oficinas Generales.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-007",
+      "ley": "ley-20-2011",
+      "articulo": "10.1",
+      "enunciado": "Un hecho inscribible se produce en territorio español. La inscripción puede solicitarse:",
+      "opciones": [
+        "En cualquier Oficina General, con independencia del lugar del hecho",
+        "Solo en la Oficina General del lugar donde se produzca el hecho",
+        "Solo en la Oficina General del domicilio del interesado",
+        "Solo en la Oficina Central, que resuelve en todo caso"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 10.1 señala que «La solicitud de inscripción y la práctica de la misma se podrán efectuar en cualquiera de las Oficinas Generales del Registro Civil con independencia del lugar en el que se produzcan los hechos o actos inscribibles.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-008",
+      "ley": "ley-20-2011",
+      "articulo": "11.g",
+      "enunciado": "Entre los derechos de las personas ante el Registro Civil figura:",
+      "opciones": [
+        "Exigir la inscripción de cualquier dato de su vida privada",
+        "Obtener certificaciones literales de forma gratuita",
+        "Utilizar cualquiera de las lenguas oficiales en el lugar donde radique la Oficina",
+        "Acceder sin restricción a los datos especialmente protegidos de terceros"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 11.g) reconoce «El derecho a utilizar ante el Registro Civil cualquiera de las lenguas oficiales en el lugar donde radique la Oficina.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-009",
+      "ley": "ley-20-2011",
+      "articulo": "13",
+      "enunciado": "El principio por el que los Encargados comprueban de oficio la realidad y legalidad de los hechos y actos cuya inscripción se pretende es el de:",
+      "opciones": [
+        "Oficialidad",
+        "Publicidad",
+        "Presunción de exactitud",
+        "Legalidad"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 13 (principio de legalidad) dice que los Encargados «comprobarán de oficio la realidad y legalidad de los hechos y actos cuya inscripción se pretende».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-010",
+      "ley": "ley-20-2011",
+      "articulo": "15.3",
+      "enunciado": "Se puede obtener información registral referida a persona distinta del solicitante siempre que:",
+      "opciones": [
+        "El solicitante sea pariente hasta el segundo grado del inscrito",
+        "Conste la identidad del solicitante y exista un interés legítimo",
+        "Lo autorice el Juez de Primera Instancia del domicilio del solicitante",
+        "El inscrito haya fallecido y hayan pasado cincuenta años"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 15.3, puede obtenerse información de persona distinta del solicitante «siempre que conste la identidad del solicitante y exista un interés legítimo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-011",
+      "ley": "ley-20-2011",
+      "articulo": "15.4",
+      "enunciado": "Quedan exceptuados del régimen general de publicidad del Registro Civil:",
+      "opciones": [
+        "Los datos de nacimiento de los menores de edad",
+        "Los datos de matrimonio",
+        "Los datos especialmente protegidos",
+        "Los datos de defunción"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 15.4 dice: «Quedan exceptuados del régimen general de publicidad los datos especialmente protegidos, que estarán sometidos al sistema de acceso restringido».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-012",
+      "ley": "ley-20-2011",
+      "articulo": "16.2",
+      "enunciado": "Los hechos inscritos se presumen existentes y los actos válidos y exactos mientras el asiento correspondiente:",
+      "opciones": [
+        "No sea rectificado o cancelado en la forma prevista por la ley",
+        "No sea impugnado por un interesado",
+        "No sea anotado como dudoso por el Ministerio Fiscal",
+        "No transcurra un año desde su práctica"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 16.2 establece: «Se presume que los hechos inscritos existen y los actos son válidos y exactos mientras el asiento correspondiente no sea rectificado o cancelado en la forma prevista por la ley.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-013",
+      "ley": "ley-20-2011",
+      "articulo": "16.3",
+      "enunciado": "Cuando se impugnen judicialmente los actos y hechos inscritos en el Registro Civil, deberá instarse:",
+      "opciones": [
+        "La rectificación del asiento correspondiente",
+        "La cancelación de todo el registro individual",
+        "La anotación preventiva de la demanda",
+        "Una nueva inscripción en la Oficina Central"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 16.3 ordena que «Cuando se impugnen judicialmente los actos y hechos inscritos en el Registro Civil, deberá instarse la rectificación del asiento correspondiente.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-014",
+      "ley": "ley-20-2011",
+      "articulo": "17.1",
+      "enunciado": "La inscripción en el Registro Civil constituye, respecto de los hechos inscritos:",
+      "opciones": [
+        "Una presunción que admite siempre prueba en contrario",
+        "Un mero principio de prueba",
+        "Prueba plena",
+        "Un valor meramente informativo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 17.1 dispone: «La inscripción en el Registro Civil constituye prueba plena de los hechos inscritos.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-015",
+      "ley": "ley-20-2011",
+      "articulo": "17.2",
+      "enunciado": "Se admiten otros medios de prueba distintos de la inscripción únicamente:",
+      "opciones": [
+        "Cuando la inscripción tenga más de diez años de antigüedad",
+        "En los casos de falta de inscripción o en los que no fuera posible certificar del asiento",
+        "Cuando el interesado prefiera acreditar el hecho por otra vía",
+        "Cuando la inscripción se haya practicado en una Oficina Consular"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 17.2, «Sólo en los casos de falta de inscripción o en los que no fuera posible certificar del asiento, se admitirán otros medios de prueba.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-016",
+      "ley": "ley-20-2011",
+      "articulo": "18",
+      "enunciado": "La inscripción en el Registro Civil:",
+      "opciones": [
+        "Tiene siempre eficacia constitutiva",
+        "No tiene nunca eficacia constitutiva",
+        "Solo tiene eficacia constitutiva en nacimiento y defunción",
+        "Solo tiene eficacia constitutiva en los casos previstos por la Ley"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 18 prevé que «La inscripción en el Registro Civil sólo tendrá eficacia constitutiva en los casos previstos por la Ley.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-017",
+      "ley": "ley-20-2011",
+      "articulo": "20.1",
+      "enunciado": "El Registro Civil se organiza en:",
+      "opciones": [
+        "Oficina Central, Oficinas Provinciales y Oficinas Municipales",
+        "Oficina Central, Oficinas Generales y Oficinas Consulares",
+        "Oficinas Generales, Oficinas Consulares y Juzgados de Paz",
+        "Oficina Central, Oficinas Autonómicas y Oficinas Consulares"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 20.1 dice que el Registro Civil se organiza en «1.º Oficina Central. 2.º Oficinas Generales. 3.º Oficinas Consulares.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-018",
+      "ley": "ley-20-2011",
+      "articulo": "20.2",
+      "enunciado": "El Encargado de la Oficina del Registro Civil puede delegar funciones:",
+      "opciones": [
+        "En el Juez de Paz del municipio",
+        "En el letrado de la Administración de Justicia del partido judicial",
+        "En ningún caso, pues sus funciones son indelegables",
+        "En el personal al servicio de la Oficina, bajo su responsabilidad y con los límites reglamentarios"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 20.2 señala que «Bajo su responsabilidad y en los términos y con los límites que reglamentariamente se determinen, el Encargado podrá delegar funciones en el personal al servicio de la Oficina del Registro Civil.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-019",
+      "ley": "ley-20-2011",
+      "articulo": "21.3",
+      "enunciado": "La autoridad encargada en materia de cooperación internacional sobre Registro Civil es:",
+      "opciones": [
+        "La Oficina Central",
+        "Las Oficinas Generales",
+        "Las Oficinas Consulares",
+        "La Oficina General de la capital de la provincia"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 21.3 establece: «La Oficina Central es la autoridad encargada en materia de cooperación internacional sobre Registro Civil».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-020",
+      "ley": "ley-20-2011",
+      "articulo": "22.1",
+      "enunciado": "Existirá una Oficina General del Registro Civil:",
+      "opciones": [
+        "En cada municipio de más de diez mil habitantes",
+        "En cada capital de provincia",
+        "En todas las poblaciones que sean sede de la capital de un partido judicial",
+        "En la capital de cada Comunidad Autónoma"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 22.1 dispone: «Existirá una Oficina General del Registro Civil en todas las poblaciones que sean sede de la capital de un partido judicial.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-021",
+      "ley": "ley-20-2011",
+      "articulo": "22.2",
+      "enunciado": "Los Encargados de las Oficinas Generales ejercen sus cometidos bajo la dependencia funcional de:",
+      "opciones": [
+        "El Tribunal Superior de Justicia de la Comunidad Autónoma",
+        "El Ayuntamiento donde radique la Oficina",
+        "El Consejo General del Poder Judicial",
+        "La Dirección General de Seguridad Jurídica y Fe Pública"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 22.2, el Encargado «ejercerá sus cometidos bajo la dependencia funcional de la Dirección General de Seguridad Jurídica y Fe Pública».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-022",
+      "ley": "ley-20-2011",
+      "articulo": "24",
+      "enunciado": "Entre las funciones de las Oficinas Consulares del Registro Civil está:",
+      "opciones": [
+        "Instruir el expediente previo de matrimonio y expedir los certificados de capacidad para su celebración en el extranjero",
+        "Resolver los recursos contra las decisiones de las Oficinas Generales",
+        "Dictar instrucciones vinculantes para las Oficinas Generales",
+        "Practicar la inscripción de fallecimiento de extranjeros al servicio de las Fuerzas Armadas"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 24 incluye: «Instruir el expediente previo de matrimonio, así como expedir los certificados de capacidad necesarios para su celebración en el extranjero.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-023",
+      "ley": "ley-20-2011",
+      "articulo": "33.1",
+      "enunciado": "Presentado el título o formulada la declaración, el Encargado practicará los asientos de oficio o dictará resolución denegándolos en el plazo de:",
+      "opciones": [
+        "Tres días",
+        "Cinco días",
+        "Diez días",
+        "Quince días"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 33.1 dice que el Encargado «practicará los asientos correspondientes de oficio o dictará resolución denegándolos en el plazo de cinco días».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-024",
+      "ley": "ley-20-2011",
+      "articulo": "23",
+      "enunciado": "Las Oficinas Consulares del Registro Civil están a cargo de:",
+      "opciones": [
+        "Los letrados de la Administración de Justicia destinados en el extranjero",
+        "Los Notarios con sede en el país de que se trate",
+        "Los Cónsules de España o, en su caso, los funcionarios diplomáticos encargados de las Secciones consulares",
+        "Los Jueces de Paz de la circunscripción"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 23 establece que estarán «a cargo de los Cónsules de España o, en su caso, de los funcionarios diplomáticos encargados de las Secciones consulares de la Misión Diplomática».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-025",
+      "ley": "ley-20-2011",
+      "articulo": "21.2",
+      "enunciado": "Corresponde a la Oficina Central practicar las inscripciones que se deriven de:",
+      "opciones": [
+        "Resoluciones dictadas por el centro directivo del Registro Civil sobre hechos o actos inscribibles",
+        "Resoluciones de los Encargados de las Oficinas Generales",
+        "Sentencias firmes dictadas por cualquier órgano judicial español",
+        "Declaraciones de las personas obligadas a promover la inscripción"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 21.2 atribuye a la Oficina Central «Practicar las inscripciones que se deriven de resoluciones dictadas por la Dirección General de los Registros y del Notariado, referidas a hechos o actos susceptibles de inscripción en el Registro Civil.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 29
+      }
+    },
+    {
+      "id": "tpq-026",
+      "ley": "ley-20-2011",
+      "articulo": "44.2",
+      "enunciado": "La inscripción de nacimiento hace fe de:",
+      "opciones": [
+        "Únicamente del hecho y de la fecha del nacimiento",
+        "Del nacimiento, la nacionalidad y la vecindad civil del inscrito",
+        "Del nacimiento y del domicilio de los progenitores",
+        "Hecho, fecha, hora y lugar del nacimiento, identidad, sexo y, en su caso, filiación del inscrito"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 44.2, «La inscripción hace fe del hecho, fecha, hora y lugar del nacimiento, identidad, sexo y, en su caso, filiación del inscrito.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-027",
+      "ley": "ley-20-2011",
+      "articulo": "44.4",
+      "enunciado": "Si se constata que la madre tiene vínculo matrimonial con persona distinta de la que figura en la declaración, la inscripción de nacimiento se practica:",
+      "opciones": [
+        "Con la filiación paterna declarada, anotando la discrepancia",
+        "De forma inmediata solo con la filiación materna, abriendo expediente registral para determinar la paterna",
+        "Suspendiéndola hasta que el Ministerio Fiscal acredite la paternidad",
+        "Denegándola y remitiendo a los interesados a la vía judicial"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 44.4 prevé que «se practicará la inscripción de nacimiento de forma inmediata solo con la filiación materna y se procederá a la apertura de un expediente registral para la determinación de la filiación paterna».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-028",
+      "ley": "ley-20-2011",
+      "articulo": "44.6",
+      "enunciado": "El reconocimiento de la filiación no matrimonial con posterioridad a la inscripción de nacimiento podrá hacerse:",
+      "opciones": [
+        "En cualquier tiempo, con arreglo a las formas de la legislación civil aplicable",
+        "Solo dentro del año siguiente al nacimiento",
+        "Solo antes de que el hijo cumpla dieciocho años",
+        "Únicamente mediante resolución judicial"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 44.6 señala que «podrá hacerse en cualquier tiempo con arreglo a las formas establecidas en la legislación civil aplicable».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-029",
+      "ley": "ley-20-2011",
+      "articulo": "46",
+      "enunciado": "La dirección de los hospitales y clínicas comunicará a la Oficina del Registro Civil cada nacimiento ocurrido en el centro en el plazo de:",
+      "opciones": [
+        "Veinticuatro horas",
+        "Cuarenta y ocho horas",
+        "Setenta y dos horas",
+        "Diez días"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 46 establece que la dirección del centro «comunicará en el plazo de setenta y dos horas a la Oficina del Registro Civil que corresponda cada uno de los nacimientos que hayan tenido lugar en el centro sanitario».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-030",
+      "ley": "ley-20-2011",
+      "articulo": "47.1",
+      "enunciado": "Si el nacimiento se produce fuera de establecimiento sanitario, los obligados a promover la inscripción disponen para declararlo de un plazo de:",
+      "opciones": [
+        "Tres días",
+        "Cinco días",
+        "Diez días",
+        "Treinta días"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 47.1, «los obligados a promover la inscripción dispondrán de un plazo de diez días para declarar el nacimiento ante la Oficina del Registro Civil o las Oficinas Consulares de Registro Civil».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-031",
+      "ley": "ley-20-2011",
+      "articulo": "49.2",
+      "enunciado": "Si los progenitores no acuerdan el orden de los apellidos, el Encargado les requiere para que lo comuniquen en el plazo máximo de:",
+      "opciones": [
+        "Tres días",
+        "Cinco días",
+        "Diez días",
+        "Quince días"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 49.2 dice que el Encargado requerirá a los progenitores «para que en el plazo máximo de tres días comuniquen el orden de apellidos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-032",
+      "ley": "ley-20-2011",
+      "articulo": "49.2",
+      "enunciado": "Transcurrido el plazo sin que los progenitores comuniquen expresamente el orden de los apellidos, este lo acordará:",
+      "opciones": [
+        "El Encargado, colocando siempre primero el apellido paterno",
+        "El Ministerio Fiscal, mediante expediente",
+        "El orden alfabético de los apellidos",
+        "El Encargado, atendiendo al interés superior del menor"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 49.2, «Transcurrido dicho plazo sin comunicación expresa, el Encargado acordará el orden de los apellidos atendiendo al interés superior del menor.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-033",
+      "ley": "ley-20-2011",
+      "articulo": "51",
+      "enunciado": "En cuanto al nombre propio, el artículo 51 establece que no podrán consignarse más de:",
+      "opciones": [
+        "Un nombre simple",
+        "Dos nombres simples o uno compuesto",
+        "Tres nombres simples",
+        "Dos nombres simples y uno compuesto"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 51 dispone: «No podrán consignarse más de dos nombres simples o uno compuesto.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-034",
+      "ley": "ley-20-2011",
+      "articulo": "52",
+      "enunciado": "El cambio de nombre puede autorizarlo el Encargado, mediante procedimiento registral, previa declaración del interesado, que deberá probar:",
+      "opciones": [
+        "Que el nuevo nombre es de uso corriente en su familia",
+        "El uso habitual del nuevo nombre",
+        "Que el nombre actual le causa graves inconvenientes",
+        "Que ha transcurrido un año desde la inscripción de nacimiento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 52 exige una «declaración del interesado, que deberá probar el uso habitual del nuevo nombre».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-035",
+      "ley": "ley-20-2011",
+      "articulo": "53",
+      "enunciado": "El Encargado puede autorizar, mediante declaración de voluntad del interesado, el cambio de apellidos consistente en:",
+      "opciones": [
+        "La supresión de un apellido contrario a la dignidad",
+        "La adopción del apellido de quien tuviere acogido al interesado",
+        "La unión de apellidos que no provengan de la misma línea",
+        "La inversión del orden de apellidos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 53 permite el cambio mediante declaración de voluntad en casos como «La inversión del orden de apellidos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-036",
+      "ley": "ley-20-2011",
+      "articulo": "53.5",
+      "enunciado": "Quien quiera conservar los apellidos que usaba antes de que se rectificara su filiación debe instarlo dentro de:",
+      "opciones": [
+        "Los diez días siguientes a la inscripción de la nueva filiación",
+        "Los seis meses siguientes a la inscripción de la nueva filiación",
+        "Los dos meses siguientes a la inscripción de la nueva filiación o, en su caso, a la mayoría de edad",
+        "El año siguiente a la inscripción de la nueva filiación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 53.5 indica que la conservación de apellidos «deberá instarse dentro de los dos meses siguientes a la inscripción de la nueva filiación o, en su caso, a la mayoría de edad».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-037",
+      "ley": "ley-20-2011",
+      "articulo": "54.5",
+      "enunciado": "Para las víctimas de violencia de género y sus descendientes integrados en el núcleo familiar, el cambio de apellidos puede autorizarse:",
+      "opciones": [
+        "Sin necesidad de cumplir los requisitos del apartado 2 del artículo 54",
+        "Solo si acreditan el uso habitual del apellido propuesto",
+        "Solo mediante resolución judicial firme",
+        "Solo si el cambio no provoca apellidos de la misma línea"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 54.5 prevé que «podrá autorizarse el cambio de apellidos sin necesidad de cumplir con los requisitos previstos en el apartado 2».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-038",
+      "ley": "ley-20-2011",
+      "articulo": "57.3",
+      "enunciado": "El cambio de nombre y apellidos puede ser solicitado por el propio interesado si es mayor de:",
+      "opciones": [
+        "Dieciséis años",
+        "Doce años",
+        "Catorce años",
+        "Dieciocho años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 57.3 dice que los cambios «podrán ser solicitados por el propio interesado si es mayor de dieciséis años».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-039",
+      "ley": "ley-20-2011",
+      "articulo": "59.5",
+      "enunciado": "La inscripción del matrimonio hace fe de:",
+      "opciones": [
+        "Solo del consentimiento prestado por los contrayentes",
+        "Del matrimonio y de la vecindad civil de los contrayentes",
+        "Del matrimonio y de la fecha y lugar en que se contrae",
+        "Del matrimonio y del domicilio conyugal"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 59.5 establece: «La inscripción hace fe del matrimonio y de la fecha y lugar en que se contrae».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-040",
+      "ley": "ley-20-2011",
+      "articulo": "61",
+      "enunciado": "Dictada resolución judicial firme de divorcio, el letrado de la Administración de Justicia debe remitir testimonio a la Oficina General del Registro Civil:",
+      "opciones": [
+        "En el plazo de tres días hábiles, por medios electrónicos",
+        "En el mismo día o al siguiente hábil, por medios electrónicos",
+        "En el plazo de cinco días, por correo certificado",
+        "En el plazo de diez días, por medios electrónicos"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 61 ordena remitir «en el mismo día o al siguiente hábil y por medios electrónicos testimonio o copia electrónica de la misma a la Oficina General del Registro Civil».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-041",
+      "ley": "ley-20-2011",
+      "articulo": "33.1",
+      "enunciado": "Si no existe obstáculo legal, la inscripción de la defunción se practica:",
+      "opciones": [
+        "Al día siguiente hábil",
+        "En el plazo de cinco días",
+        "En el plazo de setenta y dos horas",
+        "El mismo día de la presentación de la documentación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 33.1 dice: «La inscripción de la defunción, no existiendo obstáculo legal, se practicará en el mismo día de la presentación de la documentación.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-042",
+      "ley": "ley-20-2011",
+      "articulo": "62.4",
+      "enunciado": "Practicada la inscripción de la defunción, el registro individual se cierra y el código personal:",
+      "opciones": [
+        "Se asigna a los herederos del fallecido",
+        "Puede asignarse de nuevo transcurridos diez años",
+        "Se conserva solo para el cónyuge supérstite",
+        "En ningún caso podrá volver a ser asignado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 62.4 señala: «La inscripción de la defunción cerrará el registro individual. En ningún caso, el código personal podrá volver a ser asignado.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-043",
+      "ley": "ley-20-2011",
+      "articulo": "66",
+      "enunciado": "No podrá efectuarse la inscripción de defunción sin que se haya presentado ante el Registro Civil:",
+      "opciones": [
+        "La licencia para el entierro o incineración",
+        "El certificado médico de defunción",
+        "La declaración de dos testigos mayores de edad",
+        "La autorización del Ministerio Fiscal"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 66 establece: «En ningún caso podrá efectuarse la inscripción de defunción sin que se haya presentado ante el Registro Civil el certificado médico de defunción.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-044",
+      "ley": "ley-20-2011",
+      "articulo": "67.2",
+      "enunciado": "Si hay indicios de muerte violenta, la inscripción de la defunción no supone por sí misma la licencia de enterramiento, que se expedirá:",
+      "opciones": [
+        "Cuando lo autorice el órgano judicial competente",
+        "Transcurridas setenta y dos horas desde la inscripción",
+        "Cuando lo autorice el Ministerio Fiscal",
+        "De forma inmediata por el Encargado del Registro Civil"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 67.2 dice que «la inscripción de la defunción no supondrá por sí misma la concesión de licencia de enterramiento o incineración. Dicha licencia se expedirá cuando se autorice por el órgano judicial competente.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-045",
+      "ley": "ley-20-2011",
+      "articulo": "68.1",
+      "enunciado": "Las inscripciones de adquisición de la nacionalidad española por residencia, carta de naturaleza y opción tienen carácter:",
+      "opciones": [
+        "Meramente declarativo",
+        "Meramente informativo",
+        "Constitutivo",
+        "Provisional hasta su firmeza"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 68.1 dispone que estas inscripciones «tendrán carácter constitutivo»; solo la pérdida de la nacionalidad tiene carácter «meramente declarativo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-046",
+      "ley": "ley-20-2011",
+      "articulo": "82.1",
+      "enunciado": "Salvo solicitud expresa en sentido contrario, el Registro Civil expide certificación:",
+      "opciones": [
+        "En extracto",
+        "Literal",
+        "Bilingüe",
+        "Negativa"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 82.1 dice: «Salvo solicitud expresa en sentido contrario, se expedirá certificación en extracto.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-047",
+      "ley": "ley-20-2011",
+      "articulo": "85.1",
+      "enunciado": "Contra las decisiones de los Encargados de las Oficinas Central, Generales y Consulares los interesados solo podrán interponer recurso en el plazo de:",
+      "opciones": [
+        "Diez días",
+        "Quince días",
+        "Un mes",
+        "Tres meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 85.1 establece que los interesados «sólo podrán interponer recurso ante la Dirección General de los Registros y del Notariado, en el plazo de un mes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-048",
+      "ley": "ley-20-2011",
+      "articulo": "86.2",
+      "enunciado": "La Dirección General resolverá el recurso en el plazo de seis meses; transcurrido sin resolución expresa:",
+      "opciones": [
+        "Se entenderá estimada la pretensión",
+        "Se archivará el recurso sin más trámite",
+        "Se devolverá el expediente al Encargado para que resuelva",
+        "Se entenderá desestimada la pretensión"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 86.2, transcurrido el plazo sin resolución expresa «se entenderá desestimada la pretensión, quedando expedita la vía jurisdiccional correspondiente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-049",
+      "ley": "ley-20-2011",
+      "articulo": "88.2",
+      "enunciado": "En los procedimientos registrales, el silencio administrativo es:",
+      "opciones": [
+        "Positivo",
+        "Negativo",
+        "Positivo, salvo en los procedimientos de nacionalidad",
+        "Positivo transcurridos tres meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 88.2 dispone: «El silencio administrativo en los procedimientos registrales será negativo.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    },
+    {
+      "id": "tpq-050",
+      "ley": "ley-20-2011",
+      "articulo": "91.1",
+      "enunciado": "Puede rectificarse a través de un procedimiento registral, y no por resolución judicial:",
+      "opciones": [
+        "La filiación del inscrito, cuando haya controversia",
+        "Las divergencias entre la inscripción y los documentos en cuya virtud se haya practicado",
+        "Cualquier dato inscrito, si lo pide el Ministerio Fiscal",
+        "La nacionalidad del inscrito, en todo caso"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 91.1 permite rectificar por procedimiento registral, entre otros, «Las divergencias que se aprecien entre la inscripción y los documentos en cuya virtud se haya practicado».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-02-24",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 30
+      }
+    }
+  ]
+}
