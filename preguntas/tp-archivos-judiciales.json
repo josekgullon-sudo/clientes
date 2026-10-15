@@ -287,10 +287,10 @@
       "articulo": "14.1",
       "enunciado": "¿Cuál es la finalidad de las Juntas de Expurgo?",
       "opciones": [
-        "Custodiar los documentos de los procesos en tramitación",
-        "Ordenar la documentación remitida por los archivos de gestión",
-        "Determinar la exclusión o eliminación de los expedientes del Patrimonio Documental o su transferencia a la Administración de patrimonio histórico",
-        "Resolver los recursos contra la denegación de acceso a los archivos"
+        "Custodiar y clasificar los documentos de los procesos que se encuentran en tramitación",
+        "Ordenar y conservar la documentación remitida por los archivos judiciales de gestión",
+        "Decidir la exclusión de expedientes del Patrimonio Documental o su transferencia a patrimonio histórico",
+        "Resolver los recursos contra la denegación de acceso a los documentos de los archivos"
       ],
       "correcta": 2,
       "explicacion": "El artículo 14.1 define a las Juntas como órganos que tienen por finalidad «determinar, por cuenta del órgano responsable del respectivo Archivo Judicial de Gestión, la exclusión o eliminación de los expedientes procesales o gubernativos del Patrimonio Documental».",
@@ -387,10 +387,10 @@
       "articulo": "3.3",
       "enunciado": "¿Qué condición exige el Real Decreto 937/2003 para convertir a soporte magnético los documentos en papel de los archivos judiciales?",
       "opciones": [
-        "Que se garantice la integridad, autenticidad y conservación del documento",
+        "Que se garantice la integridad, autenticidad y conservación",
         "Que se destruya el original en papel una vez digitalizado",
         "Que lo autorice el Presidente del Tribunal Superior de Justicia",
-        "Que consientan las partes del proceso"
+        "Que consientan expresamente las partes del proceso"
       ],
       "correcta": 0,
       "explicacion": "El artículo 3.3 permite la conversión «siempre que se garantice la integridad, autenticidad y conservación del documento, con el fin de obtener una fácil y rápida identificación y la búsqueda de la documentación».",
