@@ -1,0 +1,605 @@
+{
+  "descripcion": "Agente de la Hacienda Pública, tema 23: período ejecutivo, recargos, apremio, providencia y garantías (LGT y Reglamento General de Recaudación). Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "rcd-001",
+      "ley": "ley-58-2003",
+      "articulo": "28.1",
+      "enunciado": "Los recargos del período ejecutivo, que son incompatibles entre sí, se calculan sobre:",
+      "opciones": [
+        "Únicamente la cuota de la deuda no ingresada en voluntaria",
+        "La deuda pendiente incluidos los intereses de demora",
+        "La totalidad de la deuda no ingresada en período voluntario",
+        "La deuda no ingresada más las costas del procedimiento"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 28.1 dispone: «Dichos recargos son incompatibles entre sí y se calculan sobre la totalidad de la deuda no ingresada en período voluntario».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-002",
+      "ley": "ley-58-2003",
+      "articulo": "28.3",
+      "enunciado": "Para que se aplique el recargo de apremio reducido del 10 por ciento, el obligado debe ingresar la deuda no pagada y el propio recargo:",
+      "opciones": [
+        "Antes de que finalice el plazo del artículo 62.5 LGT para las deudas apremiadas",
+        "Antes de que se notifique la providencia de apremio",
+        "Dentro del mes siguiente al inicio del período ejecutivo",
+        "Antes de que se dicte la primera diligencia de embargo"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 28.3 dispone: «El recargo de apremio reducido será del 10 por ciento y se aplicará cuando se satisfaga la totalidad de la deuda no ingresada en periodo voluntario y el propio recargo antes de la finalización del plazo previsto en el apartado 5 del artículo 62 de esta ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-003",
+      "ley": "ley-58-2003",
+      "articulo": "28.4",
+      "enunciado": "El recargo de apremio ordinario, aplicable cuando no concurren los supuestos del recargo ejecutivo ni del reducido, es del:",
+      "opciones": [
+        "Diez por ciento",
+        "Veinte por ciento",
+        "Treinta por ciento",
+        "Quince por ciento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 28.4 establece: «El recargo de apremio ordinario será del 20 por ciento y será aplicable cuando no concurran las circunstancias a las que se refieren los apartados 2 y 3 de este artículo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-004",
+      "ley": "ley-58-2003",
+      "articulo": "28.5",
+      "enunciado": "Un deudor paga tras vencer el plazo del artículo 62.5 LGT y se le aplica el recargo de apremio ordinario. Respecto de los intereses de demora:",
+      "opciones": [
+        "No se exigen, porque el recargo sustituye a los intereses",
+        "Solo se exigen los devengados hasta la providencia de apremio",
+        "Se exigen reducidos a la mitad del importe devengado",
+        "Se le exigen además, pues el recargo ordinario es compatible con ellos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 28.5 señala: «El recargo de apremio ordinario es compatible con los intereses de demora».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-005",
+      "ley": "ley-58-2003",
+      "articulo": "28.6",
+      "enunciado": "Los recargos del período ejecutivo no se devengan, salvo que la normativa de asistencia mutua disponga otra cosa, en las deudas:",
+      "opciones": [
+        "De titularidad de otros Estados recaudadas en el marco de la asistencia mutua",
+        "De las comunidades autónomas con el Estado",
+        "De las entidades locales con el Estado",
+        "Derivadas de sanciones tributarias firmes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 28.6 dispone: «No se devengarán los recargos del periodo ejecutivo en el caso de deudas de titularidad de otros Estados o de entidades internacionales o supranacionales cuya actuación recaudatoria se realice en el marco de la asistencia mutua, salvo que la normativa sobre dicha asistencia establezca otra cosa».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-006",
+      "ley": "ley-58-2003",
+      "articulo": "161.1.a",
+      "enunciado": "En una deuda liquidada por la Administración tributaria, el período ejecutivo se inicia:",
+      "opciones": [
+        "El mismo día del vencimiento del plazo de ingreso voluntario",
+        "El día en que se notifica la providencia de apremio",
+        "El día siguiente al del vencimiento del plazo de ingreso en período voluntario",
+        "Un mes después del vencimiento del plazo de ingreso"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 161.1.a), el período ejecutivo se inicia, en deudas liquidadas por la Administración, «el día siguiente al del vencimiento del plazo establecido para su ingreso en el artículo 62 de esta ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-007",
+      "ley": "ley-58-2003",
+      "articulo": "161.1.b",
+      "enunciado": "Un obligado presenta una autoliquidación sin ingreso cuando el plazo del tributo ya había concluido. El período ejecutivo se inicia:",
+      "opciones": [
+        "Al día siguiente a la finalización del plazo del tributo",
+        "El mismo día de la presentación de la autoliquidación",
+        "Al notificarse el requerimiento de pago de la deuda",
+        "Al día siguiente a la presentación de la autoliquidación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 161.1.b) fija el inicio «al día siguiente de la finalización del plazo que establezca la normativa de cada tributo para dicho ingreso o, si éste ya hubiere concluido, el día siguiente a la presentación de la autoliquidación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-008",
+      "ley": "ley-58-2003",
+      "articulo": "161.2",
+      "enunciado": "La presentación en período voluntario de una solicitud de aplazamiento, fraccionamiento o compensación, como regla general:",
+      "opciones": [
+        "Inicia el período ejecutivo, pero sin devengo de recargos",
+        "Impide el inicio del período ejecutivo durante su tramitación",
+        "No tiene efecto sobre el inicio del período ejecutivo",
+        "Solo lo impide si el obligado ofrece una garantía"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 161.2 prevé que la presentación de esas solicitudes en período voluntario «impedirá el inicio del período ejecutivo durante la tramitación de dichos expedientes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-009",
+      "ley": "ley-58-2003",
+      "articulo": "161.2",
+      "enunciado": "Denegado un aplazamiento en voluntaria y abierto otro plazo de ingreso sin pagar, el obligado solicita la compensación de la misma deuda. Esa solicitud:",
+      "opciones": [
+        "Impide el inicio mientras se tramita la compensación",
+        "Impide el inicio solo si se aporta aval solidario",
+        "No impide el inicio del período ejecutivo",
+        "Suspende el nuevo plazo de ingreso hasta su resolución"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 161.2 indica que estas solicitudes «no impedirán el inicio del periodo ejecutivo cuando anteriormente se hubiera denegado, respecto de la misma deuda tributaria, otra solicitud previa de aplazamiento, fraccionamiento, compensación, suspensión o pago en especie en periodo voluntario habiéndose abierto otro plazo de ingreso sin que se hubiera producido el mismo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-010",
+      "ley": "ley-58-2003",
+      "articulo": "161.2",
+      "enunciado": "Se recurre en tiempo y forma una sanción tributaria. El período ejecutivo no se inicia hasta que la sanción:",
+      "opciones": [
+        "Sea firme en vía administrativa y finalice el plazo de ingreso voluntario",
+        "Sea resuelta en vía económico-administrativa, aunque no sea firme",
+        "Sea confirmada por la vía judicial contencioso-administrativa",
+        "Se garantice mediante aval solidario de entidad de crédito"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 161.2 establece que el recurso en tiempo y forma contra una sanción «impedirá el inicio del período ejecutivo hasta que la sanción sea firme en vía administrativa y haya finalizado el plazo para el ingreso voluntario del pago».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-011",
+      "ley": "ley-58-2003",
+      "articulo": "161.2",
+      "enunciado": "La declaración de concurso del deudor, respecto de las deudas con calificación de concursal:",
+      "opciones": [
+        "Suspende el plazo voluntario de pago hasta el fin del concurso",
+        "No suspende el plazo voluntario de pago de esas deudas",
+        "Inicia de inmediato el período ejecutivo de todas sus deudas",
+        "Exige el aplazamiento previo de las deudas concursales"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 161.2 dispone: «La declaración de concurso no suspenderá el plazo voluntario de pago de las deudas que tengan la calificación de concursal».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-012",
+      "ley": "ley-58-2003",
+      "articulo": "161.4",
+      "enunciado": "El inicio del período ejecutivo determina la exigencia de:",
+      "opciones": [
+        "Solo los recargos del período ejecutivo y, en su caso, costas",
+        "Intereses de demora y sanciones tributarias accesorias",
+        "Solo los intereses de demora, sin recargos ni costas",
+        "Intereses de demora, recargos del período ejecutivo y, en su caso, costas del apremio"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 161.4 señala que el inicio del período ejecutivo «determinará la exigencia de los intereses de demora y de los recargos del período ejecutivo en los términos de los artículos 26 y 28 de esta ley y, en su caso, de las costas del procedimiento de apremio».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-013",
+      "ley": "ley-58-2003",
+      "articulo": "163.2",
+      "enunciado": "Respecto de los procesos judiciales de ejecución, el procedimiento administrativo de apremio:",
+      "opciones": [
+        "No es acumulable a ellos ni se suspende por su iniciación, salvo que proceda legalmente",
+        "Se acumula a ellos cuando la deuda supera cierta cuantía",
+        "Se suspende siempre hasta que el juez resuelva",
+        "Se acumula al proceso judicial más antiguo"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 163.2 dispone: «El procedimiento administrativo de apremio no será acumulable a los judiciales ni a otros procedimientos de ejecución. Su iniciación o tramitación no se suspenderá por la iniciación de aquéllos, salvo cuando proceda».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-014",
+      "ley": "ley-58-2003",
+      "articulo": "164.1",
+      "enunciado": "Concurren el apremio y otro procedimiento singular de ejecución sobre un mismo bien. El apremio es preferente si:",
+      "opciones": [
+        "La deuda tributaria es de mayor cuantía",
+        "La providencia de apremio es anterior a la demanda ejecutiva",
+        "El embargo efectuado en el apremio es el más antiguo",
+        "Se ha iniciado primero el procedimiento tributario"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 164.1.1.º establece que «el procedimiento de apremio será preferente si el embargo efectuado en el curso del procedimiento de apremio fuera el más antiguo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-015",
+      "ley": "ley-58-2003",
+      "articulo": "164.1",
+      "enunciado": "Frente a un procedimiento concursal, el apremio es preferente para los bienes en él embargados si el embargo se efectuó:",
+      "opciones": [
+        "Con anterioridad a la solicitud de concurso por el deudor",
+        "Con anterioridad a la fecha de declaración del concurso",
+        "Al menos seis meses antes de la declaración del concurso",
+        "Antes de la aprobación del convenio concursal"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 164.1.2.º lo hace preferente «siempre que el embargo acordado en el mismo se hubiera efectuado con anterioridad a la fecha de declaración del concurso».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-016",
+      "ley": "ley-58-2003",
+      "articulo": "165.2",
+      "enunciado": "El procedimiento de apremio se suspende automáticamente, sin necesidad de garantía, cuando el interesado demuestre que:",
+      "opciones": [
+        "La deuda es excesiva respecto de su capacidad económica",
+        "No existen bienes embargables conocidos por la Administración",
+        "Ha presentado alegaciones contra la providencia de apremio",
+        "La deuda ha sido compensada o ha prescrito el derecho a exigir su pago"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 165.2 prevé la suspensión automática «sin necesidad de prestar garantía» si se demuestra «error material, aritmético o de hecho en la determinación de la deuda, que la misma ha sido ingresada, condonada, compensada, aplazada o suspendida o que ha prescrito el derecho a exigir el pago».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-017",
+      "ley": "ley-58-2003",
+      "articulo": "165.4",
+      "enunciado": "Interpuesta una tercería de dominio, el procedimiento de apremio:",
+      "opciones": [
+        "Continúa en todo caso hasta la realización de los bienes",
+        "Se suspende por completo respecto del obligado al pago",
+        "Se suspende respecto de los bienes controvertidos, tras adoptarse las medidas de aseguramiento",
+        "Se suspende solo si el tercero aporta aval solidario"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 165.4 dispone: «Si se interpone tercería de dominio se suspenderá el procedimiento de apremio en lo que se refiere a los bienes y derechos controvertidos, una vez que se hayan adoptado las medidas de aseguramiento que procedan».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-018",
+      "ley": "ley-58-2003",
+      "articulo": "165.5",
+      "enunciado": "Si se interpone una tercería de mejor derecho, el procedimiento de apremio:",
+      "opciones": [
+        "Prosigue hasta la realización de los bienes y el producto se consigna en depósito",
+        "Se suspende respecto de los bienes controvertidos",
+        "Se suspende hasta que el tercero preste garantía",
+        "Prosigue y el producto se aplica de inmediato a la deuda"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 165.5 establece: «Si la tercería fuera de mejor derecho proseguirá el procedimiento hasta la realización de los bienes y el producto obtenido se consignará en depósito a resultas de la resolución de la tercería».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-019",
+      "ley": "ley-58-2003",
+      "articulo": "167.2",
+      "enunciado": "La providencia de apremio tiene, para proceder contra los bienes y derechos de los obligados, la misma fuerza ejecutiva que:",
+      "opciones": [
+        "Un laudo arbitral firme",
+        "Una escritura pública",
+        "Una resolución económico-administrativa",
+        "La sentencia judicial"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 167.2 señala que la providencia de apremio «tendrá la misma fuerza ejecutiva que la sentencia judicial para proceder contra los bienes y derechos de los obligados tributarios».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-020",
+      "ley": "ley-58-2003",
+      "articulo": "167.3.c",
+      "enunciado": "¿Cuál de los siguientes es un motivo de oposición admisible contra la providencia de apremio?",
+      "opciones": [
+        "Insuficiencia de ingresos del deudor para pagar",
+        "Falta de notificación de la liquidación",
+        "Desacuerdo con la valoración de los bienes a embargar",
+        "Existencia de otras deudas con acreedores privados"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 167.3 enumera los motivos de oposición, entre ellos el de la letra c): «Falta de notificación de la liquidación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-021",
+      "ley": "ley-58-2003",
+      "articulo": "168",
+      "enunciado": "Con deuda garantizada, la Administración puede embargar otros bienes antes de ejecutar la garantía cuando:",
+      "opciones": [
+        "Esta no sea proporcionada a la deuda o el obligado lo solicite señalando bienes suficientes",
+        "La garantía sea una hipoteca sobre bienes inmuebles",
+        "La deuda garantizada exceda de la cuantía que fije la ley",
+        "Haya transcurrido un mes desde la providencia de apremio"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 168 prevé ejecutar primero la garantía, pero la Administración «podrá optar por el embargo y enajenación de otros bienes o derechos con anterioridad a la ejecución de la garantía cuando ésta no sea proporcionada a la deuda garantizada o cuando el obligado lo solicite, señalando bienes suficientes al efecto».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-022",
+      "ley": "ley-58-2003",
+      "articulo": "77.1",
+      "enunciado": "La Hacienda Pública tiene prelación para cobrar sus créditos vencidos, salvo frente a acreedores de dominio, prenda, hipoteca u otro derecho real:",
+      "opciones": [
+        "Inscrito en cualquier momento anterior a la providencia de apremio",
+        "Inscrito con posterioridad al derecho de la Hacienda Pública",
+        "Debidamente inscrito antes de que conste en el registro el derecho de la Hacienda",
+        "Constituido en documento público, aunque no esté inscrito"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 77.1 exceptúa a los acreedores de «dominio, prenda, hipoteca u otro derecho real debidamente inscrito en el registro correspondiente con anterioridad a la fecha en que se haga constar en el mismo el derecho de la Hacienda Pública».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-023",
+      "ley": "ley-58-2003",
+      "articulo": "78",
+      "enunciado": "En la hipoteca legal tácita, para tributos que gravan periódicamente bienes inscribibles, la preferencia alcanza a las deudas del año natural en que se exija el pago y:",
+      "opciones": [
+        "De los dos años anteriores",
+        "Del inmediato anterior",
+        "De los tres años anteriores",
+        "De los cuatro años anteriores"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 78 da preferencia «para el cobro de las deudas devengadas y no satisfechas correspondientes al año natural en que se exija el pago y al inmediato anterior».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-024",
+      "ley": "ley-58-2003",
+      "articulo": "80",
+      "enunciado": "La Administración tributaria tiene derecho de retención frente a todos sobre:",
+      "opciones": [
+        "Los bienes afectos por ley al pago de la deuda tributaria",
+        "Los bienes muebles embargados en el procedimiento de apremio",
+        "Las mercancías depositadas en almacenes de un tercero",
+        "Las mercancías declaradas en aduanas, si no se garantiza el pago de la deuda aduanera y fiscal"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 80 dice: «La Administración tributaria tendrá derecho de retención frente a todos sobre las mercancías declaradas en las aduanas para el pago de la pertinente deuda aduanera y fiscal […] de no garantizarse de forma suficiente el pago de la misma».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-025",
+      "ley": "ley-58-2003",
+      "articulo": "81.1",
+      "enunciado": "La Administración puede adoptar medidas cautelares de carácter provisional para asegurar el cobro de una deuda cuando existan:",
+      "opciones": [
+        "Pruebas plenas de ocultación de bienes por el obligado",
+        "Deudas vencidas por importe superior al fijado por orden",
+        "Indicios racionales de que el cobro se vería frustrado o gravemente dificultado",
+        "Una denuncia o querella por delito contra la Hacienda Pública"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 81.1 permite adoptarlas «cuando existan indicios racionales de que, en otro caso, dicho cobro se vería frustrado o gravemente dificultado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-026",
+      "ley": "ley-58-2003",
+      "articulo": "81.7",
+      "enunciado": "Salvo las excepciones legales, los efectos de las medidas cautelares del artículo 81 LGT cesan en el plazo de:",
+      "opciones": [
+        "Seis meses desde su adopción",
+        "Tres meses desde su adopción",
+        "Un año desde su adopción",
+        "Dieciocho meses desde su adopción"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 81.7 establece: «Los efectos de las medidas cautelares cesarán en el plazo de seis meses desde su adopción, salvo en los siguientes supuestos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-027",
+      "ley": "rd-939-2005",
+      "articulo": "69.3",
+      "enunciado": "Si en período ejecutivo el obligado paga parte de la deuda y el pago no cubre el total, incluidos recargo y costas:",
+      "opciones": [
+        "Se suspende el procedimiento hasta que pague el resto",
+        "Se archiva el procedimiento si se ha cubierto la cuota",
+        "Se abre un nuevo período voluntario por el resto",
+        "Continúa el procedimiento por el resto impagado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 69.3 dice: «Si el pago no comprende la totalidad de la deuda, incluido el recargo que corresponda y, en su caso, las costas devengadas, continuará el procedimiento por el resto impagado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-028",
+      "ley": "rd-939-2005",
+      "articulo": "70.2.f",
+      "enunciado": "La providencia de apremio advierte que, si no se ingresa la deuda con el recargo reducido en plazo, se procederá al embargo con inclusión del recargo de apremio de:",
+      "opciones": [
+        "Diez por ciento, sin intereses de demora adicionales",
+        "Veinte por ciento y de los intereses de demora hasta la cancelación de la deuda",
+        "Veinte por ciento, sin intereses de demora",
+        "Quince por ciento y de los intereses de demora devengados"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 70.2.f) exige la advertencia de que se procederá al embargo «con inclusión del recargo de apremio del 20 por ciento y de los intereses de demora que se devenguen hasta la fecha de cancelación de la deuda».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-029",
+      "ley": "rd-939-2005",
+      "articulo": "72.2",
+      "enunciado": "En el período ejecutivo, la base sobre la que se aplica el tipo del interés de demora:",
+      "opciones": [
+        "Incluye el recargo de apremio",
+        "Incluye el recargo de apremio y las costas",
+        "No incluye el recargo de apremio",
+        "Incluye solo el recargo de apremio reducido"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 72.2 establece: «La base sobre la que se aplicará el tipo de interés no incluirá el recargo de apremio».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    },
+    {
+      "id": "rcd-030",
+      "ley": "rd-939-2005",
+      "articulo": "74.2",
+      "enunciado": "La deuda garantizada con aval no se paga en el plazo del artículo 62.5 LGT y se requiere al garante. Si este no ingresa, se procede:",
+      "opciones": [
+        "Contra sus bienes tras dictar una providencia de apremio específica",
+        "Contra sus bienes en virtud de la providencia dictada al obligado, sin nueva notificación",
+        "Contra el obligado, declarándolo fallido por el importe del aval",
+        "Tras abrir un nuevo plazo voluntario de pago para el garante"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 74.2 dispone que, de no ingresar el garante, «se procederá contra sus bienes en virtud de la providencia de apremio dictada en relación con el obligado al pago sin necesidad de nueva notificación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 23
+      }
+    }
+  ]
+}

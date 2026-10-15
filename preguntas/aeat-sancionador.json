@@ -1,0 +1,605 @@
+{
+  "descripcion": "LGT, infracciones y sanciones tributarias (arts. 178-212). Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-10-09).",
+  "preguntas": [
+    {
+      "id": "san-001",
+      "ley": "ley-58-2003",
+      "articulo": "178",
+      "enunciado": "Según el artículo 178 de la LGT, ¿qué principio de la potestad sancionadora se aplica «con carácter general» teniendo en cuenta el artículo 10.2 de la Ley?",
+      "opciones": [
+        "El de irretroactividad",
+        "El de legalidad",
+        "El de proporcionalidad",
+        "El de no concurrencia"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 178 dispone que «El principio de irretroactividad se aplicará con carácter general, teniendo en consideración lo dispuesto en el apartado 2 del artículo 10 de esta ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-002",
+      "ley": "ley-58-2003",
+      "articulo": "179.2.c",
+      "enunciado": "Una decisión colectiva da lugar a una infracción tributaria. ¿Quién queda exento de responsabilidad?",
+      "opciones": [
+        "Quien votó a favor pero lo hizo por indicación de un asesor",
+        "Quien salvó su voto o no asistió a la reunión en que se adoptó",
+        "Quien presidió la reunión, si no tenía voto de calidad",
+        "Quien asistió a la reunión pero se abstuvo en la votación"
+      ],
+      "correcta": 1,
+      "explicacion": "Las acciones u omisiones no dan lugar a responsabilidad cuando deriven de una decisión colectiva, «para quienes hubieran salvado su voto o no hubieran asistido a la reunión en que se adoptó la misma».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-003",
+      "ley": "ley-58-2003",
+      "articulo": "179.2.e",
+      "enunciado": "¿En cuál de estos supuestos NO se da lugar a responsabilidad por infracción tributaria?",
+      "opciones": [
+        "Cuando el obligado carezca de medios económicos para cumplir",
+        "Cuando el error lo haya cometido un tercero contratado por el obligado",
+        "Cuando la infracción sea imputable a una deficiencia técnica de los programas de asistencia de la Administración",
+        "Cuando el obligado hubiera recibido la notificación con retraso"
+      ],
+      "correcta": 2,
+      "explicacion": "No hay responsabilidad «Cuando sean imputables a una deficiencia técnica de los programas informáticos de asistencia facilitados por la Administración Tributaria para el cumplimiento de las obligaciones tributarias».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-004",
+      "ley": "ley-58-2003",
+      "articulo": "179.3",
+      "enunciado": "Una persona subsana voluntariamente una autoliquidación que presentó antes de forma incorrecta. ¿Responde por la infracción cometida con la presentación inicial?",
+      "opciones": [
+        "Sí, pero con una reducción del 50 por ciento de la sanción",
+        "Sí, salvo que subsane dentro del mes siguiente",
+        "Sí, porque la regularización no extingue la responsabilidad",
+        "No, no incurre en responsabilidad por esas infracciones"
+      ],
+      "correcta": 3,
+      "explicacion": "Los obligados que voluntariamente subsanen sus declaraciones o autoliquidaciones «no incurrirán en responsabilidad por las infracciones tributarias cometidas con ocasión de la presentación de aquéllas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-005",
+      "ley": "ley-58-2003",
+      "articulo": "180.2",
+      "enunciado": "Según el artículo 180.2 LGT, la sanción por la infracción del artículo 191 es compatible con la que proceda por aplicar los artículos:",
+      "opciones": [
+        "194 y 195",
+        "192 y 193",
+        "193 y 199",
+        "198 y 203"
+      ],
+      "correcta": 0,
+      "explicacion": "La norma señala que «la sanción derivada de la comisión de la infracción prevista en el artículo 191 de esta Ley será compatible con la que proceda, en su caso, por la aplicación de los artículos 194 y 195 de esta Ley».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-006",
+      "ley": "ley-58-2003",
+      "articulo": "181.3",
+      "enunciado": "Varias personas realizan conjuntamente una infracción tributaria. Respecto al pago de la sanción, quedan obligadas frente a la Administración:",
+      "opciones": [
+        "Subsidiariamente",
+        "Solidariamente",
+        "Mancomunadamente, por partes iguales",
+        "En proporción a su participación en la infracción"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 181.3 establece que la concurrencia de varios sujetos infractores «determinará que queden solidariamente obligados frente a la Administración al pago de la sanción».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-007",
+      "ley": "ley-58-2003",
+      "articulo": "182.3",
+      "enunciado": "Fallece una persona física a la que se había impuesto una sanción tributaria. ¿Se transmite la sanción a sus herederos y legatarios?",
+      "opciones": [
+        "Sí, hasta el límite de lo recibido por herencia",
+        "Sí, solo si la sanción era firme en vía administrativa",
+        "No, las sanciones no se transmiten a los herederos y legatarios de personas físicas infractoras",
+        "Sí, si aceptan la herencia sin beneficio de inventario"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 182.3 dice que «Las sanciones tributarias no se transmitirán a los herederos y legatarios de las personas físicas infractoras».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-008",
+      "ley": "ley-58-2003",
+      "articulo": "182.1",
+      "enunciado": "¿Qué artículo de la LGT prevé el procedimiento para declarar y exigir la responsabilidad solidaria del pago de las sanciones tributarias?",
+      "opciones": [
+        "El 174",
+        "El 176",
+        "El 177",
+        "El 175"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 182.1 establece: «El procedimiento para declarar y exigir la responsabilidad solidaria será el previsto en el artículo 175 de esta Ley».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-009",
+      "ley": "ley-58-2003",
+      "articulo": "183.1",
+      "enunciado": "Según la LGT, son infracciones tributarias las acciones u omisiones tipificadas y sancionadas en una ley que sean:",
+      "opciones": [
+        "Dolosas o culposas con cualquier grado de negligencia",
+        "Únicamente dolosas",
+        "Dolosas o con negligencia grave",
+        "Culposas, con exclusión de la negligencia leve"
+      ],
+      "correcta": 0,
+      "explicacion": "Son infracciones tributarias «las acciones u omisiones dolosas o culposas con cualquier grado de negligencia que estén tipificadas y sancionadas como tales en esta u otra ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-010",
+      "ley": "ley-58-2003",
+      "articulo": "184.2",
+      "enunciado": "Existe ocultación de datos a la Administración cuando se omiten datos y la incidencia de la deuda derivada de la ocultación respecto a la base de la sanción supera el:",
+      "opciones": [
+        "5 por ciento",
+        "10 por ciento",
+        "25 por ciento",
+        "50 por ciento"
+      ],
+      "correcta": 1,
+      "explicacion": "Hay ocultación de datos «siempre que la incidencia de la deuda derivada de la ocultación en relación con la base de la sanción sea superior al 10 por ciento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-011",
+      "ley": "ley-58-2003",
+      "articulo": "184.3.a",
+      "enunciado": "La llevanza incorrecta de libros mediante falsedad de asientos es anomalía sustancial (medio fraudulento) solo si su incidencia supera, sobre la base de la sanción:",
+      "opciones": [
+        "El 10 por ciento",
+        "El 25 por ciento",
+        "El 50 por ciento",
+        "El 75 por ciento"
+      ],
+      "correcta": 2,
+      "explicacion": "La apreciación de esta circunstancia «requerirá que la incidencia de la llevanza incorrecta de los libros o registros represente un porcentaje superior al 50 por ciento del importe de la base de la sanción».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-012",
+      "ley": "ley-58-2003",
+      "articulo": "186.1",
+      "enunciado": "A una persona se le impone una multa de 40.000 euros por infracción grave, con comisión repetida como criterio de graduación. ¿Cuánto puede durar la pérdida de subvenciones como sanción accesoria?",
+      "opciones": [
+        "Seis meses",
+        "Dos años",
+        "Tres años",
+        "Un año"
+      ],
+      "correcta": 3,
+      "explicacion": "Procede la pérdida de subvenciones «durante un plazo de un año si la infracción cometida hubiera sido grave o de dos años si hubiera sido muy grave».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-013",
+      "ley": "ley-58-2003",
+      "articulo": "186.2",
+      "enunciado": "Multa de 150.000 euros por infracción muy grave con comisión repetida. Plazo de la prohibición de contratar con la Administración que impuso la sanción:",
+      "opciones": [
+        "Cuatro años",
+        "Dos años",
+        "Tres años",
+        "Cinco años"
+      ],
+      "correcta": 0,
+      "explicacion": "La prohibición dura «tres, cuatro o cinco años, cuando el importe de la sanción impuesta hubiera sido igual o superior a 60.000, 150.000 ó 300.000 euros, respectivamente».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-014",
+      "ley": "ley-58-2003",
+      "articulo": "187.1.a",
+      "enunciado": "Hay comisión repetida de infracciones si el infractor fue sancionado por una de la misma naturaleza en resolución firme en vía administrativa dentro de los:",
+      "opciones": [
+        "Dos años anteriores a la comisión de la infracción",
+        "Cuatro años anteriores a la comisión de la infracción",
+        "Tres años anteriores a la comisión de la infracción",
+        "Cinco años anteriores a la comisión de la infracción"
+      ],
+      "correcta": 1,
+      "explicacion": "Se produce esta circunstancia cuando el sujeto infractor hubiera sido sancionado «en virtud de resolución firme en vía administrativa dentro de los cuatro años anteriores a la comisión de la infracción».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-015",
+      "ley": "ley-58-2003",
+      "articulo": "187.1.b",
+      "enunciado": "El perjuicio económico para la Hacienda es del 60 por ciento. ¿En cuántos puntos porcentuales se incrementa la sanción mínima por este criterio de graduación?",
+      "opciones": [
+        "10 puntos",
+        "15 puntos",
+        "20 puntos",
+        "25 puntos"
+      ],
+      "correcta": 2,
+      "explicacion": "«Cuando el perjuicio económico sea superior al 50 por ciento e inferior o igual al 75 por ciento, el incremento será de 20 puntos porcentuales».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-016",
+      "ley": "ley-58-2003",
+      "articulo": "188.1.a",
+      "enunciado": "La cuantía de las sanciones impuestas según los artículos 191 a 197 LGT se reduce en un porcentaje determinado en los supuestos de actas con acuerdo. ¿Cuál?",
+      "opciones": [
+        "El 30 por ciento",
+        "El 40 por ciento",
+        "El 50 por ciento",
+        "El 65 por ciento"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 188.1 prevé una reducción de «Un 65 por ciento en los supuestos de actas con acuerdo previstos en el artículo 155 de esta Ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-017",
+      "ley": "ley-58-2003",
+      "articulo": "188.3",
+      "enunciado": "Se ingresa en plazo el total de la sanción ya reducida por conformidad y no se recurre la liquidación ni la sanción. ¿Qué reducción adicional corresponde?",
+      "opciones": [
+        "El 40 por ciento",
+        "El 25 por ciento",
+        "El 30 por ciento",
+        "El 65 por ciento"
+      ],
+      "correcta": 0,
+      "explicacion": "El importe de la sanción que deba ingresarse, una vez aplicada la reducción por conformidad, «se reducirá en el 40 por ciento si concurren las siguientes circunstancias».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-018",
+      "ley": "ley-58-2003",
+      "articulo": "189.2",
+      "enunciado": "El plazo de prescripción para imponer sanciones tributarias es de:",
+      "opciones": [
+        "Cuatro años desde que se notificó la liquidación",
+        "Cuatro años desde que se cometió la infracción",
+        "Cinco años desde que se cometió la infracción",
+        "Seis años desde que se cometió la infracción"
+      ],
+      "correcta": 1,
+      "explicacion": "El plazo «será de cuatro años y comenzará a contarse desde el momento en que se cometieron las correspondientes infracciones».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-019",
+      "ley": "ley-58-2003",
+      "articulo": "189.4",
+      "enunciado": "¿Cómo se aplica la prescripción del derecho a imponer sanciones tributarias?",
+      "opciones": [
+        "Solo cuando la invoque el interesado en alegaciones",
+        "Solo a instancia del interesado en el recurso de reposición",
+        "De oficio, sin necesidad de que la invoque el interesado",
+        "De oficio, pero solo en el procedimiento de inspección"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 189.4 señala: «La prescripción se aplicará de oficio por la Administración tributaria, sin necesidad de que la invoque el interesado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-020",
+      "ley": "ley-58-2003",
+      "articulo": "191.2",
+      "enunciado": "Se deja de ingresar una cuota de 2.500 euros en una autoliquidación, sin facturas falsas ni retenciones impagadas. ¿Calificación y sanción?",
+      "opciones": [
+        "Leve, multa fija de 150 euros",
+        "Grave, multa proporcional del 50 al 100 por ciento",
+        "Leve, multa proporcional del 15 por ciento",
+        "Leve, multa proporcional del 50 por ciento"
+      ],
+      "correcta": 3,
+      "explicacion": "La infracción será leve «cuando la base de la sanción sea inferior o igual a 3.000 euros» y «consistirá en multa pecuniaria proporcional del 50 por ciento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-021",
+      "ley": "ley-58-2003",
+      "articulo": "191.3",
+      "enunciado": "Se dejan de ingresar 8.000 euros en una autoliquidación existiendo ocultación, sin medios fraudulentos. ¿Calificación y sanción?",
+      "opciones": [
+        "Grave, multa proporcional del 50 al 100 por ciento",
+        "Leve, multa proporcional del 50 por ciento",
+        "Grave, multa proporcional del 100 al 150 por ciento",
+        "Muy grave, multa proporcional del 100 al 150 por ciento"
+      ],
+      "correcta": 0,
+      "explicacion": "«La infracción será grave cuando la base de la sanción sea superior a 3.000 euros y exista ocultación» y se sanciona con «multa pecuniaria proporcional del 50 al 100 por ciento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-022",
+      "ley": "ley-58-2003",
+      "articulo": "191.4",
+      "enunciado": "Se deja de ingresar la deuda de una autoliquidación utilizando medios fraudulentos. La infracción es:",
+      "opciones": [
+        "Muy grave, con multa proporcional del 75 al 100 por ciento",
+        "Muy grave, con multa proporcional del 100 al 150 por ciento",
+        "Grave, con multa proporcional del 100 al 150 por ciento",
+        "Grave, con multa proporcional del 50 al 100 por ciento"
+      ],
+      "correcta": 1,
+      "explicacion": "«La utilización de medios fraudulentos determinará que la infracción sea calificada en todo caso como muy grave» y la sanción «consistirá en multa pecuniaria proporcional del 100 al 150 por ciento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-023",
+      "ley": "ley-58-2003",
+      "articulo": "194.1",
+      "enunciado": "Se solicita indebidamente una devolución omitiendo datos relevantes, pero no se llega a obtener. La sanción es una multa:",
+      "opciones": [
+        "Fija de 300 euros",
+        "Proporcional del 50 por ciento de la cantidad solicitada",
+        "Proporcional del 15 por ciento de la cantidad solicitada",
+        "Fija de 150 euros"
+      ],
+      "correcta": 2,
+      "explicacion": "En este caso la infracción «será grave», la base es «la cantidad indebidamente solicitada» y «La sanción consistirá en multa pecuniaria proporcional del 15 por ciento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-024",
+      "ley": "ley-58-2003",
+      "articulo": "195.2",
+      "enunciado": "Se determinan improcedentemente partidas a compensar en la base imponible de declaraciones futuras. La multa proporcional es del:",
+      "opciones": [
+        "40 por ciento",
+        "50 por ciento",
+        "75 por ciento",
+        "15 por ciento"
+      ],
+      "correcta": 3,
+      "explicacion": "La sanción es «del 15 por ciento si se trata de partidas a compensar o deducir en la base imponible, o del 50 por ciento si se trata de partidas a deducir en la cuota».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-025",
+      "ley": "ley-58-2003",
+      "articulo": "198.2",
+      "enunciado": "Una autoliquidación sin perjuicio económico se presenta fuera de plazo sin requerimiento previo. La sanción general es de 200 euros; ¿qué multa corresponde?",
+      "opciones": [
+        "100 euros",
+        "50 euros",
+        "150 euros",
+        "200 euros"
+      ],
+      "correcta": 0,
+      "explicacion": "Si se presentan fuera de plazo sin requerimiento previo, «la sanción y los límites mínimo y máximo serán la mitad de los previstos en el apartado anterior», que es «multa pecuniaria fija de 200 euros».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-026",
+      "ley": "ley-58-2003",
+      "articulo": "199.2",
+      "enunciado": "Se presenta una autoliquidación con datos inexactos, sin perjuicio económico para la Hacienda. ¿Calificación y sanción?",
+      "opciones": [
+        "Leve, multa fija de 150 euros",
+        "Grave, multa fija de 150 euros",
+        "Grave, multa fija de 250 euros",
+        "Grave, multa fija de 300 euros"
+      ],
+      "correcta": 1,
+      "explicacion": "Estas infracciones «serán graves» y, si se presentan de forma inexacta autoliquidaciones o declaraciones, «la sanción consistirá en multa pecuniaria fija de 150 euros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-027",
+      "ley": "ley-58-2003",
+      "articulo": "201.2.b",
+      "enunciado": "Un empresario no expide facturas por operaciones cuyo importe se conoce. La infracción es grave y la multa proporcional es del:",
+      "opciones": [
+        "Uno por ciento del importe de las operaciones",
+        "75 por ciento del importe de las operaciones",
+        "Dos por ciento del importe de las operaciones",
+        "Cinco por ciento del importe de las operaciones"
+      ],
+      "correcta": 2,
+      "explicacion": "En la falta de expedición de facturas «La sanción consistirá en multa pecuniaria proporcional del dos por ciento del importe del conjunto de las operaciones que hayan originado la infracción».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-028",
+      "ley": "ley-58-2003",
+      "articulo": "210.4",
+      "enunciado": "Notificada la propuesta de resolución en el procedimiento sancionador, ¿de qué plazo dispone el interesado para alegar y presentar pruebas?",
+      "opciones": [
+        "10 días",
+        "20 días",
+        "Un mes",
+        "15 días"
+      ],
+      "correcta": 3,
+      "explicacion": "La propuesta de resolución se notifica al interesado «concediéndole un plazo de 15 días para que alegue cuanto considere conveniente y presente los documentos, justificantes y pruebas que estime oportunos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-029",
+      "ley": "ley-58-2003",
+      "articulo": "211.4",
+      "enunciado": "¿Qué efecto tiene la caducidad del procedimiento sancionador en materia tributaria?",
+      "opciones": [
+        "Ordena archivar las actuaciones e impide iniciar un nuevo procedimiento sancionador",
+        "Permite iniciar un nuevo procedimiento en el plazo de seis meses",
+        "Interrumpe la prescripción y permite reabrir el expediente",
+        "Obliga a retrotraer las actuaciones al momento de la propuesta"
+      ],
+      "correcta": 0,
+      "explicacion": "La declaración de caducidad «ordenará el archivo de las actuaciones. Dicha caducidad impedirá la iniciación de un nuevo procedimiento sancionador».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    },
+    {
+      "id": "san-030",
+      "ley": "ley-58-2003",
+      "articulo": "209.2",
+      "enunciado": "Un procedimiento sancionador derivado de una comprobación no puede iniciarse tras un plazo desde que se notificó la liquidación. ¿Cuál?",
+      "opciones": [
+        "Tres meses",
+        "Seis meses",
+        "Un año",
+        "Cuatro años"
+      ],
+      "correcta": 1,
+      "explicacion": "Estos procedimientos «no podrán iniciarse respecto a la persona o entidad que hubiera sido objeto del procedimiento una vez transcurrido el plazo de seis meses desde que se hubiese notificado» la liquidación o resolución.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 25
+      }
+    }
+  ]
+}

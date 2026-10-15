@@ -1,0 +1,605 @@
+{
+  "descripcion": "Embargo, derivación de responsabilidad, sucesores, tercerías y costas del apremio (LGT y Reglamento General de Recaudación). Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "emb-001",
+      "ley": "ley-58-2003",
+      "articulo": "169.2",
+      "enunciado": "Si no son aplicables los criterios de facilidad de enajenación y onerosidad, tras los créditos y derechos realizables a corto plazo se embargan:",
+      "opciones": [
+        "Bienes inmuebles",
+        "Intereses, rentas y frutos de toda especie",
+        "Sueldos, salarios y pensiones",
+        "Establecimientos mercantiles o industriales"
+      ],
+      "correcta": 2,
+      "explicacion": "El orden subsidiario del artículo 169.2 sitúa primero los «Créditos, efectos, valores y derechos realizables en el acto o a corto plazo.» y a continuación «Sueldos, salarios y pensiones.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-002",
+      "ley": "ley-58-2003",
+      "articulo": "169.2",
+      "enunciado": "Salvo acuerdo con el obligado sobre otro orden, ¿qué criterios guían en primer lugar el embargo de sus bienes?",
+      "opciones": [
+        "El menor valor de los bienes y la mayor antigüedad de su adquisición",
+        "La mayor facilidad de enajenación y la menor onerosidad para el obligado",
+        "La mayor liquidez del bien y la menor cuantía de las cargas que lo graven",
+        "La mayor proximidad al domicilio del obligado y la menor complejidad de la traba"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 169.2, «se embargarán los bienes del obligado teniendo en cuenta la mayor facilidad de su enajenación y la menor onerosidad de ésta para el obligado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-003",
+      "ley": "ley-58-2003",
+      "articulo": "169.3",
+      "enunciado": "A efectos de embargo, un crédito o derecho es realizable a corto plazo si puede realizarse en un plazo no superior a:",
+      "opciones": [
+        "Tres meses",
+        "Seis meses",
+        "Nueve meses",
+        "Un año"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 169.3 dispone que es realizable a corto plazo el que pueda ser realizado «en un plazo no superior a seis meses». Los demás se entienden realizables a largo plazo.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-004",
+      "ley": "ley-58-2003",
+      "articulo": "169.4",
+      "enunciado": "En el embargo de bienes y derechos conocidos, ¿cuáles se embargan en último lugar en todo caso?",
+      "opciones": [
+        "Los metales preciosos, piedras finas y joyería",
+        "Aquellos para cuya traba sea necesaria la entrada en el domicilio del obligado",
+        "Los establecimientos mercantiles o industriales",
+        "Los bienes muebles y semovientes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 169.4 establece: «En todo caso, se embargarán en último lugar aquéllos para cuya traba sea necesaria la entrada en el domicilio del obligado tributario.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-005",
+      "ley": "ley-58-2003",
+      "articulo": "169.4",
+      "enunciado": "El obligado solicita alterar el orden de embargo. ¿Cuándo puede accederse a ello?",
+      "opciones": [
+        "Si los bienes que señala tienen un valor superior al de la deuda y las costas",
+        "Si presta garantía suficiente y renuncia a recurrir contra el embargo",
+        "Si los bienes que señala garantizan el cobro con la misma eficacia y prontitud y no se perjudica a terceros",
+        "Si los bienes que señala se encuentran en el municipio de su domicilio fiscal"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 169.4 permite alterar el orden «si los bienes que señale garantizan el cobro de la deuda con la misma eficacia y prontitud que los que preferentemente deban ser trabados y no se causa con ello perjuicio a terceros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-006",
+      "ley": "ley-58-2003",
+      "articulo": "170.2",
+      "enunciado": "La anotación preventiva de embargo no altera la prelación de los créditos tributarios del artículo 77 LGT, siempre que:",
+      "opciones": [
+        "Se notifique el embargo a los titulares de cargas anteriores",
+        "Se ejercite la tercería de mejor derecho",
+        "Se haya expedido certificación de las cargas del registro",
+        "Se practique durante el período voluntario de pago"
+      ],
+      "correcta": 1,
+      "explicacion": "Conforme al artículo 170.2, la anotación no altera la prelación «siempre que se ejercite la tercería de mejor derecho. En caso contrario, prevalecerá el orden registral de las anotaciones de embargo.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-007",
+      "ley": "ley-58-2003",
+      "articulo": "170.3",
+      "enunciado": "¿Cuál es un motivo de oposición admisible contra la diligencia de embargo?",
+      "opciones": [
+        "Falta de notificación de la liquidación",
+        "Anulación de la liquidación",
+        "Error u omisión en el contenido de la providencia de apremio",
+        "Falta de notificación de la providencia de apremio"
+      ],
+      "correcta": 3,
+      "explicacion": "Entre los motivos del artículo 170.3 figura «Falta de notificación de la providencia de apremio.» Los otros tres son motivos de oposición contra la providencia de apremio (artículo 167.3).",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-008",
+      "ley": "ley-58-2003",
+      "articulo": "167.3",
+      "enunciado": "¿Cuál es un motivo de oposición admisible contra la providencia de apremio?",
+      "opciones": [
+        "Anulación de la liquidación",
+        "Incumplimiento de las normas reguladoras del embargo",
+        "Insuficiencia de los bienes disponibles para cubrir la deuda",
+        "Falta de notificación de la diligencia de embargo"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 167.3 admite, entre otros motivos contra la providencia de apremio, «Anulación de la liquidación.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-009",
+      "ley": "ley-58-2003",
+      "articulo": "171.2",
+      "enunciado": "Una cuenta indistinta con solidaridad activa tiene tres titulares y 9.000 euros de saldo. Se embarga a uno de ellos. Salvo prueba en contrario, se embargará:",
+      "opciones": [
+        "9.000 euros",
+        "4.500 euros",
+        "3.000 euros",
+        "6.000 euros"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 171.2 dice que «sólo se embargará la parte correspondiente al obligado tributario» y que «el saldo se presumirá dividido en partes iguales, salvo que se pruebe una titularidad material diferente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-010",
+      "ley": "ley-58-2003",
+      "articulo": "171.3",
+      "enunciado": "En una cuenta con abono habitual de sueldos embargada, se considera sueldo el importe ingresado por ese concepto:",
+      "opciones": [
+        "En el mes del embargo o, en su defecto, en el mes anterior",
+        "En los tres meses anteriores al embargo",
+        "En el mes anterior al embargo o, en su defecto, en el mes siguiente",
+        "En el año natural anterior al embargo"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 171.3, se considera sueldo «el importe ingresado en dicha cuenta por ese concepto en el mes en que se practique el embargo o, en su defecto, en el mes anterior».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-011",
+      "ley": "ley-58-2003",
+      "articulo": "172.2",
+      "enunciado": "La adjudicación de bienes a la Hacienda Pública en el apremio se acuerda por el importe del débito, sin rebasar el siguiente porcentaje del tipo inicial:",
+      "opciones": [
+        "50 por ciento",
+        "75 por ciento",
+        "60 por ciento",
+        "80 por ciento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 172.2 señala que la adjudicación se acordará por el importe del débito «sin que, en ningún caso, pueda rebasar el 75 por ciento del tipo inicial fijado en el procedimiento de enajenación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-012",
+      "ley": "ley-58-2003",
+      "articulo": "172.3",
+      "enunciado": "Aunque la liquidación ejecutada no sea firme, puede enajenarse un bien embargado cuando:",
+      "opciones": [
+        "Se trate de un bien inmueble",
+        "Se trate de bienes perecederos",
+        "El embargo esté anotado en el Registro",
+        "Hayan pasado seis meses desde el embargo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 172.3 prohíbe enajenar hasta la firmeza de la liquidación «salvo en los supuestos de fuerza mayor, bienes perecederos, bienes en los que exista un riesgo de pérdida inminente de valor o cuando el obligado tributario solicite de forma expresa su enajenación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-013",
+      "ley": "ley-58-2003",
+      "articulo": "165.5",
+      "enunciado": "Si se interpone una tercería de mejor derecho durante el procedimiento de apremio:",
+      "opciones": [
+        "El procedimiento prosigue y el producto se consigna en depósito",
+        "El procedimiento se suspende respecto de los bienes controvertidos",
+        "El procedimiento se suspende en su totalidad hasta su resolución",
+        "El procedimiento prosigue y el producto se aplica a la deuda sin consignación"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 165.5 establece: «Si la tercería fuera de mejor derecho proseguirá el procedimiento hasta la realización de los bienes y el producto obtenido se consignará en depósito a resultas de la resolución de la tercería.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-014",
+      "ley": "ley-58-2003",
+      "articulo": "174.2",
+      "enunciado": "¿A qué órgano corresponde dictar el acto de declaración de responsabilidad en la recaudación?",
+      "opciones": [
+        "Al órgano de recaudación",
+        "Al órgano de inspección",
+        "Al órgano de gestión tributaria",
+        "Al tribunal económico-administrativo competente"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 174.2 atribuye la competencia para iniciar el procedimiento y dictar el acto de declaración de responsabilidad al «órgano de recaudación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-015",
+      "ley": "ley-58-2003",
+      "articulo": "175.1.a",
+      "enunciado": "Si la responsabilidad solidaria se declara y notifica antes de vencer el período voluntario original de la deuda derivada, una vez transcurrido este período:",
+      "opciones": [
+        "Basta con requerir el pago al responsable",
+        "Debe dictarse un nuevo acto de declaración de responsabilidad",
+        "Debe declararse fallido al deudor principal",
+        "Debe concederse al responsable un nuevo trámite de audiencia"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 175.1.a), en ese caso «bastará con requerirle el pago una vez transcurrido dicho período».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-016",
+      "ley": "ley-58-2003",
+      "articulo": "175.2",
+      "enunciado": "Quien pretende adquirir una explotación económica solicita certificación de deudas. ¿En qué plazo debe expedirla la Administración?",
+      "opciones": [
+        "Diez días desde la solicitud",
+        "Un mes desde la solicitud",
+        "Seis meses desde la solicitud",
+        "Tres meses desde la solicitud"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 175.2 dispone: «La Administración tributaria deberá expedir dicha certificación en el plazo de tres meses desde la solicitud.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-017",
+      "ley": "ley-58-2003",
+      "articulo": "177.1",
+      "enunciado": "Mientras la herencia se encuentra yacente, el procedimiento de recaudación de las deudas del causante:",
+      "opciones": [
+        "Puede continuar contra los bienes y derechos de la herencia, con quien la administre o represente",
+        "Queda suspendido hasta que se acepte la herencia",
+        "Solo puede dirigirse contra los herederos que no hayan renunciado",
+        "Debe dirigirse en primer lugar contra los legatarios"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 177.1 prevé que «el procedimiento de recaudación de las deudas tributarias pendientes podrá continuar dirigiéndose contra sus bienes y derechos, a cuyo efecto se deberán entender las actuaciones con quien ostente su administración o representación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-018",
+      "ley": "rd-939-2005",
+      "articulo": "117.3",
+      "enunciado": "¿Puede calificarse como tercería la reclamación formulada por el propio obligado al pago?",
+      "opciones": [
+        "Sí, si se funda en el dominio de los bienes embargados",
+        "Sí, si se funda en un crédito preferente a la deuda apremiada",
+        "No, en ningún caso",
+        "Sí, si se presenta antes de la subasta de los bienes"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 117.3 es claro: «No podrá ser calificada como reclamación de tercería la formulada por el obligado al pago.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-019",
+      "ley": "rd-939-2005",
+      "articulo": "119.1",
+      "enunciado": "Si la reclamación de tercería no reúne los requisitos exigibles, se requiere su subsanación en un plazo de:",
+      "opciones": [
+        "5 días",
+        "10 días",
+        "15 días",
+        "20 días"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 119.1 dispone que el tercerista «dispondrá de un plazo de 10 días contados a partir del día siguiente al de la notificación del requerimiento», con advertencia de archivo.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-020",
+      "ley": "rd-939-2005",
+      "articulo": "120.2",
+      "enunciado": "Si no se notifica en seis meses la resolución de una reclamación de tercería, el tercerista puede entenderla, para formular demanda judicial:",
+      "opciones": [
+        "Estimada",
+        "Admitida a trámite",
+        "Caducada",
+        "Desestimada"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 120.2 fija que la resolución se notifique «en el plazo de seis meses» y que, transcurrido, «se podrá entender desestimada la reclamación a efectos de formular la correspondiente demanda judicial».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-021",
+      "ley": "rd-939-2005",
+      "articulo": "124.1",
+      "enunciado": "En el procedimiento de declaración de responsabilidad, el trámite de audiencia al interesado dura:",
+      "opciones": [
+        "15 días",
+        "10 días",
+        "5 días",
+        "20 días"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 124.1 señala: «El trámite de audiencia será de 15 días contados a partir del día siguiente al de la notificación de la apertura de dicho plazo.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-022",
+      "ley": "rd-939-2005",
+      "articulo": "124.2",
+      "enunciado": "Un responsable solicita aplazar la deuda. ¿Qué efecto tiene la solicitud sobre el procedimiento de recaudación seguido contra los demás responsables de esa deuda?",
+      "opciones": [
+        "Ninguno, no les afecta",
+        "Suspende el procedimiento frente a todos mientras se resuelve",
+        "Lo suspende solo si el solicitante ofrece garantía",
+        "Les beneficia si el aplazamiento se concede"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 124.2, las solicitudes de aplazamiento o suspensión de un responsable «no afectarán al procedimiento de recaudación iniciado frente a los demás responsables de las deudas a las que se refieran dichas solicitudes».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-023",
+      "ley": "rd-939-2005",
+      "articulo": "127.1.c",
+      "enunciado": "Un obligado fallece tras notificársele la providencia de apremio y antes de acabar el plazo del artículo 62.5 LGT. Al sucesor se le requiere la deuda y el recargo de apremio:",
+      "opciones": [
+        "Ejecutivo del 5 por ciento",
+        "Ordinario del 20 por ciento",
+        "Reducido del 10 por ciento",
+        "Reducido del 5 por ciento"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 127.1.c) manda requerir al sucesor «el pago de la deuda y el recargo de apremio reducido del 10 por ciento en el plazo del artículo 62.5 de la Ley 58/2003, de 17 de diciembre, General Tributaria».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-024",
+      "ley": "rd-939-2005",
+      "articulo": "79.6",
+      "enunciado": "Las cantidades retenidas por el embargo de una cuenta se ingresan en el Tesoro cuando transcurran, desde el día siguiente a la traba y sin comunicación en contrario:",
+      "opciones": [
+        "10 días naturales",
+        "20 días hábiles",
+        "20 días naturales",
+        "30 días naturales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 79.6 establece que el importe se ingresará «una vez transcurridos 20 días naturales desde el día siguiente a la fecha de la traba» sin comunicación en contrario del órgano de recaudación.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-025",
+      "ley": "rd-939-2005",
+      "articulo": "82.2",
+      "enunciado": "Si el obligado percibe varios sueldos o pensiones, ¿cómo se determina la parte inembargable?",
+      "opciones": [
+        "Se considera solo la percepción de mayor cuantía",
+        "Se aplica a cada percepción por separado",
+        "Se considera solo la percepción cobrada en primer lugar",
+        "Se acumulan todas las percepciones y se deduce sobre su suma"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 82.2 dispone que «se acumularán para deducir sobre la suma de todas ellas la parte inembargable».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-026",
+      "ley": "rd-939-2005",
+      "articulo": "97.3",
+      "enunciado": "El obligado presenta valoración contradictoria de los bienes embargados. Si la diferencia entre ambas no excede del 20 por ciento de la menor, se estima como valor:",
+      "opciones": [
+        "El de la tasación más baja",
+        "La media aritmética de ambas",
+        "El fijado por un tercer perito",
+        "El de la tasación más alta"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 97.3 señala que, si la diferencia «no excede del 20 por ciento de la menor, se estimará como valor de los bienes el de la tasación más alta».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-027",
+      "ley": "rd-939-2005",
+      "articulo": "103 bis.1.b",
+      "enunciado": "Un licitador quiere pujar por un lote con un vehículo y un inmueble. El depósito obligatorio es del:",
+      "opciones": [
+        "10 por ciento del tipo de subasta",
+        "2 por ciento del tipo de subasta",
+        "20 por ciento del tipo de subasta",
+        "5 por ciento del tipo de subasta"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 103 bis.1.b) exige «Un depósito del 5 por ciento del tipo de subasta cuando los bienes o los lotes por los que desee pujar sean bienes inmuebles o contengan al menos un bien inmueble».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-028",
+      "ley": "rd-939-2005",
+      "articulo": "104 bis.3.b",
+      "enunciado": "Notificada la adjudicación en una subasta, el adjudicatario debe pagar la diferencia entre el precio y el depósito en los:",
+      "opciones": [
+        "5 días siguientes a la notificación",
+        "10 días siguientes a la notificación",
+        "15 días siguientes a la notificación",
+        "30 días siguientes a la notificación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 104 bis.3.b) insta al pago de la diferencia «en los 15 días siguientes a la fecha de la notificación, con la advertencia de que si no lo completa en dicho plazo perderá el importe del depósito».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-029",
+      "ley": "rd-939-2005",
+      "articulo": "113.2.b",
+      "enunciado": "¿Cuál de estos gastos es una costa del procedimiento de apremio?",
+      "opciones": [
+        "Los gastos ordinarios de los órganos de la Administración",
+        "Las retribuciones del personal funcionario de recaudación",
+        "Los gastos generales de funcionamiento del órgano de recaudación",
+        "Los honorarios de los registradores por actuaciones en los registros públicos"
+      ],
+      "correcta": 3,
+      "explicacion": "Son costas «Los honorarios de los registradores y demás gastos que deban abonarse por las actuaciones en los registros públicos.» En cambio, «No podrán incluirse como costas los gastos ordinarios de los órganos de la Administración.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    },
+    {
+      "id": "emb-030",
+      "ley": "rd-939-2005",
+      "articulo": "115.6",
+      "enunciado": "Terminado el apremio, si lo obtenido no cubre las costas devengadas, la parte restante de las costas:",
+      "opciones": [
+        "Se exigirá al obligado en un procedimiento posterior",
+        "Será a cargo de la Administración",
+        "Se repartirá entre los responsables de la deuda",
+        "Se reclamará a los acreedores con derecho preferente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 115.6 prevé que, si las cantidades obtenidas no cubrieran las costas devengadas, «la parte restante será a cargo de la Administración».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-08-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 24
+      }
+    }
+  ]
+}
