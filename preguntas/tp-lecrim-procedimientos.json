@@ -1,0 +1,805 @@
+{
+  "descripcion": "Tramitación Procesal, tema 20: procedimientos penales en la LECrim (sumario ordinario, abreviado, justicia restaurativa) y Tribunal del Jurado (LO 5/1995). Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE (LECrim versión 2026-04-09; LO 5/1995 versión 2025-12-18).",
+  "preguntas": [
+    {
+      "id": "tpk-001",
+      "ley": "lecrim",
+      "articulo": "301.1",
+      "enunciado": "Las diligencias del sumario son reservadas y no tienen carácter público hasta que:",
+      "opciones": [
+        "Se dicte el auto de procesamiento",
+        "Se declare concluso el sumario",
+        "Se abra el juicio oral",
+        "El Fiscal presente su escrito de calificación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 301.1 dispone que «Las diligencias del sumario serán reservadas y no tendrán carácter público hasta que se abra el juicio oral».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-002",
+      "ley": "lecrim",
+      "articulo": "302.2",
+      "enunciado": "El Juez de Instrucción puede declarar el sumario total o parcialmente secreto, mediante auto, por un tiempo no superior a:",
+      "opciones": [
+        "Un mes",
+        "Quince días",
+        "Tres meses",
+        "Seis meses"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 302.2, el Juez puede declararlo «mediante auto, total o parcialmente secreto para todas las partes personadas, por tiempo no superior a un mes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-003",
+      "ley": "lecrim",
+      "articulo": "302.3",
+      "enunciado": "El secreto del sumario debe alzarse necesariamente con una antelación mínima, respecto de la conclusión del sumario, de:",
+      "opciones": [
+        "Tres días",
+        "Cinco días",
+        "Quince días",
+        "Diez días"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 302.3 establece que «El secreto del sumario deberá alzarse necesariamente con al menos diez días de antelación a la conclusión del sumario».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-004",
+      "ley": "lecrim",
+      "articulo": "14.2",
+      "enunciado": "Con carácter general, ¿qué órgano es competente para la instrucción de las causas penales?",
+      "opciones": [
+        "La Sección de lo Penal del Tribunal de Instancia de la provincia donde resida el investigado",
+        "La Sección de Instrucción del Tribunal de Instancia del partido en que el delito se hubiere cometido",
+        "La Audiencia Provincial de la circunscripción donde se haya cometido el delito",
+        "El Juez Central de Instrucción, salvo que la causa sea de menor gravedad"
+      ],
+      "correcta": 1,
+      "explicacion": "Conforme al artículo 14.2, es competente «Para la instrucción de las causas, la Sección de Instrucción del Tribunal de Instancia del partido en que el delito se hubiere cometido».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-005",
+      "ley": "lecrim",
+      "articulo": "14.3",
+      "enunciado": "¿Qué órgano conoce y falla las causas por delitos castigados con pena privativa de libertad no superior a cinco años?",
+      "opciones": [
+        "La Audiencia Provincial de la circunscripción donde se cometió el delito",
+        "La Sección de lo Penal del Tribunal de Instancia de la circunscripción donde se cometió el delito",
+        "La Sección de Instrucción del Tribunal de Instancia del partido judicial",
+        "La Sala de lo Penal de la Audiencia Nacional"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 14.3 atribuye «Para el conocimiento y fallo de las causas por delitos a los que la ley señale pena privativa de libertad de duración no superior a cinco años» a «la Sección de lo Penal del Tribunal de Instancia de la circunscripción donde el delito fue cometido».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-006",
+      "ley": "lecrim",
+      "articulo": "14.4",
+      "enunciado": "Un delito no atribuido al Tribunal del Jurado está castigado con ocho años de prisión. ¿Quién conoce y falla la causa?",
+      "opciones": [
+        "La Sección de lo Penal del Tribunal de Instancia del lugar del delito",
+        "La Sección de Instrucción del Tribunal de Instancia del partido",
+        "El Juez Central de lo Penal de la Audiencia Nacional",
+        "La Audiencia Provincial de la circunscripción donde se haya cometido el delito"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 14.4 atribuye al conocimiento y fallo «de las causas en los demás casos la Audiencia Provincial de la circunscripción donde el delito se haya cometido», al superar la pena los cinco años del apartado 3.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-007",
+      "ley": "lecrim",
+      "articulo": "324.1",
+      "enunciado": "¿Cuál es el plazo máximo de la investigación judicial, desde la incoación de la causa y antes de cualquier prórroga?",
+      "opciones": [
+        "Doce meses",
+        "Seis meses",
+        "Dieciocho meses",
+        "Veinticuatro meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 324.1 dispone que «La investigación judicial se desarrollará en un plazo máximo de doce meses desde la incoación de la causa».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-008",
+      "ley": "lecrim",
+      "articulo": "324.1",
+      "enunciado": "Si no es posible finalizar la investigación en plazo, ¿mediante qué resolución y por qué periodos puede prorrogarse la instrucción?",
+      "opciones": [
+        "Mediante providencia, por periodos de hasta tres meses",
+        "Mediante auto, por un único periodo de doce meses",
+        "Mediante auto, por periodos iguales o inferiores a seis meses",
+        "Mediante diligencia de ordenación, por periodos iguales o inferiores a seis meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El juez puede acordar «prórrogas sucesivas por periodos iguales o inferiores a seis meses» y, según el artículo 324.1, «Las prórrogas se adoptarán mediante auto».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-009",
+      "ley": "lecrim",
+      "articulo": "324.4",
+      "enunciado": "Transcurrido el plazo máximo de instrucción o sus prórrogas, en el sumario ordinario el instructor dictará:",
+      "opciones": [
+        "Diligencia de ordenación de conclusión del sumario",
+        "Providencia de archivo provisional de la causa",
+        "Auto de procesamiento del investigado",
+        "Auto de conclusión del sumario"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 324.4, «Transcurrido el plazo máximo o sus prórrogas, el instructor dictará auto de conclusión del sumario».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-010",
+      "ley": "lecrim",
+      "articulo": "384.1",
+      "enunciado": "¿Cuándo se dicta el auto declarando procesada a una persona en el sumario ordinario?",
+      "opciones": [
+        "Cuando aparezcan motivos bastantes para creerla responsable criminalmente del delito",
+        "Desde que resulte del sumario algún indicio racional de criminalidad contra ella",
+        "Cuando el Fiscal presente su escrito de calificación contra ella",
+        "Cuando se declare terminado el sumario y se le emplace ante el Tribunal"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 384 dispone: «Desde que resultare del sumario algún indicio racional de criminalidad contra determinada persona, se dictará auto declarándola procesada».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-011",
+      "ley": "lecrim",
+      "articulo": "384.5",
+      "enunciado": "¿En qué plazo, desde la notificación del auto de procesamiento, puede su representación interponer recurso de reforma?",
+      "opciones": [
+        "Tres días",
+        "Un día",
+        "Cinco días",
+        "Diez días"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 384 permite «recurso de reforma dentro de los tres días siguientes al de haberle sido notificada la resolución».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-012",
+      "ley": "lecrim",
+      "articulo": "384.6",
+      "enunciado": "Contra el auto que deniega el procesamiento, quien lo hubiera solicitado puede interponer:",
+      "opciones": [
+        "Recurso de reforma y, contra su denegación, recurso de apelación",
+        "Solo recurso de apelación, dentro de los cinco días siguientes",
+        "Solo recurso de reforma, dentro de los tres días siguientes a la notificación",
+        "Ningún recurso, ni siquiera el de reforma"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 384 establece que «Contra los autos denegatorios de procesamiento, sólo se concederá a quien haya solicitado éstos el recurso de reforma, utilizándolo dentro de los tres días siguientes al de la notificación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-013",
+      "ley": "lecrim",
+      "articulo": "497",
+      "enunciado": "Entregado el detenido al Juez de la propia causa, este debe elevar la detención a prisión o dejarla sin efecto en el plazo de:",
+      "opciones": [
+        "Veinticuatro horas",
+        "Setenta y dos horas",
+        "Cuarenta y ocho horas",
+        "Cinco días"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 497, el Juez «elevará la detención a prisión, o la dejará sin efecto, en el término de setenta y dos horas, a contar desde que el detenido le hubiese sido entregado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-014",
+      "ley": "lecrim",
+      "articulo": "502.1",
+      "enunciado": "¿Quién puede decretar la prisión provisional durante la instrucción?",
+      "opciones": [
+        "El Letrado de la Administración de Justicia del órgano instructor",
+        "El Ministerio Fiscal, en sus diligencias de investigación",
+        "La Policía Judicial que practicó la detención",
+        "El juez o magistrado instructor"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 502.1 señala que «Podrá decretar la prisión provisional el juez o magistrado instructor, el juez que forme las primeras diligencias, así como el juez de lo penal o tribunal que conozca de la causa».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-015",
+      "ley": "lecrim",
+      "articulo": "503.1.1º",
+      "enunciado": "Como regla general, para decretar la prisión provisional debe constar un hecho con caracteres de delito sancionado con pena cuyo máximo sea:",
+      "opciones": [
+        "Superior a un año de prisión",
+        "Igual o superior a tres años de prisión",
+        "Igual o superior a dos años de prisión",
+        "Igual o superior a cinco años de prisión"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 503.1.1.º exige un hecho de caracteres de delito «sancionado con pena cuyo máximo sea igual o superior a dos años de prisión».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-016",
+      "ley": "lecrim",
+      "articulo": "504.2",
+      "enunciado": "Un investigado está en prisión provisional por riesgo de fuga y el delito tiene señalada pena de cinco años de prisión. ¿Cuál es su duración máxima inicial?",
+      "opciones": [
+        "Dos años",
+        "Un año",
+        "Tres años",
+        "Seis meses"
+      ],
+      "correcta": 0,
+      "explicacion": "La duración «no podrá exceder de un año si el delito tuviere señalada pena privativa de libertad igual o inferior a tres años, o de dos años si la pena privativa de libertad señalada para el delito fuera superior a tres años».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-017",
+      "ley": "lecrim",
+      "articulo": "505.4",
+      "enunciado": "En la audiencia sobre la situación personal del detenido, si ninguna parte acusadora insta la prisión provisional ni la libertad con fianza, el juez:",
+      "opciones": [
+        "Podrá decretar de oficio la prisión provisional si aprecia riesgo de fuga",
+        "Convocará una nueva audiencia dentro de las siguientes 72 horas",
+        "Remitirá la decisión al Letrado de la Administración de Justicia",
+        "Acordará necesariamente la inmediata puesta en libertad del detenido"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 505.4 dispone: «Si ninguna de las partes las instare, acordará necesariamente la inmediata puesta en libertad del investigado o encausado que estuviere detenido».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-018",
+      "ley": "lecrim",
+      "articulo": "509.2",
+      "enunciado": "Con carácter general, la incomunicación del detenido o preso no podrá extenderse más allá de:",
+      "opciones": [
+        "Cinco días",
+        "Tres días",
+        "Diez días",
+        "Quince días"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 509.2 señala que «La incomunicación no podrá extenderse más allá de cinco días».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-019",
+      "ley": "lecrim",
+      "articulo": "637",
+      "enunciado": "Procede el sobreseimiento libre cuando:",
+      "opciones": [
+        "No resulte debidamente justificada la perpetración del delito que dio motivo a la causa",
+        "El hecho no sea constitutivo de delito",
+        "Resulte haberse cometido un delito y no haya motivos suficientes para acusar a determinada persona",
+        "El querellante particular haya desistido de la querella"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 637 establece que procederá el sobreseimiento libre «Cuando el hecho no sea constitutivo de delito». Los otros dos supuestos son de sobreseimiento provisional (artículo 641).",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-020",
+      "ley": "lecrim",
+      "articulo": "649",
+      "enunciado": "Mandada abrir el juicio oral en el sumario ordinario, ¿de qué plazo dispone el Fiscal para calificar por escrito los hechos?",
+      "opciones": [
+        "Tres días",
+        "Diez días",
+        "Cinco días",
+        "Quince días"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 649, se comunica la causa al Fiscal «para que en el término de cinco días califiquen por escrito los hechos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-021",
+      "ley": "lecrim",
+      "articulo": "659",
+      "enunciado": "Dictado el auto de admisión de pruebas en el sumario ordinario, ¿quién establece el día y la hora de comienzo de las sesiones del juicio oral?",
+      "opciones": [
+        "El Letrado de la Administración de Justicia",
+        "El Magistrado ponente, mediante providencia",
+        "El Presidente del Tribunal, mediante auto",
+        "El Ministerio Fiscal, de acuerdo con las partes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 659 dispone: «A la vista de este Auto, el Secretario judicial establecerá el día y hora en que deban comenzar las sesiones del juicio oral», denominación hoy sustituida por la de Letrado de la Administración de Justicia.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-022",
+      "ley": "lecrim",
+      "articulo": "disposición adicional novena.3",
+      "enunciado": "Según la LECrim, la negativa de las partes a someterse a un procedimiento de justicia restaurativa:",
+      "opciones": [
+        "Se valora como circunstancia agravante de la responsabilidad",
+        "Impide la suspensión de la pena que pudiera imponerse",
+        "No implica consecuencia alguna en el proceso penal",
+        "Obliga al juez a acordar la mediación de oficio"
+      ],
+      "correcta": 2,
+      "explicacion": "La disposición adicional novena.3 establece que «La negativa de las partes a someterse a un procedimiento de justicia restaurativa, o el abandono del ya iniciado, no implicará consecuencia alguna en el proceso penal».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-023",
+      "ley": "lecrim",
+      "articulo": "disposición adicional novena.4",
+      "enunciado": "¿Hasta cuándo no tiene el juez o Tribunal conocimiento del desarrollo del procedimiento de justicia restaurativa?",
+      "opciones": [
+        "Hasta que el Ministerio Fiscal presente su escrito de acusación",
+        "Hasta que se abra el juicio oral",
+        "Hasta que las partes soliciten expresamente su intervención",
+        "Hasta que este haya finalizado, en su caso, mediante la remisión del acta de reparación"
+      ],
+      "correcta": 3,
+      "explicacion": "La disposición adicional novena.4 señala que «El juez o el Tribunal no tendrán conocimiento del desarrollo del procedimiento de justicia restaurativa hasta que este haya finalizado, en su caso, mediante la remisión del acta de reparación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-024",
+      "ley": "lecrim",
+      "articulo": "757",
+      "enunciado": "El procedimiento abreviado se aplica al enjuiciamiento de delitos castigados con pena privativa de libertad no superior a:",
+      "opciones": [
+        "Cinco años",
+        "Nueve años",
+        "Seis años",
+        "Doce años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 757 lo aplica a «los delitos castigados con pena privativa de libertad no superior a nueve años».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-025",
+      "ley": "lecrim",
+      "articulo": "779.1.4ª",
+      "enunciado": "Para acordar mediante auto que la causa siga por los trámites del procedimiento abreviado, el Juez debe haber:",
+      "opciones": [
+        "Dictado previamente auto de procesamiento contra el investigado",
+        "Celebrado la audiencia preliminar con el Fiscal y las partes",
+        "Tomado declaración a la persona a quien se imputan los hechos, en los términos del artículo 775",
+        "Decretado la prisión provisional del investigado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 779.1.4.ª dice que esta decisión «no podrá adoptarse sin haber tomado declaración a aquélla en los términos previstos en el artículo 775».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-026",
+      "ley": "lecrim",
+      "articulo": "768",
+      "enunciado": "En el procedimiento abreviado, ¿hasta qué trámite no es necesaria la intervención de procurador?",
+      "opciones": [
+        "Hasta el trámite de apertura del juicio oral",
+        "Hasta la declaración del investigado ante el Juez",
+        "Hasta que concluyan las diligencias previas",
+        "Hasta la celebración de la audiencia preliminar"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 768, el abogado designado tiene habilitación para representar a su defendido, «no siendo necesaria la intervención de procurador hasta el trámite de apertura del juicio oral».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-027",
+      "ley": "lecrim",
+      "articulo": "781.3",
+      "enunciado": "Si el Ministerio Fiscal no presenta su escrito de acusación en el plazo, el Juez de Instrucción:",
+      "opciones": [
+        "Decretará el sobreseimiento libre de la causa",
+        "Requerirá al superior jerárquico del Fiscal actuante para que lo presente en diez días",
+        "Dará por formulada la acusación con los hechos de las diligencias previas",
+        "Formulará él mismo el escrito de acusación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 781.3 ordena que el Juez «requerirá al superior jerárquico del Fiscal actuante, para que en el plazo de diez días presente el escrito que proceda».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-028",
+      "ley": "lecrim",
+      "articulo": "783.3",
+      "enunciado": "Contra el auto que acuerda la apertura del juicio oral en el procedimiento abreviado:",
+      "opciones": [
+        "Cabe apelación en cinco días ante la Audiencia Provincial",
+        "Cabe recurso de reforma en el plazo de tres días",
+        "Cabe recurso de queja ante el órgano de enjuiciamiento",
+        "No cabe recurso alguno, salvo en lo relativo a la situación personal"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 783.3 establece que «Contra el auto que acuerde la apertura del juicio oral no se dará recurso alguno, excepto en lo relativo a la situación personal».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-029",
+      "ley": "lecrim",
+      "articulo": "784.1",
+      "enunciado": "Abierto el juicio oral en el procedimiento abreviado, ¿quién emplaza al encausado para que comparezca con Abogado y Procurador, y en qué plazo?",
+      "opciones": [
+        "El Juez de Instrucción, en cinco días",
+        "El Letrado de la Administración de Justicia, en diez días",
+        "El Letrado de la Administración de Justicia, en tres días",
+        "El Juez de lo Penal, en tres días"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 784.1, «el Secretario judicial emplazará al encausado» para que «en el plazo de tres días comparezca en la causa con Abogado que le defienda y Procurador que le represente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-030",
+      "ley": "lecrim",
+      "articulo": "784.1",
+      "enunciado": "En el procedimiento abreviado, si la defensa no presenta su escrito de defensa en el plazo señalado:",
+      "opciones": [
+        "Se entiende que se conforma con la acusación más grave",
+        "Se entiende que se opone a las acusaciones y el procedimiento sigue su curso",
+        "Se suspende el procedimiento hasta que presente el escrito",
+        "Se le tiene por desistido y se dicta sentencia"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 784.1 dispone: «Si la defensa no presentare su escrito en el plazo señalado, se entenderá que se opone a las acusaciones y seguirá su curso el procedimiento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-031",
+      "ley": "lecrim",
+      "articulo": "787.1.a",
+      "enunciado": "La ausencia injustificada del acusado citado personalmente no suspende el juicio oral, entre otros requisitos, si la pena de privación de libertad más grave solicitada no excede de:",
+      "opciones": [
+        "Dos años",
+        "Un año",
+        "Tres años",
+        "Cinco años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 787.1.a) exige «Que la pena más grave solicitada no exceda de dos años de privación de libertad», y el 787.1.b) limita a cinco años la suma total de las penas.",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-032",
+      "ley": "lecrim",
+      "articulo": "788.1",
+      "enunciado": "En el procedimiento abreviado, la suspensión o aplazamiento de la sesión del juicio oral en los supuestos del artículo 746 puede durar, como máximo:",
+      "opciones": [
+        "Diez días",
+        "Quince días",
+        "Sesenta días",
+        "Treinta días"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 788.1 permite acordar «la suspensión o aplazamiento de la sesión, hasta el límite máximo de treinta días, en los supuestos del artículo 746».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-033",
+      "ley": "lecrim",
+      "articulo": "789.1",
+      "enunciado": "En el procedimiento abreviado, la sentencia se dictará dentro de:",
+      "opciones": [
+        "Los tres días siguientes a la finalización del juicio oral",
+        "Los cinco días siguientes a la finalización del juicio oral",
+        "Los diez días siguientes a la finalización del juicio oral",
+        "Los quince días siguientes a la finalización del juicio oral"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 789.1 dispone que «La sentencia se dictará dentro de los cinco días siguientes a la finalización del juicio oral».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-034",
+      "ley": "lecrim",
+      "articulo": "790.1",
+      "enunciado": "¿Ante qué órgano y en qué plazo se apela la sentencia dictada por el Juez de lo Penal en el procedimiento abreviado?",
+      "opciones": [
+        "Ante la Audiencia Provincial, en cinco días desde la notificación",
+        "Ante la Audiencia Nacional, en diez días desde la notificación",
+        "Ante la Audiencia Provincial, en diez días desde la notificación",
+        "Ante el propio Juez de lo Penal, en tres días desde la notificación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 790.1 señala que «La sentencia dictada por el Juez de lo Penal es apelable ante la Audiencia Provincial correspondiente» y que el recurso se interpone «dentro de los diez días siguientes a aquel en que se les hubiere notificado la sentencia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-035",
+      "ley": "lo-5-1995",
+      "articulo": "2.1",
+      "enunciado": "El Tribunal del Jurado se compone de:",
+      "opciones": [
+        "Siete jurados y un Magistrado de la Audiencia Provincial, que lo preside",
+        "Nueve jurados y tres Magistrados de la Audiencia Provincial",
+        "Doce jurados y un Magistrado de la Audiencia Provincial, que lo preside",
+        "Nueve jurados y un Magistrado de la Audiencia Provincial, que lo preside"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 2.1 establece que «El Tribunal del Jurado se compone de nueve jurados y un Magistrado integrante de la Audiencia Provincial, que lo presidirá».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-036",
+      "ley": "lo-5-1995",
+      "articulo": "1.2.c",
+      "enunciado": "¿Cuál de los siguientes delitos es de la competencia del Tribunal del Jurado?",
+      "opciones": [
+        "La omisión del deber de socorro",
+        "El robo con fuerza en las cosas",
+        "La falsedad en documento público",
+        "Los delitos contra la propiedad intelectual"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 1.2 atribuye al Jurado el conocimiento de los delitos «c) De la omisión del deber de socorro (artículos 195 y 196)».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-037",
+      "ley": "lo-5-1995",
+      "articulo": "4",
+      "enunciado": "En el procedimiento ante el Tribunal del Jurado, ¿quién dicta la sentencia recogiendo el veredicto?",
+      "opciones": [
+        "El portavoz del Jurado",
+        "El Letrado de la Administración de Justicia",
+        "El Jurado en pleno, por mayoría de siete votos",
+        "El Magistrado-Presidente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 4 dispone que el Magistrado-Presidente «dictará sentencia en la que recogerá el veredicto del Jurado e impondrá, en su caso, la pena y medida de seguridad que corresponda».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-038",
+      "ley": "lo-5-1995",
+      "articulo": "25.1",
+      "enunciado": "Incoado el procedimiento ante el Tribunal del Jurado, el Juez de Instrucción convoca a los imputados a una comparecencia para concretar la imputación en el plazo de:",
+      "opciones": [
+        "Tres días",
+        "Cinco días",
+        "Diez días",
+        "Quince días"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 25.1 señala que, «Con objeto de concretar la imputación, les convocará en el plazo de cinco días a una comparecencia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-039",
+      "ley": "lo-5-1995",
+      "articulo": "59.1",
+      "enunciado": "Para declarar probado un hecho contrario al acusado, el Jurado necesita, al menos:",
+      "opciones": [
+        "Siete votos",
+        "Cinco votos",
+        "Seis votos",
+        "Ocho votos"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 59.1 exige «siete votos, al menos, cuando fuesen contrarios al acusado, y cinco votos, cuando fuesen favorables».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    },
+    {
+      "id": "tpk-040",
+      "ley": "lo-5-1995",
+      "articulo": "65.2",
+      "enunciado": "Si un segundo Jurado, en el nuevo juicio oral, tampoco llega a emitir veredicto, el Magistrado-Presidente:",
+      "opciones": [
+        "Convocará un tercer juicio oral con un nuevo Jurado",
+        "Dictará sentencia condenatoria según la acusación más grave",
+        "Disolverá el Jurado y dictará sentencia absolutoria",
+        "Dictará él mismo el veredicto y la sentencia"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 65.2, «el Magistrado-Presidente procederá a disolver el Jurado y dictará sentencia absolutoria».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 20
+      }
+    }
+  ]
+}
