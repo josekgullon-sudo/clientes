@@ -1,0 +1,845 @@
+{
+  "descripcion": "Agente de la Hacienda Pública (AEAT), temas 13 y 14: sistema fiscal español, Hacienda estatal, autonómica y local; naturaleza, funciones y organización de la AEAT. Lote generado el 2026-10-15 desde los textos consolidados de /fuentes; citas comprobadas por script.",
+  "preguntas": [
+    {
+      "id": "sfa-001",
+      "ley": "constitucion",
+      "articulo": "31.3",
+      "enunciado": "Según el artículo 31.3 de la Constitución, solo podrán establecerse prestaciones personales o patrimoniales de carácter público:",
+      "opciones": [
+        "Mediante real decreto-ley únicamente",
+        "Con arreglo a la ley",
+        "Por reglamento aprobado por el Gobierno",
+        "Por decisión de la Administración competente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 31.3 dispone: «Sólo podrán establecerse prestaciones personales o patrimoniales de carácter público con arreglo a la ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-002",
+      "ley": "constitucion",
+      "articulo": "133.2",
+      "enunciado": "Según el artículo 133.2 de la Constitución, las Comunidades Autónomas y las Corporaciones locales podrán:",
+      "opciones": [
+        "Establecer tributos solo si el Estado los ha cedido antes",
+        "Exigir tributos, pero solo el Estado puede establecerlos",
+        "Establecer tributos con carácter originario y exclusivo",
+        "Establecer y exigir tributos, de acuerdo con la Constitución y las leyes"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 133.2 señala que «Las Comunidades Autónomas y las Corporaciones locales podrán establecer y exigir tributos, de acuerdo con la Constitución y las leyes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-003",
+      "ley": "constitucion",
+      "articulo": "133.4",
+      "enunciado": "Las administraciones públicas solo podrán contraer obligaciones financieras y realizar gastos, según el artículo 133.4 de la Constitución:",
+      "opciones": [
+        "De acuerdo con las leyes",
+        "Conforme a lo que fijen los reglamentos del Gobierno",
+        "Previa autorización del Tribunal de Cuentas",
+        "Con arreglo a la Ley de Presupuestos exclusivamente"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 133.4, «sólo podrán contraer obligaciones financieras y realizar gastos de acuerdo con las leyes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-004",
+      "ley": "constitucion",
+      "articulo": "156.1",
+      "enunciado": "Según el artículo 156.1 de la Constitución, las Comunidades Autónomas gozan de autonomía financiera con arreglo a los principios de:",
+      "opciones": [
+        "Suficiencia financiera y corresponsabilidad fiscal",
+        "Subsidiariedad y lealtad institucional",
+        "Coordinación con la Hacienda estatal y solidaridad entre todos los españoles",
+        "Autonomía plena y equilibrio territorial"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 156.1 establece que gozarán de autonomía financiera «con arreglo a los principios de coordinación con la Hacienda estatal y de solidaridad entre todos los españoles».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-005",
+      "ley": "constitucion",
+      "articulo": "156.2",
+      "enunciado": "Según la Constitución, las Comunidades Autónomas podrán actuar como delegados o colaboradores del Estado para:",
+      "opciones": [
+        "La inspección y la sanción de los tributos locales",
+        "La recaudación, la gestión y la liquidación de los recursos tributarios del Estado",
+        "El establecimiento de los tributos estatales",
+        "La elaboración de los Presupuestos Generales del Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 156.2 permite que actúen «como delegados o colaboradores del Estado para la recaudación, la gestión y la liquidación de los recursos tributarios de aquél».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-006",
+      "ley": "constitucion",
+      "articulo": "157.1.c",
+      "enunciado": "Entre los recursos de las Comunidades Autónomas, el artículo 157.1 de la Constitución incluye:",
+      "opciones": [
+        "Participaciones en los tributos de las Corporaciones locales",
+        "Recargos sobre los impuestos de las Entidades Locales",
+        "Cuotas de la Seguridad Social recaudadas en su territorio",
+        "Transferencias de un Fondo de Compensación interterritorial"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 157.1.c) incluye entre los recursos autonómicos las «Transferencias de un Fondo de Compensación interterritorial y otras asignaciones con cargo a los Presupuestos Generales del Estado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-007",
+      "ley": "constitucion",
+      "articulo": "157.2",
+      "enunciado": "Según el artículo 157.2 de la Constitución, las Comunidades Autónomas no podrán adoptar medidas tributarias que:",
+      "opciones": [
+        "Supongan obstáculo para la libre circulación de mercancías o servicios",
+        "Graven los rendimientos de los residentes en su territorio",
+        "Establezcan recargos sobre impuestos estatales cedidos",
+        "Afecten a los tributos propios de otra Comunidad Autónoma"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 157.2 prohíbe «medidas tributarias sobre bienes situados fuera de su territorio o que supongan obstáculo para la libre circulación de mercancías o servicios».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-008",
+      "ley": "constitucion",
+      "articulo": "158.1",
+      "enunciado": "En los Presupuestos Generales del Estado podrá establecerse una asignación a las Comunidades Autónomas en función del volumen de los servicios y actividades estatales asumidos y de:",
+      "opciones": [
+        "La población de derecho de cada Comunidad Autónoma",
+        "La capacidad fiscal de cada territorio respecto de la media",
+        "La garantía de un nivel mínimo en la prestación de los servicios públicos fundamentales",
+        "El esfuerzo recaudatorio realizado por cada Comunidad"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 158.1, la asignación se establece «en función del volumen de los servicios y actividades estatales que hayan asumido y de la garantía de un nivel mínimo en la prestación de los servicios públicos fundamentales en todo el territorio español».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-009",
+      "ley": "lo-8-1980",
+      "articulo": "6.2",
+      "enunciado": "Según el artículo 6 de la LOFCA, los tributos que establezcan las Comunidades Autónomas no podrán recaer sobre:",
+      "opciones": [
+        "Hechos imponibles no gravados por el Estado",
+        "Hechos imponibles gravados por el Estado",
+        "Materias que ninguna ley haya regulado todavía",
+        "Bienes situados dentro de su propio territorio"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 6.2 LOFCA dispone: «Los tributos que establezcan las Comunidades Autónomas no podrán recaer sobre hechos imponibles gravados por el Estado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-30",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-010",
+      "ley": "lo-8-1980",
+      "articulo": "6.3",
+      "enunciado": "Si las Comunidades Autónomas establecen y gestionan tributos sobre materias que la legislación de Régimen Local reserva a las Corporaciones locales, la LOFCA exige:",
+      "opciones": [
+        "La cesión íntegra de la recaudación al Estado",
+        "Un informe previo y vinculante del Consejo de Política Fiscal y Financiera",
+        "La autorización expresa de las Cortes Generales",
+        "Medidas de compensación o coordinación adecuadas a favor de esas Corporaciones"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 6.3 LOFCA admite que las Comunidades «podrán establecer y gestionar tributos sobre las materias que la legislación de Régimen Local reserve a las Corporaciones locales. En todo caso, deberán establecerse las medidas de compensación o coordinación adecuadas a favor de aquellas Corporaciones».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-30",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-011",
+      "ley": "lo-8-1980",
+      "articulo": "10.1",
+      "enunciado": "Según la LOFCA, son tributos cedidos los establecidos y regulados por el Estado:",
+      "opciones": [
+        "Cuyo producto corresponda a la Comunidad Autónoma",
+        "Cuya gestión corresponda a la Comunidad Autónoma",
+        "Cuya recaudación se reparta a partes iguales con ella",
+        "Cuyo rendimiento se destine a los servicios transferidos"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 10.1 LOFCA define: «Son tributos cedidos los establecidos y regulados por el Estado, cuyo producto corresponda a la Comunidad Autónoma».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-30",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-012",
+      "ley": "lo-8-1980",
+      "articulo": "10.4.a",
+      "enunciado": "Los tributos cedidos de naturaleza personal se atribuyen a una Comunidad por el domicilio fiscal del sujeto pasivo; en las adquisiciones por causa de muerte se atiende a:",
+      "opciones": [
+        "El domicilio fiscal del heredero de mayor edad",
+        "El lugar donde radiquen los bienes heredados",
+        "El domicilio fiscal del causante",
+        "El lugar de fallecimiento del causante"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 10.4.a) LOFCA, la atribución se hará «en función del domicilio fiscal de los sujetos pasivos, salvo en el gravamen de adquisiciones por causa de muerte, en el que se atenderá al del causante».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-30",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-013",
+      "ley": "lo-8-1980",
+      "articulo": "11.e",
+      "enunciado": "La LOFCA permite ceder a las Comunidades Autónomas el Impuesto sobre el Valor Añadido con carácter parcial y con el límite máximo del:",
+      "opciones": [
+        "25 por ciento",
+        "50 por ciento",
+        "58 por ciento",
+        "75 por ciento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 11.e) LOFCA incluye el «Impuesto sobre el Valor Añadido, con carácter parcial con el límite máximo del 50 por ciento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-30",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-014",
+      "ley": "lo-8-1980",
+      "articulo": "11.f",
+      "enunciado": "Los Impuestos Especiales de Fabricación (salvo Electricidad e Hidrocarburos) pueden cederse a las Comunidades Autónomas con carácter parcial con el límite máximo del:",
+      "opciones": [
+        "40 por ciento",
+        "50 por ciento",
+        "58 por ciento",
+        "75 por ciento"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 11.f) LOFCA prevé «Los Impuestos Especiales de Fabricación, con carácter parcial con el límite máximo del 58 por ciento de cada uno de ellos, excepto el Impuesto sobre la Electricidad y el Impuesto sobre Hidrocarburos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-30",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-015",
+      "ley": "lo-8-1980",
+      "articulo": "12.1",
+      "enunciado": "Las Comunidades Autónomas podrán establecer recargos sobre los tributos del Estado susceptibles de cesión, con la excepción del:",
+      "opciones": [
+        "Impuesto sobre el Valor Añadido",
+        "Impuesto sobre la Electricidad",
+        "Impuesto sobre Sucesiones y Donaciones",
+        "Impuesto sobre Hidrocarburos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 12.1 LOFCA dice que podrán establecer recargos «sobre los tributos del Estado susceptibles de cesión, excepto en el Impuesto sobre Hidrocarburos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-30",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-016",
+      "ley": "lo-8-1980",
+      "articulo": "19.2.a",
+      "enunciado": "En el IRPF cedido, la LOFCA permite a las Comunidades asumir competencias normativas sobre el mínimo personal y familiar y sobre:",
+      "opciones": [
+        "La tarifa y las deducciones de la cuota",
+        "Los rendimientos íntegros del trabajo",
+        "Los pagos fraccionados y las retenciones",
+        "El hecho imponible y el devengo"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 19.2.a) LOFCA, en el IRPF corresponde «la fijación de la cuantía del mínimo personal y familiar y la regulación de la tarifa y deducciones de la cuota».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-30",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-017",
+      "ley": "lo-8-1980",
+      "articulo": "19.2",
+      "enunciado": "Las Comunidades Autónomas pueden asumir por delegación la aplicación, la potestad sancionadora y la revisión de los tributos cedidos, salvo en:",
+      "opciones": [
+        "El Impuesto sobre Sucesiones y Donaciones",
+        "El Impuesto sobre el Valor Añadido",
+        "El Impuesto sobre el Patrimonio",
+        "Los Tributos sobre el Juego"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 19.2 LOFCA excluye esa delegación: «no será de aplicación en el Impuesto sobre la Renta de las Personas Físicas, en el Impuesto sobre el Valor Añadido ni en los Impuestos Especiales de Fabricación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-30",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-018",
+      "ley": "lo-8-1980",
+      "articulo": "3.2.f",
+      "enunciado": "Entre las materias de las que entiende el Consejo de Política Fiscal y Financiera de las Comunidades Autónomas figura:",
+      "opciones": [
+        "La aprobación de los presupuestos autonómicos",
+        "La fijación de los tipos de gravamen de los tributos cedidos",
+        "La coordinación de la política de endeudamiento",
+        "La resolución de conflictos sobre puntos de conexión"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 3.2.f) LOFCA atribuye al Consejo «La coordinación de la política de endeudamiento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-30",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-019",
+      "ley": "lo-8-1980",
+      "articulo": "7.3",
+      "enunciado": "El rendimiento previsto para cada tasa autonómica por la prestación de servicios o realización de actividades:",
+      "opciones": [
+        "Podrá superar el coste hasta un diez por ciento",
+        "Deberá igualar exactamente el coste del servicio",
+        "Se fijará libremente por la Comunidad Autónoma",
+        "No podrá sobrepasar el coste de dichos servicios o actividades"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 7.3 LOFCA establece: «El rendimiento previsto para cada tasa por la prestación de servicios o realización de actividades no podrá sobrepasar el coste de dichos servicios o actividades».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-30",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-020",
+      "ley": "ley-58-2003",
+      "articulo": "2.2.b",
+      "enunciado": "Según la LGT, son contribuciones especiales los tributos cuyo hecho imponible consiste en:",
+      "opciones": [
+        "La obtención de un beneficio o aumento de valor de bienes por obras públicas",
+        "La utilización privativa o aprovechamiento especial del dominio público",
+        "La prestación de servicios que no sean de solicitud voluntaria",
+        "Los negocios, actos o hechos que ponen de manifiesto capacidad económica"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 2.2.b) LGT define las contribuciones especiales como los tributos cuyo hecho imponible consiste en «la obtención por el obligado tributario de un beneficio o de un aumento de valor de sus bienes como consecuencia de la realización de obras públicas o del establecimiento o ampliación de servicios públicos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-021",
+      "ley": "ley-58-2003",
+      "articulo": "2.2.a",
+      "enunciado": "Según la LGT, el hecho imponible de las tasas puede consistir en:",
+      "opciones": [
+        "La obtención de un beneficio por la ejecución de obras públicas",
+        "La utilización privativa o el aprovechamiento especial del dominio público",
+        "La realización de negocios o actos que revelan capacidad económica",
+        "La percepción de rentas por el obligado tributario en el periodo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 2.2.a) LGT incluye entre los hechos imponibles de las tasas «la utilización privativa o el aprovechamiento especial del dominio público».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-022",
+      "ley": "ley-58-2003",
+      "articulo": "3.2",
+      "enunciado": "Según el artículo 3.2 de la LGT, la aplicación del sistema tributario se basará en los principios de:",
+      "opciones": [
+        "Legalidad, capacidad económica y no confiscatoriedad del sistema",
+        "Justicia, generalidad, igualdad y progresividad en la carga",
+        "Eficiencia, celeridad y gratuidad en el procedimiento",
+        "Proporcionalidad, eficacia y limitación de costes indirectos formales"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 3.2 LGT dice que «se basará en los principios de proporcionalidad, eficacia y limitación de costes indirectos derivados del cumplimiento de obligaciones formales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-023",
+      "ley": "ley-58-2003",
+      "articulo": "3.1",
+      "enunciado": "La LGT prohíbe el establecimiento de cualquier instrumento extraordinario de regularización fiscal que pueda suponer:",
+      "opciones": [
+        "Una ampliación de los plazos de prescripción de las deudas",
+        "Una condonación de las sanciones tributarias que sean firmes",
+        "Una minoración de la deuda tributaria devengada conforme a la normativa",
+        "Una renuncia general a la potestad sancionadora tributaria"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 3.1 LGT, «se prohíbe el establecimiento de cualquier instrumento extraordinario de regularización fiscal que pueda suponer una minoración de la deuda tributaria devengada de acuerdo con la normativa vigente».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-024",
+      "ley": "ley-58-2003",
+      "articulo": "8.e",
+      "enunciado": "Entre las materias que la LGT reserva en todo caso a la ley figura:",
+      "opciones": [
+        "El establecimiento de los recargos y de la obligación de abonar intereses de demora",
+        "La aprobación de los modelos de autoliquidación y declaración",
+        "El lugar y la forma de presentación de las declaraciones tributarias",
+        "La designación de los órganos competentes para liquidar los tributos"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 8.e) LGT reserva a la ley «El establecimiento y modificación de los recargos y de la obligación de abonar intereses de demora».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-025",
+      "ley": "ley-7-1985",
+      "articulo": "106.2",
+      "enunciado": "Según la Ley 7/1985, la potestad reglamentaria de las entidades locales en materia tributaria se ejerce a través de:",
+      "opciones": [
+        "Reglamentos orgánicos y bandos de la Alcaldía municipal",
+        "Normas forales de ámbito local aprobadas por el Pleno",
+        "Ordenanzas fiscales y Ordenanzas generales de gestión y recaudación",
+        "Decretos del Pleno aprobados por mayoría absoluta"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 106.2 dispone que se ejercerá «a través de Ordenanzas fiscales reguladoras de sus tributos propios y de Ordenanzas generales de gestión, recaudación e inspección».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-05",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 13
+      }
+    },
+    {
+      "id": "sfa-026",
+      "ley": "ley-31-1990",
+      "articulo": "103.Uno.1",
+      "enunciado": "Según la Ley 31/1990, la Agencia Estatal de Administración Tributaria se crea como:",
+      "opciones": [
+        "Organismo autónomo con personalidad jurídica propia y capacidad solo pública",
+        "Sociedad mercantil estatal con capital íntegramente público",
+        "Ente de Derecho Público con personalidad jurídica propia y plena capacidad pública y privada",
+        "Órgano administrativo sin personalidad jurídica propia"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 103.Uno.1 la configura como «un Ente de Derecho Público de los previstos en el artículo 6.5 de la Ley General Presupuestaria, con personalidad jurídica propia y plena capacidad pública y privada».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 14
+      }
+    },
+    {
+      "id": "sfa-027",
+      "ley": "ley-31-1990",
+      "articulo": "103.Uno.2",
+      "enunciado": "La AEAT es la organización administrativa responsable, en nombre y por cuenta del Estado, de:",
+      "opciones": [
+        "La aplicación efectiva del sistema tributario estatal y del aduanero",
+        "La elaboración de la normativa tributaria y aduanera",
+        "La resolución de las reclamaciones económico-administrativas",
+        "La fijación de los tipos de gravamen de los tributos"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 103.Uno.2 la define como «la organización administrativa responsable, en nombre y por cuenta del Estado, de la aplicación efectiva del sistema tributario estatal y del aduanero».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 14
+      }
+    },
+    {
+      "id": "sfa-028",
+      "ley": "ley-31-1990",
+      "articulo": "103.Uno.4",
+      "enunciado": "Cuando la AEAT gestiona tributos cedidos a las Comunidades Autónomas, la recaudación obtenida se entrega:",
+      "opciones": [
+        "Al Tesoro Público, que la distribuye anualmente",
+        "A la propia Agencia como financiación adicional",
+        "Al Fondo de Suficiencia Global de la Comunidad",
+        "A la Hacienda Autónoma titular del rendimiento de los tributos cedidos"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 103.Uno.4, «la recaudación obtenida se entregará a la Hacienda Autónoma titular del rendimiento de los tributos cedidos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 14
+      }
+    },
+    {
+      "id": "sfa-029",
+      "ley": "ley-31-1990",
+      "articulo": "103.Uno.6",
+      "enunciado": "Corresponde especialmente a la AEAT el auxilio, en la investigación y represión de delitos públicos, a:",
+      "opciones": [
+        "El Tribunal de Cuentas y el Defensor del Pueblo",
+        "Los Juzgados y Tribunales de Justicia y el Ministerio Fiscal",
+        "Las Cortes Generales y sus Comisiones de investigación",
+        "El Consejo de Estado y el Consejo General del Poder Judicial"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 103.Uno.6 señala que le corresponde «el auxilio a los Juzgados y Tribunales de Justicia y al Ministerio Fiscal en la investigación, enjuiciamiento y represión de delitos públicos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 14
+      }
+    },
+    {
+      "id": "sfa-030",
+      "ley": "ley-31-1990",
+      "articulo": "103.Dos.2",
+      "enunciado": "Según la Ley 31/1990, la contratación de la AEAT se desarrolla en régimen de:",
+      "opciones": [
+        "Derecho Administrativo, con sujeción plena a la ley de contratos",
+        "Derecho Público, previa fiscalización del Tribunal de Cuentas",
+        "Derecho Privado",
+        "Derecho Laboral y de la Seguridad Social"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 103.Dos.2 prevé que la contratación se ajustará a ciertos principios, «desarrollándose en régimen de Derecho Privado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 14
+      }
+    },
+    {
+      "id": "sfa-031",
+      "ley": "ley-31-1990",
+      "articulo": "103.Dos.4",
+      "enunciado": "Corresponde a la AEAT la resolución de los procedimientos de:",
+      "opciones": [
+        "Responsabilidad patrimonial por daños causados a particulares por el funcionamiento de sus servicios",
+        "Declaración de lesividad de actos de los Tribunales Económico-Administrativos",
+        "Responsabilidad disciplinaria del personal de otras Administraciones",
+        "Expropiación forzosa de bienes afectos a sus servicios"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 103.Dos.4 dice: «Corresponde a la Agencia la resolución de los procedimientos de responsabilidad patrimonial, derivados de reclamaciones por los daños causados a los particulares como consecuencia del funcionamiento normal o anormal de sus servicios».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 14
+      }
+    },
+    {
+      "id": "sfa-032",
+      "ley": "ley-31-1990",
+      "articulo": "103.Tres.1",
+      "enunciado": "Según la Ley 31/1990, los órganos rectores de la AEAT son:",
+      "opciones": [
+        "El Consejo Rector y el Director General",
+        "El Presidente y el Director General",
+        "El Presidente y el Consejo de Administración",
+        "El Director General y el Secretario General"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 103.Tres.1 establece: «Los Organos rectores de la Agencia serán el Presidente y el Director General».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 14
+      }
+    },
+    {
+      "id": "sfa-033",
+      "ley": "ley-31-1990",
+      "articulo": "103.Tres.2.a",
+      "enunciado": "Corresponde al Presidente de la AEAT aprobar:",
+      "opciones": [
+        "La contratación del personal laboral dentro de los límites de la relación de puestos",
+        "El presupuesto definitivo de la Agencia dentro de los Presupuestos Generales",
+        "Los convenios colectivos del personal laboral",
+        "La relación de puestos de trabajo y la oferta de empleo de la Agencia"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 103.Tres.2.a) atribuye al Presidente «Aprobar la relación de puestos de trabajo y la oferta de empleo de la Agencia, así como sus modificaciones».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 14
+      }
+    },
+    {
+      "id": "sfa-034",
+      "ley": "ley-31-1990",
+      "articulo": "103.Tres.3",
+      "enunciado": "Según la Ley 31/1990, el Director General de la AEAT dirige:",
+      "opciones": [
+        "La ejecución del Plan de Actuaciones y el funcionamiento ordinario de los servicios",
+        "La estructura orgánica y los nombramientos del personal directivo",
+        "La superior dirección de la Agencia y su representación legal",
+        "La aprobación del Plan de Actuaciones para su elevación al Ministro"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 103.Tres.3 atribuye al Director General la dirección de «el funcionamiento ordinario de los servicios y actividades de ésta», mientras que la superior dirección y la representación legal corresponden al Presidente: «ejercer la superior dirección de la misma y ostentar su representación legal».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 14
+      }
+    },
+    {
+      "id": "sfa-035",
+      "ley": "ley-31-1990",
+      "articulo": "103.Cuatro.1",
+      "enunciado": "El personal de la AEAT queda vinculado a ella por una relación sujeta a las normas de:",
+      "opciones": [
+        "Derecho Administrativo exclusivamente",
+        "Derecho Mercantil y Civil",
+        "Derecho Laboral exclusivamente",
+        "Derecho Administrativo o Laboral que le sean de aplicación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 103.Cuatro.1 dice: «El personal de la Agencia quedará vinculado a ésta por una relación sujeta a las normas de Derecho Administrativo o Laboral que le sean de aplicación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 14
+      }
+    },
+    {
+      "id": "sfa-036",
+      "ley": "ley-31-1990",
+      "articulo": "103.Cuatro.8",
+      "enunciado": "La infracción de los deberes de secreto y sigilo por el personal de la AEAT constituirá, según la Ley 31/1990:",
+      "opciones": [
+        "Infracción administrativa muy grave",
+        "Infracción administrativa grave",
+        "Falta leve, salvo reincidencia",
+        "Delito en todo caso"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 103.Cuatro.8 establece que «La infracción de los deberes de secreto y sigilo constituirá infracción administrativa grave, sin perjuicio de que por su naturaleza la conducta pudiera ser constitutiva de delito».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 14
+      }
+    },
+    {
+      "id": "sfa-037",
+      "ley": "ley-31-1990",
+      "articulo": "103.Cinco.b",
+      "enunciado": "El porcentaje de recaudación que financia los mayores gastos de funcionamiento e inversiones de la AEAT se fija:",
+      "opciones": [
+        "Cada cinco años por el Consejo de Ministros",
+        "Cada año por el Presidente de la Agencia",
+        "Cada año en la Ley anual de Presupuestos",
+        "Una sola vez, en la ley de creación de la Agencia"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 103.Cinco.b) establece: «El porcentaje será fijado en cada año en la Ley anual de Presupuestos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 14
+      }
+    },
+    {
+      "id": "sfa-038",
+      "ley": "ley-31-1990",
+      "articulo": "103.Siete.1",
+      "enunciado": "El control financiero permanente de la AEAT corresponde de forma exclusiva a:",
+      "opciones": [
+        "La Intervención General de la Administración del Estado",
+        "El Tribunal de Cuentas",
+        "El servicio de auditoría interna de la propia Agencia",
+        "El Consejo de Estado"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 103.Siete.1 dispone: «La Agencia estará sometida de forma exclusiva a control financiero permanente a cargo de la Intervención General de la Administración del Estado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 14
+      }
+    },
+    {
+      "id": "sfa-039",
+      "ley": "ley-31-1990",
+      "articulo": "103.Ocho",
+      "enunciado": "El servicio jurídico propio de la AEAT está integrado por:",
+      "opciones": [
+        "Letrados de las Cortes Generales",
+        "Letrados de la Administración de Justicia",
+        "Abogados colegiados contratados por concurso",
+        "Abogados del Estado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 103.Ocho establece que «La Agencia dispondrá de un servicio jurídico propio, integrado por Abogados del Estado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-17",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 14
+      }
+    },
+    {
+      "id": "sfa-040",
+      "ley": "orden-pre-3581-2007",
+      "articulo": "1.1",
+      "enunciado": "Según la Orden PRE/3581/2007, los Departamentos de la AEAT dependen directamente de la Dirección General de la Agencia y tienen rango de:",
+      "opciones": [
+        "Subdirección general",
+        "Dirección general",
+        "Secretaría de Estado",
+        "Subsecretaría"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 1.1 integra los Departamentos «con dependencia directa de la Dirección General de la Agencia, los siguientes Departamentos, todos ellos con rango de dirección general».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-06-26",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 14
+      }
+    },
+    {
+      "id": "sfa-042",
+      "ley": "orden-pre-3581-2007",
+      "articulo": "10",
+      "enunciado": "En caso de vacante, ausencia o enfermedad del titular de la Dirección General de la AEAT, sus funciones las desempeñan temporalmente:",
+      "opciones": [
+        "El titular de la Presidencia de la Agencia, con carácter automático",
+        "El titular del Departamento que tenga más antigüedad en el cargo",
+        "El Subdirector General que designe el Presidente de la Agencia",
+        "Los titulares de los Departamentos, por el orden del artículo 1"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 10 dispone que sus funciones «serán desempeñadas temporalmente por los titulares de los Departamentos por el orden en el que se mencionan en el artículo 1».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-06-26",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 14
+      }
+    },
+    {
+      "id": "sfa-044",
+      "ley": "res-aeat-2021",
+      "articulo": "Tercero.1",
+      "enunciado": "La Oficina Nacional de Gestión Tributaria ejerce sus competencias sobre:",
+      "opciones": [
+        "El ámbito de una sola Delegación Especial",
+        "Todo el territorio nacional",
+        "Solo los obligados tributarios no residentes",
+        "El territorio de las Delegaciones que se determinen cada año"
+      ],
+      "correcta": 1,
+      "explicacion": "El apartado tercero.1 establece: «La Oficina Nacional de Gestión Tributaria ejerce sus competencias sobre todo el territorio nacional».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-26",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 14
+      }
+    }
+  ]
+}
