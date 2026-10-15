@@ -16,7 +16,7 @@
       "explicacion": "El artículo 213.2 las excluye de revisión «salvo en los supuestos de nulidad de pleno derecho previstos en el artículo 217, rectificación de errores del artículo 220 y recurso extraordinario de revisión regulado en el artículo 244 de esta ley».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -36,7 +36,7 @@
       "explicacion": "El artículo 216 establece: «Son procedimientos especiales de revisión los de» […] «Declaración de lesividad de actos anulables».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -56,7 +56,7 @@
       "explicacion": "Según el artículo 217.6: «El plazo máximo para notificar resolución expresa será de un año desde que se presente la solicitud por el interesado o desde que se le notifique el acuerdo de iniciación de oficio del procedimiento».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -76,7 +76,7 @@
       "explicacion": "El artículo 217.6.b) prevé «La desestimación por silencio administrativo de la solicitud, si el procedimiento se hubiera iniciado a instancia del interesado»; la caducidad solo opera si se inició de oficio.",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -96,7 +96,7 @@
       "explicacion": "El artículo 217.4 dispone: «La declaración de nulidad requerirá dictamen favorable previo del Consejo de Estado u órgano equivalente de la respectiva comunidad autónoma, si lo hubiere».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -116,7 +116,7 @@
       "explicacion": "El artículo 218.2 señala: «La declaración de lesividad no podrá adoptarse una vez transcurridos cuatro años desde que se notificó el acto administrativo».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -136,7 +136,7 @@
       "explicacion": "El artículo 218.3 establece: «Transcurrido el plazo de tres meses desde la iniciación del procedimiento sin que se hubiera declarado la lesividad se producirá la caducidad del mismo».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -156,7 +156,7 @@
       "explicacion": "El artículo 219.3 señala que «El procedimiento de revocación se iniciará siempre de oficio, y será competente para declararla el órgano que se determine reglamentariamente, que deberá ser distinto del órgano que dictó el acto».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -176,7 +176,7 @@
       "explicacion": "El artículo 220.2 dice: «El plazo máximo para notificar resolución expresa será de seis meses desde que se presente la solicitud por el interesado o desde que se le notifique el acuerdo de iniciación de oficio del procedimiento».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -196,7 +196,7 @@
       "explicacion": "El artículo 221.3 dispone que «únicamente se podrá solicitar la devolución del mismo instando o promoviendo la revisión del acto mediante alguno de los procedimientos especiales de revisión establecidos en los párrafos a), c) y d) del artículo 216 y mediante el recurso extraordinario de revisión regulado en el artículo 244 de esta ley».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -216,7 +216,7 @@
       "explicacion": "El artículo 222 prevé el «recurso potestativo de reposición», que «deberá interponerse, en su caso, con carácter previo a la reclamación económico-administrativa».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -236,7 +236,7 @@
       "explicacion": "Según el artículo 222.2, en ese caso «se tramitará el presentado en primer lugar y se declarará inadmisible el segundo».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -256,7 +256,7 @@
       "explicacion": "El artículo 223.1 establece que, en esas deudas, «el plazo para la interposición se computará a partir del día siguiente al de finalización del período voluntario de pago».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -276,7 +276,7 @@
       "explicacion": "El artículo 24 del Reglamento exige comparecer «antes de que finalice el plazo de interposición del recurso» y añade: «Una vez presentado el recurso no se podrá ejercer el derecho a examinar el expediente a efectos de formular alegaciones».",
       "dificultad": 2,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -296,7 +296,7 @@
       "explicacion": "El artículo 224.2 admite «exclusivamente» el depósito de dinero o valores públicos, el «Aval o fianza de carácter solidario de entidad de crédito o sociedad de garantía recíproca o certificado de seguro de caución» y la fianza personal y solidaria de otros contribuyentes.",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -316,7 +316,7 @@
       "explicacion": "El artículo 224.1 indica: «Si la impugnación afectase a una sanción tributaria, su ejecución quedará suspendida automáticamente sin necesidad de aportar garantías».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -336,7 +336,7 @@
       "explicacion": "El artículo 225.1 señala: «Tratándose de actos dictados por delegación y salvo que en ésta se diga otra cosa, el recurso de reposición se resolverá por el órgano delegado».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -356,7 +356,7 @@
       "explicacion": "El artículo 225.4 fija: «El plazo máximo para notificar la resolución será de un mes contado desde el día siguiente al de presentación del recurso».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -376,7 +376,7 @@
       "explicacion": "El artículo 227.5.a) excluye «Los que den lugar a reclamación en vía administrativa previa a la judicial, civil o laboral o pongan fin a dicha vía»; en cambio, el 227.2 y 227.3 declaran reclamables los actos de recaudación, los de exenciones y las sanciones.",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -396,7 +396,7 @@
       "explicacion": "El artículo 227.4 declara reclamables, entre otras, las «relativas a la obligación de expedir, entregar y rectificar facturas que incumbe a los empresarios y profesionales».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -416,7 +416,7 @@
       "explicacion": "El artículo 229.5 establece que, si el domicilio fiscal «se hallara fuera de España, la competencia corresponderá al Tribunal Económico-Administrativo Central, cualquiera que sea su cuantía».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -436,7 +436,7 @@
       "explicacion": "El artículo 233.14 es tajante: «La ejecución del acto o resolución impugnado mediante un recurso extraordinario de revisión no podrá suspenderse en ningún caso».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -456,7 +456,7 @@
       "explicacion": "El artículo 233.9 dice que la solicitud «no impedirá la continuación de las actuaciones de la Administración, sin perjuicio de que proceda la anulación de las efectuadas con posterioridad a la fecha de la solicitud si la suspensión fuese concedida finalmente».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -476,7 +476,7 @@
       "explicacion": "El artículo 234.5 prevé: «si la reclamación o el recurso resulta desestimado o inadmitido y el órgano económico-administrativo aprecia temeridad o mala fe, podrá exigirse a la persona a la que resulte imputable dicha temeridad o mala fe que sufrague las costas del procedimiento».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -496,7 +496,7 @@
       "explicacion": "El artículo 237.3 señala que «el Tribunal antes de plantear la cuestión prejudicial concederá un plazo de quince días a la Administración Tributaria autora del acto para que formule alegaciones».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -516,7 +516,7 @@
       "explicacion": "El artículo 239.4.c) contempla la inadmisibilidad «Cuando falte la identificación del acto o actuación contra el que se reclama»; el escrito de interposición, según el 235.2, «podrá limitarse a solicitar que se tenga por interpuesta».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -536,7 +536,7 @@
       "explicacion": "El artículo 240.1 establece: «La duración del procedimiento en cualquiera de sus instancias será de un año contado desde la interposición de la reclamación».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -556,7 +556,7 @@
       "explicacion": "El artículo 241 bis.1 señala que se podrá interponer recurso de anulación «en el plazo de 15 días ante el tribunal que hubiera dictado la resolución que se impugna».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -576,7 +576,7 @@
       "explicacion": "El artículo 244.4 dispone: «Será competente para resolver el recurso extraordinario de revisión el Tribunal Económico-Administrativo Central».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -596,7 +596,7 @@
       "explicacion": "El artículo 243.2 establece: «Será competente para resolver este recurso la Sala Especial para la Unificación de Doctrina».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -616,7 +616,7 @@
       "explicacion": "El artículo 64 del Reglamento dispone: «Las reclamaciones económico-administrativas se tramitarán por el procedimiento abreviado cuando sean de cuantía inferior a 6.000 euros o 72.000 euros si se trata de reclamaciones contra bases o valoraciones».",
       "dificultad": 1,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -636,7 +636,7 @@
       "explicacion": "El artículo 248 señala que «no podrá interponerse recurso de alzada ordinario, pero podrán proceder, en su caso, los demás recursos regulados en la sección anterior».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -656,7 +656,7 @@
       "explicacion": "El artículo 36 del Reglamento dice que podrá interponerse «cuando la cuantía de la reclamación, calculada conforme a lo dispuesto en el artículo anterior, supere 150.000 euros, o 1.800.000 euros si se trata de reclamaciones contra bases o valoraciones».",
       "dificultad": 3,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -676,7 +676,7 @@
       "explicacion": "El artículo 41.1 del Reglamento fija los intereses «de un año si el procedimiento de la reclamación es el general»; seis meses en el abreviado y dos años si cabe alzada ordinaria.",
       "dificultad": 3,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }
@@ -696,7 +696,7 @@
       "explicacion": "El artículo 241 ter.7 dispone: «No cabrá la interposición de recurso de reposición con carácter previo al recurso contra la ejecución».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "agente-aeat": 26
       }

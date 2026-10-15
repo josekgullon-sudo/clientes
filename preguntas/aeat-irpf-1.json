@@ -1,0 +1,805 @@
+{
+  "descripcion": "LIRPF (Ley 35/2006), tema 27 de Agente de la Hacienda Pública: naturaleza, hecho imponible, exenciones, contribuyentes, individualización, devengo, imputación temporal y rendimientos del trabajo, del capital y de actividades económicas. Citas comprobadas contra el texto consolidado del BOE (versión 2026-10-07).",
+  "preguntas": [
+    {
+      "id": "ir1-001",
+      "ley": "ley-35-2006",
+      "articulo": "1",
+      "enunciado": "El IRPF es un tributo de carácter:",
+      "opciones": [
+        "Real e indirecto",
+        "Personal y directo",
+        "Personal e indirecto",
+        "Real y directo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 1 define el IRPF como «un tributo de carácter personal y directo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-002",
+      "ley": "ley-35-2006",
+      "articulo": "3.1",
+      "enunciado": "Según su ley reguladora, el IRPF es un impuesto:",
+      "opciones": [
+        "Cedido totalmente a las Comunidades Autónomas",
+        "Propio de las Comunidades Autónomas",
+        "De titularidad exclusiva de las Entidades Locales",
+        "Cedido parcialmente a las Comunidades Autónomas"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 3.1 establece que «es un impuesto cedido parcialmente», en los términos de la LOFCA.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-003",
+      "ley": "ley-35-2006",
+      "articulo": "4.2",
+      "enunciado": "El IRPF se aplica en todo el territorio español, sin perjuicio de los regímenes forales de concierto y convenio económico de:",
+      "opciones": [
+        "Los Territorios Históricos del País Vasco y la Comunidad Foral de Navarra",
+        "El País Vasco y la Comunidad Autónoma de Cataluña",
+        "Navarra, junto con Canarias, Ceuta y Melilla",
+        "Canarias y las Illes Balears, por su insularidad"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 4.2, se entiende «sin perjuicio de los regímenes tributarios forales de concierto y convenio económico en vigor, respectivamente, en los Territorios Históricos del País Vasco y en la Comunidad Foral de Navarra».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-004",
+      "ley": "ley-35-2006",
+      "articulo": "6.3",
+      "enunciado": "Para determinar la base imponible y calcular el impuesto, la renta del contribuyente se clasifica en:",
+      "opciones": [
+        "Ordinaria y extraordinaria",
+        "Activa y pasiva",
+        "General y del ahorro",
+        "Regular e irregular"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 6.3 dispone que «la renta se clasificará en general y del ahorro».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-005",
+      "ley": "ley-35-2006",
+      "articulo": "6.4",
+      "enunciado": "No está sujeta al IRPF la renta que se encuentre sujeta al:",
+      "opciones": [
+        "Impuesto sobre el Patrimonio",
+        "Impuesto sobre Sociedades",
+        "Impuesto sobre Transmisiones Patrimoniales",
+        "Impuesto sobre Sucesiones y Donaciones"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 6.4 señala: «No estará sujeta a este impuesto la renta que se encuentre sujeta al Impuesto sobre Sucesiones y Donaciones».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-006",
+      "ley": "ley-35-2006",
+      "articulo": "7.e",
+      "enunciado": "El importe de la indemnización por despido exenta en el IRPF tiene como límite la cantidad de:",
+      "opciones": [
+        "100.000 euros",
+        "180.000 euros",
+        "120.000 euros",
+        "240.000 euros"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 7.e) dispone que «tendrá como límite la cantidad de 180.000 euros».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-007",
+      "ley": "ley-35-2006",
+      "articulo": "7.e",
+      "enunciado": "¿Qué indemnización por despido o cese del trabajador está exenta en el IRPF?",
+      "opciones": [
+        "La pactada en convenio, pacto o contrato, cualquiera que sea su cuantía",
+        "La que acuerden libremente trabajador y empresa en el finiquito",
+        "La establecida con carácter obligatorio en el Estatuto de los Trabajadores o en su normativa de desarrollo",
+        "La fijada en el contrato de trabajo, aunque supere la legal"
+      ],
+      "correcta": 2,
+      "explicacion": "Están exentas las indemnizaciones «en la cuantía establecida con carácter obligatorio en el texto refundido de la Ley del Estatuto de los Trabajadores», «sin que pueda considerarse como tal la establecida en virtud de convenio, pacto o contrato».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-008",
+      "ley": "ley-35-2006",
+      "articulo": "7.f",
+      "enunciado": "Está exenta en el IRPF la prestación reconocida por la Seguridad Social como consecuencia de:",
+      "opciones": [
+        "Incapacidad permanente absoluta o gran invalidez",
+        "Jubilación ordinaria a la edad legal",
+        "Incapacidad permanente total para la profesión habitual",
+        "Viudedad del cónyuge supérstite"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 7.f) declara exentas las prestaciones de la Seguridad Social «como consecuencia de incapacidad permanente absoluta o gran invalidez».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-009",
+      "ley": "ley-35-2006",
+      "articulo": "7.k",
+      "enunciado": "¿Cuál de estas rentas está exenta en el IRPF?",
+      "opciones": [
+        "Las pensiones compensatorias recibidas del cónyuge",
+        "Las anualidades por alimentos percibidas de los padres en virtud de decisión judicial",
+        "Las retribuciones de los administradores de una sociedad",
+        "Las prestaciones por desempleo en pago periódico"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 7.k) establece: «Igualmente estarán exentas las anualidades por alimentos percibidas de los padres en virtud de decisión judicial en supuestos distintos a los establecidos en el párrafo anterior».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-010",
+      "ley": "ley-35-2006",
+      "articulo": "7.p",
+      "enunciado": "La exención por trabajos efectivamente realizados en el extranjero se aplica a las retribuciones de los días de estancia, con un límite anual de:",
+      "opciones": [
+        "30.050 euros",
+        "90.150 euros",
+        "120.200 euros",
+        "60.100 euros"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 7.p) aplica la exención a las retribuciones devengadas por los días de estancia en el extranjero, «con el límite máximo de 60.100 euros anuales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-011",
+      "ley": "ley-35-2006",
+      "articulo": "7.w",
+      "enunciado": "Las prestaciones en forma de renta de personas con discapacidad por aportaciones del artículo 53 están exentas hasta un máximo anual de:",
+      "opciones": [
+        "Tres veces el indicador público de renta de efectos múltiples",
+        "Dos veces el indicador público de renta de efectos múltiples",
+        "1,5 veces el indicador público de renta de efectos múltiples",
+        "Cinco veces el indicador público de renta de efectos múltiples"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 7.w) las declara exentas «hasta un importe máximo anual de tres veces el indicador público de renta de efectos múltiples».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-012",
+      "ley": "ley-35-2006",
+      "articulo": "8.2",
+      "enunciado": "Un español acredita su nueva residencia fiscal en un paraíso fiscal. No pierde la condición de contribuyente en el período del cambio y en:",
+      "opciones": [
+        "El período impositivo siguiente",
+        "Los dos períodos impositivos siguientes",
+        "Los cuatro períodos impositivos siguientes",
+        "Los cinco períodos impositivos siguientes"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 8.2, la regla se aplica «en el período impositivo en que se efectúe el cambio de residencia y durante los cuatro períodos impositivos siguientes».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-013",
+      "ley": "ley-35-2006",
+      "articulo": "8.3",
+      "enunciado": "¿Quién no tiene la consideración de contribuyente del IRPF?",
+      "opciones": [
+        "Una persona física con residencia habitual en territorio español",
+        "Un español miembro de una misión diplomática española en el extranjero",
+        "Un funcionario español en activo con cargo oficial no diplomático en el extranjero",
+        "Una herencia yacente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 8.3 dispone: «No tendrán la consideración de contribuyente las sociedades civiles no sujetas al Impuesto sobre Sociedades, herencias yacentes, comunidades de bienes».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-014",
+      "ley": "ley-35-2006",
+      "articulo": "9.1.a",
+      "enunciado": "Se considera que reside habitualmente en España quien permanezca en territorio español durante el año natural:",
+      "opciones": [
+        "Más de 180 días",
+        "Más de 183 días",
+        "Al menos 150 días",
+        "Más de 200 días"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 9.1.a) exige «Que permanezca más de 183 días, durante el año natural, en territorio español».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-015",
+      "ley": "ley-35-2006",
+      "articulo": "9.1.a",
+      "enunciado": "Para calcular los días de permanencia en España, las ausencias esporádicas:",
+      "opciones": [
+        "No se computan en ningún caso, aunque sean esporádicas",
+        "Se computan siempre, sin admitir excepción alguna",
+        "Se computan, salvo que se acredite la residencia fiscal en otro país",
+        "Se computan solo si no superan en total los 30 días"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 9.1.a) indica que «se computarán las ausencias esporádicas, salvo que el contribuyente acredite su residencia fiscal en otro país».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-016",
+      "ley": "ley-35-2006",
+      "articulo": "9.1",
+      "enunciado": "Se presume residente habitual en España, salvo prueba en contrario, a quien tenga en España:",
+      "opciones": [
+        "Al cónyuge no separado legalmente y a los hijos menores de edad que dependan de él",
+        "A sus ascendientes mayores de 65 años que dependan de él",
+        "A cualquier hijo, sea mayor o menor de edad, y a su cónyuge",
+        "Solo al cónyuge, aunque esté separado legalmente de él"
+      ],
+      "correcta": 0,
+      "explicacion": "Se presume la residencia cuando «resida habitualmente en España el cónyuge no separado legalmente y los hijos menores de edad que dependan de aquél».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-017",
+      "ley": "ley-35-2006",
+      "articulo": "10.1.b",
+      "enunciado": "Los españoles miembros de oficinas consulares en el extranjero son contribuyentes, con excepción de:",
+      "opciones": [
+        "El jefe de la oficina consular",
+        "Los vicecónsules honorarios o agentes consulares honorarios y su personal dependiente",
+        "El funcionario adscrito a la oficina consular",
+        "El personal de servicios adscrito a la oficina consular"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 10.1.b) comprende a los miembros de las oficinas consulares «con excepción de los vicecónsules honorarios o agentes consulares honorarios y del personal dependiente de ellos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-018",
+      "ley": "ley-35-2006",
+      "articulo": "11.2",
+      "enunciado": "Los rendimientos del trabajo se atribuyen exclusivamente a:",
+      "opciones": [
+        "El cónyuge con menores ingresos",
+        "Quien figure como titular de la cuenta donde se ingresan",
+        "Ambos cónyuges por mitad, según su régimen económico",
+        "Quien haya generado el derecho a su percepción"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 11.2 establece: «Los rendimientos del trabajo se atribuirán exclusivamente a quien haya generado el derecho a su percepción».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-019",
+      "ley": "ley-35-2006",
+      "articulo": "11.3",
+      "enunciado": "La titularidad de bienes comunes a ambos cónyuges según su régimen económico matrimonial se atribuye:",
+      "opciones": [
+        "Por mitad a cada uno, salvo que se justifique otra cuota de participación",
+        "Al cónyuge con mayores ingresos",
+        "Al cónyuge que figure primero en el registro",
+        "En proporción a los rendimientos del trabajo de cada uno"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 11.3, esa titularidad «se atribuirá por mitad a cada uno de ellos, salvo que se justifique otra cuota de participación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-020",
+      "ley": "ley-35-2006",
+      "articulo": "12.2",
+      "enunciado": "El IRPF se devenga, con carácter general:",
+      "opciones": [
+        "El 1 de enero de cada año",
+        "El último día del plazo de declaración",
+        "El 31 de diciembre de cada año",
+        "El 30 de junio de cada año"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 12.2 dispone: «El Impuesto se devengará el 31 de diciembre de cada año».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-021",
+      "ley": "ley-35-2006",
+      "articulo": "13",
+      "enunciado": "Si el contribuyente fallece el 15 de marzo, el período impositivo termina y el impuesto se devenga:",
+      "opciones": [
+        "El 31 de diciembre de ese año",
+        "El día en que se acepte la herencia",
+        "El último día del plazo de declaración de ese año",
+        "El 15 de marzo, fecha del fallecimiento"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 13.2 establece que «el período impositivo terminará y se devengará el impuesto en la fecha del fallecimiento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-022",
+      "ley": "ley-35-2006",
+      "articulo": "14.1.a",
+      "enunciado": "Los rendimientos del trabajo y del capital se imputan al período impositivo en que:",
+      "opciones": [
+        "Se cobren efectivamente",
+        "Sean exigibles por su perceptor",
+        "Se presente la declaración",
+        "Se practiquen las retenciones"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 14.1.a) dispone: «Los rendimientos del trabajo y del capital se imputarán al período impositivo en que sean exigibles por su perceptor».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-023",
+      "ley": "ley-35-2006",
+      "articulo": "14.1.c",
+      "enunciado": "Las ganancias y pérdidas patrimoniales se imputan, con carácter general, al período impositivo en que:",
+      "opciones": [
+        "Se cobre el precio de la operación",
+        "Se presente la declaración",
+        "Tenga lugar la alteración patrimonial",
+        "Se inscriba el bien en un registro público"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 14.1.c) establece que «Las ganancias y pérdidas patrimoniales se imputarán al período impositivo en que tenga lugar la alteración patrimonial».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-024",
+      "ley": "ley-35-2006",
+      "articulo": "14.2.a",
+      "enunciado": "Si una renta no se ha satisfecho por estar pendiente de resolución judicial el derecho a su percepción, el importe no satisfecho se imputa al período en que:",
+      "opciones": [
+        "La resolución judicial adquiera firmeza",
+        "Se dicte la resolución en primera instancia",
+        "Se interponga la demanda",
+        "Se cobre efectivamente el importe"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 14.2.a) dice que «los importes no satisfechos se imputarán al período impositivo en que aquélla adquiera firmeza».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-025",
+      "ley": "ley-35-2006",
+      "articulo": "14.2.b",
+      "enunciado": "Si rendimientos del trabajo se perciben por causas justificadas en un período distinto al de su exigibilidad, la autoliquidación complementaria se presenta:",
+      "opciones": [
+        "En el mes siguiente a la fecha de su percepción",
+        "Entre la fecha de su percepción y el final del inmediato siguiente plazo de declaraciones del impuesto",
+        "En el plazo de tres meses desde que sean exigibles",
+        "Durante el plazo de declaraciones del período en que fueron exigibles"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 14.2.b) señala: «La autoliquidación se presentará en el plazo que media entre la fecha en que se perciban y el final del inmediato siguiente plazo de declaraciones por el impuesto».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-026",
+      "ley": "ley-35-2006",
+      "articulo": "14.2.d",
+      "enunciado": "Se consideran operaciones a plazos o con precio aplazado las que se cobren con pagos sucesivos cuando entre la entrega y el vencimiento del último plazo transcurra un período:",
+      "opciones": [
+        "Superior a seis meses",
+        "Superior a dos años",
+        "Igual o superior a tres años",
+        "Superior a un año"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 14.2.d), siempre que «el período transcurrido entre la entrega o la puesta a disposición y el vencimiento del último plazo sea superior al año».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-027",
+      "ley": "ley-35-2006",
+      "articulo": "14.2.g",
+      "enunciado": "Las ayudas por defectos estructurales de construcción de la vivienda habitual, destinadas a su reparación, pueden imputarse por cuartas partes en el período en que se obtengan y en:",
+      "opciones": [
+        "Los tres siguientes",
+        "Los cuatro siguientes",
+        "Los dos siguientes",
+        "Los cinco siguientes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 14.2.g) permite imputarlas «por cuartas partes, en el periodo impositivo en el que se obtengan y en los tres siguientes».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-028",
+      "ley": "ley-35-2006",
+      "articulo": "17.2.f",
+      "enunciado": "Las pensiones compensatorias recibidas del cónyuge tributan, en todo caso, como:",
+      "opciones": [
+        "Rendimientos del capital mobiliario",
+        "Rendimientos de actividades económicas",
+        "Rendimientos del trabajo",
+        "Ganancias patrimoniales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 17.2 dispone que «En todo caso, tendrán la consideración de rendimientos del trabajo» las «pensiones compensatorias recibidas del cónyuge y las anualidades por alimentos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-029",
+      "ley": "ley-35-2006",
+      "articulo": "17.3",
+      "enunciado": "Los rendimientos por impartir cursos y conferencias se califican como de actividades económicas, y no del trabajo, cuando:",
+      "opciones": [
+        "Se perciban de más de un pagador distinto durante el mismo año natural",
+        "Superen un período de generación de dos años y se imputen en un solo período",
+        "Se facturen con IVA por el propio contribuyente a sus clientes habituales",
+        "Supongan ordenar por cuenta propia medios de producción y recursos humanos, o uno de ellos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 17.3 los califica como actividades económicas cuando «supongan la ordenación por cuenta propia de medios de producción y de recursos humanos o de uno de ambos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-030",
+      "ley": "ley-35-2006",
+      "articulo": "18.2",
+      "enunciado": "Los rendimientos del trabajo (salvo prestaciones del art. 17.2.a) con período de generación superior a dos años, imputados en un único período impositivo, se reducen en un:",
+      "opciones": [
+        "20 por ciento",
+        "30 por ciento",
+        "40 por ciento",
+        "50 por ciento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 18.2 prevé «El 30 por ciento de reducción» para rendimientos «que tengan un período de generación superior a dos años».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-031",
+      "ley": "ley-35-2006",
+      "articulo": "18.3",
+      "enunciado": "La reducción del 30 % para prestaciones del art. 17.2.a) 1.ª y 2.ª en forma de capital exige más de dos años desde la primera aportación. Ese plazo no se exige en las prestaciones por:",
+      "opciones": [
+        "Jubilación",
+        "Viudedad",
+        "Invalidez",
+        "Orfandad"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 18.3 precisa: «El plazo de dos años no resultará exigible en el caso de prestaciones por invalidez».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-032",
+      "ley": "ley-35-2006",
+      "articulo": "19.2",
+      "enunciado": "¿Cuál de estos gastos es deducible del rendimiento íntegro del trabajo?",
+      "opciones": [
+        "Las cotizaciones a la Seguridad Social o a mutualidades generales obligatorias de funcionarios",
+        "Los gastos de formación no exigidos por la empresa",
+        "Los intereses del préstamo para adquirir la vivienda habitual",
+        "Las cuotas satisfechas a asociaciones recreativas o culturales"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 19.2 establece que «Tendrán la consideración de gastos deducibles exclusivamente los siguientes», entre ellos «Las cotizaciones a la Seguridad Social o a mutualidades generales obligatorias de funcionarios».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-033",
+      "ley": "ley-35-2006",
+      "articulo": "22.2",
+      "enunciado": "Para calcular el rendimiento íntegro del capital inmobiliario por arrendamiento, el importe que satisface el arrendatario se computa:",
+      "opciones": [
+        "Solo por la renta pactada, sin los bienes cedidos con el inmueble",
+        "Por todos los conceptos, incluidos los bienes cedidos con el inmueble y excluido el IVA o el IGIC",
+        "Por todos los conceptos, incluido el IVA repercutido",
+        "Solo por la renta que figure en el contrato escrito"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 22.2 computa «el importe que por todos los conceptos deba satisfacer el adquirente, cesionario, arrendatario o subarrendatario, incluido, en su caso, el correspondiente a todos aquellos bienes cedidos con el inmueble y excluido el Impuesto sobre el Valor Añadido».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-034",
+      "ley": "ley-35-2006",
+      "articulo": "23.1.b",
+      "enunciado": "La amortización de un inmueble arrendado cumple el requisito de efectividad si no excede de aplicar:",
+      "opciones": [
+        "El 3 por ciento sobre el menor del coste de adquisición o el valor catastral, sin incluir el suelo",
+        "El 2 por ciento sobre el mayor del coste de adquisición o el valor catastral, sin incluir el suelo",
+        "El 3 por ciento sobre el valor catastral total, incluido el suelo",
+        "El 3 por ciento sobre el mayor del coste de adquisición o el valor catastral, sin incluir el suelo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 23.1.b) la considera efectiva «si no excede del resultado de aplicar el 3 por ciento sobre el mayor de los siguientes valores: el coste de adquisición satisfecho o el valor catastral, sin incluir el valor del suelo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-035",
+      "ley": "ley-35-2006",
+      "articulo": "25.3.a",
+      "enunciado": "Una renta vitalicia inmediata, no adquirida por herencia, tributa como rendimiento del capital mobiliario aplicando a cada anualidad un porcentaje. Si el perceptor tenía entre 50 y 59 años al constituirse, es:",
+      "opciones": [
+        "28 por ciento",
+        "35 por ciento",
+        "24 por ciento",
+        "20 por ciento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 25.3.a).2.º fija «28 por ciento, cuando el perceptor tenga entre 50 y 59 años», según la edad en la constitución de la renta.",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-036",
+      "ley": "ley-35-2006",
+      "articulo": "25.4.d",
+      "enunciado": "Constituye rendimiento del capital mobiliario, salvo que se obtenga en el ámbito de una actividad económica:",
+      "opciones": [
+        "El alquiler de un local comercial",
+        "La ganancia obtenida con la venta de un inmueble",
+        "La cesión del derecho a la explotación de la imagen",
+        "Las pensiones compensatorias recibidas del cónyuge"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 25.4.d) incluye «Los procedentes de la cesión del derecho a la explotación de la imagen o del consentimiento o autorización para su utilización, salvo que dicha cesión tenga lugar en el ámbito de una actividad económica».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-037",
+      "ley": "ley-35-2006",
+      "articulo": "27.1",
+      "enunciado": "Son rendimientos de actividades económicas los que supongan la ordenación por cuenta propia de medios de producción y recursos humanos, o de uno de ambos, con la finalidad de:",
+      "opciones": [
+        "Obtener un beneficio superior al salario mínimo",
+        "Prestar servicios únicamente a una entidad vinculada",
+        "Cumplir la obligación de inscribirse en el Registro Mercantil",
+        "Intervenir en la producción o distribución de bienes o servicios"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 27.1 los define como los que supongan la ordenación por cuenta propia de medios de producción y de recursos humanos o de uno de ambos, «con la finalidad de intervenir en la producción o distribución de bienes o servicios».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-038",
+      "ley": "ley-35-2006",
+      "articulo": "27.2",
+      "enunciado": "El arrendamiento de inmuebles se entiende realizado como actividad económica únicamente cuando se utilice, al menos:",
+      "opciones": [
+        "Una persona empleada con contrato laboral, aunque sea a tiempo parcial",
+        "Una persona empleada con contrato laboral y a jornada completa",
+        "Dos personas empleadas con contrato laboral",
+        "Un local destinado en exclusiva a la gestión del arrendamiento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 27.2 dispone que se entenderá así «únicamente cuando para la ordenación de esta se utilice, al menos, una persona empleada con contrato laboral y a jornada completa».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-039",
+      "ley": "ley-35-2006",
+      "articulo": "28.3",
+      "enunciado": "Se entiende que no ha existido afectación de un elemento patrimonial a la actividad económica si se enajena antes de transcurridos desde ella:",
+      "opciones": [
+        "Un año",
+        "Dos años",
+        "Tres años",
+        "Cinco años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 28.3 señala: «Se entenderá que no ha existido afectación si se llevase a cabo la enajenación de los bienes o derechos antes de transcurridos tres años desde ésta».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    },
+    {
+      "id": "ir1-040",
+      "ley": "ley-35-2006",
+      "articulo": "30.1",
+      "enunciado": "La modalidad simplificada de la estimación directa se aplica a determinadas actividades cuyo importe neto de la cifra de negocios no supere, en el año anterior:",
+      "opciones": [
+        "600.000 euros",
+        "300.000 euros",
+        "450.000 euros",
+        "150.000 euros"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 30.1 dice que la modalidad simplificada se aplicará a actividades cuyo importe neto de cifra de negocios «no supere los 600.000 euros en el año inmediato anterior».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 27
+      }
+    }
+  ]
+}

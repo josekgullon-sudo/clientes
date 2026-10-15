@@ -1,0 +1,805 @@
+{
+  "descripcion": "Impuesto sobre Sociedades (Ley 27/2014 y Reglamento RD 634/2015), tema 29 de Agente de la Hacienda Pública. Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "isc-001",
+      "ley": "ley-27-2014",
+      "articulo": "1",
+      "enunciado": "El Impuesto sobre Sociedades es un tributo:",
+      "opciones": [
+        "De carácter directo y naturaleza personal",
+        "De carácter indirecto y naturaleza real",
+        "De carácter directo y naturaleza real",
+        "De carácter indirecto y naturaleza personal"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 1 define el impuesto como «un tributo de carácter directo y naturaleza personal que grava la renta de las sociedades y demás entidades jurídicas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-002",
+      "ley": "ley-27-2014",
+      "articulo": "4.1",
+      "enunciado": "Según la Ley 27/2014, constituye el hecho imponible del Impuesto sobre Sociedades:",
+      "opciones": [
+        "La titularidad de un patrimonio neto superior al capital social",
+        "La distribución de dividendos entre los socios de la entidad",
+        "El ejercicio de una actividad económica en territorio español",
+        "La obtención de renta por el contribuyente, cualquiera que fuese su fuente u origen"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 4.1 dispone que «constituirá el hecho imponible la obtención de renta por el contribuyente, cualquiera que fuese su fuente u origen».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-003",
+      "ley": "ley-27-2014",
+      "articulo": "5.1",
+      "enunciado": "A efectos del IS, el arrendamiento de inmuebles se considera actividad económica únicamente cuando se utilice, al menos:",
+      "opciones": [
+        "Una persona empleada con contrato laboral, aunque sea a tiempo parcial",
+        "Una persona empleada con contrato laboral y jornada completa",
+        "Dos personas empleadas con contrato laboral y jornada completa",
+        "Una persona empleada o un trabajador autónomo económicamente dependiente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 5.1 establece que existe actividad económica «únicamente cuando para su ordenación se utilice, al menos, una persona empleada con contrato laboral y jornada completa».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-004",
+      "ley": "ley-27-2014",
+      "articulo": "5.2",
+      "enunciado": "Tiene la consideración de entidad patrimonial aquella en la que:",
+      "opciones": [
+        "Al menos un tercio de su activo esté constituido por valores",
+        "Más de la mitad de su activo esté constituido por valores o no esté afecto a una actividad económica",
+        "Más del 75 por ciento de sus ingresos procedan de valores",
+        "La totalidad de su activo no esté afecto a una actividad económica"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 5.2, es entidad patrimonial «aquella en la que más de la mitad de su activo esté constituido por valores o no esté afecto, en los términos del apartado anterior, a una actividad económica».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-005",
+      "ley": "ley-27-2014",
+      "articulo": "7.1.a",
+      "enunciado": "Cuando tengan su residencia en territorio español, NO son contribuyentes del Impuesto sobre Sociedades:",
+      "opciones": [
+        "Las sociedades agrarias de transformación",
+        "Los fondos de pensiones",
+        "Las uniones temporales de empresas",
+        "Las sociedades civiles que no tengan objeto mercantil"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 7.1.a) incluye a «las personas jurídicas, excluidas las sociedades civiles que no tengan objeto mercantil», mientras que las letras b), d) y f) incluyen a las sociedades agrarias de transformación, las uniones temporales de empresas y los fondos de pensiones.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-006",
+      "ley": "ley-27-2014",
+      "articulo": "8.1.a",
+      "enunciado": "Se considera residente en territorio español, a efectos del IS, la entidad que:",
+      "opciones": [
+        "Se hubiera constituido conforme a las leyes españolas",
+        "Tenga la mayoría de sus socios residentes en España",
+        "Realice en España la mayor parte de sus ventas",
+        "Tenga su capital íntegramente suscrito por residentes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 8.1 considera residentes las entidades en las que concurra, entre otros requisitos, «que se hubieran constituido conforme a las leyes españolas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-007",
+      "ley": "ley-27-2014",
+      "articulo": "8.1.c",
+      "enunciado": "A efectos de la residencia, se entiende que una entidad tiene su sede de dirección efectiva en territorio español cuando en él radique:",
+      "opciones": [
+        "La mayor parte de sus activos inmobiliarios",
+        "El domicilio de la mayoría de sus socios",
+        "La dirección y control del conjunto de sus actividades",
+        "El centro de producción con más trabajadores"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 8.1 explica que se cumple este requisito «cuando en él radique la dirección y control del conjunto de sus actividades».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-008",
+      "ley": "ley-27-2014",
+      "articulo": "9.1.c",
+      "enunciado": "¿Cuál de las siguientes entidades está totalmente exenta del Impuesto sobre Sociedades?",
+      "opciones": [
+        "Los colegios profesionales",
+        "Los sindicatos de trabajadores",
+        "Las uniones, federaciones y confederaciones de cooperativas",
+        "El Banco de España"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 9.1.c) declara totalmente exentos al «Banco de España, el Fondo de Garantía de Depósitos de Entidades de Crédito y los Fondos de garantía de inversiones», mientras que el 9.3 solo declara «parcialmente exentos» a las demás entidades citadas.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-009",
+      "ley": "ley-27-2014",
+      "articulo": "10.3",
+      "enunciado": "En el método de estimación directa, la base imponible se calcula corrigiendo, mediante la aplicación de la Ley del IS:",
+      "opciones": [
+        "La cifra de negocios",
+        "El resultado contable",
+        "El resultado de explotación",
+        "El patrimonio neto"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 10.3 dispone que «la base imponible se calculará, corrigiendo, mediante la aplicación de los preceptos establecidos en esta Ley, el resultado contable».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-010",
+      "ley": "ley-27-2014",
+      "articulo": "11.4",
+      "enunciado": "Se consideran operaciones a plazos o con precio aplazado aquellas cuya contraprestación sea exigible mediante pagos sucesivos o un solo pago, siempre que entre el devengo y el vencimiento del último plazo transcurra un período:",
+      "opciones": [
+        "Superior a seis meses",
+        "Superior a dos años",
+        "Superior al año",
+        "Igual o superior a tres años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 11.4 considera operaciones a plazos las que cumplan que «el período transcurrido entre el devengo y el vencimiento del último o único plazo sea superior al año».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-011",
+      "ley": "ley-27-2014",
+      "articulo": "12.1.b",
+      "enunciado": "En la amortización por porcentaje constante sobre el valor pendiente de amortización, el porcentaje constante no podrá ser inferior al:",
+      "opciones": [
+        "11 por ciento",
+        "10 por ciento",
+        "12 por ciento",
+        "15 por ciento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 12.1.b) señala que «el porcentaje constante no podrá ser inferior al 11 por ciento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-012",
+      "ley": "ley-27-2014",
+      "articulo": "12.1.b",
+      "enunciado": "Para determinar el porcentaje constante de amortización, el coeficiente lineal se pondera por 2,5 si el elemento tiene un período de amortización:",
+      "opciones": [
+        "Igual o superior a 8 años",
+        "Inferior a 5 años",
+        "Igual o superior a 5 años e inferior a 8 años",
+        "Igual o superior a 10 años y no superior a 20"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 12.1.b) fija el coeficiente «2,5, si el elemento tiene un período de amortización igual o superior a 8 años».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-013",
+      "ley": "ley-27-2014",
+      "articulo": "12.1.c",
+      "enunciado": "¿Cuál de los siguientes elementos NO puede acogerse a la amortización mediante el método de los números dígitos?",
+      "opciones": [
+        "La maquinaria",
+        "Los elementos de transporte",
+        "El mobiliario y enseres",
+        "Los equipos para procesos de información"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 12.1.c) establece que «los edificios, mobiliario y enseres no podrán acogerse a la amortización mediante números dígitos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-014",
+      "ley": "ley-27-2014",
+      "articulo": "12.3.e",
+      "enunciado": "Pueden amortizarse libremente los elementos nuevos del inmovilizado material cuyo valor unitario no exceda de:",
+      "opciones": [
+        "300 euros, hasta el límite de 50.000 euros referido al período impositivo",
+        "300 euros, hasta el límite de 25.000 euros referido al período impositivo",
+        "600 euros, hasta el límite de 25.000 euros referido al período impositivo",
+        "1.000 euros, hasta el límite de 10.000 euros referido al período impositivo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 12.3.e) permite amortizar libremente «los elementos del inmovilizado material nuevos, cuyo valor unitario no exceda de 300 euros, hasta el límite de 25.000 euros referido al período impositivo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-015",
+      "ley": "ley-27-2014",
+      "articulo": "13.1.a",
+      "enunciado": "Es deducible la pérdida por deterioro de un crédito por insolvencia del deudor cuando, en el momento del devengo, haya transcurrido desde el vencimiento de la obligación el plazo de:",
+      "opciones": [
+        "3 meses",
+        "12 meses",
+        "2 años",
+        "6 meses"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 13.1.a) exige «que haya transcurrido el plazo de 6 meses desde el vencimiento de la obligación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-016",
+      "ley": "ley-27-2014",
+      "articulo": "13.1",
+      "enunciado": "¿Cuál de las siguientes pérdidas por deterioro de créditos es fiscalmente deducible, con carácter general?",
+      "opciones": [
+        "La derivada de una estimación global del riesgo de insolvencias de clientes",
+        "La de un crédito adeudado por una entidad de derecho público sin litigio sobre él",
+        "La de un crédito cuyo deudor está declarado en concurso",
+        "La de un crédito adeudado por una entidad vinculada que no esté en concurso"
+      ],
+      "correcta": 2,
+      "explicacion": "Es deducible el deterioro cuando «el deudor esté declarado en situación de concurso» (art. 13.1.b), y no lo son «las correspondientes a estimaciones globales del riesgo de insolvencias de clientes y deudores».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-017",
+      "ley": "ley-27-2014",
+      "articulo": "15.c",
+      "enunciado": "No tienen la consideración de gastos fiscalmente deducibles:",
+      "opciones": [
+        "Las multas y sanciones penales y administrativas",
+        "Los gastos por atenciones a clientes dentro del límite legal",
+        "Las retribuciones a administradores por funciones de alta dirección",
+        "Los gastos realizados para promocionar la venta de bienes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 15.c) excluye «las multas y sanciones penales y administrativas, los recargos del período ejecutivo y el recargo por declaración extemporánea sin requerimiento previo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-018",
+      "ley": "ley-27-2014",
+      "articulo": "15.e",
+      "enunciado": "Los gastos por atenciones a clientes o proveedores son deducibles con el límite del:",
+      "opciones": [
+        "5 por ciento del importe neto de la cifra de negocios del período impositivo",
+        "1 por ciento de la base imponible previa del período impositivo",
+        "10 por ciento de los gastos de personal del período impositivo",
+        "1 por ciento del importe neto de la cifra de negocios del período impositivo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 15.e) dispone que «los gastos por atenciones a clientes o proveedores serán deducibles con el límite del 1 por ciento del importe neto de la cifra de negocios del período impositivo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-019",
+      "ley": "ley-27-2014",
+      "articulo": "15.i",
+      "enunciado": "No son deducibles los gastos derivados de la extinción de la relación laboral que excedan, para cada perceptor, del mayor de dos importes. Uno de ellos es:",
+      "opciones": [
+        "500.000 euros",
+        "1 millón de euros",
+        "2 millones de euros",
+        "100.000 euros"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 15.i) no admite los gastos que «excedan, para cada perceptor, del mayor de los siguientes importes: 1.º 1 millón de euros»; el 2.º es el importe obligatorio según el Estatuto de los Trabajadores.",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-020",
+      "ley": "ley-27-2014",
+      "articulo": "16.1",
+      "enunciado": "Los gastos financieros netos son deducibles con el límite del:",
+      "opciones": [
+        "30 por ciento de la base imponible previa",
+        "30 por ciento del beneficio operativo del ejercicio",
+        "50 por ciento del beneficio operativo del ejercicio",
+        "25 por ciento del importe neto de la cifra de negocios"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 16.1 establece que «los gastos financieros netos serán deducibles con el límite del 30 por ciento del beneficio operativo del ejercicio».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-021",
+      "ley": "ley-27-2014",
+      "articulo": "16.2",
+      "enunciado": "Si los gastos financieros netos del período no alcanzan el límite del artículo 16.1, la diferencia se adiciona al límite en los períodos impositivos que concluyan en los:",
+      "opciones": [
+        "Tres años inmediatos y sucesivos",
+        "Diez años inmediatos y sucesivos",
+        "Dieciocho años inmediatos y sucesivos",
+        "Cinco años inmediatos y sucesivos"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 16.2, la diferencia se adicionará al límite «en los períodos impositivos que concluyan en los cinco años inmediatos y sucesivos, hasta que se deduzca dicha diferencia».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-022",
+      "ley": "ley-27-2014",
+      "articulo": "18.1",
+      "enunciado": "Las operaciones efectuadas entre personas o entidades vinculadas se valorarán, a efectos del IS, por su:",
+      "opciones": [
+        "Valor de mercado",
+        "Valor contable",
+        "Valor nominal",
+        "Valor catastral"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 18.1 dispone que «las operaciones efectuadas entre personas o entidades vinculadas se valorarán por su valor de mercado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-023",
+      "ley": "ley-27-2014",
+      "articulo": "18.3",
+      "enunciado": "La documentación específica de operaciones vinculadas tiene un contenido simplificado para las personas o entidades cuyo importe neto de la cifra de negocios sea inferior a:",
+      "opciones": [
+        "10 millones de euros",
+        "25 millones de euros",
+        "45 millones de euros",
+        "100 millones de euros"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 18.3 establece que la documentación «tendrá un contenido simplificado» para vinculadas cuyo importe neto de la cifra de negocios «sea inferior a 45 millones de euros».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-024",
+      "ley": "ley-27-2014",
+      "articulo": "25.1",
+      "enunciado": "Para aplicar la reducción por reserva de capitalización, el incremento de los fondos propios debe mantenerse, salvo pérdidas contables, durante un plazo de:",
+      "opciones": [
+        "1 año desde el cierre del período impositivo",
+        "5 años desde el cierre del período impositivo",
+        "10 años desde el cierre del período impositivo",
+        "3 años desde el cierre del período impositivo"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 25.1.a) exige «que el importe del incremento de los fondos propios de la entidad se mantenga durante un plazo de 3 años desde el cierre del período impositivo al que corresponda esta reducción».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-025",
+      "ley": "ley-27-2014",
+      "articulo": "25.1",
+      "enunciado": "La reducción por reserva de capitalización no puede superar un porcentaje de la base imponible positiva previa. Si la cifra de negocios de los 12 meses anteriores es inferior a 1 millón de euros, dicho porcentaje es:",
+      "opciones": [
+        "El 20 por ciento",
+        "El 25 por ciento",
+        "El 30 por ciento",
+        "El 50 por ciento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 25.1 fija el límite en «el 25 por ciento de la base imponible positiva del período impositivo previa a esta reducción» para los contribuyentes con importe neto de la cifra de negocios «inferior a 1 millón de euros».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-026",
+      "ley": "ley-27-2014",
+      "articulo": "26.1",
+      "enunciado": "Con carácter general, la compensación de bases imponibles negativas está limitada al porcentaje de la base imponible previa que establece la Ley. Ese porcentaje es el:",
+      "opciones": [
+        "50 por ciento",
+        "60 por ciento",
+        "70 por ciento",
+        "80 por ciento"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 26.1 permite compensar las bases imponibles negativas «con el límite del 70 por ciento de la base imponible previa a la aplicación de la reserva de capitalización».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-027",
+      "ley": "ley-27-2014",
+      "articulo": "26.3",
+      "enunciado": "El límite porcentual de compensación de bases imponibles negativas no se aplica a las entidades de nueva creación del artículo 29.1 durante:",
+      "opciones": [
+        "Los 3 primeros períodos impositivos en que se genere una base imponible positiva previa",
+        "Los 2 primeros períodos impositivos desde su constitución",
+        "Los 5 primeros períodos impositivos desde su constitución",
+        "El primer período impositivo en que se genere una base imponible positiva previa"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 26.3 dispone que el límite no resultará de aplicación a las entidades de nueva creación «en los 3 primeros períodos impositivos en que se genere una base imponible positiva previa a su compensación».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-028",
+      "ley": "ley-27-2014",
+      "articulo": "27.3",
+      "enunciado": "El período impositivo del Impuesto sobre Sociedades no excederá de:",
+      "opciones": [
+        "12 meses",
+        "6 meses",
+        "18 meses",
+        "24 meses"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 27.3 establece que «el período impositivo no excederá de 12 meses».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-029",
+      "ley": "ley-27-2014",
+      "articulo": "28",
+      "enunciado": "El Impuesto sobre Sociedades se devenga:",
+      "opciones": [
+        "El primer día del período impositivo",
+        "El 31 de diciembre de cada año",
+        "El último día del período impositivo",
+        "El día de presentación de la declaración"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 28 dispone que «el impuesto se devengará el último día del período impositivo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-030",
+      "ley": "ley-27-2014",
+      "articulo": "29.1",
+      "enunciado": "El tipo general de gravamen del Impuesto sobre Sociedades es el:",
+      "opciones": [
+        "20 por ciento",
+        "25 por ciento",
+        "30 por ciento",
+        "23 por ciento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 29.1 establece que «el tipo general de gravamen para los contribuyentes de este Impuesto será el 25 por ciento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-031",
+      "ley": "ley-27-2014",
+      "articulo": "29.1",
+      "enunciado": "Las entidades de nueva creación que realicen actividades económicas tributan, en el primer período impositivo en que la base imponible resulte positiva y en el siguiente, al tipo del:",
+      "opciones": [
+        "17 por ciento",
+        "10 por ciento",
+        "20 por ciento",
+        "15 por ciento"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 29.1, estas entidades «tributarán, en el primer período impositivo en que la base imponible resulte positiva y en el siguiente, al tipo del 15 por ciento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-032",
+      "ley": "ley-27-2014",
+      "articulo": "29.6",
+      "enunciado": "Las entidades de crédito tributan en el Impuesto sobre Sociedades al tipo del:",
+      "opciones": [
+        "25 por ciento",
+        "35 por ciento",
+        "30 por ciento",
+        "20 por ciento"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 29.6 dispone que «tributarán al tipo del 30 por ciento las entidades de crédito».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-033",
+      "ley": "ley-27-2014",
+      "articulo": "29.2",
+      "enunciado": "Las sociedades cooperativas fiscalmente protegidas tributan, por sus resultados cooperativos, a los tipos del apartado 1 minorados en:",
+      "opciones": [
+        "Tres puntos porcentuales, sin que el tipo resultante supere el 20 por ciento",
+        "Cinco puntos porcentuales, sin que el tipo resultante supere el 15 por ciento",
+        "Dos puntos porcentuales, sin que el tipo resultante supere el 25 por ciento",
+        "Tres puntos porcentuales, sin que el tipo resultante supere el 25 por ciento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 29.2 señala que tributarán «a los tipos de gravamen resultantes de minorar en tres puntos porcentuales los tipos de gravamen previstos en el apartado anterior, siempre que el tipo resultante no supere el 20 por ciento».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-034",
+      "ley": "ley-27-2014",
+      "articulo": "33.1",
+      "enunciado": "Las rentas obtenidas en Ceuta o Melilla por entidades que operen efectiva y materialmente en dichos territorios tienen una bonificación en la cuota íntegra del:",
+      "opciones": [
+        "50 por ciento",
+        "75 por ciento",
+        "95 por ciento",
+        "60 por ciento"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 33.1 establece «una bonificación del 60 por ciento, la parte de cuota íntegra que corresponda a las rentas obtenidas en Ceuta o Melilla».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-035",
+      "ley": "ley-27-2014",
+      "articulo": "39.1",
+      "enunciado": "Las cantidades correspondientes a las deducciones del capítulo IV no deducidas en el período podrán aplicarse en los períodos impositivos que concluyan en los:",
+      "opciones": [
+        "10 años inmediatos y sucesivos",
+        "15 años inmediatos y sucesivos",
+        "5 años inmediatos y sucesivos",
+        "20 años inmediatos y sucesivos"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 39.1 dispone que «las cantidades correspondientes al período impositivo no deducidas podrán aplicarse en las liquidaciones de los periodos impositivos que concluyan en los 15 años inmediatos y sucesivos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-036",
+      "ley": "ley-27-2014",
+      "articulo": "40.1",
+      "enunciado": "Los pagos fraccionados del Impuesto sobre Sociedades se efectúan en los primeros 20 días naturales de los meses de:",
+      "opciones": [
+        "Marzo, junio y septiembre",
+        "Abril, octubre y diciembre",
+        "Enero, abril y julio",
+        "Abril, julio y octubre"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 40.1 ordena que «en los primeros 20 días naturales de los meses de abril, octubre y diciembre, los contribuyentes deberán efectuar un pago fraccionado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-037",
+      "ley": "ley-27-2014",
+      "articulo": "101.1",
+      "enunciado": "Los incentivos fiscales para entidades de reducida dimensión se aplican si el importe neto de la cifra de negocios del período impositivo inmediato anterior fue inferior a:",
+      "opciones": [
+        "1 millón de euros",
+        "6 millones de euros",
+        "20 millones de euros",
+        "10 millones de euros"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 101.1 dispone que los incentivos se aplicarán «siempre que el importe neto de la cifra de negocios habida en el período impositivo inmediato anterior sea inferior a 10 millones de euros».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-038",
+      "ley": "ley-27-2014",
+      "articulo": "105.1",
+      "enunciado": "Una entidad de reducida dimensión que aplica la reserva de nivelación puede minorar su base imponible positiva hasta el:",
+      "opciones": [
+        "10 por ciento de su importe, sin superar 1 millón de euros",
+        "20 por ciento de su importe, sin superar 1 millón de euros",
+        "10 por ciento de su importe, sin superar 5 millones de euros",
+        "25 por ciento de su importe, sin límite de cuantía"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 105.1 permite «minorar su base imponible positiva hasta el 10 por ciento de su importe» y añade que «la minoración no podrá superar el importe de 1 millón de euros».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-039",
+      "ley": "ley-27-2014",
+      "articulo": "124.1",
+      "enunciado": "Una sociedad cuyo período impositivo coincide con el año natural debe presentar la declaración del IS en el plazo de los 25 días naturales siguientes a los 6 meses posteriores a la conclusión del período. ¿Hasta qué fecha puede presentarla?",
+      "opciones": [
+        "El 25 de junio",
+        "El 30 de junio",
+        "El 25 de julio",
+        "El 25 de octubre"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 124.1 señala que «la declaración se presentará en el plazo de los 25 días naturales siguientes a los 6 meses posteriores a la conclusión del período impositivo»; si este termina el 31 de diciembre, los 6 meses acaban el 30 de junio.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-09-03",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    },
+    {
+      "id": "isc-040",
+      "ley": "rd-634-2015",
+      "articulo": "1.3",
+      "enunciado": "Una entidad que utiliza a efectos contables un criterio de imputación temporal distinto del devengo debe solicitar su eficacia fiscal con, al menos, la siguiente antelación a la conclusión del primer período impositivo en que quiera que surta efectos:",
+      "opciones": [
+        "3 meses",
+        "1 mes",
+        "12 meses",
+        "6 meses"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 1.3 del Reglamento establece que «la solicitud se presentará con, al menos, 6 meses de antelación a la conclusión del primer período impositivo respecto del que se pretenda que tenga efectos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-05-29",
+      "estado": "borrador",
+      "temas": {
+        "agente-aeat": 29
+      }
+    }
+  ]
+}
