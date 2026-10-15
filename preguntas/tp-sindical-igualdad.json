@@ -1,0 +1,705 @@
+{
+  "descripcion": "Tramitación Procesal, temas 15 (libertad sindical y representación del personal) y 2 (igualdad y no discriminación). Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "tpg-001",
+      "ley": "lo-11-1985",
+      "articulo": "3.2",
+      "enunciado": "Los cargos directivos o de representación sindical no pueden desempeñar a la vez en las Administraciones públicas cargos de libre designación de categoría mínima de:",
+      "opciones": [
+        "Subdirector General o asimilados",
+        "Jefe de Servicio o asimilados",
+        "Director General o asimilados",
+        "Subsecretario o asimilados"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 3.2 de la LO 11/1985 dice que quienes ostenten esos cargos «no podrán desempeñar, simultáneamente, en las Administraciones públicas cargos de libre designación de categoría de Director General o asimilados, así como cualquier otro de rango superior».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-002",
+      "ley": "lo-11-1985",
+      "articulo": "1.3",
+      "enunciado": "Según la LO 11/1985, quedan exceptuados del ejercicio del derecho de sindicación:",
+      "opciones": [
+        "Los miembros de las Fuerzas Armadas y de los Institutos Armados de carácter militar",
+        "Los trabajadores en paro y los jubilados por incapacidad",
+        "Los funcionarios interinos de las Administraciones públicas",
+        "Los miembros de los Cuerpos y Fuerzas de Seguridad no militares"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 1.3 establece: «Quedan exceptuados del ejercicio de este derecho los miembros de las Fuerzas Armadas y de los Institutos Armados de carácter militar».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-003",
+      "ley": "lo-11-1985",
+      "articulo": "2.2.c",
+      "enunciado": "Las organizaciones sindicales solo pueden ser suspendidas o disueltas mediante:",
+      "opciones": [
+        "Resolución de la oficina pública donde se depositaron sus estatutos",
+        "Acuerdo del Consejo de Ministros, previo informe del Ministerio Fiscal",
+        "Resolución de la Administración, recurrible ante la jurisdicción social",
+        "Resolución firme de la Autoridad Judicial, fundada en incumplimiento grave de las Leyes"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 2.2.c), los sindicatos tienen derecho a «No ser suspendidas ni disueltas sino mediante resolución firme de la Autoridad Judicial, fundada en incumplimiento grave de las Leyes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-004",
+      "ley": "lo-11-1985",
+      "articulo": "4.7",
+      "enunciado": "Un sindicato adquiere personalidad jurídica y plena capacidad de obrar una vez transcurridos desde el depósito de sus estatutos:",
+      "opciones": [
+        "Diez días hábiles",
+        "Veinte días hábiles",
+        "Treinta días naturales",
+        "Un mes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 4.7 dice: «El sindicato adquirirá personalidad jurídica y plena capacidad de obrar, transcurridos veinte días hábiles desde el depósito de los estatutos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-005",
+      "ley": "lo-11-1985",
+      "articulo": "6.2.a",
+      "enunciado": "Para ser sindicato más representativo a nivel estatal por audiencia, hay que obtener, como mínimo, este porcentaje del total de delegados de personal y miembros de comités y órganos de las Administraciones:",
+      "opciones": [
+        "El 15 por 100",
+        "El 10 por 100",
+        "El 5 por 100",
+        "El 20 por 100"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 6.2.a) exige una audiencia «del 10 por 100 o más del total de delegados de personal de los miembros de los comités de empresa y de los correspondientes órganos de las Administraciones públicas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-006",
+      "ley": "lo-11-1985",
+      "articulo": "7.1",
+      "enunciado": "Un sindicato de ámbito de Comunidad Autónoma, no federado con organizaciones estatales, necesita el 15 por 100 de los representantes y, además, un mínimo de:",
+      "opciones": [
+        "1.000 representantes",
+        "2.500 representantes",
+        "750 representantes",
+        "1.500 representantes"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 7.1.a) lo exige «siempre que cuenten con un mínimo de 1.500 representantes y no estén federados o confederados con organizaciones sindicales de ámbito estatal».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-007",
+      "ley": "lo-11-1985",
+      "articulo": "10.2",
+      "enunciado": "A falta de acuerdo, ¿cuántos delegados sindicales corresponden a la sección sindical de un sindicato con el 10 por 100 de los votos en un centro de 1.200 trabajadores?",
+      "opciones": [
+        "Dos",
+        "Uno",
+        "Tres",
+        "Cuatro"
+      ],
+      "correcta": 0,
+      "explicacion": "La escala del artículo 10.2 establece: «De 751 a 2.000 trabajadores: Dos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-008",
+      "ley": "lo-11-1985",
+      "articulo": "10.2",
+      "enunciado": "Una sección sindical cuyo sindicato no ha obtenido el 10 por 100 de los votos, en un centro con 3.000 trabajadores, está representada por:",
+      "opciones": [
+        "Dos delegados sindicales",
+        "Tres delegados sindicales",
+        "Un solo delegado sindical",
+        "Los que se fijen por la escala general"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 10.2 señala: «Las Secciones Sindicales de aquellos sindicatos que no hayan obtenido el 10 por 100 de los votos estarán representadas por un solo delegado sindical».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-009",
+      "ley": "lo-11-1985",
+      "articulo": "8.2.c",
+      "enunciado": "Las secciones sindicales de los sindicatos más representativos tienen derecho a un local adecuado en centros de trabajo con más de:",
+      "opciones": [
+        "100 trabajadores",
+        "500 trabajadores",
+        "50 trabajadores",
+        "250 trabajadores"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 8.2.c) reconoce el derecho «A la utilización de un local adecuado en el que puedan desarrollar sus actividades en aquellas empresas o centros de trabajo con más de 250 trabajadores».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-010",
+      "ley": "lo-11-1985",
+      "articulo": "13",
+      "enunciado": "Un trabajador que considere lesionada su libertad sindical puede recabar la tutela del derecho a través de:",
+      "opciones": [
+        "Un recurso de alzada ante la Inspección de Trabajo",
+        "El proceso de protección jurisdiccional de los derechos fundamentales de la persona",
+        "Un recurso de amparo presentado directamente ante el Tribunal Constitucional",
+        "El procedimiento de conflicto colectivo ante la Mesa de Negociación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 13 permite a cualquier trabajador o sindicato «recabar la tutela del derecho ante la jurisdicción competente a través del proceso de protección jurisdiccional de los derechos fundamentales de la persona».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-011",
+      "ley": "lo-11-1985",
+      "articulo": "15",
+      "enunciado": "Si el órgano judicial entiende probada la violación de la libertad sindical, tras decretar el cese del comportamiento antisindical remite las actuaciones a:",
+      "opciones": [
+        "El Ministerio Fiscal",
+        "La Inspección de Trabajo",
+        "El Defensor del Pueblo",
+        "El Consejo General del Poder Judicial"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 15 dice que el órgano judicial «decretará el cese inmediato del comportamiento antisindical, así como la reparación consiguiente de sus consecuencias ilícitas, remitiendo las actuaciones al Ministerio Fiscal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-16",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-012",
+      "ley": "constitucion",
+      "articulo": "28.1",
+      "enunciado": "Según el artículo 28.1 de la Constitución, la ley regulará las peculiaridades del ejercicio de la libertad sindical para:",
+      "opciones": [
+        "Los trabajadores autónomos",
+        "Los miembros de la carrera judicial",
+        "Los funcionarios públicos",
+        "El personal laboral de las Administraciones"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 28.1 dispone que la ley «regulará las peculiaridades de su ejercicio para los funcionarios públicos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-013",
+      "ley": "constitucion",
+      "articulo": "28.2",
+      "enunciado": "La ley que regule el derecho de huelga establecerá las garantías precisas para asegurar el mantenimiento de:",
+      "opciones": [
+        "Los servicios mínimos de todas las empresas",
+        "Los servicios esenciales de la comunidad",
+        "La actividad de las Administraciones públicas",
+        "El orden público en los centros de trabajo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 28.2 de la Constitución señala: «La ley que regule el ejercicio de este derecho establecerá las garantías precisas para asegurar el mantenimiento de los servicios esenciales de la comunidad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-05-20",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-014",
+      "ley": "trebep",
+      "articulo": "39.2",
+      "enunciado": "En una unidad electoral con 40 funcionarios, la representación corresponde a Delegados de Personal. ¿Cuántos se eligen?",
+      "opciones": [
+        "Tres",
+        "Uno",
+        "Dos",
+        "Cinco"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 39.2 del TREBEP dice: «Hasta 30 funcionarios se elegirá un Delegado, y de 31 a 49 se elegirán tres, que ejercerán su representación conjunta y mancomunadamente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-015",
+      "ley": "trebep",
+      "articulo": "39.5",
+      "enunciado": "Una Junta de Personal en una unidad electoral de 300 funcionarios se compone de:",
+      "opciones": [
+        "9 representantes",
+        "17 representantes",
+        "21 representantes",
+        "13 representantes"
+      ],
+      "correcta": 3,
+      "explicacion": "La escala del artículo 39.5 del TREBEP prevé: «De 251 a 500 funcionarios: 13».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-016",
+      "ley": "trebep",
+      "articulo": "42",
+      "enunciado": "Según el TREBEP, el mandato de los miembros de las Juntas de Personal y de los Delegados de Personal es de:",
+      "opciones": [
+        "Dos años",
+        "Tres años",
+        "Cuatro años",
+        "Cinco años"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 42 establece que el mandato «será de cuatro años, pudiendo ser reelegidos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-017",
+      "ley": "trebep",
+      "articulo": "44.c",
+      "enunciado": "Un grupo de electores de una unidad electoral puede presentar candidatura si el número de ellos equivale, al menos, a:",
+      "opciones": [
+        "El triple de los miembros a elegir",
+        "El doble de los miembros a elegir",
+        "La mitad del censo de la unidad",
+        "El cuádruple de los miembros a elegir"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 44.c) del TREBEP, pueden presentarlas los grupos de electores «siempre que el número de ellos sea equivalente, al menos, al triple de los miembros a elegir».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-018",
+      "ley": "trebep",
+      "articulo": "46.1.d",
+      "enunciado": "Los empleados públicos pueden convocar una reunión si representan al menos este porcentaje del colectivo convocado:",
+      "opciones": [
+        "El 10 por 100",
+        "El 25 por 100",
+        "El 40 por 100",
+        "El 50 por 100"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 46.1.d) del TREBEP legitima a «Los empleados públicos de las Administraciones respectivas en número no inferior al 40 por 100 del colectivo convocado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-019",
+      "ley": "trebep",
+      "articulo": "41.1.c",
+      "enunciado": "Los miembros de las Juntas de Personal tienen derecho a audiencia en los expedientes disciplinarios durante su mandato y:",
+      "opciones": [
+        "Durante los seis meses posteriores",
+        "Durante el año inmediatamente posterior",
+        "Durante los dos años posteriores",
+        "Solo mientras dure el mandato"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 41.1.c) del TREBEP garantiza «La audiencia en los expedientes disciplinarios a que pudieran ser sometidos sus miembros durante el tiempo de su mandato y durante el año inmediatamente posterior».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-07-31",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-020",
+      "ley": "lo-6-1985",
+      "articulo": "496.c",
+      "enunciado": "Entre los derechos colectivos de los funcionarios al servicio de la Administración de Justicia, la LOPJ reconoce:",
+      "opciones": [
+        "La jubilación",
+        "La carrera profesional",
+        "Las vacaciones, permisos y licencias",
+        "La actividad sindical"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 496 enumera los derechos colectivos de los funcionarios, entre ellos «A la actividad sindical». La jubilación, la carrera profesional y las vacaciones son derechos profesionales del artículo 495.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 15
+      }
+    },
+    {
+      "id": "tpg-021",
+      "ley": "ley-15-2022",
+      "articulo": "2.4.d",
+      "enunciado": "A efectos de la Ley 15/2022, se entiende comprendida en el sector público:",
+      "opciones": [
+        "Los partidos políticos",
+        "Los colegios profesionales",
+        "Las organizaciones sindicales",
+        "La Administración de Justicia"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 2.4 incluye en el sector público, entre otras, a «d) La Administración de Justicia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-07-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 2
+      }
+    },
+    {
+      "id": "tpg-022",
+      "ley": "ley-15-2022",
+      "articulo": "4.1",
+      "enunciado": "Según la Ley 15/2022, se considera una vulneración del derecho a la igualdad de trato y no discriminación:",
+      "opciones": [
+        "Una diferencia de trato justificada objetivamente por una finalidad legítima",
+        "La denegación de ajustes razonables",
+        "La adopción de medidas de acción positiva razonables y proporcionadas",
+        "La mediación ante la Autoridad Independiente"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 4.1 enumera entre las vulneraciones «la denegación de ajustes razonables». En cambio, el artículo 4.2 dice que no es discriminación la diferencia de trato que pueda justificarse «objetivamente por una finalidad legítima».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 2
+      }
+    },
+    {
+      "id": "tpg-023",
+      "ley": "ley-15-2022",
+      "articulo": "6.1.b",
+      "enunciado": "Cuando una disposición, criterio o práctica aparentemente neutros ocasiona a una persona una desventaja particular por una causa de discriminación, hay discriminación:",
+      "opciones": [
+        "Indirecta",
+        "Directa",
+        "Por asociación",
+        "Por error"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 6.1.b) dice: «La discriminación indirecta se produce cuando una disposición, criterio o práctica aparentemente neutros ocasiona o puede ocasionar a una o varias personas una desventaja particular con respecto a otras».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-07-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 2
+      }
+    },
+    {
+      "id": "tpg-024",
+      "ley": "ley-15-2022",
+      "articulo": "6.2.a",
+      "enunciado": "Una empleada recibe un trato discriminatorio por su relación con su hijo, que tiene una discapacidad. Según la Ley 15/2022, es discriminación:",
+      "opciones": [
+        "Por error",
+        "Indirecta",
+        "Por asociación",
+        "Múltiple"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 6.2.a) la define así: «Existe discriminación por asociación cuando una persona o grupo en que se integra, debido a su relación con otra sobre la que concurra alguna de las causas previstas en el apartado primero del artículo 2 de esta ley, es objeto de un trato discriminatorio».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-07-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 2
+      }
+    },
+    {
+      "id": "tpg-025",
+      "ley": "ley-15-2022",
+      "articulo": "47.3.b",
+      "enunciado": "Según la Ley 15/2022, toda conducta de represalia se califica como infracción:",
+      "opciones": [
+        "Leve",
+        "Muy grave",
+        "Grave",
+        "No constituye infracción administrativa"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 47.3 considera infracciones graves, entre otras: «b) Toda conducta de represalia en los términos previstos en el artículo 6 de la presente ley».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 2
+      }
+    },
+    {
+      "id": "tpg-026",
+      "ley": "ley-15-2022",
+      "articulo": "47.4.b",
+      "enunciado": "De las siguientes conductas, constituye infracción muy grave según la Ley 15/2022:",
+      "opciones": [
+        "El acoso discriminatorio",
+        "La conducta de represalia",
+        "La inducción a discriminar a una persona",
+        "Una irregularidad formal sin efecto discriminatorio"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 47.4 considera infracciones muy graves, entre otras: «b) Las conductas de acoso discriminatorio reguladas en el artículo 6».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-07-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 2
+      }
+    },
+    {
+      "id": "tpg-027",
+      "ley": "ley-15-2022",
+      "articulo": "51",
+      "enunciado": "Según la Ley 15/2022, las infracciones calificadas como muy graves prescriben a los:",
+      "opciones": [
+        "Un año",
+        "Cuatro años",
+        "Tres años",
+        "Cinco años"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 51 dice que las infracciones «calificadas como leves prescribirán al año, las calificadas como graves a los tres años y las calificadas como muy graves a los cuatro años».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-07-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 2
+      }
+    },
+    {
+      "id": "tpg-028",
+      "ley": "ley-15-2022",
+      "articulo": "52.2",
+      "enunciado": "El plazo máximo para notificar la resolución del procedimiento sancionador de la Ley 15/2022 es de:",
+      "opciones": [
+        "Tres meses",
+        "Nueve meses",
+        "Un año",
+        "Seis meses"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 52.2 establece: «El plazo máximo en que deberá notificarse la resolución del procedimiento sancionador será de seis meses».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 2
+      }
+    },
+    {
+      "id": "tpg-029",
+      "ley": "ley-15-2022",
+      "articulo": "40.b",
+      "enunciado": "La Autoridad Independiente para la Igualdad de Trato puede ser órgano de mediación o conciliación, con consentimiento de las partes, salvo en las violaciones con contenido:",
+      "opciones": [
+        "Civil o mercantil",
+        "Administrativo o tributario",
+        "Penal o laboral",
+        "Penal o contencioso-administrativo"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 40.b) permite que se constituya en órgano de mediación o conciliación «con el consentimiento expreso de las partes», con «excepción hecha de las que tengan contenido penal o laboral».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-07-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 2
+      }
+    },
+    {
+      "id": "tpg-030",
+      "ley": "ley-15-2022",
+      "articulo": "41.4",
+      "enunciado": "Según la Ley 15/2022, el mandato de quien preside la Autoridad Independiente para la Igualdad de Trato y la No Discriminación es de:",
+      "opciones": [
+        "Cuatro años, renovable una vez",
+        "Cinco años, sin posibilidad de renovación",
+        "Cinco años, renovable por otro período igual",
+        "Seis años, sin posibilidad de renovación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 41.4 dispone: «Su mandato será de cinco años sin posibilidad de renovación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 2
+      }
+    },
+    {
+      "id": "tpg-031",
+      "ley": "ley-15-2022",
+      "articulo": "30.1",
+      "enunciado": "Si quien demanda alega discriminación y aporta indicios fundados, a la parte demandada le corresponde, según la Ley 15/2022:",
+      "opciones": [
+        "Demostrar que la persona demandante carece de legitimación para reclamar",
+        "Solicitar de oficio informe previo a la Autoridad Independiente antes de contestar",
+        "Nada, porque la carga de la prueba recae siempre en quien alega la discriminación",
+        "Aportar una justificación objetiva y razonable, suficientemente probada, de las medidas adoptadas y su proporcionalidad"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 30.1 indica que corresponderá a la parte demandada «la aportación de una justificación objetiva y razonable, suficientemente probada, de las medidas adoptadas y de su proporcionalidad».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-07-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 2
+      }
+    },
+    {
+      "id": "tpg-032",
+      "ley": "ley-15-2022",
+      "articulo": "29.2.a",
+      "enunciado": "Para estar legitimadas en defensa de la igualdad de trato, las asociaciones de derechos humanos deben haberse constituido legalmente al menos:",
+      "opciones": [
+        "Dos años antes de iniciarse el proceso judicial",
+        "Un año antes de iniciarse el proceso judicial",
+        "Tres años antes de iniciarse el proceso judicial",
+        "Cinco años antes de iniciarse el proceso judicial"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 29.2.a) exige: «Que se hubieran constituido legalmente al menos dos años antes de la iniciación del proceso judicial».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-07-27",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 2
+      }
+    },
+    {
+      "id": "tpg-033",
+      "ley": "lo-3-2007",
+      "articulo": "51.d",
+      "enunciado": "Según la LO 3/2007, las Administraciones públicas deben promover la presencia equilibrada de mujeres y hombres en:",
+      "opciones": [
+        "Los órganos de representación sindical",
+        "Los órganos de selección y valoración",
+        "Los órganos de contratación",
+        "Las mesas electorales"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 51.d) obliga a las Administraciones públicas a «Promover la presencia equilibrada de mujeres y hombres en los órganos de selección y valoración».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 2
+      }
+    },
+    {
+      "id": "tpg-034",
+      "ley": "lo-3-2007",
+      "articulo": "14.11",
+      "enunciado": "Es criterio general de actuación de los Poderes Públicos según la LO 3/2007:",
+      "opciones": [
+        "La paridad estricta en todas las candidaturas electorales",
+        "La supresión de las medidas de acción positiva",
+        "La implantación de un lenguaje no sexista en el ámbito administrativo",
+        "La obligación de planes de igualdad en toda empresa"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 14.11 incluye entre los criterios generales «La implantación de un lenguaje no sexista en el ámbito administrativo y su fomento en la totalidad de las relaciones sociales, culturales y artísticas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-08-22",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 2
+      }
+    },
+    {
+      "id": "tpg-035",
+      "ley": "lo-1-2004",
+      "articulo": "2.f",
+      "enunciado": "Según la LO 1/2004, el sistema integral de tutela institucional se articula a través de la Administración General del Estado y de:",
+      "opciones": [
+        "La Delegación Especial del Gobierno contra la Violencia sobre la Mujer",
+        "El Observatorio Estatal de la Violencia sobre la Mujer",
+        "El Instituto de las Mujeres",
+        "El Consejo General del Poder Judicial"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 2.f) habla de un sistema en el que la Administración General del Estado actúa «a través de la Delegación Especial del Gobierno contra la Violencia sobre la Mujer, en colaboración con el Observatorio Estatal de la Violencia sobre la Mujer».",
+      "dificultad": 3,
+      "fecha_version_boe": "2022-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 2
+      }
+    }
+  ]
+}

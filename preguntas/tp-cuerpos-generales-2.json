@@ -1,0 +1,705 @@
+{
+  "descripcion": "Tramitación Procesal, tema 14 (Cuerpos Generales II): situaciones administrativas, ordenación de la actividad profesional, provisión de puestos y régimen disciplinario. LOPJ libro VI y RD 1451/2005. Lote generado el 2026-10-15.",
+  "preguntas": [
+    {
+      "id": "tpf-001",
+      "ley": "lo-6-1985",
+      "articulo": "506",
+      "enunciado": "¿Cuál de las siguientes es una situación administrativa de los funcionarios de los cuerpos del libro VI de la LOPJ?",
+      "opciones": [
+        "Servicios en otras Administraciones públicas",
+        "Excedencia forzosa",
+        "Expectativa de destino",
+        "Excedencia voluntaria por agrupación familiar"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 506 enumera las situaciones administrativas, entre ellas «f) Excedencia voluntaria por agrupación familiar».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-002",
+      "ley": "lo-6-1985",
+      "articulo": "507.2.d",
+      "enunciado": "Un funcionario accede a concejal sin desempeñar cargo retribuido ni de dedicación exclusiva. Su situación administrativa es la de:",
+      "opciones": [
+        "Servicio activo",
+        "Servicios especiales",
+        "Excedencia voluntaria por interés particular",
+        "Suspensión de funciones"
+      ],
+      "correcta": 0,
+      "explicacion": "Se consideran en servicio activo quienes «accedan a la condición de miembros de las corporaciones locales, salvo que desempeñen cargo retribuido y de dedicación exclusiva en las mismas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-003",
+      "ley": "lo-6-1985",
+      "articulo": "507.2.h",
+      "enunciado": "Un funcionario cesa en su puesto por haber obtenido otro en un concurso. Durante el plazo posesorio se encuentra en situación de:",
+      "opciones": [
+        "Servicio activo",
+        "Servicios especiales",
+        "Excedencia voluntaria por interés particular",
+        "Suspensión provisional"
+      ],
+      "correcta": 0,
+      "explicacion": "Se consideran en servicio activo los funcionarios que «cesen en un puesto de trabajo por haber obtenido otro mediante procedimientos de provisión de puestos de trabajo, durante el plazo posesorio».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-004",
+      "ley": "lo-6-1985",
+      "articulo": "508.3",
+      "enunciado": "El funcionario en servicios especiales tiene derecho a reserva de un puesto de trabajo en:",
+      "opciones": [
+        "La misma comunidad autónoma, con retribuciones similares",
+        "El mismo partido judicial, con idéntico complemento específico",
+        "La misma provincia, con las retribuciones del puesto anterior",
+        "La misma localidad, con condiciones y retribuciones similares"
+      ],
+      "correcta": 3,
+      "explicacion": "Los funcionarios en servicios especiales «tendrán derecho a reserva de un puesto de trabajo en la misma localidad, en condiciones y con retribuciones similares a las que disfrutaban al pasar a ella».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-005",
+      "ley": "lo-6-1985",
+      "articulo": "508.4",
+      "enunciado": "En situación de servicios especiales, el funcionario percibe:",
+      "opciones": [
+        "La retribución del puesto o cargo efectivo que desempeña, sin perjuicio de los trienios reconocidos",
+        "La retribución de su puesto de origen, más los trienios reconocidos",
+        "El sueldo base de su cuerpo, sin complementos ni trienios",
+        "La mitad de la retribución de su puesto de origen"
+      ],
+      "correcta": 0,
+      "explicacion": "Los funcionarios en servicios especiales «recibirán la retribución del puesto o cargo efectivo que desempeñen y no la que les corresponda como funcionarios, sin perjuicio del derecho a percibir los trienios que tuviesen reconocidos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-006",
+      "ley": "lo-6-1985",
+      "articulo": "509.1",
+      "enunciado": "La excedencia para atender al cuidado de cada hijo tiene una duración no superior a:",
+      "opciones": [
+        "Un año",
+        "Dos años",
+        "Tres años",
+        "Cuatro años"
+      ],
+      "correcta": 2,
+      "explicacion": "Los funcionarios «tendrán derecho a un período de excedencia no superior a tres años para atender al cuidado de cada hijo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-007",
+      "ley": "lo-6-1985",
+      "articulo": "509.3",
+      "enunciado": "En la excedencia por cuidado de familiares, el puesto de trabajo desempeñado se reservará al menos durante:",
+      "opciones": [
+        "Seis meses",
+        "Un año",
+        "Tres años",
+        "Dos años"
+      ],
+      "correcta": 3,
+      "explicacion": "En esta excedencia «el puesto desempeñado se reservará al menos dos años. Transcurrido este periodo, dicha reserva lo será a un puesto en la misma localidad y de igual retribución».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-008",
+      "ley": "lo-6-1985",
+      "articulo": "510.2",
+      "enunciado": "Finalizada la causa que determinó su pase a una situación distinta del servicio activo, un funcionario no solicita el reingreso en plazo. Se le declara de oficio en:",
+      "opciones": [
+        "Excedencia voluntaria por interés particular",
+        "Excedencia voluntaria por agrupación familiar",
+        "Suspensión definitiva de funciones",
+        "Excedencia voluntaria por cuidado de familiares"
+      ],
+      "correcta": 0,
+      "explicacion": "Se declarará de oficio la excedencia voluntaria por interés particular «cuando finalizada la causa que determinó el pase a una situación distinta de la del servicio activo, incumplan la obligación de solicitar el reingreso en el mismo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-009",
+      "ley": "lo-6-1985",
+      "articulo": "511.3.b",
+      "enunciado": "La suspensión provisional durante la tramitación de un expediente disciplinario no podrá exceder, salvo paralización imputable al interesado, de:",
+      "opciones": [
+        "Tres meses",
+        "Seis meses",
+        "Un año",
+        "Dieciocho meses"
+      ],
+      "correcta": 1,
+      "explicacion": "La suspensión se acuerda «durante la tramitación de un expediente disciplinario, por la autoridad que ordenó la incoación del expediente, no pudiendo exceder esta suspensión de seis meses, salvo en caso de paralización del procedimiento imputable al interesado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-010",
+      "ley": "lo-6-1985",
+      "articulo": "511.3.a",
+      "enunciado": "Si el funcionario es procesado por un delito doloso, la suspensión provisional se acordará en todo caso cuando se hubiere dictado:",
+      "opciones": [
+        "Providencia de citación como investigado",
+        "Auto de incoación de diligencias previas",
+        "Auto de admisión de la querella",
+        "Auto de prisión"
+      ],
+      "correcta": 3,
+      "explicacion": "Se acordará en todo caso «cuando se hubiere dictado auto de prisión, de libertad bajo fianza, de procesamiento o de apertura de juicio oral en el procedimiento abreviado».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-011",
+      "ley": "lo-6-1985",
+      "articulo": "511.4",
+      "enunciado": "La suspensión de funciones tiene carácter definitivo cuando se impone en virtud de:",
+      "opciones": [
+        "Auto de procesamiento",
+        "Condena criminal firme o sanción disciplinaria firme",
+        "Incoación de un expediente disciplinario",
+        "Auto de apertura de juicio oral"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 511.4 dispone que «la suspensión tendrá carácter definitivo cuando se imponga en virtud de condena criminal firme o sanción disciplinaria firme».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-012",
+      "ley": "lo-6-1985",
+      "articulo": "512",
+      "enunciado": "Corresponde acordar la concesión o declaración de las situaciones administrativas de estos funcionarios a:",
+      "opciones": [
+        "El Consejo General del Poder Judicial",
+        "El Letrado de la Administración de Justicia del centro de destino",
+        "La Sala de Gobierno del Tribunal Superior de Justicia",
+        "El Ministerio de Justicia o las comunidades autónomas con competencias asumidas"
+      ],
+      "correcta": 3,
+      "explicacion": "Corresponderá «al Ministerio de Justicia o a las comunidades autónomas con competencias asumidas acordar la concesión o declaración en estas situaciones administrativas a los funcionarios que prestan servicios en sus respectivos ámbitos territoriales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-013",
+      "ley": "lo-6-1985",
+      "articulo": "513.1",
+      "enunciado": "Los cambios de situaciones administrativas deberán comunicarse, para su anotación, al:",
+      "opciones": [
+        "Registro Central de Personal",
+        "Registro Civil",
+        "Consejo General del Poder Judicial",
+        "Registro de la Mutualidad General Judicial"
+      ],
+      "correcta": 0,
+      "explicacion": "Los cambios de situaciones administrativas «deberán ser comunicados, en todo caso, al Registro Central de Personal a que se refiere el artículo 481, para su anotación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-014",
+      "ley": "lo-6-1985",
+      "articulo": "514.3",
+      "enunciado": "El funcionario reingresado por adscripción provisional que no participa en el primer concurso convocado pasa a la situación de:",
+      "opciones": [
+        "Servicio activo con destino forzoso",
+        "Suspensión provisional de funciones",
+        "Excedencia voluntaria por interés particular",
+        "Excedencia voluntaria por agrupación familiar"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 514.3 señala: «De no participar en el primer concurso convocado con posterioridad a la adscripción provisional, pasará a la situación de excedencia voluntaria por interés particular».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-015",
+      "ley": "lo-6-1985",
+      "articulo": "521.1",
+      "enunciado": "Las relaciones de puestos de trabajo mediante las que se ordena el personal funcionario de los Cuerpos de los libros V y VI serán, en todo caso:",
+      "opciones": [
+        "Reservadas",
+        "Públicas",
+        "Confidenciales hasta su aprobación",
+        "Publicadas solo en la sede de cada centro de destino"
+      ],
+      "correcta": 1,
+      "explicacion": "La ordenación del personal se realizará a través de las relaciones de puestos de trabajo «que se aprueben y que, en todo caso, serán públicas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-016",
+      "ley": "lo-6-1985",
+      "articulo": "521.3.B",
+      "enunciado": "Son puestos singularizados aquellos que:",
+      "opciones": [
+        "No se diferencian dentro de la estructura orgánica y no tienen contenido funcional individualizado",
+        "Solo pueden ser desempeñados por funcionarios de carrera con más de dos años de antigüedad",
+        "Están diferenciados dentro de la estructura orgánica e implican tareas asignadas de forma individualizada",
+        "Se cubren siempre por el procedimiento de libre designación"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 521.3.B, «son puestos singularizados los diferenciados dentro de la estructura orgánica y que implican la ejecución de tareas o funciones asignadas de forma individualizada».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-017",
+      "ley": "lo-6-1985",
+      "articulo": "522.1",
+      "enunciado": "Las relaciones de puestos de trabajo que elabora el Ministerio de Justicia, previa negociación sindical, se aprueban mediante:",
+      "opciones": [
+        "Real decreto del Consejo de Ministros",
+        "Orden ministerial publicada en el BOE",
+        "Resolución de la persona titular del centro directivo que tenga atribuida la competencia",
+        "Acuerdo de la Comisión Permanente del Consejo General del Poder Judicial"
+      ],
+      "correcta": 2,
+      "explicacion": "«La aprobación de las relaciones de puestos de trabajo se realizará mediante resolución de la persona titular del centro directivo que tenga atribuida esta competencia».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-018",
+      "ley": "lo-6-1985",
+      "articulo": "523.2.1º",
+      "enunciado": "Para modificar las relaciones de puestos de trabajo, las Administraciones competentes elaborarán un proyecto:",
+      "opciones": [
+        "Informado por el Consejo General del Poder Judicial y sometido a información pública",
+        "Motivado, que será negociado con las organizaciones sindicales más representativas",
+        "Aprobado por la Sala de Gobierno del Tribunal Superior de Justicia",
+        "Que solo precisa la comunicación posterior a los sindicatos"
+      ],
+      "correcta": 1,
+      "explicacion": "Entre las reglas de modificación figura que «se elaborará un proyecto motivado, que será negociado con las organizaciones sindicales más representativas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-019",
+      "ley": "lo-6-1985",
+      "articulo": "524.1",
+      "enunciado": "El sistema ordinario de provisión de los puestos de trabajo es:",
+      "opciones": [
+        "La libre designación",
+        "La adscripción provisional",
+        "La comisión de servicios",
+        "El concurso"
+      ],
+      "correcta": 3,
+      "explicacion": "La provisión se llevará a cabo por los procedimientos de «concurso, que será el sistema ordinario, o de libre designación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-020",
+      "ley": "lo-6-1985",
+      "articulo": "526.1.b",
+      "enunciado": "En el concurso específico, la segunda fase (valoración de aptitudes concretas) no puede suponer más del:",
+      "opciones": [
+        "50 por ciento de la puntuación máxima total de ambas fases",
+        "25 por ciento de la puntuación máxima total de ambas fases",
+        "40 por ciento de la puntuación máxima total de ambas fases",
+        "30 por ciento de la puntuación máxima total de ambas fases"
+      ],
+      "correcta": 2,
+      "explicacion": "La segunda fase se valorará sin que «en ningún caso» pueda «suponer más del 40 por ciento de la puntuación máxima total de ambas fases».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-021",
+      "ley": "lo-6-1985",
+      "articulo": "526.2",
+      "enunciado": "Pueden proveerse por el sistema de libre designación:",
+      "opciones": [
+        "Todos los puestos genéricos vacantes",
+        "Los puestos que hayan quedado desiertos en un concurso",
+        "Los puestos desempeñados por funcionarios interinos",
+        "Los puestos directivos y los que así se fije en las relaciones de puestos"
+      ],
+      "correcta": 3,
+      "explicacion": "«Podrán proveerse por este sistema, los puestos directivos y aquellos para los que, por su especial responsabilidad y dedicación, así se establezca en las relaciones de puestos de trabajo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-022",
+      "ley": "lo-6-1985",
+      "articulo": "527.1",
+      "enunciado": "El funcionario que ocupa un puesto en comisión de servicio:",
+      "opciones": [
+        "Pierde su puesto de origen y percibe las retribuciones del de origen",
+        "Conserva su puesto de origen y tiene derecho a las retribuciones complementarias del puesto que desempeña",
+        "Conserva su puesto de origen y percibe únicamente las retribuciones del puesto de origen",
+        "Pasa a servicios especiales y percibe las retribuciones del nuevo puesto"
+      ],
+      "correcta": 1,
+      "explicacion": "Los funcionarios en comisión de servicio «conservarán su puesto de origen y tendrán derecho a las retribuciones complementarias del puesto que desempeñen».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-023",
+      "ley": "lo-6-1985",
+      "articulo": "527",
+      "enunciado": "Los funcionarios nombrados para puestos de libre designación podrán ser cesados discrecionalmente, y la motivación de la resolución se referirá exclusivamente a:",
+      "opciones": [
+        "La pérdida de confianza del órgano competente",
+        "Las necesidades del servicio",
+        "La falta de idoneidad sobrevenida del funcionario",
+        "La competencia para adoptarla"
+      ],
+      "correcta": 3,
+      "explicacion": "Podrán ser cesados «con carácter discrecional, mediante resolución en la que la motivación se referirá exclusivamente a la competencia para adoptarla».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-024",
+      "ley": "lo-6-1985",
+      "articulo": "528.1",
+      "enunciado": "La redistribución de efectivos permite adscribir, por necesidades del servicio, a funcionarios que ocupan con carácter definitivo puestos genéricos a otros puestos de igual naturaleza y retribuciones:",
+      "opciones": [
+        "De cualquier centro de destino del mismo municipio",
+        "Del mismo centro de destino",
+        "De cualquier centro de destino de la misma provincia",
+        "Del mismo cuerpo, aunque cambien de municipio"
+      ],
+      "correcta": 1,
+      "explicacion": "Podrán ser adscritos «a otros de iguales naturaleza, complemento general de puesto y complemento específico del mismo centro de destino».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-025",
+      "ley": "lo-6-1985",
+      "articulo": "529.2",
+      "enunciado": "En los concursos de provisión de puestos, no pueden participar mientras dure la suspensión:",
+      "opciones": [
+        "Los declarados suspensos provisionales",
+        "Los funcionarios en servicios especiales",
+        "Los funcionarios en excedencia por cuidado de familiares",
+        "Los declarados suspensos en firme"
+      ],
+      "correcta": 3,
+      "explicacion": "Podrán participar los funcionarios, cualquiera que sea su situación administrativa, «excepto los declarados suspensos en firme que no podrán participar mientras dure la suspensión».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-026",
+      "ley": "lo-6-1985",
+      "articulo": "534.3",
+      "enunciado": "Para imponer una sanción por falta leve:",
+      "opciones": [
+        "Es preceptiva la instrucción de expediente disciplinario completo",
+        "Es preceptivo el informe previo del Ministerio Fiscal",
+        "No es preceptiva la instrucción de expediente, salvo el trámite de audiencia al interesado",
+        "Basta la resolución, sin audiencia al interesado"
+      ],
+      "correcta": 2,
+      "explicacion": "«Para la imposición de sanciones por faltas leves, no será preceptiva la previa instrucción del expediente, salvo el trámite de audiencia al interesado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-027",
+      "ley": "lo-6-1985",
+      "articulo": "534.5",
+      "enunciado": "Si los mismos hechos son objeto de un procedimiento penal y de un expediente disciplinario, en este último:",
+      "opciones": [
+        "No se dictará resolución hasta que recaiga sentencia firme o auto de sobreseimiento en la causa penal",
+        "Se dictará resolución sin esperar al proceso penal, que no vinculará",
+        "Se archivará el expediente por no poder iniciarse mientras exista causa penal",
+        "Se resolverá en seis meses y la sentencia penal posterior no vinculará"
+      ],
+      "correcta": 0,
+      "explicacion": "La incoación de un procedimiento penal no será obstáculo para la iniciación del expediente disciplinario, «pero no se dictará resolución en éste hasta tanto no haya recaído sentencia firme o auto de sobreseimiento en la causa penal».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-028",
+      "ley": "lo-6-1985",
+      "articulo": "536.c.4",
+      "enunciado": "Según la LOPJ, la ausencia injustificada por un día constituye una falta:",
+      "opciones": [
+        "Muy grave",
+        "Leve",
+        "Grave",
+        "No constituye falta"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 536.c) considera faltas leves, entre otras, «la ausencia injustificada por un día».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-029",
+      "ley": "lo-6-1985",
+      "articulo": "536.b.5",
+      "enunciado": "La tercera falta injustificada de asistencia en un período de tres meses constituye una falta:",
+      "opciones": [
+        "Leve",
+        "Muy grave",
+        "Grave",
+        "Leve, si se justifica después"
+      ],
+      "correcta": 2,
+      "explicacion": "Entre las faltas graves figura «la tercera falta injustificada de asistencia en un período de tres meses».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-030",
+      "ley": "lo-6-1985",
+      "articulo": "538",
+      "enunciado": "Las faltas leves de los funcionarios solo podrán ser corregidas con:",
+      "opciones": [
+        "Apercibimiento",
+        "Suspensión de empleo y sueldo",
+        "Traslado forzoso fuera del municipio de destino",
+        "Cese en el puesto de trabajo"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 538 establece: «Las faltas leves sólo podrán ser corregidas con apercibimiento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-031",
+      "ley": "lo-6-1985",
+      "articulo": "538",
+      "enunciado": "La suspensión impuesta por la comisión de una falta muy grave no podrá ser superior a tres años ni inferior a:",
+      "opciones": [
+        "Seis meses",
+        "Un año",
+        "Dos años",
+        "Tres meses"
+      ],
+      "correcta": 1,
+      "explicacion": "«La suspensión de funciones impuesta por la comisión de una falta muy grave no podrá ser superior a tres años ni inferior a un año. Si se impone por falta grave, no excederá de un año».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-032",
+      "ley": "lo-6-1985",
+      "articulo": "539",
+      "enunciado": "La sanción de separación del servicio será acordada en todo caso por:",
+      "opciones": [
+        "El Ministro de Justicia",
+        "La comunidad autónoma donde esté destinado el funcionario",
+        "El Consejo General del Poder Judicial",
+        "La autoridad que incoó el expediente"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 539 dispone que «la separación del servicio, será acordada por el Ministro de Justicia en todo caso».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-033",
+      "ley": "lo-6-1985",
+      "articulo": "540.1",
+      "enunciado": "Las faltas graves de los funcionarios prescriben a los:",
+      "opciones": [
+        "Dos meses",
+        "Cuatro meses",
+        "Seis meses",
+        "Un año"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 540.1, «las faltas leves prescribirán a los dos meses; las graves, a los seis meses, y las muy graves, al año».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-034",
+      "ley": "rd-1451-2005",
+      "articulo": "52.1",
+      "enunciado": "El plazo de toma de posesión en un concurso, si el destino implica cambio de localidad dentro de la misma comunidad autónoma, es de:",
+      "opciones": [
+        "Tres días",
+        "Veinte días",
+        "Ocho días",
+        "Un mes"
+      ],
+      "correcta": 2,
+      "explicacion": "El plazo será de «tres días si no implica cambio de localidad del funcionario; ocho días si implica cambio de localidad dentro de la Comunidad Autónoma y veinte días si implica cambio de comunidad autónoma».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    },
+    {
+      "id": "tpf-035",
+      "ley": "rd-1451-2005",
+      "articulo": "73.3",
+      "enunciado": "Las comisiones de servicio tendrán una duración máxima de:",
+      "opciones": [
+        "Seis meses, prorrogable por otros seis",
+        "Un año, prorrogable por otro",
+        "Dos años, sin posibilidad de prórroga",
+        "Tres años, prorrogables por otro año más"
+      ],
+      "correcta": 1,
+      "explicacion": "«Las comisiones de servicio tendrán una duración máxima de un año, prorrogable por otro, en caso de no haberse cubierto el puesto con carácter definitivo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 14
+      }
+    }
+  ]
+}
