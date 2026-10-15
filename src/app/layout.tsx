@@ -1,9 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { Figtree, Nunito, Source_Serif_4 } from "next/font/google";
-import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import { Analitica } from "@/components/analitica";
 import { AvisoCookies } from "@/components/aviso-cookies";
+import { GoogleAds } from "@/components/google-ads";
 import { SITIO } from "@/lib/sitio";
 import "./globals.css";
 
@@ -50,9 +50,6 @@ export const viewport: Viewport = {
 // Aplica el tema guardado antes de pintar para evitar el parpadeo.
 const scriptTema = `try{var t=localStorage.getItem("tema");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}`;
 
-const GOOGLE_ADS = "AW-18513329642";
-const scriptGoogleAds = `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('js',new Date());gtag('config','${GOOGLE_ADS}');`;
-
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
@@ -65,10 +62,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </head>
       <body className="flex min-h-full flex-col">
         {children}
-        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS}`} strategy="afterInteractive" />
-        <Script id="google-ads" strategy="afterInteractive">
-          {scriptGoogleAds}
-        </Script>
+        <GoogleAds />
         <Analitica />
         <AvisoCookies />
         <Analytics />

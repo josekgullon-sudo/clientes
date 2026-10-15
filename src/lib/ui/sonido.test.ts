@@ -2,10 +2,10 @@ import { describe, expect, it } from "vitest";
 import { notasAcierto } from "./sonido";
 
 describe("notasAcierto", () => {
-  it("el primer acierto suena como siempre (mi5 y si5)", () => {
+  it("el primer acierto suena en sol5 con su quinta (re6)", () => {
     const [a, b] = notasAcierto(1);
-    expect(a).toBeCloseTo(659.25, 1);
-    expect(b).toBeCloseTo(987.77, 0);
+    expect(a).toBeCloseTo(783.99, 1);
+    expect(b).toBeCloseTo(1174.66, 0);
   });
 
   it("cada acierto seguido sube de tono", () => {

@@ -13,6 +13,7 @@ import {
   type Respuesta,
 } from "@/lib/test/tipos";
 import { Explicacion } from "./explicacion";
+import { LlamaRacha } from "./llama-racha";
 import { Opcion, type EstadoOpcion } from "./opcion";
 
 type Props = {
@@ -247,10 +248,8 @@ export function SesionTest({
           </div>
           {modo === "examen" && minutos ? (
             <Cronometro minutos={minutos} inicio={inicio} alAcabar={terminar} />
-          ) : combo >= 2 ? (
-            <p className="cifras rebote flex min-w-12 items-center justify-end gap-0.5 font-extrabold text-naranja" aria-label={`${combo} aciertos seguidos`}>
-              <Flame aria-hidden size={18} className="llama" /> {combo}
-            </p>
+          ) : combo >= 1 ? (
+            <LlamaRacha combo={combo} />
           ) : (
             <p className="cifras min-w-12 text-right text-sm font-bold text-pizarra" aria-hidden="true">
               {indice + 1}/{preguntas.length}

@@ -453,6 +453,38 @@ p {
     transform: scale(1.08) rotate(-2deg);
   }
 }
+/* Llama de la racha de aciertos: encendida desde 3 seguidos. */
+.llama-viva {
+  transform-origin: center bottom;
+  filter: drop-shadow(0 0 6px rgb(249 115 22 / 0.65));
+  animation: llama-viva 0.7s ease-in-out infinite alternate;
+}
+@keyframes llama-viva {
+  from {
+    transform: scale(1) rotate(-4deg);
+  }
+  to {
+    transform: scale(1.12, 1.18) rotate(4deg);
+  }
+}
+.llama-encender {
+  display: inline-block;
+  transform-origin: center bottom;
+  animation: llama-encender 0.6s cubic-bezier(0.3, 1.6, 0.5, 1) both;
+}
+@keyframes llama-encender {
+  0% {
+    transform: scale(0.4);
+    filter: brightness(2);
+  }
+  60% {
+    transform: scale(1.45);
+  }
+  100% {
+    transform: scale(1);
+    filter: none;
+  }
+}
 .confeti {
   pointer-events: none;
   position: absolute;

@@ -89,7 +89,7 @@ async function main() {
     await foto(p, nombre);
   }
   // El aviso de cookies tapa partes de la pantalla en las capturas siguientes.
-  await p.evaluate(() => localStorage.setItem("aviso-cookies", "1"));
+  await p.evaluate(() => localStorage.setItem("consentimiento-cookies", "no"));
 
   await p.goto(`${BASE}/demo`, { waitUntil: "networkidle" });
   await foto(p, "demo-inicio", false);

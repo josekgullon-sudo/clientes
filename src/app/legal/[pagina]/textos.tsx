@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { CambiarCookies } from "@/components/cambiar-cookies";
 import { PRECIOS, SITIO, TITULAR, eur } from "@/lib/sitio";
 
 /*
@@ -80,6 +81,11 @@ export const TEXTOS: Record<string, TextoLegal> = {
             tu progreso y repasar tus fallos. Base legal: ejecución del contrato.
           </li>
           <li>
+            <strong>Publicidad, solo si aceptas:</strong> si aceptas las cookies de Google Ads, Google registra que
+            llegaste desde uno de nuestros anuncios y si después te registras o te suscribes, para medir qué anuncios
+            funcionan. Base legal: tu consentimiento, que puedes retirar cuando quieras en la política de cookies.
+          </li>
+          <li>
             <strong>Pagos y facturas:</strong> nombre, dirección de facturación, NIF si lo indicas y datos de la
             suscripción. Los datos de la tarjeta los trata Stripe; nosotros no los vemos. Base legal: ejecución del
             contrato y obligaciones fiscales.
@@ -96,13 +102,17 @@ export const TEXTOS: Record<string, TextoLegal> = {
           <li>Supabase (base de datos y acceso).</li>
           <li>Stripe (pagos y facturación).</li>
           <li>Vercel (alojamiento de la web y estadísticas de visitas sin cookies).</li>
+          <li>Google (Google Ireland Limited), solo si aceptas las cookies de Google Ads.</li>
           <li>El proveedor de envío de los correos con tu código de acceso.</li>
         </ul>
         <p>
           Algunos de estos proveedores pueden tratar datos fuera del Espacio Económico Europeo. Lo hacen con las garantías
           del RGPD, como las cláusulas contractuales tipo de la Comisión Europea o el Marco de Privacidad de Datos UE-EE. UU.
         </p>
-        <p>No vendemos tus datos ni los usamos para publicidad.</p>
+        <p>
+          No vendemos tus datos. No usamos tu correo ni tu estudio para publicidad: lo único relacionado con anuncios son
+          las cookies de Google Ads, y solo si las aceptas.
+        </p>
         <h2>Tus derechos</h2>
         <p>
           Puedes acceder, rectificar, suprimir, oponerte, limitar el tratamiento y pedir la portabilidad de tus datos
@@ -115,16 +125,34 @@ export const TEXTOS: Record<string, TextoLegal> = {
 
   cookies: {
     titulo: "Política de cookies",
-    descripcion: "Qué cookies usamos y para qué.",
+    descripcion: "Qué cookies usamos, para qué y cómo cambiar tu elección.",
     contenido: (
       <>
-        <h2>Solo usamos lo necesario</h2>
+        <h2>Qué usamos</h2>
         <p>
-          {SITIO.nombre} no usa cookies de publicidad. Solo usamos cookies y almacenamiento local técnicos,
-          imprescindibles para que la web funcione. Por eso no necesitan tu consentimiento (artículo 22.2 de la LSSI),
-          aunque te informamos de ellas. Para contar visitas usamos Vercel Web Analytics, que no usa cookies ni
-          identifica a la persona. Si en el servidor está configurada también Plausible, funciona igual, sin cookies.
+          {SITIO.nombre} usa cookies y almacenamiento local de dos tipos:
         </p>
+        <ul>
+          <li>
+            <strong>Técnicas:</strong> imprescindibles para que la web funcione (tu sesión, tus preferencias). No
+            necesitan tu consentimiento (artículo 22.2 de la LSSI), pero te informamos de ellas.
+          </li>
+          <li>
+            <strong>De publicidad (Google Ads):</strong> sirven para saber si llegaste desde uno de nuestros anuncios y
+            si después te registraste o te suscribiste. Solo se activan si pulsas «Aceptar» en el aviso de cookies. Si
+            rechazas o no eliges, no se cargan.
+          </li>
+        </ul>
+        <p>
+          Para contar visitas usamos Vercel Web Analytics, que no usa cookies ni identifica a la persona. Si en el
+          servidor está configurada también Plausible, funciona igual, sin cookies.
+        </p>
+
+        <h2>Tu elección</h2>
+        <p>Puedes aceptar o retirar el consentimiento cuando quieras. Retirarlo es tan fácil como darlo:</p>
+        <CambiarCookies />
+
+        <h2>Cookies técnicas</h2>
         <table>
           <thead>
             <tr>
@@ -145,21 +173,70 @@ export const TEXTOS: Record<string, TextoLegal> = {
               <td>Hasta que lo borras</td>
             </tr>
             <tr>
-              <td>aviso-cookies (almacenamiento local)</td>
-              <td>Recordar que has visto este aviso</td>
+              <td>sonido (almacenamiento local)</td>
+              <td>Recordar si has silenciado los sonidos</td>
               <td>Hasta que lo borras</td>
+            </tr>
+            <tr>
+              <td>oc-respuestas-publicas (almacenamiento local)</td>
+              <td>Guardar las respuestas del test de prueba para pasarlas a tu cuenta al registrarte</td>
+              <td>Hasta que te registras o lo borras</td>
+            </tr>
+            <tr>
+              <td>reto-relampago (almacenamiento local)</td>
+              <td>Recordar tus récords del Reto relámpago</td>
+              <td>Hasta que lo borras</td>
+            </tr>
+            <tr>
+              <td>instalar-cerrado (almacenamiento local)</td>
+              <td>No volver a sugerirte instalar la app si lo cerraste</td>
+              <td>Hasta que lo borras</td>
+            </tr>
+            <tr>
+              <td>consentimiento-cookies (almacenamiento local)</td>
+              <td>Recordar si aceptaste o rechazaste las cookies de publicidad</td>
+              <td>Hasta que lo borras o cambias tu elección</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>Cookies de publicidad (solo si aceptas)</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Para qué</th>
+              <th>Duración</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>_gcl_au (de Google, en esta web)</td>
+              <td>Relacionar tu visita con el anuncio de Google desde el que llegaste</td>
+              <td>3 meses</td>
+            </tr>
+            <tr>
+              <td>Cookies de Google en sus dominios (por ejemplo, IDE en doubleclick.net)</td>
+              <td>Medir las conversiones de los anuncios de Google</td>
+              <td>Hasta 13 meses</td>
             </tr>
           </tbody>
         </table>
         <p>
-          Al pagar, Stripe usa sus propias cookies en su página de pago para prevenir el fraude. Puedes consultarlas en la
-          política de cookies de Stripe.
+          Estas cookies las gestiona Google (Google Ireland Limited), que puede tratar datos fuera del Espacio
+          Económico Europeo con las garantías del RGPD. Más información en la política de privacidad de Google
+          (policies.google.com/technologies/ads).
+        </p>
+
+        <h2>Otras cookies</h2>
+        <p>
+          Al pagar, Stripe usa sus propias cookies en su página de pago para prevenir el fraude. Puedes consultarlas en
+          la política de cookies de Stripe.
         </p>
         <p>
-          Puedes borrar las cookies desde la configuración de tu navegador. Si borras la de sesión, tendrás que volver a
-          entrar.
+          También puedes borrar las cookies desde la configuración de tu navegador. Si borras la de sesión, tendrás que
+          volver a entrar.
         </p>
-        <p>Si en el futuro añadimos cookies que requieran consentimiento, te lo pediremos antes de usarlas.</p>
       </>
     ),
   },

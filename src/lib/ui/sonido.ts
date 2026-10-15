@@ -45,9 +45,10 @@ function notas(frecuencias: number[], { paso = 0.09, duracion = 0.22, tipo = "si
   }
 }
 
-// Escala mayor desde mi5, en semitonos: cada acierto seguido sube un escalón.
+// Escala mayor desde sol5, en semitonos: cada acierto seguido sube un escalón. Empieza aguda
+// para que se oiga bien en el altavoz del móvil, que apenas reproduce los graves.
 const ESCALA = [0, 2, 4, 5, 7, 9, 11, 12, 14, 16, 17, 19];
-const tono = (semitonos: number) => 659.25 * 2 ** (semitonos / 12);
+const tono = (semitonos: number) => 783.99 * 2 ** (semitonos / 12);
 
 /** Notas del acierto número `racha` seguido: «turín» cada vez más agudo y con remate en 5 y 10. */
 export function notasAcierto(racha = 1): number[] {
@@ -60,7 +61,14 @@ export function notasAcierto(racha = 1): number[] {
 
 export const sonidos = {
   /** `racha`: aciertos seguidos contando este (1 si no se lleva la cuenta). */
-  acierto: (racha = 1) => notas(notasAcierto(racha), { paso: racha >= 5 ? 0.07 : 0.08, duracion: 0.25 }),
+  // Triángulo y más volumen al principio: los tonos agudos ya suenan más fuertes por sí solos.
+  acierto: (racha = 1) =>
+    notas(notasAcierto(racha), {
+      paso: racha >= 5 ? 0.07 : 0.08,
+      duracion: 0.28,
+      tipo: "triangle",
+      volumen: Math.max(0.2, 0.32 - Math.min(racha, 12) * 0.01),
+    }),
   fallo: () => notas([311.13, 233.08], { paso: 0.12, duracion: 0.28, tipo: "triangle", volumen: 0.09 }),
   fin: () => notas([523.25, 659.25, 783.99, 1046.5], { paso: 0.1, duracion: 0.35 }),
   tic: () => notas([1318.5], { duracion: 0.06, volumen: 0.05, tipo: "square" }),
