@@ -1,0 +1,605 @@
+{
+  "descripcion": "Tribunales de Instancia y Tribunal Central de Instancia (LO 6/1985 tras la LO 1/2025), jueces de paz y Oficinas de Justicia en los municipios. Tema 8 de Tramitación Procesal. Borradores; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-10-09).",
+  "preguntas": [
+    {
+      "id": "tpb-001",
+      "ley": "lo-6-1985",
+      "articulo": "84.2",
+      "enunciado": "Con carácter general, los Tribunales de Instancia están integrados por:",
+      "opciones": [
+        "Una Sección Civil y otra Sección de Instrucción",
+        "Una Sección Civil, una de Instrucción y una de Familia",
+        "Una Sección Única, de Civil y de Instrucción",
+        "Una Sección Única, de Civil y de lo Penal"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 84.2 dice que los Tribunales de Instancia «estarán integrados por una Sección Única, de Civil y de Instrucción».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-002",
+      "ley": "lo-6-1985",
+      "articulo": "84.2",
+      "enunciado": "¿Cuándo se integra el Tribunal de Instancia por una Sección Civil y otra Sección de Instrucción?",
+      "opciones": [
+        "En los supuestos determinados por la Ley de Demarcación y de Planta Judicial",
+        "Cuando el partido judicial supere los doce jueces de plantilla",
+        "Cuando así lo acuerde la Junta de Jueces y Juezas del partido",
+        "Cuando lo disponga la Sala de Gobierno del Tribunal Superior"
+      ],
+      "correcta": 0,
+      "explicacion": "«En los supuestos determinados por la Ley 38/1988, de 28 de diciembre, de Demarcación y de Planta Judicial, el Tribunal de Instancia se integrará por una Sección Civil y otra Sección de Instrucción.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-003",
+      "ley": "lo-6-1985",
+      "articulo": "84.2",
+      "enunciado": "Además de la Sección Única, ¿cuál de estas Secciones puede integrar un Tribunal de Instancia?",
+      "opciones": [
+        "De lo Militar",
+        "De Registro Civil",
+        "De Jurisdicción Voluntaria",
+        "De Vigilancia Penitenciaria"
+      ],
+      "correcta": 3,
+      "explicacion": "Los Tribunales de Instancia «podrán estar integrados por alguna o varias de las siguientes Secciones», entre ellas «g) De Vigilancia Penitenciaria».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-004",
+      "ley": "lo-6-1985",
+      "articulo": "84.4",
+      "enunciado": "La adscripción de los jueces a las Secciones que integran un Tribunal de Instancia es:",
+      "opciones": [
+        "Orgánica",
+        "Funcional",
+        "Territorial",
+        "Definitiva"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 84.4 establece: «Su adscripción a las referidas Secciones será funcional.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-005",
+      "ley": "lo-6-1985",
+      "articulo": "84.4",
+      "enunciado": "Un juez de una Sección puede conocer asuntos de nuevo ingreso de otra Sección del mismo orden jurisdiccional. ¿Quién lo acuerda?",
+      "opciones": [
+        "La Sala de Gobierno del Tribunal Superior, a propuesta de la Junta de Jueces",
+        "El Consejo General del Poder Judicial, a propuesta de la Presidencia del Tribunal",
+        "La Presidencia del Tribunal, previa audiencia de la Sala de Gobierno",
+        "El Ministerio de Justicia, a propuesta del Tribunal Superior de Justicia"
+      ],
+      "correcta": 1,
+      "explicacion": "«Esta asignación se realizará mediante acuerdo del Consejo General del Poder Judicial, a propuesta de la Presidencia del Tribunal y oída la Junta de Jueces y Juezas del orden jurisdiccional al que se refiera.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-006",
+      "ley": "lo-6-1985",
+      "articulo": "84.6",
+      "enunciado": "Por la especial complejidad de un proceso, el Tribunal de Instancia puede nombrar, junto al juez a quien se turnó el asunto, a:",
+      "opciones": [
+        "Tres jueces, designados por sorteo público y anual",
+        "Un juez, a propuesta de la Fiscalía y de las partes",
+        "Dos jueces, designados libremente por la Sala de Gobierno",
+        "Dos jueces, conforme a un turno anual preestablecido y público"
+      ],
+      "correcta": 3,
+      "explicacion": "El Tribunal de Instancia «se podrá nombrar a dos de sus jueces, juezas, magistrados o magistradas, conforme a un turno anual preestablecido y público».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-007",
+      "ley": "lo-6-1985",
+      "articulo": "85",
+      "enunciado": "¿Qué Sección conoce, en el orden civil, de los recursos contra las resoluciones de los jueces de paz del partido?",
+      "opciones": [
+        "La Sección Civil, o la Sección Única de Civil y de Instrucción",
+        "La Audiencia Provincial de la provincia",
+        "La Sección de Familia, Infancia y Capacidad del Tribunal",
+        "La Sección de Instrucción o la de lo Penal"
+      ],
+      "correcta": 0,
+      "explicacion": "Las «Secciones Civiles o las Civiles y de Instrucción que constituyan una Sección Única» conocen «De los recursos que establezca la ley contra las resoluciones de los jueces y las juezas de paz del partido».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-008",
+      "ley": "lo-6-1985",
+      "articulo": "86.5.g",
+      "enunciado": "¿Cuál de estas materias es de jurisdicción exclusiva y excluyente de la Sección de Familia, Infancia y Capacidad?",
+      "opciones": [
+        "Los procesos concursales de las personas naturales",
+        "Los juicios por delito leve contra menores de edad",
+        "Las medidas judiciales de apoyo a personas con discapacidad",
+        "Las acciones sobre propiedad industrial e intelectual"
+      ],
+      "correcta": 2,
+      "explicacion": "«En todo caso, la jurisdicción de estas Secciones será exclusiva y excluyente en las siguientes materias», entre ellas «Las que versen sobre adopción de medidas judiciales de apoyo a personas con discapacidad».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-009",
+      "ley": "lo-6-1985",
+      "articulo": "86.4",
+      "enunciado": "En un partido con Sección Única de una sola plaza y sin Sección de Familia, los asuntos de familia los asume:",
+      "opciones": [
+        "El juez de paz del partido",
+        "La Audiencia Provincial",
+        "El juez de la Sección de Familia más próxima",
+        "El juez o la jueza que ocupe esa plaza"
+      ],
+      "correcta": 3,
+      "explicacion": "«el juez o jueza que la ocupe será quien asuma el conocimiento de los asuntos de familia cuando no se hubiere creado una Sección de Familia, Infancia y Capacidad».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-010",
+      "ley": "lo-6-1985",
+      "articulo": "87.1",
+      "enunciado": "Con carácter general, la Sección de lo Mercantil tiene jurisdicción en:",
+      "opciones": [
+        "Toda la provincia, con sede en su capital",
+        "El partido judicial, con sede en su capital",
+        "Toda la comunidad autónoma",
+        "Varias provincias limítrofes"
+      ],
+      "correcta": 0,
+      "explicacion": "«existirá una Sección de lo Mercantil con jurisdicción en toda la provincia y sede en su capital».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-011",
+      "ley": "lo-6-1985",
+      "articulo": "87.3",
+      "enunciado": "El Gobierno puede extender a una provincia la jurisdicción de la Sección de lo Mercantil de otra limítrofe de su comunidad si su población es inferior a:",
+      "opciones": [
+        "250.000 habitantes",
+        "350.000 habitantes",
+        "500.000 habitantes",
+        "750.000 habitantes"
+      ],
+      "correcta": 2,
+      "explicacion": "Se aplica «cuando una provincia tenga una población inferior a los 500.000 habitantes», y el Gobierno «podrá extender a esa provincia la jurisdicción de la Sección de lo Mercantil de otra provincia limítrofe perteneciente a la misma comunidad autónoma».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-012",
+      "ley": "lo-6-1985",
+      "articulo": "87.6.a",
+      "enunciado": "¿Qué materia queda excluida de la competencia de las Secciones de lo Mercantil?",
+      "opciones": [
+        "Las acciones sobre competencia desleal y publicidad comercial",
+        "Las pretensiones basadas solo en el Reglamento (CE) 261/2004 sobre pasajeros aéreos",
+        "Las acciones sobre transporte terrestre, nacional o internacional",
+        "Las acciones sobre sociedades cooperativas y mercantiles"
+      ],
+      "correcta": 1,
+      "explicacion": "«las Secciones de lo Mercantil no serán competentes para conocer de las pretensiones basadas exclusivamente en el Reglamento (CE) n.º 261/2004 del Parlamento Europeo y del Consejo, de 11 de febrero de 2004, por el que se establecen normas comunes sobre compensación y asistencia a los pasajeros aéreos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-013",
+      "ley": "lo-6-1985",
+      "articulo": "87.10",
+      "enunciado": "¿Qué Sección ejerce como Tribunal de Marca de la Unión Europea?",
+      "opciones": [
+        "La Sección de lo Mercantil del Tribunal de Instancia de Alicante",
+        "La Sección de lo Mercantil del Tribunal de Instancia de Madrid",
+        "La Sección de lo Mercantil del Tribunal de Instancia de Barcelona",
+        "La Sección Civil del Tribunal de Instancia de Valencia"
+      ],
+      "correcta": 0,
+      "explicacion": "«la Sección de lo Mercantil del Tribunal de Instancia de Alicante tendrá competencia exclusiva» y, para esa competencia, «dicha Sección se denominará Tribunal de Marca de la Unión Europea».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-014",
+      "ley": "lo-6-1985",
+      "articulo": "88.1.d",
+      "enunciado": "Los procedimientos de habeas corpus corresponden a las Secciones de:",
+      "opciones": [
+        "lo Penal",
+        "Vigilancia Penitenciaria",
+        "Instrucción",
+        "Violencia sobre la Mujer"
+      ],
+      "correcta": 2,
+      "explicacion": "Las «Secciones de Instrucción o las Secciones Únicas» conocen, en el orden penal, «De los procedimientos de habeas corpus».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-015",
+      "ley": "lo-6-1985",
+      "articulo": "88.4",
+      "enunciado": "¿Quién puede acordar, excepcionalmente, agrupar Secciones de Instrucción de partidos limítrofes por el aumento de delitos de organizaciones criminales de tráfico de drogas o personas?",
+      "opciones": [
+        "El Gobierno, con informe del Consejo General del Poder Judicial",
+        "El Consejo General del Poder Judicial, con informe de la Fiscalía General del Estado",
+        "La Sala de Gobierno del Tribunal Superior, con informe de la Fiscalía General",
+        "El Ministerio de Justicia, con informe de la comunidad autónoma afectada"
+      ],
+      "correcta": 1,
+      "explicacion": "«Excepcionalmente, el Consejo General del Poder Judicial, con informe de la Fiscalía General del Estado, podrá acordar la agrupación de las Secciones de Instrucción y de las Secciones Únicas de varios partidos judiciales limítrofes, dentro de una misma provincia».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-016",
+      "ley": "lo-6-1985",
+      "articulo": "89.7",
+      "enunciado": "¿Cuál de estos NO es requisito para la competencia civil exclusiva de las Secciones de Violencia sobre la Mujer?",
+      "opciones": [
+        "Que alguna de las partes sea víctima de violencia de género o sexual",
+        "Que alguna de las partes sea imputada por esos actos",
+        "Que se hayan iniciado actuaciones penales ante la Sección o se haya adoptado una orden de protección",
+        "Que las partes del proceso civil convivan o hayan convivido"
+      ],
+      "correcta": 3,
+      "explicacion": "Esa competencia exige que «concurran simultáneamente los siguientes requisitos», entre ellos que «alguna de las partes del proceso civil sea imputado como autor, inductor o cooperador necesario en la realización de actos de violencia de género o de violencia sexual». La convivencia entre las partes no figura entre ellos.",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-017",
+      "ley": "lo-6-1985",
+      "articulo": "89.9",
+      "enunciado": "En los asuntos de las Secciones de Violencia sobre la Mujer, la utilización de los medios adecuados de solución de controversias está:",
+      "opciones": [
+        "Permitida solo en el orden civil",
+        "Permitida si lo piden ambas partes",
+        "Vedada en todos los casos",
+        "Permitida si lo autoriza el Ministerio Fiscal"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 89.9 dispone: «En todos estos casos está vedada la utilización de los medios adecuados de solución de controversias.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-018",
+      "ley": "lo-6-1985",
+      "articulo": "89 bis.7",
+      "enunciado": "Si unos hechos pueden ser conocidos por la Sección de Violencia contra la Infancia y la Adolescencia y por la de Violencia sobre la Mujer, la competencia corresponde a:",
+      "opciones": [
+        "La Sección de Violencia contra la Infancia y la Adolescencia",
+        "La Sección de Violencia sobre la Mujer",
+        "La Sección que primero haya conocido del asunto",
+        "La Sección de Instrucción que esté de guardia"
+      ],
+      "correcta": 1,
+      "explicacion": "«En caso de que los hechos objeto de instrucción por la Sección de Violencia contra la Infancia y Adolescencia también pudieran ser conocidos por la Sección de Violencia sobre la Mujer, la competencia le corresponderá en todo caso a la última.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-019",
+      "ley": "lo-6-1985",
+      "articulo": "90.4",
+      "enunciado": "Las Secciones de lo Penal ejecutan las sentencias dictadas en causas por delito grave o menos grave por:",
+      "opciones": [
+        "Las Secciones de Menores y de Vigilancia Penitenciaria del mismo Tribunal de Instancia",
+        "Los jueces de paz y las Secciones de Instrucción de cada partido judicial",
+        "Las Audiencias Provinciales de la provincia correspondiente",
+        "Las Secciones de Instrucción, de Violencia sobre la Mujer y de Violencia contra la Infancia y la Adolescencia"
+      ],
+      "correcta": 3,
+      "explicacion": "«Corresponde asimismo a las Secciones de lo Penal la ejecución de las sentencias dictadas en causas por delito grave o menos grave por las Secciones de Instrucción, Secciones de Violencia sobre la Mujer y Secciones de Violencia contra la Infancia y la Adolescencia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-020",
+      "ley": "lo-6-1985",
+      "articulo": "91.1",
+      "enunciado": "Cuando el volumen de trabajo lo aconseje, una Sección de Menores puede extender su jurisdicción a dos o más provincias de:",
+      "opciones": [
+        "La misma comunidad autónoma",
+        "Distintas comunidades autónomas limítrofes",
+        "Cualquier parte del territorio nacional",
+        "La misma Audiencia Provincial"
+      ],
+      "correcta": 0,
+      "explicacion": "Podrán establecerse Secciones de Menores cuya jurisdicción se extienda «a dos o más provincias de la misma comunidad autónoma».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-021",
+      "ley": "lo-6-1985",
+      "articulo": "92.1",
+      "enunciado": "¿Qué Sección ejerce el control jurisdiccional de la potestad disciplinaria de las autoridades penitenciarias?",
+      "opciones": [
+        "La Sección de lo Penal",
+        "La Sección de Vigilancia Penitenciaria",
+        "La Sección de Instrucción",
+        "La Sección de lo Contencioso-Administrativo"
+      ],
+      "correcta": 1,
+      "explicacion": "La Sección de Vigilancia Penitenciaria tiene las funciones de «control jurisdiccional de la potestad disciplinaria de las autoridades penitenciarias, amparo de los derechos y beneficios de los internos en los establecimientos penitenciarios».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-022",
+      "ley": "lo-6-1985",
+      "articulo": "93.5",
+      "enunciado": "La Sección de lo Contencioso-Administrativo autoriza la entrada en domicilios para la ejecución forzosa de actos de la Administración, salvo en la ejecución de:",
+      "opciones": [
+        "Actos de las Entidades locales y autonómicas",
+        "Actos de la Administración tributaria estatal",
+        "Sanciones administrativas de cualquier clase",
+        "Medidas de protección de menores de la entidad pública"
+      ],
+      "correcta": 3,
+      "explicacion": "Les corresponde autorizar la entrada «salvo que se trate de la ejecución de medidas de protección de menores acordadas por la entidad pública competente en la materia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-023",
+      "ley": "lo-6-1985",
+      "articulo": "95",
+      "enunciado": "¿Cuál de las siguientes Secciones integra el Tribunal Central de Instancia?",
+      "opciones": [
+        "La Sección de Vigilancia Penitenciaria",
+        "La Sección Civil",
+        "La Sección de lo Social",
+        "La Sección de lo Mercantil"
+      ],
+      "correcta": 0,
+      "explicacion": "El Tribunal Central de Instancia tiene sede «En la Villa de Madrid y con jurisdicción en todo el territorio nacional» y cuenta, entre otras, con la «Sección de Vigilancia Penitenciaria».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-024",
+      "ley": "lo-6-1985",
+      "articulo": "95.a",
+      "enunciado": "¿Qué Sección del Tribunal Central de Instancia tramita las órdenes europeas de detención y entrega y las extradiciones pasivas?",
+      "opciones": [
+        "La Sección de lo Penal",
+        "La Sección de Vigilancia Penitenciaria",
+        "La Sección de Instrucción",
+        "La Sección de lo Contencioso-Administrativo"
+      ],
+      "correcta": 2,
+      "explicacion": "La Sección de Instrucción «tramitará los expedientes de ejecución de las órdenes europeas de detención y entrega, los procedimientos de extradición pasiva».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-025",
+      "ley": "lo-6-1985",
+      "articulo": "96.3",
+      "enunciado": "Los acuerdos del CGPJ para especializar plazas judiciales de un mismo orden y provincia no pueden afectar a las plazas de las Secciones de:",
+      "opciones": [
+        "lo Mercantil",
+        "lo Social",
+        "Instrucción",
+        "Menores"
+      ],
+      "correcta": 2,
+      "explicacion": "«Tampoco podrán ser objeto de especialización por esta vía las plazas judiciales de las Secciones de Instrucción».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-026",
+      "ley": "lo-6-1985",
+      "articulo": "100.2",
+      "enunciado": "En el orden penal, los Juzgados de Paz conocen en primera instancia de:",
+      "opciones": [
+        "Los procesos por delito leve que les atribuya la ley",
+        "Los delitos menos graves cometidos en su término",
+        "Los procedimientos de habeas corpus",
+        "La instrucción de las causas por delito grave"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 100.2 dice que, en el orden penal, «conocerán en primera instancia de los procesos por delito leve que les atribuya la ley».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-027",
+      "ley": "lo-6-1985",
+      "articulo": "101.2",
+      "enunciado": "Los Jueces de Paz y sus sustitutos son elegidos por el Pleno del Ayuntamiento con el voto favorable de:",
+      "opciones": [
+        "La mayoría simple de los presentes",
+        "La mayoría absoluta de sus miembros",
+        "Dos tercios de sus miembros",
+        "Tres quintos de sus miembros"
+      ],
+      "correcta": 1,
+      "explicacion": "Serán elegidos «por el Pleno del Ayuntamiento, con el voto favorable de la mayoría absoluta de sus miembros».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-028",
+      "ley": "lo-6-1985",
+      "articulo": "439 ter.2",
+      "enunciado": "¿Dónde existirá una Oficina de Justicia en el municipio?",
+      "opciones": [
+        "En cada partido judicial del territorio nacional",
+        "En cada municipio de más de 7.000 habitantes",
+        "En cada capital de provincia y de comunidad",
+        "En cada municipio donde no tenga su sede un Tribunal de Instancia"
+      ],
+      "correcta": 3,
+      "explicacion": "«En cada municipio donde no tenga su sede un Tribunal de Instancia existirá una Oficina de Justicia, que prestará servicios en la localidad donde se encuentre ubicada.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-029",
+      "ley": "lo-6-1985",
+      "articulo": "439 quinquies.3",
+      "enunciado": "Las agrupaciones de Oficinas de Justicia pueden establecerse entre municipios:",
+      "opciones": [
+        "De una misma provincia, con la capital como cabecera",
+        "Limítrofes de un mismo partido judicial, con un municipio cabecera",
+        "De una misma comunidad autónoma, con el más poblado como cabecera",
+        "Limítrofes de distinto partido judicial, con la capital como cabecera"
+      ],
+      "correcta": 1,
+      "explicacion": "Podrán establecerse «agrupaciones de Oficinas de Justicia de municipios limítrofes de un mismo partido judicial» y «se determinará el municipio cabecera de la agrupación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    },
+    {
+      "id": "tpb-030",
+      "ley": "lo-6-1985",
+      "articulo": "439 quinquies.1",
+      "enunciado": "La Secretaría de las Oficinas de Justicia servidas por funcionarios es desempeñada por personal del Cuerpo de:",
+      "opciones": [
+        "Gestión Procesal y Administrativa",
+        "Tramitación Procesal y Administrativa",
+        "Auxilio Judicial",
+        "Letrados de la Administración de Justicia"
+      ],
+      "correcta": 0,
+      "explicacion": "«En todo caso, la Secretaría de estas Oficinas de Justicia será desempeñada por personal del Cuerpo de Gestión Procesal y Administrativa».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 8
+      }
+    }
+  ]
+}

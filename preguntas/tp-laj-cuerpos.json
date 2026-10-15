@@ -1,0 +1,905 @@
+{
+  "descripcion": "LOPJ (LO 6/1985), libro V títulos I-II y libro VI: Letrados de la Administración de Justicia y cuerpos de funcionarios al servicio de la Administración de Justicia (temas 11 y 12 de Tramitación Procesal). Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-10-09).",
+  "preguntas": [
+    {
+      "id": "tpd-001",
+      "ley": "lo-6-1985",
+      "articulo": "456.2",
+      "enunciado": "¿Cómo se denominan las resoluciones que dicta el Letrado de la Administración de Justicia para la tramitación del proceso?",
+      "opciones": [
+        "Providencias",
+        "Diligencias",
+        "Decretos",
+        "Acuerdos"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 456.2 dispone: «Estas resoluciones se denominarán diligencias, que podrán ser de ordenación, de constancia, de comunicación o de ejecución».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-002",
+      "ley": "lo-6-1985",
+      "articulo": "456.5",
+      "enunciado": "Las resoluciones de carácter gubernativo de los Letrados de la Administración de Justicia se denominan:",
+      "opciones": [
+        "Decretos",
+        "Diligencias de ordenación",
+        "Providencias",
+        "Acuerdos"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 456.5: «Las resoluciones de carácter gubernativo de los Letrados de la Administración de Justicia se denominarán acuerdos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-003",
+      "ley": "lo-6-1985",
+      "articulo": "456.3",
+      "enunciado": "¿Qué resolución dicta el Letrado de la Administración de Justicia para admitir la demanda?",
+      "opciones": [
+        "Diligencia de ordenación",
+        "Providencia",
+        "Decreto",
+        "Auto"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 456.3 señala: «Se llamará decreto a la resolución que dicte el Letrado de la Administración de Justicia con el fin de admitir la demanda, poner término al procedimiento del que tenga atribuida exclusiva competencia, o cuando sea preciso o conveniente razonar su decisión».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-004",
+      "ley": "lo-6-1985",
+      "articulo": "456.3",
+      "enunciado": "El decreto del Letrado de la Administración de Justicia contendrá, en párrafos separados y numerados:",
+      "opciones": [
+        "Los hechos probados y el fallo",
+        "Los antecedentes de hecho y la parte dispositiva",
+        "Los fundamentos de derecho y el pie de recurso",
+        "Los antecedentes de hecho y los fundamentos de derecho"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 456.3 establece que el decreto «Será siempre motivado y contendrá, en párrafos separados y numerados, los antecedentes de hecho y los fundamentos de derecho en que se basa».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-005",
+      "ley": "lo-6-1985",
+      "articulo": "456.6",
+      "enunciado": "¿Qué materia NO figura entre las que el artículo 456.6 atribuye a los Letrados de la Administración de Justicia cuando lo prevean las leyes procesales?",
+      "opciones": [
+        "La jurisdicción voluntaria",
+        "La tramitación de los procedimientos monitorios",
+        "La instrucción de las causas penales",
+        "La conciliación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 456.6 enumera la «Ejecución», la «Jurisdicción voluntaria», la «Conciliación», la «Tramitación y, en su caso, resolución de los procedimientos monitorios» y la «Mediación», pero no la instrucción penal.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-006",
+      "ley": "lo-6-1985",
+      "articulo": "457",
+      "enunciado": "¿En qué aspecto dirigen los Letrados de la Administración de Justicia al personal integrante de la Oficina judicial?",
+      "opciones": [
+        "En el aspecto retributivo",
+        "En el aspecto disciplinario",
+        "En el aspecto orgánico y presupuestario",
+        "En el aspecto técnico-procesal"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 457 dice que los Letrados «dirigirán en el aspecto técnico-procesal al personal integrante de la Oficina judicial, ordenando su actividad e impartiendo las órdenes e instrucciones que estime pertinentes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-007",
+      "ley": "lo-6-1985",
+      "articulo": "458.1",
+      "enunciado": "¿Quién es responsable del Archivo Judicial de Gestión?",
+      "opciones": [
+        "El Juez o Magistrado titular del órgano",
+        "El Presidente del Tribunal",
+        "Los funcionarios del Cuerpo de Auxilio Judicial",
+        "Los Letrados de la Administración de Justicia"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 458.1: «Los letrados de la Administración de Justicia serán responsables del Archivo Judicial de Gestión, en el que, de conformidad con la normativa establecida al efecto, se conservarán y custodiarán aquellos autos y expedientes cuya tramitación no esté finalizada».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-008",
+      "ley": "lo-6-1985",
+      "articulo": "458.2",
+      "enunciado": "Con carácter general, se destruyen los autos y expedientes judiciales transcurridos un número de años desde la firmeza de la resolución que puso término al procedimiento. ¿Cuántos?",
+      "opciones": [
+        "Seis años",
+        "Tres años",
+        "Cinco años",
+        "Diez años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 458.2 prevé: «Con carácter general se procederá a la destrucción de autos y expedientes judiciales transcurridos seis años desde la firmeza de la resolución que de manera definitiva puso término al procedimiento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-009",
+      "ley": "lo-6-1985",
+      "articulo": "458.2",
+      "enunciado": "Antes del expurgo, el Letrado de la Administración de Justicia concede audiencia a las partes personadas por un tiempo no inferior a:",
+      "opciones": [
+        "Quince días",
+        "Diez días",
+        "Cinco días",
+        "Tres días"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 458.2 indica: «Previamente, el Letrado de la Administración de Justicia concederá audiencia por un tiempo no inferior a quince días a las partes que estuvieron personadas para que interesen, en su caso, el desglose de aquellos documentos originales que hubiesen aportado».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-010",
+      "ley": "lo-6-1985",
+      "articulo": "461.1",
+      "enunciado": "¿Quién vela por el cumplimiento de la estadística judicial contrastando la veracidad de los datos?",
+      "opciones": [
+        "Los Secretarios Coordinadores Provinciales",
+        "Las Salas de Gobierno",
+        "Los Secretarios de Gobierno",
+        "La Comisión Nacional de Estadística Judicial"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 461.1 dispone: «La estadística judicial […] será responsabilidad de los letrados de la Administración de Justicia. Los Secretarios de Gobierno respectivos velarán por su cumplimiento contrastando la veracidad de los datos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-011",
+      "ley": "lo-6-1985",
+      "articulo": "463.2",
+      "enunciado": "Por orden jerárquico, los órganos superiores de gobierno del Cuerpo de Letrados de la Administración de Justicia son:",
+      "opciones": [
+        "Secretarios de Gobierno, Secretario General de la Administración de Justicia y Secretarios Coordinadores Provinciales",
+        "Secretario General de la Administración de Justicia, Secretarios de Gobierno y Secretarios Coordinadores Provinciales",
+        "Secretario General de la Administración de Justicia, Secretarios Coordinadores Provinciales y Secretarios de Gobierno",
+        "Secretarios de Gobierno, Secretarios Coordinadores Provinciales y Secretario General de la Administración de Justicia"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 463.2 los enumera «por orden jerárquico»: «El Secretario General de la Administración de Justicia», «Los Secretarios de Gobierno» y «Los Secretarios Coordinadores Provinciales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-012",
+      "ley": "lo-6-1985",
+      "articulo": "464.1",
+      "enunciado": "Para ser elegido Secretario de Gobierno se exige haber prestado servicio en puestos de segunda categoría durante, como mínimo:",
+      "opciones": [
+        "Cinco años",
+        "Siete años",
+        "Quince años",
+        "Diez años"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 464.1 exige miembros del Cuerpo «que, como mínimo, hayan prestado servicio durante diez años en puestos de segunda categoría».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-013",
+      "ley": "lo-6-1985",
+      "articulo": "464.3",
+      "enunciado": "¿Quién nombra y remueve libremente al Secretario de Gobierno, previo informe del Consejo del Secretariado?",
+      "opciones": [
+        "El Consejo General del Poder Judicial",
+        "La Sala de Gobierno del Tribunal respectivo",
+        "El Ministerio de Justicia",
+        "El Secretario General de la Administración de Justicia"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 464.3 señala: «Será nombrado y removido libremente por el Ministerio de Justicia, previo informe del Consejo del Secretariado sobre la idoneidad de los candidatos o candidatas solicitantes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-014",
+      "ley": "lo-6-1985",
+      "articulo": "464.3",
+      "enunciado": "Para el nombramiento del Secretario de Gobierno de Ceuta y Melilla, el informe es emitido por la Sala de Gobierno del:",
+      "opciones": [
+        "Tribunal Superior de Justicia de Andalucía",
+        "Tribunal Supremo",
+        "Tribunal Superior de Justicia de Madrid",
+        "Tribunal Superior de Justicia de Murcia"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 464.3 dice: «Para el de las Ciudades de Ceuta y Melilla el informe será emitido por la Sala de Gobierno del Tribunal Superior de Justicia de Andalucía».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-015",
+      "ley": "lo-6-1985",
+      "articulo": "464.4",
+      "enunciado": "En caso de ausencia o vacante del Secretario de Gobierno de un Tribunal Superior de Justicia, asume sus funciones:",
+      "opciones": [
+        "El Secretario Coordinador de la provincia donde tenga su sede el tribunal",
+        "El Letrado de la Administración de Justicia más antiguo del tribunal",
+        "El Secretario Coordinador de la provincia más poblada de la comunidad",
+        "El Presidente del Tribunal Superior de Justicia"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 464.4 prevé que, respecto a los Tribunales Superiores de Justicia, «asumirá sus funciones el Secretario Coordinador de la provincia en donde tenga su sede el respectivo tribunal o, en su defecto, el letrado o la letrada de la Administración de Justicia que designe el titular de la Secretaría General».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-016",
+      "ley": "lo-6-1985",
+      "articulo": "465.2",
+      "enunciado": "¿Qué sanción disciplinaria pueden imponer los Secretarios de Gobierno a los Letrados de la Administración de Justicia?",
+      "opciones": [
+        "El apercibimiento",
+        "La suspensión de funciones",
+        "El traslado forzoso",
+        "La multa"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 465.2 atribuye al Secretario de Gobierno «La incoación de expedientes disciplinarios por las posibles infracciones que los letrados de la Administración de Justicia puedan cometer en el ejercicio de sus funciones, así como la imposición de la sanción de apercibimiento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-017",
+      "ley": "lo-6-1985",
+      "articulo": "446.3.b",
+      "enunciado": "¿Quién resuelve la pieza de recusación de un Letrado de la Administración de Justicia?",
+      "opciones": [
+        "El Secretario Coordinador Provincial",
+        "El Presidente del Tribunal",
+        "La Sala de Gobierno",
+        "El Secretario de Gobierno"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 446.3.b establece que «La pieza de recusación se resolverá por el Secretario de Gobierno».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-018",
+      "ley": "lo-6-1985",
+      "articulo": "446.2",
+      "enunciado": "La abstención de un Letrado de la Administración de Justicia se formula por escrito motivado dirigido al:",
+      "opciones": [
+        "Secretario Coordinador Provincial",
+        "Secretario de Gobierno",
+        "Secretario General de la Administración de Justicia",
+        "Juez o Presidente del órgano"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 446.2: «La abstención se formulará por escrito motivado dirigido al Secretario Coordinador Provincial, quien decidirá la cuestión».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-019",
+      "ley": "lo-6-1985",
+      "articulo": "466.1",
+      "enunciado": "Para ser nombrado Secretario Coordinador se exige llevar diez años en el Cuerpo y haber estado en puestos de segunda categoría, como mínimo:",
+      "opciones": [
+        "Cinco años",
+        "Dos años",
+        "Tres años",
+        "Siete años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 466.1 exige miembros del Cuerpo «que lleven al menos diez años en el Cuerpo, y como mínimo hayan estado cinco años en puestos de segunda categoría».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-020",
+      "ley": "lo-6-1985",
+      "articulo": "466.1",
+      "enunciado": "En las comunidades autónomas uniprovinciales, las funciones del Secretario Coordinador, salvo que sea aconsejable su existencia, son asumidas por:",
+      "opciones": [
+        "El Secretario General de la Administración de Justicia",
+        "El Letrado de la Administración de Justicia de mayor antigüedad",
+        "El Secretario o Secretaria de Gobierno",
+        "El Presidente del Tribunal Superior de Justicia"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 466.1 dispone: «En las comunidades autónomas uniprovinciales, las funciones del Secretario Coordinador o la Secretaria Coordinadora serán asumidas por el Secretario o Secretaria de Gobierno».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-021",
+      "ley": "lo-6-1985",
+      "articulo": "467.5",
+      "enunciado": "¿Quién coordina el funcionamiento de los servicios comunes procesales ubicados en su territorio?",
+      "opciones": [
+        "El Secretario de Gobierno",
+        "El Presidente de la Audiencia Provincial",
+        "El director de cada servicio común",
+        "El Secretario Coordinador"
+      ],
+      "correcta": 3,
+      "explicacion": "Entre las competencias del Secretario Coordinador, el artículo 467.5 incluye: «Coordinar el funcionamiento de cuantos servicios comunes procesales se encuentren ubicados en su territorio».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-022",
+      "ley": "lo-6-1985",
+      "articulo": "435.2",
+      "enunciado": "La estructura básica de la Oficina judicial se basa en los principios de:",
+      "opciones": [
+        "Legalidad, oportunidad y jerarquía",
+        "Autonomía, descentralización y especialización",
+        "Unidad, publicidad y contradicción",
+        "Jerarquía, división de funciones y coordinación"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 435.2 dice que la estructura básica de la Oficina judicial «estará basada en los principios de jerarquía, división de funciones y coordinación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-023",
+      "ley": "lo-6-1985",
+      "articulo": "436.6",
+      "enunciado": "La dirección de cada servicio común de la Oficina judicial corresponde a:",
+      "opciones": [
+        "Un funcionario del Cuerpo de Gestión Procesal y Administrativa",
+        "El Juez decano",
+        "Un Letrado o Letrada de la Administración de Justicia",
+        "El Secretario de Gobierno"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 436.6 señala: «La dirección de cada servicio común corresponderá a un letrado o una letrada de la Administración de Justicia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-024",
+      "ley": "lo-6-1985",
+      "articulo": "437.3",
+      "enunciado": "En un Tribunal de Instancia, debe existir al menos un área en el servicio común de tramitación cuando el número de plazas judiciales de una misma sección sea igual o superior a:",
+      "opciones": [
+        "Ocho",
+        "Doce",
+        "Diez",
+        "Quince"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 437.3 indica: «cuando en un Tribunal de Instancia el número de plazas judiciales de una misma sección sea igual o superior a doce, deberá existir al menos un área para la ordenación de los procedimientos de que conozcan».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-025",
+      "ley": "lo-6-1985",
+      "articulo": "453.1",
+      "enunciado": "¿A quiénes corresponde, con exclusividad y plenitud, el ejercicio de la fe pública judicial?",
+      "opciones": [
+        "A los Jueces y Magistrados",
+        "A los Letrados de la Administración de Justicia",
+        "A los funcionarios del Cuerpo de Gestión Procesal y Administrativa",
+        "A los Secretarios de Gobierno únicamente"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 453.1: «Corresponde a los Letrados de la Administración de Justicia, con exclusividad y plenitud, el ejercicio de la fe pública judicial».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 11
+      }
+    },
+    {
+      "id": "tpd-026",
+      "ley": "lo-6-1985",
+      "articulo": "470.2",
+      "enunciado": "Los Cuerpos de funcionarios al servicio de la Administración de Justicia tienen el carácter de:",
+      "opciones": [
+        "Cuerpos Autonómicos",
+        "Cuerpos Nacionales",
+        "Cuerpos Provinciales",
+        "Cuerpos Mixtos"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 470.2 establece: «Los citados Cuerpos de funcionarios al servicio de la Administración de Justicia, tendrán el carácter de Cuerpos Nacionales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-027",
+      "ley": "lo-6-1985",
+      "articulo": "471.1",
+      "enunciado": "Las competencias sobre el estatuto y régimen jurídico del personal al servicio de la Administración de Justicia corresponden:",
+      "opciones": [
+        "Al Ministerio de Justicia o, en su caso, a las comunidades autónomas con competencias asumidas",
+        "Al Consejo General del Poder Judicial",
+        "A las Salas de Gobierno de los Tribunales Superiores de Justicia",
+        "Al Secretario General de la Administración de Justicia"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 471.1 dice que corresponden «al Ministerio de Justicia o, en su caso, a las comunidades autónomas con competencias asumidas, en todas las materias relativas a su estatuto y régimen jurídico».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-028",
+      "ley": "lo-6-1985",
+      "articulo": "472.1",
+      "enunciado": "Los funcionarios de carrera de los Cuerpos al servicio de la Administración de Justicia están vinculados a ella por una relación:",
+      "opciones": [
+        "Laboral de carácter indefinido",
+        "Contractual de carácter temporal",
+        "Administrativa de carácter eventual",
+        "Estatutaria de carácter permanente"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 472.1 señala que están vinculados «en virtud de nombramiento legal, por una relación estatutaria de carácter permanente, para el desempeño de servicios retribuidos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-029",
+      "ley": "lo-6-1985",
+      "articulo": "472.2",
+      "enunciado": "¿En qué supuesto pueden nombrarse funcionarios interinos en los Cuerpos al servicio de la Administración de Justicia?",
+      "opciones": [
+        "Cuando lo solicite el órgano judicial",
+        "Cuando exista un exceso de asuntos pendientes",
+        "Por razones de urgencia o necesidad",
+        "Por acuerdo de la Sala de Gobierno"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 472.2 dispone: «Por razones de urgencia o necesidad, podrán nombrarse funcionarios interinos, que desarrollarán las funciones propias de dichos cuerpos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-030",
+      "ley": "lo-6-1985",
+      "articulo": "473.2",
+      "enunciado": "¿Cuándo puede prestar servicios retribuidos en la Administración de Justicia personal contratado en régimen laboral?",
+      "opciones": [
+        "Siempre que lo decida el Presidente del Tribunal Superior de Justicia",
+        "Cuando falten funcionarios interinos para cubrir las plazas vacantes",
+        "Si no existen cuerpos con la preparación técnica necesaria para actividades específicas o de oficios",
+        "Para realizar tareas procesales de apoyo a la tramitación de los asuntos"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 473.2 prevé este personal «cuando no existan cuerpos o escalas de funcionarios cuyos miembros tengan la preparación técnica necesaria para el desempeño de determinadas actividades específicas o para la realización de actividades propias de oficios».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-031",
+      "ley": "lo-6-1985",
+      "articulo": "474.2",
+      "enunciado": "A los funcionarios interinos de la Administración de Justicia les es aplicable el régimen de los funcionarios de carrera en lo adecuado a su condición, pero no:",
+      "opciones": [
+        "El régimen disciplinario",
+        "El régimen de clases pasivas",
+        "El régimen de incompatibilidades",
+        "El régimen de permisos y licencias"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 474.2 señala: «A los funcionarios interinos les será aplicable el régimen de los funcionarios de carrera en lo que sea adecuado a la naturaleza de su condición y no les será de aplicación el régimen de clases pasivas».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-032",
+      "ley": "lo-6-1985",
+      "articulo": "474.1",
+      "enunciado": "En lo no regulado en la LOPJ y su desarrollo, el personal funcionario de carrera de la Administración de Justicia se rige con carácter supletorio por:",
+      "opciones": [
+        "El Estatuto de los Trabajadores",
+        "La normativa del Estado sobre Función Pública",
+        "La normativa de cada comunidad autónoma",
+        "La Ley de Enjuiciamiento Civil"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 474.1 dice que se regirá por esta ley orgánica y su desarrollo «y, con carácter supletorio, en lo no regulado expresamente en las mismas, por la normativa del Estado sobre Función Pública».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-033",
+      "ley": "lo-6-1985",
+      "articulo": "475.a",
+      "enunciado": "Son Cuerpos Generales de la Administración de Justicia aquellos cuyo cometido consiste esencialmente en:",
+      "opciones": [
+        "Funciones propias de una profesión o titulación específica",
+        "Tareas de asistencia técnica y científica",
+        "Tareas de contenido procesal",
+        "Funciones de gobierno de la Oficina judicial"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 475.a) define como Cuerpos Generales aquellos «cuando su cometido consista esencialmente en tareas de contenido procesal, sin perjuicio de la realización de funciones administrativas vinculadas a las anteriores».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-034",
+      "ley": "lo-6-1985",
+      "articulo": "475.b",
+      "enunciado": "¿Cuál de los siguientes es un Cuerpo Especial al servicio de la Administración de Justicia?",
+      "opciones": [
+        "El Cuerpo de Gestión Procesal y Administrativa",
+        "El Cuerpo de Médicos Forenses",
+        "El Cuerpo de Tramitación Procesal y Administrativa",
+        "El Cuerpo de Auxilio Judicial"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 475.b) clasifica como Cuerpos Especiales los de cometido profesional específico y los enumera: «El Cuerpo de Médicos Forenses». Los otros tres son Cuerpos Generales.",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-035",
+      "ley": "lo-6-1985",
+      "articulo": "475.a",
+      "enunciado": "¿Qué titulación se exige para acceder al Cuerpo de Tramitación Procesal y Administrativa?",
+      "opciones": [
+        "Título de Bachiller o equivalente",
+        "Título de graduado en E.S.O. o equivalente",
+        "Título de Diplomado Universitario o equivalente",
+        "Título de Técnico Superior en Formación Profesional"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 475.a) dispone: «El Cuerpo de Tramitación Procesal y Administrativa. Para el acceso a este Cuerpo se exigirá estar en posesión del título de Bachiller o equivalente».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-036",
+      "ley": "lo-6-1985",
+      "articulo": "475.a",
+      "enunciado": "La titulación exigida para el acceso al Cuerpo de Gestión Procesal y Administrativa es la de:",
+      "opciones": [
+        "Diplomado Universitario, Ingeniero Técnico, Arquitecto Técnico o equivalente",
+        "Bachiller o equivalente, con prueba de acceso específica",
+        "Graduado en E.S.O. o equivalente, con curso selectivo",
+        "Licenciado en Derecho o título universitario de Grado"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 475.a) establece: «El Cuerpo de Gestión Procesal y Administrativa. La titulación exigida para el acceso a este Cuerpo es la de Diplomado Universitario, Ingeniero Técnico, Arquitecto Técnico o equivalente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-037",
+      "ley": "lo-6-1985",
+      "articulo": "475.b",
+      "enunciado": "Para el acceso al Cuerpo de Médicos Forenses se exige estar en posesión del título de Licenciado o Graduado en Medicina y de:",
+      "opciones": [
+        "Doctor en Medicina",
+        "Máster en Medicina Legal",
+        "Especialista en Toxicología",
+        "Especialista en Medicina Forense"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 475.b) señala: «Para el acceso al Cuerpo de Médicos Forenses se exige estar en posesión de los títulos oficiales de Licenciado o Graduado en Medicina y de especialista en Medicina Forense».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-038",
+      "ley": "lo-6-1985",
+      "articulo": "475.b",
+      "enunciado": "¿Qué titulación se exige para el acceso al Cuerpo de Técnicos Especialistas del Instituto Nacional de Toxicología y Ciencias Forenses?",
+      "opciones": [
+        "Técnico en Formación Profesional o equivalente",
+        "Bachiller o equivalente",
+        "Técnico Superior en Formación Profesional o equivalente",
+        "Licenciado en Ciencias Experimentales y de la Salud"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 475.b) indica que para este Cuerpo «se exigirá estar en posesión del título de Técnico Superior en Formación Profesional o equivalente de las familias profesionales que se determinen en las bases de las convocatorias».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-039",
+      "ley": "lo-6-1985",
+      "articulo": "476.1.b",
+      "enunciado": "¿Qué Cuerpo practica y firma las comparecencias que efectúen las partes en los procedimientos, con capacidad de certificación?",
+      "opciones": [
+        "El Cuerpo de Tramitación Procesal y Administrativa",
+        "El Cuerpo de Auxilio Judicial",
+        "El Cuerpo de Gestión Procesal y Administrativa",
+        "El Cuerpo de Médicos Forenses"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 476.1.b) atribuye al Cuerpo de Gestión Procesal y Administrativa «Practicar y firmar las comparecencias que efectúen las partes en relación con los procedimientos que se sigan en el órgano judicial, respecto a las cuales tendrá capacidad de certificación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-040",
+      "ley": "lo-6-1985",
+      "articulo": "477.d",
+      "enunciado": "¿Qué Cuerpo confecciona las cédulas para la práctica de los actos de comunicación?",
+      "opciones": [
+        "El Cuerpo de Tramitación Procesal y Administrativa",
+        "El Cuerpo de Gestión Procesal y Administrativa",
+        "El Cuerpo de Auxilio Judicial",
+        "El Cuerpo de Facultativos del Instituto Nacional de Toxicología"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 477.d) incluye entre las funciones del Cuerpo de Tramitación Procesal y Administrativa «La confección de las cédulas pertinentes para la práctica de los actos de comunicación que hubieran de realizarse».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-041",
+      "ley": "lo-6-1985",
+      "articulo": "478.a",
+      "enunciado": "¿Qué Cuerpo practica los actos de comunicación que consisten en notificaciones, citaciones, emplazamientos y requerimientos?",
+      "opciones": [
+        "El Cuerpo de Tramitación Procesal y Administrativa",
+        "El Cuerpo de Gestión Procesal y Administrativa",
+        "El Cuerpo de Técnicos Especialistas del Instituto Nacional de Toxicología",
+        "El Cuerpo de Auxilio Judicial"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 478.a) atribuye al Cuerpo de Auxilio Judicial «La práctica de los actos de comunicación que consistan en notificaciones, citaciones, emplazamientos y requerimientos, en la forma prevista en las leyes procesales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-042",
+      "ley": "lo-6-1985",
+      "articulo": "479.2",
+      "enunciado": "Con carácter general, ¿dónde existirá un Instituto de Medicina Legal y Ciencias Forenses?",
+      "opciones": [
+        "En cada partido judicial de la comunidad autónoma",
+        "En cada ciudad sede oficial de un Tribunal Superior de Justicia",
+        "En cada capital de provincia del territorio nacional",
+        "En cada ciudad con sede de una Audiencia Provincial"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 479.2 establece: «Existirá un Instituto de Medicina Legal y Ciencias Forenses en cada ciudad donde tenga su sede oficial un Tribunal Superior de Justicia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-043",
+      "ley": "lo-6-1985",
+      "articulo": "479.5.b",
+      "enunciado": "¿Cuál de las siguientes es una función de los médicos forenses?",
+      "opciones": [
+        "La práctica de los análisis toxicológicos ordenados por las autoridades judiciales",
+        "La asistencia o vigilancia facultativa de detenidos, lesionados o enfermos bajo jurisdicción judicial",
+        "El ejercicio de la fe pública judicial en las pruebas periciales de los juzgados",
+        "La dirección técnico-procesal del personal de la Oficina judicial del tribunal"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 479.5.b) incluye entre sus funciones «La asistencia o vigilancia facultativa de los detenidos, lesionados o enfermos, que se hallaren bajo la jurisdicción de Juzgados, Tribunales y Fiscalías, en los supuestos y en la forma que determinen las leyes».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-044",
+      "ley": "lo-6-1985",
+      "articulo": "479.6",
+      "enunciado": "En el curso de las actuaciones procesales, el personal de los Institutos de Medicina Legal y Ciencias Forenses está a las órdenes de los Jueces y Fiscales y ejerce sus funciones con plena independencia y bajo criterios:",
+      "opciones": [
+        "Estrictamente jurídicos",
+        "Estrictamente científicos",
+        "De jerarquía administrativa",
+        "De oportunidad y eficacia"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 479.6 dice que dicho personal «estará a las órdenes de los Jueces y Fiscales, ejerciendo sus funciones con plena independencia y bajo criterios estrictamente científicos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    },
+    {
+      "id": "tpd-045",
+      "ley": "lo-6-1985",
+      "articulo": "480.2",
+      "enunciado": "El Instituto Nacional de Toxicología y Ciencias Forenses tiene su sede en Madrid y su ámbito de actuación se extiende a:",
+      "opciones": [
+        "Todo el territorio nacional",
+        "La Comunidad de Madrid",
+        "Las comunidades sin competencias asumidas en Justicia",
+        "El ámbito del Tribunal Superior de Justicia de Madrid"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 480.2 dispone: «Tiene su sede en Madrid y su ámbito de actuación se extiende a todo el territorio nacional».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 12
+      }
+    }
+  ]
+}

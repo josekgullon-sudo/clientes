@@ -1,0 +1,605 @@
+{
+  "descripcion": "Tramitación Procesal, tema 7: Tribunal Supremo, Audiencia Nacional, Tribunales Superiores de Justicia y Audiencias Provinciales (LOPJ, libro I, títulos IV a VI, y modificaciones de la LO 1/2025). Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE (versión 2026-10-09).",
+  "preguntas": [
+    {
+      "id": "tpa-001",
+      "ley": "lo-6-1985",
+      "articulo": "61 bis.1",
+      "enunciado": "El Gabinete Técnico del Tribunal Supremo asiste a la Presidencia y a sus Salas, entre otras tareas, en:",
+      "opciones": [
+        "La ejecución de las sentencias firmes de cada Sala",
+        "La instrucción de las causas contra aforados",
+        "Los procesos de admisión de los asuntos de que conozcan",
+        "El nombramiento de los Magistrados de cada Sala"
+      ],
+      "correcta": 2,
+      "explicacion": "Asistirá a la Presidencia y a sus Salas «en los procesos de admisión de los asuntos de que conozcan y mediante la elaboración de estudios e informes que se le soliciten».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-002",
+      "ley": "lo-6-1985",
+      "articulo": "54",
+      "enunciado": "El Tribunal Supremo se compone de su Presidente, de los Presidentes de Sala y de:",
+      "opciones": [
+        "Los Magistrados que determine la ley para cada una de las Salas y, en su caso, Secciones",
+        "Los Magistrados que determine el Consejo General del Poder Judicial para cada Sala",
+        "Los Magistrados que fije el Gobierno mediante real decreto para cada Sala",
+        "Los Magistrados y los Letrados del Gabinete Técnico de cada Sala"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 54, se compondrá «de su Presidente, de los Presidentes de Sala y los Magistrados que determine la ley para cada una de las Salas y, en su caso, Secciones».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-003",
+      "ley": "lo-6-1985",
+      "articulo": "55",
+      "enunciado": "¿Qué Sala del Tribunal Supremo se rige por su legislación específica y, supletoriamente, por la LOPJ?",
+      "opciones": [
+        "La Tercera, de lo Contencioso-Administrativo",
+        "La Cuarta, de lo Social",
+        "La Segunda, de lo Penal",
+        "La Quinta, de lo Militar"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 55 dispone: «Quinta: De lo Militar, que se regirá por su legislación específica y supletoriamente por la presente Ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-004",
+      "ley": "lo-6-1985",
+      "articulo": "82.2.1º",
+      "enunciado": "Para conocer de los recursos contra resoluciones de las Secciones Civiles de los Tribunales de Instancia en juicios verbales por razón de la cuantía, la Audiencia Provincial se constituye con:",
+      "opciones": [
+        "Los tres magistrados de la Sección que corresponda",
+        "Un solo magistrado o magistrada, mediante turno de reparto",
+        "Dos magistrados designados por el Presidente de la Audiencia",
+        "Un magistrado del Tribunal Superior de Justicia"
+      ],
+      "correcta": 1,
+      "explicacion": "Para esos recursos «la Audiencia se constituirá con un solo magistrado o magistrada, mediante un turno de reparto».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-005",
+      "ley": "lo-6-1985",
+      "articulo": "56.3",
+      "enunciado": "Las demandas de responsabilidad civil contra Magistrados de la Audiencia Nacional por hechos realizados en el ejercicio de su cargo las conoce:",
+      "opciones": [
+        "La Sala de Apelación de la Audiencia Nacional",
+        "La Sala de lo Civil del Tribunal Supremo",
+        "La Sala de lo Civil y Penal del Tribunal Superior de Justicia de Madrid",
+        "La Sala del artículo 61 del Tribunal Supremo"
+      ],
+      "correcta": 1,
+      "explicacion": "La Sala de lo Civil del Tribunal Supremo conocerá «de las demandas de responsabilidad civil dirigidas contra Magistrados de la Audiencia Nacional o de los Tribunales Superiores de Justicia por hechos realizados en el ejercicio de sus cargos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-006",
+      "ley": "lo-6-1985",
+      "articulo": "57.1.3º",
+      "enunciado": "La instrucción y el enjuiciamiento de las causas contra Magistrados de un Tribunal Superior de Justicia corresponden a:",
+      "opciones": [
+        "La Sala de lo Civil y Penal del propio Tribunal Superior de Justicia",
+        "La Sala de Apelación de la Audiencia Nacional",
+        "La Sala de lo Penal de la Audiencia Nacional",
+        "La Sala de lo Penal del Tribunal Supremo"
+      ],
+      "correcta": 3,
+      "explicacion": "La Sala de lo Penal del Tribunal Supremo conocerá «de la instrucción y enjuiciamiento de las causas contra Magistrados de la Audiencia Nacional, de un Tribunal Superior de Justicia o de los Fiscales europeos delegados».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-007",
+      "ley": "lo-6-1985",
+      "articulo": "57.2",
+      "enunciado": "En las causas contra los aforados ante la Sala de lo Penal del Tribunal Supremo (art. 57.1, números 2.º y 3.º), el instructor:",
+      "opciones": [
+        "Se designa entre los miembros de la Sala por turno preestablecido y no forma parte de ella para enjuiciar",
+        "Se designa por el Presidente del Tribunal Supremo entre magistrados de otra Sala",
+        "Se nombra por el Pleno del Consejo General del Poder Judicial entre juristas de reconocida competencia",
+        "Se designa por sorteo entre los magistrados de la Audiencia Nacional"
+      ],
+      "correcta": 0,
+      "explicacion": "Se «designará de entre los miembros de la Sala, conforme a un turno preestablecido, un instructor, que no formará parte de la misma para enjuiciarlas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-008",
+      "ley": "lo-6-1985",
+      "articulo": "58",
+      "enunciado": "La Sala de lo Contencioso-administrativo del Tribunal Supremo conoce en única instancia, en los términos que establezca la ley, de los recursos contra actos de los órganos competentes de:",
+      "opciones": [
+        "Los Tribunales Económico-Administrativos Regionales",
+        "Las Juntas Electorales Provinciales",
+        "El Tribunal de Cuentas",
+        "Los Consejos de Gobierno de las Comunidades Autónomas"
+      ],
+      "correcta": 2,
+      "explicacion": "Conocerá en única instancia de los recursos contra «los actos y disposiciones de los órganos competentes del Congreso de los Diputados y del Senado, del Tribunal Constitucional, del Tribunal de Cuentas y del Defensor del Pueblo en los términos y materias que la Ley establezca».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-009",
+      "ley": "lo-6-1985",
+      "articulo": "59",
+      "enunciado": "¿Qué órgano conoce de los recursos de casación y revisión en materias propias del orden social?",
+      "opciones": [
+        "La Sala de lo Social de la Audiencia Nacional",
+        "La Sala de lo Social del Tribunal Superior de Justicia",
+        "La Sala de lo Contencioso-Administrativo del Tribunal Supremo",
+        "La Sala de lo Social del Tribunal Supremo"
+      ],
+      "correcta": 3,
+      "explicacion": "La Sala de lo Social del Tribunal Supremo «conocerá de los recursos de casación y revisión y otros extraordinarios que establezca la ley en materias propias de este orden jurisdiccional».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-010",
+      "ley": "lo-6-1985",
+      "articulo": "60.1",
+      "enunciado": "Además de las recusaciones contra sus Magistrados, cada Sala del Tribunal Supremo conoce de las cuestiones de competencia entre Juzgados o Tribunales de su orden:",
+      "opciones": [
+        "Que no tengan otro superior común",
+        "Que se planteen entre Tribunales Superiores de Justicia",
+        "Que se susciten entre órganos de distintos órdenes jurisdiccionales",
+        "Que afecten a más de una Comunidad Autónoma"
+      ],
+      "correcta": 0,
+      "explicacion": "Cada Sala conocerá «de las recusaciones que se interpusieren contra los Magistrados que las compongan, y de las cuestiones de competencia entre Juzgados o Tribunales del propio orden jurisdiccional que no tengan otro superior común».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-011",
+      "ley": "lo-6-1985",
+      "articulo": "61.1",
+      "enunciado": "La Sala del artículo 61 del Tribunal Supremo está formada por el Presidente del Tribunal, los Presidentes de Sala y:",
+      "opciones": [
+        "El Magistrado más antiguo de cada una de ellas",
+        "El Magistrado más moderno de cada una de ellas",
+        "El Magistrado más antiguo y el más moderno de cada una de ellas",
+        "Dos Magistrados de cada una de ellas elegidos por la Sala de Gobierno"
+      ],
+      "correcta": 2,
+      "explicacion": "Se trata de «Una Sala formada por el Presidente del Tribunal Supremo, los Presidentes de Sala y el Magistrado más antiguo y el más moderno de cada una de ellas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-012",
+      "ley": "lo-6-1985",
+      "articulo": "61.1.6º",
+      "enunciado": "¿Qué órgano del Tribunal Supremo conoce de los procesos de ilegalidad y disolución de partidos políticos?",
+      "opciones": [
+        "La Sala de lo Contencioso-Administrativo en pleno",
+        "La Sala formada por el Presidente, los Presidentes de Sala y el Magistrado más antiguo y el más moderno de cada una",
+        "La Sala de lo Penal, con todos sus Magistrados",
+        "La Sección de siete Magistrados de la Sala de lo Contencioso-Administrativo"
+      ],
+      "correcta": 1,
+      "explicacion": "Esa Sala conocerá «De los procesos de declaración de ilegalidad y consecuente disolución de los partidos políticos, conforme a lo dispuesto en la Ley Orgánica 6/2002, de 27 de junio, de Partidos Políticos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-013",
+      "ley": "lo-6-1985",
+      "articulo": "61.3",
+      "enunciado": "La Sección que conoce del recurso de casación para la unificación de doctrina entre sentencias de Secciones distintas de la Sala Tercera la forman el Presidente del Tribunal Supremo, el de esa Sala y:",
+      "opciones": [
+        "Cinco Magistrados de la Sala: los dos más antiguos y los tres más modernos",
+        "Cinco Magistrados de la Sala: los tres más antiguos y los dos más modernos",
+        "Siete Magistrados de la Sala: los cuatro más antiguos y los tres más modernos",
+        "Cuatro Magistrados de la Sala: los dos más antiguos y los dos más modernos"
+      ],
+      "correcta": 0,
+      "explicacion": "Se forma por «el Presidente del Tribunal Supremo, el de la Sala de lo Contencioso-administrativo y cinco Magistrados de esta misma Sala, que serán los dos más antiguos y los tres más modernos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-014",
+      "ley": "lo-6-1985",
+      "articulo": "65.1.5º",
+      "enunciado": "¿Qué órgano de la Audiencia Nacional conoce de los recursos contra las sentencias de la Sección de lo Penal del Tribunal Central de Instancia?",
+      "opciones": [
+        "La Sala de Apelación",
+        "La Sala de lo Contencioso-Administrativo",
+        "La Sala de lo Penal",
+        "El Presidente de la Audiencia Nacional"
+      ],
+      "correcta": 2,
+      "explicacion": "La Sala de lo Penal conocerá «De los recursos establecidos en la ley contra las sentencias y otras resoluciones de la Sección de lo Penal, de la Sección de Instrucción» y de la Sección de Menores «del Tribunal Central de Instancia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-015",
+      "ley": "lo-6-1985",
+      "articulo": "81.2",
+      "enunciado": "Cuando la plantilla de una Audiencia Provincial conste de uno a dos magistrados, se completa para el enjuiciamiento y fallo con magistrados de:",
+      "opciones": [
+        "El Tribunal de Instancia de la capital",
+        "Otra Audiencia Provincial de la Comunidad",
+        "El Tribunal Supremo",
+        "El Tribunal Superior de Justicia"
+      ],
+      "correcta": 3,
+      "explicacion": "La Audiencia «se completará para el enjuiciamiento y fallo, y cuando la naturaleza de la resolución a dictar lo exija, con el número de magistrados que se precisen del Tribunal Superior de Justicia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-016",
+      "ley": "lo-6-1985",
+      "articulo": "64 bis.1",
+      "enunciado": "¿Qué Sala de la Audiencia Nacional conoce de los recursos que establezca la ley contra las resoluciones de su Sala de lo Penal?",
+      "opciones": [
+        "La Sala de lo Contencioso-Administrativo",
+        "La Sala de Apelación",
+        "La Sala de lo Social",
+        "La Sala del artículo 69"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 64 bis.1, «La Sala de Apelación de la Audiencia Nacional conocerá de los recursos de esta clase que establezca la ley contra las resoluciones de la Sala de lo Penal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-017",
+      "ley": "lo-6-1985",
+      "articulo": "65.1.d",
+      "enunciado": "La Sala de lo Penal de la Audiencia Nacional enjuicia el tráfico de drogas cometido por bandas o grupos organizados cuando produzca efectos en lugares pertenecientes a:",
+      "opciones": [
+        "Distintas Audiencias",
+        "Distintas Comunidades Autónomas",
+        "Distintos partidos judiciales",
+        "Distintos Tribunales Superiores de Justicia"
+      ],
+      "correcta": 0,
+      "explicacion": "Enjuicia el «Tráfico de drogas o estupefacientes, fraudes alimentarios y de sustancias farmacéuticas o medicinales, siempre que sean cometidos por bandas o grupos organizados y produzcan efectos en lugares pertenecientes a distintas Audiencias».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-018",
+      "ley": "lo-6-1985",
+      "articulo": "65.1.b",
+      "enunciado": "La falsificación de moneda es competencia de la Sala de lo Penal de la Audiencia Nacional siempre que sea cometida por:",
+      "opciones": [
+        "Bandas o grupos organizados",
+        "Funcionarios públicos",
+        "Dos o más personas concertadas",
+        "Organizaciones o grupos criminales"
+      ],
+      "correcta": 3,
+      "explicacion": "Enjuicia la «Falsificación de moneda y fabricación de tarjetas de crédito y débito falsas y cheques de viajero falsos o cualquier otro instrumento de pago distinto del efectivo, siempre que sean cometidos por organizaciones o grupos criminales».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-019",
+      "ley": "lo-6-1985",
+      "articulo": "65.1.4º",
+      "enunciado": "La Sala de lo Penal de la Audiencia Nacional resuelve los procedimientos judiciales de extradición pasiva:",
+      "opciones": [
+        "Solo si la persona ha sido detenida en Madrid",
+        "Solo si la persona reside en España",
+        "Sea cual fuere el lugar de residencia o de detención de la persona afectada",
+        "Solo si la detención se ha producido en territorio de varias Audiencias"
+      ],
+      "correcta": 2,
+      "explicacion": "Conoce de «la resolución de los procedimientos judiciales de extradición pasiva, sea cual fuere el lugar de residencia o en que hubiese tenido lugar la detención del afectado por el procedimiento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-020",
+      "ley": "lo-6-1985",
+      "articulo": "66.a",
+      "enunciado": "La Sala de lo Contencioso-Administrativo de la Audiencia Nacional conoce en única instancia de los recursos contra disposiciones y actos de:",
+      "opciones": [
+        "El Consejo de Ministros",
+        "Los Ministros y los Secretarios de Estado",
+        "Las Comisiones Delegadas del Gobierno",
+        "Los Consejos de Gobierno de las Comunidades Autónomas"
+      ],
+      "correcta": 1,
+      "explicacion": "Conocerá «En única instancia, de los recursos contencioso-administrativos contra disposiciones y actos de los Ministros, Ministras, Secretarios y Secretarias de Estado que la ley no atribuya a la Sección de lo Contencioso-Administrativo del Tribunal Central de Instancia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-021",
+      "ley": "lo-6-1985",
+      "articulo": "77.1",
+      "enunciado": "La Sala del artículo 77 de la LOPJ, que conoce de ciertas recusaciones en el Tribunal Superior de Justicia, la forman el Presidente del Tribunal, los Presidentes de Sala y:",
+      "opciones": [
+        "El Magistrado más antiguo de cada una de ellas",
+        "El Magistrado más antiguo y el más moderno de cada una de ellas",
+        "El Magistrado más moderno de cada una de ellas",
+        "Dos Magistrados de cada una de ellas elegidos por sorteo"
+      ],
+      "correcta": 2,
+      "explicacion": "Se trata de «Una Sala constituida por el Presidente del Tribunal Superior de Justicia, los Presidentes de Sala y el Magistrado más moderno de cada una de ellas».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-022",
+      "ley": "lo-6-1985",
+      "articulo": "67.2º",
+      "enunciado": "Un conflicto colectivo cuya resolución haya de surtir efecto en ámbito superior al de una Comunidad Autónoma se conoce en única instancia por:",
+      "opciones": [
+        "La Sala de lo Social de la Audiencia Nacional",
+        "La Sala de lo Social del Tribunal Superior de Justicia",
+        "La Sala de lo Social del Tribunal Supremo",
+        "La Sección de lo Social del Tribunal de Instancia"
+      ],
+      "correcta": 0,
+      "explicacion": "La Sala de lo Social de la Audiencia Nacional conocerá en única instancia «De los procesos sobre conflictos colectivos cuya resolución haya de surtir efecto en un ámbito territorial superior al de una Comunidad Autónoma».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-023",
+      "ley": "lo-6-1985",
+      "articulo": "69",
+      "enunciado": "La recusación de más de dos Magistrados de una Sala de la Audiencia Nacional la conoce:",
+      "opciones": [
+        "La Sala de Gobierno de la Audiencia Nacional, presidida por su Presidente",
+        "Una Sala del Presidente, los Presidentes de Sala y el Magistrado más antiguo y el más moderno de cada una",
+        "La propia Sala a la que pertenecen, sin los Magistrados recusados",
+        "La Sala de lo Penal del Tribunal Supremo, mediante turno de reparto"
+      ],
+      "correcta": 1,
+      "explicacion": "Una Sala formada por el Presidente de la Audiencia Nacional, los Presidentes de las Salas y «el Magistrado más antiguo y el más moderno de cada una» conocerá «de los incidentes de recusación del Presidente, de los Presidentes de Sala o de más de dos Magistrados de una Sala».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-024",
+      "ley": "lo-6-1985",
+      "articulo": "72.1",
+      "enunciado": "¿Cuál de estas es una Sala de los Tribunales Superiores de Justicia?",
+      "opciones": [
+        "La Sala de Apelación",
+        "La Sala de lo Penal",
+        "La Sala de lo Militar",
+        "La Sala de lo Civil y Penal"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 72.1 dice: «El Tribunal Superior de Justicia estará integrado por las siguientes Salas: de lo Civil y Penal, de lo Contencioso-Administrativo y de lo Social».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-025",
+      "ley": "lo-6-1985",
+      "articulo": "72.2",
+      "enunciado": "El Presidente del Tribunal Superior de Justicia tiene, mientras desempeñe el cargo, la consideración de:",
+      "opciones": [
+        "Magistrado del Tribunal Supremo",
+        "Presidente de Sala del Tribunal Supremo",
+        "Magistrado de la Audiencia Nacional",
+        "Vocal del Consejo General del Poder Judicial"
+      ],
+      "correcta": 0,
+      "explicacion": "El Presidente «tendrá la consideración de Magistrado del Tribunal Supremo mientras desempeñe el cargo».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-026",
+      "ley": "lo-6-1985",
+      "articulo": "73.1.a",
+      "enunciado": "La Sala de lo Civil y Penal del Tribunal Superior de Justicia conoce del recurso de casación fundado en infracción de normas de:",
+      "opciones": [
+        "Derecho procesal civil dictado por la comunidad autónoma",
+        "Derecho mercantil aplicable en la comunidad",
+        "Derecho civil, foral o especial, propio de la comunidad",
+        "Derecho administrativo autonómico en materia civil"
+      ],
+      "correcta": 2,
+      "explicacion": "Conoce del recurso de casación «siempre que el recurso se funde en infracción de normas del derecho civil, foral o especial, propio de la comunidad, y cuando el correspondiente Estatuto de Autonomía haya previsto esta atribución».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-027",
+      "ley": "lo-6-1985",
+      "articulo": "73.2.b",
+      "enunciado": "¿Quién conoce en única instancia de las demandas de responsabilidad civil contra la mayor parte de los magistrados de una Audiencia Provincial por hechos de su cargo?",
+      "opciones": [
+        "La Sala de lo Civil del Tribunal Supremo",
+        "La Sala de lo Civil y Penal del Tribunal Superior de Justicia",
+        "La Sala de lo Contencioso-Administrativo del Tribunal Superior de Justicia",
+        "El Pleno de la propia Audiencia Provincial"
+      ],
+      "correcta": 1,
+      "explicacion": "Esta Sala conocerá «En única instancia, de las demandas de responsabilidad civil, por hechos cometidos en el ejercicio de su cargo, contra todos o la mayor parte de los magistrados de una Audiencia Provincial o de cualesquiera de sus secciones».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-028",
+      "ley": "lo-6-1985",
+      "articulo": "73.3.c",
+      "enunciado": "En el orden penal, la Sala de lo Civil y Penal del Tribunal Superior de Justicia conoce de las apelaciones contra las resoluciones dictadas en primera instancia por:",
+      "opciones": [
+        "Las Secciones de Instrucción de los Tribunales de Instancia",
+        "La Sala de lo Penal de la Audiencia Nacional",
+        "Las Secciones de Menores de los Tribunales de Instancia",
+        "Las Audiencias Provinciales"
+      ],
+      "correcta": 3,
+      "explicacion": "Como Sala de lo Penal le corresponde «El conocimiento de los recursos de apelación contra las resoluciones dictadas en primera instancia por las Audiencias Provinciales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-029",
+      "ley": "lo-6-1985",
+      "articulo": "80.1",
+      "enunciado": "Las Audiencias Provinciales tienen su sede en la capital de la provincia, de la que toman su nombre, y extienden su jurisdicción a:",
+      "opciones": [
+        "La capital y su partido judicial",
+        "Toda la provincia",
+        "Los partidos judiciales que determine el Consejo General del Poder Judicial",
+        "Toda la Comunidad Autónoma"
+      ],
+      "correcta": 1,
+      "explicacion": "Las Audiencias Provinciales «tendrán su sede en la capital de la provincia, de la que tomarán su nombre, extenderán su jurisdicción a toda ella».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    },
+    {
+      "id": "tpa-030",
+      "ley": "lo-6-1985",
+      "articulo": "74.2",
+      "enunciado": "Las Salas de lo Contencioso-Administrativo de los Tribunales Superiores de Justicia conocen, en segunda instancia, de las apelaciones contra sentencias y autos dictados por:",
+      "opciones": [
+        "Las Secciones de lo Contencioso-Administrativo de los Tribunales de Instancia",
+        "Las Audiencias Provinciales",
+        "La Sala de lo Contencioso-Administrativo de la Audiencia Nacional",
+        "Las Secciones de lo Social de los Tribunales de Instancia"
+      ],
+      "correcta": 0,
+      "explicacion": "Conocerán «en segunda instancia, de las apelaciones promovidas contra sentencias y autos dictados en las Secciones de lo Contencioso-Administrativo de los Tribunales de Instancia y de los correspondientes recursos de queja».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "validada",
+      "temas": {
+        "tramitacion-procesal": 7
+      }
+    }
+  ]
+}

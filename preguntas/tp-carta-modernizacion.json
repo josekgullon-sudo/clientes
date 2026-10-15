@@ -1,0 +1,805 @@
+{
+  "descripcion": "Tramitación Procesal, temas 9 y 10: Carta de Derechos de los Ciudadanos ante la Justicia, Plan de Transparencia Judicial, Oficina judicial, Oficinas de Justicia en los municipios, Tribunales de Instancia, nuevas tecnologías y protección de datos en la actividad judicial (LOPJ). Lote generado el 2026-10-15; citas comprobadas por script contra los textos consolidados.",
+  "preguntas": [
+    {
+      "id": "tpc-001",
+      "ley": "res-transparencia-judicial-2005",
+      "articulo": "IV.8",
+      "enunciado": "Según el Plan de Transparencia Judicial, quien formule una queja sobre el funcionamiento de la Justicia tiene derecho a recibir respuesta, en todo caso, en el plazo máximo de:",
+      "opciones": [
+        "Diez días",
+        "Quince días",
+        "Un mes",
+        "Dos meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El Plan recoge el derecho de los ciudadanos «a recibir respuesta a ellas con la mayor celeridad, y en todo caso en el plazo máximo de un mes», ya previsto en la Carta de Derechos.",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 9
+      }
+    },
+    {
+      "id": "tpc-002",
+      "ley": "res-transparencia-judicial-2005",
+      "articulo": "Preámbulo",
+      "enunciado": "La Carta de Derechos de los Ciudadanos ante la Justicia fue aprobada por el Pleno del Congreso de los Diputados, en abril de 2002, como:",
+      "opciones": [
+        "Ley Orgánica",
+        "Proposición de Ley",
+        "Real Decreto",
+        "Proposición no de Ley"
+      ],
+      "correcta": 3,
+      "explicacion": "El Acuerdo señala que la Carta «fue aprobada por el Pleno del Congreso de los Diputados en su sesión del día 22 de abril de 2002 como Proposición no de Ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 9
+      }
+    },
+    {
+      "id": "tpc-003",
+      "ley": "res-transparencia-judicial-2005",
+      "articulo": "Preámbulo",
+      "enunciado": "Para hacer efectivo el derecho a recibir información general sobre el funcionamiento de los juzgados, el título I de la Carta declara que se impulsará la creación de:",
+      "opciones": [
+        "Servicios comunes de registro y reparto",
+        "Unidades Procesales de Apoyo Directo",
+        "Oficinas de Justicia en los municipios",
+        "Oficinas de Atención al Ciudadano"
+      ],
+      "correcta": 3,
+      "explicacion": "La Carta declara que «se impulsará la creación y dotación material de Oficinas de Atención al Ciudadano, asegurando su implantación en todo el territorio nacional».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 9
+      }
+    },
+    {
+      "id": "tpc-004",
+      "ley": "res-transparencia-judicial-2005",
+      "articulo": "Preámbulo",
+      "enunciado": "Entre los derechos de transparencia que enumera el apartado 2 de la Carta de Derechos se encuentra el de conocer:",
+      "opciones": [
+        "El contenido actualizado de las leyes españolas y de la Unión Europea mediante un sistema electrónico",
+        "Los documentos y archivos judiciales, incluso los de carácter reservado",
+        "El contenido de las deliberaciones de los tribunales",
+        "La identidad de los jueces que han votado cada sentencia"
+      ],
+      "correcta": 0,
+      "explicacion": "Se enumera «el derecho de los ciudadanos a conocer el contenido actualizado de las leyes españolas y de la Unión Europea mediante un sistema electrónico de datos fácilmente accesible».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 9
+      }
+    },
+    {
+      "id": "tpc-005",
+      "ley": "res-transparencia-judicial-2005",
+      "articulo": "Preámbulo",
+      "enunciado": "Según la Carta de Derechos, cuando se deniegue el acceso a una información de carácter procesal, esa denegación debe ser:",
+      "opciones": [
+        "Acordada siempre por el Presidente del Tribunal",
+        "Comunicada solo si lo pide el interesado",
+        "Motivada por las autoridades y funcionarios",
+        "Autorizada previamente por el Consejo General del Poder Judicial"
+      ],
+      "correcta": 2,
+      "explicacion": "Entre los derechos de transparencia figura «la necesaria motivación por las autoridades y funcionarios de la denegación de acceso a una información de carácter procesal».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 9
+      }
+    },
+    {
+      "id": "tpc-006",
+      "ley": "res-transparencia-judicial-2005",
+      "articulo": "Preámbulo",
+      "enunciado": "Según la Carta de Derechos, los ciudadanos pueden disponer gratuitamente de los formularios para ejercer sus derechos ante los tribunales cuando:",
+      "opciones": [
+        "Litiguen con asistencia jurídica gratuita",
+        "No sea preceptiva la intervención de Abogado y Procurador",
+        "Actúen exclusivamente en la jurisdicción penal",
+        "Sean parte demandada en el proceso"
+      ],
+      "correcta": 1,
+      "explicacion": "La Carta recoge el derecho a «la disposición gratuita de los formularios necesarios para el ejercicio de los derechos ante los tribunales cuando no sea preceptiva la intervención de Abogado y Procurador».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 9
+      }
+    },
+    {
+      "id": "tpc-007",
+      "ley": "lo-6-1985",
+      "articulo": "435.3",
+      "enunciado": "Según la LOPJ, la Oficina judicial funcionará con criterios de agilidad y eficacia, con respeto a los principios recogidos en:",
+      "opciones": [
+        "El Plan de Transparencia Judicial",
+        "El Pacto de Estado para la Reforma de la Justicia",
+        "La Carta de Derechos de los ciudadanos ante la Justicia",
+        "El Código de Conducta para usuarios de equipos informáticos"
+      ],
+      "correcta": 2,
+      "explicacion": "La Oficina judicial funcionará con esos criterios «de manera que los ciudadanos obtengan un servicio próximo y de calidad, con respeto a los principios recogidos en la Carta de Derechos de los ciudadanos ante la Justicia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 9
+      }
+    },
+    {
+      "id": "tpc-008",
+      "ley": "lo-6-1985",
+      "articulo": "231.4",
+      "enunciado": "Las actuaciones judiciales realizadas y los documentos presentados en el idioma oficial de una Comunidad Autónoma tienen plena validez y eficacia:",
+      "opciones": [
+        "Solo si se traducen previamente al castellano",
+        "Solo si ninguna de las partes se opone",
+        "Sin necesidad de traducción al castellano",
+        "Solo si lo autoriza el Letrado de la Administración de Justicia"
+      ],
+      "correcta": 2,
+      "explicacion": "Esas actuaciones y documentos «tendrán sin necesidad de traducción al castellano, plena validez y eficacia», sin perjuicio de los supuestos de traducción que prevé el propio artículo.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 9
+      }
+    },
+    {
+      "id": "tpc-009",
+      "ley": "lo-6-1985",
+      "articulo": "232.2",
+      "enunciado": "¿Cuándo debe publicarse, en lugar visible al público, la relación de señalamientos de un órgano judicial?",
+      "opciones": [
+        "El primer día hábil de cada semana",
+        "El último día hábil de cada semana",
+        "El primer día hábil de cada mes",
+        "El día anterior a cada señalamiento"
+      ],
+      "correcta": 0,
+      "explicacion": "Los Letrados de la Administración de Justicia velarán por que se publique «en un lugar visible al público, el primer día hábil de cada semana, la relación de señalamientos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 9
+      }
+    },
+    {
+      "id": "tpc-010",
+      "ley": "lo-6-1985",
+      "articulo": "234.1",
+      "enunciado": "Los Letrados de la Administración de Justicia facilitan a los interesados información sobre el estado de las actuaciones procesales, salvo que estas hayan sido declaradas:",
+      "opciones": [
+        "Pendientes de señalamiento",
+        "Archivadas provisionalmente",
+        "Secretas o reservadas",
+        "En trámite de ejecución"
+      ],
+      "correcta": 2,
+      "explicacion": "Facilitarán la información sobre el estado de las actuaciones, «salvo que sean o hubieren sido declaradas secretas o reservadas conforme a la ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 9
+      }
+    },
+    {
+      "id": "tpc-011",
+      "ley": "lo-6-1985",
+      "articulo": "545.2",
+      "enunciado": "¿En qué procedimientos puede ostentar la representación técnica un Graduado Social?",
+      "opciones": [
+        "En los contencioso-administrativos",
+        "En los laborales y de Seguridad Social",
+        "En los civiles de familia",
+        "En los penales"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo dispone que «En los procedimientos laborales y de Seguridad Social la representación técnica podrá ser ostentada por un Graduado Social».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 9
+      }
+    },
+    {
+      "id": "tpc-012",
+      "ley": "lo-6-1985",
+      "articulo": "545.3",
+      "enunciado": "Según la LOPJ, la defensa o representación de oficio tiene carácter gratuito para quien acredite:",
+      "opciones": [
+        "Ser parte demandada en el proceso",
+        "No tener nacionalidad española",
+        "Haber sido condenado en un proceso anterior",
+        "Insuficiencia de recursos para litigar"
+      ],
+      "correcta": 3,
+      "explicacion": "La norma establece que «La defensa o representación de oficio tendrá carácter gratuito para quien acredite insuficiencia de recursos para litigar en los términos que establezca la ley».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 9
+      }
+    },
+    {
+      "id": "tpc-013",
+      "ley": "lo-6-1985",
+      "articulo": "439 ter.2",
+      "enunciado": "Existirá una Oficina de Justicia en cada municipio donde:",
+      "opciones": [
+        "Tenga su sede un Tribunal de Instancia",
+        "No tenga su sede un Tribunal de Instancia",
+        "Resida un Letrado de la Administración de Justicia",
+        "Haya más de 7.000 habitantes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 439 ter dispone: «En cada municipio donde no tenga su sede un Tribunal de Instancia existirá una Oficina de Justicia, que prestará servicios en la localidad donde se encuentre ubicada».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-014",
+      "ley": "lo-6-1985",
+      "articulo": "439 ter.1",
+      "enunciado": "Las Oficinas de Justicia en los municipios son unidades que se constituyen sin estar integradas en la estructura de:",
+      "opciones": [
+        "La Oficina judicial",
+        "El Ayuntamiento respectivo",
+        "La Oficina fiscal",
+        "El Registro Civil"
+      ],
+      "correcta": 0,
+      "explicacion": "Son «aquellas unidades que, sin estar integradas en la estructura de la Oficina judicial, se constituyen en el ámbito de la organización de la Administración de Justicia para la prestación de servicios a la ciudadanía».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-015",
+      "ley": "lo-6-1985",
+      "articulo": "439 ter.3",
+      "enunciado": "Los sistemas y equipos informáticos de las Oficinas de Justicia en los municipios son facilitados por:",
+      "opciones": [
+        "El Ayuntamiento respectivo",
+        "El Ministerio de Justicia o la comunidad autónoma con competencias asumidas",
+        "El Consejo General del Poder Judicial",
+        "La Diputación provincial"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo establece que «Los sistemas y equipos informáticos de las Oficinas serán facilitados por el Ministerio de Justicia o la comunidad autónoma respectiva en los casos que tengan asumidas las competencias en materia de Justicia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-016",
+      "ley": "lo-6-1985",
+      "articulo": "439 quater.1.b",
+      "enunciado": "Las Oficinas de Justicia practican los actos de comunicación procesal con quienes residan en el municipio siempre que no se hayan podido practicar:",
+      "opciones": [
+        "Por medios electrónicos",
+        "Por correo certificado",
+        "Por medio de Procurador",
+        "Por el juez de paz personalmente"
+      ],
+      "correcta": 0,
+      "explicacion": "Prestan «La práctica de los actos de comunicación procesal con quienes residan en el municipio o municipios para los que presten sus servicios, siempre que los mismos no se hayan podido practicar por medios electrónicos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-017",
+      "ley": "lo-6-1985",
+      "articulo": "439 quater.2.b",
+      "enunciado": "Cuando las herramientas informáticas y los medios lo permitan, ¿qué hacen las Oficinas de Justicia en los municipios con las solicitudes de asistencia jurídica gratuita?",
+      "opciones": [
+        "Las resuelven y notifican al solicitante",
+        "Las remiten al Ministerio Fiscal para su informe",
+        "Las remiten al juez de paz para que decida",
+        "Las reciben y las remiten a los Colegios de la Abogacía encargados de su tramitación"
+      ],
+      "correcta": 3,
+      "explicacion": "Prestarán «La recepción de las solicitudes de reconocimiento del derecho a la asistencia jurídica gratuita y su remisión a los Colegios de la Abogacía encargados de su tramitación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-018",
+      "ley": "lo-6-1985",
+      "articulo": "439 quinquies.1",
+      "enunciado": "En las Oficinas de Justicia de municipios de más de 7.000 habitantes, la Secretaría será desempeñada por personal del Cuerpo de:",
+      "opciones": [
+        "Gestión Procesal y Administrativa",
+        "Tramitación Procesal y Administrativa",
+        "Auxilio Judicial",
+        "Letrados de la Administración de Justicia"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo dispone que «En todo caso, la Secretaría de estas Oficinas de Justicia será desempeñada por personal del Cuerpo de Gestión Procesal y Administrativa».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-019",
+      "ley": "lo-6-1985",
+      "articulo": "439 quinquies.3",
+      "enunciado": "El Ministerio de Justicia o las comunidades autónomas pueden establecer agrupaciones de Oficinas de Justicia de municipios limítrofes de un mismo:",
+      "opciones": [
+        "Tribunal Superior de Justicia",
+        "Municipio cabecera",
+        "Partido judicial",
+        "Ámbito provincial"
+      ],
+      "correcta": 2,
+      "explicacion": "Podrán establecer «agrupaciones de Oficinas de Justicia de municipios limítrofes de un mismo partido judicial», determinándose el municipio cabecera de la agrupación.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-020",
+      "ley": "lo-6-1985",
+      "articulo": "435.5",
+      "enunciado": "En los municipios donde no proceda constituir una Oficina de Justicia por ser sede de un Tribunal de Instancia, la Oficina judicial podrá prestar:",
+      "opciones": [
+        "Las funciones del juez de paz",
+        "Los servicios administrativos relacionados con la Administración de Justicia previstos para las Oficinas de Justicia",
+        "Únicamente la colaboración en materia de Registro Civil",
+        "Los servicios de las unidades administrativas de medios adecuados de solución de controversias"
+      ],
+      "correcta": 1,
+      "explicacion": "En esos municipios «la Oficina judicial podrá prestar los servicios administrativos relacionados con la Administración de Justicia previstos en el artículo 439 quater».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-021",
+      "ley": "lo-6-1985",
+      "articulo": "84.2",
+      "enunciado": "Con carácter general, los Tribunales de Instancia están integrados por una Sección Única de:",
+      "opciones": [
+        "Civil y de Familia",
+        "Instrucción y de lo Penal",
+        "Civil y de lo Mercantil",
+        "Civil y de Instrucción"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 84.2 establece que «Los Tribunales de Instancia estarán integrados por una Sección Única, de Civil y de Instrucción».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-022",
+      "ley": "lo-6-1985",
+      "articulo": "437.3",
+      "enunciado": "En un Tribunal de Instancia, deberá existir al menos un área en el servicio común de tramitación para ordenar los procedimientos de una sección cuando esta tenga:",
+      "opciones": [
+        "Ocho o más plazas judiciales",
+        "Doce o más plazas judiciales",
+        "Cinco o más plazas judiciales",
+        "Veinte o más plazas judiciales"
+      ],
+      "correcta": 1,
+      "explicacion": "La norma exige que «cuando en un Tribunal de Instancia el número de plazas judiciales de una misma sección sea igual o superior a doce, deberá existir al menos un área para la ordenación de los procedimientos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-023",
+      "ley": "lo-6-1985",
+      "articulo": "85",
+      "enunciado": "Las Secciones Civiles de los Tribunales de Instancia conocen, en primera instancia, de:",
+      "opciones": [
+        "Los concursos de acreedores de cualquier deudor",
+        "Los recursos contra resoluciones de las Audiencias Provinciales",
+        "Los juicios que no vengan atribuidos por la ley a otros órganos judiciales",
+        "Las acciones de propiedad industrial e intelectual"
+      ],
+      "correcta": 2,
+      "explicacion": "Conocen «En primera instancia, de los juicios que no vengan atribuidos por esta ley a otros órganos judiciales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-024",
+      "ley": "lo-6-1985",
+      "articulo": "87.1",
+      "enunciado": "Con carácter general, la Sección de lo Mercantil tiene su sede en la capital de la provincia y su jurisdicción se extiende a:",
+      "opciones": [
+        "Toda la provincia",
+        "El partido judicial de la capital",
+        "La comunidad autónoma",
+        "Las provincias limítrofes"
+      ],
+      "correcta": 0,
+      "explicacion": "En el Tribunal de Instancia de la capital de cada provincia «existirá una Sección de lo Mercantil con jurisdicción en toda la provincia y sede en su capital».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-025",
+      "ley": "lo-6-1985",
+      "articulo": "84.2",
+      "enunciado": "¿Cuál de las siguientes NO es una de las Secciones que, además de la Sección Única, pueden integrar un Tribunal de Instancia?",
+      "opciones": [
+        "De Menores",
+        "De Registro Civil",
+        "De Vigilancia Penitenciaria",
+        "De Violencia contra la Infancia y la Adolescencia"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 84.2 enumera, entre otras, las Secciones «De Menores», «De Vigilancia Penitenciaria» y «De Violencia contra la Infancia y la Adolescencia», pero no una Sección de Registro Civil.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-026",
+      "ley": "lo-6-1985",
+      "articulo": "236 sexies.3",
+      "enunciado": "¿A quién corresponde elaborar y actualizar los códigos de conducta para la correcta aplicación de la normativa de protección de datos en la Oficina judicial y fiscal?",
+      "opciones": [
+        "A la Agencia Española de Protección de Datos",
+        "Al Consejo General del Poder Judicial",
+        "Al Ministerio de Justicia",
+        "A la Fiscalía General del Estado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo dispone que «el Ministerio de Justicia deberá elaborar y actualizar los códigos de conducta destinados a contribuir a la correcta aplicación de la normativa de protección de datos personales en la Oficina judicial y fiscal».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-027",
+      "ley": "lo-6-1985",
+      "articulo": "435.1",
+      "enunciado": "La Oficina judicial es una organización de carácter instrumental que sirve de soporte y apoyo a:",
+      "opciones": [
+        "La actividad gubernativa del Consejo General del Poder Judicial",
+        "La actividad del Ministerio Fiscal",
+        "La gestión de las Administraciones con competencias en Justicia",
+        "La actividad jurisdiccional de jueces y tribunales"
+      ],
+      "correcta": 3,
+      "explicacion": "La Oficina judicial «es la organización de carácter instrumental que sirve de soporte y apoyo a la actividad jurisdiccional de jueces y tribunales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-028",
+      "ley": "lo-6-1985",
+      "articulo": "435.4",
+      "enunciado": "Los funcionarios que prestan servicio en las oficinas judiciales, salvo los Letrados de la Administración de Justicia, dependen orgánicamente de:",
+      "opciones": [
+        "El Consejo General del Poder Judicial",
+        "El Ministerio de Justicia o las comunidades autónomas con competencias asumidas",
+        "El Presidente del Tribunal de Instancia",
+        "El director del servicio común"
+      ],
+      "correcta": 1,
+      "explicacion": "Los funcionarios «dependen orgánicamente del Ministerio de Justicia o de las Comunidades Autónomas con competencias asumidas en sus respectivos ámbitos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-029",
+      "ley": "lo-6-1985",
+      "articulo": "436.6",
+      "enunciado": "La dirección de cada servicio común de la Oficina judicial corresponde a:",
+      "opciones": [
+        "Un juez o una jueza del órgano al que presta servicio",
+        "Un letrado o una letrada de la Administración de Justicia",
+        "Un funcionario del Cuerpo de Gestión Procesal y Administrativa",
+        "El Secretario de Gobierno"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo establece que «La dirección de cada servicio común corresponderá a un letrado o una letrada de la Administración de Justicia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-030",
+      "ley": "lo-6-1985",
+      "articulo": "437.2",
+      "enunciado": "¿Cuál de los siguientes órganos es asistido por un servicio común de tramitación de la correspondiente Oficina judicial?",
+      "opciones": [
+        "Cada Juzgado de Paz",
+        "El Consejo General del Poder Judicial",
+        "Cada Fiscalía",
+        "Cada Audiencia Provincial"
+      ],
+      "correcta": 3,
+      "explicacion": "Serán asistidos por un servicio común de tramitación «cada Tribunal Superior de Justicia, cada Audiencia Provincial y cada Tribunal de Instancia, así como el Tribunal Central de Instancia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-031",
+      "ley": "lo-6-1985",
+      "articulo": "230.1",
+      "enunciado": "Las instrucciones de uso de las nuevas tecnologías que el Consejo General del Poder Judicial dirige a los jueces y magistrados son:",
+      "opciones": [
+        "De obligado cumplimiento",
+        "Meras recomendaciones",
+        "Vinculantes solo si las aprueba el Ministerio de Justicia",
+        "Vinculantes únicamente para las Salas de Gobierno"
+      ],
+      "correcta": 0,
+      "explicacion": "Las instrucciones «que el Consejo General del Poder Judicial o la Fiscalía General del Estado dirijan a los jueces y magistrados o a los fiscales, respectivamente, determinando su utilización, serán de obligado cumplimiento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-032",
+      "ley": "lo-6-1985",
+      "articulo": "230.2",
+      "enunciado": "Los documentos emitidos por medios electrónicos, informáticos o telemáticos tienen la validez y eficacia de un documento original siempre que quede garantizada su:",
+      "opciones": [
+        "Publicidad y gratuidad",
+        "Disponibilidad y trazabilidad",
+        "Autenticidad e integridad",
+        "Reserva y custodia"
+      ],
+      "correcta": 2,
+      "explicacion": "Esos documentos «gozarán de la validez y eficacia de un documento original siempre que quede garantizada su autenticidad e integridad y el cumplimiento de los requisitos exigidos por las leyes procesales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-033",
+      "ley": "lo-6-1985",
+      "articulo": "230.3",
+      "enunciado": "Las vistas grabadas y documentadas en soporte digital:",
+      "opciones": [
+        "Deben transcribirse siempre por el Letrado de la Administración de Justicia",
+        "Se transcriben a petición de cualquiera de las partes",
+        "No podrán transcribirse, salvo en los casos expresamente previstos en la ley",
+        "Solo pueden transcribirse con autorización del Consejo General del Poder Judicial"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo dispone: «Las actuaciones orales y vistas grabadas y documentadas en soporte digital no podrán transcribirse, salvo en los casos expresamente previstos en la ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-034",
+      "ley": "lo-6-1985",
+      "articulo": "230.6",
+      "enunciado": "¿A quién corresponde la definición y validación funcional de los programas y aplicaciones informáticas utilizados en la Administración de Justicia?",
+      "opciones": [
+        "Al Consejo General del Poder Judicial",
+        "A la Agencia Española de Protección de Datos",
+        "Al Ministerio de Justicia en exclusiva",
+        "Al Comité Técnico Estatal de la Administración de Justicia Electrónica"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 230.6 establece que «La definición y validación funcional de los programas y aplicaciones se efectuará por el Comité Técnico Estatal de la Administración de Justicia Electrónica».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-035",
+      "ley": "lo-6-1985",
+      "articulo": "229.3",
+      "enunciado": "Las declaraciones y vistas pueden realizarse por videoconferencia, asegurando en todo caso:",
+      "opciones": [
+        "La posibilidad de contradicción de las partes y la salvaguarda del derecho de defensa",
+        "El consentimiento escrito de todas las partes",
+        "La autorización previa del Consejo General del Poder Judicial",
+        "La presencia del juez en la sede del interviniente"
+      ],
+      "correcta": 0,
+      "explicacion": "Las actuaciones podrán realizarse por videoconferencia «asegurando en todo caso la posibilidad de contradicción de las partes y la salvaguarda del derecho de defensa».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-036",
+      "ley": "lo-6-1985",
+      "articulo": "230.5",
+      "enunciado": "Quienes demandan la tutela judicial se relacionan obligatoriamente con la Administración de Justicia a través de medios técnicos cuando:",
+      "opciones": [
+        "Así se establezca en las normas procesales",
+        "Lo decida el juez en cada caso",
+        "Lo solicite la parte contraria",
+        "Lo acuerde el Comité Técnico Estatal de la Administración de Justicia Electrónica"
+      ],
+      "correcta": 0,
+      "explicacion": "Esas personas «se relacionarán obligatoriamente con la Administración de Justicia, cuando así se establezca en las normas procesales, a través de los medios técnicos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-037",
+      "ley": "lo-6-1985",
+      "articulo": "236 bis.1",
+      "enunciado": "Tiene fines jurisdiccionales el tratamiento de los datos personales:",
+      "opciones": [
+        "Que realiza el Consejo General del Poder Judicial en sus competencias",
+        "Relativos a la gestión del personal de la Oficina judicial",
+        "Utilizados exclusivamente para la estadística judicial",
+        "Incorporados a procesos que tengan por finalidad el ejercicio de la actividad jurisdiccional"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo dice: «Tendrá fines jurisdiccionales el tratamiento de los datos que se encuentren incorporados a los procesos que tengan por finalidad el ejercicio de la actividad jurisdiccional».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-038",
+      "ley": "lo-6-1985",
+      "articulo": "236 ter.3",
+      "enunciado": "El tratamiento de datos personales en el ejercicio de la actividad jurisdiccional:",
+      "opciones": [
+        "Requiere siempre el consentimiento del interesado",
+        "No requiere el consentimiento del interesado",
+        "Requiere consentimiento cuando los datos los facilitan las partes",
+        "Requiere consentimiento en la jurisdicción civil"
+      ],
+      "correcta": 1,
+      "explicacion": "La LOPJ establece que «No será necesario el consentimiento del interesado para que se proceda al tratamiento de los datos personales en el ejercicio de la actividad jurisdiccional».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-039",
+      "ley": "lo-6-1985",
+      "articulo": "236 octies.2",
+      "enunciado": "¿Quién tiene competencia sobre los tratamientos de datos con fines no jurisdiccionales en la Administración de Justicia?",
+      "opciones": [
+        "La Fiscalía General del Estado",
+        "La Comisión de Supervisión y Control de Protección de Datos del CGPJ",
+        "El Ministerio de Justicia",
+        "La Agencia Española de Protección de Datos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo señala que «Los tratamientos de datos con fines no jurisdiccionales estarán sometidos a la competencia de la Agencia Española de Protección de Datos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    },
+    {
+      "id": "tpc-040",
+      "ley": "lo-6-1985",
+      "articulo": "236 septies.1",
+      "enunciado": "Los derechos de acceso, rectificación o supresión sobre datos tratados con fines jurisdiccionales se ejercitan ante:",
+      "opciones": [
+        "Los órganos judiciales, fiscalías u Oficina judicial en los que se tramita el procedimiento",
+        "La Agencia Española de Protección de Datos",
+        "El Consejo General del Poder Judicial",
+        "El Ministerio de Justicia"
+      ],
+      "correcta": 0,
+      "explicacion": "La LOPJ dispone: «Estos derechos deberán ejercitarse ante los órganos judiciales, fiscalías u Oficina judicial en los que se tramita el procedimiento».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 10
+      }
+    }
+  ]
+}
