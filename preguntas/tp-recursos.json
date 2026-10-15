@@ -1,0 +1,705 @@
+{
+  "descripcion": "Tramitación Procesal, tema 24: recursos (derecho al recurso, depósito para recurrir, recursos civiles y penales, recursos contra resoluciones del LAJ). Lote tpn generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE.",
+  "preguntas": [
+    {
+      "id": "tpn-001",
+      "ley": "lo-6-1985",
+      "articulo": "DA 15.4",
+      "enunciado": "¿Qué depósito debe consignar quien interpone recurso de reposición contra una resolución del Letrado de la Administración de Justicia?",
+      "opciones": [
+        "30 euros",
+        "50 euros",
+        "25 euros",
+        "15 euros"
+      ],
+      "correcta": 2,
+      "explicacion": "Para recurrir resoluciones que no pongan fin al proceso «será precisa la consignación como depósito de 25 euros» y «El mismo importe deberá consignar quien interponga recurso de reposición o revisión contra las resoluciones dictadas por el letrado o letrada de la Administración de Justicia».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-002",
+      "ley": "lo-6-1985",
+      "articulo": "DA 15.5",
+      "enunciado": "Están exentos de constituir el depósito para recurrir:",
+      "opciones": [
+        "El Estado, las Comunidades Autónomas, las entidades locales y sus organismos autónomos",
+        "Solo el Estado y las Comunidades Autónomas",
+        "Las personas jurídicas de Derecho público en general",
+        "Los sindicatos y las asociaciones de utilidad pública"
+      ],
+      "correcta": 0,
+      "explicacion": "«El Estado, las Comunidades Autónomas, las entidades locales y los organismos autónomos dependientes de todos ellos quedarán exentos de constituir el depósito referido.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-003",
+      "ley": "lo-6-1985",
+      "articulo": "DA 15.1",
+      "enunciado": "En el orden penal, el depósito para recurrir es exigible:",
+      "opciones": [
+        "A todas las partes que recurran",
+        "Solo al condenado que recurre",
+        "A la acusación particular y a la popular",
+        "Únicamente a la acusación popular"
+      ],
+      "correcta": 3,
+      "explicacion": "«En el orden penal este depósito será exigible únicamente a la acusación popular.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-004",
+      "ley": "lo-6-1985",
+      "articulo": "DA 15.7",
+      "enunciado": "Si el recurrente incurre en defecto u omisión en la constitución del depósito, se le concede para subsanarlo un plazo de:",
+      "opciones": [
+        "Tres días",
+        "Dos días",
+        "Cinco días",
+        "Diez días"
+      ],
+      "correcta": 1,
+      "explicacion": "«No se admitirá a trámite ningún recurso cuyo depósito no esté constituido. Si el recurrente hubiera incurrido en defecto, omisión o error en la constitución del depósito, se concederá a la parte el plazo de dos días para la subsanación del defecto».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-005",
+      "ley": "lo-6-1985",
+      "articulo": "DA 15.4",
+      "enunciado": "¿Cuál de los siguientes recursos NO exige constituir depósito?",
+      "opciones": [
+        "Reposición contra una providencia no definitiva",
+        "Revisión contra un decreto que resuelva un recurso de reposición",
+        "Reposición contra una diligencia de ordenación",
+        "Revisión directa contra un decreto no definitivo"
+      ],
+      "correcta": 1,
+      "explicacion": "«No obstante, no será precisa la constitución de depósito para la interposición de recurso de revisión contra un decreto que resuelva un recurso de reposición.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-006",
+      "ley": "lo-6-1985",
+      "articulo": "DA 15.9",
+      "enunciado": "Se desestima el recurso de reposición contra una resolución del LAJ. El recurrente pierde el depósito cuando:",
+      "opciones": [
+        "Se dicte el decreto desestimatorio",
+        "Se notifique la desestimación a las partes",
+        "Transcurran cinco días desde la desestimación",
+        "La resolución objeto de recurso sea firme"
+      ],
+      "correcta": 3,
+      "explicacion": "«En caso de ser desestimado el recurso de reposición contra una resolución del letrado o letrada de la Administración de Justicia, el recurrente perderá el depósito cuando la resolución objeto de recurso sea firme.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-007",
+      "ley": "lo-6-1985",
+      "articulo": "DA 15.7",
+      "enunciado": "No subsanado el defecto del depósito en una reposición contra resolución del LAJ, se dicta:",
+      "opciones": [
+        "Decreto que pone fin al trámite del recurso, recurrible en revisión",
+        "Auto que inadmite el recurso, sin recurso posterior",
+        "Providencia que archiva las actuaciones, no recurrible",
+        "Diligencia de ordenación que tiene por no presentado el escrito"
+      ],
+      "correcta": 0,
+      "explicacion": "«En el caso de tratarse de un recurso de reposición contra una resolución del letrado o letrada de la Administración de Justicia, se dictará decreto poniendo fin al trámite del recurso contra el que cabrá interponer recurso de revisión.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-008",
+      "ley": "ley-1-2000",
+      "articulo": "448.2",
+      "enunciado": "En el proceso civil, los plazos para recurrir se cuentan desde:",
+      "opciones": [
+        "El mismo día de la notificación de la resolución",
+        "El día siguiente a aquel en que se firma la resolución",
+        "El día siguiente al de la notificación de la resolución que se recurra",
+        "El quinto día posterior a la notificación"
+      ],
+      "correcta": 2,
+      "explicacion": "«Los plazos para recurrir se contarán desde el día siguiente al de la notificación de la resolución que se recurra, o, en su caso, a la notificación de su aclaración o de la denegación de ésta.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-009",
+      "ley": "ley-1-2000",
+      "articulo": "451.1",
+      "enunciado": "Contra una diligencia de ordenación no definitiva cabe recurso de reposición ante:",
+      "opciones": [
+        "El Letrado de la Administración de Justicia que la dictó",
+        "El Juez o Tribunal que conoce del proceso",
+        "La Audiencia Provincial correspondiente",
+        "La Sala de Gobierno del Tribunal Superior"
+      ],
+      "correcta": 0,
+      "explicacion": "«Contra las diligencias de ordenación y decretos no definitivos cabrá recurso de reposición ante el Letrado de la Administración de Justicia que dictó la resolución recurrida».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-010",
+      "ley": "ley-1-2000",
+      "articulo": "452.1",
+      "enunciado": "El recurso de reposición en el proceso civil debe interponerse en el plazo de:",
+      "opciones": [
+        "Tres días",
+        "Diez días",
+        "Cinco días",
+        "Veinte días"
+      ],
+      "correcta": 2,
+      "explicacion": "«El recurso de reposición deberá interponerse en el plazo de cinco días, expresándose la infracción en que la resolución hubiera incurrido a juicio del recurrente.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-011",
+      "ley": "ley-1-2000",
+      "articulo": "452.2",
+      "enunciado": "Una reposición contra una diligencia de ordenación que incumple los requisitos se inadmite mediante:",
+      "opciones": [
+        "Providencia no susceptible de recurso",
+        "Auto recurrible en apelación",
+        "Diligencia de ordenación recurrible en reposición",
+        "Decreto directamente recurrible en revisión"
+      ],
+      "correcta": 3,
+      "explicacion": "«Si no se cumplieran los requisitos establecidos en el apartado anterior, se inadmitirá, mediante providencia no susceptible de recurso, la reposición interpuesta frente a providencias y autos no definitivos, y mediante decreto directamente recurrible en revisión la formulada contra diligencias de ordenación y decretos no definitivos.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-012",
+      "ley": "ley-1-2000",
+      "articulo": "453.2",
+      "enunciado": "Tras el plazo de impugnación de una reposición contra un decreto, el asunto se resuelve por:",
+      "opciones": [
+        "El Tribunal, mediante auto, en cinco días",
+        "El LAJ, mediante decreto, en cinco días",
+        "El LAJ, mediante diligencia de ordenación, en tres días",
+        "El Tribunal, mediante providencia, en diez días"
+      ],
+      "correcta": 1,
+      "explicacion": "«el Letrado de la Administración de Justicia si hubiera sido formulada frente a diligencias de ordenación o decretos, resolverán sin más trámites, mediante auto o decreto, respectivamente, en un plazo de cinco días.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-013",
+      "ley": "ley-1-2000",
+      "articulo": "454 bis.1",
+      "enunciado": "Contra el decreto del LAJ que pone fin al procedimiento cabe:",
+      "opciones": [
+        "Recurso de reposición ante el propio LAJ",
+        "Recurso de apelación ante la Audiencia Provincial",
+        "Recurso de queja ante el tribunal superior",
+        "Recurso directo de revisión ante el tribunal"
+      ],
+      "correcta": 3,
+      "explicacion": "«Cabrá recurso de revisión ante el tribunal contra el decreto resolutivo de la reposición y recurso directo de revisión contra los decretos por los que se ponga fin al procedimiento o impidan su continuación.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-014",
+      "ley": "ley-1-2000",
+      "articulo": "454 bis.2",
+      "enunciado": "Interpuesto en plazo un recurso de revisión, el LAJ lo admite y da traslado a las demás partes mediante:",
+      "opciones": [
+        "Decreto",
+        "Diligencia de ordenación",
+        "Providencia",
+        "Auto"
+      ],
+      "correcta": 1,
+      "explicacion": "«el Letrado de la Administración de Justicia, mediante diligencia de ordenación, admitirá el recurso concediendo a las demás partes personadas un plazo común de cinco días para impugnarlo, si lo estiman conveniente.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-015",
+      "ley": "ley-1-2000",
+      "articulo": "455.1",
+      "enunciado": "No son apelables las sentencias dictadas en juicio verbal por razón de la cuantía cuando esta no supere:",
+      "opciones": [
+        "6.000 euros",
+        "2.000 euros",
+        "3.000 euros",
+        "1.500 euros"
+      ],
+      "correcta": 2,
+      "explicacion": "«Las sentencias dictadas en toda clase de juicio, los autos definitivos y aquéllos otros que la ley expresamente señale, serán apelables, con excepción de las sentencias dictadas en los juicios verbales por razón de la cuantía cuando ésta no supere los 3.000 euros.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-016",
+      "ley": "ley-1-2000",
+      "articulo": "456.2",
+      "enunciado": "La apelación civil contra una sentencia desestimatoria de la demanda:",
+      "opciones": [
+        "Carece de efectos suspensivos",
+        "Suspende la ejecución hasta que se resuelva el recurso",
+        "Solo suspende los pronunciamientos sobre costas",
+        "Suspende los efectos si así lo pide el apelante"
+      ],
+      "correcta": 0,
+      "explicacion": "«La apelación contra sentencias desestimatorias de la demanda y contra autos que pongan fin al proceso carecerá de efectos suspensivos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-017",
+      "ley": "ley-1-2000",
+      "articulo": "458.1",
+      "enunciado": "El recurso de apelación civil se interpone, desde la notificación de la resolución impugnada, en el plazo de:",
+      "opciones": [
+        "Cinco días",
+        "Diez días",
+        "Veinte días",
+        "Treinta días"
+      ],
+      "correcta": 2,
+      "explicacion": "«El recurso de apelación se interpondrá, cumpliendo en su caso con lo dispuesto en el artículo 276, ante el tribunal que sea competente para conocer del mismo, en el plazo de veinte días desde la notificación de la resolución impugnada».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-018",
+      "ley": "ley-1-2000",
+      "articulo": "458.4",
+      "enunciado": "Contra la resolución por la que se tiene por interpuesto el recurso de apelación civil:",
+      "opciones": [
+        "No cabe recurso alguno, pero el apelado puede alegar la inadmisibilidad al oponerse",
+        "Cabe reposición ante el tribunal en cinco días",
+        "Cabe recurso de queja ante la Audiencia Provincial",
+        "Cabe revisión ante el LAJ en el plazo de cinco días"
+      ],
+      "correcta": 0,
+      "explicacion": "«Contra la resolución por la que se tenga por interpuesto el recurso de apelación no cabrá recurso alguno, pero la parte recurrida podrá alegar la inadmisibilidad de la apelación en el trámite de oposición al recurso a que se refiere el artículo 461 de esta ley.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-019",
+      "ley": "ley-1-2000",
+      "articulo": "461.1",
+      "enunciado": "Interpuesta la apelación civil, el LAJ emplaza a las demás partes para presentar oposición o impugnación por:",
+      "opciones": [
+        "Cinco días",
+        "Diez días",
+        "Veinte días",
+        "Quince días"
+      ],
+      "correcta": 1,
+      "explicacion": "«el letrado o letrada de la Administración de Justicia dará traslado a las demás partes, emplazándolas por diez días para que presenten escrito de oposición al recurso o, en su caso, de impugnación de la resolución apelada en lo que le resulte desfavorable.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-020",
+      "ley": "ley-1-2000",
+      "articulo": "465.2",
+      "enunciado": "Si no se celebró vista en la apelación civil, el auto o la sentencia deben dictarse en el plazo de:",
+      "opciones": [
+        "Diez días desde que se evacuaron esos trámites",
+        "Veinte días desde que se recibieron los autos",
+        "Dos meses desde que se interpuso el recurso",
+        "Un mes desde que se evacuaron los trámites de oposición o impugnación"
+      ],
+      "correcta": 3,
+      "explicacion": "«Si no se hubiere celebrado vista, el auto o la sentencia habrán de dictarse en el plazo de un mes a contar desde el día siguiente a aquel en que se hubieran evacuado los trámites del artículo 461.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-021",
+      "ley": "ley-1-2000",
+      "articulo": "477.1",
+      "enunciado": "Son recurribles en casación civil las sentencias que ponen fin a la segunda instancia dictadas por:",
+      "opciones": [
+        "Las Audiencias Provinciales, con cualquier composición",
+        "Las Audiencias Provinciales, cuando deban actuar como órgano colegiado",
+        "Los Juzgados de Primera Instancia en apelación",
+        "Las Audiencias Provinciales, solo si actúan como órgano unipersonal"
+      ],
+      "correcta": 1,
+      "explicacion": "«Serán recurribles en casación las sentencias que pongan fin a la segunda instancia dictadas por las Audiencias Provinciales cuando, conforme a la ley, deban actuar como órgano colegiado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-022",
+      "ley": "ley-1-2000",
+      "articulo": "477.2",
+      "enunciado": "¿En qué caso puede interponerse casación civil aunque no concurra interés casacional?",
+      "opciones": [
+        "Cuando se alegue error en la valoración de la prueba",
+        "Cuando la sentencia recurrida desestime la demanda",
+        "Cuando lo solicite el Ministerio Fiscal",
+        "Contra sentencias de tutela judicial civil de derechos fundamentales susceptibles de amparo"
+      ],
+      "correcta": 3,
+      "explicacion": "«No obstante, podrá interponerse en todo caso recurso de casación contra sentencias dictadas para la tutela judicial civil de derechos fundamentales susceptibles de recurso de amparo, aun cuando no concurra interés casacional.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-023",
+      "ley": "ley-1-2000",
+      "articulo": "479.1",
+      "enunciado": "El recurso de casación civil se interpone ante el tribunal que dictó la resolución impugnada en el plazo de:",
+      "opciones": [
+        "Veinte días",
+        "Diez días",
+        "Treinta días",
+        "Cinco días"
+      ],
+      "correcta": 0,
+      "explicacion": "«El recurso de casación se interpondrá ante el tribunal que haya dictado la resolución que se impugne dentro del plazo de veinte días contados desde el día siguiente a la notificación de aquélla.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-024",
+      "ley": "ley-1-2000",
+      "articulo": "479.2",
+      "enunciado": "Si el tribunal inadmite mediante auto el recurso de casación civil al tenerlo por interpuesto, contra ese auto cabe:",
+      "opciones": [
+        "Recurso de reposición ante el mismo tribunal",
+        "Recurso de revisión ante el LAJ",
+        "Solo recurso de queja",
+        "Recurso de apelación ante la Sala superior"
+      ],
+      "correcta": 2,
+      "explicacion": "«en caso contrario, en el mismo plazo, dictará auto declarando la inadmisión. Contra este auto sólo podrá interponerse recurso de queja.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-025",
+      "ley": "ley-1-2000",
+      "articulo": "483.1",
+      "enunciado": "Transcurrido el emplazamiento, si no se constituyeron los depósitos para recurrir en casación, el LAJ inadmite el recurso mediante:",
+      "opciones": [
+        "Providencia",
+        "Auto",
+        "Diligencia de ordenación",
+        "Decreto"
+      ],
+      "correcta": 3,
+      "explicacion": "«el letrado o letrada de la Administración de Justicia comprobará que el recurso de casación se haya interpuesto en tiempo y en forma» […] «así como la debida constitución de los depósitos para recurrir» […] «procediendo en caso contrario a la inadmisión mediante decreto».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-026",
+      "ley": "ley-1-2000",
+      "articulo": "487.4",
+      "enunciado": "Contra la sentencia o el auto que resuelve el recurso de casación civil:",
+      "opciones": [
+        "No cabe recurso alguno",
+        "Cabe recurso de revisión",
+        "Cabe recurso de queja",
+        "Cabe recurso de reposición"
+      ],
+      "correcta": 0,
+      "explicacion": "«Contra la sentencia o el auto que resuelva el recurso de casación no cabrá recurso alguno.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-027",
+      "ley": "ley-1-2000",
+      "articulo": "494",
+      "enunciado": "El recurso de queja civil contra el auto que deniega la tramitación de un recurso de casación se interpone ante:",
+      "opciones": [
+        "El mismo tribunal que denegó la tramitación",
+        "El Letrado de la Administración de Justicia de ese tribunal",
+        "El órgano al que corresponda resolver el recurso no tramitado",
+        "El Juzgado de Primera Instancia de origen"
+      ],
+      "correcta": 2,
+      "explicacion": "«Contra los autos en que el tribunal que haya dictado la resolución denegare la tramitación de un recurso de casación, se podrá interponer recurso de queja ante el órgano al que corresponda resolver del recurso no tramitado.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-028",
+      "ley": "ley-1-2000",
+      "articulo": "495.1",
+      "enunciado": "El recurso de queja civil debe interponerse desde la notificación de la resolución que deniega la tramitación del recurso en el plazo de:",
+      "opciones": [
+        "Cinco días",
+        "Diez días",
+        "Veinte días",
+        "Tres días"
+      ],
+      "correcta": 1,
+      "explicacion": "«El recurso de queja se interpondrá ante el órgano al que corresponda resolver el recurso no tramitado, en el plazo de diez días desde la notificación de la resolución que deniega la tramitación del recurso de casación.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-029",
+      "ley": "lecrim",
+      "articulo": "211",
+      "enunciado": "En el proceso penal, el recurso de reposición contra una resolución del LAJ se interpone en el plazo de:",
+      "opciones": [
+        "Tres días",
+        "Cinco días",
+        "Dos días",
+        "Diez días"
+      ],
+      "correcta": 0,
+      "explicacion": "«Los recursos de reforma o de súplica contra las resoluciones de los Jueces y Tribunales se interpondrán en el plazo de los tres días siguientes a su notificación a los que sean parte en el juicio.» «En el mismo plazo se interpondrán los recursos de reposición y de revisión contra las resoluciones de los Secretarios judiciales.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-030",
+      "ley": "lecrim",
+      "articulo": "218",
+      "enunciado": "El recurso de queja del proceso penal (Título X) puede interponerse contra:",
+      "opciones": [
+        "Las sentencias dictadas por el Juez de lo Penal",
+        "Las providencias de mero trámite del Juez",
+        "Las resoluciones en que se deniegue la admisión de un recurso de apelación",
+        "Los autos que el Juez de Instrucción dicte admitiendo la apelación"
+      ],
+      "correcta": 2,
+      "explicacion": "«El recurso de queja podrá interponerse contra todos los autos no apelables del Juez y contra las resoluciones en que se denegare la admisión de un recurso de apelación.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-031",
+      "ley": "lecrim",
+      "articulo": "766.2",
+      "enunciado": "En el procedimiento abreviado, para apelar un auto del Juez de Instrucción:",
+      "opciones": [
+        "Es necesario haber interpuesto antes el recurso de reforma",
+        "No es necesario interponer previamente el recurso de reforma",
+        "Solo puede apelarse subsidiariamente al de reforma",
+        "Debe pedirse antes autorización a la Audiencia Provincial"
+      ],
+      "correcta": 1,
+      "explicacion": "«El recurso de apelación podrá interponerse subsidiariamente con el de reforma o por separado. En ningún caso será necesario interponer previamente el de reforma para presentar la apelación.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-032",
+      "ley": "lecrim",
+      "articulo": "790.1",
+      "enunciado": "Dictada sentencia por el Juez de lo Penal, el recurso de apelación ante la Audiencia Provincial se interpone en el plazo de:",
+      "opciones": [
+        "Cinco días",
+        "Tres días",
+        "Quince días",
+        "Diez días"
+      ],
+      "correcta": 3,
+      "explicacion": "«La sentencia dictada por el Juez de lo Penal es apelable ante la Audiencia Provincial correspondiente» y «El recurso podrá ser interpuesto por cualquiera de las partes, dentro de los diez días siguientes a aquel en que se les hubiere notificado la sentencia.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-033",
+      "ley": "lecrim",
+      "articulo": "792.2",
+      "enunciado": "La sentencia de apelación dictada por la Audiencia en el procedimiento abreviado NO puede:",
+      "opciones": [
+        "Condenar al encausado que resultó absuelto en primera instancia",
+        "Anular la sentencia absolutoria apelada",
+        "Devolver las actuaciones al órgano que dictó la resolución recurrida",
+        "Declarar la nulidad del juicio oral"
+      ],
+      "correcta": 0,
+      "explicacion": "«La sentencia de apelación no podrá condenar al encausado que resultó absuelto en primera instancia» […] «No obstante, la sentencia, absolutoria o condenatoria, podrá ser anulada y, en tal caso, se devolverán las actuaciones al órgano que dictó la resolución recurrida.»",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-034",
+      "ley": "lecrim",
+      "articulo": "856",
+      "enunciado": "La petición de testimonio para preparar el recurso de casación penal se formula en el plazo de:",
+      "opciones": [
+        "Tres días desde la última notificación",
+        "Diez días desde la última notificación",
+        "Quince días desde la última notificación",
+        "Cinco días desde la última notificación de la sentencia o auto"
+      ],
+      "correcta": 3,
+      "explicacion": "«La petición expresada en el precedente artículo se formulará mediante escrito autorizado por Abogado y Procurador, dentro de los cinco días siguientes al de la última notificación de la sentencia o auto contra que se intente entablar el recurso.»",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    },
+    {
+      "id": "tpn-035",
+      "ley": "lecrim",
+      "articulo": "954.1.c",
+      "enunciado": "Es motivo para solicitar la revisión de una sentencia penal firme:",
+      "opciones": [
+        "Que la pena impuesta se considere excesiva",
+        "Que sobre el mismo hecho y encausado hayan recaído dos sentencias firmes",
+        "Que la sentencia contenga un voto particular",
+        "Que el condenado no compareciera al juicio oral"
+      ],
+      "correcta": 1,
+      "explicacion": "«Se podrá solicitar la revisión de las sentencias firmes en los casos siguientes» […] «Cuando sobre el mismo hecho y encausado hayan recaído dos sentencias firmes.»",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-04-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 24
+      }
+    }
+  ]
+}

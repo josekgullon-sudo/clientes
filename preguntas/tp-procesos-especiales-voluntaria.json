@@ -1,0 +1,1005 @@
+{
+  "descripcion": "Tramitación Procesal, temas 18 y 19: procesos especiales de la LEC (libro IV) y jurisdicción voluntaria (Ley 15/2015). Citas comprobadas contra el texto consolidado del BOE en /fuentes.",
+  "preguntas": [
+    {
+      "id": "tpj-001",
+      "ley": "ley-1-2000",
+      "articulo": "749.1",
+      "enunciado": "En los procesos de nulidad matrimonial, ¿qué posición tiene siempre el Ministerio Fiscal aunque no los haya promovido?",
+      "opciones": [
+        "Solo interviene si hay hijos menores en el matrimonio",
+        "Es parte únicamente si algún cónyuge lo solicita",
+        "Es parte en el proceso",
+        "Emite informe, pero no es parte del proceso"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 749.1 dispone que «en los de nulidad matrimonial, en los de sustracción internacional de menores y en los de determinación e impugnación de la filiación, será siempre parte el Ministerio Fiscal, aunque no haya sido promotor de los mismos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-002",
+      "ley": "ley-1-2000",
+      "articulo": "750.2",
+      "enunciado": "Si el Tribunal no aprueba algún pacto de un divorcio de mutuo acuerdo, ¿en qué plazo debe el LAJ requerir a las partes sobre su defensa y representación únicas?",
+      "opciones": [
+        "Cinco días",
+        "Tres días",
+        "Diez días",
+        "Veinte días"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 750.2, «el Letrado de la Administración de Justicia requerirá a las partes a fin de que en el plazo de cinco días manifiesten si desean continuar con la defensa y representación únicas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-003",
+      "ley": "ley-1-2000",
+      "articulo": "751.1",
+      "enunciado": "Con carácter general, ¿qué actos no surten efecto en los procesos sobre capacidad, filiación, matrimoniales y de menores?",
+      "opciones": [
+        "El allanamiento y el desistimiento, pero no la renuncia",
+        "La renuncia y la transacción, pero no el allanamiento",
+        "Solo la transacción no aprobada por el Ministerio Fiscal",
+        "La renuncia, el allanamiento y la transacción"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 751.1 establece que «en los procesos a que se refiere este título no surtirán efecto la renuncia, el allanamiento ni la transacción».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-004",
+      "ley": "ley-1-2000",
+      "articulo": "753.3",
+      "enunciado": "¿Cuándo son de tramitación preferente los procesos del título I del libro IV de la LEC?",
+      "opciones": [
+        "Solo cuando lo solicite el Ministerio Fiscal de forma motivada",
+        "Cuando alguno de los interesados sea menor o esté en situación de ausencia legal",
+        "Únicamente los de nulidad matrimonial y los de filiación",
+        "Cuando las partes lo pidan de común acuerdo en la demanda"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 753.3 señala que estos procesos «serán de tramitación preferente siempre que alguno de los interesados en el procedimiento sea menor, persona con discapacidad con medidas judiciales de apoyo en las que se designe un apoyo con funciones representativas, o esté en situación de ausencia legal».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-005",
+      "ley": "ley-1-2000",
+      "articulo": "759.1",
+      "enunciado": "En el proceso de adopción de medidas de apoyo a una persona con discapacidad, ¿qué prueba preceptiva practica el Tribunal?",
+      "opciones": [
+        "Pide a un facultativo que la examine sin intervención judicial",
+        "Oye solo al curador propuesto, sin audiencia a parientes",
+        "Se entrevista con la persona con discapacidad",
+        "Resuelve sin dictamen pericial si hay conformidad de las partes"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 759.1 dice que el Tribunal practicará, entre otras pruebas, la siguiente: «Se entrevistará con la persona con discapacidad». Además, «no pudiendo decidirse sobre las medidas que deben adoptarse sin previo dictamen pericial acordado por el Tribunal».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-006",
+      "ley": "ley-1-2000",
+      "articulo": "763.1",
+      "enunciado": "En un internamiento urgente por trastorno psíquico, ¿en qué plazo máximo debe el responsable del centro dar cuenta al tribunal competente?",
+      "opciones": [
+        "Veinticuatro horas",
+        "Setenta y dos horas",
+        "Cuarenta y ocho horas",
+        "Cinco días"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 763.1, el responsable del centro «deberá dar cuenta de éste al tribunal competente lo antes posible y, en todo caso, dentro del plazo de veinticuatro horas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-007",
+      "ley": "ley-1-2000",
+      "articulo": "764.2",
+      "enunciado": "Se presenta una demanda para impugnar una filiación ya declarada por sentencia firme. ¿Qué harán los tribunales?",
+      "opciones": [
+        "Admitirla y dar traslado al Ministerio Fiscal",
+        "Admitirla si se acompaña un principio de prueba",
+        "Admitirla y suspender los efectos de la sentencia firme",
+        "Rechazar su admisión a trámite"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 764.2 prevé que «los tribunales rechazarán la admisión a trámite de cualquier demanda que pretenda la impugnación de la filiación declarada por sentencia firme».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-008",
+      "ley": "ley-1-2000",
+      "articulo": "767.4",
+      "enunciado": "En un juicio de filiación, el demandado se niega sin justificación a someterse a la prueba biológica. ¿Qué puede hacer el tribunal?",
+      "opciones": [
+        "Declarar la filiación reclamada sin exigir ningún otro indicio de paternidad",
+        "Declarar la filiación reclamada si hay otros indicios y la prueba no se obtuvo por otros medios",
+        "Archivar el proceso por imposibilidad de practicar la prueba esencial",
+        "Imponer multas coercitivas hasta que el demandado se someta a la prueba"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 767.4 dispone que «la negativa injustificada a someterse a la prueba biológica de paternidad o maternidad permitirá al tribunal declarar la filiación reclamada, siempre que existan otros indicios de la paternidad o maternidad y la prueba de ésta no se haya obtenido por otros medios».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-009",
+      "ley": "ley-1-2000",
+      "articulo": "769.1",
+      "enunciado": "Los cónyuges residen en distintos partidos judiciales. ¿Qué tribunal es competente para su demanda de divorcio contencioso?",
+      "opciones": [
+        "Solo el del último domicilio conyugal, sin posibilidad de elección",
+        "Solo el de residencia del demandado, por el fuero general",
+        "A elección del demandante, el del último domicilio del matrimonio o el de residencia del demandado",
+        "A elección del demandado, el de su domicilio o el del demandante"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 769.1 establece que «en el caso de residir los cónyuges en distintos partidos judiciales, será tribunal competente, a elección del demandante, el del último domicilio del matrimonio o el de residencia del demandado».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-010",
+      "ley": "ley-1-2000",
+      "articulo": "769.3",
+      "enunciado": "En un proceso exclusivamente sobre guarda y custodia de hijos menores, con los progenitores en distintos partidos judiciales, ¿cuál es competente a elección del demandante?",
+      "opciones": [
+        "El del domicilio del demandado o el de la residencia del menor",
+        "El del último domicilio del matrimonio o el de residencia del demandado",
+        "El del domicilio del demandante o el de la residencia del menor",
+        "El del último domicilio común o el del domicilio del demandante"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 769.3, «en el caso de residir los progenitores en distintos partidos judiciales, será tribunal competente, a elección del demandante, el del domicilio del demandado o el de la residencia del menor».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-011",
+      "ley": "ley-1-2000",
+      "articulo": "770.2",
+      "enunciado": "En un proceso de divorcio, el demandado propone reconvención con la contestación. ¿De cuántos días dispone el actor para contestarla?",
+      "opciones": [
+        "Cinco días",
+        "Quince días",
+        "Veinte días",
+        "Diez días"
+      ],
+      "correcta": 3,
+      "explicacion": "La regla 2.ª del artículo 770 indica: «La reconvención se propondrá con la contestación a la demanda. El actor dispondrá de 10 días para contestarla».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-012",
+      "ley": "ley-1-2000",
+      "articulo": "770.4",
+      "enunciado": "En los procesos de nulidad, separación o divorcio, ¿qué plazo máximo señala el Tribunal para practicar las pruebas que no pudieron practicarse en la vista?",
+      "opciones": [
+        "Diez días",
+        "Treinta días",
+        "Quince días",
+        "Veinte días"
+      ],
+      "correcta": 1,
+      "explicacion": "La regla 4.ª del artículo 770 dispone que las pruebas que no puedan practicarse en la vista «se practicarán dentro del plazo que el Tribunal señale, que no podrá exceder de treinta días».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-013",
+      "ley": "ley-1-2000",
+      "articulo": "771.5",
+      "enunciado": "Adoptadas medidas provisionales previas a la demanda de separación, ¿dentro de qué plazo debe presentarse la demanda para que subsistan?",
+      "opciones": [
+        "Diez días siguientes a su adopción",
+        "Quince días siguientes a su adopción",
+        "Treinta días siguientes a su adopción",
+        "Dos meses siguientes a su adopción"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 771.5 señala que los efectos y medidas «sólo subsistirán si, dentro de los treinta días siguientes a su adopción se presenta la demanda de nulidad, separación o divorcio».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-014",
+      "ley": "ley-1-2000",
+      "articulo": "777.3",
+      "enunciado": "Admitida una solicitud de divorcio de mutuo acuerdo, ¿en qué plazo cita el LAJ a los cónyuges para que se ratifiquen por separado?",
+      "opciones": [
+        "Dentro de los tres días siguientes",
+        "Dentro de los cinco días siguientes",
+        "Dentro de los diez días siguientes",
+        "Dentro de los quince días siguientes"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 777.3 prevé que el Letrado de la Administración de Justicia «citará a los cónyuges, dentro de los tres días siguientes, para que se ratifiquen por separado en su petición».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-015",
+      "ley": "ley-1-2000",
+      "articulo": "778.1",
+      "enunciado": "Se pide la eficacia civil de una resolución eclesiástica de nulidad matrimonial sin solicitar medidas. ¿Cómo se tramita?",
+      "opciones": [
+        "Audiencia de cinco días al otro cónyuge, y resolución por sentencia",
+        "Audiencia de veinte días al Ministerio Fiscal, y resolución por decreto",
+        "Audiencia de diez días solo al otro cónyuge, y resolución por providencia",
+        "Audiencia de diez días al otro cónyuge y al Ministerio Fiscal, y resolución por auto"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 778.1, si no se pidiera la adopción o modificación de medidas, «el tribunal dará audiencia por plazo de diez días al otro cónyuge y al Ministerio Fiscal y resolverá por medio de auto lo que resulte procedente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-016",
+      "ley": "ley-1-2000",
+      "articulo": "778 quáter.5",
+      "enunciado": "El procedimiento de restitución de un menor por sustracción internacional es urgente y preferente. ¿En qué plazo total debe realizarse en ambas instancias?",
+      "opciones": [
+        "Tres semanas desde la presentación de la solicitud",
+        "Seis semanas desde la presentación de la solicitud",
+        "Dos meses desde la admisión de la demanda",
+        "Tres meses desde la presentación de la solicitud"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 778 quáter.5 dice que el procedimiento «deberá realizarse, en ambas instancias, si las hubiere, en el inexcusable plazo total de seis semanas desde la fecha de la presentación de la solicitud».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-017",
+      "ley": "ley-1-2000",
+      "articulo": "780.1",
+      "enunciado": "¿En qué plazo puede formularse oposición ante los tribunales civiles a una resolución administrativa en materia de protección de menores?",
+      "opciones": [
+        "Un mes desde su notificación, tras reclamación administrativa previa",
+        "Veinte días desde su notificación, sin reclamación previa",
+        "Dos meses desde su notificación, sin reclamación administrativa previa",
+        "Tres meses desde su notificación, tras reclamación previa"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 780.1 establece: «No será necesaria reclamación previa en vía administrativa» y «la oposición a las mismas podrá formularse en el plazo de dos meses desde su notificación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-018",
+      "ley": "ley-1-2000",
+      "articulo": "781.1",
+      "enunciado": "Unos padres quieren que se reconozca la necesidad de su asentimiento a la adopción. ¿Qué plazo máximo puede señalar el LAJ para presentar la demanda?",
+      "opciones": [
+        "Veinte días",
+        "Diez días",
+        "Quince días",
+        "Treinta días"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 781.1, el Letrado de la Administración de Justicia «señalará el plazo que estime necesario para la presentación de la demanda, que no podrá ser superior a veinte días».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-019",
+      "ley": "ley-1-2000",
+      "articulo": "782.1",
+      "enunciado": "¿Quién puede reclamar judicialmente la división de la herencia?",
+      "opciones": [
+        "Cualquier acreedor de la herencia con título ejecutivo",
+        "Un acreedor de uno de los coherederos, a su costa",
+        "Solo el cónyuge sobreviviente del causante",
+        "Cualquier coheredero o legatario de parte alícuota"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 782.1 dice que «cualquier coheredero o legatario de parte alícuota podrá reclamar judicialmente la división de la herencia». Además, según el apartado 3, «los acreedores no podrán instar la división».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-020",
+      "ley": "ley-1-2000",
+      "articulo": "783.2",
+      "enunciado": "Solicitada la división judicial de la herencia, ¿qué plazo marca la ley para que el LAJ señale el día de la Junta para designar contador y peritos?",
+      "opciones": [
+        "Dentro de los cinco días siguientes",
+        "Dentro de los diez días siguientes",
+        "Dentro de los quince días siguientes",
+        "Dentro de los treinta días siguientes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 783.2 prevé que el Letrado de la Administración de Justicia «convocará a Junta a los herederos, a los legatarios de parte alícuota y al cónyuge sobreviviente, señalando día dentro de los diez siguientes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-021",
+      "ley": "ley-1-2000",
+      "articulo": "787.5",
+      "enunciado": "En la división de la herencia, ¿qué eficacia tiene la sentencia que resuelve la oposición a las operaciones divisorias?",
+      "opciones": [
+        "Tiene cosa juzgada y no cabe ningún juicio posterior",
+        "Tiene cosa juzgada solo respecto del contador designado",
+        "No tiene cosa juzgada; los interesados pueden acudir al juicio ordinario",
+        "Carece de eficacia hasta su aprobación por el contador"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 787.5, la sentencia «se llevará a efecto con arreglo a lo dispuesto en el artículo siguiente, pero no tendrá eficacia de cosa juzgada, pudiendo los interesados hacer valer los derechos que crean corresponderles sobre los bienes adjudicados en el juicio ordinario que corresponda».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-022",
+      "ley": "ley-1-2000",
+      "articulo": "812.1",
+      "enunciado": "¿Qué características debe tener la deuda dineraria que se reclama en el proceso monitorio?",
+      "opciones": [
+        "Ser de cualquier importe, líquida, determinada, vencida y exigible",
+        "Ser líquida y no exceder de la cuantía del juicio verbal",
+        "Constar en documento público y estar determinada",
+        "Estar vencida, aunque no sea todavía exigible"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 812.1 permite acudir al proceso monitorio a quien pretenda «el pago de deuda dineraria de cualquier importe, líquida, determinada, vencida y exigible».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-023",
+      "ley": "ley-1-2000",
+      "articulo": "814.2",
+      "enunciado": "Para presentar la petición inicial del proceso monitorio, ¿es necesario valerse de abogado y procurador?",
+      "opciones": [
+        "Sí, de abogado, pero no de procurador",
+        "Sí, de ambos, cuando la deuda supere la cuantía del juicio verbal",
+        "Sí, de procurador, que debe presentarla por vía electrónica",
+        "No, no será preciso valerse de procurador y abogado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 814.2 establece: «Para la presentación de la petición inicial del procedimiento monitorio no será preciso valerse de procurador y abogado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-024",
+      "ley": "ley-1-2000",
+      "articulo": "815.1",
+      "enunciado": "Admitida la petición del proceso monitorio, ¿de qué plazo dispone el deudor requerido para pagar o comparecer y oponerse?",
+      "opciones": [
+        "Diez días",
+        "Veinte días",
+        "Quince días",
+        "Treinta días"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 815.1, el LAJ «requerirá al deudor para que, en el plazo de veinte días, pague al peticionario, acreditándolo ante el tribunal, o comparezca ante éste y alegue de forma fundada y motivada, en escrito de oposición, las razones por las que, a su entender, no debe, en todo o en parte, la cantidad reclamada».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-025",
+      "ley": "ley-1-2000",
+      "articulo": "816.1",
+      "enunciado": "En el proceso monitorio, el deudor requerido no paga ni comparece. ¿Qué resolución dicta el LAJ?",
+      "opciones": [
+        "Auto que despacha ejecución de oficio contra el deudor",
+        "Diligencia de ordenación que archiva las actuaciones sin más trámite",
+        "Decreto que da por terminado el proceso monitorio y da traslado al acreedor para que inste la ejecución",
+        "Sentencia que condena al deudor por su incomparecencia"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 816.1 dice que el Letrado de la Administración de Justicia «dictará decreto dando por terminado el proceso monitorio y dará traslado al acreedor para que inste el despacho de ejecución, bastando para ello con la mera solicitud».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-026",
+      "ley": "ley-1-2000",
+      "articulo": "818.2",
+      "enunciado": "En un monitorio cuya cuantía excede de la del juicio verbal, el deudor se opone. ¿En qué plazo debe el peticionario presentar la demanda para evitar el sobreseimiento?",
+      "opciones": [
+        "Un mes desde el traslado del escrito de oposición",
+        "Diez días desde el traslado del escrito de oposición",
+        "Veinte días desde el requerimiento de pago",
+        "Dos meses desde el decreto que pone fin al monitorio"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 818.2 prevé que, «si el peticionario no interpusiera la demanda correspondiente dentro del plazo de un mes desde el traslado del escrito de oposición, el letrado o la letrada de la Administración de Justicia dictará decreto sobreseyendo las actuaciones y condenando en costas al acreedor».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-027",
+      "ley": "ley-1-2000",
+      "articulo": "819",
+      "enunciado": "¿Qué título debe presentarse al incoar el juicio cambiario?",
+      "opciones": [
+        "Factura o albarán firmado por el deudor",
+        "Cualquier documento de deuda con la firma del deudor",
+        "Escritura pública de reconocimiento de deuda",
+        "Letra de cambio, cheque o pagaré con los requisitos de la Ley cambiaria y del cheque"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 819 dispone: «Sólo procederá el juicio cambiario si, al incoarlo, se presenta letra de cambio, cheque o pagaré que reúnan los requisitos previstos en la Ley cambiaria y del cheque».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-028",
+      "ley": "ley-1-2000",
+      "articulo": "824.1",
+      "enunciado": "Requerido de pago el deudor cambiario, ¿de qué plazo dispone para interponer demanda de oposición al juicio cambiario?",
+      "opciones": [
+        "Cinco días siguientes al requerimiento de pago",
+        "Diez días siguientes al requerimiento de pago",
+        "Veinte días siguientes al requerimiento de pago",
+        "Un mes siguiente al requerimiento de pago"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 824.1 establece que «en los diez días siguientes al del requerimiento de pago el deudor podrá interponer demanda de oposición al juicio cambiario».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-07",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 18
+      }
+    },
+    {
+      "id": "tpj-029",
+      "ley": "ley-15-2015",
+      "articulo": "1.2",
+      "enunciado": "¿Qué se considera expediente de jurisdicción voluntaria según la Ley 15/2015?",
+      "opciones": [
+        "El que requiere intervención judicial en materia civil y penal, sin controversia entre partes",
+        "El que se tramita ante notario o registrador en materia civil y mercantil",
+        "El que requiere intervención judicial en materia civil y mercantil, sin controversia que deba resolverse en proceso contencioso",
+        "El que resuelve una controversia civil y mercantil entre partes en proceso abreviado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 1.2 considera expedientes de jurisdicción voluntaria «todos aquellos que requieran la intervención de un órgano jurisdiccional para la tutela de derechos e intereses en materia de Derecho civil y mercantil, sin que exista controversia que deba sustanciarse en un proceso contencioso».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-030",
+      "ley": "ley-15-2015",
+      "articulo": "2.1",
+      "enunciado": "¿Qué órganos tienen competencia objetiva para conocer y resolver los expedientes de jurisdicción voluntaria?",
+      "opciones": [
+        "Los Juzgados de Primera Instancia o de lo Mercantil, según el caso",
+        "Solo los Juzgados de Primera Instancia, en todo caso",
+        "Los Juzgados de Paz, en todos los expedientes",
+        "Las Audiencias Provinciales y los Juzgados de lo Mercantil"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 2.1 dispone que «los Juzgados de Primera Instancia o de lo Mercantil, según el caso, tendrán competencia objetiva para conocer y resolver los expedientes de jurisdicción voluntaria».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-031",
+      "ley": "ley-15-2015",
+      "articulo": "2.2",
+      "enunciado": "¿Puede modificarse por sumisión de las partes la competencia territorial en los expedientes de jurisdicción voluntaria?",
+      "opciones": [
+        "Sí, por sumisión expresa pactada por escrito",
+        "Sí, por sumisión tácita del solicitante al presentar la solicitud",
+        "Sí, si lo autoriza el Ministerio Fiscal",
+        "No, no cabe modificarla por sumisión expresa ni tácita"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 2.2 establece que la competencia territorial «vendrá fijada por el precepto correspondiente en cada caso, sin que quepa modificarla por sumisión expresa o tácita».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-032",
+      "ley": "ley-15-2015",
+      "articulo": "2.3",
+      "enunciado": "Un expediente de jurisdicción voluntaria afecta al estado civil de una persona y la ley no atribuye expresamente su decisión a nadie. ¿Quién lo decide?",
+      "opciones": [
+        "El Letrado de la Administración de Justicia",
+        "El Juez",
+        "El Ministerio Fiscal",
+        "El Juez de Paz"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 2.3, «cuando no venga atribuida la competencia expresamente a ninguno de ellos, el Juez decidirá los expedientes que afecten al interés público, al estado civil de las personas». El impulso y la dirección corresponden al Secretario judicial (hoy Letrado de la Administración de Justicia).",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-033",
+      "ley": "ley-15-2015",
+      "articulo": "3.2",
+      "enunciado": "Aunque la ley no lo exija en el expediente, ¿cuándo es necesaria la actuación de abogado y procurador en jurisdicción voluntaria?",
+      "opciones": [
+        "Solo para presentar la solicitud inicial del expediente",
+        "Siempre que intervenga el Ministerio Fiscal en el expediente",
+        "Para presentar recursos de revisión y apelación contra la resolución definitiva, y desde que se formule oposición",
+        "Para asistir a la comparecencia ante el Juez o el Letrado"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 3.2 prevé que «será necesaria la actuación de Abogado y Procurador para la presentación de los recursos de revisión y apelación que en su caso se interpongan contra la resolución definitiva que se dicte en el expediente, así como a partir del momento en que se formulase oposición».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-034",
+      "ley": "ley-15-2015",
+      "articulo": "4",
+      "enunciado": "¿En cuál de estos casos interviene el Ministerio Fiscal en un expediente de jurisdicción voluntaria?",
+      "opciones": [
+        "Cuando esté comprometido el interés de un menor",
+        "Siempre que el requerido formule oposición",
+        "Solo cuando el solicitante lo pida expresamente",
+        "Únicamente en los expedientes de materia mercantil"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 4 dispone que el Ministerio Fiscal intervendrá «cuando afecten al estado civil o condición de la persona o esté comprometido el interés de un menor o una persona con discapacidad con medidas de apoyo para el ejercicio de su capacidad jurídica».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-035",
+      "ley": "ley-15-2015",
+      "articulo": "6.2",
+      "enunciado": "Se tramita un expediente de jurisdicción voluntaria y se acredita la presentación de una demanda sobre el mismo objeto. ¿Qué procede?",
+      "opciones": [
+        "Suspender el expediente hasta que termine el proceso",
+        "Acumular el expediente al proceso contencioso",
+        "Continuar el expediente en paralelo al proceso",
+        "Archivar el expediente y remitir las actuaciones al tribunal que conoce del proceso"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 6.2, «una vez acreditada la presentación de la correspondiente demanda, se procederá al archivo del expediente, remitiéndose las actuaciones realizadas al tribunal que esté conociendo del proceso jurisdiccional para que lo incorpore a los autos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-036",
+      "ley": "ley-15-2015",
+      "articulo": "15.1",
+      "enunciado": "¿Cuándo no se puede acordar la acumulación de expedientes de jurisdicción voluntaria?",
+      "opciones": [
+        "Cuando uno de ellos afecte a un menor de edad",
+        "Cuando su resolución corresponda a sujetos distintos",
+        "Cuando versen sobre materia civil y mercantil a la vez",
+        "Cuando estén pendientes ante el mismo órgano judicial"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 15.1 establece que «no se podrá acordar la acumulación de expedientes cuando su resolución corresponda a sujetos distintos».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-037",
+      "ley": "ley-15-2015",
+      "articulo": "16.4",
+      "enunciado": "Si una solicitud de jurisdicción voluntaria tiene defectos u omisiones, ¿qué plazo se da para subsanarlos?",
+      "opciones": [
+        "Tres días",
+        "Diez días",
+        "Cinco días",
+        "Quince días"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 16.4 prevé que se dará «un plazo de cinco días para proceder a su subsanación». Si ésta no se lleva a cabo, «tendrá por no presentada la solicitud y archivará las actuaciones» en los expedientes de su competencia.",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-038",
+      "ley": "ley-15-2015",
+      "articulo": "17.3",
+      "enunciado": "¿Con cuánta antelación mínima se cita a los interesados a la comparecencia en un expediente de jurisdicción voluntaria?",
+      "opciones": [
+        "Quince días",
+        "Cinco días",
+        "Diez días",
+        "Veinte días"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 17.3 dispone que «los interesados serán citados a la comparecencia con al menos quince días de antelación a su celebración».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-039",
+      "ley": "ley-15-2015",
+      "articulo": "17.3",
+      "enunciado": "En un expediente de jurisdicción voluntaria, un interesado va a formular oposición. ¿Qué rige para ella?",
+      "opciones": [
+        "Se formula en la comparecencia y hace contencioso el expediente",
+        "Se formula en diez días y suspende el expediente hasta su resolución",
+        "Se formula en cinco días y obliga a archivar el expediente",
+        "Se formula en los cinco días siguientes a la citación y, salvo previsión legal, no hace contencioso el expediente"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 17.3, el interesado «deberá hacerlo en los 5 días siguientes a su citación, y no se hará contencioso el expediente, ni impedirá que continúe su tramitación hasta que sea resuelto, salvo que la ley expresamente lo prevea».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-040",
+      "ley": "ley-15-2015",
+      "articulo": "18.1",
+      "enunciado": "Admitida la solicitud en un expediente de jurisdicción voluntaria, ¿en qué plazo se celebra la comparecencia?",
+      "opciones": [
+        "Dentro de los diez días siguientes a la admisión",
+        "Dentro de los treinta días siguientes a la admisión",
+        "Dentro de los quince días siguientes a la admisión",
+        "Dentro de los veinte días siguientes a la admisión"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 18.1 señala que la comparecencia se celebrará «dentro de los treinta días siguientes a la admisión de la solicitud».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-041",
+      "ley": "ley-15-2015",
+      "articulo": "19.3",
+      "enunciado": "Resuelto un expediente de jurisdicción voluntaria y firme la resolución, ¿puede iniciarse otro sobre idéntico objeto?",
+      "opciones": [
+        "Sí, cuando hayan pasado seis meses desde la resolución",
+        "Sí, si lo solicita el Ministerio Fiscal en cualquier caso",
+        "No, salvo que cambien las circunstancias que dieron lugar al primero",
+        "No, y tampoco cabe un proceso jurisdiccional posterior"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 19.3 establece que, una vez firme la resolución, «no podrá iniciarse otro sobre idéntico objeto, salvo que cambien las circunstancias que dieron lugar a aquél».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-042",
+      "ley": "ley-15-2015",
+      "articulo": "20.2",
+      "enunciado": "¿Qué recurso cabe contra la resolución definitiva dictada por el Juez en un expediente de jurisdicción voluntaria?",
+      "opciones": [
+        "Apelación, que no suspende la resolución salvo que la ley disponga lo contrario",
+        "Revisión ante el mismo Juez, sin efecto suspensivo",
+        "Reposición, con efecto suspensivo en todo caso",
+        "Apelación, con efecto suspensivo en todo caso"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 20.2 indica que las resoluciones definitivas dictadas por el Juez «podrán ser recurridas en apelación por cualquier interesado que se considere perjudicado por ella» y que «el recurso de apelación no tendrá efectos suspensivos, salvo que la ley expresamente disponga lo contrario».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-043",
+      "ley": "ley-15-2015",
+      "articulo": "21.1",
+      "enunciado": "Pese al impulso de oficio, ¿tras cuánto tiempo sin actividad de los interesados desde la última notificación se tiene por abandonado el expediente?",
+      "opciones": [
+        "Tres meses",
+        "Nueve meses",
+        "Un año",
+        "Seis meses"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 21.1 establece que «se tendrá por abandonado el expediente si, pese al impulso de oficio de las actuaciones, no se produce actividad promovida por los interesados en el plazo de seis meses desde la última notificación practicada».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-044",
+      "ley": "ley-15-2015",
+      "articulo": "139.2",
+      "enunciado": "¿En cuál de estos juicios no se admite a trámite una petición de conciliación?",
+      "opciones": [
+        "En uno en que esté interesada una sociedad mercantil",
+        "En uno en que esté interesada una Comunidad Autónoma",
+        "En uno entre dos personas físicas mayores de edad",
+        "En uno en que esté interesado un trabajador autónomo"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 139.2 no admite peticiones de conciliación sobre «los juicios en que estén interesados el Estado, las Comunidades Autónomas y las demás Administraciones públicas, Corporaciones o Instituciones de igual naturaleza».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-045",
+      "ley": "ley-15-2015",
+      "articulo": "141.3",
+      "enunciado": "En los expedientes de conciliación, ¿es preceptiva la intervención de Abogado y Procurador?",
+      "opciones": [
+        "Sí, de ambos en todo caso",
+        "Sí, de Abogado, pero no de Procurador",
+        "No, no es preceptiva ni de Abogado ni de Procurador",
+        "Solo de Procurador, para comparecer al acto"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 141.3 dispone: «En los expedientes de conciliación no será preceptiva la intervención de Abogado ni Procurador».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-046",
+      "ley": "ley-15-2015",
+      "articulo": "142.2",
+      "enunciado": "Admitida la solicitud de conciliación, ¿cuál es el plazo máximo para celebrar el acto?",
+      "opciones": [
+        "Diez días desde la admisión de la solicitud",
+        "Cinco días desde la admisión de la solicitud",
+        "Quince días desde la admisión de la solicitud",
+        "Treinta días desde la admisión de la solicitud"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 142.2 señala que «en ningún caso podrá demorarse la celebración del acto de conciliación más de diez días desde la admisión de la solicitud». Entre la citación y el acto deberán mediar al menos cinco días.",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-047",
+      "ley": "ley-15-2015",
+      "articulo": "144.3",
+      "enunciado": "En el acto de conciliación no comparece el requerido ni alega justa causa. ¿Qué ocurre?",
+      "opciones": [
+        "Se celebra el acto sin él y se tiene por avenido",
+        "Se le tiene por desistido y se archiva el expediente",
+        "Se señala nuevo día y hora dentro de los cinco días siguientes",
+        "Se pone fin al acto y la conciliación se tiene por intentada"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 144.3, «si el requerido de conciliación no compareciere ni alegare justa causa para no concurrir, se pondrá fin al acto, teniéndose la conciliación por intentada a todos los efectos legales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-048",
+      "ley": "ley-15-2015",
+      "articulo": "148.2",
+      "enunciado": "Para pedir la nulidad de lo convenido en un acto de conciliación, ¿en qué plazo debe interponerse la demanda desde que se celebró?",
+      "opciones": [
+        "Diez días",
+        "Quince días",
+        "Veinte días",
+        "Un mes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 148.2 prevé que la demanda de nulidad «deberá interponerse en un plazo de quince días desde que se celebró la conciliación ante el tribunal competente».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-049",
+      "ley": "ley-15-2015",
+      "articulo": "36",
+      "enunciado": "En el expediente de adopción, ¿a quién se cita para manifestar su consentimiento en presencia del Juez?",
+      "opciones": [
+        "Solo al adoptante o adoptantes, sea cual sea la edad del adoptando",
+        "Al adoptante o adoptantes y al adoptando mayor de 14 años",
+        "Al adoptante o adoptantes y al adoptando mayor de 12 años",
+        "A la Entidad Pública y a los progenitores del adoptando"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 36 dispone que se citará, «para manifestar su consentimiento en presencia del Juez, al adoptante o adoptantes y al adoptando si fuere mayor de 12 años».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    },
+    {
+      "id": "tpj-050",
+      "ley": "ley-15-2015",
+      "articulo": "68.2",
+      "enunciado": "¿Quién puede instar la declaración de fallecimiento en los supuestos de siniestro de los apartados 2 y 3 del artículo 194 del Código Civil?",
+      "opciones": [
+        "Únicamente el Ministerio Fiscal",
+        "El cónyuge del desaparecido, no separado legalmente",
+        "Los parientes consanguíneos hasta el cuarto grado",
+        "Cualquier persona con derechos sobre los bienes del desaparecido"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 68.2 establece que «la declaración de fallecimiento a que se refieren los apartados 2 y 3 del artículo 194 del Código Civil se realizará únicamente a instancia del Ministerio Fiscal».",
+      "dificultad": 3,
+      "fecha_version_boe": "2026-03-05",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 19
+      }
+    }
+  ]
+}
