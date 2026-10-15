@@ -26,6 +26,9 @@ export async function guardarAjustes(datos: FormData) {
     p_recordatorio: datos.get("recordatorio") === "1",
     p_completar: datos.get("completar") === "1",
   });
+  // Los datos del panel dependen del perfil: sin esto el navegador reutiliza el /app que guardó al
+  // entrar (una redirección al onboarding) y se queda en blanco.
+  if (!error) revalidatePath("/app", "layout");
   const volver = String(datos.get("volver") ?? "");
   const destino = volver.startsWith("/app") && !volver.startsWith("//") ? volver : "/app";
   if (error) redirect(`${destino}${destino.includes("?") ? "&" : "?"}error=ajustes`);
