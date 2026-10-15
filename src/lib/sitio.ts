@@ -4,7 +4,7 @@ export const SITIO = {
   lema: "Test de oposiciones con cada respuesta explicada",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   descripcion:
-    "Test para preparar el Auxiliar, el Administrativo, Agente de Hacienda y Tramitación Procesal con la explicación de cada respuesta y el artículo exacto de la ley. 10 preguntas al día gratis.",
+    "Test para preparar el Auxiliar, el Administrativo y Agente de Hacienda con la explicación de cada respuesta y el artículo exacto de la ley. 10 preguntas al día gratis.",
   avisoNoOficial:
     "No somos una plataforma oficial ni estamos vinculados al INAP ni a ningún organismo público.",
 } as const;
@@ -28,7 +28,7 @@ export const CUOTA_GRATIS = 10;
 export const OPOSICION = "aux-age";
 
 /** Oposiciones que se pueden preparar. Nombre corto para el selector y la barra. */
-export const OPOSICIONES = [
+const TODAS = [
   {
     slug: "aux-age",
     nombre: "Auxiliar Administrativo del Estado",
@@ -110,11 +110,16 @@ export const OPOSICIONES = [
   },
 ] as const;
 
+/** Mientras no estén en producción las preguntas de Tramitación Procesal, no sale en los selectores. */
+const TRAMITACION_LISTA = process.env.NEXT_PUBLIC_TRAMITACION === "1";
+
+export const OPOSICIONES = TODAS.filter((o) => o.slug !== "tramitacion-procesal" || TRAMITACION_LISTA);
+
 type InfoBloque = { nombre: string; titulo?: string };
 export type DatosOposicion = (typeof OPOSICIONES)[number] & { bloques: Record<string, InfoBloque> };
 
 export const datosOposicion = (slug: string | null | undefined) =>
-  (OPOSICIONES.find((o) => o.slug === slug) ?? OPOSICIONES[0]) as DatosOposicion;
+  (TODAS.find((o) => o.slug === slug) ?? TODAS[0]) as DatosOposicion;
 
 export type SlugOposicion = (typeof OPOSICIONES)[number]["slug"];
 

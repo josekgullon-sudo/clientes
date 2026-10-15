@@ -6,7 +6,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: SITIO.nombre,
     short_name: "Op. Claras",
-    description: "Test del Auxiliar, el Administrativo, Agente de Hacienda y Tramitación Procesal con la explicación de cada respuesta.",
+    description: "Test del Auxiliar, el Administrativo y Agente de Hacienda con la explicación de cada respuesta.",
     lang: "es",
     start_url: "/app",
     scope: "/",
