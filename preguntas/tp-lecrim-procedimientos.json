@@ -16,7 +16,7 @@
       "explicacion": "El artículo 301.1 dispone que «Las diligencias del sumario serán reservadas y no tendrán carácter público hasta que se abra el juicio oral».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -36,7 +36,7 @@
       "explicacion": "Según el artículo 302.2, el Juez puede declararlo «mediante auto, total o parcialmente secreto para todas las partes personadas, por tiempo no superior a un mes».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -56,7 +56,7 @@
       "explicacion": "El artículo 302.3 establece que «El secreto del sumario deberá alzarse necesariamente con al menos diez días de antelación a la conclusión del sumario».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -76,7 +76,7 @@
       "explicacion": "Conforme al artículo 14.2, es competente «Para la instrucción de las causas, la Sección de Instrucción del Tribunal de Instancia del partido en que el delito se hubiere cometido».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -96,7 +96,7 @@
       "explicacion": "El artículo 14.3 atribuye «Para el conocimiento y fallo de las causas por delitos a los que la ley señale pena privativa de libertad de duración no superior a cinco años» a «la Sección de lo Penal del Tribunal de Instancia de la circunscripción donde el delito fue cometido».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -116,7 +116,7 @@
       "explicacion": "El artículo 14.4 atribuye al conocimiento y fallo «de las causas en los demás casos la Audiencia Provincial de la circunscripción donde el delito se haya cometido», al superar la pena los cinco años del apartado 3.",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -136,7 +136,7 @@
       "explicacion": "El artículo 324.1 dispone que «La investigación judicial se desarrollará en un plazo máximo de doce meses desde la incoación de la causa».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -156,7 +156,7 @@
       "explicacion": "El juez puede acordar «prórrogas sucesivas por periodos iguales o inferiores a seis meses» y, según el artículo 324.1, «Las prórrogas se adoptarán mediante auto».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -176,7 +176,7 @@
       "explicacion": "Según el artículo 324.4, «Transcurrido el plazo máximo o sus prórrogas, el instructor dictará auto de conclusión del sumario».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -184,7 +184,7 @@
     {
       "id": "tpk-010",
       "ley": "lecrim",
-      "articulo": "384.1",
+      "articulo": "384",
       "enunciado": "¿Cuándo se dicta el auto declarando procesada a una persona en el sumario ordinario?",
       "opciones": [
         "Cuando aparezcan motivos bastantes para creerla responsable criminalmente del delito",
@@ -196,7 +196,7 @@
       "explicacion": "El artículo 384 dispone: «Desde que resultare del sumario algún indicio racional de criminalidad contra determinada persona, se dictará auto declarándola procesada».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -204,7 +204,7 @@
     {
       "id": "tpk-011",
       "ley": "lecrim",
-      "articulo": "384.5",
+      "articulo": "384",
       "enunciado": "¿En qué plazo, desde la notificación del auto de procesamiento, puede su representación interponer recurso de reforma?",
       "opciones": [
         "Tres días",
@@ -216,7 +216,7 @@
       "explicacion": "El artículo 384 permite «recurso de reforma dentro de los tres días siguientes al de haberle sido notificada la resolución».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -224,7 +224,7 @@
     {
       "id": "tpk-012",
       "ley": "lecrim",
-      "articulo": "384.6",
+      "articulo": "384",
       "enunciado": "Contra el auto que deniega el procesamiento, quien lo hubiera solicitado puede interponer:",
       "opciones": [
         "Recurso de reforma y, contra su denegación, recurso de apelación",
@@ -236,7 +236,7 @@
       "explicacion": "El artículo 384 establece que «Contra los autos denegatorios de procesamiento, sólo se concederá a quien haya solicitado éstos el recurso de reforma, utilizándolo dentro de los tres días siguientes al de la notificación».",
       "dificultad": 3,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -256,7 +256,7 @@
       "explicacion": "Según el artículo 497, el Juez «elevará la detención a prisión, o la dejará sin efecto, en el término de setenta y dos horas, a contar desde que el detenido le hubiese sido entregado».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -276,7 +276,7 @@
       "explicacion": "El artículo 502.1 señala que «Podrá decretar la prisión provisional el juez o magistrado instructor, el juez que forme las primeras diligencias, así como el juez de lo penal o tribunal que conozca de la causa».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -296,7 +296,7 @@
       "explicacion": "El artículo 503.1.1.º exige un hecho de caracteres de delito «sancionado con pena cuyo máximo sea igual o superior a dos años de prisión».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -316,7 +316,7 @@
       "explicacion": "La duración «no podrá exceder de un año si el delito tuviere señalada pena privativa de libertad igual o inferior a tres años, o de dos años si la pena privativa de libertad señalada para el delito fuera superior a tres años».",
       "dificultad": 3,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -336,7 +336,7 @@
       "explicacion": "El artículo 505.4 dispone: «Si ninguna de las partes las instare, acordará necesariamente la inmediata puesta en libertad del investigado o encausado que estuviere detenido».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -356,7 +356,7 @@
       "explicacion": "El artículo 509.2 señala que «La incomunicación no podrá extenderse más allá de cinco días».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -376,7 +376,7 @@
       "explicacion": "El artículo 637 establece que procederá el sobreseimiento libre «Cuando el hecho no sea constitutivo de delito». Los otros dos supuestos son de sobreseimiento provisional (artículo 641).",
       "dificultad": 3,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -396,7 +396,7 @@
       "explicacion": "Según el artículo 649, se comunica la causa al Fiscal «para que en el término de cinco días califiquen por escrito los hechos».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -416,7 +416,7 @@
       "explicacion": "El artículo 659 dispone: «A la vista de este Auto, el Secretario judicial establecerá el día y hora en que deban comenzar las sesiones del juicio oral», denominación hoy sustituida por la de Letrado de la Administración de Justicia.",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -436,7 +436,7 @@
       "explicacion": "La disposición adicional novena.3 establece que «La negativa de las partes a someterse a un procedimiento de justicia restaurativa, o el abandono del ya iniciado, no implicará consecuencia alguna en el proceso penal».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -456,7 +456,7 @@
       "explicacion": "La disposición adicional novena.4 señala que «El juez o el Tribunal no tendrán conocimiento del desarrollo del procedimiento de justicia restaurativa hasta que este haya finalizado, en su caso, mediante la remisión del acta de reparación».",
       "dificultad": 3,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -476,7 +476,7 @@
       "explicacion": "El artículo 757 lo aplica a «los delitos castigados con pena privativa de libertad no superior a nueve años».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -496,7 +496,7 @@
       "explicacion": "El artículo 779.1.4.ª dice que esta decisión «no podrá adoptarse sin haber tomado declaración a aquélla en los términos previstos en el artículo 775».",
       "dificultad": 3,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -516,7 +516,7 @@
       "explicacion": "Según el artículo 768, el abogado designado tiene habilitación para representar a su defendido, «no siendo necesaria la intervención de procurador hasta el trámite de apertura del juicio oral».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -536,7 +536,7 @@
       "explicacion": "El artículo 781.3 ordena que el Juez «requerirá al superior jerárquico del Fiscal actuante, para que en el plazo de diez días presente el escrito que proceda».",
       "dificultad": 3,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -556,7 +556,7 @@
       "explicacion": "El artículo 783.3 establece que «Contra el auto que acuerde la apertura del juicio oral no se dará recurso alguno, excepto en lo relativo a la situación personal».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -576,7 +576,7 @@
       "explicacion": "Según el artículo 784.1, «el Secretario judicial emplazará al encausado» para que «en el plazo de tres días comparezca en la causa con Abogado que le defienda y Procurador que le represente».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -596,7 +596,7 @@
       "explicacion": "El artículo 784.1 dispone: «Si la defensa no presentare su escrito en el plazo señalado, se entenderá que se opone a las acusaciones y seguirá su curso el procedimiento».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -616,7 +616,7 @@
       "explicacion": "El artículo 787.1.a) exige «Que la pena más grave solicitada no exceda de dos años de privación de libertad», y el 787.1.b) limita a cinco años la suma total de las penas.",
       "dificultad": 3,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -636,7 +636,7 @@
       "explicacion": "El artículo 788.1 permite acordar «la suspensión o aplazamiento de la sesión, hasta el límite máximo de treinta días, en los supuestos del artículo 746».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -656,7 +656,7 @@
       "explicacion": "El artículo 789.1 dispone que «La sentencia se dictará dentro de los cinco días siguientes a la finalización del juicio oral».",
       "dificultad": 1,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -676,7 +676,7 @@
       "explicacion": "El artículo 790.1 señala que «La sentencia dictada por el Juez de lo Penal es apelable ante la Audiencia Provincial correspondiente» y que el recurso se interpone «dentro de los diez días siguientes a aquel en que se les hubiere notificado la sentencia».",
       "dificultad": 2,
       "fecha_version_boe": "2026-04-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -696,7 +696,7 @@
       "explicacion": "El artículo 2.1 establece que «El Tribunal del Jurado se compone de nueve jurados y un Magistrado integrante de la Audiencia Provincial, que lo presidirá».",
       "dificultad": 1,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -716,7 +716,7 @@
       "explicacion": "El artículo 1.2 atribuye al Jurado el conocimiento de los delitos «c) De la omisión del deber de socorro (artículos 195 y 196)».",
       "dificultad": 1,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -736,7 +736,7 @@
       "explicacion": "El artículo 4 dispone que el Magistrado-Presidente «dictará sentencia en la que recogerá el veredicto del Jurado e impondrá, en su caso, la pena y medida de seguridad que corresponda».",
       "dificultad": 1,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -756,7 +756,7 @@
       "explicacion": "El artículo 25.1 señala que, «Con objeto de concretar la imputación, les convocará en el plazo de cinco días a una comparecencia».",
       "dificultad": 2,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -776,7 +776,7 @@
       "explicacion": "El artículo 59.1 exige «siete votos, al menos, cuando fuesen contrarios al acusado, y cinco votos, cuando fuesen favorables».",
       "dificultad": 2,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }
@@ -796,7 +796,7 @@
       "explicacion": "Según el artículo 65.2, «el Magistrado-Presidente procederá a disolver el Jurado y dictará sentencia absolutoria».",
       "dificultad": 3,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 20
       }

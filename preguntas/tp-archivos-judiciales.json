@@ -1,0 +1,445 @@
+{
+  "descripcion": "Tramitación Procesal, tema 31: archivos judiciales (RD 937/2003 y arts. 458 LOPJ). Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE (RD 937/2003 versión 2025-12-18; LOPJ versión 2026-10-09).",
+  "preguntas": [
+    {
+      "id": "tps-001",
+      "ley": "rd-937-2003",
+      "articulo": "4",
+      "enunciado": "¿Cuántas clases de archivos judiciales prevé el Real Decreto 937/2003?",
+      "opciones": [
+        "Dos",
+        "Tres",
+        "Cuatro",
+        "Cinco"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 4 dispone: «Existirán tres clases de archivos:» Archivos Judiciales de Gestión, Territoriales y Central.",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-002",
+      "ley": "rd-937-2003",
+      "articulo": "5.2",
+      "enunciado": "Un procedimiento no tiene actuación procesal pendiente. ¿Cuántos años desde su incoación deben pasar para poder remitirlo al Archivo Judicial Territorial?",
+      "opciones": [
+        "Un año",
+        "Tres años",
+        "Cinco años",
+        "Seis años"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 5.2: «Transcurridos cinco años desde la incoación de los procedimientos o expedientes gubernativos, aquellos asuntos que no estuvieren pendientes de actuación procesal alguna, tanto en fase declarativa como de ejecución, podrán ser remitidos» al Archivo Judicial Territorial.",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-003",
+      "ley": "rd-937-2003",
+      "articulo": "5.2",
+      "enunciado": "Un procedimiento termina por sentencia firme. ¿Cuándo puede remitirse al Archivo Judicial Territorial, salvo que proceda el expurgo?",
+      "opciones": [
+        "Transcurridos seis meses desde la firmeza",
+        "Transcurrido un año desde la firmeza",
+        "Transcurridos tres años desde la firmeza",
+        "Transcurridos cinco años desde la firmeza"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 5.2 señala que los procedimientos con sentencia firme «podrán ser remitidos para su conservación y custodia al Archivo Judicial Territorial transcurrido un año desde la firmeza de la resolución».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-004",
+      "ley": "rd-937-2003",
+      "articulo": "5.3",
+      "enunciado": "¿A quién corresponde decidir la remisión de documentos desde el Archivo Judicial de Gestión al Territorial?",
+      "opciones": [
+        "Al Presidente del Tribunal Superior de Justicia",
+        "Al presidente de la Junta de Expurgo",
+        "Al juez o magistrado titular del órgano",
+        "Al responsable del Archivo Judicial de Gestión"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 5.3 establece: «La decisión de remitir los documentos anteriores corresponderá al responsable del Archivo Judicial de Gestión donde se hallasen los documentos judiciales».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-005",
+      "ley": "rd-937-2003",
+      "articulo": "5.1",
+      "enunciado": "Para una mejor gestión, ¿a qué unidad puede encomendarse la atención de los Archivos Judiciales de Gestión de varios juzgados?",
+      "opciones": [
+        "A la Junta de Expurgo",
+        "A un Servicio Común",
+        "Al Archivo Judicial Territorial",
+        "A la Sala de Gobierno"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 5.1 prevé que «podrá encomendarse a un Servicio Común que atienda los Archivos Judiciales de Gestión de diferentes salas o secciones de uno o más tribunales, o de varios juzgados».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-006",
+      "ley": "rd-937-2003",
+      "articulo": "8.1",
+      "enunciado": "¿En quién puede delegar el Presidente del Tribunal Superior de Justicia la competencia sobre el Archivo Judicial Territorial?",
+      "opciones": [
+        "En el Presidente de la Audiencia Provincial o Juez Decano del partido judicial donde radique",
+        "En el Secretario de Gobierno de la Audiencia Nacional",
+        "En el Presidente de la Sala de Gobierno del Tribunal Supremo",
+        "En el Fiscal Jefe del Tribunal Superior de Justicia"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 8.1 indica que el Archivo Judicial Territorial depende «del Presidente del Tribunal Superior de Justicia, quien podrá delegar la competencia en el Presidente de la Audiencia Provincial o Juez Decano del partido judicial donde radique».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-007",
+      "ley": "rd-937-2003",
+      "articulo": "10.1",
+      "enunciado": "¿A qué órgano está adscrito el Archivo Judicial Central?",
+      "opciones": [
+        "A la Sala de Gobierno del Tribunal Supremo",
+        "Al Consejo General del Poder Judicial",
+        "Al Ministerio de Justicia",
+        "Al Presidente de la Audiencia Nacional"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 10.1 establece: «Existirá un Archivo Judicial Central adscrito a la Sala de Gobierno del Tribunal Supremo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-008",
+      "ley": "rd-937-2003",
+      "articulo": "9.3",
+      "enunciado": "Fuera de las capitales con 10 o más juzgados, ¿quién es responsable del Archivo Judicial Territorial si no se ha delegado la competencia?",
+      "opciones": [
+        "El Secretario de Gobierno del Tribunal Superior de Justicia",
+        "El Juez Decano del partido judicial",
+        "El Presidente de la Audiencia Provincial",
+        "El Gerente Territorial del Ministerio de Justicia"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 9.3 dispone que en los restantes supuestos «el responsable del Archivo Judicial Territorial será el Secretario de Gobierno del Tribunal Superior de Justicia o el secretario judicial del órgano en cuyo titular el Presidente del Tribunal Superior de Justicia hubiera delegado la competencia».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-009",
+      "ley": "rd-937-2003",
+      "articulo": "9.2",
+      "enunciado": "¿A partir de cuántos juzgados de primera instancia e instrucción conjuntamente existentes en una capital de provincia puede encargarse el Archivo Territorial a secretarios de segunda categoría?",
+      "opciones": [
+        "3 o más",
+        "5 o más",
+        "8 o más",
+        "10 o más"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 9.2 se refiere a «aquellas capitales de provincia que cuenten conjuntamente con 10 o más juzgados de primera instancia y de instrucción» cuando las necesidades del servicio lo aconsejen.",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-010",
+      "ley": "rd-937-2003",
+      "articulo": "13.1",
+      "enunciado": "¿Con qué frecuencia mínima se formaliza la remisión de documentos del Archivo Judicial de Gestión al Territorial o Central?",
+      "opciones": [
+        "Cada cinco años",
+        "Cada dos años",
+        "Cada tres años",
+        "Una vez al año"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 13.1 señala que la remisión «se formalizará periódicamente, como mínimo con carácter anual, en función del volumen de gestión de cada archivo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-011",
+      "ley": "rd-937-2003",
+      "articulo": "13.3",
+      "enunciado": "¿Cuál de estos datos debe constar como mínimo en la relación de procedimientos que acompaña a la remisión de documentos?",
+      "opciones": [
+        "El nombre del magistrado ponente",
+        "La cuantía del procedimiento",
+        "Las partes intervinientes",
+        "La identidad de los peritos"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 13.3 exige que la relación haga referencia como mínimo a «el orden jurisdiccional en que se hubiesen sustanciado, la naturaleza del proceso o actuación procesal, su número y año, las partes intervinientes».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-012",
+      "ley": "rd-937-2003",
+      "articulo": "14.2",
+      "enunciado": "¿Cuántas Juntas de Expurgo se constituyen con carácter general en cada comunidad autónoma?",
+      "opciones": [
+        "Una en cada partido judicial",
+        "Una en cada provincia",
+        "Una en cada Audiencia Provincial",
+        "Una en toda la comunidad autónoma"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 14.2 dispone: «Se constituirá una Junta de Expurgo en cada comunidad autónoma que ejercerá sus competencias en todo el ámbito territorial de cada una de éstas».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-013",
+      "ley": "rd-937-2003",
+      "articulo": "14.3",
+      "enunciado": "En las Juntas de Expurgo adscritas al Ministerio de Justicia, ¿quién ejerce la presidencia?",
+      "opciones": [
+        "Un magistrado designado por el Presidente del Tribunal Superior de Justicia",
+        "El Fiscal Jefe del Tribunal Superior de Justicia",
+        "El Gerente Territorial del Ministerio de Justicia",
+        "El Secretario de Gobierno del Tribunal Superior de Justicia"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 14.3 señala que las Juntas «estarán presididas por un magistrado designado por el Presidente del Tribunal Superior de Justicia, con voto dirimente de los empates».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-014",
+      "ley": "rd-937-2003",
+      "articulo": "14.3.a",
+      "enunciado": "En una Junta de Expurgo adscrita al Ministerio de Justicia, ¿quién designa al Fiscal que actúa como vocal?",
+      "opciones": [
+        "El Fiscal General del Estado",
+        "El Fiscal Jefe del Tribunal Superior de Justicia",
+        "El Presidente del Tribunal Superior de Justicia",
+        "El Ministro de Justicia"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 14.3.a) incluye entre los vocales a «Un Fiscal, designado por el Fiscal Jefe del Tribunal Superior de Justicia».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-015",
+      "ley": "rd-937-2003",
+      "articulo": "14.1",
+      "enunciado": "¿Cuál es la finalidad de las Juntas de Expurgo?",
+      "opciones": [
+        "Custodiar los documentos de los procesos en tramitación",
+        "Ordenar la documentación remitida por los archivos de gestión",
+        "Determinar la exclusión o eliminación de los expedientes del Patrimonio Documental o su transferencia a la Administración de patrimonio histórico",
+        "Resolver los recursos contra la denegación de acceso a los archivos"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 14.1 define a las Juntas como órganos que tienen por finalidad «determinar, por cuenta del órgano responsable del respectivo Archivo Judicial de Gestión, la exclusión o eliminación de los expedientes procesales o gubernativos del Patrimonio Documental».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-016",
+      "ley": "rd-937-2003",
+      "articulo": "15.2",
+      "enunciado": "Transcurridos los plazos de prescripción o caducidad, ¿en qué plazo debe el órgano judicial de procedencia confirmar su transcurso?",
+      "opciones": [
+        "Quince días",
+        "Un mes",
+        "Dos meses",
+        "Tres meses"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 15.2 prevé que el órgano judicial de procedencia «confirme en el plazo de un mes el transcurso de los anteriores plazos, con arreglo a la legislación aplicable».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-017",
+      "ley": "rd-937-2003",
+      "articulo": "16.1",
+      "enunciado": "Publicada la relación de expedientes por la Junta de Expurgo, ¿de qué plazo disponen los interesados para recuperar los documentos que aportaron al proceso?",
+      "opciones": [
+        "Quince días",
+        "Un mes",
+        "Dos meses",
+        "Seis meses"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 16.1 prevé la publicación de las relaciones «al objeto de que, en el plazo de dos meses, puedan los interesados recuperar aquellos documentos en su día aportados al proceso».",
+      "dificultad": 1,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-018",
+      "ley": "rd-937-2003",
+      "articulo": "16.1",
+      "enunciado": "¿Qué se omite en la publicación del anuncio de la relación de expedientes judiciales a expurgar?",
+      "opciones": [
+        "La reseña del objeto del proceso y la identificación de las partes",
+        "El número y el año del procedimiento",
+        "El órgano judicial de procedencia",
+        "La referencia a la publicación en un diario de gran difusión"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 16.1 establece: «En la publicación del anuncio se omitirá la reseña del objeto del proceso y la identificación de las partes».",
+      "dificultad": 3,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-019",
+      "ley": "rd-937-2003",
+      "articulo": "17.3",
+      "enunciado": "Entre la convocatoria de la Junta de Expurgo y su sesión, ¿quién elabora el informe vinculante sobre los documentos que deben preservarse por su valor histórico?",
+      "opciones": [
+        "El presidente de la Junta de Expurgo",
+        "El Archivo Judicial Territorial",
+        "El Consejo General del Poder Judicial",
+        "La Administración competente en materia de patrimonio histórico"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 17.3 dispone que «la Administración competente en materia de patrimonio histórico elaborará un informe de carácter vinculante que comprenderá aquellos expedientes o documentos judiciales que por su valor histórico-documental deberán ser preservados».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-020",
+      "ley": "rd-937-2003",
+      "articulo": "3.3",
+      "enunciado": "¿Qué condición exige el Real Decreto 937/2003 para convertir a soporte magnético los documentos en papel de los archivos judiciales?",
+      "opciones": [
+        "Que se garantice la integridad, autenticidad y conservación del documento",
+        "Que se destruya el original en papel una vez digitalizado",
+        "Que lo autorice el Presidente del Tribunal Superior de Justicia",
+        "Que consientan las partes del proceso"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 3.3 permite la conversión «siempre que se garantice la integridad, autenticidad y conservación del documento, con el fin de obtener una fácil y rápida identificación y la búsqueda de la documentación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2025-12-18",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-021",
+      "ley": "lo-6-1985",
+      "articulo": "458.2",
+      "enunciado": "Según la LOPJ, ¿qué autos y expedientes se exceptúan de la destrucción general a los seis años de la firmeza de la resolución que puso fin al procedimiento?",
+      "opciones": [
+        "Los formados en procesos de familia",
+        "Los formados en procesos contencioso-administrativos",
+        "Los formados para la instrucción de causas penales seguidas por delito",
+        "Los formados en procesos laborales"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 458.2 indica: «Se exceptúan de lo anterior aquéllos formados para la instrucción de causas penales seguidas por delito, así como los supuestos que reglamentariamente pudiesen ser contemplados».",
+      "dificultad": 2,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    },
+    {
+      "id": "tps-022",
+      "ley": "lo-6-1985",
+      "articulo": "458.3",
+      "enunciado": "Según la LOPJ, ¿a quién corresponde determinar los libros de registro que han de existir en los juzgados y tribunales?",
+      "opciones": [
+        "Al Consejo General del Poder Judicial",
+        "Al Ministerio de Justicia",
+        "A los Secretarios de Gobierno",
+        "A las Salas de Gobierno"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 458.3 establece: «Corresponde al Ministerio de Justicia la determinación de los libros de registro que han de existir en los juzgados y tribunales».",
+      "dificultad": 1,
+      "fecha_version_boe": "2026-10-09",
+      "estado": "borrador",
+      "temas": {
+        "tramitacion-procesal": 31
+      }
+    }
+  ]
+}
