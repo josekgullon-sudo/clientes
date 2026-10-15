@@ -1,0 +1,1005 @@
+{
+  "descripcion": "Agente AEAT, temas 10 y 11. Ley 39/2015 (procedimiento administrativo común: interesados, representación, plazos, silencio; fases del procedimiento y ejecución). Lote generado el 2026-10-15; citas comprobadas por script contra el texto consolidado del BOE (versión 2024-11-07).",
+  "preguntas": [
+    {
+      "id": "dap-001",
+      "ley": "ley-39-2015",
+      "articulo": "3.b",
+      "enunciado": "Los menores de edad tienen capacidad de obrar ante las Administraciones, pero se exceptúa el supuesto de:",
+      "opciones": [
+        "Los menores emancipados que actúen sin asistencia de sus padres",
+        "Los menores de dieciséis años, en cualquier caso",
+        "Los menores incapacitados, si la incapacitación afecta al derecho de que se trate",
+        "Los menores que actúen en defensa de intereses colectivos"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 3.b) dispone: «Se exceptúa el supuesto de los menores incapacitados, cuando la extensión de la incapacitación afecte al ejercicio y defensa de los derechos o intereses de que se trate».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-002",
+      "ley": "ley-39-2015",
+      "articulo": "4.1.b",
+      "enunciado": "Son interesados, aunque no hayan iniciado el procedimiento, quienes:",
+      "opciones": [
+        "Tengan derechos que puedan resultar afectados por la decisión que se adopte",
+        "Hayan sido citados a declarar como testigos en el procedimiento",
+        "Hayan presentado una denuncia sobre los hechos investigados",
+        "Tengan un interés meramente económico, sin derecho alguno afectado"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 4.1.b) son interesados «Los que, sin haber iniciado el procedimiento, tengan derechos que puedan resultar afectados por la decisión que en el mismo se adopte».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-003",
+      "ley": "ley-39-2015",
+      "articulo": "33.1",
+      "enunciado": "La tramitación de urgencia reduce los plazos del procedimiento ordinario a la mitad, salvo:",
+      "opciones": [
+        "Los relativos al trámite de audiencia de los interesados",
+        "Los relativos a la emisión de informes preceptivos",
+        "Los relativos al período de prueba y a la notificación",
+        "Los relativos a la presentación de solicitudes y recursos"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 33.1 establece que se «reducirán a la mitad los plazos establecidos para el procedimiento ordinario, salvo los relativos a la presentación de solicitudes y recursos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-004",
+      "ley": "ley-39-2015",
+      "articulo": "5.4",
+      "enunciado": "Según el artículo 5.4, se entiende acreditada la representación realizada mediante apoderamiento apud acta efectuado por:",
+      "opciones": [
+        "Comunicación verbal del poderdante a un empleado público",
+        "Comparecencia personal o electrónica en la correspondiente sede electrónica",
+        "Escrito remitido por correo ordinario sin firma del poderdante",
+        "Notificación practicada al representante en su domicilio"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 5.4 señala que «se entenderá acreditada la representación realizada mediante apoderamiento apud acta efectuado por comparecencia personal o comparecencia electrónica en la correspondiente sede electrónica».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-005",
+      "ley": "ley-39-2015",
+      "articulo": "5.7",
+      "enunciado": "La habilitación de personas físicas o jurídicas para realizar transacciones electrónicas en representación de los interesados determina:",
+      "opciones": [
+        "La imposibilidad de que el interesado comparezca por sí mismo",
+        "La presunción de validez de la representación, salvo que otra norma disponga otra cosa",
+        "La pérdida de la facultad de requerir la acreditación de la representación",
+        "La obligación de inscribir el poder en el registro de apoderamientos"
+      ],
+      "correcta": 1,
+      "explicacion": "La habilitación del artículo 5.7 «determinará la presunción de validez de la representación salvo que la normativa de aplicación prevea otra cosa», y «siempre podrá comparecer el interesado por sí mismo en el procedimiento».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-006",
+      "ley": "ley-39-2015",
+      "articulo": "6.3",
+      "enunciado": "¿Cuál de estos datos NO es contenido mínimo de los asientos de los registros electrónicos de apoderamientos?",
+      "opciones": [
+        "La fecha de inscripción del poder",
+        "El período de tiempo por el cual se otorga",
+        "El tipo de poder según las facultades que otorgue",
+        "El domicilio del apoderado"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 6.3 exige, al menos, «Fecha de inscripción», «Período de tiempo por el cual se otorga el poder» y «Tipo de poder según las facultades que otorgue»; no menciona el domicilio.",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-007",
+      "ley": "ley-39-2015",
+      "articulo": "6.7",
+      "enunciado": "Las solicitudes de inscripción, revocación o prórroga de un poder en el registro de apoderamientos surten efectos desde:",
+      "opciones": [
+        "La fecha en que se produzca la inscripción en el registro correspondiente",
+        "La fecha de presentación de la solicitud en cualquier registro",
+        "El día siguiente a la notificación al apoderado",
+        "La fecha de otorgamiento del poder por el poderdante"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 6.7, las solicitudes podrán dirigirse a cualquier registro «surtiendo efectos desde la fecha en la que se produzca dicha inscripción».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-008",
+      "ley": "ley-39-2015",
+      "articulo": "10.1",
+      "enunciado": "Según el artículo 10.1, los interesados pueden firmar por cualquier medio que permita acreditar la autenticidad de su voluntad y consentimiento y:",
+      "opciones": [
+        "La fecha y hora de presentación del documento",
+        "La capacidad de obrar y la representación del firmante",
+        "La integridad e inalterabilidad del documento",
+        "El domicilio del firmante a efectos de notificaciones"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 10.1 dice que los interesados «podrán firmar a través de cualquier medio que permita acreditar la autenticidad de la expresión de su voluntad y consentimiento, así como la integridad e inalterabilidad del documento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-009",
+      "ley": "ley-39-2015",
+      "articulo": "12.2",
+      "enunciado": "Si un interesado carece de medios electrónicos y un funcionario realiza su identificación o firma electrónica, es necesario que el interesado:",
+      "opciones": [
+        "Presente un escrito de apoderamiento a favor del funcionario",
+        "Acredite su inscripción previa en el registro de apoderamientos",
+        "Firme además en papel el documento electrónico generado",
+        "Se identifique ante el funcionario y preste su consentimiento expreso, con constancia"
+      ],
+      "correcta": 3,
+      "explicacion": "Según el artículo 12.2 «será necesario que el interesado que carezca de los medios electrónicos necesarios se identifique ante el funcionario y preste su consentimiento expreso para esta actuación, de lo que deberá quedar constancia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-010",
+      "ley": "ley-39-2015",
+      "articulo": "15.1",
+      "enunciado": "Si varios interesados discrepan sobre la lengua (castellano o cooficial) en un procedimiento de la AGE, el procedimiento se tramitará en:",
+      "opciones": [
+        "La lengua cooficial, si así lo solicita la mayoría de los interesados",
+        "La lengua elegida por quien haya iniciado el procedimiento",
+        "Castellano, expidiendo en la lengua elegida los documentos que requieran los interesados",
+        "La lengua cooficial, con traducción al castellano de todo el expediente"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 15.1 establece que «el procedimiento se tramitará en castellano, si bien los documentos o testimonios que requieran los interesados se expedirán en la lengua elegida por los mismos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-011",
+      "ley": "ley-39-2015",
+      "articulo": "15.3",
+      "enunciado": "La Administración instructora debe traducir al castellano los documentos que deban surtir efecto:",
+      "opciones": [
+        "En el territorio de una Comunidad donde sea cooficial esa misma lengua",
+        "Fuera del territorio de la Comunidad Autónoma",
+        "Ante cualquier órgano de la Comunidad Autónoma de origen",
+        "Exclusivamente ante los órganos judiciales"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 15.3 dispone que «deberá traducir al castellano los documentos, expedientes o partes de los mismos que deban surtir efecto fuera del territorio de la Comunidad Autónoma».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-012",
+      "ley": "ley-39-2015",
+      "articulo": "18.1",
+      "enunciado": "El deber de colaborar con la Administración facilitando informes e inspecciones no alcanza a la información cuya revelación:",
+      "opciones": [
+        "Atente contra el honor o la intimidad personal o familiar",
+        "Perjudique la imagen pública de una empresa o entidad",
+        "Suponga un coste económico para la persona requerida",
+        "Se refiera a hechos ocurridos hace más de cinco años"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 18.1 exceptúa los casos en que «la revelación de la información solicitada por la Administración atentara contra el honor, la intimidad personal o familiar».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-013",
+      "ley": "ley-39-2015",
+      "articulo": "19.1",
+      "enunciado": "La comparecencia de las personas ante las oficinas públicas, presencial o electrónica, solo será obligatoria cuando lo prevea una norma con rango de:",
+      "opciones": [
+        "Ley",
+        "Real Decreto",
+        "Orden ministerial",
+        "Reglamento"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 19.1 señala que la comparecencia «sólo será obligatoria cuando así esté previsto en una norma con rango de ley».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-014",
+      "ley": "ley-39-2015",
+      "articulo": "19.2",
+      "enunciado": "La citación para comparecer ante la Administración debe hacer constar expresamente, entre otros extremos:",
+      "opciones": [
+        "El nombre del instructor del procedimiento",
+        "Los efectos de no atenderla",
+        "El plazo máximo para resolver el procedimiento",
+        "Los recursos que procedan contra la citación"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 19.2, la citación «hará constar expresamente el lugar, fecha, hora, los medios disponibles y objeto de la comparecencia, así como los efectos de no atenderla».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-015",
+      "ley": "ley-39-2015",
+      "articulo": "21.1",
+      "enunciado": "¿En cuál de estos supuestos NO existe la obligación de dictar resolución expresa?",
+      "opciones": [
+        "Cuando el procedimiento termina por caducidad",
+        "Cuando el interesado desiste de su solicitud",
+        "Cuando el derecho ha prescrito",
+        "Cuando termina por pacto o convenio"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 21.1 dice: «Se exceptúan de la obligación a que se refiere el párrafo primero, los supuestos de terminación del procedimiento por pacto o convenio». En caducidad, desistimiento o prescripción «la resolución consistirá en la declaración de la circunstancia que concurra».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-016",
+      "ley": "ley-39-2015",
+      "articulo": "21.3",
+      "enunciado": "En un procedimiento iniciado a solicitud del interesado, el plazo máximo para resolver se cuenta desde la fecha en que la solicitud:",
+      "opciones": [
+        "Se haya firmado por el interesado ante el funcionario",
+        "Haya sido subsanada, si estaba incompleta o defectuosa",
+        "Haya tenido entrada en el registro electrónico del órgano competente",
+        "Haya sido recibida por el instructor del procedimiento"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 21.3.b) establece que en los iniciados a solicitud del interesado se cuenta «desde la fecha en que la solicitud haya tenido entrada en el registro electrónico de la Administración u Organismo competente para su tramitación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-017",
+      "ley": "ley-39-2015",
+      "articulo": "21.4",
+      "enunciado": "En un procedimiento a solicitud, la comunicación del plazo máximo de resolución y del silencio debe dirigirse al interesado dentro de los siguientes a la recepción de la solicitud en el registro:",
+      "opciones": [
+        "Cinco días",
+        "Quince días",
+        "Diez días",
+        "Un mes"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 21.4 prevé una comunicación «dentro de los diez días siguientes a la recepción de la solicitud iniciadora del procedimiento en el registro electrónico de la Administración u Organismo competente para su tramitación».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-018",
+      "ley": "ley-39-2015",
+      "articulo": "22.1.d",
+      "enunciado": "La suspensión del plazo máximo para resolver por la solicitud de informes preceptivos a otro órgano no puede exceder en ningún caso de:",
+      "opciones": [
+        "Un mes",
+        "Dos meses",
+        "Seis meses",
+        "Tres meses"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 22.1.d) dice: «Este plazo de suspensión no podrá exceder en ningún caso de tres meses. En caso de no recibirse el informe en el plazo indicado, proseguirá el procedimiento».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-019",
+      "ley": "ley-39-2015",
+      "articulo": "22.2.c",
+      "enunciado": "Si los interesados promueven la recusación, el plazo máximo para resolver se suspende hasta que aquella sea resuelta por:",
+      "opciones": [
+        "El propio funcionario recusado",
+        "El superior jerárquico del recusado",
+        "El instructor del procedimiento",
+        "El órgano competente para resolver"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 22.2.c) el plazo se suspende «desde que ésta se plantee hasta que sea resuelta por el superior jerárquico del recusado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-020",
+      "ley": "ley-39-2015",
+      "articulo": "23.1",
+      "enunciado": "La ampliación excepcional y motivada del plazo máximo de resolución y notificación no podrá ser superior:",
+      "opciones": [
+        "Al establecido para la tramitación del procedimiento",
+        "A la mitad del plazo máximo de resolución",
+        "A tres meses en todo caso",
+        "Al plazo máximo de suspensión que corresponda"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 23.1 permite acordarla «no pudiendo ser éste superior al establecido para la tramitación del procedimiento», cuando se hayan agotado los medios personales y materiales disponibles.",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-021",
+      "ley": "ley-39-2015",
+      "articulo": "24.4",
+      "enunciado": "El certificado acreditativo del silencio administrativo se expide de oficio por el órgano competente en el plazo de, desde que expire el plazo máximo para resolver:",
+      "opciones": [
+        "Cinco días",
+        "Quince días",
+        "Diez días",
+        "Un mes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 24.4 dispone: «Este certificado se expedirá de oficio por el órgano competente para resolver en el plazo de quince días desde que expire el plazo máximo para resolver el procedimiento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-022",
+      "ley": "ley-39-2015",
+      "articulo": "25.2",
+      "enunciado": "En un procedimiento iniciado de oficio, si se paraliza por causa imputable al interesado:",
+      "opciones": [
+        "Se interrumpe el cómputo del plazo para resolver",
+        "Se produce la caducidad automática del procedimiento",
+        "Se entienden desestimadas sus pretensiones por silencio",
+        "Se amplía en la mitad el plazo para resolver"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 25.2 dispone que en tal supuesto «se interrumpirá el cómputo del plazo para resolver y notificar la resolución».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-023",
+      "ley": "ley-39-2015",
+      "articulo": "30.1",
+      "enunciado": "Los plazos señalados por horas, salvo que otra norma disponga otro cómputo, se cuentan:",
+      "opciones": [
+        "Desde las 00:00 horas del día hábil siguiente a la notificación",
+        "Solo dentro del horario de apertura de las oficinas",
+        "De hora en hora y de minuto en minuto desde la notificación o publicación",
+        "Por días completos, desde el día siguiente a la notificación"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 30.1 indica que los plazos por horas «se contarán de hora en hora y de minuto en minuto desde la hora y minuto en que tenga lugar la notificación o publicación del acto de que se trate»; son hábiles «todas las horas del día que formen parte de un día hábil».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-024",
+      "ley": "ley-39-2015",
+      "articulo": "30.4",
+      "enunciado": "Un plazo de un mes cuya notificación se produce el 31 de enero, en un año no bisiesto, concluye el:",
+      "opciones": [
+        "1 de marzo",
+        "3 de marzo",
+        "27 de febrero",
+        "28 de febrero"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 30.4 establece: «Si en el mes de vencimiento no hubiera día equivalente a aquel en que comienza el cómputo, se entenderá que el plazo expira el último día del mes».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-025",
+      "ley": "ley-39-2015",
+      "articulo": "30.6",
+      "enunciado": "Si un día es hábil en el municipio de residencia del interesado e inhábil en la sede del órgano administrativo, a efectos del cómputo se considera:",
+      "opciones": [
+        "Inhábil en todo caso",
+        "Hábil, prevaleciendo el municipio del interesado",
+        "Hábil, prevaleciendo la sede del órgano",
+        "Inhábil solo si así lo solicita el interesado"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 30.6 señala que, en ese caso, «se considerará inhábil en todo caso».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 10
+      }
+    },
+    {
+      "id": "dap-026",
+      "ley": "ley-39-2015",
+      "articulo": "53.1.a",
+      "enunciado": "Los interesados tienen derecho a conocer en cualquier momento, entre otros extremos:",
+      "opciones": [
+        "El contenido de los borradores e informes internos del expediente",
+        "El sentido del silencio administrativo que corresponda si no se resuelve en plazo",
+        "La identidad de las personas que hayan presentado denuncias",
+        "El importe de la sanción antes de iniciarse el procedimiento"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 53.1.a) reconoce el derecho a conocer «el sentido del silencio administrativo que corresponda, en caso de que la Administración no dicte ni notifique resolución expresa en plazo».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-027",
+      "ley": "ley-39-2015",
+      "articulo": "55.2",
+      "enunciado": "En los procedimientos sancionadores, las actuaciones previas son realizadas, en primer lugar, por:",
+      "opciones": [
+        "El órgano competente para resolver el procedimiento sancionador",
+        "El instructor designado en el acuerdo de iniciación",
+        "El órgano jurisdiccional penal que resulte competente",
+        "Los órganos con funciones de investigación e inspección en la materia"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 55.2 dispone: «Las actuaciones previas serán realizadas por los órganos que tengan atribuidas funciones de investigación, averiguación e inspección en la materia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-028",
+      "ley": "ley-39-2015",
+      "articulo": "56.2",
+      "enunciado": "Las medidas provisionales adoptadas antes de iniciar el procedimiento por urgencia inaplazable deben ser confirmadas, modificadas o levantadas en el acuerdo de iniciación, que se efectuará dentro de:",
+      "opciones": [
+        "Los quince días siguientes a su adopción",
+        "Los diez días siguientes a su adopción",
+        "Los cinco días siguientes a su adopción",
+        "El mes siguiente a su adopción"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 56.2 señala que las medidas «deberán ser confirmadas, modificadas o levantadas en el acuerdo de iniciación del procedimiento, que deberá efectuarse dentro de los quince días siguientes a su adopción».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-029",
+      "ley": "ley-39-2015",
+      "articulo": "61.2",
+      "enunciado": "La petición razonada de un órgano sin competencia para iniciar un procedimiento de oficio:",
+      "opciones": [
+        "Obliga al órgano competente a iniciar el procedimiento",
+        "Solo puede formularla el superior jerárquico del competente",
+        "No vincula al órgano competente, que debe comunicar los motivos si no inicia",
+        "Convierte al órgano peticionario en interesado"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 61.2 «La petición no vincula al órgano competente para iniciar el procedimiento, si bien deberá comunicar al órgano que la hubiera formulado los motivos por los que, en su caso, no procede la iniciación».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-030",
+      "ley": "ley-39-2015",
+      "articulo": "62.5",
+      "enunciado": "La presentación de una denuncia:",
+      "opciones": [
+        "Confiere la condición de interesado si se inicia el procedimiento",
+        "Obliga a la Administración a iniciar el procedimiento",
+        "No confiere, por sí sola, la condición de interesado en el procedimiento",
+        "Impide iniciar de oficio otro procedimiento por los mismos hechos"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 62.5 establece que «La presentación de una denuncia no confiere, por sí sola, la condición de interesado en el procedimiento».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-031",
+      "ley": "ley-39-2015",
+      "articulo": "63.1",
+      "enunciado": "Los procedimientos sancionadores se inician siempre de oficio y establecen la debida separación entre:",
+      "opciones": [
+        "La fase instructora y la sancionadora, encomendadas a órganos distintos",
+        "La fase de alegaciones y la de prueba, a cargo de órganos distintos",
+        "La fase de iniciación y la de ejecución, a cargo de órganos distintos",
+        "El instructor y el secretario, que serán siempre de distinta Administración"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 63.1 dispone que se iniciarán «siempre de oficio por acuerdo del órgano competente y establecerán la debida separación entre la fase instructora y la sancionadora, que se encomendará a órganos distintos».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-032",
+      "ley": "ley-39-2015",
+      "articulo": "64.3",
+      "enunciado": "Si al iniciar un procedimiento sancionador no hay elementos para la calificación inicial de los hechos, esta podrá hacerse después mediante:",
+      "opciones": [
+        "Una propuesta de resolución provisional notificada al inculpado",
+        "Un acuerdo motivado de actuaciones complementarias",
+        "Un informe previo y vinculante del servicio jurídico",
+        "Un pliego de cargos, que se notifica a los interesados"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 64.3 permite que la calificación se realice en una fase posterior «mediante la elaboración de un Pliego de cargos, que deberá ser notificado a los interesados».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-033",
+      "ley": "ley-39-2015",
+      "articulo": "69.4",
+      "enunciado": "La inexactitud, falsedad u omisión de carácter esencial en una declaración responsable determina:",
+      "opciones": [
+        "La nulidad de todos los actos realizados desde el inicio de la actividad",
+        "La imposibilidad de continuar con el ejercicio del derecho o actividad desde que se tenga constancia",
+        "La suspensión del ejercicio del derecho durante un año",
+        "La caducidad automática del procedimiento de comprobación"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 69.4 dice que determinará «la imposibilidad de continuar con el ejercicio del derecho o actividad afectada desde el momento en que se tenga constancia de tales hechos».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-034",
+      "ley": "ley-39-2015",
+      "articulo": "73.3",
+      "enunciado": "A quien no cumple un trámite en plazo se le puede declarar decaído en su derecho, pero se admitirá su actuación si se produce:",
+      "opciones": [
+        "Antes o dentro del día de la notificación de la resolución que tenga por transcurrido el plazo",
+        "Dentro de los cinco días siguientes a la notificación de dicha resolución",
+        "Antes de que se dicte la propuesta de resolución del procedimiento",
+        "Hasta el momento de la audiencia a los interesados en el trámite"
+      ],
+      "correcta": 0,
+      "explicacion": "Según el artículo 73.3, «se admitirá la actuación del interesado y producirá sus efectos legales, si se produjera antes o dentro del día que se notifique la resolución en la que se tenga por transcurrido el plazo».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-035",
+      "ley": "ley-39-2015",
+      "articulo": "77.2",
+      "enunciado": "El período extraordinario de prueba, que el instructor puede abrir a petición de los interesados, tendrá un plazo no superior a:",
+      "opciones": [
+        "Cinco días",
+        "Diez días",
+        "Quince días",
+        "Treinta días"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 77.2 prevé, a petición de los interesados, «un período extraordinario de prueba por un plazo no superior a diez días».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-036",
+      "ley": "ley-39-2015",
+      "articulo": "80.1",
+      "enunciado": "Salvo disposición expresa en contrario, los informes en el procedimiento administrativo son:",
+      "opciones": [
+        "Preceptivos y no vinculantes",
+        "Facultativos y vinculantes",
+        "Facultativos y no vinculantes",
+        "Preceptivos y vinculantes"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 80.1 establece: «Salvo disposición expresa en contrario, los informes serán facultativos y no vinculantes».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-037",
+      "ley": "ley-39-2015",
+      "articulo": "85.3",
+      "enunciado": "Si el infractor reconoce su responsabilidad o paga voluntariamente una sanción solo pecuniaria, el órgano aplicará reducciones sobre la sanción propuesta de, al menos:",
+      "opciones": [
+        "El 10 %",
+        "El 30 %",
+        "El 40 %",
+        "El 20 %"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 85.3 dispone que se aplicarán «reducciones de, al menos, el 20 % sobre el importe de la sanción propuesta, siendo éstos acumulables entre sí».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-038",
+      "ley": "ley-39-2015",
+      "articulo": "87",
+      "enunciado": "Notificado el acuerdo de actuaciones complementarias, los interesados disponen para formular alegaciones tras su finalización de un plazo de:",
+      "opciones": [
+        "Cinco días",
+        "Diez días",
+        "Quince días",
+        "Siete días"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 87 indica que el acuerdo «se notificará a los interesados, concediéndoseles un plazo de siete días para formular las alegaciones que tengan por pertinentes tras la finalización de las mismas».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-039",
+      "ley": "ley-39-2015",
+      "articulo": "88.2",
+      "enunciado": "En los procedimientos a solicitud del interesado, la resolución será congruente con lo pedido y en ningún caso podrá:",
+      "opciones": [
+        "Estimar parcialmente lo solicitado",
+        "Pronunciarse sobre cuestiones conexas",
+        "Agravar su situación inicial",
+        "Inadmitir una solicitud carente de fundamento"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 88.2 señala que la resolución será congruente con las peticiones «sin que en ningún caso pueda agravar su situación inicial».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-040",
+      "ley": "ley-39-2015",
+      "articulo": "89.1",
+      "enunciado": "En un procedimiento sancionador, el instructor resuelve el archivo sin propuesta de resolución cuando, en cualquier momento:",
+      "opciones": [
+        "Concluya que ha prescrito la infracción",
+        "El presunto responsable no haya presentado alegaciones",
+        "El inculpado haya reconocido su responsabilidad",
+        "Los hechos probados constituyan una infracción leve"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 89.1.e) prevé el archivo «Cuando se concluyera, en cualquier momento, que ha prescrito la infracción».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-041",
+      "ley": "ley-39-2015",
+      "articulo": "90.2",
+      "enunciado": "Si el órgano que resuelve un sancionador considera que la infracción o sanción revisten mayor gravedad que la propuesta, notifica al inculpado para que alegue en el plazo de:",
+      "opciones": [
+        "Cinco días",
+        "Quince días",
+        "Diez días",
+        "Veinte días"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 90.2 «se notificará al inculpado para que aporte cuantas alegaciones estime convenientes en el plazo de quince días».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-042",
+      "ley": "ley-39-2015",
+      "articulo": "94.4",
+      "enunciado": "Presentado un desistimiento o renuncia, el procedimiento continúa si los terceros interesados personados lo instan en el plazo, desde su notificación, de:",
+      "opciones": [
+        "Cinco días",
+        "Diez días",
+        "Quince días",
+        "Un mes"
+      ],
+      "correcta": 1,
+      "explicacion": "El artículo 94.4 recoge que se declarará concluso el procedimiento «salvo que, habiéndose personado en el mismo terceros interesados, instasen éstos su continuación en el plazo de diez días desde que fueron notificados del desistimiento o renuncia».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-043",
+      "ley": "ley-39-2015",
+      "articulo": "95.3",
+      "enunciado": "Respecto de la prescripción, la caducidad del procedimiento:",
+      "opciones": [
+        "No la produce por sí sola, ni los procedimientos caducados interrumpen su plazo",
+        "La produce de las acciones del particular, pero no de las de la Administración",
+        "Interrumpe el plazo de prescripción de las acciones de la Administración",
+        "Impide iniciar un nuevo procedimiento con el mismo objeto"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 95.3 establece: «La caducidad no producirá por sí sola la prescripción de las acciones del particular o de la Administración, pero los procedimientos caducados no interrumpirán el plazo de prescripción».",
+      "dificultad": 3,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-044",
+      "ley": "ley-39-2015",
+      "articulo": "96.3",
+      "enunciado": "Si el interesado pide la tramitación simplificada y no concurren las razones legales, el órgano puede desestimar la solicitud, sin recurso, en el plazo de:",
+      "opciones": [
+        "Tres días desde su presentación",
+        "Diez días desde su presentación",
+        "Cinco días desde su presentación",
+        "Quince días desde su presentación"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el artículo 96.3, el órgano «podrá desestimar dicha solicitud, en el plazo de cinco días desde su presentación, sin que exista posibilidad de recurso por parte del interesado».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-045",
+      "ley": "ley-39-2015",
+      "articulo": "98.1.d",
+      "enunciado": "Los actos de las Administraciones sujetos al Derecho Administrativo son inmediatamente ejecutivos, salvo que:",
+      "opciones": [
+        "Se trate de una sanción contra la que no quepa recurso administrativo",
+        "El interesado haya presentado alegaciones durante la instrucción",
+        "Hayan sido dictados por un órgano inferior en grado",
+        "Se necesite aprobación o autorización superior"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 98.1 establece que los actos serán inmediatamente ejecutivos salvo que, entre otros supuestos, «Se necesite aprobación o autorización superior».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-046",
+      "ley": "ley-39-2015",
+      "articulo": "98.2",
+      "enunciado": "¿Cuál de estos medios NO figura entre los medios electrónicos preferentes para pagar una sanción pecuniaria o un derecho a la Hacienda pública?",
+      "opciones": [
+        "Tarjeta de crédito y débito",
+        "Transferencia bancaria",
+        "Cheque conformado",
+        "Domiciliación bancaria"
+      ],
+      "correcta": 2,
+      "explicacion": "El artículo 98.2 enumera «Tarjeta de crédito y débito», «Transferencia bancaria», «Domiciliación bancaria» y «Cualesquiera otros que se autoricen por el órgano competente en materia de Hacienda Pública».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-047",
+      "ley": "ley-39-2015",
+      "articulo": "100.2",
+      "enunciado": "Si son varios los medios de ejecución forzosa admisibles, se elegirá:",
+      "opciones": [
+        "El más rápido y eficaz para la Administración",
+        "El menos oneroso para la Administración actuante",
+        "El que designe el propio interesado obligado",
+        "El menos restrictivo de la libertad individual"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 100.2 dispone: «Si fueran varios los medios de ejecución admisibles se elegirá el menos restrictivo de la libertad individual».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-048",
+      "ley": "ley-39-2015",
+      "articulo": "102.1",
+      "enunciado": "Habrá lugar a la ejecución subsidiaria cuando se trate de actos que:",
+      "opciones": [
+        "Sean personalísimos y consistan en una obligación de no hacer",
+        "No sean personalísimos y puedan realizarse por otro sujeto",
+        "Consistan en satisfacer una cantidad líquida a la Administración",
+        "Exijan entrar en el domicilio del afectado sin su consentimiento"
+      ],
+      "correcta": 1,
+      "explicacion": "Según el artículo 102.1 «Habrá lugar a la ejecución subsidiaria cuando se trate de actos que por no ser personalísimos puedan ser realizados por sujeto distinto del obligado».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-049",
+      "ley": "ley-39-2015",
+      "articulo": "103.2",
+      "enunciado": "La multa coercitiva, respecto de las sanciones que puedan imponerse con tal carácter, es:",
+      "opciones": [
+        "Independiente de ellas y compatible con ellas",
+        "Incompatible con ellas, que se excluyen entre sí",
+        "Sustitutiva de ellas cuando se imponga antes",
+        "Subsidiaria de ellas, solo si no se pagan"
+      ],
+      "correcta": 0,
+      "explicacion": "El artículo 103.2 señala: «La multa coercitiva es independiente de las sanciones que puedan imponerse con tal carácter y compatible con ellas».",
+      "dificultad": 2,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    },
+    {
+      "id": "dap-050",
+      "ley": "ley-39-2015",
+      "articulo": "105",
+      "enunciado": "Contra las actuaciones de los órganos administrativos realizadas en materia de su competencia y conforme al procedimiento legal, no se admitirán a trámite:",
+      "opciones": [
+        "Recursos de alzada",
+        "Acciones de responsabilidad patrimonial",
+        "Recursos contencioso-administrativos",
+        "Acciones posesorias"
+      ],
+      "correcta": 3,
+      "explicacion": "El artículo 105 establece: «No se admitirán a trámite acciones posesorias contra las actuaciones de los órganos administrativos realizadas en materia de su competencia y de acuerdo con el procedimiento legalmente establecido».",
+      "dificultad": 1,
+      "fecha_version_boe": "2024-11-07",
+      "estado": "validada",
+      "temas": {
+        "agente-aeat": 11
+      }
+    }
+  ]
+}
