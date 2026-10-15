@@ -16,7 +16,7 @@
       "explicacion": "El Plan recoge el derecho de los ciudadanos «a recibir respuesta a ellas con la mayor celeridad, y en todo caso en el plazo máximo de un mes», ya previsto en la Carta de Derechos.",
       "dificultad": 1,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 9
       }
@@ -36,7 +36,7 @@
       "explicacion": "El Acuerdo señala que la Carta «fue aprobada por el Pleno del Congreso de los Diputados en su sesión del día 22 de abril de 2002 como Proposición no de Ley».",
       "dificultad": 1,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 9
       }
@@ -56,7 +56,7 @@
       "explicacion": "La Carta declara que «se impulsará la creación y dotación material de Oficinas de Atención al Ciudadano, asegurando su implantación en todo el territorio nacional».",
       "dificultad": 2,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 9
       }
@@ -76,7 +76,7 @@
       "explicacion": "Se enumera «el derecho de los ciudadanos a conocer el contenido actualizado de las leyes españolas y de la Unión Europea mediante un sistema electrónico de datos fácilmente accesible».",
       "dificultad": 1,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 9
       }
@@ -96,7 +96,7 @@
       "explicacion": "Entre los derechos de transparencia figura «la necesaria motivación por las autoridades y funcionarios de la denegación de acceso a una información de carácter procesal».",
       "dificultad": 2,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 9
       }
@@ -116,7 +116,7 @@
       "explicacion": "La Carta recoge el derecho a «la disposición gratuita de los formularios necesarios para el ejercicio de los derechos ante los tribunales cuando no sea preceptiva la intervención de Abogado y Procurador».",
       "dificultad": 2,
       "fecha_version_boe": "2025-12-18",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 9
       }
@@ -136,7 +136,7 @@
       "explicacion": "La Oficina judicial funcionará con esos criterios «de manera que los ciudadanos obtengan un servicio próximo y de calidad, con respeto a los principios recogidos en la Carta de Derechos de los ciudadanos ante la Justicia».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 9
       }
@@ -153,10 +153,10 @@
         "Solo si lo autoriza el Letrado de la Administración de Justicia"
       ],
       "correcta": 2,
-      "explicacion": "Esas actuaciones y documentos «tendrán sin necesidad de traducción al castellano, plena validez y eficacia», sin perjuicio de los supuestos de traducción que prevé el propio artículo.",
+      "explicacion": "Esas actuaciones y documentos «tendrán, sin necesidad de traducción al castellano, plena validez y eficacia», sin perjuicio de los supuestos de traducción que prevé el propio artículo.",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 9
       }
@@ -176,7 +176,7 @@
       "explicacion": "Los Letrados de la Administración de Justicia velarán por que se publique «en un lugar visible al público, el primer día hábil de cada semana, la relación de señalamientos».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 9
       }
@@ -196,7 +196,7 @@
       "explicacion": "Facilitarán la información sobre el estado de las actuaciones, «salvo que sean o hubieren sido declaradas secretas o reservadas conforme a la ley».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 9
       }
@@ -216,7 +216,7 @@
       "explicacion": "El artículo dispone que «En los procedimientos laborales y de Seguridad Social la representación técnica podrá ser ostentada por un Graduado Social».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 9
       }
@@ -236,7 +236,7 @@
       "explicacion": "La norma establece que «La defensa o representación de oficio tendrá carácter gratuito para quien acredite insuficiencia de recursos para litigar en los términos que establezca la ley».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 9
       }
@@ -244,19 +244,19 @@
     {
       "id": "tpc-013",
       "ley": "lo-6-1985",
-      "articulo": "439 ter.2",
-      "enunciado": "Existirá una Oficina de Justicia en cada municipio donde:",
+      "articulo": "439 ter.4",
+      "enunciado": "La subvención de los Presupuestos Generales del Estado a los ayuntamientos por las Oficinas de Justicia en los municipios se modula en función de:",
       "opciones": [
-        "Tenga su sede un Tribunal de Instancia",
-        "No tenga su sede un Tribunal de Instancia",
-        "Resida un Letrado de la Administración de Justicia",
-        "Haya más de 7.000 habitantes"
+        "La carga de trabajo de la Oficina",
+        "El número de habitantes de derecho del municipio",
+        "El número de actos de comunicación practicados",
+        "La extensión territorial del municipio"
       ],
       "correcta": 1,
-      "explicacion": "El artículo 439 ter dispone: «En cada municipio donde no tenga su sede un Tribunal de Instancia existirá una Oficina de Justicia, que prestará servicios en la localidad donde se encuentre ubicada».",
-      "dificultad": 1,
+      "explicacion": "Los Presupuestos establecerán un crédito para subvencionar a los ayuntamientos y «La subvención se modulará en función del número de habitantes de derecho del municipio».",
+      "dificultad": 3,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -276,7 +276,7 @@
       "explicacion": "Son «aquellas unidades que, sin estar integradas en la estructura de la Oficina judicial, se constituyen en el ámbito de la organización de la Administración de Justicia para la prestación de servicios a la ciudadanía».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -287,16 +287,16 @@
       "articulo": "439 ter.3",
       "enunciado": "Los sistemas y equipos informáticos de las Oficinas de Justicia en los municipios son facilitados por:",
       "opciones": [
-        "El Ayuntamiento respectivo",
-        "El Ministerio de Justicia o la comunidad autónoma con competencias asumidas",
-        "El Consejo General del Poder Judicial",
-        "La Diputación provincial"
+        "El Ayuntamiento respectivo, con cargo a su presupuesto",
+        "El Ministerio de Justicia o la comunidad autónoma competente",
+        "El Consejo General del Poder Judicial, a través de sus servicios",
+        "La Diputación provincial correspondiente"
       ],
       "correcta": 1,
       "explicacion": "El artículo establece que «Los sistemas y equipos informáticos de las Oficinas serán facilitados por el Ministerio de Justicia o la comunidad autónoma respectiva en los casos que tengan asumidas las competencias en materia de Justicia».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -316,7 +316,7 @@
       "explicacion": "Prestan «La práctica de los actos de comunicación procesal con quienes residan en el municipio o municipios para los que presten sus servicios, siempre que los mismos no se hayan podido practicar por medios electrónicos».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -329,14 +329,14 @@
       "opciones": [
         "Las resuelven y notifican al solicitante",
         "Las remiten al Ministerio Fiscal para su informe",
-        "Las remiten al juez de paz para que decida",
-        "Las reciben y las remiten a los Colegios de la Abogacía encargados de su tramitación"
+        "Las remiten al juez de paz para su decisión",
+        "Las reciben y las remiten a los Colegios de la Abogacía"
       ],
       "correcta": 3,
       "explicacion": "Prestarán «La recepción de las solicitudes de reconocimiento del derecho a la asistencia jurídica gratuita y su remisión a los Colegios de la Abogacía encargados de su tramitación».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -344,19 +344,19 @@
     {
       "id": "tpc-018",
       "ley": "lo-6-1985",
-      "articulo": "439 quinquies.1",
-      "enunciado": "En las Oficinas de Justicia de municipios de más de 7.000 habitantes, la Secretaría será desempeñada por personal del Cuerpo de:",
+      "articulo": "439 quinquies.2",
+      "enunciado": "El personal de una Oficina de Justicia con puesto compatible que realiza también tareas de la Oficina judicial depende funcionalmente, en estas últimas, de:",
       "opciones": [
-        "Gestión Procesal y Administrativa",
-        "Tramitación Procesal y Administrativa",
-        "Auxilio Judicial",
-        "Letrados de la Administración de Justicia"
+        "El director o directora del servicio correspondiente",
+        "El juez o la jueza de paz del municipio",
+        "El Alcalde del ayuntamiento respectivo",
+        "El Presidente del Tribunal de Instancia"
       ],
       "correcta": 0,
-      "explicacion": "El artículo dispone que «En todo caso, la Secretaría de estas Oficinas de Justicia será desempeñada por personal del Cuerpo de Gestión Procesal y Administrativa».",
-      "dificultad": 2,
+      "explicacion": "En las tareas de la Oficina judicial «lo hará bajo la dependencia funcional del director o directora del servicio para el que desarrolle actividad compatible».",
+      "dificultad": 3,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -364,19 +364,19 @@
     {
       "id": "tpc-019",
       "ley": "lo-6-1985",
-      "articulo": "439 quinquies.3",
-      "enunciado": "El Ministerio de Justicia o las comunidades autónomas pueden establecer agrupaciones de Oficinas de Justicia de municipios limítrofes de un mismo:",
+      "articulo": "439 quater.1.a",
+      "enunciado": "Una de las funciones de las Oficinas de Justicia en los municipios es prestar asistencia a:",
       "opciones": [
-        "Tribunal Superior de Justicia",
-        "Municipio cabecera",
-        "Partido judicial",
-        "Ámbito provincial"
+        "El Presidente del Tribunal Superior de Justicia",
+        "La Junta de Jueces y Juezas",
+        "El juez o la jueza de paz del municipio",
+        "El Fiscal Jefe provincial"
       ],
       "correcta": 2,
-      "explicacion": "Podrán establecer «agrupaciones de Oficinas de Justicia de municipios limítrofes de un mismo partido judicial», determinándose el municipio cabecera de la agrupación.",
-      "dificultad": 2,
+      "explicacion": "Entre los servicios que prestan figura «La asistencia al juez o la jueza de paz del municipio en el ejercicio de las funciones que tenga atribuidas legalmente».",
+      "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -396,7 +396,7 @@
       "explicacion": "En esos municipios «la Oficina judicial podrá prestar los servicios administrativos relacionados con la Administración de Justicia previstos en el artículo 439 quater».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -404,19 +404,19 @@
     {
       "id": "tpc-021",
       "ley": "lo-6-1985",
-      "articulo": "84.2",
-      "enunciado": "Con carácter general, los Tribunales de Instancia están integrados por una Sección Única de:",
+      "articulo": "439.1",
+      "enunciado": "Los servicios de las unidades administrativas de la Administración de Justicia no comprenden:",
       "opciones": [
-        "Civil y de Familia",
-        "Instrucción y de lo Penal",
-        "Civil y de lo Mercantil",
-        "Civil y de Instrucción"
+        "El apoyo a la gestión de los recursos humanos",
+        "La gestión de los medios informáticos",
+        "La prestación de servicios de medios adecuados de solución de controversias",
+        "La realización de funciones de carácter procesal propias del personal de los Cuerpos de la Administración de Justicia"
       ],
       "correcta": 3,
-      "explicacion": "El artículo 84.2 establece que «Los Tribunales de Instancia estarán integrados por una Sección Única, de Civil y de Instrucción».",
-      "dificultad": 1,
+      "explicacion": "Estas unidades se constituyen sin integrarse en la Oficina judicial y «Estos servicios no comprenderán la realización de funciones de carácter procesal que correspondan al personal funcionario de los Cuerpos de la Administración de Justicia».",
+      "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -424,19 +424,19 @@
     {
       "id": "tpc-022",
       "ley": "lo-6-1985",
-      "articulo": "437.3",
-      "enunciado": "En un Tribunal de Instancia, deberá existir al menos un área en el servicio común de tramitación para ordenar los procedimientos de una sección cuando esta tenga:",
+      "articulo": "436.3",
+      "enunciado": "El ámbito competencial de la Oficina judicial también podrá ser comarcal, de modo que pueda servir de apoyo a:",
       "opciones": [
-        "Ocho o más plazas judiciales",
-        "Doce o más plazas judiciales",
-        "Cinco o más plazas judiciales",
-        "Veinte o más plazas judiciales"
+        "Más de una comunidad autónoma",
+        "Más de un Tribunal de Instancia",
+        "Un único Juzgado de Paz",
+        "Todas las Oficinas de Justicia de la provincia"
       ],
       "correcta": 1,
-      "explicacion": "La norma exige que «cuando en un Tribunal de Instancia el número de plazas judiciales de una misma sección sea igual o superior a doce, deberá existir al menos un área para la ordenación de los procedimientos».",
+      "explicacion": "La Oficina judicial puede apoyar a órganos de distintos ámbitos y «Su ámbito competencial también podrá ser comarcal, de tal forma que pueda servir de apoyo a más de un Tribunal de Instancia».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -444,19 +444,19 @@
     {
       "id": "tpc-023",
       "ley": "lo-6-1985",
-      "articulo": "85",
-      "enunciado": "Las Secciones Civiles de los Tribunales de Instancia conocen, en primera instancia, de:",
+      "articulo": "438",
+      "enunciado": "¿Quiénes son competentes para el diseño, creación y organización de los servicios comunes de registro y reparto, de apoyo o de actos de comunicación?",
       "opciones": [
-        "Los concursos de acreedores de cualquier deudor",
-        "Los recursos contra resoluciones de las Audiencias Provinciales",
-        "Los juicios que no vengan atribuidos por la ley a otros órganos judiciales",
-        "Las acciones de propiedad industrial e intelectual"
+        "El Consejo General del Poder Judicial",
+        "Las Salas de Gobierno de los Tribunales Superiores de Justicia",
+        "El Ministerio de Justicia y las comunidades autónomas en sus respectivos territorios",
+        "Los Secretarios de Gobierno"
       ],
       "correcta": 2,
-      "explicacion": "Conocen «En primera instancia, de los juicios que no vengan atribuidos por esta ley a otros órganos judiciales».",
+      "explicacion": "Según el artículo 438, «el Ministerio de Justicia y las comunidades autónomas en sus respectivos territorios serán competentes para el diseño, creación y organización de otros servicios comunes que realicen las funciones de registro y reparto».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -464,19 +464,19 @@
     {
       "id": "tpc-024",
       "ley": "lo-6-1985",
-      "articulo": "87.1",
-      "enunciado": "Con carácter general, la Sección de lo Mercantil tiene su sede en la capital de la provincia y su jurisdicción se extiende a:",
+      "articulo": "437.1",
+      "enunciado": "El servicio común de tramitación es la unidad de la Oficina judicial que realiza todas las funciones requeridas para:",
       "opciones": [
-        "Toda la provincia",
-        "El partido judicial de la capital",
-        "La comunidad autónoma",
-        "Las provincias limítrofes"
+        "La ordenación del procedimiento",
+        "El registro y reparto de asuntos",
+        "La práctica de actos de comunicación",
+        "La ejecución de resoluciones"
       ],
       "correcta": 0,
-      "explicacion": "En el Tribunal de Instancia de la capital de cada provincia «existirá una Sección de lo Mercantil con jurisdicción en toda la provincia y sede en su capital».",
+      "explicacion": "El artículo 437.1 entiende por servicio común de tramitación «aquella unidad de la Oficina judicial que realiza todas las funciones requeridas para la ordenación del procedimiento».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -484,19 +484,19 @@
     {
       "id": "tpc-025",
       "ley": "lo-6-1985",
-      "articulo": "84.2",
-      "enunciado": "¿Cuál de las siguientes NO es una de las Secciones que, además de la Sección Única, pueden integrar un Tribunal de Instancia?",
+      "articulo": "436.8",
+      "enunciado": "Respecto de los procedimientos de que conocen, los jueces pueden requerir a la Oficina judicial la información que consideren necesaria:",
       "opciones": [
-        "De Menores",
-        "De Registro Civil",
-        "De Vigilancia Penitenciaria",
-        "De Violencia contra la Infancia y la Adolescencia"
+        "Solo por medio del Presidente del Tribunal",
+        "En todo momento",
+        "Solo una vez señalado el juicio",
+        "Solo cuando lo autorice el Letrado de la Administración de Justicia"
       ],
       "correcta": 1,
-      "explicacion": "El artículo 84.2 enumera, entre otras, las Secciones «De Menores», «De Vigilancia Penitenciaria» y «De Violencia contra la Infancia y la Adolescencia», pero no una Sección de Registro Civil.",
-      "dificultad": 2,
+      "explicacion": "Los jueces «podrán requerir en todo momento a la Oficina judicial cuanta información consideren necesaria sobre los procedimientos cuyo conocimiento tengan atribuido».",
+      "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -516,7 +516,7 @@
       "explicacion": "El artículo dispone que «el Ministerio de Justicia deberá elaborar y actualizar los códigos de conducta destinados a contribuir a la correcta aplicación de la normativa de protección de datos personales en la Oficina judicial y fiscal».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -536,7 +536,7 @@
       "explicacion": "La Oficina judicial «es la organización de carácter instrumental que sirve de soporte y apoyo a la actividad jurisdiccional de jueces y tribunales».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -547,16 +547,16 @@
       "articulo": "435.4",
       "enunciado": "Los funcionarios que prestan servicio en las oficinas judiciales, salvo los Letrados de la Administración de Justicia, dependen orgánicamente de:",
       "opciones": [
-        "El Consejo General del Poder Judicial",
-        "El Ministerio de Justicia o las comunidades autónomas con competencias asumidas",
-        "El Presidente del Tribunal de Instancia",
-        "El director del servicio común"
+        "El Consejo General del Poder Judicial en todo caso",
+        "El Ministerio de Justicia o las comunidades autónomas competentes",
+        "El Presidente del Tribunal de Instancia donde sirvan",
+        "El director del servicio común correspondiente"
       ],
       "correcta": 1,
       "explicacion": "Los funcionarios «dependen orgánicamente del Ministerio de Justicia o de las Comunidades Autónomas con competencias asumidas en sus respectivos ámbitos».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -564,19 +564,19 @@
     {
       "id": "tpc-029",
       "ley": "lo-6-1985",
-      "articulo": "436.6",
-      "enunciado": "La dirección de cada servicio común de la Oficina judicial corresponde a:",
+      "articulo": "436.5",
+      "enunciado": "Los servicios comunes de la Oficina judicial podrán estructurarse en áreas y, si el servicio lo requiere, en:",
       "opciones": [
-        "Un juez o una jueza del órgano al que presta servicio",
-        "Un letrado o una letrada de la Administración de Justicia",
-        "Un funcionario del Cuerpo de Gestión Procesal y Administrativa",
-        "El Secretario de Gobierno"
+        "Secciones",
+        "Equipos",
+        "Negociados",
+        "Unidades procesales de apoyo directo"
       ],
       "correcta": 1,
-      "explicacion": "El artículo establece que «La dirección de cada servicio común corresponderá a un letrado o una letrada de la Administración de Justicia».",
-      "dificultad": 1,
+      "explicacion": "El artículo 436.5 dispone que «Los servicios comunes podrán estructurarse en áreas, a las que se dotará de los correspondientes puestos de trabajo y, si el servicio lo requiere, en equipos».",
+      "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -596,7 +596,7 @@
       "explicacion": "Serán asistidos por un servicio común de tramitación «cada Tribunal Superior de Justicia, cada Audiencia Provincial y cada Tribunal de Instancia, así como el Tribunal Central de Instancia».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -616,7 +616,7 @@
       "explicacion": "Las instrucciones «que el Consejo General del Poder Judicial o la Fiscalía General del Estado dirijan a los jueces y magistrados o a los fiscales, respectivamente, determinando su utilización, serán de obligado cumplimiento».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -636,7 +636,7 @@
       "explicacion": "Esos documentos «gozarán de la validez y eficacia de un documento original siempre que quede garantizada su autenticidad e integridad y el cumplimiento de los requisitos exigidos por las leyes procesales».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -656,7 +656,7 @@
       "explicacion": "El artículo dispone: «Las actuaciones orales y vistas grabadas y documentadas en soporte digital no podrán transcribirse, salvo en los casos expresamente previstos en la ley».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -676,7 +676,7 @@
       "explicacion": "El artículo 230.6 establece que «La definición y validación funcional de los programas y aplicaciones se efectuará por el Comité Técnico Estatal de la Administración de Justicia Electrónica».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -696,7 +696,7 @@
       "explicacion": "Las actuaciones podrán realizarse por videoconferencia «asegurando en todo caso la posibilidad de contradicción de las partes y la salvaguarda del derecho de defensa».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -714,9 +714,9 @@
       ],
       "correcta": 0,
       "explicacion": "Esas personas «se relacionarán obligatoriamente con la Administración de Justicia, cuando así se establezca en las normas procesales, a través de los medios técnicos».",
-      "dificultad": 2,
+      "dificultad": 3,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -736,7 +736,7 @@
       "explicacion": "El artículo dice: «Tendrá fines jurisdiccionales el tratamiento de los datos que se encuentren incorporados a los procesos que tengan por finalidad el ejercicio de la actividad jurisdiccional».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -756,7 +756,7 @@
       "explicacion": "La LOPJ establece que «No será necesario el consentimiento del interesado para que se proceda al tratamiento de los datos personales en el ejercicio de la actividad jurisdiccional».",
       "dificultad": 1,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -776,7 +776,7 @@
       "explicacion": "El artículo señala que «Los tratamientos de datos con fines no jurisdiccionales estarán sometidos a la competencia de la Agencia Española de Protección de Datos».",
       "dificultad": 2,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
@@ -787,7 +787,7 @@
       "articulo": "236 septies.1",
       "enunciado": "Los derechos de acceso, rectificación o supresión sobre datos tratados con fines jurisdiccionales se ejercitan ante:",
       "opciones": [
-        "Los órganos judiciales, fiscalías u Oficina judicial en los que se tramita el procedimiento",
+        "El órgano judicial, fiscalía u Oficina judicial competente",
         "La Agencia Española de Protección de Datos",
         "El Consejo General del Poder Judicial",
         "El Ministerio de Justicia"
@@ -796,7 +796,7 @@
       "explicacion": "La LOPJ dispone: «Estos derechos deberán ejercitarse ante los órganos judiciales, fiscalías u Oficina judicial en los que se tramita el procedimiento».",
       "dificultad": 3,
       "fecha_version_boe": "2026-10-09",
-      "estado": "borrador",
+      "estado": "validada",
       "temas": {
         "tramitacion-procesal": 10
       }
