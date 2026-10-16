@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { deNorma, h1Ley, introLey, palabras } from "./textos";
+import { deNorma, h1Ley, introLey, introLeyOposiciones, palabras } from "./textos";
 
 const largo = {
   nombre:
@@ -49,5 +49,23 @@ describe("introducción de las páginas por ley", () => {
       expect(n).toBeGreaterThanOrEqual(150);
       expect(n).toBeLessThanOrEqual(250);
     }
+  });
+});
+
+describe("introducción de las normas de otras oposiciones", () => {
+  it("nombra las oposiciones y se queda entre 150 y 250 palabras", () => {
+    const parrafos = introLeyOposiciones({
+      nombre: "Ley 58/2003, de 17 de diciembre, General Tributaria",
+      nombreCorto: "LGT",
+      fecha: "2026-10-09",
+      total: 293,
+      enPagina: 10,
+      articulos: [{ articulo: "104" }, { articulo: "150" }],
+      oposiciones: ["Agente de Hacienda"],
+    });
+    expect(parrafos[0]).toContain("Agente de Hacienda");
+    const n = palabras(parrafos);
+    expect(n).toBeGreaterThanOrEqual(150);
+    expect(n).toBeLessThanOrEqual(250);
   });
 });

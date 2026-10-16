@@ -7,7 +7,7 @@ import { Pie } from "@/components/pie";
 import { TestConIntro } from "@/components/test/test-con-intro";
 import { MuestraPreguntas } from "@/components/seo/muestra-preguntas";
 import type { PaginaPublica } from "@/lib/seo/banco";
-import { deNorma, introLey } from "@/lib/seo/textos";
+import { deNorma, introLey, introLeyOposiciones } from "@/lib/seo/textos";
 import { SITIO } from "@/lib/sitio";
 
 export function PaginaLey({
@@ -20,15 +20,26 @@ export function PaginaLey({
   const ley = pagina.ley;
   if (!ley) return null;
 
-  const parrafos = introLey({
-    nombre: ley.nombre,
-    nombreCorto: ley.nombreCorto,
-    fecha: ley.fecha,
-    total: pagina.totalBanco,
-    enPagina: pagina.preguntas.length,
-    articulos: pagina.articulos,
-    temas: pagina.temasRelacionados,
-  });
+  const otras_opos = pagina.oposiciones.length > 0;
+  const parrafos = otras_opos
+    ? introLeyOposiciones({
+        nombre: ley.nombre,
+        nombreCorto: ley.nombreCorto,
+        fecha: ley.fecha,
+        total: pagina.totalBanco,
+        enPagina: pagina.preguntas.length,
+        articulos: pagina.articulos,
+        oposiciones: pagina.oposiciones,
+      })
+    : introLey({
+        nombre: ley.nombre,
+        nombreCorto: ley.nombreCorto,
+        fecha: ley.fecha,
+        total: pagina.totalBanco,
+        enPagina: pagina.preguntas.length,
+        articulos: pagina.articulos,
+        temas: pagina.temasRelacionados,
+      });
 
   const faq = [
     {
@@ -41,7 +52,7 @@ export function PaginaLey({
     },
     {
       q: "¿Estas preguntas son las del examen?",
-      a: "No. Son de práctica, alineadas con el temario de Auxiliar Administrativo. El examen lo pone la Administración. No somos una web oficial.",
+      a: `No. Son de práctica, alineadas con el temario de ${otras_opos ? pagina.oposiciones.join(", ") : "Auxiliar Administrativo"}. El examen lo pone la Administración. No somos una web oficial.`,
     },
     {
       q: "¿Tengo que registrarme?",
@@ -112,7 +123,7 @@ export function PaginaLey({
           <span>{ley.nombreCorto}</span>
         </nav>
 
-        <p className="antetitulo mt-8">Auxiliar Administrativo del Estado</p>
+        <p className="antetitulo mt-8">{otras_opos ? pagina.oposiciones.join(" · ") : "Auxiliar Administrativo del Estado"}</p>
         <h1 className="mt-3 font-display text-[1.85rem] leading-[1.12] font-extrabold tracking-tight md:text-[2.6rem]">
           {pagina.h1}
         </h1>
@@ -165,7 +176,7 @@ export function PaginaLey({
         {otras.length > 0 && (
           <section aria-labelledby="otras" className="mt-12">
             <h2 id="otras" className="text-lg font-bold">
-              Otras leyes del temario
+              {otras_opos ? "Otras normas" : "Otras leyes del temario"}
             </h2>
             <ul className="mt-3 flex flex-wrap gap-2">
               {otras.map((l) => (
@@ -192,7 +203,7 @@ export function PaginaLey({
               {pagina.temasRelacionados.map((t) => (
                 <li key={t.slug}>
                   <Link href={`/test/${t.slug}`} className="enlace inline-flex min-h-11 items-center">
-                    Tema {t.numero}. {t.titulo}
+                    {t.oposicion ? `${t.oposicion} · ` : ""}Tema {t.numero}. {t.titulo}
                   </Link>
                 </li>
               ))}

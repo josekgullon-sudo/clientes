@@ -9,7 +9,22 @@ import { deNorma, h1Ley } from "./textos";
 export type PreguntaPublica = PreguntaTest & { dificultad: 1 | 2 | 3 };
 
 type LeyInfo = { slug: string; nombre: string; nombreCorto: string; fecha: string | null };
-type TemaInfo = { numero: number; bloque: string; titulo: string; slug: string };
+type TemaInfo = { numero: number; bloque: string; titulo: string; slug: string; oposicion?: string };
+
+/** Oposiciones con páginas públicas propias, además del Auxiliar (que conserva sus páginas de siempre). */
+const PREFIJO_OPOSICION: Record<string, string> = {
+  "admin-age": "administrativo",
+  "agente-aeat": "agente-hacienda",
+  "tramitacion-procesal": "tramitacion-procesal",
+};
+
+export type OposicionPublica = {
+  slug: string;
+  nombre: string;
+  corto: string;
+  penalizacion: string;
+  convocatoria: string | null;
+};
 
 export type PaginaPublica = {
   slug: string;
@@ -26,17 +41,35 @@ export type PaginaPublica = {
   leyesRelacionadas: LeyInfo[];
   siguiente: { href: string; texto: string } | null;
   enPreparacion: boolean;
+  /** Página de un tema de una oposición distinta del Auxiliar. */
+  oposicion: OposicionPublica | null;
+  /** Páginas de una norma que no es del Auxiliar: oposiciones donde se pregunta. */
+  oposiciones: string[];
 };
 
 type Fila = Pregunta & { leyInfo: LeyInfo | null; temaInfo: TemaInfo | null };
 
-let cache: {
+const CORTO: Record<string, string> = {
+  "admin-age": "Administrativo",
+  "agente-aeat": "Agente de Hacienda",
+  "tramitacion-procesal": "Tramitación Procesal",
+};
+
+type Datos = {
   leyes: LeyInfo[];
   temas: TemaInfo[];
   filas: Fila[];
   porLey: Map<string, Fila[]>;
   porTema: Map<number, Fila[]>;
-} | null = null;
+  /** Normas que solo se preguntan fuera del Auxiliar. */
+  leyesOtras: LeyInfo[];
+  porLeyOtras: Map<string, Fila[]>;
+  oposicionesOtras: OposicionPublica[];
+  temasOtras: Map<string, TemaInfo[]>;
+  porTemaOtras: Map<string, Fila[]>;
+};
+
+let cache: Datos | null = null;
 
 function cargar() {
   if (cache) return cache;
@@ -61,11 +94,13 @@ function cargar() {
   const leyPorSlug = new Map(leyes.map((l) => [l.slug, l]));
   const temaPorNumero = new Map(temas.map((t) => [t.numero, t]));
   const filas: Fila[] = [];
+  const todas: Pregunta[] = [];
   for (const archivo of readdirSync(join(raiz, "preguntas")).filter((f) => f.endsWith(".json") && f !== "publicas.json")) {
     const parsed = esquemaArchivo.safeParse(JSON.parse(readFileSync(join(raiz, "preguntas", archivo), "utf8")));
     if (!parsed.success) continue;
     for (const p of parsed.data.preguntas) {
       if (p.estado !== "validada" || p.ley === "psicotecnico") continue;
+      todas.push(p);
       const numero = p.temas["aux-age"] ?? null;
       if (numero === null) continue;
       filas.push({
@@ -90,7 +125,51 @@ function cargar() {
     }
   }
   const leyesConBanco = leyes.filter((l) => porLey.has(l.slug));
-  cache = { leyes: leyesConBanco, temas, filas, porLey, porTema };
+
+  // Resto de oposiciones: una página por tema con preguntas y una por cada norma que el Auxiliar no usa.
+  const oposicionesOtras: OposicionPublica[] = [];
+  const temasOtras = new Map<string, TemaInfo[]>();
+  const porTemaOtras = new Map<string, Fila[]>();
+  for (const o of opos) {
+    const prefijo = PREFIJO_OPOSICION[o.slug];
+    if (!prefijo) continue;
+    const lista: TemaInfo[] = [];
+    for (const t of o.temas) {
+      const info: TemaInfo = {
+        numero: t.numero,
+        bloque: t.bloque,
+        titulo: t.titulo,
+        slug: `${prefijo}-${slugTema(t.numero, t.titulo)}`,
+        oposicion: CORTO[o.slug] ?? o.nombre,
+      };
+      const delTema = todas
+        .filter((p) => p.temas[o.slug] === t.numero)
+        .map((p) => ({ ...p, leyInfo: p.ley ? (leyPorSlug.get(p.ley) ?? null) : null, temaInfo: info }));
+      if (delTema.length === 0) continue;
+      lista.push(info);
+      porTemaOtras.set(info.slug, delTema);
+    }
+    if (lista.length === 0) continue;
+    temasOtras.set(o.slug, lista);
+    oposicionesOtras.push({
+      slug: o.slug,
+      nombre: o.nombre,
+      corto: CORTO[o.slug] ?? o.nombre,
+      penalizacion: o.formato_simulacro.penalizacion === 0.25 ? "un cuarto" : "un tercio",
+      convocatoria: o.examen_estimado?.convocatoria ?? null,
+    });
+  }
+  const slugsAux = new Set(leyesConBanco.map((l) => l.slug));
+  const porLeyOtras = new Map<string, Fila[]>();
+  for (const p of todas) {
+    if (!p.ley || slugsAux.has(p.ley)) continue;
+    if (!Object.keys(p.temas).some((k) => PREFIJO_OPOSICION[k])) continue;
+    const lista = porLeyOtras.get(p.ley) ?? [];
+    lista.push({ ...p, leyInfo: leyPorSlug.get(p.ley) ?? null, temaInfo: null });
+    porLeyOtras.set(p.ley, lista);
+  }
+  const leyesOtras = leyes.filter((l) => porLeyOtras.has(l.slug));
+  cache = { leyes: leyesConBanco, temas, filas, porLey, porTema, leyesOtras, porLeyOtras, oposicionesOtras, temasOtras, porTemaOtras };
   return cache;
 }
 
@@ -118,11 +197,22 @@ function articulosDe(filas: Fila[]) {
 }
 
 export function rutasPublicas(): RutaPublica[] {
-  const { leyes, temas } = cargar();
+  const { leyes, temas, leyesOtras, temasOtras } = cargar();
   return [
-    ...leyes.map((l) => ({ slug: l.slug, tipo: "ley" as const })),
-    ...temas.map((t) => ({ slug: t.slug, tipo: "tema" as const, numero: t.numero })),
+    ...leyes.map((l) => ({ slug: l.slug, tipo: "ley" as const, ambito: "aux" as const })),
+    ...temas.map((t) => ({ slug: t.slug, tipo: "tema" as const, numero: t.numero, ambito: "aux" as const })),
+    ...leyesOtras.map((l) => ({ slug: l.slug, tipo: "ley" as const, ambito: "otra" as const })),
+    ...[...temasOtras.values()].flat().map((t) => ({ slug: t.slug, tipo: "tema" as const, numero: t.numero, ambito: "otra" as const })),
   ];
+}
+
+/** Para el índice: oposiciones distintas del Auxiliar con sus temas y las normas que solo ellas usan. */
+export function indiceOtrasOposiciones() {
+  const { oposicionesOtras, temasOtras, leyesOtras, porLeyOtras } = cargar();
+  return {
+    oposiciones: oposicionesOtras.map((o) => ({ ...o, temas: temasOtras.get(o.slug) ?? [] })),
+    leyes: leyesOtras.map((l) => ({ ...l, total: porLeyOtras.get(l.slug)?.length ?? 0 })),
+  };
 }
 
 export function resumenBanco() {
@@ -158,12 +248,14 @@ export function paginaPublica(slug: string, fecha = new Date()): PaginaPublica |
       leyesRelacionadas: [],
       siguiente: datos.leyes[0] ? { href: `/test/${datos.leyes[0].slug}`, texto: datos.leyes[0].nombreCorto } : null,
       enPreparacion: preguntas.length === 0,
+      oposicion: null,
+      oposiciones: [],
     };
   }
 
   const ley = datos.leyes.find((l) => l.slug === slug);
   const tema = datos.temas.find((t) => t.slug === slug);
-  if (!ley && !tema) return null;
+  if (!ley && !tema) return paginaOtra(datos, slug, fecha);
 
   if (ley) {
     const filas = datos.porLey.get(ley.slug) ?? [];
@@ -186,6 +278,8 @@ export function paginaPublica(slug: string, fecha = new Date()): PaginaPublica |
       leyesRelacionadas: [],
       siguiente: sig && sig.slug !== ley.slug ? { href: `/test/${sig.slug}`, texto: `Test ${sig.nombreCorto} gratis` } : null,
       enPreparacion: filas.length === 0,
+      oposicion: null,
+      oposiciones: [],
     };
   }
 
@@ -210,7 +304,74 @@ export function paginaPublica(slug: string, fecha = new Date()): PaginaPublica |
     leyesRelacionadas,
     siguiente: sig ? { href: `/test/${sig.slug}`, texto: `Tema ${sig.numero}` } : null,
     enPreparacion: filas.length === 0,
+    oposicion: null,
+    oposiciones: [],
   };
+}
+
+/** Páginas de las oposiciones distintas del Auxiliar: temas propios y normas que el Auxiliar no usa. */
+function paginaOtra(datos: Datos, slug: string, fecha: Date): PaginaPublica | null {
+  const leyOtra = datos.leyesOtras.find((l) => l.slug === slug);
+  if (leyOtra) {
+    const filas = datos.porLeyOtras.get(leyOtra.slug) ?? [];
+    const preguntas = elegirSemana(filas, leyOtra.slug, fecha).map((f) => aPregunta(f));
+    const nombres = datos.oposicionesOtras
+      .filter((o) => filas.some((f) => f.temas[o.slug] !== undefined))
+      .map((o) => o.corto);
+    const temasRelacionados = [...datos.temasOtras.values()]
+      .flat()
+      .filter((t) => (datos.porTemaOtras.get(t.slug) ?? []).some((f) => f.ley === leyOtra.slug))
+      .slice(0, 8);
+    const indice = datos.leyesOtras.findIndex((l) => l.slug === leyOtra.slug);
+    const sig = datos.leyesOtras[(indice + 1) % datos.leyesOtras.length];
+    return {
+      slug,
+      tipo: "ley",
+      titulo: `Test ${leyOtra.nombreCorto} gratis`,
+      h1: `Test ${leyOtra.nombreCorto} gratis (oposiciones)`,
+      descripcion: `${preguntas.length} preguntas gratis ${deNorma(leyOtra.nombreCorto)} para oposiciones (${nombres.join(", ")}), con explicación y artículo del BOE.`,
+      ley: leyOtra,
+      tema: null,
+      preguntas,
+      totalBanco: filas.length,
+      articulos: articulosDe(filas),
+      temasRelacionados,
+      leyesRelacionadas: [],
+      siguiente: sig && sig.slug !== leyOtra.slug ? { href: `/test/${sig.slug}`, texto: `Test ${sig.nombreCorto} gratis` } : null,
+      enPreparacion: filas.length === 0,
+      oposicion: null,
+      oposiciones: nombres,
+    };
+  }
+
+  for (const o of datos.oposicionesOtras) {
+    const temas = datos.temasOtras.get(o.slug) ?? [];
+    const tema = temas.find((t) => t.slug === slug);
+    if (!tema) continue;
+    const filas = datos.porTemaOtras.get(tema.slug) ?? [];
+    const preguntas = elegirSemana(filas, tema.slug, fecha).map((f) => aPregunta(f));
+    const indice = temas.findIndex((t) => t.numero === tema.numero);
+    const sig = temas[(indice + 1) % temas.length];
+    return {
+      slug,
+      tipo: "tema",
+      titulo: `${o.corto}, tema ${tema.numero}. ${tema.titulo}`,
+      h1: `Test del tema ${tema.numero} de ${o.nombre}: ${tema.titulo}`,
+      descripcion: `Preguntas del tema ${tema.numero} de ${o.nombre} (bloque ${tema.bloque}), con explicación y artículo del BOE.`,
+      ley: null,
+      tema,
+      preguntas,
+      totalBanco: filas.length,
+      articulos: articulosDe(filas),
+      temasRelacionados: [],
+      leyesRelacionadas: datos.leyesOtras.filter((l) => filas.some((f) => f.ley === l.slug)),
+      siguiente: sig && sig.slug !== tema.slug ? { href: `/test/${sig.slug}`, texto: `Tema ${sig.numero}` } : null,
+      enPreparacion: false,
+      oposicion: o,
+      oposiciones: [],
+    };
+  }
+  return null;
 }
 
 function idsDemo(): string[] {
@@ -249,7 +410,7 @@ function barajar<T>(lista: T[], semilla: string): T[] {
  */
 export function preguntasReto(dia: string, cuantas = 60): PreguntaTest[] {
   const vistas = new Map<string, PreguntaTest>();
-  for (const slug of ["demo", ...rutasPublicas().map((r) => r.slug)]) {
+  for (const slug of ["demo", ...rutasPublicas().filter((r) => r.ambito !== "otra").map((r) => r.slug)]) {
     for (const p of paginaPublica(slug, new Date(`${dia}T12:00:00Z`))?.preguntas ?? []) vistas.set(p.id, p);
   }
   // Las de enunciado largo no caben en un reto de 60 segundos.

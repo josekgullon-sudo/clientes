@@ -23,11 +23,11 @@ export default function Inicio() {
     .slice(0, 3);
   const dias = diasHastaExamenEstimado();
   const leyes = rutasPublicas()
-    .filter((r) => r.tipo === "ley")
+    .filter((r) => r.tipo === "ley" && r.ambito === "aux")
     .map((r) => paginaPublica(r.slug))
     .filter((p) => p && p.totalBanco > 0);
   const temas = rutasPublicas()
-    .filter((r) => r.tipo === "tema")
+    .filter((r) => r.tipo === "tema" && r.ambito === "aux")
     .map((r) => paginaPublica(r.slug))
     .filter((p) => p && p.totalBanco > 0);
 

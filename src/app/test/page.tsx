@@ -18,7 +18,7 @@ import {
 import { EnlaceBoton } from "@/components/boton";
 import { Cabecera } from "@/components/cabecera";
 import { Pie } from "@/components/pie";
-import { paginaPublica, rutasPublicas } from "@/lib/seo/banco";
+import { indiceOtrasOposiciones, paginaPublica, rutasPublicas } from "@/lib/seo/banco";
 import { SITIO } from "@/lib/sitio";
 
 const ICONOS: Record<string, LucideIcon> = {
@@ -43,15 +43,16 @@ const ICONOS: Record<string, LucideIcon> = {
 };
 
 export const metadata: Metadata = {
-  title: "Test gratis por ley",
+  title: "Test gratis por ley y por tema",
   description:
-    "Test gratis del Auxiliar Administrativo del Estado, ordenados por ley: Constitución, Ley 39/2015, Ley 40/2015, TREBEP y más. Diez preguntas con el artículo del BOE.",
+    "Test gratis de oposiciones de la Administración: Auxiliar, Administrativo, Agente de Hacienda y Tramitación Procesal. Por ley y por tema, con diez preguntas y el artículo del BOE.",
   alternates: { canonical: `${SITIO.url}/test` },
 };
 
 export default function IndiceTest() {
+  const otras = indiceOtrasOposiciones();
   const leyes = rutasPublicas()
-    .filter((r) => r.tipo === "ley")
+    .filter((r) => r.tipo === "ley" && r.ambito === "aux")
     .map((r) => paginaPublica(r.slug))
     .filter((p) => p && p.totalBanco > 0 && p.ley);
 
@@ -72,13 +73,13 @@ export default function IndiceTest() {
       <Cabecera />
       <main className="mx-auto w-full max-w-3xl flex-1 px-4 pt-8 pb-16">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
-        <p className="antetitulo">Auxiliar Administrativo del Estado</p>
+        <p className="antetitulo">Oposiciones de la Administración</p>
         <h1 className="mt-3 font-display text-[2rem] leading-[1.12] font-extrabold tracking-tight md:text-[2.75rem]">
-          Test gratis por ley
+          Test gratis por ley y por tema
         </h1>
         <p className="mt-4 max-w-xl text-lg leading-relaxed text-pizarra">
-          Elige una norma del temario. Cada página trae hasta diez preguntas, la respuesta explicada y el artículo del BOE.
-          Sin registro.
+          Elige una norma o un tema. Cada página trae hasta diez preguntas, la respuesta explicada y el artículo del BOE.
+          Sin registro. Las leyes de abajo son las del Auxiliar Administrativo del Estado.
         </p>
 
         <ul className="mt-8 flex flex-col gap-3">
@@ -103,6 +104,54 @@ export default function IndiceTest() {
             );
           })}
         </ul>
+
+        {otras.leyes.length > 0 && (
+          <section aria-labelledby="otras-normas" className="mt-12">
+            <h2 id="otras-normas" className="font-display text-2xl font-extrabold">
+              Derecho tributario, procesal y más
+            </h2>
+            <p className="mt-2 text-pizarra">Normas de Agente de Hacienda, Tramitación Procesal y Administrativo.</p>
+            <ul className="mt-4 flex flex-wrap gap-2">
+              {otras.leyes.map((l) => (
+                <li key={l.slug}>
+                  <Link
+                    href={`/test/${l.slug}`}
+                    className="inline-flex min-h-11 items-center gap-1.5 rounded-full border-2 border-filete bg-superficie px-4 font-semibold transition hover:border-pino/50"
+                  >
+                    {l.nombreCorto}
+                    <ArrowRight aria-hidden size={15} className="text-pino" />
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {otras.oposiciones.length > 0 && (
+          <section aria-labelledby="por-oposicion" className="mt-12">
+            <h2 id="por-oposicion" className="font-display text-2xl font-extrabold">
+              Test por tema de otras oposiciones
+            </h2>
+            <div className="mt-4 flex flex-col gap-3">
+              {otras.oposiciones.map((o) => (
+                <details key={o.slug} className="rounded-2xl border-2 border-filete bg-superficie px-4 py-3">
+                  <summary className="min-h-11 cursor-pointer font-bold">
+                    {o.nombre} <span className="cifras text-sm font-semibold text-pizarra">· {o.temas.length} temas</span>
+                  </summary>
+                  <ul className="mt-3 flex flex-col">
+                    {o.temas.map((t) => (
+                      <li key={t.slug}>
+                        <Link href={`/test/${t.slug}`} className="enlace inline-flex min-h-11 items-center">
+                          Tema {t.numero}. {t.titulo}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              ))}
+            </div>
+          </section>
+        )}
 
         <section className="mt-12 rounded-[1.75rem] bg-pino-suave px-5 py-6">
           <h2 className="font-display text-2xl font-extrabold">¿Quieres guardar los fallos?</h2>

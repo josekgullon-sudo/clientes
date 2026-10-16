@@ -76,7 +76,8 @@ export function elegirSemana<T>(items: readonly T[], clave: string, fecha: Date,
   return mezclar(items, `${clave}:${semanaISO(fecha)}`).slice(0, n);
 }
 
-export type RutaPublica = { slug: string; tipo: "ley" | "tema"; numero?: number };
+/** `ambito`: «aux» son las páginas del Auxiliar (reto, portada); «otra», las de las demás oposiciones. */
+export type RutaPublica = { slug: string; tipo: "ley" | "tema"; numero?: number; ambito?: "aux" | "otra" };
 
 export function construirRutas(input: {
   leyes: { slug: string }[];

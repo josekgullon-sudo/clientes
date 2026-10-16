@@ -8,7 +8,7 @@ export async function preguntasPublicas(seleccion: string) {
 
 export async function leyesConTestGratis() {
   return rutasPublicas()
-    .filter((r) => r.tipo === "ley")
+    .filter((r) => r.tipo === "ley" && r.ambito !== "otra")
     .map((r) => paginaPublica(r.slug))
     .filter((p) => p && p.totalBanco > 0)
     .map((p) => ({

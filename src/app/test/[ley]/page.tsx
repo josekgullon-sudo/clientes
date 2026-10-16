@@ -8,7 +8,7 @@ import { Pie } from "@/components/pie";
 import { PaginaLey } from "@/components/seo/pagina-ley";
 import { TestConIntro } from "@/components/test/test-con-intro";
 import { paginaPublica, rutasPublicas } from "@/lib/seo/banco";
-import { parrafosTema } from "@/lib/seo/textos";
+import { parrafosTema, parrafosTemaOposicion } from "@/lib/seo/textos";
 import { SITIO } from "@/lib/sitio";
 
 export const revalidate = 3600;
@@ -33,15 +33,28 @@ export default async function TestLey({ params }: PageProps<"/test/[ley]">) {
   if (!pagina || pagina.tipo === "demo") notFound();
 
   if (pagina.tipo === "ley") {
+    const ambito = pagina.oposiciones.length > 0 ? "otra" : "aux";
     const otras = rutasPublicas()
-      .filter((r) => r.tipo === "ley" && r.slug !== pagina.slug)
+      .filter((r) => r.tipo === "ley" && r.slug !== pagina.slug && r.ambito === ambito)
       .map((r) => paginaPublica(r.slug))
       .filter((p) => p && p.totalBanco > 0 && p.ley)
       .map((p) => ({ slug: p!.slug, nombre: p!.ley!.nombreCorto, total: p!.totalBanco }));
     return <PaginaLey pagina={pagina} otras={otras} />;
   }
 
-  const parrafos = pagina.tema
+  const opo = pagina.oposicion;
+  const parrafos = pagina.tema && opo
+    ? parrafosTemaOposicion({
+        oposicion: opo,
+        numero: pagina.tema.numero,
+        titulo: pagina.tema.titulo,
+        bloque: pagina.tema.bloque,
+        total: pagina.totalBanco,
+        enPagina: pagina.preguntas.length,
+        leyes: pagina.leyesRelacionadas,
+        articulos: pagina.articulos,
+      })
+    : pagina.tema
     ? parrafosTema({
         numero: pagina.tema.numero,
         titulo: pagina.tema.titulo,
@@ -135,7 +148,7 @@ export default async function TestLey({ params }: PageProps<"/test/[ley]">) {
             Test
           </Link>
         </nav>
-        <p className="antetitulo mt-6">Auxiliar Administrativo del Estado</p>
+        <p className="antetitulo mt-6">{opo ? opo.nombre : "Auxiliar Administrativo del Estado"}</p>
         <h1 className="mt-2 font-display text-[2.25rem] leading-[1.1] font-extrabold md:text-[2.75rem]">{pagina.h1}</h1>
         {entradilla && <p className="mt-4 text-lg text-pizarra">{entradilla}</p>}
 
