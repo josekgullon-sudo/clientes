@@ -5,6 +5,7 @@ import { Logo } from "@/components/logo";
 const enlaces = [
   { id: "resumen", href: "/admin", texto: "Resumen" },
   { id: "personas", href: "/admin/usuarios", texto: "Personas" },
+  { id: "embudo", href: "/admin/embudo", texto: "Embudo" },
 ] as const;
 
 export function MarcoAdmin({ activo, children }: { activo: (typeof enlaces)[number]["id"]; children: ReactNode }) {

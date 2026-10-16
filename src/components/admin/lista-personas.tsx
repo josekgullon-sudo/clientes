@@ -46,7 +46,14 @@ export function ListaPersonasVista({ consulta, datos }: { consulta: ConsultaPers
         <button type="submit" className="min-h-12 rounded-xl bg-pino px-5 font-bold text-sobre-pino">
           Buscar
         </button>
+        <a
+          href={hrefPersonas(consulta).replace("/admin/usuarios", "/api/admin/exportar")}
+          className="inline-flex min-h-12 items-center justify-center rounded-xl border-2 border-filete px-4 text-sm font-bold"
+        >
+          Descargar CSV
+        </a>
       </form>
+      <p className="mt-2 text-sm text-pizarra">El archivo lleva correo, plan y actividad. Sin respuestas ni datos de pago.</p>
 
       <div className="mt-4 flex gap-2 overflow-x-auto pb-1">
         {FILTROS.map((f) => (
