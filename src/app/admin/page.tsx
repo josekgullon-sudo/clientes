@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
 import { PanelAdmin } from "@/components/admin/panel";
-import { esAdmin } from "@/lib/admin/acceso";
 import { cargarPanel } from "@/lib/admin/cargar";
 
 export const dynamic = "force-dynamic";
@@ -12,7 +10,6 @@ export const metadata: Metadata = {
 };
 
 export default async function PaginaAdmin() {
-  if (!(await esAdmin())) notFound();
   const datos = await cargarPanel().catch((error: unknown) => {
     console.error("panel admin", error instanceof Error ? error.message : "error");
     return null;

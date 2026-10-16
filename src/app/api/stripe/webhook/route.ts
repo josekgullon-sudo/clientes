@@ -6,7 +6,7 @@ import { supabaseAdmin } from "@/lib/supabase/servidor";
 
 /**
  * Mantiene la tabla `suscripciones` al día con Stripe.
- * Eventos a activar en Stripe: checkout.session.completed y customer.subscription.*.
+ * Eventos a activar en Stripe: checkout.session.completed, invoice.payment_failed y customer.subscription.*.
  */
 export async function POST(request: NextRequest) {
   const firma = request.headers.get("stripe-signature");
