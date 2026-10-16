@@ -2,6 +2,7 @@
 
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
+import { alEntrar, fijarOrigenAlta } from "@/lib/crm/eventos";
 import { supabaseServidor } from "@/lib/supabase/servidor";
 
 export type EstadoEntrar = { enviado?: string; error?: string };
@@ -24,6 +25,7 @@ export async function enviarEnlace(_: EstadoEntrar, datos: FormData): Promise<Es
     return { error: "Revisa el correo: parece que falta algo." };
   }
   const siguiente = rutaSegura(datos.get("siguiente"));
+  await fijarOrigenAlta(datos.get("origen"));
   const supabase = await supabaseServidor();
   const { error } = await supabase.auth.signInWithOtp({
     email,
@@ -55,11 +57,14 @@ export async function verificarCodigo(_: EstadoCodigo, datos: FormData): Promise
   if (error) {
     return { email, error: "Ese código no es válido o ha caducado. Pide otro correo." };
   }
+  await fijarOrigenAlta(datos.get("origen"));
+  await alEntrar();
   redirect(siguiente);
 }
 
 export async function entrarConGoogle(datos: FormData) {
   const siguiente = rutaSegura(datos.get("siguiente"));
+  await fijarOrigenAlta(datos.get("origen"));
   const supabase = await supabaseServidor();
   const { data, error } = await supabase.auth.signInWithOAuth({
     provider: "google",

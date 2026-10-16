@@ -9,7 +9,7 @@ function continuar(request: NextRequest) {
 }
 
 function esRutaAdmin(pathname: string) {
-  return pathname === "/admin" || pathname.startsWith("/admin/");
+  return pathname === "/admin" || pathname.startsWith("/admin/") || pathname.startsWith("/api/admin/");
 }
 
 /** Refresca la sesión de Supabase y protege el área privada (/app). /admin también refresca, sin redirigir. */
@@ -63,5 +63,5 @@ export async function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/app/:path*", "/entrar", "/auth/:path*", "/suscripcion/:path*", "/admin", "/admin/:path*"],
+  matcher: ["/app/:path*", "/entrar", "/auth/:path*", "/suscripcion/:path*", "/admin", "/admin/:path*", "/api/admin/:path*"],
 };

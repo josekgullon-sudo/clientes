@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Receipt, RotateCcw, ShieldCheck } from "lucide-react";
+import { Evento } from "@/components/evento";
 import { Clara } from "@/components/mascota/clara";
+import { tocarAcceso } from "@/lib/crm/eventos";
 import { redirect } from "next/navigation";
 import { Cabecera } from "@/components/cabecera";
 import { Pie } from "@/components/pie";
@@ -28,6 +30,7 @@ export default async function Suscripcion({ searchParams }: PageProps<"/suscripc
   if (!user) redirect("/entrar?registro=1&siguiente=/suscripcion");
   const { data: activa } = await supabase.rpc("tiene_suscripcion_activa");
   if (activa) redirect("/app/cuenta");
+  await tocarAcceso();
   const q = await searchParams;
   const motivo = typeof q.motivo === "string" ? motivos[q.motivo] : undefined;
   const ahorro = Math.round((1 - PRECIOS.anual / (PRECIOS.mensual * 12)) * 100);
@@ -35,6 +38,7 @@ export default async function Suscripcion({ searchParams }: PageProps<"/suscripc
   return (
     <>
       <Cabecera inicio="/app" derecha={<Link href="/app" className="inline-flex min-h-11 items-center rounded-xl px-3 font-semibold hover:bg-papel-hundido">Volver</Link>} />
+      <Evento nombre="vista_precios" tipo="vista_precios" meta={typeof q.motivo === "string" ? { motivo: q.motivo } : undefined} />
       <main className="mx-auto w-full max-w-3xl flex-1 px-4 pt-8 pb-16">
         <div className="text-center">
           <Clara pose="premium" className="mx-auto size-32" />

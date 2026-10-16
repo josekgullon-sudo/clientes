@@ -9,9 +9,9 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import type { ReactNode } from "react";
-import { Logo } from "@/components/logo";
 import type { DatosPanel } from "@/lib/admin/metricas";
 import { eur } from "@/lib/sitio";
+import { MarcoAdmin } from "./marco";
 
 const fechaCorta = new Intl.DateTimeFormat("es-ES", {
   day: "numeric",
@@ -73,13 +73,10 @@ export function PanelAdmin({ datos }: { datos: DatosPanel }) {
   const maxLey = Math.max(1, ...datos.actividad.porLey.map((l) => l.respuestas));
 
   return (
-    <div className="mx-auto w-full max-w-6xl px-4 py-8">
-      <header className="flex items-center justify-between gap-4">
-        <Logo />
-        <p className="antetitulo">Panel</p>
-      </header>
+    <MarcoAdmin activo="resumen">
+      <p className="antetitulo mt-8">Resumen</p>
 
-      <section aria-label="Cifras" className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-4">
+      <section aria-label="Cifras" className="mt-4 grid grid-cols-2 gap-3 md:grid-cols-4">
         <Tarjeta icono={Users} valor={String(kpis.usuarios)} etiqueta="Usuarios" />
         <Tarjeta icono={UserPlus} valor={String(kpis.hoy)} etiqueta="Altas hoy" />
         <Tarjeta icono={UserPlus} valor={String(kpis.siete)} etiqueta="Altas 7 días" />
@@ -96,6 +93,27 @@ export function PanelAdmin({ datos }: { datos: DatosPanel }) {
         />
         <Tarjeta icono={Activity} valor={datos.actividad.disponible ? String(datos.actividad.activos7d) : "—"} etiqueta="Activos 7 días" />
       </section>
+
+      {datos.embudo && datos.embudo.length > 0 && (
+        <section aria-label="Embudo" className="mt-8">
+          <h2 className="text-sm font-bold">Embudo</h2>
+          <div className="mt-3 grid grid-cols-2 gap-3 md:grid-cols-3">
+            {datos.embudo.map((paso) => {
+              const base = datos.embudo?.[0]?.total ?? 0;
+              const pct = base > 0 ? Math.round((paso.total / base) * 100) : 0;
+              return (
+                <article key={paso.id} className="rounded-2xl border-2 border-filete bg-superficie px-4 py-4">
+                  <p className="cifras font-display text-3xl leading-none font-extrabold">{paso.total}</p>
+                  <p className="mt-2 text-sm font-semibold text-pizarra">
+                    {ETIQUETAS_EMBUDO[paso.id] ?? paso.id}
+                    {paso.id !== "registro" && <span className="cifras"> · {pct} %</span>}
+                  </p>
+                </article>
+              );
+            })}
+          </div>
+        </section>
+      )}
 
       <section className="mt-8 grid gap-3 md:grid-cols-2">
         <article className="rounded-2xl border-2 border-filete bg-superficie p-4">
@@ -183,9 +201,18 @@ export function PanelAdmin({ datos }: { datos: DatosPanel }) {
           ))}
         </Tabla>
       </section>
-    </div>
+    </MarcoAdmin>
   );
 }
+
+const ETIQUETAS_EMBUDO: Record<string, string> = {
+  registro: "Registros",
+  test_inicio: "Empezaron un test",
+  limite_gratis: "Llegaron al límite",
+  vista_precios: "Vieron precios",
+  checkout_inicio: "Abrieron el pago",
+  pago_ok: "Pagaron",
+};
 
 function Tabla({ titulo, columnas, children }: { titulo: string; columnas: string[]; children: ReactNode }) {
   return (

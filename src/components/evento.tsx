@@ -11,9 +11,17 @@ export function evento(nombre: string, props?: Record<string, string | number>) 
   plausible?.(nombre, props ? { props } : undefined);
 }
 
-export function Evento({ nombre }: { nombre: string }) {
+/** `tipo` además lo guarda el servidor (embudo). `nombre` sigue yendo a la analítica, si está. */
+export function Evento({ nombre, tipo, meta }: { nombre: string; tipo?: string; meta?: Record<string, string> }) {
+  const extra = meta ? JSON.stringify(meta) : "";
   useEffect(() => {
     evento(nombre);
-  }, [nombre]);
+    if (!tipo) return;
+    fetch("/api/eventos", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ tipo, meta: extra ? JSON.parse(extra) : {} }),
+    }).catch(() => {});
+  }, [nombre, tipo, extra]);
   return null;
 }

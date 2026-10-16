@@ -1,11 +1,12 @@
 import type Stripe from "stripe";
 import { NextResponse, type NextRequest } from "next/server";
+import { registrarEventoAdmin } from "@/lib/crm/eventos";
 import { planDePrecio, stripe } from "@/lib/stripe";
 import { supabaseAdmin } from "@/lib/supabase/servidor";
 
 /**
  * Mantiene la tabla `suscripciones` al día con Stripe.
- * Eventos a activar en Stripe: checkout.session.completed y customer.subscription.*.
+ * Eventos a activar en Stripe: checkout.session.completed, invoice.payment_failed y customer.subscription.*.
  */
 export async function POST(request: NextRequest) {
   const firma = request.headers.get("stripe-signature");
@@ -21,19 +22,47 @@ export async function POST(request: NextRequest) {
     case "checkout.session.completed": {
       const s = evento.data.object;
       if (s.mode === "subscription" && typeof s.subscription === "string") {
-        await guardar(await stripe().subscriptions.retrieve(s.subscription), s.client_reference_id);
+        const sub = await stripe().subscriptions.retrieve(s.subscription);
+        await guardar(sub, s.client_reference_id);
+        const usuario = s.client_reference_id ?? sub.metadata?.usuario_id;
+        if (usuario) await registrarEventoAdmin(usuario, "pago_ok", { plan: planDe(sub) });
       }
+      break;
+    }
+    case "invoice.payment_failed": {
+      const factura = evento.data.object;
+      const usuario = await usuarioDeCliente(typeof factura.customer === "string" ? factura.customer : factura.customer?.id);
+      if (usuario) await registrarEventoAdmin(usuario, "pago_fallido", {});
       break;
     }
     case "customer.subscription.created":
     case "customer.subscription.updated":
     case "customer.subscription.deleted":
     case "customer.subscription.paused":
-    case "customer.subscription.resumed":
-      await guardar(evento.data.object);
+    case "customer.subscription.resumed": {
+      const sub = evento.data.object;
+      await guardar(sub);
+      const usuario = sub.metadata?.usuario_id ?? (await usuarioDeCliente(typeof sub.customer === "string" ? sub.customer : sub.customer.id));
+      const cancela = evento.type === "customer.subscription.deleted" || sub.status === "canceled" || sub.cancel_at_period_end;
+      if (usuario && cancela) await registrarEventoAdmin(usuario, "cancelacion", { plan: planDe(sub) });
       break;
+    }
   }
   return NextResponse.json({ recibido: true });
+}
+
+function planDe(sub: Stripe.Subscription) {
+  return planDePrecio(sub.items.data[0]?.price.id) ?? "";
+}
+
+async function usuarioDeCliente(cliente: string | null | undefined) {
+  if (!cliente) return null;
+  const { data } = await supabaseAdmin()
+    .from("suscripciones")
+    .select("usuario_id")
+    .eq("stripe_customer_id", cliente)
+    .maybeSingle();
+  return data?.usuario_id ?? null;
 }
 
 async function guardar(sub: Stripe.Subscription, usuarioRef?: string | null) {

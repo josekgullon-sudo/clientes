@@ -112,6 +112,8 @@ export async function cargarPanel(ahora = new Date()): Promise<DatosPanel> {
   }
 
   const desde = new Date(`${dias[0]}T00:00:00+02:00`);
+  const embudoRes = await admin.rpc("admin_embudo", { p_desde: null, p_hasta: null, p_origen: null });
+  const embudo = !embudoRes.error && Array.isArray(embudoRes.data) ? (embudoRes.data as { id: string; total: number }[]) : null;
   return {
     ...cuentas,
     suscripciones: cuentas.lista.map((s) => ({
@@ -123,5 +125,6 @@ export async function cargarPanel(ahora = new Date()): Promise<DatosPanel> {
     })),
     stripe: await ingresosStripe(desde),
     actividad,
+    embudo,
   };
 }

@@ -43,6 +43,7 @@ export type DatosPanel = {
     fallos: Fallo[];
     porLey: UsoLey[];
   };
+  embudo: { id: string; total: number }[] | null;
 };
 
 export type Kpis = {
