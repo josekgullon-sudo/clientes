@@ -14,6 +14,8 @@ export const TIPOS_EVENTO = [
   "pago_ok",
   "pago_fallido",
   "cancelacion",
+  "nivel_fin",
+  "nivel_salto",
 ] as const;
 
 export type TipoEvento = (typeof TIPOS_EVENTO)[number];

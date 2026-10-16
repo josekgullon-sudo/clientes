@@ -27,16 +27,13 @@ function Pasos({ paso }: { paso: number }) {
 
 export function OnboardingForm({
   hayPreguntas,
-  primeros,
   inicial,
 }: {
   hayPreguntas: boolean;
-  primeros: Record<string, { numero: number; titulo: string } | null>;
   inicial: string;
 }) {
   const [paso, setPaso] = useState(1);
   const [oposicion, setOposicion] = useState(inicial);
-  const tema = hayPreguntas ? (primeros[oposicion] ?? null) : null;
   const [fecha, setFecha] = useState("");
   const [objetivo, setObjetivo] = useState(10);
   const [sinFecha, setSinFecha] = useState(false);
@@ -195,34 +192,26 @@ export function OnboardingForm({
           <ClaraDice pose="celebra" tamano="size-28">
             <span className="block font-display text-lg font-black">¡Todo listo!</span>
             <span className="font-semibold">
-              {tema
-                ? `Tu objetivo: ${objetivo} preguntas al día. ¿Hacemos las primeras 10 para situarte?`
-                : "Cuando haya preguntas en tu primer tema, tu primer test aparecerá aquí."}
+              {hayPreguntas
+                ? `Tu objetivo: ${objetivo} preguntas al día. Ahora, 10 de varios temas para ver por dónde empezar.`
+                : "Cuando haya preguntas, tu primer test aparecerá aquí."}
             </span>
           </ClaraDice>
-          <h1 className="sr-only">Empieza con un test corto</h1>
-          {tema && (
-            <div className="tarjeta overflow-hidden">
-              <div className="bg-pino-boton px-5 py-4 text-sobre-pino">
-                <p className="text-[0.8125rem] font-bold tracking-wide uppercase opacity-85">Tema {tema.numero}</p>
-                <p className="mt-1 font-display text-xl leading-snug font-extrabold">{tema.titulo}</p>
-              </div>
-              <p className="px-5 py-3 text-sm text-pizarra">10 preguntas · unos 5 minutos · con la explicación de cada una</p>
-            </div>
-          )}
+          <h1 className="sr-only">Test de nivel</h1>
           <input type="hidden" name="objetivo" value={objetivo} />
           <input type="hidden" name="fecha" value={sinFecha ? "" : fecha} />
           <input type="hidden" name="completar" value="1" />
           <input type="hidden" name="oposicion" value={oposicion} />
           <input type="hidden" name="recordatorio" value="1" />
-          {tema && (
+          {hayPreguntas ? (
             <Boton type="submit" name="empezar" value="1">
-              Hacer 10 preguntas
+              Hacer el test de nivel
+            </Boton>
+          ) : (
+            <Boton type="submit" name="empezar" value="0">
+              Ir a mi panel
             </Boton>
           )}
-          <Boton type="submit" name="empezar" value="0" variante={tema ? "texto" : "principal"}>
-            {tema ? "Ahora no, ir a mi panel" : "Ir a mi panel"}
-          </Boton>
         </form>
       )}
     </div>

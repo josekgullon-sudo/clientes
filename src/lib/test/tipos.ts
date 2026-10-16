@@ -7,7 +7,7 @@ export type PreguntaTest = {
   explicacion: string;
   articulo: string;
   ley: string | null; // nombre corto: "Ley 39/2015"
-  tema: { numero: number; titulo: string } | null;
+  tema: { id?: string; numero: number; titulo: string } | null;
 };
 
 /** null = en blanco */

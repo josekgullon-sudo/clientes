@@ -65,16 +65,18 @@ export function filtrarTipos(tipos: TipoEmail[], premium: boolean): TipoEmail[] 
 }
 
 /**
- * Un correo por persona. La racha espera a las 19:00 y reserva el hueco del día.
- * El resumen sale lunes (antes de esa hora) o, si ese día ya hubo otro aviso, martes o miércoles.
+ * Un correo por persona. El cron es diario, a las 16:00 UTC
+ * (17:00 en Madrid en invierno y 18:00 en verano). La racha sale
+ * desde las 17:00; si la hora es anterior, reserva el hueco del día.
+ * El resumen sale de lunes a miércoles cuando no hay racha pendiente.
  */
 export function elegirEnvio(tipos: TipoEmail[], reloj: RelojMadrid): TipoEmail | null {
   const tiene = (t: TipoEmail) => tipos.includes(t);
   if (tiene("bienvenida")) return "bienvenida";
   if (tiene("tope")) return "tope";
   if (tiene("sin_test")) return "sin_test";
-  if (tiene("racha") && reloj.hora < 19) return null;
-  if (tiene("racha") && reloj.hora >= 19 && reloj.hora < 21) return "racha";
+  if (tiene("racha") && reloj.hora < 17) return null;
+  if (tiene("racha") && reloj.hora >= 17 && reloj.hora < 21) return "racha";
   if (tiene("reenganche_7")) return "reenganche_7";
   if (tiene("reenganche_3")) return "reenganche_3";
   if (tiene("resumen") && (reloj.lunes || reloj.martes || reloj.miercoles)) return "resumen";

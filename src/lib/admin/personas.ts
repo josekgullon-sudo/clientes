@@ -189,6 +189,8 @@ const MODOS: Record<string, string> = {
   simulacro: "Simulacro",
   leccion: "Lección",
   salto: "Salto",
+  nivel: "Test de nivel",
+  hoy: "Test de hoy",
 };
 
 export function modoLegible(modo: string): string {
@@ -255,6 +257,8 @@ export const ETIQUETAS_EVENTO: Record<string, string> = {
   pago_fallido: "El pago falló",
   cancelacion: "Canceló",
   email_enviado: "Le escribimos",
+  nivel_fin: "Hizo el test de nivel",
+  nivel_salto: "Saltó el test de nivel",
 };
 
 const META_EVENTO: Record<string, string> = {
