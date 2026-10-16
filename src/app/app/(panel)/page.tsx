@@ -218,7 +218,7 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
               Has usado tus {CUOTA_GRATIS} preguntas gratis. Hazte Premium para seguir ahora, o vuelve mañana.
             </p>
           </div>
-          <EnlaceBoton href="/suscripcion?motivo=cuota" variante="premium" ancho>
+          <EnlaceBoton href="/suscripcion?motivo=cuota" variante="premium" className="shrink-0 max-sm:w-full">
             Seguir con Premium
           </EnlaceBoton>
         </section>
@@ -233,7 +233,7 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
         <span className="font-semibold text-pizarra">· {q.oposicion ? "¡Lista!" : "Cambiar"}</span>
       </Link>
 
-      {hoy && (
+      {hoy && (hoy.hecho || hoy.abierto || suscrito || !cuota || cuota.tema > 0) && (
         <TarjetaTestHoy
           hecho={hoy.hecho}
           racha={rachaVisible}
