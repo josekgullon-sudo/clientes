@@ -243,7 +243,9 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
                 Seguir
               </EnlaceBoton>
             ) : !suscrito && cuota && cuota.tema === 0 ? (
-              <p className="text-sm font-extrabold">Mañana. Hoy ya has usado tus 10 preguntas.</p>
+              <EnlaceBoton href="/suscripcion?motivo=cuota" variante="premium" ancho>
+                Seguir con Premium
+              </EnlaceBoton>
             ) : (
               <form action={crearTest}>
                 <input type="hidden" name="modo" value="hoy" />

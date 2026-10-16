@@ -1,4 +1,4 @@
--- Plan gratis: 2 tests de tema o lección al día (20 preguntas) en vez de 1.
+-- Plan gratis: 2 tests de tema, lección o «de hoy» al día (20 preguntas) en vez de 1.
 
 create or replace function public.crear_intento(
   p_oposicion text,
@@ -18,6 +18,7 @@ declare
   v_parte jsonb;
   v_lote text[];
   v_id uuid;
+  v_abierto uuid;
   v_hoy date := (now() at time zone 'Europe/Madrid')::date;
   v_premium boolean;
   v_hechos int;
@@ -35,6 +36,42 @@ begin
   select * into v_opo from oposiciones where slug = p_oposicion and activa;
   if not found then
     raise exception 'oposicion_desconocida' using errcode = 'P0001';
+  end if;
+
+  if p_modo = 'nivel' then
+    select i.id into v_abierto
+    from intentos i
+    where i.usuario_id = v_uid and i.modo = 'nivel' and not i.es_importado and i.terminado_en is null
+    order by i.creado_en desc
+    limit 1;
+    if v_abierto is not null then
+      return v_abierto;
+    end if;
+    if exists (
+      select 1 from intentos i
+      where i.usuario_id = v_uid and i.modo = 'nivel' and not i.es_importado and i.terminado_en is not null
+    ) then
+      raise exception 'ya_hecho' using errcode = 'P0001';
+    end if;
+  elsif p_modo = 'hoy' then
+    select i.id into v_abierto
+    from intentos i
+    where i.usuario_id = v_uid and i.modo = 'hoy' and not i.es_importado
+      and (i.creado_en at time zone 'Europe/Madrid')::date = v_hoy
+      and i.terminado_en is null
+    order by i.creado_en desc
+    limit 1;
+    if v_abierto is not null then
+      return v_abierto;
+    end if;
+    if exists (
+      select 1 from intentos i
+      where i.usuario_id = v_uid and i.modo = 'hoy' and not i.es_importado
+        and (i.creado_en at time zone 'Europe/Madrid')::date = v_hoy
+        and i.terminado_en is not null
+    ) then
+      raise exception 'ya_hecho' using errcode = 'P0001';
+    end if;
   end if;
 
   if p_modo in ('leccion', 'salto', 'tema') and coalesce(cardinality(p_temas), 0) = 1 then
@@ -67,7 +104,7 @@ begin
       end if;
       p_num := least(coalesce(p_num, 10), 10);
       select count(*) into v_hechos from intentos
-      where usuario_id = v_uid and not es_importado and modo in ('tema', 'leccion')
+      where usuario_id = v_uid and not es_importado and modo in ('tema', 'leccion', 'hoy')
         and (creado_en at time zone 'Europe/Madrid')::date = v_hoy;
       if v_hechos >= 2 then
         raise exception 'cuota_agotada' using errcode = 'P0001';
@@ -78,6 +115,16 @@ begin
       where usuario_id = v_uid and not es_importado and modo in ('falladas', 'repaso')
         and (creado_en at time zone 'Europe/Madrid')::date = v_hoy;
       if v_hechos >= 1 then
+        raise exception 'cuota_agotada' using errcode = 'P0001';
+      end if;
+    elsif p_modo = 'nivel' then
+      p_num := 10;
+    elsif p_modo = 'hoy' then
+      p_num := 10;
+      select count(*) into v_hechos from intentos
+      where usuario_id = v_uid and not es_importado and modo in ('tema', 'leccion', 'hoy')
+        and (creado_en at time zone 'Europe/Madrid')::date = v_hoy;
+      if v_hechos >= 2 then
         raise exception 'cuota_agotada' using errcode = 'P0001';
       end if;
     else
@@ -92,6 +139,9 @@ begin
     p_num := 15;
   end if;
   p_num := least(greatest(coalesce(p_num, 10), 5), 100);
+  if p_modo in ('nivel', 'hoy') then
+    p_num := 10;
+  end if;
 
   if p_modo = 'simulacro' then
     v_penal := coalesce((v_opo.formato_simulacro ->> 'penalizacion')::numeric, 0);
@@ -165,6 +215,23 @@ begin
         limit p_num
       ) s;
     end if;
+  elsif p_modo = 'nivel' then
+    select coalesce(array_agg(id order by turno, azar), '{}') into v_preguntas
+    from (
+      select id, turno, azar
+      from (
+        select p.id,
+               row_number() over (partition by po.tema_id order by random()) as turno,
+               random() as azar
+        from preguntas p
+        join preguntas_oposiciones po on po.pregunta_id = p.id and po.oposicion_id = v_opo.id
+        where p.estado = 'validada'
+      ) s
+      order by turno, azar
+      limit p_num
+    ) t;
+  elsif p_modo = 'hoy' then
+    v_preguntas := public.preguntas_del_dia(v_opo.id, v_hoy);
   else
     select array_agg(id) into v_preguntas from (
       select p.id
@@ -218,7 +285,7 @@ begin
   end if;
 
   select count(*) into v_tema from intentos
-  where usuario_id = v_uid and not es_importado and modo in ('tema', 'leccion')
+  where usuario_id = v_uid and not es_importado and modo in ('tema', 'leccion', 'hoy')
     and (creado_en at time zone 'Europe/Madrid')::date = v_hoy;
   select count(*) into v_repaso from intentos
   where usuario_id = v_uid and not es_importado and modo in ('falladas', 'repaso')
