@@ -727,7 +727,7 @@ p {
 .nodo-pulso::before {
   content: "";
   position: absolute;
-  inset: -9px;
+  inset: -9px -12px -15px;
   border-radius: 9999px;
   border: 4px solid var(--pino-vivo);
   opacity: 0;

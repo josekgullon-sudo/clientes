@@ -72,7 +72,7 @@ function Nodo({
       }}
     >
       {estado === "actual" && (
-        <svg className="pointer-events-none absolute -inset-[9px]" viewBox="0 0 100 100" aria-hidden="true">
+        <svg className="pointer-events-none absolute -inset-x-[12px] -top-[9px] -bottom-[15px]" viewBox="0 0 100 100" aria-hidden="true">
           <circle cx="50" cy="50" r="46" fill="none" stroke="var(--papel-hundido)" strokeWidth="6" />
           <circle
             cx="50"
@@ -200,7 +200,7 @@ export function CaminoJuego({
                         onPulsar={() => setAbierto(estaAbierto ? null : t.tema_id)}
                       />
                     </div>
-                    <span className="mt-3 text-xs font-black text-pizarra">Tema {t.numero}</span>
+                    <span className={`${estado === "actual" ? "mt-5" : "mt-3"} text-xs font-black text-pizarra`}>Tema {t.numero}</span>
 
                     {estaAbierto && (
                       <div
