@@ -3,7 +3,7 @@ import type { PreguntaTest } from "@/lib/test/tipos";
 
 /** Columnas de `preguntas` con su ley y su tema, para usar en `.select()`. */
 export const SELECT_PREGUNTA =
-  "id, enunciado, opciones, correcta, explicacion, articulo, leyes(nombre_corto), preguntas_oposiciones(temas(numero, titulo))";
+  "id, enunciado, opciones, correcta, explicacion, articulo, leyes(nombre_corto), preguntas_oposiciones(temas(id, numero, titulo))";
 
 type FilaPregunta = {
   id: string;
@@ -13,7 +13,7 @@ type FilaPregunta = {
   explicacion: string;
   articulo: string;
   leyes: { nombre_corto: string } | null;
-  preguntas_oposiciones: { temas: { numero: number; titulo: string } | null }[];
+  preguntas_oposiciones: { temas: { id: string; numero: number; titulo: string } | null }[];
 };
 
 export function aPreguntaTest(f: FilaPregunta): PreguntaTest {

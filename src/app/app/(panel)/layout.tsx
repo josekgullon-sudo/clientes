@@ -3,11 +3,17 @@ import { NavApp } from "@/components/app/nav-app";
 import { BarraApp } from "@/components/app/barra-app";
 import { ImportarDemo } from "@/components/importar-demo";
 import { estadisticasUsuario } from "@/lib/datos/estudio";
+import { estadoNivel } from "@/lib/datos/retencion";
 import { usuarioActual } from "@/lib/datos/usuario";
 
 export default async function LayoutPanel({ children }: LayoutProps<"/app">) {
   const [{ suscrito }, estudio] = await Promise.all([usuarioActual(), estadisticasUsuario()]);
   if (estudio && !estudio.onboarding_completado) redirect("/app/onboarding");
+  if (estudio?.onboarding_completado) {
+    const nivel = await estadoNivel();
+    if (nivel?.abierto) redirect(`/app/test/${nivel.abierto}`);
+    if (nivel?.mostrar) redirect("/app/nivel");
+  }
   return (
     <>
       <BarraApp racha={estudio?.racha_actual ?? 0} xp={estudio?.xp_total ?? 0} premium={suscrito} />

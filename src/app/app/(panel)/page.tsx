@@ -5,6 +5,7 @@ import type { ReactNode } from "react";
 import { Boton, EnlaceBoton } from "@/components/boton";
 import { CaminoJuego } from "@/components/estudio/camino-juego";
 import { CofreDiario } from "@/components/estudio/cofre";
+import { TarjetaTestHoy } from "@/components/estudio/tarjeta-hoy";
 import { Avatar } from "@/components/ui/avatar";
 import { InstalarApp } from "@/components/app/instalar-app";
 import { Evento } from "@/components/evento";
@@ -16,6 +17,7 @@ import { diasEntre, hoyMadrid } from "@/lib/seo/seleccion";
 import { examenEstimado } from "@/lib/examen";
 import { curiosidadDelDia } from "@/lib/estudio/curiosidades";
 import { CUOTA_GRATIS, datosOposicion } from "@/lib/sitio";
+import { estadoTestHoy } from "@/lib/datos/retencion";
 import {
   cuotaRestante,
   falladasPendientes,
@@ -36,6 +38,8 @@ const nombresModo: Record<string, string> = {
   leccion: "Lección",
   repaso: "Repaso",
   salto: "Test de salto",
+  nivel: "Test de nivel",
+  hoy: "Test de hoy",
 };
 const fechaCorta = new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "short", timeZone: "Europe/Madrid" });
 
@@ -129,7 +133,7 @@ function Modo({
 
 export default async function Panel({ searchParams }: PageProps<"/app">) {
   const q = await searchParams;
-  const [{ suscrito, user }, progreso, racha, intentos, falladas, cuota, estudio, camino, cofre, liga] = await Promise.all([
+  const [{ suscrito, user }, progreso, racha, intentos, falladas, cuota, estudio, camino, cofre, liga, hoy] = await Promise.all([
     usuarioActual(),
     progresoPorTema(),
     rachaActual(),
@@ -140,6 +144,7 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
     caminoTemas(),
     cofreHoy(),
     ligaSemanal(),
+    estadoTestHoy(),
   ]);
   const rachaVisible = estudio?.racha_actual ?? racha;
   const objetivo = estudio?.objetivo_diario ?? 10;
@@ -209,6 +214,30 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
         {opo.nombre}
         <span className="font-semibold text-pizarra">· {q.oposicion ? "¡Lista!" : "Cambiar"}</span>
       </Link>
+
+      {hoy && (
+        <TarjetaTestHoy
+          hecho={hoy.hecho}
+          racha={rachaVisible}
+          accion={
+            hoy.hecho ? null : hoy.abierto ? (
+              <EnlaceBoton href={`/app/test/${hoy.abierto}`} ancho>
+                Seguir
+              </EnlaceBoton>
+            ) : !suscrito && cuota && cuota.tema === 0 ? (
+              <p className="text-sm font-extrabold">Mañana. Hoy ya has usado tus 10 preguntas.</p>
+            ) : (
+              <form action={crearTest}>
+                <input type="hidden" name="modo" value="hoy" />
+                <input type="hidden" name="num" value="10" />
+                <Boton type="submit" ancho>
+                  Hacerlo ahora
+                </Boton>
+              </form>
+            )
+          }
+        />
+      )}
 
       <InstalarApp />
 

@@ -1,15 +1,14 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { EnlaceBoton } from "@/components/boton";
+import { Boton } from "@/components/boton";
 import { Cabecera } from "@/components/cabecera";
-import { Celebracion } from "@/components/estudio/celebracion";
+import { Cierre } from "@/components/test/cierre";
 import { ListaCorreccion } from "@/components/test/lista-correccion";
-import { Resumen } from "@/components/test/resumen";
 import { SesionTest } from "@/components/test/sesion-test";
 import { intentoConPreguntas } from "@/lib/datos/usuario";
 import type { MetaSesion } from "@/lib/estudio/celebracion";
-import { temasAMejorar } from "@/lib/test/tipos";
-import { terminarTest } from "../../acciones";
+import { porcentajesPorTema, recomendarInicio } from "@/lib/test/nivel";
+import { crearTest, siguienteTest, terminarTest } from "../../acciones";
 
 export const metadata: Metadata = { title: "Test" };
 
@@ -39,42 +38,60 @@ export default async function PaginaTest({ params }: PageProps<"/app/test/[id]">
 
   const mapa = new Map(Object.entries(respuestas));
   const meta = intento.meta as MetaSesion | null;
+  const esNivel = intento.modo === "nivel";
+  const porTema = porcentajesPorTema(preguntas, mapa);
+  const flojos = porTema.filter((tema) => tema.aciertos < tema.total).slice(0, 3);
+  const recomendado = esNivel ? recomendarInicio(porTema) : null;
+  const hayFallos = (intento.fallos ?? 0) > 0;
   const titulo =
     intento.modo === "simulacro"
-      ? "¡Simulacro terminado!"
-      : intento.modo === "leccion"
-        ? "¡Lección completada!"
-        : intento.modo === "repaso" || intento.modo === "falladas"
-          ? "¡Repaso hecho!"
-          : "¡Test terminado!";
+      ? "Simulacro terminado"
+      : esNivel
+        ? "Tu nivel"
+        : intento.modo === "hoy"
+          ? "Test de hoy"
+          : "Test terminado";
 
   return (
     <>
       <Cabecera inicio="/app" derecha={null} />
-      <main className="flex-1">
-        <Resumen
-          antes={<Celebracion meta={meta} />}
-          xp={meta?.xp ?? undefined}
+      <main className="flex-1 pb-16">
+        <Cierre
           titulo={titulo}
-          resultado={{
-            total: intento.preguntas.length,
-            aciertos: intento.aciertos ?? 0,
-            fallos: intento.fallos ?? 0,
-            enBlanco: intento.en_blanco ?? 0,
-            nota: Number(intento.puntuacion ?? 0),
-          }}
-          penalizacion={examen ? Number(intento.penalizacion) : 0}
-          temas={temasAMejorar(preguntas, mapa)}
+          aciertos={intento.aciertos ?? 0}
+          total={intento.preguntas.length}
+          xp={meta?.xp ?? 0}
+          racha={meta?.racha ?? 0}
+          temas={esNivel ? porTema : flojos}
+          porTema={esNivel}
           acciones={
             <>
-              <EnlaceBoton href="/app" ancho>
-                Continuar
-              </EnlaceBoton>
-              {(intento.fallos ?? 0) > 0 && (
-                <EnlaceBoton href="#titulo-correccion" variante="secundario" ancho>
-                  Ver mis fallos
-                </EnlaceBoton>
+              {recomendado?.temaId && (
+                <form action={crearTest}>
+                  <input type="hidden" name="modo" value="tema" />
+                  <input type="hidden" name="tema" value={recomendado.temaId} />
+                  <input type="hidden" name="num" value="10" />
+                  <Boton type="submit" ancho>
+                    Empieza por el tema {recomendado.numero}
+                  </Boton>
+                </form>
               )}
+              {hayFallos && (
+                <form action={crearTest}>
+                  <input type="hidden" name="modo" value="repaso" />
+                  <input type="hidden" name="num" value="10" />
+                  <Boton type="submit" variante={recomendado ? "secundario" : "principal"} ancho>
+                    Repasar mis fallos ahora
+                  </Boton>
+                </form>
+              )}
+              <form action={siguienteTest}>
+                <input type="hidden" name="hoy" value={intento.modo === "hoy" ? "0" : "1"} />
+                <input type="hidden" name="tema" value={flojos.find((tema) => tema.temaId)?.temaId ?? ""} />
+                <Boton type="submit" variante={hayFallos || recomendado ? "secundario" : "principal"} ancho>
+                  Siguiente test
+                </Boton>
+              </form>
             </>
           }
         />

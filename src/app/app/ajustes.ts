@@ -3,7 +3,6 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { registrarEvento } from "@/lib/crm/eventos";
-import { slugOposicion } from "@/lib/datos/usuario";
 import { supabaseServidor } from "@/lib/supabase/servidor";
 import { esOposicion } from "@/lib/sitio";
 
@@ -34,25 +33,7 @@ export async function guardarAjustes(datos: FormData) {
   const destino = volver.startsWith("/app") && !volver.startsWith("//") ? volver : "/app";
   if (error) redirect(`${destino}${destino.includes("?") ? "&" : "?"}error=ajustes`);
   if (datos.get("completar") === "1") await registrarEvento("onboarding_fin");
-
-  if (datos.get("empezar") === "1") {
-    // Primer tema con preguntas de la oposición elegida (la acaba de guardar, si venía en el formulario).
-    const { data: temas } = await supabase.rpc("progreso_por_tema", { p_oposicion: null });
-    const tema = ((temas ?? []) as { tema_id: string; total: number }[]).find((t) => t.total > 0)?.tema_id ?? "";
-    if (/^[0-9a-f-]{36}$/.test(tema)) {
-      const { data, error: test } = await supabase.rpc("crear_intento", {
-        p_oposicion: await slugOposicion(),
-        p_modo: "tema",
-        p_temas: [tema],
-        p_num: 10,
-      });
-      if (test?.message.includes("cuota_agotada")) await registrarEvento("limite_gratis", { motivo: "cuota" });
-      if (!test && data) {
-        await registrarEvento("test_inicio", { modo: "tema", intento: String(data) });
-        redirect(`/app/test/${data}`);
-      }
-    }
-  }
+  if (datos.get("empezar") === "1") redirect("/app/nivel");
   if (datos.get("confirmar") === "1") redirect(`${destino}${destino.includes("?") ? "&" : "?"}guardado=1`);
   redirect(destino);
 }
