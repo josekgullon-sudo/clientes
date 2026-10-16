@@ -117,6 +117,7 @@ export async function cargarPanel(ahora = new Date()): Promise<DatosPanel> {
   return {
     ...cuentas,
     suscripciones: cuentas.lista.map((s) => ({
+      id: s.id,
       email: s.email,
       estado: s.estado,
       plan: s.plan,

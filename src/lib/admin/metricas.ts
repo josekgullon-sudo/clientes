@@ -27,8 +27,9 @@ export type UsoLey = { ley: string; respuestas: number; usuarios: number };
 export type DatosPanel = {
   kpis: Kpis;
   altas: Punto[];
-  recientes: { email: string; fecha: string; plan: string }[];
+  recientes: { id: string; email: string; fecha: string; plan: string }[];
   suscripciones: {
+    id: string;
     email: string;
     estado: string;
     plan: string;
@@ -98,8 +99,9 @@ export function resumirCuentas(
 ): {
   kpis: Kpis;
   altas: Punto[];
-  recientes: { email: string; fecha: string; plan: string }[];
+  recientes: { id: string; email: string; fecha: string; plan: string }[];
   lista: {
+    id: string;
     email: string;
     estado: string;
     plan: string;
@@ -139,13 +141,14 @@ export function resumirCuentas(
     .map((u) => {
       const s = premiumDe.get(u.id);
       const plan = s?.plan === "anual" ? "Anual" : s?.plan === "mensual" ? "Mensual" : "Gratis";
-      return { email: u.email ?? "—", fecha: u.creado, plan };
+      return { id: u.id, email: u.email ?? "—", fecha: u.creado, plan };
     });
 
   const lista = [...suscripciones]
     .sort((a, b) => (b.actualizada_en ?? "").localeCompare(a.actualizada_en ?? ""))
     .slice(0, 20)
     .map((s) => ({
+      id: s.usuario_id,
       email: porId.get(s.usuario_id)?.email ?? "—",
       estado: s.estado,
       plan: s.plan === "anual" ? "Anual" : s.plan === "mensual" ? "Mensual" : "—",

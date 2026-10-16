@@ -10,7 +10,7 @@ export const FILTROS = [
 ] as const;
 
 export const ORDENES = [
-  { id: "registro", texto: "Registro" },
+  { id: "registro", texto: "Más recientes" },
   { id: "ultimo_acceso", texto: "Último acceso" },
   { id: "tests", texto: "Tests" },
   { id: "xp", texto: "XP" },
@@ -254,6 +254,7 @@ export const ETIQUETAS_EVENTO: Record<string, string> = {
   pago_ok: "Pagó",
   pago_fallido: "El pago falló",
   cancelacion: "Canceló",
+  email_enviado: "Le escribimos",
 };
 
 const META_EVENTO: Record<string, string> = {
@@ -262,6 +263,17 @@ const META_EVENTO: Record<string, string> = {
   motivo: "Motivo",
   plan: "Plan",
   metodo: "Método",
+  correo: "Correo",
+};
+
+const NOMBRES_CORREO: Record<string, string> = {
+  bienvenida: "bienvenida",
+  racha: "racha",
+  reenganche_3: "reenganche a los 3 días",
+  reenganche_7: "reenganche a los 7 días",
+  sin_test: "sin test",
+  tope: "tope gratis",
+  resumen: "resumen semanal",
 };
 
 export function metaLegible(meta: Record<string, unknown> | null | undefined): string {
@@ -270,7 +282,14 @@ export function metaLegible(meta: Record<string, unknown> | null | undefined): s
     .flatMap(([clave, etiqueta]) => {
       const valor = meta[clave];
       if (typeof valor !== "string" || !valor) return [];
-      const textoValor = clave === "modo" ? modoLegible(valor) : clave === "plan" ? planLegible(valor, null).replace(" · ", "") : valor;
+      const textoValor =
+        clave === "modo"
+          ? modoLegible(valor)
+          : clave === "plan"
+            ? planLegible(valor, null).replace(" · ", "")
+            : clave === "correo"
+              ? (NOMBRES_CORREO[valor] ?? valor)
+              : valor;
       return [`${etiqueta}: ${textoValor}`];
     })
     .join(" · ");

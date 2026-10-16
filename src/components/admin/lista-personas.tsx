@@ -8,14 +8,37 @@ import {
   paginasDe,
   planLegible,
   type ConsultaPersonas,
+  type FilaPersona,
   type ListaPersonas,
 } from "@/lib/admin/personas";
 
-function Marca({ si, texto }: { si: boolean; texto: string }) {
+const columnas = "md:grid-cols-[minmax(12rem,1.6fr)_repeat(5,minmax(0,1fr))]";
+
+function Fila({ f }: { f: FilaPersona }) {
   return (
-    <span className={`inline-flex min-h-7 items-center rounded-full px-2 text-xs font-bold ${si ? "bg-pino-suave text-pino" : "bg-papel-hundido text-pizarra"}`}>
-      {texto}
-    </span>
+    <Link
+      href={`/admin/usuarios/${f.id}`}
+      className={`grid gap-1 rounded-2xl border-2 border-filete bg-superficie p-4 hover:border-pino md:items-center md:rounded-none md:border-0 md:border-t md:border-filete md:px-4 md:py-3 ${columnas}`}
+    >
+      <span className="font-bold break-all">{f.email ?? "Sin correo"}</span>
+      <span>
+        <span className="text-pizarra md:hidden">Registro </span>
+        {fechaLegible(f.registro)}
+      </span>
+      <span>
+        <span className="text-pizarra md:hidden">Último acceso </span>
+        {fechaLegible(f.ultimo_acceso, true)}
+      </span>
+      <span>{planLegible(f.plan, f.estado)}</span>
+      <span>
+        <span className="cifras">{f.tests}</span>
+        <span className="text-pizarra md:hidden"> tests</span>
+      </span>
+      <span>
+        <span className="text-pizarra md:hidden">Racha </span>
+        <span className="cifras">{f.racha}</span>
+      </span>
+    </Link>
   );
 }
 
@@ -53,9 +76,8 @@ export function ListaPersonasVista({ consulta, datos }: { consulta: ConsultaPers
           Descargar CSV
         </a>
       </form>
-      <p className="mt-2 text-sm text-pizarra">El archivo lleva correo, plan y actividad. Sin respuestas ni datos de pago.</p>
 
-      <div className="mt-4 flex gap-2 overflow-x-auto pb-1">
+      <div className="mt-3 flex gap-2 overflow-x-auto pb-1">
         {FILTROS.map((f) => (
           <Link
             key={f.id}
@@ -67,7 +89,7 @@ export function ListaPersonasVista({ consulta, datos }: { consulta: ConsultaPers
         ))}
       </div>
 
-      <form action="/admin/usuarios" className="mt-4 flex items-center gap-2">
+      <form action="/admin/usuarios" className="mt-3 flex items-center gap-2">
         {consulta.busqueda && <input type="hidden" name="q" value={consulta.busqueda} />}
         {consulta.filtro !== "todos" && <input type="hidden" name="filtro" value={consulta.filtro} />}
         <label htmlFor="orden" className="text-sm font-semibold text-pizarra">
@@ -91,82 +113,46 @@ export function ListaPersonasVista({ consulta, datos }: { consulta: ConsultaPers
       </form>
 
       {!datos ? (
-        <p className="mt-8 text-pizarra">No se ha podido leer el listado. Revisa la clave de servicio y la migración del CRM.</p>
-      ) : datos.filas.length === 0 ? (
-        <p className="mt-8 text-pizarra">Nadie encaja en esta lista.</p>
+        <p className="mt-8 text-pizarra">No se ha podido leer el listado. Revisa la clave de servicio.</p>
       ) : (
         <>
           <p className="mt-6 text-sm font-semibold text-pizarra">
-            <span className="cifras">
-              {desde}–{hasta}
-            </span>{" "}
-            de <span className="cifras">{datos.total}</span>
+            {datos.filas.length === 0 ? (
+              "Nadie encaja en esta lista."
+            ) : (
+              <>
+                <span className="cifras">
+                  {desde}–{hasta}
+                </span>{" "}
+                de <span className="cifras">{datos.total}</span>
+              </>
+            )}
           </p>
 
-          <ul className="mt-3 flex flex-col gap-3 md:hidden">
-            {datos.filas.map((f) => (
-              <li key={f.id}>
-                <Link href={`/admin/usuarios/${f.id}`} className="block rounded-2xl border-2 border-filete bg-superficie p-4">
-                  <p className="font-bold">{f.email ?? "Sin correo"}</p>
-                  <p className="mt-1 text-sm text-pizarra">
-                    {planLegible(f.plan, f.estado)} · <span className="cifras">{f.tests}</span> tests · <span className="cifras">{f.xp}</span> XP
-                  </p>
-                  <p className="mt-1 text-sm text-pizarra">Último acceso {fechaLegible(f.ultimo_acceso, true)}</p>
-                  <p className="mt-3 flex flex-wrap gap-1.5">
-                    <Marca si={f.hizo_test} texto="Test" />
-                    <Marca si={f.limite} texto="Límite" />
-                    <Marca si={f.precios || f.checkout} texto="Precios" />
-                    <Marca si={f.pago} texto="Pago" />
-                  </p>
-                </Link>
-              </li>
-            ))}
-          </ul>
-
-          <div className="mt-3 hidden overflow-hidden rounded-2xl border-2 border-filete bg-superficie md:block">
-            <div className="overflow-x-auto">
-              <table className="w-full text-left text-sm">
-                <thead>
-                  <tr className="text-xs font-bold tracking-wide text-pizarra uppercase">
-                    {["Correo", "Registro", "Último acceso", "Tests", "Plan", "Racha", "XP", "Embudo"].map((c) => (
-                      <th key={c} className="px-4 py-3 font-bold">
-                        {c}
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {datos.filas.map((f) => (
-                    <tr key={f.id} className="border-t border-filete">
-                      <td className="px-4 py-3 font-semibold">
-                        <Link href={`/admin/usuarios/${f.id}`} className="enlace">
-                          {f.email ?? "Sin correo"}
-                        </Link>
-                      </td>
-                      <td className="px-4 py-3">{fechaLegible(f.registro)}</td>
-                      <td className="px-4 py-3">{fechaLegible(f.ultimo_acceso, true)}</td>
-                      <td className="cifras px-4 py-3">{f.tests}</td>
-                      <td className="px-4 py-3">{planLegible(f.plan, f.estado)}</td>
-                      <td className="cifras px-4 py-3">{f.racha}</td>
-                      <td className="cifras px-4 py-3">{f.xp}</td>
-                      <td className="px-4 py-3">
-                        <span className="flex flex-wrap gap-1">
-                          <Marca si={f.hizo_test} texto="Test" />
-                          <Marca si={f.limite} texto="Límite" />
-                          <Marca si={f.pago} texto="Pago" />
-                        </span>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+          {datos.filas.length > 0 && (
+            <div className="mt-3 md:overflow-hidden md:rounded-2xl md:border-2 md:border-filete md:bg-superficie">
+              <div className={`hidden px-4 py-3 text-xs font-bold tracking-wide text-pizarra uppercase md:grid ${columnas}`}>
+                <span>Correo</span>
+                <span>Registro</span>
+                <span>Último acceso</span>
+                <span>Plan</span>
+                <span>Tests</span>
+                <span>Racha</span>
+              </div>
+              <ul className="flex flex-col gap-3 md:gap-0">
+                {datos.filas.map((f) => (
+                  <li key={f.id}>
+                    <Fila f={f} />
+                  </li>
+                ))}
+              </ul>
             </div>
-          </div>
+          )}
 
           {paginas > 1 && (
             <nav aria-label="Páginas" className="mt-4 flex items-center justify-between gap-3">
               {consulta.pagina > 1 ? (
-                <Link href={hrefPersonas(consulta, { pagina: consulta.pagina - 1 })} className="min-h-11 inline-flex items-center font-bold">
+                <Link href={hrefPersonas(consulta, { pagina: consulta.pagina - 1 })} className="inline-flex min-h-11 items-center font-bold">
                   Anterior
                 </Link>
               ) : (
@@ -176,7 +162,7 @@ export function ListaPersonasVista({ consulta, datos }: { consulta: ConsultaPers
                 {consulta.pagina} / {paginas}
               </p>
               {consulta.pagina < paginas ? (
-                <Link href={hrefPersonas(consulta, { pagina: consulta.pagina + 1 })} className="min-h-11 inline-flex items-center font-bold">
+                <Link href={hrefPersonas(consulta, { pagina: consulta.pagina + 1 })} className="inline-flex min-h-11 items-center font-bold">
                   Siguiente
                 </Link>
               ) : (

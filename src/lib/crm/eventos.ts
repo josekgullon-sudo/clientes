@@ -100,6 +100,8 @@ export async function alEntrar() {
     if (!perfil) {
       await registrarEvento("registro");
       await guardarOrigenAlta();
+      const { intentarBienvenida } = await import("@/lib/email/enviar");
+      await intentarBienvenida();
     }
     await tocarAcceso();
   } catch (error) {
