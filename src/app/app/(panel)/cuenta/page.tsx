@@ -248,7 +248,7 @@ export default async function Cuenta({ searchParams }: PageProps<"/app/cuenta">)
               <label className="flex min-h-12 cursor-pointer items-center justify-between gap-4">
                 <span>
                   <span className="block font-semibold">Recordatorio por correo</span>
-                  <span className="text-sm text-pizarra">Si un día no estudias, te escribimos una vez.</span>
+                  <span className="text-sm text-pizarra">Como mucho, un aviso al día. En cada correo puedes darte de baja.</span>
                 </span>
                 <input type="checkbox" name="recordatorio" value="1" defaultChecked={estudio.recordatorio_email} className="peer sr-only" />
                 <span

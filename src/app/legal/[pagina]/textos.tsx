@@ -97,12 +97,21 @@ export const TEXTOS: Record<string, TextoLegal> = {
             suscripción. Los datos de la tarjeta los trata Stripe; nosotros no los vemos. Base legal: ejecución del
             contrato y obligaciones fiscales.
           </li>
+          <li>
+            <strong>Correos sobre tu estudio:</strong> la bienvenida, el recordatorio de racha, el aviso si llevas días
+            sin entrar, el de quien se registró y aún no ha hecho un test, el aviso al llegar a las 10 preguntas gratis
+            y el resumen semanal. Sirven para ayudarte a seguir y contarte cómo va la semana. El de Premium no se envía
+            si ya estás suscrito. Como mucho, un correo de estos al día. Base legal: interés legítimo en prestarte el
+            servicio. Puedes apagarlos con el enlace de cada correo, sin entrar, o con la casilla «Recordatorio por
+            correo» de tu cuenta.
+          </li>
         </ul>
         <h2>Cuánto tiempo los guardamos</h2>
         <p>
           Mientras tengas la cuenta. El registro de acciones y el tiempo de uso se borran a los 24 meses, aunque sigas
-          con la cuenta. Si borras la cuenta, eliminamos tu estudio, ese registro, el tiempo de uso y las notas internas
-          de soporte. Los datos de facturación se conservan el tiempo que exige la normativa fiscal y mercantil.
+          con la cuenta. Si borras la cuenta, eliminamos tu estudio, ese registro, el tiempo de uso, las notas internas
+          de soporte y tus preferencias de correo: dejas de recibir avisos. Los datos de facturación se conservan el
+          tiempo que exige la normativa fiscal y mercantil.
         </p>
         <h2>Con quién los compartimos</h2>
         <p>Solo con los proveedores que necesitamos para dar el servicio, con contrato de encargo de tratamiento:</p>
@@ -111,15 +120,15 @@ export const TEXTOS: Record<string, TextoLegal> = {
           <li>Stripe (pagos y facturación).</li>
           <li>Vercel (alojamiento de la web y estadísticas de visitas sin cookies).</li>
           <li>Google (Google Ireland Limited), solo si aceptas las cookies de Google Ads.</li>
-          <li>El proveedor de envío de los correos con tu código de acceso.</li>
+          <li>Resend (envío del código de acceso y de los avisos de estudio).</li>
         </ul>
         <p>
           Algunos de estos proveedores pueden tratar datos fuera del Espacio Económico Europeo. Lo hacen con las garantías
           del RGPD, como las cláusulas contractuales tipo de la Comisión Europea o el Marco de Privacidad de Datos UE-EE. UU.
         </p>
         <p>
-          No vendemos tus datos. No usamos tu correo ni tu estudio para publicidad: lo único relacionado con anuncios son
-          las cookies de Google Ads, y solo si las aceptas.
+          No vendemos tus datos ni los cedemos para que otros te escriban. Los avisos los mandamos nosotros, y puedes
+          apagarlos. Lo único relacionado con anuncios de terceros son las cookies de Google Ads, y solo si las aceptas.
         </p>
         <h2>Tus derechos</h2>
         <p>
