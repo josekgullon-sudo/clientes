@@ -12,6 +12,7 @@ import {
   origenLegible,
   planLegible,
   type FichaPersona,
+  type SesionesFicha,
 } from "@/lib/admin/personas";
 
 function Bloque({ titulo, children }: { titulo: string; children: ReactNode }) {
@@ -23,7 +24,7 @@ function Bloque({ titulo, children }: { titulo: string; children: ReactNode }) {
   );
 }
 
-export function FichaPersonaVista({ ficha }: { ficha: FichaPersona }) {
+export function FichaPersonaVista({ ficha, sesiones }: { ficha: FichaPersona; sesiones: SesionesFicha | null }) {
   const u = ficha.usuario;
   const fechas = new Map(ficha.embudo.map((p) => [p.tipo, p.fecha]));
   if (!fechas.has("registro")) fechas.set("registro", u.registro);
@@ -209,6 +210,31 @@ export function FichaPersonaVista({ ficha }: { ficha: FichaPersona }) {
               );
             })}
           </ol>
+        )}
+      </Bloque>
+
+      <Bloque titulo="Tiempo de uso">
+        {!sesiones ? (
+          <p className="text-sm text-pizarra">No se ha podido leer el tiempo de uso.</p>
+        ) : sesiones.total === 0 ? (
+          <p className="text-sm text-pizarra">Todavía no hay sesiones.</p>
+        ) : (
+          <>
+            <p className="text-sm text-pizarra">
+              <span className="cifras font-bold text-tinta">{duracionLegible(sesiones.segundos)}</span> en{" "}
+              <span className="cifras font-bold text-tinta">{sesiones.total}</span> {sesiones.total === 1 ? "sesión" : "sesiones"}
+            </p>
+            <ul className="mt-3 flex flex-col gap-2">
+              {sesiones.recientes.map((s) => (
+                <li key={s.inicio} className="rounded-2xl border-2 border-filete bg-superficie px-4 py-3 text-sm">
+                  <p className="font-semibold">
+                    {fechaLegible(s.inicio, true)} – {fechaLegible(s.ultimo_latido, true)}
+                  </p>
+                  <p className="mt-1 text-pizarra">{s.segundos > 0 ? duracionLegible(s.segundos) : "Menos de un minuto"}</p>
+                </li>
+              ))}
+            </ul>
+          </>
         )}
       </Bloque>
 

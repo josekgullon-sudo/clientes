@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { FichaPersonaVista } from "@/components/admin/ficha-persona";
-import { cargarFicha } from "@/lib/admin/cargar-personas";
+import { cargarFicha, cargarSesiones } from "@/lib/admin/cargar-personas";
 import { esUuid } from "@/lib/admin/personas";
 
 export const dynamic = "force-dynamic";
@@ -27,5 +27,9 @@ export default async function PaginaPersona({ params }: PageProps<"/admin/usuari
       </main>
     );
   }
-  return <FichaPersonaVista ficha={ficha} />;
+  const sesiones = await cargarSesiones(id).catch((error: unknown) => {
+    console.error("admin sesiones", error instanceof Error ? error.message : "error");
+    return null;
+  });
+  return <FichaPersonaVista ficha={ficha} sesiones={sesiones} />;
 }

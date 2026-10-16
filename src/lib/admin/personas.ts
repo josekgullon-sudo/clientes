@@ -84,6 +84,10 @@ export type EventoFicha = {
   creado_en: string;
 };
 
+export type SesionFicha = { inicio: string; ultimo_latido: string; segundos: number };
+
+export type SesionesFicha = { total: number; segundos: number; recientes: SesionFicha[] };
+
 export type FichaPersona = {
   usuario: {
     id: string;

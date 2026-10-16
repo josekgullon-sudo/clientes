@@ -1,6 +1,6 @@
 import "server-only";
 import { supabaseAdmin } from "@/lib/supabase/servidor";
-import type { ConsultaPersonas, FichaPersona, FilaPersona, ListaPersonas } from "./personas";
+import type { ConsultaPersonas, FichaPersona, FilaPersona, ListaPersonas, SesionesFicha } from "./personas";
 
 export async function cargarPersonas(
   filtro: string,
@@ -31,6 +31,19 @@ export async function cargarFicha(id: string): Promise<FichaPersona | null> {
   if (error) throw new Error(error.message);
   if (!data || typeof data !== "object") return null;
   return data as FichaPersona;
+}
+
+export async function cargarSesiones(id: string): Promise<SesionesFicha | null> {
+  const admin = supabaseAdmin();
+  const { data, error } = await admin.rpc("admin_sesiones", { p_uid: id });
+  if (error) throw new Error(error.message);
+  if (!data || typeof data !== "object") return null;
+  const bruto = data as SesionesFicha;
+  return {
+    total: typeof bruto.total === "number" ? bruto.total : 0,
+    segundos: typeof bruto.segundos === "number" ? bruto.segundos : 0,
+    recientes: Array.isArray(bruto.recientes) ? bruto.recientes : [],
+  };
 }
 
 const TOPE_EXPORTACION = 2000;
