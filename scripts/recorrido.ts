@@ -15,7 +15,9 @@ const BASE = process.env.CAPTURAS_URL ?? "http://localhost:3000";
 const MAILPIT = "http://127.0.0.1:54324";
 const tema = process.argv.includes("dark") ? "dark" : "light";
 // Con «admin» o «agente», el recorrido elige esa oposición en el onboarding.
-const OPOSICION_RECORRIDO = process.argv.includes("agente")
+const OPOSICION_RECORRIDO = process.argv.includes("tramitacion")
+  ? /^Tramitación Procesal/
+  : process.argv.includes("agente")
   ? /^Agente de la Hacienda/
   : process.argv.includes("admin")
     ? /^Administrativo del Estado/

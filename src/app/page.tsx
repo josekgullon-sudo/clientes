@@ -42,11 +42,11 @@ export default function Inicio() {
     },
     {
       q: "¿Qué oposiciones puedo preparar?",
-      a: "Auxiliar Administrativo del Estado (C2), Administrativo del Estado (C1) y Agente de la Hacienda Pública (C1, Agencia Tributaria), con el temario de la última convocatoria. Eliges una al empezar y puedes cambiarla cuando quieras. La suscripción sirve para todas.",
+      a: "Auxiliar Administrativo del Estado (C2), Administrativo del Estado (C1), Agente de la Hacienda Pública (C1, Agencia Tributaria) y Tramitación Procesal (C1, Justicia), con el temario de la última convocatoria. Eliges una al empezar y puedes cambiarla cuando quieras. La suscripción sirve para todas.",
     },
     {
       q: "¿Está todo el temario?",
-      a: "Sí. Todos los temas de las tres oposiciones tienen preguntas, también la ofimática con Windows 11 y Microsoft 365 y el Derecho tributario. Seguimos añadiendo más cada semana.",
+      a: "Sí. Todos los temas de las cuatro oposiciones tienen preguntas, también la ofimática con Windows 11 y Microsoft 365 y el Derecho tributario. Seguimos añadiendo más cada semana.",
     },
     {
       q: "¿La fecha del examen es oficial?",
@@ -90,7 +90,7 @@ export default function Inicio() {
             <div className="aparecer">
               <p className="inline-flex items-center gap-2 rounded-full border border-filete bg-superficie px-3 py-1 text-sm font-semibold text-pizarra shadow-tarjeta">
                 <span className="size-2 rounded-full bg-pino" aria-hidden="true" />
-                Auxiliar, Administrativo y Agente de Hacienda
+                Auxiliar, Administrativo, Hacienda y Justicia
               </p>
               <h1 className="mt-5 font-display text-[2.375rem] leading-[1.08] font-extrabold tracking-tight md:text-[3.75rem]">
                 Test que te explican <span className="subrayado subrayado-titular">cada respuesta</span>.

@@ -4,7 +4,7 @@ export const SITIO = {
   lema: "Test de oposiciones con cada respuesta explicada",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   descripcion:
-    "Test para preparar el Auxiliar, el Administrativo y Agente de Hacienda con la explicación de cada respuesta y el artículo exacto de la ley. 10 preguntas al día gratis.",
+    "Test para preparar el Auxiliar, el Administrativo, Agente de Hacienda y Tramitación Procesal con la explicación de cada respuesta y el artículo exacto de la ley. 10 preguntas al día gratis.",
   avisoNoOficial:
     "No somos una plataforma oficial ni estamos vinculados al INAP ni a ningún organismo público.",
 } as const;
@@ -110,8 +110,8 @@ const TODAS = [
   },
 ] as const;
 
-/** Mientras no estén en producción las preguntas de Tramitación Procesal, no sale en los selectores. */
-const TRAMITACION_LISTA = process.env.NEXT_PUBLIC_TRAMITACION === "1";
+/** Pon `false` si hay que ocultar Tramitación Procesal de los selectores (por ejemplo, antes de subir sus preguntas). */
+const TRAMITACION_LISTA = true;
 
 export const OPOSICIONES = TODAS.filter((o) => o.slug !== "tramitacion-procesal" || TRAMITACION_LISTA);
 
