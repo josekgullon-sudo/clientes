@@ -1,6 +1,7 @@
 "use server";
 
 import { redirect } from "next/navigation";
+import { registrarEvento } from "@/lib/crm/eventos";
 import { slugOposicion } from "@/lib/datos/usuario";
 import { supabaseServidor } from "@/lib/supabase/servidor";
 import { esDemoGuardada } from "@/lib/test/demo-local";
@@ -39,13 +40,17 @@ export async function crearTest(datos: FormData) {
           : modo === "leccion" || modo === "salto"
             ? "nivel"
             : "premium";
-    if (error.message.includes("cuota_agotada")) redirect("/suscripcion?motivo=cuota");
+    if (error.message.includes("cuota_agotada")) {
+      await registrarEvento("limite_gratis", { motivo: "cuota" });
+      redirect("/suscripcion?motivo=cuota");
+    }
     if (error.message.includes("premium_requerido") || error.message.includes("sin_suscripcion")) {
       redirect(`/suscripcion?motivo=${motivo}`);
     }
     const clave = Object.keys(mensajes).find((k) => error.message.includes(k));
     redirect(`/app/nuevo?error=${clave ? mensajes[clave] : "general"}${modo === "falladas" ? "&modo=falladas" : ""}`);
   }
+  await registrarEvento("test_inicio", { modo, intento: String(data) });
   redirect(`/app/test/${data}`);
 }
 
@@ -61,6 +66,7 @@ export async function terminarTest(intentoId: string, respuestas: Respuesta[]) {
     })),
   });
   if (error) return { error: "No hemos podido guardar tus respuestas. Comprueba la conexión y vuelve a pulsar." };
+  await registrarEvento("test_fin", { intento: intentoId });
   redirect(`/app/test/${intentoId}`);
 }
 

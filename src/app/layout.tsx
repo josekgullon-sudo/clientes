@@ -3,6 +3,7 @@ import { Figtree, Nunito, Source_Serif_4 } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { Analitica } from "@/components/analitica";
 import { AvisoCookies } from "@/components/aviso-cookies";
+import { CapturaOrigen } from "@/components/captura-origen";
 import { GoogleAds } from "@/components/google-ads";
 import { SITIO } from "@/lib/sitio";
 import "./globals.css";
@@ -62,6 +63,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </head>
       <body className="flex min-h-full flex-col">
         {children}
+        <CapturaOrigen />
         <GoogleAds />
         <Analitica />
         <AvisoCookies />

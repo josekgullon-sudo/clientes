@@ -2,6 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
+import { registrarEvento } from "@/lib/crm/eventos";
 import { slugOposicion } from "@/lib/datos/usuario";
 import { supabaseServidor } from "@/lib/supabase/servidor";
 import { esOposicion } from "@/lib/sitio";
@@ -32,6 +33,7 @@ export async function guardarAjustes(datos: FormData) {
   const volver = String(datos.get("volver") ?? "");
   const destino = volver.startsWith("/app") && !volver.startsWith("//") ? volver : "/app";
   if (error) redirect(`${destino}${destino.includes("?") ? "&" : "?"}error=ajustes`);
+  if (datos.get("completar") === "1") await registrarEvento("onboarding_fin");
 
   if (datos.get("empezar") === "1") {
     // Primer tema con preguntas de la oposición elegida (la acaba de guardar, si venía en el formulario).
@@ -44,7 +46,11 @@ export async function guardarAjustes(datos: FormData) {
         p_temas: [tema],
         p_num: 10,
       });
-      if (!test && data) redirect(`/app/test/${data}`);
+      if (test?.message.includes("cuota_agotada")) await registrarEvento("limite_gratis", { motivo: "cuota" });
+      if (!test && data) {
+        await registrarEvento("test_inicio", { modo: "tema", intento: String(data) });
+        redirect(`/app/test/${data}`);
+      }
     }
   }
   if (datos.get("confirmar") === "1") redirect(`${destino}${destino.includes("?") ? "&" : "?"}guardado=1`);

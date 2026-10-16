@@ -3,6 +3,7 @@
 import { MailCheck } from "lucide-react";
 import { useActionState } from "react";
 import { Boton } from "@/components/boton";
+import { CampoOrigen } from "@/components/captura-origen";
 import { evento } from "@/components/evento";
 import { enviarEnlace, entrarConGoogle, verificarCodigo, type EstadoCodigo, type EstadoEntrar } from "./acciones";
 
@@ -13,6 +14,7 @@ export function FormularioEntrar({ siguiente, registro }: { siguiente: string; r
     <div className="flex flex-col gap-6">
       <form action={entrarConGoogle}>
         <input type="hidden" name="siguiente" value={siguiente} />
+        <CampoOrigen />
         <Boton type="submit" variante="secundario" ancho onClick={() => evento(registro ? "signup" : "login", { metodo: "google" })}>
           <LogoGoogle /> Continuar con Google
         </Boton>
@@ -27,6 +29,7 @@ export function FormularioEntrar({ siguiente, registro }: { siguiente: string; r
       ) : (
         <form action={accion} className="flex flex-col gap-3" noValidate>
           <input type="hidden" name="siguiente" value={siguiente} />
+          <CampoOrigen />
           <label htmlFor="email" className="font-semibold">Tu correo</label>
           <input
             id="email"
@@ -67,6 +70,7 @@ function Codigo({ siguiente, email }: { siguiente: string; email: string }) {
     <form action={accion} className="flex flex-col gap-3">
       <input type="hidden" name="siguiente" value={siguiente} />
       <input type="hidden" name="email" value={email} />
+      <CampoOrigen />
       <div role="status" className="rounded-2xl bg-pino-suave p-4">
         <p className="flex items-center gap-2 font-bold text-pino">
           <MailCheck aria-hidden size={20} /> Revisa tu correo

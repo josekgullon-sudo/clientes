@@ -1,4 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
+import { registrarEvento } from "@/lib/crm/eventos";
 import { PLANES, origenWeb, stripe, type Plan } from "@/lib/stripe";
 import { supabaseAdmin, supabaseServidor } from "@/lib/supabase/servidor";
 
@@ -60,5 +61,6 @@ export async function POST(request: NextRequest) {
     cancel_url: `${origen}/suscripcion`,
   });
 
+  await registrarEvento("checkout_inicio", { plan });
   return NextResponse.redirect(sesion.url!, 303);
 }
