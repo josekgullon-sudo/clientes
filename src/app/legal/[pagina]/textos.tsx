@@ -81,6 +81,13 @@ export const TEXTOS: Record<string, TextoLegal> = {
             tu progreso y repasar tus fallos. Base legal: ejecución del contrato.
           </li>
           <li>
+            <strong>Tu actividad en la app:</strong> las acciones que haces (por ejemplo, registrarte, hacer un test,
+            ver los precios o abrir el pago), el tiempo de uso y el origen de la visita (fuente, medio, campaña o clic
+            de anuncio, y la página de entrada). Sirven para atenderte, mejorar el estudio y medir el recorrido. No
+            guardamos tu IP, el texto de tus respuestas en ese registro ni los datos de la tarjeta. Base legal: ejecución
+            del contrato e interés legítimo en operar y mejorar el servicio.
+          </li>
+          <li>
             <strong>Publicidad, solo si aceptas:</strong> si aceptas las cookies de Google Ads, Google registra que
             llegaste desde uno de nuestros anuncios y si después te registras o te suscribes, para medir qué anuncios
             funcionan. Base legal: tu consentimiento, que puedes retirar cuando quieras en la política de cookies.
@@ -93,8 +100,9 @@ export const TEXTOS: Record<string, TextoLegal> = {
         </ul>
         <h2>Cuánto tiempo los guardamos</h2>
         <p>
-          Mientras tengas la cuenta. Si la borras, eliminamos tus datos de estudio. Los datos de facturación se conservan
-          el tiempo que exige la normativa fiscal y mercantil.
+          Mientras tengas la cuenta. El registro de acciones y el tiempo de uso se borran a los 24 meses, aunque sigas
+          con la cuenta. Si borras la cuenta, eliminamos tu estudio, ese registro, el tiempo de uso y las notas internas
+          de soporte. Los datos de facturación se conservan el tiempo que exige la normativa fiscal y mercantil.
         </p>
         <h2>Con quién los compartimos</h2>
         <p>Solo con los proveedores que necesitamos para dar el servicio, con contrato de encargo de tratamiento:</p>
@@ -197,6 +205,14 @@ export const TEXTOS: Record<string, TextoLegal> = {
               <td>Recordar si aceptaste o rechazaste las cookies de publicidad</td>
               <td>Hasta que lo borras o cambias tu elección</td>
             </tr>
+            <tr>
+              <td>oc_origen_alta</td>
+              <td>
+                Al crear la cuenta, pasar la campaña del enlace al registro. Si no aceptaste la publicidad, solo guarda
+                esos parámetros del enlace, no la página ni el sitio del que venías
+              </td>
+              <td>7 días</td>
+            </tr>
           </tbody>
         </table>
 
@@ -210,6 +226,14 @@ export const TEXTOS: Record<string, TextoLegal> = {
             </tr>
           </thead>
           <tbody>
+            <tr>
+              <td>oc_origen</td>
+              <td>
+                Recordar la campaña de tu primera visita (fuente, medio, página de entrada). No incluye tu IP. Solo se
+                guarda si aceptas
+              </td>
+              <td>90 días</td>
+            </tr>
             <tr>
               <td>_gcl_au (de Google, en esta web)</td>
               <td>Relacionar tu visita con el anuncio de Google desde el que llegaste</td>
