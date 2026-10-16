@@ -1,5 +1,6 @@
 "use server";
 
+import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { registrarEvento } from "@/lib/crm/eventos";
 import { slugOposicion } from "@/lib/datos/usuario";
@@ -67,6 +68,7 @@ export async function terminarTest(intentoId: string, respuestas: Respuesta[]) {
   });
   if (error) return { error: "No hemos podido guardar tus respuestas. Comprueba la conexión y vuelve a pulsar." };
   await registrarEvento("test_fin", { intento: intentoId });
+  revalidatePath("/app", "layout");
   redirect(`/app/test/${intentoId}`);
 }
 

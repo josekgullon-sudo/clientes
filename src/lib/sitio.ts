@@ -22,7 +22,7 @@ export const eur = new Intl.NumberFormat("es-ES", { style: "currency", currency:
 export const precioMesEquivalente = PRECIOS.anual / 12;
 
 /** Preguntas de la sesión gratuita diaria (camino de temas y repaso de fallos). */
-export const CUOTA_GRATIS = 10;
+export const CUOTA_GRATIS = 20;
 
 /** Oposición por defecto (portada, páginas públicas y cuentas sin elegir). */
 export const OPOSICION = "aux-age";

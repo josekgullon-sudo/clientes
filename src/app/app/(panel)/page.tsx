@@ -159,7 +159,7 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
   const opo = datosOposicion(estudio?.oposicion);
 
   const mensaje = !puedeLeccion
-    ? `Has hecho tus ${CUOTA_GRATIS} preguntas gratis de hoy. ¡Mañana seguimos!`
+    ? `Ya has hecho tus ${CUOTA_GRATIS} preguntas gratis de hoy. Hazte Premium y sigue sin límite.`
     : faltan === 0
       ? "¡Objetivo cumplido! Tu racha está a salvo. Si quieres, sigue un poco más."
       : hechasHoy === 0
@@ -200,6 +200,24 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
         </span>
         <span className="font-semibold">{mensaje}</span>
       </ClaraDice>
+
+      {!puedeLeccion && !suscrito && (
+        <section
+          aria-label="Límite diario"
+          className="flex flex-col gap-4 rounded-[1.25rem] border-2 border-[#a78bfa] bg-morado-suave p-5 sm:flex-row sm:items-center"
+        >
+          <Crown aria-hidden className="shrink-0 text-morado-texto" size={32} />
+          <div className="flex-1">
+            <p className="font-display text-xl font-black text-morado-texto">Ya has hecho el test de hoy</p>
+            <p className="mt-1 font-semibold">
+              Has usado tus {CUOTA_GRATIS} preguntas gratis. Hazte Premium para seguir ahora, o vuelve mañana.
+            </p>
+          </div>
+          <EnlaceBoton href="/suscripcion?motivo=cuota" variante="premium" ancho>
+            Seguir con Premium
+          </EnlaceBoton>
+        </section>
+      )}
 
       <Link
         href="/app/cuenta#oposicion"
@@ -252,15 +270,6 @@ export default async function Panel({ searchParams }: PageProps<"/app">) {
                   Ver todo
                 </Link>
               </div>
-              {!puedeLeccion && !suscrito && (
-                <div className="mb-6 flex items-center gap-3 rounded-2xl border-2 border-[#a78bfa] bg-morado-suave p-4">
-                  <Crown aria-hidden className="shrink-0 text-morado-texto" />
-                  <p className="flex-1 text-sm font-bold">¿Quieres seguir hoy? Con Premium no hay límite.</p>
-                  <EnlaceBoton href="/suscripcion?motivo=cuota" variante="premium" tamano="md">
-                    Ver
-                  </EnlaceBoton>
-                </div>
-              )}
               {bloqueada && !leccion && (
                 <div className="mb-6 flex items-center gap-3 rounded-2xl border-2 border-[#a78bfa] bg-morado-suave p-4">
                   <Crown aria-hidden className="shrink-0 text-morado-texto" />
