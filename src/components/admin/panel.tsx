@@ -8,6 +8,7 @@ import {
   Users,
   type LucideIcon,
 } from "lucide-react";
+import Link from "next/link";
 import type { ReactNode } from "react";
 import type { DatosPanel } from "@/lib/admin/metricas";
 import { eur } from "@/lib/sitio";
@@ -182,8 +183,12 @@ export function PanelAdmin({ datos }: { datos: DatosPanel }) {
       <section className="mt-8 grid gap-3 lg:grid-cols-2">
         <Tabla titulo="Altas recientes" columnas={["Correo", "Fecha", "Plan"]}>
           {datos.recientes.map((r) => (
-            <tr key={`${r.email}-${r.fecha}`} className="border-t border-filete">
-              <Celda>{r.email}</Celda>
+            <tr key={r.id} className="border-t border-filete">
+              <Celda>
+                <Link href={`/admin/usuarios/${r.id}`} className="enlace">
+                  {r.email}
+                </Link>
+              </Celda>
               <Celda>{fechaLarga.format(new Date(r.fecha))}</Celda>
               <Celda>{r.plan}</Celda>
             </tr>
@@ -191,8 +196,12 @@ export function PanelAdmin({ datos }: { datos: DatosPanel }) {
         </Tabla>
         <Tabla titulo="Suscripciones" columnas={["Correo", "Estado", "Plan", "Fin", "Cancela"]}>
           {datos.suscripciones.map((s) => (
-            <tr key={`${s.email}-${s.fin ?? s.estado}`} className="border-t border-filete">
-              <Celda>{s.email}</Celda>
+            <tr key={s.id} className="border-t border-filete">
+              <Celda>
+                <Link href={`/admin/usuarios/${s.id}`} className="enlace">
+                  {s.email}
+                </Link>
+              </Celda>
               <Celda>{s.estado}</Celda>
               <Celda>{s.plan}</Celda>
               <Celda>{s.fin ? fechaLarga.format(new Date(s.fin)) : "—"}</Celda>

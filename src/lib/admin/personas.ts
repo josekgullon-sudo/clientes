@@ -10,7 +10,7 @@ export const FILTROS = [
 ] as const;
 
 export const ORDENES = [
-  { id: "registro", texto: "Registro" },
+  { id: "registro", texto: "Más recientes" },
   { id: "ultimo_acceso", texto: "Último acceso" },
   { id: "tests", texto: "Tests" },
   { id: "xp", texto: "XP" },
