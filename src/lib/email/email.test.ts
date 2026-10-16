@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
-import { elegirEnvio, filtrarTipos, relojMadrid, type RelojMadrid, type TipoEmail } from "./horario";
+import { elegirEnvio, enVentana, filtrarTipos, relojMadrid, type RelojMadrid, type TipoEmail } from "./horario";
 import { LOGO_EMAIL, plantilla } from "./plantillas";
 import { firmarBaja, leerBaja } from "./token";
 
@@ -16,12 +16,32 @@ describe("horario de correos", () => {
   it("usa la hora de Madrid, en verano y en invierno", () => {
     expect(relojMadrid(new Date("2026-07-15T17:00:00Z")).hora).toBe(19);
     expect(relojMadrid(new Date("2026-01-15T18:00:00Z")).hora).toBe(19);
+    expect(relojMadrid(new Date("2026-07-15T16:00:00Z")).hora).toBe(18);
+    expect(relojMadrid(new Date("2026-01-15T16:00:00Z")).hora).toBe(17);
     expect(relojMadrid(new Date("2026-07-13T07:00:00Z")).lunes).toBe(true);
     expect(relojMadrid(new Date("2026-07-13T06:59:00Z")).hora).toBe(8);
   });
 
+  it("la pasada de las 16:00 UTC entra en la ventana y manda un solo aviso", () => {
+    const verano = relojMadrid(new Date("2026-07-15T16:00:00Z"));
+    const invierno = relojMadrid(new Date("2026-01-15T16:00:00Z"));
+    expect(enVentana(verano)).toBe(true);
+    expect(enVentana(invierno)).toBe(true);
+    expect(elegirEnvio(["racha"], verano)).toBe("racha");
+    expect(elegirEnvio(["racha"], invierno)).toBe("racha");
+    expect(elegirEnvio(["racha", "resumen", "reenganche_3"], verano)).toBe("racha");
+    expect(elegirEnvio(["resumen"], { ...verano, lunes: true })).toBe("resumen");
+    expect(elegirEnvio(["reenganche_7"], invierno)).toBe("reenganche_7");
+    expect(elegirEnvio(["bienvenida"], verano)).toBe("bienvenida");
+    expect(elegirEnvio(["tope"], invierno)).toBe("tope");
+    expect(elegirEnvio(["sin_test"], verano)).toBe("sin_test");
+  });
+
   it("reserva el día para la racha y no manda el tope a quien paga", () => {
     expect(elegirEnvio(["racha"], reloj({ hora: 10 }))).toBeNull();
+    expect(elegirEnvio(["racha"], reloj({ hora: 16 }))).toBeNull();
+    expect(elegirEnvio(["racha"], reloj({ hora: 17 }))).toBe("racha");
+    expect(elegirEnvio(["racha"], reloj({ hora: 18 }))).toBe("racha");
     expect(elegirEnvio(["racha"], reloj({ hora: 19 }))).toBe("racha");
     expect(elegirEnvio(["racha"], reloj({ hora: 20 }))).toBe("racha");
     expect(elegirEnvio(["racha"], reloj({ hora: 21 }))).toBeNull();
