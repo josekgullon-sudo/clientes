@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { guardarNota } from "@/app/admin/acciones";
 import { FichaPersonaVista } from "@/components/admin/ficha-persona";
-import { cargarFicha } from "@/lib/admin/cargar-personas";
+import { cargarFicha, cargarNotas, cargarSesiones } from "@/lib/admin/cargar-personas";
 import { esUuid } from "@/lib/admin/personas";
 
 export const dynamic = "force-dynamic";
@@ -27,5 +28,15 @@ export default async function PaginaPersona({ params }: PageProps<"/admin/usuari
       </main>
     );
   }
-  return <FichaPersonaVista ficha={ficha} />;
+  const [sesiones, notas] = await Promise.all([
+    cargarSesiones(id).catch((error: unknown) => {
+      console.error("admin sesiones", error instanceof Error ? error.message : "error");
+      return null;
+    }),
+    cargarNotas(id).catch((error: unknown) => {
+      console.error("admin notas", error instanceof Error ? error.message : "error");
+      return null;
+    }),
+  ]);
+  return <FichaPersonaVista ficha={ficha} sesiones={sesiones} notas={notas} guardarNota={guardarNota.bind(null, id)} />;
 }

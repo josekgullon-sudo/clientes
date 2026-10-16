@@ -12,6 +12,8 @@ import {
   origenLegible,
   planLegible,
   type FichaPersona,
+  type NotaFicha,
+  type SesionesFicha,
 } from "@/lib/admin/personas";
 
 function Bloque({ titulo, children }: { titulo: string; children: ReactNode }) {
@@ -23,7 +25,17 @@ function Bloque({ titulo, children }: { titulo: string; children: ReactNode }) {
   );
 }
 
-export function FichaPersonaVista({ ficha }: { ficha: FichaPersona }) {
+export function FichaPersonaVista({
+  ficha,
+  sesiones,
+  notas,
+  guardarNota,
+}: {
+  ficha: FichaPersona;
+  sesiones: SesionesFicha | null;
+  notas: NotaFicha[] | null;
+  guardarNota?: (form: FormData) => Promise<void>;
+}) {
   const u = ficha.usuario;
   const fechas = new Map(ficha.embudo.map((p) => [p.tipo, p.fecha]));
   if (!fechas.has("registro")) fechas.set("registro", u.registro);
@@ -212,18 +224,68 @@ export function FichaPersonaVista({ ficha }: { ficha: FichaPersona }) {
         )}
       </Bloque>
 
-      <Bloque titulo="Notas">
-        {ficha.notas.length === 0 ? (
-          <p className="text-sm text-pizarra">Sin notas.</p>
+      <Bloque titulo="Tiempo de uso">
+        {!sesiones ? (
+          <p className="text-sm text-pizarra">No se ha podido leer el tiempo de uso.</p>
+        ) : sesiones.total === 0 ? (
+          <p className="text-sm text-pizarra">Todavía no hay sesiones.</p>
         ) : (
-          <ul className="flex flex-col gap-2">
-            {ficha.notas.map((n) => (
-              <li key={n.id} className="rounded-2xl border-2 border-filete bg-superficie px-4 py-3 text-sm">
-                <p>{n.texto}</p>
-                <p className="mt-1 text-pizarra">{fechaLegible(n.creado_en, true)}</p>
-              </li>
-            ))}
-          </ul>
+          <>
+            <p className="text-sm text-pizarra">
+              <span className="cifras font-bold text-tinta">{duracionLegible(sesiones.segundos)}</span> en{" "}
+              <span className="cifras font-bold text-tinta">{sesiones.total}</span> {sesiones.total === 1 ? "sesión" : "sesiones"}
+            </p>
+            <ul className="mt-3 flex flex-col gap-2">
+              {sesiones.recientes.map((s) => (
+                <li key={s.inicio} className="rounded-2xl border-2 border-filete bg-superficie px-4 py-3 text-sm">
+                  <p className="font-semibold">
+                    {fechaLegible(s.inicio, true)} – {fechaLegible(s.ultimo_latido, true)}
+                  </p>
+                  <p className="mt-1 text-pizarra">{s.segundos > 0 ? duracionLegible(s.segundos) : "Menos de un minuto"}</p>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+      </Bloque>
+
+      <Bloque titulo="Notas">
+        {notas === null ? (
+          <p className="text-sm text-pizarra">No se han podido leer las notas.</p>
+        ) : (
+          <>
+            {notas.length === 0 ? (
+              <p className="text-sm text-pizarra">Sin notas.</p>
+            ) : (
+              <ul className="flex flex-col gap-2">
+                {notas.map((n) => (
+                  <li key={n.id} className="rounded-2xl border-2 border-filete bg-superficie px-4 py-3 text-sm">
+                    <p className="whitespace-pre-wrap">{n.texto}</p>
+                    <p className="mt-1 text-pizarra">{fechaLegible(n.creado_en, true)}</p>
+                  </li>
+                ))}
+              </ul>
+            )}
+            {guardarNota && (
+              <form action={guardarNota} className="mt-3 flex flex-col gap-2">
+                <label htmlFor="nota" className="text-sm font-semibold">
+                  Nueva nota
+                </label>
+                <textarea
+                  id="nota"
+                  name="texto"
+                  required
+                  maxLength={2000}
+                  rows={3}
+                  placeholder="Solo la ves tú, en este panel"
+                  className="min-h-24 rounded-xl border-2 border-filete bg-superficie px-3 py-2"
+                />
+                <button type="submit" className="min-h-11 self-start rounded-xl bg-pino px-4 font-bold text-sobre-pino">
+                  Guardar nota
+                </button>
+              </form>
+            )}
+          </>
         )}
       </Bloque>
     </MarcoAdmin>

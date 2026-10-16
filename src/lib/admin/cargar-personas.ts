@@ -1,6 +1,6 @@
 import "server-only";
 import { supabaseAdmin } from "@/lib/supabase/servidor";
-import type { ConsultaPersonas, FichaPersona, FilaPersona, ListaPersonas } from "./personas";
+import type { ConsultaPersonas, FichaPersona, FilaPersona, ListaPersonas, NotaFicha, SesionesFicha } from "./personas";
 
 export async function cargarPersonas(
   filtro: string,
@@ -31,6 +31,31 @@ export async function cargarFicha(id: string): Promise<FichaPersona | null> {
   if (error) throw new Error(error.message);
   if (!data || typeof data !== "object") return null;
   return data as FichaPersona;
+}
+
+export async function cargarNotas(id: string): Promise<NotaFicha[]> {
+  const admin = supabaseAdmin();
+  const { data, error } = await admin
+    .from("notas_admin")
+    .select("id, texto, creado_en")
+    .eq("usuario_id", id)
+    .order("creado_en", { ascending: false })
+    .limit(50);
+  if (error) throw new Error(error.message);
+  return (data ?? []) as NotaFicha[];
+}
+
+export async function cargarSesiones(id: string): Promise<SesionesFicha | null> {
+  const admin = supabaseAdmin();
+  const { data, error } = await admin.rpc("admin_sesiones", { p_uid: id });
+  if (error) throw new Error(error.message);
+  if (!data || typeof data !== "object") return null;
+  const bruto = data as SesionesFicha;
+  return {
+    total: typeof bruto.total === "number" ? bruto.total : 0,
+    segundos: typeof bruto.segundos === "number" ? bruto.segundos : 0,
+    recientes: Array.isArray(bruto.recientes) ? bruto.recientes : [],
+  };
 }
 
 const TOPE_EXPORTACION = 2000;

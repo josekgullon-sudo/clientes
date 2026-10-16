@@ -15,6 +15,8 @@ async function ejecutar() {
   }
 
   const admin = supabaseAdmin();
+  const purga = await admin.rpc("purgar_eventos_antiguos");
+  if (purga.error) console.error("purga eventos", purga.error.message);
   await admin.rpc("mantenimiento_rachas");
   const { data, error } = await admin.rpc("usuarios_recordatorio");
   if (error) {
